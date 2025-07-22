@@ -1,0 +1,160 @@
+name: Update Arduino Libraries
+
+on:
+  schedule:
+    # Run every day at 2 AM EST (7 AM UTC, accounting for EST = UTC-5)
+    - cron: '0 7 * * *'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  update-libraries:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup PowerShell
+        shell: pwsh
+        run: |
+          Write-Host "PowerShell ready for Arduino library updates"
+          
+      - name: Run incremental library update
+        shell: pwsh
+        run: |
+          # Simple approach: check for repos created or updated in last 3 days
+          $threeDaysAgo = (Get-Date).AddDays(-3).ToString("yyyy-MM-dd")
+          Write-Host "Checking for Arduino libraries updated since: $threeDaysAgo"
+          
+          # Load existing libraries
+          if (Test-Path "output/libraries.json") {
+            $existingData = Get-Content "output/libraries.json" | ConvertFrom-Json
+            $existingLibraries = $existingData.libraries
+            $existingRepoNames = $existingLibraries | ForEach-Object { $_.repository_name }
+            Write-Host "Found $($existingLibraries.Count) existing libraries"
+          } else {
+            $existingLibraries = @()
+            $existingRepoNames = @()
+            Write-Host "No existing libraries found, will do full collection"
+          }
+          
+          # Search for recently updated Arduino libraries
+          $page = 1
+          $newLibraries = @()
+          $updatedCount = 0
+          
+          do {
+            $searchUrl = "https://api.github.com/search/repositories?q=arduino+library+pushed:>$threeDaysAgo&sort=updated&order=desc&page=$page&per_page=100"
+            
+            try {
+              $response = Invoke-RestMethod -Uri $searchUrl -Headers @{
+                'User-Agent' = 'Arduino-Library-Browser'
+                'Accept' = 'application/vnd.github.v3+json'
+              }
+              
+              Write-Host "Page $page returned $($response.items.Count) repositories"
+              
+              foreach ($repo in $response.items) {
+                $repoName = "$($repo.owner.login)/$($repo.name)"
+                
+                # Check if this is a new library or an update to existing
+                $isNewLibrary = $repoName -notin $existingRepoNames
+                
+                if ($isNewLibrary) {
+                  Write-Host "New library found: $repoName"
+                } else {
+                  Write-Host "Existing library updated: $repoName"
+                }
+                
+                # Download and parse library.properties
+                $propertiesUrl = "https://raw.githubusercontent.com/$repoName/master/library.properties"
+                $altPropertiesUrl = "https://raw.githubusercontent.com/$repoName/main/library.properties"
+                
+                $properties = $null
+                try {
+                  $propertiesContent = Invoke-RestMethod -Uri $propertiesUrl -ErrorAction Stop
+                  $properties = $propertiesContent
+                } catch {
+                  try {
+                    $propertiesContent = Invoke-RestMethod -Uri $altPropertiesUrl -ErrorAction Stop
+                    $properties = $propertiesContent
+                  } catch {
+                    Write-Host "No library.properties found for $repoName"
+                    continue
+                  }
+                }
+                
+                if ($properties) {
+                  # Parse properties
+                  $libraryInfo = @{
+                    repository_name = $repoName
+                    url = $repo.html_url
+                    last_updated = $repo.updated_at
+                  }
+                  
+                  # Parse each property line
+                  $properties -split "`n" | ForEach-Object {
+                    $line = $_.Trim()
+                    if ($line -and $line.Contains('=')) {
+                      $key, $value = $line -split '=', 2
+                      $libraryInfo[$key.Trim()] = $value.Trim()
+                    }
+                  }
+                  
+                  # Add to new libraries list
+                  $newLibraries += [PSCustomObject]$libraryInfo
+                  $updatedCount++
+                }
+                
+                # Simple rate limiting
+                Start-Sleep -Milliseconds 100
+              }
+              
+              $page++
+            } catch {
+              Write-Host "Error on page $page : $($_.Exception.Message)"
+              break
+            }
+            
+          } while ($response.items.Count -eq 100 -and $page -le 10) # Limit to 10 pages for safety
+          
+          Write-Host "Found $updatedCount new/updated libraries"
+          
+          # Merge with existing libraries
+          if ($existingLibraries.Count -gt 0) {
+            # Remove old versions of updated libraries
+            $keptLibraries = $existingLibraries | Where-Object { 
+              $_.repository_name -notin ($newLibraries | ForEach-Object { $_.repository_name })
+            }
+            $allLibraries = $keptLibraries + $newLibraries
+          } else {
+            $allLibraries = $newLibraries
+          }
+          
+          # Create output structure
+          $outputData = @{
+            last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+            processed_repositories = $allLibraries.Count
+            libraries = $allLibraries
+          }
+          
+          # Save to file
+          $outputData | ConvertTo-Json -Depth 10 | Set-Content "output/libraries.json" -Encoding UTF8
+          
+          Write-Host "Updated libraries.json with $($allLibraries.Count) total libraries"
+          Write-Host "Changes: $updatedCount new/updated libraries"
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/libraries.json
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update libraries $(date '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "Libraries updated and pushed to repository"
+          fi

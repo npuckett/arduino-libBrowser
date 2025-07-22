@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Arduino Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">THE ARDUINO LIBRARY</div>
+            <div class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</div>
+        </div>
+
+        <div class="search-container">
+            <input 
+                type="text" 
+                class="search-box" 
+                placeholder="Search the collection by title, description, author, or subject..."
+                id="searchInput"
+            >
+        </div>
+
+        <div class="random-pick-section">
+            <div class="section-header">
+                Grab Bag Selection
+                <button class="refresh-random" id="refreshRandom">New Selection</button>
+            </div>
+            <div class="random-pick-card" id="randomPick">
+                <div class="loading">Selecting a random library...</div>
+            </div>
+        </div>
+
+        <div class="category-filters" id="categoryFilters">
+            <div class="section-header collapsible" id="categoryHeader">
+                Filter By Subject
+                <span class="collapse-indicator">+</span>
+            </div>
+            <div class="filter-buttons collapsed" id="filterButtons">
+                <button class="filter-btn active" data-category="all">All</button>
+            </div>
+        </div>
+
+        <div class="platform-filters" id="platformFilters">
+            <div class="section-header collapsible" id="platformHeader">
+                Filter by Platform
+                <span class="collapse-indicator">+</span>
+            </div>
+            <div class="filter-buttons collapsed" id="platformButtons">
+                <button class="filter-btn active" data-platform="all">All Platforms</button>
+            </div>
+        </div>
+
+        <div class="stats" id="stats">
+            Loading collection catalog...
+        </div>
+
+        <div class="sort-section">
+            <div class="section-header">Browse the Stacks</div>
+            <div class="sort-buttons">
+                <button class="sort-btn active" data-sort="alphabetical">Alphabetical (A-Z)</button>
+                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
+                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
+                <button class="sort-btn" data-sort="new-releases">New Releases</button>
+                <button class="sort-btn" data-sort="popular-authors">Popular Authors</button>
+                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
+                <button class="sort-btn" data-sort="quick-reads">Quick Reads</button>
+            </div>
+        </div>
+
+        <div class="alphabet-nav" id="alphabetNav">
+            <div class="active-filters" id="activeFilters" style="display: none;">
+                <div class="active-filters-content">
+                    <span id="activeFiltersText"></span>
+                    <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
+                </div>
+            </div>
+            <div class="section-header">Quick Jump</div>
+            <div class="alphabet-buttons" id="alphabetButtons">
+                <!-- Alphabet buttons will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            Loading collection...
+        </div>
+
+        <div class="library-grid" id="libraryGrid" style="display: none;">
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            No items found in the collection matching your search.
+        </div>
+    </div>
+
+    <!-- Library Detail Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" id="modalClose">×</button>
+                <div class="modal-title" id="modalTitle">Library Details</div>
+                <div class="modal-subtitle">Complete catalog entry</div>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let libraries = [];
+        let filteredLibraries = [];
+        let currentCategory = 'all';
+        let currentPlatform = 'all';
+        let currentSearchQuery = '';
+        let currentSort = 'alphabetical';
+        let currentLetterFilter = null; // Track active letter filter
+
+        // Load the library data
+        async function loadLibraries() {
+            try {
+                const response = await fetch('output/libraries.json');
+                const data = await response.json();
+                libraries = data.libraries;
+                filteredLibraries = libraries;
+                
+                populateCategoryFilters();
+                populatePlatformFilters();
+                populateAlphabetNav();
+                setupSortButtons();
+                setupClearLetterFilter();
+                updateStats();
+                displayRandomPick();
+                applyFilters();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('libraryGrid').style.display = 'grid';
+            } catch (error) {
+                document.getElementById('loading').textContent = 'Error loading collection. Make sure libraries.json is accessible.';
+                console.error('Error loading libraries:', error);
+            }
+        }
+
+        // Populate platform filter buttons
+        function populatePlatformFilters() {
+            // Get all unique architectures
+            const allArchs = new Set();
+            libraries.forEach(lib => {
+                const archs = (lib.architectures || '*').split(',').map(a => a.trim());
+                archs.forEach(arch => {
+                    if (arch && arch !== '*') {
+                        allArchs.add(arch);
+                    }
+                });
+            });
+            
+            const platforms = Array.from(allArchs).sort();
+            const platformButtons = document.getElementById('platformButtons');
+            
+            // Keep the "All Platforms" button and add platform buttons
+            const allButton = platformButtons.querySelector('[data-platform="all"]');
+            platformButtons.innerHTML = '';
+            platformButtons.appendChild(allButton);
+            
+            // Add common platforms first
+            const commonPlatforms = ['avr', 'esp32', 'esp8266', 'samd', 'arm', 'arduino'];
+            commonPlatforms.forEach(platform => {
+                if (platforms.includes(platform)) {
+                    const button = document.createElement('button');
+                    button.className = 'filter-btn';
+                    button.setAttribute('data-platform', platform);
+                    button.textContent = platform.toUpperCase();
+                    platformButtons.appendChild(button);
+                }
+            });
+            
+            // Add remaining platforms
+            platforms.forEach(platform => {
+                if (!commonPlatforms.includes(platform)) {
+                    const button = document.createElement('button');
+                    button.className = 'filter-btn';
+                    button.setAttribute('data-platform', platform);
+                    button.textContent = platform.toUpperCase();
+                    platformButtons.appendChild(button);
+                }
+            });
+            
+            // Add event listeners to platform filter buttons
+            platformButtons.addEventListener('click', (e) => {
+                if (e.target.classList.contains('filter-btn')) {
+                    // Update active state
+                    platformButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    // Update current platform and apply filters
+                    currentPlatform = e.target.getAttribute('data-platform');
+                    applyFilters();
+                }
+            });
+        }
+
+        // Populate alphabet navigation
+        function populateAlphabetNav() {
+            const alphabetButtons = document.getElementById('alphabetButtons');
+            const alphabet = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+            
+            // Count libraries starting with each letter
+            const letterCounts = {};
+            alphabet.forEach(letter => letterCounts[letter] = 0);
+            
+            libraries.forEach(lib => {
+                const firstChar = lib.name.charAt(0).toUpperCase();
+                if (firstChar >= 'A' && firstChar <= 'Z') {
+                    letterCounts[firstChar]++;
+                } else {
+                    letterCounts['#']++; // Numbers and special characters
+                }
+            });
+            
+            // Create buttons
+            alphabet.forEach(letter => {
+                const button = document.createElement('button');
+                button.className = letterCounts[letter] > 0 ? 'alphabet-btn' : 'alphabet-btn disabled';
+                button.textContent = letter;
+                button.setAttribute('data-letter', letter);
+                
+                if (letterCounts[letter] > 0) {
+                    button.title = `${letterCounts[letter]} libraries starting with "${letter}"`;
+                    // Add individual click handler to ensure it works
+                    button.onclick = function() {
+                        console.log('Direct onclick handler triggered for letter:', letter);
+                        jumpToLetter(letter);
+                    };
+                } else {
+                    button.title = `No libraries starting with "${letter}"`;
+                }
+                
+                alphabetButtons.appendChild(button);
+            });
+            
+            // Add event listener
+            alphabetButtons.addEventListener('click', (e) => {
+                console.log('Alphabet button clicked:', e.target);
+                console.log('Has alphabet-btn class:', e.target.classList.contains('alphabet-btn'));
+                console.log('Has disabled class:', e.target.classList.contains('disabled'));
+                
+                if (e.target.classList.contains('alphabet-btn') && !e.target.classList.contains('disabled')) {
+                    const letter = e.target.getAttribute('data-letter');
+                    console.log('Calling jumpToLetter with:', letter);
+                    jumpToLetter(letter);
+                }
+            });
+        }
+
+        // Jump to libraries starting with specific letter
+        function jumpToLetter(letter) {
+            console.log('Jumping to letter:', letter);
+            
+            // Set sort to alphabetical if not already
+            if (currentSort !== 'alphabetical' && currentSort !== 'alphabetical-reverse') {
+                currentSort = 'alphabetical';
+                document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+                document.querySelector('[data-sort="alphabetical"]').classList.add('active');
+            }
+            
+            // Set the letter filter
+            currentLetterFilter = letter;
+            
+            // Apply all filters including the new letter filter
+            applyFilters();
+            
+            // Update alphabet button states
+            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
+            const letterButton = document.querySelector(`[data-letter="${letter}"]`);
+            if (letterButton) {
+                letterButton.classList.add('active');
+            }
+            
+            // Briefly highlight the first card to show the change
+            setTimeout(() => {
+                const firstCard = document.querySelector('.library-card');
+                if (firstCard) {
+                    firstCard.style.outline = '3px solid #ff6b35';
+                    setTimeout(() => {
+                        firstCard.style.outline = '';
+                    }, 1000);
+                }
+            }, 50);
+        }
+
+        // Clear letter filter and show all filtered results
+        function clearLetterFilter() {
+            currentLetterFilter = null;
+            
+            // Clear alphabet button states
+            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
+            
+            // Apply filters without letter filter
+            applyFilters();
+        }
+
+        // Update the active filters display
+        function updateActiveFiltersDisplay() {
+            const activeFiltersDiv = document.getElementById('activeFilters');
+            const activeFiltersText = document.getElementById('activeFiltersText');
+            
+            const filters = [];
+            if (currentCategory !== 'all') filters.push(`Subject: ${currentCategory}`);
+            if (currentPlatform !== 'all') filters.push(`Platform: ${currentPlatform.toUpperCase()}`);
+            if (currentSearchQuery.trim()) filters.push(`Search: "${currentSearchQuery}"`);
+            if (currentLetterFilter) {
+                const letterText = currentLetterFilter === '#' ? 'Numbers/Symbols' : `Letter "${currentLetterFilter}"`;
+                filters.push(letterText);
+            }
+            
+            if (filters.length > 0) {
+                activeFiltersText.textContent = `Active filters: ${filters.join(' • ')}`;
+                activeFiltersDiv.style.display = 'block';
+            } else {
+                activeFiltersDiv.style.display = 'none';
+            }
+        }
+
+        function setupSortButtons() {
+            const sortButtons = document.querySelector('.sort-buttons');
+            sortButtons.addEventListener('click', (e) => {
+                if (e.target.classList.contains('sort-btn')) {
+                    // Update active state
+                    sortButtons.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    // Update current sort and apply
+                    currentSort = e.target.getAttribute('data-sort');
+                    applyFilters();
+                }
+            });
+        }
+
+        function setupClearLetterFilter() {
+            document.getElementById('clearLetterFilter').addEventListener('click', clearLetterFilter);
+        }
+
+        // Sort libraries based on current sort method
+        function sortLibraries(libraries) {
+            const sorted = [...libraries];
+            
+            switch (currentSort) {
+                case 'alphabetical':
+                    return sorted.sort((a, b) => a.name.localeCompare(b.name));
+                
+                case 'alphabetical-reverse':
+                    return sorted.sort((a, b) => b.name.localeCompare(a.name));
+                
+                case 'shelf-order':
+                    // Random arrangement like finding misplaced books
+                    // Use a seeded random based on current time to get different results each click
+                    const shuffled = [...sorted];
+                    for (let i = shuffled.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                    }
+                    return shuffled;
+                
+                case 'new-releases':
+                    // Sort by processed_at date (newest first)
+                    return sorted.sort((a, b) => new Date(b.processed_at) - new Date(a.processed_at));
+                
+                case 'popular-authors':
+                    // Group by author and sort by author popularity
+                    const authorCounts = {};
+                    libraries.forEach(lib => {
+                        const author = lib.author || 'Unknown';
+                        authorCounts[author] = (authorCounts[author] || 0) + 1;
+                    });
+                    return sorted.sort((a, b) => {
+                        const countA = authorCounts[a.author || 'Unknown'];
+                        const countB = authorCounts[b.author || 'Unknown'];
+                        if (countB !== countA) return countB - countA;
+                        return a.author.localeCompare(b.author); // Secondary sort by author name
+                    });
+                
+                case 'heavily-relied':
+                    // Sort by number of dependencies (more dependencies = heavily relied upon by others)
+                    return sorted.sort((a, b) => {
+                        const depsA = (a.depends || '').split(',').filter(d => d.trim()).length;
+                        const depsB = (b.depends || '').split(',').filter(d => d.trim()).length;
+                        if (depsB !== depsA) return depsB - depsA;
+                        return a.name.localeCompare(b.name); // Secondary sort
+                    });
+                
+                case 'quick-reads':
+                    // Sort by description length (shortest first)
+                    return sorted.sort((a, b) => {
+                        const descA = (a.sentence || '') + (a.paragraph || '');
+                        const descB = (b.sentence || '') + (b.paragraph || '');
+                        if (descA.length !== descB.length) return descA.length - descB.length;
+                        return a.name.localeCompare(b.name); // Secondary sort
+                    });
+                
+                default:
+                    return sorted;
+            }
+        }
+
+        // Populate category filter buttons
+        function populateCategoryFilters() {
+            const categories = [...new Set(libraries.map(lib => lib.category))].sort();
+            const filterButtons = document.getElementById('filterButtons');
+            
+            // Keep the "All" button and add category buttons
+            const allButton = filterButtons.querySelector('[data-category="all"]');
+            filterButtons.innerHTML = '';
+            filterButtons.appendChild(allButton);
+            
+            categories.forEach(category => {
+                if (category && category !== 'Uncategorized') {
+                    const button = document.createElement('button');
+                    button.className = 'filter-btn';
+                    button.setAttribute('data-category', category);
+                    button.textContent = category;
+                    filterButtons.appendChild(button);
+                }
+            });
+            
+            // Add uncategorized at the end if it exists
+            if (categories.includes('Uncategorized')) {
+                const button = document.createElement('button');
+                button.className = 'filter-btn';
+                button.setAttribute('data-category', 'Uncategorized');
+                button.textContent = 'Uncategorized';
+                filterButtons.appendChild(button);
+            }
+            
+            // Add event listeners to all filter buttons
+            filterButtons.addEventListener('click', (e) => {
+                if (e.target.classList.contains('filter-btn')) {
+                    // Update active state
+                    filterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    // Update current category and apply filters
+                    currentCategory = e.target.getAttribute('data-category');
+                    applyFilters();
+                }
+            });
+        }
+
+        // Apply category, platform, search, and letter filters, then sort
+        function applyFilters() {
+            console.log('applyFilters called');
+            console.log('Libraries array length:', libraries.length);
+            console.log('Current search query:', currentSearchQuery);
+            console.log('Current letter filter:', currentLetterFilter);
+            
+            let filtered = libraries;
+            
+            // Apply category filter
+            if (currentCategory !== 'all') {
+                filtered = filtered.filter(lib => lib.category === currentCategory);
+            }
+            
+            // Apply platform filter
+            if (currentPlatform !== 'all') {
+                filtered = filtered.filter(lib => {
+                    const archs = (lib.architectures || '*').split(',').map(a => a.trim().toLowerCase());
+                    return archs.includes('*') || archs.includes(currentPlatform.toLowerCase());
+                });
+            }
+            
+            // Apply search filter
+            if (currentSearchQuery.trim()) {
+                console.log('Applying search filter for:', currentSearchQuery);
+                const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
+                filtered = filtered.filter(lib => {
+                    const searchableText = [
+                        lib.name,
+                        lib.sentence || '',
+                        lib.paragraph || '',
+                        lib.author,
+                        lib.category
+                    ].join(' ').toLowerCase();
+
+                    return searchTerms.every(term => searchableText.includes(term));
+                });
+                console.log('After search filter, libraries count:', filtered.length);
+            }
+            
+            // Apply letter filter if active
+            if (currentLetterFilter) {
+                filtered = filtered.filter(lib => {
+                    const firstChar = lib.name.charAt(0).toUpperCase();
+                    if (currentLetterFilter === '#') {
+                        return firstChar < 'A' || firstChar > 'Z';
+                    } else {
+                        return firstChar === currentLetterFilter;
+                    }
+                });
+                console.log('After letter filter, libraries count:', filtered.length);
+            }
+            
+            // Apply sorting
+            filtered = sortLibraries(filtered);
+            
+            filteredLibraries = filtered;
+            updateActiveFiltersDisplay();
+            updateStats();
+            displayLibraries(filteredLibraries.slice(0, 120));
+        }
+
+        // Display a random library pick
+        function displayRandomPick() {
+            if (libraries.length === 0) return;
+            
+            const randomLib = libraries[Math.floor(Math.random() * libraries.length)];
+            const randomPickDiv = document.getElementById('randomPick');
+            
+            randomPickDiv.innerHTML = `
+                <div class="random-pick-name">${escapeHtml(randomLib.name)}</div>
+                <div class="random-pick-meta">Version ${escapeHtml(randomLib.version)} • ${escapeHtml(randomLib.author)}</div>
+                <div class="random-pick-description">${escapeHtml(randomLib.sentence || randomLib.paragraph || 'A fascinating library waiting to be discovered.')}</div>
+                <div class="random-pick-details">
+                    <div class="random-pick-category">${escapeHtml(randomLib.category)}</div>
+                    <div style="font-size: 11px; color: #666;">Repository: ${escapeHtml(randomLib.repository_name)}</div>
+                </div>
+            `;
+        }
+
+        // Update statistics display
+        function updateStats() {
+            const stats = document.getElementById('stats');
+            const categoryText = currentCategory === 'all' ? 'all subjects' : `"${currentCategory}"`;
+            const platformText = currentPlatform === 'all' ? 'all platforms' : `${currentPlatform.toUpperCase()}`;
+            const searchText = currentSearchQuery.trim() ? ` matching "${currentSearchQuery}"` : '';
+            const sortText = getSortDisplayName(currentSort);
+            stats.textContent = `Collection: ${filteredLibraries.length} of ${libraries.length} items • ${categoryText} • ${platformText}${searchText} • Sorted by ${sortText}`;
+        }
+
+        // Get display name for sort method
+        function getSortDisplayName(sortMethod) {
+            switch (sortMethod) {
+                case 'alphabetical': return 'Title (A-Z)';
+                case 'alphabetical-reverse': return 'Title (Z-A)';
+                case 'shelf-order': return 'Random Arrangement';
+                case 'new-releases': return 'Latest Additions';
+                case 'popular-authors': return 'Author Popularity';
+                case 'heavily-relied': return 'Dependencies';
+                case 'quick-reads': return 'Description Length';
+                default: return 'Unknown';
+            }
+        }
+
+        // Display libraries in the grid
+        function displayLibraries(librariesToShow) {
+            const grid = document.getElementById('libraryGrid');
+            const noResults = document.getElementById('noResults');
+            
+            if (librariesToShow.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            grid.style.display = 'grid';
+            
+            grid.innerHTML = librariesToShow.map((lib, index) => `
+                <div class="library-card" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                    <div class="library-name">${escapeHtml(lib.name)}</div>
+                    <div class="library-version">v${escapeHtml(lib.version)}</div>
+                    <div class="library-author">${escapeHtml(lib.author)}</div>
+                    <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
+                    <div class="library-category">${escapeHtml(lib.category)}</div>
+                </div>
+            `).join('');
+        }
+
+        // Open library detail modal
+        function openLibraryDetail(repositoryName) {
+            const library = libraries.find(lib => lib.repository_name === repositoryName);
+            if (!library) return;
+            
+            const modal = document.getElementById('modalOverlay');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalBody = document.getElementById('modalBody');
+            
+            modalTitle.textContent = library.name;
+            
+            // Get alphabetical neighbors
+            const sortedLibraries = [...libraries].sort((a, b) => a.name.localeCompare(b.name));
+            const currentIndex = sortedLibraries.findIndex(lib => lib.repository_name === repositoryName);
+            const neighbors = getNeighbors(sortedLibraries, currentIndex);
+            
+            modalBody.innerHTML = `
+                <div class="detail-section">
+                    <div class="detail-label">Library Name</div>
+                    <div class="detail-value">${escapeHtml(library.name)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Version</div>
+                    <div class="detail-value">${escapeHtml(library.version)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Author</div>
+                    <div class="detail-value">${escapeHtml(library.author)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Maintainer</div>
+                    <div class="detail-value">${escapeHtml(library.maintainer)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Description</div>
+                    <div class="detail-value">${escapeHtml(library.sentence || 'No description available')}</div>
+                </div>
+                
+                ${library.paragraph ? `
+                <div class="detail-section">
+                    <div class="detail-label">Detailed Description</div>
+                    <div class="detail-value">${escapeHtml(library.paragraph)}</div>
+                </div>
+                ` : ''}
+                
+                <div class="detail-section">
+                    <div class="detail-label">Category</div>
+                    <div class="detail-value">${escapeHtml(library.category)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Supported Architectures</div>
+                    <div class="detail-value">${escapeHtml(library.architectures)}</div>
+                </div>
+                
+                ${library.depends ? `
+                <div class="detail-section">
+                    <div class="detail-label">Dependencies</div>
+                    <div class="detail-value">${escapeHtml(library.depends)}</div>
+                </div>
+                ` : ''}
+                
+                <div class="detail-section">
+                    <div class="detail-label">GitHub Repository</div>
+                    <div class="detail-value">
+                        <a href="${escapeHtml(library.repository_url)}" target="_blank" rel="noopener">
+                            ${escapeHtml(library.repository_url)}
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="neighbors-section">
+                    <div class="neighbors-title">Alphabetical Neighbors</div>
+                    <div class="neighbors-grid">
+                        ${neighbors.map(neighbor => `
+                            <div class="neighbor-card ${neighbor.repository_name === repositoryName ? 'current' : ''}" 
+                                 onclick="${neighbor.repository_name === repositoryName ? '' : `openLibraryDetail('${escapeHtml(neighbor.repository_name)}')`}">
+                                <div class="neighbor-name">${escapeHtml(neighbor.name)}</div>
+                                <div class="neighbor-author">${escapeHtml(neighbor.author)}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+
+        // Get neighboring libraries in alphabetical order
+        function getNeighbors(sortedLibraries, currentIndex) {
+            const neighbors = [];
+            const start = Math.max(0, currentIndex - 5);
+            const end = Math.min(sortedLibraries.length, currentIndex + 6);
+            
+            for (let i = start; i < end; i++) {
+                neighbors.push(sortedLibraries[i]);
+            }
+            
+            return neighbors;
+        }
+
+        // Close modal functionality
+        function closeModal() {
+            const modal = document.getElementById('modalOverlay');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Search functionality
+        function searchLibraries(query) {
+            console.log('Search called with query:', query);
+            currentSearchQuery = query;
+            console.log('Current search query set to:', currentSearchQuery);
+            applyFilters();
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Set up event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchLibraries(e.target.value);
+        });
+
+        document.getElementById('refreshRandom').addEventListener('click', () => {
+            displayRandomPick();
+        });
+
+        // Category section collapse/expand functionality
+        document.getElementById('categoryHeader').addEventListener('click', () => {
+            const header = document.getElementById('categoryHeader');
+            const filterButtons = document.getElementById('filterButtons');
+            
+            if (filterButtons.classList.contains('collapsed')) {
+                // Expand
+                filterButtons.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                filterButtons.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // Platform section collapse/expand functionality
+        document.getElementById('platformHeader').addEventListener('click', () => {
+            const header = document.getElementById('platformHeader');
+            const platformButtons = document.getElementById('platformButtons');
+            
+            if (platformButtons.classList.contains('collapsed')) {
+                // Expand
+                platformButtons.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                platformButtons.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // Modal event listeners
+        document.getElementById('modalClose').addEventListener('click', closeModal);
+        document.getElementById('modalOverlay').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('modalOverlay')) {
+                closeModal();
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Load libraries on page load
+        loadLibraries();
+    </script>
+</body>
+</html>

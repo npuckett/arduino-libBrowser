@@ -100,7 +100,6 @@
             <div class="modal-header">
                 <button class="modal-close" id="modalClose">×</button>
                 <div class="modal-title" id="modalTitle">Library Details</div>
-                <div class="modal-subtitle">Complete catalog entry</div>
             </div>
             <div class="modal-body" id="modalBody">
                 <!-- Content will be populated by JavaScript -->
@@ -286,6 +285,30 @@
                     }, 1000);
                 }
             }, 50);
+        }
+
+        // Filter libraries by author
+        function filterByAuthor(authorName) {
+            // Clear any existing search query
+            currentSearchQuery = authorName;
+            document.getElementById('searchInput').value = authorName;
+            
+            // Reset other filters to show all categories/platforms for this author
+            currentCategory = 'all';
+            currentPlatform = 'all';
+            currentLetterFilter = null;
+            
+            // Update filter button states
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('[data-category="all"]').classList.add('active');
+            document.querySelector('[data-platform="all"]').classList.add('active');
+            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
+            
+            // Apply filters to show all libraries by this author
+            applyFilters();
+            
+            // Scroll to top of results
+            document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
         }
 
         // Clear letter filter and show all filtered results
@@ -583,7 +606,7 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalBody = document.getElementById('modalBody');
             
-            modalTitle.textContent = library.name;
+            modalTitle.innerHTML = `<a href="${escapeHtml(library.repository_url)}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">${escapeHtml(library.name)}</a>`;
             
             // Get alphabetical neighbors
             const sortedLibraries = [...libraries].sort((a, b) => a.name.localeCompare(b.name));
@@ -592,36 +615,27 @@
             
             modalBody.innerHTML = `
                 <div class="detail-section">
-                    <div class="detail-label">Library Name</div>
-                    <div class="detail-value">${escapeHtml(library.name)}</div>
-                </div>
-                
-                <div class="detail-section">
                     <div class="detail-label">Version</div>
                     <div class="detail-value">${escapeHtml(library.version)}</div>
                 </div>
                 
                 <div class="detail-section">
                     <div class="detail-label">Author</div>
-                    <div class="detail-value">${escapeHtml(library.author)}</div>
-                </div>
-                
-                <div class="detail-section">
-                    <div class="detail-label">Maintainer</div>
-                    <div class="detail-value">${escapeHtml(library.maintainer)}</div>
+                    <div class="detail-value">
+                        <a href="#" onclick="filterByAuthor('${escapeHtml(library.author)}'); closeModal(); return false;" 
+                           style="color: #0066cc; text-decoration: underline; cursor: pointer;">
+                            ${escapeHtml(library.author)}
+                        </a>
+                    </div>
                 </div>
                 
                 <div class="detail-section">
                     <div class="detail-label">Description</div>
-                    <div class="detail-value">${escapeHtml(library.sentence || 'No description available')}</div>
+                    <div class="detail-value">
+                        ${escapeHtml(library.sentence || 'No description available')}
+                        ${library.paragraph && library.paragraph.trim() !== (library.sentence || '').trim() ? `<br><br>${escapeHtml(library.paragraph)}` : ''}
+                    </div>
                 </div>
-                
-                ${library.paragraph ? `
-                <div class="detail-section">
-                    <div class="detail-label">Detailed Description</div>
-                    <div class="detail-value">${escapeHtml(library.paragraph)}</div>
-                </div>
-                ` : ''}
                 
                 <div class="detail-section">
                     <div class="detail-label">Category</div>

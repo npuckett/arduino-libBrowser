@@ -216,8 +216,20 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action - Daily Update"
           
+          # Debug: Check if token is available (first 4 characters only for security)
+          if [ -n "${{ secrets.PERSONAL_ACCESS_TOKEN }}" ]; then
+            echo "Token is available (length: ${#GITHUB_TOKEN})"
+            echo "Token starts with: ${GITHUB_TOKEN:0:4}****"
+          else
+            echo "ERROR: PERSONAL_ACCESS_TOKEN secret is not set!"
+            exit 1
+          fi
+          
           # Configure git to use the Personal Access Token for authentication
           git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
+          
+          # Debug: Show current remote URL (without token)
+          echo "Remote URL configured for repository: ${{ github.repository }}"
           
           git add output/libraries.json
           

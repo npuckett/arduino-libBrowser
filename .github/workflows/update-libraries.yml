@@ -55,148 +55,124 @@ jobs:
             'Authorization' = "token $env:GITHUB_TOKEN"
           }
           
-          # Multiple search strategies for comprehensive coverage
-          $searchQueries = @(
-            # Primary: Recently updated libraries
-            "arduino library pushed:>$twoDaysAgo",
-            # Secondary: Libraries with arduino in name, recently updated
-            "arduino in:name pushed:>$twoDaysAgo",
-            # Tertiary: Recently created Arduino projects
-            "arduino library created:>$twoDaysAgo",
-            # Quaternary: Arduino libraries with recent activity (broader timeframe)
-            "arduino library pushed:>$((Get-Date).AddDays(-7).ToString('yyyy-MM-dd'))"
-          )
-          
-          Write-Host "Using $($searchQueries.Count) search strategies for comprehensive coverage"
-          
-          $allFoundRepos = @{}  # Use hashtable to avoid duplicates
+          # Search for recently updated Arduino libraries (simple, focused approach)
+          $page = 1
           $newLibraries = @()
           $updatedLibraries = @()
           $processedCount = 0
-          $maxPagesPerQuery = 10  # Limit per query to stay within API limits
+          $maxPages = 10  # Conservative limit for daily runs
           
-          foreach ($searchQuery in $searchQueries) {
-            Write-Host "`nSearching with query: '$searchQuery'"
-            $page = 1
+          do {
+            $searchUrl = "https://api.github.com/search/repositories?q=arduino+library+pushed:>$twoDaysAgo&sort=updated&order=desc&page=$page&per_page=100"
             
+            $retryCount = 0
+            $response = $null
+            
+            # Retry logic for API calls
             do {
-              $searchUrl = "https://api.github.com/search/repositories?q=$([System.Web.HttpUtility]::UrlEncode($searchQuery))&sort=updated&order=desc&page=$page&per_page=100"
-              
-              $retryCount = 0
-              $response = $null
-              
-              # Retry logic for API calls
-              do {
-                try {
-                  Start-Sleep -Seconds $rateLimitDelay
-                  $response = Invoke-RestMethod -Uri $searchUrl -Headers $headers -ErrorAction Stop
-                  Write-Host "  Query '$searchQuery' Page $page returned $($response.items.Count) repositories"
-                  break
-                } catch {
-                  $retryCount++
-                  $waitTime = [math]::Pow(2, $retryCount) * 5  # Exponential backoff
-                  Write-Host "  Error on page $page (attempt $retryCount): $($_.Exception.Message). Waiting $waitTime seconds..."
-                  
-                  if ($retryCount -ge $maxRetries) {
-                    Write-Host "  Max retries exceeded for page $page"
-                    break
-                  }
-                  Start-Sleep -Seconds $waitTime
-                }
-              } while ($retryCount -lt $maxRetries)
-              
-              if (-not $response) {
-                Write-Host "  Failed to get response for page $page, moving to next query"
+              try {
+                Start-Sleep -Seconds $rateLimitDelay
+                $response = Invoke-RestMethod -Uri $searchUrl -Headers $headers -ErrorAction Stop
+                Write-Host "Page $page returned $($response.items.Count) repositories"
                 break
+              } catch {
+                $retryCount++
+                $waitTime = [math]::Pow(2, $retryCount) * 5  # Exponential backoff
+                Write-Host "Error on page $page (attempt $retryCount): $($_.Exception.Message). Waiting $waitTime seconds..."
+                
+                if ($retryCount -ge $maxRetries) {
+                  Write-Host "Max retries exceeded for page $page"
+                  break
+                }
+                Start-Sleep -Seconds $waitTime
+              }
+            } while ($retryCount -lt $maxRetries)
+            
+            if (-not $response) {
+              Write-Host "Failed to get response for page $page, stopping"
+              break
+            }
+            
+            foreach ($repo in $response.items) {
+              $repoName = "$($repo.owner.login)/$($repo.name)"
+              $processedCount++
+              
+              # Check if this is a new library or an update to existing
+              $existingLibrary = $existingRepoNames[$repoName]
+              $isNewLibrary = -not $existingLibrary
+              $isUpdatedLibrary = $existingLibrary -and $repo.updated_at -ne $existingLibrary.github_updated_at
+              
+              if ($isNewLibrary) {
+                Write-Host "New library found: $repoName"
+              } elseif ($isUpdatedLibrary) {
+                Write-Host "Existing library updated: $repoName (was: $($existingLibrary.github_updated_at), now: $($repo.updated_at))"
+              } else {
+                Write-Host "Library unchanged: $repoName"
+                continue  # Skip unchanged libraries
               }
               
-              foreach ($repo in $response.items) {
-                $repoName = "$($repo.owner.login)/$($repo.name)"
-                
-                # Skip if we've already processed this repo
-                if ($allFoundRepos.ContainsKey($repoName)) {
-                  continue
-                }
-                $allFoundRepos[$repoName] = $repo
-                $processedCount++
+              # Download and parse library.properties with retry logic
+              $propertiesUrls = @(
+                "https://raw.githubusercontent.com/$repoName/master/library.properties",
+                "https://raw.githubusercontent.com/$repoName/main/library.properties"
+              )
               
-                # Check if this is a new library or an update to existing
-                $existingLibrary = $existingRepoNames[$repoName]
-                $isNewLibrary = -not $existingLibrary
-                $isUpdatedLibrary = $existingLibrary -and $repo.updated_at -ne $existingLibrary.github_updated_at
-                
-                if ($isNewLibrary) {
-                  Write-Host "  New library found: $repoName"
-                } elseif ($isUpdatedLibrary) {
-                  Write-Host "  Existing library updated: $repoName (was: $($existingLibrary.github_updated_at), now: $($repo.updated_at))"
-                } else {
-                  Write-Host "  Library unchanged: $repoName"
-                  continue  # Skip unchanged libraries
-                }
-                
-                # Download and parse library.properties with retry logic
-                $propertiesUrls = @(
-                  "https://raw.githubusercontent.com/$repoName/master/library.properties",
-                  "https://raw.githubusercontent.com/$repoName/main/library.properties"
-                )
-                
-                $properties = $null
-                foreach ($propertiesUrl in $propertiesUrls) {
-                  $retryCount = 0
-                  do {
-                    try {
-                      Start-Sleep -Milliseconds 500  # Rate limiting for raw content
-                      $propertiesContent = Invoke-RestMethod -Uri $propertiesUrl -ErrorAction Stop
-                      $properties = $propertiesContent
-                      break
-                    } catch {
-                      $retryCount++
-                      if ($retryCount -ge 2) { 
-                        break  # Don't retry raw content as much
-                      }
-                      Start-Sleep -Seconds 2
+              $properties = $null
+              foreach ($propertiesUrl in $propertiesUrls) {
+                $retryCount = 0
+                do {
+                  try {
+                    Start-Sleep -Milliseconds 500  # Rate limiting for raw content
+                    $propertiesContent = Invoke-RestMethod -Uri $propertiesUrl -ErrorAction Stop
+                    $properties = $propertiesContent
+                    break
+                  } catch {
+                    $retryCount++
+                    if ($retryCount -ge 2) { 
+                      break  # Don't retry raw content as much
                     }
-                  } while ($retryCount -lt 2)
-                  
-                  if ($properties) { break }
-                }
-                
-                if (-not $properties) {
-                  Write-Host "  No library.properties found for $repoName"
-                  continue
-                }
-                
-                # Enhanced library info with GitHub metadata
-                $libraryInfo = @{
-                  repository_name = $repoName
-                  repository_url = $repo.html_url
-                  github_updated_at = $repo.updated_at
-                  github_created_at = $repo.created_at
-                  github_stars = $repo.stargazers_count
-                  github_forks = $repo.forks_count
-                  processed_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
-                }
-                
-                # Parse properties file
-                $properties -split "`n" | ForEach-Object {
-                  $line = $_.Trim()
-                  if ($line -and $line.Contains('=')) {
-                    $key, $value = $line -split '=', 2
-                    $libraryInfo[$key.Trim()] = $value.Trim()
+                    Start-Sleep -Seconds 2
                   }
-                }
+                } while ($retryCount -lt 2)
                 
-                # Add to appropriate list
-                if ($isNewLibrary) {
-                  $newLibraries += [PSCustomObject]$libraryInfo
-                } else {
-                  $updatedLibraries += [PSCustomObject]$libraryInfo
+                if ($properties) { break }
+              }
+              
+              if (-not $properties) {
+                Write-Host "No library.properties found for $repoName"
+                continue
+              }
+              
+              # Enhanced library info with GitHub metadata
+              $libraryInfo = @{
+                repository_name = $repoName
+                repository_url = $repo.html_url
+                github_updated_at = $repo.updated_at
+                github_created_at = $repo.created_at
+                github_stars = $repo.stargazers_count
+                github_forks = $repo.forks_count
+                processed_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+              }
+              
+              # Parse properties file
+              $properties -split "`n" | ForEach-Object {
+                $line = $_.Trim()
+                if ($line -and $line.Contains('=')) {
+                  $key, $value = $line -split '=', 2
+                  $libraryInfo[$key.Trim()] = $value.Trim()
                 }
               }
               
-              $page++
-            } while ($response.items.Count -eq 100 -and $page -le $maxPagesPerQuery)
-          }
+              # Add to appropriate list
+              if ($isNewLibrary) {
+                $newLibraries += [PSCustomObject]$libraryInfo
+              } else {
+                $updatedLibraries += [PSCustomObject]$libraryInfo
+              }
+            }
+            
+            $page++
+          } while ($response.items.Count -eq 100 -and $page -le $maxPages)
           
           Write-Host "Processing complete:"
           Write-Host "- Repositories checked: $processedCount"

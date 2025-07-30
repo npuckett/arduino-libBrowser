@@ -35,7 +35,7 @@ jobs:
       - name: Run full library enhancement
         shell: pwsh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           # Enhanced version of Fast-LibraryEnhancement.ps1 adapted for GitHub Actions
           
@@ -239,7 +239,7 @@ jobs:
           $outputData | ConvertTo-Json -Depth 10 | Set-Content "output/libraries.json" -Encoding UTF8
           Write-Host "Enhanced libraries.json saved with $($enhancedLibraries.Count) libraries"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size }}
           DELAY_BETWEEN_BATCHES: ${{ github.event.inputs.delay_between_batches }}
         

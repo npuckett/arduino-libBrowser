@@ -25,7 +25,7 @@ jobs:
       - name: Run incremental library update
         shell: pwsh
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pass token as environment variable
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use our custom token name
         run: |
           # Enhanced incremental approach: check for repos created or updated in last 2 days
           $twoDaysAgo = (Get-Date).AddDays(-2).ToString("yyyy-MM-dd")
@@ -128,12 +128,14 @@ jobs:
                     break
                   } catch {
                     $retryCount++
-                    if ($retryCount -ge 2) break  # Don't retry raw content as much
+                    if ($retryCount -ge 2) { 
+                      break  # Don't retry raw content as much
+                    }
                     Start-Sleep -Seconds 2
                   }
                 } while ($retryCount -lt 2)
                 
-                if ($properties) break
+                if ($properties) { break }
               }
               
               if (-not $properties) {

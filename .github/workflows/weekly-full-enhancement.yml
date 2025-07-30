@@ -244,9 +244,15 @@ jobs:
           DELAY_BETWEEN_BATCHES: ${{ github.event.inputs.delay_between_batches }}
         
       - name: Commit and push enhanced data
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action - Weekly Enhancement"
+          
+          # Configure git to use the Personal Access Token for authentication
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
+          
           git add output/libraries.json
           
           # Check if there are changes to commit

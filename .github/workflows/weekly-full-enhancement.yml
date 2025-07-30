@@ -268,3 +268,20 @@ jobs:
             git push
             echo "Enhanced library data pushed to repository"
           fi
+
+      - name: Trigger GitHub Pages rebuild
+        if: success()  # Only run if previous steps succeeded
+        run: |
+          echo "Library enhancement completed successfully!"
+          echo "GitHub Pages will automatically rebuild when changes are detected."
+          echo "If GitHub Pages is set to deploy from branch 'main', it should update within a few minutes."
+          
+          # Optional: You can also trigger a manual Pages deployment via API
+          # This requires the 'pages:write' permission on your Personal Access Token
+          curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/pages/deployment \
+            || echo "Manual Pages deployment trigger failed (this is optional)"

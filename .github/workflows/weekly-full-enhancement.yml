@@ -1,0 +1,264 @@
+name: Weekly Full Library Enhancement
+
+on:
+  schedule:
+    # Run every Sunday at 1 AM EST (6 AM UTC)
+    - cron: '0 6 * * 0'
+  workflow_dispatch: # Allow manual runs
+    inputs:
+      batch_size:
+        description: 'Batch size for processing (default: 50)'
+        required: false
+        default: '50'
+      delay_between_batches:
+        description: 'Delay between batches in seconds (default: 60)'
+        required: false
+        default: '60'
+
+jobs:
+  full-enhancement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 480  # 8 hours maximum
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Setup PowerShell
+        shell: pwsh
+        run: |
+          Write-Host "PowerShell ready for full Arduino library enhancement"
+          Write-Host "This process may take 4-6 hours to complete"
+          
+      - name: Run full library enhancement
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Enhanced version of Fast-LibraryEnhancement.ps1 adapted for GitHub Actions
+          
+          # Parameters (from workflow inputs or defaults)
+          $BatchSize = [int]($env:BATCH_SIZE ?? "50")
+          $DelayBetweenBatches = [int]($env:DELAY_BETWEEN_BATCHES ?? "60")
+          $DelayBetweenRequests = 1000  # 1 second between requests
+          $SaveProgressEvery = 10
+          $MaxRetries = 2
+          
+          Write-Host "Configuration:"
+          Write-Host "- Batch Size: $BatchSize"
+          Write-Host "- Delay Between Batches: $DelayBetweenBatches seconds"
+          Write-Host "- Delay Between Requests: $DelayBetweenRequests ms"
+          
+          # GitHub authentication
+          $GitHubHeaders = @{
+              'User-Agent' = 'Arduino-Library-Browser-Weekly'
+              'Accept' = 'application/vnd.github.v3+json'
+              'Authorization' = "token $env:GITHUB_TOKEN"
+          }
+          
+          # Load existing libraries
+          if (-not (Test-Path "output/libraries.json")) {
+            Write-Error "No libraries.json file found. Run daily update first."
+            exit 1
+          }
+          
+          $inputData = Get-Content "output/libraries.json" | ConvertFrom-Json
+          $libraries = $inputData.libraries
+          Write-Host "Loaded $($libraries.Count) libraries for enhancement"
+          
+          # Statistics tracking
+          $stats = @{
+            total_libraries = $libraries.Count
+            enhanced_count = 0
+            error_count = 0
+            api_calls_made = 0
+            start_time = Get-Date
+          }
+          
+          # Process libraries in batches
+          $enhancedLibraries = @()
+          $currentBatch = @()
+          $batchNumber = 1
+          
+          for ($i = 0; $i -lt $libraries.Count; $i++) {
+            $lib = $libraries[$i]
+            $currentBatch += $lib
+            
+            # Process batch when full or at end
+            if ($currentBatch.Count -eq $BatchSize -or $i -eq ($libraries.Count - 1)) {
+              Write-Host "`nProcessing batch $batchNumber (libraries $($i - $currentBatch.Count + 2) to $($i + 1))"
+              
+              foreach ($library in $currentBatch) {
+                $progress = [math]::Round(($stats.enhanced_count / $stats.total_libraries) * 100, 1)
+                Write-Host "[$($stats.enhanced_count + 1)/$($stats.total_libraries)] ($progress%) Processing: $($library.repository_name)"
+                
+                # Skip if already has recent GitHub data (less than 7 days old)
+                if ($library.github_updated_at) {
+                  try {
+                    $lastUpdate = [DateTime]::Parse($library.github_updated_at)
+                    if ((Get-Date) - $lastUpdate -lt [TimeSpan]::FromDays(7)) {
+                      Write-Host "  → Skipping (recently enhanced)"
+                      $enhancedLibraries += $library
+                      $stats.enhanced_count++
+                      continue
+                    }
+                  } catch {
+                    # Parse error, proceed with enhancement
+                  }
+                }
+                
+                # Extract owner and repo name
+                $parts = $library.repository_name -split '/'
+                if ($parts.Count -ne 2) {
+                  Write-Host "  → Error: Invalid repository name format"
+                  $library | Add-Member -NotePropertyName "enhancement_error" -NotePropertyValue "Invalid repository name" -Force
+                  $enhancedLibraries += $library
+                  $stats.error_count++
+                  $stats.enhanced_count++
+                  continue
+                }
+                
+                $owner = $parts[0]
+                $repoName = $parts[1]
+                $apiUrl = "https://api.github.com/repos/$owner/$repoName"
+                
+                # Enhance with GitHub API data
+                $retryCount = 0
+                $enhanced = $false
+                
+                do {
+                  try {
+                    Start-Sleep -Milliseconds $DelayBetweenRequests
+                    $repoData = Invoke-RestMethod -Uri $apiUrl -Headers $GitHubHeaders -ErrorAction Stop
+                    $stats.api_calls_made++
+                    
+                    # Add GitHub metadata
+                    $library | Add-Member -NotePropertyName "github_updated_at" -NotePropertyValue $repoData.updated_at -Force
+                    $library | Add-Member -NotePropertyName "github_created_at" -NotePropertyValue $repoData.created_at -Force
+                    $library | Add-Member -NotePropertyName "github_stars" -NotePropertyValue $repoData.stargazers_count -Force
+                    $library | Add-Member -NotePropertyName "github_forks" -NotePropertyValue $repoData.forks_count -Force
+                    $library | Add-Member -NotePropertyName "github_language" -NotePropertyValue $repoData.language -Force
+                    $library | Add-Member -NotePropertyName "github_size" -NotePropertyValue $repoData.size -Force
+                    $library | Add-Member -NotePropertyName "enhancement_date" -NotePropertyValue (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ") -Force
+                    
+                    # Update repository URL if needed
+                    if (-not $library.repository_url -or $library.repository_url -ne $repoData.html_url) {
+                      $library | Add-Member -NotePropertyName "repository_url" -NotePropertyValue $repoData.html_url -Force
+                    }
+                    
+                    Write-Host "  → Enhanced successfully (★$($repoData.stargazers_count), ⑂$($repoData.forks_count))"
+                    $enhanced = $true
+                    break
+                    
+                  } catch {
+                    $retryCount++
+                    $errorMsg = $_.Exception.Message
+                    
+                    if ($errorMsg -match "rate limit" -or $errorMsg -match "403") {
+                      $waitTime = 60 + ($retryCount * 30)  # Longer wait for rate limiting
+                      Write-Host "  → Rate limited, waiting $waitTime seconds..."
+                      Start-Sleep -Seconds $waitTime
+                    } elseif ($errorMsg -match "404") {
+                      Write-Host "  → Repository not found (404)"
+                      $library | Add-Member -NotePropertyName "enhancement_error" -NotePropertyValue "Repository not found" -Force
+                      break
+                    } else {
+                      $waitTime = [math]::Pow(2, $retryCount) * 5
+                      Write-Host "  → Error (attempt $retryCount): $errorMsg. Waiting $waitTime seconds..."
+                      Start-Sleep -Seconds $waitTime
+                    }
+                  }
+                } while ($retryCount -lt $MaxRetries)
+                
+                if (-not $enhanced) {
+                  $stats.error_count++
+                  if (-not $library.enhancement_error) {
+                    $library | Add-Member -NotePropertyName "enhancement_error" -NotePropertyValue "Failed after $MaxRetries retries" -Force
+                  }
+                }
+                
+                $enhancedLibraries += $library
+                $stats.enhanced_count++
+                
+                # Progress update every 25 libraries
+                if ($stats.enhanced_count % 25 -eq 0) {
+                  $elapsed = (Get-Date) - $stats.start_time
+                  $rate = $stats.enhanced_count / $elapsed.TotalMinutes
+                  $eta = [TimeSpan]::FromMinutes(($stats.total_libraries - $stats.enhanced_count) / $rate)
+                  Write-Host "`n=== Progress Update ==="
+                  Write-Host "Processed: $($stats.enhanced_count)/$($stats.total_libraries) libraries"
+                  Write-Host "Success rate: $(100 - [math]::Round(($stats.error_count / $stats.enhanced_count) * 100, 1))%"
+                  Write-Host "Processing rate: $([math]::Round($rate, 1)) libraries/minute"
+                  Write-Host "Estimated completion: $($eta.Hours)h $($eta.Minutes)m"
+                  Write-Host "======================="
+                }
+              }
+              
+              # Delay between batches (except for the last batch)
+              if ($i -ne ($libraries.Count - 1)) {
+                Write-Host "Batch $batchNumber complete. Waiting $DelayBetweenBatches seconds before next batch..."
+                Start-Sleep -Seconds $DelayBetweenBatches
+              }
+              
+              $currentBatch = @()
+              $batchNumber++
+            }
+          }
+          
+          # Final statistics
+          $totalTime = (Get-Date) - $stats.start_time
+          $successRate = [math]::Round((($stats.enhanced_count - $stats.error_count) / $stats.enhanced_count) * 100, 1)
+          
+          Write-Host "`n=== Enhancement Complete ==="
+          Write-Host "Total libraries processed: $($stats.enhanced_count)"
+          Write-Host "Successful enhancements: $($stats.enhanced_count - $stats.error_count)"
+          Write-Host "Errors encountered: $($stats.error_count)"
+          Write-Host "Success rate: $successRate%"
+          Write-Host "Total API calls made: $($stats.api_calls_made)"
+          Write-Host "Total time: $($totalTime.Hours)h $($totalTime.Minutes)m $($totalTime.Seconds)s"
+          Write-Host "Processing rate: $([math]::Round($stats.enhanced_count / $totalTime.TotalMinutes, 1)) libraries/minute"
+          Write-Host "============================"
+          
+          # Create enhanced output
+          $outputData = @{
+            enhanced_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+            total_libraries = $enhancedLibraries.Count
+            enhancement_stats = @{
+              success_count = $stats.enhanced_count - $stats.error_count
+              error_count = $stats.error_count
+              success_rate_percent = $successRate
+              total_processing_time_minutes = [math]::Round($totalTime.TotalMinutes, 1)
+              api_calls_made = $stats.api_calls_made
+            }
+            libraries = $enhancedLibraries | Sort-Object name
+          }
+          
+          # Save enhanced data
+          $outputData | ConvertTo-Json -Depth 10 | Set-Content "output/libraries.json" -Encoding UTF8
+          Write-Host "Enhanced libraries.json saved with $($enhancedLibraries.Count) libraries"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size }}
+          DELAY_BETWEEN_BATCHES: ${{ github.event.inputs.delay_between_batches }}
+        
+      - name: Commit and push enhanced data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action - Weekly Enhancement"
+          git add output/libraries.json
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Extract statistics for commit message
+            TOTAL_COUNT=$(grep -o '"total_libraries": [0-9]*' output/libraries.json | grep -o '[0-9]*' || echo "0")
+            SUCCESS_RATE=$(grep -o '"success_rate_percent": [0-9.]*' output/libraries.json | grep -o '[0-9.]*' || echo "0")
+            PROCESSING_TIME=$(grep -o '"total_processing_time_minutes": [0-9.]*' output/libraries.json | grep -o '[0-9.]*' || echo "0")
+            
+            git commit -m "Weekly enhancement: ${TOTAL_COUNT} libraries enhanced (${SUCCESS_RATE}% success) in ${PROCESSING_TIME}min - $(date '+%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "Enhanced library data pushed to repository"
+          fi

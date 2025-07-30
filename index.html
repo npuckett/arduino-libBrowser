@@ -59,8 +59,10 @@
         <div class="sort-section">
             <div class="section-header">Browse the Stacks</div>
             <div class="sort-buttons">
-                <button class="sort-btn active" data-sort="alphabetical">Alphabetical (A-Z)</button>
+                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
                 <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
+                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
+                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
                 <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
                 <button class="sort-btn" data-sort="new-releases">New Releases</button>
                 <button class="sort-btn" data-sort="popular-authors">Popular Authors</button>
@@ -92,6 +94,16 @@
         <div class="no-results" id="noResults" style="display: none;">
             No items found in the collection matching your search.
         </div>
+
+        <div class="about-section">
+            <div class="section-header collapsible" id="aboutHeader">
+                About the Library Library
+                <span class="collapse-indicator">+</span>
+            </div>
+            <div class="about-content collapsed" id="aboutContent">
+                <p><a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">The Arduino Library Library</a> is an open source tool created to help people discover the wide range of libraries being developed on the Arduino platform. It was created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a>.</p>
+            </div>
+        </div>
     </div>
 
     <!-- Library Detail Modal -->
@@ -113,7 +125,7 @@
         let currentCategory = 'all';
         let currentPlatform = 'all';
         let currentSearchQuery = '';
-        let currentSort = 'alphabetical';
+        let currentSort = 'most-recent';
         let currentLetterFilter = null; // Track active letter filter
 
         // Load the library data
@@ -123,6 +135,9 @@
                 const data = await response.json();
                 libraries = data.libraries;
                 filteredLibraries = libraries;
+                
+                // Update header with dynamic information
+                updateHeaderInfo(data);
                 
                 populateCategoryFilters();
                 populatePlatformFilters();
@@ -137,6 +152,27 @@
             } catch (error) {
                 document.getElementById('loading').textContent = 'Error loading collection. Make sure libraries.json is accessible.';
                 console.error('Error loading libraries:', error);
+            }
+        }
+
+        // Update header with dynamic library count and last update
+        function updateHeaderInfo(data) {
+            const subtitle = document.querySelector('.subtitle');
+            const libraryCount = data.libraries.length;
+            const lastUpdate = data.enhanced_at || data.processed_at || '2025-07-21';
+            const formattedDate = formatDateForHeader(lastUpdate);
+            subtitle.textContent = `${libraryCount.toLocaleString()} entries, updated ${formattedDate}`;
+        }
+
+        // Format date for header display
+        function formatDateForHeader(dateString) {
+            if (!dateString) return 'recently';
+            try {
+                const date = new Date(dateString);
+                const options = { month: 'long', day: 'numeric', year: 'numeric' };
+                return date.toLocaleDateString('en-US', options);
+            } catch (error) {
+                return 'recently';
             }
         }
 
@@ -187,12 +223,21 @@
             // Add event listeners to platform filter buttons
             platformButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('filter-btn')) {
-                    // Update active state
-                    platformButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-                    e.target.classList.add('active');
+                    const clickedPlatform = e.target.getAttribute('data-platform');
                     
-                    // Update current platform and apply filters
-                    currentPlatform = e.target.getAttribute('data-platform');
+                    // If clicking the currently active filter (and it's not "all"), deselect it
+                    if (currentPlatform === clickedPlatform && clickedPlatform !== 'all') {
+                        // Reset to "all"
+                        currentPlatform = 'all';
+                        platformButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                        document.querySelector('[data-platform="all"]').classList.add('active');
+                    } else {
+                        // Update active state normally
+                        platformButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                        e.target.classList.add('active');
+                        currentPlatform = clickedPlatform;
+                    }
+                    
                     applyFilters();
                 }
             });
@@ -255,7 +300,7 @@
         function jumpToLetter(letter) {
             console.log('Jumping to letter:', letter);
             
-            // Set sort to alphabetical if not already
+            // Set sort to alphabetical when using letter navigation
             if (currentSort !== 'alphabetical' && currentSort !== 'alphabetical-reverse') {
                 currentSort = 'alphabetical';
                 document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
@@ -374,6 +419,22 @@
                 case 'alphabetical-reverse':
                     return sorted.sort((a, b) => b.name.localeCompare(a.name));
                 
+                case 'most-recent':
+                    // Sort by GitHub updated_at date (most recent first)
+                    return sorted.sort((a, b) => {
+                        const dateA = new Date(a.github_updated_at || a.processed_at || '1900-01-01');
+                        const dateB = new Date(b.github_updated_at || b.processed_at || '1900-01-01');
+                        return dateB - dateA; // Most recent first
+                    });
+                
+                case 'least-recent':
+                    // Sort by GitHub updated_at date (oldest first)
+                    return sorted.sort((a, b) => {
+                        const dateA = new Date(a.github_updated_at || a.processed_at || '1900-01-01');
+                        const dateB = new Date(b.github_updated_at || b.processed_at || '1900-01-01');
+                        return dateA - dateB; // Oldest first
+                    });
+                
                 case 'shelf-order':
                     // Random arrangement like finding misplaced books
                     // Use a seeded random based on current time to get different results each click
@@ -457,12 +518,21 @@
             // Add event listeners to all filter buttons
             filterButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('filter-btn')) {
-                    // Update active state
-                    filterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-                    e.target.classList.add('active');
+                    const clickedCategory = e.target.getAttribute('data-category');
                     
-                    // Update current category and apply filters
-                    currentCategory = e.target.getAttribute('data-category');
+                    // If clicking the currently active filter (and it's not "all"), deselect it
+                    if (currentCategory === clickedCategory && clickedCategory !== 'all') {
+                        // Reset to "all"
+                        currentCategory = 'all';
+                        filterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                        document.querySelector('[data-category="all"]').classList.add('active');
+                    } else {
+                        // Update active state normally
+                        filterButtons.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                        e.target.classList.add('active');
+                        currentCategory = clickedCategory;
+                    }
+                    
                     applyFilters();
                 }
             });
@@ -563,6 +633,8 @@
             switch (sortMethod) {
                 case 'alphabetical': return 'Title (A-Z)';
                 case 'alphabetical-reverse': return 'Title (Z-A)';
+                case 'most-recent': return 'Most Recently Updated';
+                case 'least-recent': return 'Least Recently Updated';
                 case 'shelf-order': return 'Random Arrangement';
                 case 'new-releases': return 'Latest Additions';
                 case 'popular-authors': return 'Author Popularity';
@@ -591,6 +663,7 @@
                     <div class="library-name">${escapeHtml(lib.name)}</div>
                     <div class="library-version">v${escapeHtml(lib.version)}</div>
                     <div class="library-author">${escapeHtml(lib.author)}</div>
+                    <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at)}</div>
                     <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
                     <div class="library-category">${escapeHtml(lib.category)}</div>
                 </div>
@@ -617,6 +690,11 @@
                 <div class="detail-section">
                     <div class="detail-label">Version</div>
                     <div class="detail-value">${escapeHtml(library.version)}</div>
+                </div>
+                
+                <div class="detail-section">
+                    <div class="detail-label">Updated</div>
+                    <div class="detail-value">${formatDate(library.github_updated_at || library.processed_at)}</div>
                 </div>
                 
                 <div class="detail-section">
@@ -716,6 +794,31 @@
             return div.innerHTML;
         }
 
+        // Format date for display
+        function formatDate(dateString) {
+            if (!dateString) return 'Unknown';
+            try {
+                const date = new Date(dateString);
+                const now = new Date();
+                const diffTime = Math.abs(now - date);
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                
+                if (diffDays === 1) {
+                    return '1 day ago';
+                } else if (diffDays < 30) {
+                    return `${diffDays} days ago`;
+                } else if (diffDays < 365) {
+                    const months = Math.floor(diffDays / 30);
+                    return months === 1 ? '1 month ago' : `${months} months ago`;
+                } else {
+                    const years = Math.floor(diffDays / 365);
+                    return years === 1 ? '1 year ago' : `${years} years ago`;
+                }
+            } catch (error) {
+                return 'Unknown';
+            }
+        }
+
         // Set up event listeners
         document.getElementById('searchInput').addEventListener('input', (e) => {
             searchLibraries(e.target.value);
@@ -737,6 +840,22 @@
             } else {
                 // Collapse
                 filterButtons.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // About section collapse/expand functionality
+        document.getElementById('aboutHeader').addEventListener('click', () => {
+            const header = document.getElementById('aboutHeader');
+            const aboutContent = document.getElementById('aboutContent');
+            
+            if (aboutContent.classList.contains('collapsed')) {
+                // Expand
+                aboutContent.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                aboutContent.classList.add('collapsed');
                 header.classList.remove('expanded');
             }
         });

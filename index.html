@@ -11,23 +11,19 @@
         <div class="header">
             <div class="title">THE ARDUINO LIBRARY</div>
             <div class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</div>
-            <div class="beta-notice">
-                <strong>Note:</strong> This site is in active development. Please submit issues or feedback 
-                <a href="https://github.com/npuckett/arduino-libBrowser/issues" target="_blank" rel="noopener">here</a>.
-            </div>
         </div>
 
         <div class="search-container">
-            <div class="section-header">Search</div>
+            <div class="section-header">
+                Search
+                <button class="clear-search-btn" id="clearSearchBtn" style="display: none;" title="Clear search">×</button>
+            </div>
             <input 
                 type="text" 
                 class="search-box" 
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
             >
-            <div class="stats" id="stats">
-                Loading collection catalog...
-            </div>
         </div>
 
         <!-- <div class="random-pick-section">
@@ -47,7 +43,7 @@
                 <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
                 <button class="sort-btn" data-sort="least-recent">Least Recent</button>
                 <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
-                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
+                <button class="sort-btn" data-sort="shelf-order">Registry Order</button>
                 <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
             </div>
             
@@ -150,7 +146,6 @@
                 populateAlphabetNav();
                 setupSortButtons();
                 setupClearLetterFilter();
-                updateStats();
                 // displayRandomPick();
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
@@ -340,9 +335,13 @@
 
         // Filter libraries by author
         function filterByAuthor(authorName) {
-            // Clear any existing search query
+            // Set search query to author name  
             currentSearchQuery = authorName;
             document.getElementById('searchInput').value = authorName;
+            
+            // Show clear search button
+            const clearBtn = document.getElementById('clearSearchBtn');
+            clearBtn.style.display = 'block';
             
             // Reset other filters to show all categories/platforms for this author
             currentCategory = 'all';
@@ -355,11 +354,50 @@
             document.querySelector('[data-platform="all"]').classList.add('active');
             document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
             
-            // Apply filters to show all libraries by this author
-            applyFilters();
+            // Apply author-specific search that only shows author matches
+            applyAuthorFilter(authorName);
             
             // Scroll to top of results
             document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Apply author-specific filter (shows only author matches)
+        function applyAuthorFilter(authorName) {
+            const authorMatches = libraries.filter(lib => 
+                (lib.author || '').toLowerCase().includes(authorName.toLowerCase())
+            );
+            
+            // Sort the author matches
+            const sortedMatches = sortLibraries(authorMatches);
+            
+            filteredLibraries = sortedMatches;
+            updateActiveFiltersDisplay();
+            
+            // Display as author group only
+            displayAuthorOnlyResults(sortedMatches, authorName);
+        }
+        
+        // Display results showing only author matches
+        function displayAuthorOnlyResults(libraries, authorName) {
+            const grid = document.getElementById('libraryGrid');
+            const noResults = document.getElementById('noResults');
+            
+            if (libraries.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            grid.style.display = 'block';
+            
+            // Display as a single author group
+            const html = `<div class="search-group">
+                <div class="search-group-header">Libraries by ${escapeHtml(authorName)} (${libraries.length})</div>
+                <div class="search-group-grid">${libraries.map(lib => createLibraryCard(lib)).join('')}</div>
+            </div>`;
+            
+            grid.innerHTML = html;
         }
 
         // Clear letter filter and show all filtered results
@@ -399,7 +437,21 @@
             const sortButtons = document.querySelector('.sort-buttons');
             sortButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('sort-btn')) {
-                    // Update active state
+                    // Clear all filters when using browse buttons to show full collection
+                    const searchInput = document.getElementById('searchInput');
+                    searchInput.value = '';
+                    currentSearchQuery = '';
+                    currentCategory = 'all';
+                    currentPlatform = 'all';
+                    currentLetterFilter = null;
+                    
+                    // Reset all filter button states
+                    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                    document.querySelector('[data-category="all"]').classList.add('active');
+                    document.querySelector('[data-platform="all"]').classList.add('active');
+                    document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
+                    
+                    // Update active state for sort buttons
                     sortButtons.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
                     e.target.classList.add('active');
                     
@@ -624,7 +676,6 @@
             
             filteredLibraries = filtered;
             updateActiveFiltersDisplay();
-            updateStats();
             displayLibraries(filteredLibraries.slice(0, 120));
         }
 
@@ -644,16 +695,6 @@
                     <div style="font-size: 11px; color: #666;">Repository: ${escapeHtml(randomLib.repository_name)}</div>
                 </div>
             `;
-        }
-
-        // Update statistics display
-        function updateStats() {
-            const stats = document.getElementById('stats');
-            const categoryText = currentCategory === 'all' ? 'all subjects' : `"${currentCategory}"`;
-            const platformText = currentPlatform === 'all' ? 'all platforms' : `${currentPlatform.toUpperCase()}`;
-            const searchText = currentSearchQuery.trim() ? ` matching "${currentSearchQuery}"` : '';
-            const sortText = getSortDisplayName(currentSort);
-            stats.textContent = `Collection: ${filteredLibraries.length} of ${libraries.length} items • ${categoryText} • ${platformText}${searchText} • Sorted by ${sortText}`;
         }
 
         // Get display name for sort method
@@ -682,7 +723,7 @@
             }
 
             noResults.style.display = 'none';
-            grid.style.display = 'block';
+            grid.style.display = 'grid';
             
             // If there's a search query, display grouped results
             if (currentSearchQuery.trim()) {
@@ -696,6 +737,10 @@
         // Display search results grouped by match type
         function displayGroupedSearchResults(libraries) {
             const grid = document.getElementById('libraryGrid');
+            
+            // Override grid display for search groups
+            grid.style.display = 'block';
+            
             const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
             
             // Group results by match type
@@ -780,7 +825,10 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalBody = document.getElementById('modalBody');
             
-            modalTitle.innerHTML = `<a href="${escapeHtml(library.repository_url)}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">${escapeHtml(library.name)}</a>`;
+            modalTitle.innerHTML = `
+                <a href="${escapeHtml(library.repository_url)}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">${escapeHtml(library.name)}</a>
+                <button class="copy-name-btn" onclick="copyLibraryName('${escapeHtml(library.name)}')" title="Copy library name">⧉</button>
+            `;
             
             // Get alphabetical neighbors
             const sortedLibraries = [...libraries].sort((a, b) => a.name.localeCompare(b.name));
@@ -880,11 +928,44 @@
             document.body.style.overflow = 'auto'; // Restore scrolling
         }
 
+        // Copy library name to clipboard
+        function copyLibraryName(libraryName) {
+            navigator.clipboard.writeText(libraryName).then(() => {
+                // Show feedback by temporarily changing the button
+                const button = document.querySelector('.copy-name-btn');
+                const originalText = button.textContent;
+                button.textContent = '✓';
+                button.style.color = '#28a745';
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.style.color = '';
+                }, 1000);
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = libraryName;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+            });
+        }
+
         // Search functionality
         function searchLibraries(query) {
             console.log('Search called with query:', query);
             currentSearchQuery = query;
             console.log('Current search query set to:', currentSearchQuery);
+            
+            // Show/hide clear search button
+            const clearBtn = document.getElementById('clearSearchBtn');
+            if (query.trim()) {
+                clearBtn.style.display = 'block';
+            } else {
+                clearBtn.style.display = 'none';
+            }
+            
             applyFilters();
         }
 
@@ -923,6 +1004,13 @@
         // Set up event listeners
         document.getElementById('searchInput').addEventListener('input', (e) => {
             searchLibraries(e.target.value);
+        });
+
+        // Clear search button functionality
+        document.getElementById('clearSearchBtn').addEventListener('click', () => {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = '';
+            searchLibraries('');
         });
 
         // Category section collapse/expand functionality

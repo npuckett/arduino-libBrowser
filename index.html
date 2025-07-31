@@ -11,6 +11,7 @@
         <div class="header">
             <div class="title">THE ARDUINO LIBRARY</div>
             <div class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</div>
+            <button id="debugToggle" style="position: fixed; top: 10px; right: 10px; z-index: 1001; padding: 5px 10px; background: #333; color: white; border: none; border-radius: 3px; font-size: 12px; cursor: pointer;">Debug Margins</button>
         </div>
 
         <div class="search-container">
@@ -24,6 +25,12 @@
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
             >
+            <div class="search-nav" id="searchNav" style="display: none;">
+                <div class="search-nav-title">Jump to:</div>
+                <div class="search-nav-links" id="searchNavLinks">
+                    <!-- Navigation links will be dynamically generated here -->
+                </div>
+            </div>
         </div>
 
         <!-- <div class="random-pick-section">
@@ -66,24 +73,6 @@
                     <button class="filter-btn active" data-platform="all">All Platforms</button>
                 </div>
             </div>
-
-            <div class="alphabet-nav" id="alphabetNav">
-                <div class="section-header collapsible" id="alphabetHeader">
-                    Browse by Letter
-                    <span class="collapse-indicator">+</span>
-                </div>
-                <div class="alphabet-content collapsed" id="alphabetContent">
-                    <div class="active-filters" id="activeFilters" style="display: none;">
-                        <div class="active-filters-content">
-                            <span id="activeFiltersText"></span>
-                            <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
-                        </div>
-                    </div>
-                    <div class="alphabet-buttons" id="alphabetButtons">
-                        <!-- Alphabet buttons will be populated by JavaScript -->
-                    </div>
-                </div>
-            </div>
         </div>
 
         <div class="loading" id="loading">
@@ -121,6 +110,11 @@
         </div>
     </div>
 
+    <!-- Debug margin guides -->
+    <div class="debug-margin-left" id="debugMarginLeft"></div>
+    <div class="debug-margin-right" id="debugMarginRight"></div>
+    <div class="debug-search-span" id="debugSearchSpan"></div>
+
     <script>
         let libraries = [];
         let filteredLibraries = [];
@@ -128,7 +122,6 @@
         let currentPlatform = 'all';
         let currentSearchQuery = '';
         let currentSort = 'most-recent';
-        let currentLetterFilter = null; // Track active letter filter
 
         // Load the library data
         async function loadLibraries() {
@@ -143,9 +136,7 @@
                 
                 populateCategoryFilters();
                 populatePlatformFilters();
-                populateAlphabetNav();
                 setupSortButtons();
-                setupClearLetterFilter();
                 // displayRandomPick();
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
@@ -244,95 +235,6 @@
             });
         }
 
-        // Populate alphabet navigation
-        function populateAlphabetNav() {
-            const alphabetButtons = document.getElementById('alphabetButtons');
-            const alphabet = ['#', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-            
-            // Count libraries starting with each letter
-            const letterCounts = {};
-            alphabet.forEach(letter => letterCounts[letter] = 0);
-            
-            libraries.forEach(lib => {
-                const firstChar = lib.name.charAt(0).toUpperCase();
-                if (firstChar >= 'A' && firstChar <= 'Z') {
-                    letterCounts[firstChar]++;
-                } else {
-                    letterCounts['#']++; // Numbers and special characters
-                }
-            });
-            
-            // Create buttons
-            alphabet.forEach(letter => {
-                const button = document.createElement('button');
-                button.className = letterCounts[letter] > 0 ? 'alphabet-btn' : 'alphabet-btn disabled';
-                button.textContent = letter;
-                button.setAttribute('data-letter', letter);
-                
-                if (letterCounts[letter] > 0) {
-                    button.title = `${letterCounts[letter]} libraries starting with "${letter}"`;
-                    // Add individual click handler to ensure it works
-                    button.onclick = function() {
-                        console.log('Direct onclick handler triggered for letter:', letter);
-                        jumpToLetter(letter);
-                    };
-                } else {
-                    button.title = `No libraries starting with "${letter}"`;
-                }
-                
-                alphabetButtons.appendChild(button);
-            });
-            
-            // Add event listener
-            alphabetButtons.addEventListener('click', (e) => {
-                console.log('Alphabet button clicked:', e.target);
-                console.log('Has alphabet-btn class:', e.target.classList.contains('alphabet-btn'));
-                console.log('Has disabled class:', e.target.classList.contains('disabled'));
-                
-                if (e.target.classList.contains('alphabet-btn') && !e.target.classList.contains('disabled')) {
-                    const letter = e.target.getAttribute('data-letter');
-                    console.log('Calling jumpToLetter with:', letter);
-                    jumpToLetter(letter);
-                }
-            });
-        }
-
-        // Jump to libraries starting with specific letter
-        function jumpToLetter(letter) {
-            console.log('Jumping to letter:', letter);
-            
-            // Set sort to alphabetical when using letter navigation
-            if (currentSort !== 'alphabetical' && currentSort !== 'alphabetical-reverse') {
-                currentSort = 'alphabetical';
-                document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
-                document.querySelector('[data-sort="alphabetical"]').classList.add('active');
-            }
-            
-            // Set the letter filter
-            currentLetterFilter = letter;
-            
-            // Apply all filters including the new letter filter
-            applyFilters();
-            
-            // Update alphabet button states
-            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
-            const letterButton = document.querySelector(`[data-letter="${letter}"]`);
-            if (letterButton) {
-                letterButton.classList.add('active');
-            }
-            
-            // Briefly highlight the first card to show the change
-            setTimeout(() => {
-                const firstCard = document.querySelector('.library-card');
-                if (firstCard) {
-                    firstCard.style.outline = '3px solid #ff6b35';
-                    setTimeout(() => {
-                        firstCard.style.outline = '';
-                    }, 1000);
-                }
-            }, 50);
-        }
-
         // Filter libraries by author
         function filterByAuthor(authorName) {
             // Set search query to author name  
@@ -346,13 +248,11 @@
             // Reset other filters to show all categories/platforms for this author
             currentCategory = 'all';
             currentPlatform = 'all';
-            currentLetterFilter = null;
             
             // Update filter button states
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
             document.querySelector('[data-category="all"]').classList.add('active');
             document.querySelector('[data-platform="all"]').classList.add('active');
-            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
             
             // Apply author-specific search that only shows author matches
             applyAuthorFilter(authorName);
@@ -400,37 +300,11 @@
             grid.innerHTML = html;
         }
 
-        // Clear letter filter and show all filtered results
-        function clearLetterFilter() {
-            currentLetterFilter = null;
-            
-            // Clear alphabet button states
-            document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
-            
-            // Apply filters without letter filter
-            applyFilters();
-        }
-
         // Update the active filters display
         function updateActiveFiltersDisplay() {
-            const activeFiltersDiv = document.getElementById('activeFilters');
-            const activeFiltersText = document.getElementById('activeFiltersText');
-            
-            const filters = [];
-            if (currentCategory !== 'all') filters.push(`Subject: ${currentCategory}`);
-            if (currentPlatform !== 'all') filters.push(`Platform: ${currentPlatform.toUpperCase()}`);
-            if (currentSearchQuery.trim()) filters.push(`Search: "${currentSearchQuery}"`);
-            if (currentLetterFilter) {
-                const letterText = currentLetterFilter === '#' ? 'Numbers/Symbols' : `Letter "${currentLetterFilter}"`;
-                filters.push(letterText);
-            }
-            
-            if (filters.length > 0) {
-                activeFiltersText.textContent = `Active filters: ${filters.join(' • ')}`;
-                activeFiltersDiv.style.display = 'block';
-            } else {
-                activeFiltersDiv.style.display = 'none';
-            }
+            // Since we removed the alphabet navigation section, 
+            // this function no longer needs to display anything
+            // but we keep it to avoid breaking other code that calls it
         }
 
         function setupSortButtons() {
@@ -443,13 +317,11 @@
                     currentSearchQuery = '';
                     currentCategory = 'all';
                     currentPlatform = 'all';
-                    currentLetterFilter = null;
                     
                     // Reset all filter button states
                     document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                     document.querySelector('[data-category="all"]').classList.add('active');
                     document.querySelector('[data-platform="all"]').classList.add('active');
-                    document.querySelectorAll('.alphabet-btn').forEach(btn => btn.classList.remove('active'));
                     
                     // Update active state for sort buttons
                     sortButtons.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
@@ -460,10 +332,6 @@
                     applyFilters();
                 }
             });
-        }
-
-        function setupClearLetterFilter() {
-            document.getElementById('clearLetterFilter').addEventListener('click', clearLetterFilter);
         }
 
         // Sort libraries based on current sort method
@@ -583,7 +451,6 @@
             console.log('applyFilters called');
             console.log('Libraries array length:', libraries.length);
             console.log('Current search query:', currentSearchQuery);
-            console.log('Current letter filter:', currentLetterFilter);
             
             let filtered = libraries;
             
@@ -658,19 +525,6 @@
                 });
             }
             
-            // Apply letter filter if active
-            if (currentLetterFilter) {
-                filtered = filtered.filter(lib => {
-                    const firstChar = lib.name.charAt(0).toUpperCase();
-                    if (currentLetterFilter === '#') {
-                        return firstChar < 'A' || firstChar > 'Z';
-                    } else {
-                        return firstChar === currentLetterFilter;
-                    }
-                });
-                console.log('After letter filter, libraries count:', filtered.length);
-            }
-            
             // Apply sorting
             filtered = sortLibraries(filtered);
             
@@ -731,6 +585,8 @@
             } else {
                 // Regular grid display
                 grid.innerHTML = librariesToShow.map((lib, index) => createLibraryCard(lib)).join('');
+                // Hide search navigation when not searching
+                updateSearchNavigation([]);
             }
         }
         
@@ -757,50 +613,103 @@
                 const category = (lib.category || '').toLowerCase();
                 const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
                 
-                // Determine primary match type
+                // Check each match type independently - libraries can appear in multiple sections
                 if (searchTerms.some(term => name.includes(term))) {
                     groups.nameMatches.push(lib);
-                } else if (searchTerms.some(term => author.includes(term))) {
+                }
+                if (searchTerms.some(term => author.includes(term))) {
                     groups.authorMatches.push(lib);
-                } else if (searchTerms.some(term => category.includes(term))) {
+                }
+                if (searchTerms.some(term => category.includes(term))) {
                     groups.categoryMatches.push(lib);
-                } else {
+                }
+                if (searchTerms.some(term => description.includes(term))) {
                     groups.descriptionMatches.push(lib);
                 }
             });
             
             let html = '';
+            let navLinks = [];
             
             // Add sections for each group that has results
             if (groups.nameMatches.length > 0) {
-                html += `<div class="search-group">
+                html += `<div class="search-group" id="search-names">
                     <div class="search-group-header">Library Names (${groups.nameMatches.length})</div>
                     <div class="search-group-grid">${groups.nameMatches.map(lib => createLibraryCard(lib)).join('')}</div>
                 </div>`;
+                navLinks.push({ id: 'search-names', label: `Library Names (${groups.nameMatches.length})` });
             }
             
             if (groups.authorMatches.length > 0) {
-                html += `<div class="search-group">
+                html += `<div class="search-group" id="search-authors">
                     <div class="search-group-header">Authors (${groups.authorMatches.length})</div>
                     <div class="search-group-grid">${groups.authorMatches.map(lib => createLibraryCard(lib)).join('')}</div>
                 </div>`;
+                navLinks.push({ id: 'search-authors', label: `Authors (${groups.authorMatches.length})` });
             }
             
             if (groups.categoryMatches.length > 0) {
-                html += `<div class="search-group">
+                html += `<div class="search-group" id="search-categories">
                     <div class="search-group-header">Categories (${groups.categoryMatches.length})</div>
                     <div class="search-group-grid">${groups.categoryMatches.map(lib => createLibraryCard(lib)).join('')}</div>
                 </div>`;
+                navLinks.push({ id: 'search-categories', label: `Categories (${groups.categoryMatches.length})` });
             }
             
             if (groups.descriptionMatches.length > 0) {
-                html += `<div class="search-group">
+                html += `<div class="search-group" id="search-descriptions">
                     <div class="search-group-header">Descriptions (${groups.descriptionMatches.length})</div>
                     <div class="search-group-grid">${groups.descriptionMatches.map(lib => createLibraryCard(lib)).join('')}</div>
                 </div>`;
+                navLinks.push({ id: 'search-descriptions', label: `Descriptions (${groups.descriptionMatches.length})` });
             }
             
             grid.innerHTML = html;
+            
+            // Generate and show navigation links
+            updateSearchNavigation(navLinks);
+        }
+        
+        // Update search navigation links
+        function updateSearchNavigation(navLinks) {
+            const searchNav = document.getElementById('searchNav');
+            const searchNavLinks = document.getElementById('searchNavLinks');
+            
+            if (navLinks.length > 0) {
+                // Generate navigation links
+                const linksHtml = navLinks.map(link => 
+                    `<a href="#${link.id}" class="search-nav-link" onclick="scrollToSearchSection('${link.id}')">${link.label}</a>`
+                ).join('');
+                
+                searchNavLinks.innerHTML = linksHtml;
+                searchNav.style.display = 'block';
+            } else {
+                searchNav.style.display = 'none';
+            }
+        }
+        
+        // Scroll to search section
+        function scrollToSearchSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                // Use scrollIntoView with offset instead of manual calculation
+                const searchContainer = document.querySelector('.search-container');
+                const stickyHeight = searchContainer ? searchContainer.offsetHeight : 0;
+                
+                // First scroll to the element
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                
+                // Then adjust for the sticky header with a small delay
+                setTimeout(() => {
+                    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+                    const targetScroll = currentScroll - stickyHeight - 15; // 15px buffer
+                    
+                    window.scrollTo({
+                        top: Math.max(0, targetScroll),
+                        behavior: 'smooth'
+                    });
+                }, 100); // Small delay to let initial scroll start
+            }
         }
         
         // Create a library card HTML
@@ -1061,22 +970,6 @@
             }
         });
 
-        // Alphabet section collapse/expand functionality
-        document.getElementById('alphabetHeader').addEventListener('click', () => {
-            const header = document.getElementById('alphabetHeader');
-            const alphabetContent = document.getElementById('alphabetContent');
-            
-            if (alphabetContent.classList.contains('collapsed')) {
-                // Expand
-                alphabetContent.classList.remove('collapsed');
-                header.classList.add('expanded');
-            } else {
-                // Collapse
-                alphabetContent.classList.add('collapsed');
-                header.classList.remove('expanded');
-            }
-        });
-
         // Modal event listeners
         document.getElementById('modalClose').addEventListener('click', closeModal);
         document.getElementById('modalOverlay').addEventListener('click', (e) => {
@@ -1094,6 +987,26 @@
 
         // Load libraries on page load
         loadLibraries();
+
+        // Debug margin toggle functionality
+        document.getElementById('debugToggle').addEventListener('click', function() {
+            const leftGuide = document.getElementById('debugMarginLeft');
+            const rightGuide = document.getElementById('debugMarginRight');
+            const searchSpan = document.getElementById('debugSearchSpan');
+            const isVisible = leftGuide.style.display === 'block';
+            
+            if (isVisible) {
+                leftGuide.style.display = 'none';
+                rightGuide.style.display = 'none';
+                searchSpan.style.display = 'none';
+                this.textContent = 'Debug Margins';
+            } else {
+                leftGuide.style.display = 'block';
+                rightGuide.style.display = 'block';
+                searchSpan.style.display = 'block';
+                this.textContent = 'Hide Debug';
+            }
+        });
     </script>
 </body>
 </html>

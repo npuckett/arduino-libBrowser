@@ -31,18 +31,28 @@ body {
 }
 
 .subtitle {
-    font-siz.modal-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
 }
 
-.modal-subtitle {
-    display: none;
-} color: #666;
-    font-style: italic;
+.beta-notice {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #856404;
+}
+
+.beta-notice a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.beta-notice a:hover {
+    color: #004499;
 }
 
 .search-container {

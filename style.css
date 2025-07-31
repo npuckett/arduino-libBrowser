@@ -426,6 +426,24 @@ body {
     font-style: italic;
 }
 
+.library-updated {
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.library-stars {
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #666;
+    font-weight: bold;
+}
+
+.library-card:hover .library-updated,
+.library-card:hover .library-stars {
+    color: #ccc;
+}
+
 .library-description {
     font-size: 12px;
     margin-bottom: 10px;
@@ -538,6 +556,7 @@ body {
     width: 90%;
     overflow-y: auto;
     font-family: 'Courier New', monospace;
+    position: relative;
 }
 
 .modal-header {

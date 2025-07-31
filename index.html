@@ -67,6 +67,7 @@
                 <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
                 <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
                 <button class="sort-btn" data-sort="least-recent">Least Recent</button>
+                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
                 <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
                 <button class="sort-btn" data-sort="new-releases">New Releases</button>
                 <button class="sort-btn" data-sort="popular-authors">Popular Authors</button>
@@ -439,6 +440,15 @@
                         return dateA - dateB; // Oldest first
                     });
                 
+                case 'most-popular':
+                    // Sort by GitHub stars (most stars first)
+                    return sorted.sort((a, b) => {
+                        const starsA = parseInt(a.github_stars) || 0;
+                        const starsB = parseInt(b.github_stars) || 0;
+                        if (starsB !== starsA) return starsB - starsA; // Most stars first
+                        return a.name.localeCompare(b.name); // Secondary sort by name
+                    });
+                
                 case 'shelf-order':
                     // Random arrangement like finding misplaced books
                     // Use a seeded random based on current time to get different results each click
@@ -563,7 +573,7 @@
                     return archs.includes('*') || archs.includes(currentPlatform.toLowerCase());
                 });
             }
-            
+
             // Apply search filter
             if (currentSearchQuery.trim()) {
                 console.log('Applying search filter for:', currentSearchQuery);
@@ -639,6 +649,7 @@
                 case 'alphabetical-reverse': return 'Title (Z-A)';
                 case 'most-recent': return 'Most Recently Updated';
                 case 'least-recent': return 'Least Recently Updated';
+                case 'most-popular': return 'Popularity (Stars)';
                 case 'shelf-order': return 'Random Arrangement';
                 case 'new-releases': return 'Latest Additions';
                 case 'popular-authors': return 'Author Popularity';
@@ -668,6 +679,7 @@
                     <div class="library-version">v${escapeHtml(lib.version)}</div>
                     <div class="library-author">${escapeHtml(lib.author)}</div>
                     <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at)}</div>
+                    <div class="library-stars">* ${parseInt(lib.github_stars) || 0} stars</div>
                     <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
                     <div class="library-category">${escapeHtml(lib.category)}</div>
                 </div>

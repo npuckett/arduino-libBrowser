@@ -9,9 +9,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="title">THE ARDUINO LIBRARY</div>
-            <div class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</div>
-            <button id="debugToggle" style="position: fixed; top: 10px; right: 10px; z-index: 1001; padding: 5px 10px; background: #333; color: white; border: none; border-radius: 3px; font-size: 12px; cursor: pointer;">Debug Margins</button>
+            <div class="title">
+                THE ARDUINO LIBRARY
+                <span class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</span>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <div class="section-header collapsible" id="aboutHeader">
+                About
+                <span class="collapse-indicator">+</span>
+            </div>
+            <div class="about-content collapsed" id="aboutContent">
+                <p><a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">The Arduino Library</a> is an open source tool created to help people discover the wide range of libraries being developed on the Arduino platform. It was created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a>.</p>
+            </div>
         </div>
 
         <div class="search-container">
@@ -85,16 +96,6 @@
         <div class="no-results" id="noResults" style="display: none;">
             No items found in the collection matching your search.
         </div>
-
-        <div class="about-section">
-            <div class="section-header collapsible" id="aboutHeader">
-                About the Library Library
-                <span class="collapse-indicator">+</span>
-            </div>
-            <div class="about-content collapsed" id="aboutContent">
-                <p><a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">The Arduino Library Library</a> is an open source tool created to help people discover the wide range of libraries being developed on the Arduino platform. It was created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a>.</p>
-            </div>
-        </div>
     </div>
 
     <!-- Library Detail Modal -->
@@ -109,11 +110,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Debug margin guides -->
-    <div class="debug-margin-left" id="debugMarginLeft"></div>
-    <div class="debug-margin-right" id="debugMarginRight"></div>
-    <div class="debug-search-span" id="debugSearchSpan"></div>
 
     <script>
         let libraries = [];
@@ -987,26 +983,6 @@
 
         // Load libraries on page load
         loadLibraries();
-
-        // Debug margin toggle functionality
-        document.getElementById('debugToggle').addEventListener('click', function() {
-            const leftGuide = document.getElementById('debugMarginLeft');
-            const rightGuide = document.getElementById('debugMarginRight');
-            const searchSpan = document.getElementById('debugSearchSpan');
-            const isVisible = leftGuide.style.display === 'block';
-            
-            if (isVisible) {
-                leftGuide.style.display = 'none';
-                rightGuide.style.display = 'none';
-                searchSpan.style.display = 'none';
-                this.textContent = 'Debug Margins';
-            } else {
-                leftGuide.style.display = 'block';
-                rightGuide.style.display = 'block';
-                searchSpan.style.display = 'block';
-                this.textContent = 'Hide Debug';
-            }
-        });
     </script>
 </body>
 </html>

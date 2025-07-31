@@ -21,7 +21,8 @@
                 <span class="collapse-indicator">+</span>
             </div>
             <div class="about-content collapsed" id="aboutContent">
-                <p><a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">The Arduino Library</a> is an open source tool created to help people discover the wide range of libraries being developed on the Arduino platform. It was created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a>.</p>
+                <p>The <a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">Arduino Library Browser</a> is an Open Source tool created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a> that allows you to search and browse all <span id="entryCount">8,000+</span> libraries currently available in the <a href="https://github.com/arduino/library-registry" target="_blank" rel="noopener">Arduino Library Manager</a>. The registry is constantly evolving with user updates, so this tool updates each day with new information.</p>
+                <p>Please submit any issues or feedback via the <a href="https://github.com/npuckett/arduino-libBrowser/issues" target="_blank" rel="noopener">Issues Page</a></p>
             </div>
         </div>
 
@@ -150,6 +151,12 @@
             const lastUpdate = data.enhanced_at || data.processed_at || '2025-07-21';
             const formattedDate = formatDateForHeader(lastUpdate);
             subtitle.textContent = `${libraryCount.toLocaleString()} entries, updated ${formattedDate}`;
+            
+            // Update entry count in About section
+            const entryCountSpan = document.getElementById('entryCount');
+            if (entryCountSpan) {
+                entryCountSpan.textContent = libraryCount.toLocaleString();
+            }
         }
 
         // Format date for header display

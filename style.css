@@ -16,6 +16,20 @@ body {
     line-height: 1.4;
 }
 
+/* Link styles */
+a {
+    color: black !important;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black !important;
+}
+
+a:hover {
+    color: #333 !important;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;

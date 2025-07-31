@@ -17,22 +17,14 @@
             </div>
         </div>
 
-        <div class="search-sort-container">
+        <div class="search-container">
+            <div class="section-header">Search</div>
             <input 
                 type="text" 
                 class="search-box" 
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
             >
-            <div class="sort-buttons">
-                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
-                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
-                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
-                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
-                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
-                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
-                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
-            </div>
             <div class="stats" id="stats">
                 Loading collection catalog...
             </div>
@@ -47,40 +39,53 @@
             </div>
         </div> -->
 
-        <div class="category-filters" id="categoryFilters">
-            <div class="section-header collapsible" id="categoryHeader">
-                Filter By Subject
-                <span class="collapse-indicator">+</span>
+        <div class="browse-section">
+            <div class="section-header">Browse</div>
+            <div class="sort-buttons">
+                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
+                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
+                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
+                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
+                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
+                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
+                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
             </div>
-            <div class="filter-buttons collapsed" id="filterButtons">
-                <button class="filter-btn active" data-category="all">All</button>
-            </div>
-        </div>
-
-        <div class="platform-filters" id="platformFilters">
-            <div class="section-header collapsible" id="platformHeader">
-                Filter by Platform
-                <span class="collapse-indicator">+</span>
-            </div>
-            <div class="filter-buttons collapsed" id="platformButtons">
-                <button class="filter-btn active" data-platform="all">All Platforms</button>
-            </div>
-        </div>
-
-        <div class="alphabet-nav" id="alphabetNav">
-            <div class="section-header collapsible" id="alphabetHeader">
-                Filter by Letter
-                <span class="collapse-indicator">+</span>
-            </div>
-            <div class="alphabet-content collapsed" id="alphabetContent">
-                <div class="active-filters" id="activeFilters" style="display: none;">
-                    <div class="active-filters-content">
-                        <span id="activeFiltersText"></span>
-                        <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
-                    </div>
+            
+            <div class="category-filters" id="categoryFilters">
+                <div class="section-header collapsible" id="categoryHeader">
+                    Browse By Subject
+                    <span class="collapse-indicator">+</span>
                 </div>
-                <div class="alphabet-buttons" id="alphabetButtons">
-                    <!-- Alphabet buttons will be populated by JavaScript -->
+                <div class="filter-buttons collapsed" id="filterButtons">
+                    <button class="filter-btn active" data-category="all">All</button>
+                </div>
+            </div>
+
+            <div class="platform-filters" id="platformFilters">
+                <div class="section-header collapsible" id="platformHeader">
+                    Browse by Platform
+                    <span class="collapse-indicator">+</span>
+                </div>
+                <div class="filter-buttons collapsed" id="platformButtons">
+                    <button class="filter-btn active" data-platform="all">All Platforms</button>
+                </div>
+            </div>
+
+            <div class="alphabet-nav" id="alphabetNav">
+                <div class="section-header collapsible" id="alphabetHeader">
+                    Browse by Letter
+                    <span class="collapse-indicator">+</span>
+                </div>
+                <div class="alphabet-content collapsed" id="alphabetContent">
+                    <div class="active-filters" id="activeFilters" style="display: none;">
+                        <div class="active-filters-content">
+                            <span id="activeFiltersText"></span>
+                            <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
+                        </div>
+                    </div>
+                    <div class="alphabet-buttons" id="alphabetButtons">
+                        <!-- Alphabet buttons will be populated by JavaScript -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -547,18 +552,58 @@
             if (currentSearchQuery.trim()) {
                 console.log('Applying search filter for:', currentSearchQuery);
                 const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
-                filtered = filtered.filter(lib => {
-                    const searchableText = [
-                        lib.name,
-                        lib.sentence || '',
-                        lib.paragraph || '',
-                        lib.author,
-                        lib.category
-                    ].join(' ').toLowerCase();
-
-                    return searchTerms.every(term => searchableText.includes(term));
+                
+                // Group results by match type
+                const searchResults = {
+                    nameMatches: [],
+                    authorMatches: [],
+                    categoryMatches: [],
+                    descriptionMatches: []
+                };
+                
+                libraries.forEach(lib => {
+                    const name = (lib.name || '').toLowerCase();
+                    const author = (lib.author || '').toLowerCase();
+                    const category = (lib.category || '').toLowerCase();
+                    const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
+                    
+                    let hasMatch = false;
+                    
+                    // Check each search term
+                    const matchesAllTerms = searchTerms.every(term => {
+                        return name.includes(term) || author.includes(term) || 
+                               category.includes(term) || description.includes(term);
+                    });
+                    
+                    if (matchesAllTerms) {
+                        // Determine primary match type (prioritize name > author > category > description)
+                        if (searchTerms.some(term => name.includes(term))) {
+                            searchResults.nameMatches.push(lib);
+                        } else if (searchTerms.some(term => author.includes(term))) {
+                            searchResults.authorMatches.push(lib);
+                        } else if (searchTerms.some(term => category.includes(term))) {
+                            searchResults.categoryMatches.push(lib);
+                        } else {
+                            searchResults.descriptionMatches.push(lib);
+                        }
+                    }
                 });
-                console.log('After search filter, libraries count:', filtered.length);
+                
+                // Combine results in priority order
+                filtered = [
+                    ...searchResults.nameMatches,
+                    ...searchResults.authorMatches,
+                    ...searchResults.categoryMatches,
+                    ...searchResults.descriptionMatches
+                ];
+                
+                console.log('Search results breakdown:', {
+                    name: searchResults.nameMatches.length,
+                    author: searchResults.authorMatches.length,
+                    category: searchResults.categoryMatches.length,
+                    description: searchResults.descriptionMatches.length,
+                    total: filtered.length
+                });
             }
             
             // Apply letter filter if active
@@ -637,19 +682,93 @@
             }
 
             noResults.style.display = 'none';
-            grid.style.display = 'grid';
+            grid.style.display = 'block';
             
-            grid.innerHTML = librariesToShow.map((lib, index) => `
-                <div class="library-card" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
-                    <div class="library-name">${escapeHtml(lib.name)}</div>
-                    <div class="library-version">v${escapeHtml(lib.version)}</div>
-                    <div class="library-author">${escapeHtml(lib.author)}</div>
-                    <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at)}</div>
-                    <div class="library-stars">* ${parseInt(lib.github_stars) || 0} stars</div>
-                    <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
-                    <div class="library-category">${escapeHtml(lib.category)}</div>
-                </div>
-            `).join('');
+            // If there's a search query, display grouped results
+            if (currentSearchQuery.trim()) {
+                displayGroupedSearchResults(librariesToShow);
+            } else {
+                // Regular grid display
+                grid.innerHTML = librariesToShow.map((lib, index) => createLibraryCard(lib)).join('');
+            }
+        }
+        
+        // Display search results grouped by match type
+        function displayGroupedSearchResults(libraries) {
+            const grid = document.getElementById('libraryGrid');
+            const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
+            
+            // Group results by match type
+            const groups = {
+                nameMatches: [],
+                authorMatches: [],
+                categoryMatches: [],
+                descriptionMatches: []
+            };
+            
+            libraries.forEach(lib => {
+                const name = (lib.name || '').toLowerCase();
+                const author = (lib.author || '').toLowerCase();
+                const category = (lib.category || '').toLowerCase();
+                const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
+                
+                // Determine primary match type
+                if (searchTerms.some(term => name.includes(term))) {
+                    groups.nameMatches.push(lib);
+                } else if (searchTerms.some(term => author.includes(term))) {
+                    groups.authorMatches.push(lib);
+                } else if (searchTerms.some(term => category.includes(term))) {
+                    groups.categoryMatches.push(lib);
+                } else {
+                    groups.descriptionMatches.push(lib);
+                }
+            });
+            
+            let html = '';
+            
+            // Add sections for each group that has results
+            if (groups.nameMatches.length > 0) {
+                html += `<div class="search-group">
+                    <div class="search-group-header">Library Names (${groups.nameMatches.length})</div>
+                    <div class="search-group-grid">${groups.nameMatches.map(lib => createLibraryCard(lib)).join('')}</div>
+                </div>`;
+            }
+            
+            if (groups.authorMatches.length > 0) {
+                html += `<div class="search-group">
+                    <div class="search-group-header">Authors (${groups.authorMatches.length})</div>
+                    <div class="search-group-grid">${groups.authorMatches.map(lib => createLibraryCard(lib)).join('')}</div>
+                </div>`;
+            }
+            
+            if (groups.categoryMatches.length > 0) {
+                html += `<div class="search-group">
+                    <div class="search-group-header">Categories (${groups.categoryMatches.length})</div>
+                    <div class="search-group-grid">${groups.categoryMatches.map(lib => createLibraryCard(lib)).join('')}</div>
+                </div>`;
+            }
+            
+            if (groups.descriptionMatches.length > 0) {
+                html += `<div class="search-group">
+                    <div class="search-group-header">Descriptions (${groups.descriptionMatches.length})</div>
+                    <div class="search-group-grid">${groups.descriptionMatches.map(lib => createLibraryCard(lib)).join('')}</div>
+                </div>`;
+            }
+            
+            grid.innerHTML = html;
+        }
+        
+        // Create a library card HTML
+        function createLibraryCard(lib) {
+            return `<div class="library-card" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                <div class="library-name">${escapeHtml(lib.name)}</div>
+                <div class="library-version">v${escapeHtml(lib.version)}</div>
+                <div class="library-author">${escapeHtml(lib.author)}</div>
+                <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at)}</div>
+                <div class="library-stars">* ${parseInt(lib.github_stars) || 0} stars</div>
+                <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
+                <div class="library-category">${escapeHtml(lib.category)}</div>
+            </div>`;
         }
 
         // Open library detail modal

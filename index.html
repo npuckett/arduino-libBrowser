@@ -916,6 +916,8 @@
             const searchInput = document.getElementById('searchInput');
             searchInput.value = '';
             searchLibraries('');
+            // Reset scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
         // Category section collapse/expand functionality

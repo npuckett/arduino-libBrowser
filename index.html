@@ -892,6 +892,24 @@
             const clearBtn = document.getElementById('clearSearchBtn');
             if (query.trim()) {
                 clearBtn.style.display = 'block';
+                
+                // Collapse browse sections when searching
+                const categoryHeader = document.getElementById('categoryHeader');
+                const categoryButtons = document.getElementById('filterButtons');
+                const platformHeader = document.getElementById('platformHeader');
+                const platformButtons = document.getElementById('platformButtons');
+                
+                // Collapse category section if expanded
+                if (!categoryButtons.classList.contains('collapsed')) {
+                    categoryButtons.classList.add('collapsed');
+                    categoryHeader.classList.remove('expanded');
+                }
+                
+                // Collapse platform section if expanded
+                if (!platformButtons.classList.contains('collapsed')) {
+                    platformButtons.classList.add('collapsed');
+                    platformHeader.classList.remove('expanded');
+                }
             } else {
                 clearBtn.style.display = 'none';
             }

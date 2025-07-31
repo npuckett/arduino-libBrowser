@@ -125,7 +125,7 @@ The system maintains a JSON database containing:
 - **Static Site**: Pure HTML/CSS/JavaScript for fast loading and reliability
 - **GitHub Pages**: Automatically deployed when data updates
 - **Client-side Processing**: All filtering and sorting happens in the browser
-- **Responsive Design**: Mobile-first approach with progressive enhancement
+
 
 #### **Core Technologies**
 - **PowerShell**: Data processing scripts with GitHub API integration
@@ -147,20 +147,6 @@ The system maintains a JSON database containing:
 - **Error Recovery**: Automatic retry logic for temporary failures
 - **Monitoring**: GitHub Actions provide detailed execution logs
 
-### Contributing & Development
-
-#### **Getting Started**
-1. **Fork** the repository
-2. **Local Development**: Open `index.html` in a browser
-3. **Data Updates**: Modify workflow files in `.github/workflows/`
-4. **Testing**: Run workflows manually to test changes
-
-#### **Key Files**
-- `index.html` - Main web interface
-- `style.css` - Styling and responsive design
-- `.github/workflows/update-libraries.yml` - Daily update automation
-- `.github/workflows/weekly-full-enhancement.yml` - Weekly refresh automation
-- `AUTOMATION_STRATEGY.md` - Detailed technical documentation
 
 #### **Issues & Feedback**
 Found a bug or have a suggestion? Please [open an issue](https://github.com/npuckett/arduino-libBrowser/issues) on GitHub.

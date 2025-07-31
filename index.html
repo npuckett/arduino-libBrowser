@@ -220,6 +220,15 @@
                 if (e.target.classList.contains('filter-btn')) {
                     const clickedPlatform = e.target.getAttribute('data-platform');
                     
+                    // Clear search when using browse buttons
+                    const searchInput = document.getElementById('searchInput');
+                    searchInput.value = '';
+                    currentSearchQuery = '';
+                    
+                    // Hide clear search button
+                    const clearBtn = document.getElementById('clearSearchBtn');
+                    clearBtn.style.display = 'none';
+                    
                     // If clicking the currently active filter (and it's not "all"), deselect it
                     if (currentPlatform === clickedPlatform && clickedPlatform !== 'all') {
                         // Reset to "all"
@@ -430,6 +439,15 @@
             filterButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('filter-btn')) {
                     const clickedCategory = e.target.getAttribute('data-category');
+                    
+                    // Clear search when using browse buttons
+                    const searchInput = document.getElementById('searchInput');
+                    searchInput.value = '';
+                    currentSearchQuery = '';
+                    
+                    // Hide clear search button
+                    const clearBtn = document.getElementById('clearSearchBtn');
+                    clearBtn.style.display = 'none';
                     
                     // If clicking the currently active filter (and it's not "all"), deselect it
                     if (currentCategory === clickedCategory && clickedCategory !== 'all') {

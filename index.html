@@ -17,24 +17,35 @@
             </div>
         </div>
 
-        <div class="search-container">
+        <div class="search-sort-container">
             <input 
                 type="text" 
                 class="search-box" 
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
             >
+            <div class="sort-buttons">
+                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
+                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
+                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
+                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
+                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
+                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
+                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
+            </div>
+            <div class="stats" id="stats">
+                Loading collection catalog...
+            </div>
         </div>
 
-        <div class="random-pick-section">
+        <!-- <div class="random-pick-section">
             <div class="section-header">
                 Grab Bag Selection
-                <button class="refresh-random" id="refreshRandom">New Selection</button>
             </div>
             <div class="random-pick-card" id="randomPick">
                 <div class="loading">Selecting a random library...</div>
             </div>
-        </div>
+        </div> -->
 
         <div class="category-filters" id="categoryFilters">
             <div class="section-header collapsible" id="categoryHeader">
@@ -56,36 +67,21 @@
             </div>
         </div>
 
-        <div class="stats" id="stats">
-            Loading collection catalog...
-        </div>
-
-        <div class="sort-section">
-            <div class="section-header">Browse the Stacks</div>
-            <div class="sort-buttons">
-                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
-                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
-                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
-                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
-                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
-                <button class="sort-btn" data-sort="shelf-order">Shelf Order</button>
-                <button class="sort-btn" data-sort="new-releases">New Releases</button>
-                <button class="sort-btn" data-sort="popular-authors">Popular Authors</button>
-                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
-                <button class="sort-btn" data-sort="quick-reads">Quick Reads</button>
-            </div>
-        </div>
-
         <div class="alphabet-nav" id="alphabetNav">
-            <div class="active-filters" id="activeFilters" style="display: none;">
-                <div class="active-filters-content">
-                    <span id="activeFiltersText"></span>
-                    <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
-                </div>
+            <div class="section-header collapsible" id="alphabetHeader">
+                Filter by Letter
+                <span class="collapse-indicator">+</span>
             </div>
-            <div class="section-header">Quick Jump</div>
-            <div class="alphabet-buttons" id="alphabetButtons">
-                <!-- Alphabet buttons will be populated by JavaScript -->
+            <div class="alphabet-content collapsed" id="alphabetContent">
+                <div class="active-filters" id="activeFilters" style="display: none;">
+                    <div class="active-filters-content">
+                        <span id="activeFiltersText"></span>
+                        <button class="clear-filters-btn" id="clearLetterFilter">Clear Letter Filter</button>
+                    </div>
+                </div>
+                <div class="alphabet-buttons" id="alphabetButtons">
+                    <!-- Alphabet buttons will be populated by JavaScript -->
+                </div>
             </div>
         </div>
 
@@ -150,7 +146,7 @@
                 setupSortButtons();
                 setupClearLetterFilter();
                 updateStats();
-                displayRandomPick();
+                // displayRandomPick();
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('libraryGrid').style.display = 'grid';
@@ -459,39 +455,12 @@
                     }
                     return shuffled;
                 
-                case 'new-releases':
-                    // Sort by processed_at date (newest first)
-                    return sorted.sort((a, b) => new Date(b.processed_at) - new Date(a.processed_at));
-                
-                case 'popular-authors':
-                    // Group by author and sort by author popularity
-                    const authorCounts = {};
-                    libraries.forEach(lib => {
-                        const author = lib.author || 'Unknown';
-                        authorCounts[author] = (authorCounts[author] || 0) + 1;
-                    });
-                    return sorted.sort((a, b) => {
-                        const countA = authorCounts[a.author || 'Unknown'];
-                        const countB = authorCounts[b.author || 'Unknown'];
-                        if (countB !== countA) return countB - countA;
-                        return a.author.localeCompare(b.author); // Secondary sort by author name
-                    });
-                
                 case 'heavily-relied':
                     // Sort by number of dependencies (more dependencies = heavily relied upon by others)
                     return sorted.sort((a, b) => {
                         const depsA = (a.depends || '').split(',').filter(d => d.trim()).length;
                         const depsB = (b.depends || '').split(',').filter(d => d.trim()).length;
                         if (depsB !== depsA) return depsB - depsA;
-                        return a.name.localeCompare(b.name); // Secondary sort
-                    });
-                
-                case 'quick-reads':
-                    // Sort by description length (shortest first)
-                    return sorted.sort((a, b) => {
-                        const descA = (a.sentence || '') + (a.paragraph || '');
-                        const descB = (b.sentence || '') + (b.paragraph || '');
-                        if (descA.length !== descB.length) return descA.length - descB.length;
                         return a.name.localeCompare(b.name); // Secondary sort
                     });
                 
@@ -651,10 +620,7 @@
                 case 'least-recent': return 'Least Recently Updated';
                 case 'most-popular': return 'Popularity (Stars)';
                 case 'shelf-order': return 'Random Arrangement';
-                case 'new-releases': return 'Latest Additions';
-                case 'popular-authors': return 'Author Popularity';
                 case 'heavily-relied': return 'Dependencies';
-                case 'quick-reads': return 'Description Length';
                 default: return 'Unknown';
             }
         }
@@ -840,10 +806,6 @@
             searchLibraries(e.target.value);
         });
 
-        document.getElementById('refreshRandom').addEventListener('click', () => {
-            displayRandomPick();
-        });
-
         // Category section collapse/expand functionality
         document.getElementById('categoryHeader').addEventListener('click', () => {
             const header = document.getElementById('categoryHeader');
@@ -888,6 +850,22 @@
             } else {
                 // Collapse
                 platformButtons.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // Alphabet section collapse/expand functionality
+        document.getElementById('alphabetHeader').addEventListener('click', () => {
+            const header = document.getElementById('alphabetHeader');
+            const alphabetContent = document.getElementById('alphabetContent');
+            
+            if (alphabetContent.classList.contains('collapsed')) {
+                // Expand
+                alphabetContent.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                alphabetContent.classList.add('collapsed');
                 header.classList.remove('expanded');
             }
         });

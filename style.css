@@ -735,13 +735,17 @@ a:hover {
 .copy-name-btn {
     background: none;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 4px 6px;
+    border-radius: 4px;
+    padding: 5px 7px;
     font-size: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
     color: #666;
     flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
 }
 
 .copy-name-btn:hover {
@@ -761,12 +765,17 @@ a:hover {
     right: 20px;
     background: none;
     border: 2px solid black;
+    border-radius: 2px;
     font-size: 18px;
     font-weight: bold;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
     font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
 }
 
 .modal-close:hover {
@@ -892,6 +901,24 @@ a:hover {
         padding: 15px;
     }
     
+    .modal-title {
+        font-size: 24px;
+        gap: 8px;
+    }
+    
+    .modal-close {
+        top: 10px;
+        right: 15px;
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+    
+    .copy-name-btn {
+        font-size: 11px;
+        padding: 3px 5px;
+    }
+    
     .modal-body {
         padding: 15px;
     }
@@ -933,6 +960,32 @@ a:hover {
     .library-description {
         font-size: 11px;
         min-height: 30px;
+    }
+    
+    .modal-title {
+        font-size: 18px;
+        gap: 6px;
+    }
+    
+    .modal-close {
+        top: 8px;
+        right: 12px;
+        width: 26px;
+        height: 26px;
+        font-size: 14px;
+    }
+    
+    .copy-name-btn {
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+    
+    .modal-header {
+        padding: 12px;
+    }
+    
+    .modal-body {
+        padding: 12px;
     }
 }
 

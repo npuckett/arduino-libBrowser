@@ -827,6 +827,11 @@
                 </div>
                 
                 <div class="detail-section">
+                    <div class="detail-label">Created</div>
+                    <div class="detail-value">${formatActualDate(library.github_created_at || library.processed_at)}</div>
+                </div>
+                
+                <div class="detail-section">
                     <div class="detail-label">Updated</div>
                     <div class="detail-value">${formatDate(library.github_updated_at || library.processed_at)}</div>
                 </div>
@@ -986,9 +991,26 @@
                 const date = new Date(dateString);
                 const now = new Date();
                 const diffTime = Math.abs(now - date);
+                const diffHours = Math.floor(diffTime / (1000 * 60 * 60));
                 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
                 
-                if (diffDays === 1) {
+                // Show hours for updates within the last 24 hours
+                if (diffHours < 24) {
+                    if (diffHours === 0) {
+                        const diffMinutes = Math.floor(diffTime / (1000 * 60));
+                        if (diffMinutes === 0) {
+                            return 'just now';
+                        } else if (diffMinutes === 1) {
+                            return '1 minute ago';
+                        } else {
+                            return `${diffMinutes} minutes ago`;
+                        }
+                    } else if (diffHours === 1) {
+                        return '1 hour ago';
+                    } else {
+                        return `${diffHours} hours ago`;
+                    }
+                } else if (diffDays === 1) {
                     return '1 day ago';
                 } else if (diffDays < 30) {
                     return `${diffDays} days ago`;
@@ -999,6 +1021,22 @@
                     const years = Math.floor(diffDays / 365);
                     return years === 1 ? '1 year ago' : `${years} years ago`;
                 }
+            } catch (error) {
+                return 'Unknown';
+            }
+        }
+
+        // Format date as actual date (for created field)
+        function formatActualDate(dateString) {
+            if (!dateString) return 'Unknown';
+            try {
+                const date = new Date(dateString);
+                const options = { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                };
+                return date.toLocaleDateString('en-US', options);
             } catch (error) {
                 return 'Unknown';
             }

@@ -629,6 +629,11 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    :root {
+        --content-margin-left: 10px;
+        --content-margin-right: 10px;
+    }
+    
     .library-grid {
         grid-template-columns: repeat(auto-fill, 220px);
         gap: 10px;
@@ -902,13 +907,18 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    :root {
+        --content-margin-left: 8px;
+        --content-margin-right: 8px;
+    }
+    
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 160px);
+        grid-template-columns: repeat(auto-fill, 170px);
         gap: 8px;
     }
     
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 160px);
+        grid-template-columns: repeat(auto-fill, 170px);
         gap: 8px;
     }
     

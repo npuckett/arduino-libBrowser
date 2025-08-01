@@ -500,11 +500,14 @@
                 console.log('Applying search filter for:', currentSearchQuery);
                 const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
                 
-                // Group results by match type
+                // Group results by match type with priority for "starts with" matches
                 const searchResults = {
-                    nameMatches: [],
-                    authorMatches: [],
-                    categoryMatches: [],
+                    nameStartsWith: [],
+                    nameContains: [],
+                    authorStartsWith: [],
+                    authorContains: [],
+                    categoryStartsWith: [],
+                    categoryContains: [],
                     descriptionMatches: []
                 };
                 
@@ -514,40 +517,68 @@
                     const category = (lib.category || '').toLowerCase();
                     const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
                     
-                    let hasMatch = false;
-                    
-                    // Check each search term
+                    // Check if all search terms are found somewhere in the library
                     const matchesAllTerms = searchTerms.every(term => {
                         return name.includes(term) || author.includes(term) || 
                                category.includes(term) || description.includes(term);
                     });
                     
                     if (matchesAllTerms) {
-                        // Determine primary match type (prioritize name > author > category > description)
-                        if (searchTerms.some(term => name.includes(term))) {
-                            searchResults.nameMatches.push(lib);
-                        } else if (searchTerms.some(term => author.includes(term))) {
-                            searchResults.authorMatches.push(lib);
-                        } else if (searchTerms.some(term => category.includes(term))) {
-                            searchResults.categoryMatches.push(lib);
-                        } else {
+                        // Determine primary match type with "starts with" priority
+                        let matched = false;
+                        
+                        // Check name matches (starts with has highest priority)
+                        if (!matched && searchTerms.some(term => name.startsWith(term))) {
+                            searchResults.nameStartsWith.push(lib);
+                            matched = true;
+                        } else if (!matched && searchTerms.some(term => name.includes(term))) {
+                            searchResults.nameContains.push(lib);
+                            matched = true;
+                        }
+                        
+                        // Check author matches if no name match
+                        if (!matched && searchTerms.some(term => author.startsWith(term))) {
+                            searchResults.authorStartsWith.push(lib);
+                            matched = true;
+                        } else if (!matched && searchTerms.some(term => author.includes(term))) {
+                            searchResults.authorContains.push(lib);
+                            matched = true;
+                        }
+                        
+                        // Check category matches if no name/author match
+                        if (!matched && searchTerms.some(term => category.startsWith(term))) {
+                            searchResults.categoryStartsWith.push(lib);
+                            matched = true;
+                        } else if (!matched && searchTerms.some(term => category.includes(term))) {
+                            searchResults.categoryContains.push(lib);
+                            matched = true;
+                        }
+                        
+                        // Description matches (always "contains" since descriptions are longer)
+                        if (!matched && searchTerms.some(term => description.includes(term))) {
                             searchResults.descriptionMatches.push(lib);
                         }
                     }
                 });
                 
-                // Combine results in priority order
+                // Combine results in priority order: starts-with matches first, then contains matches
                 filtered = [
-                    ...searchResults.nameMatches,
-                    ...searchResults.authorMatches,
-                    ...searchResults.categoryMatches,
+                    ...searchResults.nameStartsWith,
+                    ...searchResults.nameContains,
+                    ...searchResults.authorStartsWith,
+                    ...searchResults.authorContains,
+                    ...searchResults.categoryStartsWith,
+                    ...searchResults.categoryContains,
                     ...searchResults.descriptionMatches
                 ];
                 
                 console.log('Search results breakdown:', {
-                    name: searchResults.nameMatches.length,
-                    author: searchResults.authorMatches.length,
-                    category: searchResults.categoryMatches.length,
+                    nameStartsWith: searchResults.nameStartsWith.length,
+                    nameContains: searchResults.nameContains.length,
+                    authorStartsWith: searchResults.authorStartsWith.length,
+                    authorContains: searchResults.authorContains.length,
+                    categoryStartsWith: searchResults.categoryStartsWith.length,
+                    categoryContains: searchResults.categoryContains.length,
                     description: searchResults.descriptionMatches.length,
                     total: filtered.length
                 });
@@ -644,7 +675,7 @@
             
             const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
             
-            // Group results by match type
+            // Group results by match type (libraries already prioritized by applyFilters)
             const groups = {
                 nameMatches: [],
                 authorMatches: [],

@@ -59,8 +59,8 @@
             <div class="sort-buttons">
                 <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
                 <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
-                <button class="sort-btn active" data-sort="most-recent">Most Recent</button>
-                <button class="sort-btn" data-sort="least-recent">Least Recent</button>
+                <button class="sort-btn active" data-sort="most-recent">Recent Updates</button>
+                <button class="sort-btn" data-sort="new-additions">New Additions</button>
                 <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
                 <button class="sort-btn" data-sort="shelf-order">Registry Order</button>
                 <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
@@ -372,12 +372,12 @@
                         return dateB - dateA; // Most recent first
                     });
                 
-                case 'least-recent':
-                    // Sort by GitHub updated_at date (oldest first)
+                case 'new-additions':
+                    // Sort by GitHub created_at date (newest repositories first)
                     return sorted.sort((a, b) => {
-                        const dateA = new Date(a.github_updated_at || a.processed_at || '1900-01-01');
-                        const dateB = new Date(b.github_updated_at || b.processed_at || '1900-01-01');
-                        return dateA - dateB; // Oldest first
+                        const dateA = new Date(a.github_created_at || a.processed_at || '1900-01-01');
+                        const dateB = new Date(b.github_created_at || b.processed_at || '1900-01-01');
+                        return dateB - dateA; // Newest repositories first
                     });
                 
                 case 'most-popular':
@@ -616,8 +616,8 @@
             switch (sortMethod) {
                 case 'alphabetical': return 'Title (A-Z)';
                 case 'alphabetical-reverse': return 'Title (Z-A)';
-                case 'most-recent': return 'Most Recently Updated';
-                case 'least-recent': return 'Least Recently Updated';
+                case 'most-recent': return 'Recent Updates';
+                case 'new-additions': return 'New Additions';
                 case 'most-popular': return 'Popularity (Stars)';
                 case 'shelf-order': return 'Random Arrangement';
                 case 'heavily-relied': return 'Dependencies';

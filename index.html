@@ -94,6 +94,11 @@
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
 
+        <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+            <button class="load-more-btn" id="loadMoreBtn">Load More Libraries</button>
+            <div class="load-more-info" id="loadMoreInfo"></div>
+        </div>
+
         <div class="no-results" id="noResults" style="display: none;">
             No items found in the collection matching your search.
         </div>
@@ -119,6 +124,8 @@
         let currentPlatform = 'all';
         let currentSearchQuery = '';
         let currentSort = 'most-recent';
+        let currentDisplayCount = 120; // How many libraries are currently displayed
+        const itemsPerPage = 120; // How many to load at once
 
         // Load the library data
         async function loadLibraries() {
@@ -550,8 +557,9 @@
             filtered = sortLibraries(filtered);
             
             filteredLibraries = filtered;
+            currentDisplayCount = itemsPerPage; // Reset display count when filters change
             updateActiveFiltersDisplay();
-            displayLibraries(filteredLibraries.slice(0, 120));
+            displayLibraries();
         }
 
         // Display a random library pick
@@ -587,13 +595,16 @@
         }
 
         // Display libraries in the grid
-        function displayLibraries(librariesToShow) {
+        function displayLibraries() {
             const grid = document.getElementById('libraryGrid');
             const noResults = document.getElementById('noResults');
+            const loadMoreContainer = document.getElementById('loadMoreContainer');
+            const loadMoreInfo = document.getElementById('loadMoreInfo');
             
-            if (librariesToShow.length === 0) {
+            if (filteredLibraries.length === 0) {
                 grid.style.display = 'none';
                 noResults.style.display = 'block';
+                loadMoreContainer.style.display = 'none';
                 return;
             }
 
@@ -602,10 +613,23 @@
             
             // If there's a search query, display grouped results
             if (currentSearchQuery.trim()) {
-                displayGroupedSearchResults(librariesToShow);
+                displayGroupedSearchResults(filteredLibraries.slice(0, currentDisplayCount));
+                loadMoreContainer.style.display = 'none'; // Hide load more for search results
             } else {
-                // Regular grid display
+                // Regular grid display with pagination
+                const librariesToShow = filteredLibraries.slice(0, currentDisplayCount);
                 grid.innerHTML = librariesToShow.map((lib, index) => createLibraryCard(lib)).join('');
+                
+                // Show/hide load more button
+                if (currentDisplayCount < filteredLibraries.length) {
+                    loadMoreContainer.style.display = 'block';
+                    const remaining = filteredLibraries.length - currentDisplayCount;
+                    const nextBatch = Math.min(remaining, itemsPerPage);
+                    loadMoreInfo.textContent = `Showing ${currentDisplayCount} of ${filteredLibraries.length} libraries. Load ${nextBatch} more?`;
+                } else {
+                    loadMoreContainer.style.display = 'none';
+                }
+                
                 // Hide search navigation when not searching
                 updateSearchNavigation([]);
             }
@@ -961,6 +985,12 @@
             searchLibraries('');
             // Reset scroll to top
             window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Load more button functionality
+        document.getElementById('loadMoreBtn').addEventListener('click', () => {
+            currentDisplayCount += itemsPerPage;
+            displayLibraries();
         });
 
         // Category section collapse/expand functionality

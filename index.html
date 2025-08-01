@@ -254,6 +254,78 @@
             });
         }
 
+        // Filter libraries by category
+        function filterByCategory(categoryName) {
+            // Clear search
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = '';
+            currentSearchQuery = '';
+            
+            // Hide clear search button
+            const clearBtn = document.getElementById('clearSearchBtn');
+            clearBtn.style.display = 'none';
+            
+            // Set category filter
+            currentCategory = categoryName;
+            currentPlatform = 'all';
+            
+            // Update filter button states
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            const categoryBtn = document.querySelector(`[data-category="${categoryName}"]`);
+            if (categoryBtn) {
+                categoryBtn.classList.add('active');
+            }
+            document.querySelector('[data-platform="all"]').classList.add('active');
+            
+            // Expand the category section to show the active filter
+            const categoryHeader = document.getElementById('categoryHeader');
+            const categoryButtons = document.getElementById('filterButtons');
+            if (categoryButtons.classList.contains('collapsed')) {
+                categoryButtons.classList.remove('collapsed');
+                categoryHeader.classList.add('expanded');
+            }
+            
+            // Apply filters and scroll to results
+            applyFilters();
+            document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Filter libraries by platform
+        function filterByPlatform(platformName) {
+            // Clear search
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = '';
+            currentSearchQuery = '';
+            
+            // Hide clear search button
+            const clearBtn = document.getElementById('clearSearchBtn');
+            clearBtn.style.display = 'none';
+            
+            // Set platform filter
+            currentPlatform = platformName;
+            currentCategory = 'all';
+            
+            // Update filter button states
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            const platformBtn = document.querySelector(`[data-platform="${platformName}"]`);
+            if (platformBtn) {
+                platformBtn.classList.add('active');
+            }
+            document.querySelector('[data-category="all"]').classList.add('active');
+            
+            // Expand the platform section to show the active filter
+            const platformHeader = document.getElementById('platformHeader');
+            const platformButtons = document.getElementById('platformButtons');
+            if (platformButtons.classList.contains('collapsed')) {
+                platformButtons.classList.remove('collapsed');
+                platformHeader.classList.add('expanded');
+            }
+            
+            // Apply filters and scroll to results
+            applyFilters();
+            document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
+        }
+
         // Filter libraries by author
         function filterByAuthor(authorName) {
             // Set search query to author name  
@@ -856,12 +928,29 @@
                 
                 <div class="detail-section">
                     <div class="detail-label">Category</div>
-                    <div class="detail-value">${escapeHtml(library.category)}</div>
+                    <div class="detail-value">
+                        <a href="#" onclick="filterByCategory('${escapeHtml(library.category)}'); closeModal(); return false;" 
+                           style="color: #0066cc; text-decoration: underline; cursor: pointer;">
+                            ${escapeHtml(library.category)}
+                        </a>
+                    </div>
                 </div>
                 
                 <div class="detail-section">
                     <div class="detail-label">Supported Architectures</div>
-                    <div class="detail-value">${escapeHtml(library.architectures)}</div>
+                    <div class="detail-value">
+                        ${library.architectures.split(',').map(arch => {
+                            const trimmedArch = arch.trim();
+                            if (trimmedArch === '*') {
+                                return '<span style="color: #666;">All Platforms</span>';
+                            } else {
+                                return `<a href="#" onclick="filterByPlatform('${escapeHtml(trimmedArch)}'); closeModal(); return false;" 
+                                           style="color: #0066cc; text-decoration: underline; cursor: pointer;">
+                                            ${escapeHtml(trimmedArch)}
+                                        </a>`;
+                            }
+                        }).join(', ')}
+                    </div>
                 </div>
                 
                 ${library.depends ? `

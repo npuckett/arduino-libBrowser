@@ -263,6 +263,17 @@ jobs:
             PROCESSING_TIME=$(grep -o '"total_processing_time_minutes": [0-9.]*' output/libraries.json | grep -o '[0-9.]*' || echo "0")
             
             git commit -m "Weekly enhancement: ${TOTAL_COUNT} libraries enhanced (${SUCCESS_RATE}% success) in ${PROCESSING_TIME}min - $(date '+%Y-%m-%d %H:%M UTC')"
+            
+            # Pull latest changes before pushing to handle any conflicts
+            echo "Pulling latest changes to avoid conflicts..."
+            git pull --rebase origin main || {
+              echo "Failed to pull and rebase. Attempting merge strategy..."
+              git pull origin main --allow-unrelated-histories || {
+                echo "ERROR: Unable to pull latest changes. Manual intervention required."
+                exit 1
+              }
+            }
+            
             git push
             echo "Enhanced library data pushed to repository"
           fi

@@ -243,6 +243,17 @@ jobs:
             TOTAL_COUNT=$(grep -o '"total_libraries": [0-9]*' output/libraries.json | grep -o '[0-9]*' || echo "0")
             
             git commit -m "Daily update: +${NEW_COUNT} new, ${UPDATED_COUNT} updated libraries (${TOTAL_COUNT} total) - $(date '+%Y-%m-%d %H:%M UTC')"
+            
+            # Pull latest changes before pushing to handle any conflicts
+            echo "Pulling latest changes to avoid conflicts..."
+            git pull --rebase origin main || {
+              echo "Failed to pull and rebase. Attempting merge strategy..."
+              git pull origin main --allow-unrelated-histories || {
+                echo "ERROR: Unable to pull latest changes. Manual intervention required."
+                exit 1
+              }
+            }
+            
             git push
             echo "Libraries updated and pushed to repository"
           fi

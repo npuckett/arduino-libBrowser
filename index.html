@@ -391,6 +391,71 @@
             grid.innerHTML = html;
         }
 
+        // Filter libraries by maintainer
+        function filterByMaintainer(maintainerName) {
+            // Set search query to maintainer name  
+            currentSearchQuery = maintainerName;
+            document.getElementById('searchInput').value = maintainerName;
+            
+            // Show clear search button
+            const clearBtn = document.getElementById('clearSearchBtn');
+            clearBtn.style.display = 'block';
+            
+            // Reset other filters to show all categories/platforms for this maintainer
+            currentCategory = 'all';
+            currentPlatform = 'all';
+            
+            // Update filter button states
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector('[data-category="all"]').classList.add('active');
+            document.querySelector('[data-platform="all"]').classList.add('active');
+            
+            // Apply maintainer-specific search that only shows maintainer matches
+            applyMaintainerFilter(maintainerName);
+            
+            // Scroll to top of results
+            document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Apply maintainer-specific filter (shows only maintainer matches)
+        function applyMaintainerFilter(maintainerName) {
+            const maintainerMatches = libraries.filter(lib => 
+                (lib.maintainer || '').toLowerCase().includes(maintainerName.toLowerCase())
+            );
+            
+            // Sort the maintainer matches
+            const sortedMatches = sortLibraries(maintainerMatches);
+            
+            filteredLibraries = sortedMatches;
+            updateActiveFiltersDisplay();
+            
+            // Display as maintainer group only
+            displayMaintainerOnlyResults(sortedMatches, maintainerName);
+        }
+        
+        // Display results showing only maintainer matches
+        function displayMaintainerOnlyResults(libraries, maintainerName) {
+            const grid = document.getElementById('libraryGrid');
+            const noResults = document.getElementById('noResults');
+            
+            if (libraries.length === 0) {
+                grid.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            grid.style.display = 'block';
+            
+            // Display as a single maintainer group
+            const html = `<div class="search-group">
+                <div class="search-group-header">Libraries maintained by ${escapeHtml(maintainerName)} (${libraries.length})</div>
+                <div class="search-group-grid">${libraries.map(lib => createLibraryCard(lib)).join('')}</div>
+            </div>`;
+            
+            grid.innerHTML = html;
+        }
+
         // Update the active filters display
         function updateActiveFiltersDisplay() {
             // Since we removed the alphabet navigation section, 
@@ -578,6 +643,8 @@
                     nameContains: [],
                     authorStartsWith: [],
                     authorContains: [],
+                    maintainerStartsWith: [],
+                    maintainerContains: [],
                     categoryStartsWith: [],
                     categoryContains: [],
                     descriptionMatches: []
@@ -586,12 +653,13 @@
                 libraries.forEach(lib => {
                     const name = (lib.name || '').toLowerCase();
                     const author = (lib.author || '').toLowerCase();
+                    const maintainer = (lib.maintainer || '').toLowerCase();
                     const category = (lib.category || '').toLowerCase();
                     const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
                     
                     // Check if all search terms are found somewhere in the library
                     const matchesAllTerms = searchTerms.every(term => {
-                        return name.includes(term) || author.includes(term) || 
+                        return name.includes(term) || author.includes(term) || maintainer.includes(term) ||
                                category.includes(term) || description.includes(term);
                     });
                     
@@ -617,7 +685,16 @@
                             matched = true;
                         }
                         
-                        // Check category matches if no name/author match
+                        // Check maintainer matches if no name/author match
+                        if (!matched && searchTerms.some(term => maintainer.startsWith(term))) {
+                            searchResults.maintainerStartsWith.push(lib);
+                            matched = true;
+                        } else if (!matched && searchTerms.some(term => maintainer.includes(term))) {
+                            searchResults.maintainerContains.push(lib);
+                            matched = true;
+                        }
+                        
+                        // Check category matches if no name/author/maintainer match
                         if (!matched && searchTerms.some(term => category.startsWith(term))) {
                             searchResults.categoryStartsWith.push(lib);
                             matched = true;
@@ -639,6 +716,8 @@
                     ...searchResults.nameContains,
                     ...searchResults.authorStartsWith,
                     ...searchResults.authorContains,
+                    ...searchResults.maintainerStartsWith,
+                    ...searchResults.maintainerContains,
                     ...searchResults.categoryStartsWith,
                     ...searchResults.categoryContains,
                     ...searchResults.descriptionMatches
@@ -649,6 +728,8 @@
                     nameContains: searchResults.nameContains.length,
                     authorStartsWith: searchResults.authorStartsWith.length,
                     authorContains: searchResults.authorContains.length,
+                    maintainerStartsWith: searchResults.maintainerStartsWith.length,
+                    maintainerContains: searchResults.maintainerContains.length,
                     categoryStartsWith: searchResults.categoryStartsWith.length,
                     categoryContains: searchResults.categoryContains.length,
                     description: searchResults.descriptionMatches.length,
@@ -751,6 +832,7 @@
             const groups = {
                 nameMatches: [],
                 authorMatches: [],
+                maintainerMatches: [],
                 categoryMatches: [],
                 descriptionMatches: []
             };
@@ -758,6 +840,7 @@
             libraries.forEach(lib => {
                 const name = (lib.name || '').toLowerCase();
                 const author = (lib.author || '').toLowerCase();
+                const maintainer = (lib.maintainer || '').toLowerCase();
                 const category = (lib.category || '').toLowerCase();
                 const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
                 
@@ -767,6 +850,9 @@
                 }
                 if (searchTerms.some(term => author.includes(term))) {
                     groups.authorMatches.push(lib);
+                }
+                if (searchTerms.some(term => maintainer.includes(term))) {
+                    groups.maintainerMatches.push(lib);
                 }
                 if (searchTerms.some(term => category.includes(term))) {
                     groups.categoryMatches.push(lib);
@@ -794,6 +880,14 @@
                     <div class="search-group-grid">${groups.authorMatches.map(lib => createLibraryCard(lib)).join('')}</div>
                 </div>`;
                 navLinks.push({ id: 'search-authors', label: `Authors (${groups.authorMatches.length})` });
+            }
+            
+            if (groups.maintainerMatches.length > 0) {
+                html += `<div class="search-group" id="search-maintainers">
+                    <div class="search-group-header">Maintainers (${groups.maintainerMatches.length})</div>
+                    <div class="search-group-grid">${groups.maintainerMatches.map(lib => createLibraryCard(lib)).join('')}</div>
+                </div>`;
+                navLinks.push({ id: 'search-maintainers', label: `Maintainers (${groups.maintainerMatches.length})` });
             }
             
             if (groups.categoryMatches.length > 0) {
@@ -917,6 +1011,18 @@
                         </a>
                     </div>
                 </div>
+                
+                ${library.maintainer && library.maintainer !== library.author ? `
+                <div class="detail-section">
+                    <div class="detail-label">Maintainer</div>
+                    <div class="detail-value">
+                        <a href="#" onclick="filterByMaintainer('${escapeHtml(library.maintainer)}'); closeModal(); return false;" 
+                           style="color: #0066cc; text-decoration: underline; cursor: pointer;">
+                            ${escapeHtml(library.maintainer)}
+                        </a>
+                    </div>
+                </div>
+                ` : ''}
                 
                 <div class="detail-section">
                     <div class="detail-label">Description</div>

@@ -223,10 +223,25 @@ jobs:
           Write-Host "Processing rate: $([math]::Round($stats.enhanced_count / $totalTime.TotalMinutes, 1)) libraries/minute"
           Write-Host "============================"
           
+          # Select Staff Pick (deterministic based on current date)
+          $currentDate = Get-Date -Format "yyyy-MM-dd"
+          Write-Host "Selecting Staff Pick for: $currentDate"
+          
+          # Use date as seed for deterministic random selection
+          $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
+          $libraryOfTheDayIndex = $dateHash % $enhancedLibraries.Count
+          $libraryOfTheDay = $enhancedLibraries[$libraryOfTheDayIndex]
+          
+          Write-Host "Staff Pick selected: $($libraryOfTheDay.name) by $($libraryOfTheDay.author)"
+          
           # Create enhanced output
           $outputData = @{
             enhanced_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
             total_libraries = $enhancedLibraries.Count
+            library_of_the_day = @{
+              selected_date = $currentDate
+              library = $libraryOfTheDay
+            }
             enhancement_stats = @{
               success_count = $stats.enhanced_count - $stats.error_count
               error_count = $stats.error_count

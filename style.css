@@ -84,7 +84,7 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 100;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding: 15px 0;
     background-color: white;
 }
@@ -1025,4 +1025,21 @@ a:hover {
 .about-content a {
     color: #0066cc;
     text-decoration: underline;
+}
+
+/* Library of the Day styles */
+.library-of-the-day-section {
+    margin-bottom: 30px;
+}
+
+.library-of-the-day-section #libraryOfTheDay {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: var(--content-margin-left);
+    width: calc(100% - var(--content-margin-left) - var(--content-margin-right));
+}
+
+.library-of-the-day-section .library-card {
+    width: 280px;
+    flex-shrink: 0;
 }

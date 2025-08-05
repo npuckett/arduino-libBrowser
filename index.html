@@ -91,6 +91,13 @@
             Loading collection...
         </div>
 
+        <div class="library-of-the-day-section" id="libraryOfTheDaySection" style="display: none;">
+            <div class="section-header">Staff Pick</div>
+            <div id="libraryOfTheDay">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
 
@@ -132,6 +139,10 @@
             try {
                 const response = await fetch('output/libraries.json');
                 const data = await response.json();
+                
+                // Store the complete data structure globally for Library of the Day access
+                window.libraryData = data;
+                
                 libraries = data.libraries;
                 filteredLibraries = libraries;
                 
@@ -141,7 +152,10 @@
                 populateCategoryFilters();
                 populatePlatformFilters();
                 setupSortButtons();
-                // displayRandomPick();
+                
+                // Load Staff Pick configuration and display if enabled
+                await loadAndDisplayStaffPick();
+                
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('libraryGrid').style.display = 'grid';
@@ -235,6 +249,9 @@
                     // Hide clear search button
                     const clearBtn = document.getElementById('clearSearchBtn');
                     clearBtn.style.display = 'none';
+                    
+                    // Hide Library of the Day when using filters
+                    hideLibraryOfTheDay();
                     
                     // If clicking the currently active filter (and it's not "all"), deselect it
                     if (currentPlatform === clickedPlatform && clickedPlatform !== 'all') {
@@ -474,6 +491,9 @@
                     currentCategory = 'all';
                     currentPlatform = 'all';
                     
+                    // Hide Library of the Day when using sort buttons
+                    hideLibraryOfTheDay();
+                    
                     // Reset all filter button states
                     document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                     document.querySelector('[data-category="all"]').classList.add('active');
@@ -592,6 +612,9 @@
                     // Hide clear search button
                     const clearBtn = document.getElementById('clearSearchBtn');
                     clearBtn.style.display = 'none';
+                    
+                    // Hide Library of the Day when using filters
+                    hideLibraryOfTheDay();
                     
                     // If clicking the currently active filter (and it's not "all"), deselect it
                     if (currentCategory === clickedCategory && clickedCategory !== 'all') {
@@ -746,22 +769,98 @@
             displayLibraries();
         }
 
-        // Display a random library pick
-        function displayRandomPick() {
+        // Load Staff Pick configuration and display if enabled
+        async function loadAndDisplayStaffPick() {
+            try {
+                const response = await fetch('staff-pick-config.json');
+                const config = await response.json();
+                
+                if (config.enabled) {
+                    displayStaffPick(config);
+                } else {
+                    hideLibraryOfTheDay();
+                }
+            } catch (error) {
+                console.log('Staff Pick config not found, using default behavior');
+                // Fallback to default behavior if config file doesn't exist
+                displayStaffPick({ enabled: true, picker_name: "Staff", specific_library: null });
+            }
+        }
+
+        // Display Staff Pick with configuration
+        function displayStaffPick(config) {
             if (libraries.length === 0) return;
             
-            const randomLib = libraries[Math.floor(Math.random() * libraries.length)];
-            const randomPickDiv = document.getElementById('randomPick');
+            let selectedLibrary;
             
-            randomPickDiv.innerHTML = `
-                <div class="random-pick-name">${escapeHtml(randomLib.name)}</div>
-                <div class="random-pick-meta">Version ${escapeHtml(randomLib.version)} • ${escapeHtml(randomLib.author)}</div>
-                <div class="random-pick-description">${escapeHtml(randomLib.sentence || randomLib.paragraph || 'A fascinating library waiting to be discovered.')}</div>
-                <div class="random-pick-details">
-                    <div class="random-pick-category">${escapeHtml(randomLib.category)}</div>
-                    <div style="font-size: 11px; color: #666;">Repository: ${escapeHtml(randomLib.repository_name)}</div>
-                </div>
-            `;
+            // Check if a specific library is configured
+            if (config.specific_library) {
+                // Find library by name (case-insensitive)
+                selectedLibrary = libraries.find(lib => 
+                    lib.name.toLowerCase() === config.specific_library.toLowerCase()
+                );
+                
+                if (selectedLibrary) {
+                    console.log(`Using configured specific library: ${selectedLibrary.name}`);
+                } else {
+                    console.warn(`Configured library "${config.specific_library}" not found, falling back to deterministic selection`);
+                }
+            }
+            
+            // If no specific library configured or not found, use existing logic
+            if (!selectedLibrary) {
+                // Try to get Staff Pick from JSON data first (server-selected)
+                if (window.libraryData && window.libraryData.library_of_the_day && window.libraryData.library_of_the_day.library) {
+                    console.log('Using server-selected Staff Pick');
+                    const libraryData = window.libraryData.library_of_the_day.library;
+                    selectedLibrary = libraries.find(lib => lib.repository_name === libraryData.repository_name);
+                    
+                    if (!selectedLibrary) {
+                        selectedLibrary = libraryData;
+                    }
+                }
+                
+                // Fallback to deterministic client-side selection
+                if (!selectedLibrary) {
+                    console.log('Using client-side deterministic Staff Pick selection');
+                    const currentDate = new Date().toISOString().split('T')[0];
+                    
+                    let dateHash = 0;
+                    for (let i = 0; i < currentDate.length; i++) {
+                        dateHash += currentDate.charCodeAt(i);
+                    }
+                    
+                    const libraryIndex = dateHash % libraries.length;
+                    selectedLibrary = libraries[libraryIndex];
+                    
+                    console.log(`Staff Pick selected deterministically: ${selectedLibrary.name} (index: ${libraryIndex}, hash: ${dateHash})`);
+                }
+            }
+            
+            const libraryOfTheDayDiv = document.getElementById('libraryOfTheDay');
+            const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
+            
+            // Update the section header with the picker name and library name
+            const sectionHeader = libraryOfTheDaySection.querySelector('.section-header');
+            sectionHeader.textContent = `${config.picker_name} Pick: ${selectedLibrary.name}`;
+            
+            // Create a standard library card
+            libraryOfTheDayDiv.innerHTML = createLibraryCard(selectedLibrary);
+            
+            // Show the section
+            libraryOfTheDaySection.style.display = 'block';
+        }
+
+        // Display Staff Pick (legacy function name for compatibility)
+        function displayLibraryOfTheDay() {
+            // This function is kept for compatibility but now loads config
+            loadAndDisplayStaffPick();
+        }
+        
+        // Hide Staff Pick section
+        function hideLibraryOfTheDay() {
+            const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
+            libraryOfTheDaySection.style.display = 'none';
         }
 
         // Get display name for sort method
@@ -1148,6 +1247,9 @@
             if (query.trim()) {
                 clearBtn.style.display = 'block';
                 
+                // Hide Library of the Day when searching
+                hideLibraryOfTheDay();
+                
                 // Collapse browse sections when searching
                 const categoryHeader = document.getElementById('categoryHeader');
                 const categoryButtons = document.getElementById('filterButtons');
@@ -1167,6 +1269,8 @@
                 }
             } else {
                 clearBtn.style.display = 'none';
+                // Show Staff Pick when search is cleared (if enabled)
+                loadAndDisplayStaffPick();
             }
             
             applyFilters();

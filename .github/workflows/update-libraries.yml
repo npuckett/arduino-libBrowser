@@ -193,27 +193,44 @@ jobs:
           
           # Update Staff Pick configuration
           $currentDate = Get-Date -Format "yyyy-MM-dd"
-          Write-Host "Updating Staff Pick configuration for: $currentDate"
+          Write-Host "Checking Staff Pick configuration for: $currentDate"
           
-          # Use date as seed for deterministic random selection
-          $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
-          $libraryIndex = $dateHash % $allLibraries.Count
-          $selectedLibrary = $allLibraries[$libraryIndex]
-          
-          Write-Host "Staff Pick selected: $($selectedLibrary.name) by $($selectedLibrary.author)"
-          
-          # Update staff-pick-config.json
-          $staffPickConfig = @{
-            enabled = $true
-            picker_name = "Staff"
-            specific_library = $selectedLibrary.name
-            selected_date = $currentDate
-            last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
-            notes = "Automatically updated by daily workflow"
+          # Check if auto-update is enabled
+          $shouldUpdateStaffPick = $true
+          if (Test-Path "staff-pick-config.json") {
+            try {
+              $existingConfig = Get-Content "staff-pick-config.json" | ConvertFrom-Json
+              if ($existingConfig.auto_update -eq $false) {
+                Write-Host "Staff Pick auto-update is disabled. Preserving current selection: $($existingConfig.specific_library)"
+                $shouldUpdateStaffPick = $false
+              }
+            } catch {
+              Write-Host "Error reading existing Staff Pick config, will create new one"
+            }
           }
           
-          $staffPickConfig | ConvertTo-Json -Depth 5 | Set-Content "staff-pick-config.json" -Encoding UTF8
-          Write-Host "Updated staff-pick-config.json with selected library: $($selectedLibrary.name)"
+          if ($shouldUpdateStaffPick) {
+            # Use date as seed for deterministic random selection
+            $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
+            $libraryIndex = $dateHash % $allLibraries.Count
+            $selectedLibrary = $allLibraries[$libraryIndex]
+            
+            Write-Host "Staff Pick selected: $($selectedLibrary.name) by $($selectedLibrary.author)"
+            
+            # Update staff-pick-config.json
+            $staffPickConfig = @{
+              enabled = $true
+              auto_update = $true
+              picker_name = "Staff"
+              specific_library = $selectedLibrary.name
+              selected_date = $currentDate
+              last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+              notes = "Automatically updated by daily workflow"
+            }
+            
+            $staffPickConfig | ConvertTo-Json -Depth 5 | Set-Content "staff-pick-config.json" -Encoding UTF8
+            Write-Host "Updated staff-pick-config.json with selected library: $($selectedLibrary.name)"
+          }
           
           # Create enhanced output structure
           $outputData = @{

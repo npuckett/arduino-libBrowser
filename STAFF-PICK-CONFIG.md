@@ -8,6 +8,7 @@ This file shows different ways to configure the Staff Pick feature using `staff-
   "enabled": true,
   "auto_update": true,
   "picker_name": "Staff",
+  "picker_url": "https://github.com/npuckett",
   "specific_library": null,
   "last_updated": "2025-08-04",
   "notes": "Default configuration - uses deterministic daily selection"
@@ -20,6 +21,7 @@ This file shows different ways to configure the Staff Pick feature using `staff-
   "enabled": true,
   "auto_update": false,
   "picker_name": "Alice Johnson",
+  "picker_url": "https://github.com/alice",
   "specific_library": "FastLED",
   "last_updated": "2025-08-04",
   "notes": "Alice's pick for this week - highlighting the FastLED library"
@@ -32,6 +34,7 @@ This file shows different ways to configure the Staff Pick feature using `staff-
   "enabled": true,
   "auto_update": false,
   "picker_name": "IoT Expert",
+  "picker_url": "https://iot-community.com",
   "specific_library": "ESP8266WiFi",
   "last_updated": "2025-08-04",
   "notes": "This week's theme: Internet of Things"
@@ -67,6 +70,7 @@ This file shows different ways to configure the Staff Pick feature using `staff-
 - **enabled**: `true` to show the Staff Pick section, `false` to hide it completely
 - **auto_update**: `true` to allow workflows to automatically update the pick daily, `false` to preserve manual selections
 - **picker_name**: The name displayed (e.g., "Staff", "John Doe", "Arduino Expert", etc.)
+- **picker_url**: URL that the picker name links to (e.g., GitHub profile, website, etc.)
 - **specific_library**: Library name to feature, or `null` for automatic selection
 - **last_updated**: When this configuration was last changed (for your reference)
 - **notes**: Optional notes about the current configuration

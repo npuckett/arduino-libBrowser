@@ -830,7 +830,16 @@
             
             // Update the section header with the picker name and library name
             const sectionHeader = libraryOfTheDaySection.querySelector('.section-header');
-            sectionHeader.textContent = `${config.picker_name} Pick: ${selectedLibrary.name}`;
+            
+            // Create picker name display (with link if URL provided)
+            let pickerNameHtml;
+            if (config.picker_url) {
+                pickerNameHtml = `<a href="${escapeHtml(config.picker_url)}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">${escapeHtml(config.picker_name)}</a>`;
+            } else {
+                pickerNameHtml = escapeHtml(config.picker_name);
+            }
+            
+            sectionHeader.innerHTML = `${pickerNameHtml} Pick: ${escapeHtml(selectedLibrary.name)}`;
             
             // Create a standard library card
             libraryOfTheDayDiv.innerHTML = createLibraryCard(selectedLibrary);

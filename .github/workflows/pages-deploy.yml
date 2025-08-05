@@ -24,6 +24,63 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Update Staff Pick configuration
+        shell: pwsh
+        run: |
+          # Update Staff Pick configuration before deployment
+          $currentDate = Get-Date -Format "yyyy-MM-dd"
+          Write-Host "Updating Staff Pick configuration for deployment: $currentDate"
+          
+          # Check if auto-update is enabled
+          $shouldUpdateStaffPick = $true
+          if (Test-Path "staff-pick-config.json") {
+            try {
+              $existingConfig = Get-Content "staff-pick-config.json" | ConvertFrom-Json
+              if ($existingConfig.auto_update -eq $false) {
+                Write-Host "Staff Pick auto-update is disabled. Preserving current selection: $($existingConfig.specific_library)"
+                $shouldUpdateStaffPick = $false
+              }
+            } catch {
+              Write-Host "Error reading existing Staff Pick config, will create new one"
+            }
+          }
+          
+          if ($shouldUpdateStaffPick) {
+            # Load libraries to select from
+            if (Test-Path "output/libraries.json") {
+              $libraryData = Get-Content "output/libraries.json" | ConvertFrom-Json
+              $libraries = $libraryData.libraries
+              
+              if ($libraries.Count -gt 0) {
+                # Use date as seed for deterministic random selection
+                $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
+                $libraryIndex = $dateHash % $libraries.Count
+                $selectedLibrary = $libraries[$libraryIndex]
+                
+                Write-Host "Staff Pick selected for deployment: $($selectedLibrary.name) by $($selectedLibrary.author)"
+                
+                # Update staff-pick-config.json
+                $staffPickConfig = @{
+                  enabled = $true
+                  auto_update = $true
+                  picker_name = "Staff"
+                  picker_url = "https://github.com/npuckett"
+                  specific_library = $selectedLibrary.name
+                  selected_date = $currentDate
+                  last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+                  notes = "Automatically updated by pages deployment"
+                }
+                
+                $staffPickConfig | ConvertTo-Json -Depth 5 | Set-Content "staff-pick-config.json" -Encoding UTF8
+                Write-Host "Updated staff-pick-config.json with selected library: $($selectedLibrary.name)"
+              } else {
+                Write-Host "No libraries found in libraries.json"
+              }
+            } else {
+              Write-Host "No libraries.json file found, skipping Staff Pick update"
+            }
+          }
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

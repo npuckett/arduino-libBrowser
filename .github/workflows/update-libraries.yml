@@ -222,6 +222,7 @@ jobs:
               enabled = $true
               auto_update = $true
               picker_name = "Staff"
+              picker_url = "https://github.com/npuckett"
               specific_library = $selectedLibrary.name
               selected_date = $currentDate
               last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")

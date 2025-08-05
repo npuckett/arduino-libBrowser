@@ -774,14 +774,16 @@
             try {
                 const response = await fetch('staff-pick-config.json');
                 const config = await response.json();
+                console.log('Staff Pick config loaded:', config);
                 
                 if (config.enabled) {
                     displayStaffPick(config);
                 } else {
+                    console.log('Staff Pick disabled by config');
                     hideLibraryOfTheDay();
                 }
             } catch (error) {
-                console.log('Staff Pick config not found, using default behavior');
+                console.log('Staff Pick config not found, using default behavior:', error);
                 // Fallback to default behavior if config file doesn't exist
                 displayStaffPick({ enabled: true, picker_name: "Staff", specific_library: null });
             }
@@ -807,34 +809,20 @@
                 }
             }
             
-            // If no specific library configured or not found, use existing logic
+            // If no specific library configured or not found, use deterministic selection
             if (!selectedLibrary) {
-                // Try to get Staff Pick from JSON data first (server-selected)
-                if (window.libraryData && window.libraryData.library_of_the_day && window.libraryData.library_of_the_day.library) {
-                    console.log('Using server-selected Staff Pick');
-                    const libraryData = window.libraryData.library_of_the_day.library;
-                    selectedLibrary = libraries.find(lib => lib.repository_name === libraryData.repository_name);
-                    
-                    if (!selectedLibrary) {
-                        selectedLibrary = libraryData;
-                    }
+                console.log('Using client-side deterministic Staff Pick selection');
+                const currentDate = new Date().toISOString().split('T')[0];
+                
+                let dateHash = 0;
+                for (let i = 0; i < currentDate.length; i++) {
+                    dateHash += currentDate.charCodeAt(i);
                 }
                 
-                // Fallback to deterministic client-side selection
-                if (!selectedLibrary) {
-                    console.log('Using client-side deterministic Staff Pick selection');
-                    const currentDate = new Date().toISOString().split('T')[0];
-                    
-                    let dateHash = 0;
-                    for (let i = 0; i < currentDate.length; i++) {
-                        dateHash += currentDate.charCodeAt(i);
-                    }
-                    
-                    const libraryIndex = dateHash % libraries.length;
-                    selectedLibrary = libraries[libraryIndex];
-                    
-                    console.log(`Staff Pick selected deterministically: ${selectedLibrary.name} (index: ${libraryIndex}, hash: ${dateHash})`);
-                }
+                const libraryIndex = dateHash % libraries.length;
+                selectedLibrary = libraries[libraryIndex];
+                
+                console.log(`Staff Pick selected deterministically: ${selectedLibrary.name} (index: ${libraryIndex}, hash: ${dateHash})`);
             }
             
             const libraryOfTheDayDiv = document.getElementById('libraryOfTheDay');

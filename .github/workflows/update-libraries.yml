@@ -191,25 +191,34 @@ jobs:
             $allLibraries = $newLibraries + $updatedLibraries
           }
           
-          # Select Staff Pick (deterministic based on current date)
+          # Update Staff Pick configuration
           $currentDate = Get-Date -Format "yyyy-MM-dd"
-          Write-Host "Selecting Staff Pick for: $currentDate"
+          Write-Host "Updating Staff Pick configuration for: $currentDate"
           
           # Use date as seed for deterministic random selection
           $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
-          $libraryOfTheDayIndex = $dateHash % $allLibraries.Count
-          $libraryOfTheDay = $allLibraries[$libraryOfTheDayIndex]
+          $libraryIndex = $dateHash % $allLibraries.Count
+          $selectedLibrary = $allLibraries[$libraryIndex]
           
-          Write-Host "Staff Pick selected: $($libraryOfTheDay.name) by $($libraryOfTheDay.author)"
+          Write-Host "Staff Pick selected: $($selectedLibrary.name) by $($selectedLibrary.author)"
+          
+          # Update staff-pick-config.json
+          $staffPickConfig = @{
+            enabled = $true
+            picker_name = "Staff"
+            specific_library = $selectedLibrary.name
+            selected_date = $currentDate
+            last_updated = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+            notes = "Automatically updated by daily workflow"
+          }
+          
+          $staffPickConfig | ConvertTo-Json -Depth 5 | Set-Content "staff-pick-config.json" -Encoding UTF8
+          Write-Host "Updated staff-pick-config.json with selected library: $($selectedLibrary.name)"
           
           # Create enhanced output structure
           $outputData = @{
             enhanced_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
             total_libraries = $allLibraries.Count
-            library_of_the_day = @{
-              selected_date = $currentDate
-              library = $libraryOfTheDay
-            }
             changes_in_last_update = @{
               new_libraries = $newLibraries.Count
               updated_libraries = $updatedLibraries.Count
@@ -246,7 +255,7 @@ jobs:
           # Debug: Show current remote URL (without token)
           echo "Remote URL configured for repository: ${{ github.repository }}"
           
-          git add output/libraries.json
+          git add output/libraries.json staff-pick-config.json
           
           # Check if there are changes to commit
           if git diff --staged --quiet; then

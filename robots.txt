@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://thearduinolibrary.com/sitemap.xml
+
+# Allow all bots to access the JSON data
+Allow: /output/libraries.json
+
+# Block access to any temporary or development files
+Disallow: /*.tmp
+Disallow: /*.log
+Disallow: /node_modules/
+Disallow: /.git/

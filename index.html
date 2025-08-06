@@ -3,47 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Arduino Library</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Arduino Library Browser - Search 8,000+ Arduino Libraries | The Arduino Library</title>
+    <meta name="title" content="Arduino Library Browser - Search 8,000+ Arduino Libraries">
+    <meta name="description" content="Comprehensive searchable catalog of 8,000+ Arduino libraries from GitHub. Browse by category, platform, author, or keyword. Updated daily with the latest libraries from the Arduino Registry.">
+    <meta name="keywords" content="Arduino, libraries, Arduino IDE, ESP32, ESP8266, AVR, SAMD, sensors, Arduino code, Arduino projects, GitHub, open source, Arduino library manager">
+    <meta name="author" content="Nick Puckett">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://thearduinolibrary.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://thearduinolibrary.com/">
+    <meta property="og:title" content="Arduino Library Browser - Search 8,000+ Arduino Libraries">
+    <meta property="og:description" content="Comprehensive searchable catalog of 8,000+ Arduino libraries from GitHub. Browse by category, platform, author, or keyword. Updated daily.">
+    <meta property="og:image" content="https://thearduinolibrary.com/images/ArdLib-mainImage.png">
+    <meta property="og:site_name" content="The Arduino Library">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://thearduinolibrary.com/">
+    <meta property="twitter:title" content="Arduino Library Browser - Search 8,000+ Arduino Libraries">
+    <meta property="twitter:description" content="Comprehensive searchable catalog of 8,000+ Arduino libraries from GitHub. Browse by category, platform, author, or keyword.">
+    <meta property="twitter:image" content="https://thearduinolibrary.com/images/ArdLib-mainImage.png">
+    
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#00979D">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="title">
-                THE ARDUINO LIBRARY
-                <span class="subtitle">A snapshot of 8,000+ libraries from GitHub as of July 21, 2025</span>
-            </div>
-        </div>
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Arduino Library Browser",
+        "alternateName": "The Arduino Library",
+        "description": "Comprehensive searchable catalog of 8,000+ Arduino libraries from GitHub. Browse by category, platform, author, or keyword. Updated daily with the latest libraries from the Arduino Registry.",
+        "url": "https://thearduinolibrary.com/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Nick Puckett",
+            "url": "https://github.com/npuckett"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "Nick Puckett"
+        },
+        "inLanguage": "en-US",
+        "isAccessibleForFree": true,
+        "keywords": ["Arduino", "libraries", "Arduino IDE", "ESP32", "ESP8266", "AVR", "SAMD", "sensors", "Arduino code", "Arduino projects", "GitHub", "open source"],
+        "mainEntity": {
+            "@type": "Dataset",
+            "name": "Arduino Library Registry Data",
+            "description": "Complete dataset of Arduino libraries from the official Arduino Library Registry",
+            "creator": {
+                "@type": "Organization",
+                "name": "Arduino",
+                "url": "https://github.com/arduino/library-registry"
+            },
+            "distribution": {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://thearduinolibrary.com/output/libraries.json"
+            }
+        },
+        "featureList": [
+            "Search Arduino libraries by name, author, category, or description",
+            "Browse libraries by Arduino platform (ESP32, ESP8266, AVR, SAMD, etc.)",
+            "Filter libraries by category (Sensors, Communication, Display, etc.)",
+            "Sort libraries by popularity, recent updates, or alphabetically",
+            "View detailed library information including GitHub stats",
+            "Daily automatic updates from Arduino Registry"
+        ]
+    }
+    </script>
 
-        <div class="about-section">
-            <div class="section-header collapsible" id="aboutHeader">
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                THE ARDUINO LIBRARY
+                <span class="subtitle">A searchable catalog of 8,000+ Arduino libraries from GitHub, updated daily</span>
+            </h1>
+        </header>
+
+        <section class="about-section">
+            <h2 class="section-header collapsible" id="aboutHeader">
                 About
                 <span class="collapse-indicator">+</span>
-            </div>
+            </h2>
             <div class="about-content collapsed" id="aboutContent">
                 <p>The <a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">Arduino Library Browser</a> is an Open Source tool created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a> that allows you to search and browse all <span id="entryCount">8,000+</span> libraries currently available in the <a href="https://github.com/arduino/library-registry" target="_blank" rel="noopener">Arduino Library Manager</a>. The registry is constantly evolving with user updates, so this tool updates each day with new information.</p>
                 <p>Please submit any issues or feedback via the <a href="https://github.com/npuckett/arduino-libBrowser/issues" target="_blank" rel="noopener">Issues Page</a></p>
             </div>
-        </div>
+        </section>
 
-        <div class="search-container">
-            <div class="section-header">
-                Search
+        <section class="search-container">
+            <h2 class="section-header">
+                Search Arduino Libraries
                 <button class="clear-search-btn" id="clearSearchBtn" style="display: none;" title="Clear search">×</button>
-            </div>
+            </h2>
+            <label for="searchInput" class="sr-only">Search Arduino libraries by title, description, author, or subject</label>
             <input 
-                type="text" 
+                type="search" 
                 class="search-box" 
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
+                aria-describedby="search-help"
             >
-            <div class="search-nav" id="searchNav" style="display: none;">
+            <div id="search-help" class="sr-only">
+                Search through 8,000+ Arduino libraries by name, author, category, or description. Use keywords like "sensor", "ESP32", "WiFi", or specific library names.
+            </div>
+            <nav class="search-nav" id="searchNav" style="display: none;" aria-label="Search results navigation">
                 <div class="search-nav-title">Jump to:</div>
                 <div class="search-nav-links" id="searchNavLinks">
                     <!-- Navigation links will be dynamically generated here -->
                 </div>
-            </div>
-        </div>
+            </nav>
+        </section>
 
         <!-- <div class="random-pick-section">
             <div class="section-header">

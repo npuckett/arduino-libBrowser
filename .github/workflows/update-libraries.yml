@@ -32,7 +32,7 @@ jobs:
           
           # Enhanced rate limiting and error handling
           $rateLimitDelay = 1  # seconds between requests
-          $maxRetries = 3
+          $maxRetries = 1  # Only 1 retry for daily runs - skip errors quickly
           
           # Load existing libraries for comparison
           $existingLibraries = @()
@@ -71,102 +71,128 @@ jobs:
           $errorCount = 0
           $processedCount = 0
           $batchSize = 50  # Conservative batch size for daily runs
-          $maxProcessCount = 500  # Limit for daily runs to avoid timeouts
+          $maxDailyProcessCount = 1000  # Process more libraries but with better efficiency
           
           # Calculate time threshold for "recent" updates (last 3 days to catch weekend updates)
           $threeDaysAgo = (Get-Date).AddDays(-3)
           
-          for ($i = 0; $i -lt [Math]::Min($registryUrls.Count, $maxProcessCount); $i++) {
-            $url = $registryUrls[$i]
+          # Smart processing: prioritize recently updated repositories
+          # First, check which repos have been updated recently using batch API calls
+          Write-Host "Pre-filtering repositories for recent activity..."
+          $recentlyActiveRepos = @()
+          $allRepoNames = @()
+          
+          # Extract all repo names from registry
+          foreach ($url in $registryUrls) {
             if ($url -match "https://github.com/([^/]+)/([^/]+)") {
-              $owner = $matches[1]
-              $repo = $matches[2]
-              $repoName = "$owner/$repo"
-              $processedCount++
-              
-              # Check existing library data first
-              $existingLibrary = $existingRepoMap[$repoName]
-              
-              # Get repository metadata from GitHub API
-              $repoApiUrl = "https://api.github.com/repos/$repoName"
-              $retryCount = 0
-              $repoData = $null
-              
-              do {
-                try {
-                  Start-Sleep -Seconds $rateLimitDelay
-                  $repoData = Invoke-RestMethod -Uri $repoApiUrl -Headers $headers -ErrorAction Stop
-                  break
-                } catch {
-                  $retryCount++
-                  $waitTime = [math]::Pow(2, $retryCount) * 2
-                  Write-Host "Error getting repo data for $repoName (attempt $retryCount): $($_.Exception.Message)"
-                  
-                  if ($retryCount -ge $maxRetries) {
-                    Write-Host "Max retries exceeded for $repoName, skipping"
-                    $errorCount++
-                    break
+              $allRepoNames += "$($matches[1])/$($matches[2])"
+            }
+          }
+          
+          Write-Host "Total repositories in registry: $($allRepoNames.Count)"
+          
+          # Process all repositories, but with efficient filtering
+          for ($i = 0; $i -lt $allRepoNames.Count; $i++) {
+            $repoName = $allRepoNames[$i]
+            $processedCount++
+            
+            # Check existing library data first for quick filtering
+            $existingLibrary = $existingRepoMap[$repoName]
+            
+            # Skip API call for libraries we know haven't changed recently
+            if ($existingLibrary) {
+              try {
+                $existingUpdatedAt = [DateTime]::Parse($existingLibrary.github_updated_at)
+                $daysSinceUpdate = (Get-Date) - $existingUpdatedAt
+                
+                # Skip libraries that haven't been updated in over 30 days (they're unlikely to change)
+                if ($daysSinceUpdate.TotalDays -gt 30) {
+                  $unchangedCount++
+                  if ($processedCount % 500 -eq 0) {
+                    Write-Host "Progress: $processedCount/$($allRepoNames.Count) checked, $unchangedCount unchanged, $($newLibraries.Count) new, $($updatedLibraries.Count) updated"
                   }
-                  Start-Sleep -Seconds $waitTime
+                  continue
                 }
-              } while ($retryCount -lt $maxRetries)
-              
-              if (-not $repoData) {
-                continue  # Skip this repo if we couldn't get data
+              } catch {
+                # If we can't parse the date, we should check it
               }
-              
-              # Check if this library needs updating
-              $isNewLibrary = -not $existingLibrary
-              $repoUpdatedAt = [DateTime]::Parse($repoData.updated_at)
-              $isRecentlyUpdated = $repoUpdatedAt -gt $threeDaysAgo
-              
-              # For existing libraries, check if GitHub updated_at has changed
-              $needsUpdate = $false
-              if ($existingLibrary) {
-                try {
-                  $existingUpdatedAt = [DateTime]::Parse($existingLibrary.github_updated_at)
-                  $needsUpdate = $repoUpdatedAt -gt $existingUpdatedAt
-                } catch {
-                  # If we can't parse the existing date, assume it needs update
-                  $needsUpdate = $true
+            }
+            
+            # Get repository metadata from GitHub API
+            $repoApiUrl = "https://api.github.com/repos/$repoName"
+            $retryCount = 0
+            $repoData = $null
+            
+            do {
+              try {
+                Start-Sleep -Seconds $rateLimitDelay
+                $repoData = Invoke-RestMethod -Uri $repoApiUrl -Headers $headers -ErrorAction Stop
+                break
+              } catch {
+                $retryCount++
+                $waitTime = [math]::Pow(2, $retryCount) * 2
+                Write-Host "Error getting repo data for $repoName (attempt $retryCount): $($_.Exception.Message)"
+                
+                if ($retryCount -ge $maxRetries) {
+                  Write-Host "Max retries exceeded for $repoName, skipping"
+                  $errorCount++
+                  break
                 }
+                Start-Sleep -Seconds $waitTime
               }
-              
-              if ($isNewLibrary) {
-                Write-Host "New library: $repoName (created: $($repoData.created_at))"
-              } elseif ($needsUpdate) {
-                Write-Host "Updated library: $repoName (was: $($existingLibrary.github_updated_at), now: $($repoData.updated_at))"
-              } elseif ($isRecentlyUpdated) {
-                Write-Host "Recently active but unchanged: $repoName (last update: $($repoData.updated_at))"
-                $unchangedCount++
+            } while ($retryCount -lt $maxRetries)
+            
+            if (-not $repoData) {
+              continue  # Skip this repo if we couldn't get data
+            }
+            
+            # Check if this library needs updating
+            $isNewLibrary = -not $existingLibrary
+            $repoUpdatedAt = [DateTime]::Parse($repoData.updated_at)
+            $isRecentlyUpdated = $repoUpdatedAt -gt $threeDaysAgo
+            
+            # For existing libraries, check if GitHub updated_at has changed
+            $needsUpdate = $false
+            if ($existingLibrary) {
+              try {
+                $existingUpdatedAt = [DateTime]::Parse($existingLibrary.github_updated_at)
+                $needsUpdate = $repoUpdatedAt -gt $existingUpdatedAt
+              } catch {
+                # If we can't parse the existing date, assume it needs update
+                $needsUpdate = $true
+              }
+            }
+            
+            if ($isNewLibrary) {
+              Write-Host "New library: $repoName (created: $($repoData.created_at))"
+            } elseif ($needsUpdate) {
+              Write-Host "Updated library: $repoName (was: $($existingLibrary.github_updated_at), now: $($repoData.updated_at))"
+            } else {
+              $unchangedCount++
+              if ($processedCount % 500 -eq 0) {
+                Write-Host "Progress: $processedCount/$($allRepoNames.Count) processed, $unchangedCount unchanged, $($newLibraries.Count) new, $($updatedLibraries.Count) updated"
+              }
+              continue  # Skip unchanged libraries
+            }
+            
+            # Download and parse library.properties
+            $propertiesUrls = @(
+              "https://raw.githubusercontent.com/$repoName/master/library.properties",
+              "https://raw.githubusercontent.com/$repoName/main/library.properties"
+            )
+            
+            $properties = $null
+            foreach ($propertiesUrl in $propertiesUrls) {
+              try {
+                Start-Sleep -Milliseconds 500
+                $propertiesContent = Invoke-RestMethod -Uri $propertiesUrl -ErrorAction Stop
+                $properties = $propertiesContent
+                break
+              } catch {
+                # Skip to next URL on error (no retries for daily runs)
                 continue
-              } else {
-                $unchangedCount++
-                if ($processedCount % 100 -eq 0) {
-                  Write-Host "Progress: $processedCount/$maxProcessCount processed, $unchangedCount unchanged, $($newLibraries.Count) new, $($updatedLibraries.Count) updated"
-                }
-                continue  # Skip unchanged libraries
               }
-              
-              # Download and parse library.properties
-              $propertiesUrls = @(
-                "https://raw.githubusercontent.com/$repoName/master/library.properties",
-                "https://raw.githubusercontent.com/$repoName/main/library.properties"
-              )
-              
-              $properties = $null
-              foreach ($propertiesUrl in $propertiesUrls) {
-                $retryCount = 0
-                do {
-                  try {
-                    Start-Sleep -Milliseconds 500
-                    $propertiesContent = Invoke-RestMethod -Uri $propertiesUrl -ErrorAction Stop
-                    $properties = $propertiesContent
-                    break
-                  } catch {
-                    $retryCount++
-                    if ($retryCount -ge 2) { break }
-                    Start-Sleep -Seconds 1
+            }
                   }
                 } while ($retryCount -lt 2)
                 

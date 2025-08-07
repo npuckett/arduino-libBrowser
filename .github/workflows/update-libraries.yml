@@ -220,28 +220,6 @@ jobs:
           Write-Host "- Updated libraries: $($updatedLibraries.Count)"
           Write-Host "- Unchanged libraries: $unchangedCount"
           Write-Host "- Errors: $errorCount"
-                $line = $_.Trim()
-                if ($line -and $line.Contains('=')) {
-                  $key, $value = $line -split '=', 2
-                  $libraryInfo[$key.Trim()] = $value.Trim()
-                }
-              }
-              
-              # Add to appropriate list
-              if ($isNewLibrary) {
-                $newLibraries += [PSCustomObject]$libraryInfo
-              } else {
-                $updatedLibraries += [PSCustomObject]$libraryInfo
-              }
-            }
-            
-            $page++
-          } while ($response.items.Count -eq 100 -and $page -le $maxPages)
-          
-          Write-Host "Processing complete:"
-          Write-Host "- Repositories checked: $processedCount"
-          Write-Host "- New libraries: $($newLibraries.Count)"
-          Write-Host "- Updated libraries: $($updatedLibraries.Count)"
           
           # Merge with existing libraries
           if ($existingLibraries.Count -gt 0) {

@@ -199,33 +199,32 @@ jobs:
               $errorCount++
               continue
             }
-              
-              # Create library info object
-              $libraryInfo = @{
-                repository_name = $repoName
-                repository_url = $repoData.html_url
-                github_updated_at = $repoData.updated_at
-                github_created_at = $repoData.created_at
-                github_stars = $repoData.stargazers_count
-                github_forks = $repoData.forks_count
-                processed_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+            
+            # Create library info object
+            $libraryInfo = @{
+              repository_name = $repoName
+              repository_url = $repoData.html_url
+              github_updated_at = $repoData.updated_at
+              github_created_at = $repoData.created_at
+              github_stars = $repoData.stargazers_count
+              github_forks = $repoData.forks_count
+              processed_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
+            }
+            
+            # Parse properties file
+            $properties -split "`n" | ForEach-Object {
+              $line = $_.Trim()
+              if ($line -and $line.Contains('=')) {
+                $key, $value = $line -split '=', 2
+                $libraryInfo[$key.Trim()] = $value.Trim()
               }
-              
-              # Parse properties file
-              $properties -split "`n" | ForEach-Object {
-                $line = $_.Trim()
-                if ($line -and $line.Contains('=')) {
-                  $key, $value = $line -split '=', 2
-                  $libraryInfo[$key.Trim()] = $value.Trim()
-                }
-              }
-              
-              # Add to appropriate list
-              if ($isNewLibrary) {
-                $newLibraries += [PSCustomObject]$libraryInfo
-              } else {
-                $updatedLibraries += [PSCustomObject]$libraryInfo
-              }
+            }
+            
+            # Add to appropriate list
+            if ($isNewLibrary) {
+              $newLibraries += [PSCustomObject]$libraryInfo
+            } else {
+              $updatedLibraries += [PSCustomObject]$libraryInfo
             }
             
             # Rate limiting - pause every batch

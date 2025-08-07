@@ -193,17 +193,12 @@ jobs:
                 continue
               }
             }
-                  }
-                } while ($retryCount -lt 2)
-                
-                if ($properties) { break }
-              }
-              
-              if (-not $properties) {
-                Write-Host "No library.properties found for $repoName, skipping"
-                $errorCount++
-                continue
-              }
+            
+            if (-not $properties) {
+              Write-Host "No library.properties found for $repoName, skipping"
+              $errorCount++
+              continue
+            }
               
               # Create library info object
               $libraryInfo = @{

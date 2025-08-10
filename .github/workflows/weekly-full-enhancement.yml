@@ -31,6 +31,20 @@ jobs:
         run: |
           Write-Host "PowerShell ready for full Arduino library enhancement"
           Write-Host "This process may take 4-6 hours to complete"
+          Write-Host "Weekly enhancement takes precedence over daily updates"
+          
+      - name: Disable daily workflow during weekly run
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          echo "Disabling daily workflow to prevent conflicts during weekly enhancement..."
+          curl -L \
+            -X PUT \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-libraries.yml/disable \
+            || echo "Could not disable daily workflow (may already be disabled)"
           
       - name: Run full library enhancement
         shell: pwsh
@@ -306,17 +320,23 @@ jobs:
             
             git commit -m "Weekly enhancement: ${TOTAL_COUNT} libraries enhanced (${SUCCESS_RATE}% success) in ${PROCESSING_TIME}min - $(date '+%Y-%m-%d %H:%M UTC')"
             
-            # Pull latest changes before pushing to handle any conflicts
-            echo "Pulling latest changes to avoid conflicts..."
-            git pull --rebase origin main || {
-              echo "Failed to pull and rebase. Attempting merge strategy..."
-              git pull origin main --allow-unrelated-histories || {
-                echo "ERROR: Unable to pull latest changes. Manual intervention required."
-                exit 1
-              }
-            }
+            # Force push strategy since weekly enhancement is authoritative
+            echo "Pulling latest changes to check for conflicts..."
+            git fetch origin main
             
-            git push
+            # Check if we're behind the remote
+            LOCAL_COMMIT=$(git rev-parse HEAD)
+            REMOTE_COMMIT=$(git rev-parse origin/main)
+            
+            if [ "$LOCAL_COMMIT" != "$REMOTE_COMMIT" ]; then
+              echo "Remote has newer commits. Weekly enhancement takes precedence over daily updates."
+              echo "Performing force push to ensure weekly enhancement data is authoritative..."
+              git push --force-with-lease origin main
+            else
+              echo "No conflicts detected. Pushing normally..."
+              git push origin main
+            fi
+            
             echo "Enhanced library data pushed to repository"
           fi
 
@@ -336,3 +356,17 @@ jobs:
             -H "X-GitHub-Api-Version: 2022-11-28" \
             https://api.github.com/repos/${{ github.repository }}/pages/deployment \
             || echo "Manual Pages deployment trigger failed (this is optional)"
+
+      - name: Re-enable daily workflow
+        if: always()  # Run even if previous steps failed
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          echo "Re-enabling daily workflow after weekly enhancement..."
+          curl -L \
+            -X PUT \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-libraries.yml/enable \
+            || echo "Could not re-enable daily workflow (may already be enabled)"

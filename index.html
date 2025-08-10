@@ -615,12 +615,19 @@
         function sortLibraries(libraries) {
             const sorted = [...libraries];
             
+            // Helper function for safe name comparison
+            const safeNameCompare = (a, b) => {
+                const nameA = (a.name || '').toString();
+                const nameB = (b.name || '').toString();
+                return nameA.localeCompare(nameB);
+            };
+            
             switch (currentSort) {
                 case 'alphabetical':
-                    return sorted.sort((a, b) => a.name.localeCompare(b.name));
+                    return sorted.sort(safeNameCompare);
                 
                 case 'alphabetical-reverse':
-                    return sorted.sort((a, b) => b.name.localeCompare(a.name));
+                    return sorted.sort((a, b) => safeNameCompare(b, a));
                 
                 case 'most-recent':
                     // Sort by GitHub updated_at date (most recent first)
@@ -644,7 +651,7 @@
                         const starsA = parseInt(a.github_stars) || 0;
                         const starsB = parseInt(b.github_stars) || 0;
                         if (starsB !== starsA) return starsB - starsA; // Most stars first
-                        return a.name.localeCompare(b.name); // Secondary sort by name
+                        return safeNameCompare(a, b); // Secondary sort by name
                     });
                 
                 case 'shelf-order':
@@ -663,7 +670,7 @@
                         const depsA = (a.depends || '').split(',').filter(d => d.trim()).length;
                         const depsB = (b.depends || '').split(',').filter(d => d.trim()).length;
                         if (depsB !== depsA) return depsB - depsA;
-                        return a.name.localeCompare(b.name); // Secondary sort
+                        return safeNameCompare(a, b); // Secondary sort
                     });
                 
                 default:
@@ -1179,7 +1186,11 @@
             `;
             
             // Get alphabetical neighbors
-            const sortedLibraries = [...libraries].sort((a, b) => a.name.localeCompare(b.name));
+            const sortedLibraries = [...libraries].sort((a, b) => {
+                const nameA = (a.name || '').toString();
+                const nameB = (b.name || '').toString();
+                return nameA.localeCompare(nameB);
+            });
             const currentIndex = sortedLibraries.findIndex(lib => lib.repository_name === repositoryName);
             const neighbors = getNeighbors(sortedLibraries, currentIndex);
             

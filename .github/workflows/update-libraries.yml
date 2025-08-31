@@ -11,11 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45  # Increased timeout for registry-based processing
     
+    permissions:
+      contents: write  # Required to push changes to repository
+      pages: write     # Required to trigger GitHub Pages deployment
+      id-token: write  # Required for GitHub Pages deployment
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use our token for git operations
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use built-in GitHub token
         
       - name: Setup PowerShell
         shell: pwsh
@@ -25,7 +30,7 @@ jobs:
       - name: Run incremental library update
         shell: pwsh
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use our custom token name
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use built-in GitHub token
         run: |
           # Registry-based incremental approach: check Arduino Registry for updates
           Write-Host "Starting incremental Arduino library update from official registry"
@@ -323,16 +328,16 @@ jobs:
           git config --local user.name "GitHub Action - Daily Update"
           
           # Debug: Check if token is available (first 4 characters only for security)
-          if [ -n "${{ secrets.PERSONAL_ACCESS_TOKEN }}" ]; then
+          if [ -n "${{ secrets.GITHUB_TOKEN }}" ]; then
             echo "Token is available (length: ${#GITHUB_TOKEN})"
             echo "Token starts with: ${GITHUB_TOKEN:0:4}****"
           else
-            echo "ERROR: PERSONAL_ACCESS_TOKEN secret is not set!"
+            echo "ERROR: GITHUB_TOKEN secret is not set!"
             exit 1
           fi
           
-          # Configure git to use the Personal Access Token for authentication
-          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git
+          # Configure git to use the GitHub Token for authentication
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           
           # Debug: Show current remote URL (without token)
           echo "Remote URL configured for repository: ${{ github.repository }}"
@@ -376,7 +381,7 @@ jobs:
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             https://api.github.com/repos/${{ github.repository }}/pages/deployment \
             || echo "Manual Pages deployment trigger failed (this is optional)"

@@ -240,12 +240,20 @@
             try {
                 // Smart cache-busting: check if we have cached timestamp and use it to decide whether to bust cache
                 const lastKnownUpdate = localStorage.getItem('lastLibraryUpdate');
+                const lastDataTimestamp = localStorage.getItem('lastDataTimestamp');
                 let url = 'output/libraries.json';
                 
                 // Always add some cache busting to ensure fresh data, but use timestamp-based approach
                 const now = Date.now();
-                const cacheHours = 1; // Cache for 1 hour max
-                const shouldBustCache = !lastKnownUpdate || (now - parseInt(lastKnownUpdate) > cacheHours * 60 * 60 * 1000);
+                const cacheMinutes = 15; // Cache for 15 minutes max - more responsive to updates
+                const shouldBustCache = !lastKnownUpdate || (now - parseInt(lastKnownUpdate) > cacheMinutes * 60 * 1000);
+                
+                if (shouldBustCache) {
+                    url += `?v=${now}`;
+                    console.log('Cache busting applied for libraries.json');
+                } else {
+                    console.log('Using cached libraries.json');
+                }
                 
                 if (shouldBustCache) {
                     url += `?v=${now}`;
@@ -269,7 +277,16 @@
                 // Store the update timestamp for smart caching
                 const updateTimestamp = data.enhanced_at || data.processed_at;
                 if (updateTimestamp) {
-                    localStorage.setItem('lastLibraryUpdate', new Date(updateTimestamp).getTime().toString());
+                    const dataTime = new Date(updateTimestamp).getTime();
+                    const lastStoredTime = parseInt(lastDataTimestamp) || 0;
+                    
+                    // Check if this is newer data than what we had cached
+                    if (dataTime > lastStoredTime) {
+                        console.log('Newer data detected:', updateTimestamp);
+                    }
+                    
+                    localStorage.setItem('lastLibraryUpdate', Date.now().toString());
+                    localStorage.setItem('lastDataTimestamp', dataTime.toString());
                     console.log('Stored update timestamp:', updateTimestamp);
                 }
                 

@@ -238,7 +238,23 @@
         // Load the library data
         async function loadLibraries() {
             try {
-                const response = await fetch('output/libraries.json');
+                // Smart cache-busting: check if we have cached timestamp and use it to decide whether to bust cache
+                const lastKnownUpdate = localStorage.getItem('lastLibraryUpdate');
+                let url = 'output/libraries.json';
+                
+                // Always add some cache busting to ensure fresh data, but use timestamp-based approach
+                const now = Date.now();
+                const cacheHours = 1; // Cache for 1 hour max
+                const shouldBustCache = !lastKnownUpdate || (now - parseInt(lastKnownUpdate) > cacheHours * 60 * 60 * 1000);
+                
+                if (shouldBustCache) {
+                    url += `?v=${now}`;
+                    console.log('Cache busting applied for libraries.json');
+                } else {
+                    console.log('Using cached libraries.json');
+                }
+                
+                const response = await fetch(url);
                 const data = await response.json();
                 
                 // Store the complete data structure globally for Library of the Day access
@@ -249,6 +265,13 @@
                 
                 // Update header with dynamic information
                 updateHeaderInfo(data);
+                
+                // Store the update timestamp for smart caching
+                const updateTimestamp = data.enhanced_at || data.processed_at;
+                if (updateTimestamp) {
+                    localStorage.setItem('lastLibraryUpdate', new Date(updateTimestamp).getTime().toString());
+                    console.log('Stored update timestamp:', updateTimestamp);
+                }
                 
                 populateCategoryFilters();
                 populatePlatformFilters();
@@ -273,6 +296,9 @@
             const lastUpdate = data.enhanced_at || data.processed_at || '2025-07-21';
             const formattedDate = formatDateForHeader(lastUpdate);
             subtitle.textContent = `${libraryCount.toLocaleString()} entries, updated ${formattedDate}`;
+            
+            // Debug info for troubleshooting
+            console.log(`Library data loaded: ${libraryCount} libraries, last updated: ${lastUpdate}`);
             
             // Update entry count in About section
             const entryCountSpan = document.getElementById('entryCount');
@@ -880,7 +906,9 @@
         // Load Staff Pick configuration and display if enabled
         async function loadAndDisplayStaffPick() {
             try {
-                const response = await fetch('staff-pick-config.json');
+                // Light cache-busting for staff pick config (less critical than main data)
+                const cacheBuster = Math.floor(Date.now() / (1000 * 60 * 30)); // Update every 30 minutes
+                const response = await fetch(`staff-pick-config.json?v=${cacheBuster}`);
                 const config = await response.json();
                 console.log('Staff Pick config loaded:', config);
                 

@@ -302,8 +302,8 @@ jobs:
             Write-Host "Updated staff-pick-config.json with selected library: $($selectedLibrary.name)"
           }
           
-          # Create enhanced output structure
-          $outputData = @{
+          # Create enhanced output structure with explicit ordering
+          $outputData = [ordered]@{
             enhanced_at = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
             total_libraries = $allLibraries.Count
             changes_in_last_update = @{
@@ -315,7 +315,12 @@ jobs:
           }
           
           # Save to file
-          $outputData | ConvertTo-Json -Depth 10 | Set-Content "output/libraries.json" -Encoding UTF8
+          $jsonOutput = $outputData | ConvertTo-Json -Depth 10
+          $jsonOutput | Set-Content "output/libraries.json" -Encoding UTF8
+          
+          # Debug: Verify the structure was created correctly
+          Write-Host "Generated JSON structure includes enhanced_at: $($outputData.enhanced_at)"
+          Write-Host "Top-level keys in output: $($outputData.Keys -join ', ')"
           
           Write-Host "Updated libraries.json with $($allLibraries.Count) total libraries"
           Write-Host "Changes: $($newLibraries.Count + $updatedLibraries.Count) new/updated libraries"

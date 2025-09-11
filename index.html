@@ -244,17 +244,10 @@
                 const lastDataTimestamp = localStorage.getItem('lastDataTimestamp');
                 let url = 'output/libraries.json';
                 
-                // Always add some cache busting to ensure fresh data, but use timestamp-based approach
+                // More aggressive cache busting to ensure fresh data, especially during active development
                 const now = Date.now();
-                const cacheMinutes = 15; // Cache for 15 minutes max - more responsive to updates
+                const cacheMinutes = 5; // Reduced cache time to 5 minutes for more responsive updates
                 const shouldBustCache = !lastKnownUpdate || (now - parseInt(lastKnownUpdate) > cacheMinutes * 60 * 1000);
-                
-                if (shouldBustCache) {
-                    url += `?v=${now}`;
-                    console.log('Cache busting applied for libraries.json');
-                } else {
-                    console.log('Using cached libraries.json');
-                }
                 
                 if (shouldBustCache) {
                     url += `?v=${now}`;

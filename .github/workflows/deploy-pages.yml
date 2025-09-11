@@ -8,6 +8,7 @@ on:
       - 'staff-pick-config.json'
       - 'index.html'
       - 'style.css'
+      - '.deployment-trigger'
   workflow_dispatch: # Allow manual runs
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages

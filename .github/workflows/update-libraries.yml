@@ -349,6 +349,10 @@ jobs:
           
           git add output/libraries.json staff-pick-config.json
           
+          # Create a deployment trigger to ensure GitHub Pages redeploys
+          echo "$(date '+%Y-%m-%d %H:%M:%S UTC') - Library update completed" > .deployment-trigger
+          git add .deployment-trigger
+          
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"

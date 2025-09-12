@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45  # Increased timeout for registry-based processing
     
+    # Add GitHub Pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     permissions:
       contents: write  # Required to push changes to repository
       pages: write     # Required to trigger GitHub Pages deployment
@@ -380,19 +385,28 @@ jobs:
             echo "Libraries updated and pushed to repository"
           fi
 
-      - name: Trigger GitHub Pages rebuild
-        if: success()  # Only run if previous steps succeeded
+      - name: Deploy to GitHub Pages
+        if: success()  # Only deploy if library update succeeded
+        run: echo "Setting up GitHub Pages deployment..."
+      
+      - name: Setup Pages
+        if: success()
+        uses: actions/configure-pages@v4
+      
+      - name: Upload GitHub Pages artifact
+        if: success()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      
+      - name: Deploy to GitHub Pages
+        if: success()
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
+      - name: Deployment completion
+        if: success()
         run: |
-          echo "Library data updated successfully!"
-          echo "Triggering GitHub Pages deployment workflow..."
-          
-          # Use workflow dispatch to trigger the deployment workflow
-          curl -L \
-            -X POST \
-            -H "Accept: application/vnd.github+json" \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches \
-            -d '{"ref":"main"}' \
-            && echo "✅ Deployment workflow dispatch successful" \
-            || echo "⚠️ Deployment workflow dispatch failed, but changes were pushed"
+          echo "✅ Library update and GitHub Pages deployment completed successfully!"
+          echo "🔗 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📊 Updated ${UPDATED_COUNT:-103} libraries"

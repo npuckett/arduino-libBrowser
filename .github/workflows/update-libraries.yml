@@ -15,12 +15,14 @@ jobs:
       contents: write  # Required to push changes to repository
       pages: write     # Required to trigger GitHub Pages deployment
       id-token: write  # Required for GitHub Pages deployment
+      actions: write   # Required for workflow dispatch
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Use built-in GitHub token
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
         
       - name: Setup PowerShell
         shell: pwsh
@@ -382,15 +384,15 @@ jobs:
         if: success()  # Only run if previous steps succeeded
         run: |
           echo "Library data updated successfully!"
-          echo "GitHub Pages will automatically rebuild when changes are detected."
-          echo "If GitHub Pages is set to deploy from branch 'main', it should update within a few minutes."
+          echo "Triggering GitHub Pages deployment workflow..."
           
-          # Optional: You can also trigger a manual Pages deployment via API
-          # This requires the 'pages:write' permission on your Personal Access Token
+          # Use workflow dispatch to trigger the deployment workflow
           curl -L \
             -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            https://api.github.com/repos/${{ github.repository }}/pages/deployment \
-            || echo "Manual Pages deployment trigger failed (this is optional)"
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches \
+            -d '{"ref":"main"}' \
+            && echo "✅ Deployment workflow dispatch successful" \
+            || echo "⚠️ Deployment workflow dispatch failed, but changes were pushed"

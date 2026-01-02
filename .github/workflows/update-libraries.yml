@@ -327,7 +327,7 @@ jobs:
             }
           }
           
-          if ($shouldUpdateStaffPick) {
+          if ($shouldUpdateStaffPick -and $allLibraries.Count -gt 0) {
             # Use date as seed for deterministic random selection
             $dateHash = ($currentDate.ToCharArray() | ForEach-Object { [int]$_ } | Measure-Object -Sum).Sum
             $libraryIndex = $dateHash % $allLibraries.Count

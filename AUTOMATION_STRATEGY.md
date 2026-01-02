@@ -6,16 +6,18 @@ This repository uses a dual-workflow approach to keep the Arduino library databa
 
 ### 1. Daily Incremental Updates (`.github/workflows/update-libraries.yml`)
 - **Schedule**: Every day at 2 AM EST (7 AM UTC)
-- **Duration**: ~5-15 minutes
-- **Purpose**: Capture new and recently updated libraries
+- **Duration**: ~15-30 minutes
+- **Purpose**: Sync registry, capture new and recently updated libraries, deploy site
 - **API Usage**: Low (~200-500 calls per day)
 
 **What it does:**
-- Searches for Arduino libraries updated in the last 2 days
-- Downloads library.properties files for new/updated libraries
-- Adds basic GitHub metadata (stars, forks, update dates)
-- Merges changes with existing dataset
-- Commits only if there are actual changes
+1. Downloads the latest `repositories.txt` from [Arduino's Official Registry](https://github.com/arduino/library-registry)
+2. Compares with existing libraries (skips libraries unchanged for 30+ days)
+3. Downloads `library.properties` files for new/updated libraries
+4. Adds basic GitHub metadata (stars, forks, update dates)
+5. Merges changes with existing dataset
+6. Updates Staff Pick (if auto-update enabled)
+7. Commits changes and deploys to GitHub Pages
 
 ### 2. Weekly Full Enhancement (`.github/workflows/weekly-full-enhancement.yml`)
 - **Schedule**: Every Sunday at 1 AM EST (6 AM UTC)
@@ -24,11 +26,12 @@ This repository uses a dual-workflow approach to keep the Arduino library databa
 - **API Usage**: High (~8,000+ calls per week)
 
 **What it does:**
-- Processes all libraries in the database
-- Updates GitHub metadata (stars, forks, language, size, etc.)
-- Handles rate limiting and errors gracefully
-- Provides detailed progress tracking
-- Skips libraries enhanced within the last 7 days
+1. Disables daily workflow to prevent conflicts
+2. Processes all libraries in the database
+3. Updates GitHub metadata (stars, forks, language, size, etc.)
+4. Handles rate limiting and errors gracefully
+5. Skips libraries enhanced within the last 7 days
+6. Commits changes and re-enables daily workflow
 
 ## Token Configuration
 
@@ -61,10 +64,12 @@ Both workflows support manual triggering via GitHub Actions UI:
 ## Efficiency Features
 
 ### Daily Workflow Optimizations
-- Only processes libraries updated in last 2 days
+- **Registry Sync**: Downloads latest from Arduino's official registry before processing
+- **Smart Skipping**: Libraries unchanged for 30+ days are skipped entirely
 - Tracks which libraries are new vs. updated
 - Enhanced error handling and retry logic
 - Meaningful commit messages with change statistics
+- Auto-deploys to GitHub Pages after each run
 
 ### Weekly Workflow Optimizations
 - Batch processing to manage rate limits

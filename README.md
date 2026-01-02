@@ -76,17 +76,21 @@ The Arduino Library Browser is a fully automated system that discovers, processe
 
 ### Data Collection & Processing
 
+#### **Registry Synchronization**
+- **Official Source**: Downloads the latest library list from [Arduino's Library Registry](https://github.com/arduino/library-registry/blob/main/repositories.txt)
+- **Auto-Sync**: Registry is synchronized before each daily update run
+- **New Library Detection**: New libraries added to Arduino's registry appear within 24 hours
+
 #### **Automated Discovery**
-- **Daily Incremental Updates**: Scans GitHub every day for new and updated Arduino libraries
-- **Weekly Full Enhancement**: Complete refresh of all library metadata and GitHub statistics
-- **Smart Search Queries**: Uses multiple GitHub API strategies to ensure comprehensive coverage
-- **Rate Limiting**: Respects GitHub API limits with intelligent retry logic
+- **Daily Incremental Updates**: Runs at 2 AM EST (7 AM UTC), processes new and updated libraries (~15-30 minutes)
+- **Weekly Full Enhancement**: Runs Sundays at 1 AM EST (6 AM UTC), complete refresh of all library metadata (4-6 hours)
+- **Rate Limiting**: Respects GitHub API limits with intelligent retry logic and exponential backoff
 
 #### **Data Enhancement**
 - **Library Properties Parsing**: Extracts metadata from `library.properties` files
-- **GitHub Integration**: Enriches data with stars, forks, and activity metrics
-- **Validation & Cleanup**: Ensures data quality and consistency
+- **GitHub Integration**: Enriches data with stars, forks, language, and activity metrics
 - **Incremental Updates**: Only processes changed libraries for efficiency
+- **Skip Logic**: Libraries unchanged for 30+ days are skipped in daily runs
 
 #### **Database Structure**
 The system maintains a JSON database containing:
@@ -116,10 +120,16 @@ The system maintains a JSON database containing:
 ### Technical Implementation
 
 #### **GitHub Actions Automation**
-- **Daily Workflow**: Runs at 7 AM UTC, processes recent changes (15-30 minutes)
-- **Weekly Workflow**: Runs Sundays at 6 AM UTC, full database refresh (4-6 hours)
+The entire system runs automatically via two GitHub Actions workflows:
+
+| Workflow | Schedule | Duration | Purpose |
+|----------|----------|----------|---------|
+| `update-libraries.yml` | Daily @ 2 AM EST | ~15-30 min | Sync registry, process new/updated libraries, deploy site |
+| `weekly-full-enhancement.yml` | Sundays @ 1 AM EST | 4-6 hours | Full GitHub metadata refresh for all libraries |
+
 - **Error Handling**: Robust retry logic and graceful failure recovery
 - **Progress Tracking**: Detailed logging and statistics for monitoring
+- **Auto-Deploy**: GitHub Pages automatically updates after each successful run
 
 #### **Web Interface**
 - **Static Site**: Pure HTML/CSS/JavaScript for fast loading and reliability
@@ -128,8 +138,7 @@ The system maintains a JSON database containing:
 
 
 #### **Core Technologies**
-- **PowerShell**: Data processing scripts with GitHub API integration
-- **GitHub Actions**: Automated workflows for continuous updates
+- **GitHub Actions**: Automated workflows with embedded PowerShell for data processing
 - **GitHub Pages**: Static site hosting with automatic deployment
 - **Vanilla JavaScript**: Lightweight, dependency-free web interface
 

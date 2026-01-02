@@ -9,7 +9,7 @@ on:
 jobs:
   incremental-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45  # Increased timeout for registry-based processing
+    timeout-minutes: 90  # Extended timeout for processing large registry updates
     
     # Add GitHub Pages environment
     environment:

@@ -34,6 +34,48 @@ jobs:
         run: |
           Write-Host "PowerShell ready for incremental Arduino library updates"
           
+      - name: Download latest Arduino Registry
+        shell: pwsh
+        run: |
+          Write-Host "Downloading latest Arduino Library Registry from official source..."
+          $registryUrl = "https://raw.githubusercontent.com/arduino/library-registry/main/repositories.txt"
+          
+          # Ensure input directory exists
+          if (-not (Test-Path "input")) {
+            New-Item -ItemType Directory -Path "input" -Force | Out-Null
+          }
+          
+          # Backup existing file if it exists
+          if (Test-Path "input/repositories.txt") {
+            $existingCount = (Get-Content "input/repositories.txt" | Measure-Object -Line).Lines
+            Write-Host "Existing registry contains $existingCount entries"
+          }
+          
+          # Download latest registry
+          try {
+            Invoke-WebRequest -Uri $registryUrl -OutFile "input/repositories.txt" -TimeoutSec 60
+            $newCount = (Get-Content "input/repositories.txt" | Measure-Object -Line).Lines
+            Write-Host "Successfully downloaded latest registry with $newCount entries"
+            
+            if ($existingCount) {
+              $diff = $newCount - $existingCount
+              if ($diff -gt 0) {
+                Write-Host "Registry has grown by $diff new entries since last update"
+              } elseif ($diff -lt 0) {
+                Write-Host "Warning: Registry has $([Math]::Abs($diff)) fewer entries than before"
+              } else {
+                Write-Host "Registry size unchanged"
+              }
+            }
+          } catch {
+            Write-Host "ERROR: Failed to download Arduino Registry: $($_.Exception.Message)"
+            if (Test-Path "input/repositories.txt") {
+              Write-Host "Will proceed with existing registry file"
+            } else {
+              exit 1
+            }
+          }
+          
       - name: Run incremental library update
         shell: pwsh
         env:
@@ -354,7 +396,7 @@ jobs:
           # Debug: Show current remote URL (without token)
           echo "Remote URL configured for repository: ${{ github.repository }}"
           
-          git add output/libraries.json staff-pick-config.json
+          git add output/libraries.json staff-pick-config.json input/repositories.txt
           
           # Create a deployment trigger to ensure GitHub Pages redeploys
           echo "$(date '+%Y-%m-%d %H:%M:%S UTC') - Library update completed" > .deployment-trigger

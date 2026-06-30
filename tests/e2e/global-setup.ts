@@ -1,40 +1,51 @@
-import { execSync } from 'node:child_process';
 import { copyFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 /**
  * Playwright global setup: overwrite the live data files with our fixtures.
  *
  * Why: the live libraries.json is 14.9MB and the schema differs (v1 vs v2).
  * Tests need a stable, small dataset. We swap in fixtures before the server
- * starts, then restore the originals after.
+ * starts, then restore the originals in global-teardown.ts.
  */
+
+const HERE = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = resolve(HERE, '..', '..');
+
+function joinRepo(...segments: string[]): string {
+  return resolve(REPO_ROOT, ...segments);
+}
+
 export default async function globalSetup() {
-  if (!existsSync('output/libraries.json')) {
+  const realLibs = joinRepo('output', 'libraries.json');
+  if (!existsSync(realLibs)) {
     return;
   }
-  await mkdir('tests/e2e/.backups', { recursive: true });
-  await execShell('cp output/libraries.json tests/e2e/.backups/libraries.original.json');
-  await execShell('cp output/libraries.json output/libraries.json.bak');
-  await execShell('cp input/repositories.txt tests/e2e/.backups/repositories.original.txt 2>/dev/null || true');
 
-  await copyFile('tests/e2e/fixtures/libraries.v2.json', 'output/libraries.json');
-  await copyFile('tests/e2e/fixtures/picks.json', 'output/picks.json');
-}
+  // Back up the real files (we'll restore in teardown).
+  // We use a `.bak` suffix for libraries.json (the common convention)
+  // and a `.fix` suffix for picks.json (avoid colliding with the
+  // legacy `.bak`-based restore path).
+  await mkdir(joinRepo('tests', 'e2e', '.backups'), { recursive: true });
+  await copyFile(realLibs, joinRepo('output', 'libraries.json.bak'));
+  await copyFile(realLibs, joinRepo('tests', 'e2e', '.backups', 'libraries.original.json'));
 
-function execShell(cmd: string): Promise<void> {
-  return new Promise<void>((resolveFn, reject) => {
-    try {
-      execSync(cmd, { stdio: 'pipe' });
-      resolveFn();
-    } catch (err) {
-      reject(err as Error);
-    }
+  const realPicks = joinRepo('output', 'picks.json');
+  if (existsSync(realPicks)) {
+    await copyFile(realPicks, joinRepo('output', 'picks.json.fix'));
+    await copyFile(realPicks, joinRepo('tests', 'e2e', '.backups', 'picks.original.json'));
+  }
+
+  await copyFile(
+    joinRepo('input', 'repositories.txt'),
+    joinRepo('tests', 'e2e', '.backups', 'repositories.original.txt')
+  ).catch(() => {
+    // repositories.txt may not exist locally
   });
-}
 
-declare global {
-  // eslint-disable-next-line no-var
-  var __PLAYWRIGHT_FIXTURE_INSTALLED__: boolean | undefined;
+  // Swap in the fixtures.
+  await copyFile(joinRepo('tests', 'e2e', 'fixtures', 'libraries.v2.json'), realLibs);
+  await copyFile(joinRepo('tests', 'e2e', 'fixtures', 'picks.json'), realPicks);
 }

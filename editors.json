@@ -1,0 +1,63 @@
+{
+  "editors": [
+    {
+      "id": "npuckett",
+      "name": "Nick Puckett",
+      "url": "https://github.com/npuckett",
+      "bio": "Maintainer of The Arduino Library. I build sound art and lighting tools.",
+      "picks": [
+        {
+          "library": "ArtnetWifi",
+          "picked_at": "2025-08-05",
+          "note": "Art-Net over WiFi — perfect for stage lighting projects."
+        },
+        {
+          "library": "FastLED",
+          "picked_at": "2026-06-30",
+          "note": "The de-facto LED library. Animation engine is unmatched."
+        }
+      ]
+    },
+    {
+      "id": "adafruit",
+      "name": "Adafruit",
+      "url": "https://github.com/adafruit",
+      "bio": "Open-source hardware company. Maintainers of dozens of Arduino libraries for sensors, displays, and LEDs.",
+      "picks": [
+        {
+          "library": "Adafruit_NeoPixel",
+          "picked_at": "2025-09-12",
+          "note": "The canonical WS2812/NeoPixel library. Rock-solid and well documented."
+        },
+        {
+          "library": "Adafruit_BusIO",
+          "picked_at": "2026-01-18",
+          "note": "I2C/SPI register abstraction used across Adafruit's sensor drivers."
+        },
+        {
+          "library": "U8g2",
+          "picked_at": "2026-04-22",
+          "note": "Monochrome display library supporting a huge range of OLEDs and LCDs."
+        }
+      ]
+    },
+    {
+      "id": "knolleary",
+      "name": "Nick O'Leary",
+      "url": "https://github.com/knolleary",
+      "bio": "Author of PubSubClient and co-creator of Node-RED. IoT and MQTT enthusiast.",
+      "picks": [
+        {
+          "library": "PubSubClient",
+          "picked_at": "2025-10-03",
+          "note": "The lightweight MQTT client I wrote — still the simplest way to talk to a broker."
+        },
+        {
+          "library": "Arduino_JSON",
+          "picked_at": "2026-02-14",
+          "note": "Straightforward JSON encode/decode for tiny payloads."
+        }
+      ]
+    }
+  ]
+}

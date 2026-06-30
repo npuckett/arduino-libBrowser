@@ -1,0 +1,50 @@
+{
+  "themes": [
+    {
+      "id": "iot",
+      "title": "IoT",
+      "criteria": {
+        "categories_any": ["Communication", "Wireless", "Network"],
+        "architectures_any": ["esp32", "esp8266", "rp2040"],
+        "min_stars": 10
+      },
+      "count": 8
+    },
+    {
+      "id": "sensors",
+      "title": "Sensors",
+      "criteria": {
+        "categories_any": ["Sensor", "Sensors"],
+        "min_stars": 5
+      },
+      "count": 8
+    },
+    {
+      "id": "display",
+      "title": "Display",
+      "criteria": {
+        "categories_any": ["Display"],
+        "min_stars": 5
+      },
+      "count": 8
+    },
+    {
+      "id": "motor-control",
+      "title": "Motor Control",
+      "criteria": {
+        "categories_any": ["Device Control", "Motor Control"],
+        "min_stars": 5
+      },
+      "count": 6
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "criteria": {
+        "categories_any": ["Communication"],
+        "min_stars": 5
+      },
+      "count": 8
+    }
+  ]
+}

@@ -1087,93 +1087,15 @@
             displayLibraries();
         }
 
-        // Load Staff Pick configuration and display if enabled
-        // TODO(phase-3.5): staff pick will be superseded by curated discoveries
-        async function loadAndDisplayStaffPick() {
-            try {
-                // Light cache-busting for staff pick config (less critical than main data)
-                const cacheBuster = Math.floor(Date.now() / (1000 * 60 * 30)); // Update every 30 minutes
-                const response = await fetch(`staff-pick-config.json?v=${cacheBuster}`);
-                const config = await response.json();
-                console.log('Staff Pick config loaded:', config);
-                
-                if (config.enabled) {
-                    displayStaffPick(config);
-                } else {
-                    console.log('Staff Pick disabled by config');
-                    hideLibraryOfTheDay();
-                }
-            } catch (error) {
-                console.log('Staff Pick config not found, using default behavior:', error);
-                // Fallback to default behavior if config file doesn't exist
-                displayStaffPick({ enabled: true, picker_name: "Staff", specific_library: null });
-            }
-        }
+        // Curated Discoveries replaces the legacy Staff Pick. The old functions
+        // (loadAndDisplayStaffPick, displayStaffPick) and the DOM
+        // (#libraryOfTheDaySection) were removed in the v2 rewrite; the
+        // staff-pick-config.json fetch has been replaced with output/picks.json.
 
-        // Display Staff Pick with configuration
-        // TODO(phase-3.5): replace with displayCuratedDiscoveries
-        function displayStaffPick(config) {
-            if (libraries.length === 0) return;
-            
-            let selectedLibrary;
-            
-            // Check if a specific library is configured
-            if (config.specific_library) {
-                // Find library by name (case-insensitive)
-                selectedLibrary = libraries.find(lib => 
-                    lib.name.toLowerCase() === config.specific_library.toLowerCase()
-                );
-                
-                if (selectedLibrary) {
-                    console.log(`Using configured specific library: ${selectedLibrary.name}`);
-                } else {
-                    console.warn(`Configured library "${config.specific_library}" not found, falling back to deterministic selection`);
-                }
-            }
-            
-            // If no specific library configured or not found, use deterministic selection
-            if (!selectedLibrary) {
-                console.log('Using client-side deterministic Staff Pick selection');
-                const currentDate = new Date().toISOString().split('T')[0];
-                
-                let dateHash = 0;
-                for (let i = 0; i < currentDate.length; i++) {
-                    dateHash += currentDate.charCodeAt(i);
-                }
-                
-                const libraryIndex = dateHash % libraries.length;
-                selectedLibrary = libraries[libraryIndex];
-                
-                console.log(`Staff Pick selected deterministically: ${selectedLibrary.name} (index: ${libraryIndex}, hash: ${dateHash})`);
-            }
-            
-            const libraryOfTheDayDiv = document.getElementById('libraryOfTheDay');
-            const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
-            
-            // Update the section header with the picker name and library name
-            const sectionHeader = libraryOfTheDaySection.querySelector('.section-header');
-            
-            // Create picker name display (with link if URL provided)
-            let pickerNameHtml;
-            if (config.picker_url) {
-                pickerNameHtml = `<a href="${escapeHtml(config.picker_url)}" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">${escapeHtml(config.picker_name)}</a>`;
-            } else {
-                pickerNameHtml = escapeHtml(config.picker_name);
-            }
-            
-            sectionHeader.innerHTML = `${pickerNameHtml} Pick: ${escapeHtml(selectedLibrary.name)}`;
-            
-            // Create a standard library card
-            libraryOfTheDayDiv.innerHTML = createLibraryCard(selectedLibrary);
-            
-            // Show the section
-            libraryOfTheDaySection.style.display = 'block';
-        }
-
-        // Hide Staff Pick section
+        // Hide Curated Discoveries section (used by filter handlers when
+        // the user picks a specific category/platform and we want to focus
+        // the page on the filtered grid instead).
         function hideLibraryOfTheDay() {
-            const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
-            if (libraryOfTheDaySection) libraryOfTheDaySection.style.display = 'none';
             const curatedSection = document.getElementById('curatedDiscoveries');
             if (curatedSection) curatedSection.style.display = 'none';
         }

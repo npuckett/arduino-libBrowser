@@ -3,9 +3,12 @@ pipeline/dist/
 coverage/
 playwright-report/
 tests/e2e/test-results/
+tests/e2e/.backups/
 *.log
 .DS_Store
 
-# Pipeline state files (regenerated each run)
+# Pipeline output state (regenerated each run)
 state/
 .state/
+output/picks.json
+output/libraries.json.bak

@@ -164,23 +164,25 @@ Found a bug or have a suggestion? Please [open an issue](https://github.com/npuc
 
 ## Pipeline
 
-The data pipeline (`scripts/pipeline.ts` + `pipeline/src/*`) is what keeps `output/libraries.json` current. It runs on a three-tier cron schedule and writes only what changed — the hourly run is a no-op when the upstream registry hasn't moved.
+The data pipeline (`scripts/pipeline.ts` + `pipeline/src/*`) is what keeps `output/libraries.json` and `output/picks.json` current. It runs on a three-tier cron schedule and writes only what changed — the hourly run is a no-op when the upstream registry hasn't moved.
 
 ### Data sources
 
 | Source | Role | Auth | Notes |
 |--------|------|------|-------|
-| **`library_index.json.gz`** ([Arduino library-registry](https://github.com/arduino/library-registry)) | **Primary.** The canonical list of every Arduino library + their `library.properties` metadata. | None | Downloaded with conditional `If-None-Match` against the stored ETag. |
-| **GitHub REST API** (`/repos/{owner}/{repo}`) | **Secondary enrichment.** Adds `github_stars`, `github_forks`, `github_language`, `github_pushed_at`, etc. | `GITHUB_TOKEN` (raises the rate limit to 5,000/h) | Uses `If-None-Match` against per-repo ETags to skip unchanged repos. |
-| `staff-pick-config.json` | Editor overrides for the Staff Pick widget. | None | Manually edited; the pipeline preserves manual picks unless `auto_update: true`. |
+| **`library_index.json.gz`** (`downloads.arduino.cc/libraries/library_index.json.gz`) | **Primary.** The canonical Arduino release index — every library, every release, with `library.properties` metadata. Refreshed by Arduino ~hourly. | None | Conditional GET with ETag + `If-Modified-Since`. 304 means nothing changed. |
+| **GitHub REST API** (`/repos/{owner}/{repo}`) | **Secondary enrichment.** Adds `github_stars`, `github_forks`, `github_language`. | `GITHUB_TOKEN` (5,000/h rate limit) | Per-repo ETags stored in `state/sync-state.json`. 304 means the repo metadata is unchanged — most libraries hit 304 every day. |
+| `editors.json` | User-editable list of curators and their picks. | None | PR-editable; see [Curated Discoveries](#curated-discoveries) below. |
+| `themes.json` | User-editable themed auto-pick configurations. | None | PR-editable. |
 
 ### Cron tiers
 
-| Tier | Schedule | Command | What it does | API budget |
-|------|----------|---------|--------------|------------|
-| **Hourly** | `0 * * * *` (`.github/workflows/hourly-sync.yml`) | `pnpm pipeline:hourly` → `sync` | Fetches `library_index.json.gz`. If unchanged, exits 0. If changed, computes a diff (new/updated/removed) and enriches *only new* libraries. | ~50 calls/day |
-| **Daily** | `0 6 * * *` (`.github/workflows/daily-enrich.yml`) | `pnpm pipeline:daily` → `enrich` | Walks `output/libraries.json` and re-fetches any library whose stored ETag no longer matches (i.e. the repo changed on GitHub). | ~500 calls/day |
-| **Weekly** | `0 4 * * 0` (`.github/workflows/weekly-stats.yml`) | `pnpm pipeline:weekly` → `stats` | Computes `trending` (delta stars since last run) and emits `output/stats.json` + `output/picks.json` (themed + editor picks). | None (local compute only) |
+| Tier | Schedule | Workflow | What it does |
+|------|----------|----------|--------------|
+| **Hourly sync** | `0 * * * *` | `hourly-sync.yml` | Fetches `library_index.json.gz` with ETag. On 200, re-enriches `libraries.json` + writes `changes.json`. On 304, exits 0 (no deploy). |
+| **Daily enrichment** | `0 6 * * *` | `daily-enrich.yml` | Walks `libraries.json` and re-fetches any library whose stored per-repo ETag no longer matches. |
+| **Weekly stats** | `0 4 * * 0` | `weekly-stats.yml` | Computes `trending` (stars deltas) and emits `stats.json` + `picks.json` (editors + themes + computed). |
+| **Test on PR** | on PR | `test.yml` | Runs Vitest unit tests + Playwright E2E. |
 
 For a one-shot full refresh that ignores ETags, use `pnpm pipeline:hourly -- --full`.
 
@@ -190,81 +192,169 @@ For a one-shot full refresh that ignores ETags, use `pnpm pipeline:hourly -- --f
 # Install deps (Node 20+ required)
 pnpm install
 
-# Hourly sync (idempotent)
-pnpm pipeline:hourly
-
-# Dry-run: compute everything but write nothing
+# One-shot: run all three tiers with --dry-run
 pnpm pipeline:dry
 
-# Daily enrichment
-pnpm pipeline:daily
+# Individual tiers
+node --experimental-strip-types scripts/pipeline.ts sync
+node --experimental-strip-types scripts/pipeline.ts enrich
+node --experimental-strip-types scripts/pipeline.ts stats
 
-# Weekly stats rollup
-pnpm pipeline:weekly
-
-# Everything in one go
+# Everything in sequence
 node --experimental-strip-types scripts/pipeline.ts all --verbose
 ```
 
-The script reads from the project root (`output/libraries.json`, `state/sync-state.json`) and writes the same paths.
+The script reads `output/libraries.json` + `state/sync-state.json` (created on first run) and writes the same paths.
 
-### Schema versioning
+---
 
-The on-disk schema is versioned via `state/sync-state.json` → `schema_version`. The current schema is **v2**.
+## Curated Discoveries
 
-| Field | Since | Notes |
-|-------|-------|-------|
-| `enhanced_at`, `github_*`, `version_history` | v2 | Added when the pipeline migrated from PowerShell to TypeScript in 2026. |
-| `processed_at`, `properties`, `repository_*` | v1 | Legacy PowerShell fields, still present for backward compatibility. |
+The home page's Curated Discoveries block surfaces three coordinated pick streams. All three are computed by the pipeline and emitted to `output/picks.json`.
 
-A future v3 will fold `properties` (a redundant copy of the top-level fields) into a single source of truth. Migrations are applied automatically by `loadState()`.
+### Editor Picks (manual)
 
-### Debugging locally
+Each editor in **`editors.json`** has a profile (`id`, `name`, `url`, `bio`) and a `picks` array of `{ library, picked_at, note }` entries. The pipeline preserves manual picks — your `picks: [...]` is never overwritten.
 
-```bash
-# Verbose logging (pretty-printed if stdout is a TTY, JSON otherwise)
-node --experimental-strip-types scripts/pipeline.ts sync --verbose
+**Add yourself as an editor via PR:**
 
-# Inspect current state
-cat state/sync-state.json | jq .
-
-# Force re-enrichment of every library
-node --experimental-strip-types scripts/pipeline.ts sync --full --verbose
-
-# Run unit tests
-pnpm test
-
-# Type-check only
-pnpm typecheck
+```json
+{
+  "editors": [
+    ...existing editors,
+    {
+      "id": "your-handle",
+      "name": "Your Name",
+      "url": "https://github.com/your-handle",
+      "bio": "What you build. (one sentence)",
+      "picks": [
+        {
+          "library": "LibraryName",
+          "picked_at": "2026-06-30",
+          "note": "Why this library is special."
+        }
+      ]
+    }
+  ]
+}
 ```
 
-Exit codes:
+The `library` field must match the library name exactly (case-insensitive). The `picked_at` date determines display order on the home page (newest first).
 
-- `0` — success (including no-op runs)
-- `1` — transient error (network, rate limit, upstream 5xx). The workflow will retry on the next cron tick.
-- `2` — config error (bad CLI, missing input files, schema mismatch). The workflow will NOT retry.
+### Themed Auto-Picks (self-rotating)
+
+Static theme definitions in **`themes.json`**. Each theme has selection criteria (`categories_any`, `architectures_any`, `min_stars`, `exclude_categories`); the pipeline queries the library database and ranks by criteria. Result rotates weekly.
+
+Out of the box the site ships with:
+
+- **IoT** — Communication / Wireless categories, esp32/esp8266/rp2040 architectures
+- **Sensors** — category: Sensors
+- **Display** — category: Display
+- **Motor Control** — Device Control categories
+- **Communication** — category: Communication
+
+Add a new theme by appending to the `themes` array.
+
+### Computed Picks (purely algorithmic)
+
+Self-updating picks derived from the data:
+
+| Section | Source | Rule |
+|---------|--------|------|
+| **New This Week** | `changes.json.new_libraries` | Top 8 by name |
+| **Updated This Week** | `changes.json.updated_libraries` | Top 8 by name, shows old → new version |
+| **Hidden Gems** | All libraries | stars < 20, updated < 90d, has description |
+| **Trending** | Weekly computed | Sort by 7-day star deltas |
+| **Forgotten Classics** | All libraries | stars > 100, no update > 365d |
+
+### On-page attribution
+
+Each card carries a subtle attribution badge in the corner or as a colored left-edge accent — editor picks have a teal spine, themed picks a dark gray spine, computed picks show small "NEW" (teal) or "UPDATED" (orange) badges. No busy "Picked by X" labels on cards.
+
+---
+
+## Development
+
+### Tests
+
+```bash
+# Unit tests (Vitest, 95 tests across 6 suites)
+pnpm test
+
+# E2E tests (Playwright, 19 specs covering home/sort/search/card/modal flows)
+pnpm test:e2e
+
+# Both
+pnpm test && pnpm test:e2e
+
+# Type check + lint
+pnpm typecheck && pnpm lint
+```
+
+The E2E suite uses a 12-library fixture (`tests/e2e/fixtures/libraries.v2.json`) so each run is hermetic and fast — no 15MB downloads. `global-setup.ts` swaps in the fixture before the suite runs and `global-teardown.ts` restores the originals.
+
+### Local server
+
+```bash
+# Cross-platform (any OS with Node 20+)
+node scripts/serve.mjs
+
+# Windows only (legacy)
+powershell -ExecutionPolicy Bypass -File ./Start-Server.ps1
+```
+
+### Adding a new sort mode
+
+1. Add the algorithm in `pipeline/src/transforms/` (or inline in `index.html` if it's client-only).
+2. Add a `<button class="sort-btn" data-sort="…">` in `index.html`.
+3. Add a `case '<your-mode>':` to `sortLibraries()`.
+4. If it's a pipeline-computed mode, add it to `buildPicksJson` so it surfaces on the home page.
+
+### Adding a new theme
+
+1. Append to the `themes` array in `themes.json` with `id`, `title`, `criteria`, `count`.
+2. Push to a branch, open a PR. The next hourly sync will populate the picks for it.
 
 ### File layout
 
 ```
-scripts/pipeline.ts             CLI entry point — dispatches on subcommand
+scripts/
+  pipeline.ts                  CLI entry point (sync | enrich | stats | all)
+  serve.mjs                    Cross-platform static server for local dev + E2E
 pipeline/src/
   sources/
-    arduino-index.ts            Fetch + cache library_index.json.gz (ETag-aware)
-    arduino-properties.ts       Parse library.properties fixtures
+    arduino-index.ts           Fetch + cache library_index.json.gz (ETag-aware)
+    github-meta.ts             GitHub repo enrichment with per-repo ETags
   transforms/
-    diff-detector.ts            Compute new / updated / removed
-    github-enrich.ts            Per-repo GitHub API + ETag bookkeeping
-    stats.ts                    Aggregate counts, trending deltas
-    themed-picker.ts            Editor + theme pick generation
+    library-properties.ts      Parses library.properties (fixes garbage-key bug)
+    diff-detector.ts           SHA-based new / updated / removed detection
+    theme-picker.ts            Theme-driven multi-criteria picker
+    computed-picks.ts          hidden gems / trending / forgotten classics / most depended on
+    fuzzy-search.ts            Levenshtein, synonyms, did-you-mean (also re-used client-side)
+    daily-seed.ts              Deterministic date-based seed for Surprise Me
+  output/
+    build-libraries-json.ts    output/libraries.json (v2 schema)
+    build-changes-json.ts      output/changes.json (this-run deltas)
+    build-stats-json.ts        output/stats.json (categories, trending, etc.)
+    build-picks-json.ts        output/picks.json (editors + themes + computed)
   utils/
-    logger.ts                   pino with pino-pretty on TTY
-    state.ts                    Load/save state/sync-state.json atomically
-    io.ts                       Atomic JSON read/write
-  types.ts                      Library, ArduinoIndexEntry, SyncState, etc.
+    http.ts                    conditionalGet + gzip-aware fetcher
+    state.ts                   Atomic load/save of state/sync-state.json
+    hash.ts                    FNV-1a hue, charCodeAt daily seed, sha256
+    sleep.ts                   Rate-limit-aware backoff
+  types.ts                     Library, ArduinoIndexEntry, SyncState, output shapes
 pipeline/tests/
-  fixtures/                     Sample data for unit tests
-  unit/                         Vitest suites
+  fixtures/                    Sample data for offline tests
+  unit/                        Vitest suites
+tests/e2e/
+  fixtures/                    libraries.v2.json + picks.json for E2E
+  specs/ui.spec.ts             19 Playwright tests
+  global-setup.ts              Swap fixtures in
+  global-teardown.ts           Restore originals
+editors.json                   Editor Picks (PR-editable)
+themes.json                    Themed Auto-Picks (PR-editable)
+index.html                     Static frontend (~1950 lines)
+style.css                      Aesthetic (~1050 lines)
 ```
 
 ---

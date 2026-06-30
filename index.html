@@ -156,6 +156,10 @@
                 <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
                 <button class="sort-btn" data-sort="shelf-order">Registry Order</button>
                 <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
+                <button class="sort-btn" data-sort="surprise-me">Surprise Me</button>
+                <button class="sort-btn" data-sort="hidden-gems">Hidden Gems</button>
+                <button class="sort-btn" data-sort="trending">Trending</button>
+                <button class="sort-btn" data-sort="forgotten-classics">Forgotten Classics</button>
             </div>
             
             <div class="category-filters" id="categoryFilters">
@@ -183,12 +187,24 @@
             Loading collection...
         </div>
 
-        <div class="library-of-the-day-section" id="libraryOfTheDaySection" style="display: none;">
-            <div class="section-header">Staff Pick</div>
-            <div id="libraryOfTheDay">
-                <!-- Will be populated by JavaScript -->
+        <section class="curated-discoveries" id="curatedDiscoveries" style="display: none;">
+            <h2 class="section-header">
+                Curated Discoveries
+                <span class="curated-count" id="curatedCount"></span>
+            </h2>
+
+            <div class="curated-row editor-picks" id="editorPicksRow" style="display: none;">
+                <div class="curated-section-header">Editor Picks</div>
+                <div class="curated-grid" id="editorPicksGrid"></div>
             </div>
-        </div>
+
+            <div class="curated-row computed-row" id="computedRow" style="display: none;">
+                <div class="curated-section-header">This Week</div>
+                <div class="curated-grid" id="computedGrid"></div>
+            </div>
+
+            <div class="curated-row themed-row" id="themedRows"></div>
+        </section>
 
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
@@ -226,6 +242,125 @@
         let currentDisplayCount = 120; // How many libraries are currently displayed
         const itemsPerPage = 120; // How many to load at once
 
+        let trendingScores = {};
+        let pickedRepoNames = new Set();
+
+        async function loadSupportingData() {
+            try {
+                const stats = await fetch(`output/stats.json?v=${Date.now()}`).then(r => r.ok ? r.json() : null);
+                if (stats && Array.isArray(stats.trending)) {
+                    for (let i = 0; i < stats.trending.length; i++) {
+                        if (stats.trending[i]) trendingScores[stats.trending[i].repository_name] = stats.trending.length - i;
+                    }
+                }
+                const picks = await fetch(`output/picks.json?v=${Date.now()}`).then(r => r.ok ? r.json() : null);
+                if (picks) {
+                    if (Array.isArray(picks.editors)) {
+                        for (const editor of picks.editors) {
+                            for (const p of (editor.picks || [])) pickedRepoNames.add(p.library.toLowerCase());
+                        }
+                    }
+                    for (const libs of Object.values(picks.themes || {})) {
+                        for (const lib of libs || []) pickedRepoNames.add((lib.name || '').toLowerCase());
+                    }
+                }
+            } catch (err) {
+                console.warn('Supporting data unavailable:', err.message);
+            }
+        }
+
+        const SYNONYMS = {
+            wifi: ['wireless', 'esp', 'network', 'tcp', 'udp'],
+            screen: ['display', 'lcd', 'oled', 'tft'],
+            motor: ['servo', 'stepper', 'pwm'],
+            sensor: ['detect', 'measure'],
+            audio: ['sound', 'mp3', 'wav', 'speaker', 'i2s'],
+            light: ['led', 'neopixel', 'ws2812', 'rgb'],
+            power: ['battery', 'solar', 'voltage'],
+            time: ['rtc', 'clock', 'timer'],
+        };
+
+        function expandSynonyms(query) {
+            const expansions = new Set([query]);
+            const lowerQuery = query.toLowerCase();
+            for (const [key, syns] of Object.entries(SYNONYMS)) {
+                if (key === lowerQuery || syns.includes(lowerQuery)) {
+                    expansions.add(key);
+                    for (const s of syns) expansions.add(s);
+                }
+            }
+            return Array.from(expansions);
+        }
+
+        function levenshtein(a, b) {
+            if (a.length === 0) return b.length;
+            if (b.length === 0) return a.length;
+            const matrix = [];
+            for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+            for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+            for (let i = 1; i <= b.length; i++) {
+                for (let j = 1; j <= a.length; j++) {
+                    if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                        matrix[i][j] = matrix[i - 1][j - 1];
+                    } else {
+                        matrix[i][j] = Math.min(
+                            matrix[i - 1][j - 1] + 1,
+                            matrix[i][j - 1] + 1,
+                            matrix[i - 1][j] + 1
+                        );
+                    }
+                }
+            }
+            return matrix[b.length][a.length];
+        }
+
+        function fuzzyMatchName(query, name) {
+            const q = query.toLowerCase().trim();
+            const n = name.toLowerCase();
+            if (n === q) return { match: true, distance: 0 };
+            if (n.startsWith(q)) return { match: true, distance: 0 };
+            if (n.includes(q)) return { match: true, distance: 0 };
+            const tolerance = q.length >= 4 ? 1 : 0;
+            if (tolerance > 0) {
+                const tokens = n.split(/\s+/);
+                for (const tok of tokens) {
+                    if (Math.abs(tok.length - q.length) <= tolerance && levenshtein(tok, q) <= tolerance) {
+                        return { match: true, distance: levenshtein(tok, q) };
+                    }
+                }
+            }
+            return { match: false, distance: Infinity };
+        }
+
+        function didYouMean(query) {
+            if (libraries.length === 0) return null;
+            const q = query.toLowerCase().trim();
+            if (q.length < 3) return null;
+            let best = null;
+            let bestDistance = Infinity;
+            for (const lib of libraries) {
+                const result = fuzzyMatchName(query, lib.name);
+                if (result.match && result.distance < bestDistance) {
+                    best = lib.name;
+                    bestDistance = result.distance;
+                    if (bestDistance === 0) break;
+                }
+            }
+            return best;
+        }
+
+        function surpriseMeFilter(libraries) {
+            return libraries.filter(lib => {
+                const desc = lib.sentence || lib.paragraph || '';
+                const hasDesc = desc.length > 0;
+                const stars = lib.github_stars;
+                const noStarsInfo = stars === undefined || stars === null;
+                const okStars = noStarsInfo || stars >= 5;
+                const inCurated = pickedRepoNames.has((lib.name || '').toLowerCase());
+                return hasDesc && okStars && !inCurated;
+            });
+        }
+
         // Load the library data
         async function loadLibraries() {
             try {
@@ -261,6 +396,8 @@
                 libraries = data.libraries;
                 filteredLibraries = libraries;
                 
+                await loadSupportingData();
+                
                 // Update header with dynamic information
                 updateHeaderInfo(data);
                 
@@ -284,8 +421,8 @@
                 populatePlatformFilters();
                 setupSortButtons();
                 
-                // Load Staff Pick configuration and display if enabled
-                await loadAndDisplayStaffPick();
+                // Load Curated Discoveries (editor picks, themed picks, computed picks)
+                await displayCuratedDiscoveries();
                 
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
@@ -697,6 +834,50 @@
                         return safeNameCompare(a, b); // Secondary sort
                     });
                 
+                case 'surprise-me': {
+                    const candidates = surpriseMeFilter(libraries);
+                    if (candidates.length === 0) return [...libraries];
+                    const dateStr = new Date().toISOString().slice(0, 10);
+                    const seed = [...dateStr].reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
+                    const idx = seed % candidates.length;
+                    const target = candidates[idx];
+                    const rest = libraries.filter(l => l !== target);
+                    for (let i = rest.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [rest[i], rest[j]] = [rest[j], rest[i]];
+                    }
+                    return [target, ...rest];
+                }
+                case 'hidden-gems': {
+                    const now = Date.now();
+                    const cutoff = now - 90 * 24 * 60 * 60 * 1000;
+                    return [...libraries].filter(lib => {
+                        const stars = lib.github_stars;
+                        if (stars === undefined || stars === null || stars >= 20) return false;
+                        const updated = lib.github_updated_at;
+                        if (updated && new Date(updated).getTime() < cutoff) return false;
+                        return (lib.sentence || lib.paragraph || '').length > 0;
+                    }).sort((a, b) => {
+                        return (a.github_stars || 0) - (b.github_stars || 0);
+                    });
+                }
+                case 'trending': {
+                    if (Object.keys(trendingScores).length === 0) return libraries;
+                    return [...libraries].sort((a, b) => {
+                        return (trendingScores[b.repository_name] || 0) - (trendingScores[a.repository_name] || 0);
+                    });
+                }
+                case 'forgotten-classics': {
+                    const cutoff = Date.now() - 365 * 24 * 60 * 60 * 1000;
+                    return [...libraries].filter(lib => {
+                        const stars = lib.github_stars;
+                        if (stars === undefined || stars === null || stars <= 100) return false;
+                        const updated = lib.github_updated_at;
+                        if (updated && new Date(updated).getTime() > cutoff) return false;
+                        return true;
+                    }).sort((a, b) => (b.github_stars || 0) - (a.github_stars || 0));
+                }
+                
                 default:
                     return sorted;
             }
@@ -790,8 +971,14 @@
             // Apply search filter
             if (currentSearchQuery.trim()) {
                 console.log('Applying search filter for:', currentSearchQuery);
-                const searchTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
-                
+                const rawTerms = currentSearchQuery.toLowerCase().split(' ').filter(term => term.length > 0);
+                const searchTerms = [];
+                for (const term of rawTerms) {
+                    for (const expansion of expandSynonyms(term)) {
+                        if (!searchTerms.includes(expansion)) searchTerms.push(expansion);
+                    }
+                }
+
                 // Group results by match type with priority for "starts with" matches
                 const searchResults = {
                     nameStartsWith: [],
@@ -804,14 +991,14 @@
                     categoryContains: [],
                     descriptionMatches: []
                 };
-                
+
                 libraries.forEach(lib => {
                     const name = (lib.name || '').toLowerCase();
                     const author = (lib.author || '').toLowerCase();
                     const maintainer = (lib.maintainer || '').toLowerCase();
                     const category = (lib.category || '').toLowerCase();
                     const description = ((lib.sentence || '') + ' ' + (lib.paragraph || '')).toLowerCase();
-                    
+
                     // Check if all search terms are found somewhere in the library
                     const matchesAllTerms = searchTerms.every(term => {
                         return name.includes(term) || author.includes(term) || maintainer.includes(term) ||
@@ -986,7 +1173,152 @@
         // Hide Staff Pick section
         function hideLibraryOfTheDay() {
             const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
-            libraryOfTheDaySection.style.display = 'none';
+            if (libraryOfTheDaySection) libraryOfTheDaySection.style.display = 'none';
+            const curatedSection = document.getElementById('curatedDiscoveries');
+            if (curatedSection) curatedSection.style.display = 'none';
+        }
+
+        // === Curated Discoveries (editor picks + themed picks + computed picks) ===
+        let picksData = null;
+
+        async function loadPicks() {
+            try {
+                const response = await fetch(`output/picks.json?v=${Date.now()}`);
+                if (!response.ok) return null;
+                return await response.json();
+            } catch (err) {
+                console.warn('No picks.json available yet:', err.message);
+                return null;
+            }
+        }
+
+        function renderPickCard(lib, attribution) {
+            const hue = hashSpineHue(lib.repository_name);
+            const kindClass = `pick-${attribution.kind}`;
+            const badgeHtml = attribution.badge
+                ? `<span class="pick-badge ${attribution.badge}">${attribution.badge}</span>`
+                : '';
+            return `<button type="button" class="library-card ${kindClass}" data-repo-name="${escapeHtml(lib.repository_name)}" data-pick-kind="${escapeHtml(attribution.kind)}" style="--spine-hue: ${hue};" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                ${badgeHtml}
+                <div class="library-name">${escapeHtml(lib.name)}</div>
+                <div class="library-version">v${escapeHtml(lib.version)}</div>
+                <div class="library-author">${escapeHtml(lib.author)}</div>
+                <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at || '')}</div>
+                <div class="library-stars">★ ${parseInt(lib.github_stars) || 0} stars</div>
+                <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || '')}</div>
+                <div class="library-category">${escapeHtml(lib.category || 'Uncategorized')}</div>
+            </button>`;
+        }
+
+        function pickLibraryForEditor(editor) {
+            if (!editor.picks || editor.picks.length === 0) return null;
+            const sortedPicks = [...editor.picks].sort((a, b) =>
+                (b.picked_at || '').localeCompare(a.picked_at || '')
+            );
+            for (const pick of sortedPicks) {
+                const lib = libraries.find(l =>
+                    (l.name || '').toLowerCase() === (pick.library || '').toLowerCase()
+                );
+                if (lib) return lib;
+            }
+            return null;
+        }
+
+        async function displayCuratedDiscoveries() {
+            const section = document.getElementById('curatedDiscoveries');
+            if (!section) return;
+
+            const data = await loadPicks();
+            if (!data) {
+                section.style.display = 'none';
+                return;
+            }
+            picksData = data;
+
+            let totalPicks = 0;
+
+            // A. Editor picks
+            const editorRow = document.getElementById('editorPicksRow');
+            const editorGrid = document.getElementById('editorPicksGrid');
+            const editorPicks = [];
+            if (Array.isArray(data.editors)) {
+                for (const editor of data.editors) {
+                    const lib = pickLibraryForEditor(editor);
+                    if (lib) editorPicks.push({ lib, editor });
+                }
+            }
+            if (editorPicks.length > 0) {
+                editorGrid.innerHTML = editorPicks.slice(0, 6).map(({ lib }) =>
+                    renderPickCard(lib, {
+                        kind: 'editor',
+                        badge: lib.first_seen_seven_days ? 'new' : null,
+                    })
+                ).join('');
+                const headerEl = editorRow.querySelector('.curated-section-header');
+                if (headerEl) {
+                    headerEl.setAttribute('data-count', `${editorPicks.length} picks`);
+                }
+                editorRow.style.display = 'block';
+                totalPicks += editorPicks.length;
+            } else {
+                editorRow.style.display = 'none';
+            }
+
+            // B. Computed picks (New + Updated)
+            const computedRow = document.getElementById('computedRow');
+            const computedGrid = document.getElementById('computedGrid');
+            if (data.computed) {
+                const cards = [];
+                for (const lib of (data.computed.new_this_week || []).slice(0, 6)) {
+                    cards.push(renderPickCard(lib, { kind: 'computed', badge: 'new' }));
+                }
+                for (const change of (data.computed.updated_this_week || []).slice(0, 6)) {
+                    if (change && change.library) {
+                        cards.push(renderPickCard(change.library, { kind: 'computed', badge: 'updated' }));
+                    }
+                }
+                if (cards.length > 0) {
+                    computedGrid.innerHTML = cards.join('');
+                    const headerEl = computedRow.querySelector('.curated-section-header');
+                    if (headerEl) {
+                        headerEl.setAttribute('data-count', `${cards.length} this week`);
+                    }
+                    computedRow.style.display = 'block';
+                    totalPicks += cards.length;
+                } else {
+                    computedRow.style.display = 'none';
+                }
+            } else {
+                computedRow.style.display = 'none';
+            }
+
+            // C. Themed rows (one row per theme)
+            const themedRowsContainer = document.getElementById('themedRows');
+            themedRowsContainer.innerHTML = '';
+            if (data.themes && typeof data.themes === 'object') {
+                for (const [themeId, libs] of Object.entries(data.themes)) {
+                    if (!Array.isArray(libs) || libs.length === 0) continue;
+                    const themeRow = document.createElement('div');
+                    themeRow.className = 'curated-row themed-row';
+                    themeRow.id = `themed-${themeId}`;
+                    themeRow.innerHTML = `
+                        <div class="curated-section-header" data-count="${libs.length} libraries">${escapeHtml(themeId)}</div>
+                        <div class="curated-grid">${libs.slice(0, 8).map(lib =>
+                            renderPickCard(lib, { kind: 'themed' })
+                        ).join('')}</div>
+                    `;
+                    themedRowsContainer.appendChild(themeRow);
+                    totalPicks += libs.length;
+                }
+            }
+
+            if (totalPicks > 0) {
+                section.style.display = 'block';
+                const countEl = document.getElementById('curatedCount');
+                if (countEl) countEl.textContent = `${totalPicks} highlighted`;
+            } else {
+                section.style.display = 'none';
+            }
         }
 
         // Display libraries in the grid
@@ -998,6 +1330,14 @@
             
             if (filteredLibraries.length === 0) {
                 grid.style.display = 'none';
+                if (currentSearchQuery.trim().length >= 3) {
+                    const suggestion = didYouMean(currentSearchQuery);
+                    noResults.innerHTML = suggestion
+                        ? `No libraries match your search. Did you mean <a href="#" onclick="document.getElementById('searchInput').value='${escapeHtml(suggestion)}'; document.getElementById('searchInput').dispatchEvent(new Event('input')); return false;"><strong>${escapeHtml(suggestion)}</strong></a>?`
+                        : 'No items found in the collection matching your search.';
+                } else {
+                    noResults.innerHTML = 'No items found in the collection matching your search.';
+                }
                 noResults.style.display = 'block';
                 loadMoreContainer.style.display = 'none';
                 return;
@@ -1204,15 +1544,9 @@
                 <button class="copy-name-btn" onclick="copyLibraryName('${escapeHtml(library.name)}')" title="Copy library name">⧉</button>
             `;
             
-            // Get alphabetical neighbors
-            const sortedLibraries = [...libraries].sort((a, b) => {
-                const nameA = (a.name || '').toString();
-                const nameB = (b.name || '').toString();
-                return nameA.localeCompare(nameB);
-            });
-            const currentIndex = sortedLibraries.findIndex(lib => lib.repository_name === repositoryName);
-            const neighbors = getNeighbors(sortedLibraries, currentIndex);
-            
+            // Get related libraries based on category, architectures, language, and topics
+            const related = getRelatedLibraries(library, libraries, 5);
+
             modalBody.innerHTML = `
                 <div class="detail-section">
                     <div class="detail-label">Version</div>
@@ -1303,16 +1637,20 @@
                 </div>
                 
                 <div class="neighbors-section">
-                    <div class="neighbors-title">Alphabetical Neighbors</div>
-                    <div class="neighbors-grid">
-                        ${neighbors.map(neighbor => `
-                            <div class="neighbor-card ${neighbor.repository_name === repositoryName ? 'current' : ''}" 
-                                 onclick="${neighbor.repository_name === repositoryName ? '' : `openLibraryDetail('${escapeHtml(neighbor.repository_name)}')`}">
-                                <div class="neighbor-name">${escapeHtml(neighbor.name)}</div>
-                                <div class="neighbor-author">${escapeHtml(neighbor.author)}</div>
-                            </div>
-                        `).join('')}
-                    </div>
+                    <div class="neighbors-title">Related Libraries</div>
+                    ${related.length > 0 ? `
+                        <div class="neighbors-grid">
+                            ${related.map(lib => `
+                                <div class="neighbor-card" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                                    <div class="neighbor-name">${escapeHtml(lib.name)}</div>
+                                    <div class="neighbor-meta">
+                                        <span class="neighbor-author">${escapeHtml(lib.author)}</span>
+                                        <span class="neighbor-reason">${escapeHtml(getRelatedReason(library, lib))}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : '<p class="neighbor-empty">No closely related libraries found.</p>'}
                 </div>
             `;
             
@@ -1320,17 +1658,62 @@
             document.body.style.overflow = 'hidden'; // Prevent background scrolling
         }
 
-        // Get neighboring libraries in alphabetical order
-        function getNeighbors(sortedLibraries, currentIndex) {
-            const neighbors = [];
-            const start = Math.max(0, currentIndex - 5);
-            const end = Math.min(sortedLibraries.length, currentIndex + 6);
-            
-            for (let i = start; i < end; i++) {
-                neighbors.push(sortedLibraries[i]);
+        // Get libraries related to currentLib by category, architectures, language, topics, or star count
+        function getRelatedLibraries(currentLib, allLibs, limit = 5) {
+            const current = {
+                category: (currentLib.category || '').toLowerCase().trim(),
+                architectures: new Set((currentLib.architectures || []).map(a => (a || '').toLowerCase())),
+                language: (currentLib.github_language || '').toLowerCase(),
+                topics: new Set(currentLib.github_topics || []),
+            };
+
+            const scored = [];
+            for (const lib of allLibs) {
+                if (lib.repository_name === currentLib.repository_name) continue;
+
+                let score = 0;
+                const libCategory = (lib.category || '').toLowerCase().trim();
+                const libArchs = (lib.architectures || []).map(a => (a || '').toLowerCase());
+                const libLang = (lib.github_language || '').toLowerCase();
+                const libTopics = lib.github_topics || [];
+
+                if (current.category && libCategory === current.category) score += 5;
+                // Architecture overlap
+                let archOverlap = 0;
+                for (const arch of libArchs) {
+                    if (current.architectures.has(arch)) archOverlap++;
+                }
+                score += archOverlap * 2;
+                if (current.language && libLang && current.language === libLang) score += 2;
+                // Topic overlap
+                const topicOverlap = libTopics.filter(t => current.topics.has(t)).length;
+                score += topicOverlap * 3;
+                // Star proximity
+                const starDiff = Math.abs((lib.github_stars || 0) - (currentLib.github_stars || 0));
+                if (starDiff < 50) score += 1;
+                if (starDiff < 200) score += 0.5;
+
+                if (score > 0) scored.push({ lib, score });
             }
-            
-            return neighbors;
+
+            scored.sort((a, b) => b.score - a.score);
+            return scored.slice(0, limit).map(s => s.lib);
+        }
+
+        // Return a short reason explaining why two libraries are related
+        function getRelatedReason(current, related) {
+            const reasons = [];
+            if ((current.category || '').toLowerCase() === (related.category || '').toLowerCase()
+                && current.category) reasons.push('Same category');
+            const curArchs = new Set((current.architectures || []).map(a => (a || '').toLowerCase()));
+            const sameArchs = (related.architectures || []).filter(a => curArchs.has((a || '').toLowerCase()));
+            if (sameArchs.length > 0) reasons.push(`Same arch: ${sameArchs.slice(0, 2).join(', ')}`);
+            if ((current.github_language || '').toLowerCase() === (related.github_language || '').toLowerCase()
+                && current.github_language) reasons.push('Same language');
+            const sharedTopics = (related.github_topics || []).filter(t => (current.github_topics || []).includes(t));
+            if (sharedTopics.length > 0) reasons.push(`Topic: ${sharedTopics[0]}`);
+            if (reasons.length === 0) reasons.push('Similar popularity');
+            return reasons[0];
         }
 
         // Close modal functionality
@@ -1397,8 +1780,8 @@
                 }
             } else {
                 clearBtn.style.display = 'none';
-                // Show Staff Pick when search is cleared (if enabled)
-                loadAndDisplayStaffPick();
+                // Show Curated Discoveries when search is cleared
+                displayCuratedDiscoveries();
             }
             
             applyFilters();

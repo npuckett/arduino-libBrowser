@@ -792,6 +792,13 @@ a:hover {
     color: #ccc;
 }
 
+.neighbor-card { padding: 8px 10px; }
+.neighbor-meta { display: flex; flex-direction: column; gap: 2px; margin-top: 4px; }
+.neighbor-author { font-size: 10px; color: #666; font-style: italic; }
+.neighbor-reason { font-size: 9px; color: #999; text-transform: uppercase; letter-spacing: 0.3px; }
+.neighbor-empty { font-size: 12px; color: #666; font-style: italic; padding: 10px 0; }
+.neighbor-card:hover .neighbor-reason { color: #ccc; }
+
 @media (max-width: 768px) {
     .modal-content {
         width: 95%;
@@ -940,6 +947,79 @@ a:hover {
 .library-of-the-day-section .library-card {
     width: 280px;
     flex-shrink: 0;
+}
+
+/* Curated Discoveries */
+.curated-discoveries {
+    margin: 40px 0;
+    padding: 0 var(--content-margin-left);
+}
+
+.curated-row {
+    margin-bottom: 35px;
+}
+
+.curated-section-header {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.curated-section-header::after {
+    content: attr(data-count);
+    font-size: 10px;
+    color: #666;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.curated-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    gap: 15px;
+}
+
+.curated-count {
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+/* Pick attribution badges on cards within curated discoveries */
+.library-card .pick-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 6px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 0.5px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.library-card .pick-badge.new {
+    background-color: #00979D;
+    color: white;
+    border-color: #00979D;
+}
+
+.library-card .pick-badge.updated {
+    background-color: #ff8c00;
+    color: white;
+    border-color: #ff8c00;
 }
 
 /* Accessibility - Screen reader only content */

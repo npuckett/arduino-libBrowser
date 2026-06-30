@@ -6,10 +6,11 @@
   "description": "Catalog of Arduino libraries with self-updating data pipeline, curated picks, and full visual regression coverage.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "pipeline:hourly": "node --experimental-strip-types scripts/pipeline.ts sync",
-    "pipeline:daily": "node --experimental-strip-types scripts/pipeline.ts enrich",
-    "pipeline:weekly": "node --experimental-strip-types scripts/pipeline.ts stats",
-    "pipeline:dry": "node --experimental-strip-types scripts/pipeline.ts sync --dry-run",
+    "pipeline:hourly": "tsx scripts/pipeline.ts sync",
+    "pipeline:daily": "tsx scripts/pipeline.ts enrich",
+    "pipeline:weekly": "tsx scripts/pipeline.ts stats",
+    "pipeline:all": "tsx scripts/pipeline.ts all",
+    "pipeline:dry": "tsx scripts/pipeline.ts sync --dry-run",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
@@ -26,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "^7.10.0",
     "eslint": "^8.57.0",
+    "tsx": "^4.22.4",
     "typescript": "^5.4.0",
     "vitest": "^1.6.0"
   },

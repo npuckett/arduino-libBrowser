@@ -35,15 +35,15 @@ export interface ArduinoIndexEntry {
   paragraph: string;
   category: string;
   architectures: string[];
-  types: string[];
+  types?: string[];
   repository: string;
   url: string;
   archiveFileName: string;
   size: number;
   checksum: string;
-  license: string;
-  dependencies: string[];
-  providesIncludes: string[];
+  license?: string;
+  dependencies?: unknown;
+  providesIncludes?: string[];
 }
 
 export interface VersionHistoryEntry {

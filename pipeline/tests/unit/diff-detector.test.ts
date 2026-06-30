@@ -286,4 +286,39 @@ describe('detectChanges', () => {
     const result = detectChanges([], [], state);
     expect(result).toEqual({ newLibs: [], updatedLibs: [], removed: [] });
   });
+
+  it('deduplicates multiple releases of the same repository to a single Library', () => {
+    // Regression test: the Arduino index contains 1+ release per repository
+    // (one per tagged version). The detector must NOT emit one Library per
+    // release — it groups by repository and emits one Library for the
+    // highest version.
+    const state = emptyState();
+    const repoName = 'adafruit/Adafruit_BusIO';
+    const oldLib = makeLibrary({
+      repository_name: repoName,
+      name: 'Adafruit_BusIO',
+      version: '1.15.0',
+      last_seen_sha: sha256Short('Adafruit_BusIO-1.15.0.zip|1.15.0'),
+      first_seen_at: '2023-01-01T00:00:00Z',
+    });
+    state.firstSeenAt[repoName] = '2023-01-01T00:00:00Z';
+    state.lastSeenSha[repoName] = sha256Short('Adafruit_BusIO-1.15.0.zip|1.15.0');
+    state.previousVersion[repoName] = '1.15.0';
+    state.versionHistory[repoName] = [
+      { version: '1.15.0', seen_at: '2023-01-01T00:00:00Z' },
+    ];
+
+    const releases = [
+      makeRelease({ version: '1.15.1', archiveFileName: 'Adafruit_BusIO-1.15.1.zip' }),
+      makeRelease({ version: '1.16.0', archiveFileName: 'Adafruit_BusIO-1.16.0.zip' }),
+      makeRelease({ version: '1.16.1', archiveFileName: 'Adafruit_BusIO-1.16.1.zip' }),
+    ];
+
+    const result = detectChanges([oldLib], releases, state);
+
+    expect(result.newLibs).toHaveLength(0);
+    expect(result.updatedLibs).toHaveLength(1);
+    expect(result.updatedLibs[0]?.version).toBe('1.16.1');
+    expect(result.updatedLibs[0]?.previous_version).toBe('1.15.0');
+  });
 });

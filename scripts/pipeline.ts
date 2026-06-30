@@ -215,8 +215,9 @@ async function enrichTargets(
   state: SyncState,
   cache: RepoEnrichmentCache,
   token: string | undefined,
-  logger: Logger
-): Promise<{ apiCalls: number; rateLimitHits: number }> {
+  logger: Logger,
+  options: { dryRun?: boolean } = {}
+): Promise<{ apiCalls: number; rateLimitHits: number; skipped: number }> {
   const metrics: GithubEnrichMetrics = {
     apiCalls: 0,
     rateLimitHits: 0,
@@ -226,11 +227,16 @@ async function enrichTargets(
   };
   const opts: GithubEnrichOptions = {
     token,
-    delayMs: 1000,
+    delayMs: options.dryRun ? 0 : 1000,
     maxRetries: 3,
   };
 
+  let skipped = 0;
   for (const release of releases) {
+    if (options.dryRun) {
+      skipped += 1;
+      continue;
+    }
     try {
       await enrichWithGithub(release, state, cache, opts, metrics);
     } catch (err) {
@@ -240,7 +246,7 @@ async function enrichTargets(
       );
     }
   }
-  return { apiCalls: metrics.apiCalls, rateLimitHits: metrics.rateLimitHits };
+  return { apiCalls: metrics.apiCalls, rateLimitHits: metrics.rateLimitHits, skipped };
 }
 
 async function runSync(opts: CliOptions, logger: Logger): Promise<void> {
@@ -293,13 +299,17 @@ async function runSync(opts: CliOptions, logger: Logger): Promise<void> {
 
   if (uniqueTargets.length > 0) {
     logger.info({ count: uniqueTargets.length }, 'sync: enriching with GitHub');
-    const { apiCalls, rateLimitHits } = await enrichTargets(
+    const { apiCalls, rateLimitHits, skipped } = await enrichTargets(
       uniqueTargets,
       state,
       cache,
       process.env['GITHUB_TOKEN'],
-      logger
+      logger,
+      { dryRun: opts.dryRun }
     );
+    if (opts.dryRun) {
+      logger.info({ skipped }, 'sync: dry-run; skipped GitHub calls');
+    }
     logger.info(
       { apiCalls, rateLimitHits },
       'sync: GitHub enrichment complete'
@@ -420,14 +430,19 @@ async function runEnrich(opts: CliOptions, logger: Logger): Promise<void> {
     return;
   }
 
-  const { apiCalls } = await enrichTargets(
+  const { apiCalls, skipped } = await enrichTargets(
     targets,
     state,
     cache,
     process.env['GITHUB_TOKEN'],
-    logger
+    logger,
+    { dryRun: opts.dryRun }
   );
-  logger.info({ apiCalls }, 'enrich: GitHub fetch complete');
+  if (opts.dryRun) {
+    logger.info({ skipped, total: targets.length }, 'enrich: dry-run; skipped GitHub calls');
+  } else {
+    logger.info({ apiCalls }, 'enrich: GitHub fetch complete');
+  }
 
   const refreshed = libraries.map((lib) => {
     const cached = cache[lib.repository_name];

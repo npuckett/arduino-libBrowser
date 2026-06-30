@@ -69,7 +69,7 @@ test.describe('Sort modes', () => {
       els.map((el) => {
         const text = el.querySelector('.library-stars')?.textContent ?? '';
         const m = text.match(/(\d+)/);
-        return m ? parseInt(m[1], 10) : 0;
+        return m && m[1] ? parseInt(m[1], 10) : 0;
       })
     );
     for (const s of stars) {
@@ -87,7 +87,7 @@ test.describe('Sort modes', () => {
       els.map((el) => {
         const text = el.querySelector('.library-stars')?.textContent ?? '';
         const m = text.match(/(\d+)/);
-        return m ? parseInt(m[1], 10) : 0;
+        return m && m[1] ? parseInt(m[1], 10) : 0;
       })
     );
     for (const s of stars) {

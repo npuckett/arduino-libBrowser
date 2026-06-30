@@ -47,12 +47,19 @@ function parseArchitectures(value: string | string[] | undefined): string[] {
   return [];
 }
 
-function parseDependencies(
-  value: string | string[] | undefined
-): string[] | undefined {
+function parseDependencies(value: unknown): string[] | undefined {
+  if (value === undefined || value === null) return undefined;
+  // Real Arduino index: dependencies is an array of objects with {name, version?, ...}.
+  // Older fixtures may use string[] or a comma-separated string.
   if (Array.isArray(value)) {
     const list = value
-      .map((d) => d.trim())
+      .map((d) => {
+        if (typeof d === 'string') return d.trim();
+        if (d && typeof d === 'object' && typeof d['name'] === 'string') {
+          return (d['name'] as string).trim();
+        }
+        return '';
+      })
       .filter((d) => d.length > 0);
     return list.length > 0 ? list : undefined;
   }
@@ -125,11 +132,20 @@ export function detectChanges(
     oldLibsByRepo.set(lib.repository_name, lib);
   }
 
+  // The Arduino library index contains 1+ release per repository (every
+  // tagged version in the registry). We need ONE Library per repository
+  // (the latest version), so group releases by repo name first.
+  const latestByRepo = new Map<string, ArduinoIndexEntry>();
   for (const release of newReleases) {
     const repoName = deriveRepoName(release);
-    if (!repoName) {
-      continue;
+    if (!repoName) continue;
+    const existing = latestByRepo.get(repoName);
+    if (!existing || compareVersions(release.version, existing.version) > 0) {
+      latestByRepo.set(repoName, release);
     }
+  }
+
+  for (const [repoName, release] of latestByRepo) {
     seenRepoNames.add(repoName);
 
     const sha = sha256Short(`${release.archiveFileName}|${release.version}`);
@@ -185,8 +201,31 @@ export function detectChanges(
     }
   }
 
-  state.knownLibraryCount = oldLibsByRepo.size + newLibs.length - removed.length;
+  state.knownLibraryCount = seenRepoNames.size;
   state.lastHighWaterMark = now.toISOString();
 
   return { newLibs, updatedLibs, removed };
+}
+
+// Loose semver-ish compare. Returns >0 if a > b, <0 if a < b, 0 if equal.
+// Handles "1.2.3", "1.2", "2.0.0-rc1", "precompiled:" (returns 0 on unparsable).
+function compareVersions(a: string, b: string): number {
+  const pa = parseVersion(a);
+  const pb = parseVersion(b);
+  for (let i = 0; i < 3; i++) {
+    const ai = pa[i] ?? 0;
+    const bi = pb[i] ?? 0;
+    if (ai !== bi) return ai - bi;
+  }
+  return 0;
+}
+
+function parseVersion(v: string): [number, number, number] {
+  if (!v || typeof v !== 'string') return [0, 0, 0];
+  const cleaned = v.replace(/^v/i, '').split('-')[0] ?? '';
+  const parts = cleaned.split('.').map((n) => {
+    const num = Number.parseInt(n, 10);
+    return Number.isFinite(num) ? num : 0;
+  });
+  return [parts[0] ?? 0, parts[1] ?? 0, parts[2] ?? 0];
 }

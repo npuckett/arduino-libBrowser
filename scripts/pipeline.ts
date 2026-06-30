@@ -40,6 +40,7 @@ import { buildStatsJson } from '../pipeline/src/output/build-stats-json.js';
 import { buildPicksJson } from '../pipeline/src/output/build-picks-json.js';
 import { loadState, saveState, emptyState } from '../pipeline/src/utils/state.js';
 import { computeDateSeed } from '../pipeline/src/transforms/daily-seed.js';
+import { migrateLibraries, seedStateFromLibraries } from '../pipeline/src/transforms/v1-to-v2-migration.js';
 
 import type {
   Library,
@@ -173,14 +174,15 @@ async function writeJsonFile(path: string, data: unknown): Promise<void> {
 }
 
 interface LibrariesFile {
-  libraries?: Library[];
+  libraries?: unknown;
+  enhanced_at?: unknown;
 }
 
 async function readPreviousLibraries(): Promise<Library[]> {
   try {
     const raw = await readJsonFile<LibrariesFile>(LIBRARIES_PATH);
     if (!raw || !Array.isArray(raw.libraries)) return [];
-    return raw.libraries;
+    return migrateLibraries(raw.libraries);
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === 'ENOENT') return [];
     throw err;
@@ -275,6 +277,7 @@ async function runSync(opts: CliOptions, logger: Logger): Promise<void> {
   );
 
   const previous = await readPreviousLibraries();
+  seedStateFromLibraries(state, previous);
   const changes: DiffDetectorResult = detectChanges(previous, result.releases, state);
   logger.info(
     {
@@ -325,6 +328,29 @@ async function runSync(opts: CliOptions, logger: Logger): Promise<void> {
   for (const lib of changes.updatedLibs) {
     const cached = cache[lib.repository_name];
     if (cached) Object.assign(lib, applyEnrichment(lib, cached));
+  }
+
+  // V1.5 → V2 migration safety net: the migrated last_seen_sha won't match
+  // the upstream's sha on the first run, so the diff-detector marks many
+  // existing libs as "updated". Those libs are reconstructed from the
+  // upstream release (which carries no github_* fields) and would lose the
+  // V1.5 enrichment. Fall back to the previous library's enrichment if
+  // we don't have a fresh cache entry — the V1.5 enrichment is recent and
+  // good enough until the next daily enrich run refreshes it.
+  const previousByRepo = new Map<string, Library>();
+  for (const lib of previous) {
+    if (typeof lib.repository_name === 'string' && lib.repository_name.length > 0) {
+      previousByRepo.set(lib.repository_name, lib);
+    }
+  }
+  for (const lib of [...changes.newLibs, ...changes.updatedLibs]) {
+    if (typeof lib.github_stars === 'number') continue;
+    const prev = previousByRepo.get(lib.repository_name);
+    if (!prev || typeof prev.github_stars !== 'number') continue;
+    lib.github_stars = prev.github_stars;
+    lib.github_forks = prev.github_forks;
+    lib.github_language = prev.github_language;
+    lib.github_updated_at = prev.github_updated_at;
   }
 
   const allLibs: Library[] = [...previous];

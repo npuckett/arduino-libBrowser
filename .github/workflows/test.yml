@@ -71,11 +71,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install PowerShell
-        shell: bash
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y powershell
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
 
       - name: Run E2E tests
         env:

@@ -468,7 +468,7 @@
             // Get all unique architectures
             const allArchs = new Set();
             libraries.forEach(lib => {
-                const archs = (lib.architectures || '*').split(',').map(a => a.trim());
+                const archs = archsToArray(lib.architectures);
                 archs.forEach(arch => {
                     if (arch && arch !== '*') {
                         allArchs.add(arch);
@@ -963,7 +963,7 @@
             // Apply platform filter
             if (currentPlatform !== 'all') {
                 filtered = filtered.filter(lib => {
-                    const archs = (lib.architectures || '*').split(',').map(a => a.trim().toLowerCase());
+                    const archs = archsToArray(lib.architectures).map(a => a.trim().toLowerCase());
                     return archs.includes('*') || archs.includes(currentPlatform.toLowerCase());
                 });
             }
@@ -1606,7 +1606,7 @@
                 <div class="detail-section">
                     <div class="detail-label">Supported Architectures</div>
                     <div class="detail-value">
-                        ${library.architectures.split(',').map(arch => {
+                        ${archsToArray(library.architectures).map(arch => {
                             const trimmedArch = arch.trim();
                             if (trimmedArch === '*') {
                                 return '<span style="color: #666;">All Platforms</span>';
@@ -1792,6 +1792,14 @@
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        // Schema-tolerant architectures accessor.
+        // v1 stored architectures as comma-separated string; v2 stores them as array.
+        function archsToArray(value) {
+            if (Array.isArray(value)) return value.map(a => (a || '').toString());
+            if (typeof value === 'string') return value.split(',').map(a => a.trim());
+            return ['*'];
         }
 
         // Format date for display

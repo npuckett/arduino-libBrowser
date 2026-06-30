@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-06-30T22:00:00Z",
+  "editors": [
+    {
+      "id": "npuckett",
+      "name": "Nick Puckett",
+      "url": "https://github.com/npuckett",
+      "bio": "Maintainer of The Arduino Library.",
+      "picks": [
+        { "library": "FastLED", "picked_at": "2026-06-30", "note": "De-facto LED library." },
+        { "library": "Adafruit_NeoPixel", "picked_at": "2025-09-01", "note": "Polaris of addressable LEDs." }
+      ]
+    },
+    {
+      "id": "adafruit",
+      "name": "Adafruit",
+      "url": "https://github.com/adafruit",
+      "bio": "Industry-leading open source hardware.",
+      "picks": [
+        { "library": "DHT-sensor-library", "picked_at": "2025-06-10", "note": "Standard for DHT sensors." }
+      ]
+    }
+  ],
+  "themes": {
+    "iot": [
+      { "name": "PubSubClient", "repository_name": "knolleary/PubSubClient", "category": "Communication", "github_stars": 1450, "sentence": "MQTT client.", "version": "2.8", "author": "Nick O'Leary", "architectures": ["avr","esp32","esp8266","samd"], "repository_url": "https://github.com/knolleary/PubSubClient" },
+      { "name": "ESP8266WiFi", "repository_name": "ricklon/ESP8266WiFi", "category": "Communication", "github_stars": 820, "sentence": "WiFi support for ESP8266.", "version": "2.7.4", "author": "Ivan Grokhotkov", "architectures": ["esp8266"], "repository_url": "https://github.com/ricklon/ESP8266WiFi" }
+    ],
+    "sensors": [
+      { "name": "DHT-sensor-library", "repository_name": "adafruit/DHT-sensor-library", "category": "Sensors", "github_stars": 980, "sentence": "Arduino library for DHT sensors.", "version": "1.4.6", "author": "Adafruit", "architectures": ["avr","esp32","esp8266"], "repository_url": "https://github.com/adafruit/DHT-sensor-library" }
+    ]
+  },
+  "computed": {
+    "new_this_week": [
+      { "name": "LEDMatrix", "repository_name": "marcmerlin/LEDMatrix", "category": "Display", "github_stars": 18, "sentence": "HUB75 LED panels.", "version": "0.1.0", "author": "marcmerlin", "architectures": ["esp32"], "repository_url": "https://github.com/marcmerlin/LEDMatrix" }
+    ],
+    "updated_this_week": [
+      { "library": { "name": "UpdatedLastWeek", "repository_name": "owner/UpdatedLastWeek", "category": "Sensors", "github_stars": 50, "sentence": "Recently updated test library.", "version": "1.0.1", "author": "Test Author", "architectures": ["esp32"], "repository_url": "https://github.com/owner/UpdatedLastWeek" }, "old_version": "1.0.0", "new_version": "1.0.1" }
+    ],
+    "hidden_gems": [
+      { "name": "LEDMatrix", "repository_name": "marcmerlin/LEDMatrix", "category": "Display", "github_stars": 18, "sentence": "HUB75 LED panels.", "version": "0.1.0", "author": "marcmerlin", "architectures": ["esp32"], "repository_url": "https://github.com/marcmerlin/LEDMatrix" }
+    ],
+    "trending": [],
+    "forgotten_classics": [
+      { "name": "PopularOld", "repository_name": "owner/PopularOld", "category": "Display", "github_stars": 250, "sentence": "Very popular, very old.", "version": "1.0.0", "author": "Oldie", "architectures": ["avr"], "repository_url": "https://github.com/owner/PopularOld" }
+    ]
+  }
+}

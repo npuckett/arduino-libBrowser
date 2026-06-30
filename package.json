@@ -1,0 +1,36 @@
+{
+  "name": "arduino-libbrowser",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Catalog of Arduino libraries with self-updating data pipeline, curated picks, and full visual regression coverage.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pipeline:hourly": "node --experimental-strip-types scripts/pipeline.ts sync",
+    "pipeline:daily": "node --experimental-strip-types scripts/pipeline.ts enrich",
+    "pipeline:weekly": "node --experimental-strip-types scripts/pipeline.ts stats",
+    "pipeline:dry": "node --experimental-strip-types scripts/pipeline.ts sync --dry-run",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots",
+    "lint": "eslint pipeline/ tests/ --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.12.0",
+    "@typescript-eslint/eslint-plugin": "^7.10.0",
+    "@typescript-eslint/parser": "^7.10.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  }
+}

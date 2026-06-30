@@ -1,0 +1,27 @@
+{
+  "$schema": "./editors.schema.json",
+  "version": 1,
+  "description": "Curated editors who pick a library per cycle. Real names; replace with your team.",
+  "editors": [
+    {
+      "id": "adafruit",
+      "name": "Adafruit",
+      "url": "https://github.com/adafruit",
+      "active": true,
+      "bio": "Open-source hardware company. Picks rotate around sensors and displays.",
+      "pick": {
+        "library": "Adafruit NeoPixel",
+        "rationale": "Best-in-class WS2812/WS2813 driver, used in countless projects.",
+        "picked_at": "2025-08-04"
+      }
+    },
+    {
+      "id": "espressif",
+      "name": "Espressif Systems",
+      "url": "https://github.com/espressif",
+      "active": true,
+      "bio": "Makers of ESP32/ESP8266. Picks focus on connectivity and low-power.",
+      "pick": null
+    }
+  ]
+}

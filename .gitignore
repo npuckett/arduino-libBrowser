@@ -1,0 +1,11 @@
+node_modules/
+pipeline/dist/
+coverage/
+playwright-report/
+tests/e2e/test-results/
+*.log
+.DS_Store
+
+# Pipeline state files (regenerated each run)
+state/
+.state/

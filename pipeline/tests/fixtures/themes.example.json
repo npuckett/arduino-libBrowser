@@ -1,0 +1,40 @@
+{
+  "$schema": "./themes.schema.json",
+  "version": 1,
+  "description": "Themes drive the weekly themed-picker. Each theme's criteria filters librariesV2.",
+  "themes": [
+    {
+      "id": "iot",
+      "name": "IoT",
+      "description": "Internet-of-Things: WiFi, MQTT, BLE, HTTP, and connectivity stacks.",
+      "criteria": {
+        "categories": ["Communication"],
+        "keywords": ["wifi", "mqtt", "esp", "bluetooth", "http"],
+        "min_stars": 100,
+        "max_results": 5
+      }
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "description": "Sensor drivers: temperature, pressure, motion, gas, IMU.",
+      "criteria": {
+        "categories": ["Sensors"],
+        "keywords": ["temperature", "humidity", "imu", "accelerometer", "gyro"],
+        "min_stars": 10,
+        "max_results": 5
+      }
+    },
+    {
+      "id": "display",
+      "name": "Display",
+      "description": "Display drivers: OLED, LCD, ePaper, LED matrices.",
+      "criteria": {
+        "categories": ["Display"],
+        "keywords": ["oled", "lcd", "tft", "epd", "matrix"],
+        "min_stars": 50,
+        "max_results": 5
+      }
+    }
+  ]
+}

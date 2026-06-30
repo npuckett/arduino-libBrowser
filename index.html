@@ -35,7 +35,6 @@
     
     <!-- Google Analytics 4 -->
     <!-- Replace G-WKJSHCT4ZG with your actual GA4 Measurement ID (looks like G-XXXXXXXXXX) -->
-    <!-- Force deployment trigger: Sept 11, 2025 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKJSHCT4ZG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -147,15 +146,6 @@
             </nav>
         </section>
 
-        <!-- <div class="random-pick-section">
-            <div class="section-header">
-                Grab Bag Selection
-            </div>
-            <div class="random-pick-card" id="randomPick">
-                <div class="loading">Selecting a random library...</div>
-            </div>
-        </div> -->
-
         <div class="browse-section">
             <div class="section-header">Browse</div>
             <div class="sort-buttons">
@@ -246,7 +236,13 @@
                 
                 // More aggressive cache busting to ensure fresh data, especially during active development
                 const now = Date.now();
-                const cacheMinutes = 5; // Reduced cache time to 5 minutes for more responsive updates
+                let cacheMinutes = 5; // Reduced cache time to 5 minutes for more responsive updates
+                try {
+                    const conn = navigator.connection;
+                    if (conn && (conn.effectiveType === '2g' || conn.effectiveType === 'slow-2g')) {
+                        cacheMinutes = 30; // Slow connections: cache longer to reduce refetch pain
+                    }
+                } catch (e) { /* navigator.connection not available */ }
                 const shouldBustCache = !lastKnownUpdate || (now - parseInt(lastKnownUpdate) > cacheMinutes * 60 * 1000);
                 
                 if (shouldBustCache) {
@@ -517,8 +513,7 @@
             const sortedMatches = sortLibraries(authorMatches);
             
             filteredLibraries = sortedMatches;
-            updateActiveFiltersDisplay();
-            
+
             // Display as author group only
             displayAuthorOnlyResults(sortedMatches, authorName);
         }
@@ -582,8 +577,7 @@
             const sortedMatches = sortLibraries(maintainerMatches);
             
             filteredLibraries = sortedMatches;
-            updateActiveFiltersDisplay();
-            
+
             // Display as maintainer group only
             displayMaintainerOnlyResults(sortedMatches, maintainerName);
         }
@@ -609,13 +603,6 @@
             </div>`;
             
             grid.innerHTML = html;
-        }
-
-        // Update the active filters display
-        function updateActiveFiltersDisplay() {
-            // Since we removed the alphabet navigation section, 
-            // this function no longer needs to display anything
-            // but we keep it to avoid breaking other code that calls it
         }
 
         function setupSortButtons() {
@@ -910,11 +897,11 @@
             
             filteredLibraries = filtered;
             currentDisplayCount = itemsPerPage; // Reset display count when filters change
-            updateActiveFiltersDisplay();
             displayLibraries();
         }
 
         // Load Staff Pick configuration and display if enabled
+        // TODO(phase-3.5): staff pick will be superseded by curated discoveries
         async function loadAndDisplayStaffPick() {
             try {
                 // Light cache-busting for staff pick config (less critical than main data)
@@ -937,6 +924,7 @@
         }
 
         // Display Staff Pick with configuration
+        // TODO(phase-3.5): replace with displayCuratedDiscoveries
         function displayStaffPick(config) {
             if (libraries.length === 0) return;
             
@@ -995,30 +983,10 @@
             libraryOfTheDaySection.style.display = 'block';
         }
 
-        // Display Staff Pick (legacy function name for compatibility)
-        function displayLibraryOfTheDay() {
-            // This function is kept for compatibility but now loads config
-            loadAndDisplayStaffPick();
-        }
-        
         // Hide Staff Pick section
         function hideLibraryOfTheDay() {
             const libraryOfTheDaySection = document.getElementById('libraryOfTheDaySection');
             libraryOfTheDaySection.style.display = 'none';
-        }
-
-        // Get display name for sort method
-        function getSortDisplayName(sortMethod) {
-            switch (sortMethod) {
-                case 'alphabetical': return 'Title (A-Z)';
-                case 'alphabetical-reverse': return 'Title (Z-A)';
-                case 'most-recent': return 'Recent Updates';
-                case 'new-additions': return 'New Additions';
-                case 'most-popular': return 'Popularity (Stars)';
-                case 'shelf-order': return 'Random Arrangement';
-                case 'heavily-relied': return 'Dependencies';
-                default: return 'Unknown';
-            }
         }
 
         // Display libraries in the grid
@@ -1197,9 +1165,21 @@
             }
         }
         
+        // Hash a library name to a stable hue (0-359) for the colored spine accent
+        function hashSpineHue(name) {
+            let h = 0;
+            for (let i = 0; i < name.length; i++) {
+                h = ((h << 5) - h) + name.charCodeAt(i);
+                h |= 0;
+            }
+            return Math.abs(h) % 360;
+        }
+
         // Create a library card HTML
         function createLibraryCard(lib) {
-            return `<div class="library-card" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+            const hue = hashSpineHue(lib.repository_name);
+            // button override needed — Phase 2 CSS
+            return `<button type="button" class="library-card" data-repo-name="${escapeHtml(lib.repository_name)}" style="--spine-hue: ${hue};" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
                 <div class="library-name">${escapeHtml(lib.name)}</div>
                 <div class="library-version">v${escapeHtml(lib.version)}</div>
                 <div class="library-author">${escapeHtml(lib.author)}</div>
@@ -1207,7 +1187,7 @@
                 <div class="library-stars">* ${parseInt(lib.github_stars) || 0} stars</div>
                 <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
                 <div class="library-category">${escapeHtml(lib.category)}</div>
-            </div>`;
+            </button>`;
         }
 
         // Open library detail modal

@@ -162,6 +162,113 @@ Found a bug or have a suggestion? Please [open an issue](https://github.com/npuc
 
 ---
 
+## Pipeline
+
+The data pipeline (`scripts/pipeline.ts` + `pipeline/src/*`) is what keeps `output/libraries.json` current. It runs on a three-tier cron schedule and writes only what changed — the hourly run is a no-op when the upstream registry hasn't moved.
+
+### Data sources
+
+| Source | Role | Auth | Notes |
+|--------|------|------|-------|
+| **`library_index.json.gz`** ([Arduino library-registry](https://github.com/arduino/library-registry)) | **Primary.** The canonical list of every Arduino library + their `library.properties` metadata. | None | Downloaded with conditional `If-None-Match` against the stored ETag. |
+| **GitHub REST API** (`/repos/{owner}/{repo}`) | **Secondary enrichment.** Adds `github_stars`, `github_forks`, `github_language`, `github_pushed_at`, etc. | `GITHUB_TOKEN` (raises the rate limit to 5,000/h) | Uses `If-None-Match` against per-repo ETags to skip unchanged repos. |
+| `staff-pick-config.json` | Editor overrides for the Staff Pick widget. | None | Manually edited; the pipeline preserves manual picks unless `auto_update: true`. |
+
+### Cron tiers
+
+| Tier | Schedule | Command | What it does | API budget |
+|------|----------|---------|--------------|------------|
+| **Hourly** | `0 * * * *` (`.github/workflows/hourly-sync.yml`) | `pnpm pipeline:hourly` → `sync` | Fetches `library_index.json.gz`. If unchanged, exits 0. If changed, computes a diff (new/updated/removed) and enriches *only new* libraries. | ~50 calls/day |
+| **Daily** | `0 6 * * *` (`.github/workflows/daily-enrich.yml`) | `pnpm pipeline:daily` → `enrich` | Walks `output/libraries.json` and re-fetches any library whose stored ETag no longer matches (i.e. the repo changed on GitHub). | ~500 calls/day |
+| **Weekly** | `0 4 * * 0` (`.github/workflows/weekly-stats.yml`) | `pnpm pipeline:weekly` → `stats` | Computes `trending` (delta stars since last run) and emits `output/stats.json` + `output/picks.json` (themed + editor picks). | None (local compute only) |
+
+For a one-shot full refresh that ignores ETags, use `pnpm pipeline:hourly -- --full`.
+
+### Running locally
+
+```bash
+# Install deps (Node 20+ required)
+pnpm install
+
+# Hourly sync (idempotent)
+pnpm pipeline:hourly
+
+# Dry-run: compute everything but write nothing
+pnpm pipeline:dry
+
+# Daily enrichment
+pnpm pipeline:daily
+
+# Weekly stats rollup
+pnpm pipeline:weekly
+
+# Everything in one go
+node --experimental-strip-types scripts/pipeline.ts all --verbose
+```
+
+The script reads from the project root (`output/libraries.json`, `state/sync-state.json`) and writes the same paths.
+
+### Schema versioning
+
+The on-disk schema is versioned via `state/sync-state.json` → `schema_version`. The current schema is **v2**.
+
+| Field | Since | Notes |
+|-------|-------|-------|
+| `enhanced_at`, `github_*`, `version_history` | v2 | Added when the pipeline migrated from PowerShell to TypeScript in 2026. |
+| `processed_at`, `properties`, `repository_*` | v1 | Legacy PowerShell fields, still present for backward compatibility. |
+
+A future v3 will fold `properties` (a redundant copy of the top-level fields) into a single source of truth. Migrations are applied automatically by `loadState()`.
+
+### Debugging locally
+
+```bash
+# Verbose logging (pretty-printed if stdout is a TTY, JSON otherwise)
+node --experimental-strip-types scripts/pipeline.ts sync --verbose
+
+# Inspect current state
+cat state/sync-state.json | jq .
+
+# Force re-enrichment of every library
+node --experimental-strip-types scripts/pipeline.ts sync --full --verbose
+
+# Run unit tests
+pnpm test
+
+# Type-check only
+pnpm typecheck
+```
+
+Exit codes:
+
+- `0` — success (including no-op runs)
+- `1` — transient error (network, rate limit, upstream 5xx). The workflow will retry on the next cron tick.
+- `2` — config error (bad CLI, missing input files, schema mismatch). The workflow will NOT retry.
+
+### File layout
+
+```
+scripts/pipeline.ts             CLI entry point — dispatches on subcommand
+pipeline/src/
+  sources/
+    arduino-index.ts            Fetch + cache library_index.json.gz (ETag-aware)
+    arduino-properties.ts       Parse library.properties fixtures
+  transforms/
+    diff-detector.ts            Compute new / updated / removed
+    github-enrich.ts            Per-repo GitHub API + ETag bookkeeping
+    stats.ts                    Aggregate counts, trending deltas
+    themed-picker.ts            Editor + theme pick generation
+  utils/
+    logger.ts                   pino with pino-pretty on TTY
+    state.ts                    Load/save state/sync-state.json atomically
+    io.ts                       Atomic JSON read/write
+  types.ts                      Library, ArduinoIndexEntry, SyncState, etc.
+pipeline/tests/
+  fixtures/                     Sample data for unit tests
+  unit/                         Vitest suites
+```
+
+---
+
 ## License
 
 This project is open source. Individual Arduino libraries maintain their own licenses - check each library's repository for specific terms.

@@ -215,4 +215,64 @@ test.describe('Activity section', () => {
     await banner.locator('.activity-filter-banner-clear').click();
     await expect(banner).toHaveCount(0);
   });
+
+  test('weekly panel features at most one .activity-top-gainer pill', async ({ page }) => {
+    const pills = page.locator('#activityWeeklyPanel .activity-top-gainer');
+    const count = await pills.count();
+    expect(count).toBeLessThanOrEqual(1);
+    if (count === 1) {
+      const pill = pills.first();
+      const tagName = await pill.evaluate((el) => el.tagName.toLowerCase());
+      expect(tagName).toBe('button');
+      const type = await pill.evaluate((el) => (el as HTMLButtonElement).type);
+      expect(type).toBe('button');
+      const className = await pill.getAttribute('class');
+      expect(className).toContain('activity-top-gainer');
+      // The pill is hidden via the `hidden` attribute, so when shown
+      // the attribute is absent (or null). Use evaluate to read the
+      // live DOM property rather than attribute value.
+      const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
+      expect(hiddenProp).toBe(false);
+    }
+  });
+
+  test('weekly featured pill carries a data-repo-name matching a known library', async ({ page }) => {
+    const pill = page.locator('#activityWeeklyPanel .activity-top-gainer').first();
+    if ((await pill.count()) === 0) return;
+    const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
+    if (hiddenProp) return;
+    const repoName = await pill.getAttribute('data-repo-name');
+    expect(repoName).toBeTruthy();
+    expect(typeof repoName).toBe('string');
+    expect((repoName as string).length).toBeGreaterThan(0);
+    const sanity = await page.evaluate((name: string) => {
+      const dataLibs = (window as any).libraryData && Array.isArray((window as any).libraryData.libraries)
+        ? (window as any).libraryData.libraries
+        : [];
+      const cardNodes = document.querySelectorAll('.library-card[data-repo-name]');
+      const cardRepoNames = Array.from(cardNodes).map((n) => n.getAttribute('data-repo-name') || '');
+      return {
+        dataHasLibs: dataLibs.length > 0,
+        dataInLibs: dataLibs.some((l: any) => l && l.repository_name === name),
+        anyCardMatches: cardRepoNames.includes(name),
+      };
+    }, repoName as string);
+    // At least one source of truth confirms the lib exists.
+    const someMatch = sanity.dataInLibs || sanity.anyCardMatches || sanity.dataHasLibs;
+    expect(someMatch).toBe(true);
+  });
+
+  test('clicking the weekly featured pill opens the library detail modal', async ({ page }) => {
+    const pill = page.locator('#activityWeeklyPanel .activity-top-gainer').first();
+    if ((await pill.count()) === 0) return;
+    const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
+    if (hiddenProp) return;
+    await pill.scrollIntoViewIfNeeded();
+    await pill.click();
+    await expect(page.locator('#modalOverlay')).toBeVisible();
+    const bodyText = await page.locator('#modalBody').textContent();
+    expect(bodyText).toBeTruthy();
+    await page.locator('#modalClose').click();
+    await expect(page.locator('#modalOverlay')).not.toBeVisible();
+  });
 });

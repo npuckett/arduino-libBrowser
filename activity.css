@@ -444,6 +444,49 @@ button.activity-legend-item {
     white-space: nowrap;
 }
 
+/* Featured pill: the single repo with the largest weekly momentum
+   in the most recent active week. Clickable — opens the library
+   detail modal. The star glyph is rendered via ::before and is
+   colored with the new (teal) accent; the actual textContent of
+   the button stays plain text (" {name} (+{gain})"). */
+.activity-top-gainer {
+    display: inline-flex;
+    align-items: center;
+    font-family: inherit;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #00979D;
+    padding: 4px 8px;
+    margin-left: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.activity-top-gainer::before {
+    content: '★ ';
+    color: var(--activity-new-color, #00979D);
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.activity-top-gainer:hover,
+.activity-top-gainer:focus-visible {
+    background-color: #e6f7f7;
+    outline: none;
+}
+
+.activity-top-gainer:active {
+    background-color: #cce8e8;
+}
+
 /* Banner shown above the library grid when the activity panel is driving
    the filter. Distinct from category/platform filters: there's no
    .filter-btn to toggle. A single dismiss button clears it. */

@@ -242,6 +242,7 @@
                             <span class="activity-peak-pill" id="activityWeeklyPeak" hidden></span>
                         </span>
                         <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
+                        <button type="button" class="activity-top-gainer" id="activityWeeklyTopGainer" data-repo-name="" hidden></button>
                     </div>
                     <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
                     <div class="activity-legend" id="activityWeeklyLegend"></div>
@@ -2097,6 +2098,40 @@
                     peakPill.hidden = false;
                 } else {
                     peakPill.hidden = true;
+                }
+            }
+
+            // Featured pill: the single repo with the largest weekly
+            // momentum in the most recent active week. Clicking opens
+            // the library detail modal (same as clicking a card).
+            const gainerPill = el('activityWeeklyTopGainer');
+            if (gainerPill) {
+                const helpers = (typeof window !== 'undefined') ? window.__activityHelpers : null;
+                const lastActive = (helpers && typeof helpers.lastActiveWeeklyBucket === 'function')
+                    ? helpers.lastActiveWeeklyBucket(weekly)
+                    : null;
+                if (lastActive && helpers && typeof helpers.topStarsGainerForWeek === 'function') {
+                    const weekStart = lastActive.week_start;
+                    const weekEnd = addDaysISO(weekStart, 6);
+                    const winner = helpers.topStarsGainerForWeek(weekStart, weekEnd, allLibraries());
+                    if (winner && winner.repository_name) {
+                        const versionsThisWeek = Array.isArray(winner.version_history)
+                            ? winner.version_history.filter(v => v && v.seen_at && v.seen_at.slice(0, 10) >= weekStart && v.seen_at.slice(0, 10) <= weekEnd).length
+                            : 0;
+                        gainerPill.textContent = `${winner.name || winner.repository_name} (+${versionsThisWeek})`;
+                        gainerPill.dataset.repoName = winner.repository_name;
+                        gainerPill.setAttribute('aria-label', `Featured new library: ${winner.name || winner.repository_name} (${versionsThisWeek} new versions this week). Click to open detail.`);
+                        gainerPill.onclick = () => {
+                            if (typeof openLibraryDetail === 'function') {
+                                openLibraryDetail(winner.repository_name);
+                            }
+                        };
+                        gainerPill.hidden = false;
+                    } else {
+                        gainerPill.hidden = true;
+                    }
+                } else {
+                    gainerPill.hidden = true;
                 }
             }
 

@@ -76,12 +76,21 @@ export interface ChangesOutput {
   removed_libraries: string[];
 }
 
+export interface ActivityStats {
+  generated_at: string;
+  total_libraries: number;
+  daily: Array<{ date: string; new: number; updated: number }>;
+  weekly: Array<{ week_start: string; new: number; updated: number }>;
+  categories_top: Array<{ category: string; count: number; share: number }>;
+}
+
 export interface StatsOutput {
   categories: Record<string, number>;
   trending: Library[];
   hidden_gems: Library[];
   most_depended_on: Library[];
   forgotten_classics: Library[];
+  activity: ActivityStats;
 }
 
 export interface EditorPick {

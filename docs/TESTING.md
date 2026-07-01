@@ -6,8 +6,8 @@ We have two test suites:
 
 | Suite | Tool | Count | Scope |
 |-------|------|-------|-------|
-| Unit | Vitest | 125 tests across 7 suites | Pipeline transforms, parsers, picks logic |
-| E2E | Playwright | 25 tests | Browser-rendered UI + visual snapshots |
+| Unit | Vitest | 136 tests across 8 suites | Pipeline transforms, parsers, picks, activity buckets |
+| E2E | Playwright | 30 tests | Browser-rendered UI + visual snapshots (incl. activity section) |
 
 See [README.md](../README.md) for the high-level project layout and [PIPELINE.md](./PIPELINE.md) for the broader pipeline/release flow.
 
@@ -62,6 +62,7 @@ Located in `pipeline/tests/unit/`. Configured by [vitest.config.ts](../vitest.co
 | `daily-seed.test.ts` | 10 | Deterministic date-based seeding for surprise-me |
 | `computed-picks.test.ts` | 23 | hiddenGems, trending, forgottenClassics, mostDependedOn |
 | `diff-detector.test.ts` | 9 | New/updated/unchanged/removed detection (includes regression for dedup bug) |
+| `activity-stats.test.ts` | 11 | Daily/weekly bucket boundaries, ISO-week grouping, long-tail category roll-up, determinism, share sums |
 | `fuzzy-search.test.ts` | 23 | Levenshtein distance, synonym expansion, did-you-mean |
 | `parse-library-properties.test.ts` | 19 | Comments, quotes, backslash continuations, malformed keys |
 | `theme-picker.test.ts` | 12 | Multi-criteria filtering (categories, architectures, min stars, caps) |
@@ -128,6 +129,18 @@ Every `describe` block opens with the same `beforeEach` that navigates to `/inde
 | `card-short-description.png` | Single `.library-card[data-repo-name="adafruit/Adafruit_NeoPixel"]` |
 | `curated-discoveries.png` | `#curatedDiscoveries` section |
 | `sort-bar-teal-active.png` | `.sort-buttons` after clicking hidden-gems |
+
+#### `tests/e2e/specs/activity.spec.ts` (5 tests)
+
+| Test | What it verifies |
+|------|------------------|
+| is visible below Curated Discoveries | `#activitySection` sits between `#curatedDiscoveries` and `#libraryGrid` |
+| renders all three panels | Daily sparkline, weekly bars, category bars all have content |
+| daily meta string | Includes "new" and "updated" copy |
+| category bars | Lists "Communication" and "Sensors" rows |
+| panel-level snapshot | `activity-section.png` (max 5 % diff) |
+
+The activity suite asserts panel layout, count presence, and a visual snapshot — hermetic, runs against the same fixture libraries.
 
 The first snapshot uses `page.screenshot()` with a clip; the other three use `toHaveScreenshot()` with `maxDiffPixelRatio: 0.05–0.1` and `threshold: 0.3`. Tolerance is wider than the default to absorb small font rendering differences across machines.
 

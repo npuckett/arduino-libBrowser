@@ -5,6 +5,7 @@ import {
   mostDependedOn,
   trending,
 } from '../transforms/computed-picks.js';
+import { buildActivityStats } from '../transforms/activity-stats.js';
 
 export interface BuildStatsJsonOptions {
   now?: number;
@@ -48,5 +49,6 @@ export function buildStatsJson(
     hidden_gems: hiddenGems(libraries, computedOptions),
     most_depended_on: mostDependedOn(libraries, computedOptions),
     forgotten_classics: forgottenClassics(libraries, computedOptions),
+    activity: buildActivityStats(libraries, { now: options.now }),
   };
 }

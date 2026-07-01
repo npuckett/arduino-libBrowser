@@ -1,0 +1,211 @@
+/* =========================================================================
+   Activity section
+   Self-contained, no overrides of style.css. Every selector is prefixed
+   with `.activity-` so the parallel UI edits cannot collide.
+   ========================================================================= */
+
+.activity-section {
+    margin: 40px 0;
+    padding: 0 var(--content-margin-left);
+}
+
+.activity-section .section-header {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+    margin-left: 0;
+}
+
+.activity-range {
+    font-size: 10px;
+    color: #666;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-transform: none;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    align-items: stretch;
+}
+
+.activity-panel {
+    border: 1.5px solid black;
+    background-color: white;
+    padding: 14px 14px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+}
+
+.activity-panel[hidden] {
+    display: none;
+}
+
+.activity-panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 6px;
+}
+
+.activity-panel-title {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.activity-panel-meta {
+    font-size: 10px;
+    color: #666;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.activity-spark {
+    width: 100%;
+    height: 90px;
+    display: block;
+}
+
+.activity-bars {
+    width: 100%;
+    height: 90px;
+    display: block;
+}
+
+.activity-bars-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.activity-bar-row {
+    display: grid;
+    grid-template-columns: minmax(70px, 30%) 1fr auto;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    line-height: 1.2;
+    min-width: 0;
+}
+
+.activity-bar-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activity-bar-track {
+    height: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: relative;
+    min-width: 0;
+}
+
+.activity-bar-fill {
+    height: 100%;
+    background-color: black;
+    transition: width 0.4s ease;
+}
+
+.activity-bar-fill-new {
+    background-color: #00979D;
+}
+
+.activity-bar-count {
+    color: #666;
+    font-variant-numeric: tabular-nums;
+    font-size: 10px;
+    text-align: right;
+    min-width: 32px;
+}
+
+.activity-legend {
+    display: flex;
+    gap: 12px;
+    font-size: 9px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-wrap: wrap;
+}
+
+.activity-legend-swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    vertical-align: -1px;
+    border: 1px solid #999;
+}
+
+.activity-legend-swatch-new {
+    background-color: #00979D;
+    border-color: #00979D;
+}
+
+.activity-legend-swatch-updated {
+    background-color: black;
+    border-color: black;
+}
+
+.activity-empty {
+    font-size: 11px;
+    color: #666;
+    font-style: italic;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.activity-axis-label {
+    font-size: 9px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.activity-spark-dot {
+    fill: black;
+    stroke: white;
+    stroke-width: 1.5;
+}
+
+.activity-axis-tick {
+    stroke: #e5e5e5;
+    stroke-width: 1;
+    stroke-dasharray: 2 2;
+}
+
+@media (max-width: 1024px) {
+    .activity-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .activity-grid {
+        grid-template-columns: 1fr;
+    }
+    .activity-bar-row {
+        grid-template-columns: minmax(70px, 40%) 1fr auto;
+    }
+}

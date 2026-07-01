@@ -96,7 +96,7 @@ pnpm pipeline:dry && pnpm test && pnpm lint && pnpm typecheck
 |------------|---------------|--------------|
 | `0 * * * *` (hourly) | `.github/workflows/hourly-sync.yml` | Fetch upstream `library_index.json.gz`, diff, enrich new libs, commit `output/` + `state/` |
 | `0 6 * * *` (daily 06:00) | `.github/workflows/daily-enrich.yml` | Refresh GitHub stars/forks for libs missing or stale (`output/libraries.json` + `state/sync-state.json`) |
-| `0 4 * * 0` (Sundays 04:00) | `.github/workflows/weekly-stats.yml` | Compute trending + picks (`output/stats.json` + `output/picks.json`) |
+| `0 4 * * 0` (Sundays 04:00) | `.github/workflows/weekly-stats.yml` | Compute trending, picks, activity (`output/stats.json` + `output/picks.json`) |
 | on upstream workflow success / push to `main` | `.github/workflows/pages.yml` | Deploy repo root to GitHub Pages |
 
 Each data workflow uses `concurrency.cancel-in-progress: true` so a slow run is replaced by the next trigger instead of stacking. Pages deploys do **not** cancel in progress.
@@ -172,7 +172,7 @@ Files to inspect when diagnosing a bad sync:
 | `output/libraries.json` | The merged library catalog (last successful write) |
 | `output/changes.json` | What `sync` last considered "new/updated/removed" |
 | `state/sync-state.json` | ETags, SHAs, firstSeenAt, previousVersion, versionHistory |
-| `output/stats.json` | Last computed stats rollup |
+| `output/stats.json` | Last computed stats rollup (categories, trending, hidden gems, activity buckets) |
 | `output/picks.json` | Last computed editorial + theme picks |
 
 Output files are written atomically via `tmp + rename` (`scripts/pipeline.ts:168-174`), so a crash mid-write leaves the previous file intact.

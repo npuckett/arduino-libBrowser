@@ -47,6 +47,7 @@
     <!-- <script defer data-domain="thearduinolibrary.com" src="https://plausible.io/js/script.js"></script> -->
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="activity.css">
 </head>
 <body>
     <!-- Structured Data for SEO -->
@@ -206,6 +207,43 @@
             <div class="curated-row themed-row" id="themedRows"></div>
         </section>
 
+        <section class="activity-section" id="activitySection" style="display: none;">
+            <h2 class="section-header">
+                Activity
+                <span class="activity-range" id="activityRange"></span>
+            </h2>
+
+            <div class="activity-grid">
+                <div class="activity-panel" id="activityDailyPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">Daily</span>
+                        <span class="activity-panel-meta" id="activityDailyMeta"></span>
+                    </div>
+                    <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
+                    <div class="activity-legend">
+                        <span><span class="activity-legend-swatch activity-legend-swatch-new"></span>New</span>
+                        <span><span class="activity-legend-swatch activity-legend-swatch-updated"></span>Updated</span>
+                    </div>
+                </div>
+
+                <div class="activity-panel" id="activityWeeklyPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">Weekly</span>
+                        <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
+                    </div>
+                    <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
+                </div>
+
+                <div class="activity-panel" id="activityCategoryPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">Categories</span>
+                        <span class="activity-panel-meta" id="activityCategoryMeta"></span>
+                    </div>
+                    <div class="activity-bars-list" id="activityCategoryBars"></div>
+                </div>
+            </div>
+        </section>
+
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
 
@@ -248,9 +286,12 @@
         async function loadSupportingData() {
             try {
                 const stats = await fetch(`output/stats.json?v=${Date.now()}`).then(r => r.ok ? r.json() : null);
-                if (stats && Array.isArray(stats.trending)) {
-                    for (let i = 0; i < stats.trending.length; i++) {
-                        if (stats.trending[i]) trendingScores[stats.trending[i].repository_name] = stats.trending.length - i;
+                if (stats) {
+                    window.libraryStatsData = stats;
+                    if (Array.isArray(stats.trending)) {
+                        for (let i = 0; i < stats.trending.length; i++) {
+                            if (stats.trending[i]) trendingScores[stats.trending[i].repository_name] = stats.trending.length - i;
+                        }
                     }
                 }
                 const picks = await fetch(`output/picks.json?v=${Date.now()}`).then(r => r.ok ? r.json() : null);
@@ -423,7 +464,10 @@
                 
                 // Load Curated Discoveries (editor picks, themed picks, computed picks)
                 await displayCuratedDiscoveries();
-                
+
+                // Load Activity section (daily/weekly sparklines + category bars)
+                await renderActivitySection();
+
                 applyFilters();
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('libraryGrid').style.display = 'grid';
@@ -1244,6 +1288,284 @@
             } else {
                 section.style.display = 'none';
             }
+        }
+
+        // === Activity section (daily/weekly sparklines + category bars) ===
+        // Pure DOM/SVG. Reads statsData.activity populated by loadSupportingData().
+        // Self-contained — no globals leak; no other section is touched.
+        const ACTIVITY_SPARK_VIEW_W = 300;
+        const ACTIVITY_SPARK_VIEW_H = 90;
+        const ACTIVITY_SPARK_PAD = 4;
+        const ACTIVITY_BAR_GAP_WIDE = 6;
+        const ACTIVITY_NEW_COLOR = '#00979D';
+        const ACTIVITY_UPDATED_COLOR = '#000000';
+
+        function el(id) {
+            return document.getElementById(id);
+        }
+
+        function svgEl(name, attrs) {
+            const node = document.createElementNS('http://www.w3.org/2000/svg', name);
+            if (attrs) {
+                for (const [k, v] of Object.entries(attrs)) {
+                    if (v === undefined || v === null) continue;
+                    node.setAttribute(k, String(v));
+                }
+            }
+            return node;
+        }
+
+        function clearChildren(node) {
+            while (node && node.firstChild) {
+                node.removeChild(node.firstChild);
+            }
+        }
+
+        function formatDayLabel(dateStr) {
+            const d = new Date(dateStr + 'T00:00:00Z');
+            if (Number.isNaN(d.getTime())) return dateStr;
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+        }
+
+        function sumDailyBucket(b) {
+            return (b.new || 0) + (b.updated || 0);
+        }
+
+        function sumWeeklyBucket(b) {
+            return (b.new || 0) + (b.updated || 0);
+        }
+
+        function renderDailyPanel(activity) {
+            const panel = el('activityDailyPanel');
+            const svg = el('activityDailySpark');
+            const meta = el('activityDailyMeta');
+            if (!panel || !svg || !meta) return;
+            if (!Array.isArray(activity.daily) || activity.daily.length === 0) {
+                panel.hidden = true;
+                return;
+            }
+            panel.hidden = false;
+            const daily = activity.daily;
+            const maxBucket = daily.reduce((m, b) => Math.max(m, sumDailyBucket(b)), 0);
+            const maxValue = maxBucket > 0 ? maxBucket : 1;
+
+            clearChildren(svg);
+            svg.setAttribute('viewBox', `0 0 ${ACTIVITY_SPARK_VIEW_W} ${ACTIVITY_SPARK_VIEW_H}`);
+
+            const innerW = ACTIVITY_SPARK_VIEW_W - ACTIVITY_SPARK_PAD * 2;
+            const innerH = ACTIVITY_SPARK_VIEW_H - ACTIVITY_SPARK_PAD * 2;
+            const stepX = daily.length > 1 ? innerW / (daily.length - 1) : 0;
+            const yFor = (v) => ACTIVITY_SPARK_PAD + innerH - (v / maxValue) * innerH;
+
+            for (let i = 1; i <= 3; i++) {
+                const y = ACTIVITY_SPARK_PAD + (innerH * i) / 4;
+                svg.appendChild(svgEl('line', {
+                    x1: ACTIVITY_SPARK_PAD,
+                    x2: ACTIVITY_SPARK_VIEW_W - ACTIVITY_SPARK_PAD,
+                    y1: y,
+                    y2: y,
+                    class: 'activity-axis-tick',
+                }));
+            }
+
+            let pathUpdated = '';
+            daily.forEach((b, i) => {
+                const x = ACTIVITY_SPARK_PAD + i * stepX;
+                const total = sumDailyBucket(b);
+                const y = yFor(total);
+                pathUpdated += (i === 0 ? 'M' : 'L') + x.toFixed(2) + ' ' + y.toFixed(2) + ' ';
+            });
+
+            const lastX = ACTIVITY_SPARK_PAD + (daily.length - 1) * stepX;
+            const areaPath = pathUpdated
+                + `L${lastX.toFixed(2)} ${(ACTIVITY_SPARK_PAD + innerH).toFixed(2)} `
+                + `L${ACTIVITY_SPARK_PAD.toFixed(2)} ${(ACTIVITY_SPARK_PAD + innerH).toFixed(2)} Z`;
+
+            svg.appendChild(svgEl('path', {
+                d: areaPath,
+                fill: ACTIVITY_UPDATED_COLOR,
+                'fill-opacity': '0.12',
+                stroke: 'none',
+            }));
+            svg.appendChild(svgEl('path', {
+                d: pathUpdated.trim(),
+                fill: 'none',
+                stroke: ACTIVITY_UPDATED_COLOR,
+                'stroke-width': '1.5',
+                'stroke-linejoin': 'round',
+                'stroke-linecap': 'round',
+            }));
+
+            daily.forEach((b, i) => {
+                const x = ACTIVITY_SPARK_PAD + i * stepX;
+                const total = sumDailyBucket(b);
+                const y = yFor(total);
+                const point = svgEl('circle', {
+                    cx: x.toFixed(2),
+                    cy: y.toFixed(2),
+                    r: i === daily.length - 1 ? '3' : '1.5',
+                    class: 'activity-spark-dot',
+                });
+                const t = svgEl('title');
+                t.textContent = `${formatDayLabel(b.date)}: ${b.new || 0} new, ${b.updated || 0} updated`;
+                point.appendChild(t);
+                svg.appendChild(point);
+            });
+
+            const totalNew = daily.reduce((acc, b) => acc + (b.new || 0), 0);
+            const totalUpdated = daily.reduce((acc, b) => acc + (b.updated || 0), 0);
+            meta.textContent = `+${totalNew} new • +${totalUpdated} updated • last ${daily.length} days`;
+        }
+
+        function renderWeeklyPanel(activity) {
+            const panel = el('activityWeeklyPanel');
+            const svg = el('activityWeeklyBars');
+            const meta = el('activityWeeklyMeta');
+            if (!panel || !svg || !meta) return;
+            if (!Array.isArray(activity.weekly) || activity.weekly.length === 0) {
+                panel.hidden = true;
+                return;
+            }
+            panel.hidden = false;
+            const weekly = activity.weekly;
+            const maxBucket = weekly.reduce((m, b) => Math.max(m, sumWeeklyBucket(b)), 0);
+
+            clearChildren(svg);
+            svg.setAttribute('viewBox', `0 0 ${ACTIVITY_SPARK_VIEW_W} ${ACTIVITY_SPARK_VIEW_H}`);
+
+            const innerW = ACTIVITY_SPARK_VIEW_W - ACTIVITY_SPARK_PAD * 2;
+            const innerH = ACTIVITY_SPARK_VIEW_H - ACTIVITY_SPARK_PAD * 2;
+            const colCount = weekly.length;
+            const gapTotal = ACTIVITY_BAR_GAP_WIDE * (colCount - 1);
+            const colW = Math.max(2, (innerW - gapTotal) / colCount);
+            const yMax = ACTIVITY_SPARK_PAD;
+            const yBase = ACTIVITY_SPARK_PAD + innerH;
+            const yFor = (v) => {
+                if (maxBucket <= 0) return yBase;
+                return yMax + (innerH * (1 - v / maxBucket));
+            };
+
+            weekly.forEach((b, i) => {
+                const x = ACTIVITY_SPARK_PAD + i * (colW + ACTIVITY_BAR_GAP_WIDE);
+                const total = sumWeeklyBucket(b);
+                if (total <= 0) return;
+                const newH = innerH * ((b.new || 0) / Math.max(maxBucket, 1));
+                const updH = innerH * ((b.updated || 0) / Math.max(maxBucket, 1));
+                const yNew = yBase - newH;
+                const yUpd = yNew - updH;
+
+                const updRect = svgEl('rect', {
+                    x: x.toFixed(2),
+                    y: yUpd.toFixed(2),
+                    width: colW.toFixed(2),
+                    height: Math.max(0.5, updH).toFixed(2),
+                    fill: ACTIVITY_UPDATED_COLOR,
+                });
+                svg.appendChild(updRect);
+                const titleUpd = svgEl('title');
+                titleUpd.textContent = `Week of ${formatDayLabel(b.week_start)}: ${b.updated || 0} updated`;
+                updRect.appendChild(titleUpd);
+
+                if (newH > 0) {
+                    const newRect = svgEl('rect', {
+                        x: x.toFixed(2),
+                        y: yNew.toFixed(2),
+                        width: colW.toFixed(2),
+                        height: Math.max(0.5, newH).toFixed(2),
+                        fill: ACTIVITY_NEW_COLOR,
+                    });
+                    svg.appendChild(newRect);
+                    const titleNew = svgEl('title');
+                    titleNew.textContent = `Week of ${formatDayLabel(b.week_start)}: ${b.new || 0} new`;
+                    newRect.appendChild(titleNew);
+                }
+            });
+
+            const totalNew = weekly.reduce((acc, b) => acc + (b.new || 0), 0);
+            const totalUpdated = weekly.reduce((acc, b) => acc + (b.updated || 0), 0);
+            const lastWeek = weekly[weekly.length - 1];
+            meta.textContent = lastWeek
+                ? `+${totalNew} new • +${totalUpdated} updated • last ${weekly.length} weeks`
+                : `last ${weekly.length} weeks`;
+        }
+
+        function renderCategoryPanel(activity) {
+            const panel = el('activityCategoryPanel');
+            const list = el('activityCategoryBars');
+            const meta = el('activityCategoryMeta');
+            if (!panel || !list || !meta) return;
+            if (!Array.isArray(activity.categories_top) || activity.categories_top.length === 0) {
+                panel.hidden = true;
+                return;
+            }
+            panel.hidden = false;
+            const slices = activity.categories_top;
+            clearChildren(list);
+
+            const max = slices.reduce((m, s) => Math.max(m, s.count || 0), 0);
+            if (max <= 0) {
+                const empty = document.createElement('div');
+                empty.className = 'activity-empty';
+                empty.textContent = 'No category data available.';
+                list.appendChild(empty);
+                meta.textContent = `${slices.length} slices`;
+                return;
+            }
+
+            for (const slice of slices) {
+                const row = document.createElement('div');
+                row.className = 'activity-bar-row';
+
+                const label = document.createElement('div');
+                label.className = 'activity-bar-label';
+                label.textContent = slice.category;
+                label.title = `${slice.category} — ${slice.count} libraries`;
+                row.appendChild(label);
+
+                const track = document.createElement('div');
+                track.className = 'activity-bar-track';
+                const fill = document.createElement('div');
+                fill.className = 'activity-bar-fill';
+                const widthPct = Math.max(2, (slice.count / max) * 100);
+                fill.style.width = widthPct + '%';
+                track.appendChild(fill);
+                row.appendChild(track);
+
+                const count = document.createElement('div');
+                count.className = 'activity-bar-count';
+                count.textContent = (slice.count || 0).toLocaleString();
+                row.appendChild(count);
+
+                list.appendChild(row);
+            }
+
+            const total = slices.reduce((acc, s) => acc + (s.count || 0), 0);
+            const totalLibraries = activity.total_libraries || total;
+            meta.textContent = `${slices.length} top • ${totalLibraries.toLocaleString()} libraries`;
+        }
+
+        async function renderActivitySection() {
+            const section = el('activitySection');
+            if (!section) return;
+            const activity = (window.libraryStatsData && window.libraryStatsData.activity) || null;
+            if (!activity) {
+                section.style.display = 'none';
+                return;
+            }
+            const range = el('activityRange');
+            if (range && activity.generated_at) {
+                const d = new Date(activity.generated_at);
+                if (!Number.isNaN(d.getTime())) {
+                    range.textContent = `updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`;
+                }
+            }
+            renderDailyPanel(activity);
+            renderWeeklyPanel(activity);
+            renderCategoryPanel(activity);
+            const hasAny = !el('activityDailyPanel').hidden
+                || !el('activityWeeklyPanel').hidden
+                || !el('activityCategoryPanel').hidden;
+            section.style.display = hasAny ? 'block' : 'none';
         }
 
         // Display libraries in the grid

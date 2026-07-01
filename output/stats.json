@@ -2,14 +2,14 @@
   "categories": {
     "data storage": 261,
     "sensors": 1904,
-    "other": 822,
+    "other": 823,
     "communication": 2161,
     "signal input/output": 754,
     "uncategorized": 216,
     "display": 818,
-    "device control": 1635,
+    "device control": 1637,
     "data processing": 566,
-    "timing": 350,
+    "timing": 351,
     "sensor": 11,
     "control": 5,
     "motion": 2,
@@ -739,31 +739,103 @@
   ],
   "hidden_gems": [
     {
+      "repository_name": "Dag0d/ezTime2",
+      "repository_url": "https://github.com/Dag0d/ezTime2",
+      "name": "ezTime2",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-01T11:48:44.907Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-01T12:52:13.006Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-07-01T11:48:44.907Z",
+      "last_seen_sha": "d09b93deaa05",
+      "author": "Dag0d",
+      "maintainer": "Dag0d",
+      "sentence": "ezTime2 - pronounced \"Easy Time\" - is an Arduino time and date library with NTP sync, timezone lookups, formatted output, events, and millisecond precision.",
+      "paragraph": "See more on https://github.com/Dag0d/ezTime2",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dag0d/ezTime2-1.1.0.zip",
+      "size": 10542128,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T09:53:52Z"
+    },
+    {
+      "repository_name": "ARAM-USA-Support/ARAM_Metal_Orchestra",
+      "repository_url": "https://github.com/ARAM-USA-Support/ARAM_Metal_Orchestra",
+      "name": "ARAM_Metal_Orchestra",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-01T11:48:44.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T11:48:44.907Z",
+      "last_seen_sha": "401860a0a24a",
+      "author": "A.R.A.M. - American Robotics Assisted Manufacturing",
+      "maintainer": "A.R.A.M. - American Robotics Assisted Manufacturing <support@aram-usa.com>",
+      "sentence": "Construct Instrument Using Toggle Actuators",
+      "paragraph": "This library is intended for use with ARAM Metal Orchestra Actuators. Add one or more actuators to your instrument and play notes, or connect to a MIDI Bluetooth server as shown in the example code to create a bluetooth capable MIDI instument. Please view the manual for information on usage.",
+      "category": "Device Control",
+      "architectures": [
+        "*s"
+      ],
+      "depends": [
+        "ARAM_Toggle_Actuator"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Metal_Orchestra-1.0.1.zip",
+      "size": 9088,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T02:56:58Z"
+    },
+    {
       "repository_name": "tanakamasayuki/ESP32IRPulseKit",
       "repository_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
       "name": "ESP32IRPulseKit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.3",
           "seen_at": "2026-06-30T08:49:41Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:49:41Z",
-      "last_seen_sha": "c5b56e863503",
+      "last_seen_sha": "1db7aaf0f10f",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
-      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi).",
+      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Fujitsu, Daikin, Toshiba, Samsung, Sharp).",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.4.zip",
+      "size": 173048,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-30T08:18:52Z",
-      "download_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit"
+      "github_updated_at": "2026-06-30T08:18:52Z"
     },
     {
       "repository_name": "Xinyuan-LilyGO/T-Keyboard-S3-Pro-Library",
@@ -977,16 +1049,20 @@
       "repository_name": "ARAM-USA-Support/ARAM_Toggle_Actuator",
       "repository_url": "https://github.com/ARAM-USA-Support/ARAM_Toggle_Actuator",
       "name": "ARAM_Toggle_Actuator",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T09:00:35Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T09:00:35Z",
-      "last_seen_sha": "fb911fb72e40",
+      "last_seen_sha": "a67e55e1bc6d",
       "author": "A.R.A.M. - American Robotics Assisted Manufacturing",
       "maintainer": "A.R.A.M. - American Robotics Assisted Manufacturing <support@aram-usa.com>",
       "sentence": "Driver for A.R.A.M. Toggle Actuators",
@@ -995,10 +1071,12 @@
       "architectures": [
         "*s"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Toggle_Actuator-1.0.5.zip",
+      "size": 11687,
+      "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-29T20:58:20Z",
-      "download_url": "https://github.com/ARAM-USA-Support/ARAM_Toggle_Actuator"
+      "github_updated_at": "2026-06-29T20:58:20Z"
     },
     {
       "repository_name": "hapbeat/hapbeat-arduino",
@@ -1056,6 +1134,39 @@
         "LionArray"
       ],
       "download_url": "https://github.com/blah188/LionRtosTask"
+    },
+    {
+      "repository_name": "CodexPad/gamepad_codec_arduino_lib",
+      "repository_url": "https://github.com/CodexPad/gamepad_codec_arduino_lib",
+      "name": "GamepadCodec",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-01T12:52:13.006Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T12:52:13.006Z",
+      "last_seen_sha": "7ac72de46000",
+      "author": "chenliang@null-lab.com",
+      "maintainer": "chenliang@null-lab.com",
+      "sentence": "Encode and decode gamepad states over Stream using RobustFrame protocol.",
+      "paragraph": "Encoder and Decoder for gamepad::input::State with RobustFrame framing and CRC.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "RobustFrame",
+        "GamepadInput"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/GamepadCodec-1.0.0.zip",
+      "size": 18320,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T07:28:19Z"
     },
     {
       "repository_name": "fabianodaq/EdulcoWaterSmart",
@@ -1245,103 +1356,6 @@
       "github_stars": 0,
       "github_forks": 1,
       "github_updated_at": "2026-06-26T16:34:26Z"
-    },
-    {
-      "repository_name": "rgot-org/CoVACIEL-ESP32",
-      "repository_url": "https://github.com/rgot-org/CoVACIEL-ESP32",
-      "name": "CoVACIEL",
-      "version": "0.0.3",
-      "version_history": [
-        {
-          "version": "0.0.3",
-          "seen_at": "2026-04-16T08:09:29Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-04-16T08:09:29Z",
-      "last_seen_sha": "c8b016bceb1e",
-      "author": "Francois Riotte",
-      "maintainer": "FR",
-      "sentence": "Gestion des actionneurs (propulsion et direction), des capteurs (TOF ou lidar) et du BUS CAN pour le projet CoVACIEL",
-      "paragraph": "",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-26T13:49:46Z",
-      "depends": [
-        "ArduinoJson"
-      ],
-      "download_url": "https://github.com/rgot-org/CoVACIEL-ESP32"
-    },
-    {
-      "repository_name": "Protocentral/protocentral_as6221_arduino",
-      "repository_url": "https://github.com/Protocentral/protocentral_as6221_arduino",
-      "name": "ProtoCentral AS6221",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-27T08:43:28Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-27T08:43:28Z",
-      "last_seen_sha": "7a70f6b864cd",
-      "author": "ProtoCentral Electronics <support@protocentral.com>",
-      "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
-      "sentence": "Arduino library for the ProtoCentral AS6221 wearable body temperature sensor (QWIIC).",
-      "paragraph": "Read high-accuracy (±0.09 °C) body temperature from the ams OSRAM AS6221 digital temperature sensor over I2C. Factory-calibrated, 16-bit, 0.0078125 °C resolution.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_AS6221-1.0.0.zip",
-      "size": 74247,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-26T13:19:05Z"
-    },
-    {
-      "repository_name": "su7eib/Ultrasonic-Sensor-Library",
-      "repository_url": "https://github.com/su7eib/Ultrasonic-Sensor-Library",
-      "name": "Ultrasonic Sensor Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-27T08:43:31Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-27T08:43:31Z",
-      "last_seen_sha": "0cf5fb043754",
-      "author": "su7eib",
-      "maintainer": "su7eib",
-      "sentence": "Lightweight Arduino library for HC-SR04 and compatible ultrasonic sensors.",
-      "paragraph": "Supports trig/echo and single-pin sensors, automatic timing control, cached measurements, and cm/mm/inch conversions.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/su7eib/Ultrasonic_Sensor_Library-1.0.0.zip",
-      "size": 7106,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-26T12:35:25Z"
     }
   ],
   "most_depended_on": [
@@ -2023,5 +2037,280 @@
       "github_updated_at": "2025-03-03T21:19:41Z",
       "download_url": "https://github.com/bportaluri/ALA"
     }
-  ]
+  ],
+  "activity": {
+    "generated_at": "2026-07-01T13:04:08.322Z",
+    "total_libraries": 9615,
+    "daily": [
+      {
+        "date": "2026-06-02",
+        "new": 18,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-03",
+        "new": 36,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-04",
+        "new": 15,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-05",
+        "new": 19,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-06",
+        "new": 20,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-07",
+        "new": 0,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-08",
+        "new": 22,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-09",
+        "new": 20,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-10",
+        "new": 25,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-11",
+        "new": 29,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-12",
+        "new": 42,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-13",
+        "new": 18,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-14",
+        "new": 0,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-15",
+        "new": 27,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-16",
+        "new": 24,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-17",
+        "new": 37,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-18",
+        "new": 29,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-19",
+        "new": 37,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-20",
+        "new": 38,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-21",
+        "new": 0,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-22",
+        "new": 31,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-23",
+        "new": 41,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-24",
+        "new": 38,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-25",
+        "new": 41,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-26",
+        "new": 45,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-27",
+        "new": 31,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-28",
+        "new": 0,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-29",
+        "new": 91,
+        "updated": 0
+      },
+      {
+        "date": "2026-06-30",
+        "new": 460,
+        "updated": 3879
+      },
+      {
+        "date": "2026-07-01",
+        "new": 4,
+        "updated": 15
+      }
+    ],
+    "weekly": [
+      {
+        "week_start": "2026-04-13",
+        "new": 114,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-04-20",
+        "new": 94,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-04-27",
+        "new": 90,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-05-04",
+        "new": 82,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-05-11",
+        "new": 118,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-05-18",
+        "new": 134,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-05-25",
+        "new": 79,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-06-01",
+        "new": 124,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-06-08",
+        "new": 156,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-06-15",
+        "new": 192,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-06-22",
+        "new": 227,
+        "updated": 0
+      },
+      {
+        "week_start": "2026-06-29",
+        "new": 555,
+        "updated": 3894
+      }
+    ],
+    "categories_top": [
+      {
+        "category": "Communication",
+        "count": 2161,
+        "share": 0.22475299011960478
+      },
+      {
+        "category": "Sensors",
+        "count": 1904,
+        "share": 0.19802392095683827
+      },
+      {
+        "category": "Device Control",
+        "count": 1637,
+        "share": 0.1702548101924077
+      },
+      {
+        "category": "Other",
+        "count": 823,
+        "share": 0.08559542381695268
+      },
+      {
+        "category": "Display",
+        "count": 818,
+        "share": 0.08507540301612064
+      },
+      {
+        "category": "Signal Input/output",
+        "count": 754,
+        "share": 0.07841913676547062
+      },
+      {
+        "category": "Data Processing",
+        "count": 566,
+        "share": 0.058866354654186166
+      },
+      {
+        "category": "Timing",
+        "count": 351,
+        "share": 0.03650546021840874
+      },
+      {
+        "category": "Data Storage",
+        "count": 261,
+        "share": 0.027145085803432136
+      },
+      {
+        "category": "Uncategorized",
+        "count": 216,
+        "share": 0.022464898595943836
+      },
+      {
+        "category": "Other categories",
+        "count": 113,
+        "share": 0.011752470098803952
+      }
+    ]
+  }
 }

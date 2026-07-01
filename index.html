@@ -1115,20 +1115,23 @@
         }
 
         function renderPickCard(lib, attribution) {
-            const hue = hashSpineHue(lib.repository_name);
             const kindClass = `pick-${attribution.kind}`;
-            const badgeHtml = attribution.badge
-                ? `<span class="pick-badge ${attribution.badge}">${attribution.badge}</span>`
-                : '';
-            return `<button type="button" class="library-card ${kindClass}" data-repo-name="${escapeHtml(lib.repository_name)}" data-pick-kind="${escapeHtml(attribution.kind)}" style="--spine-hue: ${hue};" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+            // The badge in the top-right corner replaces the old left-edge
+            // color stripe. EDITOR/THEMED use the kind itself; NEW/UPDATED
+            // use the badge override from the badge value.
+            const badgeLabel = attribution.badge
+                ? attribution.badge.toUpperCase()
+                : attribution.kind.toUpperCase();
+            const badgeClass = attribution.badge ? attribution.badge : attribution.kind;
+            const badgeHtml = `<span class="pick-badge ${badgeClass}" aria-label="${escapeHtml(badgeLabel)}">${escapeHtml(badgeLabel)}</span>`;
+            return `<button type="button" class="library-card ${kindClass}" data-repo-name="${escapeHtml(lib.repository_name)}" data-pick-kind="${escapeHtml(attribution.kind)}" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
                 ${badgeHtml}
-                <div class="library-name">${escapeHtml(lib.name)}</div>
-                <div class="library-version">v${escapeHtml(lib.version)}</div>
-                <div class="library-author">${escapeHtml(lib.author)}</div>
-                <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at || '')}</div>
-                <div class="library-stars">★ ${parseInt(lib.github_stars) || 0} stars</div>
+                ${cardHeader(lib)}
+                <div class="library-name">${escapeHtml(lib.name || '')}</div>
+                ${cardByStatement(lib)}
                 <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || '')}</div>
-                <div class="library-category">${escapeHtml(lib.category || 'Uncategorized')}</div>
+                ${cardChips(lib)}
+                ${cardMetaRow(lib)}
             </button>`;
         }
 
@@ -1427,7 +1430,9 @@
             }
         }
         
-        // Hash a library name to a stable hue (0-359) for the colored spine accent
+        // Hash a library name to a stable hue (0-359). Legacy of the old
+        // gradient spine; retained in case it becomes useful again, but no
+        // longer emitted on cards.
         function hashSpineHue(name) {
             let h = 0;
             for (let i = 0; i < name.length; i++) {
@@ -1437,18 +1442,78 @@
             return Math.abs(h) % 360;
         }
 
-        // Create a library card HTML
+        // Build the call-number row for a card. This is the tiny mono
+        // owner/repo line that sits above the title, evoking the top-left
+        // shelfmark on a physical LOC card.
+        function cardCallNumber(lib) {
+            const repo = escapeHtml(lib.repository_name || '');
+            return `<div class="call-number"><span class="pick-dot" aria-hidden="true"></span><span>${repo}</span></div>`;
+        }
+
+        // Build the subject chips row: category + top N architectures,
+        // uppercase, dot-separated. Catalog-card convention treats subjects
+        // as a quiet line of metadata rather than clickable pill UI.
+        function cardChips(lib, maxArchs = 3) {
+            const parts = [];
+            const category = (lib.category || 'Uncategorized').trim();
+            if (category) parts.push(escapeHtml(category.toUpperCase()));
+            const archs = archsToArray(lib.architectures)
+                .map(a => (a || '').trim())
+                .filter(a => a && a !== '*');
+            for (const a of archs.slice(0, maxArchs)) {
+                parts.push(escapeHtml(a.toUpperCase()));
+            }
+            const overflow = archs.length - maxArchs;
+            const sep = '<span class="chip-dot" aria-hidden="true">•</span>';
+            let html = parts.join(sep);
+            if (overflow > 0) {
+                html += sep + `<span class="chip-more">+${overflow}</span>`;
+            }
+            return `<div class="chips-row">${html}</div>`;
+        }
+
+        // Build the meta row: version · stars · updated. License goes
+        // right-aligned when present. Returns empty string if no useful data.
+        function cardMetaRow(lib) {
+            const pieces = [];
+            if (lib.version) {
+                pieces.push(`<span class="meta-version">v${escapeHtml(lib.version)}</span>`);
+            }
+            const stars = parseInt(lib.github_stars) || 0;
+            pieces.push(`<span class="meta-stars">★ ${stars.toLocaleString()}</span>`);
+            const updated = formatDate(lib.github_updated_at || lib.processed_at || '');
+            if (updated && updated !== 'Unknown') {
+                pieces.push(`<span>Updated ${escapeHtml(updated)}</span>`);
+            }
+            const license = (lib.license || '').trim();
+            const licenseCell = license
+                ? `<span class="meta-license">${escapeHtml(license)}</span>`
+                : '';
+            return `<div class="meta-row">${pieces.join('<span class="meta-sep" aria-hidden="true">·</span>')}${licenseCell}</div>`;
+        }
+
+        // Build the by-statement line. The "/" prefix is an ISBD convention
+        // that signals "this is the statement of responsibility".
+        function cardByStatement(lib) {
+            const author = (lib.author || '').trim() || (lib.maintainer || '').trim() || 'Unknown';
+            return `<div class="by-statement">/ by ${escapeHtml(author)}</div>`;
+        }
+
+        // Build a catalog-card style header block. Returns the call-number
+        // row + the rule separator in one shot.
+        function cardHeader(lib) {
+            return `${cardCallNumber(lib)}<div class="card-rule" aria-hidden="true"></div>`;
+        }
+
+        // Create a library card HTML (main grid view)
         function createLibraryCard(lib) {
-            const hue = hashSpineHue(lib.repository_name);
-            // button override needed — Phase 2 CSS
-            return `<button type="button" class="library-card" data-repo-name="${escapeHtml(lib.repository_name)}" style="--spine-hue: ${hue};" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
-                <div class="library-name">${escapeHtml(lib.name)}</div>
-                <div class="library-version">v${escapeHtml(lib.version)}</div>
-                <div class="library-author">${escapeHtml(lib.author)}</div>
-                <div class="library-updated">Updated: ${formatDate(lib.github_updated_at || lib.processed_at)}</div>
-                <div class="library-stars">* ${parseInt(lib.github_stars) || 0} stars</div>
-                <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available')}</div>
-                <div class="library-category">${escapeHtml(lib.category)}</div>
+            return `<button type="button" class="library-card" data-repo-name="${escapeHtml(lib.repository_name)}" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                ${cardHeader(lib)}
+                <div class="library-name">${escapeHtml(lib.name || '')}</div>
+                ${cardByStatement(lib)}
+                <div class="library-description">${escapeHtml(lib.sentence || lib.paragraph || 'No description available.')}</div>
+                ${cardChips(lib)}
+                ${cardMetaRow(lib)}
             </button>`;
         }
 

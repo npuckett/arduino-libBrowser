@@ -287,12 +287,13 @@ a:hover {
 
 .library-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 310px);
-    gap: 15px;
-    grid-auto-rows: 210px;
+    grid-template-columns: repeat(auto-fill, 380px);
+    gap: 18px;
+    grid-auto-rows: 280px;
     justify-content: start;
     margin-left: var(--content-margin-left);
-    /* DELETED: width: calc(100% - var(--content-margin-left) - var(--content-margin-right)) */
+    /* Card width honors the catalog-card aesthetic: roomy enough for a real
+       type scale. Heights are matched by grid-auto-rows. */
 }
 
 /* Search grouping styles */
@@ -315,41 +316,33 @@ a:hover {
 
 .search-group-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 310px);
-    gap: 15px;
-    grid-auto-rows: 210px;
+    grid-template-columns: repeat(auto-fill, 380px);
+    gap: 18px;
+    grid-auto-rows: 280px;
     justify-content: space-between;
     width: 100%;
 }
 
 .library-card {
+    /* Catalog-card aesthetic: black/white/grey only, no decorative color.
+       The card is a flex column with a call-number row at the top, a thin
+       rule, the title (the visual anchor), by-statement, description, and
+       a meta row at the bottom anchored by margin-top:auto. */
     border: 1px solid black;
-    padding: 15px;
+    padding: 16px 18px;
     background-color: white;
+    color: black;
     cursor: pointer;
-    transition: all 0.2s ease;
-    height: 210px;
+    transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+    height: 280px;
     /* Cards are <button> elements; reset font so the body monospace applies */
     font-family: 'Courier New', monospace;
-    color: black;
     text-align: left;
-    /* Book spine effect */
-    border-left: 6px solid black;
     position: relative;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-
-.library-card::before {
-    content: '';
-    position: absolute;
-    left: -1px;
-    top: 0;
-    bottom: 0;
-    width: 6px;
-    background: linear-gradient(to bottom, #e8e8e8 0%, #999 50%, #e8e8e8 100%);
-    border-right: 1px solid #999;
+    gap: 6px;
 }
 
 .library-card:hover {
@@ -358,127 +351,222 @@ a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.library-card:hover::before {
-    background: linear-gradient(to bottom, #333 0%, #111 50%, #333 100%);
-    border-right-color: #555;
+/* Call-number row — the tiny mono owner/repo above the title. Evokes the
+   top-left shelfmark on a physical LOC card. */
+.library-card .call-number {
+    font-size: 10px;
+    line-height: 1.2;
+    color: #999;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 14px;
 }
 
+.library-card .pick-dot {
+    display: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #000;
+    flex-shrink: 0;
+}
+
+/* When a card has a pick kind, show a small dot next to the call number
+   as a vertical-scan anchor. Color matches the corner badge palette but
+   remains small. */
+.library-card.pick-editor .pick-dot {
+    display: inline-block;
+    background: #00979D;
+}
+.library-card.pick-themed .pick-dot {
+    display: inline-block;
+    background: #333;
+}
+.library-card.pick-computed .pick-dot {
+    display: inline-block;
+    background: #000;
+}
+
+.library-card:hover .call-number,
+.library-card:hover .by-statement,
+.library-card:hover .meta-row,
+.library-card:hover .chips-row,
+.library-card:hover .library-description {
+    color: inherit;
+}
+
+.library-card:hover .call-number {
+    color: #ccc;
+}
+
+/* The catalog rule — thin black line that separates the call-number row
+   from the title. */
+.library-card .card-rule {
+    height: 1px;
+    background: #000;
+    margin: 0 -18px;
+    width: calc(100% + 36px);
+}
+
+.library-card:hover .card-rule {
+    background: #fff;
+}
+
+/* Title — the visual anchor of the card. */
 .library-name {
     font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 5px;
-    /* Book title styling */
+    font-size: 22px;
+    line-height: 1.1;
+    margin: 0;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
+    letter-spacing: 1px;
     overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
-.library-version {
-    font-size: 11px;
-    margin-bottom: 3px;
-    color: #666;
-    font-weight: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.library-card:hover .library-version {
-    color: #ccc;
-}
-
-.library-author {
-    font-size: 11px;
-    margin-bottom: 8px;
+.library-card .by-statement {
+    font-size: 12px;
     font-style: italic;
     color: #333;
+    line-height: 1.3;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-.library-updated {
-    font-size: 10px;
-    margin-bottom: 3px;
-    color: #666;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.library-stars {
-    font-size: 10px;
-    margin-bottom: 8px;
-    color: #666;
-    font-weight: bold;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.library-card:hover .library-updated,
-.library-card:hover .library-stars {
-    color: #ccc;
-}
-
-.library-card:hover .library-author {
+.library-card:hover .by-statement {
     color: #ccc;
 }
 
 .library-description {
-    font-size: 12px;
-    line-height: 1.3;
+    font-size: 13px;
+    line-height: 1.4;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
     -webkit-box-orient: vertical;
-    color: #333;
-    margin: auto 0;
+    color: #222;
+    margin: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
-.library-category {
+.library-card:hover .library-description {
+    color: #ddd;
+}
+
+/* Subject chips — category + top architectures, inline, uppercase, dot-separated.
+   Catalog-card convention: subjects are a quiet line of metadata, not pill UI. */
+.library-card .chips-row {
     font-size: 10px;
+    line-height: 1.3;
+    color: #444;
     text-transform: uppercase;
-    border: 1px solid black;
-    padding: 2px 5px;
-    display: inline-block;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     margin-top: auto;
-    align-self: flex-start;
 }
 
-.library-card:hover .library-category {
-    border-color: white;
-    color: white;
+.library-card .chips-row .chip-dot {
+    margin: 0 6px;
+    color: #999;
 }
 
-.library-card.pick-editor {
-    border-left-color: #00979D;
+.library-card .chips-row .chip-more {
+    color: #999;
 }
 
-.library-card.pick-themed {
-    border-left-color: #333;
+.library-card:hover .chips-row {
+    color: #ccc;
 }
 
-.library-card.pick-computed {
-    border-left-color: #000;
+/* Meta row — version, stars, updated, license. Single line, tight. */
+.library-card .meta-row {
+    font-size: 10px;
+    line-height: 1.3;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding-top: 6px;
+    border-top: 1px solid #000;
+}
+
+.library-card:hover .meta-row {
+    border-top-color: #fff;
+    color: #ccc;
+}
+
+.library-card .meta-row .meta-version {
+    font-weight: bold;
+    color: #000;
+}
+
+.library-card:hover .meta-row .meta-version {
+    color: #fff;
+}
+
+.library-card .meta-row .meta-stars {
+    font-weight: bold;
+}
+
+.library-card .meta-row .meta-sep {
+    color: #999;
+}
+
+.library-card:hover .meta-row .meta-sep {
+    color: #555;
+}
+
+.library-card .meta-row .meta-license {
+    margin-left: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #999;
 }
 
 .pick-badge {
     position: absolute;
-    top: 6px;
-    right: 6px;
-    font-size: 8px;
+    top: 8px;
+    right: 8px;
+    font-size: 9px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 2px 5px;
+    padding: 3px 6px;
     background-color: white;
     color: black;
     border: 1px solid black;
     letter-spacing: 0.5px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.pick-badge.editor {
+    background-color: #00979D;
+    color: white;
+    border-color: #00979D;
+}
+
+.pick-badge.themed {
+    background-color: #333;
+    color: white;
+    border-color: #333;
 }
 
 .pick-badge.new {
@@ -539,18 +627,34 @@ a:hover {
     font-style: italic;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments — cards shrink on smaller viewports but the
+   catalog-card structure (call-number, rule, title, by-statement,
+   description, chips, meta) stays intact. */
 @media (max-width: 1200px) {
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
+        grid-template-columns: repeat(auto-fill, 340px);
+        gap: 16px;
+        grid-auto-rows: 260px;
     }
 
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
+        grid-template-columns: repeat(auto-fill, 340px);
+        gap: 16px;
+        grid-auto-rows: 260px;
     }
 
     .curated-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
+        grid-template-columns: repeat(auto-fill, 340px);
+        gap: 16px;
+    }
+
+    .library-card {
+        height: 260px;
+        padding: 14px 16px;
+    }
+
+    .library-name {
+        font-size: 20px;
     }
 }
 
@@ -560,35 +664,49 @@ a:hover {
     }
 
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 240px);
-        gap: 10px;
-        grid-auto-rows: 220px;
+        grid-template-columns: repeat(auto-fill, 280px);
+        gap: 12px;
+        grid-auto-rows: 240px;
     }
 
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 240px);
-        gap: 10px;
-        grid-auto-rows: 220px;
+        grid-template-columns: repeat(auto-fill, 280px);
+        gap: 12px;
+        grid-auto-rows: 240px;
     }
 
     .curated-grid {
-        grid-template-columns: repeat(auto-fill, 240px);
-        gap: 10px;
+        grid-template-columns: repeat(auto-fill, 280px);
+        gap: 12px;
     }
-    
+
+    .library-card {
+        height: 240px;
+        padding: 12px 14px;
+    }
+
+    .library-name {
+        font-size: 18px;
+    }
+
+    .library-card .card-rule {
+        margin: 0 -14px;
+        width: calc(100% + 28px);
+    }
+
     .search-nav-links {
         gap: 6px;
     }
-    
+
     .search-nav-link {
         font-size: 9px;
         padding: 3px 6px;
     }
-    
+
     .container {
         padding: 15px 0;
     }
-    
+
     .title {
         font-size: 24px;
     }
@@ -596,16 +714,16 @@ a:hover {
     .filter-buttons {
         gap: 5px;
     }
-    
+
     .filter-btn {
         padding: 6px 10px;
         font-size: 10px;
     }
-    
+
     .sort-buttons {
         gap: 6px;
     }
-    
+
     .sort-btn {
         padding: 8px 12px;
         font-size: 10px;
@@ -863,26 +981,44 @@ a:hover {
     }
 
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 170px);
+        grid-template-columns: repeat(auto-fill, 220px);
         gap: 8px;
+        grid-auto-rows: 220px;
     }
-    
+
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 170px);
+        grid-template-columns: repeat(auto-fill, 220px);
+        gap: 8px;
+        grid-auto-rows: 220px;
+    }
+
+    .curated-grid {
+        grid-template-columns: repeat(auto-fill, 220px);
         gap: 8px;
     }
-    
+
     .library-card {
-        padding: 12px;
+        height: 220px;
+        padding: 10px 12px;
     }
-    
+
+    .library-card .card-rule {
+        margin: 0 -12px;
+        width: calc(100% + 24px);
+    }
+
     .library-name {
-        font-size: 13px;
+        font-size: 16px;
     }
-    
+
     .library-description {
-        font-size: 11px;
-        min-height: 30px;
+        font-size: 12px;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+    }
+
+    .library-card .meta-row {
+        font-size: 9px;
     }
     
     .modal-title {
@@ -961,7 +1097,7 @@ a:hover {
 }
 
 .library-of-the-day-section .library-card {
-    width: 280px;
+    width: 380px;
     flex-shrink: 0;
 }
 
@@ -998,8 +1134,8 @@ a:hover {
 
 .curated-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 310px);
-    gap: 15px;
+    grid-template-columns: repeat(auto-fill, 380px);
+    gap: 18px;
 }
 
 .curated-count {
@@ -1009,34 +1145,11 @@ a:hover {
     letter-spacing: 0;
 }
 
-/* Pick attribution badges on cards within curated discoveries */
-.library-card .pick-badge {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    font-size: 9px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 2px 6px;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    letter-spacing: 0.5px;
-    z-index: 2;
-    pointer-events: none;
-}
-
-.library-card .pick-badge.new {
-    background-color: #00979D;
-    color: white;
-    border-color: #00979D;
-}
-
-.library-card .pick-badge.updated {
-    background-color: #ff8c00;
-    color: white;
-    border-color: #ff8c00;
-}
+/* Pick attribution badges inside curated cards. The badge lives in the
+   top-right corner only — no more left-edge color since the bands are
+   gone. The base .pick-badge rules above cover .new and .updated; this
+   section only adds the .editor and .themed badge styles for curated
+   cards that previously used the left-edge color cue. */
 
 /* Accessibility - Screen reader only content */
 .sr-only {

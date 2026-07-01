@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-01T11:48:48.840Z",
-  "total_libraries": 9614,
-  "index_etag": "W/\"a1f4842d49d4715476cbe7f77df7a160\"",
-  "index_last_modified": "Wed, 01 Jul 2026 11:29:12 GMT",
+  "enhanced_at": "2026-07-01T12:52:14.432Z",
+  "total_libraries": 9615,
+  "index_etag": "W/\"b6f2b2f35e1b645cbe795c31d10ab914\"",
+  "index_last_modified": "Wed, 01 Jul 2026 12:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104436,16 +104436,20 @@
       "repository_name": "Dag0d/ezTime2",
       "repository_url": "https://github.com/Dag0d/ezTime2",
       "name": "ezTime2",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-01T11:48:44.907Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-01T12:52:13.006Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "550bd2a66820",
+      "last_seen_sha": "d09b93deaa05",
       "author": "Dag0d",
       "maintainer": "Dag0d",
       "sentence": "ezTime2 - pronounced \"Easy Time\" - is an Arduino time and date library with NTP sync, timezone lookups, formatted output, events, and millisecond precision.",
@@ -104454,8 +104458,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dag0d/ezTime2-1.0.0.zip",
-      "size": 10533538,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dag0d/ezTime2-1.1.0.zip",
+      "size": 10542128,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -113310,6 +113315,39 @@
       "github_forks": 21,
       "github_language": "C",
       "github_updated_at": "2025-11-05T23:44:24Z"
+    },
+    {
+      "repository_name": "CodexPad/gamepad_codec_arduino_lib",
+      "repository_url": "https://github.com/CodexPad/gamepad_codec_arduino_lib",
+      "name": "GamepadCodec",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-01T12:52:13.006Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T12:52:13.006Z",
+      "last_seen_sha": "7ac72de46000",
+      "author": "chenliang@null-lab.com",
+      "maintainer": "chenliang@null-lab.com",
+      "sentence": "Encode and decode gamepad states over Stream using RobustFrame protocol.",
+      "paragraph": "Encoder and Decoder for gamepad::input::State with RobustFrame framing and CRC.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "RobustFrame",
+        "GamepadInput"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/GamepadCodec-1.0.0.zip",
+      "size": 18320,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T07:28:19Z"
     },
     {
       "repository_name": "CodexPad/gamepad_input_arduino_lib",
@@ -208909,7 +208947,7 @@
       "repository_name": "GyverLibs/Psychrometer",
       "repository_url": "https://github.com/GyverLibs/Psychrometer",
       "name": "Psychrometer",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0",
@@ -208918,11 +208956,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-01T12:52:13.006Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:15:46Z",
-      "last_seen_sha": "36d838657a86",
+      "last_seen_sha": "e84b44973d5a",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for psychrometer - read humidity from two thermometers",
@@ -208931,9 +208973,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Psychrometer-1.0.0.zip",
-      "size": 23158,
-      "previous_version": "1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Psychrometer-1.0.1.zip",
+      "size": 26917,
+      "previous_version": "1.0.0",
       "github_stars": 7,
       "github_forks": 1,
       "github_language": "C++",
@@ -303052,7 +303094,7 @@
   "stats": {
     "total_categories": 82,
     "total_architectures": 160,
-    "with_github_metadata": 9287,
-    "total_dependencies": 5140
+    "with_github_metadata": 9288,
+    "total_dependencies": 5142
   }
 }

@@ -1,6 +1,114 @@
 {
-  "since": "2026-07-01T13:45:31.615Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-01T14:56:28.398Z",
+  "new_libraries": [
+    {
+      "repository_name": "AERL-Official/AERL-C-Framework",
+      "repository_url": "https://github.com/AERL-Official/AERL-C-Framework",
+      "name": "AERL C Framework",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-01T14:56:28.398Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T14:56:28.398Z",
+      "last_seen_sha": "74c3114115fa",
+      "author": "Applied Electronics and Robotics Laboratory LLP",
+      "maintainer": "AERL <info@aerl.space>",
+      "sentence": "A HAL framework that makes embedded and robotics code fast, simple, and reliable — built for beginners.",
+      "paragraph": "Beta. One global object (AERL), no setup boilerplate: include it and use it. Non-blocking timing (glow/flash/glctrl), unified logging, run-once/run-N control, and UART/I2C/SPI helpers. Works right beside Arduino.h.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AERL-Official/AERL_C_Framework-0.1.1.zip",
+      "size": 12384,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T12:08:41Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "argeorun/BACnetMSTP-ArduinoLib",
+        "repository_url": "https://github.com/argeorun/BACnetMSTP-ArduinoLib",
+        "name": "BACnetMSTP",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-06-26T08:58:52Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-01T14:56:28.398Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-26T08:58:52Z",
+        "last_seen_sha": "a06003b80e51",
+        "author": "George Arun <argeorun@gmail.com>",
+        "maintainer": "George Arun <argeorun@gmail.com>",
+        "sentence": "BACnet MS/TP server library for Arduino - RS-485 fieldbus connectivity.",
+        "paragraph": "Fully hardware-validated BACnet MS/TP server for Arduino. Supports Uno R3, Mega 2560, ESP32, ESP32-S3, STM32 Nucleo-144 F756ZG, and STM32 Blue Pill F103CB (compile-only, not yet hardware-tested). ReadProperty, WriteProperty, Who-Is/I-Am services. EEPROM-backed MAC address, baud rate, and device instance. Single include, 4-line sketch. Derived from https://github.com/argeorun/BACnet-MSTP-Arduino by the same author.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "esp32",
+          "stm32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/argeorun/BACnetMSTP-2.0.0.zip",
+        "size": 1332295,
+        "previous_version": "1.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_updated_at": "2026-06-25T10:47:23Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "Pupariaa/Lucarne",
+        "repository_url": "https://github.com/Pupariaa/Lucarne",
+        "name": "Lucarne",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.4",
+            "seen_at": "2026-06-29T09:22:30Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-07-01T14:56:28.398Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-29T09:22:30Z",
+        "last_seen_sha": "47e5f6793498",
+        "author": "Techalchemy",
+        "maintainer": "Puparia",
+        "sentence": "UI toolkit for SPI displays (ST7789, ST7735S) on Arduino and ESP32 — drivers, widgets, and Studio export.",
+        "paragraph": "Lucarne provides standalone SPI display drivers, a lightweight graphics layer, configurable framebuffering, a high-level UI runtime (screens, widgets, menus, transitions, data binding), and Lucarne Studio — a browser editor to design interfaces and export C++ headers. No Adafruit dependency.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Pupariaa/Lucarne-0.2.0.zip",
+        "size": 1327560,
+        "previous_version": "0.1.4",
+        "github_stars": 6,
+        "github_forks": 0,
+        "github_updated_at": "2026-06-29T05:27:18Z"
+      },
+      "old_version": "0.1.4",
+      "new_version": "0.2.0"
+    }
+  ],
   "removed_libraries": []
 }

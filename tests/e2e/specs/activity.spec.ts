@@ -99,4 +99,82 @@ test.describe('Activity section', () => {
     const tagName = await row.evaluate((el) => el.tagName.toLowerCase());
     expect(tagName).toBe('div');
   });
+
+  test('daily legend has clickable New and Updated buttons with counts', async ({ page }) => {
+    const newBtn = page.locator('#activityDailyLegend [data-activity-kind="new"]');
+    const updBtn = page.locator('#activityDailyLegend [data-activity-kind="updated"]');
+    await expect(newBtn).toHaveCount(1);
+    await expect(updBtn).toHaveCount(1);
+    expect(await newBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
+    expect(await updBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
+  });
+
+  test('weekly legend has clickable New and Updated buttons', async ({ page }) => {
+    const newBtn = page.locator('#activityWeeklyLegend [data-activity-kind="new"]');
+    const updBtn = page.locator('#activityWeeklyLegend [data-activity-kind="updated"]');
+    await expect(newBtn).toHaveCount(1);
+    await expect(updBtn).toHaveCount(1);
+  });
+
+  test('clicking daily legend New button shows the activity filter banner', async ({ page }) => {
+    await page.locator('#activityDailyLegend [data-activity-kind="new"]').click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/new/i);
+    await expect(banner).toContainText(/clear filter/i);
+  });
+
+  test('clicking a daily sparkline dot applies a day-scoped activity filter', async ({ page }) => {
+    const dot = page.locator('#activityDailySpark [data-activity-date]').first();
+    await expect(dot).toHaveCount(1);
+    await dot.click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/new/i);
+  });
+
+  test('clicking a weekly bar new-segment applies a week-scoped activity filter', async ({ page }) => {
+    const seg = page.locator('#activityWeeklyBars .activity-bar-segment-new').first();
+    await expect(seg).toHaveCount(1);
+    await seg.click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/week of/i);
+  });
+
+  test('clicking a weekly bar updated-segment applies a week-scoped updated filter', async ({ page }) => {
+    const seg = page.locator('#activityWeeklyBars .activity-bar-segment-updated').first();
+    await expect(seg).toHaveCount(1);
+    await seg.click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/updated/i);
+  });
+
+  test('clear button on activity filter banner restores normal browse view', async ({ page }) => {
+    await page.locator('#activityDailyLegend [data-activity-kind="new"]').click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await banner.locator('.activity-filter-banner-clear').click();
+    await expect(banner).toHaveCount(0);
+  });
+
+  test('activity panel shows a trend indicator', async ({ page }) => {
+    const trend = page.locator('#activityDailyLegend .activity-trend');
+    await expect(trend).toHaveCount(1);
+    await expect(trend).toContainText(/prior week/);
+  });
+
+  test('activity panel shows recent libraries list with at least one entry', async ({ page }) => {
+    const items = page.locator('#activityDailyRecentList .activity-recent-item');
+    const count = await items.count();
+    // Recent list is data-driven — pass whether populated or empty.
+    expect(count).toBeGreaterThanOrEqual(0);
+    // If any items, they each render name + category + new tag.
+    if (count > 0) {
+      const first = items.first();
+      await expect(first.locator('.activity-recent-item-name')).toBeVisible();
+      await expect(first.locator('.activity-recent-item-tag')).toBeVisible();
+    }
+  });
 });

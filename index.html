@@ -218,22 +218,40 @@
             <div class="activity-grid">
                 <div class="activity-panel" id="activityDailyPanel" hidden>
                     <div class="activity-panel-header">
-                        <span class="activity-panel-title">Daily</span>
+                        <span class="activity-panel-title">
+                            Daily
+                            <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
+                        </span>
                         <span class="activity-panel-meta" id="activityDailyMeta"></span>
                     </div>
                     <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
-                    <div class="activity-legend">
-                        <span><span class="activity-legend-swatch activity-legend-swatch-new"></span>New</span>
-                        <span><span class="activity-legend-swatch activity-legend-swatch-updated"></span>Updated</span>
+                    <div class="activity-legend" id="activityDailyLegend"></div>
+                    <div class="activity-recent" id="activityDailyRecent" hidden>
+                        <div class="activity-recent-header">
+                            Recent
+                            <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
+                        </div>
+                        <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
                     </div>
                 </div>
 
                 <div class="activity-panel" id="activityWeeklyPanel" hidden>
                     <div class="activity-panel-header">
-                        <span class="activity-panel-title">Weekly</span>
+                        <span class="activity-panel-title">
+                            Weekly
+                            <span class="activity-peak-pill" id="activityWeeklyPeak" hidden></span>
+                        </span>
                         <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
                     </div>
                     <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
+                    <div class="activity-legend" id="activityWeeklyLegend"></div>
+                    <div class="activity-recent" id="activityWeeklyRecent" hidden>
+                        <div class="activity-recent-header">
+                            Latest week
+                            <span class="activity-recent-header-count" id="activityWeeklyRecentCount"></span>
+                        </div>
+                        <ul class="activity-recent-list" id="activityWeeklyRecentList"></ul>
+                    </div>
                 </div>
 
                 <div class="activity-panel" id="activityCategoryPanel" hidden>
@@ -246,6 +264,8 @@
             </div>
             </div>
         </section>
+
+        <div id="activityFilterBannerContainer"></div>
 
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
@@ -282,6 +302,12 @@
         let currentSort = 'most-recent';
         let currentDisplayCount = 120; // How many libraries are currently displayed
         const itemsPerPage = 120; // How many to load at once
+
+        // Activity-panel filter: when non-null, applyFilters() restricts
+        // the grid to libraries new/updated in the period [start..end].
+        // Cleared when the user invokes any other filter (search, sort,
+        // category, platform) — see resetAllFiltersForActivityClick.
+        let currentActivityFilter = null;
 
         let trendingScores = {};
         let pickedRepoNames = new Set();
@@ -595,11 +621,14 @@
             const searchInput = document.getElementById('searchInput');
             searchInput.value = '';
             currentSearchQuery = '';
-            
+
             // Hide clear search button
             const clearBtn = document.getElementById('clearSearchBtn');
             clearBtn.style.display = 'none';
-            
+
+            // Switching categories clears any drill-in from the activity panel.
+            currentActivityFilter = null;
+
             // Set category filter
             currentCategory = categoryName;
             currentPlatform = 'all';
@@ -631,11 +660,14 @@
             const searchInput = document.getElementById('searchInput');
             searchInput.value = '';
             currentSearchQuery = '';
-            
+
             // Hide clear search button
             const clearBtn = document.getElementById('clearSearchBtn');
             clearBtn.style.display = 'none';
-            
+
+            // Switching platforms clears any drill-in from the activity panel.
+            currentActivityFilter = null;
+
             // Set platform filter
             currentPlatform = platformName;
             currentCategory = 'all';
@@ -663,14 +695,16 @@
 
         // Filter libraries by author
         function filterByAuthor(authorName) {
-            // Set search query to author name  
+            // Set search query to author name
             currentSearchQuery = authorName;
             document.getElementById('searchInput').value = authorName;
-            
+
             // Show clear search button
             const clearBtn = document.getElementById('clearSearchBtn');
             clearBtn.style.display = 'block';
-            
+
+            // Drilling into an author leaves the activity panel alone — author
+            // + activity-filter can compose. Nothing to reset here.
             // Reset other filters to show all categories/platforms for this author
             currentCategory = 'all';
             currentPlatform = 'all';
@@ -793,25 +827,28 @@
             const sortButtons = document.querySelector('.sort-buttons');
             sortButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('sort-btn')) {
-                    // Clear all filters when using browse buttons to show full collection
+                    // Clear all browse filters when using sort buttons.
+                    // currentActivityFilter is left in place — sorting within
+                    // a drill-in (e.g. "new last week, alphabetical") is a
+                    // reasonable refinement the user might want.
                     const searchInput = document.getElementById('searchInput');
                     searchInput.value = '';
                     currentSearchQuery = '';
                     currentCategory = 'all';
                     currentPlatform = 'all';
-                    
+
                     // Hide Library of the Day when using sort buttons
                     hideLibraryOfTheDay();
-                    
+
                     // Reset all filter button states
                     document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                     document.querySelector('[data-category="all"]').classList.add('active');
                     document.querySelector('[data-platform="all"]').classList.add('active');
-                    
+
                     // Update active state for sort buttons
                     sortButtons.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
                     e.target.classList.add('active');
-                    
+
                     // Update current sort and apply
                     currentSort = e.target.getAttribute('data-sort');
                     applyFilters();
@@ -994,19 +1031,26 @@
             });
         }
 
-        // Apply category, platform, search, and letter filters, then sort
+        // Apply category, platform, search, and activity filters, then sort
         function applyFilters() {
             console.log('applyFilters called');
             console.log('Libraries array length:', libraries.length);
             console.log('Current search query:', currentSearchQuery);
-            
+
             let filtered = libraries;
-            
+
+            // Activity filter takes precedence — a click on the activity panel
+            // is an explicit drill-in, not a refinement.
+            if (currentActivityFilter) {
+                const f = currentActivityFilter;
+                filtered = filtered.filter(lib => libraryMatchesActivity(lib, f.kind, f.start, f.end));
+            }
+
             // Apply category filter
             if (currentCategory !== 'all') {
                 filtered = filtered.filter(lib => lib.category === currentCategory);
             }
-            
+
             // Apply platform filter
             if (currentPlatform !== 'all') {
                 filtered = filtered.filter(lib => {
@@ -1128,9 +1172,10 @@
             
             // Apply sorting
             filtered = sortLibraries(filtered);
-            
+
             filteredLibraries = filtered;
             currentDisplayCount = itemsPerPage; // Reset display count when filters change
+            if (typeof renderActivityFilterBanner === 'function') renderActivityFilterBanner();
             displayLibraries();
         }
 
@@ -1338,6 +1383,212 @@
             return (b.new || 0) + (b.updated || 0);
         }
 
+        function formatLongDate(dateStr) {
+            const d = new Date(dateStr + 'T00:00:00Z');
+            if (Number.isNaN(d.getTime())) return dateStr;
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+        }
+
+        function addDaysISO(dateStr, days) {
+            const d = new Date(dateStr + 'T00:00:00Z');
+            if (Number.isNaN(d.getTime())) return dateStr;
+            d.setUTCDate(d.getUTCDate() + days);
+            return d.toISOString().slice(0, 10);
+        }
+
+        function isoInRange(iso, startISO, endISO) {
+            return iso && iso >= startISO && iso <= endISO;
+        }
+
+        // Source library data (mirrors the page-level `libraries` but
+        // also reaches window.libraryData so first_seen_at and
+        // version_history are guaranteed present).
+        function allLibraries() {
+            return window.libraryData && Array.isArray(window.libraryData.libraries)
+                ? window.libraryData.libraries
+                : libraries;
+        }
+
+        // kind: 'new' matches first_seen_at; 'updated' matches any
+        // version_history.seen_at.
+        function libraryMatchesActivity(lib, kind, startISO, endISO) {
+            if (!lib) return false;
+            if (kind === 'new') {
+                const fs = lib.first_seen_at;
+                return !!fs && isoInRange(fs, startISO, endISO);
+            }
+            if (kind === 'updated') {
+                const versions = lib.version_history || [];
+                return versions.some(v => v && isoInRange(v.seen_at, startISO, endISO));
+            }
+            return false;
+        }
+
+        // Top-N libraries of `kind` for the given date range, sorted
+        // by recency of the matching event.
+        function recentLibrariesByActivity(kind, startISO, endISO, n) {
+            return allLibraries()
+                .filter(lib => libraryMatchesActivity(lib, kind, startISO, endISO))
+                .sort((a, b) => {
+                    if (kind === 'new') return (b.first_seen_at || '').localeCompare(a.first_seen_at || '');
+                    const maxSeen = (lib) => (lib.version_history || []).reduce((m, v) => v && v.seen_at > m ? v.seen_at : m, '');
+                    return maxSeen(b).localeCompare(maxSeen(a));
+                })
+                .slice(0, n);
+        }
+
+        function trendArrow(curr, prev) {
+            if (prev <= 0 && curr <= 0) return { arrow: '·', cls: 'activity-trend-flat', text: 'flat' };
+            if (prev <= 0) return { arrow: '↑', cls: 'activity-trend-up', text: 'new activity' };
+            const pct = Math.round(((curr - prev) / prev) * 100);
+            if (pct >= 5) return { arrow: '↑', cls: 'activity-trend-up', text: `+${pct}%` };
+            if (pct <= -5) return { arrow: '↓', cls: 'activity-trend-down', text: `${pct}%` };
+            return { arrow: '·', cls: 'activity-trend-flat', text: 'flat' };
+        }
+
+        // Render (or remove) the banner above the library grid that
+        // announces "Filtered: New (Jun 15, 2026) — N libraries [Clear]".
+        function renderActivityFilterBanner() {
+            const host = el('activityFilterBannerContainer');
+            if (!host) return;
+            if (!currentActivityFilter) {
+                clearChildren(host);
+                return;
+            }
+            const f = currentActivityFilter;
+            const matched = allLibraries().filter(lib => libraryMatchesActivity(lib, f.kind, f.start, f.end));
+            clearChildren(host);
+
+            const banner = document.createElement('div');
+            banner.className = 'activity-filter-banner';
+            banner.setAttribute('role', 'status');
+            banner.setAttribute('aria-live', 'polite');
+
+            const text = document.createElement('div');
+            text.className = 'activity-filter-banner-text';
+            const kindEl = document.createElement('span');
+            kindEl.className = 'activity-filter-banner-kind';
+            kindEl.textContent = f.kind === 'new' ? 'New' : 'Updated';
+            const periodEl = document.createElement('span');
+            periodEl.className = 'activity-filter-banner-period';
+            periodEl.textContent = ` ${escapeHtml(f.label)}`;
+            const countEl = document.createElement('span');
+            countEl.className = 'activity-filter-banner-count';
+            countEl.textContent = ` — ${matched.length.toLocaleString()} ${matched.length === 1 ? 'library' : 'libraries'}`;
+            text.appendChild(kindEl);
+            text.appendChild(periodEl);
+            text.appendChild(countEl);
+
+            const clearBtn = document.createElement('button');
+            clearBtn.type = 'button';
+            clearBtn.className = 'activity-filter-banner-clear';
+            clearBtn.textContent = '× Clear filter';
+            clearBtn.setAttribute('aria-label', 'Clear activity filter');
+            clearBtn.addEventListener('click', () => clearActivityFilter());
+
+            banner.appendChild(text);
+            banner.appendChild(clearBtn);
+            host.appendChild(banner);
+        }
+
+        // Public entry point: invoked by clickable elements (legend,
+        // spark dot, bar). Replaces search/category/platform state with
+        // the activity filter and scrolls to results.
+        function filterByActivity(kind, startISO, endISO, label) {
+            if (kind !== 'new' && kind !== 'updated') return;
+            const searchInput = el('searchInput');
+            if (searchInput) searchInput.value = '';
+            currentSearchQuery = '';
+            const clearBtn = el('clearSearchBtn');
+            if (clearBtn) clearBtn.style.display = 'none';
+            currentCategory = 'all';
+            currentPlatform = 'all';
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            const allCat = document.querySelector('[data-category="all"]');
+            const allPlat = document.querySelector('[data-platform="all"]');
+            if (allCat) allCat.classList.add('active');
+            if (allPlat) allPlat.classList.add('active');
+
+            currentActivityFilter = {
+                kind,
+                start: startISO,
+                end: endISO,
+                label: label || formatLongDate(startISO),
+            };
+            currentDisplayCount = itemsPerPage;
+            applyFilters();
+            const grid = el('libraryGrid');
+            if (grid) grid.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function clearActivityFilter() {
+            if (!currentActivityFilter) return;
+            currentActivityFilter = null;
+            currentDisplayCount = itemsPerPage;
+            applyFilters();
+        }
+
+        // Build a clickable legend button (color swatch + label + count)
+        // that filters by activity for the given period.
+        function buildLegend(containerId, kindLabel, kind, startISO, endISO, count) {
+            const container = el(containerId);
+            if (!container) return;
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'activity-legend-item';
+            btn.setAttribute('data-activity-kind', kind);
+            btn.setAttribute('aria-label', `Filter libraries ${kindLabel.toLowerCase()} from ${formatLongDate(startISO)} to ${formatLongDate(endISO)}`);
+            const swatchClass = kind === 'new' ? 'activity-legend-swatch-new' : 'activity-legend-swatch-updated';
+            const swatch = document.createElement('span');
+            swatch.className = `activity-legend-swatch ${swatchClass}`;
+            const labelSpan = document.createElement('span');
+            labelSpan.textContent = kindLabel;
+            const countSpan = document.createElement('span');
+            countSpan.className = 'activity-legend-item-count';
+            countSpan.textContent = ` ${count.toLocaleString()}`;
+            btn.appendChild(swatch);
+            btn.appendChild(labelSpan);
+            btn.appendChild(countSpan);
+            btn.addEventListener('click', () => {
+                filterByActivity(kind, startISO, endISO, `${formatLongDate(startISO)} – ${formatLongDate(endISO)}`);
+            });
+            container.appendChild(btn);
+        }
+
+        function renderRecent(containerId, countContainerId, listContainerId, libs) {
+            const wrap = el(containerId);
+            const countEl = el(countContainerId);
+            const listEl = el(listContainerId);
+            if (!wrap || !countEl || !listEl) return;
+            clearChildren(listEl);
+            if (!libs || libs.length === 0) {
+                wrap.hidden = true;
+                return;
+            }
+            wrap.hidden = false;
+            countEl.textContent = `· ${libs.length}`;
+            for (const lib of libs) {
+                const li = document.createElement('li');
+                li.className = 'activity-recent-item';
+                const tag = document.createElement('span');
+                tag.className = 'activity-recent-item-tag new';
+                tag.textContent = 'N';
+                tag.title = 'New';
+                const name = document.createElement('span');
+                name.className = 'activity-recent-item-name';
+                name.textContent = lib.name || lib.repository_name || '';
+                name.title = lib.name || '';
+                const cat = document.createElement('span');
+                cat.className = 'activity-recent-item-cat';
+                cat.textContent = lib.category || '';
+                cat.title = lib.category || '';
+                li.appendChild(tag);
+                li.appendChild(name);
+                li.appendChild(cat);
+                listEl.appendChild(li);
+            }
+        }
+
         function renderDailyPanel(activity) {
             const panel = el('activityDailyPanel');
             const svg = el('activityDailySpark');
@@ -1399,25 +1650,82 @@
                 'stroke-linecap': 'round',
             }));
 
+            // Peak day (max total) for visual highlight.
+            let peakIdx = -1;
+            let peakVal = 0;
+            daily.forEach((b, i) => {
+                const t = sumDailyBucket(b);
+                if (t > peakVal) { peakVal = t; peakIdx = i; }
+            });
+
             daily.forEach((b, i) => {
                 const x = ACTIVITY_SPARK_PAD + i * stepX;
                 const total = sumDailyBucket(b);
                 const y = yFor(total);
+                const isPeak = i === peakIdx && total > 0;
                 const point = svgEl('circle', {
                     cx: x.toFixed(2),
                     cy: y.toFixed(2),
-                    r: i === daily.length - 1 ? '3' : '1.5',
-                    class: 'activity-spark-dot',
+                    r: (i === daily.length - 1 || isPeak) ? '3' : '1.5',
+                    class: isPeak ? 'activity-spark-dot activity-spark-dot-peak' : 'activity-spark-dot',
+                    'data-activity-date': b.date,
+                    tabindex: '0',
+                    role: 'button',
+                    'aria-label': `${formatDayLabel(b.date)}: ${b.new || 0} new, ${b.updated || 0} updated. Activate to filter.`,
                 });
                 const t = svgEl('title');
                 t.textContent = `${formatDayLabel(b.date)}: ${b.new || 0} new, ${b.updated || 0} updated`;
                 point.appendChild(t);
+                point.addEventListener('click', () => {
+                    filterByActivity('new', b.date, b.date, formatLongDate(b.date));
+                });
+                point.addEventListener('keydown', (ev) => {
+                    if (ev.key === 'Enter' || ev.key === ' ') {
+                        ev.preventDefault();
+                        filterByActivity('new', b.date, b.date, formatLongDate(b.date));
+                    }
+                });
                 svg.appendChild(point);
             });
 
             const totalNew = daily.reduce((acc, b) => acc + (b.new || 0), 0);
             const totalUpdated = daily.reduce((acc, b) => acc + (b.updated || 0), 0);
+            const periodStart = daily[0].date;
+            const periodEnd = daily[daily.length - 1].date;
+
+            // Replace the static legend with interactive buttons (counts baked in).
+            const legendRoot = el('activityDailyLegend');
+            if (legendRoot) {
+                clearChildren(legendRoot);
+                buildLegend('activityDailyLegend', 'New', 'new', periodStart, periodEnd, totalNew);
+                buildLegend('activityDailyLegend', 'Updated', 'updated', periodStart, periodEnd, totalUpdated);
+                // Trend: last 7 days vs the previous 7.
+                const last7 = daily.slice(-7);
+                const prev7 = daily.slice(-14, -7);
+                const sum = arr => arr.reduce((acc, b) => acc + sumDailyBucket(b), 0);
+                const trend = trendArrow(sum(last7), sum(prev7));
+                const trendEl = document.createElement('span');
+                trendEl.className = `activity-trend ${trend.cls}`;
+                trendEl.textContent = `${trend.arrow} ${trend.text} vs prior week`;
+                legendRoot.appendChild(trendEl);
+            }
+
             meta.textContent = `+${totalNew} new • +${totalUpdated} updated • last ${daily.length} days`;
+
+            // Peak pill in the panel header.
+            const peakPill = el('activityDailyPeak');
+            if (peakPill) {
+                if (peakIdx >= 0 && peakVal > 0) {
+                    peakPill.textContent = `peak ${formatDayLabel(daily[peakIdx].date)}`;
+                    peakPill.hidden = false;
+                } else {
+                    peakPill.hidden = true;
+                }
+            }
+
+            // Recent libraries mini-list (top-N new over the full period).
+            const recentNew = recentLibrariesByActivity('new', periodStart, periodEnd, 5);
+            renderRecent('activityDailyRecent', 'activityDailyRecentCount', 'activityDailyRecentList', recentNew);
         }
 
         function renderWeeklyPanel(activity) {
@@ -1448,48 +1756,139 @@
                 return yMax + (innerH * (1 - v / maxBucket));
             };
 
+            // Peak week for highlight pill.
+            let peakIdx = -1;
+            let peakVal = 0;
+            weekly.forEach((b, i) => {
+                const t = sumWeeklyBucket(b);
+                if (t > peakVal) { peakVal = t; peakIdx = i; }
+            });
+
             weekly.forEach((b, i) => {
                 const x = ACTIVITY_SPARK_PAD + i * (colW + ACTIVITY_BAR_GAP_WIDE);
                 const total = sumWeeklyBucket(b);
                 if (total <= 0) return;
                 const newH = innerH * ((b.new || 0) / Math.max(maxBucket, 1));
                 const updH = innerH * ((b.updated || 0) / Math.max(maxBucket, 1));
-                const yNew = yBase - newH;
-                const yUpd = yNew - updH;
+                const weekStart = b.week_start;
+                const weekEnd = addDaysISO(weekStart, 6);
 
-                const updRect = svgEl('rect', {
-                    x: x.toFixed(2),
-                    y: yUpd.toFixed(2),
-                    width: colW.toFixed(2),
-                    height: Math.max(0.5, updH).toFixed(2),
-                    fill: ACTIVITY_UPDATED_COLOR,
-                });
-                svg.appendChild(updRect);
-                const titleUpd = svgEl('title');
-                titleUpd.textContent = `Week of ${formatDayLabel(b.week_start)}: ${b.updated || 0} updated`;
-                updRect.appendChild(titleUpd);
+                // Each weekly slot is split into two non-overlapping halves so
+                // that both segments remain independently clickable (a stacked
+                // pair makes the lower segment unreachable when both have data).
+                const slotGap = 0.6;
+                const halfW = Math.max(1.2, (colW - slotGap) / 2);
+                const updX = x;
+                const newX = x + halfW + slotGap;
+
+                if (updH > 0) {
+                    const updRect = svgEl('rect', {
+                        x: updX.toFixed(2),
+                        y: (yBase - Math.max(0.5, updH)).toFixed(2),
+                        width: halfW.toFixed(2),
+                        height: Math.max(0.5, updH).toFixed(2),
+                        class: 'activity-bar-segment activity-bar-segment-updated',
+                        'data-activity-week': weekStart,
+                        'data-activity-kind': 'updated',
+                        tabindex: '0',
+                        role: 'button',
+                        'aria-label': `Week of ${formatDayLabel(weekStart)} updated: ${b.updated || 0}. Activate to filter.`,
+                    });
+                    svg.appendChild(updRect);
+                    const titleUpd = svgEl('title');
+                    titleUpd.textContent = `Week of ${formatDayLabel(weekStart)}: ${b.updated || 0} updated`;
+                    updRect.appendChild(titleUpd);
+                    updRect.addEventListener('click', () => {
+                        filterByActivity('updated', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
+                    });
+                    updRect.addEventListener('keydown', (ev) => {
+                        if (ev.key === 'Enter' || ev.key === ' ') {
+                            ev.preventDefault();
+                            filterByActivity('updated', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
+                        }
+                    });
+                }
 
                 if (newH > 0) {
                     const newRect = svgEl('rect', {
-                        x: x.toFixed(2),
-                        y: yNew.toFixed(2),
-                        width: colW.toFixed(2),
+                        x: newX.toFixed(2),
+                        y: (yBase - Math.max(0.5, newH)).toFixed(2),
+                        width: halfW.toFixed(2),
                         height: Math.max(0.5, newH).toFixed(2),
-                        fill: ACTIVITY_NEW_COLOR,
+                        class: 'activity-bar-segment activity-bar-segment-new',
+                        'data-activity-week': weekStart,
+                        'data-activity-kind': 'new',
+                        tabindex: '0',
+                        role: 'button',
+                        'aria-label': `Week of ${formatDayLabel(weekStart)} new: ${b.new || 0}. Activate to filter.`,
                     });
                     svg.appendChild(newRect);
                     const titleNew = svgEl('title');
-                    titleNew.textContent = `Week of ${formatDayLabel(b.week_start)}: ${b.new || 0} new`;
+                    titleNew.textContent = `Week of ${formatDayLabel(weekStart)}: ${b.new || 0} new`;
                     newRect.appendChild(titleNew);
+                    newRect.addEventListener('click', () => {
+                        filterByActivity('new', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
+                    });
+                    newRect.addEventListener('keydown', (ev) => {
+                        if (ev.key === 'Enter' || ev.key === ' ') {
+                            ev.preventDefault();
+                            filterByActivity('new', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
+                        }
+                    });
                 }
             });
 
             const totalNew = weekly.reduce((acc, b) => acc + (b.new || 0), 0);
             const totalUpdated = weekly.reduce((acc, b) => acc + (b.updated || 0), 0);
+            const periodStart = weekly[0].week_start;
+            const periodEnd = addDaysISO(weekly[weekly.length - 1].week_start, 6);
             const lastWeek = weekly[weekly.length - 1];
+
+            // Legend mirroring the daily panel.
+            const weekLegendRoot = el('activityWeeklyLegend');
+            if (weekLegendRoot) {
+                clearChildren(weekLegendRoot);
+                buildLegend('activityWeeklyLegend', 'New', 'new', periodStart, periodEnd, totalNew);
+                buildLegend('activityWeeklyLegend', 'Updated', 'updated', periodStart, periodEnd, totalUpdated);
+                const trend = trendArrow(
+                    sumWeeklyBucket(lastWeek),
+                    sumWeeklyBucket(weekly[weekly.length - 2] || { new: 0, updated: 0 })
+                );
+                const trendEl = document.createElement('span');
+                trendEl.className = `activity-trend ${trend.cls}`;
+                trendEl.textContent = `${trend.arrow} ${trend.text} vs prior week`;
+                weekLegendRoot.appendChild(trendEl);
+            }
+
             meta.textContent = lastWeek
                 ? `+${totalNew} new • +${totalUpdated} updated • last ${weekly.length} weeks`
                 : `last ${weekly.length} weeks`;
+
+            // Peak week pill in the panel header.
+            const peakPill = el('activityWeeklyPeak');
+            if (peakPill) {
+                if (peakIdx >= 0 && peakVal > 0) {
+                    peakPill.textContent = `peak wk of ${formatDayLabel(weekly[peakIdx].week_start)}`;
+                    peakPill.hidden = false;
+                } else {
+                    peakPill.hidden = true;
+                }
+            }
+
+            // Recent libraries: most recent active week.
+            let recentStart = lastWeek ? lastWeek.week_start : periodStart;
+            let recentEnd = lastWeek ? addDaysISO(lastWeek.week_start, 6) : periodEnd;
+            if (lastWeek && sumWeeklyBucket(lastWeek) <= 0) {
+                for (let j = weekly.length - 1; j >= 0; j--) {
+                    if (sumWeeklyBucket(weekly[j]) > 0) {
+                        recentStart = weekly[j].week_start;
+                        recentEnd = addDaysISO(weekly[j].week_start, 6);
+                        break;
+                    }
+                }
+            }
+            const recent = recentLibrariesByActivity('new', recentStart, recentEnd, 5);
+            renderRecent('activityWeeklyRecent', 'activityWeeklyRecentCount', 'activityWeeklyRecentList', recent);
         }
 
         function renderCategoryPanel(activity) {
@@ -1574,6 +1973,7 @@
             renderDailyPanel(activity);
             renderWeeklyPanel(activity);
             renderCategoryPanel(activity);
+            renderActivityFilterBanner();
             const hasAny = !el('activityDailyPanel').hidden
                 || !el('activityWeeklyPanel').hidden
                 || !el('activityCategoryPanel').hidden;
@@ -2197,6 +2597,9 @@
 
         // Set up event listeners
         document.getElementById('searchInput').addEventListener('input', (e) => {
+            // Typing in the search box leaves the activity drill-in in
+            // place so search + activity compose (e.g. "adafruit" within
+            // last-week new libs). Clear happens explicitly via the banner.
             searchLibraries(e.target.value);
         });
 

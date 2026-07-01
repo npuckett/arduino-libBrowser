@@ -1410,7 +1410,8 @@
         }
 
         // kind: 'new' matches first_seen_at; 'updated' matches any
-        // version_history.seen_at.
+        // version_history.seen_at; 'stale' is a catalog-wide property
+        // (date bounds ignored — a library is stale globally or not at all).
         function libraryMatchesActivity(lib, kind, startISO, endISO) {
             if (!lib) return false;
             if (kind === 'new') {
@@ -1420,6 +1421,9 @@
             if (kind === 'updated') {
                 const versions = lib.version_history || [];
                 return versions.some(v => v && isoInRange(v.seen_at, startISO, endISO));
+            }
+            if (kind === 'stale') {
+                return isStale(lib);
             }
             return false;
         }
@@ -1662,7 +1666,7 @@
             text.className = 'activity-filter-banner-text';
             const kindEl = document.createElement('span');
             kindEl.className = 'activity-filter-banner-kind';
-            kindEl.textContent = f.kind === 'new' ? 'New' : 'Updated';
+            kindEl.textContent = f.kind === 'new' ? 'New' : f.kind === 'stale' ? 'Stale' : 'Updated';
             const periodEl = document.createElement('span');
             periodEl.className = 'activity-filter-banner-period';
             periodEl.textContent = ` ${escapeHtml(f.label)}`;
@@ -1687,9 +1691,11 @@
 
         // Public entry point: invoked by clickable elements (legend,
         // spark dot, bar). Replaces search/category/platform state with
-        // the activity filter and scrolls to results.
+        // the activity filter and scrolls to results. For kind='stale'
+        // pass startISO/endISO as null — stale is catalog-wide, so the
+        // date range is intentionally skipped.
         function filterByActivity(kind, startISO, endISO, label) {
-            if (kind !== 'new' && kind !== 'updated') return;
+            if (kind !== 'new' && kind !== 'updated' && kind !== 'stale') return;
             const searchInput = el('searchInput');
             if (searchInput) searchInput.value = '';
             currentSearchQuery = '';
@@ -1723,16 +1729,25 @@
         }
 
         // Build a clickable legend button (color swatch + label + count)
-        // that filters by activity for the given period.
-        function buildLegend(containerId, kindLabel, kind, startISO, endISO, count) {
+        // that filters by activity for the given period. For kind='stale'
+        // the date range is ignored (stale is catalog-wide) and the
+        // click applies a global "Not updated in 1+ year" filter.
+        function buildLegend(containerId, kindLabel, kind, startISO, endISO, count, id) {
             const container = el(containerId);
             if (!container) return;
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'activity-legend-item';
             btn.setAttribute('data-activity-kind', kind);
-            btn.setAttribute('aria-label', `Filter libraries ${kindLabel.toLowerCase()} from ${formatLongDate(startISO)} to ${formatLongDate(endISO)}`);
-            const swatchClass = kind === 'new' ? 'activity-legend-swatch-new' : 'activity-legend-swatch-updated';
+            if (id) btn.id = id;
+            const ariaLabel = kind === 'stale'
+                ? `Filter libraries ${kindLabel.toLowerCase()} (not updated in 1+ year)`
+                : `Filter libraries ${kindLabel.toLowerCase()} from ${formatLongDate(startISO)} to ${formatLongDate(endISO)}`;
+            btn.setAttribute('aria-label', ariaLabel);
+            let swatchClass;
+            if (kind === 'new') swatchClass = 'activity-legend-swatch-new';
+            else if (kind === 'stale') swatchClass = 'activity-legend-swatch-stale';
+            else swatchClass = 'activity-legend-swatch-updated';
             const swatch = document.createElement('span');
             swatch.className = `activity-legend-swatch ${swatchClass}`;
             const labelSpan = document.createElement('span');
@@ -1744,7 +1759,11 @@
             btn.appendChild(labelSpan);
             btn.appendChild(countSpan);
             btn.addEventListener('click', () => {
-                filterByActivity(kind, startISO, endISO, `${formatLongDate(startISO)} – ${formatLongDate(endISO)}`);
+                if (kind === 'stale') {
+                    filterByActivity('stale', null, null, 'Not updated in 1+ year');
+                } else {
+                    filterByActivity(kind, startISO, endISO, `${formatLongDate(startISO)} – ${formatLongDate(endISO)}`);
+                }
             });
             container.appendChild(btn);
         }
@@ -1884,6 +1903,11 @@
 
             const totalNew = daily.reduce((acc, b) => acc + (b.new || 0), 0);
             const totalUpdated = daily.reduce((acc, b) => acc + (b.updated || 0), 0);
+            // Stale is a catalog-wide property (no version published or
+            // github update within STALE_DAYS), not bounded by this
+            // panel's date range — so we count across the full library
+            // catalog, not the dashboard's daily window.
+            const totalStale = allLibraries().filter(lib => isStale(lib)).length;
             const periodStart = daily[0].date;
             const periodEnd = daily[daily.length - 1].date;
 
@@ -1893,6 +1917,7 @@
                 clearChildren(legendRoot);
                 buildLegend('activityDailyLegend', 'New', 'new', periodStart, periodEnd, totalNew);
                 buildLegend('activityDailyLegend', 'Updated', 'updated', periodStart, periodEnd, totalUpdated);
+                buildLegend('activityDailyLegend', 'Stale', 'stale', null, null, totalStale, 'activityDailyStale');
                 // Trend: last 7 days vs the previous 7.
                 const last7 = daily.slice(-7);
                 const prev7 = daily.slice(-14, -7);
@@ -1904,7 +1929,7 @@
                 legendRoot.appendChild(trendEl);
             }
 
-            meta.textContent = `+${totalNew} new • +${totalUpdated} updated • last ${daily.length} days`;
+            meta.textContent = `+${totalNew} new • +${totalUpdated} updated • +${totalStale} stale • last ${daily.length} days`;
 
             // Peak pill in the panel header.
             const peakPill = el('activityDailyPeak');
@@ -2034,6 +2059,11 @@
 
             const totalNew = weekly.reduce((acc, b) => acc + (b.new || 0), 0);
             const totalUpdated = weekly.reduce((acc, b) => acc + (b.updated || 0), 0);
+            // Stale is a catalog-wide property (no version published or
+            // github update within STALE_DAYS), not bounded by this
+            // panel's date range — so we count across the full library
+            // catalog, not the dashboard's weekly window.
+            const totalStale = allLibraries().filter(lib => isStale(lib)).length;
             const periodStart = weekly[0].week_start;
             const periodEnd = addDaysISO(weekly[weekly.length - 1].week_start, 6);
             const lastWeek = weekly[weekly.length - 1];
@@ -2044,6 +2074,7 @@
                 clearChildren(weekLegendRoot);
                 buildLegend('activityWeeklyLegend', 'New', 'new', periodStart, periodEnd, totalNew);
                 buildLegend('activityWeeklyLegend', 'Updated', 'updated', periodStart, periodEnd, totalUpdated);
+                buildLegend('activityWeeklyLegend', 'Stale', 'stale', null, null, totalStale, 'activityWeeklyStale');
                 const trend = trendArrow(
                     sumWeeklyBucket(lastWeek),
                     sumWeeklyBucket(weekly[weekly.length - 2] || { new: 0, updated: 0 })
@@ -2055,7 +2086,7 @@
             }
 
             meta.textContent = lastWeek
-                ? `+${totalNew} new • +${totalUpdated} updated • last ${weekly.length} weeks`
+                ? `+${totalNew} new • +${totalUpdated} updated • +${totalStale} stale • last ${weekly.length} weeks`
                 : `last ${weekly.length} weeks`;
 
             // Peak week pill in the panel header.

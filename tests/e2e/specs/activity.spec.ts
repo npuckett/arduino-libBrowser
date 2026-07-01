@@ -177,4 +177,42 @@ test.describe('Activity section', () => {
       await expect(first.locator('.activity-recent-item-tag')).toBeVisible();
     }
   });
+
+  test('daily legend has a third Stale item with grey swatch', async ({ page }) => {
+    const staleBtn = page.locator('#activityDailyStale');
+    await expect(staleBtn).toHaveCount(1);
+    expect(await staleBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
+    await expect(staleBtn).toHaveAttribute('data-activity-kind', 'stale');
+    await expect(staleBtn.locator('.activity-legend-swatch-stale')).toHaveCount(1);
+    await expect(staleBtn).toContainText(/stale/i);
+  });
+
+  test('weekly legend has a third Stale item', async ({ page }) => {
+    const staleBtn = page.locator('#activityWeeklyStale');
+    await expect(staleBtn).toHaveCount(1);
+    expect(await staleBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
+    await expect(staleBtn).toHaveAttribute('data-activity-kind', 'stale');
+  });
+
+  test('daily meta line includes the stale count', async ({ page }) => {
+    const meta = page.locator('#activityDailyMeta');
+    await expect(meta).toContainText(/stale/i);
+  });
+
+  test('clicking the daily Stale legend applies a stale filter banner', async ({ page }) => {
+    await page.locator('#activityDailyStale').click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/stale/i);
+    await expect(banner).toContainText(/1\+ year/i);
+    await expect(banner).toContainText(/clear filter/i);
+  });
+
+  test('clearing the stale filter banner restores normal view', async ({ page }) => {
+    await page.locator('#activityDailyStale').click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await banner.locator('.activity-filter-banner-clear').click();
+    await expect(banner).toHaveCount(0);
+  });
 });

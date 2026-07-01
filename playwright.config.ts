@@ -9,6 +9,10 @@ export default defineConfig({
   reporter: 'list',
   outputDir: 'tests/e2e/test-results',
   timeout: 30000,
+  // Make snapshot paths platform-stable: drop both the OS platform
+  // ("-darwin" / "-linux") and the project name, so the same baseline
+  // commits work on macOS, Linux runners, and Windows.
+  snapshotPathTemplate: '{testDir}/__snapshots__/{arg}{ext}',
   expect: {
     timeout: 5000,
     toHaveScreenshot: {

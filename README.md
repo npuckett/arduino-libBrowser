@@ -65,11 +65,26 @@ The toolbar offers:
 
 ### Library cards
 
-Each card shows: name, version, author, last-updated, stars, description
-(clamped to 3 lines), and category. Click for the full detail modal — version
-history, dependencies, supported architectures, and **Related Libraries**
-(scored by category, architecture overlap, language, topics, and star
-proximity).
+Each card follows a **catalog-card** layout (top to bottom):
+
+- **Call-number row** — repository `owner/name` in small monospace
+- **Title** — the library name, bold uppercase (22 px on desktop, the
+  visual anchor of the card)
+- **By-statement** — `/ by <author>` in italic, ISBD style
+- **Description** — up to 3 lines
+- **Subject chips** — category + top architectures, uppercase, dot-separated
+- **Meta row** — version, ★ stars, last-updated; license right-aligned
+
+Pick-attribution (editor / themed / new / updated) lives in a small corner
+badge with a matching dot next to the call number — the old left-edge color
+stripe is gone.
+
+Card dimensions: **380 × 280 px** on desktop, scaling down through 340 × 260
+(≤1200 px), 280 × 240 (≤768 px), and 220 × 220 (≤480 px).
+
+Click for the full detail modal — version history, dependencies, supported
+architectures, and **Related Libraries** (scored by category, architecture
+overlap, language, topics, and star proximity).
 
 ---
 

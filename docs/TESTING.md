@@ -112,10 +112,10 @@ The `webServer` option in `playwright.config.ts:29` auto-starts `node scripts/se
 
 | Describe block | Tests | What it verifies |
 |----------------|-------|------------------|
-| Home page | 5 | Header title, curated discoveries section, editor-pick teal spine, new/updated badges, themed rows |
+| Home page | 5 | Header title, curated discoveries section, editor-pick EDITOR badge + pick-dot, new/updated badges, themed rows |
 | Sort modes | 4 | All sort buttons present, hidden-gems filter (< 20 stars), forgotten-classics filter (> 100 stars), surprise-me determinism |
 | Search | 3 | Exact match, 1-typo fuzzy match on 4+ char queries, did-you-mean fallback on no-results |
-| Library card layout | 5 | Row height uniformity, ellipsis truncation (name + author), monospace font inheritance, minimum card dimensions |
+| Library card layout | 5 | Row height uniformity, 2-line title clamp, by-statement ellipsis, monospace font inheritance, minimum card dimensions |
 | Modal | 4 | Related libraries (not alphabetical neighbors), attribution reasons, close button, Escape key |
 
 Every `describe` block opens with the same `beforeEach` that navigates to `/index.html` and waits for `#loading` to be hidden.

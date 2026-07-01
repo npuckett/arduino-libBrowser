@@ -351,18 +351,30 @@ The total `picksData` contributes to a header count: `#curatedCount` shows `N hi
 
 ## On-page attribution
 
-The card type and badge shape are driven entirely by CSS classes — see [`style.css:458-494`](../style.css). You can identify any card by inspecting its class list.
+The card type and badge shape are driven entirely by CSS classes. You can
+identify any card by inspecting its class list.
+
+Pick attribution no longer lives on the left edge of the card (the previous
+"left spine" color cue was removed in the catalog-card redesign). All
+attribution now uses a small **corner badge** plus a matching **dot** next
+to the call-number row at the top of the card.
 
 | Stream | Card class | Visual marker |
 |---|---|---|
-| Editor Picks | `.library-card.pick-editor` | Teal left border (`border-left-color: #00979D;`) |
-| Themed Picks | `.library-card.pick-themed` | Dark-gray left border (`border-left-color: #333;`) |
-| Computed — New | `.library-card.pick-computed` + `.pick-badge.new` | Black left border + small `NEW` chip top-right (teal `#00979D` fill) |
-| Computed — Updated | `.library-card.pick-computed` + `.pick-badge.updated` | Black left border + small `UPDATED` chip top-right (orange `#ff8c00` fill) |
+| Editor Picks | `.library-card.pick-editor` | `.pick-badge.editor` (teal) top-right + teal pick-dot next to call number |
+| Themed Picks | `.library-card.pick-themed` | `.pick-badge.themed` (dark gray) top-right + dark-gray pick-dot |
+| Computed — New | `.library-card.pick-computed` + `.pick-badge.new` | Teal `NEW` chip top-right + black pick-dot |
+| Computed — Updated | `.library-card.pick-computed` + `.pick-badge.updated` | Orange `UPDATED` chip top-right + black pick-dot |
 
-The `.pick-badge` class itself ([`style.css:470-482`](../style.css)) defines the badge geometry (absolute positioned, 6px from top-right, uppercase, 8px font). The `.new` and `.updated` modifiers override fill and border color.
+The `.pick-badge` class defines the badge geometry (absolute positioned,
+8 px from top-right, uppercase, 9 px font). The `.editor`, `.themed`,
+`.new`, and `.updated` modifiers set the fill and border colors. The
+`.pick-dot` element is a 6 × 6 px circle that anchors vertical scans and
+provides a screen-reader-friendly visible marker for the pick kind.
 
-No "Picked by X" labels appear on cards themselves — the editor `name` and `bio` are exposed in the library detail page so the home grid stays compact.
+No "Picked by X" labels appear on cards themselves — the editor `name` and
+`bio` are exposed in the library detail page so the home grid stays
+compact.
 
 ---
 

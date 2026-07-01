@@ -33,11 +33,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
   - **Editor Picks** from `editors.json` (PR-editable).
   - **Themed Auto-Picks** from `themes.json` (PR-editable; pipeline populates from library DB).
   - **Computed Picks** (algorithmic: New/Updated/Hidden Gems/Trending/Forgotten Classics).
-- Subtle on-page attribution (teal spine for editors, gray for themed, NEW/UPDATED badges for computed). No busy "Picked by X" labels.
+- Subtle on-page attribution via corner badges (EDITOR / THEMED / NEW / UPDATED) plus a matching dot next to the call-number row. No busy "Picked by X" labels.
 - **Discovery sort modes** added: Surprise Me (daily-deterministic seed), Hidden Gems, Trending, Forgotten Classics.
 - **Smart search**: Levenshtein fuzzy matching for 4+ char queries, synonym expansion (`wifi` → `wireless`/`esp`/…), "Did you mean…?" on zero-result queries.
 - **Related Libraries** in the detail modal (replaces alphabetical neighbors). Scored by category, architecture overlap, language, topics, star proximity.
 - **Aesthetic tightening**: card font now inherits body monospace (`Courier New`) — was rendering in OS sans-serif because cards are `<button>` elements with browser UA font resets. Cards slightly larger (210×310 vs 180×280).
+- **Catalog-card redesign** — the previous 6 px solid + 6 px gradient left-edge "spine" was removed. The new structure is a black/white/grey catalog-card: call-number row → title (22 px bold uppercase) → `/ by` by-statement → description → subject chips → meta row. Card dimensions 380×280 on desktop, scaling down to 220×220 at ≤480 px.
 - **Accessibility**: cards are `<button type="button">` (keyboard-focusable, Enter/Space activation); cards have visible focus rings; modal closes on Escape.
 - **archsToArray()** helper — frontend tolerant of both v1 string format and v2 array format for `architectures`.
 

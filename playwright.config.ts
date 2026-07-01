@@ -9,10 +9,12 @@ export default defineConfig({
   reporter: 'list',
   outputDir: 'tests/e2e/test-results',
   timeout: 30000,
-  // Make snapshot paths platform-stable: drop both the OS platform
-  // ("-darwin" / "-linux") and the project name, so the same baseline
-  // commits work on macOS, Linux runners, and Windows.
-  snapshotPathTemplate: '{testDir}/__snapshots__/{arg}{ext}',
+  // Make snapshot paths platform-stable: a single fixed location at
+  // tests/e2e/__snapshots__/ (one level above tests/e2e/specs/) so the
+  // same baselines work on macOS, Linux runners, and Windows.
+  // Use absolute path so snapshotPathTemplate resolves to the
+  // project root regardless of testDir.
+  snapshotPathTemplate: '{testDir}/../__snapshots__/{arg}{ext}',
   expect: {
     timeout: 5000,
     toHaveScreenshot: {

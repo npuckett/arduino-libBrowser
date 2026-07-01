@@ -1,5 +1,8 @@
 :root {
     --content-margin-left: 20px;
+    --card-cols: 3;
+    --card-w: 380px;
+    --card-gap: 18px;
 }
 
 * {
@@ -30,15 +33,14 @@ a:hover {
 }
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 10px 0;
+    width: max-content;
+    max-width: 100%;
+    padding: 10px var(--content-margin-left);
 }
 
 .header {
     padding-bottom: 10px;
     margin-bottom: 0px;
-    margin-left: var(--content-margin-left);
 }
 
 .title {
@@ -78,7 +80,6 @@ a:hover {
 
 .search-nav {
     margin-top: 10px;
-    margin-left: var(--content-margin-left);
 }
 
 .search-nav-title {
@@ -121,7 +122,6 @@ a:hover {
 }
 
 .search-box {
-    margin-left: var(--content-margin-left);
     margin-bottom: 0;
     padding: 14px 16px;
     border: 2px solid black;
@@ -153,7 +153,6 @@ a:hover {
     max-height: 2000px;
     overflow: hidden;
     transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
-    margin-left: var(--content-margin-left);
 }
 
 .filter-buttons.collapsed {
@@ -205,7 +204,6 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    margin-left: var(--content-margin-left);
 }
 
 .clear-search-btn {
@@ -266,7 +264,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-left: var(--content-margin-left);
 }
 
 .sort-btn {
@@ -306,11 +303,11 @@ a:hover {
 
 .library-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 380px);
-    gap: 18px;
+    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    gap: var(--card-gap);
     grid-auto-rows: 280px;
     justify-content: start;
-    margin-left: var(--content-margin-left);
+    width: 100%;
     /* Card width honors the catalog-card aesthetic: roomy enough for a real
        type scale. Heights are matched by grid-auto-rows. */
 }
@@ -335,10 +332,10 @@ a:hover {
 
 .search-group-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 380px);
-    gap: 18px;
+    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    gap: var(--card-gap);
     grid-auto-rows: 280px;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
 }
 
@@ -650,21 +647,17 @@ a:hover {
    catalog-card structure (call-number, rule, title, by-statement,
    description, chips, meta) stays intact. */
 @media (max-width: 1200px) {
+    :root {
+        --card-w: 340px;
+        --card-gap: 16px;
+    }
+
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 340px);
-        gap: 16px;
         grid-auto-rows: 260px;
     }
 
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 340px);
-        gap: 16px;
         grid-auto-rows: 260px;
-    }
-
-    .curated-grid {
-        grid-template-columns: repeat(auto-fill, 340px);
-        gap: 16px;
     }
 
     .library-card {
@@ -680,23 +673,17 @@ a:hover {
 @media (max-width: 768px) {
     :root {
         --content-margin-left: 10px;
+        --card-cols: 2;
+        --card-w: 280px;
+        --card-gap: 12px;
     }
 
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
-        gap: 12px;
         grid-auto-rows: 240px;
     }
 
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
-        gap: 12px;
         grid-auto-rows: 240px;
-    }
-
-    .curated-grid {
-        grid-template-columns: repeat(auto-fill, 280px);
-        gap: 12px;
     }
 
     .library-card {
@@ -723,7 +710,7 @@ a:hover {
     }
 
     .container {
-        padding: 15px 0;
+        padding: 15px var(--content-margin-left);
     }
 
     .title {
@@ -997,23 +984,17 @@ a:hover {
 @media (max-width: 480px) {
     :root {
         --content-margin-left: 8px;
+        --card-cols: 1;
+        --card-w: 220px;
+        --card-gap: 8px;
     }
 
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 220px);
-        gap: 8px;
         grid-auto-rows: 220px;
     }
 
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 220px);
-        gap: 8px;
         grid-auto-rows: 220px;
-    }
-
-    .curated-grid {
-        grid-template-columns: repeat(auto-fill, 220px);
-        gap: 8px;
     }
 
     .library-card {
@@ -1082,7 +1063,6 @@ a:hover {
     overflow: hidden;
     margin-top: 15px;
     padding: 0;
-    margin-left: var(--content-margin-left);
 }
 
 .about-content.collapsed {
@@ -1112,7 +1092,6 @@ a:hover {
 .library-of-the-day-section #libraryOfTheDay {
     display: flex;
     justify-content: flex-start;
-    margin-left: var(--content-margin-left);
 }
 
 .library-of-the-day-section .library-card {
@@ -1123,7 +1102,6 @@ a:hover {
 /* Curated Discoveries */
 .curated-discoveries {
     margin: 40px 0;
-    padding: 0 var(--content-margin-left);
 }
 
 .curated-row {
@@ -1153,8 +1131,8 @@ a:hover {
 
 .curated-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 380px);
-    gap: 18px;
+    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    gap: var(--card-gap);
 }
 
 .curated-count {

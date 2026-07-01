@@ -63,4 +63,40 @@ test.describe('Activity section', () => {
       threshold: 0.3,
     });
   });
+
+  test('header is collapsible', async ({ page }) => {
+    const header = page.locator('#activityHeader');
+    const content = page.locator('#activityContent');
+    await expect(header).toHaveClass(/collapsible/);
+    await expect(header).toHaveClass(/expanded/);
+    await expect(content).not.toHaveClass(/collapsed/);
+    await header.click();
+    await expect(content).toHaveClass(/collapsed/);
+    await expect(header).not.toHaveClass(/expanded/);
+    await header.click();
+    await expect(content).not.toHaveClass(/collapsed/);
+    await expect(header).toHaveClass(/expanded/);
+  });
+
+  test('category rows (except rollup) are clickable filter buttons', async ({ page }) => {
+    const row = page.locator('#activityCategoryBars [data-category-key="Communication"]');
+    await expect(row).toHaveCount(1);
+    const tagName = await row.evaluate((el) => el.tagName.toLowerCase());
+    expect(tagName).toBe('button');
+  });
+
+  test('clicking a category row applies the category filter', async ({ page }) => {
+    const row = page.locator('#activityCategoryBars [data-category-key="Sensors"]');
+    await row.scrollIntoViewIfNeeded();
+    await row.click();
+    const activeFilter = page.locator('.filter-btn.active[data-category]');
+    await expect(activeFilter).toHaveText('Sensors');
+    await expect(page.locator('#searchInput')).toHaveValue('');
+  });
+
+  test('Other categories row is not a button (no data-category-key)', async ({ page }) => {
+    const row = page.locator('#activityCategoryBars .activity-bar-row', { hasText: 'Other categories' });
+    const tagName = await row.evaluate((el) => el.tagName.toLowerCase());
+    expect(tagName).toBe('div');
+  });
 });

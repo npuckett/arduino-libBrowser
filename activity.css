@@ -9,6 +9,20 @@
     padding: 0 var(--content-margin-left);
 }
 
+.activity-content {
+    overflow: hidden;
+    max-height: 4000px;
+    opacity: 1;
+    transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+    margin-top: 0;
+}
+
+.activity-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+}
+
 .activity-section .section-header {
     font-size: 13px;
     font-weight: bold;
@@ -102,6 +116,29 @@
     font-size: 11px;
     line-height: 1.2;
     min-width: 0;
+}
+
+button.activity-bar-row {
+    background: white;
+    border: 0;
+    border-radius: 0;
+    padding: 3px 0;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.15s ease;
+}
+
+button.activity-bar-row:hover,
+button.activity-bar-row:focus-visible {
+    background-color: #f4f4f4;
+    outline: none;
+}
+
+button.activity-bar-row:active {
+    background-color: #ebebeb;
 }
 
 .activity-bar-label {

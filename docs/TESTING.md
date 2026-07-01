@@ -7,7 +7,7 @@ We have two test suites:
 | Suite | Tool | Count | Scope |
 |-------|------|-------|-------|
 | Unit | Vitest | 136 tests across 8 suites | Pipeline transforms, parsers, picks, activity buckets |
-| E2E | Playwright | 30 tests | Browser-rendered UI + visual snapshots (incl. activity section) |
+| E2E | Playwright | 34 tests | Browser-rendered UI + visual snapshots (incl. activity section) |
 
 See [README.md](../README.md) for the high-level project layout and [PIPELINE.md](./PIPELINE.md) for the broader pipeline/release flow.
 
@@ -130,7 +130,7 @@ Every `describe` block opens with the same `beforeEach` that navigates to `/inde
 | `curated-discoveries.png` | `#curatedDiscoveries` section |
 | `sort-bar-teal-active.png` | `.sort-buttons` after clicking hidden-gems |
 
-#### `tests/e2e/specs/activity.spec.ts` (5 tests)
+#### `tests/e2e/specs/activity.spec.ts` (9 tests)
 
 | Test | What it verifies |
 |------|------------------|
@@ -139,8 +139,12 @@ Every `describe` block opens with the same `beforeEach` that navigates to `/inde
 | daily meta string | Includes "new" and "updated" copy |
 | category bars | Lists "Communication" and "Sensors" rows |
 | panel-level snapshot | `activity-section.png` (max 5 % diff) |
+| header is collapsible | Round-trip toggle adds/removes `collapsed` on `#activityContent` and `expanded` on `#activityHeader` |
+| category rows (except rollup) are clickable filter buttons | Each row is a `<button>` with `data-category-key` |
+| clicking a category row applies the category filter | Clicking the Sensors row activates the matching `.filter-btn` and clears the search box |
+| Other categories row is not a button | The synthetic rollup is a plain `<div>` (no filter target) |
 
-The activity suite asserts panel layout, count presence, and a visual snapshot — hermetic, runs against the same fixture libraries.
+The activity suite asserts panel layout, count presence, click-to-filter wiring, collapsible state, and a visual snapshot — hermetic, runs against the same fixture libraries.
 
 The first snapshot uses `page.screenshot()` with a clip; the other three use `toHaveScreenshot()` with `maxDiffPixelRatio: 0.05–0.1` and `threshold: 0.3`. Tolerance is wider than the default to absorb small font rendering differences across machines.
 

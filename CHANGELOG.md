@@ -14,9 +14,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
   - **Daily** — last 30 days, SVG sparkline of `new + updated` per day with native `<title>` tooltips, dot highlighting today's bucket.
   - **Weekly** — last 12 ISO weeks, stacked bar chart (teal = new, black = updated).
   - **Categories** — top 10 categories with a horizontal bar and share-of-catalog fill, long-tail rolled into "Other categories".
+- **Collapsible header** matching the existing `.section-header.collapsible` pattern (About / Subject / Platform). Starts expanded by default.
+- **Click-to-filter categories** — each category row (except the "Other categories" rollup) is a `<button>` that triggers `filterByCategory(name)`, mirroring the behavior of the Browse By Subject buttons. Clicking Communication scrolls the user to the filtered grid and activates the matching `.filter-btn[data-category]`. The rollup row stays a plain `<div>` since it represents many categories.
 - Brutalist styling intentionally matches the existing card / section treatment: black/white/teal palette, monospace uppercase labels, 1.5 px borders. All styles live in a separate `activity.css` file with a `.activity-*` class prefix so they cannot collide with concurrent edits to `style.css` or any other section.
-- New pipeline transform **`pipeline/src/transforms/activity-stats.ts`** emits `stats.json.activity` with the daily / weekly / categories data. Wired into `build-statsJson` so it lands in `output/stats.json` every weekly rollup. 11 unit tests cover bucket boundaries, ISO-week grouping, long-tail roll-up, determinism, and share arithmetic.
-- New E2E suite **`tests/e2e/specs/activity.spec.ts`** (5 tests) — placement between Curated and the grid, presence of all three panels, semantic panel-meta copy, expected category labels, and a visual snapshot baseline at `tests/e2e/__snapshots__/activity-section.png`.
+- New pipeline transform **`pipeline/src/transforms/activity-stats.ts`** emits `stats.json.activity` with the daily / weekly / categories data. Wired into `buildStatsJson` so it lands in `output/stats.json` every weekly rollup. 11 unit tests cover bucket boundaries, ISO-week grouping, long-tail roll-up, determinism, and share arithmetic.
+- New E2E suite **`tests/e2e/specs/activity.spec.ts`** (9 tests) — placement between Curated and the grid, presence of all three panels, semantic panel-meta copy, expected category labels, visual snapshot baseline, collapsible-header toggle round-trip, button-tag check on category rows, click-to-filter behavior, and the "Other categories" rollup not being a button.
 - Updated `docs/ARCHITECTURE.md`, `docs/PIPELINE.md`, `docs/TESTING.md` to mention the new file, transform, and rollup cadence.
 
 ### Changed — full rewrite

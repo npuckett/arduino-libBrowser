@@ -208,11 +208,13 @@
         </section>
 
         <section class="activity-section" id="activitySection" style="display: none;">
-            <h2 class="section-header">
+            <h2 class="section-header collapsible expanded" id="activityHeader">
                 Activity
+                <span class="collapse-indicator">+</span>
                 <span class="activity-range" id="activityRange"></span>
             </h2>
 
+            <div class="activity-content" id="activityContent">
             <div class="activity-grid">
                 <div class="activity-panel" id="activityDailyPanel" hidden>
                     <div class="activity-panel-header">
@@ -241,6 +243,7 @@
                     </div>
                     <div class="activity-bars-list" id="activityCategoryBars"></div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -1513,13 +1516,22 @@
             }
 
             for (const slice of slices) {
-                const row = document.createElement('div');
+                const isRollup = slice.category === 'Other categories';
+                const tag = isRollup ? 'div' : 'button';
+                const row = document.createElement(tag);
                 row.className = 'activity-bar-row';
+                if (!isRollup && typeof filterByCategory === 'function') {
+                    row.type = 'button';
+                    row.setAttribute('data-category-key', slice.category);
+                    row.setAttribute('aria-label', `Filter by ${slice.category} (${slice.count} libraries)`);
+                    row.addEventListener('click', () => {
+                        filterByCategory(slice.category);
+                    });
+                }
 
                 const label = document.createElement('div');
                 label.className = 'activity-bar-label';
                 label.textContent = slice.category;
-                label.title = `${slice.category} — ${slice.count} libraries`;
                 row.appendChild(label);
 
                 const track = document.createElement('div');
@@ -2247,6 +2259,20 @@
             } else {
                 // Collapse
                 platformButtons.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // Activity section collapse/expand functionality
+        document.getElementById('activityHeader').addEventListener('click', () => {
+            const header = document.getElementById('activityHeader');
+            const content = document.getElementById('activityContent');
+
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                content.classList.add('collapsed');
                 header.classList.remove('expanded');
             }
         });

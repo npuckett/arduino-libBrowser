@@ -174,7 +174,6 @@ test.describe('Library card layout', () => {
         const cs = getComputedStyle(el);
         return {
           webkitLineClamp: cs.webkitLineClamp,
-          lineClamp: cs.lineClamp,
           overflow: cs.overflow,
         };
       });

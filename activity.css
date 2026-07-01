@@ -157,77 +157,80 @@
     gap: 5px;
 }
 
-.activity-bar-row {
-    display: grid;
-    grid-template-columns: minmax(70px, 30%) 1fr auto;
-    align-items: center;
-    gap: 8px;
-    font-size: 11px;
-    line-height: 1.2;
-    min-width: 0;
-}
-
-button.activity-bar-row {
-    background: white;
-    border: 0;
-    border-radius: 0;
-    padding: 3px 0;
-    cursor: pointer;
-    font-family: inherit;
-    color: inherit;
-    text-align: left;
+/* Treemap rendering of the Categories panel: one <g class="activity-treemap-cell">
+   per named category, with a <rect> + <text> inside. Cell area is
+   proportional to category share. Cells are tab-stopped, focusable, and
+   activate filterByCategory via click or Enter/Space. */
+.activity-treemap {
     width: 100%;
-    transition: background-color 0.15s ease;
+    height: 180px;
+    display: block;
+    font-family: var(--font-monospace, 'Courier New', monospace);
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
 }
 
-button.activity-bar-row:hover,
-button.activity-bar-row:focus-visible {
-    background-color: #f4f4f4;
+.activity-treemap-cell {
+    cursor: pointer;
+    outline: none;
+    transition: opacity 0.15s ease;
+}
+
+.activity-treemap-cell:focus-visible rect,
+.activity-treemap-cell:focus-visible {
     outline: none;
 }
 
-button.activity-bar-row:active {
-    background-color: #ebebeb;
+.activity-treemap-rect {
+    stroke: #ffffff;
+    stroke-width: 1.5;
+    fill: #d9d9d9;
 }
 
-.activity-bar-label {
+.activity-treemap-cell:hover .activity-treemap-rect,
+.activity-treemap-cell:focus-visible .activity-treemap-rect {
+    fill: #b3b3b3;
+}
+
+.activity-treemap-cell:active .activity-treemap-rect {
+    fill: #8c8c8c;
+}
+
+.activity-treemap-rank-1 .activity-treemap-rect { fill: #000000; }
+.activity-treemap-rank-2 .activity-treemap-rect { fill: #3d3d3d; }
+.activity-treemap-rank-3 .activity-treemap-rect { fill: #595959; }
+.activity-treemap-rank-4 .activity-treemap-rect { fill: #737373; }
+.activity-treemap-rank-5 .activity-treemap-rect { fill: #8c8c8c; }
+.activity-treemap-rank-6 .activity-treemap-rect { fill: #a6a6a6; }
+.activity-treemap-rank-7 .activity-treemap-rect { fill: #b3b3b3; }
+.activity-treemap-rank-8 .activity-treemap-rect { fill: #bfbfbf; }
+.activity-treemap-rank-9 .activity-treemap-rect { fill: #cccccc; }
+.activity-treemap-rank-10 .activity-treemap-rect { fill: #d9d9d9; }
+.activity-treemap-rank-11 .activity-treemap-rect { fill: #e5e5e5; }
+
+.activity-treemap-cell:hover .activity-treemap-rect,
+.activity-treemap-cell:focus-visible .activity-treemap-rect {
+    fill: var(--activity-treemap-hover, #00979D);
+}
+
+.activity-treemap-label {
+    font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    fill: #ffffff;
+    pointer-events: none;
 }
 
-.activity-bar-track {
-    height: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    position: relative;
-    min-width: 0;
-}
-
-.activity-bar-fill {
-    height: 100%;
-    background-color: black;
-    transition: width 0.4s ease;
-}
-
-.activity-bar-fill-new {
-    background-color: var(--activity-new-color, #00979D);
-}
-
-.activity-bar-fill-stale {
-    background-color: var(--activity-stale-color, #b3b3b3);
-}
-
-.activity-bar-count {
-    color: #666;
-    font-variant-numeric: tabular-nums;
-    font-size: 10px;
-    text-align: right;
-    min-width: 32px;
-}
+.activity-treemap-rank-1 .activity-treemap-label,
+.activity-treemap-rank-2 .activity-treemap-label,
+.activity-treemap-rank-3 .activity-treemap-label { fill: #ffffff; }
+.activity-treemap-rank-6 .activity-treemap-label,
+.activity-treemap-rank-7 .activity-treemap-label,
+.activity-treemap-rank-8 .activity-treemap-label,
+.activity-treemap-rank-9 .activity-treemap-label,
+.activity-treemap-rank-10 .activity-treemap-label,
+.activity-treemap-rank-11 .activity-treemap-label { fill: #333333; }
 
 .activity-legend {
     display: flex;
@@ -576,8 +579,8 @@ button.activity-legend-item {
     .activity-grid {
         grid-template-columns: 1fr;
     }
-    .activity-bar-row {
-        grid-template-columns: minmax(70px, 40%) 1fr auto;
+    .activity-treemap {
+        height: 220px;
     }
     .activity-filter-banner {
         flex-wrap: wrap;

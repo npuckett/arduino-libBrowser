@@ -260,7 +260,9 @@
                         <span class="activity-panel-title">Categories</span>
                         <span class="activity-panel-meta" id="activityCategoryMeta"></span>
                     </div>
-                    <div class="activity-bars-list" id="activityCategoryBars"></div>
+                    <div class="activity-bars-list" id="activityCategoryBars">
+                        <svg id="activityCategoryTreemap" class="activity-treemap" viewBox="0 0 300 180" preserveAspectRatio="xMidYMid meet" aria-label="Top library categories by share. Click a cell to filter."></svg>
+                    </div>
                 </div>
             </div>
             </div>
@@ -2154,65 +2156,93 @@
         function renderCategoryPanel(activity) {
             const panel = el('activityCategoryPanel');
             const list = el('activityCategoryBars');
+            const svg = el('activityCategoryTreemap');
             const meta = el('activityCategoryMeta');
-            if (!panel || !list || !meta) return;
+            if (!panel || !list || !meta || !svg) return;
             if (!Array.isArray(activity.categories_top) || activity.categories_top.length === 0) {
                 panel.hidden = true;
                 return;
             }
             panel.hidden = false;
-            const slices = activity.categories_top;
-            clearChildren(list);
 
-            const max = slices.reduce((m, s) => Math.max(m, s.count || 0), 0);
-            if (max <= 0) {
+            // Exclude the "Other categories" rollup — the treemap represents
+            // the named top categories, with cell area proportional to share.
+            const slices = activity.categories_top.filter(s => s && s.category !== 'Other categories');
+            clearChildren(svg);
+
+            const helpers = (typeof window !== 'undefined') ? window.__activityHelpers : null;
+            const totalCount = slices.reduce((acc, s) => acc + (s.count || 0), 0);
+
+            if (totalCount <= 0 || slices.length === 0 || !helpers || typeof helpers.categoryTreemapLayout !== 'function') {
                 const empty = document.createElement('div');
                 empty.className = 'activity-empty';
                 empty.textContent = 'No category data available.';
                 list.appendChild(empty);
-                meta.textContent = `${slices.length} slices`;
+                meta.textContent = `${activity.categories_top.length} slices`;
                 return;
             }
 
-            for (const slice of slices) {
-                const isRollup = slice.category === 'Other categories';
-                const tag = isRollup ? 'div' : 'button';
-                const row = document.createElement(tag);
-                row.className = 'activity-bar-row';
-                if (!isRollup && typeof filterByCategory === 'function') {
-                    row.type = 'button';
-                    row.setAttribute('data-category-key', slice.category);
-                    row.setAttribute('aria-label', `Filter by ${slice.category} (${slice.count} libraries)`);
-                    row.addEventListener('click', () => {
-                        filterByCategory(slice.category);
+            const BOX_W = 300;
+            const BOX_H = 180;
+            const cells = helpers.categoryTreemapLayout(slices, BOX_W, BOX_H);
+
+            cells.forEach((cell, idx) => {
+                const g = svgEl('g', {
+                    class: 'activity-treemap-cell',
+                    'data-category-key': cell.key,
+                    tabindex: '0',
+                    role: 'button',
+                    'aria-label': `Filter by ${cell.key} (${cell.value.toLocaleString()} libraries). Activate to filter.`,
+                });
+                const count = cell.value || 0;
+                const sharePct = totalCount > 0 ? Math.round((count / totalCount) * 100) : 0;
+
+                const rect = svgEl('rect', {
+                    x: cell.x.toFixed(2),
+                    y: cell.y.toFixed(2),
+                    width: cell.width.toFixed(2),
+                    height: cell.height.toFixed(2),
+                    class: `activity-treemap-rect activity-treemap-rank-${idx + 1}`,
+                });
+                const title = svgEl('title');
+                title.textContent = `${cell.key} — ${count.toLocaleString()} libraries (${sharePct}%)`;
+                rect.appendChild(title);
+                g.appendChild(rect);
+
+                const label = svgEl('text', {
+                    x: (cell.x + 6).toFixed(2),
+                    y: (cell.y + 14).toFixed(2),
+                    class: 'activity-treemap-label',
+                    'data-rank': String(idx + 1),
+                });
+                // Only render the label when there's room for it. SVG
+                // <text> doesn't get text-overflow from CSS so we pick a
+                // conservative per-cell truncation (~7px monospace chars),
+                // and skip the label entirely on tiny cells to avoid
+                // overflowing into neighbours.
+                const labelChars = Math.max(2, Math.floor((cell.width - 12) / 7));
+                if (cell.width >= 32 && cell.height >= 18 && labelChars >= 2) {
+                    label.textContent = cell.key.length > labelChars
+                        ? cell.key.slice(0, Math.max(1, labelChars - 1)) + '…'
+                        : cell.key;
+                    g.appendChild(label);
+                }
+
+                if (typeof filterByCategory === 'function') {
+                    g.addEventListener('click', () => filterByCategory(cell.key));
+                    g.addEventListener('keydown', (ev) => {
+                        if (ev.key === 'Enter' || ev.key === ' ') {
+                            ev.preventDefault();
+                            filterByCategory(cell.key);
+                        }
                     });
                 }
 
-                const label = document.createElement('div');
-                label.className = 'activity-bar-label';
-                label.textContent = slice.category;
-                row.appendChild(label);
+                svg.appendChild(g);
+            });
 
-                const track = document.createElement('div');
-                track.className = 'activity-bar-track';
-                const fill = document.createElement('div');
-                fill.className = 'activity-bar-fill';
-                const widthPct = Math.max(2, (slice.count / max) * 100);
-                fill.style.width = widthPct + '%';
-                track.appendChild(fill);
-                row.appendChild(track);
-
-                const count = document.createElement('div');
-                count.className = 'activity-bar-count';
-                count.textContent = (slice.count || 0).toLocaleString();
-                row.appendChild(count);
-
-                list.appendChild(row);
-            }
-
-            const total = slices.reduce((acc, s) => acc + (s.count || 0), 0);
-            const totalLibraries = activity.total_libraries || total;
-            meta.textContent = `${slices.length} top • ${totalLibraries.toLocaleString()} libraries`;
+            const totalLibraries = activity.total_libraries || totalCount;
+            meta.textContent = `${cells.length} top • ${totalLibraries.toLocaleString()} libraries`;
         }
 
         async function renderActivitySection() {

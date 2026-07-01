@@ -103,6 +103,7 @@ export async function enrichWithGithub(
   }
 
   let attempt = 0;
+  // eslint-disable-next-line no-constant-condition
   while (true) {
     attempt += 1;
     metrics.apiCalls += 1;

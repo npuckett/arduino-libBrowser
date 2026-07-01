@@ -15,7 +15,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:update": "playwright test --update-snapshots",
-    "lint": "eslint pipeline/ tests/ --ext .ts",
+    "lint": "eslint pipeline/ scripts/ --ext .ts",
     "typecheck": "tsc --noEmit"
   },
   "engines": {

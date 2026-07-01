@@ -6,7 +6,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
   workers: 1,
-  reporter: process.env.CI ? ['list'] : 'list',
+  reporter: 'list',
   outputDir: 'tests/e2e/test-results',
   timeout: 30000,
   expect: {

@@ -496,7 +496,6 @@ async function runEnrich(opts: CliOptions, logger: Logger): Promise<void> {
 async function runStats(opts: CliOptions, logger: Logger): Promise<void> {
   logger.info('stats: loading libraries');
   const libraries = await loadLibrariesOrFail(logger);
-  const state = await loadState(STATE_PATH);
 
   const trendingScores: Record<string, number> = {};
   for (const lib of libraries) {

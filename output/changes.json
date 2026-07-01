@@ -1,6 +1,241 @@
 {
-  "since": "2026-07-01T19:31:12.747Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-01T20:32:34.966Z",
+  "new_libraries": [
+    {
+      "repository_name": "dunknowcoding/NiusCam",
+      "repository_url": "https://github.com/dunknowcoding/NiusCam",
+      "name": "NiusCam",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-01T20:32:34.966Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T20:32:34.966Z",
+      "last_seen_sha": "3bdf473a8804",
+      "author": "dunknowcoding",
+      "maintainer": "dunknowcoding",
+      "sentence": "Typed camera capture, control, storage, and streaming for ESP32 camera modules as AI Thinker, XIAO S3 Sense, ESP32-S3-Cam.",
+      "paragraph": "Provides verified board profiles, safe frame ownership, capability-aware sensor controls, microSD storage, HTTP snapshots and MJPEG, CRC-protected UDP framing, diagnostics, recovery, and configurable performance profiles on top of Espressif's bundled camera driver.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusCam-0.1.0.zip",
+      "size": 65797,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T17:50:06Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "GyverLibs/GyverPing",
+        "repository_url": "https://github.com/GyverLibs/GyverPing",
+        "name": "GyverPing",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-01-02T21:12:22Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-01-02T21:12:22Z",
+        "last_seen_sha": "463a3d627629",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Library for measuring distance with HC-SR04",
+        "paragraph": "Library for measuring distance with HC-SR04",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverPing-1.0.2.zip",
+        "size": 18209,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T17:57:52Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "GyverLibs/GyverSegment",
+        "repository_url": "https://github.com/GyverLibs/GyverSegment",
+        "name": "GyverSegment",
+        "version": "1.4.14",
+        "version_history": [
+          {
+            "version": "1.4.13",
+            "seen_at": "2026-06-03T08:52:13Z"
+          },
+          {
+            "version": "1.4.14",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-03T08:52:13Z",
+        "last_seen_sha": "6bb97ae596e8",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Powerful library for controlling 7-segment indicators",
+        "paragraph": "Char processor, running string, visual effects, supports TM1637, HC595, MAX7219, etc.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "GyverIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverSegment-1.4.14.zip",
+        "size": 136150,
+        "previous_version": "1.4.13",
+        "github_stars": 26,
+        "github_forks": 6,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T17:58:11Z"
+      },
+      "old_version": "1.4.13",
+      "new_version": "1.4.14"
+    },
+    {
+      "library": {
+        "repository_name": "GyverLibs/Looper",
+        "repository_url": "https://github.com/GyverLibs/Looper",
+        "name": "Looper",
+        "version": "1.2.2",
+        "version_history": [
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-06-03T08:51:37Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-03T08:51:37Z",
+        "last_seen_sha": "663c67c9d65e",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Simple task, thread and event manager for Arduino",
+        "paragraph": "Simple task, thread and event manager for Arduino",
+        "category": "Uncategorized",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Looper-1.2.2.zip",
+        "size": 59859,
+        "previous_version": "1.2.1",
+        "github_stars": 28,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T17:58:45Z"
+      },
+      "old_version": "1.2.1",
+      "new_version": "1.2.2"
+    },
+    {
+      "library": {
+        "repository_name": "GyverLibs/pgm_utils",
+        "repository_url": "https://github.com/GyverLibs/pgm_utils",
+        "name": "pgm_utils",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2025-07-21T16:15:33Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:15:33Z",
+        "last_seen_sha": "c2103aa1eb05",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Wrappers and helpers for Arduino PROGMEM functions",
+        "paragraph": "Wrappers and helpers for Arduino PROGMEM functions",
+        "category": "Data Storage",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "FOR_MACRO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/pgm_utils-1.0.5.zip",
+        "size": 12368,
+        "previous_version": "1.0.4",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T17:59:17Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "1.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "GyverLibs/SoftServo",
+        "repository_url": "https://github.com/GyverLibs/SoftServo",
+        "name": "SoftServo",
+        "version": "2.0.2",
+        "version_history": [
+          {
+            "version": "1.2",
+            "seen_at": "2025-07-21T16:15:49Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:15:49Z",
+        "last_seen_sha": "048dc2a73951",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Library for software servo motor control",
+        "paragraph": "Library for software servo motor control",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "GyverIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/SoftServo-2.0.2.zip",
+        "size": 10175,
+        "previous_version": "2.0.0",
+        "github_stars": 13,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T18:00:26Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.2"
+    }
+  ],
   "removed_libraries": []
 }

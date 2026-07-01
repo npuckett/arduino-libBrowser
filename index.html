@@ -2447,9 +2447,36 @@
             return `${cardCallNumber(lib)}<div class="card-rule" aria-hidden="true"></div>`;
         }
 
+        // Render the tiny 90-day version-history sparkline for one library.
+        // Reads the boolean array exposed by the foundation helper (see
+        // window.__activityHelpers.getLibrarySparklinePoints) and emits an
+        // inline SVG with one 1px-wide <rect> per day. Days with a published
+        // version show a taller teal tick; idle days show a faint grey stub.
+        // The native <title> element provides the accessible tooltip.
+        function cardSpark(lib) {
+            const helpers = (typeof window !== 'undefined') ? window.__activityHelpers : null;
+            const points = (helpers && typeof helpers.getLibrarySparklinePoints === 'function')
+                ? helpers.getLibrarySparklinePoints(lib)
+                : new Array(90).fill(false);
+            const N = points.length || 90;
+            let ticks = '';
+            let count = 0;
+            for (let i = 0; i < N; i++) {
+                if (points[i]) {
+                    ticks += `<rect class="tick-on" x="${i}" y="2" width="1" height="10"></rect>`;
+                    count++;
+                } else {
+                    ticks += `<rect class="tick-off" x="${i}" y="10" width="1" height="4"></rect>`;
+                }
+            }
+            const tip = `${count} versions in last ${N} days`;
+            return `<svg class="card-spark" viewBox="0 0 ${N} 14" preserveAspectRatio="none" role="img" aria-label="${tip}"><title>${tip}</title>${ticks}</svg>`;
+        }
+
         // Create a library card HTML (main grid view)
         function createLibraryCard(lib) {
             return `<button type="button" class="library-card" data-repo-name="${escapeHtml(lib.repository_name)}" onclick="openLibraryDetail('${escapeHtml(lib.repository_name)}')">
+                ${cardSpark(lib)}
                 ${cardHeader(lib)}
                 <div class="library-name">${escapeHtml(lib.name || '')}</div>
                 ${cardByStatement(lib)}

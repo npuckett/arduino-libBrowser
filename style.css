@@ -431,6 +431,35 @@ a:hover {
     background: #fff;
 }
 
+/* Tiny 90-day version-history sparkline rendered as the first flex item
+   of every .library-card. One 1px-wide <rect> per day; idle days render
+   as a faint grey stub, days with a published version render as a taller
+   teal tick. Sits inline above the call-number row so it never collides
+   with the absolute-positioned .pick-badge in the top-right corner. */
+.library-card .card-spark {
+    display: block;
+    width: 90px;
+    height: 14px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+.library-card .card-spark .tick-on {
+    fill: var(--activity-new-color, #00979D);
+}
+
+.library-card .card-spark .tick-off {
+    fill: var(--activity-stale-color, #b3b3b3);
+}
+
+.library-card:hover .card-spark .tick-on {
+    fill: #fff;
+}
+
+.library-card:hover .card-spark .tick-off {
+    fill: #555;
+}
+
 /* Title — the visual anchor of the card. */
 .library-name {
     font-weight: bold;

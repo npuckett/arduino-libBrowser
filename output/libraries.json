@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-01T21:30:09.197Z",
+  "enhanced_at": "2026-07-01T22:26:25.140Z",
   "total_libraries": 9617,
-  "index_etag": "W/\"655f0727214381c1137fb249301d8e85\"",
-  "index_last_modified": "Wed, 01 Jul 2026 21:29:11 GMT",
+  "index_etag": "W/\"2d1a60025017f38bce23a850fc64eb62\"",
+  "index_last_modified": "Wed, 01 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -106907,7 +106907,7 @@
       "repository_name": "1e1/Arduino-FastTimer",
       "repository_url": "https://github.com/1e1/Arduino-FastTimer",
       "name": "FastTimer",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "2.0.0",
@@ -106916,11 +106916,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-07-01T22:26:25.010Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:37:19Z",
-      "last_seen_sha": "66f455560dcc",
+      "last_seen_sha": "5e431b4eb33a",
       "author": "1e1",
       "maintainer": "1e1 2.71828183e0+fastTimer@gmail.com",
       "sentence": "Arduino Library for managing time section, can be extended for requesting Unix/RFC3339 timestamp by NTP",
@@ -106929,9 +106933,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/1e1/FastTimer-3.0.0.zip",
-      "size": 11620,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/1e1/FastTimer-3.1.0.zip",
+      "size": 19274,
+      "previous_version": "3.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -121360,7 +121364,7 @@
       "repository_name": "GyverLibs/GyverMAX7219",
       "repository_url": "https://github.com/GyverLibs/GyverMAX7219",
       "name": "GyverMAX7219",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "version_history": [
         {
           "version": "1.5",
@@ -121369,11 +121373,15 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.5.1",
+          "seen_at": "2026-07-01T22:26:25.010Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:15:42Z",
-      "last_seen_sha": "1dadaebe63ce",
+      "last_seen_sha": "727d540e8b32",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Fast and light MAX7219 matrix library",
@@ -121385,9 +121393,9 @@
       "depends": [
         "GyverGFX"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMAX7219-1.5.0.zip",
-      "size": 249600,
-      "previous_version": "1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMAX7219-1.5.1.zip",
+      "size": 250246,
+      "previous_version": "1.5.0",
       "github_stars": 25,
       "github_forks": 2,
       "github_language": "C++",
@@ -135248,16 +135256,20 @@
       "repository_name": "gitlab.com/iridium/9604_launch_pad/arduino_library",
       "repository_url": "https://gitlab.com/iridium/9604_launch_pad/arduino_library",
       "name": "Iridium9604LaunchPad",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "2.0.6",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.7",
+          "seen_at": "2026-07-01T22:26:25.010Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "30989d32cd3e",
+      "last_seen_sha": "69eea777b8c4",
       "author": "iridium.com",
       "maintainer": "iridium.com",
       "sentence": "IoT from anywhere on Earth! Pair with an Iridium 9604 Launch Pad for seamless global connectivity and real-time data access, no matter how remote your location.",
@@ -135271,23 +135283,28 @@
         "Arduino_BQ24195",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9604_launch_pad/Iridium9604LaunchPad-2.0.6.zip",
-      "size": 207079
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9604_launch_pad/Iridium9604LaunchPad-2.0.7.zip",
+      "size": 206832,
+      "previous_version": "2.0.6"
     },
     {
       "repository_name": "gitlab.com/iridium/9704_launch_pad/arduino_library",
       "repository_url": "https://gitlab.com/iridium/9704_launch_pad/arduino_library",
       "name": "Iridium9704LaunchPad",
-      "version": "2.0.5",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "2.0.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.7",
+          "seen_at": "2026-07-01T22:26:25.010Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "641c8bc9766b",
+      "last_seen_sha": "55a11872626a",
       "author": "iridium.com",
       "maintainer": "iridium.com",
       "sentence": "IoT from anywhere on Earth! Pair with an Iridium 9704 Launch Pad for seamless global connectivity and real-time data access, no matter how remote your location.",
@@ -135301,8 +135318,9 @@
         "Arduino_BQ24195",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9704_launch_pad/Iridium9704LaunchPad-2.0.5.zip",
-      "size": 222128
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9704_launch_pad/Iridium9704LaunchPad-2.0.7.zip",
+      "size": 221891,
+      "previous_version": "2.0.5"
     },
     {
       "repository_name": "andrewhe-princeton/Iridium-GPP",
@@ -224928,7 +224946,7 @@
       "repository_name": "GyverLibs/rtc_utils",
       "repository_url": "https://github.com/GyverLibs/rtc_utils",
       "name": "rtc_utils",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.3",
@@ -224937,11 +224955,15 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-07-01T22:26:25.010Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:15:33Z",
-      "last_seen_sha": "4ea150669592",
+      "last_seen_sha": "2b9e69c0d232",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Wrapper for esp8266 rtc functions",
@@ -224950,9 +224972,9 @@
       "architectures": [
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/rtc_utils-1.0.4.zip",
-      "size": 8861,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/rtc_utils-1.0.5.zip",
+      "size": 9102,
+      "previous_version": "1.0.4",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

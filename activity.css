@@ -4,6 +4,13 @@
    with `.activity-` so the parallel UI edits cannot collide.
    ========================================================================= */
 
+:root {
+    --activity-new-color: #00979D;
+    --activity-updated-color: #000000;
+    --activity-stale-color: #b3b3b3;
+    --activity-spark-bg: #f4f4f4;
+}
+
 .activity-section {
     margin: 40px 0;
 }
@@ -207,7 +214,11 @@ button.activity-bar-row:active {
 }
 
 .activity-bar-fill-new {
-    background-color: #00979D;
+    background-color: var(--activity-new-color, #00979D);
+}
+
+.activity-bar-fill-stale {
+    background-color: var(--activity-stale-color, #b3b3b3);
 }
 
 .activity-bar-count {
@@ -308,13 +319,18 @@ button.activity-legend-item {
 }
 
 .activity-legend-swatch-new {
-    background-color: #00979D;
-    border-color: #00979D;
+    background-color: var(--activity-new-color, #00979D);
+    border-color: var(--activity-new-color, #00979D);
 }
 
 .activity-legend-swatch-updated {
-    background-color: black;
-    border-color: black;
+    background-color: var(--activity-updated-color, #000000);
+    border-color: var(--activity-updated-color, #000000);
+}
+
+.activity-legend-swatch-stale {
+    background-color: var(--activity-stale-color, #b3b3b3);
+    border-color: var(--activity-stale-color, #b3b3b3);
 }
 
 .activity-empty {

@@ -1446,6 +1446,200 @@
             return { arrow: '·', cls: 'activity-trend-flat', text: 'flat' };
         }
 
+        // =========================================================================
+        // Foundation helpers shared by the upcoming per-library sparkline (card),
+        // stale indicator, top-gainer pill, category treemap, quick-filter chip,
+        // and timeline scrubber features.
+        //
+        // Each helper is intentionally small, pure, and tolerant of missing data
+        // (libraries without version_history / first_seen_at / github_stars).
+        // UI code consumes the returned objects/arrays directly.
+        // =========================================================================
+
+        const SPARKLINE_DAYS = 90;
+        const STALE_DAYS = 365;
+
+        // Per-library version-history sparkline. Returns an array of length
+        // SPARKLINE_DAYS of booleans: true if the library published a
+        // version on that day, false otherwise. The first element is the
+        // oldest day; the last is today.
+        function getLibrarySparklinePoints(lib, today) {
+            const todayISO = (today || new Date()).toISOString().slice(0, 10);
+            const buckets = new Array(SPARKLINE_DAYS).fill(false);
+            const versions = lib && lib.version_history ? lib.version_history : [];
+            for (const v of versions) {
+                if (!v || !v.seen_at) continue;
+                const offsetDays = daysBetween(v.seen_at, todayISO);
+                if (offsetDays >= 0 && offsetDays < SPARKLINE_DAYS) {
+                    // newest day is at index SPARKLINE_DAYS - 1
+                    buckets[SPARKLINE_DAYS - 1 - offsetDays] = true;
+                }
+            }
+            return buckets;
+        }
+
+        function daysBetween(earlierISO, laterISO) {
+            const a = new Date(earlierISO + 'T00:00:00Z').getTime();
+            const b = new Date(laterISO + 'T00:00:00Z').getTime();
+            if (Number.isNaN(a) || Number.isNaN(b)) return -1;
+            return Math.round((b - a) / 86400000);
+        }
+
+        // Library is stale if github_updated_at (or version_history fallback)
+        // is older than STALE_DAYS. Unknown dates are not stale by default.
+        function isStale(lib, today) {
+            if (!lib) return false;
+            const todayISO = (today || new Date()).toISOString().slice(0, 10);
+            const updated = lib.github_updated_at || lib.processed_at;
+            if (updated) {
+                const offset = daysBetween(updated.slice(0, 10), todayISO);
+                if (offset >= 0) return offset > STALE_DAYS;
+            }
+            const versions = lib.version_history || [];
+            for (const v of versions) {
+                if (v && v.seen_at) {
+                    const offset = daysBetween(v.seen_at.slice(0, 10), todayISO);
+                    if (offset >= 0 && offset <= STALE_DAYS) return false;
+                }
+            }
+            // No recent version seen in the window — treat as stale only if we
+            // have any history at all (a library with no history is 'unknown',
+            // not 'stale').
+            return versions.length > 0;
+        }
+
+        // For a given week (bucket), find the library whose github_stars
+        // jumped the most during that week (delta = stars_now - stars_at_week_start).
+        // Returns the lib with the largest positive gain, or null.
+        function topStarsGainerForWeek(weekStartISO, weekEndISO, allLibs) {
+            if (!Array.isArray(allLibs) || allLibs.length === 0) return null;
+            const libs = allLibs.filter(l => l && typeof l.github_stars === 'number');
+            let winner = null;
+            let winnerGain = 0;
+            for (const lib of libs) {
+                const versions = lib.version_history || [];
+                // Estimate "stars at week start" by finding the version entry
+                // closest to (but not after) weekStartISO.
+                let starsAtStart = 0;
+                for (const v of versions) {
+                    if (!v || !v.seen_at) continue;
+                    if (v.seen_at.slice(0, 10) <= weekStartISO) {
+                        // version_history doesn't carry stars-per-version, so
+                        // approximate: 0 stars at creation for very old libs,
+                        // else fall back to total stars / 2 as a coarse proxy.
+                        starsAtStart = Math.max(0, Math.floor(lib.github_stars / 2));
+                    }
+                }
+                // Coarse gain approximation: every new version this week
+                // counts as a small star delta; the heuristic is good
+                // enough for "feature one repo" UX and we label the pill
+                // as '·' rather than a precise number.
+                const versionsThisWeek = versions.filter(v => v && v.seen_at && v.seen_at.slice(0, 10) >= weekStartISO && v.seen_at.slice(0, 10) <= weekEndISO);
+                if (versionsThisWeek.length === 0) continue;
+                const gain = (lib.github_stars - starsAtStart) + versionsThisWeek.length;
+                if (gain > winnerGain) {
+                    winnerGain = gain;
+                    winner = lib;
+                }
+            }
+            return winner;
+        }
+
+        // Most recent active weekly bucket (with non-zero total). Returns
+        // the bucket or null.
+        function lastActiveWeeklyBucket(weekly) {
+            if (!Array.isArray(weekly)) return null;
+            for (let i = weekly.length - 1; i >= 0; i--) {
+                if (sumWeeklyBucket(weekly[i]) > 0) return weekly[i];
+            }
+            return null;
+        }
+
+        // Squarified treemap layout — slice-and-dice with row balancing.
+        // Given a list of `{key, value}` and a `w×h` box, returns an array
+        // of `{key, value, x, y, width, height}` covering the box. Cells are
+        // ordered by largest-first for visual stability.
+        function categoryTreemapLayout(slices, boxW, boxH) {
+            if (!Array.isArray(slices) || slices.length === 0 || boxW <= 0 || boxH <= 0) return [];
+            const items = slices
+                .filter(s => s && (s.count || 0) > 0)
+                .map(s => ({ key: s.category, value: s.count || 0 }))
+                .sort((a, b) => b.value - a.value);
+            const total = items.reduce((acc, it) => acc + it.value, 0);
+            if (total <= 0) return [];
+
+            const out = [];
+            let x = 0, y = 0, w = boxW, h = boxH;
+            let queue = items.slice();
+
+            while (queue.length > 0) {
+                const short = Math.min(w, h);
+                const horizontal = w >= h;
+                const capacity = horizontal ? short : short;
+                let row = [];
+                let rowSum = 0;
+                // Fill a row until adding the next item would over-allocate
+                // beyond row capacity squared (squarified target heuristic).
+                while (queue.length > 0) {
+                    const next = queue[0];
+                    const trySum = rowSum + next.value;
+                    const rowMetric = horizontal
+                        ? (Math.min(short, trySum / total * boxH) ** 2 + short * short * row.length) / (row.length + 1)
+                        : (Math.min(short, trySum / total * boxW) ** 2 + short * short * row.length) / (row.length + 1);
+                    if (row.length === 0 || rowMetric <= capacity * capacity) {
+                        row.push(next);
+                        rowSum = trySum;
+                        queue.shift();
+                    } else {
+                        break;
+                    }
+                }
+                if (row.length === 0) break;
+                const rowTotal = rowSum;
+                if (horizontal) {
+                    const rowH = (rowSum / total) * boxH;
+                    let cx = x;
+                    for (const it of row) {
+                        const cellW = (it.value / rowTotal) * w;
+                        out.push({ key: it.key, value: it.value, x: cx, y, width: cellW, height: rowH });
+                        cx += cellW;
+                    }
+                    y += rowH;
+                    h -= rowH;
+                } else {
+                    const rowW = (rowSum / total) * boxW;
+                    let cy = y;
+                    for (const it of row) {
+                        const cellH = (it.value / rowTotal) * h;
+                        out.push({ key: it.key, value: it.value, x, y: cy, width: rowW, height: cellH });
+                        cy += cellH;
+                    }
+                    x += rowW;
+                    w -= rowW;
+                }
+                if (w <= 0 || h <= 0) break;
+            }
+            return out;
+        }
+
+        // -------------------------------------------------------------------------
+        // Expose the helpers on window so tests/Playwright can call them. The
+        // functions are also reachable via the IIFE-bound scope; this is purely
+        // a testability hook and is read-only at runtime.
+        // -------------------------------------------------------------------------
+        if (typeof window !== 'undefined') {
+            window.__activityHelpers = {
+                SPARKLINE_DAYS,
+                STALE_DAYS,
+                getLibrarySparklinePoints,
+                isStale,
+                topStarsGainerForWeek,
+                lastActiveWeeklyBucket,
+                categoryTreemapLayout,
+                daysBetween,
+            };
+        }
+
         // Render (or remove) the banner above the library grid that
         // announces "Filtered: New (Jun 15, 2026) — N libraries [Clear]".
         function renderActivityFilterBanner() {

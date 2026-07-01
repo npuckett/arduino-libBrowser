@@ -1,6 +1,5 @@
 :root {
     --content-margin-left: 20px;
-    --card-cols: 3;
     --card-w: 380px;
     --card-gap: 18px;
 }
@@ -33,8 +32,6 @@ a:hover {
 }
 
 .container {
-    width: max-content;
-    max-width: 100%;
     padding: 10px var(--content-margin-left);
 }
 
@@ -303,13 +300,14 @@ a:hover {
 
 .library-grid {
     display: grid;
-    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
     gap: var(--card-gap);
     grid-auto-rows: 280px;
     justify-content: start;
-    width: 100%;
     /* Card width honors the catalog-card aesthetic: roomy enough for a real
-       type scale. Heights are matched by grid-auto-rows. */
+       type scale. Heights are matched by grid-auto-rows. minmax with 1fr
+       lets the card row fill the container width so the top section's right
+       edge stays aligned with the cards' right edge. */
 }
 
 /* Search grouping styles */
@@ -332,7 +330,7 @@ a:hover {
 
 .search-group-grid {
     display: grid;
-    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
     gap: var(--card-gap);
     grid-auto-rows: 280px;
     justify-content: start;
@@ -673,7 +671,6 @@ a:hover {
 @media (max-width: 768px) {
     :root {
         --content-margin-left: 10px;
-        --card-cols: 2;
         --card-w: 280px;
         --card-gap: 12px;
     }
@@ -984,7 +981,6 @@ a:hover {
 @media (max-width: 480px) {
     :root {
         --content-margin-left: 8px;
-        --card-cols: 1;
         --card-w: 220px;
         --card-gap: 8px;
     }
@@ -1131,7 +1127,7 @@ a:hover {
 
 .curated-grid {
     display: grid;
-    grid-template-columns: repeat(var(--card-cols), var(--card-w));
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
     gap: var(--card-gap);
 }
 

@@ -20,14 +20,18 @@ test.describe('Home page', () => {
     await expect(page.locator('#computedRow')).toBeVisible();
   });
 
-  test('shows editor pick cards with teal spine accent', async ({ page }) => {
+  test('shows editor pick cards with EDITOR badge in corner', async ({ page }) => {
     const editorCards = page.locator('.library-card.pick-editor');
     await expect(editorCards.first()).toBeVisible();
-    const borderLeft = await editorCards.first().evaluate((el) =>
-      getComputedStyle(el).borderLeftColor
+    // The corner badge replaces the old left-edge teal stripe.
+    const badge = editorCards.first().locator('.pick-badge');
+    await expect(badge).toBeVisible();
+    await expect(badge).toContainText(/EDITOR/i);
+    // The pick-dot next to the call number is teal #00979D = rgb(0, 151, 157)
+    const dotBg = await editorCards.first().locator('.pick-dot').evaluate((el) =>
+      getComputedStyle(el).backgroundColor
     );
-    // teal #00979D = rgb(0, 151, 157)
-    expect(borderLeft).toBe('rgb(0, 151, 157)');
+    expect(dotBg).toBe('rgb(0, 151, 157)');
   });
 
   test('shows new + updated badges in computed row', async ({ page }) => {
@@ -64,10 +68,12 @@ test.describe('Sort modes', () => {
     const cards = page.locator('#libraryGrid .library-card');
     const count = await cards.count();
     expect(count).toBeGreaterThan(0);
-    // Verify all visible cards have < 20 stars
+    // Verify all visible cards have < 20 stars. The redesigned card puts
+    // the star count inside .meta-row > .meta-stars, and uses comma
+    // formatting for >=1000 — strip commas before parsing.
     const stars = await cards.evaluateAll((els) =>
       els.map((el) => {
-        const text = el.querySelector('.library-stars')?.textContent ?? '';
+        const text = (el.querySelector('.meta-row .meta-stars')?.textContent ?? '').replace(/,/g, '');
         const m = text.match(/(\d+)/);
         return m && m[1] ? parseInt(m[1], 10) : 0;
       })
@@ -85,7 +91,7 @@ test.describe('Sort modes', () => {
     expect(count).toBeGreaterThan(0);
     const stars = await cards.evaluateAll((els) =>
       els.map((el) => {
-        const text = el.querySelector('.library-stars')?.textContent ?? '';
+        const text = (el.querySelector('.meta-row .meta-stars')?.textContent ?? '').replace(/,/g, '');
         const m = text.match(/(\d+)/);
         return m && m[1] ? parseInt(m[1], 10) : 0;
       })
@@ -153,33 +159,40 @@ test.describe('Library card layout', () => {
   test('all cards in a row have the same height', async ({ page }) => {
     const firstRowCards = page.locator('#libraryGrid .library-card').first();
     const cardHeight = await firstRowCards.evaluate((el) => (el as HTMLElement).offsetHeight);
-    expect(cardHeight).toBeGreaterThanOrEqual(150);
-    expect(cardHeight).toBeLessThanOrEqual(220);
+    // The redesigned card is 280px on desktop (260px at <=1200px viewport).
+    expect(cardHeight).toBeGreaterThanOrEqual(200);
+    expect(cardHeight).toBeLessThanOrEqual(320);
   });
 
-  test('long-name library uses ellipsis truncation', async ({ page }) => {
+  test('long-name library truncates to 2 lines via line-clamp', async ({ page }) => {
     await page.fill('#searchInput', 'Mystery');
     await page.waitForTimeout(300);
     const card = page.locator('#libraryGrid .library-card').first();
     const nameEl = card.locator('.library-name');
     if (await nameEl.isVisible()) {
-      const overflow = await nameEl.evaluate((el) => {
+      const style = await nameEl.evaluate((el) => {
         const cs = getComputedStyle(el);
-        return { o: cs.overflow, w: cs.whiteSpace, e: cs.textOverflow };
+        return {
+          webkitLineClamp: cs.webkitLineClamp,
+          lineClamp: cs.lineClamp,
+          overflow: cs.overflow,
+        };
       });
-      expect(overflow.o).toBe('hidden');
-      expect(overflow.w).toBe('nowrap');
-      expect(overflow.e).toBe('ellipsis');
+      // -webkit-line-clamp: 2 is the truncation approach used by the new
+      // title. The old text-overflow:ellipsis path is no longer used
+      // because titles can wrap to 2 lines.
+      expect(style.webkitLineClamp).toBe('2');
+      expect(style.overflow).toBe('hidden');
     }
   });
 
-  test('long-author library uses ellipsis truncation', async ({ page }) => {
+  test('long-author by-statement uses ellipsis truncation', async ({ page }) => {
     await page.fill('#searchInput', 'Mystery');
     await page.waitForTimeout(300);
     const card = page.locator('#libraryGrid .library-card').first();
-    const authorEl = card.locator('.library-author');
-    if (await authorEl.isVisible()) {
-      const overflow = await authorEl.evaluate((el) => getComputedStyle(el).textOverflow);
+    const byStatement = card.locator('.by-statement');
+    if (await byStatement.isVisible()) {
+      const overflow = await byStatement.evaluate((el) => getComputedStyle(el).textOverflow);
       expect(overflow).toBe('ellipsis');
     }
   });
@@ -199,12 +212,13 @@ test.describe('Library card layout', () => {
     expect(cardFont).toBe(bodyFont);
   });
 
-  test('cards have enough room (height >= 200px, width >= 280px)', async ({ page }) => {
+  test('cards have enough room (height >= 240px, width >= 340px)', async ({ page }) => {
     const dims = await page.locator('#libraryGrid .library-card').first().evaluate(
       (el) => ({ w: (el as HTMLElement).offsetWidth, h: (el as HTMLElement).offsetHeight })
     );
-    expect(dims.h).toBeGreaterThanOrEqual(200);
-    expect(dims.w).toBeGreaterThanOrEqual(280);
+    // The redesigned catalog-card is 380x280 on desktop, 340x260 at <=1200px.
+    expect(dims.h).toBeGreaterThanOrEqual(240);
+    expect(dims.w).toBeGreaterThanOrEqual(340);
   });
 });
 

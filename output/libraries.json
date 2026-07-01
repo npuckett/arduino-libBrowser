@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-01T15:53:14.349Z",
+  "enhanced_at": "2026-07-01T16:45:34.281Z",
   "total_libraries": 9616,
-  "index_etag": "W/\"d03205ba74094b9616c03f499d3f5f10\"",
-  "index_last_modified": "Wed, 01 Jul 2026 15:29:11 GMT",
+  "index_etag": "W/\"b97f07c3196aaac038e29c5ad7e0cca3\"",
+  "index_last_modified": "Wed, 01 Jul 2026 16:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -89217,16 +89217,20 @@
       "repository_name": "GyverLibs/EncButton",
       "repository_url": "https://github.com/GyverLibs/EncButton",
       "name": "EncButton",
-      "version": "3.7.4",
+      "version": "3.7.5",
       "version_history": [
         {
           "version": "3.7.4",
           "seen_at": "2026-06-03T08:51:55Z"
+        },
+        {
+          "version": "3.7.5",
+          "seen_at": "2026-07-01T16:45:34.127Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T08:51:55Z",
-      "last_seen_sha": "e050f19887d1",
+      "last_seen_sha": "b3b09edb5c3d",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light and powerful library for button and encoder operation for Arduino",
@@ -89235,14 +89239,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 194,
-      "github_forks": 24,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:54:42Z",
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://github.com/GyverLibs/EncButton"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/EncButton-3.7.5.zip",
+      "size": 511171,
+      "previous_version": "3.7.4",
+      "github_stars": 194,
+      "github_forks": 24,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:54:42Z"
     },
     {
       "repository_name": "PaulStoffregen/Encoder",
@@ -120576,16 +120582,20 @@
       "repository_name": "GyverLibs/GyverBeeper",
       "repository_url": "https://github.com/GyverLibs/GyverBeeper",
       "name": "GyverBeeper",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2025-07-21T16:15:37Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-07-01T16:45:34.127Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:15:37Z",
-      "last_seen_sha": "61f9d207e544",
+      "last_seen_sha": "343929046c63",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Async tone generator with amount and time settings",
@@ -120594,29 +120604,35 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 6,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:55:37Z",
       "depends": [
         "GyverBlinker"
       ],
-      "download_url": "https://github.com/GyverLibs/GyverBeeper"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverBeeper-1.1.1.zip",
+      "size": 27495,
+      "previous_version": "1.1.0",
+      "github_stars": 6,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:55:37Z"
     },
     {
       "repository_name": "GyverLibs/GyverBlinker",
       "repository_url": "https://github.com/GyverLibs/GyverBlinker",
       "name": "GyverBlinker",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2025-07-21T16:15:37Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-01T16:45:34.127Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:15:37Z",
-      "last_seen_sha": "b8f61ace9d50",
+      "last_seen_sha": "72357088cd1c",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Async LED blinker and task count timer",
@@ -120625,11 +120641,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverBlinker-1.1.2.zip",
+      "size": 12013,
+      "previous_version": "1.1.1",
       "github_stars": 7,
       "github_forks": 3,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:55:41Z",
-      "download_url": "https://github.com/GyverLibs/GyverBlinker"
+      "github_updated_at": "2026-06-02T17:55:41Z"
     },
     {
       "repository_name": "GyverLibs/GyverBME280",
@@ -121406,32 +121424,38 @@
       "repository_name": "GyverLibs/GyverMIDI",
       "repository_url": "https://github.com/GyverLibs/GyverMIDI",
       "name": "GyverMIDI",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2026-02-04T07:31:26Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-07-01T16:45:34.127Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:31:26Z",
-      "last_seen_sha": "f7f0a33e8208",
+      "last_seen_sha": "7b0b3ba0121f",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "MIDI player",
       "paragraph": "MIDI player",
-      "category": "Signal",
+      "category": "Uncategorized",
       "architectures": [
         "*"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:57:27Z",
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://github.com/GyverLibs/GyverMIDI"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMIDI-2.0.1.zip",
+      "size": 13991,
+      "previous_version": "2.0.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:57:27Z"
     },
     {
       "repository_name": "GyverLibs/GyverMotor",
@@ -215645,16 +215669,20 @@
       "repository_name": "robiduck/Raphael",
       "repository_url": "https://github.com/robiduck/Raphael",
       "name": "Raphael",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-06-17T09:36:25Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-01T16:45:34.127Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-17T09:36:25Z",
-      "last_seen_sha": "d5f7ad220bfc",
+      "last_seen_sha": "5dea217fa4a5",
       "author": "robiduck",
       "maintainer": "robiduck",
       "sentence": "Raphael v1 Library",
@@ -215663,11 +215691,13 @@
       "architectures": [
         "avr"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/robiduck/Raphael-1.0.4.zip",
+      "size": 6692,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-17T09:01:56Z",
-      "download_url": "https://github.com/robiduck/Raphael"
+      "github_updated_at": "2026-06-17T09:01:56Z"
     },
     {
       "repository_name": "IdlanZafran/RapidBootWiFi",
@@ -303133,7 +303163,7 @@
     }
   ],
   "stats": {
-    "total_categories": 82,
+    "total_categories": 81,
     "total_architectures": 160,
     "with_github_metadata": 9289,
     "total_dependencies": 5142

@@ -1454,17 +1454,31 @@
         // uppercase, dot-separated. Catalog-card convention treats subjects
         // as a quiet line of metadata rather than clickable pill UI.
         function cardChips(lib, maxArchs = 3) {
+            const sep = '<span class="chip-dot" aria-hidden="true">•</span>';
             const parts = [];
             const category = (lib.category || 'Uncategorized').trim();
             if (category) parts.push(escapeHtml(category.toUpperCase()));
-            const archs = archsToArray(lib.architectures)
+
+            // Distinguish 'all platforms' from 'no architectures recorded'.
+            // libraries.json encodes universal compat as ["*"]; v1 data may
+            // also surface as ["*"] or be missing entirely. In both cases
+            // we surface a single 'ALL' chip so the row doesn't read as if
+            // we forgot to populate the field.
+            const rawArchs = archsToArray(lib.architectures)
                 .map(a => (a || '').trim())
-                .filter(a => a && a !== '*');
-            for (const a of archs.slice(0, maxArchs)) {
+                .filter(a => a);
+            const allPlatforms = rawArchs.length === 0
+                || (rawArchs.length === 1 && rawArchs[0] === '*');
+            const archs = allPlatforms ? [] : rawArchs.filter(a => a !== '*');
+
+            const visible = archs.slice(0, maxArchs);
+            for (const a of visible) {
                 parts.push(escapeHtml(a.toUpperCase()));
             }
-            const overflow = archs.length - maxArchs;
-            const sep = '<span class="chip-dot" aria-hidden="true">•</span>';
+            if (allPlatforms) {
+                parts.push('ALL');
+            }
+            const overflow = archs.length - visible.length;
             let html = parts.join(sep);
             if (overflow > 0) {
                 html += sep + `<span class="chip-more">+${overflow}</span>`;

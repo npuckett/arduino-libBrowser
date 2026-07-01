@@ -287,11 +287,12 @@ a:hover {
 
 .library-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-columns: repeat(auto-fill, 310px);
     gap: 15px;
-    grid-auto-rows: 180px;
+    grid-auto-rows: 210px;
     justify-content: start;
     margin-left: var(--content-margin-left);
+    /* DELETED: width: calc(100% - var(--content-margin-left) - var(--content-margin-right)) */
 }
 
 /* Search grouping styles */
@@ -314,9 +315,9 @@ a:hover {
 
 .search-group-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-columns: repeat(auto-fill, 310px);
     gap: 15px;
-    grid-auto-rows: 180px;
+    grid-auto-rows: 210px;
     justify-content: space-between;
     width: 100%;
 }
@@ -327,7 +328,11 @@ a:hover {
     background-color: white;
     cursor: pointer;
     transition: all 0.2s ease;
-    height: 180px;
+    height: 210px;
+    /* Cards are <button> elements; reset font so the body monospace applies */
+    font-family: 'Courier New', monospace;
+    color: black;
+    text-align: left;
     /* Book spine effect */
     border-left: 6px solid black;
     position: relative;
@@ -537,11 +542,15 @@ a:hover {
 /* Responsive adjustments */
 @media (max-width: 1200px) {
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 250px);
+        grid-template-columns: repeat(auto-fill, 280px);
     }
-    
+
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 250px);
+        grid-template-columns: repeat(auto-fill, 280px);
+    }
+
+    .curated-grid {
+        grid-template-columns: repeat(auto-fill, 280px);
     }
 }
 
@@ -551,12 +560,19 @@ a:hover {
     }
 
     .library-grid {
-        grid-template-columns: repeat(auto-fill, 220px);
+        grid-template-columns: repeat(auto-fill, 240px);
         gap: 10px;
+        grid-auto-rows: 220px;
     }
-    
+
     .search-group-grid {
-        grid-template-columns: repeat(auto-fill, 220px);
+        grid-template-columns: repeat(auto-fill, 240px);
+        gap: 10px;
+        grid-auto-rows: 220px;
+    }
+
+    .curated-grid {
+        grid-template-columns: repeat(auto-fill, 240px);
         gap: 10px;
     }
     
@@ -982,7 +998,7 @@ a:hover {
 
 .curated-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-columns: repeat(auto-fill, 310px);
     gap: 15px;
 }
 

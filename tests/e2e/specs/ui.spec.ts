@@ -183,6 +183,29 @@ test.describe('Library card layout', () => {
       expect(overflow).toBe('ellipsis');
     }
   });
+
+  test('cards inherit body monospace font (not browser sans-serif default)', async ({ page }) => {
+    // Regression test: cards are <button> elements, and browser UA stylesheets
+    // reset button font-family to a sans-serif system font. The cards must
+    // explicitly inherit the body monospace so the visual aesthetic stays
+    // consistent across the page.
+    const cardFont = await page.locator('#libraryGrid .library-card').first().evaluate(
+      (el) => getComputedStyle(el).fontFamily
+    );
+    const bodyFont = await page.locator('body').evaluate(
+      (el) => getComputedStyle(el).fontFamily
+    );
+    expect(cardFont.toLowerCase()).toContain('courier');
+    expect(cardFont).toBe(bodyFont);
+  });
+
+  test('cards have enough room (height >= 200px, width >= 280px)', async ({ page }) => {
+    const dims = await page.locator('#libraryGrid .library-card').first().evaluate(
+      (el) => ({ w: (el as HTMLElement).offsetWidth, h: (el as HTMLElement).offsetHeight })
+    );
+    expect(dims.h).toBeGreaterThanOrEqual(200);
+    expect(dims.w).toBeGreaterThanOrEqual(280);
+  });
 });
 
 test.describe('Modal', () => {

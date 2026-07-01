@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-06-30T22:42:55.971Z",
-  "total_libraries": 9611,
-  "index_etag": "W/\"b2836ad62606a28e0ca632a2bb0ddc2c\"",
-  "index_last_modified": "Tue, 30 Jun 2026 22:29:11 GMT",
+  "enhanced_at": "2026-07-01T11:48:48.840Z",
+  "total_libraries": 9614,
+  "index_etag": "W/\"a1f4842d49d4715476cbe7f77df7a160\"",
+  "index_last_modified": "Wed, 01 Jul 2026 11:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24961,19 +24961,55 @@
       "download_url": "https://github.com/ARAM-USA-Support/ARAM_FS_Stepper"
     },
     {
+      "repository_name": "ARAM-USA-Support/ARAM_Metal_Orchestra",
+      "repository_url": "https://github.com/ARAM-USA-Support/ARAM_Metal_Orchestra",
+      "name": "ARAM_Metal_Orchestra",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-01T11:48:44.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T11:48:44.907Z",
+      "last_seen_sha": "401860a0a24a",
+      "author": "A.R.A.M. - American Robotics Assisted Manufacturing",
+      "maintainer": "A.R.A.M. - American Robotics Assisted Manufacturing <support@aram-usa.com>",
+      "sentence": "Construct Instrument Using Toggle Actuators",
+      "paragraph": "This library is intended for use with ARAM Metal Orchestra Actuators. Add one or more actuators to your instrument and play notes, or connect to a MIDI Bluetooth server as shown in the example code to create a bluetooth capable MIDI instument. Please view the manual for information on usage.",
+      "category": "Device Control",
+      "architectures": [
+        "*s"
+      ],
+      "depends": [
+        "ARAM_Toggle_Actuator"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Metal_Orchestra-1.0.1.zip",
+      "size": 9088,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T02:56:58Z"
+    },
+    {
       "repository_name": "ARAM-USA-Support/ARAM_Toggle_Actuator",
       "repository_url": "https://github.com/ARAM-USA-Support/ARAM_Toggle_Actuator",
       "name": "ARAM_Toggle_Actuator",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T09:00:35Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T09:00:35Z",
-      "last_seen_sha": "fb911fb72e40",
+      "last_seen_sha": "a67e55e1bc6d",
       "author": "A.R.A.M. - American Robotics Assisted Manufacturing",
       "maintainer": "A.R.A.M. - American Robotics Assisted Manufacturing <support@aram-usa.com>",
       "sentence": "Driver for A.R.A.M. Toggle Actuators",
@@ -24982,10 +25018,12 @@
       "architectures": [
         "*s"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Toggle_Actuator-1.0.5.zip",
+      "size": 11687,
+      "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-29T20:58:20Z",
-      "download_url": "https://github.com/ARAM-USA-Support/ARAM_Toggle_Actuator"
+      "github_updated_at": "2026-06-29T20:58:20Z"
     },
     {
       "repository_name": "smartmeio/arancino-library",
@@ -34675,16 +34713,20 @@
       "repository_name": "GyverLibs/AsyncStream",
       "repository_url": "https://github.com/GyverLibs/AsyncStream",
       "name": "AsyncStream",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2025-10-07T07:37:01Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-10-07T07:37:01Z",
-      "last_seen_sha": "68e5a7403d82",
+      "last_seen_sha": "81c03c16db12",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Async read from Stream objects (Serial, etc)",
@@ -34693,11 +34735,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/AsyncStream-1.1.2.zip",
+      "size": 9819,
+      "previous_version": "1.1.1",
       "github_stars": 15,
       "github_forks": 4,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:53:40Z",
-      "download_url": "https://github.com/GyverLibs/AsyncStream"
+      "github_updated_at": "2026-06-02T17:53:40Z"
     },
     {
       "repository_name": "moinologics/AsyncTask",
@@ -44430,7 +44474,7 @@
       "repository_name": "bluerobotics/BlueRobotics_KellerLD_Library",
       "repository_url": "https://github.com/bluerobotics/BlueRobotics_KellerLD_Library",
       "name": "BlueRobotics Keller LD Library",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.2",
@@ -44439,11 +44483,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:09:47Z",
-      "last_seen_sha": "70dcd61165b1",
+      "last_seen_sha": "637cf6489952",
       "author": "BlueRobotics",
       "maintainer": "BlueRobotics <info@bluerobotics.com>",
       "sentence": "A simple and easy library for the Keller LD series pressure/depth sensors",
@@ -44452,8 +44500,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bluerobotics/BlueRobotics_Keller_LD_Library-1.1.2.zip",
-      "size": 7025,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bluerobotics/BlueRobotics_Keller_LD_Library-1.2.0.zip",
+      "size": 7356,
       "previous_version": "1.1.2",
       "github_stars": 10,
       "github_forks": 8,
@@ -85402,16 +85450,20 @@
       "repository_name": "GyverLibs/EEManager",
       "repository_url": "https://github.com/GyverLibs/EEManager",
       "name": "EEManager",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "2.0.1",
           "seen_at": "2026-06-03T08:51:48Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T08:51:48Z",
-      "last_seen_sha": "c0d01489baa2",
+      "last_seen_sha": "f2204144aadf",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple library for reducing EEPROM wear",
@@ -85420,11 +85472,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/EEManager-2.0.2.zip",
+      "size": 16539,
+      "previous_version": "2.0.1",
       "github_stars": 29,
       "github_forks": 5,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:54:38Z",
-      "download_url": "https://github.com/GyverLibs/EEManager"
+      "github_updated_at": "2026-06-02T17:54:38Z"
     },
     {
       "repository_name": "brianvarren/EEncoder",
@@ -96712,28 +96766,34 @@
       "repository_name": "tanakamasayuki/ESP32IRPulseKit",
       "repository_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
       "name": "ESP32IRPulseKit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.3",
           "seen_at": "2026-06-30T08:49:41Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:49:41Z",
-      "last_seen_sha": "c5b56e863503",
+      "last_seen_sha": "1db7aaf0f10f",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
-      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi).",
+      "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Fujitsu, Daikin, Toshiba, Samsung, Sharp).",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.4.zip",
+      "size": 173048,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-30T08:18:52Z",
-      "download_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit"
+      "github_updated_at": "2026-06-30T08:18:52Z"
     },
     {
       "repository_name": "MartinXBcn/ESP32Logger",
@@ -101394,6 +101454,35 @@
       "download_url": "https://github.com/s00500/ESPUI"
     },
     {
+      "repository_name": "tanakamasayuki/EspUsbDevice",
+      "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+      "name": "EspUsbDevice",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-01T11:48:44.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T11:48:44.907Z",
+      "last_seen_sha": "8ff9bc6f4ee8",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, and vendor-specific bulk/control APIs for ESP32 Arduino sketches.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.0.0.zip",
+      "size": 142359,
+      "github_stars": 5,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T10:04:34Z"
+    },
+    {
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
@@ -104342,6 +104431,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-06-11T17:47:39Z",
       "download_url": "https://github.com/ropg/ezTime"
+    },
+    {
+      "repository_name": "Dag0d/ezTime2",
+      "repository_url": "https://github.com/Dag0d/ezTime2",
+      "name": "ezTime2",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-01T11:48:44.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-01T11:48:44.907Z",
+      "last_seen_sha": "550bd2a66820",
+      "author": "Dag0d",
+      "maintainer": "Dag0d",
+      "sentence": "ezTime2 - pronounced \"Easy Time\" - is an Arduino time and date library with NTP sync, timezone lookups, formatted output, events, and millisecond precision.",
+      "paragraph": "See more on https://github.com/Dag0d/ezTime2",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dag0d/ezTime2-1.0.0.zip",
+      "size": 10533538,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T09:53:52Z"
     },
     {
       "repository_name": "MacManley/f1-24-udp",
@@ -107544,16 +107662,20 @@
       "repository_name": "GyverLibs/FileData",
       "repository_url": "https://github.com/GyverLibs/FileData",
       "name": "FileData",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.3",
           "seen_at": "2026-06-03T08:51:59Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T08:51:59Z",
-      "last_seen_sha": "6dc17f584ec7",
+      "last_seen_sha": "f7175ef16491",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple library for storing any data in file",
@@ -107563,11 +107685,13 @@
         "esp8266",
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/FileData-1.0.4.zip",
+      "size": 15059,
+      "previous_version": "1.0.3",
       "github_stars": 19,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:55:04Z",
-      "download_url": "https://github.com/GyverLibs/FileData"
+      "github_updated_at": "2026-06-02T17:55:04Z"
     },
     {
       "repository_name": "witnessmenow/file-fetcher-arduino",
@@ -108398,16 +108522,20 @@
       "repository_name": "mobizt/FirebaseClient",
       "repository_url": "https://github.com/mobizt/FirebaseClient",
       "name": "FirebaseClient",
-      "version": "2.2.10",
+      "version": "2.2.11",
       "version_history": [
         {
           "version": "2.2.10",
           "seen_at": "2026-06-30T08:53:26Z"
+        },
+        {
+          "version": "2.2.11",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:53:26Z",
-      "last_seen_sha": "bbda5f184267",
+      "last_seen_sha": "d8cbcfe7d8bb",
       "author": "Mobizt",
       "maintainer": "Mobizt <k_suwatchai@hotmail.com>",
       "sentence": "Async Firebase Client library for Arduino",
@@ -108430,13 +108558,15 @@
         "mbed_opta",
         "renesas_uno"
       ],
-      "github_stars": 272,
-      "github_forks": 28,
-      "github_updated_at": "2026-06-30T03:19:46Z",
       "depends": [
         "ESP_SSLClient"
       ],
-      "download_url": "https://github.com/mobizt/FirebaseClient"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mobizt/FirebaseClient-2.2.11.zip",
+      "size": 4951186,
+      "previous_version": "2.2.10",
+      "github_stars": 272,
+      "github_forks": 28,
+      "github_updated_at": "2026-06-30T03:19:46Z"
     },
     {
       "repository_name": "mobizt/FirebaseJson",
@@ -120973,16 +121103,20 @@
       "repository_name": "GyverLibs/GyverJoy",
       "repository_url": "https://github.com/GyverLibs/GyverJoy",
       "name": "GyverJoy",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-06-03T08:52:04Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T08:52:04Z",
-      "last_seen_sha": "9cedc1278690",
+      "last_seen_sha": "942bedad23ba",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for analog joystic Arduino",
@@ -120991,11 +121125,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverJoy-1.2.1.zip",
+      "size": 84785,
+      "previous_version": "1.2.0",
       "github_stars": 14,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:57:00Z",
-      "download_url": "https://github.com/GyverLibs/GyverJoy"
+      "github_updated_at": "2026-06-02T17:57:00Z"
     },
     {
       "repository_name": "GyverLibs/GyverKey",
@@ -159746,16 +159882,20 @@
       "repository_name": "okalachev/mavlink-arduino",
       "repository_url": "https://github.com/okalachev/mavlink-arduino",
       "name": "MAVLink",
-      "version": "2.0.30",
+      "version": "2.0.31",
       "version_history": [
         {
           "version": "2.0.30",
           "seen_at": "2026-06-01T09:12:24Z"
+        },
+        {
+          "version": "2.0.31",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-01T09:12:24Z",
-      "last_seen_sha": "47eccfb1c4ac",
+      "last_seen_sha": "b67f20360e61",
       "author": "Oleg Kalachev <okalachev@gmail.com",
       "maintainer": "Oleg Kalachev <okalachev@gmail.com>",
       "sentence": "MAVLink v2 for Arduino.",
@@ -159764,11 +159904,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.31.zip",
+      "size": 1726480,
+      "previous_version": "2.0.30",
       "github_stars": 54,
       "github_forks": 13,
       "github_language": "C",
-      "github_updated_at": "2026-06-01T01:12:29Z",
-      "download_url": "https://github.com/okalachev/mavlink-arduino"
+      "github_updated_at": "2026-06-01T01:12:29Z"
     },
     {
       "repository_name": "vacmg/MAX_RS485",
@@ -246973,7 +247115,7 @@
       "repository_name": "SolderedElectronics/Soldered-CAN-Bus-Breakout-MCP2518-Arduino-Library",
       "repository_url": "https://github.com/SolderedElectronics/Soldered-CAN-Bus-Breakout-MCP2518-Arduino-Library",
       "name": "Soldered CAN Bus Breakout Arduino Library",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -246982,11 +247124,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:30:28Z",
-      "last_seen_sha": "0e2e4cdc772e",
+      "last_seen_sha": "27655cd56904",
       "author": "Soldered",
       "maintainer": "Soldered <soldered@soldered.com>",
       "sentence": "CAN Bus Breakout Library for Arduino",
@@ -246995,9 +247141,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_CAN_Bus_Breakout_Arduino_Library-1.1.0.zip",
-      "size": 50667,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_CAN_Bus_Breakout_Arduino_Library-1.1.1.zip",
+      "size": 51432,
+      "previous_version": "1.1.0",
       "github_stars": 13,
       "github_forks": 4,
       "github_language": "C++",
@@ -263365,7 +263511,7 @@
       "repository_name": "stm32duino/VL53L8CX",
       "repository_url": "https://github.com/stm32duino/VL53L8CX",
       "name": "STM32duino VL53L8CX",
-      "version": "2.0.4",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.4",
@@ -263374,11 +263520,15 @@
         {
           "version": "2.0.4",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-08T08:01:53Z",
-      "last_seen_sha": "a4eb02d714be",
+      "last_seen_sha": "9b052f236a85",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
       "sentence": "Allows controlling the VL53L8CX (Time-of-Flight 8x8 multizone ranging sensor with wide field view)",
@@ -263387,8 +263537,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_VL53L8CX-2.0.4.zip",
-      "size": 166896,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_VL53L8CX-2.1.0.zip",
+      "size": 166927,
       "previous_version": "2.0.4",
       "github_stars": 33,
       "github_forks": 11,
@@ -265907,16 +266057,20 @@
       "repository_name": "GyverLibs/StreamPacket",
       "repository_url": "https://github.com/GyverLibs/StreamPacket",
       "name": "StreamPacket",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2025-07-21T16:15:31Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:15:31Z",
-      "last_seen_sha": "9536891d4f45",
+      "last_seen_sha": "c6f50c4ae440",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple and universal binary protocol for Stream interface",
@@ -265925,11 +266079,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/StreamPacket-1.0.3.zip",
+      "size": 12967,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T18:00:38Z",
-      "download_url": "https://github.com/GyverLibs/StreamPacket"
+      "github_updated_at": "2026-06-02T18:00:38Z"
     },
     {
       "repository_name": "Narwhalsss360/StreamUtilities",
@@ -284068,16 +284224,20 @@
       "repository_name": "GyverLibs/UART_RF",
       "repository_url": "https://github.com/GyverLibs/UART_RF",
       "name": "UART_RF",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-07-21T16:15:30Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-01T11:48:44.907Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:15:30Z",
-      "last_seen_sha": "41e54df9bbf1",
+      "last_seen_sha": "397e591eb879",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for data transmission via 433 MHz radio by UART",
@@ -284086,14 +284246,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T18:01:12Z",
       "depends": [
         "Hamming"
       ],
-      "download_url": "https://github.com/GyverLibs/UART_RF"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/UART_RF-1.0.1.zip",
+      "size": 24144,
+      "previous_version": "1.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T18:01:12Z"
     },
     {
       "repository_name": "ubidots/ubidots-arduino-yun",
@@ -302890,7 +303052,7 @@
   "stats": {
     "total_categories": 82,
     "total_architectures": 160,
-    "with_github_metadata": 9284,
-    "total_dependencies": 5139
+    "with_github_metadata": 9287,
+    "total_dependencies": 5140
   }
 }

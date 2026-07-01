@@ -71,8 +71,8 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 100;
-    margin-bottom: 5px;
-    padding: 15px 0;
+    margin-bottom: 24px;
+    padding: 16px 0 18px;
     background-color: white;
 }
 
@@ -117,13 +117,13 @@ a:hover {
 }
 
 .browse-section {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .search-box {
     margin-left: var(--content-margin-left);
-    margin-bottom: 15px;
-    padding: 15px;
+    margin-bottom: 0;
+    padding: 14px 16px;
     border: 2px solid black;
     background-color: white;
     font-family: 'Courier New', monospace;
@@ -137,19 +137,19 @@ a:hover {
 }
 
 .category-filters {
-    margin-bottom: 15px;
-    margin-top: 35px;
+    margin-bottom: 16px;
+    margin-top: 20px;
 }
 
 .platform-filters {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .filter-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
+    gap: 6px;
+    margin-top: 12px;
     max-height: 2000px;
     overflow: hidden;
     transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
@@ -164,15 +164,23 @@ a:hover {
 
 .filter-btn {
     font-family: 'Courier New', monospace;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
-    padding: 8px 12px;
+    padding: 6px 12px;
     border: 1px solid black;
     background-color: white;
     color: black;
     cursor: pointer;
     transition: all 0.2s ease;
     letter-spacing: 0.5px;
+    min-height: 28px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.2;
+    white-space: nowrap;
+    max-width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .filter-btn:hover {
@@ -186,12 +194,12 @@ a:hover {
 }
 
 .section-header {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: flex-start;
@@ -228,15 +236,22 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     user-select: none;
-    padding: 5px 0;
+    padding: 4px 0;
 }
 
 .collapse-indicator {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     transition: transform 0.2s ease;
-    margin-right: 8px;
+    margin-right: 10px;
     order: -1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    line-height: 1;
 }
 
 .section-header.collapsible:hover {
@@ -250,23 +265,27 @@ a:hover {
 .sort-buttons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
     margin-left: var(--content-margin-left);
-    justify-content: space-between;
 }
 
 .sort-btn {
     font-family: 'Courier New', monospace;
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-    padding: 10px 15px;
-    border: 2px solid black;
+    padding: 8px 14px;
+    border: 1.5px solid black;
     background-color: white;
     color: black;
     cursor: pointer;
     transition: all 0.2s ease;
     letter-spacing: 0.5px;
     font-weight: bold;
+    line-height: 1.2;
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
 }
 
 .sort-btn:hover {

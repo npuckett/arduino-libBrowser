@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-02T03:01:18.493Z",
-  "total_libraries": 9617,
-  "index_etag": "W/\"7a25a9a8b2bcd8d0ad85dd9728a3b5db\"",
-  "index_last_modified": "Thu, 02 Jul 2026 02:59:11 GMT",
+  "enhanced_at": "2026-07-02T05:16:30.953Z",
+  "total_libraries": 9618,
+  "index_etag": "W/\"58b70c4f1837cda5d2360eaa2f89656f\"",
+  "index_last_modified": "Thu, 02 Jul 2026 04:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -197825,16 +197825,20 @@
       "repository_name": "tanakamasayuki/PCMFlowDevice",
       "repository_url": "https://github.com/tanakamasayuki/PCMFlowDevice",
       "name": "PCMFlowDevice",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-19T09:24:03Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-02T05:16:29.476Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-19T09:24:03Z",
-      "last_seen_sha": "46bc8d80c45b",
+      "last_seen_sha": "177cdcad6bee",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Device I/O helpers for PCMFlow, starting with buffered M5Unified speaker playback.",
@@ -197843,15 +197847,17 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "Python",
-      "github_updated_at": "2026-06-19T08:44:10Z",
       "depends": [
         "PCMFlow",
         "M5Unified"
       ],
-      "download_url": "https://github.com/tanakamasayuki/PCMFlowDevice"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/PCMFlowDevice-1.0.1.zip",
+      "size": 24465,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-06-19T08:44:10Z"
     },
     {
       "repository_name": "tanakamasayuki/PCMFlowG711",
@@ -298832,6 +298838,38 @@
       "download_url": "https://github.com/asukiaaa/arduino-XboxSeriesXHIDReportBuilder"
     },
     {
+      "repository_name": "Gigasitron-xcross/XC_GUI",
+      "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
+      "name": "XC_GUI",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-02T05:16:29.476Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T05:16:29.476Z",
+      "last_seen_sha": "63221b2434d6",
+      "author": "Gigasitron Xcross",
+      "maintainer": "Gigasitron <inquiry@gigasitron.com>",
+      "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+      "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+      "category": "Display",
+      "architectures": [
+        "stm32",
+        "rp2040",
+        "esp32",
+        "samd"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.1.zip",
+      "size": 1232998,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-02T02:49:37Z"
+    },
+    {
       "repository_name": "Gigasitron-xcross/XC_SR04",
       "repository_url": "https://github.com/Gigasitron-xcross/XC_SR04",
       "name": "XC_SR04",
@@ -303254,7 +303292,7 @@
   "stats": {
     "total_categories": 81,
     "total_architectures": 160,
-    "with_github_metadata": 9290,
+    "with_github_metadata": 9291,
     "total_dependencies": 5142
   }
 }

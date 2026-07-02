@@ -1,78 +1,269 @@
 {
-  "since": "2026-07-02T09:00:05.763Z",
+  "since": "2026-07-02T10:07:48.435Z",
   "new_libraries": [
     {
-      "repository_name": "PTSolns/I2Connect_AHT20",
-      "repository_url": "https://github.com/PTSolns/I2Connect_AHT20",
-      "name": "PTSolns_I2Connect_AHT20",
+      "repository_name": "blah188/LionFastLcd",
+      "repository_url": "https://github.com/blah188/LionFastLcd",
+      "name": "LionFastLcd",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-07-02T09:00:05.763Z"
+          "seen_at": "2026-07-02T10:07:48.435Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-07-02T09:00:05.763Z",
-      "last_seen_sha": "13426228d39a",
-      "author": "PTSolns",
-      "maintainer": "PTSolns <support@ptsolns.com>",
-      "sentence": "Arduino library for the PTSolns I2Connect AHT20 module.",
-      "paragraph": "Provides simple read humidity and temperature for the PTSolns I2Connect AHT20 module using I2C.",
-      "category": "Sensors",
+      "first_seen_at": "2026-07-02T10:07:48.435Z",
+      "last_seen_sha": "ba99d97ec2dd",
+      "author": "leva <leva.the.lion@gmail.com>",
+      "maintainer": "leva <leva.the.lion@gmail.com>",
+      "sentence": "Change-tracked, buffered character-LCD layer over LiquidCrystal_I2C.",
+      "paragraph": "Keeps a RAM shadow of the display and pushes only the cells that actually changed, coalescing runs of consecutive cells into a single setCursor() to cut I2C traffic. Implements Arduino Print, so use print()/println() as usual. Supports stacked/overlay screens via Clone()/Activate()/Deactivate() with a z-order. The class is non-copyable and objects are created only through CreateMain()/Clone() (they register in a static list and are meant to live for the program's lifetime); call CreateMain() once before any Clone()/Activate(). The shadow buffer is cols*rows bytes. Depends on LionArray and marcoschwartz/LiquidCrystal_I2C. Optional scrolling of over-long lines is ESP8266-only and OFF by default: build with -DFLCD_LONG_MESSAGES and add leva/LionTask. ESP8266 + AVR.",
+      "category": "Display",
       "architectures": [
-        "*"
+        "esp8266",
+        "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.0.zip",
-      "size": 12438,
+      "depends": [
+        "LionArray"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionFastLcd-1.0.0.zip",
+      "size": 14987,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-26T17:34:39Z"
+      "github_updated_at": "2026-07-02T07:29:49Z"
+    },
+    {
+      "repository_name": "SolderedElectronics/Soldered-Position-sensor-AS5600-breakout-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/Soldered-Position-sensor-AS5600-breakout-Arduino-Library",
+      "name": "Soldered-position-sensor-AS5600-breakout-Arduino-library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-02T10:07:48.435Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T10:07:48.435Z",
+      "last_seen_sha": "5d56161a4b8e",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Library for magnetic rotation sensor AS5600, compatible with EasyC and Arduino",
+      "paragraph": "This is an Arduino library for the magnetic rotation sensor AS5600 breakout board from Soldered electronics. Use it to read a rotation of a magnet (suitable for magnetic rotary encoders), measure and detect magnetic fields and even generate analog or PWM signals based on the output.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_position_sensor_AS5600_breakout_Arduino_library-1.0.0.zip",
+      "size": 35690,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T06:15:54Z"
+    },
+    {
+      "repository_name": "1e1/arduino-macaddress-detector",
+      "repository_url": "https://github.com/1e1/arduino-macaddress-detector",
+      "name": "WiStalker",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-02T10:07:48.435Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T10:07:48.435Z",
+      "last_seen_sha": "f0a7ae873947",
+      "author": "1e1",
+      "maintainer": "1e1",
+      "sentence": "Passive 802.11 presence detection for the ESP8266 and ESP32.",
+      "paragraph": "Puts the radio in promiscuous mode and reports the layer-2 addresses of every sniffed frame, so you can tell whether known devices are within range. The receive path is kept minimal: only the addresses needed for presence are extracted. One API, backed by the NONOS SDK on ESP8266 and ESP-IDF on ESP32.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/1e1/WiStalker-1.0.0.zip",
+      "size": 13602,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T06:58:55Z"
     }
   ],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
-        "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
-        "name": "DeterministicESPAsyncWebServer",
-        "version": "4.68.0",
+        "repository_name": "GyverLibs/BitPack",
+        "repository_url": "https://github.com/GyverLibs/BitPack",
+        "name": "BitPack",
+        "version": "1.3.9",
         "version_history": [
           {
-            "version": "4.64.1",
-            "seen_at": "2026-06-30T09:01:40Z"
+            "version": "1.3.8",
+            "seen_at": "2026-06-30T08:30:36Z"
           },
           {
-            "version": "4.65.0",
-            "seen_at": "2026-07-02T07:02:30.220Z"
+            "version": "1.3.9",
+            "seen_at": "2026-07-02T10:07:48.435Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:30:36Z",
+        "last_seen_sha": "f2cea6785429",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Library for packing bit flags into byte array",
+        "paragraph": "Library for packing bit flags into byte array",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/BitPack-1.3.9.zip",
+        "size": 14139,
+        "previous_version": "1.3.8",
+        "github_stars": 12,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T08:21:04Z"
+      },
+      "old_version": "1.3.8",
+      "new_version": "1.3.9"
+    },
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/ESP32IRPulseKit",
+        "repository_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
+        "name": "ESP32IRPulseKit",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-06-30T08:49:41Z"
           },
           {
-            "version": "4.68.0",
-            "seen_at": "2026-07-02T09:00:05.763Z"
+            "version": "1.0.4",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-07-02T10:07:48.435Z"
           }
         ],
         "release_count": 3,
-        "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "4fd6f5bdea75",
-        "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
-        "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
-        "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
-        "paragraph": "Serves RFC 7230 HTTP/1.1 (routes matched in insertion order; the parser validates every request byte-by-byte and auto-sends 400/413/414/501 with no application code), WebSocket (RFC 6455), Server-Sent Events, Basic/Digest auth, static file serving, multipart, JSON, templating, and a middleware pipeline, plus opt-in HTTPS/TLS, SSH, Telnet, and SNMP (v1/v2c/v3). All buffers are statically sized at compile time and no heap is used after begin(); feature flags strip unused subsystems.",
+        "first_seen_at": "2026-06-30T08:49:41Z",
+        "last_seen_sha": "ac469140e636",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
+        "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Mitsubishi Heavy, Fujitsu, Daikin, Toshiba, Samsung, Sharp, Kelvinator, Midea, Carrier, Hitachi, Haier, TCL).",
         "category": "Communication",
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.68.0.zip",
-        "size": 2120583,
-        "previous_version": "4.65.0",
-        "github_stars": 3,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.5.zip",
+        "size": 216891,
+        "previous_version": "1.0.4",
+        "github_stars": 1,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-02T06:46:32Z"
+        "github_updated_at": "2026-07-02T03:25:04Z"
       },
-      "old_version": "4.65.0",
-      "new_version": "4.68.0"
+      "old_version": "1.0.4",
+      "new_version": "1.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "H-Kurosaki/UARDECS",
+        "repository_url": "https://github.com/H-Kurosaki/UARDECS",
+        "name": "UARDECS Library",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2025-07-21T16:15:51Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-07-02T10:07:48.435Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:15:51Z",
+        "last_seen_sha": "261ef55b22b9",
+        "author": "H.kurosaki,K.yasuba",
+        "maintainer": "uecs.org <kurosaki@uecs.jp>",
+        "sentence": "A library that provides communication functions conforming to UECS, a common standard for horticulture in Japan.",
+        "paragraph": "This library provides UDP server and Web server function conforming to UECS standard. It corresponds to Arduino UNO or MEGA. Always requires Ethernet shield2.",
+        "category": "Communication",
+        "architectures": [
+          "avr"
+        ],
+        "depends": [
+          "Ethernet2"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/H-Kurosaki/UARDECS_Library-2.0.3.zip",
+        "size": 60281,
+        "previous_version": "2.0.2",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-15T08:14:39Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "H-Kurosaki/UARDECS_MEGA",
+        "repository_url": "https://github.com/H-Kurosaki/UARDECS_MEGA",
+        "name": "UARDECS_MEGA Library",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "2.0.1",
+            "seen_at": "2025-07-21T16:15:51Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-07-02T10:07:48.435Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:15:51Z",
+        "last_seen_sha": "f2f4c49f446b",
+        "author": "H.kurosaki,K.yasuba",
+        "maintainer": "uecs.org <kurosaki@uecs.jp>",
+        "sentence": "A library that provides communication functions conforming to UECS, a common standard for horticulture in Japan.",
+        "paragraph": "This library provides UDP server and Web server function conforming to UECS standard. This is a high-performance version of UARDECS, and the setting items by the user are increasing greatly. It corresponds to Arduino MEGA. Arduino UNO can also be used, but there is not enough available memory. Always requires Ethernet shield2.",
+        "category": "Communication",
+        "architectures": [
+          "avr"
+        ],
+        "depends": [
+          "Ethernet2"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/H-Kurosaki/UARDECS_MEGA_Library-2.0.3.zip",
+        "size": 60761,
+        "previous_version": "2.0.2",
+        "github_stars": 0,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-15T07:57:05Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
     }
   ],
   "removed_libraries": []

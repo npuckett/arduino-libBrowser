@@ -1,83 +1,43 @@
 {
-  "since": "2026-07-02T07:02:30.220Z",
+  "since": "2026-07-02T09:00:05.763Z",
   "new_libraries": [
     {
-      "repository_name": "LautaroRodriguezBase/RFDO",
-      "repository_url": "https://github.com/LautaroRodriguezBase/RFDO",
-      "name": "RFDO",
-      "version": "0.0.2",
+      "repository_name": "PTSolns/I2Connect_AHT20",
+      "repository_url": "https://github.com/PTSolns/I2Connect_AHT20",
+      "name": "PTSolns_I2Connect_AHT20",
+      "version": "1.0.0",
       "version_history": [
         {
-          "version": "0.0.2",
-          "seen_at": "2026-07-02T07:02:30.220Z"
+          "version": "1.0.0",
+          "seen_at": "2026-07-02T09:00:05.763Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-07-02T07:02:30.220Z",
-      "last_seen_sha": "c606bf23a81a",
-      "author": "Lautaro Ezequiel Rodriguez Base lerb.dev@gmail.com",
-      "maintainer": "Lautaro Ezequiel Rodriguez Base lerb.dev@gmail.com",
-      "sentence": "Library for sending and receiving data to N nRF24 devices.",
-      "paragraph": "This library allows you sending and receiving data from N (max 256) devices nRF24 as a fast Half Duplex communication.",
-      "category": "Communication",
+      "first_seen_at": "2026-07-02T09:00:05.763Z",
+      "last_seen_sha": "13426228d39a",
+      "author": "PTSolns",
+      "maintainer": "PTSolns <support@ptsolns.com>",
+      "sentence": "Arduino library for the PTSolns I2Connect AHT20 module.",
+      "paragraph": "Provides simple read humidity and temperature for the PTSolns I2Connect AHT20 module using I2C.",
+      "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "depends": [
-        "RF24"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LautaroRodriguezBase/RFDO-0.0.2.zip",
-      "size": 8513,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.0.zip",
+      "size": 12438,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-07-02T02:13:02Z"
+      "github_updated_at": "2026-06-26T17:34:39Z"
     }
   ],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "devjune-apiota/apiota-esp32",
-        "repository_url": "https://github.com/devjune-apiota/apiota-esp32",
-        "name": "APIOTA",
-        "version": "1.4.3",
-        "version_history": [
-          {
-            "version": "1.4.2",
-            "seen_at": "2026-06-29T09:21:21Z"
-          },
-          {
-            "version": "1.4.3",
-            "seen_at": "2026-07-02T07:02:30.220Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-29T09:21:21Z",
-        "last_seen_sha": "dd79f8df7d21",
-        "author": "APIOTA <support@apiota.net>",
-        "maintainer": "APIOTA <support@apiota.net>",
-        "sentence": "ESP32 OTA Update + Device Provisioning + Command Polling via apiota.net",
-        "paragraph": "Header-only library for secure OTA firmware updates with RSA-2048 signature verification, SHA-256 checksum, device provisioning, long-poll command queue, and NVS credential storage. Works with any ESP32 board.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/devjune-apiota/APIOTA-1.4.3.zip",
-        "size": 61602,
-        "previous_version": "1.4.2",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_updated_at": "2026-06-27T14:12:00Z"
-      },
-      "old_version": "1.4.2",
-      "new_version": "1.4.3"
-    },
-    {
-      "library": {
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "4.65.0",
+        "version": "4.68.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -86,11 +46,15 @@
           {
             "version": "4.65.0",
             "seen_at": "2026-07-02T07:02:30.220Z"
+          },
+          {
+            "version": "4.68.0",
+            "seen_at": "2026-07-02T09:00:05.763Z"
           }
         ],
-        "release_count": 2,
+        "release_count": 3,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "7564c03531af",
+        "last_seen_sha": "4fd6f5bdea75",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -99,15 +63,16 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.65.0.zip",
-        "size": 2095225,
-        "previous_version": "4.64.1",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.68.0.zip",
+        "size": 2120583,
+        "previous_version": "4.65.0",
         "github_stars": 3,
         "github_forks": 0,
-        "github_updated_at": "2026-06-30T08:01:51Z"
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "4.64.1",
-      "new_version": "4.65.0"
+      "old_version": "4.65.0",
+      "new_version": "4.68.0"
     }
   ],
   "removed_libraries": []

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-02T07:22:36.209Z",
-  "total_libraries": 9619,
-  "index_etag": "",
-  "index_last_modified": "",
+  "enhanced_at": "2026-07-02T09:00:07.163Z",
+  "total_libraries": 9620,
+  "index_etag": "W/\"0c5bd5bbaf9d3897e7b2723580c45270\"",
+  "index_last_modified": "Thu, 02 Jul 2026 08:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70022,7 +70022,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.65.0",
+      "version": "4.68.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70031,11 +70031,15 @@
         {
           "version": "4.65.0",
           "seen_at": "2026-07-02T07:02:30.220Z"
+        },
+        {
+          "version": "4.68.0",
+          "seen_at": "2026-07-02T09:00:05.763Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "7564c03531af",
+      "last_seen_sha": "4fd6f5bdea75",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70044,13 +70048,13 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.65.0.zip",
-      "size": 2095225,
-      "previous_version": "4.64.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.68.0.zip",
+      "size": 2120583,
+      "previous_version": "4.65.0",
       "github_stars": 3,
       "github_forks": 0,
-      "github_updated_at": "2026-07-02T06:46:32Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T06:46:32Z"
     },
     {
       "repository_name": "moononournation/Dev_Device_Pins",
@@ -210052,6 +210056,35 @@
       "download_url": "https://github.com/PTSolns/PTSolns_I2CBackpack"
     },
     {
+      "repository_name": "PTSolns/I2Connect_AHT20",
+      "repository_url": "https://github.com/PTSolns/I2Connect_AHT20",
+      "name": "PTSolns_I2Connect_AHT20",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-02T09:00:05.763Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T09:00:05.763Z",
+      "last_seen_sha": "13426228d39a",
+      "author": "PTSolns",
+      "maintainer": "PTSolns <support@ptsolns.com>",
+      "sentence": "Arduino library for the PTSolns I2Connect AHT20 module.",
+      "paragraph": "Provides simple read humidity and temperature for the PTSolns I2Connect AHT20 module using I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.0.zip",
+      "size": 12438,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-26T17:34:39Z"
+    },
+    {
       "repository_name": "PTSolns/I2Connect_EEPROM",
       "repository_url": "https://github.com/PTSolns/I2Connect_EEPROM",
       "name": "PTSolns_I2Connect_EEPROM",
@@ -304306,7 +304339,7 @@
   "stats": {
     "total_categories": 81,
     "total_architectures": 160,
-    "with_github_metadata": 9416,
+    "with_github_metadata": 9417,
     "total_dependencies": 5143
   }
 }

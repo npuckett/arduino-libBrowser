@@ -447,6 +447,54 @@ button.activity-legend-item {
     white-space: nowrap;
 }
 
+/* Quick-filter chip in the Daily panel header: one-click "new in last
+   7 days" filter. Inactive state is a subtle outlined pill with an arrow;
+   active state fills with the new (teal) accent and shows × for the
+   click-again-to-clear affordance. `margin-left: auto` pushes it to the
+   right end of the flex row shared with title + meta + peak pill. */
+.activity-quick-chip {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    align-self: center;
+    flex-shrink: 0;
+    font-family: var(--font-monospace, 'Courier New', monospace);
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px 7px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.activity-quick-chip:hover {
+    background: #f0f0f0;
+    border-color: #999;
+    color: #333;
+}
+
+.activity-quick-chip:focus-visible {
+    outline: 2px solid var(--activity-new-color, #00979D);
+    outline-offset: 1px;
+}
+
+.activity-quick-chip.active {
+    background: var(--activity-new-color, #00979D);
+    border-color: var(--activity-new-color, #00979D);
+    color: #fff;
+}
+
+.activity-quick-chip.active:hover {
+    background: #007a80;
+    border-color: #007a80;
+    color: #fff;
+}
+
 /* Featured pill: the single repo with the largest weekly momentum
    in the most recent active week. Clickable — opens the library
    detail modal. The star glyph is rendered via ::before and is

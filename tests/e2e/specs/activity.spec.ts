@@ -361,4 +361,44 @@ test.describe('Activity section', () => {
     await page.locator('#modalClose').click();
     await expect(page.locator('#modalOverlay')).not.toBeVisible();
   });
+
+  test('Activity daily panel has a quick-filter chip', async ({ page }) => {
+    await expect(page.locator('#activityQuickChip')).toHaveCount(1);
+  });
+
+  test('clicking the chip applies a "last 7 days new" filter', async ({ page }) => {
+    const chip = page.locator('#activityQuickChip');
+    // If the daily panel has no new activity in the last 7 days the chip
+    // is hidden by design — skip rather than fail on data-driven absence.
+    const hiddenProp = await chip.evaluate((el) => (el as HTMLElement).hidden);
+    if (hiddenProp) return;
+    await chip.click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/7 days/i);
+    await expect(banner).toContainText(/clear filter/i);
+  });
+
+  test('clicking the chip again clears the filter', async ({ page }) => {
+    const chip = page.locator('#activityQuickChip');
+    const hiddenProp = await chip.evaluate((el) => (el as HTMLElement).hidden);
+    if (hiddenProp) return;
+    await chip.click();
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await chip.click();
+    await expect(banner).toHaveCount(0);
+  });
+
+  test('chip text reflects active state', async ({ page }) => {
+    const chip = page.locator('#activityQuickChip');
+    const hiddenProp = await chip.evaluate((el) => (el as HTMLElement).hidden);
+    if (hiddenProp) return;
+    const before = (await chip.textContent()) || '';
+    await chip.click();
+    const after = (await chip.textContent()) || '';
+    expect(after).toContain('×');
+    expect(after).not.toBe(before);
+    await chip.click();
+  });
 });

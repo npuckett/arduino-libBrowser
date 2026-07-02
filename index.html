@@ -223,6 +223,7 @@
                             <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
                         </span>
                         <span class="activity-panel-meta" id="activityDailyMeta"></span>
+                        <button type="button" class="activity-quick-chip" id="activityQuickChip" hidden></button>
                     </div>
                     <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
                     <div class="activity-legend" id="activityDailyLegend"></div>
@@ -1942,6 +1943,52 @@
                     peakPill.hidden = false;
                 } else {
                     peakPill.hidden = true;
+                }
+            }
+
+            // Quick-filter chip: one-click "new in last 7 days" filter, with
+            // a click-again toggle to clear. Re-rendered on every daily-panel
+            // render so its count and active-state stay in sync.
+            const quickChip = el('activityQuickChip');
+            if (quickChip) {
+                const last7 = daily.slice(-7);
+                const periodStart7 = last7[0].date;
+                const periodEnd7 = last7[last7.length - 1].date;
+                const newCount7 = last7.reduce((acc, b) => acc + (b.new || 0), 0);
+                if (newCount7 > 0) {
+                    const isActive = currentActivityFilter
+                        && currentActivityFilter.kind === 'new'
+                        && currentActivityFilter.start === periodStart7
+                        && currentActivityFilter.end === periodEnd7;
+                    quickChip.classList.toggle('active', !!isActive);
+                    quickChip.textContent = isActive ? 'Last 7 days new ×' : 'New · last 7d →';
+                    quickChip.setAttribute(
+                        'aria-label',
+                        isActive
+                            ? 'Clear filter: libraries new in the last 7 days'
+                            : `Filter to libraries new in the last 7 days (${newCount7})`
+                    );
+                    // Replace the previous handler so successive renders don't
+                    // stack listeners. The live filter state is re-checked at
+                    // click time, so clearing via the banner still works.
+                    quickChip.onclick = () => {
+                        const stillActive = currentActivityFilter
+                            && currentActivityFilter.kind === 'new'
+                            && currentActivityFilter.start === periodStart7
+                            && currentActivityFilter.end === periodEnd7;
+                        if (stillActive) {
+                            clearActivityFilter();
+                            quickChip.classList.remove('active');
+                            quickChip.textContent = 'New · last 7d →';
+                        } else {
+                            filterByActivity('new', periodStart7, periodEnd7, 'Last 7 days');
+                            quickChip.classList.add('active');
+                            quickChip.textContent = 'Last 7 days new ×';
+                        }
+                    };
+                    quickChip.hidden = false;
+                } else {
+                    quickChip.hidden = true;
                 }
             }
 

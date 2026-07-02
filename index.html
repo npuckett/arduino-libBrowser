@@ -1806,6 +1806,138 @@
             }
         }
 
+        // Build the draggable scrubber overlay on top of the daily
+        // sparkline. Two <rect class="activity-scrubber-handle">s bound
+        // an index range; a translucent <rect class="activity-scrubber-selection">
+        // fills the gap. Pointer events drive the drag — `pointerdown`
+        // captures the pointer, `pointermove` updates indices + redraws,
+        // `pointerup` calls filterByActivity with the chosen range.
+        //
+        // Coordinate mapping: clientX → SVG space via
+        // svg.createSVGPoint() + getScreenCTM().inverse() (handles any
+        // CSS scaling / preserveAspectRatio="none" stretching).
+        //
+        // Default selection covers the last 7 days (when there are at
+        // least 7). Minimum selection width is 2 days (endIdx - startIdx
+        // >= 1) so a single-day span isn't selectable.
+        function buildDailyScrubber(svg, daily, stepX) {
+            const lastIdx = daily.length - 1;
+            const defaultSpan = Math.min(6, lastIdx);
+            let startIdx = Math.max(0, lastIdx - defaultSpan);
+            let endIdx = lastIdx;
+
+            const handleW = 6;
+            const handleH = ACTIVITY_SPARK_VIEW_H;
+            const xForIdx = (i) => ACTIVITY_SPARK_PAD + i * stepX;
+
+            const scrubber = svgEl('g', {
+                id: 'activityDailyScrubber',
+                class: 'activity-scrubber',
+            });
+
+            const selRect = svgEl('rect', {
+                class: 'activity-scrubber-selection',
+                x: xForIdx(startIdx).toFixed(2),
+                y: '0',
+                width: Math.max(0, (endIdx - startIdx) * stepX).toFixed(2),
+                height: handleH.toString(),
+            });
+            scrubber.appendChild(selRect);
+
+            const startHandle = svgEl('rect', {
+                class: 'activity-scrubber-handle',
+                'data-handle': 'start',
+                x: (xForIdx(startIdx) - handleW / 2).toFixed(2),
+                y: '0',
+                width: handleW.toString(),
+                height: handleH.toString(),
+                'aria-label': 'Scrub start date',
+            });
+            const endHandle = svgEl('rect', {
+                class: 'activity-scrubber-handle',
+                'data-handle': 'end',
+                x: (xForIdx(endIdx) - handleW / 2).toFixed(2),
+                y: '0',
+                width: handleW.toString(),
+                height: handleH.toString(),
+                'aria-label': 'Scrub end date',
+            });
+            scrubber.appendChild(startHandle);
+            scrubber.appendChild(endHandle);
+
+            svg.appendChild(scrubber);
+
+            const redraw = () => {
+                const sx = xForIdx(startIdx);
+                const ex = xForIdx(endIdx);
+                selRect.setAttribute('x', sx.toFixed(2));
+                selRect.setAttribute('width', Math.max(0, ex - sx).toFixed(2));
+                startHandle.setAttribute('x', (sx - handleW / 2).toFixed(2));
+                endHandle.setAttribute('x', (ex - handleW / 2).toFixed(2));
+            };
+
+            // Convert pointer client coords to SVG user coords using the
+            // current screen CTM (accounts for any CSS scaling or aspect
+            // stretching). Returns the snapped nearest index in [0, lastIdx].
+            const indexFromEvent = (ev) => {
+                const ctm = svg.getScreenCTM();
+                if (!ctm) return null;
+                const pt = svg.createSVGPoint();
+                pt.x = ev.clientX;
+                pt.y = ev.clientY;
+                const local = pt.matrixTransform(ctm.inverse());
+                const raw = Math.round((local.x - ACTIVITY_SPARK_PAD) / stepX);
+                return Math.max(0, Math.min(lastIdx, raw));
+            };
+
+            let draggingHandle = null; // 'start' | 'end' | null
+
+            const onPointerDown = (ev) => {
+                const handle = ev.currentTarget;
+                draggingHandle = handle.getAttribute('data-handle');
+                try {
+                    handle.setPointerCapture(ev.pointerId);
+                } catch (e) { /* not all environments support capture */ }
+                ev.preventDefault();
+                ev.stopPropagation();
+            };
+
+            const onPointerMove = (ev) => {
+                if (!draggingHandle) return;
+                const idx = indexFromEvent(ev);
+                if (idx === null) return;
+                if (draggingHandle === 'start') {
+                    startIdx = Math.min(idx, endIdx - 1);
+                    startIdx = Math.max(0, startIdx);
+                } else {
+                    endIdx = Math.max(idx, startIdx + 1);
+                    endIdx = Math.min(lastIdx, endIdx);
+                }
+                redraw();
+            };
+
+            const onPointerUp = (ev) => {
+                if (!draggingHandle) return;
+                const finished = draggingHandle;
+                draggingHandle = null;
+                try {
+                    ev.currentTarget.releasePointerCapture(ev.pointerId);
+                } catch (e) { /* ignore */ }
+                const startISO = daily[startIdx].date;
+                const endISO = daily[endIdx].date;
+                const label = `${formatLongDate(startISO)} – ${formatLongDate(endISO)}`;
+                filterByActivity('new', startISO, endISO, label);
+                void finished; // not used after this point
+            };
+
+            [startHandle, endHandle].forEach((h) => {
+                h.addEventListener('pointerdown', onPointerDown);
+                h.addEventListener('pointermove', onPointerMove);
+                h.addEventListener('pointerup', onPointerUp);
+                h.addEventListener('pointercancel', onPointerUp);
+            });
+        }
+
         function renderDailyPanel(activity) {
             const panel = el('activityDailyPanel');
             const svg = el('activityDailySpark');
@@ -1904,6 +2036,15 @@
                 });
                 svg.appendChild(point);
             });
+
+            // Draggable timeline scrubber: two handles bound a [start, end]
+            // index range over `daily`. Drag updates the translucent
+            // selection rect in real-time; on pointerup the chosen range
+            // is applied as a 'new' activity filter (and the activity
+            // filter banner appears). Re-created on every render because
+            // clearChildren(svg) at the top of this function wipes the
+            // whole SVG including any prior scrubber.
+            buildDailyScrubber(svg, daily, stepX);
 
             const totalNew = daily.reduce((acc, b) => acc + (b.new || 0), 0);
             const totalUpdated = daily.reduce((acc, b) => acc + (b.updated || 0), 0);

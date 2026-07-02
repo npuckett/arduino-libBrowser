@@ -401,4 +401,134 @@ test.describe('Activity section', () => {
     expect(after).not.toBe(before);
     await chip.click();
   });
+
+  test('Daily sparkline has a scrubber group with two handles', async ({ page }) => {
+    await expect(page.locator('#activityDailyScrubber')).toHaveCount(1);
+    await expect(page.locator('#activityDailyScrubber .activity-scrubber-handle')).toHaveCount(2);
+    const startHandle = page.locator('#activityDailyScrubber .activity-scrubber-handle[data-handle="start"]');
+    const endHandle = page.locator('#activityDailyScrubber .activity-scrubber-handle[data-handle="end"]');
+    await expect(startHandle).toHaveCount(1);
+    await expect(endHandle).toHaveCount(1);
+  });
+
+  test('Scrubber has an initial selection rect with non-zero width', async ({ page }) => {
+    const sel = page.locator('#activityDailyScrubber .activity-scrubber-selection');
+    await expect(sel).toHaveCount(1);
+    const width = await sel.evaluate((el) => parseFloat((el as SVGRectElement).getAttribute('width') || '0'));
+    expect(width).toBeGreaterThan(0);
+    // The selection rect is also placed inside the SVG, not at origin.
+    const x = await sel.evaluate((el) => parseFloat((el as SVGRectElement).getAttribute('x') || '0'));
+    expect(x).toBeGreaterThan(0);
+  });
+
+  test('Dragging a handle changes the selection rect width', async ({ page }) => {
+    // Snapshot the initial selection rect width so we can assert the
+    // drag actually narrows the range (and doesn't just no-op).
+    const initialWidth = await page.locator('#activityDailyScrubber .activity-scrubber-selection')
+      .evaluate((el) => parseFloat((el as SVGRectElement).getAttribute('width') || '0'));
+    expect(initialWidth).toBeGreaterThan(0);
+
+    // Dispatch synthetic pointer events directly on the right handle.
+    // Playwright's high-level drag APIs can't easily target sub-pixel
+    // SVG coordinates under preserveAspectRatio="none", so we compute
+    // the handle's screen-space center via getScreenCTM() and dispatch
+    // pointerdown → pointermove → pointerup in one evaluate() so the
+    // pointer events land on the same element that captured them.
+    const dragResult = await page.evaluate(() => {
+      const svg = document.getElementById('activityDailySpark') as SVGSVGElement | null;
+      if (!svg) return { ok: false, reason: 'no svg' };
+      const endHandle = svg.querySelector('.activity-scrubber-handle[data-handle="end"]') as SVGRectElement | null;
+      if (!endHandle) return { ok: false, reason: 'no end handle' };
+      const ctm = svg.getScreenCTM();
+      if (!ctm) return { ok: false, reason: 'no ctm' };
+
+      const endX = parseFloat(endHandle.getAttribute('x') || '0');
+      const endW = parseFloat(endHandle.getAttribute('width') || '0');
+      const centerX = endX + endW / 2;
+      const centerY = parseFloat(endHandle.getAttribute('y') || '0') + parseFloat(endHandle.getAttribute('height') || '0') / 2;
+
+      const pt = svg.createSVGPoint();
+      pt.x = centerX;
+      pt.y = centerY;
+      const start = pt.matrixTransform(ctm);
+
+      const dispatch = (type: string, x: number) => {
+        const e = new PointerEvent(type, {
+          pointerId: 1,
+          bubbles: true,
+          cancelable: true,
+          clientX: x,
+          clientY: start.y,
+          button: 0,
+          buttons: type === 'pointerup' ? 0 : 1,
+        });
+        endHandle.dispatchEvent(e);
+      };
+
+      dispatch('pointerdown', start.x);
+      dispatch('pointermove', start.x - 30);
+      dispatch('pointerup', start.x - 30);
+      return { ok: true };
+    });
+    expect(dragResult.ok).toBe(true);
+
+    // After pointerup the scrubber is not destroyed (applyFilters does
+    // not re-render the activity section), so the selection rect
+    // should still be present and now narrower than the initial width.
+    // Wait a beat for the synchronous dispatch + DOM update to settle.
+    await page.waitForTimeout(50);
+    const newWidth = await page.locator('#activityDailyScrubber .activity-scrubber-selection')
+      .evaluate((el) => parseFloat((el as SVGRectElement).getAttribute('width') || '0'));
+    expect(newWidth).toBeGreaterThan(0);
+    expect(newWidth).toBeLessThan(initialWidth);
+  });
+
+  test('After drag-end, the activity filter banner shows the selected range', async ({ page }) => {
+    // The scrubber's last-7-days default already covers a range, so we
+    // can apply it just by clicking the right handle and releasing
+    // without moving it — that triggers filterByActivity and shows the
+    // banner. Alternatively drag it slightly to ensure the release path
+    // fires regardless of any initial value. We dispatch a small drag
+    // (5px) to be safe.
+    const ok = await page.evaluate(() => {
+      const svg = document.getElementById('activityDailySpark') as SVGSVGElement | null;
+      if (!svg) return false;
+      const endHandle = svg.querySelector('.activity-scrubber-handle[data-handle="end"]') as SVGRectElement | null;
+      if (!endHandle) return false;
+      const ctm = svg.getScreenCTM();
+      if (!ctm) return false;
+      const endX = parseFloat(endHandle.getAttribute('x') || '0');
+      const endW = parseFloat(endHandle.getAttribute('width') || '0');
+      const pt = svg.createSVGPoint();
+      pt.x = endX + endW / 2;
+      pt.y = 45;
+      const start = pt.matrixTransform(ctm);
+      const dispatch = (type: string, x: number) => {
+        endHandle.dispatchEvent(new PointerEvent(type, {
+          pointerId: 2,
+          bubbles: true,
+          cancelable: true,
+          clientX: x,
+          clientY: start.y,
+          button: 0,
+          buttons: type === 'pointerup' ? 0 : 1,
+        }));
+      };
+      dispatch('pointerdown', start.x);
+      dispatch('pointermove', start.x - 5);
+      dispatch('pointerup', start.x - 5);
+      return true;
+    });
+    expect(ok).toBe(true);
+
+    const banner = page.locator('.activity-filter-banner');
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText(/new/i);
+    await expect(banner).toContainText(/clear filter/i);
+    // The selected range label is the long-form "Mon DD, YYYY – Mon DD, YYYY"
+    // string produced by formatLongDate() twice joined with an en dash.
+    const text = (await banner.textContent()) || '';
+    expect(text).toMatch(/\d{4}/);
+    expect(text).toContain('–');
+  });
 });

@@ -538,6 +538,32 @@ button.activity-legend-item {
     background-color: #cce8e8;
 }
 
+/* Draggable timeline scrubber overlaid on the daily sparkline. Two
+   handles bound a [start, end] index range; dragging them updates a
+   translucent selection rectangle in real-time; on release the chosen
+   range is applied as a 'new' activity filter. The selection rect has
+   pointer-events:none so the underlying dots stay clickable; only the
+   handles (a few pixels wide each) intercept events. */
+.activity-scrubber-selection {
+    fill: var(--activity-new-color, #00979D);
+    fill-opacity: 0.18;
+    stroke: var(--activity-new-color, #00979D);
+    stroke-width: 1;
+    pointer-events: none;
+}
+
+.activity-scrubber-handle {
+    fill: var(--activity-new-color, #00979D);
+    cursor: ew-resize;
+    pointer-events: all;
+}
+
+.activity-scrubber-handle:hover,
+.activity-scrubber-handle:focus-visible {
+    fill: #007a80;
+    outline: none;
+}
+
 /* Banner shown above the library grid when the activity panel is driving
    the filter. Distinct from category/platform filters: there's no
    .filter-btn to toggle. A single dismiss button clears it. */

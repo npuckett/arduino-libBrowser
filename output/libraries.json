@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-02T11:46:20.071Z",
-  "total_libraries": 9623,
-  "index_etag": "W/\"891aeae48349defd57518f90dca0e1e8\"",
-  "index_last_modified": "Thu, 02 Jul 2026 11:29:12 GMT",
+  "enhanced_at": "2026-07-02T12:35:33.880Z",
+  "total_libraries": 9625,
+  "index_etag": "W/\"6ce642e6f9bb540cd8e55488a74a6710\"",
+  "index_last_modified": "Thu, 02 Jul 2026 12:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -57906,7 +57906,7 @@
       "repository_name": "Circuit-Digest/CircuitDigestCloud",
       "repository_url": "https://github.com/Circuit-Digest/CircuitDigestCloud",
       "name": "CircuitDigestCloud",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.2.0",
@@ -57915,11 +57915,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-07-02T12:35:31.229Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:12:15Z",
-      "last_seen_sha": "26f2e9bc4e15",
+      "last_seen_sha": "c94b984fb32b",
       "author": "Jobit Joseph, Circuit Digest",
       "maintainer": "Jobit Joseph <jobitjoseph1@gmail.com>",
       "sentence": "Arduino client for the CircuitDigest Cloud MQTT platform.",
@@ -57931,13 +57935,13 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Circuit-Digest/CircuitDigestCloud-2.0.0.zip",
-      "size": 28329,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Circuit-Digest/CircuitDigestCloud-2.1.0.zip",
+      "size": 31760,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 2,
-      "github_updated_at": "2026-06-30T13:19:26Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-30T13:19:26Z"
     },
     {
       "repository_name": "ntirushwajeanmarc/CircuitNotion",
@@ -197798,6 +197802,42 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "pcbcupid/PCBCUPID-CYPHER",
+      "repository_url": "https://github.com/pcbcupid/PCBCUPID-CYPHER",
+      "name": "PCBCUPID-Cypher",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-02T12:35:31.229Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T12:35:31.229Z",
+      "last_seen_sha": "d703731aa5a7",
+      "author": "Abhishek N <an5600580@gmail.com>",
+      "maintainer": "PCBCUPID <hello@pcbcupid.com>",
+      "sentence": "Arduino board-support library for the PCBCUPID Cypher (ESP32-S3).",
+      "paragraph": "Board-support library for the PCBCUPID Cypher development board (CYPHER V-1.0) built around the ESP32-S3-MINI-1. Wraps the onboard TFT display (ST7735 0.96), MicroSD card, PCF8563T real-time clock, RGB LED, buttons, and power management into a simple, unified API.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Wire",
+        "SPI",
+        "SD_MMC",
+        "Adafruit GFX Library",
+        "Adafruit ST7735 and ST7789 Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_Cypher-1.0.1.zip",
+      "size": 27812,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T08:06:10Z"
+    },
+    {
       "repository_name": "pcbcupid/PCBCUPID-NAU8325",
       "repository_url": "https://github.com/pcbcupid/PCBCUPID-NAU8325",
       "name": "PCBCUPID-NAU8325",
@@ -248520,6 +248560,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-05-12T10:12:59Z"
+    },
+    {
+      "repository_name": "SolderedElectronics/Soldered-GNSS-L86-M33-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/Soldered-GNSS-L86-M33-Arduino-Library",
+      "name": "Soldered L86 M33 GNSS Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-02T12:35:31.229Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-02T12:35:31.229Z",
+      "last_seen_sha": "264c63998732",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Arduino library for communication with Soldered L86-M33 GNSS module.",
+      "paragraph": "Used to work with L86-M33 GNSS breakout board (native and easyC verison).",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_L86_M33_GNSS_Library-1.0.0.zip",
+      "size": 70950,
+      "github_stars": 2,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2023-05-13T15:58:59Z"
     },
     {
       "repository_name": "SolderedElectronics/Soldered-LCD-library",
@@ -299988,16 +300057,20 @@
       "repository_name": "Gigasitron-xcross/XC_GUI",
       "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
       "name": "XC_GUI",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-02T05:16:29.476Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-02T12:35:31.229Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-02T05:16:29.476Z",
-      "last_seen_sha": "63221b2434d6",
+      "last_seen_sha": "0dba901bfad5",
       "author": "Gigasitron Xcross",
       "maintainer": "Gigasitron <inquiry@gigasitron.com>",
       "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
@@ -300009,8 +300082,9 @@
         "esp32",
         "samd"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.1.zip",
-      "size": 1232998,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.2.zip",
+      "size": 1233036,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -304455,7 +304529,7 @@
   "stats": {
     "total_categories": 81,
     "total_architectures": 160,
-    "with_github_metadata": 9420,
-    "total_dependencies": 5146
+    "with_github_metadata": 9422,
+    "total_dependencies": 5151
   }
 }

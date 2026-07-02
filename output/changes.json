@@ -1,61 +1,6 @@
 {
-  "since": "2026-07-02T22:20:55.788Z",
+  "since": "2026-07-02T23:22:30.335Z",
   "new_libraries": [],
-  "updated_libraries": [
-    {
-      "library": {
-        "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
-        "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
-        "name": "DeterministicESPAsyncWebServer",
-        "version": "4.79.0",
-        "version_history": [
-          {
-            "version": "4.64.1",
-            "seen_at": "2026-06-30T09:01:40Z"
-          },
-          {
-            "version": "4.65.0",
-            "seen_at": "2026-07-02T07:02:30.220Z"
-          },
-          {
-            "version": "4.68.0",
-            "seen_at": "2026-07-02T09:00:05.763Z"
-          },
-          {
-            "version": "4.71.0",
-            "seen_at": "2026-07-02T18:29:07.959Z"
-          },
-          {
-            "version": "4.74.0",
-            "seen_at": "2026-07-02T20:26:38.811Z"
-          },
-          {
-            "version": "4.79.0",
-            "seen_at": "2026-07-02T22:20:55.788Z"
-          }
-        ],
-        "release_count": 6,
-        "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "37cfbfdeee53",
-        "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
-        "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
-        "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
-        "paragraph": "Serves RFC 7230 HTTP/1.1 (routes matched in insertion order; the parser validates every request byte-by-byte and auto-sends 400/413/414/501 with no application code), WebSocket (RFC 6455), Server-Sent Events, Basic/Digest auth, static file serving, multipart, JSON, templating, and a middleware pipeline, plus opt-in HTTPS/TLS, SSH, Telnet, and SNMP (v1/v2c/v3). All buffers are statically sized at compile time and no heap is used after begin(); feature flags strip unused subsystems.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.79.0.zip",
-        "size": 2241749,
-        "previous_version": "4.74.0",
-        "github_stars": 3,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-02T06:46:32Z"
-      },
-      "old_version": "4.74.0",
-      "new_version": "4.79.0"
-    }
-  ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

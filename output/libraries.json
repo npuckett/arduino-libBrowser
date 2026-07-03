@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T19:28:43.715Z",
-  "total_libraries": 9632,
-  "index_etag": "W/\"d8f7ef1ad0388661390c9cd7bc485819\"",
-  "index_last_modified": "Fri, 03 Jul 2026 18:59:11 GMT",
+  "enhanced_at": "2026-07-03T20:23:17.243Z",
+  "total_libraries": 9629,
+  "index_etag": "W/\"eb0d6701c11cfcaf978d2e2180d9e2fc\"",
+  "index_last_modified": "Fri, 03 Jul 2026 19:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -57906,43 +57906,6 @@
       "github_updated_at": "2018-07-15T10:39:14Z"
     },
     {
-      "repository_name": "ozobot/drvkit_library",
-      "repository_url": "https://github.com/ozobot/drvkit_library",
-      "name": "circuit_kit_library",
-      "version": "0.0.2",
-      "version_history": [
-        {
-          "version": "0.0.5",
-          "seen_at": "2026-06-13T08:42:16Z"
-        },
-        {
-          "version": "0.0.2",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-13T08:42:16Z",
-      "last_seen_sha": "1b12d9dd2b75",
-      "author": "opilat",
-      "maintainer": "opilat <ondrej.pilat@ozobot.com>",
-      "sentence": "Ozobot circuit kit library",
-      "paragraph": "HAL for the Ozobot circuit kit platform. It defines structures and object for interacting with diverse sensor suite like proximity sensors, line following etc.",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "depends": [
-        "Wire"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ozobot/circuit_kit_library-0.0.2.zip",
-      "size": 6370,
-      "previous_version": "0.0.5",
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-12T13:18:48Z"
-    },
-    {
       "repository_name": "Circuit-Digest/CircuitDigestCloud",
       "repository_url": "https://github.com/Circuit-Digest/CircuitDigestCloud",
       "name": "CircuitDigestCloud",
@@ -58324,17 +58287,21 @@
     {
       "repository_name": "PLGdevo/CKC_LIB",
       "repository_url": "https://github.com/PLGdevo/CKC_LIB",
-      "name": "CKC_AIoT-lib",
-      "version": "1.3.6",
+      "name": "CKC AIOT",
+      "version": "1.3.9",
       "version_history": [
         {
           "version": "1.3.6",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.3.9",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "3f03499a957e",
+      "last_seen_sha": "c9084a230d3b",
       "author": "PLGdevo <PLGgroup27@gmail.com>",
       "maintainer": "PLGdevo <PLGgroup27@gmail.com>",
       "sentence": "IoT communication library for CKC platform",
@@ -58344,8 +58311,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PLGdevo/CKC_AIoT_lib-1.3.6.zip",
-      "size": 69145,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PLGdevo/CKC_AIOT-1.3.9.zip",
+      "size": 72986,
+      "previous_version": "1.3.6",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -70072,7 +70040,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.86.1",
+      "version": "4.90.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70113,11 +70081,15 @@
         {
           "version": "4.86.1",
           "seen_at": "2026-07-03T07:00:58.370Z"
+        },
+        {
+          "version": "4.90.0",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "a68547cfeb84",
+      "last_seen_sha": "1084e1191c32",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70126,9 +70098,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.86.1.zip",
-      "size": 2346780,
-      "previous_version": "4.84.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.90.0.zip",
+      "size": 2355787,
+      "previous_version": "4.86.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -76180,7 +76152,7 @@
       "repository_name": "soosp/DigitalOutput",
       "repository_url": "https://github.com/soosp/DigitalOutput",
       "name": "DigitalOutput",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.2.0",
@@ -76189,11 +76161,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-07-03T14:43:59.525Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-03T12:34:01.657Z",
-      "last_seen_sha": "4a0fc06df80e",
+      "last_seen_sha": "c42fd28b3467",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "A lightweight, multi-platform, thread-safe, and glitch-free digital output control library for Arduino.",
@@ -76206,9 +76182,9 @@
       "depends": [
         "Adafruit-MCP23017-Arduino-Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.3.0.zip",
-      "size": 24787,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.3.1.zip",
+      "size": 25706,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -78114,16 +78090,20 @@
       "repository_name": "Zeppelin500/DlmsCosemLib",
       "repository_url": "https://github.com/Zeppelin500/DlmsCosemLib",
       "name": "DlmsCosemLib",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-01-02T21:35:40Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-02T21:35:40Z",
-      "last_seen_sha": "6d20a3ed91f4",
+      "last_seen_sha": "87eaab5fd343",
       "author": "Zeppelin500 <mbusinolib@gmail.com>",
       "maintainer": "Zeppelin500 <mbusinolib@gmail.com>",
       "sentence": "Arduino P1 DLMS / COSEM decoder Library for austrian el. energy meters",
@@ -78132,14 +78112,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-02-16T13:48:34Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/Zeppelin500/DlmsCosemLib.git"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/DlmsCosemLib-0.1.1.zip",
+      "size": 24246,
+      "previous_version": "0.1.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-02-16T13:48:34Z"
     },
     {
       "repository_name": "kremio/DLPacket",
@@ -79743,6 +79725,48 @@
         "analogWrite"
       ],
       "download_url": "https://github.com/0x6flab/satima-arduinolibrary/tree/main/arduino"
+    },
+    {
+      "repository_name": "ozobot/drvkit_library",
+      "repository_url": "https://github.com/ozobot/drvkit_library",
+      "name": "drvkit_library",
+      "version": "0.0.5",
+      "version_history": [
+        {
+          "version": "0.0.5",
+          "seen_at": "2026-06-13T08:42:16Z"
+        },
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.0.5",
+          "seen_at": "2026-07-03T20:23:13.146Z"
+        }
+      ],
+      "release_count": 3,
+      "first_seen_at": "2026-06-13T08:42:16Z",
+      "last_seen_sha": "5bcab13b3d1e",
+      "author": "opilat",
+      "maintainer": "opilat <ondrej.pilat@ozobot.com>",
+      "sentence": "Ozobot DRVKit library",
+      "paragraph": "HAL for the Ozobot DRVKit platform. It defines structures and objects for interacting with diverse sensor suite like proximity sensors, line following etc.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "CRC32",
+        "AT24C"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ozobot/drvkit_library-0.0.5.zip",
+      "size": 11763,
+      "previous_version": "0.0.2",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-12T13:18:48Z"
     },
     {
       "repository_name": "Destination-SPACE/DS_MCP4018_Library",
@@ -109358,38 +109382,32 @@
       "download_url": "https://github.com/Nilon123456789/Firmetix-Library"
     },
     {
-      "repository_name": "firmngin/firmnginKit",
-      "repository_url": "https://github.com/firmngin/firmnginKit",
-      "name": "firmnginKit",
-      "version": "0.0.5",
+      "repository_name": "firmngin/Firmngin-Arduino",
+      "repository_url": "https://github.com/firmngin/Firmngin-Arduino",
+      "name": "firmngin",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.2",
-          "seen_at": "2026-06-20T08:51:02Z"
-        },
-        {
-          "version": "0.0.5",
-          "seen_at": "2026-06-30T22:37:15.403Z"
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-20T08:51:02Z",
-      "last_seen_sha": "f3d1d7ad8285",
+      "release_count": 1,
+      "first_seen_at": "2026-07-03T20:23:13.146Z",
+      "last_seen_sha": "cf8260e01c83",
       "author": "Asya Syarif <asya.syarif94@gmail.com>",
       "maintainer": "Asya Syarif <asya.syarif94@gmail.com>",
-      "sentence": "Library for monetization your IoT devices",
-      "paragraph": "Unlock the potential of your IoT devices to accept payments and integrate them with ease",
+      "sentence": "Connect any IoT device to Firmngin and start earning",
+      "paragraph": "All-in-one Firmngin AIoT integration for ESP32 and ESP8266. Supports device onboarding, payments, state management, and real-time monitoring.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
       "depends": [
-        "PubSubClient",
-        "ArduinoJson"
+        "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmnginKit-0.0.5.zip",
-      "size": 12623,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmngin-1.0.2.zip",
+      "size": 105099,
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",
@@ -138137,6 +138155,36 @@
       "github_updated_at": "2026-01-28T20:05:18Z"
     },
     {
+      "repository_name": "Sakuhano/JoystickButton",
+      "repository_url": "https://github.com/Sakuhano/JoystickButton",
+      "name": "JoystickButton",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-03T20:23:13.146Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-03T20:23:13.146Z",
+      "last_seen_sha": "f7135c141331",
+      "author": "Sakuhano",
+      "maintainer": "Sakuhano",
+      "sentence": "Joystick input to button for usage in menus",
+      "paragraph": "Used to navigate menus, uses ezButton for button input",
+      "category": "Uncategorized",
+      "architectures": [
+        "ESP32",
+        "MEGA2560"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sakuhano/JoystickButton-1.0.0.zip",
+      "size": 4027,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-21T03:56:07Z"
+    },
+    {
       "repository_name": "MOMIZICH/JoystickController",
       "repository_url": "https://github.com/moizlu/JoystickController",
       "name": "JoystickController",
@@ -138163,41 +138211,6 @@
       "github_language": "C++",
       "github_updated_at": "2024-10-08T18:19:57Z",
       "download_url": "https://github.com/mmz-bin/JoystickController"
-    },
-    {
-      "repository_name": "Sakuhano/JoystickProtocol",
-      "repository_url": "https://github.com/Sakuhano/JoystickProtocol",
-      "name": "JoystickProtocol",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "v1.0.0",
-          "seen_at": "2026-06-22T09:46:20Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-22T09:46:20Z",
-      "last_seen_sha": "979845536e0e",
-      "author": "Sakuhano",
-      "maintainer": "Sakuhano <your.email@example.com>",
-      "sentence": "Joystick input to button for usage in menus",
-      "paragraph": "Used to navigate menus, uses ezButton for button input",
-      "category": "Uncategorized",
-      "architectures": [
-        "ESP32",
-        "MEGA2560"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sakuhano/JoystickProtocol-1.0.0.zip",
-      "size": 3968,
-      "previous_version": "v1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-21T03:56:07Z"
     },
     {
       "repository_name": "bitbank2/JPEGDEC",
@@ -171257,6 +171270,35 @@
       "download_url": "https://github.com/MicroSui/microsui-lib"
     },
     {
+      "repository_name": "Moaaz-i/MicroTaskX",
+      "repository_url": "https://github.com/Moaaz-i/MicroTaskX",
+      "name": "MicroTaskX",
+      "version": "4.0.0",
+      "version_history": [
+        {
+          "version": "4.0.0",
+          "seen_at": "2026-07-03T20:23:13.146Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-03T20:23:13.146Z",
+      "last_seen_sha": "ed44d267cf0a",
+      "author": "Moaaz Yahia Shrif",
+      "maintainer": "Moaaz Yahia Shrif <famile.sherif@gmail.com>",
+      "sentence": "A modular micro-RTOS for Arduino with priority scheduling, task args, micros-precision timing, WDT, ISR queuing, coroutines, signals, mutexes, PID, Kalman, software PWM, rotary encoder, and real-time CPU profiling.",
+      "paragraph": "MicroTaskX v3.1 transforms Arduino into a high-efficiency micro-RTOS. Features: template-based priority scheduler with task arguments and microsecond precision, dynamic task management (add/remove/pause/resume tasks at runtime), Watchdog Timer integration, ISR event queuing, cooperative coroutines, inter-task signals and mutexes, PID control, Kalman filtering, software PWM generation, rotary encoder support, and real-time CPU usage profiling. Includes smart low-power modes (Idle Sleep for AVR, Light Sleep for ESP32), hardware utilities for fast GPIO manipulation, analog smoothing with EMA filters, button debouncing, and independent macro timers. Zero-copy architecture maximizes performance on resource-constrained microcontrollers.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Moaaz-i/MicroTaskX-4.0.0.zip",
+      "size": 19185,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T03:23:59Z"
+    },
+    {
       "repository_name": "SerhiiLe/microTelegramAPI",
       "repository_url": "https://github.com/SerhiiLe/microTelegramAPI",
       "name": "microTelegramAPI",
@@ -173067,7 +173109,7 @@
       "repository_name": "owochel/MistMaker",
       "repository_url": "https://github.com/owochel/MistMaker",
       "name": "MistMaker",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.1.0",
@@ -173076,22 +173118,26 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-20T08:17:07Z",
-      "last_seen_sha": "31231a12cd30",
+      "last_seen_sha": "408e03e33b1a",
       "author": "shuang cai, David Yang",
       "maintainer": "shuangcai64@gmail.com",
-      "sentence": "A library to control a mist maker under OSHWA ID US002742 with PWM and current sensing.",
-      "paragraph": "Encapsulates mist maker control functions, including PWM, current sensing, and optional button toggling.",
+      "sentence": "A library to control a mist maker under OSHWA ID US002742 with PWM, current sensing, and battery monitoring.",
+      "paragraph": "Encapsulates mist maker control functions: 108.7kHz PWM with dimming, piezo current sensing with auto/manual calibration, disc and water-level detection, battery voltage monitoring with USB-vs-cell power-source detection (mux status) and graceful low-battery shutdown, and pin presets for all official Programmable Mist Maker PCB variants.",
       "category": "Signal Input/Output",
       "architectures": [
-        "*"
+        "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-1.0.0.zip",
-      "size": 5328,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-2.0.0.zip",
+      "size": 61184,
+      "previous_version": "1.0.0",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "JavaScript",
@@ -210340,26 +210386,31 @@
       "repository_name": "PTSolns/I2Connect_AHT20",
       "repository_url": "https://github.com/PTSolns/I2Connect_AHT20",
       "name": "PTSolns_I2Connect_AHT20",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-02T09:00:05.763Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-02T09:00:05.763Z",
-      "last_seen_sha": "13426228d39a",
+      "last_seen_sha": "55656837ea77",
       "author": "PTSolns",
       "maintainer": "PTSolns <support@ptsolns.com>",
-      "sentence": "Arduino library for the PTSolns I2Connect AHT20 module.",
+      "sentence": "library for the PTSolns I2Connect AHT20 module.",
       "paragraph": "Provides simple read humidity and temperature for the PTSolns I2Connect AHT20 module using I2C.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.0.zip",
-      "size": 12438,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.1.zip",
+      "size": 12433,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -234077,16 +234128,20 @@
       "repository_name": "maker-wesley/SensorRoxoOBR",
       "repository_url": "https://github.com/maker-wesley/SensorRoxoOBR",
       "name": "SensorRoxoOBR",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-02T18:29:07.959Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-02T18:29:07.959Z",
-      "last_seen_sha": "b7c2a7d143e6",
+      "last_seen_sha": "27f5a5ad6bd6",
       "author": "Wesley Oliveira <wesleycooliveira@gmail.com>",
       "maintainer": "Wesley Oliveira <wesleycooliveira@gmail.com>",
       "sentence": "Facilita o uso do sensor de cor TCS34725 via multiplexador I2C para robôs da OBR.",
@@ -234095,8 +234150,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/maker-wesley/SensorRoxoOBR-1.0.1.zip",
-      "size": 5514,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/maker-wesley/SensorRoxoOBR-1.0.3.zip",
+      "size": 5683,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -258063,7 +258119,7 @@
       "repository_name": "RobTillaart/SparseMatrix",
       "repository_url": "https://github.com/RobTillaart/SparseMatrix",
       "name": "SparseMatrix",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "version_history": [
         {
           "version": "0.1.5",
@@ -258072,11 +258128,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:28:10Z",
-      "last_seen_sha": "473f464b1ede",
+      "last_seen_sha": "16fc3e75379f",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for sparse matrices.",
@@ -258084,9 +258144,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/SparseMatrix-0.2.0.zip",
-      "size": 19225,
-      "previous_version": "0.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/SparseMatrix-0.2.1.zip",
+      "size": 19460,
+      "previous_version": "0.2.0",
       "github_stars": 3,
       "github_forks": 2,
       "github_language": "C++",
@@ -288319,40 +288379,6 @@
       "download_url": "https://github.com/mmmarinho/umirobot-arduino"
     },
     {
-      "repository_name": "Moaaz-i/UMOZ",
-      "repository_url": "https://github.com/Moaaz-i/UMOZ",
-      "name": "UMOZ",
-      "version": "2.5.0",
-      "version_history": [
-        {
-          "version": "4.0.0",
-          "seen_at": "2026-06-29T08:37:45Z"
-        },
-        {
-          "version": "2.5.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-06-29T08:37:45Z",
-      "last_seen_sha": "5aafe7050fdd",
-      "author": "Moaaz Yahia Shrif",
-      "maintainer": "Moaaz <[EMAIL_ADDRESS]>",
-      "sentence": "An ultra-lightweight multitasking framework with real-time CPU profiling and a priority-based background scheduler.",
-      "paragraph": "UMOZ transforms your Arduino environment into a micro-RTOS. It injects performance boosters directly into setup and loop, providing macro-driven timers, a priority-aware background task scheduler, high-speed direct port manipulation, smart analog smoothing, and continuous CPU usage monitoring with near-zero overhead.",
-      "category": "Timing",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Moaaz-i/UMOZ-2.5.0.zip",
-      "size": 10364,
-      "previous_version": "4.0.0",
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-29T03:23:59Z",
-      "github_language": "C++"
-    },
-    {
       "repository_name": "UnexpectedMaker/esp32s3-arduino-helper",
       "repository_url": "https://github.com/UnexpectedMaker/esp32s3-arduino-helper",
       "name": "UMS3 Helper",
@@ -292919,100 +292945,6 @@
       "github_updated_at": "2026-02-08T19:34:36Z",
       "license": "BSD-3-Clause",
       "download_url": "https://github.com/kamilpajak/VirtualTherm"
-    },
-    {
-      "repository_name": "iliaslamprou/virtuino",
-      "repository_url": "https://github.com/iliaslamprou/virtuino",
-      "name": "Virtuino",
-      "version": "1.8.0",
-      "version_history": [
-        {
-          "version": "1.8.0",
-          "seen_at": "2025-07-21T16:16:37Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2025-07-21T16:16:37Z",
-      "last_seen_sha": "904ae7b47fae",
-      "author": "Ilias Lamprou <iliaslampr@gmail.com>",
-      "maintainer": "Ilias Lamprou <iliaslampr@gmail.com>",
-      "sentence": "Required for communication with Virtuino app",
-      "paragraph": "",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "github_stars": 3,
-      "github_forks": 4,
-      "github_language": "C++",
-      "github_updated_at": "2025-10-07T17:01:16Z",
-      "download_url": "https://github.com/iliaslamprou/virtuino"
-    },
-    {
-      "repository_name": "iliaslamprou/virtuinoESP",
-      "repository_url": "https://github.com/iliaslamprou/virtuinoESP",
-      "name": "Virtuino library for all ESP8266 and ESP32 boards",
-      "version": "1.7.2",
-      "version_history": [
-        {
-          "version": "1.8.0",
-          "seen_at": "2025-07-21T16:16:38Z"
-        },
-        {
-          "version": "1.7.2",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2025-07-21T16:16:38Z",
-      "last_seen_sha": "49f6ac851b75",
-      "author": "Ilias Lamprou <iliaslampr@gmail.com>",
-      "maintainer": "Ilias Lamprou <iliaslampr@gmail.com>",
-      "sentence": "Required for communication with Virtuino app",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iliaslamprou/Virtuino_library_for_all_ESP8266_and_ESP32_boards-1.7.2.zip",
-      "size": 22067,
-      "previous_version": "1.8.0",
-      "github_stars": 7,
-      "github_forks": 2,
-      "github_language": "C++",
-      "github_updated_at": "2024-08-27T07:15:06Z"
-    },
-    {
-      "repository_name": "iliaslamprou/virtuino_stm32",
-      "repository_url": "https://github.com/iliaslamprou/virtuino_stm32",
-      "name": "Virtuino library for STM32 boards",
-      "version": "1.6.3",
-      "version_history": [
-        {
-          "version": "1.6.3",
-          "seen_at": "2025-07-21T16:16:37Z"
-        },
-        {
-          "version": "1.6.3",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2025-07-21T16:16:37Z",
-      "last_seen_sha": "909a4b60e55d",
-      "author": "<iliaslampr@gmail.com>",
-      "maintainer": "<iliaslampr@gmail.com>",
-      "sentence": "Required for communication with Virtuino app",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iliaslamprou/Virtuino_library_for_STM32_boards-1.6.3.zip",
-      "size": 55293,
-      "previous_version": "1.6.3",
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2022-01-03T23:29:55Z"
     },
     {
       "repository_name": "iliaslamprou/VirtuinoCloud",
@@ -299845,16 +299777,20 @@
       "repository_name": "kitesurfer1404/WS2812FX",
       "repository_url": "https://github.com/kitesurfer1404/WS2812FX",
       "name": "WS2812FX",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "version_history": [
         {
           "version": "1.4.6",
           "seen_at": "2026-06-30T08:34:36Z"
+        },
+        {
+          "version": "1.4.7",
+          "seen_at": "2026-07-03T20:23:13.146Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:34:36Z",
-      "last_seen_sha": "f4ff724d268b",
+      "last_seen_sha": "dc21ef50fd11",
       "author": "Harm Aldick",
       "maintainer": "Harm Aldick",
       "sentence": "WS2812 FX Library for Arduino and ESP microprocessors.",
@@ -299863,14 +299799,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 1717,
-      "github_forks": 364,
-      "github_updated_at": "2026-06-30T01:21:39Z",
       "depends": [
         "Adafruit NeoPixel"
       ],
-      "download_url": "https://github.com/kitesurfer1404/WS2812FX",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kitesurfer1404/WS2812FX-1.4.7.zip",
+      "size": 1061534,
+      "previous_version": "1.4.6",
+      "github_stars": 1717,
+      "github_forks": 364,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-30T01:21:39Z"
     },
     {
       "repository_name": "Jueff/WS281xProcessor",
@@ -304869,7 +304807,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9429,
+    "with_github_metadata": 9426,
     "total_dependencies": 5150
   }
 }

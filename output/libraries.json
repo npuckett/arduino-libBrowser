@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T09:00:22.578Z",
-  "total_libraries": 9630,
-  "index_etag": "W/\"63f2f9dcf572ec7e22acb96fb786e193\"",
-  "index_last_modified": "Fri, 03 Jul 2026 08:59:11 GMT",
+  "enhanced_at": "2026-07-03T10:52:11.436Z",
+  "total_libraries": 9631,
+  "index_etag": "W/\"76551d3df66bcd87ce8f28208efdf06f\"",
+  "index_last_modified": "Fri, 03 Jul 2026 10:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -101870,7 +101870,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -101879,11 +101879,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-07-03T07:00:58.370Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-03T10:52:10.012Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "256fd63d6e89",
+      "last_seen_sha": "578220651baa",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -101892,9 +101896,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.1.1.zip",
-      "size": 175545,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.0.zip",
+      "size": 184939,
+      "previous_version": "1.1.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -115697,7 +115701,7 @@
       "repository_name": "4dsystems/GFX4dESP32P4",
       "repository_url": "https://github.com/4dsystems/GFX4dESP32P4",
       "name": "GFX4dESP32P4",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.0",
@@ -115706,11 +115710,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-03T10:52:10.012Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-03T07:29:06Z",
-      "last_seen_sha": "18e8276348b9",
+      "last_seen_sha": "c243f892d270",
       "author": "4D Systems Pty Ltd",
       "maintainer": "4D Systems Pty Ltd <engineering@4dsystems.com.au>",
       "sentence": "Graphics Library for the ESP32-P4 displays by 4D Systems",
@@ -115719,9 +115727,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/4dsystems/GFX4dESP32P4-1.1.1.zip",
-      "size": 13197283,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/4dsystems/GFX4dESP32P4-1.1.2.zip",
+      "size": 13197357,
+      "previous_version": "1.1.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -200032,29 +200040,35 @@
       "repository_name": "drmpf/pfodParser",
       "repository_url": "https://github.com/drmpf/pfodParser",
       "name": "pfodParser",
-      "version": "5.0.4",
+      "version": "5.1.0",
       "version_history": [
         {
           "version": "5.0.4",
           "seen_at": "2026-06-30T08:26:42Z"
+        },
+        {
+          "version": "5.1.0",
+          "seen_at": "2026-07-03T10:52:10.012Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:26:42Z",
-      "last_seen_sha": "daeb5fce43cd",
+      "last_seen_sha": "e7e75dffbfc0",
       "author": "Matthew Ford",
       "maintainer": "Matthew Ford",
       "sentence": "A library to parse pfod messages sent from pfodApp / pfodWeb.html and includes pfodWeb.html which connects via Serial, BLE, Tcp/Ip and HTTP to display interactive menus and GUI's in your browser.",
       "paragraph": "pfodParser serves GUI's to pfodWeb.html and handles the user's commands.  pfodWeb.html is open source and does not need an internet connection. It runs in your browser and connects via Serial, BLE, TCP/IP socket or HTTP to display an interactive GUI to control your board, completely defined by your board sketch.",
-      "category": "Device Control, Communication",
+      "category": "Uncategorized",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/drmpf/pfodParser-5.1.0.zip",
+      "size": 7435233,
+      "previous_version": "5.0.4",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-30T04:58:48Z",
-      "download_url": "https://github.com/drmpf/pfodParser",
-      "github_language": "HTML"
+      "github_language": "HTML",
+      "github_updated_at": "2026-06-30T04:58:48Z"
     },
     {
       "repository_name": "GyverLibs/pgm_utils",
@@ -233163,6 +233177,38 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-02T11:45:38Z"
+    },
+    {
+      "repository_name": "Sensirion/arduino-i2c-stc42",
+      "repository_url": "https://github.com/Sensirion/arduino-i2c-stc42",
+      "name": "Sensirion I2C STC42",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-03T10:52:10.012Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-03T10:52:10.012Z",
+      "last_seen_sha": "61b6c66a25ad",
+      "author": "Sensirion",
+      "maintainer": "Sensirion",
+      "sentence": "Library for the STC42 sensor by Sensirion",
+      "paragraph": "Enables you to use the STC42 sensor via I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Sensirion Core"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_STC42-1.0.1.zip",
+      "size": 2506084,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-03T08:09:46Z"
     },
     {
       "repository_name": "Sensirion/arduino-i2c-stcc4",
@@ -304768,9 +304814,9 @@
     }
   ],
   "stats": {
-    "total_categories": 81,
+    "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9427,
-    "total_dependencies": 5149
+    "with_github_metadata": 9428,
+    "total_dependencies": 5150
   }
 }

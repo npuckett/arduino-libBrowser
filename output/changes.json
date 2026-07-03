@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-03T05:15:13.646Z",
+  "since": "2026-07-03T07:00:58.370Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "4.84.0",
+        "version": "4.86.1",
         "version_history": [
           {
             "version": "4.64.1",
@@ -44,11 +44,15 @@
           {
             "version": "4.84.0",
             "seen_at": "2026-07-03T05:15:13.646Z"
+          },
+          {
+            "version": "4.86.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
           }
         ],
-        "release_count": 9,
+        "release_count": 10,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "eecd625317da",
+        "last_seen_sha": "a68547cfeb84",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -57,69 +61,99 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.84.0.zip",
-        "size": 2330148,
-        "previous_version": "4.82.1",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.86.1.zip",
+        "size": 2346780,
+        "previous_version": "4.84.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "4.82.1",
-      "new_version": "4.84.0"
+      "old_version": "4.84.0",
+      "new_version": "4.86.1"
     },
     {
       "library": {
-        "repository_name": "Gigasitron-xcross/XC_GUI",
-        "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
-        "name": "XC_GUI",
-        "version": "1.0.5",
+        "repository_name": "tanakamasayuki/EspUsbDevice",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+        "name": "EspUsbDevice",
+        "version": "1.1.1",
         "version_history": [
           {
-            "version": "1.0.1",
-            "seen_at": "2026-07-02T05:16:29.476Z"
+            "version": "1.0.0",
+            "seen_at": "2026-07-01T11:48:44.907Z"
           },
           {
-            "version": "1.0.2",
-            "seen_at": "2026-07-02T12:35:31.229Z"
-          },
-          {
-            "version": "1.0.3",
-            "seen_at": "2026-07-02T16:32:49.876Z"
-          },
-          {
-            "version": "1.0.4",
-            "seen_at": "2026-07-03T03:00:23.932Z"
-          },
-          {
-            "version": "1.0.5",
-            "seen_at": "2026-07-03T05:15:13.646Z"
+            "version": "1.1.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
           }
         ],
-        "release_count": 5,
-        "first_seen_at": "2026-07-02T05:16:29.476Z",
-        "last_seen_sha": "ccb793195422",
-        "author": "Gigasitron Xcross",
-        "maintainer": "Gigasitron <inquiry@gigasitron.com>",
-        "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
-        "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
-        "category": "Display",
+        "release_count": 2,
+        "first_seen_at": "2026-07-01T11:48:44.907Z",
+        "last_seen_sha": "256fd63d6e89",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, and vendor-specific bulk/control APIs for ESP32 Arduino sketches.",
+        "category": "Device Control",
         "architectures": [
-          "stm32",
-          "rp2040",
-          "esp32",
-          "samd"
+          "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.5.zip",
-        "size": 1338497,
-        "previous_version": "1.0.4",
-        "github_stars": 0,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.1.1.zip",
+        "size": 175545,
+        "previous_version": "1.0.0",
+        "github_stars": 5,
         "github_forks": 0,
-        "github_language": "C",
-        "github_updated_at": "2026-07-02T02:49:37Z"
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:04:34Z"
       },
-      "old_version": "1.0.4",
-      "new_version": "1.0.5"
+      "old_version": "1.0.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "RedPitaya/SCPI-red-pitaya-arduino",
+        "repository_url": "https://github.com/RedPitaya/SCPI-red-pitaya-arduino",
+        "name": "SCPI Red Pitaya",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:37:58Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:37:58Z",
+        "last_seen_sha": "6f5c982b7b2d",
+        "author": "Red Pitaya <info@redpitaya.com>",
+        "maintainer": "Red Piataya <info@redpitaya.com>",
+        "sentence": "Arduino library for Red Pitaya SCPI server",
+        "paragraph": "Arduino library for Red Pitaya SCPI server",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RedPitaya/SCPI_Red_Pitaya-1.2.1.zip",
+        "size": 109785,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-16T05:18:31Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.2.1"
     }
   ],
   "removed_libraries": []

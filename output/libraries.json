@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T21:23:35.538Z",
+  "enhanced_at": "2026-07-03T22:19:21.935Z",
   "total_libraries": 9629,
-  "index_etag": "W/\"eb0d6701c11cfcaf978d2e2180d9e2fc\"",
-  "index_last_modified": "Fri, 03 Jul 2026 20:59:11 GMT",
+  "index_etag": "W/\"2759aede29ae8db50ff760072c9dd15c\"",
+  "index_last_modified": "Fri, 03 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70040,7 +70040,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.90.0",
+      "version": "4.92.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70085,11 +70085,15 @@
         {
           "version": "4.90.0",
           "seen_at": "2026-07-03T20:23:13.146Z"
+        },
+        {
+          "version": "4.92.0",
+          "seen_at": "2026-07-03T22:19:21.814Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "1084e1191c32",
+      "last_seen_sha": "beda760b1e99",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70098,9 +70102,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.90.0.zip",
-      "size": 2355787,
-      "previous_version": "4.86.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.92.0.zip",
+      "size": 2361686,
+      "previous_version": "4.90.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -281745,7 +281749,7 @@
       "repository_name": "vasya-zh/TMD3725",
       "repository_url": "https://github.com/vasya-zh/TMD3725",
       "name": "TMD3725",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.2.0",
@@ -281754,22 +281758,27 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-07-03T22:19:21.814Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:04:19Z",
-      "last_seen_sha": "bc494459a06d",
+      "last_seen_sha": "da7274fde1e1",
       "author": "Vasilii Zhuravskii",
       "maintainer": "vasya-zh <vasily.zhuravsky@gmail.com>",
       "sentence": "Arduino library for TMD3725 RGB color sensor",
       "category": "Sensors",
       "architectures": [
         "esp8266",
-        "esp32"
+        "esp32",
+        "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vasya-zh/TMD3725-0.3.0.zip",
-      "size": 96139,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vasya-zh/TMD3725-0.3.1.zip",
+      "size": 97027,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

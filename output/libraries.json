@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-02T23:22:30.454Z",
+  "enhanced_at": "2026-07-03T00:24:18.831Z",
   "total_libraries": 9628,
-  "index_etag": "W/\"84d530bde3e445ccde55a3b82446add5\"",
-  "index_last_modified": "Thu, 02 Jul 2026 22:59:11 GMT",
+  "index_etag": "W/\"a18e1df3eb5a459b300d1f80706ff073\"",
+  "index_last_modified": "Thu, 02 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70066,7 +70066,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.79.0",
+      "version": "4.81.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70091,11 +70091,15 @@
         {
           "version": "4.79.0",
           "seen_at": "2026-07-02T22:20:55.788Z"
+        },
+        {
+          "version": "4.81.0",
+          "seen_at": "2026-07-03T00:24:18.708Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "37cfbfdeee53",
+      "last_seen_sha": "ea574175c44b",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70104,9 +70108,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.79.0.zip",
-      "size": 2241749,
-      "previous_version": "4.74.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.81.0.zip",
+      "size": 2269640,
+      "previous_version": "4.79.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -187504,27 +187508,32 @@
       "repository_name": "dunknowcoding/NiusCam",
       "repository_url": "https://github.com/dunknowcoding/NiusCam",
       "name": "NiusCam",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-07-01T20:32:34.966Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-03T00:24:18.708Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-01T20:32:34.966Z",
-      "last_seen_sha": "3bdf473a8804",
+      "last_seen_sha": "8e692438a07c",
       "author": "dunknowcoding",
       "maintainer": "dunknowcoding",
       "sentence": "Typed camera capture, control, storage, and streaming for ESP32 camera modules as AI Thinker, XIAO S3 Sense, ESP32-S3-Cam.",
-      "paragraph": "Provides verified board profiles, safe frame ownership, capability-aware sensor controls, microSD storage, HTTP snapshots and MJPEG, CRC-protected UDP framing, diagnostics, recovery, and configurable performance profiles on top of Espressif's bundled camera driver.",
+      "paragraph": "Provides verified board and optical-module profiles, optional OV5640 direct-PSRAM DMA and autofocus, OV2640 low-light timing, safe frame ownership, capability-aware controls, microSD storage, HTTP/MJPEG and CRC-protected UDP streaming, diagnostics, recovery, and configurable performance profiles on top of Espressif's bundled camera driver.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
       "license": "Apache-2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusCam-0.1.0.zip",
-      "size": 65797,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusCam-0.2.0.zip",
+      "size": 95507,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -202281,7 +202290,7 @@
       "repository_name": "kwlew/PIDEasy-Improved",
       "repository_url": "https://github.com/kwlew/PIDEasy-Improved",
       "name": "PIDEasy-Improved",
-      "version": "1.0.1",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.1",
@@ -202290,11 +202299,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.6",
+          "seen_at": "2026-07-03T00:24:18.708Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:59:38Z",
-      "last_seen_sha": "a42687ef4760",
+      "last_seen_sha": "690cb539e129",
       "author": "Kaleo S. Mendonça",
       "maintainer": "<kaleosoaresmendonca@gmail.com>",
       "sentence": "A simple and efficient PID controller library for Arduino.",
@@ -202303,13 +202316,13 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.0.1.zip",
-      "size": 6285,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.0.6.zip",
+      "size": 9883,
       "previous_version": "1.0.1",
       "github_stars": 1,
       "github_forks": 0,
-      "github_updated_at": "2026-06-29T20:32:12Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T20:32:12Z"
     },
     {
       "repository_name": "winglander/PiicoDev_Button",
@@ -212628,7 +212641,7 @@
       "repository_name": "HamzaYslmn/python-esp-bridge",
       "repository_url": "https://github.com/HamzaYslmn/python-esp-bridge",
       "name": "python esp bridge",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "version_history": [
         {
           "version": "0.15.0",
@@ -212637,11 +212650,15 @@
         {
           "version": "0.15.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.16.0",
+          "seen_at": "2026-07-03T00:24:18.708Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-18T08:53:41Z",
-      "last_seen_sha": "92b5be845d74",
+      "last_seen_sha": "ad42692f70f3",
       "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
@@ -212651,8 +212668,8 @@
         "esp32",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.15.0.zip",
-      "size": 1709544,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-0.16.0.zip",
+      "size": 1725039,
       "previous_version": "0.15.0",
       "github_stars": 9,
       "github_forks": 3,

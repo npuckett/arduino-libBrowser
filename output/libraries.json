@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T13:31:53.828Z",
+  "enhanced_at": "2026-07-03T14:43:59.664Z",
   "total_libraries": 9632,
-  "index_etag": "W/\"a5f6b637d930c3093b3ed9b6dbc744a2\"",
-  "index_last_modified": "Fri, 03 Jul 2026 13:29:11 GMT",
+  "index_etag": "W/\"baba67917878a0941307faa0cf202a4d\"",
+  "index_last_modified": "Fri, 03 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39029,16 +39029,20 @@
       "repository_name": "RobTillaart/avrheap",
       "repository_url": "https://github.com/RobTillaart/avrheap",
       "name": "AvrHeap",
-      "version": "0.2.7",
+      "version": "0.2.9",
       "version_history": [
         {
           "version": "0.2.7",
           "seen_at": "2025-07-21T16:27:03Z"
+        },
+        {
+          "version": "0.2.9",
+          "seen_at": "2026-07-03T14:43:59.525Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:27:03Z",
-      "last_seen_sha": "288ff5e1b5c9",
+      "last_seen_sha": "aa9d24d932e0",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Library to runtime analyse the structure of the heap (AVR 328).",
@@ -39047,11 +39051,13 @@
       "architectures": [
         "avr"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/AvrHeap-0.2.9.zip",
+      "size": 11064,
+      "previous_version": "0.2.7",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-11-22T17:39:27Z",
-      "download_url": "https://github.com/RobTillaart/avrheap"
+      "github_updated_at": "2025-11-22T17:39:27Z"
     },
     {
       "repository_name": "lucasdietrich/AVRTOS",
@@ -76174,16 +76180,20 @@
       "repository_name": "soosp/DigitalOutput",
       "repository_url": "https://github.com/soosp/DigitalOutput",
       "name": "DigitalOutput",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-07-03T12:34:01.657Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-07-03T14:43:59.525Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-03T12:34:01.657Z",
-      "last_seen_sha": "8622b81e9b33",
+      "last_seen_sha": "4a0fc06df80e",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "A lightweight, multi-platform, thread-safe, and glitch-free digital output control library for Arduino.",
@@ -76196,8 +76206,9 @@
       "depends": [
         "Adafruit-MCP23017-Arduino-Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.2.0.zip",
-      "size": 21405,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.3.0.zip",
+      "size": 24787,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -197938,7 +197949,7 @@
       "repository_name": "pcbcupid/PCBCUPID-PLAYER",
       "repository_url": "https://github.com/pcbcupid/PCBCUPID-PLAYER",
       "name": "PCBCUPID_PLAYERS",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -197947,11 +197958,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-03T14:43:59.525Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:58:33Z",
-      "last_seen_sha": "0ede048fee53",
+      "last_seen_sha": "0b4c8353e5fa",
       "author": "Karthik Elumalai <codingkarthik2@gmail.com>",
       "maintainer": "PCBCUPID <hello@pcbcupid.com>",
       "sentence": "Audio player library for ESP32 with SD card, I2S output, and NAU8325 codec with amplifier control.",
@@ -197961,18 +197976,16 @@
         "esp32"
       ],
       "depends": [
-        "AudioTools",
-        "Arduino-Audio-Driver",
         "SD",
         "Wire"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_PLAYERS-1.0.0.zip",
-      "size": 17061,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_PLAYERS-1.0.1.zip",
+      "size": 17296,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-25T11:43:43Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-25T11:43:43Z"
     },
     {
       "repository_name": "pcbcupid/PCBCUPID-CYPHER",
@@ -304857,6 +304870,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9429,
-    "total_dependencies": 5152
+    "total_dependencies": 5150
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T07:08:53.858Z",
+  "enhanced_at": "2026-07-03T09:00:22.578Z",
   "total_libraries": 9630,
-  "index_etag": "",
-  "index_last_modified": "",
+  "index_etag": "W/\"63f2f9dcf572ec7e22acb96fb786e193\"",
+  "index_last_modified": "Fri, 03 Jul 2026 08:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -197930,16 +197930,20 @@
       "repository_name": "pcbcupid/PCBCUPID-CYPHER",
       "repository_url": "https://github.com/pcbcupid/PCBCUPID-CYPHER",
       "name": "PCBCUPID-Cypher",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-02T12:35:31.229Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-03T09:00:22.455Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-02T12:35:31.229Z",
-      "last_seen_sha": "d703731aa5a7",
+      "last_seen_sha": "689e4b752211",
       "author": "Abhishek N <an5600580@gmail.com>",
       "maintainer": "PCBCUPID <hello@pcbcupid.com>",
       "sentence": "Arduino board-support library for the PCBCUPID Cypher (ESP32-S3).",
@@ -197949,14 +197953,12 @@
         "esp32"
       ],
       "depends": [
-        "Wire",
-        "SPI",
-        "SD_MMC",
         "Adafruit GFX Library",
         "Adafruit ST7735 and ST7789 Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_Cypher-1.0.1.zip",
-      "size": 27812,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_Cypher-1.0.2.zip",
+      "size": 27800,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -304769,6 +304771,6 @@
     "total_categories": 81,
     "total_architectures": 160,
     "with_github_metadata": 9427,
-    "total_dependencies": 5152
+    "total_dependencies": 5149
   }
 }

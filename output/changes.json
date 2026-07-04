@@ -1,44 +1,63 @@
 {
-  "since": "2026-07-04T05:13:48.482Z",
+  "since": "2026-07-04T06:56:43.040Z",
   "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "tanakamasayuki/variants_collector",
-        "repository_url": "https://github.com/tanakamasayuki/variants_collector",
-        "name": "variants_collector",
-        "version": "0.1.13",
+        "repository_name": "Gigasitron-xcross/XC_GUI",
+        "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
+        "name": "XC_GUI",
+        "version": "1.0.7",
         "version_history": [
           {
-            "version": "0.1.12",
-            "seen_at": "2026-06-04T08:57:12Z"
+            "version": "1.0.1",
+            "seen_at": "2026-07-02T05:16:29.476Z"
           },
           {
-            "version": "0.1.13",
-            "seen_at": "2026-07-04T05:13:48.482Z"
+            "version": "1.0.2",
+            "seen_at": "2026-07-02T12:35:31.229Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-02T16:32:49.876Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-03T03:00:23.932Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-07-03T05:15:13.646Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-07-04T06:56:43.040Z"
           }
         ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-04T08:57:12Z",
-        "last_seen_sha": "ad66821d2056",
-        "author": "TANAKA Masayuki",
-        "maintainer": "TANAKA Masayuki",
-        "sentence": "Header-only library that exposes Arduino board variant pin definitions.",
-        "paragraph": "Provides compile-time constants for board metadata and pins collected from Board Manager packages, useful for runtime board auto-detection frameworks that run the same binary on multiple boards.",
-        "category": "Data Processing",
+        "release_count": 6,
+        "first_seen_at": "2026-07-02T05:16:29.476Z",
+        "last_seen_sha": "f0ac81d27ae0",
+        "author": "Gigasitron Xcross",
+        "maintainer": "Gigasitron <inquiry@gigasitron.com>",
+        "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+        "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+        "category": "Display",
         "architectures": [
-          "*"
+          "stm32",
+          "rp2040",
+          "esp32",
+          "samd"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/variants_collector-0.1.13.zip",
-        "size": 82474,
-        "previous_version": "0.1.12",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.7.zip",
+        "size": 1286590,
+        "previous_version": "1.0.5",
         "github_stars": 0,
         "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-04T03:41:40Z"
+        "github_language": "C",
+        "github_updated_at": "2026-07-02T02:49:37Z"
       },
-      "old_version": "0.1.12",
-      "new_version": "0.1.13"
+      "old_version": "1.0.5",
+      "new_version": "1.0.7"
     }
   ],
   "removed_libraries": []

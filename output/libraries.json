@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-03T23:20:55.342Z",
+  "enhanced_at": "2026-07-04T00:23:27.283Z",
   "total_libraries": 9629,
-  "index_etag": "W/\"2759aede29ae8db50ff760072c9dd15c\"",
-  "index_last_modified": "Fri, 03 Jul 2026 22:59:11 GMT",
+  "index_etag": "W/\"c359c3bc83761fb208bdb35297d81503\"",
+  "index_last_modified": "Fri, 03 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60938,16 +60938,20 @@
       "repository_name": "robotieee/compkit",
       "repository_url": "https://github.com/robotieee/compkit",
       "name": "compkit",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "version_history": [
         {
           "version": "1.3.1",
           "seen_at": "2026-05-26T08:20:45Z"
+        },
+        {
+          "version": "1.3.2",
+          "seen_at": "2026-07-04T00:23:27.139Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-26T08:20:45Z",
-      "last_seen_sha": "0b8d5eb1fd6f",
+      "last_seen_sha": "81ef3dfc0ea4",
       "author": "Alexandre Hiroyuki Yamauchi <alex.hiroyuki@outlook.com>",
       "maintainer": "Alexandre Hiroyuki Yamauchi <alex.hiroyuki@outlook.com>",
       "sentence": "A collection of libraries for competitive robotics",
@@ -60956,11 +60960,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/robotieee/compkit-1.3.2.zip",
+      "size": 34484,
+      "previous_version": "1.3.1",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-26T02:17:37Z",
-      "download_url": "https://github.com/robotieee/compkit"
+      "github_updated_at": "2026-05-26T02:17:37Z"
     },
     {
       "repository_name": "RobTillaart/Complex",
@@ -70040,7 +70046,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.92.0",
+      "version": "4.93.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70089,11 +70095,15 @@
         {
           "version": "4.92.0",
           "seen_at": "2026-07-03T22:19:21.814Z"
+        },
+        {
+          "version": "4.93.0",
+          "seen_at": "2026-07-04T00:23:27.139Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "beda760b1e99",
+      "last_seen_sha": "11dd3aaa33fe",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70102,9 +70112,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.92.0.zip",
-      "size": 2361686,
-      "previous_version": "4.90.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.93.0.zip",
+      "size": 2369473,
+      "previous_version": "4.92.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -213399,7 +213409,7 @@
       "repository_name": "ssilverman/QNEthernet",
       "repository_url": "https://github.com/ssilverman/QNEthernet",
       "name": "QNEthernet",
-      "version": "0.35.0",
+      "version": "0.36.0",
       "version_history": [
         {
           "version": "0.36.0-snapshot",
@@ -213408,26 +213418,30 @@
         {
           "version": "0.35.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.36.0",
+          "seen_at": "2026-07-04T00:23:27.139Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:48:10Z",
-      "last_seen_sha": "125c4bcf8a79",
+      "last_seen_sha": "fb7373b636ec",
       "author": "Shawn Silverman <shawn@pobox.com>",
       "maintainer": "Shawn Silverman <shawn@pobox.com>",
       "sentence": "An lwIP-based Ethernet library for Teensy 4.1 and other platforms.",
-      "paragraph": "This follows the Arduino-defined Ethernet API but is more full-featured. Additional features include: a more robust and complete API, an mDNS resolver, raw frame support, and many others.",
+      "paragraph": "This follows the Arduino-defined Ethernet API but is more full-featured. Additional features include: a more robust and complete API, an mDNS resolver, raw frame support, ping, and many others.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ssilverman/QNEthernet-0.35.0.zip",
-      "size": 1012787,
-      "previous_version": "0.36.0-snapshot",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ssilverman/QNEthernet-0.36.0.zip",
+      "size": 1021136,
+      "previous_version": "0.35.0",
       "github_stars": 123,
       "github_forks": 34,
-      "github_updated_at": "2026-06-29T16:26:35Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-29T16:26:35Z"
     },
     {
       "repository_name": "QuantumLeaps/qp-arduino",

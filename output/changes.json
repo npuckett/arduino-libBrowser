@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-04T19:26:57.049Z",
+  "since": "2026-07-04T20:18:45.100Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "4.95.2",
+        "version": "4.96.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -72,11 +72,15 @@
           {
             "version": "4.95.2",
             "seen_at": "2026-07-04T19:26:57.049Z"
+          },
+          {
+            "version": "4.96.0",
+            "seen_at": "2026-07-04T20:18:45.100Z"
           }
         ],
-        "release_count": 16,
+        "release_count": 17,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "5f65be62a269",
+        "last_seen_sha": "5906601fbff7",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -85,58 +89,16 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.95.2.zip",
-        "size": 2427940,
-        "previous_version": "4.95.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.96.0.zip",
+        "size": 2446730,
+        "previous_version": "4.95.2",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "4.95.0",
-      "new_version": "4.95.2"
-    },
-    {
-      "library": {
-        "repository_name": "superdmz/SuperDMZ-Arduino",
-        "repository_url": "https://github.com/superdmz/SuperDMZ-Arduino",
-        "name": "SuperDMZ",
-        "version": "1.2.0",
-        "version_history": [
-          {
-            "version": "1.1.14",
-            "seen_at": "2026-06-16T09:43:53Z"
-          },
-          {
-            "version": "1.2.0",
-            "seen_at": "2026-07-04T19:26:57.049Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-16T09:43:53Z",
-        "last_seen_sha": "6b06ce10e788",
-        "author": "SuperDMZ Team <support@superdmz.com>",
-        "maintainer": "SuperDMZ Team <support@superdmz.com>",
-        "sentence": "Secure reverse tunnel for ESP32 - expose your IoT WebServer at https://your-host.dmzgate.com without a public IP or router port forwarding.",
-        "paragraph": "Connects the ESP32 to a SuperDMZ relay node over WSS (WebSocket TLS) and forwards incoming requests to the WebServer running on the ESP itself. Compatible with ESPAsyncWebServer, WebServer.h or any local TCP service. Includes ping/pong, auto-reconnect, and an optional provisioning captive portal.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "depends": [
-          "WebSockets",
-          "ArduinoJson"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/superdmz/SuperDMZ-1.2.0.zip",
-        "size": 229709,
-        "previous_version": "1.1.14",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-15T22:25:05Z"
-      },
-      "old_version": "1.1.14",
-      "new_version": "1.2.0"
+      "old_version": "4.95.2",
+      "new_version": "4.96.0"
     }
   ],
   "removed_libraries": []

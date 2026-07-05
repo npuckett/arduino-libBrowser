@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-05T21:21:13.792Z",
-  "total_libraries": 9633,
-  "index_etag": "W/\"16116e6f4e95749158b32f3ebe2d5c3b\"",
-  "index_last_modified": "Sun, 05 Jul 2026 20:59:11 GMT",
+  "enhanced_at": "2026-07-05T22:18:33.168Z",
+  "total_libraries": 9634,
+  "index_etag": "W/\"bbfd12c0073c3e2e023151b08d272d9e\"",
+  "index_last_modified": "Sun, 05 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22583,7 +22583,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.21",
+      "version": "1.2.22",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22604,11 +22604,15 @@
         {
           "version": "1.2.21",
           "seen_at": "2026-07-05T20:22:22.844Z"
+        },
+        {
+          "version": "1.2.22",
+          "seen_at": "2026-07-05T22:18:31.813Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "a41c222f89f5",
+      "last_seen_sha": "a7a40d62cda7",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22629,9 +22633,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.21.zip",
-      "size": 39344607,
-      "previous_version": "1.2.20",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.22.zip",
+      "size": 39275771,
+      "previous_version": "1.2.21",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -34826,6 +34830,35 @@
         "Yet Another Arduino PcInt Library"
       ],
       "download_url": "https://github.com/luisllamasbinaburo/Arduino-AsyncSonar"
+    },
+    {
+      "repository_name": "Antonin1106/AsyncState",
+      "repository_url": "https://github.com/Antonin1106/AsyncState",
+      "name": "AsyncState",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-05T22:18:31.813Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-05T22:18:31.813Z",
+      "last_seen_sha": "d5f52cb810ef",
+      "author": "Antonin1106",
+      "maintainer": "Antonin1106",
+      "sentence": "Lightweight non-blocking state and timing manager for Arduino sketches.",
+      "paragraph": "AsyncState provides a simple way to handle multiple independent timers or animation states without using delay(). It helps to create smooth, non-blocking animations and asynchronous logic in your Arduino projects. Each state is identified by a name and can be reset, cleared, or checked for elapsed time.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Antonin1106/AsyncState-1.0.0.zip",
+      "size": 11387,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-05T18:16:09Z"
     },
     {
       "repository_name": "luisllamasbinaburo/Arduino-AsyncStepper",
@@ -70070,7 +70103,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.121.1",
+      "version": "4.122.1",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70179,22 +70212,26 @@
         {
           "version": "4.121.1",
           "seen_at": "2026-07-05T20:22:22.844Z"
+        },
+        {
+          "version": "4.122.1",
+          "seen_at": "2026-07-05T22:18:31.813Z"
         }
       ],
-      "release_count": 27,
+      "release_count": 28,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "5904919bce3a",
+      "last_seen_sha": "d4c938f538af",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
-      "paragraph": "Serves RFC 7230 HTTP/1.1 (routes matched in insertion order; the parser validates every request byte-by-byte and auto-sends 400/413/414/501 with no application code), WebSocket (RFC 6455), Server-Sent Events, Basic/Digest auth, static file serving, multipart, JSON, templating, and a middleware pipeline, plus opt-in HTTPS/TLS, SSH, Telnet, and SNMP (v1/v2c/v3). All buffers are statically sized at compile time and no heap is used after begin(); feature flags strip unused subsystems.",
+      "paragraph": "Serves HTTP/1.1 and HTTP/2 (routes matched in insertion order; the parser validates every request byte-by-byte and auto-sends 400/413/414/501 with no application code), with HTTP/3 over QUIC in progress, plus WebSocket (RFC 6455), Server-Sent Events, Basic/Digest auth, static file serving, multipart, JSON, templating, and a middleware pipeline, plus opt-in HTTPS/TLS, SSH, Telnet, and SNMP (v1/v2c/v3). All buffers are statically sized at compile time and no heap is used after begin(); feature flags strip unused subsystems.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.121.1.zip",
-      "size": 2712878,
-      "previous_version": "4.121.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.122.1.zip",
+      "size": 2734678,
+      "previous_version": "4.121.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -126488,16 +126525,20 @@
       "repository_name": "soosp/Host",
       "repository_url": "https://github.com/soosp/Host",
       "name": "Host",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "version_history": [
         {
           "version": "0.6.1",
           "seen_at": "2026-06-29T09:21:04Z"
+        },
+        {
+          "version": "0.7.0",
+          "seen_at": "2026-07-05T22:18:31.813Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-29T09:21:04Z",
-      "last_seen_sha": "2e971bda5ad9",
+      "last_seen_sha": "fe45a6d8b775",
       "author": "soosp",
       "maintainer": "soosp",
       "sentence": "Represents a network host identified by either an IP address or an FQDN.",
@@ -126509,12 +126550,14 @@
         "avr",
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/Host-0.7.0.zip",
+      "size": 15484,
+      "previous_version": "0.6.1",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-27T15:32:23Z",
-      "license": "MIT",
-      "download_url": "https://github.com/soosp/Host",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-27T15:32:23Z"
     },
     {
       "repository_name": "ropg/HotButton",
@@ -305119,7 +305162,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9430,
+    "with_github_metadata": 9431,
     "total_dependencies": 5155
   }
 }

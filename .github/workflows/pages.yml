@@ -22,7 +22,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     if: |
       (github.event_name == 'push') ||
       (github.event_name == 'workflow_dispatch') ||
@@ -46,12 +46,40 @@ jobs:
         with:
           path: '.'
 
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy to GitHub Pages (attempt 1)
+        id: deploy-1
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retry
+        if: steps.deploy-1.outcome == 'failure'
+        run: sleep 60
+
+      - name: Deploy to GitHub Pages (attempt 2)
+        id: deploy-2
+        if: steps.deploy-1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before final retry
+        if: steps.deploy-2.outcome == 'failure'
+        run: sleep 120
+
+      - name: Deploy to GitHub Pages (final attempt)
+        id: deploy-3
+        if: steps.deploy-2.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
       - name: Deployment summary
         if: success()
         run: |
-          echo "✅ Deployment completed"
-          echo "🔗 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          if [ "${{ steps.deploy-1.outcome }}" = "success" ]; then
+            echo "✅ Succeeded on attempt 1"
+            echo "🔗 Site URL: ${{ steps.deploy-1.outputs.page_url }}"
+          elif [ "${{ steps.deploy-2.outcome }}" = "success" ]; then
+            echo "✅ Succeeded on attempt 2 (after retry)"
+            echo "🔗 Site URL: ${{ steps.deploy-2.outputs.page_url }}"
+          else
+            echo "✅ Succeeded on attempt 3 (after final retry)"
+            echo "🔗 Site URL: ${{ steps.deploy-3.outputs.page_url }}"
+          fi

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-05T15:25:23.608Z",
+  "enhanced_at": "2026-07-05T16:20:56.270Z",
   "total_libraries": 9632,
-  "index_etag": "W/\"7b99707fb272c6b143544bcffb26dd3d\"",
-  "index_last_modified": "Sun, 05 Jul 2026 14:59:11 GMT",
+  "index_etag": "W/\"84a2d36fa9b2a9455510e402ea6fbb84\"",
+  "index_last_modified": "Sun, 05 Jul 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -62561,29 +62561,35 @@
       "repository_name": "inflop/Countimer",
       "repository_url": "https://github.com/inflop/Countimer",
       "name": "Countimer",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-07-21T16:16:49Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-05T16:20:56.138Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:16:49Z",
-      "last_seen_sha": "85a6b4a25339",
+      "last_seen_sha": "5bd85d72d731",
       "author": "inflop <infloper@gmail.com>",
       "maintainer": "inflop <infloper@gmail.com>",
       "sentence": "A simple library for creating timers and counters.",
-      "paragraph": "Now with end event!",
+      "paragraph": "Non-blocking count-up and count-down timer with per-tick and on-complete callbacks, plus an interval-only mode. Supports start/pause/restart/stop and optional calibration of hardware millis() drift.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/inflop/Countimer-1.1.0.zip",
+      "size": 25126,
+      "previous_version": "1.0.0",
       "github_stars": 50,
       "github_forks": 35,
       "github_language": "C++",
-      "github_updated_at": "2026-06-13T14:49:37Z",
-      "download_url": "https://github.com/inflop/Countimer"
+      "github_updated_at": "2026-06-13T14:49:37Z"
     },
     {
       "repository_name": "rgot-org/CoVACIEL-ESP32",

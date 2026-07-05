@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-05T01:32:26.885Z",
-  "total_libraries": 9629,
-  "index_etag": "W/\"564178b6d2abbc34e44371b97baeec54\"",
-  "index_last_modified": "Sun, 05 Jul 2026 01:29:11 GMT",
+  "enhanced_at": "2026-07-05T03:00:58.328Z",
+  "total_libraries": 9631,
+  "index_etag": "W/\"ffa9e37fa9e5c9a3cd41bcf23a634953\"",
+  "index_last_modified": "Sun, 05 Jul 2026 02:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70054,7 +70054,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.105.0",
+      "version": "4.109.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70131,11 +70131,15 @@
         {
           "version": "4.105.0",
           "seen_at": "2026-07-05T00:23:15.270Z"
+        },
+        {
+          "version": "4.109.0",
+          "seen_at": "2026-07-05T03:00:55.745Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "604464b152b5",
+      "last_seen_sha": "d0663fc1626e",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70144,9 +70148,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.105.0.zip",
-      "size": 2568068,
-      "previous_version": "4.99.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.109.0.zip",
+      "size": 2603721,
+      "previous_version": "4.105.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -126065,34 +126069,40 @@
       "repository_name": "sierramike/HomeAssistantMQTT",
       "repository_url": "https://github.com/sierramike/HomeAssistantMQTT",
       "name": "HomeAssistantMQTT",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-01-02T21:34:20Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-05T03:00:55.745Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-02T21:34:20Z",
-      "last_seen_sha": "d84a6aae81d8",
+      "last_seen_sha": "de0045c694ea",
       "author": "Stephane Moitry",
       "maintainer": "Stephane Moitry",
       "sentence": "Arduino Library to create IoT devices connected to Home Assistant via MQTT.",
-      "paragraph": "This library manages MQTT structure to easily publish Sensors, Binary sensors, Buttons, Switches, Numbers and Options to create a device and communicate with it in Home Assistant. Supports reading actual values from MQTT upon restart.",
+      "paragraph": "This library manages MQTT structure to easily publish Sensors, Binary sensors, Buttons, Switches, Numbers, Selects, DeviceAutomations, Events and Options to create a device and communicate with it in Home Assistant. Supports reading actual values from MQTT upon restart.",
       "category": "Communication",
       "architectures": [
         "esp8266",
         "esp32"
       ],
-      "github_stars": 16,
-      "github_forks": 10,
-      "github_language": "C++",
-      "github_updated_at": "2026-04-24T22:21:20Z",
       "license": "Apache-2.0",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/sierramike/HomeAssistantMQTT"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sierramike/HomeAssistantMQTT-1.2.0.zip",
+      "size": 16211,
+      "previous_version": "1.1.0",
+      "github_stars": 16,
+      "github_forks": 10,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-24T22:21:20Z"
     },
     {
       "repository_name": "HomeControlAS/homecontrol-mqtt",
@@ -188298,6 +188308,40 @@
       "github_forks": 1,
       "github_language": "C++",
       "github_updated_at": "2026-06-07T16:07:54Z"
+    },
+    {
+      "repository_name": "decoded-cipher/nodrix-sdk",
+      "repository_url": "https://github.com/decoded-cipher/nodrix-sdk",
+      "name": "Nodrix",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-05T03:00:55.745Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-05T03:00:55.745Z",
+      "last_seen_sha": "a30f987f69a3",
+      "author": "Arjun Krishna",
+      "maintainer": "Arjun Krishna <arjun12345krishna@gmail.com>",
+      "sentence": "Connect ESP32/ESP8266 hardware to Nodrix with a few lines of code.",
+      "paragraph": "Hides WiFi, TLS, the WebSocket/HTTP transport, JSON and the control/telemetry protocol behind a tiny API. Handle cloud commands with NODRIX_WRITE(\"var\"){...} and push telemetry with Nodrix.send(). Works over an always-on WebSocket or HTTP polling for deep-sleep devices.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "WebSockets"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.0.zip",
+      "size": 16493,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-04T20:05:19Z"
     },
     {
       "repository_name": "Abhishektiwari7/Nokia_1.8_Inch_-Display_-SPFD54124B",
@@ -269760,6 +269804,41 @@
       "download_url": "https://github.com/zimbora/esp32-sysfile"
     },
     {
+      "repository_name": "houslast3/UIsistema",
+      "repository_url": "https://github.com/houslast3/UIsistema",
+      "name": "SysUILib",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-05T03:00:55.745Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-05T03:00:55.745Z",
+      "last_seen_sha": "bec1eaea93c9",
+      "author": "Houslast3 <houslast3@users.noreply.github.com>",
+      "maintainer": "Houslast3 <houslast3@users.noreply.github.com>",
+      "sentence": "ESP32 library for ST7789 display, SD card logging, dual ThingSpeak, GPS, and button navigation",
+      "paragraph": "Provides a simple API for displaying sensor data on ST7789 (SPI), logging to SD card (CSV), sending to ThingSpeak (two channels), reading GPS (TinyGPS++), and navigating pages with a button. Includes built-in web server (WiFi AP/STA) for configuration and a full SD Card web UI with Chart.js graphs, file download, and delete. Supports simulated sensors, simulated SD (LittleFS), and simulated GPS for testing without hardware.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit ST7789 Library",
+        "TinyGPSPlus"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/houslast3/SysUILib-1.0.0.zip",
+      "size": 20987,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-04T21:47:53Z"
+    },
+    {
       "repository_name": "mathcoll/t6iot",
       "repository_url": "https://github.com/mathcoll/t6iot",
       "name": "t6iot",
@@ -304897,7 +304976,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9426,
-    "total_dependencies": 5150
+    "with_github_metadata": 9428,
+    "total_dependencies": 5155
   }
 }

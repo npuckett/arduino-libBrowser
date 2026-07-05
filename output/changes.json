@@ -1,83 +1,51 @@
 {
-  "since": "2026-07-05T03:00:55.745Z",
-  "new_libraries": [
-    {
-      "repository_name": "decoded-cipher/nodrix-sdk",
-      "repository_url": "https://github.com/decoded-cipher/nodrix-sdk",
-      "name": "Nodrix",
-      "version": "0.1.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-07-05T03:00:55.745Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-05T03:00:55.745Z",
-      "last_seen_sha": "a30f987f69a3",
-      "author": "Arjun Krishna",
-      "maintainer": "Arjun Krishna <arjun12345krishna@gmail.com>",
-      "sentence": "Connect ESP32/ESP8266 hardware to Nodrix with a few lines of code.",
-      "paragraph": "Hides WiFi, TLS, the WebSocket/HTTP transport, JSON and the control/telemetry protocol behind a tiny API. Handle cloud commands with NODRIX_WRITE(\"var\"){...} and push telemetry with Nodrix.send(). Works over an always-on WebSocket or HTTP polling for deep-sleep devices.",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "esp8266"
-      ],
-      "depends": [
-        "ArduinoJson",
-        "WebSockets"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.0.zip",
-      "size": 16493,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-04T20:05:19Z"
-    },
-    {
-      "repository_name": "houslast3/UIsistema",
-      "repository_url": "https://github.com/houslast3/UIsistema",
-      "name": "SysUILib",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-05T03:00:55.745Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-05T03:00:55.745Z",
-      "last_seen_sha": "bec1eaea93c9",
-      "author": "Houslast3 <houslast3@users.noreply.github.com>",
-      "maintainer": "Houslast3 <houslast3@users.noreply.github.com>",
-      "sentence": "ESP32 library for ST7789 display, SD card logging, dual ThingSpeak, GPS, and button navigation",
-      "paragraph": "Provides a simple API for displaying sensor data on ST7789 (SPI), logging to SD card (CSV), sending to ThingSpeak (two channels), reading GPS (TinyGPS++), and navigating pages with a button. Includes built-in web server (WiFi AP/STA) for configuration and a full SD Card web UI with Chart.js graphs, file download, and delete. Supports simulated sensors, simulated SD (LittleFS), and simulated GPS for testing without hardware.",
-      "category": "Display",
-      "architectures": [
-        "esp32"
-      ],
-      "license": "MIT",
-      "depends": [
-        "Adafruit GFX Library",
-        "Adafruit ST7789 Library",
-        "TinyGPSPlus"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/houslast3/SysUILib-1.0.0.zip",
-      "size": 20987,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-04T21:47:53Z"
-    }
-  ],
+  "since": "2026-07-05T05:17:07.675Z",
+  "new_libraries": [],
   "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sub1inear/ArduboyI2C",
+        "repository_url": "https://github.com/sub1inear/ArduboyI2C",
+        "name": "ArduboyI2C",
+        "version": "3.0.0",
+        "version_history": [
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-06-01T08:52:42Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-01T08:52:42Z",
+        "last_seen_sha": "674886ea1f3d",
+        "author": "sub1inear",
+        "maintainer": "sub1inear <odoul28@gmail.com>",
+        "sentence": "An I2C library for Arduboy multiplayer games.",
+        "paragraph": "It includes standard I2C functionality and functions for multiplayer games. It additionally aims to use minimum PROGMEM and RAM.",
+        "category": "Communication",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sub1inear/ArduboyI2C-3.0.0.zip",
+        "size": 345236,
+        "previous_version": "2.1.2",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-31T23:35:33Z"
+      },
+      "old_version": "2.1.2",
+      "new_version": "3.0.0"
+    },
     {
       "library": {
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "4.109.0",
+        "version": "4.113.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -158,11 +126,15 @@
           {
             "version": "4.109.0",
             "seen_at": "2026-07-05T03:00:55.745Z"
+          },
+          {
+            "version": "4.113.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
           }
         ],
-        "release_count": 20,
+        "release_count": 21,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "d0663fc1626e",
+        "last_seen_sha": "50716881ee15",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -171,59 +143,93 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.109.0.zip",
-        "size": 2603721,
-        "previous_version": "4.105.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.113.0.zip",
+        "size": 2633474,
+        "previous_version": "4.109.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "4.105.0",
-      "new_version": "4.109.0"
+      "old_version": "4.109.0",
+      "new_version": "4.113.0"
     },
     {
       "library": {
-        "repository_name": "sierramike/HomeAssistantMQTT",
-        "repository_url": "https://github.com/sierramike/HomeAssistantMQTT",
-        "name": "HomeAssistantMQTT",
-        "version": "1.2.0",
+        "repository_name": "ziyarago/RisalDash",
+        "repository_url": "https://github.com/ziyarago/RisalDash",
+        "name": "RisalDash",
+        "version": "0.3.0",
         "version_history": [
           {
-            "version": "1.1.0",
-            "seen_at": "2026-01-02T21:34:20Z"
+            "version": "0.2.1",
+            "seen_at": "2026-06-30T09:02:12Z"
           },
           {
-            "version": "1.2.0",
-            "seen_at": "2026-07-05T03:00:55.745Z"
+            "version": "0.3.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
           }
         ],
         "release_count": 2,
-        "first_seen_at": "2026-01-02T21:34:20Z",
-        "last_seen_sha": "de0045c694ea",
-        "author": "Stephane Moitry",
-        "maintainer": "Stephane Moitry",
-        "sentence": "Arduino Library to create IoT devices connected to Home Assistant via MQTT.",
-        "paragraph": "This library manages MQTT structure to easily publish Sensors, Binary sensors, Buttons, Switches, Numbers, Selects, DeviceAutomations, Events and Options to create a device and communicate with it in Home Assistant. Supports reading actual values from MQTT upon restart.",
+        "first_seen_at": "2026-06-30T09:02:12Z",
+        "last_seen_sha": "1eebef492c50",
+        "author": "Shaxzod Ahmedov",
+        "maintainer": "Shaxzod Ahmedov <ahmedov.shaxzod@gmail.com>",
+        "sentence": "Beautiful real-time web dashboards for ESP32/ESP8266 in a few lines of C++.",
+        "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/AR with full RTL), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
         "category": "Communication",
         "architectures": [
-          "esp8266",
-          "esp32"
+          "esp32",
+          "esp8266"
         ],
-        "license": "Apache-2.0",
-        "depends": [
-          "ArduinoJson"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/sierramike/HomeAssistantMQTT-1.2.0.zip",
-        "size": 16211,
-        "previous_version": "1.1.0",
-        "github_stars": 16,
-        "github_forks": 10,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.3.0.zip",
+        "size": 227754,
+        "previous_version": "0.2.1",
+        "github_stars": 8,
+        "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-04-24T22:21:20Z"
+        "github_updated_at": "2026-07-01T10:33:38Z"
       },
-      "old_version": "1.1.0",
-      "new_version": "1.2.0"
+      "old_version": "0.2.1",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "NitrofMtl/weeklyAlarm",
+        "repository_url": "https://github.com/NitrofMtl/weeklyAlarm",
+        "name": "WeeklyAlarm",
+        "version": "5.1.0",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2025-07-21T16:23:21Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:23:21Z",
+        "last_seen_sha": "afa4b752ffd0",
+        "author": "Nitrof",
+        "maintainer": "Nitrof",
+        "sentence": "Weekly day-of-week alarm scheduler for recurring time-based callbacks.",
+        "paragraph": "WeeklyAlarm triggers callbacks at a set time on selected days of the week, inspired by programmable thermostat schedulers. Supports lambdas, functors and function pointers. Compatible with STM32/newlib (POSIX time) and classic Arduino (TimeLib) platforms via automatic detection.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.1.0.zip",
+        "size": 13323,
+        "previous_version": "5.0.0",
+        "github_stars": 2,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2022-11-19T12:07:10Z"
+      },
+      "old_version": "5.0.0",
+      "new_version": "5.1.0"
     }
   ],
   "removed_libraries": []

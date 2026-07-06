@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T03:01:13.840Z",
-  "total_libraries": 9634,
-  "index_etag": "W/\"1c5c9433e67d09b31f0413107cfa0acb\"",
-  "index_last_modified": "Mon, 06 Jul 2026 02:59:11 GMT",
+  "enhanced_at": "2026-07-06T05:23:43.161Z",
+  "total_libraries": 9635,
+  "index_etag": "W/\"dac908487077b20927acf3b292130d17\"",
+  "index_last_modified": "Mon, 06 Jul 2026 04:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22583,7 +22583,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.24",
+      "version": "1.2.26",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22612,11 +22612,15 @@
         {
           "version": "1.2.24",
           "seen_at": "2026-07-06T03:01:13.701Z"
+        },
+        {
+          "version": "1.2.26",
+          "seen_at": "2026-07-06T05:23:41.765Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "28276a615523",
+      "last_seen_sha": "17d97c2b3e1d",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22637,9 +22641,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.24.zip",
-      "size": 39382871,
-      "previous_version": "1.2.22",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.26.zip",
+      "size": 39389878,
+      "previous_version": "1.2.24",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70107,7 +70111,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "4.128.0",
+      "version": "5.1.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70228,11 +70232,15 @@
         {
           "version": "4.128.0",
           "seen_at": "2026-07-06T03:01:13.701Z"
+        },
+        {
+          "version": "5.1.0",
+          "seen_at": "2026-07-06T05:23:41.765Z"
         }
       ],
-      "release_count": 30,
+      "release_count": 31,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "76f6f56b4164",
+      "last_seen_sha": "17faf26c7f4a",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70241,9 +70249,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-4.128.0.zip",
-      "size": 2827782,
-      "previous_version": "4.127.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.1.0.zip",
+      "size": 2840756,
+      "previous_version": "4.128.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -222901,6 +222909,35 @@
       "download_url": "https://github.com/SoonerRobotics/RobotLib"
     },
     {
+      "repository_name": "sunfounder/robot-shield-arduino",
+      "repository_url": "https://github.com/sunfounder/robot-shield-arduino",
+      "name": "RobotShield",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-06T05:23:41.765Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T05:23:41.765Z",
+      "last_seen_sha": "8fadf37bcd7b",
+      "author": "UNO Q AI Robot Team",
+      "maintainer": "UNO Q AI Robot Team",
+      "sentence": "Hardware abstraction library for the UNO Q robot shield (servo, PWM, motor, power telemetry).",
+      "paragraph": "Provides servo angle control, raw PWM frequency and pulse management, DC motor H-bridge control, and battery and power telemetry via an I2C co-processor. Designed for the STM32U5 and QCM2290 UNO Q platform communicating over Arduino Bridge RPC.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/RobotShield-1.0.1.zip",
+      "size": 21217,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-06T03:35:31Z"
+    },
+    {
       "repository_name": "Robo-Wunderkind/RoboWunduino",
       "repository_url": "https://github.com/Robo-Wunderkind/RoboWunduino",
       "name": "RoboWunduino",
@@ -305182,7 +305219,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9431,
+    "with_github_metadata": 9432,
     "total_dependencies": 5155
   }
 }

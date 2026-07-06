@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T09:17:18.574Z",
+  "enhanced_at": "2026-07-06T11:29:24.815Z",
   "total_libraries": 9635,
-  "index_etag": "W/\"dc8e48c7e07a572722991d1f0880f5a2\"",
-  "index_last_modified": "Mon, 06 Jul 2026 08:59:11 GMT",
+  "index_etag": "W/\"58c9bb814158fd85f4dacd2d20ba22a5\"",
+  "index_last_modified": "Mon, 06 Jul 2026 11:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70111,7 +70111,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.2.0",
+      "version": "5.2.3",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70240,11 +70240,15 @@
         {
           "version": "5.2.0",
           "seen_at": "2026-07-06T09:17:18.441Z"
+        },
+        {
+          "version": "5.2.3",
+          "seen_at": "2026-07-06T11:29:24.691Z"
         }
       ],
-      "release_count": 32,
+      "release_count": 33,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "da95a84d80fd",
+      "last_seen_sha": "5b5d2a38d51a",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70253,9 +70257,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.2.0.zip",
-      "size": 11524948,
-      "previous_version": "5.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.2.3.zip",
+      "size": 15639471,
+      "previous_version": "5.2.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -120476,16 +120480,20 @@
       "repository_name": "GyverLibs/GTL",
       "repository_url": "https://github.com/GyverLibs/GTL",
       "name": "GTL",
-      "version": "1.4.4",
+      "version": "1.4.6",
       "version_history": [
         {
           "version": "1.4.4",
           "seen_at": "2026-06-30T08:30:24Z"
+        },
+        {
+          "version": "1.4.6",
+          "seen_at": "2026-07-06T11:29:24.691Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:30:24Z",
-      "last_seen_sha": "36096f47a08b",
+      "last_seen_sha": "3ad8ba5df8e2",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library with template tools (buffers, pointers)",
@@ -120494,11 +120502,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GTL-1.4.6.zip",
+      "size": 33211,
+      "previous_version": "1.4.4",
       "github_stars": 8,
       "github_forks": 3,
-      "github_updated_at": "2026-06-29T16:26:33Z",
-      "download_url": "https://github.com/GyverLibs/GTL",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T16:26:33Z"
     },
     {
       "repository_name": "MatrixOrbital/MatrixOrbitalGTTClientLibrary",
@@ -297970,16 +297980,20 @@
       "repository_name": "arduino-libraries/WiFiNINA",
       "repository_url": "https://github.com/arduino-libraries/WiFiNINA",
       "name": "WiFiNINA",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.1.0",
           "seen_at": "2026-06-23T08:19:58Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-07-06T11:29:24.691Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-23T08:19:58Z",
-      "last_seen_sha": "fe50711cd699",
+      "last_seen_sha": "a5993c3b84cd",
       "author": "Arduino",
       "maintainer": "Arduino <info@arduino.cc>",
       "sentence": "Enables network connection (local and Internet) with the Arduino MKR WiFi 1010, Arduino MKR VIDOR 4000, Arduino Uno WiFi Rev.2 and Nano 33 IoT.",
@@ -297991,14 +298005,16 @@
         "megaavr",
         "zephyr_main"
       ],
-      "github_stars": 158,
-      "github_forks": 115,
-      "github_updated_at": "2026-07-01T23:19:02Z",
       "depends": [
         "Arduino_SpiNINA"
       ],
-      "download_url": "http://www.arduino.cc/en/Reference/WiFiNINA",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/WiFiNINA-2.1.1.zip",
+      "size": 130786,
+      "previous_version": "2.1.0",
+      "github_stars": 158,
+      "github_forks": 115,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T23:19:02Z"
     },
     {
       "repository_name": "adafruit/WiFiNINA",

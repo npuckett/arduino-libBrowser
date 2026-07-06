@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-06T11:29:24.691Z",
+  "since": "2026-07-06T13:10:15.439Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "5.2.3",
+        "version": "5.15.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -140,11 +140,15 @@
           {
             "version": "5.2.3",
             "seen_at": "2026-07-06T11:29:24.691Z"
+          },
+          {
+            "version": "5.15.0",
+            "seen_at": "2026-07-06T13:10:15.439Z"
           }
         ],
-        "release_count": 33,
+        "release_count": 34,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "5b5d2a38d51a",
+        "last_seen_sha": "2be2c80da3b7",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -153,98 +157,16 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.2.3.zip",
-        "size": 15639471,
-        "previous_version": "5.2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.15.0.zip",
+        "size": 15710540,
+        "previous_version": "5.2.3",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "5.2.0",
-      "new_version": "5.2.3"
-    },
-    {
-      "library": {
-        "repository_name": "GyverLibs/GTL",
-        "repository_url": "https://github.com/GyverLibs/GTL",
-        "name": "GTL",
-        "version": "1.4.6",
-        "version_history": [
-          {
-            "version": "1.4.4",
-            "seen_at": "2026-06-30T08:30:24Z"
-          },
-          {
-            "version": "1.4.6",
-            "seen_at": "2026-07-06T11:29:24.691Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-30T08:30:24Z",
-        "last_seen_sha": "3ad8ba5df8e2",
-        "author": "AlexGyver <alex@alexgyver.ru>",
-        "maintainer": "AlexGyver <alex@alexgyver.ru>",
-        "sentence": "Library with template tools (buffers, pointers)",
-        "paragraph": "Library with template tools (buffers, pointers)",
-        "category": "Data Processing",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GTL-1.4.6.zip",
-        "size": 33211,
-        "previous_version": "1.4.4",
-        "github_stars": 8,
-        "github_forks": 3,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-29T16:26:33Z"
-      },
-      "old_version": "1.4.4",
-      "new_version": "1.4.6"
-    },
-    {
-      "library": {
-        "repository_name": "arduino-libraries/WiFiNINA",
-        "repository_url": "https://github.com/arduino-libraries/WiFiNINA",
-        "name": "WiFiNINA",
-        "version": "2.1.1",
-        "version_history": [
-          {
-            "version": "2.1.0",
-            "seen_at": "2026-06-23T08:19:58Z"
-          },
-          {
-            "version": "2.1.1",
-            "seen_at": "2026-07-06T11:29:24.691Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-23T08:19:58Z",
-        "last_seen_sha": "a5993c3b84cd",
-        "author": "Arduino",
-        "maintainer": "Arduino <info@arduino.cc>",
-        "sentence": "Enables network connection (local and Internet) with the Arduino MKR WiFi 1010, Arduino MKR VIDOR 4000, Arduino Uno WiFi Rev.2 and Nano 33 IoT.",
-        "paragraph": "With this library you can instantiate Servers, Clients and send/receive UDP packets through WiFi. The board can connect either to open or encrypted networks (WEP, WPA). The IP address can be assigned statically or through a DHCP. The library can also manage DNS.",
-        "category": "Communication",
-        "architectures": [
-          "samd",
-          "mbed_nano",
-          "megaavr",
-          "zephyr_main"
-        ],
-        "depends": [
-          "Arduino_SpiNINA"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/WiFiNINA-2.1.1.zip",
-        "size": 130786,
-        "previous_version": "2.1.0",
-        "github_stars": 158,
-        "github_forks": 115,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-01T23:19:02Z"
-      },
-      "old_version": "2.1.0",
-      "new_version": "2.1.1"
+      "old_version": "5.2.3",
+      "new_version": "5.15.0"
     }
   ],
   "removed_libraries": []

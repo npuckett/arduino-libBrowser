@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T05:23:43.161Z",
+  "enhanced_at": "2026-07-06T07:25:29.591Z",
   "total_libraries": 9635,
-  "index_etag": "W/\"dac908487077b20927acf3b292130d17\"",
-  "index_last_modified": "Mon, 06 Jul 2026 04:59:11 GMT",
+  "index_etag": "W/\"79d3e721e2e35c65d82bb99bbba39e20\"",
+  "index_last_modified": "Mon, 06 Jul 2026 06:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -222912,26 +222912,31 @@
       "repository_name": "sunfounder/robot-shield-arduino",
       "repository_url": "https://github.com/sunfounder/robot-shield-arduino",
       "name": "RobotShield",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-06T05:23:41.765Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-06T07:25:29.462Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-06T05:23:41.765Z",
-      "last_seen_sha": "8fadf37bcd7b",
-      "author": "UNO Q AI Robot Team",
-      "maintainer": "UNO Q AI Robot Team",
+      "last_seen_sha": "395f9cd770af",
+      "author": "SunFounder",
+      "maintainer": "SunFounder",
       "sentence": "Hardware abstraction library for the UNO Q robot shield (servo, PWM, motor, power telemetry).",
       "paragraph": "Provides servo angle control, raw PWM frequency and pulse management, DC motor H-bridge control, and battery and power telemetry via an I2C co-processor. Designed for the STM32U5 and QCM2290 UNO Q platform communicating over Arduino Bridge RPC.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/RobotShield-1.0.1.zip",
-      "size": 21217,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/RobotShield-1.0.2.zip",
+      "size": 21213,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T15:01:44.716Z",
-  "total_libraries": 9635,
-  "index_etag": "W/\"87434b5b661caf52edef7a5dc9a9d4a4\"",
-  "index_last_modified": "Mon, 06 Jul 2026 14:59:11 GMT",
+  "enhanced_at": "2026-07-06T16:58:24.051Z",
+  "total_libraries": 9636,
+  "index_etag": "W/\"58c9daa5d954dad6fd7bc78c4b23eda2\"",
+  "index_last_modified": "Mon, 06 Jul 2026 16:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -18628,16 +18628,20 @@
       "repository_name": "TUDA-MUST/ADS1X58",
       "repository_url": "https://github.com/TUDA-MUST/ADS1X58",
       "name": "ADS1X58",
-      "version": "0.1.3",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.3",
           "seen_at": "2026-06-01T08:50:39Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-01T08:50:39Z",
-      "last_seen_sha": "459f9c839a43",
+      "last_seen_sha": "cfb930f46a25",
       "author": "Mark Suppelt <mark.suppelt@tu-darmstadt.de>",
       "maintainer": "Mark Suppelt <mark.suppelt@tu-darmstadt.de>",
       "sentence": "Arduino library for ADS1258 (24-bit) and ADS1158 (16-bit) ADCs via SPI.",
@@ -18646,11 +18650,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TUDA-MUST/ADS1X58-1.0.0.zip",
+      "size": 1609677,
+      "previous_version": "0.1.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-01T08:46:28Z",
-      "download_url": "https://github.com/TUDA-MUST/ADS1X58"
+      "github_updated_at": "2026-06-01T08:46:28Z"
     },
     {
       "repository_name": "ArscottT/ADS7128-Arduino-Library",
@@ -25102,16 +25108,20 @@
       "repository_name": "ARAM-USA-Support/ARAM_Metal_Orchestra",
       "repository_url": "https://github.com/ARAM-USA-Support/ARAM_Metal_Orchestra",
       "name": "ARAM_Metal_Orchestra",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-01T11:48:44.907Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "401860a0a24a",
+      "last_seen_sha": "3caa91b5b8bc",
       "author": "A.R.A.M. - American Robotics Assisted Manufacturing",
       "maintainer": "A.R.A.M. - American Robotics Assisted Manufacturing <support@aram-usa.com>",
       "sentence": "Construct Instrument Using Toggle Actuators",
@@ -25123,8 +25133,9 @@
       "depends": [
         "ARAM_Toggle_Actuator"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Metal_Orchestra-1.0.1.zip",
-      "size": 9088,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARAM-USA-Support/ARAM_Metal_Orchestra-1.0.2.zip",
+      "size": 9104,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -70115,7 +70126,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.38.0",
+      "version": "5.57.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70256,11 +70267,15 @@
         {
           "version": "5.38.0",
           "seen_at": "2026-07-06T15:01:44.583Z"
+        },
+        {
+          "version": "5.57.0",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 35,
+      "release_count": 36,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "e26027720686",
+      "last_seen_sha": "c7f2c95717a9",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70269,9 +70284,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.38.0.zip",
-      "size": 15825882,
-      "previous_version": "5.15.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.57.0.zip",
+      "size": 15938636,
+      "previous_version": "5.38.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -130889,16 +130904,20 @@
       "repository_name": "tdk-invn-oss/motion.arduino.ICM53607",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM53607",
       "name": "ICM53607",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-05-23T07:50:18Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-23T07:50:18Z",
-      "last_seen_sha": "ee83342bcc2c",
+      "last_seen_sha": "c4b32cd92040",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM53607 Invensence IMU device.",
@@ -130907,11 +130926,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM53607-1.0.2.zip",
+      "size": 464143,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-22T12:48:16Z",
-      "download_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM53607"
+      "github_updated_at": "2026-05-22T12:48:16Z"
     },
     {
       "repository_name": "tdk-invn-oss/motion.arduino.ICM53611",
@@ -131001,16 +131022,20 @@
       "repository_name": "tdk-invn-oss/motion.arduino.ICM56622",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM56622",
       "name": "ICM56622",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-04-18T07:32:52Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-18T07:32:52Z",
-      "last_seen_sha": "a81b5520b36d",
+      "last_seen_sha": "fe0a0fc7bdb4",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM56622 Invensence IMU device.",
@@ -131019,26 +131044,32 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM56622-1.0.1.zip",
+      "size": 474204,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-19T08:26:27Z",
-      "download_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM56622"
+      "github_updated_at": "2026-05-19T08:26:27Z"
     },
     {
       "repository_name": "tdk-invn-oss/motion.arduino.ICM56686",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM56686",
       "name": "ICM56686",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-04-18T07:32:54Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-18T07:32:54Z",
-      "last_seen_sha": "ae6189c0c0f6",
+      "last_seen_sha": "c0d6fec78810",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM56686 Invensence IMU device.",
@@ -131047,11 +131078,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM56686-1.0.1.zip",
+      "size": 634317,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-19T08:25:50Z",
-      "download_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM56686"
+      "github_updated_at": "2026-05-19T08:25:50Z"
     },
     {
       "repository_name": "Andy4495/ICM7218",
@@ -147519,29 +147552,35 @@
       "repository_name": "phillipweinstock/libsdi12",
       "repository_url": "https://github.com/phillipweinstock/libsdi12",
       "name": "libsdi12",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.0",
           "seen_at": "2026-05-07T08:31:46Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-07T08:31:46Z",
-      "last_seen_sha": "c32aa4578ddd",
+      "last_seen_sha": "db398cab11c5",
       "author": "Phillip Weinstock",
       "maintainer": "Phillip Weinstock",
       "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
-      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 98 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
+      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 114 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.4.0.zip",
+      "size": 110172,
+      "previous_version": "0.3.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-06T09:32:46Z",
-      "download_url": "https://github.com/phillipweinstock/libsdi12"
+      "github_updated_at": "2026-05-06T09:32:46Z"
     },
     {
       "repository_name": "javisank/LibSemaforo",
@@ -203951,6 +203990,35 @@
       "download_url": "https://github.com/Adrien-Legrand/PlaneteSciences85"
     },
     {
+      "repository_name": "teemow/planterm",
+      "repository_url": "https://github.com/teemow/planterm",
+      "name": "planterm",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-06T16:58:22.530Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T16:58:22.530Z",
+      "last_seen_sha": "a7cf09531840",
+      "author": "Timo Derstappen",
+      "maintainer": "Timo Derstappen <teemow@gmail.com>",
+      "sentence": "CAREL pLAN terminal protocol library: act as a pGD terminal to decode, enroll, navigate and edit.",
+      "paragraph": "Implements the CAREL pLAN terminal role as reverse-engineered from one uPC controller. Frame grammar, keypad encoding, poll-token matching, stream re-splitting and display-record decode. Header-only, platform-agnostic C++17: bytes in, bytes out; you supply the (9-bit capable) transport.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/teemow/planterm-0.1.0.zip",
+      "size": 102945,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-06T12:40:07Z"
+    },
+    {
       "repository_name": "milescb/PlantMonitor",
       "repository_url": "https://github.com/milescb/PlantMonitor",
       "name": "PlantMonitor",
@@ -233646,16 +233714,20 @@
       "repository_name": "Sensirion/arduino-i2c-stc42",
       "repository_url": "https://github.com/Sensirion/arduino-i2c-stc42",
       "name": "Sensirion I2C STC42",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-03T10:52:10.012Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-06T16:58:22.530Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-03T10:52:10.012Z",
-      "last_seen_sha": "61b6c66a25ad",
+      "last_seen_sha": "da76c675ab4f",
       "author": "Sensirion",
       "maintainer": "Sensirion",
       "sentence": "Library for the STC42 sensor by Sensirion",
@@ -233667,8 +233739,9 @@
       "depends": [
         "Sensirion Core"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_STC42-1.0.1.zip",
-      "size": 2506084,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_STC42-1.1.0.zip",
+      "size": 2506682,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -305290,7 +305363,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9432,
+    "with_github_metadata": 9433,
     "total_dependencies": 5153
   }
 }

@@ -1,6 +1,197 @@
 {
-  "since": "2026-07-06T21:29:52.550Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-06T22:25:28.794Z",
+  "new_libraries": [
+    {
+      "repository_name": "soosp/EEPROMPreferences",
+      "repository_url": "https://github.com/soosp/EEPROMPreferences",
+      "name": "EEPROMPreferences",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-06T22:25:28.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T22:25:28.794Z",
+      "last_seen_sha": "3289fd1ee52d",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "Preferences-style persistent key/value store backed by AVR EEPROM.",
+      "paragraph": "Namespaced key/value storage exposing a Preferences-compatible API subset, so multiplatform sketches can share storage code with ESP32 (native Preferences/NVS) and ESP8266. Log-structured records with CRC-8 integrity and power-loss-safe writes. Keys and namespaces up to 15 chars, values up to 255 bytes. No Arduino String, no thread-safety layer (AVR is single-core).",
+      "category": "Data Storage",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/EEPROMPreferences-0.1.0.zip",
+      "size": 24515,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-06T19:39:50Z"
+    },
+    {
+      "repository_name": "connormmckelvey/Haplink",
+      "repository_url": "https://github.com/connormmckelvey/Haplink",
+      "name": "Haplink",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-06T22:25:28.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T22:25:28.794Z",
+      "last_seen_sha": "5de0c5bb8b8d",
+      "author": "Connor McKelvey <Connormckelvey@utexas.edu>",
+      "maintainer": "Connor McKelvey <Connormckelvey@utexas.edu>",
+      "sentence": "Bidirectional serial communication protocol for haptic robotic devices",
+      "paragraph": "Haplink provides a lightweight, real-time communication protocol between Arduino/embedded devices and host computers. Features parameter control, telemetry streaming, and type-safe data transfer with XOR checksum validation. Ideal for haptic feedback systems and robotics applications.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/connormmckelvey/Haplink-0.1.0.zip",
+      "size": 172498,
+      "github_stars": 4,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-07-06T19:11:40Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.29",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          }
+        ],
+        "release_count": 11,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "8010b8377b30",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.29.zip",
+        "size": 41820348,
+        "previous_version": "1.2.28",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.28",
+      "new_version": "1.2.29"
+    },
+    {
+      "library": {
+        "repository_name": "KravitzLabDevices/Tumbly",
+        "repository_url": "https://github.com/KravitzLabDevices/Tumbly",
+        "name": "Tumbly",
+        "version": "1.4.1",
+        "version_history": [
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-06-04T08:28:04Z"
+          },
+          {
+            "version": "1.4.1",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-04T08:28:04Z",
+        "last_seen_sha": "7cd8ce28064f",
+        "author": "Mason Barrett, Lex Kravitz",
+        "maintainer": "Lex Kravitz <alexxai@wustl.edu   >",
+        "sentence": "A tumble feeder library for time-restricted feeding",
+        "paragraph": "Controls a servo-operated door based on RTC time or light level. Designed for Adafruit Feather M0 with OLED FeatherWing (SH1107), RTC, and SD card. Based on the Tumble Feeder research (https://www.biorxiv.org/content/10.1101/2024.10.01.615599v1).",
+        "category": "Device Control",
+        "architectures": [
+          "samd"
+        ],
+        "depends": [
+          "Arduino Low Power",
+          "RTClib",
+          "SdFat",
+          "Adafruit GFX Library",
+          "Adafruit SH110X"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/KravitzLabDevices/Tumbly-1.4.1.zip",
+        "size": 582791,
+        "previous_version": "1.4.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-03T14:56:53Z"
+      },
+      "old_version": "1.4.0",
+      "new_version": "1.4.1"
+    }
+  ],
   "removed_libraries": []
 }

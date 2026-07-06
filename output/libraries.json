@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T21:29:52.683Z",
-  "total_libraries": 9636,
-  "index_etag": "W/\"f06c45cc9b186571b11523175239e679\"",
-  "index_last_modified": "Mon, 06 Jul 2026 21:29:11 GMT",
+  "enhanced_at": "2026-07-06T22:25:31.395Z",
+  "total_libraries": 9638,
+  "index_etag": "W/\"a4d039fed6d5c4965fffdac19de38096\"",
+  "index_last_modified": "Mon, 06 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22589,7 +22589,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.28",
+      "version": "1.2.29",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22630,11 +22630,15 @@
         {
           "version": "1.2.28",
           "seen_at": "2026-07-06T20:35:33.750Z"
+        },
+        {
+          "version": "1.2.29",
+          "seen_at": "2026-07-06T22:25:28.794Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "a5d43046bffa",
+      "last_seen_sha": "8010b8377b30",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22655,9 +22659,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.28.zip",
-      "size": 41815878,
-      "previous_version": "1.2.27",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.29.zip",
+      "size": 41820348,
+      "previous_version": "1.2.28",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -86591,6 +86595,35 @@
       "github_updated_at": "2026-02-25T06:32:54Z"
     },
     {
+      "repository_name": "soosp/EEPROMPreferences",
+      "repository_url": "https://github.com/soosp/EEPROMPreferences",
+      "name": "EEPROMPreferences",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-06T22:25:28.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T22:25:28.794Z",
+      "last_seen_sha": "3289fd1ee52d",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "Preferences-style persistent key/value store backed by AVR EEPROM.",
+      "paragraph": "Namespaced key/value storage exposing a Preferences-compatible API subset, so multiplatform sketches can share storage code with ESP32 (native Preferences/NVS) and ESP8266. Log-structured records with CRC-8 integrity and power-loss-safe writes. Keys and namespaces up to 15 chars, values up to 255 bytes. No Arduino String, no thread-safety layer (AVR is single-core).",
+      "category": "Data Storage",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/EEPROMPreferences-0.1.0.zip",
+      "size": 24515,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-06T19:39:50Z"
+    },
+    {
       "repository_name": "IlikeChooros/EEPROMReader",
       "repository_url": "https://github.com/IlikeChooros/EEPROMReader",
       "name": "EEPROMReader",
@@ -123738,6 +123771,35 @@
       "github_updated_at": "2026-06-29T07:45:47Z",
       "download_url": "https://github.com/hapbeat/hapbeat-arduino",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "connormmckelvey/Haplink",
+      "repository_url": "https://github.com/connormmckelvey/Haplink",
+      "name": "Haplink",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-06T22:25:28.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-06T22:25:28.794Z",
+      "last_seen_sha": "5de0c5bb8b8d",
+      "author": "Connor McKelvey <Connormckelvey@utexas.edu>",
+      "maintainer": "Connor McKelvey <Connormckelvey@utexas.edu>",
+      "sentence": "Bidirectional serial communication protocol for haptic robotic devices",
+      "paragraph": "Haplink provides a lightweight, real-time communication protocol between Arduino/embedded devices and host computers. Features parameter control, telemetry streaming, and type-safe data transfer with XOR checksum validation. Ideal for haptic feedback systems and robotics applications.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/connormmckelvey/Haplink-0.1.0.zip",
+      "size": 172498,
+      "github_stars": 4,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-07-06T19:11:40Z"
     },
     {
       "repository_name": "PatternAgents/Haptic_DA7280",
@@ -285312,16 +285374,20 @@
       "repository_name": "KravitzLabDevices/Tumbly",
       "repository_url": "https://github.com/KravitzLabDevices/Tumbly",
       "name": "Tumbly",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "version_history": [
         {
           "version": "1.4.0",
           "seen_at": "2026-06-04T08:28:04Z"
+        },
+        {
+          "version": "1.4.1",
+          "seen_at": "2026-07-06T22:25:28.794Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-04T08:28:04Z",
-      "last_seen_sha": "597befa273b3",
+      "last_seen_sha": "7cd8ce28064f",
       "author": "Mason Barrett, Lex Kravitz",
       "maintainer": "Lex Kravitz <alexxai@wustl.edu   >",
       "sentence": "A tumble feeder library for time-restricted feeding",
@@ -285330,10 +285396,6 @@
       "architectures": [
         "samd"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-03T14:56:53Z",
       "depends": [
         "Arduino Low Power",
         "RTClib",
@@ -285341,7 +285403,13 @@
         "Adafruit GFX Library",
         "Adafruit SH110X"
       ],
-      "download_url": "https://github.com/KravitzLabDevices/Tumbly"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KravitzLabDevices/Tumbly-1.4.1.zip",
+      "size": 582791,
+      "previous_version": "1.4.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-03T14:56:53Z"
     },
     {
       "repository_name": "jgOhYeah/TunePlayer",
@@ -305457,7 +305525,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9433,
+    "with_github_metadata": 9435,
     "total_dependencies": 5153
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-06T13:10:15.563Z",
+  "enhanced_at": "2026-07-06T15:01:44.716Z",
   "total_libraries": 9635,
-  "index_etag": "W/\"c65aa038e91881d9a31fab1e32e4ffe9\"",
-  "index_last_modified": "Mon, 06 Jul 2026 12:59:11 GMT",
+  "index_etag": "W/\"87434b5b661caf52edef7a5dc9a9d4a4\"",
+  "index_last_modified": "Mon, 06 Jul 2026 14:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22583,7 +22583,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.26",
+      "version": "1.2.27",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22616,11 +22616,15 @@
         {
           "version": "1.2.26",
           "seen_at": "2026-07-06T05:23:41.765Z"
+        },
+        {
+          "version": "1.2.27",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "17d97c2b3e1d",
+      "last_seen_sha": "683da9a8ad79",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22641,9 +22645,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.26.zip",
-      "size": 39389878,
-      "previous_version": "1.2.24",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.27.zip",
+      "size": 39389877,
+      "previous_version": "1.2.26",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70111,7 +70115,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.15.0",
+      "version": "5.38.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70248,11 +70252,15 @@
         {
           "version": "5.15.0",
           "seen_at": "2026-07-06T13:10:15.439Z"
+        },
+        {
+          "version": "5.38.0",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 34,
+      "release_count": 35,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "2be2c80da3b7",
+      "last_seen_sha": "e26027720686",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70261,9 +70269,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.15.0.zip",
-      "size": 15710540,
-      "previous_version": "5.2.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.38.0.zip",
+      "size": 15825882,
+      "previous_version": "5.15.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -127636,29 +127644,36 @@
       "repository_name": "soosp/HttpDigestAuth",
       "repository_url": "https://github.com/soosp/HttpDigestAuth",
       "name": "HttpDigestAuth",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-06-10T09:02:32Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-10T09:02:32Z",
-      "last_seen_sha": "2e66ffe05601",
+      "last_seen_sha": "1e6e3015a681",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe helper class for HTTP Digest Authentication.",
       "paragraph": "Stores username, realm, password and the MD5 hash in the format required by HTTP Digest Auth (RFC 7616). Supports persistent storage via the ESP32 Preferences library.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "esp8266"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HttpDigestAuth-0.3.0.zip",
+      "size": 8880,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-09T15:02:24Z",
-      "download_url": "https://github.com/soosp/HttpDigestAuth"
+      "github_updated_at": "2026-06-09T15:02:24Z"
     },
     {
       "repository_name": "ojx/HTTPed",
@@ -198276,7 +198291,7 @@
       "repository_name": "pcbcupid/PCBCUPID-PLAYER",
       "repository_url": "https://github.com/pcbcupid/PCBCUPID-PLAYER",
       "name": "PCBCUPID_PLAYERS",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
@@ -198289,11 +198304,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-07-03T14:43:59.525Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-26T08:58:33Z",
-      "last_seen_sha": "0b4c8353e5fa",
+      "last_seen_sha": "5ac6b6a51670",
       "author": "Karthik Elumalai <codingkarthik2@gmail.com>",
       "maintainer": "PCBCUPID <hello@pcbcupid.com>",
       "sentence": "Audio player library for ESP32 with SD card, I2S output, and NAU8325 codec with amplifier control.",
@@ -198302,13 +198321,9 @@
       "architectures": [
         "esp32"
       ],
-      "depends": [
-        "SD",
-        "Wire"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_PLAYERS-1.0.1.zip",
-      "size": 17296,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pcbcupid/PCBCUPID_PLAYERS-1.0.2.zip",
+      "size": 17285,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -219713,16 +219728,20 @@
       "repository_name": "TUDA-MUST/ResenseHEX",
       "repository_url": "https://github.com/TUDA-MUST/ResenseHEX",
       "name": "ResenseHEX",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-02-03T07:16:46Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-03T07:16:46Z",
-      "last_seen_sha": "157e02d3228c",
+      "last_seen_sha": "de57e5df3132",
       "author": "Mark Suppelt <mark.suppelt@tu-darmstadt.de>",
       "maintainer": "Mark Suppelt <mark.suppelt@tu-darmstadt.de>",
       "sentence": "Arduino library for Resense HEX 6-axis Force/Torque sensors",
@@ -219731,11 +219750,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TUDA-MUST/ResenseHEX-1.0.2.zip",
+      "size": 251530,
+      "previous_version": "1.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-10T13:56:28Z",
-      "download_url": "https://github.com/TUDA-MUST/Resense-HEX/"
+      "github_updated_at": "2026-03-10T13:56:28Z"
     },
     {
       "repository_name": "asukiaaa/arduino-ResistorReader",
@@ -270312,16 +270333,20 @@
       "repository_name": "tdk-invn-oss/motion.arduino.TAD2144",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.TAD2144",
       "name": "TAD2144",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-05-20T08:12:50Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-07-06T15:01:44.583Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-20T08:12:50Z",
-      "last_seen_sha": "6048ca3a1a4c",
+      "last_seen_sha": "0d9db2ecf804",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read angle and temperature sensors from an TAD2144 Invensence TMR device.",
@@ -270330,11 +270355,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/TAD2144-1.0.3.zip",
+      "size": 384266,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-19T08:24:34Z",
-      "download_url": "https://github.com/tdk-invn-oss/motion.arduino.TAD2144"
+      "github_updated_at": "2026-05-19T08:24:34Z"
     },
     {
       "repository_name": "bavathd/tago_esp32",
@@ -305264,6 +305291,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9432,
-    "total_dependencies": 5155
+    "total_dependencies": 5153
   }
 }

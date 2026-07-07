@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-07T05:16:46.024Z",
+  "enhanced_at": "2026-07-07T07:06:34.093Z",
   "total_libraries": 9639,
-  "index_etag": "W/\"c7121a7d491c160b874ec983f59b2713\"",
-  "index_last_modified": "Tue, 07 Jul 2026 04:59:11 GMT",
+  "index_etag": "W/\"b545eb150876025ab69ee5485b719564\"",
+  "index_last_modified": "Tue, 07 Jul 2026 06:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -262785,16 +262785,20 @@
       "repository_name": "laurb9/StepperDriver",
       "repository_url": "https://github.com/laurb9/StepperDriver",
       "name": "StepperDriver",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "version_history": [
         {
           "version": "1.5.0",
           "seen_at": "2026-06-08T08:54:51Z"
+        },
+        {
+          "version": "1.5.1",
+          "seen_at": "2026-07-07T07:06:33.969Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-08T08:54:51Z",
-      "last_seen_sha": "763e94e690dd",
+      "last_seen_sha": "dbdae171c13a",
       "author": "Laurentiu Badea",
       "maintainer": "Laurentiu Badea",
       "sentence": "A4988, DRV8825, TMC2100 and generic two-pin stepper motor driver library.",
@@ -262803,11 +262807,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/laurb9/StepperDriver-1.5.1.zip",
+      "size": 53545,
+      "previous_version": "1.5.0",
       "github_stars": 617,
       "github_forks": 235,
       "github_language": "C++",
-      "github_updated_at": "2026-06-07T03:12:33Z",
-      "download_url": "https://github.com/laurb9/StepperDriver"
+      "github_updated_at": "2026-06-07T03:12:33Z"
     },
     {
       "repository_name": "ennio64/StepperHAL_STM32F4x1-Library",
@@ -301070,7 +301076,7 @@
       "repository_name": "Gigasitron-xcross/XC_GUI",
       "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
       "name": "XC_GUI",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.1",
@@ -301099,11 +301105,15 @@
         {
           "version": "1.0.8",
           "seen_at": "2026-07-04T09:00:23.750Z"
+        },
+        {
+          "version": "1.0.9",
+          "seen_at": "2026-07-07T07:06:33.969Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-07-02T05:16:29.476Z",
-      "last_seen_sha": "bb5b9ab67dc1",
+      "last_seen_sha": "4de51b0b7335",
       "author": "Gigasitron Xcross",
       "maintainer": "Gigasitron <inquiry@gigasitron.com>",
       "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
@@ -301115,9 +301125,9 @@
         "esp32",
         "samd"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.8.zip",
-      "size": 1322275,
-      "previous_version": "1.0.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.0.9.zip",
+      "size": 1322784,
+      "previous_version": "1.0.8",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

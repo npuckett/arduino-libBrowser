@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-07T13:41:24.371Z",
+  "enhanced_at": "2026-07-07T14:58:02.823Z",
   "total_libraries": 9640,
-  "index_etag": "W/\"37461518b9a3a328621f2625ca543f41\"",
-  "index_last_modified": "Tue, 07 Jul 2026 13:29:12 GMT",
+  "index_etag": "W/\"3e506c3824a488f30bbca71beec70308\"",
+  "index_last_modified": "Tue, 07 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -221730,7 +221730,7 @@
       "repository_name": "ziyarago/RisalDash",
       "repository_url": "https://github.com/ziyarago/RisalDash",
       "name": "RisalDash",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.2.1",
@@ -221747,23 +221747,27 @@
         {
           "version": "0.5.0",
           "seen_at": "2026-07-06T18:35:18.558Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-07-07T14:58:02.693Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T09:02:12Z",
-      "last_seen_sha": "999f13389eed",
+      "last_seen_sha": "28df57ba9414",
       "author": "Shaxzod Ahmedov",
       "maintainer": "Shaxzod Ahmedov <ahmedov.shaxzod@gmail.com>",
       "sentence": "Beautiful real-time web dashboards for ESP32/ESP8266 in a few lines of C++.",
-      "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/AR with full RTL), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
+      "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/UZ/AR with full RTL, plus dash.translate() for your own widget titles), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
       "category": "Communication",
       "architectures": [
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.5.0.zip",
-      "size": 258035,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.6.0.zip",
+      "size": 263215,
+      "previous_version": "0.5.0",
       "github_stars": 8,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,6 +1,52 @@
 {
-  "since": "2026-07-07T01:32:23.209Z",
+  "since": "2026-07-07T03:01:04.696Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sitronlabs/SitronLabs_Weikai_WK2132_Arduino_Library",
+        "repository_url": "https://github.com/sitronlabs/SitronLabs_Weikai_WK2132_Arduino_Library",
+        "name": "Sitron Labs WK2132 Arduino Library",
+        "version": "0.3.1",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2025-07-21T16:30:01Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-07-07T03:01:04.696Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:30:01Z",
+        "last_seen_sha": "8e55a336a9e0",
+        "author": "Sitron Labs",
+        "maintainer": "Sitron Labs <support@sitronlabs.com>",
+        "sentence": "Arduino library for the Weikai WK2132 multi-bus to UART.",
+        "paragraph": "The Weikai WK2132 is a 2-channel UART device with low power consumption of 256-level FIFO and supports UART/SPI/I2C interface.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Wire"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_WK2132_Arduino_Library-0.3.1.zip",
+        "size": 3027690,
+        "previous_version": "0.3.0",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-04T08:34:01Z"
+      },
+      "old_version": "0.3.0",
+      "new_version": "0.3.1"
+    }
+  ],
   "removed_libraries": []
 }

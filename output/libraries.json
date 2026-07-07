@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-07T03:01:04.819Z",
-  "total_libraries": 9638,
-  "index_etag": "W/\"b7a383b5e4932797cf5f6d3c4380b751\"",
-  "index_last_modified": "Tue, 07 Jul 2026 02:59:11 GMT",
+  "enhanced_at": "2026-07-07T05:16:46.024Z",
+  "total_libraries": 9639,
+  "index_etag": "W/\"c7121a7d491c160b874ec983f59b2713\"",
+  "index_last_modified": "Tue, 07 Jul 2026 04:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -214837,6 +214837,35 @@
       "download_url": "https://github.com/Hyperion-Robotics/QuickESPNow"
     },
     {
+      "repository_name": "habuenav/quickMap",
+      "repository_url": "https://github.com/habuenav/quickMap",
+      "name": "quickMap",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-07T05:16:44.642Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-07T05:16:44.642Z",
+      "last_seen_sha": "9fdf0bdc1628",
+      "author": "Holman Buenaventura <habuenav@hotmail.com>",
+      "maintainer": "Holman Buenaventura <habuenav@hotmail.com>",
+      "sentence": "An ultra-fast and versatile alternative to Arduino's map() function using floats.",
+      "paragraph": "Designed for critical performance in audio systems, synthesis, and high-speed sensor reading. Precalculates slope and offset to eliminate runtime splits. Supports inverted ranges and automatic constraints.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/quickMap-1.0.0.zip",
+      "size": 7541,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-07T00:04:48Z"
+    },
+    {
       "repository_name": "luisllamasbinaburo/Arduino-QuickMedian",
       "repository_url": "https://github.com/luisllamasbinaburo/Arduino-QuickMedian",
       "name": "QuickMedianLib",
@@ -305533,7 +305562,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9435,
+    "with_github_metadata": 9436,
     "total_dependencies": 5153
   }
 }

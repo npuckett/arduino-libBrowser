@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-07T09:02:39.343Z",
+  "enhanced_at": "2026-07-07T10:59:14.699Z",
   "total_libraries": 9639,
-  "index_etag": "W/\"c3ce9fb9e26bb707595d5b0b5e90ab20\"",
-  "index_last_modified": "Tue, 07 Jul 2026 08:59:11 GMT",
+  "index_etag": "W/\"2bf1feee47f97721bcb3e672c6b35db6\"",
+  "index_last_modified": "Tue, 07 Jul 2026 10:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -102177,7 +102177,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "1.2.1",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -102194,22 +102194,26 @@
         {
           "version": "1.2.1",
           "seen_at": "2026-07-07T09:02:39.215Z"
+        },
+        {
+          "version": "1.2.3",
+          "seen_at": "2026-07-07T10:59:14.574Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "3958121fb13a",
+      "last_seen_sha": "99c9f4b0f4a4",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, and vendor-specific bulk/control APIs for ESP32 Arduino sketches.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.1.zip",
-      "size": 214103,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.3.zip",
+      "size": 223885,
+      "previous_version": "1.2.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -127741,7 +127745,7 @@
       "repository_name": "soosp/HttpDigestAuth",
       "repository_url": "https://github.com/soosp/HttpDigestAuth",
       "name": "HttpDigestAuth",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -127754,11 +127758,15 @@
         {
           "version": "0.3.1",
           "seen_at": "2026-07-06T20:35:33.750Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-07T10:59:14.574Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-10T09:02:32Z",
-      "last_seen_sha": "5c15b1f7a593",
+      "last_seen_sha": "8cf5f88956ef",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe helper class for HTTP Digest Authentication.",
@@ -127766,11 +127774,12 @@
       "category": "Communication",
       "architectures": [
         "esp32",
-        "esp8266"
+        "esp8266",
+        "atmelavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HttpDigestAuth-0.3.1.zip",
-      "size": 10569,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HttpDigestAuth-0.4.0.zip",
+      "size": 12276,
+      "previous_version": "0.3.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

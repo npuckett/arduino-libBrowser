@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-07T09:02:39.215Z",
+  "since": "2026-07-07T10:59:14.574Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "tanakamasayuki/EspUsbDevice",
         "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
         "name": "EspUsbDevice",
-        "version": "1.2.1",
+        "version": "1.2.3",
         "version_history": [
           {
             "version": "1.0.0",
@@ -24,67 +24,81 @@
           {
             "version": "1.2.1",
             "seen_at": "2026-07-07T09:02:39.215Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-07T10:59:14.574Z"
           }
         ],
-        "release_count": 4,
+        "release_count": 5,
         "first_seen_at": "2026-07-01T11:48:44.907Z",
-        "last_seen_sha": "3958121fb13a",
+        "last_seen_sha": "99c9f4b0f4a4",
         "author": "TANAKA Masayuki",
         "maintainer": "TANAKA Masayuki",
         "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, and vendor-specific bulk/control APIs for ESP32 Arduino sketches.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
         "category": "Device Control",
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.1.zip",
-        "size": 214103,
-        "previous_version": "1.2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.3.zip",
+        "size": 223885,
+        "previous_version": "1.2.1",
         "github_stars": 5,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-01T10:04:34Z"
       },
-      "old_version": "1.2.0",
-      "new_version": "1.2.1"
+      "old_version": "1.2.1",
+      "new_version": "1.2.3"
     },
     {
       "library": {
-        "repository_name": "teemow/planterm",
-        "repository_url": "https://github.com/teemow/planterm",
-        "name": "planterm",
-        "version": "0.1.1",
+        "repository_name": "soosp/HttpDigestAuth",
+        "repository_url": "https://github.com/soosp/HttpDigestAuth",
+        "name": "HttpDigestAuth",
+        "version": "0.4.0",
         "version_history": [
           {
-            "version": "0.1.0",
-            "seen_at": "2026-07-06T16:58:22.530Z"
+            "version": "0.2.0",
+            "seen_at": "2026-06-10T09:02:32Z"
           },
           {
-            "version": "0.1.1",
-            "seen_at": "2026-07-07T09:02:39.215Z"
+            "version": "0.3.0",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-07T10:59:14.574Z"
           }
         ],
-        "release_count": 2,
-        "first_seen_at": "2026-07-06T16:58:22.530Z",
-        "last_seen_sha": "6e8e860925c5",
-        "author": "Timo Derstappen",
-        "maintainer": "Timo Derstappen <teemow@gmail.com>",
-        "sentence": "CAREL pLAN terminal protocol library: act as a pGD terminal to decode, enroll, navigate and edit.",
-        "paragraph": "Implements the CAREL pLAN terminal role as reverse-engineered from one uPC controller. Frame grammar, keypad encoding, poll-token matching, stream re-splitting and display-record decode. Header-only, platform-agnostic C++17: bytes in, bytes out; you supply the (9-bit capable) transport.",
+        "release_count": 4,
+        "first_seen_at": "2026-06-10T09:02:32Z",
+        "last_seen_sha": "8cf5f88956ef",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Thread-safe helper class for HTTP Digest Authentication.",
+        "paragraph": "Stores username, realm, password and the MD5 hash in the format required by HTTP Digest Auth (RFC 7616). Supports persistent storage via the ESP32 Preferences library.",
         "category": "Communication",
         "architectures": [
-          "*"
+          "esp32",
+          "esp8266",
+          "atmelavr"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/teemow/planterm-0.1.1.zip",
-        "size": 103631,
-        "previous_version": "0.1.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HttpDigestAuth-0.4.0.zip",
+        "size": 12276,
+        "previous_version": "0.3.1",
         "github_stars": 0,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-06T12:40:07Z"
+        "github_updated_at": "2026-06-09T15:02:24Z"
       },
-      "old_version": "0.1.0",
-      "new_version": "0.1.1"
+      "old_version": "0.3.1",
+      "new_version": "0.4.0"
     }
   ],
   "removed_libraries": []

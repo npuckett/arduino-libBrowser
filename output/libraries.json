@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-07T10:59:14.699Z",
-  "total_libraries": 9639,
-  "index_etag": "W/\"2bf1feee47f97721bcb3e672c6b35db6\"",
-  "index_last_modified": "Tue, 07 Jul 2026 10:59:12 GMT",
+  "enhanced_at": "2026-07-07T12:04:10.878Z",
+  "total_libraries": 9640,
+  "index_etag": "W/\"37461518b9a3a328621f2625ca543f41\"",
+  "index_last_modified": "Tue, 07 Jul 2026 11:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -51940,6 +51940,38 @@
       "github_updated_at": "2026-06-29T00:45:28Z",
       "download_url": "https://github.com/OtacilioN/Brasilino",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "habuenav/Breath",
+      "repository_url": "https://github.com/habuenav/Breath",
+      "name": "Breath",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-07T12:04:09.471Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-07T12:04:09.471Z",
+      "last_seen_sha": "74cd05a7dff1",
+      "author": "Holman Buenaventura",
+      "maintainer": "Holman Buenaventura",
+      "sentence": "Ultra-fast breath sensor library for electronic wind instruments (EWI).",
+      "paragraph": "Optimized for wind controllers. Read and scale air pressure sensors with zero runtime division overhead.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "quickMap"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/Breath-1.0.0.zip",
+      "size": 9663,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-07T08:04:08Z"
     },
     {
       "repository_name": "matthias-bs/BresserWeatherSensorReceiver",
@@ -305590,7 +305622,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9436,
-    "total_dependencies": 5153
+    "with_github_metadata": 9437,
+    "total_dependencies": 5154
   }
 }

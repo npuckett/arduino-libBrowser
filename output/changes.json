@@ -1,6 +1,128 @@
 {
-  "since": "2026-07-07T23:19:01.439Z",
+  "since": "2026-07-08T00:20:50.276Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "connormmckelvey/Haplink",
+        "repository_url": "https://github.com/connormmckelvey/Haplink",
+        "name": "Haplink",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-08T00:20:50.276Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-06T22:25:28.794Z",
+        "last_seen_sha": "e8204312f846",
+        "author": "Connor McKelvey <Connormckelvey@utexas.edu>",
+        "maintainer": "Connor McKelvey <Connormckelvey@utexas.edu>",
+        "sentence": "Bidirectional serial communication protocol for haptic robotic devices",
+        "paragraph": "Haplink provides a lightweight, real-time communication protocol between Arduino/embedded devices and host computers. Features parameter control, telemetry streaming, and type-safe data transfer with XOR checksum validation. Ideal for haptic feedback systems and robotics applications.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/connormmckelvey/Haplink-1.0.3.zip",
+        "size": 188382,
+        "previous_version": "1.0.2",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "Python",
+        "github_updated_at": "2026-07-06T19:11:40Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "bitbucket.org/jezhill/Keyhole",
+        "repository_url": "https://bitbucket.org/jezhill/Keyhole",
+        "name": "Keyhole",
+        "version": "1.16.0",
+        "version_history": [
+          {
+            "version": "1.15.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.16.0",
+            "seen_at": "2026-07-08T00:20:50.276Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "dfd83f0aa3cb",
+        "author": "Jeremy Hill <jezhill@gmail.com>",
+        "maintainer": "Jeremy Hill <jezhill@gmail.com>",
+        "sentence": "A lightweight library for serial-port interaction: send commands and get/set sketch variables via a JSON- and Python-compatible text interface.",
+        "paragraph": "In one line, and usually with less than a microsecond of overhead, keyhole.variable(\"foo\", foo); provides serial-port access to an integer, floating-point or String variable in your sketch. Set its value by sending foo=123\\n - the variable() method will return true to let the sketch know when you do this. Query it by sending foo\\n . Query all exposed variables at once by sending ?\\n , or choose to have them auto-report themselves periodically. Responses are in easy-to-parse JSON format and can be turned into Python dicts with one call to ast.literal_eval(), but there's a plotter-compatibility mode too. For the computer's side of the interaction, a complementary Python module is included in the project repository (or available separately from PyPI with python -m pip install keyhole-comm[serial] ).",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/bitbucket.org/jezhill/Keyhole-1.16.0.zip",
+        "size": 48404,
+        "previous_version": "1.15.0"
+      },
+      "old_version": "1.15.0",
+      "new_version": "1.16.0"
+    },
+    {
+      "library": {
+        "repository_name": "Zeppelin500/MBusCom",
+        "repository_url": "https://github.com/Zeppelin500/MBusCom",
+        "name": "MBusCom",
+        "version": "0.1.8",
+        "version_history": [
+          {
+            "version": "0.1.6",
+            "seen_at": "2025-11-18T07:07:42Z"
+          },
+          {
+            "version": "0.1.7",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.1.8",
+            "seen_at": "2026-07-08T00:20:50.276Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-11-18T07:07:42Z",
+        "last_seen_sha": "deb31b6d79a4",
+        "author": "Zeppelin500 <mbusinolib@gmail.com>",
+        "maintainer": "Zeppelin500 <mbusinolib@gmail.com>",
+        "sentence": "M-Bus Serial communication Library",
+        "paragraph": "enables Arduino devices to communicate with M-Bus Slaves thru a M-Bus Master (level converter)",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "MBusinoLib"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/MBusCom-0.1.8.zip",
+        "size": 23114,
+        "previous_version": "0.1.7",
+        "github_stars": 9,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T09:06:11Z"
+      },
+      "old_version": "0.1.7",
+      "new_version": "0.1.8"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,126 @@
 {
-  "since": "2026-07-08T05:58:17.824Z",
+  "since": "2026-07-08T06:58:59.709Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "iskakfatoni/IskakINO_LiquidCrystal_I2C",
+        "repository_url": "https://github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C",
+        "name": "IskakINO_LiquidCrystal_I2C",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-02-21T07:50:23Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-02-21T07:50:23Z",
+        "last_seen_sha": "3a707442d6ab",
+        "author": "Iskak Fatoni",
+        "maintainer": "Iskak Fatoni",
+        "sentence": "LiquidCrystal I2C library for HD44780 LCD with automatic I2C address detection.",
+        "paragraph": "Lightweight and backward-compatible LiquidCrystal_I2C library for HD44780 LCD using PCF8574 I2C expander. Supports Arduino and ESP32, custom characters, scrolling text, progress bar, cursor and blink control, with optimized flash and RAM usage.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C-1.0.3.zip",
+        "size": 26054,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-23T12:35:58Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "sauloverissimo/midi2cpp",
+        "repository_url": "https://github.com/sauloverissimo/midi2cpp",
+        "name": "midi2cpp",
+        "version": "0.6.1",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-30T08:59:43Z"
+          },
+          {
+            "version": "0.6.1",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:59:43Z",
+        "last_seen_sha": "b3f0f58f906f",
+        "author": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "C++ MIDI 2.0 platform: an idiomatic wrapper over the midi2 core.",
+        "paragraph": "C++17 wrapper that bundles the portable midi2 C99 core. Covers UMP transport (M2-104), MIDI-CI with Appendix E (M2-101), Property Exchange Subscribe/Notify, Profile Configuration, Process Inquiry, Flex Data, and Bit Scaling (M2-115). Targets embedded boards (RP2040, RP2350, Teensy, ESP32 family, nRF52, SAMD21).",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2cpp-0.6.1.zip",
+        "size": 75847278,
+        "previous_version": "0.6.0",
+        "github_stars": 4,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T16:08:06Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.6.1"
+    },
+    {
+      "library": {
+        "repository_name": "sunfounder/robot-shield-arduino",
+        "repository_url": "https://github.com/sunfounder/robot-shield-arduino",
+        "name": "RobotShield",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-06T07:25:29.462Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-06T05:23:41.765Z",
+        "last_seen_sha": "c98d34ae2137",
+        "author": "SunFounder",
+        "maintainer": "SunFounder",
+        "sentence": "Hardware abstraction library for the UNO Q robot shield (servo, PWM, motor, power telemetry).",
+        "paragraph": "Provides servo angle control, raw PWM frequency and pulse management, DC motor H-bridge control, and battery and power telemetry via an I2C co-processor. Designed for the STM32U5 and QCM2290 UNO Q platform communicating over Arduino Bridge RPC.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/RobotShield-1.0.3.zip",
+        "size": 21212,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-06T03:35:31Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

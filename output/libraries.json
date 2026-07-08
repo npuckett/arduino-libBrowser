@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-08T19:29:00.110Z",
-  "total_libraries": 9644,
-  "index_etag": "W/\"f78ab19aaea24a4022e269c138a3a74c\"",
-  "index_last_modified": "Wed, 08 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-08T20:26:46.484Z",
+  "total_libraries": 9645,
+  "index_etag": "W/\"ef67c95cba2d5b10dc7f89f270cf6047\"",
+  "index_last_modified": "Wed, 08 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -218341,6 +218341,35 @@
       "github_updated_at": "2024-07-18T08:32:49Z"
     },
     {
+      "repository_name": "nthnsdev/RCArmDrive",
+      "repository_url": "https://github.com/nthnsdev/RCArmDrive",
+      "name": "RCArmDrive",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-08T20:26:45.081Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-08T20:26:45.081Z",
+      "last_seen_sha": "be026b3f4b3d",
+      "author": "nthnsdev <pythonprint990@gmail.com>",
+      "maintainer": "nthnsdev <pythonprint990@gmail.com>",
+      "sentence": "Control an RC car with a robotic crane/arm over BLE, HC-05/HC-06 Bluetooth, or WiFi.",
+      "paragraph": "Transport-agnostic library for building RC vehicles with servo-driven crane/arm attachments. Supports ESP32 BLE, HC-05/HC-06 Bluetooth modules, and WiFi, with a unified command protocol and Flutter companion app support.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nthnsdev/RCArmDrive-1.1.0.zip",
+      "size": 12691,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-08T19:19:10Z"
+    },
+    {
       "repository_name": "RCduino/RCduino",
       "repository_url": "https://github.com/RCduino/RCduino",
       "name": "RCduino",
@@ -251980,7 +252009,7 @@
       "repository_name": "sparkfun/SparkFun_ADS1219_Arduino_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_ADS1219_Arduino_Library",
       "name": "SparkFun ADS1219 Arduino Library",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.3",
@@ -251989,11 +252018,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-08T20:26:45.081Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:30:43Z",
-      "last_seen_sha": "197eb4b5cbda",
+      "last_seen_sha": "a37fa0b13734",
       "author": "SparkFun Electronics",
       "maintainer": "SparkFun Electronics",
       "sentence": "An Arduino library for the ADS1219 24-Bit 4-Channel ADC from TI",
@@ -252005,8 +252038,8 @@
       "depends": [
         "SparkFun Toolkit"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_ADS1219_Arduino_Library-1.0.3.zip",
-      "size": 20002,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_ADS1219_Arduino_Library-1.0.4.zip",
+      "size": 662773,
       "previous_version": "1.0.3",
       "github_stars": 4,
       "github_forks": 1,
@@ -305902,7 +305935,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9441,
+    "with_github_metadata": 9442,
     "total_dependencies": 5154
   }
 }

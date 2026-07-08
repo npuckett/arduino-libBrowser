@@ -1,6 +1,172 @@
 {
-  "since": "2026-07-08T15:43:52.842Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-08T16:30:07.517Z",
+  "new_libraries": [
+    {
+      "repository_name": "codewitch-honey-crisis/htcw_frame_arq",
+      "repository_url": "https://github.com/codewitch-honey-crisis/htcw_frame_arq",
+      "name": "htcw_frame_arq",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-08T16:30:07.517Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-08T16:30:07.517Z",
+      "last_seen_sha": "065f93ad03e7",
+      "author": "honey the codewitch",
+      "maintainer": "honey the codewitch",
+      "sentence": "Provides data transport framing and error checking with guaranteed delivery",
+      "paragraph": "This library provides data transport framing, error checking and guaranteed delivery for dirty comms lines",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_frame_arq-0.1.1.zip",
+      "size": 57637,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-07T23:32:04Z"
+    },
+    {
+      "repository_name": "vic4key/MyButtons",
+      "repository_url": "https://github.com/vic4key/MyButtons",
+      "name": "MyButtons",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-08T16:30:07.517Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-08T16:30:07.517Z",
+      "last_seen_sha": "8ed1018c4e88",
+      "author": "Vic P.",
+      "maintainer": "Vic P.",
+      "sentence": "A simple Arduino/ESP32 button library for handling a list of buttons - configure once, trigger a debounced pressed event via callback, or check pressed states anytime.",
+      "paragraph": "MyButtons provides an easy-to-use interface for managing multiple GPIO buttons with built-in debounce, edge detection, callback, and polling APIs. Supports up to 64 buttons via bitmask, both active-high (VCC) and active-low (GND) wiring. Works on AVR, ESP32, and any Arduino-compatible board.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vic4key/MyButtons-1.0.0.zip",
+      "size": 28199,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Roff",
+      "github_updated_at": "2026-07-08T13:36:03Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.37",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          }
+        ],
+        "release_count": 16,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "522863a66d73",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.37.zip",
+        "size": 41837371,
+        "previous_version": "1.2.34",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.34",
+      "new_version": "1.2.37"
+    }
+  ],
   "removed_libraries": []
 }

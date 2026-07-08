@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-08T11:33:29.696Z",
+  "enhanced_at": "2026-07-08T12:29:30.833Z",
   "total_libraries": 9642,
-  "index_etag": "W/\"24ca7d7d90342b27576442d0df25be13\"",
-  "index_last_modified": "Wed, 08 Jul 2026 11:29:12 GMT",
+  "index_etag": "W/\"f3a12db8a6abf4693341adc2e1b85784\"",
+  "index_last_modified": "Wed, 08 Jul 2026 12:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -102272,7 +102272,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -102297,11 +102297,15 @@
         {
           "version": "1.2.4",
           "seen_at": "2026-07-08T04:08:04.409Z"
+        },
+        {
+          "version": "1.2.5",
+          "seen_at": "2026-07-08T12:29:30.704Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "773ee9ede63e",
+      "last_seen_sha": "986aef040d2a",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -102310,9 +102314,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.4.zip",
-      "size": 224870,
-      "previous_version": "1.2.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.5.zip",
+      "size": 233887,
+      "previous_version": "1.2.4",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -102322,7 +102326,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.0.1",
@@ -102331,11 +102335,15 @@
         {
           "version": "2.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-07-08T12:29:30.704Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "48f17d56fa89",
+      "last_seen_sha": "7f8e9ed56870",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "This is a library for using USB Host with ESP32.",
@@ -102344,13 +102352,13 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.1.0.zip",
-      "size": 582001,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.1.1.zip",
+      "size": 621337,
+      "previous_version": "2.1.0",
       "github_stars": 149,
       "github_forks": 37,
-      "github_updated_at": "2026-07-02T06:48:12Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T06:48:12Z"
     },
     {
       "repository_name": "smaffer/espvgax",
@@ -131770,7 +131778,7 @@
       "repository_name": "RobTillaart/IEEE754tools",
       "repository_url": "https://github.com/RobTillaart/IEEE754tools",
       "name": "IEEE754tools",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "version_history": [
         {
           "version": "0.2.6",
@@ -131779,11 +131787,15 @@
         {
           "version": "0.2.7",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.8",
+          "seen_at": "2026-07-08T12:29:30.704Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:27:27Z",
-      "last_seen_sha": "277fb7a53f3e",
+      "last_seen_sha": "c59981546895",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Fast helper functions for IEEE754 floats.",
@@ -131791,9 +131803,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/IEEE754tools-0.2.7.zip",
-      "size": 12021,
-      "previous_version": "0.2.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/IEEE754tools-0.2.8.zip",
+      "size": 12107,
+      "previous_version": "0.2.7",
       "github_stars": 8,
       "github_forks": 0,
       "github_language": "C",
@@ -181837,7 +181849,7 @@
       "repository_name": "MyTechWaifu/MTW_TinyLoopScheduler",
       "repository_url": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler",
       "name": "MTW TinyLoopScheduler",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.1",
@@ -181846,26 +181858,31 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-07-08T12:29:30.704Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-29T09:22:09Z",
-      "last_seen_sha": "908563c4d406",
+      "last_seen_sha": "afaadcb007c2",
       "author": "MyTechWaifu",
       "maintainer": "MyTechWaifu <MyTechWaifu@web3msg.fun>",
       "sentence": "A compact cooperative scheduler with static memory allocation for AVR Arduino boards.",
       "paragraph": "MTW TinyLoopScheduler provides periodic, delayed, posted, polling, ISR-deferred and step-based PARTED task execution without dynamic memory allocation. Scheduler subsystems and fixed-capacity queue profiles are selected at compile time for predictable SRAM and Flash usage.",
       "category": "Timing",
       "architectures": [
-        "avr"
+        "avr",
+        "megaavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.1.1.zip",
-      "size": 86021,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.1.2.zip",
+      "size": 88003,
       "previous_version": "0.1.1",
       "github_stars": 7,
       "github_forks": 0,
-      "github_updated_at": "2026-06-30T13:37:35Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-30T13:37:35Z"
     },
     {
       "repository_name": "kcl93/muCom",

@@ -1,6 +1,206 @@
 {
-  "since": "2026-07-08T21:23:18.784Z",
+  "since": "2026-07-08T22:19:43.030Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.39",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          }
+        ],
+        "release_count": 18,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "14ccea12ff33",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.39.zip",
+        "size": 41837369,
+        "previous_version": "1.2.38",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.38",
+      "new_version": "1.2.39"
+    },
+    {
+      "library": {
+        "repository_name": "sierramike/HomeAssistantMQTT",
+        "repository_url": "https://github.com/sierramike/HomeAssistantMQTT",
+        "name": "HomeAssistantMQTT",
+        "version": "1.2.3",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-01-02T21:34:20Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-05T03:00:55.745Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T21:34:20Z",
+        "last_seen_sha": "5c21fbd64fb5",
+        "author": "Stephane Moitry",
+        "maintainer": "Stephane Moitry",
+        "sentence": "Arduino Library to create IoT devices connected to Home Assistant via MQTT.",
+        "paragraph": "This library manages MQTT structure to easily publish Sensors, Binary sensors, Buttons, Switches, Numbers, Selects, DeviceAutomations, Events and Options to create a device and communicate with it in Home Assistant. Supports reading actual values from MQTT upon restart.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "license": "Apache-2.0",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sierramike/HomeAssistantMQTT-1.2.3.zip",
+        "size": 16627,
+        "previous_version": "1.2.0",
+        "github_stars": 16,
+        "github_forks": 10,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-24T22:21:20Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.2.3"
+    },
+    {
+      "library": {
+        "repository_name": "ElectronicCats/mpu6050",
+        "repository_url": "https://github.com/ElectronicCats/mpu6050",
+        "name": "MPU6050",
+        "version": "1.4.5",
+        "version_history": [
+          {
+            "version": "1.4.4",
+            "seen_at": "2026-06-29T08:51:17Z"
+          },
+          {
+            "version": "1.4.5",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-29T08:51:17Z",
+        "last_seen_sha": "4bcfc3749962",
+        "author": "Electronic Cats",
+        "maintainer": "Electronic Cats <store@electroniccats.com>",
+        "sentence": "MPU6050 Arduino Library.",
+        "paragraph": "MPU-6050 6-axis accelerometer/gyroscope Arduino Library.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ElectronicCats/MPU6050-1.4.5.zip",
+        "size": 121827,
+        "previous_version": "1.4.4",
+        "github_stars": 454,
+        "github_forks": 153,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T04:21:53Z"
+      },
+      "old_version": "1.4.4",
+      "new_version": "1.4.5"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,167 +1,91 @@
 {
-  "since": "2026-07-08T02:59:42.960Z",
-  "new_libraries": [],
+  "since": "2026-07-08T04:08:04.409Z",
+  "new_libraries": [
+    {
+      "repository_name": "angeloINTJ/BMx280PIO_RP2040",
+      "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
+      "name": "BMx280PIO_RP2040",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-08T04:08:04.409Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-08T04:08:04.409Z",
+      "last_seen_sha": "80e06e58682b",
+      "author": "angeloINTJ",
+      "maintainer": "angeloINTJ",
+      "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
+      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Supports both PIO-based I2C (any GPIO) and hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+      "category": "Sensors",
+      "architectures": [
+        "rp2040"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.0.0.zip",
+      "size": 29396,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-08T02:12:45Z"
+    }
+  ],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "shorepine/amy",
-        "repository_url": "https://github.com/shorepine/amy",
-        "name": "AMY Synthesizer",
-        "version": "1.2.33",
+        "repository_name": "tanakamasayuki/EspUsbDevice",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+        "name": "EspUsbDevice",
+        "version": "1.2.4",
         "version_history": [
           {
-            "version": "1.2.18",
-            "seen_at": "2026-06-30T08:15:25Z"
+            "version": "1.0.0",
+            "seen_at": "2026-07-01T11:48:44.907Z"
           },
           {
-            "version": "1.2.18",
-            "seen_at": "2026-06-30T22:37:15.403Z"
+            "version": "1.1.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
           },
           {
-            "version": "1.2.19",
-            "seen_at": "2026-07-04T03:00:21.335Z"
+            "version": "1.2.0",
+            "seen_at": "2026-07-03T10:52:10.012Z"
           },
           {
-            "version": "1.2.20",
-            "seen_at": "2026-07-04T22:16:47.068Z"
+            "version": "1.2.1",
+            "seen_at": "2026-07-07T09:02:39.215Z"
           },
           {
-            "version": "1.2.21",
-            "seen_at": "2026-07-05T20:22:22.844Z"
+            "version": "1.2.3",
+            "seen_at": "2026-07-07T10:59:14.574Z"
           },
           {
-            "version": "1.2.22",
-            "seen_at": "2026-07-05T22:18:31.813Z"
-          },
-          {
-            "version": "1.2.24",
-            "seen_at": "2026-07-06T03:01:13.701Z"
-          },
-          {
-            "version": "1.2.26",
-            "seen_at": "2026-07-06T05:23:41.765Z"
-          },
-          {
-            "version": "1.2.27",
-            "seen_at": "2026-07-06T15:01:44.583Z"
-          },
-          {
-            "version": "1.2.28",
-            "seen_at": "2026-07-06T20:35:33.750Z"
-          },
-          {
-            "version": "1.2.29",
-            "seen_at": "2026-07-06T22:25:28.794Z"
-          },
-          {
-            "version": "1.2.31",
-            "seen_at": "2026-07-07T00:25:21.648Z"
-          },
-          {
-            "version": "1.2.32",
-            "seen_at": "2026-07-07T18:37:39.940Z"
-          },
-          {
-            "version": "1.2.33",
-            "seen_at": "2026-07-08T02:59:42.960Z"
+            "version": "1.2.4",
+            "seen_at": "2026-07-08T04:08:04.409Z"
           }
         ],
-        "release_count": 14,
-        "first_seen_at": "2026-06-30T08:15:25Z",
-        "last_seen_sha": "d9c49db70ebe",
-        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
-        "maintainer": "Brian Whitman <brian@variogram.com>",
-        "sentence": "AMY, the Music Synthesizer Library",
-        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
-        "category": "Signal Input/Output",
+        "release_count": 6,
+        "first_seen_at": "2026-07-01T11:48:44.907Z",
+        "last_seen_sha": "773ee9ede63e",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
+        "category": "Device Control",
         "architectures": [
-          "esp32",
-          "stm32",
-          "rp2040",
-          "mbed_rp2040",
-          "rp2350",
-          "mbed_rp2350",
-          "teensy",
-          "STM32F1",
-          "STM32F4",
-          "STM32H7",
-          "nrf52",
-          "samd",
-          "avr"
+          "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.33.zip",
-        "size": 41818142,
-        "previous_version": "1.2.32",
-        "github_stars": 652,
-        "github_forks": 49,
-        "github_language": "C",
-        "github_updated_at": "2026-06-30T21:59:06Z"
-      },
-      "old_version": "1.2.32",
-      "new_version": "1.2.33"
-    },
-    {
-      "library": {
-        "repository_name": "ziyarago/RisalDash",
-        "repository_url": "https://github.com/ziyarago/RisalDash",
-        "name": "RisalDash",
-        "version": "0.9.0",
-        "version_history": [
-          {
-            "version": "0.2.1",
-            "seen_at": "2026-06-30T09:02:12Z"
-          },
-          {
-            "version": "0.3.0",
-            "seen_at": "2026-07-05T05:17:07.675Z"
-          },
-          {
-            "version": "0.4.0",
-            "seen_at": "2026-07-06T03:01:13.701Z"
-          },
-          {
-            "version": "0.5.0",
-            "seen_at": "2026-07-06T18:35:18.558Z"
-          },
-          {
-            "version": "0.6.0",
-            "seen_at": "2026-07-07T14:58:02.693Z"
-          },
-          {
-            "version": "0.8.0",
-            "seen_at": "2026-07-07T16:46:58.618Z"
-          },
-          {
-            "version": "0.8.1",
-            "seen_at": "2026-07-07T18:37:39.940Z"
-          },
-          {
-            "version": "0.9.0",
-            "seen_at": "2026-07-08T02:59:42.960Z"
-          }
-        ],
-        "release_count": 8,
-        "first_seen_at": "2026-06-30T09:02:12Z",
-        "last_seen_sha": "eb0c94b16d88",
-        "author": "Shaxzod Ahmedov",
-        "maintainer": "Shaxzod Ahmedov <ahmedov.shaxzod@gmail.com>",
-        "sentence": "Beautiful real-time web dashboards for ESP32/ESP8266 in a few lines of C++.",
-        "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/UZ/AR with full RTL, plus dash.translate() for your own widget titles), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
-        "category": "Communication",
-        "architectures": [
-          "esp32",
-          "esp8266"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.9.0.zip",
-        "size": 326413,
-        "previous_version": "0.8.1",
-        "github_stars": 8,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.4.zip",
+        "size": 224870,
+        "previous_version": "1.2.3",
+        "github_stars": 5,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-01T10:33:38Z"
+        "github_updated_at": "2026-07-01T10:04:34Z"
       },
-      "old_version": "0.8.1",
-      "new_version": "0.9.0"
+      "old_version": "1.2.3",
+      "new_version": "1.2.4"
     }
   ],
   "removed_libraries": []

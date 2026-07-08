@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-08T02:59:43.097Z",
-  "total_libraries": 9641,
-  "index_etag": "W/\"c148c300fc6da851f92347ef85e4356c\"",
-  "index_last_modified": "Wed, 08 Jul 2026 02:59:11 GMT",
+  "enhanced_at": "2026-07-08T04:08:05.864Z",
+  "total_libraries": 9642,
+  "index_etag": "W/\"f3bfc0d0dec7c07875008d8b56f9b7ef\"",
+  "index_last_modified": "Wed, 08 Jul 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -48753,6 +48753,36 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/bitbucket.org/christandlg/BMx280MI-1.2.3.zip",
       "size": 33426
+    },
+    {
+      "repository_name": "angeloINTJ/BMx280PIO_RP2040",
+      "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
+      "name": "BMx280PIO_RP2040",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-08T04:08:04.409Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-08T04:08:04.409Z",
+      "last_seen_sha": "80e06e58682b",
+      "author": "angeloINTJ",
+      "maintainer": "angeloINTJ",
+      "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
+      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Supports both PIO-based I2C (any GPIO) and hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+      "category": "Sensors",
+      "architectures": [
+        "rp2040"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.0.0.zip",
+      "size": 29396,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-08T02:12:45Z"
     },
     {
       "repository_name": "arduino-libraries/BNO055",
@@ -102233,7 +102263,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -102254,11 +102284,15 @@
         {
           "version": "1.2.3",
           "seen_at": "2026-07-07T10:59:14.574Z"
+        },
+        {
+          "version": "1.2.4",
+          "seen_at": "2026-07-08T04:08:04.409Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "99c9f4b0f4a4",
+      "last_seen_sha": "773ee9ede63e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -102267,9 +102301,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.3.zip",
-      "size": 223885,
-      "previous_version": "1.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-1.2.4.zip",
+      "size": 224870,
+      "previous_version": "1.2.3",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -305736,7 +305770,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9438,
+    "with_github_metadata": 9439,
     "total_dependencies": 5154
   }
 }

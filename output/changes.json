@@ -1,124 +1,177 @@
 {
-  "since": "2026-07-09T14:59:59.938Z",
-  "new_libraries": [
-    {
-      "repository_name": "Protocentral/protocentral_healthypi_5_firmware",
-      "repository_url": "https://github.com/Protocentral/protocentral_healthypi_5_firmware",
-      "name": "ProtoCentral HealthyPi 5",
-      "version": "2.0.1",
-      "version_history": [
-        {
-          "version": "2.0.1",
-          "seen_at": "2026-07-09T14:59:59.938Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-09T14:59:59.938Z",
-      "last_seen_sha": "30cfabbb2560",
-      "author": "ProtoCentral Electronics",
-      "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
-      "sentence": "Dual-core NEXT runtime and board support for the ProtoCentral HealthyPi 5 (RP2040).",
-      "paragraph": "Encapsulates the production HealthyPi 5 NEXT dual-core AMP architecture for the arduino-pico core: core1 does lossless 128 SPS acquisition (MAX30001 + AFE4400) into a lock-free ring while core0 runs a broker, per-sink queues, a built-in OpenView 2 streamer, 1 Hz telemetry and a hardware watchdog. Includes board.h, the canonical pin map for HealthyPi 5 revisions 5.2-5.7, and auto-detects the on-board temperature sensor (MAX30205 or AS6221). Requires the arduino-pico FreeRTOS variant (include <FreeRTOS.h> in the sketch).",
-      "category": "Sensors",
-      "architectures": [
-        "rp2040"
-      ],
-      "depends": [
-        "ProtoCentral MAX30001",
-        "ProtoCentral AFE4490 PPG and SpO2 boards library"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_HealthyPi_5-2.0.1.zip",
-      "size": 247266,
-      "github_stars": 24,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-09T12:21:09Z"
-    }
-  ],
+  "since": "2026-07-09T16:05:51.213Z",
+  "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "RobTillaart/Temperature",
-        "repository_url": "https://github.com/RobTillaart/Temperature",
-        "name": "Temperature",
-        "version": "0.4.2",
+        "repository_name": "msnicklous/BufferedTrace",
+        "repository_url": "https://github.com/msnicklous/BufferedTrace",
+        "name": "BufferedTrace",
+        "version": "1.2.1",
         "version_history": [
           {
-            "version": "0.4.0",
-            "seen_at": "2025-07-21T16:28:13Z"
+            "version": "1.1.0",
+            "seen_at": "2026-03-23T08:12:14Z"
           },
           {
-            "version": "0.4.1",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "0.4.2",
-            "seen_at": "2026-07-09T14:59:59.938Z"
+            "version": "1.2.1",
+            "seen_at": "2026-07-09T16:05:51.213Z"
           }
         ],
-        "release_count": 3,
-        "first_seen_at": "2025-07-21T16:28:13Z",
-        "last_seen_sha": "5c5dcd3647b0",
-        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
-        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
-        "sentence": "Library with weather and temperature conversion functions.",
-        "paragraph": "Kelvin Celsius Fahrenheit dewPoint humidex heatIndex windChill",
-        "category": "Data Processing",
+        "release_count": 2,
+        "first_seen_at": "2026-03-23T08:12:14Z",
+        "last_seen_sha": "ecb0e8013a4e",
+        "author": "Martin Scott Nicklous <snick@web.de>",
+        "maintainer": "Martin Scott Nicklous <snick@web.de>",
+        "sentence": "A Library for buffered tracing.",
+        "paragraph": "A common debugging technique is sending trace information to a console through the serial interface. Sometimes you need to collect information from time-critical portions of your code and send it to the console later. This library helps you do that.",
+        "category": "Other",
         "architectures": [
           "*"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/Temperature-0.4.2.zip",
-        "size": 25500,
-        "previous_version": "0.4.1",
-        "github_stars": 21,
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/msnicklous/BufferedTrace-1.2.1.zip",
+        "size": 173042,
+        "previous_version": "1.1.0",
+        "github_stars": 1,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-02-19T09:52:25Z"
+        "github_updated_at": "2026-06-22T15:25:01Z"
       },
-      "old_version": "0.4.1",
-      "new_version": "0.4.2"
+      "old_version": "1.1.0",
+      "new_version": "1.2.1"
     },
     {
       "library": {
-        "repository_name": "greghulette/WCBClient",
-        "repository_url": "https://github.com/greghulette/WCBClient",
-        "name": "WCB_Client",
-        "version": "1.8.0",
+        "repository_name": "msnicklous/CommandCatcher",
+        "repository_url": "https://github.com/msnicklous/CommandCatcher",
+        "name": "CommandCatcher",
+        "version": "1.1.0",
         "version_history": [
           {
-            "version": "1.6.0",
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:38:33Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-09T16:05:51.213Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:38:33Z",
+        "last_seen_sha": "36f4cc2207fc",
+        "author": "Martin Scott Nicklous <snick@web.de>",
+        "maintainer": "Martin Scott Nicklous <snick@web.de>",
+        "sentence": "A Library for receiving commands through the serial interface.",
+        "paragraph": "Sometimes your sketch needs to obtain commands from an attached computer through the serial interface. This library helps you do so.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/msnicklous/CommandCatcher-1.1.0.zip",
+        "size": 187715,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-12T13:50:38Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "leaphy-robotics/leaphy-extensions",
+        "repository_url": "https://github.com/leaphy-robotics/leaphy-extensions",
+        "name": "Leaphy Extensions",
+        "version": "1.2.3",
+        "version_history": [
+          {
+            "version": "1.2.1",
+            "seen_at": "2025-07-21T16:19:28Z"
+          },
+          {
+            "version": "1.2.1",
             "seen_at": "2026-06-30T22:37:15.403Z"
           },
           {
-            "version": "1.7.0",
-            "seen_at": "2026-07-07T20:33:11.614Z"
-          },
-          {
-            "version": "1.8.0",
-            "seen_at": "2026-07-09T14:59:59.938Z"
+            "version": "1.2.3",
+            "seen_at": "2026-07-09T16:05:51.213Z"
           }
         ],
         "release_count": 3,
-        "first_seen_at": "2026-06-30T22:37:15.403Z",
-        "last_seen_sha": "1e9e241f3c9b",
-        "author": "Greg Hulette",
-        "maintainer": "Greg Hulette",
-        "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
-        "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs.",
-        "category": "Communication",
+        "first_seen_at": "2025-07-21T16:19:28Z",
+        "last_seen_sha": "26d0d95035dc",
+        "author": "Leaphy Robotics",
+        "maintainer": "Leaphy Robotics <koen@leaphy.nl>",
+        "sentence": "Provides functionality to program all Leaphy robots",
+        "category": "Device Control",
         "architectures": [
+          "avr",
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.8.0.zip",
-        "size": 66985,
-        "previous_version": "1.7.0",
+        "depends": [
+          "Adafruit GFX Library",
+          "Adafruit BusIO",
+          "EspSoftwareSerial"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/leaphy-robotics/Leaphy_Extensions-1.2.3.zip",
+        "size": 16927,
+        "previous_version": "1.2.1",
         "github_stars": 0,
         "github_forks": 1,
         "github_language": "C++",
-        "github_updated_at": "2026-06-29T22:42:58Z"
+        "github_updated_at": "2026-06-25T13:34:12Z"
       },
-      "old_version": "1.7.0",
-      "new_version": "1.8.0"
+      "old_version": "1.2.1",
+      "new_version": "1.2.3"
+    },
+    {
+      "library": {
+        "repository_name": "uutzinger/Arduino_MAX30001G",
+        "repository_url": "https://github.com/uutzinger/Arduino_MAX30001G",
+        "name": "MAX30001",
+        "version": "1.3.1",
+        "version_history": [
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-05-21T08:52:39Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-07-09T16:05:51.213Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-21T08:52:39Z",
+        "last_seen_sha": "67b9695613ce",
+        "author": "Urs Utzinger",
+        "maintainer": "Urs Utzinger",
+        "sentence": "Library for the MAXIM 30001G sensor",
+        "paragraph": "Driver for the MAX30001G AFE, which is a single-lead ECG and BIOZ AFE with integrated ADC and DSP for wearable applications.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "UUtzinger_RingBuffer",
+          "UUtzinger_logger"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/MAX30001-1.3.1.zip",
+        "size": 4073990,
+        "previous_version": "1.0.2",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-20T21:11:21Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.3.1"
     }
   ],
   "removed_libraries": []

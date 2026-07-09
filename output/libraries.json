@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-09T07:15:41.921Z",
+  "enhanced_at": "2026-07-09T09:07:59.955Z",
   "total_libraries": 9645,
-  "index_etag": "W/\"a808319ef95b69508eb5a57fc260cb72\"",
-  "index_last_modified": "Thu, 09 Jul 2026 06:59:12 GMT",
+  "index_etag": "W/\"bfef77b36f701bebcf57a58d279cafe1\"",
+  "index_last_modified": "Thu, 09 Jul 2026 08:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -102360,7 +102360,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "2.0.1",
@@ -102373,11 +102373,15 @@
         {
           "version": "2.1.1",
           "seen_at": "2026-07-08T12:29:30.704Z"
+        },
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-07-09T09:07:59.829Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "7f8e9ed56870",
+      "last_seen_sha": "58b60be618fb",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "This is a library for using USB Host with ESP32.",
@@ -102386,9 +102390,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.1.1.zip",
-      "size": 621337,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.1.2.zip",
+      "size": 625102,
+      "previous_version": "2.1.1",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -152484,16 +152488,20 @@
       "repository_name": "lovyan03/LovyanGFX",
       "repository_url": "https://github.com/lovyan03/LovyanGFX",
       "name": "LovyanGFX",
-      "version": "1.2.24",
+      "version": "1.2.25",
       "version_history": [
         {
           "version": "1.2.24",
           "seen_at": "2026-06-29T08:58:36Z"
+        },
+        {
+          "version": "1.2.25",
+          "seen_at": "2026-07-09T09:07:59.829Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-29T08:58:36Z",
-      "last_seen_sha": "0f8042ccfe5a",
+      "last_seen_sha": "670ef2fe0cee",
       "author": "lovyan03",
       "maintainer": "lovyan03,tobozo",
       "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
@@ -152507,11 +152515,13 @@
         "mbed_rp2040",
         "mbed_nano"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.25.zip",
+      "size": 48976060,
+      "previous_version": "1.2.24",
       "github_stars": 1683,
       "github_forks": 279,
-      "github_updated_at": "2026-07-01T09:01:55Z",
-      "download_url": "https://github.com/lovyan03/LovyanGFX",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-07-01T09:01:55Z"
     },
     {
       "repository_name": "rocketscream/Low-Power",
@@ -156234,16 +156244,20 @@
       "repository_name": "m5stack/M5GFX",
       "repository_url": "https://github.com/m5stack/M5GFX",
       "name": "M5GFX",
-      "version": "0.2.24",
+      "version": "0.2.25",
       "version_history": [
         {
           "version": "0.2.24",
           "seen_at": "2026-06-25T08:27:04Z"
+        },
+        {
+          "version": "0.2.25",
+          "seen_at": "2026-07-09T09:07:59.829Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-25T08:27:04Z",
-      "last_seen_sha": "1c19182cc265",
+      "last_seen_sha": "149982082311",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack All Display",
@@ -156252,11 +156266,13 @@
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.2.25.zip",
+      "size": 49243172,
+      "previous_version": "0.2.24",
       "github_stars": 350,
       "github_forks": 111,
-      "github_updated_at": "2026-06-30T11:02:56Z",
-      "download_url": "https://github.com/m5stack/M5GFX.git",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-30T11:02:56Z"
     },
     {
       "repository_name": "nananauno/M5GuruguruAvatar",
@@ -157421,16 +157437,20 @@
       "repository_name": "m5stack/M5Unified",
       "repository_url": "https://github.com/m5stack/M5Unified",
       "name": "M5Unified",
-      "version": "0.2.17",
+      "version": "0.2.18",
       "version_history": [
         {
           "version": "0.2.17",
           "seen_at": "2026-06-30T08:36:17Z"
+        },
+        {
+          "version": "0.2.18",
+          "seen_at": "2026-07-09T09:07:59.829Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:36:17Z",
-      "last_seen_sha": "4362cb0d88a6",
+      "last_seen_sha": "d4b373b23301",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Unified library for M5Stack series",
@@ -157439,14 +157459,16 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 656,
-      "github_forks": 118,
-      "github_updated_at": "2026-06-30T11:03:16Z",
       "depends": [
         "M5GFX"
       ],
-      "download_url": "https://github.com/m5stack/M5Unified.git",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.18.zip",
+      "size": 638261,
+      "previous_version": "0.2.17",
+      "github_stars": 656,
+      "github_forks": 118,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-30T11:03:16Z"
     },
     {
       "repository_name": "m5stack/M5Unit-8Encoder",

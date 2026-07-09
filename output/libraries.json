@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-09T21:28:30.159Z",
+  "enhanced_at": "2026-07-09T22:28:36.483Z",
   "total_libraries": 9647,
-  "index_etag": "W/\"901c1793476e3b85d8a14815fab57c40\"",
-  "index_last_modified": "Thu, 09 Jul 2026 20:59:11 GMT",
+  "index_etag": "W/\"bffb9e79a25338e9b50c82b391f3812a\"",
+  "index_last_modified": "Thu, 09 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22597,7 +22597,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.40",
+      "version": "1.2.41",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22674,11 +22674,15 @@
         {
           "version": "1.2.40",
           "seen_at": "2026-07-09T20:31:56.980Z"
+        },
+        {
+          "version": "1.2.41",
+          "seen_at": "2026-07-09T22:28:36.356Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "7d0e8de4e8ba",
+      "last_seen_sha": "dc05aa77428d",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22699,9 +22703,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.40.zip",
-      "size": 41837906,
-      "previous_version": "1.2.39",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.41.zip",
+      "size": 41983802,
+      "previous_version": "1.2.40",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70280,7 +70284,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.62.0",
+      "version": "5.64.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70433,11 +70437,15 @@
         {
           "version": "5.62.0",
           "seen_at": "2026-07-06T20:35:33.750Z"
+        },
+        {
+          "version": "5.64.0",
+          "seen_at": "2026-07-09T22:28:36.356Z"
         }
       ],
-      "release_count": 38,
+      "release_count": 39,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "ddbad89f2df2",
+      "last_seen_sha": "1933ed1179d4",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70446,9 +70454,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.62.0.zip",
-      "size": 15979879,
-      "previous_version": "5.60.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.64.0.zip",
+      "size": 16564880,
+      "previous_version": "5.62.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -296553,7 +296561,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "version_history": [
         {
           "version": "1.6.0",
@@ -296566,22 +296574,26 @@
         {
           "version": "1.8.0",
           "seen_at": "2026-07-09T14:59:59.938Z"
+        },
+        {
+          "version": "1.9.0",
+          "seen_at": "2026-07-09T22:28:36.356Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "1e9e241f3c9b",
+      "last_seen_sha": "975b20920cb5",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
-      "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs.",
+      "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs. With auto-join (on by default) the device also registers regular WCBs it hears as ESP-NOW peers live and remembers them across reboots, so it discovers the fleet once and never needs wcb_quantity to cover it.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.8.0.zip",
-      "size": 66985,
-      "previous_version": "1.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.0.zip",
+      "size": 70738,
+      "previous_version": "1.8.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

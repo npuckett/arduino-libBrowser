@@ -1,6 +1,88 @@
 {
-  "since": "2026-07-09T01:32:09.946Z",
+  "since": "2026-07-09T03:00:44.778Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "TechTronicsEngineering/AutoPlex7",
+        "repository_url": "https://github.com/TechTronicsEngineering/AutoPlex7",
+        "name": "AutoPlex7",
+        "version": "2.2.1",
+        "version_history": [
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-06-15T09:21:07Z"
+          },
+          {
+            "version": "2.2.1",
+            "seen_at": "2026-07-09T03:00:44.778Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-15T09:21:07Z",
+        "last_seen_sha": "910f969ad662",
+        "author": "Nyjah",
+        "maintainer": "Nyjah",
+        "sentence": "Control seven segment displays with ease.",
+        "paragraph": "AutoPlex7 is a simple and versatile library for controlling seven segment displays. It works with both main types of displays, has flexible pin layout, and handles multiplexing in the background so you never have to worry about refresh calls.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-2.2.1.zip",
+        "size": 16602,
+        "previous_version": "2.1.1",
+        "github_stars": 2,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-14T19:01:49Z"
+      },
+      "old_version": "2.1.1",
+      "new_version": "2.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "angeloINTJ/BMx280PIO_RP2040",
+        "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
+        "name": "BMx280PIO_RP2040",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-08T10:39:35.941Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-09T03:00:44.778Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-08T04:08:04.409Z",
+        "last_seen_sha": "45e0dcdaa3ef",
+        "author": "angeloINTJ",
+        "maintainer": "angeloINTJ",
+        "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
+        "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Supports both PIO-based I2C (any GPIO) and hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+        "category": "Sensors",
+        "architectures": [
+          "rp2040"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.0.2.zip",
+        "size": 32521,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-08T02:12:45Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

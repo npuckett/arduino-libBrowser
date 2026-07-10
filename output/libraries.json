@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-10T10:59:17.236Z",
-  "total_libraries": 9648,
-  "index_etag": "W/\"2fe19470ed0e2a252bbc1107334b7536\"",
-  "index_last_modified": "Fri, 10 Jul 2026 10:59:12 GMT",
+  "enhanced_at": "2026-07-10T12:04:23.095Z",
+  "total_libraries": 9649,
+  "index_etag": "W/\"63de6ae349630da2d2ffef6b39effaf4\"",
+  "index_last_modified": "Fri, 10 Jul 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -28944,6 +28944,38 @@
         "ArduinoRS485"
       ],
       "download_url": "https://github.com/arduino-libraries/Arduino_UnifiedStorage"
+    },
+    {
+      "repository_name": "arduino-libraries/Arduino_UniqueHWId",
+      "repository_url": "https://github.com/arduino-libraries/Arduino_UniqueHWId",
+      "name": "Arduino_UniqueHWId",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-07-10T12:04:21.695Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-10T12:04:21.695Z",
+      "last_seen_sha": "bb79e3f0a241",
+      "author": "Arduino",
+      "maintainer": "Arduino <info@arduino.cc>",
+      "sentence": "Utility module to compute unique hardware identity",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Arduino_CloudUtils",
+        "Arduino_SecureElement"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_UniqueHWId-0.0.1.zip",
+      "size": 16306,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T18:08:15Z"
     },
     {
       "repository_name": "arduino-libraries/Arduino_USBHIDHost",
@@ -306200,7 +306232,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9445,
-    "total_dependencies": 5153
+    "with_github_metadata": 9446,
+    "total_dependencies": 5155
   }
 }

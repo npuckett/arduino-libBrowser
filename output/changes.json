@@ -1,43 +1,13 @@
 {
-  "since": "2026-07-10T05:16:48.419Z",
-  "new_libraries": [
-    {
-      "repository_name": "dunknowcoding/NiusWireless",
-      "repository_url": "https://github.com/dunknowcoding/NiusWireless",
-      "name": "NiusWireless",
-      "version": "0.1.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-07-10T05:16:48.419Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-10T05:16:48.419Z",
-      "last_seen_sha": "dbe7a3cd1b66",
-      "author": "dunknowcoding",
-      "maintainer": "NiusRobotLab",
-      "sentence": "Unified Arduino driver for RFID-RC522, LoRa, NRF24L01, HC-12, HC-05/06 and PN532.",
-      "paragraph": "Cross-platform Arduino library for wireless and RF modules. Drivers include MFRC522 (RFID/NFC over SPI and I2C, with CUID / UFUID / FUID magic-tag support), RFM9x / RA-01 / RA-02 (LoRa 433 / 470 / 868 / 915 MHz), SX1261 / SX1262 / SX1268, NRF24L01 (+), HC-12 long-range serial, HC-05 / HC-06 Bluetooth SPP, and PN532 NFC. Compatible with AVR, SAMD, ESP32, ESP8266, nRF52, STM32, RP2040 / RP2350, Renesas RA (UNO R4) and more.",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusWireless-0.1.0.zip",
-      "size": 97574,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-10T00:23:58Z"
-    }
-  ],
+  "since": "2026-07-10T07:06:12.909Z",
+  "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "5.80.0",
+        "version": "5.83.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -206,11 +176,15 @@
           {
             "version": "5.80.0",
             "seen_at": "2026-07-10T05:16:48.419Z"
+          },
+          {
+            "version": "5.83.0",
+            "seen_at": "2026-07-10T07:06:12.909Z"
           }
         ],
-        "release_count": 42,
+        "release_count": 43,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "e7d8ccbbbe88",
+        "last_seen_sha": "8f555b7d7f38",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -219,16 +193,54 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.80.0.zip",
-        "size": 16714128,
-        "previous_version": "5.74.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.83.0.zip",
+        "size": 16752169,
+        "previous_version": "5.80.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "5.74.0",
-      "new_version": "5.80.0"
+      "old_version": "5.80.0",
+      "new_version": "5.83.0"
+    },
+    {
+      "library": {
+        "repository_name": "sauloverissimo/midi2",
+        "repository_url": "https://github.com/sauloverissimo/midi2",
+        "name": "midi2",
+        "version": "0.7.0",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-24T08:47:13Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-07-10T07:06:12.909Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-24T08:47:13Z",
+        "last_seen_sha": "0cb1d6487e0e",
+        "author": "Saulo Verissimo",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
+        "paragraph": "Construction, parsing, dispatch, and MIDI-CI for the MIDI 2.0 Universal MIDI Packet on embedded targets, from AVR to desktop. Header-only public API with stb-style amalgamation available under dist/. Used by midi2cpp (C++ wrapper), the Teensy core fork, USBHost_t36 fork and direct sketches.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.7.0.zip",
+        "size": 3022000,
+        "previous_version": "0.6.0",
+        "github_stars": 8,
+        "github_forks": 2,
+        "github_language": "C",
+        "github_updated_at": "2026-06-23T09:00:22Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.7.0"
     }
   ],
   "removed_libraries": []

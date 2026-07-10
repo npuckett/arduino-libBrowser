@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-10T17:32:15.239Z",
-  "total_libraries": 9649,
-  "index_etag": "W/\"4aebbea1ac6393d3575b6a7927a49731\"",
-  "index_last_modified": "Fri, 10 Jul 2026 17:29:12 GMT",
+  "enhanced_at": "2026-07-10T18:27:59.118Z",
+  "total_libraries": 9650,
+  "index_etag": "W/\"d49451dd9939bca0f8f70d3cc8547f4e\"",
+  "index_last_modified": "Fri, 10 Jul 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -85805,7 +85805,7 @@
       "repository_name": "jwhiddon/EDB",
       "repository_url": "https://github.com/jwhiddon/EDB",
       "name": "EDB",
-      "version": "1.0.4",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.6",
@@ -85814,11 +85814,15 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-07-10T18:27:57.623Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-12-11T07:25:37Z",
-      "last_seen_sha": "b80db3b39507",
+      "last_seen_sha": "06c6eb2e1271",
       "author": "James Whiddon <jwhiddon@gmail.com>",
       "maintainer": "James Whiddon <jwhiddon@gmail.com>",
       "sentence": "Extended Database Library",
@@ -85827,9 +85831,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jwhiddon/EDB-1.0.4.zip",
-      "size": 25877,
-      "previous_version": "1.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jwhiddon/EDB-2.0.0.zip",
+      "size": 436047,
+      "previous_version": "1.0.4",
       "github_stars": 91,
       "github_forks": 38,
       "github_language": "C++",
@@ -126336,6 +126340,35 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2026-04-29T15:01:13Z"
+    },
+    {
+      "repository_name": "HRK-Yas/HM01B0_CPUfree_Camera",
+      "repository_url": "https://github.com/HRK-Yas/HM01B0_CPUfree_Camera",
+      "name": "HM01B0_CPUfree_Camera",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-10T18:27:57.623Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-10T18:27:57.623Z",
+      "last_seen_sha": "d3a5343486b5",
+      "author": "HRK.yas",
+      "maintainer": "HRK YAS <support@github.com>",
+      "sentence": "CPU-free camera streaming for RP2350 using DMA and PIO",
+      "paragraph": "Capture images from HM01B0 camera using DMA and PIO with zero CPU overhead. Dual-buffering enables simultaneous camera acquisition and image processing. Supports 15-120fps with multiple resolution modes (QQVGA, QVGA, FULL). Ideal for AI/ML and real-time image processing applications.",
+      "category": "Sensors",
+      "architectures": [
+        "rp2350"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HRK-Yas/HM01B0_CPUfree_Camera-1.0.0.zip",
+      "size": 37808,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-10T17:47:09Z"
     },
     {
       "repository_name": "tomoto/Arduino_Tomoto_HM330X",
@@ -296691,7 +296724,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.0",
+      "version": "1.9.2",
       "version_history": [
         {
           "version": "1.6.0",
@@ -296708,11 +296741,15 @@
         {
           "version": "1.9.0",
           "seen_at": "2026-07-09T22:28:36.356Z"
+        },
+        {
+          "version": "1.9.2",
+          "seen_at": "2026-07-10T18:27:57.623Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "975b20920cb5",
+      "last_seen_sha": "ddc140c2fb03",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -296721,9 +296758,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.0.zip",
-      "size": 70738,
-      "previous_version": "1.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.2.zip",
+      "size": 73045,
+      "previous_version": "1.9.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -306238,7 +306275,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9446,
+    "with_github_metadata": 9447,
     "total_dependencies": 5155
   }
 }

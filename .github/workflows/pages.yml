@@ -1,20 +1,21 @@
 name: Deploy GitHub Pages
 
+# Single trigger: push to main. The three data workflows (hourly-sync,
+# daily-enrich, weekly-stats) all commit and push to main on a change, so a
+# push-triggered deploy already covers them. Previously this also listened on
+# `workflow_run`, which fired a SECOND concurrent deploy on top of the
+# push deploy — the root cause of the recurring "transient Pages backend
+# failures" the retry chain was masking.
 on:
-  workflow_run:
-    workflows:
-      - 'Hourly Sync (library_index.json.gz)'
-      - 'Daily Enrichment (GitHub API + ETag)'
-      - 'Weekly Stats Rollup'
-    types:
-      - completed
   push:
     branches: [main]
   workflow_dispatch:
 
 concurrency:
   group: pages-${{ github.ref }}
-  cancel-in-progress: false
+  # Cancel a stale in-flight deploy when a newer push arrives. Previously
+  # false, which queued back-to-back deploys against the same environment.
+  cancel-in-progress: true
 
 permissions: {}
 
@@ -23,10 +24,6 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    if: |
-      (github.event_name == 'push') ||
-      (github.event_name == 'workflow_dispatch') ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
     permissions:
       pages: write
       id-token: write
@@ -35,16 +32,33 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        # Default fetch-depth (1) is enough — this is a static deploy that
+        # only needs the working tree, not git history.
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      # Stage only the served paths into a clean directory, so we don't ship
+      # ~25MB of state/, the lockfile, test fixtures, or dev-screenshots/ to
+      # Pages. Smaller artifact -> faster, more reliable deploys.
+      - name: Stage deploy artifact
+        run: |
+          mkdir -p _site
+          # Top-level static assets
+          cp index.html style.css activity.css _site/ 2>/dev/null || true
+          cp favicon.png robots.txt sitemap.xml _site/ 2>/dev/null || true
+          cp editors.json themes.json _site/ 2>/dev/null || true
+          cp .nojekyll _site/ 2>/dev/null || true
+          # Directories the site depends on
+          cp -R output _site/output
+          cp -R images _site/images 2>/dev/null || true
+          echo "--- staged tree ---"
+          find _site -maxdepth 1 -mindepth 1 | sort
+
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: '.'
+          path: _site
 
       - name: Deploy to GitHub Pages (attempt 1)
         id: deploy-1

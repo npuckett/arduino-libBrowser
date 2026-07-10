@@ -119,6 +119,10 @@ a:hover {
 }
 
 .search-box {
+    /* Full-width so the placeholder ("Search the collection by title,
+       description, author, or subject...") is fully visible instead of
+       truncating at the input's narrow intrinsic width. */
+    width: 100%;
     margin-bottom: 0;
     padding: 14px 16px;
     border: 2px solid black;
@@ -133,9 +137,14 @@ a:hover {
     color: white;
 }
 
+/* The collapsible "Browse By Subject" row is superseded by the card-catalog
+   drawer rail (#drawerRail). The container is hidden, but the .filter-btn
+   elements it owns are kept in the DOM (display:none here) because the
+   activity treemap, author drill-in, clear-all, and the e2e suite all query
+   .filter-btn[data-category] to mirror category state. They stay functional
+   while invisible. */
 .category-filters {
-    margin-bottom: 16px;
-    margin-top: 20px;
+    display: none;
 }
 
 .platform-filters {
@@ -1198,3 +1207,223 @@ a:focus {
     outline: 2px solid #00979D;
     outline-offset: 2px;
 }
+
+/* =========================================================================
+   CARD-CATALOG DRAWER RAIL
+   The subject navigation lives as a row of file-folder tabs above the grid.
+   Each tab is a flat rectangle with a 3px colored "spine" stripe across the
+   top (a stable per-category hue — a restrained Dewey-decimal nod) and a
+   notched bottom edge so it reads as a manila card-catalog tab. The active
+   drawer inverts to black/white, reusing the same inversion language as the
+   sort buttons and card hover, so the motif stays consistent.
+   ========================================================================= */
+.drawer-rail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 4px;
+    margin: 0 0 0 0;
+    padding: 14px 0 0;
+    /* Sit just above the grid, aligned to its left edge. */
+}
+
+.drawer-tab {
+    /* The folder tab. clip-path carves the notched bottom corners that make
+       it read as a physical card-catalog tab rather than a flat button. */
+    --spine: #000;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 14px 14px 10px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 92px;
+    /* Notch the bottom-left and bottom-right corners so the tab appears to
+       sit on top of the drawer body (the grid). 8px notch. */
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% calc(100% - 8px),
+        calc(100% - 8px) 100%,
+        8px 100%,
+        0 calc(100% - 8px)
+    );
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* The colored spine stripe across the top of each tab. Set via the --spine
+   custom property injected from hashSpineHue. */
+.drawer-tab-spine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--spine, #000);
+    pointer-events: none;
+}
+
+.drawer-tab-label {
+    /* Label sits below the spine. */
+    margin-top: 2px;
+}
+
+.drawer-tab-count {
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    letter-spacing: 0.25px;
+}
+
+.drawer-tab:hover {
+    background-color: black;
+    color: white;
+}
+.drawer-tab:hover .drawer-tab-count {
+    color: #999;
+}
+
+/* Active drawer inverts, matching the active sort button + card hover. */
+.drawer-tab.active {
+    background-color: black;
+    color: white;
+}
+.drawer-tab.active .drawer-tab-count {
+    color: #999;
+}
+.drawer-tab.active .drawer-tab-spine {
+    /* Brighten the spine on the active tab so it still reads against black. */
+    filter: brightness(1.6) saturate(1.2);
+}
+
+/* The "All / Recent" and "More" tabs get a plain black spine. */
+.drawer-tab-all .drawer-tab-spine,
+.drawer-tab-more .drawer-tab-spine {
+    background: #000;
+}
+.drawer-tab-all.active .drawer-tab-spine,
+.drawer-tab-more.active .drawer-tab-spine {
+    background: #fff;
+}
+
+/* --------------------------------------------------------------------------
+   DRAWER HEADER + FOOTER (rendered as the first/last child of the grid)
+   The header is a protruding tab + count line that labels the active drawer;
+   the footer is a quiet "showing X of Y" line. Both span the full grid width
+   via grid-column: 1 / -1.
+   -------------------------------------------------------------------------- */
+.drawer-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    /* The protruding tab over the grid. Solid black bar carries the label. */
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0 8px;
+    margin-bottom: var(--card-gap);
+    background-color: white;
+}
+
+.drawer-header-tab {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: black;
+}
+
+.drawer-header-meta {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666;
+    margin-left: auto;
+}
+
+.drawer-footer {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #999;
+    padding: 10px 0 4px;
+    border-top: 1px solid #ddd;
+    margin-top: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE — mirror the existing breakpoints (1200 / 768 / 480).
+   -------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+    .drawer-tab {
+        min-width: 84px;
+        font-size: 10px;
+        padding: 12px 12px 9px;
+    }
+    .drawer-header-tab {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .drawer-rail {
+        /* On narrow screens, let the rail scroll horizontally instead of
+           wrapping into a tall stack. Fade the right edge as a scroll cue. */
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        gap: 3px;
+        padding: 12px 0 4px;
+        border-bottom: 1px solid #000;
+    }
+    .drawer-tab {
+        flex: 0 0 auto;
+        min-width: 78px;
+        padding: 11px 10px 8px;
+    }
+    .drawer-header-tab {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .drawer-header-meta {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .drawer-tab {
+        min-width: 70px;
+        padding: 10px 8px 7px;
+    }
+    .drawer-tab-label {
+        font-size: 9px;
+    }
+    .drawer-tab-count {
+        font-size: 9px;
+    }
+    .drawer-header {
+        gap: 8px;
+        padding: 6px 0;
+    }
+    .drawer-header-tab {
+        font-size: 12px;
+        letter-spacing: 0.75px;
+    }
+    .drawer-footer {
+        font-size: 9px;
+    }
+}
+

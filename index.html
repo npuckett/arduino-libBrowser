@@ -123,6 +123,68 @@
             </div>
         </section>
 
+        <section class="activity-section" id="activitySection" style="display: none;">
+            <h2 class="section-header collapsible" id="activityHeader">
+                Activity
+                <span class="collapse-indicator">+</span>
+                <span class="activity-range" id="activityRange"></span>
+            </h2>
+
+            <div class="activity-content collapsed" id="activityContent">
+            <div class="activity-grid">
+                <div class="activity-panel" id="activityDailyPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">
+                            Daily
+                            <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
+                        </span>
+                        <span class="activity-panel-meta" id="activityDailyMeta"></span>
+                        <button type="button" class="activity-quick-chip" id="activityQuickChip" hidden></button>
+                    </div>
+                    <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
+                    <div class="activity-legend" id="activityDailyLegend"></div>
+                    <div class="activity-recent" id="activityDailyRecent" hidden>
+                        <div class="activity-recent-header">
+                            Recent
+                            <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
+                        </div>
+                        <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
+                    </div>
+                </div>
+
+                <div class="activity-panel" id="activityWeeklyPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">
+                            Weekly
+                            <span class="activity-peak-pill" id="activityWeeklyPeak" hidden></span>
+                        </span>
+                        <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
+                        <button type="button" class="activity-top-gainer" id="activityWeeklyTopGainer" data-repo-name="" hidden></button>
+                    </div>
+                    <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
+                    <div class="activity-legend" id="activityWeeklyLegend"></div>
+                    <div class="activity-recent" id="activityWeeklyRecent" hidden>
+                        <div class="activity-recent-header">
+                            Latest week
+                            <span class="activity-recent-header-count" id="activityWeeklyRecentCount"></span>
+                        </div>
+                        <ul class="activity-recent-list" id="activityWeeklyRecentList"></ul>
+                    </div>
+                </div>
+
+                <div class="activity-panel" id="activityCategoryPanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">Categories</span>
+                        <span class="activity-panel-meta" id="activityCategoryMeta"></span>
+                    </div>
+                    <div class="activity-bars-list" id="activityCategoryBars">
+                        <svg id="activityCategoryTreemap" class="activity-treemap" viewBox="0 0 300 180" preserveAspectRatio="xMidYMid meet" aria-label="Top library categories by share. Click a cell to filter."></svg>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
         <section class="search-container">
             <h2 class="section-header">
                 Search Arduino Libraries
@@ -207,72 +269,24 @@
             <div class="curated-row themed-row" id="themedRows"></div>
         </section>
 
-        <section class="activity-section" id="activitySection" style="display: none;">
-            <h2 class="section-header collapsible expanded" id="activityHeader">
-                Activity
-                <span class="collapse-indicator">+</span>
-                <span class="activity-range" id="activityRange"></span>
-            </h2>
-
-            <div class="activity-content" id="activityContent">
-            <div class="activity-grid">
-                <div class="activity-panel" id="activityDailyPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">
-                            Daily
-                            <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
-                        </span>
-                        <span class="activity-panel-meta" id="activityDailyMeta"></span>
-                        <button type="button" class="activity-quick-chip" id="activityQuickChip" hidden></button>
-                    </div>
-                    <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
-                    <div class="activity-legend" id="activityDailyLegend"></div>
-                    <div class="activity-recent" id="activityDailyRecent" hidden>
-                        <div class="activity-recent-header">
-                            Recent
-                            <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
-                        </div>
-                        <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
-                    </div>
-                </div>
-
-                <div class="activity-panel" id="activityWeeklyPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">
-                            Weekly
-                            <span class="activity-peak-pill" id="activityWeeklyPeak" hidden></span>
-                        </span>
-                        <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
-                        <button type="button" class="activity-top-gainer" id="activityWeeklyTopGainer" data-repo-name="" hidden></button>
-                    </div>
-                    <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
-                    <div class="activity-legend" id="activityWeeklyLegend"></div>
-                    <div class="activity-recent" id="activityWeeklyRecent" hidden>
-                        <div class="activity-recent-header">
-                            Latest week
-                            <span class="activity-recent-header-count" id="activityWeeklyRecentCount"></span>
-                        </div>
-                        <ul class="activity-recent-list" id="activityWeeklyRecentList"></ul>
-                    </div>
-                </div>
-
-                <div class="activity-panel" id="activityCategoryPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">Categories</span>
-                        <span class="activity-panel-meta" id="activityCategoryMeta"></span>
-                    </div>
-                    <div class="activity-bars-list" id="activityCategoryBars">
-                        <svg id="activityCategoryTreemap" class="activity-treemap" viewBox="0 0 300 180" preserveAspectRatio="xMidYMid meet" aria-label="Top library categories by share. Click a cell to filter."></svg>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
         <div id="activityFilterBannerContainer"></div>
+
+        <!-- Card-catalog drawer rail. Subject navigation lives here as a row
+             of file-folder tabs; the old collapsible "Browse By Subject"
+             filter row is kept in the DOM (for cross-component state sync and
+             the activity treemap) but visually hidden via CSS. -->
+        <nav class="drawer-rail" id="drawerRail" style="display: none;" aria-label="Browse the collection by subject"></nav>
+
+        <!-- Drawer header: the protruding folder tab + count that labels the
+             active drawer. A sibling of the grid (not a grid child) so the
+             grid's 280px auto-rows don't distort it. -->
+        <div class="drawer-header" id="drawerHeader" style="display: none;" role="heading" aria-level="2"></div>
 
         <div class="library-grid" id="libraryGrid" style="display: none;">
         </div>
+
+        <!-- Drawer footer: quiet "showing X of Y" line under the grid. -->
+        <div class="drawer-footer" id="drawerFooter" style="display: none;"></div>
 
         <div class="load-more-container" id="loadMoreContainer" style="display: none;">
             <button class="load-more-btn" id="loadMoreBtn">Load More Libraries</button>
@@ -494,6 +508,10 @@
                 populateCategoryFilters();
                 populatePlatformFilters();
                 setupSortButtons();
+
+                // Build the card-catalog drawer rail now that libraries are
+                // loaded and category counts are known.
+                renderDrawerRail();
                 
                 // Load Curated Discoveries (editor picks, themed picks, computed picks)
                 await displayCuratedDiscoveries();
@@ -887,10 +905,15 @@
                     });
                 
                 case 'new-additions':
-                    // Sort by GitHub created_at date (newest repositories first)
+                    // Sort by when the library first appeared in the registry.
+                    // `github_created_at` is not present in the v2 dataset (and
+                    // `processed_at` isn't either), so both used to resolve to
+                    // the 1900 sentinel and the sort did nothing. Fall back to
+                    // `first_seen_at`, which the pipeline stamps on every
+                    // library the first time it observes it.
                     return sorted.sort((a, b) => {
-                        const dateA = new Date(a.github_created_at || a.processed_at || '1900-01-01');
-                        const dateB = new Date(b.github_created_at || b.processed_at || '1900-01-01');
+                        const dateA = new Date(a.github_created_at || a.first_seen_at || a.processed_at || '1900-01-01');
+                        const dateB = new Date(b.github_created_at || b.first_seen_at || b.processed_at || '1900-01-01');
                         return dateB - dateA; // Newest repositories first
                     });
                 
@@ -914,10 +937,20 @@
                     return shuffled;
                 
                 case 'heavily-relied':
-                    // Sort by number of dependencies (more dependencies = heavily relied upon by others)
+                    // Sort by number of dependencies this library declares
+                    // (more deps => relied on as a foundation). In the v2 data
+                    // `depends` is a string[]; legacy v1.5 may carry a comma
+                    // string. Handle both instead of calling .split(',') on an
+                    // array, which used to throw / sort everything to 0.
+                    const depCount = (lib) => {
+                        const d = lib.depends;
+                        if (Array.isArray(d)) return d.filter(x => (x || '').trim()).length;
+                        if (typeof d === 'string') return d.split(',').filter(x => x.trim()).length;
+                        return 0;
+                    };
                     return sorted.sort((a, b) => {
-                        const depsA = (a.depends || '').split(',').filter(d => d.trim()).length;
-                        const depsB = (b.depends || '').split(',').filter(d => d.trim()).length;
+                        const depsA = depCount(a);
+                        const depsB = depCount(b);
                         if (depsB !== depsA) return depsB - depsA;
                         return safeNameCompare(a, b); // Secondary sort
                     });
@@ -1035,6 +1068,188 @@
             });
         }
 
+        // Display-only normalization of the raw `category` field. The
+        // Arduino registry carries near-duplicates (e.g. "Sensor" vs
+        // "Sensors", "other" vs "Other", "Signal Input" vs
+        // "Signal Input/Output"). We collapse them for the drawer rail so the
+        // tabs read as a clean Dewey-style index. Filtering still operates on
+        // the raw value (see applyFilters), so we map back when a normalized
+        // tab is selected: a drawer tab's data-drawer-category is the
+        // normalized label, and we resolve it to every raw value that rolls
+        // up under it.
+        const CATEGORY_NORMALIZE = {
+            'sensor': 'Sensors',
+            'sensors': 'Sensors',
+            'other': 'Other',
+            'signal input': 'Signal Input/Output',
+            'signal input/output': 'Signal Input/Output',
+            'signal io': 'Signal Input/Output',
+            'timing': 'Timing',
+            'data storage': 'Data Storage',
+            'data processing': 'Data Processing',
+            'device control': 'Device Control',
+            'communication': 'Communication',
+            'display': 'Display',
+        };
+
+        function normalizeCategory(raw) {
+            const key = (raw || '').trim().toLowerCase();
+            if (!key) return 'Uncategorized';
+            return CATEGORY_NORMALIZE[key] || raw.trim();
+        }
+
+        // Build {normalizedLabel: {count, rawValues:Set}} from the loaded
+        // libraries. This drives both the drawer rail tabs and the resolution
+        // from a normalized label back to the raw category value(s).
+        function buildCategoryIndex() {
+            const index = new Map();
+            for (const lib of libraries) {
+                const norm = normalizeCategory(lib.category);
+                let entry = index.get(norm);
+                if (!entry) {
+                    entry = { count: 0, raw: new Set() };
+                    index.set(norm, entry);
+                }
+                entry.count += 1;
+                if (lib.category) entry.raw.add(lib.category);
+            }
+            return index;
+        }
+
+        // Render the card-catalog drawer rail: one folder-tab per subject,
+        // sorted by count descending, with an overflow "More" expander for the
+        // long tail. The first tab is always the "All / Recent" drawer, which
+        // reproduces the site's default view exactly. Each tab's 3px top
+        // stripe is colored by a stable category hash (the dormant
+        // hashSpineHue, finally wired up) — a restrained Dewey-decimal nod.
+        const DRAWER_MAX_TABS = 12;
+        let drawerCategoryIndex = new Map();
+        let drawerOverflowOpen = false;
+
+        function renderDrawerRail() {
+            drawerCategoryIndex = buildCategoryIndex();
+            const rail = document.getElementById('drawerRail');
+            if (!rail) return;
+
+            // Sorted subjects (count desc, label asc as tiebreak). "Other" and
+            // "Uncategorized" are demoted to the tail regardless of count so
+            // the meaningful subjects lead.
+            const demote = (label) => label === 'Other' || label === 'Uncategorized';
+            const subjects = [...drawerCategoryIndex.entries()]
+                .sort((a, b) => {
+                    const da = demote(a[0]), db = demote(b[0]);
+                    if (da !== db) return da ? 1 : -1;
+                    if (b[1].count !== a[1].count) return b[1].count - a[1].count;
+                    return a[0].localeCompare(b[0]);
+                });
+
+            const visible = subjects.slice(0, DRAWER_MAX_TABS);
+            const overflow = subjects.slice(DRAWER_MAX_TABS);
+
+            const tabHtml = (label, entry) => {
+                const hue = hashSpineHue(label);
+                // A mid-lightness, mid-saturation spine color so the stripe
+                // reads on white without becoming a rainbow.
+                const color = `hsl(${hue}, 45%, 42%)`;
+                return `<button type="button" class="drawer-tab" data-drawer-category="${escapeHtml(label)}" style="--spine:${color}">
+                    <span class="drawer-tab-spine" aria-hidden="true"></span>
+                    <span class="drawer-tab-label">${escapeHtml(label.toUpperCase())}</span>
+                    <span class="drawer-tab-count">${entry.count.toLocaleString()}</span>
+                </button>`;
+            };
+
+            let html = `<button type="button" class="drawer-tab drawer-tab-all" data-drawer-category="all" style="--spine:#000">
+                <span class="drawer-tab-spine" aria-hidden="true"></span>
+                <span class="drawer-tab-label">ALL / RECENT</span>
+                <span class="drawer-tab-count">${libraries.length.toLocaleString()}</span>
+            </button>`;
+            html += visible.map(([label, entry]) => tabHtml(label, entry)).join('');
+            if (overflow.length > 0) {
+                html += `<button type="button" class="drawer-tab drawer-tab-more" data-drawer-more="1" aria-expanded="${drawerOverflowOpen}">
+                    <span class="drawer-tab-spine" aria-hidden="true" style="background:repeating-linear-gradient(90deg,#000 0 3px,transparent 3px 6px)"></span>
+                    <span class="drawer-tab-label">${drawerOverflowOpen ? 'LESS' : 'MORE'}</span>
+                    <span class="drawer-tab-count">${overflow.length}</span>
+                </button>`;
+                if (drawerOverflowOpen) {
+                    html += overflow.map(([label, entry]) => tabHtml(label, entry)).join('');
+                }
+            }
+            rail.innerHTML = html;
+            rail.style.display = '';
+
+            rail.onclick = (e) => {
+                const tab = e.target.closest('.drawer-tab');
+                if (!tab) return;
+                if (tab.dataset.drawerMore === '1') {
+                    drawerOverflowOpen = !drawerOverflowOpen;
+                    renderDrawerRail();
+                    syncDrawerActive();
+                    return;
+                }
+                const label = tab.dataset.drawerCategory;
+                // Resolve the normalized label back to the raw category value
+                // that applyFilters expects. "All" stays "all".
+                let resolved = 'all';
+                if (label !== 'all') {
+                    const entry = drawerCategoryIndex.get(label);
+                    // If a normalized subject rolls up multiple raw values,
+                    // pick the most common one for the exact-match filter
+                    // (applyFilters compares lib.category === currentCategory).
+                    if (entry && entry.raw.size === 1) {
+                        resolved = [...entry.raw][0];
+                    } else if (entry && entry.raw.size > 1) {
+                        resolved = label; // multi-value; handled in applyFilters
+                    }
+                }
+                selectDrawerCategory(resolved, label);
+            };
+            syncDrawerActive();
+        }
+
+        // Resolve which normalized label a raw category value belongs to.
+        function rawToDrawerLabel(raw) {
+            if (raw === 'all') return 'all';
+            return normalizeCategory(raw);
+        }
+
+        // Mark the drawer tab whose subject matches currentCategory as active.
+        // Called from displayLibraries so every path (treemap click, clear,
+        // author drill-in, sort change) stays in sync.
+        function syncDrawerActive() {
+            const rail = document.getElementById('drawerRail');
+            if (!rail) return;
+            const targetLabel = rawToDrawerLabel(currentCategory);
+            rail.querySelectorAll('.drawer-tab').forEach((tab) => {
+                if (tab.dataset.drawerMore === '1') return;
+                tab.classList.toggle('active', tab.dataset.drawerCategory === targetLabel);
+            });
+        }
+
+        // Apply a drawer selection: update state, mirror to the hidden
+        // .filter-btn row (preserves the contract that treemap/author/clear
+        // flows and the e2e test rely on), then re-filter.
+        function selectDrawerCategory(rawCategory, _label) {
+            // Clear search + activity drill-in, matching the old filter UX.
+            const searchInput = document.getElementById('searchInput');
+            searchInput.value = '';
+            currentSearchQuery = '';
+            document.getElementById('clearSearchBtn').style.display = 'none';
+            currentActivityFilter = null;
+
+            currentCategory = rawCategory;
+
+            // Mirror to the hidden legacy .filter-btn row so cross-component
+            // queries (e.g. treemap click, e2e assertions on
+            // .filter-btn.active[data-category]) keep resolving correctly.
+            document.querySelectorAll('.filter-btn').forEach((btn) => btn.classList.remove('active'));
+            const legacy = document.querySelector(`.filter-btn[data-category="${rawCategory}"]`);
+            if (legacy) legacy.classList.add('active');
+
+            applyFilters();
+            // Bring the drawer + grid into view rather than just the grid.
+            document.getElementById('drawerRail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
         // Apply category, platform, search, and activity filters, then sort
         function applyFilters() {
             console.log('applyFilters called');
@@ -1050,9 +1265,20 @@
                 filtered = filtered.filter(lib => libraryMatchesActivity(lib, f.kind, f.start, f.end));
             }
 
-            // Apply category filter
+            // Apply category filter. currentCategory may be a raw value (the
+            // common case — treemap clicks, legacy filter buttons) or a
+            // normalized label that rolls up several raw values (e.g. the
+            // "Sensors" drawer covers both "Sensor" and "Sensors"). Resolve
+            // both.
             if (currentCategory !== 'all') {
-                filtered = filtered.filter(lib => lib.category === currentCategory);
+                const rawValues = drawerCategoryIndex.has(currentCategory)
+                    ? drawerCategoryIndex.get(currentCategory).raw
+                    : null;
+                if (rawValues && rawValues.size > 1) {
+                    filtered = filtered.filter(lib => rawValues.has(lib.category));
+                } else {
+                    filtered = filtered.filter(lib => lib.category === currentCategory);
+                }
             }
 
             // Apply platform filter
@@ -2464,9 +2690,19 @@
             const noResults = document.getElementById('noResults');
             const loadMoreContainer = document.getElementById('loadMoreContainer');
             const loadMoreInfo = document.getElementById('loadMoreInfo');
-            
+            const drawerHeader = document.getElementById('drawerHeader');
+            const drawerFooter = document.getElementById('drawerFooter');
+
+            // Helper to hide the drawer header/footer (used by the no-results
+            // and search-group paths, which have their own framing).
+            const hideDrawerFraming = () => {
+                drawerHeader.style.display = 'none';
+                drawerFooter.style.display = 'none';
+            };
+
             if (filteredLibraries.length === 0) {
                 grid.style.display = 'none';
+                hideDrawerFraming();
                 if (currentSearchQuery.trim().length >= 3) {
                     const suggestion = didYouMean(currentSearchQuery);
                     noResults.innerHTML = suggestion
@@ -2482,16 +2718,34 @@
 
             noResults.style.display = 'none';
             grid.style.display = 'grid';
-            
+
             // If there's a search query, display grouped results
             if (currentSearchQuery.trim()) {
+                hideDrawerFraming();
                 displayGroupedSearchResults(filteredLibraries.slice(0, currentDisplayCount));
                 loadMoreContainer.style.display = 'none'; // Hide load more for search results
             } else {
-                // Regular grid display with pagination
+                // Regular grid display with pagination.
                 const librariesToShow = filteredLibraries.slice(0, currentDisplayCount);
-                grid.innerHTML = librariesToShow.map((lib, index) => createLibraryCard(lib)).join('');
-                
+                grid.innerHTML = librariesToShow.map((lib) => createLibraryCard(lib)).join('');
+
+                // Card-catalog drawer framing. The header is the protruding
+                // folder tab that labels the active drawer + a one-line count;
+                // the footer is a quiet "showing X of Y". These live in their
+                // own containers (siblings of the grid) so the grid's
+                // 280px auto-rows don't distort them.
+                const drawerLabel = currentCategory === 'all'
+                    ? 'ALL / RECENT'
+                    : normalizeCategory(currentCategory).toUpperCase();
+                drawerHeader.innerHTML = `
+                    <span class="drawer-header-tab">${drawerLabel}</span>
+                    <span class="drawer-header-meta">${filteredLibraries.length.toLocaleString()} libraries</span>`;
+                drawerHeader.style.display = '';
+                drawerFooter.textContent =
+                    `showing 1–${librariesToShow.length.toLocaleString()} of ${filteredLibraries.length.toLocaleString()}`;
+                drawerFooter.style.display = currentDisplayCount < filteredLibraries.length
+                    ? '' : 'none';
+
                 // Show/hide load more button
                 if (currentDisplayCount < filteredLibraries.length) {
                     loadMoreContainer.style.display = 'block';
@@ -2501,10 +2755,14 @@
                 } else {
                     loadMoreContainer.style.display = 'none';
                 }
-                
+
                 // Hide search navigation when not searching
                 updateSearchNavigation([]);
             }
+
+            // Keep the drawer rail's active tab in sync with whatever set
+            // currentCategory (treemap click, author drill-in, clear, sort).
+            syncDrawerActive();
         }
         
         // Display search results grouped by match type
@@ -2642,15 +2900,26 @@
             }
         }
         
-        // Hash a library name to a stable hue (0-359). Legacy of the old
-        // gradient spine; retained in case it becomes useful again, but no
-        // longer emitted on cards.
+        // Hash a name to a stable hue (0-359). Used by the drawer rail to
+        // color each subject tab's 3px spine stripe — a Dewey-decimal-style
+        // cue so adjacent subjects read as distinct at a glance.
+        //
+        // This is an FNV-1a variant (xor-folded into 32 bits) with a final
+        // avalanche mix. The earlier djb2 hash collided on short, similar
+        // category labels (e.g. "Communication" and "Signal Input/Output"
+        // both landed on 170°); FNV-1a + mixing spreads them out and makes
+        // the top drawer tabs visually distinguishable.
         function hashSpineHue(name) {
-            let h = 0;
+            let h = 0x811c9dc5; // FNV offset basis
             for (let i = 0; i < name.length; i++) {
-                h = ((h << 5) - h) + name.charCodeAt(i);
-                h |= 0;
+                h ^= name.charCodeAt(i);
+                // h *= 16777619 (FNV prime), kept in 32-bit signed space.
+                h = Math.imul(h, 0x01000193);
             }
+            // Avalanche: xor-shift mix so trailing bits are well-distributed.
+            h ^= h >>> 16;
+            h = Math.imul(h, 0x85ebca6b);
+            h ^= h >>> 13;
             return Math.abs(h) % 360;
         }
 

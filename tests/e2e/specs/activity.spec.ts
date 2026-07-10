@@ -7,25 +7,31 @@ test.describe('Activity section', () => {
       () => document.getElementById('loading')?.style.display === 'none'
     );
     await page.waitForTimeout(800);
+    // The Activity section defaults to collapsed on the page. Most tests here
+    // exercise its content, so expand it up front. The 'header is
+    // collapsible' test re-navigates to assert the default-collapsed state.
+    await page.locator('#activityHeader').click();
+    await page.waitForTimeout(400);
   });
 
-  test('is visible below Curated Discoveries when stats.json has activity', async ({ page }) => {
+  test('is visible above Curated Discoveries (just below About) when stats.json has activity', async ({ page }) => {
     const section = page.locator('#activitySection');
     await expect(section).toBeVisible();
 
+    const about = page.locator('#aboutContent');
     const curated = page.locator('#curatedDiscoveries');
-    const grid = page.locator('#libraryGrid');
 
-    const curatedBox = await curated.boundingBox();
+    const aboutBox = await about.boundingBox();
     const sectionBox = await section.boundingBox();
-    const gridBox = await grid.boundingBox();
+    const curatedBox = await curated.boundingBox();
 
-    expect(curatedBox).not.toBeNull();
+    expect(aboutBox).not.toBeNull();
     expect(sectionBox).not.toBeNull();
-    expect(gridBox).not.toBeNull();
-    if (curatedBox && sectionBox && gridBox) {
-      expect(sectionBox.y).toBeGreaterThan(curatedBox.y);
-      expect(gridBox.y).toBeGreaterThan(sectionBox.y);
+    expect(curatedBox).not.toBeNull();
+    if (aboutBox && sectionBox && curatedBox) {
+      // Activity now sits between About and Curated Discoveries.
+      expect(sectionBox.y).toBeGreaterThan(aboutBox.y);
+      expect(curatedBox.y).toBeGreaterThan(sectionBox.y);
     }
   });
 
@@ -65,18 +71,31 @@ test.describe('Activity section', () => {
     });
   });
 
-  test('header is collapsible', async ({ page }) => {
+  test('header is collapsible and defaults to collapsed', async ({ page }) => {
+    // Re-navigate to a fresh page so the beforeEach expansion doesn't mask
+    // the real default state, then verify the section ships collapsed.
+    await page.goto('/index.html');
+    await page.waitForFunction(
+      () => document.getElementById('loading')?.style.display === 'none'
+    );
+    await page.waitForTimeout(500);
+
     const header = page.locator('#activityHeader');
     const content = page.locator('#activityContent');
     await expect(header).toHaveClass(/collapsible/);
-    await expect(header).toHaveClass(/expanded/);
+    // Default state: collapsed (no `expanded` on the header, `collapsed` on content).
+    await expect(header).not.toHaveClass(/expanded/);
+    await expect(content).toHaveClass(/collapsed/);
+
+    // Expand.
+    await header.click();
     await expect(content).not.toHaveClass(/collapsed/);
+    await expect(header).toHaveClass(/expanded/);
+
+    // Collapse again.
     await header.click();
     await expect(content).toHaveClass(/collapsed/);
     await expect(header).not.toHaveClass(/expanded/);
-    await header.click();
-    await expect(content).not.toHaveClass(/collapsed/);
-    await expect(header).toHaveClass(/expanded/);
   });
 
   test('treemap cells (named categories) are clickable filter buttons', async ({ page }) => {

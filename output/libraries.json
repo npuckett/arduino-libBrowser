@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-09T23:25:19.269Z",
+  "enhanced_at": "2026-07-10T00:24:44.703Z",
   "total_libraries": 9647,
-  "index_etag": "W/\"bffb9e79a25338e9b50c82b391f3812a\"",
-  "index_last_modified": "Thu, 09 Jul 2026 22:59:11 GMT",
+  "index_etag": "W/\"d2b82dde709a535b592681ccea43f5b1\"",
+  "index_last_modified": "Thu, 09 Jul 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22597,7 +22597,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.41",
+      "version": "1.2.43",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22678,11 +22678,15 @@
         {
           "version": "1.2.41",
           "seen_at": "2026-07-09T22:28:36.356Z"
+        },
+        {
+          "version": "1.2.43",
+          "seen_at": "2026-07-10T00:24:44.575Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "dc05aa77428d",
+      "last_seen_sha": "71ab65c1df7e",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22703,9 +22707,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.41.zip",
-      "size": 41983802,
-      "previous_version": "1.2.40",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.43.zip",
+      "size": 42255835,
+      "previous_version": "1.2.41",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70284,7 +70288,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.64.0",
+      "version": "5.69.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70441,11 +70445,15 @@
         {
           "version": "5.64.0",
           "seen_at": "2026-07-09T22:28:36.356Z"
+        },
+        {
+          "version": "5.69.0",
+          "seen_at": "2026-07-10T00:24:44.575Z"
         }
       ],
-      "release_count": 39,
+      "release_count": 40,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "1933ed1179d4",
+      "last_seen_sha": "dbd268b68666",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70454,9 +70462,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.64.0.zip",
-      "size": 16564880,
-      "previous_version": "5.62.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.69.0.zip",
+      "size": 16615248,
+      "previous_version": "5.64.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -83843,16 +83851,20 @@
       "repository_name": "EasyMem/easy_stack",
       "repository_url": "https://github.com/EasyMem/easy_stack",
       "name": "easy_stack",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.2",
           "seen_at": "2026-06-26T08:59:06Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-10T00:24:44.575Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-26T08:59:06Z",
-      "last_seen_sha": "258c51d0a4ec",
+      "last_seen_sha": "9292e16cc147",
       "author": "gooderfreed <gooderfreed@gmail.com>",
       "maintainer": "gooderfreed <gooderfreed@gmail.com>",
       "sentence": "An absurdly fast, header-only, and safe LIFO stack allocator.",
@@ -83861,11 +83873,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EasyMem/easy_stack-1.2.0.zip",
+      "size": 72611,
+      "previous_version": "1.1.2",
       "github_stars": 2,
       "github_forks": 0,
-      "github_updated_at": "2026-06-25T23:12:34Z",
-      "download_url": "https://github.com/easymem/easy_stack",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-25T23:12:34Z"
     },
     {
       "repository_name": "BlueskyBV/Easy_Web_Remote_Control-ESP32-",
@@ -96355,7 +96369,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.0.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -96364,22 +96378,26 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-10T00:24:44.575Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "e49f11c1b110",
-      "author": "PedroFnseca",
-      "maintainer": "PedroFnseca",
-      "sentence": "Lightweight, object-oriented REST and HTTP Client for ESP32.",
+      "last_seen_sha": "52cc8e415b3e",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca <pedro@email.com>",
+      "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
       "paragraph": "No JSON decoding. No String objects. No boilerplate. Parses JSON streams directly into variables.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.0.0.zip",
-      "size": 14091,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.2.1.zip",
+      "size": 83243,
+      "previous_version": "1.0.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",

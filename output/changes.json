@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-10T09:02:01.418Z",
+  "since": "2026-07-10T10:59:17.115Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "5.93.0",
+        "version": "5.94.1",
         "version_history": [
           {
             "version": "4.64.1",
@@ -184,11 +184,15 @@
           {
             "version": "5.93.0",
             "seen_at": "2026-07-10T09:02:01.418Z"
+          },
+          {
+            "version": "5.94.1",
+            "seen_at": "2026-07-10T10:59:17.115Z"
           }
         ],
-        "release_count": 44,
+        "release_count": 45,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "512d01a55d6f",
+        "last_seen_sha": "7f996faf7fc7",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -197,206 +201,16 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.93.0.zip",
-        "size": 16829239,
-        "previous_version": "5.83.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.94.1.zip",
+        "size": 16847764,
+        "previous_version": "5.93.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "5.83.0",
-      "new_version": "5.93.0"
-    },
-    {
-      "library": {
-        "repository_name": "prj-electins/ElectinsIoT",
-        "repository_url": "https://github.com/prj-electins/ElectinsIoT",
-        "name": "ElectinsIoT",
-        "version": "3.0.0",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-04-29T08:23:25Z"
-          },
-          {
-            "version": "2.1.4",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "3.0.0",
-            "seen_at": "2026-07-10T09:02:01.418Z"
-          }
-        ],
-        "release_count": 3,
-        "first_seen_at": "2026-04-29T08:23:25Z",
-        "last_seen_sha": "a6b34cee0c5f",
-        "author": "Nash <support@electins.id>",
-        "maintainer": "Nash <support@electins.id>",
-        "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
-        "paragraph": "Built-in lightweight TCP connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi and TCP server auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, and automatic device ID generation via MAC address.",
-        "category": "Communication",
-        "architectures": [
-          "esp8266",
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.0.zip",
-        "size": 22646,
-        "previous_version": "2.1.4",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-06T07:07:56Z"
-      },
-      "old_version": "2.1.4",
-      "new_version": "3.0.0"
-    },
-    {
-      "library": {
-        "repository_name": "m5stack/M5Chain",
-        "repository_url": "https://github.com/m5stack/M5Chain",
-        "name": "M5Chain",
-        "version": "1.0.6",
-        "version_history": [
-          {
-            "version": "1.0.5",
-            "seen_at": "2026-06-16T09:05:06Z"
-          },
-          {
-            "version": "1.0.6",
-            "seen_at": "2026-07-10T09:02:01.418Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-16T09:05:06Z",
-        "last_seen_sha": "13c0bc6d3db1",
-        "author": "M5Stack",
-        "maintainer": "M5Stack",
-        "sentence": "M5Stack Chain series support library.",
-        "paragraph": "Library for M5Stack Chain series units.",
-        "category": "Device Control",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Chain-1.0.6.zip",
-        "size": 90583,
-        "previous_version": "1.0.5",
-        "github_stars": 4,
-        "github_forks": 1,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-16T03:06:14Z"
-      },
-      "old_version": "1.0.5",
-      "new_version": "1.0.6"
-    },
-    {
-      "library": {
-        "repository_name": "Protocentral/protocentral_healthypi_5_firmware",
-        "repository_url": "https://github.com/Protocentral/protocentral_healthypi_5_firmware",
-        "name": "ProtoCentral HealthyPi 5",
-        "version": "2.0.2",
-        "version_history": [
-          {
-            "version": "2.0.1",
-            "seen_at": "2026-07-09T14:59:59.938Z"
-          },
-          {
-            "version": "2.0.2",
-            "seen_at": "2026-07-10T09:02:01.418Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-07-09T14:59:59.938Z",
-        "last_seen_sha": "f2df0a7b7c16",
-        "author": "ProtoCentral Electronics",
-        "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
-        "sentence": "Dual-core NEXT runtime and board support for the ProtoCentral HealthyPi 5 (RP2040).",
-        "paragraph": "Encapsulates the production HealthyPi 5 NEXT dual-core AMP architecture for the arduino-pico core: core1 does lossless 128 SPS acquisition (MAX30001 + AFE4400) into a lock-free ring while core0 runs a broker, per-sink queues, a built-in OpenView 2 streamer, 1 Hz telemetry and a hardware watchdog. Includes board.h, the canonical pin map for HealthyPi 5 revisions 5.2-5.7, and auto-detects the on-board temperature sensor (MAX30205 or AS6221). Requires the arduino-pico FreeRTOS variant (include <FreeRTOS.h> in the sketch).",
-        "category": "Sensors",
-        "architectures": [
-          "rp2040"
-        ],
-        "depends": [
-          "ProtoCentral MAX30001",
-          "ProtoCentral AFE4490 PPG and SpO2 boards library"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_HealthyPi_5-2.0.2.zip",
-        "size": 251666,
-        "previous_version": "2.0.1",
-        "github_stars": 24,
-        "github_forks": 1,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-09T12:21:09Z"
-      },
-      "old_version": "2.0.1",
-      "new_version": "2.0.2"
-    },
-    {
-      "library": {
-        "repository_name": "ziyarago/RisalDash",
-        "repository_url": "https://github.com/ziyarago/RisalDash",
-        "name": "RisalDash",
-        "version": "0.10.0",
-        "version_history": [
-          {
-            "version": "0.2.1",
-            "seen_at": "2026-06-30T09:02:12Z"
-          },
-          {
-            "version": "0.3.0",
-            "seen_at": "2026-07-05T05:17:07.675Z"
-          },
-          {
-            "version": "0.4.0",
-            "seen_at": "2026-07-06T03:01:13.701Z"
-          },
-          {
-            "version": "0.5.0",
-            "seen_at": "2026-07-06T18:35:18.558Z"
-          },
-          {
-            "version": "0.6.0",
-            "seen_at": "2026-07-07T14:58:02.693Z"
-          },
-          {
-            "version": "0.8.0",
-            "seen_at": "2026-07-07T16:46:58.618Z"
-          },
-          {
-            "version": "0.8.1",
-            "seen_at": "2026-07-07T18:37:39.940Z"
-          },
-          {
-            "version": "0.9.0",
-            "seen_at": "2026-07-08T02:59:42.960Z"
-          },
-          {
-            "version": "0.10.0",
-            "seen_at": "2026-07-10T09:02:01.418Z"
-          }
-        ],
-        "release_count": 9,
-        "first_seen_at": "2026-06-30T09:02:12Z",
-        "last_seen_sha": "c4fd5f573c46",
-        "author": "Shaxzod Ahmedov",
-        "maintainer": "Shaxzod Ahmedov <ahmedov.shaxzod@gmail.com>",
-        "sentence": "Beautiful real-time web dashboards for ESP32/ESP8266 in a few lines of C++.",
-        "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/UZ/AR with full RTL, plus dash.translate() for your own widget titles), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
-        "category": "Communication",
-        "architectures": [
-          "esp32",
-          "esp8266"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.10.0.zip",
-        "size": 413724,
-        "previous_version": "0.9.0",
-        "github_stars": 8,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-01T10:33:38Z"
-      },
-      "old_version": "0.9.0",
-      "new_version": "0.10.0"
+      "old_version": "5.93.0",
+      "new_version": "5.94.1"
     }
   ],
   "removed_libraries": []

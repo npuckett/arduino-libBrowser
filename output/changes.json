@@ -1,6 +1,167 @@
 {
-  "since": "2026-07-10T19:29:10.515Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-10T20:28:52.973Z",
+  "new_libraries": [
+    {
+      "repository_name": "HRK-Yas/OV7725_CPUfree_Camera",
+      "repository_url": "https://github.com/HRK-Yas/OV7725_CPUfree_Camera",
+      "name": "OV7725_Camera_Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-10T20:28:52.973Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-10T20:28:52.973Z",
+      "last_seen_sha": "cb5c535fe8d1",
+      "author": "HRK YAS",
+      "maintainer": "HRK YAS <support@github.com>",
+      "sentence": "CPU-free OV7725 camera streaming library for RP2350",
+      "paragraph": "Capture images from OV7725 camera using DMA and PIO with zero CPU overhead. Supports color and monochrome modes at multiple resolutions (QVGA, QQVGA, QQQVGA) with 30fps streaming. Dual-buffer architecture enables simultaneous capture and image processing.",
+      "category": "Sensors",
+      "architectures": [
+        "rp2350"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HRK-Yas/OV7725_Camera_Library-1.0.0.zip",
+      "size": 34877,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-10T17:47:11Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.45",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          },
+          {
+            "version": "1.2.40",
+            "seen_at": "2026-07-09T20:31:56.980Z"
+          },
+          {
+            "version": "1.2.41",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.2.43",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.45",
+            "seen_at": "2026-07-10T20:28:52.973Z"
+          }
+        ],
+        "release_count": 22,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "ce7643878fc1",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.45.zip",
+        "size": 42256808,
+        "previous_version": "1.2.43",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.43",
+      "new_version": "1.2.45"
+    }
+  ],
   "removed_libraries": []
 }

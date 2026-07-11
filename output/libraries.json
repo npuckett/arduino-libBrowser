@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-11T21:15:02.261Z",
+  "enhanced_at": "2026-07-11T22:14:50.724Z",
   "total_libraries": 9655,
-  "index_etag": "W/\"97f26e3193866f3dae5dc3b88cee2103\"",
-  "index_last_modified": "Sat, 11 Jul 2026 20:59:11 GMT",
+  "index_etag": "W/\"88b956bdd5b2c4eb0dfe34720c418f44\"",
+  "index_last_modified": "Sat, 11 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22597,7 +22597,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.51",
+      "version": "1.2.54",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22694,11 +22694,15 @@
         {
           "version": "1.2.51",
           "seen_at": "2026-07-11T02:59:28.551Z"
+        },
+        {
+          "version": "1.2.54",
+          "seen_at": "2026-07-11T22:14:50.581Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "d32b507f30e7",
+      "last_seen_sha": "e7a5964df913",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22719,9 +22723,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.51.zip",
-      "size": 42271509,
-      "previous_version": "1.2.47",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.54.zip",
+      "size": 42343570,
+      "previous_version": "1.2.51",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70407,7 +70411,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.95.7",
+      "version": "5.95.12",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70608,11 +70612,15 @@
         {
           "version": "5.95.7",
           "seen_at": "2026-07-11T14:25:57.075Z"
+        },
+        {
+          "version": "5.95.12",
+          "seen_at": "2026-07-11T22:14:50.581Z"
         }
       ],
-      "release_count": 50,
+      "release_count": 51,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "5844b19a5733",
+      "last_seen_sha": "c3cb194ddba1",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70621,9 +70629,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.7.zip",
-      "size": 16972888,
-      "previous_version": "5.95.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.12.zip",
+      "size": 17085829,
+      "previous_version": "5.95.7",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -295195,33 +295203,38 @@
       "repository_name": "SvenRosvall/VLCB-Arduino",
       "repository_url": "https://github.com/SvenRosvall/VLCB-Arduino",
       "name": "VLCB",
-      "version": "2.2.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.2.0",
           "seen_at": "2026-06-27T08:37:52Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-07-11T22:14:50.581Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-27T08:37:52Z",
-      "last_seen_sha": "bfe6f5c1457d",
+      "last_seen_sha": "d1f3b03a7a0d",
       "author": "Sven Rosvall <sven@rosvall.ie>",
       "maintainer": "Sven Rosvall <sven@rosvall.ie>",
       "sentence": "Library for VLCB",
-      "paragraph": "Implements functionality required to create a VLCB module based on MCP2515 and MCP2562 ICs",
+      "paragraph": "Implements functionality required to create a VLCB module",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "depends": [
+        "Streaming"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SvenRosvall/VLCB-3.0.0.zip",
+      "size": 2703404,
+      "previous_version": "2.2.0",
       "github_stars": 5,
       "github_forks": 6,
-      "github_updated_at": "2026-07-01T07:55:12Z",
-      "depends": [
-        "Streaming",
-        "ACAN2515"
-      ],
-      "download_url": "https://github.com/SvenRosvall/VLCB-Arduino",
-      "github_language": "HTML"
+      "github_language": "HTML",
+      "github_updated_at": "2026-07-01T07:55:12Z"
     },
     {
       "repository_name": "Velleman/VMA11",
@@ -306563,6 +306576,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9452,
-    "total_dependencies": 5157
+    "total_dependencies": 5156
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-11T02:59:29.951Z",
+  "enhanced_at": "2026-07-11T04:07:11.393Z",
   "total_libraries": 9652,
-  "index_etag": "W/\"e28c45864dcca4552134ecae6bfef139\"",
-  "index_last_modified": "Sat, 11 Jul 2026 02:59:12 GMT",
+  "index_etag": "W/\"1f7026094d4f7b4c8ea6f35b479b1308\"",
+  "index_last_modified": "Sat, 11 Jul 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70338,7 +70338,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.95.1",
+      "version": "5.95.2",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70523,11 +70523,15 @@
         {
           "version": "5.95.1",
           "seen_at": "2026-07-11T02:59:28.551Z"
+        },
+        {
+          "version": "5.95.2",
+          "seen_at": "2026-07-11T04:07:11.266Z"
         }
       ],
-      "release_count": 46,
+      "release_count": 47,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "8920b3bbf54f",
+      "last_seen_sha": "c9ad9f9e552b",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70536,9 +70540,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.1.zip",
-      "size": 16897263,
-      "previous_version": "5.94.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.2.zip",
+      "size": 16915713,
+      "previous_version": "5.95.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -127715,16 +127719,20 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.2.17",
+      "version": "2.3.1",
       "version_history": [
         {
           "version": "2.2.17",
           "seen_at": "2026-04-18T08:09:23Z"
+        },
+        {
+          "version": "2.3.1",
+          "seen_at": "2026-07-11T04:07:11.266Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "4d69d4e528e0",
+      "last_seen_sha": "85b8ee906522",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -127733,17 +127741,19 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 140,
-      "github_forks": 9,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-05T04:00:50Z",
       "depends": [
         "htcw_bits",
         "htcw_io",
         "htcw_ml",
         "htcw_data"
       ],
-      "download_url": "https://github.com/codewitch-honey-crisis/gfx"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.3.1.zip",
+      "size": 872296,
+      "previous_version": "2.2.17",
+      "github_stars": 140,
+      "github_forks": 9,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-05T04:00:50Z"
     },
     {
       "repository_name": "codewitch-honey-crisis/htcw_io",

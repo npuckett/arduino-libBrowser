@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-11T11:21:00.263Z",
+  "enhanced_at": "2026-07-11T12:15:08.716Z",
   "total_libraries": 9652,
-  "index_etag": "W/\"b7ff9321f26739b1fab9c7f6dc8925a7\"",
-  "index_last_modified": "Sat, 11 Jul 2026 10:59:11 GMT",
+  "index_etag": "W/\"721e612cf3076fce7256ef1eb57d70a3\"",
+  "index_last_modified": "Sat, 11 Jul 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70338,7 +70338,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.95.3",
+      "version": "5.95.6",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70531,11 +70531,15 @@
         {
           "version": "5.95.3",
           "seen_at": "2026-07-11T10:24:20.978Z"
+        },
+        {
+          "version": "5.95.6",
+          "seen_at": "2026-07-11T12:15:08.577Z"
         }
       ],
-      "release_count": 48,
+      "release_count": 49,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "4ca7381b97f0",
+      "last_seen_sha": "c670b59b2069",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70544,9 +70548,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.3.zip",
-      "size": 16934477,
-      "previous_version": "5.95.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.6.zip",
+      "size": 16957119,
+      "previous_version": "5.95.3",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -121732,16 +121736,20 @@
       "repository_name": "GyverLibs/GyverBME280",
       "repository_url": "https://github.com/GyverLibs/GyverBME280",
       "name": "GyverBME280",
-      "version": "1.5.3",
+      "version": "1.5.4",
       "version_history": [
         {
           "version": "1.5.3",
           "seen_at": "2025-07-21T16:15:37Z"
+        },
+        {
+          "version": "1.5.4",
+          "seen_at": "2026-07-11T12:15:08.577Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:15:37Z",
-      "last_seen_sha": "23d32e4804f4",
+      "last_seen_sha": "24c710895ef2",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light library for BME280 sensor",
@@ -121750,11 +121758,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverBME280-1.5.4.zip",
+      "size": 18081,
+      "previous_version": "1.5.3",
       "github_stars": 27,
       "github_forks": 12,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:55:45Z",
-      "download_url": "https://github.com/GyverLibs/GyverBME280"
+      "github_updated_at": "2026-06-02T17:55:45Z"
     },
     {
       "repository_name": "GyverLibs/GyverBus",
@@ -121924,16 +121934,20 @@
       "repository_name": "GyverLibs/GyverDS3231",
       "repository_url": "https://github.com/GyverLibs/GyverDS3231",
       "name": "GyverDS3231",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-04-10T07:56:30Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-11T12:15:08.577Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-10T07:56:30Z",
-      "last_seen_sha": "8c571c8106ae",
+      "last_seen_sha": "7aba0a72da8a",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for DS3231 with millis() sync and 1-second timer",
@@ -121942,14 +121956,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 4,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:56:03Z",
       "depends": [
         "Stamp"
       ],
-      "download_url": "https://github.com/GyverLibs/GyverDS3231"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverDS3231-1.2.1.zip",
+      "size": 14006,
+      "previous_version": "1.2.0",
+      "github_stars": 4,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:56:03Z"
     },
     {
       "repository_name": "GyverLibs/GyverEncoder",
@@ -122150,7 +122166,7 @@
       "repository_name": "GyverLibs/GyverHTU21D",
       "repository_url": "https://github.com/GyverLibs/GyverHTU21D",
       "name": "GyverHTU21D",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1",
@@ -122159,11 +122175,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-07-11T12:15:08.577Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-11T08:48:28Z",
-      "last_seen_sha": "c76dd17870c4",
+      "last_seen_sha": "c7abb7cb0ee7",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light Arduino library for HTU21D sensor",
@@ -122172,9 +122192,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTU21D-1.1.0.zip",
-      "size": 9601,
-      "previous_version": "1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTU21D-1.1.1.zip",
+      "size": 13868,
+      "previous_version": "1.1.0",
       "github_stars": 9,
       "github_forks": 3,
       "github_language": "C++",

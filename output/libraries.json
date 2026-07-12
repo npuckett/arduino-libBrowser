@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-11T23:16:06.314Z",
-  "total_libraries": 9655,
-  "index_etag": "W/\"88b956bdd5b2c4eb0dfe34720c418f44\"",
-  "index_last_modified": "Sat, 11 Jul 2026 22:59:11 GMT",
+  "enhanced_at": "2026-07-12T00:19:42.373Z",
+  "total_libraries": 9656,
+  "index_etag": "W/\"3d6bc538916e5d581bfa834fd9263b53\"",
+  "index_last_modified": "Sat, 11 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70411,7 +70411,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.95.12",
+      "version": "5.95.13",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70616,11 +70616,15 @@
         {
           "version": "5.95.12",
           "seen_at": "2026-07-11T22:14:50.581Z"
+        },
+        {
+          "version": "5.95.13",
+          "seen_at": "2026-07-12T00:19:40.910Z"
         }
       ],
-      "release_count": 51,
+      "release_count": 52,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "c3cb194ddba1",
+      "last_seen_sha": "dcbbeb9be162",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70629,9 +70633,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.12.zip",
-      "size": 17085829,
-      "previous_version": "5.95.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.95.13.zip",
+      "size": 17096596,
+      "previous_version": "5.95.12",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -293187,6 +293191,40 @@
       "github_updated_at": "2023-10-10T10:35:11Z"
     },
     {
+      "repository_name": "SvenRosvall/VCAN2515",
+      "repository_url": "https://github.com/SvenRosvall/VCAN2515",
+      "name": "VCAN2515",
+      "version": "3.0.0",
+      "version_history": [
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-07-12T00:19:40.910Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-12T00:19:40.910Z",
+      "last_seen_sha": "004e8f085e3b",
+      "author": "Sven Rosvall <sven@rosvall.ie>",
+      "maintainer": "Sven Rosvall <sven@rosvall.ie>",
+      "sentence": "CAN2515 driver for VLCB library",
+      "paragraph": "Implements functionality required to create a VLCB module based on MCP2515 and MCP2562 ICs",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Streaming",
+        "ACAN2515",
+        "VLCB"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SvenRosvall/VCAN2515-3.0.0.zip",
+      "size": 172902,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-11T19:14:11Z"
+    },
+    {
       "repository_name": "felias-fogg/Vcc",
       "repository_url": "https://github.com/felias-fogg/Vcc",
       "name": "Vcc",
@@ -306575,7 +306613,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9452,
-    "total_dependencies": 5156
+    "with_github_metadata": 9453,
+    "total_dependencies": 5159
   }
 }

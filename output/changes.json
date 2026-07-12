@@ -1,6 +1,245 @@
 {
-  "since": "2026-07-12T19:23:09.102Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-12T20:14:14.574Z",
+  "new_libraries": [
+    {
+      "repository_name": "KarlEffinger/GL55xxSensor",
+      "repository_url": "https://github.com/KarlEffinger/GL55xxSensor",
+      "name": "GL55xxSensor",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-12T20:14:14.574Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-12T20:14:14.574Z",
+      "last_seen_sha": "667c9c9c3b30",
+      "author": "kaeff",
+      "maintainer": "kaeff",
+      "sentence": "Read illuminance (lux) from a GL55xx photoresistor (GL5516/5528/5537/5539/5549) voltage divider.",
+      "paragraph": "Uses the platform's full native ADC resolution (12-bit on ESP32, 10-bit elsewhere) instead of hardcoding 10-bit.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KarlEffinger/GL55xxSensor-1.1.0.zip",
+      "size": 5167,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-12T16:13:32Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.58",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          },
+          {
+            "version": "1.2.40",
+            "seen_at": "2026-07-09T20:31:56.980Z"
+          },
+          {
+            "version": "1.2.41",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.2.43",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.45",
+            "seen_at": "2026-07-10T20:28:52.973Z"
+          },
+          {
+            "version": "1.2.47",
+            "seen_at": "2026-07-10T22:20:06.185Z"
+          },
+          {
+            "version": "1.2.51",
+            "seen_at": "2026-07-11T02:59:28.551Z"
+          },
+          {
+            "version": "1.2.54",
+            "seen_at": "2026-07-11T22:14:50.581Z"
+          },
+          {
+            "version": "1.2.55",
+            "seen_at": "2026-07-12T04:16:52.503Z"
+          },
+          {
+            "version": "1.2.58",
+            "seen_at": "2026-07-12T20:14:14.574Z"
+          }
+        ],
+        "release_count": 27,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "456343bbd73e",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.58.zip",
+        "size": 42347663,
+        "previous_version": "1.2.55",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.55",
+      "new_version": "1.2.58"
+    },
+    {
+      "library": {
+        "repository_name": "angeloINTJ/BMx280PIO_RP2040",
+        "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
+        "name": "BMx280PIO_RP2040",
+        "version": "1.2.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-08T10:39:35.941Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-09T03:00:44.778Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-09T07:15:41.792Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-12T16:17:45.909Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-12T20:14:14.574Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-07-08T04:08:04.409Z",
+        "last_seen_sha": "5ec2effc2ac8",
+        "author": "Ângelo Moisés Alves",
+        "maintainer": "Ângelo Moisés Alves",
+        "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
+        "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses TwoWirePIO_RP2040 (WirePIO) for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+        "category": "Sensors",
+        "architectures": [
+          "rp2040"
+        ],
+        "license": "MIT",
+        "depends": [
+          "TwoWirePIO_RP2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.2.2.zip",
+        "size": 29079,
+        "previous_version": "1.2.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-08T02:12:45Z"
+      },
+      "old_version": "1.2.1",
+      "new_version": "1.2.2"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-12T21:15:19.337Z",
+  "enhanced_at": "2026-07-12T22:15:27.346Z",
   "total_libraries": 9658,
-  "index_etag": "W/\"5176c105670001e2618505f3fc0faac6\"",
-  "index_last_modified": "Sun, 12 Jul 2026 20:59:11 GMT",
+  "index_etag": "W/\"7baa112bb3b72a4d9305c19347b1312e\"",
+  "index_last_modified": "Sun, 12 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -96605,7 +96605,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.2.4",
+      "version": "1.3.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -96626,11 +96626,15 @@
         {
           "version": "1.2.4",
           "seen_at": "2026-07-12T08:42:18.459Z"
+        },
+        {
+          "version": "1.3.1",
+          "seen_at": "2026-07-12T22:15:27.244Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "3ac26471e4dc",
+      "last_seen_sha": "2750f2c76464",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
@@ -96639,9 +96643,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.2.4.zip",
-      "size": 97663,
-      "previous_version": "1.2.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.3.1.zip",
+      "size": 98504,
+      "previous_version": "1.2.4",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -288685,16 +288689,20 @@
       "repository_name": "GyverLibs/uEncoder",
       "repository_url": "https://github.com/GyverLibs/uEncoder",
       "name": "uEncoder",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-06-30T08:29:39Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-12T22:15:27.244Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:29:39Z",
-      "last_seen_sha": "d198c802d1a5",
+      "last_seen_sha": "c4007355cab9",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Another multifunctional encoder and encoder with button library for Arduino",
@@ -288703,15 +288711,17 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 3,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-30T07:52:22Z",
       "depends": [
         "GyverIO",
         "uButton"
       ],
-      "download_url": "https://github.com/GyverLibs/uEncoder",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uEncoder-1.1.0.zip",
+      "size": 14607,
+      "previous_version": "1.0.2",
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-30T07:52:22Z"
     },
     {
       "repository_name": "Naguissa/uEspConfigLib",
@@ -294586,16 +294596,20 @@
       "repository_name": "VoidLoopers/ViewPoint",
       "repository_url": "https://github.com/VoidLoopers/ViewPoint",
       "name": "ViewPoint",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-03T03:00:23.932Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-12T22:15:27.244Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-03T03:00:23.932Z",
-      "last_seen_sha": "48987b240231",
+      "last_seen_sha": "7ee176b672d3",
       "author": "VoidLoop, Zachariah Magee",
       "maintainer": "Zachariah Magee",
       "sentence": "High-speed serial plotting for the ViewPoint desktop application",
@@ -294607,8 +294621,9 @@
       "depends": [
         "SignalCore"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/VoidLoopers/ViewPoint-1.0.0.zip",
-      "size": 17077522,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/VoidLoopers/ViewPoint-1.0.1.zip",
+      "size": 17077479,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

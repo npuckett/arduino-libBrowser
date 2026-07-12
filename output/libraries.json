@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-12T15:19:58.460Z",
+  "enhanced_at": "2026-07-12T16:17:45.994Z",
   "total_libraries": 9656,
-  "index_etag": "W/\"fa8f962b92090edfebaa443097de9d17\"",
-  "index_last_modified": "Sun, 12 Jul 2026 14:59:11 GMT",
+  "index_etag": "W/\"2efd2bd0aceecf09b619dae2be5b90be\"",
+  "index_last_modified": "Sun, 12 Jul 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -48923,7 +48923,7 @@
       "repository_name": "angeloINTJ/BMx280PIO_RP2040",
       "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
       "name": "BMx280PIO_RP2040",
-      "version": "1.0.4",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48940,23 +48940,30 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-07-09T07:15:41.792Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-12T16:17:45.909Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-08T04:08:04.409Z",
-      "last_seen_sha": "d0a1ae958e5f",
+      "last_seen_sha": "8fe54131f3ea",
       "author": "Ângelo Moisés Alves",
       "maintainer": "Ângelo Moisés Alves",
       "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
-      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Supports both PIO-based I2C (any GPIO) and hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses WirePIO for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
       "category": "Sensors",
       "architectures": [
         "rp2040"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.0.4.zip",
-      "size": 32554,
-      "previous_version": "1.0.2",
+      "depends": [
+        "WirePIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.2.1.zip",
+      "size": 21861,
+      "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -87940,7 +87947,7 @@
       "repository_name": "prj-electins/ElectinsIoT",
       "repository_url": "https://github.com/prj-electins/ElectinsIoT",
       "name": "ElectinsIoT",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -87953,11 +87960,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-07-10T09:02:01.418Z"
+        },
+        {
+          "version": "3.0.1",
+          "seen_at": "2026-07-12T16:17:45.909Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-04-29T08:23:25Z",
-      "last_seen_sha": "a6b34cee0c5f",
+      "last_seen_sha": "b93add4a314d",
       "author": "Nash <support@electins.id>",
       "maintainer": "Nash <support@electins.id>",
       "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
@@ -87967,9 +87978,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.0.zip",
-      "size": 22646,
-      "previous_version": "2.1.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.1.zip",
+      "size": 22991,
+      "previous_version": "3.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -306664,6 +306675,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9453,
-    "total_dependencies": 5159
+    "total_dependencies": 5160
   }
 }

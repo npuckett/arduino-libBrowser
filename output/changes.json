@@ -1,6 +1,108 @@
 {
-  "since": "2026-07-12T15:19:58.342Z",
+  "since": "2026-07-12T16:17:45.909Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "angeloINTJ/BMx280PIO_RP2040",
+        "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
+        "name": "BMx280PIO_RP2040",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-08T10:39:35.941Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-09T03:00:44.778Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-09T07:15:41.792Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-12T16:17:45.909Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-07-08T04:08:04.409Z",
+        "last_seen_sha": "8fe54131f3ea",
+        "author": "Ângelo Moisés Alves",
+        "maintainer": "Ângelo Moisés Alves",
+        "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
+        "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses WirePIO for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+        "category": "Sensors",
+        "architectures": [
+          "rp2040"
+        ],
+        "license": "MIT",
+        "depends": [
+          "WirePIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.2.1.zip",
+        "size": 21861,
+        "previous_version": "1.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-08T02:12:45Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "1.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "prj-electins/ElectinsIoT",
+        "repository_url": "https://github.com/prj-electins/ElectinsIoT",
+        "name": "ElectinsIoT",
+        "version": "3.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-04-29T08:23:25Z"
+          },
+          {
+            "version": "2.1.4",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-07-10T09:02:01.418Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-07-12T16:17:45.909Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-04-29T08:23:25Z",
+        "last_seen_sha": "b93add4a314d",
+        "author": "Nash <support@electins.id>",
+        "maintainer": "Nash <support@electins.id>",
+        "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
+        "paragraph": "Built-in lightweight TCP connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi and TCP server auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, and automatic device ID generation via MAC address.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.1.zip",
+        "size": 22991,
+        "previous_version": "3.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-06T07:07:56Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.0.1"
+    }
+  ],
   "removed_libraries": []
 }

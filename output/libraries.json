@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-12T17:20:34.196Z",
-  "total_libraries": 9656,
-  "index_etag": "W/\"2efd2bd0aceecf09b619dae2be5b90be\"",
-  "index_last_modified": "Sun, 12 Jul 2026 16:59:11 GMT",
+  "enhanced_at": "2026-07-12T18:16:05.428Z",
+  "total_libraries": 9657,
+  "index_etag": "W/\"9f50ffdd4c2a6c78186bb7b8045c095e\"",
+  "index_last_modified": "Sun, 12 Jul 2026 17:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81921,16 +81921,20 @@
       "repository_name": "acornelissen/DTS6012M_UART",
       "repository_url": "https://github.com/acornelissen/DTS6012M_UART",
       "name": "DTS6012M_UART",
-      "version": "2.5.4",
+      "version": "2.7.0",
       "version_history": [
         {
           "version": "2.5.4",
           "seen_at": "2026-05-21T08:18:19Z"
+        },
+        {
+          "version": "2.7.0",
+          "seen_at": "2026-07-12T18:16:04.059Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-21T08:18:19Z",
-      "last_seen_sha": "ba584f096f33",
+      "last_seen_sha": "a0ab37c7bca6",
       "author": "Albert Cornelissen <albert@cornelissen.me>",
       "maintainer": "Albert Cornelissen <albert@cornelissen.me>",
       "sentence": "Enhanced Arduino library for DTS6012M Time-of-Flight sensor with robust error handling, data quality assessment, and calibration.",
@@ -81939,12 +81943,14 @@
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/acornelissen/DTS6012M_UART-2.7.0.zip",
+      "size": 50099,
+      "previous_version": "2.5.4",
       "github_stars": 19,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-05-20T17:19:15Z",
-      "license": "MIT",
-      "download_url": "https://github.com/acornelissen/DTS6012M_UART"
+      "github_updated_at": "2026-05-20T17:19:15Z"
     },
     {
       "repository_name": "logickworkshop/du-ino",
@@ -184679,16 +184685,20 @@
       "repository_name": "mathieucarbou/MycilaESPConnect",
       "repository_url": "https://github.com/mathieucarbou/MycilaESPConnect",
       "name": "MycilaESPConnect",
-      "version": "10.6.0",
+      "version": "10.6.1",
       "version_history": [
         {
           "version": "10.6.0",
           "seen_at": "2026-06-30T08:37:27Z"
+        },
+        {
+          "version": "10.6.1",
+          "seen_at": "2026-07-12T18:16:04.059Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:37:27Z",
-      "last_seen_sha": "b6a96203ecbf",
+      "last_seen_sha": "89ed5654c193",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "Simple & Easy Network Manager for ESP32 with WiFi, Ethernet and Captive Portal support",
@@ -184698,16 +184708,18 @@
         "esp32",
         "esp8266"
       ],
-      "github_stars": 22,
-      "github_forks": 4,
-      "github_updated_at": "2026-06-29T17:45:08Z",
       "license": "MIT",
       "depends": [
         "ArduinoJson",
         "ESPAsyncWebServer"
       ],
-      "download_url": "https://github.com/mathieucarbou/MycilaESPConnect",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaESPConnect-10.6.1.zip",
+      "size": 317151,
+      "previous_version": "10.6.0",
+      "github_stars": 22,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T17:45:08Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaHADiscovery",
@@ -243225,30 +243237,36 @@
       "repository_name": "xanderwasserman/SimpleOTAClient-Arduino",
       "repository_url": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino",
       "name": "SimpleOTAClient",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.0",
           "seen_at": "2026-05-23T07:50:44Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-12T18:16:04.059Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-23T07:50:44Z",
-      "last_seen_sha": "c02446ba8301",
+      "last_seen_sha": "d4d525541019",
       "author": "SimpleOTA <support@simpleota.com>",
       "maintainer": "SimpleOTA <support@simpleota.com>",
       "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
-      "paragraph": "Polls the SimpleOTA check endpoint, streams and flashes firmware with on-the-fly SHA-256 verification, reports lifecycle events, and persists the assigned build number in NVS. Transport-agnostic; caller owns Wi-Fi/Ethernet bring-up.",
+      "paragraph": "Polls the SimpleOTA check endpoint, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, reports lifecycle events, supports trial-install rollback, and persists the assigned build number in NVS. Transport-agnostic; caller owns Wi-Fi/Ethernet bring-up.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.4.0.zip",
+      "size": 106614,
+      "previous_version": "0.3.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-22T12:10:15Z",
-      "license": "MIT",
-      "download_url": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino"
+      "github_updated_at": "2026-05-22T12:10:15Z"
     },
     {
       "repository_name": "madhephaestus/SimplePacketComs",
@@ -300538,6 +300556,36 @@
       "download_url": "https://TinyCircuits.com/Wirelings"
     },
     {
+      "repository_name": "angeloINTJ/TwoWirePIO_RP2040",
+      "repository_url": "https://github.com/angeloINTJ/TwoWirePIO_RP2040",
+      "name": "WirePIO",
+      "version": "1.3.2",
+      "version_history": [
+        {
+          "version": "1.3.2",
+          "seen_at": "2026-07-12T18:16:04.059Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-12T18:16:04.059Z",
+      "last_seen_sha": "10820d3afdfb",
+      "author": "Angelo Moises Alves",
+      "maintainer": "Angelo Moises Alves",
+      "sentence": "TwoWire-compatible I2C using PIO+DMA for RP2040",
+      "paragraph": "Unlimited I2C buses on any GPIO pins using the RP2040 PIO and DMA. Drop-in replacement for Wire.h with full TwoWire API compatibility. Supports master, slave, async DMA, and multiple independent buses simultaneously.",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/WirePIO-1.3.2.zip",
+      "size": 37016,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-12T14:42:09Z"
+    },
+    {
       "repository_name": "TheFidax/WireSusi",
       "repository_url": "https://github.com/TheFidax/WireSusi",
       "name": "WireSusi",
@@ -306674,7 +306722,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9453,
+    "with_github_metadata": 9454,
     "total_dependencies": 5160
   }
 }

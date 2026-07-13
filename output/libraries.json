@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T04:19:51.115Z",
+  "enhanced_at": "2026-07-13T06:01:15.331Z",
   "total_libraries": 9660,
-  "index_etag": "W/\"9fb759600e6903e245a30af2ca7456a2\"",
-  "index_last_modified": "Mon, 13 Jul 2026 03:59:11 GMT",
+  "index_etag": "W/\"53440da256f1d524ab6a5c2e79301d91\"",
+  "index_last_modified": "Mon, 13 Jul 2026 05:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -38781,18 +38781,22 @@
       "repository_name": "SUNSETDEVER/AVR_TaskScheduler",
       "repository_url": "https://github.com/SUNSETDEVER/AVR_TaskScheduler",
       "name": "AVR Task Scheduler",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-11T16:15:55.729Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-07-13T06:01:15.216Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-11T16:15:55.729Z",
-      "last_seen_sha": "403787b0ca16",
+      "last_seen_sha": "364e23062f96",
       "author": "SUNSET",
-      "maintainer": "Your Name <your.email@example.com>",
+      "maintainer": "SUNSET <973879601@qq.com>",
       "sentence": "A lightweight, polling-based task scheduler for AVR Arduino boards with FreeRTOS-like API.",
       "paragraph": "This library provides a simple yet powerful task scheduling system for AVR microcontrollers. It uses millis() for timing (no hardware timer required), supports multiple tasks with different intervals, and includes task management features like suspend/resume/delete. Perfect for projects that need to manage multiple periodic tasks without the complexity of RTOS.",
       "category": "Timing",
@@ -38802,8 +38806,9 @@
         "esp8266",
         "samd"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/AVR_Task_Scheduler-1.0.0.zip",
-      "size": 19037,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/AVR_Task_Scheduler-1.0.3.zip",
+      "size": 20162,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -70443,7 +70448,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.99.2",
+      "version": "5.99.4",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70676,11 +70681,15 @@
         {
           "version": "5.99.2",
           "seen_at": "2026-07-13T04:19:49.624Z"
+        },
+        {
+          "version": "5.99.4",
+          "seen_at": "2026-07-13T06:01:15.216Z"
         }
       ],
-      "release_count": 58,
+      "release_count": 59,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "4577a9374746",
+      "last_seen_sha": "dd76eb265822",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70689,9 +70698,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.99.2.zip",
-      "size": 17243497,
-      "previous_version": "5.99.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.99.4.zip",
+      "size": 17249023,
+      "previous_version": "5.99.2",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -289653,27 +289662,32 @@
       "repository_name": "Moaaz-i/Ultra1602Ultimate",
       "repository_url": "https://github.com/Moaaz-i/Ultra1602Ultimate",
       "name": "Ultra1602Ultimate",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-09T18:33:32.612Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-07-13T06:01:15.216Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-09T18:33:32.612Z",
-      "last_seen_sha": "b87f71d784aa",
+      "last_seen_sha": "e16f958a498f",
       "author": "Moaaz Yahia Sherif",
       "maintainer": "Moaaz Yahia Sherif",
-      "sentence": "A high-performance, flicker-free LCD 1602 library with Smart Refresh and built-in precise progress bars.",
-      "paragraph": "This library optimizes LCD1602 performance by using a shadow buffer to refresh only changed characters, eliminating annoying screen flicker. Supports both Native 4-bit and I2C modes, auto-centering text, and custom icons like battery and wifi signal bars without using blocking delays.",
+      "sentence": "A high-performance, flicker-free LCD 1602 library with Smart Refresh, Multi-Slot Async Engines, and precise progress bars.",
+      "paragraph": "This library optimizes LCD1602 performance by using a shadow buffer to refresh only changed characters, eliminating annoying screen flicker. It introduces multi-slot non-blocking engines for concurrent background text effects (Marquee, Blink, Fade, Menus) in both Native 4-bit and I2C modes. Includes auto-centering text and custom system icons without blocking delays.",
       "category": "Display",
       "architectures": [
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Moaaz-i/Ultra1602Ultimate-1.0.0.zip",
-      "size": 9626,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Moaaz-i/Ultra1602Ultimate-2.0.0.zip",
+      "size": 15223,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

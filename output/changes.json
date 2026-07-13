@@ -1,105 +1,54 @@
 {
-  "since": "2026-07-13T04:19:49.624Z",
-  "new_libraries": [
-    {
-      "repository_name": "habuenav/easyMenu",
-      "repository_url": "https://github.com/habuenav/easyMenu",
-      "name": "easyMenu",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-13T04:19:49.624Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-13T04:19:49.624Z",
-      "last_seen_sha": "2b237bd9c501",
-      "author": "Holman Buenaventura",
-      "maintainer": "Holman Buenaventura",
-      "sentence": "Library to create and manage menus easily supports Adafruit and u8g2 drivers",
-      "paragraph": "easyMenu allows you to create multi-level menus simply and intuitively. It features memory management to prevent fragmentation, callbacks for button assignment, a marquee (automatic horizontal scrolling) for long options, and adaptive line spacing based on screen height. Compatible with U8g2 and Adafruit_GFX.",
-      "category": "Display",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/easyMenu-1.0.0.zip",
-      "size": 15021,
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-13T00:28:23Z"
-    }
-  ],
+  "since": "2026-07-13T06:01:15.216Z",
+  "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "angeloINTJ/BMx280PIO_RP2040",
-        "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
-        "name": "BMx280PIO_RP2040",
-        "version": "1.2.4",
+        "repository_name": "SUNSETDEVER/AVR_TaskScheduler",
+        "repository_url": "https://github.com/SUNSETDEVER/AVR_TaskScheduler",
+        "name": "AVR Task Scheduler",
+        "version": "1.0.3",
         "version_history": [
           {
             "version": "1.0.0",
-            "seen_at": "2026-07-08T04:08:04.409Z"
+            "seen_at": "2026-07-11T16:15:55.729Z"
           },
           {
-            "version": "1.0.1",
-            "seen_at": "2026-07-08T10:39:35.941Z"
-          },
-          {
-            "version": "1.0.2",
-            "seen_at": "2026-07-09T03:00:44.778Z"
-          },
-          {
-            "version": "1.0.4",
-            "seen_at": "2026-07-09T07:15:41.792Z"
-          },
-          {
-            "version": "1.2.1",
-            "seen_at": "2026-07-12T16:17:45.909Z"
-          },
-          {
-            "version": "1.2.2",
-            "seen_at": "2026-07-12T20:14:14.574Z"
-          },
-          {
-            "version": "1.2.4",
-            "seen_at": "2026-07-13T04:19:49.624Z"
+            "version": "1.0.3",
+            "seen_at": "2026-07-13T06:01:15.216Z"
           }
         ],
-        "release_count": 7,
-        "first_seen_at": "2026-07-08T04:08:04.409Z",
-        "last_seen_sha": "c78ea5c38c65",
-        "author": "Ângelo Moisés Alves",
-        "maintainer": "Ângelo Moisés Alves",
-        "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
-        "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses TwoWirePIO_RP2040 (WirePIO) for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
-        "category": "Sensors",
+        "release_count": 2,
+        "first_seen_at": "2026-07-11T16:15:55.729Z",
+        "last_seen_sha": "364e23062f96",
+        "author": "SUNSET",
+        "maintainer": "SUNSET <973879601@qq.com>",
+        "sentence": "A lightweight, polling-based task scheduler for AVR Arduino boards with FreeRTOS-like API.",
+        "paragraph": "This library provides a simple yet powerful task scheduling system for AVR microcontrollers. It uses millis() for timing (no hardware timer required), supports multiple tasks with different intervals, and includes task management features like suspend/resume/delete. Perfect for projects that need to manage multiple periodic tasks without the complexity of RTOS.",
+        "category": "Timing",
         "architectures": [
-          "rp2040"
+          "avr",
+          "esp32",
+          "esp8266",
+          "samd"
         ],
-        "license": "MIT",
-        "depends": [
-          "WirePIO"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.2.4.zip",
-        "size": 29474,
-        "previous_version": "1.2.2",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/AVR_Task_Scheduler-1.0.3.zip",
+        "size": 20162,
+        "previous_version": "1.0.0",
         "github_stars": 0,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-08T02:12:45Z"
+        "github_updated_at": "2026-07-11T11:54:35Z"
       },
-      "old_version": "1.2.2",
-      "new_version": "1.2.4"
+      "old_version": "1.0.0",
+      "new_version": "1.0.3"
     },
     {
       "library": {
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "5.99.2",
+        "version": "5.99.4",
         "version_history": [
           {
             "version": "4.64.1",
@@ -332,11 +281,15 @@
           {
             "version": "5.99.2",
             "seen_at": "2026-07-13T04:19:49.624Z"
+          },
+          {
+            "version": "5.99.4",
+            "seen_at": "2026-07-13T06:01:15.216Z"
           }
         ],
-        "release_count": 58,
+        "release_count": 59,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "4577a9374746",
+        "last_seen_sha": "dd76eb265822",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -345,105 +298,55 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.99.2.zip",
-        "size": 17243497,
-        "previous_version": "5.99.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.99.4.zip",
+        "size": 17249023,
+        "previous_version": "5.99.2",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "5.99.0",
-      "new_version": "5.99.2"
+      "old_version": "5.99.2",
+      "new_version": "5.99.4"
     },
     {
       "library": {
-        "repository_name": "tanakamasayuki/EspUsbHost",
-        "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
-        "name": "EspUsbHost",
-        "version": "2.1.3",
+        "repository_name": "Moaaz-i/Ultra1602Ultimate",
+        "repository_url": "https://github.com/Moaaz-i/Ultra1602Ultimate",
+        "name": "Ultra1602Ultimate",
+        "version": "2.0.0",
         "version_history": [
           {
-            "version": "2.0.1",
-            "seen_at": "2026-06-30T08:49:13Z"
+            "version": "1.0.0",
+            "seen_at": "2026-07-09T18:33:32.612Z"
           },
           {
-            "version": "2.1.0",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "2.1.1",
-            "seen_at": "2026-07-08T12:29:30.704Z"
-          },
-          {
-            "version": "2.1.2",
-            "seen_at": "2026-07-09T09:07:59.829Z"
-          },
-          {
-            "version": "2.1.3",
-            "seen_at": "2026-07-13T04:19:49.624Z"
-          }
-        ],
-        "release_count": 5,
-        "first_seen_at": "2026-06-30T08:49:13Z",
-        "last_seen_sha": "88fd3e08b081",
-        "author": "TANAKA Masayuki",
-        "maintainer": "TANAKA Masayuki",
-        "sentence": "This is a library for using USB Host with ESP32.",
-        "paragraph": "You can use the functions of the USB host such as the keyboard by using ESP32-S3 etc.",
-        "category": "Device Control",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.1.3.zip",
-        "size": 626535,
-        "previous_version": "2.1.2",
-        "github_stars": 149,
-        "github_forks": 37,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-02T06:48:12Z"
-      },
-      "old_version": "2.1.2",
-      "new_version": "2.1.3"
-    },
-    {
-      "library": {
-        "repository_name": "angeloINTJ/TwoWirePIO_RP2040",
-        "repository_url": "https://github.com/angeloINTJ/TwoWirePIO_RP2040",
-        "name": "WirePIO",
-        "version": "1.3.4",
-        "version_history": [
-          {
-            "version": "1.3.2",
-            "seen_at": "2026-07-12T18:16:04.059Z"
-          },
-          {
-            "version": "1.3.4",
-            "seen_at": "2026-07-13T04:19:49.624Z"
+            "version": "2.0.0",
+            "seen_at": "2026-07-13T06:01:15.216Z"
           }
         ],
         "release_count": 2,
-        "first_seen_at": "2026-07-12T18:16:04.059Z",
-        "last_seen_sha": "b4d3f38e69eb",
-        "author": "Ângelo Moisés Alves",
-        "maintainer": "Ângelo Moisés Alves",
-        "sentence": "TwoWire-compatible I2C using PIO+DMA for RP2040",
-        "paragraph": "Unlimited I2C buses on any GPIO pins using the RP2040 PIO and DMA. Drop-in replacement for Wire.h with full TwoWire API compatibility. Supports master, slave, async DMA, and multiple independent buses simultaneously.",
-        "category": "Communication",
+        "first_seen_at": "2026-07-09T18:33:32.612Z",
+        "last_seen_sha": "e16f958a498f",
+        "author": "Moaaz Yahia Sherif",
+        "maintainer": "Moaaz Yahia Sherif",
+        "sentence": "A high-performance, flicker-free LCD 1602 library with Smart Refresh, Multi-Slot Async Engines, and precise progress bars.",
+        "paragraph": "This library optimizes LCD1602 performance by using a shadow buffer to refresh only changed characters, eliminating annoying screen flicker. It introduces multi-slot non-blocking engines for concurrent background text effects (Marquee, Blink, Fade, Menus) in both Native 4-bit and I2C modes. Includes auto-centering text and custom system icons without blocking delays.",
+        "category": "Display",
         "architectures": [
-          "rp2040"
+          "*"
         ],
         "license": "MIT",
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/WirePIO-1.3.4.zip",
-        "size": 37348,
-        "previous_version": "1.3.2",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Moaaz-i/Ultra1602Ultimate-2.0.0.zip",
+        "size": 15223,
+        "previous_version": "1.0.0",
         "github_stars": 0,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-12T14:42:09Z"
+        "github_updated_at": "2026-07-09T06:16:58Z"
       },
-      "old_version": "1.3.2",
-      "new_version": "1.3.4"
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
     }
   ],
   "removed_libraries": []

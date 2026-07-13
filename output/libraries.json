@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T01:31:35.983Z",
+  "enhanced_at": "2026-07-13T03:00:11.741Z",
   "total_libraries": 9659,
-  "index_etag": "W/\"e6ccaef030c0721c30999c287686b19a\"",
-  "index_last_modified": "Mon, 13 Jul 2026 01:29:12 GMT",
+  "index_etag": "W/\"0ec3be6632d89009b20d8169526777e7\"",
+  "index_last_modified": "Mon, 13 Jul 2026 02:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39604,16 +39604,20 @@
       "repository_name": "chijesusboy2004-crypto/AxonSDK",
       "repository_url": "https://github.com/chijesusboy2004-crypto/AxonSDK",
       "name": "AxonSDK",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-11T20:15:23.120Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-13T03:00:11.630Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-11T20:15:23.120Z",
-      "last_seen_sha": "2a527584b334",
+      "last_seen_sha": "264d6481b3a3",
       "author": "AXON Team",
       "maintainer": "AXON Team",
       "sentence": "Client SDK library for AXON IoT Platform connecting ESP32 to database gateway.",
@@ -39626,8 +39630,9 @@
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/chijesusboy2004-crypto/AxonSDK-1.0.1.zip",
-      "size": 17131,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/chijesusboy2004-crypto/AxonSDK-1.0.2.zip",
+      "size": 17182,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -70434,7 +70439,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.98.0",
+      "version": "5.99.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70659,11 +70664,15 @@
         {
           "version": "5.98.0",
           "seen_at": "2026-07-12T10:29:20.708Z"
+        },
+        {
+          "version": "5.99.0",
+          "seen_at": "2026-07-13T03:00:11.630Z"
         }
       ],
-      "release_count": 56,
+      "release_count": 57,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "59f72f6ddee6",
+      "last_seen_sha": "2014b345f162",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70672,9 +70681,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.98.0.zip",
-      "size": 17203375,
-      "previous_version": "5.97.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.99.0.zip",
+      "size": 17234314,
+      "previous_version": "5.98.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",

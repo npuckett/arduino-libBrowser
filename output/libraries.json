@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T13:47:06.988Z",
-  "total_libraries": 9660,
-  "index_etag": "W/\"d31a537f410fd8013387dbb400bf8f52\"",
-  "index_last_modified": "Mon, 13 Jul 2026 13:29:12 GMT",
+  "enhanced_at": "2026-07-13T14:56:46.064Z",
+  "total_libraries": 9661,
+  "index_etag": "W/\"09a19eb3c8aa28692b28929760b429e6\"",
+  "index_last_modified": "Mon, 13 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81967,7 +81967,7 @@
       "repository_name": "acornelissen/DTS6012M_UART",
       "repository_url": "https://github.com/acornelissen/DTS6012M_UART",
       "name": "DTS6012M_UART",
-      "version": "2.7.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.5.4",
@@ -81976,11 +81976,15 @@
         {
           "version": "2.7.0",
           "seen_at": "2026-07-12T18:16:04.059Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-07-13T14:56:44.658Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-21T08:18:19Z",
-      "last_seen_sha": "a0ab37c7bca6",
+      "last_seen_sha": "fb34cf3d1ddd",
       "author": "Albert Cornelissen <albert@cornelissen.me>",
       "maintainer": "Albert Cornelissen <albert@cornelissen.me>",
       "sentence": "Enhanced Arduino library for DTS6012M Time-of-Flight sensor with robust error handling, data quality assessment, and calibration.",
@@ -81990,9 +81994,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/acornelissen/DTS6012M_UART-2.7.0.zip",
-      "size": 50099,
-      "previous_version": "2.5.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/acornelissen/DTS6012M_UART-3.0.0.zip",
+      "size": 65532,
+      "previous_version": "2.7.0",
       "github_stars": 19,
       "github_forks": 2,
       "github_language": "C++",
@@ -122436,7 +122440,7 @@
       "repository_name": "GyverLibs/GyverHTU21D",
       "repository_url": "https://github.com/GyverLibs/GyverHTU21D",
       "name": "GyverHTU21D",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1",
@@ -122449,11 +122453,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-07-11T12:15:08.577Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-13T14:56:44.658Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-11T08:48:28Z",
-      "last_seen_sha": "c7abb7cb0ee7",
+      "last_seen_sha": "9e2876238ce0",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light Arduino library for HTU21D sensor",
@@ -122462,9 +122470,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTU21D-1.1.1.zip",
-      "size": 13868,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTU21D-1.1.2.zip",
+      "size": 13926,
+      "previous_version": "1.1.1",
       "github_stars": 9,
       "github_forks": 3,
       "github_language": "C++",
@@ -264157,6 +264165,35 @@
       "download_url": "https://github.com/crudlabs/StevesAwesomeButton"
     },
     {
+      "repository_name": "razkar-studio/stimeration",
+      "repository_url": "https://github.com/razkar-studio/stimeration",
+      "name": "Stimeration",
+      "version": "0.1.5",
+      "version_history": [
+        {
+          "version": "0.1.5",
+          "seen_at": "2026-07-13T14:56:44.658Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-13T14:56:44.658Z",
+      "last_seen_sha": "fb66a4b2b7ea",
+      "author": "RazkarStudio <razkar.studio@proton.me>",
+      "maintainer": "RazkarStudio <razkar.studio@proton.me>",
+      "sentence": "A simple yet powerful timer library that gives you stimulation",
+      "paragraph": "Provides repeating interval timers and one-shot triggers with millisecond and microsecond resolution, backed by millis() or micros(). Timers and triggers can be paused and resumed without losing track of elapsed time, and a stateless hasElapsed() helper is included for one-off checks that do not need a timer object. Header-only and template-based with no dynamic allocation, suited for AVR-class microcontrollers.",
+      "category": "Timing",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/razkar-studio/Stimeration-0.1.5.zip",
+      "size": 51145,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-13T10:07:52Z"
+    },
+    {
       "repository_name": "EasyElectrons/StivSeg",
       "repository_url": "https://github.com/EasyElectrons/StivSeg",
       "name": "StivSeg",
@@ -297320,7 +297357,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "version_history": [
         {
           "version": "1.6.0",
@@ -297341,11 +297378,15 @@
         {
           "version": "1.9.2",
           "seen_at": "2026-07-10T18:27:57.623Z"
+        },
+        {
+          "version": "1.9.3",
+          "seen_at": "2026-07-13T14:56:44.658Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "ddc140c2fb03",
+      "last_seen_sha": "21a442daae6d",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -297354,9 +297395,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.2.zip",
-      "size": 73045,
-      "previous_version": "1.9.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.3.zip",
+      "size": 76296,
+      "previous_version": "1.9.2",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -306906,7 +306947,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9457,
+    "with_github_metadata": 9458,
     "total_dependencies": 5161
   }
 }

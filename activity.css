@@ -54,9 +54,15 @@
 
 .activity-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     align-items: stretch;
+}
+
+/* The Maintenance Pulse scatter spans the full width above the two
+   supporting panels (Daily + Categories). */
+.activity-pulse-panel {
+    grid-column: 1 / -1;
 }
 
 .activity-panel {
@@ -141,6 +147,155 @@
 
 .activity-bar-segment-updated {
     fill: #000;
+}
+
+/* ---- Maintenance Pulse scatter ----
+   A binned scatter of every library: x = months since last GitHub
+   touch, y = log(stars). Bins keep the DOM small; the top-N by stars
+   are also drawn as individually hoverable/clickable <g> markers. */
+.activity-pulse-wrap {
+    position: relative;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.activity-pulse {
+    width: 100%;
+    height: 340px;
+    display: block;
+    cursor: crosshair;
+    touch-action: none;
+    font-family: var(--font-monospace, 'Courier New', monospace);
+}
+
+.activity-pulse-panel .activity-pulse-legend {
+    font-size: 10px;
+    color: #666;
+    letter-spacing: 0.5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform: none;
+}
+
+.activity-pulse-legend-swatch {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.activity-pulse-axis-text {
+    fill: #999;
+    font-size: 9px;
+}
+
+.activity-pulse-axis-line {
+    stroke: #ccc;
+    stroke-width: 0.5;
+}
+
+.activity-pulse-gridline {
+    stroke: #f0f0f0;
+    stroke-width: 0.5;
+}
+
+.activity-pulse-stale-line {
+    stroke: #b3b3b3;
+    stroke-width: 0.75;
+    stroke-dasharray: 3 3;
+}
+
+.activity-pulse-stale-label {
+    fill: #b3b3b3;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+}
+
+.activity-pulse-bin {
+    fill: #000;
+    fill-opacity: 0.5;
+    pointer-events: none;
+}
+
+.activity-pulse-bin-stale {
+    fill: #b3b3b3;
+    fill-opacity: 0.45;
+    pointer-events: none;
+}
+
+.activity-pulse-marker {
+    cursor: pointer;
+}
+
+.activity-pulse-marker-dot {
+    fill: #00979D;
+    stroke: #fff;
+    stroke-width: 1;
+    transition: r 0.1s ease;
+}
+
+.activity-pulse-marker:hover .activity-pulse-marker-dot {
+    r: 5;
+}
+
+.activity-pulse-marker-label {
+    fill: #000;
+    font-size: 8.5px;
+    pointer-events: none;
+}
+
+.activity-pulse-marker-halo {
+    fill: #fff;
+    fill-opacity: 0.85;
+    pointer-events: none;
+}
+
+/* Drag-to-filter selection rectangle */
+.activity-pulse-selection {
+    fill: #00979D;
+    fill-opacity: 0.08;
+    stroke: #00979D;
+    stroke-width: 1;
+    stroke-dasharray: 3 2;
+}
+
+/* Floating hover tooltip (a DOM node, not SVG) */
+.activity-pulse-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: #fff;
+    border: 1.5px solid #000;
+    padding: 6px 9px;
+    font-size: 10px;
+    line-height: 1.4;
+    white-space: nowrap;
+    z-index: 5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transform: translate(-50%, calc(-100% - 10px));
+}
+
+.activity-pulse-tooltip-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.activity-pulse-tooltip-row {
+    color: #666;
+}
+
+.activity-pulse-tooltip-row b {
+    color: #000;
+    font-weight: normal;
+}
+
+.activity-pulse-hint {
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.3px;
 }
 
 .activity-bars-container {
@@ -643,18 +798,15 @@ button.activity-legend-item {
     stroke-dasharray: 2 2;
 }
 
-@media (max-width: 1024px) {
-    .activity-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
 @media (max-width: 640px) {
     .activity-grid {
         grid-template-columns: 1fr;
     }
     .activity-treemap {
         height: 220px;
+    }
+    .activity-pulse {
+        height: 260px;
     }
     .activity-filter-banner {
         flex-wrap: wrap;

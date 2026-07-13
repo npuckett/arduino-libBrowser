@@ -132,6 +132,22 @@
 
             <div class="activity-content collapsed" id="activityContent">
             <div class="activity-grid">
+                <div class="activity-panel activity-pulse-panel" id="activityPulsePanel" hidden>
+                    <div class="activity-panel-header">
+                        <span class="activity-panel-title">
+                            Maintenance Pulse
+                            <span class="activity-peak-pill" id="activityPulsePeak" hidden></span>
+                        </span>
+                        <span class="activity-panel-meta" id="activityPulseMeta"></span>
+                        <span class="activity-pulse-legend" id="activityPulseLegend"></span>
+                    </div>
+                    <div class="activity-pulse-wrap">
+                        <svg class="activity-pulse" id="activityPulseScatter" viewBox="0 0 900 360" preserveAspectRatio="xMidYMid meet" aria-label="Library maintenance pulse: popularity by recency. Each point is a library. Hover for details, drag to filter a region."></svg>
+                        <div class="activity-pulse-tooltip" id="activityPulseTooltip" hidden></div>
+                    </div>
+                    <div class="activity-pulse-hint" id="activityPulseHint">Each dot is a library &mdash; left = recently touched, up = more stars. Drag a box to filter.</div>
+                </div>
+
                 <div class="activity-panel" id="activityDailyPanel" hidden>
                     <div class="activity-panel-header">
                         <span class="activity-panel-title">
@@ -149,26 +165,6 @@
                             <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
                         </div>
                         <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
-                    </div>
-                </div>
-
-                <div class="activity-panel" id="activityWeeklyPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">
-                            Weekly
-                            <span class="activity-peak-pill" id="activityWeeklyPeak" hidden></span>
-                        </span>
-                        <span class="activity-panel-meta" id="activityWeeklyMeta"></span>
-                        <button type="button" class="activity-top-gainer" id="activityWeeklyTopGainer" data-repo-name="" hidden></button>
-                    </div>
-                    <svg class="activity-bars" id="activityWeeklyBars" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Weekly library activity for the last 12 weeks"></svg>
-                    <div class="activity-legend" id="activityWeeklyLegend"></div>
-                    <div class="activity-recent" id="activityWeeklyRecent" hidden>
-                        <div class="activity-recent-header">
-                            Latest week
-                            <span class="activity-recent-header-count" id="activityWeeklyRecentCount"></span>
-                        </div>
-                        <ul class="activity-recent-list" id="activityWeeklyRecentList"></ul>
                     </div>
                 </div>
 
@@ -1641,7 +1637,9 @@
 
         // kind: 'new' matches first_seen_at; 'updated' matches any
         // version_history.seen_at; 'stale' is a catalog-wide property
-        // (date bounds ignored — a library is stale globally or not at all).
+        // (date bounds ignored — a library is stale globally or not at all);
+        // 'pulse' matches a recency/star region selected on the Maintenance
+        // Pulse scatter (range stored on currentActivityFilter).
         function libraryMatchesActivity(lib, kind, startISO, endISO) {
             if (!lib) return false;
             if (kind === 'new') {
@@ -1654,6 +1652,19 @@
             }
             if (kind === 'stale') {
                 return isStale(lib);
+            }
+            if (kind === 'pulse') {
+                const f = currentActivityFilter;
+                if (!f) return false;
+                if (!lib.github_updated_at) return false;
+                const days = daysBetween(lib.github_updated_at.slice(0, 10),
+                    new Date().toISOString().slice(0, 10));
+                if (days < 0) return false;
+                const months = days / 30.44;
+                if (months < f.minMonths || months > f.maxMonths) return false;
+                const stars = lib.github_stars || 0;
+                if (stars < f.minStars || stars > f.maxStars) return false;
+                return true;
             }
             return false;
         }
@@ -1896,7 +1907,7 @@
             text.className = 'activity-filter-banner-text';
             const kindEl = document.createElement('span');
             kindEl.className = 'activity-filter-banner-kind';
-            kindEl.textContent = f.kind === 'new' ? 'New' : f.kind === 'stale' ? 'Stale' : 'Updated';
+            kindEl.textContent = f.kind === 'new' ? 'New' : f.kind === 'stale' ? 'Stale' : f.kind === 'pulse' ? 'Pulse' : 'Updated';
             const periodEl = document.createElement('span');
             periodEl.className = 'activity-filter-banner-period';
             periodEl.textContent = ` ${escapeHtml(f.label)}`;
@@ -1944,6 +1955,41 @@
                 start: startISO,
                 end: endISO,
                 label: label || formatLongDate(startISO),
+            };
+            currentDisplayCount = itemsPerPage;
+            applyFilters();
+            const grid = el('libraryGrid');
+            if (grid) grid.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Pulse variant: filters the grid to libraries inside a
+        // recency/star rectangle dragged on the Maintenance Pulse scatter.
+        function filterByPulse(minMonths, maxMonths, minStars, maxStars) {
+            const searchInput = el('searchInput');
+            if (searchInput) searchInput.value = '';
+            currentSearchQuery = '';
+            const clearBtn = el('clearSearchBtn');
+            if (clearBtn) clearBtn.style.display = 'none';
+            currentCategory = 'all';
+            currentPlatform = 'all';
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            const allCat = document.querySelector('[data-category="all"]');
+            const allPlat = document.querySelector('[data-platform="all"]');
+            if (allCat) allCat.classList.add('active');
+            if (allPlat) allPlat.classList.add('active');
+
+            const fmtStars = (s) => s >= 1000 ? (s / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : String(Math.round(s));
+            const fmtMo = (m) => m >= 12 ? (m / 12).toFixed(1).replace(/\.0$/, '') + 'yr' : Math.round(m) + 'mo';
+            const label = `${fmtMo(minMonths)}\u2013${fmtMo(maxMonths)} old \u2022 \u2605${fmtStars(minStars)}\u2013${fmtStars(maxStars)}`;
+            currentActivityFilter = {
+                kind: 'pulse',
+                start: null,
+                end: null,
+                label,
+                minMonths,
+                maxMonths,
+                minStars,
+                maxStars,
             };
             currentDisplayCount = itemsPerPage;
             applyFilters();
@@ -2364,208 +2410,361 @@
             renderRecent('activityDailyRecent', 'activityDailyRecentCount', 'activityDailyRecentList', recentNew);
         }
 
-        function renderWeeklyPanel(activity) {
-            const panel = el('activityWeeklyPanel');
-            const svg = el('activityWeeklyBars');
-            const meta = el('activityWeeklyMeta');
-            if (!panel || !svg || !meta) return;
-            if (!Array.isArray(activity.weekly) || activity.weekly.length === 0) {
+        // ---- Maintenance Pulse scatter ----
+        // Binned scatter of the whole catalog: x = months since the library
+        // was last touched (github_updated_at), y = log10(stars+1). The bulk
+        // is rendered as semi-transparent bin squares so ~9k libraries stay
+        // legible without flooding the DOM; the top-N by stars are also drawn
+        // as individually hoverable/clickable <g> markers. A drag gesture
+        // filters the grid to the selected region (recency x star range).
+        const PULSE_VIEW_W = 900;
+        const PULSE_VIEW_H = 360;
+        const PULSE_PAD_L = 44;   // room for y axis labels
+        const PULSE_PAD_R = 16;
+        const PULSE_PAD_T = 14;
+        const PULSE_PAD_B = 30;   // room for x axis labels
+        const PULSE_MAX_MONTHS = 60;     // x domain clamp (5 years)
+        const PULSE_BIN_COLS = 48;       // binned grid resolution
+        const PULSE_BIN_ROWS = 16;
+        const PULSE_TOP_N = 12;          // individually labelled markers
+
+        function renderPulsePanel() {
+            const panel = el('activityPulsePanel');
+            const svg = el('activityPulseScatter');
+            const meta = el('activityPulseMeta');
+            const legend = el('activityPulseLegend');
+            const tooltip = el('activityPulseTooltip');
+            if (!panel || !svg) return;
+
+            const libs = allLibraries();
+            // Need at least some libraries with github_updated_at to plot.
+            const todayISO = new Date().toISOString().slice(0, 10);
+            const points = [];
+            for (const lib of libs) {
+                if (!lib || !lib.github_updated_at) continue;
+                const days = daysBetween(lib.github_updated_at.slice(0, 10), todayISO);
+                if (days < 0) continue;
+                const months = days / 30.44;            // mean days/month
+                const stars = lib.github_stars || 0;
+                points.push({ lib, months, stars });
+            }
+            if (points.length === 0) {
                 panel.hidden = true;
                 return;
             }
             panel.hidden = false;
-            const weekly = activity.weekly;
-            const maxBucket = weekly.reduce((m, b) => Math.max(m, sumWeeklyBucket(b)), 0);
 
-            clearChildren(svg);
-            svg.setAttribute('viewBox', `0 0 ${ACTIVITY_SPARK_VIEW_W} ${ACTIVITY_SPARK_VIEW_H}`);
-
-            const innerW = ACTIVITY_SPARK_VIEW_W - ACTIVITY_SPARK_PAD * 2;
-            const innerH = ACTIVITY_SPARK_VIEW_H - ACTIVITY_SPARK_PAD * 2;
-            const colCount = weekly.length;
-            const gapTotal = ACTIVITY_BAR_GAP_WIDE * (colCount - 1);
-            const colW = Math.max(2, (innerW - gapTotal) / colCount);
-            const yMax = ACTIVITY_SPARK_PAD;
-            const yBase = ACTIVITY_SPARK_PAD + innerH;
-            const yFor = (v) => {
-                if (maxBucket <= 0) return yBase;
-                return yMax + (innerH * (1 - v / maxBucket));
+            const innerW = PULSE_VIEW_W - PULSE_PAD_L - PULSE_PAD_R;
+            const innerH = PULSE_VIEW_H - PULSE_PAD_T - PULSE_PAD_B;
+            const xFor = (m) => PULSE_PAD_L + innerW * (Math.min(m, PULSE_MAX_MONTHS) / PULSE_MAX_MONTHS);
+            const maxLogStars = Math.log10((points.reduce((mx, p) => Math.max(mx, p.stars), 0)) + 1);
+            maxLogStarsCache = maxLogStars;   // for the drag handler's inversion
+            const yFor = (stars) => {
+                const v = Math.log10(stars + 1) / Math.max(maxLogStars, 1e-9);
+                return PULSE_PAD_T + innerH * (1 - v);
             };
 
-            // Peak week for highlight pill.
-            let peakIdx = -1;
-            let peakVal = 0;
-            weekly.forEach((b, i) => {
-                const t = sumWeeklyBucket(b);
-                if (t > peakVal) { peakVal = t; peakIdx = i; }
+            // ---- bin the bulk ----
+            const bins = new Map();               // key -> { x, y, count, stale }
+            let activeCount = 0, staleCount = 0;
+            for (const p of points) {
+                if (p.months * 30.44 <= STALE_DAYS) activeCount++; else staleCount++;
+                const bx = Math.min(PULSE_BIN_COLS - 1, Math.floor((p.months / PULSE_MAX_MONTHS) * PULSE_BIN_COLS));
+                const sy = Math.log10(p.stars + 1) / Math.max(maxLogStars, 1e-9);
+                const by = Math.min(PULSE_BIN_ROWS - 1, Math.floor(sy * PULSE_BIN_ROWS));
+                const key = bx + ',' + by;
+                let cell = bins.get(key);
+                if (!cell) {
+                    cell = {
+                        cx: ((bx + 0.5) / PULSE_BIN_COLS) * PULSE_MAX_MONTHS,
+                        cy: ((by + 0.5) / PULSE_BIN_ROWS) * maxLogStars,
+                        count: 0,
+                    };
+                    bins.set(key, cell);
+                }
+                cell.count++;
+            }
+
+            clearChildren(svg);
+            svg.setAttribute('viewBox', `0 0 ${PULSE_VIEW_W} ${PULSE_VIEW_H}`);
+
+            // ---- gridlines ----
+            const starTicks = [];
+            for (let e = 0; e <= Math.ceil(maxLogStars); e++) {
+                const s = Math.pow(10, e) - 1;
+                starTicks.push(s);
+            }
+            for (const s of starTicks) {
+                const y = yFor(s);
+                svg.appendChild(svgEl('line', {
+                    x1: PULSE_PAD_L, x2: PULSE_VIEW_W - PULSE_PAD_R,
+                    y1: y.toFixed(2), y2: y.toFixed(2),
+                    class: 'activity-pulse-gridline',
+                }));
+                const lbl = svgEl('text', {
+                    x: PULSE_PAD_L - 6, y: (y + 3).toFixed(2),
+                    'text-anchor': 'end', class: 'activity-pulse-axis-text',
+                });
+                lbl.textContent = s >= 1000 ? (s / 1000).toFixed(0) + 'k' : (s > 0 ? String(s) : '0');
+                svg.appendChild(lbl);
+            }
+            // x ticks every 12 months
+            for (let m = 0; m <= PULSE_MAX_MONTHS; m += 12) {
+                const x = xFor(m);
+                const lbl = svgEl('text', {
+                    x: x.toFixed(2), y: PULSE_VIEW_H - PULSE_PAD_B + 14,
+                    'text-anchor': 'middle', class: 'activity-pulse-axis-text',
+                });
+                lbl.textContent = m === 0 ? 'now' : (m + 'm');
+                svg.appendChild(lbl);
+            }
+            // axis titles
+            const xTitle = svgEl('text', {
+                x: (PULSE_PAD_L + innerW / 2).toFixed(2), y: PULSE_VIEW_H - 4,
+                'text-anchor': 'middle', class: 'activity-pulse-axis-text',
             });
-
-            weekly.forEach((b, i) => {
-                const x = ACTIVITY_SPARK_PAD + i * (colW + ACTIVITY_BAR_GAP_WIDE);
-                const total = sumWeeklyBucket(b);
-                if (total <= 0) return;
-                const newH = innerH * ((b.new || 0) / Math.max(maxBucket, 1));
-                const updH = innerH * ((b.updated || 0) / Math.max(maxBucket, 1));
-                const weekStart = b.week_start;
-                const weekEnd = addDaysISO(weekStart, 6);
-
-                // Each weekly slot is split into two non-overlapping halves so
-                // that both segments remain independently clickable (a stacked
-                // pair makes the lower segment unreachable when both have data).
-                const slotGap = 0.6;
-                const halfW = Math.max(1.2, (colW - slotGap) / 2);
-                const updX = x;
-                const newX = x + halfW + slotGap;
-
-                if (updH > 0) {
-                    const updRect = svgEl('rect', {
-                        x: updX.toFixed(2),
-                        y: (yBase - Math.max(0.5, updH)).toFixed(2),
-                        width: halfW.toFixed(2),
-                        height: Math.max(0.5, updH).toFixed(2),
-                        class: 'activity-bar-segment activity-bar-segment-updated',
-                        'data-activity-week': weekStart,
-                        'data-activity-kind': 'updated',
-                        tabindex: '0',
-                        role: 'button',
-                        'aria-label': `Week of ${formatDayLabel(weekStart)} updated: ${b.updated || 0}. Activate to filter.`,
-                    });
-                    svg.appendChild(updRect);
-                    const titleUpd = svgEl('title');
-                    titleUpd.textContent = `Week of ${formatDayLabel(weekStart)}: ${b.updated || 0} updated`;
-                    updRect.appendChild(titleUpd);
-                    updRect.addEventListener('click', () => {
-                        filterByActivity('updated', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
-                    });
-                    updRect.addEventListener('keydown', (ev) => {
-                        if (ev.key === 'Enter' || ev.key === ' ') {
-                            ev.preventDefault();
-                            filterByActivity('updated', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
-                        }
-                    });
-                }
-
-                if (newH > 0) {
-                    const newRect = svgEl('rect', {
-                        x: newX.toFixed(2),
-                        y: (yBase - Math.max(0.5, newH)).toFixed(2),
-                        width: halfW.toFixed(2),
-                        height: Math.max(0.5, newH).toFixed(2),
-                        class: 'activity-bar-segment activity-bar-segment-new',
-                        'data-activity-week': weekStart,
-                        'data-activity-kind': 'new',
-                        tabindex: '0',
-                        role: 'button',
-                        'aria-label': `Week of ${formatDayLabel(weekStart)} new: ${b.new || 0}. Activate to filter.`,
-                    });
-                    svg.appendChild(newRect);
-                    const titleNew = svgEl('title');
-                    titleNew.textContent = `Week of ${formatDayLabel(weekStart)}: ${b.new || 0} new`;
-                    newRect.appendChild(titleNew);
-                    newRect.addEventListener('click', () => {
-                        filterByActivity('new', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
-                    });
-                    newRect.addEventListener('keydown', (ev) => {
-                        if (ev.key === 'Enter' || ev.key === ' ') {
-                            ev.preventDefault();
-                            filterByActivity('new', weekStart, weekEnd, `Week of ${formatDayLabel(weekStart)}`);
-                        }
-                    });
-                }
+            xTitle.textContent = 'months since last update \u2192';
+            svg.appendChild(xTitle);
+            const yTitle = svgEl('text', {
+                x: 10, y: (PULSE_PAD_T + innerH / 2).toFixed(2),
+                'text-anchor': 'middle', class: 'activity-pulse-axis-text',
+                transform: `rotate(-90 10 ${(PULSE_PAD_T + innerH / 2).toFixed(2)})`,
             });
+            yTitle.textContent = 'github stars \u2192';
+            svg.appendChild(yTitle);
 
-            const totalNew = weekly.reduce((acc, b) => acc + (b.new || 0), 0);
-            const totalUpdated = weekly.reduce((acc, b) => acc + (b.updated || 0), 0);
-            // Stale is a catalog-wide property (no version published or
-            // github update within STALE_DAYS), not bounded by this
-            // panel's date range — so we count across the full library
-            // catalog, not the dashboard's weekly window.
-            const totalStale = allLibraries().filter(lib => isStale(lib)).length;
-            const periodStart = weekly[0].week_start;
-            const periodEnd = addDaysISO(weekly[weekly.length - 1].week_start, 6);
-            const lastWeek = weekly[weekly.length - 1];
+            // ---- stale threshold line at 12 months ----
+            const staleX = xFor(STALE_DAYS / 30.44);
+            svg.appendChild(svgEl('line', {
+                x1: staleX.toFixed(2), x2: staleX.toFixed(2),
+                y1: PULSE_PAD_T, y2: PULSE_PAD_T + innerH,
+                class: 'activity-pulse-stale-line',
+            }));
+            const staleLbl = svgEl('text', {
+                x: (staleX + 4).toFixed(2), y: (PULSE_PAD_T + 9).toFixed(2),
+                class: 'activity-pulse-stale-label',
+            });
+            staleLbl.textContent = 'STALE (1yr)';
+            svg.appendChild(staleLbl);
 
-            // Legend mirroring the daily panel.
-            const weekLegendRoot = el('activityWeeklyLegend');
-            if (weekLegendRoot) {
-                clearChildren(weekLegendRoot);
-                buildLegend('activityWeeklyLegend', 'New', 'new', periodStart, periodEnd, totalNew);
-                buildLegend('activityWeeklyLegend', 'Updated', 'updated', periodStart, periodEnd, totalUpdated);
-                buildLegend('activityWeeklyLegend', 'Stale', 'stale', null, null, totalStale, 'activityWeeklyStale');
-                const trend = trendArrow(
-                    sumWeeklyBucket(lastWeek),
-                    sumWeeklyBucket(weekly[weekly.length - 2] || { new: 0, updated: 0 })
-                );
-                const trendEl = document.createElement('span');
-                trendEl.className = `activity-trend ${trend.cls}`;
-                trendEl.textContent = `${trend.arrow} ${trend.text} vs prior week`;
-                weekLegendRoot.appendChild(trendEl);
+            // ---- render bins ----
+            const binLayer = svgEl('g', { class: 'activity-pulse-bins' });
+            for (const cell of bins.values()) {
+                const cx = xFor(cell.cx);
+                const cy = yFor(Math.pow(10, cell.cy) - 1);
+                const isStaleCell = cell.cx * 30.44 > STALE_DAYS;
+                // radius grows with count, capped
+                const r = Math.min(9, 2 + Math.sqrt(cell.count) * 0.9);
+                binLayer.appendChild(svgEl('circle', {
+                    cx: cx.toFixed(2), cy: cy.toFixed(2), r: r.toFixed(2),
+                    class: isStaleCell ? 'activity-pulse-bin-stale' : 'activity-pulse-bin',
+                }));
             }
+            svg.appendChild(binLayer);
 
-            meta.textContent = lastWeek
-                ? `+${totalNew} new • +${totalUpdated} updated • +${totalStale} stale • last ${weekly.length} weeks`
-                : `last ${weekly.length} weeks`;
+            // ---- top-N labelled markers (individually interactive) ----
+            const top = points.slice().sort((a, b) => b.stars - a.stars).slice(0, PULSE_TOP_N);
+            const markerLayer = svgEl('g', { class: 'activity-pulse-markers' });
+            svg.appendChild(markerLayer);
+            for (const p of top) {
+                const cx = xFor(p.months);
+                const cy = yFor(p.stars);
+                const g = svgEl('g', {
+                    class: 'activity-pulse-marker',
+                    'data-repo-name': p.lib.repository_name,
+                    tabindex: '0',
+                    role: 'button',
+                    'aria-label': `${p.lib.name || p.lib.repository_name}: ${(p.lib.github_stars || 0)} stars, updated ${p.lib.github_updated_at.slice(0, 10)}. Activate to open.`,
+                });
+                g.appendChild(svgEl('circle', {
+                    cx: cx.toFixed(2), cy: cy.toFixed(2), r: '4',
+                    class: 'activity-pulse-marker-dot',
+                }));
+                // Label with a white halo for legibility over the bins.
+                const labelText = p.lib.name || p.lib.repository_name.split('/').pop();
+                const halo = svgEl('text', {
+                    x: (cx + 7).toFixed(2), y: (cy + 3).toFixed(2),
+                    class: 'activity-pulse-marker-halo activity-pulse-marker-label',
+                });
+                halo.textContent = labelText;
+                const txt = svgEl('text', {
+                    x: (cx + 7).toFixed(2), y: (cy + 3).toFixed(2),
+                    class: 'activity-pulse-marker-label',
+                });
+                txt.textContent = labelText;
+                g.appendChild(halo);
+                g.appendChild(txt);
 
-            // Peak week pill in the panel header.
-            const peakPill = el('activityWeeklyPeak');
-            if (peakPill) {
-                if (peakIdx >= 0 && peakVal > 0) {
-                    peakPill.textContent = `peak wk of ${formatDayLabel(weekly[peakIdx].week_start)}`;
-                    peakPill.hidden = false;
-                } else {
-                    peakPill.hidden = true;
-                }
-            }
-
-            // Featured pill: the single repo with the largest weekly
-            // momentum in the most recent active week. Clicking opens
-            // the library detail modal (same as clicking a card).
-            const gainerPill = el('activityWeeklyTopGainer');
-            if (gainerPill) {
-                const helpers = (typeof window !== 'undefined') ? window.__activityHelpers : null;
-                const lastActive = (helpers && typeof helpers.lastActiveWeeklyBucket === 'function')
-                    ? helpers.lastActiveWeeklyBucket(weekly)
-                    : null;
-                if (lastActive && helpers && typeof helpers.topStarsGainerForWeek === 'function') {
-                    const weekStart = lastActive.week_start;
-                    const weekEnd = addDaysISO(weekStart, 6);
-                    const winner = helpers.topStarsGainerForWeek(weekStart, weekEnd, allLibraries());
-                    if (winner && winner.repository_name) {
-                        const versionsThisWeek = Array.isArray(winner.version_history)
-                            ? winner.version_history.filter(v => v && v.seen_at && v.seen_at.slice(0, 10) >= weekStart && v.seen_at.slice(0, 10) <= weekEnd).length
-                            : 0;
-                        gainerPill.textContent = `${winner.name || winner.repository_name} (+${versionsThisWeek})`;
-                        gainerPill.dataset.repoName = winner.repository_name;
-                        gainerPill.setAttribute('aria-label', `Featured new library: ${winner.name || winner.repository_name} (${versionsThisWeek} new versions this week). Click to open detail.`);
-                        gainerPill.onclick = () => {
-                            if (typeof openLibraryDetail === 'function') {
-                                openLibraryDetail(winner.repository_name);
-                            }
-                        };
-                        gainerPill.hidden = false;
-                    } else {
-                        gainerPill.hidden = true;
+                const enter = () => showPulseTooltip(tooltip, svg, p.lib, p.months);
+                const leave = () => { tooltip.hidden = true; };
+                g.addEventListener('mouseenter', enter);
+                g.addEventListener('focus', enter);
+                g.addEventListener('mouseleave', leave);
+                g.addEventListener('blur', leave);
+                g.addEventListener('click', () => {
+                    if (typeof openLibraryDetail === 'function') {
+                        openLibraryDetail(p.lib.repository_name);
                     }
-                } else {
-                    gainerPill.hidden = true;
-                }
+                });
+                g.addEventListener('keydown', (ev) => {
+                    if (ev.key === 'Enter' || ev.key === ' ') {
+                        ev.preventDefault();
+                        if (typeof openLibraryDetail === 'function') {
+                            openLibraryDetail(p.lib.repository_name);
+                        }
+                    }
+                });
+                markerLayer.appendChild(g);
             }
 
-            // Recent libraries: most recent active week.
-            let recentStart = lastWeek ? lastWeek.week_start : periodStart;
-            let recentEnd = lastWeek ? addDaysISO(lastWeek.week_start, 6) : periodEnd;
-            if (lastWeek && sumWeeklyBucket(lastWeek) <= 0) {
-                for (let j = weekly.length - 1; j >= 0; j--) {
-                    if (sumWeeklyBucket(weekly[j]) > 0) {
-                        recentStart = weekly[j].week_start;
-                        recentEnd = addDaysISO(weekly[j].week_start, 6);
-                        break;
-                    }
-                }
+            // ---- meta + legend ----
+            const total = points.length;
+            const pctActive = Math.round((activeCount / total) * 100);
+            if (meta) {
+                meta.textContent = `${total.toLocaleString()} libraries \u2022 ${activeCount.toLocaleString()} active (${pctActive}%) \u2022 ${staleCount.toLocaleString()} stale`;
             }
-            const recent = recentLibrariesByActivity('new', recentStart, recentEnd, 5);
-            renderRecent('activityWeeklyRecent', 'activityWeeklyRecentCount', 'activityWeeklyRecentList', recent);
+            if (legend) {
+                legend.innerHTML =
+                    '<span><span class="activity-pulse-legend-swatch" style="background:#000"></span>active</span>'
+                    + '<span><span class="activity-pulse-legend-swatch" style="background:#b3b3b3"></span>stale</span>'
+                    + '<span><span class="activity-pulse-legend-swatch" style="background:#00979D;border-radius:50%"></span>top ' + PULSE_TOP_N + '</span>';
+            }
+
+            // ---- drag-to-filter ----
+            wirePulseDrag(svg, tooltip, xFor, yFor, staleX, innerH, PULSE_PAD_T);
         }
+
+        // Position the DOM tooltip near a marker. Coordinates are computed
+        // from the marker's screen position so it tracks scroll/zoom.
+        function showPulseTooltip(tooltip, svg, lib, months) {
+            if (!tooltip || !lib) return;
+            const stars = lib.github_stars || 0;
+            const updated = (lib.github_updated_at || '').slice(0, 10);
+            const ago = months >= 12 ? (months).toFixed(0) + ' months ago' : (months * 30.44).toFixed(0) + ' days ago';
+            tooltip.innerHTML =
+                '<div class="activity-pulse-tooltip-name">' + escapeHtml(lib.name || lib.repository_name) + '</div>'
+                + '<div class="activity-pulse-tooltip-row"><b>\u2605 ' + stars.toLocaleString() + '</b> stars</div>'
+                + '<div class="activity-pulse-tooltip-row">updated <b>' + updated + '</b> (' + ago + ')</div>'
+                + '<div class="activity-pulse-tooltip-row">' + escapeHtml(lib.category || '') + '</div>';
+            tooltip.hidden = false;
+            // place near the cursor: use the event's last known position if any
+            const wrap = svg.parentElement;
+            if (wrap && wrap._lastPointer) {
+                tooltip.style.left = wrap._lastPointer.x + 'px';
+                tooltip.style.top = wrap._lastPointer.y + 'px';
+            }
+        }
+
+        // Drag a rectangle over the scatter to filter the library grid to the
+        // enclosed recency/star region. Maps the SVG-space rect back to
+        // months and stars, then sets a 'pulse' activity filter.
+        function wirePulseDrag(svg, tooltip, xFor, yFor, staleX, innerH, padT) {
+            const wrap = svg.parentElement;       // .activity-pulse-wrap
+            if (!wrap) return;
+
+            let dragging = false;
+            let startPt = null;       // {x,y} in viewBox units
+            let selRect = null;
+
+            const toViewBox = (clientX, clientY) => {
+                const pt = svg.createSVGPoint();
+                pt.x = clientX; pt.y = clientY;
+                const ctm = svg.getScreenCTM();
+                if (!ctm) return null;
+                const p = pt.matrixTransform(ctm.inverse());
+                return { x: p.x, y: p.y };
+            };
+
+            const onMove = (ev) => {
+                // track pointer for tooltip positioning
+                const r = wrap.getBoundingClientRect();
+                wrap._lastPointer = { x: ev.clientX - r.left, y: ev.clientY - r.top };
+                if (!dragging) return;
+                const cur = toViewBox(ev.clientX, ev.clientY);
+                if (!cur || !startPt) return;
+                const x = Math.min(startPt.x, cur.x);
+                const y = Math.min(startPt.y, cur.y);
+                const w = Math.abs(cur.x - startPt.x);
+                const h = Math.abs(cur.y - startPt.y);
+                if (selRect) {
+                    selRect.setAttribute('x', x.toFixed(2));
+                    selRect.setAttribute('y', y.toFixed(2));
+                    selRect.setAttribute('width', w.toFixed(2));
+                    selRect.setAttribute('height', h.toFixed(2));
+                }
+            };
+
+            const onDown = (ev) => {
+                // only start a drag if pressing on the chart background or a
+                // bin (not on a top-N marker, which handles its own click)
+                if (ev.target.closest && ev.target.closest('.activity-pulse-marker')) return;
+                const p = toViewBox(ev.clientX, ev.clientY);
+                if (!p) return;
+                // ignore drags starting outside the plot area
+                if (p.x < PULSE_PAD_L || p.x > PULSE_VIEW_W - PULSE_PAD_R) return;
+                if (p.y < PULSE_PAD_T || p.y > PULSE_VIEW_H - PULSE_PAD_B) return;
+                dragging = true;
+                startPt = p;
+                tooltip.hidden = true;
+                selRect = svgEl('rect', { class: 'activity-pulse-selection' });
+                selRect.setAttribute('x', p.x.toFixed(2));
+                selRect.setAttribute('y', p.y.toFixed(2));
+                selRect.setAttribute('width', '0');
+                selRect.setAttribute('height', '0');
+                svg.appendChild(selRect);
+                svg.setPointerCapture && svg.setPointerCapture(ev.pointerId);
+                ev.preventDefault();
+            };
+
+            const onUp = (ev) => {
+                if (!dragging || !selRect) { dragging = false; return; }
+                dragging = false;
+                // capture the selection box before tearing it down
+                const w = parseFloat(selRect.getAttribute('width'));
+                const h = parseFloat(selRect.getAttribute('height'));
+                const boxX = parseFloat(selRect.getAttribute('x'));
+                const boxY = parseFloat(selRect.getAttribute('y'));
+                selRect.remove();
+                selRect = null;
+                // discard tiny drags (treat as a click, not a filter)
+                if (w < 6 || h < 6) return;
+
+                const x0 = boxX;
+                const x1 = boxX + w;
+                const y0 = boxY;
+                const y1 = boxY + h;
+
+                // Invert x -> months, y -> stars via the same scales.
+                const innerW = PULSE_VIEW_W - PULSE_PAD_L - PULSE_PAD_R;
+                const m0 = ((x0 - PULSE_PAD_L) / innerW) * PULSE_MAX_MONTHS;
+                const m1 = ((x1 - PULSE_PAD_L) / innerW) * PULSE_MAX_MONTHS;
+                const innerH = PULSE_VIEW_H - PULSE_PAD_T - PULSE_PAD_B;
+                // y axis: top = high stars. invert the log scale.
+                const maxLogStars = maxLogStarsCache;
+                const starsFromY = (yy) => {
+                    const v = 1 - (yy - PULSE_PAD_T) / innerH;
+                    return Math.pow(10, v * Math.max(maxLogStars, 1e-9)) - 1;
+                };
+                const sHigh = starsFromY(y0);
+                const sLow = starsFromY(y1);
+                filterByPulse(
+                    Math.max(0, m0),
+                    Math.max(0, m1),
+                    Math.max(0, sLow),
+                    Math.max(0, sHigh)
+                );
+                startPt = null;
+            };
+
+            svg.addEventListener('pointerdown', onDown);
+            svg.addEventListener('pointermove', onMove);
+            svg.addEventListener('pointerup', onUp);
+            svg.addEventListener('pointercancel', () => { dragging = false; if (selRect) { selRect.remove(); selRect = null; } });
+        }
+
+        // Cache for the current render's y-domain so the drag handler can
+        // invert screen coords to stars without re-scanning the data.
+        let maxLogStarsCache = 1;
 
         function renderCategoryPanel(activity) {
             const panel = el('activityCategoryPanel');
@@ -2674,12 +2873,12 @@
                     range.textContent = `updated ${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`;
                 }
             }
+            renderPulsePanel();
             renderDailyPanel(activity);
-            renderWeeklyPanel(activity);
             renderCategoryPanel(activity);
             renderActivityFilterBanner();
-            const hasAny = !el('activityDailyPanel').hidden
-                || !el('activityWeeklyPanel').hidden
+            const hasAny = !el('activityPulsePanel').hidden
+                || !el('activityDailyPanel').hidden
                 || !el('activityCategoryPanel').hidden;
             section.style.display = hasAny ? 'block' : 'none';
         }

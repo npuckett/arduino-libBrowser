@@ -36,17 +36,83 @@ test.describe('Activity section', () => {
   });
 
   test('renders all three panels with data', async ({ page }) => {
+    await expect(page.locator('#activityPulsePanel')).toBeVisible();
     await expect(page.locator('#activityDailyPanel')).toBeVisible();
-    await expect(page.locator('#activityWeeklyPanel')).toBeVisible();
     await expect(page.locator('#activityCategoryPanel')).toBeVisible();
+    // The old Weekly panel was replaced by the Maintenance Pulse.
+    await expect(page.locator('#activityWeeklyPanel')).toHaveCount(0);
 
+    const pulseBins = page.locator('#activityPulseScatter circle');
     const dailyPoints = page.locator('#activityDailySpark circle');
-    const weeklyBars = page.locator('#activityWeeklyBars rect');
     const categoryCells = page.locator('#activityCategoryTreemap .activity-treemap-cell');
 
+    expect(await pulseBins.count()).toBeGreaterThan(0);
     expect(await dailyPoints.count()).toBeGreaterThan(0);
-    expect(await weeklyBars.count()).toBeGreaterThan(0);
     expect(await categoryCells.count()).toBeGreaterThan(0);
+  });
+
+  // ---- Maintenance Pulse scatter ----
+
+  test('pulse panel renders binned scatter points and a stale threshold line', async ({ page }) => {
+    const svg = page.locator('#activityPulseScatter');
+    await expect(svg).toBeVisible();
+    // Binned density dots (one circle per occupied cell). The fixture has
+    // 12 libraries, so we only assert that some bins rendered.
+    const bins = svg.locator('circle.activity-pulse-bin, circle.activity-pulse-bin-stale');
+    expect(await bins.count()).toBeGreaterThan(0);
+    // The 12-month stale threshold vertical line.
+    await expect(svg.locator('line.activity-pulse-stale-line')).toHaveCount(1);
+    // The stale label text.
+    const svgText = await svg.textContent();
+    expect(svgText).toContain('STALE');
+  });
+
+  test('pulse panel renders top-N individually labelled markers', async ({ page }) => {
+    const markers = page.locator('#activityPulseScatter g.activity-pulse-marker');
+    const count = await markers.count();
+    expect(count).toBeGreaterThan(0);
+    // Each marker carries the repo name and is an accessible button.
+    const first = markers.first();
+    const repo = await first.getAttribute('data-repo-name');
+    expect(repo).toBeTruthy();
+    expect(await first.getAttribute('role')).toBe('button');
+    await expect(first.locator('circle.activity-pulse-marker-dot')).toHaveCount(1);
+  });
+
+  test('pulse panel meta includes total library count and active percentage', async ({ page }) => {
+    const meta = page.locator('#activityPulseMeta');
+    const text = await meta.textContent();
+    expect(text).toMatch(/libraries/i);
+    expect(text).toMatch(/active/i);
+    expect(text).toMatch(/stale/i);
+  });
+
+  test('hovering a pulse marker shows the tooltip with star count', async ({ page }) => {
+    const dot = page.locator('#activityPulseScatter g.activity-pulse-marker circle.activity-pulse-marker-dot').first();
+    await dot.hover({ force: true });
+    await page.waitForTimeout(200);
+    const tooltip = page.locator('#activityPulseTooltip');
+    const visible = await tooltip.evaluate((el) => !(el as HTMLElement).hidden);
+    expect(visible).toBe(true);
+    const text = await tooltip.textContent();
+    expect(text).toMatch(/★/);
+  });
+
+  test('clicking a pulse marker opens the library detail modal', async ({ page }) => {
+    // Dispatch a real DOM click on the first marker <g>. Playwright's
+    // high-level click() can struggle to target SVG <g> children reliably
+    // (the pointer may land on empty space within the group's bbox), so we
+    // synthesize the click on the element that actually owns the handler.
+    const repo = await page.locator('#activityPulseScatter g.activity-pulse-marker').first()
+      .getAttribute('data-repo-name');
+    expect(repo).toBeTruthy();
+    await page.evaluate(() => {
+      const g = document.querySelector('#activityPulseScatter g.activity-pulse-marker');
+      if (g) g.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+    await expect(page.locator('#modalOverlay')).toBeVisible();
+    await page.locator('#modalClose').click();
+    await expect(page.locator('#modalOverlay')).not.toBeVisible();
   });
 
   test('daily meta string includes new/updated counts', async ({ page }) => {
@@ -214,13 +280,6 @@ test.describe('Activity section', () => {
     expect(await updBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
   });
 
-  test('weekly legend has clickable New and Updated buttons', async ({ page }) => {
-    const newBtn = page.locator('#activityWeeklyLegend [data-activity-kind="new"]');
-    const updBtn = page.locator('#activityWeeklyLegend [data-activity-kind="updated"]');
-    await expect(newBtn).toHaveCount(1);
-    await expect(updBtn).toHaveCount(1);
-  });
-
   test('clicking daily legend New button shows the activity filter banner', async ({ page }) => {
     await page.locator('#activityDailyLegend [data-activity-kind="new"]').click();
     const banner = page.locator('.activity-filter-banner');
@@ -236,24 +295,6 @@ test.describe('Activity section', () => {
     const banner = page.locator('.activity-filter-banner');
     await expect(banner).toBeVisible();
     await expect(banner).toContainText(/new/i);
-  });
-
-  test('clicking a weekly bar new-segment applies a week-scoped activity filter', async ({ page }) => {
-    const seg = page.locator('#activityWeeklyBars .activity-bar-segment-new').first();
-    await expect(seg).toHaveCount(1);
-    await seg.click();
-    const banner = page.locator('.activity-filter-banner');
-    await expect(banner).toBeVisible();
-    await expect(banner).toContainText(/week of/i);
-  });
-
-  test('clicking a weekly bar updated-segment applies a week-scoped updated filter', async ({ page }) => {
-    const seg = page.locator('#activityWeeklyBars .activity-bar-segment-updated').first();
-    await expect(seg).toHaveCount(1);
-    await seg.click();
-    const banner = page.locator('.activity-filter-banner');
-    await expect(banner).toBeVisible();
-    await expect(banner).toContainText(/updated/i);
   });
 
   test('clear button on activity filter banner restores normal browse view', async ({ page }) => {
@@ -292,13 +333,6 @@ test.describe('Activity section', () => {
     await expect(staleBtn).toContainText(/stale/i);
   });
 
-  test('weekly legend has a third Stale item', async ({ page }) => {
-    const staleBtn = page.locator('#activityWeeklyStale');
-    await expect(staleBtn).toHaveCount(1);
-    expect(await staleBtn.evaluate((el) => el.tagName.toLowerCase())).toBe('button');
-    await expect(staleBtn).toHaveAttribute('data-activity-kind', 'stale');
-  });
-
   test('daily meta line includes the stale count', async ({ page }) => {
     const meta = page.locator('#activityDailyMeta');
     await expect(meta).toContainText(/stale/i);
@@ -319,66 +353,6 @@ test.describe('Activity section', () => {
     await expect(banner).toBeVisible();
     await banner.locator('.activity-filter-banner-clear').click();
     await expect(banner).toHaveCount(0);
-  });
-
-  test('weekly panel features at most one .activity-top-gainer pill', async ({ page }) => {
-    const pills = page.locator('#activityWeeklyPanel .activity-top-gainer');
-    const count = await pills.count();
-    expect(count).toBeLessThanOrEqual(1);
-    if (count === 1) {
-      const pill = pills.first();
-      const tagName = await pill.evaluate((el) => el.tagName.toLowerCase());
-      expect(tagName).toBe('button');
-      const type = await pill.evaluate((el) => (el as HTMLButtonElement).type);
-      expect(type).toBe('button');
-      const className = await pill.getAttribute('class');
-      expect(className).toContain('activity-top-gainer');
-      // The pill is hidden via the `hidden` attribute, so when shown
-      // the attribute is absent (or null). Use evaluate to read the
-      // live DOM property rather than attribute value.
-      const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
-      expect(hiddenProp).toBe(false);
-    }
-  });
-
-  test('weekly featured pill carries a data-repo-name matching a known library', async ({ page }) => {
-    const pill = page.locator('#activityWeeklyPanel .activity-top-gainer').first();
-    if ((await pill.count()) === 0) return;
-    const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
-    if (hiddenProp) return;
-    const repoName = await pill.getAttribute('data-repo-name');
-    expect(repoName).toBeTruthy();
-    expect(typeof repoName).toBe('string');
-    expect((repoName as string).length).toBeGreaterThan(0);
-    const sanity = await page.evaluate((name: string) => {
-      const dataLibs = (window as any).libraryData && Array.isArray((window as any).libraryData.libraries)
-        ? (window as any).libraryData.libraries
-        : [];
-      const cardNodes = document.querySelectorAll('.library-card[data-repo-name]');
-      const cardRepoNames = Array.from(cardNodes).map((n) => n.getAttribute('data-repo-name') || '');
-      return {
-        dataHasLibs: dataLibs.length > 0,
-        dataInLibs: dataLibs.some((l: any) => l && l.repository_name === name),
-        anyCardMatches: cardRepoNames.includes(name),
-      };
-    }, repoName as string);
-    // At least one source of truth confirms the lib exists.
-    const someMatch = sanity.dataInLibs || sanity.anyCardMatches || sanity.dataHasLibs;
-    expect(someMatch).toBe(true);
-  });
-
-  test('clicking the weekly featured pill opens the library detail modal', async ({ page }) => {
-    const pill = page.locator('#activityWeeklyPanel .activity-top-gainer').first();
-    if ((await pill.count()) === 0) return;
-    const hiddenProp = await pill.evaluate((el) => (el as HTMLElement).hidden);
-    if (hiddenProp) return;
-    await pill.scrollIntoViewIfNeeded();
-    await pill.click();
-    await expect(page.locator('#modalOverlay')).toBeVisible();
-    const bodyText = await page.locator('#modalBody').textContent();
-    expect(bodyText).toBeTruthy();
-    await page.locator('#modalClose').click();
-    await expect(page.locator('#modalOverlay')).not.toBeVisible();
   });
 
   test('Activity daily panel has a quick-filter chip', async ({ page }) => {

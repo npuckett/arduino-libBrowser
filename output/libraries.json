@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T08:02:11.593Z",
+  "enhanced_at": "2026-07-13T10:03:42.743Z",
   "total_libraries": 9660,
-  "index_etag": "W/\"c168ef19af8125dc4edf98e68b4893cd\"",
-  "index_last_modified": "Mon, 13 Jul 2026 07:59:12 GMT",
+  "index_etag": "W/\"315d3adcdd3b4a70fdbf8892005eb2d1\"",
+  "index_last_modified": "Mon, 13 Jul 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70452,7 +70452,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.100.0",
+      "version": "5.100.1",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70693,11 +70693,15 @@
         {
           "version": "5.100.0",
           "seen_at": "2026-07-13T08:02:11.461Z"
+        },
+        {
+          "version": "5.100.1",
+          "seen_at": "2026-07-13T10:03:42.607Z"
         }
       ],
-      "release_count": 60,
+      "release_count": 61,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "837faac07c56",
+      "last_seen_sha": "fbc2ef78b160",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70706,9 +70710,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.100.0.zip",
-      "size": 17254765,
-      "previous_version": "5.99.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.100.1.zip",
+      "size": 17255874,
+      "previous_version": "5.100.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -90292,7 +90296,7 @@
       "repository_name": "GyverLibs/EncButton",
       "repository_url": "https://github.com/GyverLibs/EncButton",
       "name": "EncButton",
-      "version": "3.7.5",
+      "version": "3.7.6",
       "version_history": [
         {
           "version": "3.7.4",
@@ -90301,11 +90305,15 @@
         {
           "version": "3.7.5",
           "seen_at": "2026-07-01T16:45:34.127Z"
+        },
+        {
+          "version": "3.7.6",
+          "seen_at": "2026-07-13T10:03:42.607Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-03T08:51:55Z",
-      "last_seen_sha": "b3b09edb5c3d",
+      "last_seen_sha": "f67568bfa40a",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light and powerful library for button and encoder operation for Arduino",
@@ -90317,9 +90325,9 @@
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/EncButton-3.7.5.zip",
-      "size": 511171,
-      "previous_version": "3.7.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/EncButton-3.7.6.zip",
+      "size": 511213,
+      "previous_version": "3.7.5",
       "github_stars": 194,
       "github_forks": 24,
       "github_language": "C++",
@@ -121110,7 +121118,7 @@
       "repository_name": "GyverLibs/GTL",
       "repository_url": "https://github.com/GyverLibs/GTL",
       "name": "GTL",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "version_history": [
         {
           "version": "1.4.4",
@@ -121119,11 +121127,15 @@
         {
           "version": "1.4.6",
           "seen_at": "2026-07-06T11:29:24.691Z"
+        },
+        {
+          "version": "1.4.7",
+          "seen_at": "2026-07-13T10:03:42.607Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:30:24Z",
-      "last_seen_sha": "3ad8ba5df8e2",
+      "last_seen_sha": "520d9972e73c",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library with template tools (buffers, pointers)",
@@ -121132,9 +121144,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GTL-1.4.6.zip",
-      "size": 33211,
-      "previous_version": "1.4.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GTL-1.4.7.zip",
+      "size": 33239,
+      "previous_version": "1.4.6",
       "github_stars": 8,
       "github_forks": 3,
       "github_language": "C++",
@@ -199306,29 +199318,34 @@
       "repository_name": "RobTillaart/PCA9685_RT",
       "repository_url": "https://github.com/RobTillaart/PCA9685_RT",
       "name": "PCA9685_RT",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "version_history": [
         {
           "version": "0.7.3",
           "seen_at": "2025-11-24T07:37:53Z"
+        },
+        {
+          "version": "0.7.4",
+          "seen_at": "2026-07-13T10:03:42.607Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-11-24T07:37:53Z",
-      "last_seen_sha": "b0b13d251b8b",
+      "last_seen_sha": "e17cdaac2ec5",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for PCA9685 I2C LED driver, 16 channel PWM, 12 bit.",
-      "paragraph": "",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/PCA9685_RT-0.7.4.zip",
+      "size": 25186,
+      "previous_version": "0.7.3",
       "github_stars": 15,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-03-24T17:30:47Z",
-      "download_url": "https://github.com/RobTillaart/PCA9685_RT"
+      "github_updated_at": "2026-03-24T17:30:47Z"
     },
     {
       "repository_name": "Justin-Pl/PCA9698",

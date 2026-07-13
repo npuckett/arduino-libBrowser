@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T19:29:01.646Z",
-  "total_libraries": 9661,
-  "index_etag": "W/\"8a2d3183b5b788b647c6e26c6b07ba10\"",
-  "index_last_modified": "Mon, 13 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-13T20:24:43.110Z",
+  "total_libraries": 9664,
+  "index_etag": "W/\"b3712c3f18fa4b457da1a372c2948d6a\"",
+  "index_last_modified": "Mon, 13 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -93678,7 +93678,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.12.2",
+      "version": "0.12.3",
       "version_history": [
         {
           "version": "0.12.2",
@@ -93687,11 +93687,15 @@
         {
           "version": "0.12.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.12.3",
+          "seen_at": "2026-07-13T20:24:38.967Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "a334d3234230",
+      "last_seen_sha": "14a60846b5d7",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -93703,13 +93707,13 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.12.2.zip",
-      "size": 127202,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.12.3.zip",
+      "size": 127193,
       "previous_version": "0.12.2",
       "github_stars": 35,
       "github_forks": 2,
-      "github_updated_at": "2026-06-25T20:01:27Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-25T20:01:27Z"
     },
     {
       "repository_name": "HamzaYslmn/esp-ps5",
@@ -173109,6 +173113,36 @@
       "github_updated_at": "2026-06-29T16:08:06Z"
     },
     {
+      "repository_name": "sauloverissimo/midi2duino",
+      "repository_url": "https://github.com/sauloverissimo/midi2duino",
+      "name": "midi2duino",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-13T20:24:38.967Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-13T20:24:38.967Z",
+      "last_seen_sha": "0cdea21b7311",
+      "author": "Saulo Veríssimo",
+      "maintainer": "Saulo Veríssimo <sauloverissimo@gmail.com>",
+      "sentence": "USB MIDI 2.0 device transport for classic Arduino cores.",
+      "paragraph": "Turns a classic Arduino board into a USB MIDI 2.0 device on the stock core (PluggableUSB), with no LUFA, no TinyUSB and no external USB stack. Dual alternate-setting MIDIStreaming interface, Group Terminal Block, and a UMP word pump. Transport only, zero UMP dependency; pair it with midi2 for the message layer. AVR (ATmega32U4) and classic SAMD (SAMD21).",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "samd"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2duino-0.1.0.zip",
+      "size": 74143,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-13T19:29:28Z"
+    },
+    {
       "repository_name": "joshnishikawa/MIDIcontroller",
       "repository_url": "https://github.com/joshnishikawa/MIDIcontroller",
       "name": "MIDIcontroller",
@@ -211840,6 +211874,35 @@
       "github_forks": 4,
       "github_language": "C++",
       "github_updated_at": "2026-05-06T00:49:37Z"
+    },
+    {
+      "repository_name": "bhvym-sudo/PT6964",
+      "repository_url": "https://github.com/bhvym-sudo/PT6964",
+      "name": "PT6964",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-13T20:24:38.967Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-13T20:24:38.967Z",
+      "last_seen_sha": "acf85c010ef3",
+      "author": "Bhavyam Verma bhavyamverma27@gmail.com",
+      "maintainer": "Bhavyam Verma bhavyamverma27@gmail.com",
+      "sentence": "A lightweight, professional driver for the PT6964 display controller.",
+      "paragraph": "This library allows you to control multi-segment LED displays driven by the Princeton Technology PT6964 using basic GPIO bit-banging.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bhvym-sudo/PT6964-1.0.0.zip",
+      "size": 4574,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-13T16:43:38Z"
     },
     {
       "repository_name": "depben/PT7C4339-RTC",
@@ -294806,6 +294869,39 @@
       "github_updated_at": "2026-07-02T21:47:43Z"
     },
     {
+      "repository_name": "admin3314/Vira_WiFi_Connector",
+      "repository_url": "https://github.com/admin3314/Vira_WiFi_Connector",
+      "name": "Vira_WiFi_Connector",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-13T20:24:38.967Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-13T20:24:38.967Z",
+      "last_seen_sha": "98c8c2eb48a2",
+      "author": "Dr. Seyed Mostafa Mir Mousavi <Vira Medar>",
+      "maintainer": "Dr. Seyed Mostafa Mir Mousavi <Vira Medar>",
+      "sentence": "Advanced WiFi configuration manager for ESP8266 with Web Interface, Static IP, DHCP and Factory Reset support.",
+      "paragraph": "Vira WiFi Connector is a lightweight WiFi management library for ESP8266 devices. It provides automatic WiFi connection, configuration Access Point, Web based WiFi setup panel, EEPROM credential storage, Static IP configuration, DHCP support, WiFi scanning, Factory Reset API, connection status monitoring and AsyncWebServer integration. Designed and developed by Vira Medar for smart home and IoT projects.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266"
+      ],
+      "depends": [
+        "ESPAsyncWebServer",
+        "ESPAsyncTCP"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/admin3314/Vira_WiFi_Connector-1.2.0.zip",
+      "size": 13161,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-13T19:53:28Z"
+    },
+    {
       "repository_name": "viralinkio/ViraLink-MQTT-Client",
       "repository_url": "https://github.com/viralinkio/ViraLink-MQTT-Client",
       "name": "ViraLink-MQTT-Client",
@@ -297369,7 +297465,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.4",
+      "version": "1.9.5",
       "version_history": [
         {
           "version": "1.6.0",
@@ -297398,11 +297494,15 @@
         {
           "version": "1.9.4",
           "seen_at": "2026-07-13T16:46:28.867Z"
+        },
+        {
+          "version": "1.9.5",
+          "seen_at": "2026-07-13T20:24:38.967Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "1ab77226590f",
+      "last_seen_sha": "5be0b1198cee",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -297411,9 +297511,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.4.zip",
-      "size": 83175,
-      "previous_version": "1.9.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.5.zip",
+      "size": 83326,
+      "previous_version": "1.9.4",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -306963,7 +307063,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9458,
-    "total_dependencies": 5161
+    "with_github_metadata": 9461,
+    "total_dependencies": 5163
   }
 }

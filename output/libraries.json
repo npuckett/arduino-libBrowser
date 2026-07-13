@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-13T17:36:54.598Z",
+  "enhanced_at": "2026-07-13T18:30:53.500Z",
   "total_libraries": 9661,
-  "index_etag": "W/\"0785dfed140622ca175ce3f3b304f58d\"",
-  "index_last_modified": "Mon, 13 Jul 2026 17:29:12 GMT",
+  "index_etag": "W/\"8a2d3183b5b788b647c6e26c6b07ba10\"",
+  "index_last_modified": "Mon, 13 Jul 2026 18:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -210226,29 +210226,35 @@
       "repository_name": "decadenza/ProsecCoAP",
       "repository_url": "https://github.com/decadenza/ProsecCoAP",
       "name": "ProsecCoAP",
-      "version": "4.0.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-06-18T09:12:01Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-07-13T18:30:53.367Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-18T09:12:01Z",
-      "last_seen_sha": "7dd873edbaed",
-      "author": "Pasquale Lafiosca <pasquale.lafiosca@yahoo.it>",
-      "maintainer": "Pasquale Lafiosca <pasquale.lafiosca@yahoo.it>",
-      "sentence": "CoAP client/server library for generic Arduino hardware.",
-      "paragraph": "This CoAP library supports request/response message and the observe pattern. The objective is to implement the Constrained Application Protocol (CoAP) following RFC-7252 as closely as possible.",
+      "last_seen_sha": "f4e85ae89095",
+      "author": "Pasquale Lafiosca",
+      "maintainer": "Pasquale Lafiosca",
+      "sentence": "CoAP client/server library for Arduino-compatible hardware.",
+      "paragraph": "ProsecCoAP 🥂 is a lightweight implementation of a Constrained Application Protocol (CoAP) node, that includes client/server, request/response and the asynchronous observe pattern, enabling robust M2M communication for IoT projects.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/decadenza/ProsecCoAP-5.0.0.zip",
+      "size": 103559,
+      "previous_version": "4.0.0",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-06-18T07:53:41Z",
-      "download_url": "https://github.com/decadenza/ProsecCoAP"
+      "github_updated_at": "2026-06-18T07:53:41Z"
     },
     {
       "repository_name": "RaffaeleMorganti/protectedAES",

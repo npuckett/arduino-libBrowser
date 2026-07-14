@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T19:28:20.054Z",
+  "enhanced_at": "2026-07-14T20:23:23.230Z",
   "total_libraries": 9669,
-  "index_etag": "W/\"a2a6e625506e13a1a82d6bac4509593e\"",
-  "index_last_modified": "Tue, 14 Jul 2026 18:59:12 GMT",
+  "index_etag": "W/\"270581936068387d32a7072a612c510d\"",
+  "index_last_modified": "Tue, 14 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70445,7 +70445,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.10.1",
+      "version": "6.12.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70730,11 +70730,15 @@
         {
           "version": "6.10.1",
           "seen_at": "2026-07-14T18:20:20.371Z"
+        },
+        {
+          "version": "6.12.0",
+          "seen_at": "2026-07-14T20:23:23.093Z"
         }
       ],
-      "release_count": 71,
+      "release_count": 72,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "1b95022de521",
+      "last_seen_sha": "ffe60aceb2c8",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70743,9 +70747,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.10.1.zip",
-      "size": 17801923,
-      "previous_version": "6.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.12.0.zip",
+      "size": 17820643,
+      "previous_version": "6.10.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -184880,16 +184884,20 @@
       "repository_name": "vic4key/MyButtons",
       "repository_url": "https://github.com/vic4key/MyButtons",
       "name": "MyButtons",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-08T16:30:07.517Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-14T20:23:23.093Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-08T16:30:07.517Z",
-      "last_seen_sha": "8ed1018c4e88",
+      "last_seen_sha": "2df293912628",
       "author": "Vic P.",
       "maintainer": "Vic P.",
       "sentence": "A simple Arduino/ESP32 button library for handling a list of buttons - configure once, trigger a debounced pressed event via callback, or check pressed states anytime.",
@@ -184898,8 +184906,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vic4key/MyButtons-1.0.0.zip",
-      "size": 28199,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vic4key/MyButtons-1.0.1.zip",
+      "size": 27686,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Roff",

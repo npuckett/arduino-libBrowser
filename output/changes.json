@@ -1,6 +1,155 @@
 {
-  "since": "2026-07-14T21:19:10.704Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-14T22:18:23.703Z",
+  "new_libraries": [
+    {
+      "repository_name": "scalpelspace/scalpelspace_bus",
+      "repository_url": "https://github.com/scalpelspace/scalpelspace_bus",
+      "name": "ScalpelSpace Bus",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-14T22:18:23.703Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T22:18:23.703Z",
+      "last_seen_sha": "9362cb7dae81",
+      "author": "ScalpelSpace",
+      "maintainer": "ScalpelSpace <info@scalpelspace.com>",
+      "sentence": "Unified communication Arduino library for ScalpelSpace devices.",
+      "paragraph": "Implement ScalpelSpace devices via standardized bus communication protocols including classic CAN using the MCP2518FD SPI-CAN breakout.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "ACAN2517"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/scalpelspace/ScalpelSpace_Bus-0.1.0.zip",
+      "size": 72002,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-14T18:15:15Z"
+    },
+    {
+      "repository_name": "vvb333007/tarfs",
+      "repository_url": "https://github.com/vvb333007/tarfs",
+      "name": "tarfs",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-14T22:18:23.703Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T22:18:23.703Z",
+      "last_seen_sha": "3a342d328f7a",
+      "author": "Viacheslav Logunov <vvb333007@gmail.com>",
+      "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
+      "sentence": "Immutable FAST! Filesystem. This library adds support for TARFS filesystem to your ESP32 sketch",
+      "paragraph": "Immutablle TARFS: read-only filesystem with support for hardlinks/symlinks, long names, UTF8, mmap() and some other posix extensions.",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MMIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.0.zip",
+      "size": 671288,
+      "github_stars": 5,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-14T18:37:17Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.1.10",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "dec9d03c3654",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.10.zip",
+        "size": 3681488,
+        "previous_version": "1.1.9",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.1.9",
+      "new_version": "1.1.10"
+    },
+    {
+      "library": {
+        "repository_name": "yellobyte/TLV320DAC3101",
+        "repository_url": "https://github.com/yellobyte/TLV320DAC3101",
+        "name": "TLV320DAC3101",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-06-15T09:53:37Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-15T09:53:37Z",
+        "last_seen_sha": "7f78896cb8eb",
+        "author": "Thomas Jentzsch",
+        "maintainer": "Thomas Jentzsch <yellobyte@bluewin.ch>",
+        "sentence": "Arduino library for the Texas Instruments TLV320DAC3101 I2S Stereo Audio DAC.",
+        "paragraph": "The lib is build upon the Adafruit TLV320 I2S library and extends it with functions for audio filtering (low/high  pass, notch, EQ & bass/treble shelf using 1st order IIR and/or 2nd order BiQuad), dynamic range compression (DRC), 3D effect, adaptive filtering mode and stereo speaker output for the TLV320DAC3101.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit TLV320 I2S"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/yellobyte/TLV320DAC3101-1.4.0.zip",
+        "size": 2554435,
+        "previous_version": "1.3.1",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-15T03:47:44Z"
+      },
+      "old_version": "1.3.1",
+      "new_version": "1.4.0"
+    }
+  ],
   "removed_libraries": []
 }

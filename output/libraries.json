@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T07:32:24.037Z",
-  "total_libraries": 9667,
-  "index_etag": "W/\"ebdb763034e56d49fdad6e2455b136cd\"",
-  "index_last_modified": "Tue, 14 Jul 2026 07:29:12 GMT",
+  "enhanced_at": "2026-07-14T08:41:27.392Z",
+  "total_libraries": 9668,
+  "index_etag": "W/\"e2855b62c5d20fd35ed325ca30855da6\"",
+  "index_last_modified": "Tue, 14 Jul 2026 08:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70464,7 +70464,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.0.0",
+      "version": "6.1.1",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70725,11 +70725,15 @@
         {
           "version": "6.0.0",
           "seen_at": "2026-07-14T06:40:18.357Z"
+        },
+        {
+          "version": "6.1.1",
+          "seen_at": "2026-07-14T08:41:26.006Z"
         }
       ],
-      "release_count": 65,
+      "release_count": 66,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "e9db976e7579",
+      "last_seen_sha": "4619c58199bd",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70738,9 +70742,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.0.0.zip",
-      "size": 17302439,
-      "previous_version": "5.102.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.1.1.zip",
+      "size": 17521714,
+      "previous_version": "6.0.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -159940,7 +159944,7 @@
       "repository_name": "m5stack/M5Utility",
       "repository_url": "https://github.com/m5stack/M5Utility",
       "name": "M5Utility",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -159949,22 +159953,26 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-07-06T09:17:18.441Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-14T08:41:26.006Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-04T08:45:37Z",
-      "last_seen_sha": "dca119901b98",
+      "last_seen_sha": "fb4c06490b49",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for other M5 libraries and products",
       "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
       "category": "Other",
       "architectures": [
-        "esp32"
+        "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Utility-0.1.1.zip",
-      "size": 174136,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Utility-0.2.0.zip",
+      "size": 178235,
+      "previous_version": "0.1.1",
       "github_stars": 5,
       "github_forks": 4,
       "github_language": "C++",
@@ -294991,6 +294999,36 @@
       "github_updated_at": "2026-07-02T21:47:43Z"
     },
     {
+      "repository_name": "admin3314/Vira_Matrix",
+      "repository_url": "https://github.com/admin3314/Vira_Matrix",
+      "name": "Vira_Matrix",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-14T08:41:26.006Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T08:41:26.006Z",
+      "last_seen_sha": "47d195c86491",
+      "author": "Mostafa Mir Mosavi (@viramedar)",
+      "maintainer": "Mostafa Mir Mosavi (@viramedar)",
+      "sentence": "Advanced 8x8 LED Matrix with Emoji, Font and Web Control for ESP8266.",
+      "paragraph": "Vira_Matrix is a lightweight and powerful Arduino library for controlling 8x8 LED matrix . It supports emoji animations, 5x7 font rendering, scrolling text, and real-time WebSocket control via ESP8266 web interface. Designed for fast performance and future scalability.",
+      "category": "Display",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/admin3314/Vira_Matrix-1.0.1.zip",
+      "size": 12795314,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-14T04:50:08Z"
+    },
+    {
       "repository_name": "admin3314/Vira_WiFi_Connector",
       "repository_url": "https://github.com/admin3314/Vira_WiFi_Connector",
       "name": "Vira_WiFi_Connector",
@@ -307190,7 +307228,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9464,
+    "with_github_metadata": 9465,
     "total_dependencies": 5163
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T02:59:03.552Z",
-  "total_libraries": 9664,
-  "index_etag": "W/\"62be2b3763f951a1172aaa7873d9efe0\"",
-  "index_last_modified": "Tue, 14 Jul 2026 02:29:12 GMT",
+  "enhanced_at": "2026-07-14T04:05:10.381Z",
+  "total_libraries": 9665,
+  "index_etag": "W/\"e5c5e515832c573e5d65048d22d33f6a\"",
+  "index_last_modified": "Tue, 14 Jul 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -51643,29 +51643,35 @@
       "repository_name": "piruetasxyz/Boton",
       "repository_url": "https://github.com/piruetasxyz/Boton",
       "name": "Boton",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "version_history": [
         {
           "version": "0.0.2",
           "seen_at": "2026-01-02T21:22:10Z"
+        },
+        {
+          "version": "0.0.3",
+          "seen_at": "2026-07-14T04:05:08.898Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-02T21:22:10Z",
-      "last_seen_sha": "2d5ab7fecce7",
+      "last_seen_sha": "bcb938aa3012",
       "author": "piruetasxyz",
       "maintainer": "piruetasxyz",
-      "sentence": "Library for buttons",
-      "paragraph": "Classes for abstracting the use of buttons.",
+      "sentence": "Library for handling buttons with microcontrollers",
+      "paragraph": "Compatible with Arduino and Raspberry Pi Pico.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/piruetasxyz/Boton-0.0.3.zip",
+      "size": 7324,
+      "previous_version": "0.0.2",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2025-09-11T00:20:06Z",
-      "download_url": "https://github.com/piruetasxyz/Boton"
+      "github_updated_at": "2025-09-11T00:20:06Z"
     },
     {
       "repository_name": "thomasfredericks/Bounce2",
@@ -70458,7 +70464,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.101.0",
+      "version": "5.102.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70711,11 +70717,15 @@
         {
           "version": "5.101.0",
           "seen_at": "2026-07-14T00:18:15.650Z"
+        },
+        {
+          "version": "5.102.0",
+          "seen_at": "2026-07-14T04:05:08.898Z"
         }
       ],
-      "release_count": 63,
+      "release_count": 64,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "14cd040376f6",
+      "last_seen_sha": "ac3153c3aeae",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70724,9 +70734,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.101.0.zip",
-      "size": 17273605,
-      "previous_version": "5.100.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.102.0.zip",
+      "size": 17294902,
+      "previous_version": "5.101.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -151280,6 +151290,35 @@
       "github_language": "C",
       "github_updated_at": "2023-04-08T17:01:10Z",
       "download_url": "https://github.com/khoih-prog/LittleFS_Portenta_H7"
+    },
+    {
+      "repository_name": "Cymeria/LittleFSExplorer",
+      "repository_url": "https://github.com/Cymeria/LittleFSExplorer",
+      "name": "LittleFSExplorer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-14T04:05:08.898Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T04:05:08.898Z",
+      "last_seen_sha": "4f906edcde60",
+      "author": "Cymeria",
+      "maintainer": "MiMo Code",
+      "sentence": "Modern web-based file explorer and editor for ESP8266/ESP32 with LittleFS",
+      "paragraph": "Provides a responsive web interface for managing files on LittleFS filesystem. Features include file browsing, editing, uploading, downloading, creating directories, image preview, and theme switching (dark/light).",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Cymeria/LittleFSExplorer-1.0.0.zip",
+      "size": 25701,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-14T00:47:01Z"
     },
     {
       "repository_name": "blackhack/LittleVector",
@@ -307075,7 +307114,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9461,
+    "with_github_metadata": 9462,
     "total_dependencies": 5163
   }
 }

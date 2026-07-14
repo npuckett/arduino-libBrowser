@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T05:45:39.632Z",
-  "total_libraries": 9665,
-  "index_etag": "W/\"e5c5e515832c573e5d65048d22d33f6a\"",
-  "index_last_modified": "Tue, 14 Jul 2026 05:29:12 GMT",
+  "enhanced_at": "2026-07-14T06:40:20.928Z",
+  "total_libraries": 9667,
+  "index_etag": "W/\"ebdb763034e56d49fdad6e2455b136cd\"",
+  "index_last_modified": "Tue, 14 Jul 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70464,7 +70464,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "5.102.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70721,11 +70721,15 @@
         {
           "version": "5.102.0",
           "seen_at": "2026-07-14T04:05:08.898Z"
+        },
+        {
+          "version": "6.0.0",
+          "seen_at": "2026-07-14T06:40:18.357Z"
         }
       ],
-      "release_count": 64,
+      "release_count": 65,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "ac3153c3aeae",
+      "last_seen_sha": "e9db976e7579",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70734,9 +70738,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-5.102.0.zip",
-      "size": 17294902,
-      "previous_version": "5.101.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.0.0.zip",
+      "size": 17302439,
+      "previous_version": "5.102.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -109849,7 +109853,7 @@
       "repository_name": "mobizt/FirebaseClient",
       "repository_url": "https://github.com/mobizt/FirebaseClient",
       "name": "FirebaseClient",
-      "version": "2.2.12",
+      "version": "2.2.13",
       "version_history": [
         {
           "version": "2.2.10",
@@ -109862,11 +109866,15 @@
         {
           "version": "2.2.12",
           "seen_at": "2026-07-01T18:35:27.215Z"
+        },
+        {
+          "version": "2.2.13",
+          "seen_at": "2026-07-14T06:40:18.357Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:53:26Z",
-      "last_seen_sha": "d4a836afd46e",
+      "last_seen_sha": "7aa54f90ca82",
       "author": "Mobizt",
       "maintainer": "Mobizt <k_suwatchai@hotmail.com>",
       "sentence": "Async Firebase Client library for Arduino",
@@ -109892,13 +109900,13 @@
       "depends": [
         "ESP_SSLClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mobizt/FirebaseClient-2.2.12.zip",
-      "size": 4951273,
-      "previous_version": "2.2.11",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mobizt/FirebaseClient-2.2.13.zip",
+      "size": 4952043,
+      "previous_version": "2.2.12",
       "github_stars": 273,
       "github_forks": 28,
-      "github_updated_at": "2026-07-01T16:06:20Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T16:06:20Z"
     },
     {
       "repository_name": "mobizt/FirebaseJson",
@@ -132478,6 +132486,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-01-20T11:01:51Z"
+    },
+    {
+      "repository_name": "rowanzhang123/IF97duino-public",
+      "repository_url": "https://github.com/rowanzhang123/IF97duino-public",
+      "name": "IF97duino",
+      "version": "1.4.0",
+      "version_history": [
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-07-14T06:40:18.357Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T06:40:18.357Z",
+      "last_seen_sha": "76adfd39b43c",
+      "author": "Rowan Zhang <rowanzhang123@gmail.com>",
+      "maintainer": "Rowan Zhang <rowanzhang123@gmail.com>",
+      "sentence": "CoolProp IF97 backend ported to the Arduino ecosystem as a meme",
+      "paragraph": "Uses the same function calls as the CoolProp library, original (unmodified) library included as a zip file",
+      "category": "Data Processing",
+      "architectures": [
+        "stm32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rowanzhang123/IF97duino-1.4.0.zip",
+      "size": 4357696,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-14T02:57:45Z"
     },
     {
       "repository_name": "witnessmenow/arduino-ifttt-maker",
@@ -156944,6 +156981,36 @@
         "M5Utility"
       ],
       "download_url": "https://github.com/m5stack/M5HAL.git"
+    },
+    {
+      "repository_name": "m5stack/M5Hat-18650C",
+      "repository_url": "https://github.com/m5stack/M5Hat-18650C",
+      "name": "M5Hat_18650C",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-07-14T06:40:18.357Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T06:40:18.357Z",
+      "last_seen_sha": "6f38cddd56b8",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Arduino library for M5Stack 18650C Battery Hat — I2C battery monitoring via INA226 (voltage/current/power) and AW32257FCR charger.",
+      "paragraph": "Drives the two I2C chips on the HAT 18650C V1.1: TI INA226 16-bit voltage/current/power monitor (0x41, 10mR shunt) and AW32257FCR Li-Ion switch-mode charger (0x6A). Provides battery voltage, charge/discharge current, power, SOC, charge state (Ready/Charging/Done/Fault), and configurable charge parameters.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32",
+        "esp32s3"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Hat_18650C-0.0.1.zip",
+      "size": 9810,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-13T07:46:20Z"
     },
     {
       "repository_name": "m5stack/M5Hat-8Servos",
@@ -201754,7 +201821,7 @@
       "repository_name": "drmpf/pfodParser",
       "repository_url": "https://github.com/drmpf/pfodParser",
       "name": "pfodParser",
-      "version": "5.1.0",
+      "version": "5.1.1",
       "version_history": [
         {
           "version": "5.0.4",
@@ -201763,11 +201830,15 @@
         {
           "version": "5.1.0",
           "seen_at": "2026-07-03T10:52:10.012Z"
+        },
+        {
+          "version": "5.1.1",
+          "seen_at": "2026-07-14T06:40:18.357Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:26:42Z",
-      "last_seen_sha": "e7e75dffbfc0",
+      "last_seen_sha": "434fb38cb664",
       "author": "Matthew Ford",
       "maintainer": "Matthew Ford",
       "sentence": "A library to parse pfod messages sent from pfodApp / pfodWeb.html and includes pfodWeb.html which connects via Serial, BLE, Tcp/Ip and HTTP to display interactive menus and GUI's in your browser.",
@@ -201776,9 +201847,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/drmpf/pfodParser-5.1.0.zip",
-      "size": 7435233,
-      "previous_version": "5.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/drmpf/pfodParser-5.1.1.zip",
+      "size": 7627609,
+      "previous_version": "5.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "HTML",
@@ -294923,18 +294994,22 @@
       "repository_name": "admin3314/Vira_WiFi_Connector",
       "repository_url": "https://github.com/admin3314/Vira_WiFi_Connector",
       "name": "Vira_WiFi_Connector",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-07-13T20:24:38.967Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-14T06:40:18.357Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-13T20:24:38.967Z",
-      "last_seen_sha": "98c8c2eb48a2",
-      "author": "Dr. Seyed Mostafa Mir Mousavi <Vira Medar>",
-      "maintainer": "Dr. Seyed Mostafa Mir Mousavi <Vira Medar>",
+      "last_seen_sha": "9259be0918ad",
+      "author": "Mostafa Mir Mousavi <ViraMedar>",
+      "maintainer": "Mostafa Mir Mousavi <ViraMedar>",
       "sentence": "Advanced WiFi configuration manager for ESP8266 with Web Interface, Static IP, DHCP and Factory Reset support.",
       "paragraph": "Vira WiFi Connector is a lightweight WiFi management library for ESP8266 devices. It provides automatic WiFi connection, configuration Access Point, Web based WiFi setup panel, EEPROM credential storage, Static IP configuration, DHCP support, WiFi scanning, Factory Reset API, connection status monitoring and AsyncWebServer integration. Designed and developed by Vira Medar for smart home and IoT projects.",
       "category": "Communication",
@@ -294945,8 +295020,9 @@
         "ESPAsyncWebServer",
         "ESPAsyncTCP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/admin3314/Vira_WiFi_Connector-1.2.0.zip",
-      "size": 13161,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/admin3314/Vira_WiFi_Connector-1.2.1.zip",
+      "size": 13154,
+      "previous_version": "1.2.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -307114,7 +307190,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9462,
+    "with_github_metadata": 9464,
     "total_dependencies": 5163
   }
 }

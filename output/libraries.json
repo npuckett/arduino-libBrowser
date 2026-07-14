@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T09:32:34.346Z",
-  "total_libraries": 9668,
-  "index_etag": "W/\"e2855b62c5d20fd35ed325ca30855da6\"",
-  "index_last_modified": "Tue, 14 Jul 2026 09:29:11 GMT",
+  "enhanced_at": "2026-07-14T10:31:10.366Z",
+  "total_libraries": 9669,
+  "index_etag": "W/\"87e32073149a1c31d61eadf8fe31c824\"",
+  "index_last_modified": "Tue, 14 Jul 2026 10:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70464,7 +70464,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.1.1",
+      "version": "6.3.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70729,11 +70729,15 @@
         {
           "version": "6.1.1",
           "seen_at": "2026-07-14T08:41:26.006Z"
+        },
+        {
+          "version": "6.3.0",
+          "seen_at": "2026-07-14T10:31:08.937Z"
         }
       ],
-      "release_count": 66,
+      "release_count": 67,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "4619c58199bd",
+      "last_seen_sha": "d2e749216bf1",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70742,9 +70746,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.1.1.zip",
-      "size": 17521714,
-      "previous_version": "6.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.3.0.zip",
+      "size": 17638761,
+      "previous_version": "6.1.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -156442,7 +156446,7 @@
       "repository_name": "m5stack/M5Chain",
       "repository_url": "https://github.com/m5stack/M5Chain",
       "name": "M5Chain",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.5",
@@ -156451,11 +156455,15 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-07-10T09:02:01.418Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-07-14T10:31:08.937Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-16T09:05:06Z",
-      "last_seen_sha": "13c0bc6d3db1",
+      "last_seen_sha": "80286ee6f80b",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "M5Stack Chain series support library.",
@@ -156464,9 +156472,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Chain-1.0.6.zip",
-      "size": 90583,
-      "previous_version": "1.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Chain-1.0.7.zip",
+      "size": 144796,
+      "previous_version": "1.0.6",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
@@ -295108,6 +295116,36 @@
       "github_updated_at": "2025-08-11T13:17:50Z"
     },
     {
+      "repository_name": "admin3314/ViraMediaWeb",
+      "repository_url": "https://github.com/admin3314/ViraMediaWeb",
+      "name": "ViraMediaWeb",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-14T10:31:08.937Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-14T10:31:08.937Z",
+      "last_seen_sha": "fcf586c24ca2",
+      "author": "Mostafa MirMousavi (ViraMedar)",
+      "maintainer": "Mostafa MirMousavi (ViraMedar)",
+      "sentence": "ESP8266/ESP32 web-based file manager and media server using LittleFS",
+      "paragraph": "Lightweight embedded web system with file upload, delete, preview and direct access. Works as a mini CDN for ESP devices with web UI.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/admin3314/ViraMediaWeb-1.0.1.zip",
+      "size": 14620,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-14T07:14:01Z"
+    },
+    {
       "repository_name": "rhelmus/virtmem-arlibman",
       "repository_url": "https://github.com/rhelmus/virtmem-arlibman",
       "name": "virtmem",
@@ -296348,16 +296386,20 @@
       "repository_name": "vovagorodok/ArduinoBleOTA",
       "repository_url": "https://github.com/vovagorodok/ArduinoBleOTA",
       "name": "vovagorodok_ArduinoBleOTA",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.1.0",
           "seen_at": "2026-06-24T08:40:46Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-07-14T10:31:08.937Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-24T08:40:46Z",
-      "last_seen_sha": "76f0de4c97cf",
+      "last_seen_sha": "cf260b9de7e2",
       "author": "vovagorodok",
       "maintainer": "vovagorodok <vovagorodok2@gmail.com>",
       "sentence": "Bluetooth low energy (BLE) library for uploads.",
@@ -296373,11 +296415,13 @@
         "mbed_portenta",
         "mbed_nicla"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vovagorodok/vovagorodok_ArduinoBleOTA-2.1.1.zip",
+      "size": 65939,
+      "previous_version": "2.1.0",
       "github_stars": 51,
       "github_forks": 10,
-      "github_updated_at": "2026-06-23T09:00:14Z",
-      "download_url": "https://github.com/vovagorodok/ArduinoBleOTA",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-23T09:00:14Z"
     },
     {
       "repository_name": "vovagorodok/ArduinoBleSerial",
@@ -307228,7 +307272,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9465,
+    "with_github_metadata": 9466,
     "total_dependencies": 5163
   }
 }

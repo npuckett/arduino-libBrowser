@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-15T02:59:09.386Z",
-  "total_libraries": 9671,
-  "index_etag": "W/\"768268d547071b2744bc3d1c265d0340\"",
-  "index_last_modified": "Wed, 15 Jul 2026 02:29:12 GMT",
+  "enhanced_at": "2026-07-15T04:05:35.200Z",
+  "total_libraries": 9672,
+  "index_etag": "W/\"0fe6a04f2e3e95dc52d64fb90bade29b\"",
+  "index_last_modified": "Wed, 15 Jul 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22601,7 +22601,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.58",
+      "version": "1.2.59",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22710,11 +22710,15 @@
         {
           "version": "1.2.58",
           "seen_at": "2026-07-12T20:14:14.574Z"
+        },
+        {
+          "version": "1.2.59",
+          "seen_at": "2026-07-15T04:05:33.653Z"
         }
       ],
-      "release_count": 27,
+      "release_count": 28,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "456343bbd73e",
+      "last_seen_sha": "4f715acf7070",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22735,9 +22739,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.58.zip",
-      "size": 42347663,
-      "previous_version": "1.2.55",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.59.zip",
+      "size": 42348720,
+      "previous_version": "1.2.58",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70449,7 +70453,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.12.0",
+      "version": "6.13.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70738,11 +70742,15 @@
         {
           "version": "6.12.0",
           "seen_at": "2026-07-14T20:23:23.093Z"
+        },
+        {
+          "version": "6.13.0",
+          "seen_at": "2026-07-15T04:05:33.653Z"
         }
       ],
-      "release_count": 72,
+      "release_count": 73,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "ffe60aceb2c8",
+      "last_seen_sha": "0c8c64917e3a",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70751,9 +70759,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.12.0.zip",
-      "size": 17820643,
-      "previous_version": "6.10.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.13.0.zip",
+      "size": 17835300,
+      "previous_version": "6.12.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -129163,6 +129171,36 @@
         "IRremote"
       ],
       "download_url": "https://github.com/HighASG936/hw262"
+    },
+    {
+      "repository_name": "supratikd/HW290",
+      "repository_url": "https://github.com/supratikd/HW290",
+      "name": "HW290",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-15T04:05:33.653Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T04:05:33.653Z",
+      "last_seen_sha": "a52bac61f841",
+      "author": "Supratik Das",
+      "maintainer": "supratikd <supratikdas@hotmail.com>",
+      "sentence": "Arduino library for HW290 10DOF sensor board (MPU6050 + BMP180 + HP5883).",
+      "paragraph": "Supports accelerometer, gyroscope, barometer, temperature, HP5883 magnetometer.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/HW290-1.0.0.zip",
+      "size": 20931,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-14T18:04:55Z"
     },
     {
       "repository_name": "gevindug/HW827_PPG",
@@ -307414,7 +307452,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9468,
+    "with_github_metadata": 9469,
     "total_dependencies": 5164
   }
 }

@@ -1,6 +1,311 @@
 {
-  "since": "2026-07-15T19:26:38.589Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-15T20:20:27.721Z",
+  "new_libraries": [
+    {
+      "repository_name": "m-mcgowan/note-cpp",
+      "repository_url": "https://github.com/m-mcgowan/note-cpp",
+      "name": "note-cpp",
+      "version": "0.3.2",
+      "version_history": [
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-07-15T20:20:27.721Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T20:20:27.721Z",
+      "last_seen_sha": "7ea3c86f5f0e",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.2.zip",
+      "size": 1893346,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T16:39:22Z"
+    },
+    {
+      "repository_name": "sbarabe/SBK_AvrBuzzer",
+      "repository_url": "https://github.com/sbarabe/SBK_AvrBuzzer",
+      "name": "SBK_AvrBuzzer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-15T20:20:27.721Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T20:20:27.721Z",
+      "last_seen_sha": "913d0751fff1",
+      "author": "Samuel Barabe",
+      "maintainer": "Samuel Barabe",
+      "sentence": "Non-blocking passive piezo buzzer library for AVR-based Arduino boards.",
+      "paragraph": "Hardware-timed passive piezo buzzer library using Timer1. Supports non-blocking tones, chirps, and single-ended or differential output.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_AvrBuzzer-1.0.0.zip",
+      "size": 17400,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T17:32:51Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.60",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          },
+          {
+            "version": "1.2.40",
+            "seen_at": "2026-07-09T20:31:56.980Z"
+          },
+          {
+            "version": "1.2.41",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.2.43",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.45",
+            "seen_at": "2026-07-10T20:28:52.973Z"
+          },
+          {
+            "version": "1.2.47",
+            "seen_at": "2026-07-10T22:20:06.185Z"
+          },
+          {
+            "version": "1.2.51",
+            "seen_at": "2026-07-11T02:59:28.551Z"
+          },
+          {
+            "version": "1.2.54",
+            "seen_at": "2026-07-11T22:14:50.581Z"
+          },
+          {
+            "version": "1.2.55",
+            "seen_at": "2026-07-12T04:16:52.503Z"
+          },
+          {
+            "version": "1.2.58",
+            "seen_at": "2026-07-12T20:14:14.574Z"
+          },
+          {
+            "version": "1.2.59",
+            "seen_at": "2026-07-15T04:05:33.653Z"
+          },
+          {
+            "version": "1.2.60",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          }
+        ],
+        "release_count": 29,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "e8de38577b45",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.60.zip",
+        "size": 42350367,
+        "previous_version": "1.2.59",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.59",
+      "new_version": "1.2.60"
+    },
+    {
+      "library": {
+        "repository_name": "TakamoriRobot/HIRO",
+        "repository_url": "https://github.com/TakamoriRobot/HIRO",
+        "name": "HIRO",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-11T02:59:28.551Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-11T02:59:28.551Z",
+        "last_seen_sha": "748022e3f4c8",
+        "author": "Joseph Casebeer, Takamori Robot",
+        "maintainer": "Takamori Robot <outreach@takamorirobot.com>",
+        "sentence": "Allows raspberry pi pico to control H.I.R.O. Model TR-01-A.",
+        "paragraph": "This library allows ease of use for end users defining and controlling a H.I.R.O. model TR-01-A Robotics Platform using Raspberry pi pico.",
+        "category": "Other",
+        "architectures": [
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TakamoriRobot/HIRO-1.0.2.zip",
+        "size": 71820139,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-10T22:40:30Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.1.11",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          },
+          {
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "fcb78e4d58a9",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.11.zip",
+        "size": 3679398,
+        "previous_version": "1.1.10",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.1.10",
+      "new_version": "1.1.11"
+    }
+  ],
   "removed_libraries": []
 }

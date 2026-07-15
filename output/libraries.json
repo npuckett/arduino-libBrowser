@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-15T19:26:38.722Z",
-  "total_libraries": 9674,
-  "index_etag": "W/\"ad446cdbc3b6ec3a89a9bf368f2c7a7e\"",
-  "index_last_modified": "Wed, 15 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-15T20:20:30.345Z",
+  "total_libraries": 9676,
+  "index_etag": "W/\"26dc35b79bceec01c7e83f5274bc3e1e\"",
+  "index_last_modified": "Wed, 15 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.59",
+      "version": "1.2.60",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22722,11 +22722,15 @@
         {
           "version": "1.2.59",
           "seen_at": "2026-07-15T04:05:33.653Z"
+        },
+        {
+          "version": "1.2.60",
+          "seen_at": "2026-07-15T20:20:27.721Z"
         }
       ],
-      "release_count": 28,
+      "release_count": 29,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "4f715acf7070",
+      "last_seen_sha": "e8de38577b45",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22747,9 +22751,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.59.zip",
-      "size": 42348720,
-      "previous_version": "1.2.58",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.60.zip",
+      "size": 42350367,
+      "previous_version": "1.2.59",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -126303,16 +126307,20 @@
       "repository_name": "TakamoriRobot/HIRO",
       "repository_url": "https://github.com/TakamoriRobot/HIRO",
       "name": "HIRO",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-07-11T02:59:28.551Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-15T20:20:27.721Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-11T02:59:28.551Z",
-      "last_seen_sha": "73bc80777b6c",
+      "last_seen_sha": "748022e3f4c8",
       "author": "Joseph Casebeer, Takamori Robot",
       "maintainer": "Takamori Robot <outreach@takamorirobot.com>",
       "sentence": "Allows raspberry pi pico to control H.I.R.O. Model TR-01-A.",
@@ -126321,8 +126329,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TakamoriRobot/HIRO-1.0.1.zip",
-      "size": 16276,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TakamoriRobot/HIRO-1.0.2.zip",
+      "size": 71820139,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -190579,6 +190588,35 @@
       "github_updated_at": "2023-08-25T17:09:41Z"
     },
     {
+      "repository_name": "m-mcgowan/note-cpp",
+      "repository_url": "https://github.com/m-mcgowan/note-cpp",
+      "name": "note-cpp",
+      "version": "0.3.2",
+      "version_history": [
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-07-15T20:20:27.721Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T20:20:27.721Z",
+      "last_seen_sha": "7ea3c86f5f0e",
+      "author": "Mat McGowan",
+      "maintainer": "Mat McGowan",
+      "sentence": "Typed C++ SDK for the Blues Notecard.",
+      "paragraph": "Type-safe, compile-time checked API for all Notecard endpoints. Header-only. Supports Arduino, PlatformIO, and CMake.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.2.zip",
+      "size": 1893346,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T16:39:22Z"
+    },
+    {
       "repository_name": "m-mcgowan/note-emu",
       "repository_url": "https://github.com/m-mcgowan/note-emu",
       "name": "note-emu",
@@ -200875,7 +200913,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "version_history": [
         {
           "version": "1.1.9",
@@ -200888,11 +200926,15 @@
         {
           "version": "1.1.10",
           "seen_at": "2026-07-14T22:18:23.703Z"
+        },
+        {
+          "version": "1.1.11",
+          "seen_at": "2026-07-15T20:20:27.721Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "dec9d03c3654",
+      "last_seen_sha": "fcb78e4d58a9",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
       "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
@@ -200903,9 +200945,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.10.zip",
-      "size": 3681488,
-      "previous_version": "1.1.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.11.zip",
+      "size": 3679398,
+      "previous_version": "1.1.10",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",
@@ -230894,6 +230936,36 @@
       "github_language": "C++",
       "github_updated_at": "2025-07-30T14:43:18Z",
       "download_url": "https://github.com/SantiagoSaldana/SBC"
+    },
+    {
+      "repository_name": "sbarabe/SBK_AvrBuzzer",
+      "repository_url": "https://github.com/sbarabe/SBK_AvrBuzzer",
+      "name": "SBK_AvrBuzzer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-15T20:20:27.721Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T20:20:27.721Z",
+      "last_seen_sha": "913d0751fff1",
+      "author": "Samuel Barabe",
+      "maintainer": "Samuel Barabe",
+      "sentence": "Non-blocking passive piezo buzzer library for AVR-based Arduino boards.",
+      "paragraph": "Hardware-timed passive piezo buzzer library using Timer1. Supports non-blocking tones, chirps, and single-ended or differential output.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_AvrBuzzer-1.0.0.zip",
+      "size": 17400,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T17:32:51Z"
     },
     {
       "repository_name": "sbarabe/SBK_BarDrive",
@@ -307555,7 +307627,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9471,
+    "with_github_metadata": 9473,
     "total_dependencies": 5164
   }
 }

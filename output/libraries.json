@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-15T13:30:22.918Z",
+  "enhanced_at": "2026-07-15T14:31:56.056Z",
   "total_libraries": 9673,
-  "index_etag": "W/\"b2a45b6ac0a3ba6a3315f05948c8d38c\"",
-  "index_last_modified": "Wed, 15 Jul 2026 13:29:12 GMT",
+  "index_etag": "W/\"f85f744794514643307e512f4797e1cd\"",
+  "index_last_modified": "Wed, 15 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -259543,7 +259543,7 @@
       "repository_name": "sparkfun/SparkFun_u-blox_GNSS_Arduino_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library",
       "name": "SparkFun u-blox GNSS Arduino Library",
-      "version": "2.2.28",
+      "version": "2.2.29",
       "version_history": [
         {
           "version": "2.2.28",
@@ -259552,11 +259552,15 @@
         {
           "version": "2.2.28",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.2.29",
+          "seen_at": "2026-07-15T14:31:55.972Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-15T09:49:27Z",
-      "last_seen_sha": "43f27d0546dd",
+      "last_seen_sha": "0e637e3043e7",
       "author": "SparkFun Electronics <techsupport@sparkfun.com>",
       "maintainer": "SparkFun Electronics <sparkfun.com>",
       "sentence": "Library for I2C, Serial and SPI Communication with u-blox GNSS modules<br/><br/>",
@@ -259565,8 +259569,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_u_blox_GNSS_Arduino_Library-2.2.28.zip",
-      "size": 600722,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_u_blox_GNSS_Arduino_Library-2.2.29.zip",
+      "size": 600785,
       "previous_version": "2.2.28",
       "github_stars": 284,
       "github_forks": 113,
@@ -272663,27 +272667,32 @@
       "repository_name": "vvb333007/tarfs",
       "repository_url": "https://github.com/vvb333007/tarfs",
       "name": "tarfs",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-07-14T22:18:23.703Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-15T14:31:55.972Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-14T22:18:23.703Z",
-      "last_seen_sha": "3a342d328f7a",
+      "last_seen_sha": "3b0f0ef11424",
       "author": "Viacheslav Logunov <vvb333007@gmail.com>",
       "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
       "sentence": "Immutable FAST! Filesystem. This library adds support for TARFS filesystem to your ESP32 sketch",
-      "paragraph": "Immutablle TARFS: read-only filesystem with support for hardlinks/symlinks, long names, UTF8, mmap() and some other posix extensions.",
+      "paragraph": "Immutable TARFS: mmap-enabled read-only filesystem with support for hardlinks/symlinks, long names, UTF8,  and some other posix extensions.",
       "category": "Other",
       "architectures": [
         "esp32"
       ],
       "license": "MMIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.0.zip",
-      "size": 671288,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.1.zip",
+      "size": 1324829,
+      "previous_version": "0.1.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C",

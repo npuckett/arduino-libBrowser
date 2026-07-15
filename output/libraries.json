@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-14T23:16:45.030Z",
+  "enhanced_at": "2026-07-15T00:17:04.163Z",
   "total_libraries": 9671,
-  "index_etag": "W/\"f94d6280959d2b849d247e62750cb0a5\"",
-  "index_last_modified": "Tue, 14 Jul 2026 22:59:12 GMT",
+  "index_etag": "W/\"f55c67449d693316175b733b23f52f2e\"",
+  "index_last_modified": "Tue, 14 Jul 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -48915,7 +48915,7 @@
       "repository_name": "angeloINTJ/BMx280PIO_RP2040",
       "repository_url": "https://github.com/angeloINTJ/BMx280PIO_RP2040",
       "name": "BMx280PIO_RP2040",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48948,15 +48948,19 @@
         {
           "version": "1.3.0",
           "seen_at": "2026-07-14T12:24:10.895Z"
+        },
+        {
+          "version": "1.3.1",
+          "seen_at": "2026-07-15T00:17:04.031Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-07-08T04:08:04.409Z",
-      "last_seen_sha": "fc9065582e6b",
+      "last_seen_sha": "7bf2b2fd7667",
       "author": "Ângelo Moisés Alves",
       "maintainer": "Ângelo Moisés Alves",
       "sentence": "BMP280/BME280 sensor driver for RP2040 with PIO and Wire I2C support",
-      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses TwoWirePIO_RP2040 (WirePIO) for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire). Auto-detects BMP280 vs BME280. Verified on hardware.",
+      "paragraph": "Reads temperature, pressure, and humidity from Bosch BMP280/BME280 sensors. Uses WirePIO for PIO+DMA I2C on any GPIO pins. Also supports hardware I2C (Wire) and GPIO bit-bang fallback. Auto-detects BMP280 vs BME280. v1.3.1: BMx280Error enum, getLastError, debug Stream, critical_section multi-core safety, CI/CD workflows, bilingual docs (en/pt-BR), code formatting and refactoring.",
       "category": "Sensors",
       "architectures": [
         "rp2040"
@@ -48965,9 +48969,9 @@
       "depends": [
         "WirePIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.3.0.zip",
-      "size": 50655,
-      "previous_version": "1.2.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BMx280PIO_RP2040-1.3.1.zip",
+      "size": 72485,
+      "previous_version": "1.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

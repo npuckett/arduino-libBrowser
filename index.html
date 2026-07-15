@@ -123,6 +123,17 @@
             </div>
         </section>
 
+        <section class="about-section">
+            <h2 class="section-header collapsible" id="mcpHeader">
+                For AI Agents
+                <span class="collapse-indicator">+</span>
+            </h2>
+            <div class="about-content collapsed" id="mcpContent">
+                <p>This catalog is also available as an <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP server</a>, letting AI agents (ZCode, Claude Desktop, Cursor, and others) search Arduino libraries programmatically. Agents call a single <code>search_libraries</code> tool with a query like &ldquo;oled display&rdquo; or &ldquo;stepper motor&rdquo; and get back ranked results with install snippets &mdash; no web scraping required.</p>
+                <p>Full setup instructions are on GitHub: <a href="https://github.com/npuckett/arduino-libBrowser/tree/main/mcp-server" target="_blank" rel="noopener">github.com/npuckett/arduino-libBrowser/tree/main/mcp-server</a></p>
+            </div>
+        </section>
+
         <section class="activity-section" id="activitySection" style="display: none;">
             <h2 class="section-header collapsible" id="activityHeader">
                 Activity
@@ -3619,6 +3630,22 @@
             } else {
                 // Collapse
                 aboutContent.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // MCP section collapse/expand functionality
+        document.getElementById('mcpHeader').addEventListener('click', () => {
+            const header = document.getElementById('mcpHeader');
+            const mcpContent = document.getElementById('mcpContent');
+
+            if (mcpContent.classList.contains('collapsed')) {
+                // Expand
+                mcpContent.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                mcpContent.classList.add('collapsed');
                 header.classList.remove('expanded');
             }
         });

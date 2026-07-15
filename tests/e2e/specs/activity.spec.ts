@@ -7,32 +7,25 @@ test.describe('Activity section', () => {
       () => document.getElementById('loading')?.style.display === 'none'
     );
     await page.waitForTimeout(800);
-    // The Activity section defaults to collapsed on the page. Most tests here
-    // exercise its content, so expand it up front. The 'header is
-    // collapsible' test re-navigates to assert the default-collapsed state.
-    await page.locator('#activityHeader').click();
+    // Activity now lives behind its own sidebar view. Switch to it so the
+    // panels are rendered and visible. The 'header is collapsible' test
+    // re-navigates to assert the default state.
+    await page.locator('.view-nav-item[data-view="activity"]').click();
     await page.waitForTimeout(400);
   });
 
-  test('is visible above Curated Discoveries (just below About) when stats.json has activity', async ({ page }) => {
+  test('is reachable from the sidebar Activity view and renders its panels', async ({ page }) => {
+    // The sidebar exposes an Activity nav item.
+    const navItem = page.locator('.view-nav-item[data-view="activity"]');
+    await expect(navItem).toHaveCount(1);
+
+    // Clicking it activates the Activity view (only one view is visible).
+    await navItem.click();
+    await expect(page.locator('#viewActivity')).toHaveClass(/is-active/);
+
     const section = page.locator('#activitySection');
     await expect(section).toBeVisible();
-
-    const about = page.locator('#aboutContent');
-    const curated = page.locator('#curatedDiscoveries');
-
-    const aboutBox = await about.boundingBox();
-    const sectionBox = await section.boundingBox();
-    const curatedBox = await curated.boundingBox();
-
-    expect(aboutBox).not.toBeNull();
-    expect(sectionBox).not.toBeNull();
-    expect(curatedBox).not.toBeNull();
-    if (aboutBox && sectionBox && curatedBox) {
-      // Activity now sits between About and Curated Discoveries.
-      expect(sectionBox.y).toBeGreaterThan(aboutBox.y);
-      expect(curatedBox.y).toBeGreaterThan(sectionBox.y);
-    }
+    await expect(page.locator('#activityPulsePanel')).toBeVisible();
   });
 
   test('renders all three panels with data', async ({ page }) => {
@@ -137,31 +130,33 @@ test.describe('Activity section', () => {
     });
   });
 
-  test('header is collapsible and defaults to collapsed', async ({ page }) => {
-    // Re-navigate to a fresh page so the beforeEach expansion doesn't mask
-    // the real default state, then verify the section ships collapsed.
+  test('header is collapsible and toggles on click', async ({ page }) => {
+    // Re-navigate to a fresh page, then switch to the Activity view to reach
+    // the header. The content ships expanded inside its own view.
     await page.goto('/index.html');
     await page.waitForFunction(
       () => document.getElementById('loading')?.style.display === 'none'
     );
     await page.waitForTimeout(500);
+    await page.locator('.view-nav-item[data-view="activity"]').click();
+    await page.waitForTimeout(400);
 
     const header = page.locator('#activityHeader');
     const content = page.locator('#activityContent');
     await expect(header).toHaveClass(/collapsible/);
-    // Default state: collapsed (no `expanded` on the header, `collapsed` on content).
-    await expect(header).not.toHaveClass(/expanded/);
-    await expect(content).toHaveClass(/collapsed/);
+    // Default state inside the Activity view: expanded.
+    await expect(header).toHaveClass(/expanded/);
+    await expect(content).not.toHaveClass(/collapsed/);
 
-    // Expand.
+    // Collapse.
+    await header.click();
+    await expect(content).toHaveClass(/collapsed/);
+    await expect(header).not.toHaveClass(/expanded/);
+
+    // Expand again.
     await header.click();
     await expect(content).not.toHaveClass(/collapsed/);
     await expect(header).toHaveClass(/expanded/);
-
-    // Collapse again.
-    await header.click();
-    await expect(content).toHaveClass(/collapsed/);
-    await expect(header).not.toHaveClass(/expanded/);
   });
 
   test('treemap cells (named categories) are clickable filter buttons', async ({ page }) => {
@@ -379,6 +374,9 @@ test.describe('Activity section', () => {
     await chip.click();
     const banner = page.locator('.activity-filter-banner');
     await expect(banner).toBeVisible();
+    // Applying the filter switches to the Discover view; return to Activity
+    // so the chip (its toggle) is reachable for the second click.
+    await page.locator('.view-nav-item[data-view="activity"]').click();
     await chip.click();
     await expect(banner).toHaveCount(0);
   });
@@ -389,6 +387,9 @@ test.describe('Activity section', () => {
     if (hiddenProp) return;
     const before = (await chip.textContent()) || '';
     await chip.click();
+    // Applying the filter switches to Discover; return to Activity to read
+    // the now-active chip text and toggle it off.
+    await page.locator('.view-nav-item[data-view="activity"]').click();
     const after = (await chip.textContent()) || '';
     expect(after).toContain('×');
     expect(after).not.toBe(before);

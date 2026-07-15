@@ -2,6 +2,12 @@
     --content-margin-left: 20px;
     --card-w: 380px;
     --card-gap: 18px;
+    /* Sidebar width on desktop (>= 900px). Below that it slides off-canvas. */
+    --sidebar-w: 250px;
+    /* Arduino teal accent — used for active sort, focus rings, hero accents,
+       pick dots, sparkline ticks (via activity.css --activity-new-color). */
+    --accent: #00979D;
+    --accent-dark: #006b6f;
 }
 
 * {
@@ -15,6 +21,8 @@ body {
     background-color: white;
     color: black;
     line-height: 1.4;
+    /* Sidebar + main shell. Below 900px the sidebar slides off-canvas and
+       the layout collapses to a single full-width column. */
 }
 
 /* Link styles */
@@ -31,38 +39,441 @@ a:hover {
     color: #333 !important;
 }
 
-.container {
-    padding: 10px var(--content-margin-left);
+/* =========================================================================
+   LAYOUT SHELL
+   Two-column grid: a persistent card-catalog sidebar and the main content
+   pane that switches between views. The catalog-card motif (monospace,
+   black/white/grey, teal accent, hover-inversion) is carried into every
+   sidebar control so the navigation reads as part of the same physical
+   card catalog.
+   ========================================================================= */
+@media (min-width: 900px) {
+    body {
+        display: grid;
+        grid-template-columns: var(--sidebar-w) 1fr;
+        grid-template-areas: "sidebar main";
+        min-height: 100vh;
+    }
 }
 
-.header {
-    padding-bottom: 10px;
-    margin-bottom: 0px;
+@media (max-width: 899px) {
+    body {
+        display: block;
+    }
 }
 
-.title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
+/* =========================================================================
+   SIDEBAR (card-catalog card catalog)
+   ========================================================================= */
+.sidebar {
+    font-family: 'Courier New', monospace;
+    background-color: white;
+    border-right: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 15px;
+    flex-direction: column;
+    gap: 0;
+    /* On desktop the sidebar is a sticky, independently-scrolling column. */
+    position: sticky;
+    top: 0;
+    align-self: start;
+    height: 100vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    grid-area: sidebar;
+    z-index: 200;
 }
 
-.subtitle {
-    font-size: 14px;
+.sidebar-brand {
+    padding: 18px 18px 14px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.sidebar-brand-title {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 1.15;
+}
+
+.sidebar-brand-sub {
+    font-size: 10px;
     color: #666;
     font-style: italic;
-    font-weight: normal;
-    letter-spacing: normal;
-    flex-basis: 100%;
+    letter-spacing: 0.2px;
 }
 
-@media (min-width: 1024px) {
-    .subtitle {
-        flex-basis: auto;
+.view-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+.view-nav-item {
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border: none;
+    border-left: 3px solid transparent;
+    padding: 11px 18px 11px 15px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.view-nav-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.view-nav-item.active {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+
+.sidebar-group {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-group:last-of-type {
+    border-bottom: none;
+}
+
+.sidebar-label {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #999;
+    padding: 4px 18px 8px;
+}
+
+.sidebar-foot {
+    margin-top: auto;
+    padding: 12px 18px 16px;
+    font-size: 9px;
+    color: #999;
+    letter-spacing: 0.3px;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Sort list — the .sort-buttons block restyled as a vertical stack. The
+   delegated click handler in setupSortButtons() is unchanged; it still
+   listens on .sort-buttons. */
+.sidebar-group .sort-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 12px;
+}
+
+.sort-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sort-btn {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    border: 1.5px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    line-height: 1.2;
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+/* Inside the sidebar, sort buttons become full-width rows (radio-like). */
+.sidebar-group .sort-btn {
+    width: 100%;
+    border: none;
+    border-left: 3px solid transparent;
+    justify-content: flex-start;
+    padding: 9px 12px;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.sidebar-group .sort-btn:hover {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+
+.sidebar-group .sort-btn.active {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+
+/* Keep the standalone .sort-btn palette for any non-sidebar sort usage. */
+.sort-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.sort-btn.active {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+.sort-btn.active:hover {
+    background-color: var(--accent-dark);
+    color: white;
+}
+
+/* =========================================================================
+   SUBJECT (card-catalog drawer rail) — restyled as a vertical list.
+   The folder-tab clip-path + top spine becomes a flat row with a colored
+   LEFT spine (the Dewey-decimal hue). renderDrawerRail() / selectDrawer /
+   syncDrawerActive() JS is unchanged.
+   ========================================================================= */
+.sidebar-group .drawer-rail {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0 12px;
+}
+
+.drawer-rail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 4px;
+    margin: 0 0 0 0;
+    padding: 14px 0 0;
+}
+
+/* Vertical-list drawer tab (sidebar context). */
+.sidebar-group .drawer-tab {
+    --spine: #000;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-left: 3px solid var(--spine, #000);
+    padding: 8px 10px 8px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    clip-path: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-group .drawer-tab .drawer-tab-spine {
+    display: none; /* the colored left border IS the spine now */
+}
+
+.sidebar-group .drawer-tab-label {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sidebar-group .drawer-tab-count {
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    letter-spacing: 0.25px;
+    flex-shrink: 0;
+}
+
+.sidebar-group .drawer-tab:hover {
+    background-color: black;
+    color: white;
+}
+.sidebar-group .drawer-tab:hover .drawer-tab-count {
+    color: #999;
+}
+.sidebar-group .drawer-tab.active {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+.sidebar-group .drawer-tab.active .drawer-tab-count {
+    color: #999;
+}
+
+/* The standalone (non-sidebar) folder-tab drawer tab styling is retained
+   for any out-of-sidebar usage and for the comments/history. */
+.drawer-tab {
+    --spine: #000;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 14px 14px 10px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 92px;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% calc(100% - 8px),
+        calc(100% - 8px) 100%,
+        8px 100%,
+        0 calc(100% - 8px)
+    );
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.drawer-tab-spine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--spine, #000);
+    pointer-events: none;
+}
+
+.drawer-tab-label {
+    margin-top: 2px;
+}
+
+.drawer-tab-count {
+    font-size: 10px;
+    font-weight: normal;
+    color: #666;
+    letter-spacing: 0.25px;
+}
+
+.drawer-tab:hover {
+    background-color: black;
+    color: white;
+}
+.drawer-tab:hover .drawer-tab-count {
+    color: #999;
+}
+
+.drawer-tab.active {
+    background-color: black;
+    color: white;
+}
+.drawer-tab.active .drawer-tab-count {
+    color: #999;
+}
+.drawer-tab.active .drawer-tab-spine {
+    filter: brightness(1.6) saturate(1.2);
+}
+
+.drawer-tab-all .drawer-tab-spine,
+.drawer-tab-more .drawer-tab-spine {
+    background: #000;
+}
+.drawer-tab-all.active .drawer-tab-spine,
+.drawer-tab-more.active .drawer-tab-spine {
+    background: #fff;
+}
+
+/* Platform filter list inside the sidebar */
+.sidebar-group .platform-filters {
+    display: none;
+}
+
+.sidebar-group #platformButtons {
+    padding: 0 12px;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 0;
+    max-height: none;
+    transition: none;
+}
+
+.sidebar-group #platformButtons.collapsed {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.sidebar-group #platformButtons .filter-btn {
+    width: 100%;
+    border: none;
+    border-left: 3px solid transparent;
+    justify-content: flex-start;
+    padding: 7px 10px 7px 12px;
+    font-size: 11px;
+    background-color: transparent;
+    max-width: none;
+}
+
+.sidebar-group #platformButtons .filter-btn:hover {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+
+.sidebar-group #platformButtons .filter-btn.active {
+    background-color: black;
+    color: white;
+    border-left-color: var(--accent);
+}
+
+/* The sidebar platform header is a collapsible label row. */
+.sidebar-group .sidebar-label#platformHeader {
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 18px 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* =========================================================================
+   MAIN CONTENT
+   ========================================================================= */
+.main {
+    grid-area: main;
+    padding: 0 var(--content-margin-left);
+    min-width: 0;
+}
+
+@media (max-width: 899px) {
+    .main {
+        padding: 56px var(--content-margin-left) 0;
     }
 }
 
@@ -70,8 +481,8 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 100;
-    margin-bottom: 24px;
-    padding: 16px 0 18px;
+    margin-bottom: 18px;
+    padding: 14px 0 16px;
     background-color: white;
 }
 
@@ -114,14 +525,7 @@ a:hover {
     color: #333;
 }
 
-.browse-section {
-    margin-bottom: 24px;
-}
-
 .search-box {
-    /* Full-width so the placeholder ("Search the collection by title,
-       description, author, or subject...") is fully visible instead of
-       truncating at the input's narrow intrinsic width. */
     width: 100%;
     margin-bottom: 0;
     padding: 14px 16px;
@@ -137,12 +541,37 @@ a:hover {
     color: white;
 }
 
-/* The collapsible "Browse By Subject" row is superseded by the card-catalog
-   drawer rail (#drawerRail). The container is hidden, but the .filter-btn
-   elements it owns are kept in the DOM (display:none here) because the
-   activity treemap, author drill-in, clear-all, and the e2e suite all query
-   .filter-btn[data-category] to mirror category state. They stay functional
-   while invisible. */
+/* clear button — needs a home; sit it at the right of the search box. */
+.search-container .clear-search-btn {
+    position: absolute;
+    top: 22px;
+    right: 4px;
+}
+
+.clear-search-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease;
+    line-height: 1;
+}
+
+.clear-search-btn:hover {
+    color: #000;
+}
+
+/* The category filter row is superseded by the sidebar subject list.
+   Kept in the DOM (hidden) for state sync / treemap / e2e. */
 .category-filters {
     display: none;
 }
@@ -198,6 +627,97 @@ a:hover {
     color: white;
 }
 
+/* =========================================================================
+   VIEWS — one visible at a time. switchView() toggles .is-active.
+   ========================================================================= */
+.view {
+    display: none;
+    animation: viewIn 0.18s ease;
+}
+
+.view.is-active {
+    display: block;
+}
+
+@keyframes viewIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* =========================================================================
+   SERENDIPITY HERO — the first-class discovery action. Two large inviting
+   buttons at the top of the Discover view. They reuse the existing sort
+   pipeline (Surprise Me = surprise-me sort, Shuffle = shelf-order sort).
+   ========================================================================= */
+.serendipity-hero {
+    display: flex;
+    gap: 14px;
+    margin: 0 0 24px;
+    flex-wrap: wrap;
+}
+
+.hero-btn {
+    flex: 1 1 240px;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 18px 22px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    line-height: 1.2;
+}
+
+.hero-btn-icon {
+    font-size: 22px;
+    line-height: 1;
+}
+
+.hero-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+}
+
+.hero-btn:active {
+    transform: translateY(1px);
+}
+
+/* The Surprise button gets the teal accent as its lead action. */
+#heroSurprise {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+#heroSurprise:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .serendipity-hero {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-btn {
+        flex-basis: auto;
+        font-size: 14px;
+        padding: 15px 18px;
+    }
+}
+
+/* =========================================================================
+   SHARED SECTION/HEADER STYLES
+   ========================================================================= */
 .section-header {
     font-size: 13px;
     font-weight: bold;
@@ -210,28 +730,6 @@ a:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-}
-
-.clear-search-btn {
-    background: none;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #666;
-    padding: 0;
-    margin: 0;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.2s ease;
-    line-height: 1;
-}
-
-.clear-search-btn:hover {
-    color: #000;
 }
 
 .section-header.collapsible {
@@ -266,57 +764,49 @@ a:hover {
     transform: rotate(45deg);
 }
 
-.sort-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+/* View title (For AI Agents / About headers inside their views). */
+.view-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 16px;
 }
 
-.sort-btn {
-    font-family: 'Courier New', monospace;
-    font-size: 11px;
-    text-transform: uppercase;
-    padding: 8px 14px;
-    border: 1.5px solid black;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    line-height: 1.2;
-    min-height: 32px;
-    display: inline-flex;
-    align-items: center;
-    white-space: nowrap;
+/* About content (also used for the MCP view). */
+.about-content {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin-top: 4px;
+    padding: 0;
+    max-height: 2000px;
 }
 
-.sort-btn:hover {
-    background-color: black;
-    color: white;
+.about-content.collapsed {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0;
 }
 
-.sort-btn.active {
-    background-color: #00979D;
-    border-color: #00979D;
-    color: white;
+.about-content p {
+    margin: 0 0 14px;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #333;
 }
 
-.sort-btn.active:hover {
-    background-color: #006b6f;
-    color: white;
+.about-content a {
+    color: #0066cc;
+    text-decoration: underline;
 }
 
+/* =========================================================================
+   LIBRARY GRID + CARDS (catalog-card aesthetic — unchanged motif)
+   ========================================================================= */
 .library-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
     gap: var(--card-gap);
     grid-auto-rows: 280px;
     justify-content: start;
-    /* Card width honors the catalog-card aesthetic: roomy enough for a real
-       type scale. Heights are matched by grid-auto-rows. minmax with 1fr
-       lets the card row fill the container width so the top section's right
-       edge stays aligned with the cards' right edge. */
 }
 
 /* Search grouping styles */
@@ -404,7 +894,7 @@ a:hover {
    remains small. */
 .library-card.pick-editor .pick-dot {
     display: inline-block;
-    background: #00979D;
+    background: var(--accent);
 }
 .library-card.pick-themed .pick-dot {
     display: inline-block;
@@ -454,7 +944,7 @@ a:hover {
 }
 
 .library-card .card-spark .tick-on {
-    fill: var(--activity-new-color, #00979D);
+    fill: var(--activity-new-color, var(--accent));
 }
 
 .library-card .card-spark .tick-off {
@@ -610,9 +1100,9 @@ a:hover {
 }
 
 .pick-badge.editor {
-    background-color: #00979D;
+    background-color: var(--accent);
     color: white;
-    border-color: #00979D;
+    border-color: var(--accent);
 }
 
 .pick-badge.themed {
@@ -622,9 +1112,9 @@ a:hover {
 }
 
 .pick-badge.new {
-    background-color: #00979D;
+    background-color: var(--accent);
     color: white;
-    border-color: #00979D;
+    border-color: var(--accent);
 }
 
 .pick-badge.updated {
@@ -679,9 +1169,11 @@ a:hover {
     font-style: italic;
 }
 
-/* Responsive adjustments — cards shrink on smaller viewports but the
-   catalog-card structure (call-number, rule, title, by-statement,
-   description, chips, meta) stays intact. */
+/* =========================================================================
+   RESPONSIVE — card sizing breakpoints (kept from the original design).
+   The sidebar layout breakpoint is 900px (handled above); these 1200/768/480
+   rules only shrink the card grid inside .main.
+   ========================================================================= */
 @media (max-width: 1200px) {
     :root {
         --card-w: 340px;
@@ -744,14 +1236,6 @@ a:hover {
         padding: 3px 6px;
     }
 
-    .container {
-        padding: 15px var(--content-margin-left);
-    }
-
-    .title {
-        font-size: 24px;
-    }
-
     .filter-buttons {
         gap: 5px;
     }
@@ -761,17 +1245,15 @@ a:hover {
         font-size: 10px;
     }
 
-    .sort-buttons {
-        gap: 6px;
-    }
-
     .sort-btn {
         padding: 8px 12px;
         font-size: 10px;
     }
 }
 
-/* Library Detail Modal Styles */
+/* =========================================================================
+   LIBRARY DETAIL MODAL
+   ========================================================================= */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -979,16 +1461,16 @@ a:hover {
         width: 95%;
         max-height: 95vh;
     }
-    
+
     .modal-header {
         padding: 15px;
     }
-    
+
     .modal-title {
         font-size: 24px;
         gap: 8px;
     }
-    
+
     .modal-close {
         top: 10px;
         right: 20px;
@@ -996,20 +1478,20 @@ a:hover {
         height: 28px;
         font-size: 16px;
     }
-    
+
     .copy-name-btn {
         font-size: 11px;
         padding: 3px 5px;
     }
-    
+
     .modal-body {
         padding: 15px;
     }
-    
+
     .neighbors-grid {
         gap: 8px;
     }
-    
+
     .neighbor-card {
         min-width: 100px;
         padding: 6px;
@@ -1054,12 +1536,12 @@ a:hover {
     .library-card .meta-row {
         font-size: 9px;
     }
-    
+
     .modal-title {
         font-size: 18px;
         gap: 6px;
     }
-    
+
     .modal-close {
         top: 8px;
         right: 16px;
@@ -1067,75 +1549,26 @@ a:hover {
         height: 26px;
         font-size: 14px;
     }
-    
+
     .copy-name-btn {
         font-size: 10px;
         padding: 2px 4px;
     }
-    
+
     .modal-header {
         padding: 12px;
     }
-    
+
     .modal-body {
         padding: 12px;
     }
 }
 
-/* About section */
-.about-section {
-    margin-bottom: 10px;
-}
-
-.about-section .section-header {
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
-.about-content {
-    transition: all 0.3s ease;
-    overflow: hidden;
-    margin-top: 15px;
-    padding: 0;
-}
-
-.about-content.collapsed {
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    opacity: 0;
-}
-
-.about-content p {
-    margin: 0;
-    line-height: 1.6;
-    font-size: 14px;
-    color: #333;
-}
-
-.about-content a {
-    color: #0066cc;
-    text-decoration: underline;
-}
-
-/* Library of the Day styles */
-.library-of-the-day-section {
-    margin-bottom: 30px;
-}
-
-.library-of-the-day-section #libraryOfTheDay {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.library-of-the-day-section .library-card {
-    width: 380px;
-    flex-shrink: 0;
-}
-
-/* Curated Discoveries */
+/* =========================================================================
+   CURATED DISCOVERIES
+   ========================================================================= */
 .curated-discoveries {
-    margin: 40px 0;
+    margin: 24px 0 32px;
 }
 
 .curated-row {
@@ -1176,158 +1609,14 @@ a:hover {
     letter-spacing: 0;
 }
 
-/* Pick attribution badges inside curated cards. The badge lives in the
-   top-right corner only — no more left-edge color since the bands are
-   gone. The base .pick-badge rules above cover .new and .updated; this
-   section only adds the .editor and .themed badge styles for curated
-   cards that previously used the left-edge color cue. */
-
-/* Accessibility - Screen reader only content */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
-
-/* SEO and semantic improvements */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-}
-
-/* Improve focus indicators for accessibility */
-button:focus,
-input:focus,
-a:focus {
-    outline: 2px solid #00979D;
-    outline-offset: 2px;
-}
-
 /* =========================================================================
-   CARD-CATALOG DRAWER RAIL
-   The subject navigation lives as a row of file-folder tabs above the grid.
-   Each tab is a flat rectangle with a 3px colored "spine" stripe across the
-   top (a stable per-category hue — a restrained Dewey-decimal nod) and a
-   notched bottom edge so it reads as a manila card-catalog tab. The active
-   drawer inverts to black/white, reusing the same inversion language as the
-   sort buttons and card hover, so the motif stays consistent.
+   DRAWER HEADER + FOOTER — the active-subject label above the grid and the
+   "showing X of Y" line below it. Now children of the Discover view.
    ========================================================================= */
-.drawer-rail {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    gap: 4px;
-    margin: 0 0 0 0;
-    padding: 14px 0 0;
-    /* Sit just above the grid, aligned to its left edge. */
-}
-
-.drawer-tab {
-    /* The folder tab. clip-path carves the notched bottom corners that make
-       it read as a physical card-catalog tab rather than a flat button. */
-    --spine: #000;
-    position: relative;
-    font-family: 'Courier New', monospace;
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-    border-bottom: none;
-    padding: 14px 14px 10px;
-    cursor: pointer;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-    min-width: 92px;
-    /* Notch the bottom-left and bottom-right corners so the tab appears to
-       sit on top of the drawer body (the grid). 8px notch. */
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        100% calc(100% - 8px),
-        calc(100% - 8px) 100%,
-        8px 100%,
-        0 calc(100% - 8px)
-    );
-    transition: background-color 0.15s ease, color 0.15s ease;
-}
-
-/* The colored spine stripe across the top of each tab. Set via the --spine
-   custom property injected from hashSpineHue. */
-.drawer-tab-spine {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--spine, #000);
-    pointer-events: none;
-}
-
-.drawer-tab-label {
-    /* Label sits below the spine. */
-    margin-top: 2px;
-}
-
-.drawer-tab-count {
-    font-size: 10px;
-    font-weight: normal;
-    color: #666;
-    letter-spacing: 0.25px;
-}
-
-.drawer-tab:hover {
-    background-color: black;
-    color: white;
-}
-.drawer-tab:hover .drawer-tab-count {
-    color: #999;
-}
-
-/* Active drawer inverts, matching the active sort button + card hover. */
-.drawer-tab.active {
-    background-color: black;
-    color: white;
-}
-.drawer-tab.active .drawer-tab-count {
-    color: #999;
-}
-.drawer-tab.active .drawer-tab-spine {
-    /* Brighten the spine on the active tab so it still reads against black. */
-    filter: brightness(1.6) saturate(1.2);
-}
-
-/* The "All / Recent" and "More" tabs get a plain black spine. */
-.drawer-tab-all .drawer-tab-spine,
-.drawer-tab-more .drawer-tab-spine {
-    background: #000;
-}
-.drawer-tab-all.active .drawer-tab-spine,
-.drawer-tab-more.active .drawer-tab-spine {
-    background: #fff;
-}
-
-/* --------------------------------------------------------------------------
-   DRAWER HEADER + FOOTER (rendered as the first/last child of the grid)
-   The header is a protruding tab + count line that labels the active drawer;
-   the footer is a quiet "showing X of Y" line. Both span the full grid width
-   via grid-column: 1 / -1.
-   -------------------------------------------------------------------------- */
 .drawer-header {
     display: flex;
     align-items: baseline;
     gap: 14px;
-    /* The protruding tab over the grid. Solid black bar carries the label. */
     border-top: 3px solid black;
     border-bottom: 1px solid black;
     padding: 8px 0 8px;
@@ -1364,36 +1653,7 @@ a:focus {
     margin-top: 4px;
 }
 
-/* --------------------------------------------------------------------------
-   RESPONSIVE — mirror the existing breakpoints (1200 / 768 / 480).
-   -------------------------------------------------------------------------- */
-@media (max-width: 1200px) {
-    .drawer-tab {
-        min-width: 84px;
-        font-size: 10px;
-        padding: 12px 12px 9px;
-    }
-    .drawer-header-tab {
-        font-size: 16px;
-    }
-}
-
 @media (max-width: 768px) {
-    .drawer-rail {
-        /* On narrow screens, let the rail scroll horizontally instead of
-           wrapping into a tall stack. Fade the right edge as a scroll cue. */
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        gap: 3px;
-        padding: 12px 0 4px;
-        border-bottom: 1px solid #000;
-    }
-    .drawer-tab {
-        flex: 0 0 auto;
-        min-width: 78px;
-        padding: 11px 10px 8px;
-    }
     .drawer-header-tab {
         font-size: 14px;
         letter-spacing: 1px;
@@ -1401,19 +1661,12 @@ a:focus {
     .drawer-header-meta {
         font-size: 10px;
     }
+    .drawer-footer {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 480px) {
-    .drawer-tab {
-        min-width: 70px;
-        padding: 10px 8px 7px;
-    }
-    .drawer-tab-label {
-        font-size: 9px;
-    }
-    .drawer-tab-count {
-        font-size: 9px;
-    }
     .drawer-header {
         gap: 8px;
         padding: 6px 0;
@@ -1422,8 +1675,106 @@ a:focus {
         font-size: 12px;
         letter-spacing: 0.75px;
     }
-    .drawer-footer {
-        font-size: 9px;
+}
+
+/* =========================================================================
+   MOBILE SIDEBAR DRAWER (below 900px)
+   The sidebar slides in off-canvas. A ☰ toggle and a backdrop control it.
+   ========================================================================= */
+.sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 250;
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border: 2px solid black;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
+}
+
+.sidebar-toggle:hover {
+    background-color: black;
+    color: white;
+}
+
+.sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 180;
+    /* Hidden by default via the [hidden] HTML attribute, which the JS
+       toggles when the drawer opens/closes. */
+}
+
+/* On desktop the sidebar is persistent, so the backdrop is never relevant. */
+@media (min-width: 900px) {
+    .sidebar-backdrop {
+        display: none !important;
     }
 }
 
+@media (max-width: 899px) {
+    .sidebar-toggle {
+        display: flex;
+    }
+
+    /* When the toggle is pressed and the sidebar is open, push the toggle
+       so it stays visible above the backdrop. */
+    .sidebar-toggle[aria-expanded="true"] {
+        color: white;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: min(82vw, 300px);
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: transform 0.22s ease;
+        border-right: 1px solid black;
+        /* No longer a grid area; float above everything. */
+        grid-area: auto;
+        align-self: auto;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+}
+
+/* Accessibility - Screen reader only content */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* SEO and semantic improvements */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Improve focus indicators for accessibility */
+button:focus,
+input:focus,
+a:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}

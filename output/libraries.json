@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-15T21:19:08.186Z",
-  "total_libraries": 9676,
-  "index_etag": "W/\"26dc35b79bceec01c7e83f5274bc3e1e\"",
-  "index_last_modified": "Wed, 15 Jul 2026 20:59:11 GMT",
+  "enhanced_at": "2026-07-15T22:18:21.330Z",
+  "total_libraries": 9677,
+  "index_etag": "W/\"b4c3957a2290399dddc6bdfa55ff6f44\"",
+  "index_last_modified": "Wed, 15 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.60",
+      "version": "1.2.61",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22726,11 +22726,15 @@
         {
           "version": "1.2.60",
           "seen_at": "2026-07-15T20:20:27.721Z"
+        },
+        {
+          "version": "1.2.61",
+          "seen_at": "2026-07-15T22:18:19.950Z"
         }
       ],
-      "release_count": 29,
+      "release_count": 30,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "e8de38577b45",
+      "last_seen_sha": "7abea405f139",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22751,9 +22755,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.60.zip",
-      "size": 42350367,
-      "previous_version": "1.2.59",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.61.zip",
+      "size": 42350494,
+      "previous_version": "1.2.60",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70465,7 +70469,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.14.0",
+      "version": "6.17.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70762,11 +70766,15 @@
         {
           "version": "6.14.0",
           "seen_at": "2026-07-15T06:40:57.974Z"
+        },
+        {
+          "version": "6.17.0",
+          "seen_at": "2026-07-15T22:18:19.950Z"
         }
       ],
-      "release_count": 74,
+      "release_count": 75,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "7ccdd54f4dc1",
+      "last_seen_sha": "3141c1bba40b",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70775,9 +70783,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.14.0.zip",
-      "size": 17840787,
-      "previous_version": "6.13.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.17.0.zip",
+      "size": 17882542,
+      "previous_version": "6.14.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -178103,16 +178111,20 @@
       "repository_name": "mjbots/moteus-arduino",
       "repository_url": "https://github.com/mjbots/moteus-arduino",
       "name": "Moteus",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-05-19T08:34:33Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-15T22:18:19.950Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-19T08:34:33Z",
-      "last_seen_sha": "7155f75bbc9c",
+      "last_seen_sha": "055509aea0a5",
       "author": "info@mjbots.com",
       "maintainer": "info@mjbots.com",
       "sentence": "Driver for mjbots moteus brushless servo controller",
@@ -178121,11 +178133,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mjbots/Moteus-1.1.2.zip",
+      "size": 58337,
+      "previous_version": "1.1.1",
       "github_stars": 6,
       "github_forks": 8,
       "github_language": "C++",
-      "github_updated_at": "2026-05-18T14:06:40Z",
-      "download_url": "https://github.com/mjbots/moteus-arduino"
+      "github_updated_at": "2026-05-18T14:06:40Z"
     },
     {
       "repository_name": "Infineon/arduino-motix-btn99x0",
@@ -298080,6 +298094,35 @@
       "github_updated_at": "2026-06-29T22:42:58Z"
     },
     {
+      "repository_name": "greghulette/WcbCmd",
+      "repository_url": "https://github.com/greghulette/WcbCmd",
+      "name": "WcbCmd",
+      "version": "0.4.0",
+      "version_history": [
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-15T22:18:19.950Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-15T22:18:19.950Z",
+      "last_seen_sha": "5bfd07eea160",
+      "author": "Greg Hulette",
+      "maintainer": "Greg Hulette",
+      "sentence": "Shared WCB command translators (device command -> native wire bytes).",
+      "paragraph": "One command vocabulary for the whole WCB (Wireless Communication Board) ecosystem. Turns the WCB \";\"-command verbs (;M Maestro, ;A MP3, ;L WLED, ;H HCR) into each device's native serial wire protocol, identically on any board. Compiled by BOTH the WCB firmware and a WCB_Client host (e.g. NaviCore) so the SAME command produces the SAME device bytes whether it is reached across the mesh over ESP-NOW (a WCB parses it) or out a host-local serial port (the host parses it). The library is pure translation (verb/action -> native bytes on an injected Stream); all routing, config, NVS and ESP-NOW relay stay in the firmware. Ships the Maestro (;M), MP3 (;A), WLED (;L) and HCR (;H) modules.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WcbCmd-0.4.0.zip",
+      "size": 29466,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T19:06:16Z"
+    },
+    {
       "repository_name": "Hyperion-Robotics/wCK_Series",
       "repository_url": "https://github.com/Hyperion-Robotics/wCK_Series",
       "name": "wCK_Series",
@@ -307627,7 +307670,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9473,
+    "with_github_metadata": 9474,
     "total_dependencies": 5164
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-16T01:31:43.528Z",
+  "enhanced_at": "2026-07-16T02:59:38.542Z",
   "total_libraries": 9677,
-  "index_etag": "W/\"b64fe16eccb664630bbf06492e385c33\"",
-  "index_last_modified": "Thu, 16 Jul 2026 01:29:12 GMT",
+  "index_etag": "W/\"0599386e857c95f063435d4f458a48ba\"",
+  "index_last_modified": "Thu, 16 Jul 2026 02:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.61",
+      "version": "1.2.63",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22730,11 +22730,15 @@
         {
           "version": "1.2.61",
           "seen_at": "2026-07-15T22:18:19.950Z"
+        },
+        {
+          "version": "1.2.63",
+          "seen_at": "2026-07-16T02:59:38.417Z"
         }
       ],
-      "release_count": 30,
+      "release_count": 31,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "7abea405f139",
+      "last_seen_sha": "88c07a3e3acf",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22755,9 +22759,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.61.zip",
-      "size": 42350494,
-      "previous_version": "1.2.60",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.63.zip",
+      "size": 42483810,
+      "previous_version": "1.2.61",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70469,7 +70473,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.18.0",
+      "version": "6.21.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70774,11 +70778,15 @@
         {
           "version": "6.18.0",
           "seen_at": "2026-07-16T00:19:25.805Z"
+        },
+        {
+          "version": "6.21.0",
+          "seen_at": "2026-07-16T02:59:38.417Z"
         }
       ],
-      "release_count": 76,
+      "release_count": 77,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "602aef43fbf3",
+      "last_seen_sha": "177c0b0d0764",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70787,9 +70795,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.18.0.zip",
-      "size": 17896627,
-      "previous_version": "6.17.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.21.0.zip",
+      "size": 17921113,
+      "previous_version": "6.18.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -96515,7 +96523,7 @@
       "repository_name": "max22-/ESP32-BLE-MIDI",
       "repository_url": "https://github.com/max22-/ESP32-BLE-MIDI",
       "name": "ESP32-BLE-MIDI",
-      "version": "0.3.2",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.2",
@@ -96524,11 +96532,15 @@
         {
           "version": "0.3.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-16T02:59:38.417Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-13T08:25:50Z",
-      "last_seen_sha": "0124e89fec35",
+      "last_seen_sha": "2575df666999",
       "author": "Maxime ANDRÉ <maxime.andre1986@gmail.com>",
       "maintainer": "Maxime ANDRÉ <maxime.andre1986@gmail.com>",
       "sentence": "A library to use MIDI over Bluetooth Low Energy on ESP32 boards.",
@@ -96540,8 +96552,8 @@
       "depends": [
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/max22-/ESP32_BLE_MIDI-0.3.2.zip",
-      "size": 23580,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/max22-/ESP32_BLE_MIDI-0.4.0.zip",
+      "size": 25067,
       "previous_version": "0.3.2",
       "github_stars": 348,
       "github_forks": 39,
@@ -231220,16 +231232,20 @@
       "repository_name": "scalpelspace/scalpelspace_bus",
       "repository_url": "https://github.com/scalpelspace/scalpelspace_bus",
       "name": "ScalpelSpace Bus",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-07-14T22:18:23.703Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-16T02:59:38.417Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-14T22:18:23.703Z",
-      "last_seen_sha": "9362cb7dae81",
+      "last_seen_sha": "b34be1ad18e0",
       "author": "ScalpelSpace",
       "maintainer": "ScalpelSpace <info@scalpelspace.com>",
       "sentence": "Unified communication Arduino library for ScalpelSpace devices.",
@@ -231241,8 +231257,9 @@
       "depends": [
         "ACAN2517"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/scalpelspace/ScalpelSpace_Bus-0.1.0.zip",
-      "size": 72002,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/scalpelspace/ScalpelSpace_Bus-0.1.1.zip",
+      "size": 72217,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

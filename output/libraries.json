@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-16T02:59:38.542Z",
-  "total_libraries": 9677,
-  "index_etag": "W/\"0599386e857c95f063435d4f458a48ba\"",
-  "index_last_modified": "Thu, 16 Jul 2026 02:59:11 GMT",
+  "enhanced_at": "2026-07-16T04:06:33.998Z",
+  "total_libraries": 9678,
+  "index_etag": "W/\"de2fe6c6ee4b6e74b8152c0a0c88c252\"",
+  "index_last_modified": "Thu, 16 Jul 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70473,7 +70473,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.21.0",
+      "version": "6.24.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70782,11 +70782,15 @@
         {
           "version": "6.21.0",
           "seen_at": "2026-07-16T02:59:38.417Z"
+        },
+        {
+          "version": "6.24.0",
+          "seen_at": "2026-07-16T04:06:32.551Z"
         }
       ],
-      "release_count": 77,
+      "release_count": 78,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "177c0b0d0764",
+      "last_seen_sha": "b6988e02d096",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70795,9 +70799,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.21.0.zip",
-      "size": 17921113,
-      "previous_version": "6.18.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.24.0.zip",
+      "size": 17963630,
+      "previous_version": "6.21.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -102819,7 +102823,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "version_history": [
         {
           "version": "2.0.1",
@@ -102848,11 +102852,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-07-15T06:40:57.974Z"
+        },
+        {
+          "version": "2.3.1",
+          "seen_at": "2026-07-16T04:06:32.551Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "f2c3917c5782",
+      "last_seen_sha": "798fc954af20",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "This is a library for using USB Host with ESP32.",
@@ -102861,9 +102869,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.3.0.zip",
-      "size": 638893,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.3.1.zip",
+      "size": 659585,
+      "previous_version": "2.3.0",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -231031,6 +231039,36 @@
       "download_url": "https://github.com/sbarabe/SBK_BarDrive"
     },
     {
+      "repository_name": "sbarabe/SBK_Button",
+      "repository_url": "https://github.com/sbarabe/SBK_Button",
+      "name": "SBK_Button",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-16T04:06:32.551Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-16T04:06:32.551Z",
+      "last_seen_sha": "e6d64a76da34",
+      "author": "Samuel Barabe",
+      "maintainer": "Samuel Barabe",
+      "sentence": "Lightweight push-button library with debouncing, events, long-press detection, and timing.",
+      "paragraph": "Non-blocking button input library for Arduino-compatible platforms. Supports internal pull-up, external pull-up, and external pull-down wiring, configurable debouncing, press and release events, long-press detection, and pressed/released duration tracking.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_Button-1.0.0.zip",
+      "size": 17912,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-15T21:12:32Z"
+    },
+    {
       "repository_name": "sbarabe/SBK_HT16K33",
       "repository_url": "https://github.com/sbarabe/SBK_HT16K33",
       "name": "SBK_HT16K33",
@@ -307691,7 +307729,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9474,
+    "with_github_metadata": 9475,
     "total_dependencies": 5164
   }
 }

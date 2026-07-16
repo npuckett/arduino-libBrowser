@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-16T19:26:05.471Z",
+  "enhanced_at": "2026-07-16T20:16:51.626Z",
   "total_libraries": 9681,
-  "index_etag": "W/\"a171a97fdda5e8aa094cfa115f52d8ee\"",
-  "index_last_modified": "Thu, 16 Jul 2026 18:59:12 GMT",
+  "index_etag": "W/\"0229a9b0989693612858ab9198349b33\"",
+  "index_last_modified": "Thu, 16 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -190751,16 +190751,20 @@
       "repository_name": "m-mcgowan/note-cpp",
       "repository_url": "https://github.com/m-mcgowan/note-cpp",
       "name": "note-cpp",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "version_history": [
         {
           "version": "0.3.2",
           "seen_at": "2026-07-15T20:20:27.721Z"
+        },
+        {
+          "version": "0.3.3",
+          "seen_at": "2026-07-16T20:16:51.492Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-15T20:20:27.721Z",
-      "last_seen_sha": "7ea3c86f5f0e",
+      "last_seen_sha": "c88806b68e57",
       "author": "Mat McGowan",
       "maintainer": "Mat McGowan",
       "sentence": "Typed C++ SDK for the Blues Notecard.",
@@ -190769,8 +190773,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.2.zip",
-      "size": 1893346,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.3.zip",
+      "size": 1894066,
+      "previous_version": "0.3.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -272986,7 +272991,7 @@
       "repository_name": "vvb333007/tarfs",
       "repository_url": "https://github.com/vvb333007/tarfs",
       "name": "tarfs",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -272995,23 +273000,27 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-07-15T14:31:55.972Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-07-16T20:16:51.492Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-14T22:18:23.703Z",
-      "last_seen_sha": "3b0f0ef11424",
+      "last_seen_sha": "8b23b9bf5359",
       "author": "Viacheslav Logunov <vvb333007@gmail.com>",
       "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
-      "sentence": "Immutable FAST! Filesystem. This library adds support for TARFS filesystem to your ESP32 sketch",
-      "paragraph": "Immutable TARFS: mmap-enabled read-only filesystem with support for hardlinks/symlinks, long names, UTF8,  and some other posix extensions.",
-      "category": "Other",
+      "sentence": "High-performance immutable TAR filesystem for ESP32 with mmap().",
+      "paragraph": "Memory-efficient read-only TAR filesystem with zero-copy mmap(), POSIX-compatible API, hard links, symbolic links, long filenames, UTF-8, CRC64 integrity checking, and low RAM overhead.",
+      "category": "Data Storage",
       "architectures": [
         "esp32"
       ],
-      "license": "MMIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.1.zip",
-      "size": 1324829,
-      "previous_version": "0.1.0",
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.2.zip",
+      "size": 1215566,
+      "previous_version": "0.1.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C",
@@ -298272,7 +298281,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.6",
+      "version": "1.9.7",
       "version_history": [
         {
           "version": "1.6.0",
@@ -298309,11 +298318,15 @@
         {
           "version": "1.9.6",
           "seen_at": "2026-07-16T16:27:07.554Z"
+        },
+        {
+          "version": "1.9.7",
+          "seen_at": "2026-07-16T20:16:51.492Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "f30bf70c77b3",
+      "last_seen_sha": "481a42b47a49",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -298322,9 +298335,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.6.zip",
-      "size": 97695,
-      "previous_version": "1.9.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.7.zip",
+      "size": 100439,
+      "previous_version": "1.9.6",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

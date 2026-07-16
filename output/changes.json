@@ -1,6 +1,81 @@
 {
-  "since": "2026-07-16T09:38:52.423Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-16T10:36:50.035Z",
+  "new_libraries": [
+    {
+      "repository_name": "Al-Zhilin/RingFileLogger",
+      "repository_url": "https://github.com/Al-Zhilin/RingFileLogger",
+      "name": "RingFileLogger",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-16T10:36:50.035Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-16T10:36:50.035Z",
+      "last_seen_sha": "1b84c7132bf1",
+      "author": "Al-Zhilin <alekseyzh5@gmail.com>",
+      "maintainer": "Al-Zhilin <alekseyzh6@gmail.com>",
+      "sentence": "Organizes circular log storage in the form of files.",
+      "paragraph": "The library allows you to create a circular file-based log storage on any data storage medium.",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Al-Zhilin/RingFileLogger-0.1.0.zip",
+      "size": 19672,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-16T08:47:07Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "rgot-org/CoVACIEL-ESP32",
+        "repository_url": "https://github.com/rgot-org/CoVACIEL-ESP32",
+        "name": "CoVACIEL-ESP32",
+        "version": "1.0.4",
+        "version_history": [
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-04-16T08:09:29Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-14T18:20:20.371Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-16T10:36:50.035Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-16T08:09:29Z",
+        "last_seen_sha": "15c2d3913101",
+        "author": "Francois Riotte",
+        "maintainer": "FR",
+        "sentence": "Gestion des actionneurs (propulsion et direction), des capteurs (TOF ou lidar) et du BUS CAN pour le projet CoVACIEL",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rgot-org/CoVACIEL_ESP32-1.0.4.zip",
+        "size": 47968,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T13:49:46Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.0.4"
+    }
+  ],
   "removed_libraries": []
 }

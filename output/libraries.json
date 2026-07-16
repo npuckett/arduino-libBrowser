@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-16T09:38:52.549Z",
-  "total_libraries": 9678,
-  "index_etag": "W/\"fbe7952e53bd2d6addbd3de77cdefe29\"",
-  "index_last_modified": "Thu, 16 Jul 2026 09:29:12 GMT",
+  "enhanced_at": "2026-07-16T10:36:51.435Z",
+  "total_libraries": 9679,
+  "index_etag": "W/\"54fa3230dfde8bcc2eccd624bfcce37f\"",
+  "index_last_modified": "Thu, 16 Jul 2026 10:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -62993,7 +62993,7 @@
       "repository_name": "rgot-org/CoVACIEL-ESP32",
       "repository_url": "https://github.com/rgot-org/CoVACIEL-ESP32",
       "name": "CoVACIEL-ESP32",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "0.0.3",
@@ -63002,11 +63002,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-07-14T18:20:20.371Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-16T10:36:50.035Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-16T08:09:29Z",
-      "last_seen_sha": "51cbaffe9726",
+      "last_seen_sha": "15c2d3913101",
       "author": "Francois Riotte",
       "maintainer": "FR",
       "sentence": "Gestion des actionneurs (propulsion et direction), des capteurs (TOF ou lidar) et du BUS CAN pour le projet CoVACIEL",
@@ -63017,9 +63021,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/rgot-org/CoVACIEL_ESP32-1.0.3.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rgot-org/CoVACIEL_ESP32-1.0.4.zip",
       "size": 47968,
-      "previous_version": "0.0.3",
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -223227,6 +223231,35 @@
       "github_updated_at": "2024-03-30T12:23:48Z"
     },
     {
+      "repository_name": "Al-Zhilin/RingFileLogger",
+      "repository_url": "https://github.com/Al-Zhilin/RingFileLogger",
+      "name": "RingFileLogger",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-16T10:36:50.035Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-16T10:36:50.035Z",
+      "last_seen_sha": "1b84c7132bf1",
+      "author": "Al-Zhilin <alekseyzh5@gmail.com>",
+      "maintainer": "Al-Zhilin <alekseyzh6@gmail.com>",
+      "sentence": "Organizes circular log storage in the form of files.",
+      "paragraph": "The library allows you to create a circular file-based log storage on any data storage medium.",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Al-Zhilin/RingFileLogger-0.1.0.zip",
+      "size": 19672,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-16T08:47:07Z"
+    },
+    {
       "repository_name": "CircuitMess/CircuitMess-Ringo",
       "repository_url": "https://github.com/CircuitMess/CircuitMess-Ringo",
       "name": "Ringo by CircuitMess Library",
@@ -307733,7 +307766,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9475,
+    "with_github_metadata": 9476,
     "total_dependencies": 5164
   }
 }

@@ -1,6 +1,113 @@
 {
-  "since": "2026-07-16T21:20:05.046Z",
+  "since": "2026-07-16T22:19:06.934Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.1.12",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          },
+          {
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.1.12",
+            "seen_at": "2026-07-16T22:19:06.934Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "c34ba30a1886",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.12.zip",
+        "size": 3682641,
+        "previous_version": "1.1.11",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.1.11",
+      "new_version": "1.1.12"
+    },
+    {
+      "library": {
+        "repository_name": "MdelgadoL83/TapatioElectronics",
+        "repository_url": "https://github.com/MdelgadoL83/TapatioElectronics",
+        "name": "TapatioElectronics",
+        "version": "2.2.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2025-07-21T16:21:49Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-07-05T07:02:02.260Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-07-16T22:19:06.934Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:21:49Z",
+        "last_seen_sha": "600f3376aa18",
+        "author": "Miguel Angel Delgado Lopez",
+        "maintainer": "Miguel Delgado <Miguel.delgadolop@gmail.com>",
+        "sentence": "Allows access to the use of sensors, actuators and control panels designed by Tapatio Electronics",
+        "paragraph": "This library is designed to use all cards developed by Tapatio Electronics, including sensor bars for line following robots, power control boards for robots, IoT boards and more.",
+        "category": "Device Control",
+        "architectures": [
+          "avr",
+          "megaavr",
+          "sam",
+          "samd",
+          "nrf52",
+          "mbed",
+          "mbed_nano",
+          "mbed_portenta",
+          "mbed_rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/MdelgadoL83/TapatioElectronics-2.2.0.zip",
+        "size": 31040,
+        "previous_version": "2.1.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-13T03:18:08Z"
+      },
+      "old_version": "2.1.1",
+      "new_version": "2.2.0"
+    }
+  ],
   "removed_libraries": []
 }

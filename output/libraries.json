@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-17T19:24:45.904Z",
-  "total_libraries": 9681,
-  "index_etag": "W/\"5159995aeaf76b57a7c66510b70aec03\"",
-  "index_last_modified": "Fri, 17 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-17T20:17:55.092Z",
+  "total_libraries": 9682,
+  "index_etag": "W/\"bb584dc6f20ba5a57c182f450d9b194e\"",
+  "index_last_modified": "Fri, 17 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.67",
+      "version": "1.2.68",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22742,11 +22742,15 @@
         {
           "version": "1.2.67",
           "seen_at": "2026-07-16T18:22:06.189Z"
+        },
+        {
+          "version": "1.2.68",
+          "seen_at": "2026-07-17T20:17:53.607Z"
         }
       ],
-      "release_count": 33,
+      "release_count": 34,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "c36be77522df",
+      "last_seen_sha": "780030d78b0b",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22767,9 +22771,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.67.zip",
-      "size": 42581772,
-      "previous_version": "1.2.64",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.68.zip",
+      "size": 42639580,
+      "previous_version": "1.2.67",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70485,7 +70489,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.27.1",
+      "version": "6.28.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70810,11 +70814,15 @@
         {
           "version": "6.27.1",
           "seen_at": "2026-07-17T10:31:11.084Z"
+        },
+        {
+          "version": "6.28.0",
+          "seen_at": "2026-07-17T20:17:53.607Z"
         }
       ],
-      "release_count": 81,
+      "release_count": 82,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "98970141555d",
+      "last_seen_sha": "ec82c86aa0a4",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70823,9 +70831,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.27.1.zip",
-      "size": 18208557,
-      "previous_version": "6.26.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.28.0.zip",
+      "size": 18213786,
+      "previous_version": "6.27.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -179537,6 +179545,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-06-10T12:16:56Z",
       "download_url": "https://github.com/rfetick/MPU6050_light"
+    },
+    {
+      "repository_name": "Nesara-Thejan/MPU6050_Nexa",
+      "repository_url": "https://github.com/Nesara-Thejan/MPU6050_Nexa",
+      "name": "MPU6050_Nexa",
+      "version": "1.0.5",
+      "version_history": [
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-07-17T20:17:53.607Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-17T20:17:53.607Z",
+      "last_seen_sha": "52db7c23d13a",
+      "author": "Nesara Thejan",
+      "maintainer": "Nesara Thejan",
+      "sentence": "A simple Arduino library for the MPU6050 sensor.",
+      "paragraph": "Reads accelerometer, gyroscope and temperature data from the MPU6050 with calibration and unit conversion support.",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nesara-Thejan/MPU6050_Nexa-1.0.5.zip",
+      "size": 11389,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-17T16:35:04Z"
     },
     {
       "repository_name": "Tockn/MPU6050_tockn",
@@ -307974,7 +308011,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9478,
+    "with_github_metadata": 9479,
     "total_dependencies": 5172
   }
 }

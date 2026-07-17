@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-17T21:15:07.584Z",
-  "total_libraries": 9682,
-  "index_etag": "W/\"bb584dc6f20ba5a57c182f450d9b194e\"",
-  "index_last_modified": "Fri, 17 Jul 2026 20:59:12 GMT",
+  "enhanced_at": "2026-07-17T22:14:57.596Z",
+  "total_libraries": 9683,
+  "index_etag": "W/\"3fc75ebaae8dfa857d6df5255d6369ac\"",
+  "index_last_modified": "Fri, 17 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -115543,16 +115543,20 @@
       "repository_name": "VernierST/GDXLib",
       "repository_url": "https://github.com/VernierST/GDXLib",
       "name": "GDXLib",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "version_history": [
         {
           "version": "2.0.2",
           "seen_at": "2025-07-21T16:13:11Z"
+        },
+        {
+          "version": "2.0.3",
+          "seen_at": "2026-07-17T22:14:56.176Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:13:11Z",
-      "last_seen_sha": "041373a075b9",
+      "last_seen_sha": "e49cd1584a76",
       "author": "Vernier",
       "maintainer": "support@vernier.com",
       "sentence": "A library for educators to communicate with a Vernier Go Direct device via Bluetooth® Low Energy.",
@@ -115561,14 +115565,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 1,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2025-03-31T22:27:06Z",
       "depends": [
         "ArduinoBLE"
       ],
-      "download_url": "https://github.com/VernierST/GDXLib"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/VernierST/GDXLib-2.0.3.zip",
+      "size": 26361,
+      "previous_version": "2.0.2",
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2025-03-31T22:27:06Z"
     },
     {
       "repository_name": "geekfactory/GFDisplay7S",
@@ -220687,6 +220693,35 @@
       "download_url": "http://redkea.com"
     },
     {
+      "repository_name": "ZipionLive/RedLab_I2CMatrixKeypad",
+      "repository_url": "https://github.com/ZipionLive/RedLab_I2CMatrixKeypad",
+      "name": "RedLab_I2CMatrixKeypad",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-17T22:14:56.176Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-17T22:14:56.176Z",
+      "last_seen_sha": "5138176b91f8",
+      "author": "Alexandre Engelhardt",
+      "maintainer": "Alexandre Engelhardt",
+      "sentence": "Arduino library for matrix keypads using the TCA8418 I2C keypad controller.",
+      "paragraph": "Provides interrupt-driven keypad handling, configurable layouts, and support for 4x3 and 4x4 matrix keypads connected through a TCA8418.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ZipionLive/RedLab_I2CMatrixKeypad-1.0.0.zip",
+      "size": 18245,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-17T19:29:13Z"
+    },
+    {
       "repository_name": "Reefwing-Software/Reefwing-imuTypes",
       "repository_url": "https://github.com/Reefwing-Software/Reefwing-imuTypes",
       "name": "Reefwing_imuTypes",
@@ -308011,7 +308046,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9479,
+    "with_github_metadata": 9480,
     "total_dependencies": 5172
   }
 }

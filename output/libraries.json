@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-18T02:59:03.068Z",
+  "enhanced_at": "2026-07-18T04:04:01.240Z",
   "total_libraries": 9683,
-  "index_etag": "W/\"d3c44b82c290e3b9b28a65e92f0e21e2\"",
-  "index_last_modified": "Sat, 18 Jul 2026 02:29:12 GMT",
+  "index_etag": "W/\"598ffb30b1f55ea8b1008bc6cbe8e77a\"",
+  "index_last_modified": "Sat, 18 Jul 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.69",
+      "version": "1.2.72",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22750,11 +22750,15 @@
         {
           "version": "1.2.69",
           "seen_at": "2026-07-18T02:59:02.965Z"
+        },
+        {
+          "version": "1.2.72",
+          "seen_at": "2026-07-18T04:04:01.107Z"
         }
       ],
-      "release_count": 35,
+      "release_count": 36,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "d08bbd44fe58",
+      "last_seen_sha": "ad0569b25a6d",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22775,9 +22779,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.69.zip",
-      "size": 42766833,
-      "previous_version": "1.2.68",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.72.zip",
+      "size": 42768777,
+      "previous_version": "1.2.69",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70493,7 +70497,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.29.0",
+      "version": "6.30.1",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70826,11 +70830,15 @@
         {
           "version": "6.29.0",
           "seen_at": "2026-07-18T00:18:39.335Z"
+        },
+        {
+          "version": "6.30.1",
+          "seen_at": "2026-07-18T04:04:01.107Z"
         }
       ],
-      "release_count": 83,
+      "release_count": 84,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "15a9b8ac7f2d",
+      "last_seen_sha": "d16b274cc55f",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70839,9 +70847,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.29.0.zip",
-      "size": 18258047,
-      "previous_version": "6.28.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.30.1.zip",
+      "size": 18363516,
+      "previous_version": "6.29.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -137941,16 +137949,20 @@
       "repository_name": "iskakfatoni/IskakINO_FastNTP",
       "repository_url": "https://github.com/iskakfatoni/IskakINO_FastNTP",
       "name": "IskakINO_FastNTP",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-02-17T08:04:02Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-18T04:04:01.107Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-17T08:04:02Z",
-      "last_seen_sha": "8b0de7b557a1",
+      "last_seen_sha": "dbe8e7600136",
       "author": "iskakfatoni",
       "maintainer": "iskakfatoni",
       "sentence": "Library NTP asinkron yang ringan dan cepat untuk ESP8266 dan ESP32.",
@@ -137960,15 +137972,13 @@
         "esp8266",
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_FastNTP-1.0.1.zip",
+      "size": 27957,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-02-16T13:37:57Z",
-      "depends": [
-        "IskakINO_WifiPortal",
-        "IskakINO_ArduFast"
-      ],
-      "download_url": "https://github.com/iskakfatoni/IskakINO_FastNTP"
+      "github_updated_at": "2026-02-16T13:37:57Z"
     },
     {
       "repository_name": "iskakfatoni/IskakINO_LiquidCrystal_I2C",
@@ -308069,6 +308079,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9480,
-    "total_dependencies": 5172
+    "total_dependencies": 5170
   }
 }

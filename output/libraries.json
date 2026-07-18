@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-18T15:18:36.029Z",
+  "enhanced_at": "2026-07-18T16:16:38.319Z",
   "total_libraries": 9684,
-  "index_etag": "W/\"79635c28ebc56c8235265330f2672937\"",
-  "index_last_modified": "Sat, 18 Jul 2026 14:59:11 GMT",
+  "index_etag": "W/\"63c245e7fd83fd1c2aa33ee995614958\"",
+  "index_last_modified": "Sat, 18 Jul 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.72",
+      "version": "1.2.74",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22754,11 +22754,15 @@
         {
           "version": "1.2.72",
           "seen_at": "2026-07-18T04:04:01.107Z"
+        },
+        {
+          "version": "1.2.74",
+          "seen_at": "2026-07-18T16:16:38.206Z"
         }
       ],
-      "release_count": 36,
+      "release_count": 37,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "ad0569b25a6d",
+      "last_seen_sha": "2e85465d3dbf",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22779,9 +22783,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.72.zip",
-      "size": 42768777,
-      "previous_version": "1.2.69",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.74.zip",
+      "size": 42976171,
+      "previous_version": "1.2.72",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -129375,27 +129379,32 @@
       "repository_name": "supratikd/HW290",
       "repository_url": "https://github.com/supratikd/HW290",
       "name": "HW290",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-15T04:05:33.653Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-07-18T16:16:38.206Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-15T04:05:33.653Z",
-      "last_seen_sha": "a52bac61f841",
+      "last_seen_sha": "658b2c2d0c8e",
       "author": "Supratik Das",
       "maintainer": "supratikd <supratikdas@hotmail.com>",
       "sentence": "Arduino library for HW290 10DOF sensor board (MPU6050 + BMP180 + HP5883).",
       "paragraph": "Supports accelerometer, gyroscope, barometer, temperature, HP5883 magnetometer.",
       "category": "Sensors",
       "architectures": [
-        "esp32"
+        "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/HW290-1.0.0.zip",
-      "size": 20931,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/HW290-1.0.2.zip",
+      "size": 25605,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -174963,7 +174972,7 @@
       "repository_name": "owochel/MistMaker",
       "repository_url": "https://github.com/owochel/MistMaker",
       "name": "MistMaker",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.1.0",
@@ -174976,22 +174985,26 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-07-03T20:23:13.146Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-07-18T16:16:38.206Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-20T08:17:07Z",
-      "last_seen_sha": "408e03e33b1a",
+      "last_seen_sha": "e4fb4719446f",
       "author": "shuang cai, David Yang",
       "maintainer": "shuangcai64@gmail.com",
       "sentence": "A library to control a mist maker under OSHWA ID US002742 with PWM, current sensing, and battery monitoring.",
-      "paragraph": "Encapsulates mist maker control functions: 108.7kHz PWM with dimming, piezo current sensing with auto/manual calibration, disc and water-level detection, battery voltage monitoring with USB-vs-cell power-source detection (mux status) and graceful low-battery shutdown, and pin presets for all official Programmable Mist Maker PCB variants.",
+      "paragraph": "Encapsulates mist maker control functions: 108.7kHz PWM with dimming, piezo current sensing with auto/manual calibration, disc and water-level detection, battery voltage monitoring with USB-vs-cell power-source detection (mux status) and graceful low-battery shutdown, and pin presets for all official Programmable Mist Maker PCB variants (through Battery Kit V0.4.1, the July 2026 production board).",
       "category": "Signal Input/Output",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-2.0.0.zip",
-      "size": 61184,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-2.1.0.zip",
+      "size": 62551,
+      "previous_version": "2.0.0",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "JavaScript",

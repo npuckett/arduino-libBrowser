@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-18T09:29:32.431Z",
-  "total_libraries": 9683,
-  "index_etag": "W/\"235967be59b27ca8d00ae1d602cc3389\"",
-  "index_last_modified": "Sat, 18 Jul 2026 09:29:11 GMT",
+  "enhanced_at": "2026-07-18T10:27:16.389Z",
+  "total_libraries": 9684,
+  "index_etag": "W/\"c715de0b45e821c8717950989601ab11\"",
+  "index_last_modified": "Sat, 18 Jul 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23957,6 +23957,36 @@
       "github_language": "C++",
       "github_updated_at": "2025-11-09T16:04:23Z",
       "download_url": "https://github.com/sintrb/ANSI_Output"
+    },
+    {
+      "repository_name": "NicholasTracy/ANSITerm",
+      "repository_url": "https://github.com/NicholasTracy/ANSITerm",
+      "name": "ANSITerm",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-18T10:27:14.944Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-18T10:27:14.944Z",
+      "last_seen_sha": "8c1efa615826",
+      "author": "Nicholas Tracy <nicholas.tracy@outlook.com>",
+      "maintainer": "Nicholas Tracy <nicholas.tracy@outlook.com>",
+      "sentence": "ANSI/VT-style terminal control over an Arduino Stream.",
+      "paragraph": "ANSITerm provides cursor movement, color, boxes/tables, buttons, and mouse reporting via ANSI escape sequences to any terminal connected to the Arduino's Stream (e.g., Serial).",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "license": "LGPL-3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NicholasTracy/ANSITerm-0.2.0.zip",
+      "size": 42604,
+      "github_stars": 4,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-18T07:40:50Z"
     },
     {
       "repository_name": "cujomalainey/ant-arduino",
@@ -70501,7 +70531,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "6.30.1",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70838,11 +70868,15 @@
         {
           "version": "6.30.1",
           "seen_at": "2026-07-18T04:04:01.107Z"
+        },
+        {
+          "version": "7.0.0",
+          "seen_at": "2026-07-18T10:27:14.944Z"
         }
       ],
-      "release_count": 84,
+      "release_count": 85,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "d16b274cc55f",
+      "last_seen_sha": "2638fd945334",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70851,9 +70885,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-6.30.1.zip",
-      "size": 18363516,
-      "previous_version": "6.29.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.0.0.zip",
+      "size": 18361579,
+      "previous_version": "6.30.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -137929,29 +137963,35 @@
       "repository_name": "iskakfatoni/IskakINO_ArduFast",
       "repository_url": "https://github.com/iskakfatoni/IskakINO_ArduFast",
       "name": "IskakINO_ArduFast",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-03-05T08:01:23Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-18T10:27:14.944Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-05T08:01:23Z",
-      "last_seen_sha": "f9f1e0956d4d",
+      "last_seen_sha": "2eb5c04dc67e",
       "author": "Iskak Fatoni",
       "maintainer": "Iskak Fatoni <iskakfatoni@gmail.com>",
-      "sentence": "Ultra-fast I/O and non-blocking multitasking framework for Arduino.",
-      "paragraph": "A lightweight framework optimized for AVR, ESP8266, and ESP32. Features fast digital I/O through templates, automated analog normalization, and a simple task scheduler.",
+      "sentence": "Ultra-fast direct-register I/O and non-blocking multitasking framework for Arduino.",
+      "paragraph": "A lightweight framework optimized for AVR, ESP8266, and ESP32. FastPin<P> uses true direct register access on AVR/ESP32/ESP8266, with automated analog normalization/mapping and a simple non-blocking task scheduler.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_ArduFast-1.0.1.zip",
+      "size": 26603,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-05T00:20:34Z",
-      "download_url": "https://github.com/iskakfatoni/IskakINO_ArduFast"
+      "github_updated_at": "2026-03-05T00:20:34Z"
     },
     {
       "repository_name": "iskakfatoni/IskakINO_FastNTP",
@@ -308090,7 +308130,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9480,
+    "with_github_metadata": 9481,
     "total_dependencies": 5170
   }
 }

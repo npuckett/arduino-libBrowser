@@ -10,7 +10,9 @@ test.describe('Home page', () => {
   });
 
   test('renders the header title', async ({ page }) => {
-    await expect(page.locator('h1.title')).toContainText('THE ARDUINO LIBRARY');
+    // The title now lives in the sidebar brand (the old <h1 class="title">
+    // header was replaced by the card-catalog sidebar in the redesign).
+    await expect(page.locator('.sidebar-brand-title')).toContainText('THE ARDUINO LIBRARY');
   });
 
   test('loads and displays the curated discoveries section', async ({ page }) => {

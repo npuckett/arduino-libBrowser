@@ -88,6 +88,18 @@ overlap, language, topics, and star proximity).
 
 ---
 
+## For AI agents: MCP server
+
+The catalog is also available as an [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server, so any MCP-compatible agent — ZCode, Claude Desktop, Cursor, and others — can search Arduino libraries programmatically and get back ranked results with install snippets.
+
+The server exposes a single `search_libraries` tool: pass a natural-language query (`"oled display"`, `"stepper motor"`, `"esp32 wifi"`) and optional filters (category, architecture, minimum GitHub stars), and it returns a concise ranked list — each entry includes the version, category, architectures, stars, dependencies, and a ready-to-paste `arduino-cli lib install "Name"` command. It fetches the enriched index from the live site with a one-hour cache, so it runs on any machine without a local checkout.
+
+**Full setup instructions and configuration snippets for ZCode, Claude Desktop, and Cursor are in the [`mcp-server/`](mcp-server/) directory:**
+
+👉 **[github.com/npuckett/arduino-libBrowser/tree/main/mcp-server](https://github.com/npuckett/arduino-libBrowser/tree/main/mcp-server)**
+
+---
+
 ## How it stays current
 
 Every hour the pipeline fetches Arduino's

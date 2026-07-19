@@ -104,92 +104,85 @@
     }
     </script>
 
-    <div class="container">
-        <header class="header">
-            <h1 class="title">
-                THE ARDUINO LIBRARY
-                <span class="subtitle">A searchable catalog of 8,000+ Arduino libraries from GitHub, updated daily</span>
-            </h1>
-        </header>
+    <!-- Mobile: floating menu toggle (hidden on desktop via CSS) -->
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <div class="sidebar-backdrop" id="sidebarBackdrop" hidden></div>
 
-        <section class="about-section">
-            <h2 class="section-header collapsible" id="aboutHeader">
-                About
+    <aside class="sidebar" id="sidebar" aria-label="Navigation">
+        <div class="sidebar-brand">
+            <span class="sidebar-brand-title">THE ARDUINO LIBRARY</span>
+            <span class="sidebar-brand-sub" id="sidebarBrandSub">A searchable catalog, updated daily</span>
+        </div>
+
+        <nav class="view-nav" aria-label="Views">
+            <button class="view-nav-item active" data-view="discover">Discover</button>
+            <button class="view-nav-item" data-view="activity">Activity</button>
+            <button class="view-nav-item" data-view="agents">For AI Agents</button>
+            <button class="view-nav-item" data-view="about">About</button>
+        </nav>
+
+        <div class="sidebar-group">
+            <div class="sidebar-label">Sort</div>
+            <div class="sort-buttons">
+                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
+                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
+                <button class="sort-btn active" data-sort="most-recent">Recent Updates</button>
+                <button class="sort-btn" data-sort="new-additions">New Additions</button>
+                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
+                <button class="sort-btn" data-sort="shelf-order">Registry Order</button>
+                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
+                <button class="sort-btn" data-sort="surprise-me">Surprise Me</button>
+                <button class="sort-btn" data-sort="hidden-gems">Hidden Gems</button>
+                <button class="sort-btn" data-sort="trending">Trending</button>
+                <button class="sort-btn" data-sort="forgotten-classics">Forgotten Classics</button>
+            </div>
+        </div>
+
+        <div class="sidebar-group">
+            <div class="sidebar-label">Subject</div>
+            <!-- Card-catalog drawer rail, restyled as a vertical list with a
+                 colored left "spine" per subject. The old collapsible "Browse
+                 By Subject" filter row below is kept in the DOM (for
+                 cross-component state sync and the activity treemap) but
+                 visually hidden via CSS. -->
+            <nav class="drawer-rail" id="drawerRail" style="display: none;" aria-label="Browse the collection by subject"></nav>
+            <div class="category-filters" id="categoryFilters" hidden>
+                <div class="section-header collapsible" id="categoryHeader">
+                    Browse By Subject
+                    <span class="collapse-indicator">+</span>
+                </div>
+                <div class="filter-buttons collapsed" id="filterButtons">
+                    <button class="filter-btn active" data-category="all">All</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-group">
+            <div class="section-header collapsible sidebar-label" id="platformHeader">
+                Platform
                 <span class="collapse-indicator">+</span>
-            </h2>
-            <div class="about-content collapsed" id="aboutContent">
-                <p>The <a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">Arduino Library Browser</a> is an Open Source tool created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a> that allows you to search and browse all <span id="entryCount">8,000+</span> libraries currently available in the <a href="https://github.com/arduino/library-registry" target="_blank" rel="noopener">Arduino Library Manager</a>. The registry is constantly evolving with user updates, so this tool updates each day with new information.</p>
-                <p>Please submit any issues or feedback via the <a href="https://github.com/npuckett/arduino-libBrowser/issues" target="_blank" rel="noopener">Issues Page</a></p>
             </div>
-        </section>
-
-        <section class="activity-section" id="activitySection" style="display: none;">
-            <h2 class="section-header collapsible" id="activityHeader">
-                Activity
-                <span class="collapse-indicator">+</span>
-                <span class="activity-range" id="activityRange"></span>
-            </h2>
-
-            <div class="activity-content collapsed" id="activityContent">
-            <div class="activity-grid">
-                <div class="activity-panel activity-pulse-panel" id="activityPulsePanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">
-                            Maintenance Pulse
-                            <span class="activity-peak-pill" id="activityPulsePeak" hidden></span>
-                        </span>
-                        <span class="activity-panel-meta" id="activityPulseMeta"></span>
-                        <span class="activity-pulse-legend" id="activityPulseLegend"></span>
-                    </div>
-                    <div class="activity-pulse-wrap">
-                        <svg class="activity-pulse" id="activityPulseScatter" viewBox="0 0 900 360" preserveAspectRatio="xMidYMid meet" aria-label="Library maintenance pulse: popularity by recency. Each point is a library. Hover for details, drag to filter a region."></svg>
-                        <div class="activity-pulse-tooltip" id="activityPulseTooltip" hidden></div>
-                    </div>
-                    <div class="activity-pulse-hint" id="activityPulseHint">Each dot is a library &mdash; left = recently touched, up = more stars. Drag a box to filter.</div>
-                </div>
-
-                <div class="activity-panel" id="activityDailyPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">
-                            Daily
-                            <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
-                        </span>
-                        <span class="activity-panel-meta" id="activityDailyMeta"></span>
-                        <button type="button" class="activity-quick-chip" id="activityQuickChip" hidden></button>
-                    </div>
-                    <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
-                    <div class="activity-legend" id="activityDailyLegend"></div>
-                    <div class="activity-recent" id="activityDailyRecent" hidden>
-                        <div class="activity-recent-header">
-                            Recent
-                            <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
-                        </div>
-                        <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
-                    </div>
-                </div>
-
-                <div class="activity-panel" id="activityCategoryPanel" hidden>
-                    <div class="activity-panel-header">
-                        <span class="activity-panel-title">Categories</span>
-                        <span class="activity-panel-meta" id="activityCategoryMeta"></span>
-                    </div>
-                    <div class="activity-bars-list" id="activityCategoryBars">
-                        <svg id="activityCategoryTreemap" class="activity-treemap" viewBox="0 0 300 180" preserveAspectRatio="xMidYMid meet" aria-label="Top library categories by share. Click a cell to filter."></svg>
-                    </div>
-                </div>
+            <div class="filter-buttons collapsed" id="platformButtons">
+                <button class="filter-btn active" data-platform="all">All Platforms</button>
             </div>
-            </div>
-        </section>
+            <div class="platform-filters" id="platformFilters" hidden></div>
+        </div>
 
+        <div class="sidebar-foot">
+            <span id="sidebarVersion"></span>
+        </div>
+    </aside>
+
+    <main class="main" id="main">
         <section class="search-container">
-            <h2 class="section-header">
+            <h2 class="section-header sr-only">
                 Search Arduino Libraries
-                <button class="clear-search-btn" id="clearSearchBtn" style="display: none;" title="Clear search">×</button>
             </h2>
+            <button class="clear-search-btn" id="clearSearchBtn" style="display: none;" title="Clear search">×</button>
             <label for="searchInput" class="sr-only">Search Arduino libraries by title, description, author, or subject</label>
-            <input 
-                type="search" 
-                class="search-box" 
+            <input
+                type="search"
+                class="search-box"
                 placeholder="Search the collection by title, description, author, or subject..."
                 id="searchInput"
                 aria-describedby="search-help"
@@ -205,94 +198,152 @@
             </nav>
         </section>
 
-        <div class="browse-section">
-            <div class="section-header">Browse</div>
-            <div class="sort-buttons">
-                <button class="sort-btn" data-sort="alphabetical">Alphabetical (A-Z)</button>
-                <button class="sort-btn" data-sort="alphabetical-reverse">Alphabetical (Z-A)</button>
-                <button class="sort-btn active" data-sort="most-recent">Recent Updates</button>
-                <button class="sort-btn" data-sort="new-additions">New Additions</button>
-                <button class="sort-btn" data-sort="most-popular">Most Popular (Stars)</button>
-                <button class="sort-btn" data-sort="shelf-order">Registry Order</button>
-                <button class="sort-btn" data-sort="heavily-relied">Heavily Relied</button>
-                <button class="sort-btn" data-sort="surprise-me">Surprise Me</button>
-                <button class="sort-btn" data-sort="hidden-gems">Hidden Gems</button>
-                <button class="sort-btn" data-sort="trending">Trending</button>
-                <button class="sort-btn" data-sort="forgotten-classics">Forgotten Classics</button>
-            </div>
-            
-            <div class="category-filters" id="categoryFilters">
-                <div class="section-header collapsible" id="categoryHeader">
-                    Browse By Subject
-                    <span class="collapse-indicator">+</span>
-                </div>
-                <div class="filter-buttons collapsed" id="filterButtons">
-                    <button class="filter-btn active" data-category="all">All</button>
-                </div>
-            </div>
-
-            <div class="platform-filters" id="platformFilters">
-                <div class="section-header collapsible" id="platformHeader">
-                    Browse by Platform
-                    <span class="collapse-indicator">+</span>
-                </div>
-                <div class="filter-buttons collapsed" id="platformButtons">
-                    <button class="filter-btn active" data-platform="all">All Platforms</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="loading" id="loading">
-            Loading collection...
-        </div>
-
-        <section class="curated-discoveries" id="curatedDiscoveries" style="display: none;">
-            <h2 class="section-header">
-                Curated Discoveries
-                <span class="curated-count" id="curatedCount"></span>
-            </h2>
-
-            <div class="curated-row editor-picks" id="editorPicksRow" style="display: none;">
-                <div class="curated-section-header">Editor Picks</div>
-                <div class="curated-grid" id="editorPicksGrid"></div>
-            </div>
-
-            <div class="curated-row computed-row" id="computedRow" style="display: none;">
-                <div class="curated-section-header">This Week</div>
-                <div class="curated-grid" id="computedGrid"></div>
-            </div>
-
-            <div class="curated-row themed-row" id="themedRows"></div>
-        </section>
-
+        <!-- Activity-filter banner lives at the main level (not inside a view)
+             so it stays visible across views when an activity drill-in is
+             active. -->
         <div id="activityFilterBannerContainer"></div>
 
-        <!-- Card-catalog drawer rail. Subject navigation lives here as a row
-             of file-folder tabs; the old collapsible "Browse By Subject"
-             filter row is kept in the DOM (for cross-component state sync and
-             the activity treemap) but visually hidden via CSS. -->
-        <nav class="drawer-rail" id="drawerRail" style="display: none;" aria-label="Browse the collection by subject"></nav>
+        <!-- DISCOVER VIEW: serendipity-first landing -->
+        <section class="view view-discover is-active" id="viewDiscover">
+            <div class="serendipity-hero" role="group" aria-label="Discovery actions">
+                <button class="hero-btn" id="heroSurprise" type="button">
+                    <span class="hero-btn-icon">✦</span>
+                    <span class="hero-btn-text">Surprise Me</span>
+                </button>
+                <button class="hero-btn" id="heroShuffle" type="button">
+                    <span class="hero-btn-icon">⟳</span>
+                    <span class="hero-btn-text">Shuffle</span>
+                </button>
+            </div>
 
-        <!-- Drawer header: the protruding folder tab + count that labels the
-             active drawer. A sibling of the grid (not a grid child) so the
-             grid's 280px auto-rows don't distort it. -->
-        <div class="drawer-header" id="drawerHeader" style="display: none;" role="heading" aria-level="2"></div>
+            <section class="curated-discoveries" id="curatedDiscoveries" style="display: none;">
+                <h2 class="section-header">
+                    Curated Discoveries
+                    <span class="curated-count" id="curatedCount"></span>
+                </h2>
 
-        <div class="library-grid" id="libraryGrid" style="display: none;">
-        </div>
+                <div class="curated-row editor-picks" id="editorPicksRow" style="display: none;">
+                    <div class="curated-section-header">Editor Picks</div>
+                    <div class="curated-grid" id="editorPicksGrid"></div>
+                </div>
 
-        <!-- Drawer footer: quiet "showing X of Y" line under the grid. -->
-        <div class="drawer-footer" id="drawerFooter" style="display: none;"></div>
+                <div class="curated-row computed-row" id="computedRow" style="display: none;">
+                    <div class="curated-section-header">This Week</div>
+                    <div class="curated-grid" id="computedGrid"></div>
+                </div>
 
-        <div class="load-more-container" id="loadMoreContainer" style="display: none;">
-            <button class="load-more-btn" id="loadMoreBtn">Load More Libraries</button>
-            <div class="load-more-info" id="loadMoreInfo"></div>
-        </div>
+                <div class="curated-row themed-row" id="themedRows"></div>
+            </section>
 
-        <div class="no-results" id="noResults" style="display: none;">
-            No items found in the collection matching your search.
-        </div>
-    </div>
+            <!-- Drawer header: the protruding folder tab + count that labels the
+                 active drawer. -->
+            <div class="drawer-header" id="drawerHeader" style="display: none;" role="heading" aria-level="2"></div>
+
+            <div class="loading" id="loading">
+                Loading collection...
+            </div>
+
+            <div class="library-grid" id="libraryGrid" style="display: none;">
+            </div>
+
+            <!-- Drawer footer: quiet "showing X of Y" line under the grid. -->
+            <div class="drawer-footer" id="drawerFooter" style="display: none;"></div>
+
+            <div class="load-more-container" id="loadMoreContainer" style="display: none;">
+                <button class="load-more-btn" id="loadMoreBtn">Load More Libraries</button>
+                <div class="load-more-info" id="loadMoreInfo"></div>
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                No items found in the collection matching your search.
+            </div>
+        </section>
+
+        <!-- ACTIVITY VIEW -->
+        <section class="view view-activity" id="viewActivity">
+            <section class="activity-section" id="activitySection" style="display: none;">
+                <h2 class="section-header collapsible expanded" id="activityHeader">
+                    Activity
+                    <span class="collapse-indicator">+</span>
+                    <span class="activity-range" id="activityRange"></span>
+                </h2>
+
+                <div class="activity-content" id="activityContent">
+                <div class="activity-grid">
+                    <div class="activity-panel activity-pulse-panel" id="activityPulsePanel" hidden>
+                        <div class="activity-panel-header">
+                            <span class="activity-panel-title">
+                                Maintenance Pulse
+                                <span class="activity-peak-pill" id="activityPulsePeak" hidden></span>
+                            </span>
+                            <span class="activity-panel-meta" id="activityPulseMeta"></span>
+                            <span class="activity-pulse-legend" id="activityPulseLegend"></span>
+                        </div>
+                        <div class="activity-pulse-wrap">
+                            <svg class="activity-pulse" id="activityPulseScatter" viewBox="0 0 900 360" preserveAspectRatio="xMidYMid meet" aria-label="Library maintenance pulse: popularity by recency. Each point is a library. Hover for details, drag to filter a region."></svg>
+                            <div class="activity-pulse-tooltip" id="activityPulseTooltip" hidden></div>
+                        </div>
+                        <div class="activity-pulse-hint" id="activityPulseHint">Each dot is a library &mdash; left = recently touched, up = more stars. Drag a box to filter.</div>
+                    </div>
+
+                    <div class="activity-panel" id="activityDailyPanel" hidden>
+                        <div class="activity-panel-header">
+                            <span class="activity-panel-title">
+                                Daily
+                                <span class="activity-peak-pill" id="activityDailyPeak" hidden></span>
+                            </span>
+                            <span class="activity-panel-meta" id="activityDailyMeta"></span>
+                            <button type="button" class="activity-quick-chip" id="activityQuickChip" hidden></button>
+                        </div>
+                        <svg class="activity-spark" id="activityDailySpark" viewBox="0 0 300 90" preserveAspectRatio="none" aria-label="Daily library activity for the last 30 days"></svg>
+                        <div class="activity-legend" id="activityDailyLegend"></div>
+                        <div class="activity-recent" id="activityDailyRecent" hidden>
+                            <div class="activity-recent-header">
+                                Recent
+                                <span class="activity-recent-header-count" id="activityDailyRecentCount"></span>
+                            </div>
+                            <ul class="activity-recent-list" id="activityDailyRecentList"></ul>
+                        </div>
+                    </div>
+
+                    <div class="activity-panel" id="activityCategoryPanel" hidden>
+                        <div class="activity-panel-header">
+                            <span class="activity-panel-title">Categories</span>
+                            <span class="activity-panel-meta" id="activityCategoryMeta"></span>
+                        </div>
+                        <div class="activity-bars-list" id="activityCategoryBars">
+                            <svg id="activityCategoryTreemap" class="activity-treemap" viewBox="0 0 300 180" preserveAspectRatio="xMidYMid meet" aria-label="Top library categories by share. Click a cell to filter."></svg>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- FOR AI AGENTS VIEW -->
+        <section class="view view-agents" id="viewAgents">
+            <h2 class="section-header view-title collapsible expanded" id="mcpHeader">
+                For AI Agents
+                <span class="collapse-indicator">+</span>
+            </h2>
+            <div class="about-content" id="mcpContent">
+                <p>This catalog is also available as an <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP server</a>, letting AI agents (ZCode, Claude Desktop, Cursor, and others) search Arduino libraries programmatically. Agents call a single <code>search_libraries</code> tool with a query like &ldquo;oled display&rdquo; or &ldquo;stepper motor&rdquo; and get back ranked results with install snippets &mdash; no web scraping required.</p>
+                <p>Full setup instructions are on GitHub: <a href="https://github.com/npuckett/arduino-libBrowser/tree/main/mcp-server" target="_blank" rel="noopener">github.com/npuckett/arduino-libBrowser/tree/main/mcp-server</a></p>
+            </div>
+        </section>
+
+        <!-- ABOUT VIEW -->
+        <section class="view view-about" id="viewAbout">
+            <h2 class="section-header view-title collapsible expanded" id="aboutHeader">
+                About
+                <span class="collapse-indicator">+</span>
+            </h2>
+            <div class="about-content" id="aboutContent">
+                <p>The <a href="https://github.com/npuckett/arduino-libBrowser" target="_blank" rel="noopener">Arduino Library Browser</a> is an Open Source tool created by <a href="https://github.com/npuckett" target="_blank" rel="noopener">Nick Puckett</a> that allows you to search and browse all <span id="entryCount">8,000+</span> libraries currently available in the <a href="https://github.com/arduino/library-registry" target="_blank" rel="noopener">Arduino Library Manager</a>. The registry is constantly evolving with user updates, so this tool updates each day with new information.</p>
+                <p>Please submit any issues or feedback via the <a href="https://github.com/npuckett/arduino-libBrowser/issues" target="_blank" rel="noopener">Issues Page</a></p>
+            </div>
+        </section>
+    </main>
 
     <!-- Library Detail Modal -->
     <div class="modal-overlay" id="modalOverlay">
@@ -526,15 +577,23 @@
 
         // Update header with dynamic library count and last update
         function updateHeaderInfo(data) {
-            const subtitle = document.querySelector('.subtitle');
             const libraryCount = data.libraries.length;
             const lastUpdate = data.enhanced_at || data.processed_at || '2025-07-21';
             const formattedDate = formatDateForHeader(lastUpdate);
-            subtitle.textContent = `${libraryCount.toLocaleString()} entries, updated ${formattedDate}`;
-            
+
+            // Brand subtitle in the sidebar shows the live entry count + date.
+            const brandSub = document.getElementById('sidebarBrandSub');
+            if (brandSub) {
+                brandSub.textContent = `${libraryCount.toLocaleString()} entries, updated ${formattedDate}`;
+            }
+            const sidebarVersion = document.getElementById('sidebarVersion');
+            if (sidebarVersion) {
+                sidebarVersion.textContent = `Updated ${formattedDate}`;
+            }
+
             // Debug info for troubleshooting
             console.log(`Library data loaded: ${libraryCount} libraries, last updated: ${lastUpdate}`);
-            
+
             // Update entry count in About section
             const entryCountSpan = document.getElementById('entryCount');
             if (entryCountSpan) {
@@ -669,6 +728,7 @@
             
             // Apply filters and scroll to results
             applyFilters();
+            switchView('discover');
             document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
         }
         
@@ -708,6 +768,7 @@
             
             // Apply filters and scroll to results
             applyFilters();
+            switchView('discover');
             document.getElementById('libraryGrid').scrollIntoView({ behavior: 'smooth' });
         }
 
@@ -845,6 +906,10 @@
             const sortButtons = document.querySelector('.sort-buttons');
             sortButtons.addEventListener('click', (e) => {
                 if (e.target.classList.contains('sort-btn')) {
+                    // The grid lives in the Discover view — switch to it so a
+                    // sidebar sort click from another view shows the results.
+                    switchView('discover');
+
                     // Clear all browse filters when using sort buttons.
                     // currentActivityFilter is left in place — sorting within
                     // a drill-in (e.g. "new last week, alphabetical") is a
@@ -1242,7 +1307,9 @@
             if (legacy) legacy.classList.add('active');
 
             applyFilters();
-            // Bring the drawer + grid into view rather than just the grid.
+            // The grid lives in the Discover view — make sure we're on it,
+            // then bring the drawer + grid into view.
+            switchView('discover');
             document.getElementById('drawerRail').scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
@@ -1958,6 +2025,8 @@
             };
             currentDisplayCount = itemsPerPage;
             applyFilters();
+            // The filtered grid lives in the Discover view.
+            switchView('discover');
             const grid = el('libraryGrid');
             if (grid) grid.scrollIntoView({ behavior: 'smooth' });
         }
@@ -1993,6 +2062,7 @@
             };
             currentDisplayCount = itemsPerPage;
             applyFilters();
+            switchView('discover');
             const grid = el('libraryGrid');
             if (grid) grid.scrollIntoView({ behavior: 'smooth' });
         }
@@ -3460,11 +3530,15 @@
             console.log('Search called with query:', query);
             currentSearchQuery = query;
             console.log('Current search query set to:', currentSearchQuery);
-            
+
             // Show/hide clear search button
             const clearBtn = document.getElementById('clearSearchBtn');
             if (query.trim()) {
                 clearBtn.style.display = 'block';
+
+                // Search results render in the Discover grid — make sure we
+                // are on that view so the user sees them.
+                switchView('discover');
                 
                 // Hide Library of the Day when searching
                 hideLibraryOfTheDay();
@@ -3591,6 +3665,92 @@
             displayLibraries();
         });
 
+        // ---- View switching + mobile sidebar drawer + hero serendipity ----
+        // The main pane swaps between Discover / Activity / For AI Agents /
+        // About. The sidebar nav drives it; the mobile ☰ toggle slides the
+        // sidebar in off-canvas. Hero buttons reuse the existing sort
+        // pipeline by clicking the matching sidebar sort button.
+
+        const VIEW_ID = {
+            discover: 'viewDiscover',
+            activity: 'viewActivity',
+            agents: 'viewAgents',
+            about: 'viewAbout',
+        };
+
+        function switchView(name) {
+            const targetId = VIEW_ID[name];
+            if (!targetId) return;
+            document.querySelectorAll('.view').forEach(v => {
+                v.classList.toggle('is-active', v.id === targetId);
+            });
+            document.querySelectorAll('.view-nav-item').forEach(b => {
+                b.classList.toggle('active', b.dataset.view === name);
+            });
+            // The activity panels only render once; ensure they're built the
+            // first time the Activity view is opened.
+            if (name === 'activity' && window.libraryStatsData) {
+                renderActivitySection();
+            }
+            closeSidebar();
+            // Scroll the main content back to the top (the search bar / hero).
+            document.querySelector('.main').scrollTop = 0;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        // Exposed for drill-ins elsewhere in this script.
+        window.switchView = switchView;
+
+        document.querySelectorAll('.view-nav-item').forEach(b => {
+            b.addEventListener('click', () => switchView(b.dataset.view));
+        });
+
+        // Mobile sidebar drawer
+        const sidebarEl = document.getElementById('sidebar');
+        const sidebarToggleEl = document.getElementById('sidebarToggle');
+        const sidebarBackdropEl = document.getElementById('sidebarBackdrop');
+
+        function openSidebar() {
+            if (!sidebarEl) return;
+            sidebarEl.classList.add('open');
+            if (sidebarBackdropEl) sidebarBackdropEl.hidden = false;
+            if (sidebarToggleEl) sidebarToggleEl.setAttribute('aria-expanded', 'true');
+        }
+        function closeSidebar() {
+            if (!sidebarEl) return;
+            sidebarEl.classList.remove('open');
+            if (sidebarBackdropEl) sidebarBackdropEl.hidden = true;
+            if (sidebarToggleEl) sidebarToggleEl.setAttribute('aria-expanded', 'false');
+        }
+
+        if (sidebarToggleEl) {
+            sidebarToggleEl.addEventListener('click', () => {
+                if (sidebarEl.classList.contains('open')) closeSidebar();
+                else openSidebar();
+            });
+        }
+        if (sidebarBackdropEl) {
+            sidebarBackdropEl.addEventListener('click', closeSidebar);
+        }
+
+        // Hero serendipity → reuse the existing sort handler by clicking the
+        // matching sidebar sort button (and land on the Discover view).
+        const heroSurprise = document.getElementById('heroSurprise');
+        const heroShuffle = document.getElementById('heroShuffle');
+        if (heroSurprise) {
+            heroSurprise.addEventListener('click', () => {
+                switchView('discover');
+                const btn = document.querySelector('.sort-btn[data-sort="surprise-me"]');
+                if (btn) btn.click();
+            });
+        }
+        if (heroShuffle) {
+            heroShuffle.addEventListener('click', () => {
+                switchView('discover');
+                const btn = document.querySelector('.sort-btn[data-sort="shelf-order"]');
+                if (btn) btn.click();
+            });
+        }
+
         // Category section collapse/expand functionality
         document.getElementById('categoryHeader').addEventListener('click', () => {
             const header = document.getElementById('categoryHeader');
@@ -3619,6 +3779,22 @@
             } else {
                 // Collapse
                 aboutContent.classList.add('collapsed');
+                header.classList.remove('expanded');
+            }
+        });
+
+        // MCP section collapse/expand functionality
+        document.getElementById('mcpHeader').addEventListener('click', () => {
+            const header = document.getElementById('mcpHeader');
+            const mcpContent = document.getElementById('mcpContent');
+
+            if (mcpContent.classList.contains('collapsed')) {
+                // Expand
+                mcpContent.classList.remove('collapsed');
+                header.classList.add('expanded');
+            } else {
+                // Collapse
+                mcpContent.classList.add('collapsed');
                 header.classList.remove('expanded');
             }
         });

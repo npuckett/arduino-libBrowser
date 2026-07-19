@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-18T23:16:06.118Z",
-  "total_libraries": 9686,
-  "index_etag": "W/\"9e7aa85881b4b46fbe0b9fa4962fb15a\"",
-  "index_last_modified": "Sat, 18 Jul 2026 22:59:11 GMT",
+  "enhanced_at": "2026-07-19T00:19:30.538Z",
+  "total_libraries": 9689,
+  "index_etag": "W/\"e7c26040ca456e78b0811a118e4273bf\"",
+  "index_last_modified": "Sat, 18 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22609,7 +22609,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.75",
+      "version": "1.2.76",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22762,11 +22762,15 @@
         {
           "version": "1.2.75",
           "seen_at": "2026-07-18T22:14:46.760Z"
+        },
+        {
+          "version": "1.2.76",
+          "seen_at": "2026-07-19T00:19:26.433Z"
         }
       ],
-      "release_count": 38,
+      "release_count": 39,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "787e96dbf02d",
+      "last_seen_sha": "feb041635b76",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22787,9 +22791,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.75.zip",
-      "size": 43089011,
-      "previous_version": "1.2.74",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.76.zip",
+      "size": 43090924,
+      "previous_version": "1.2.75",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70539,7 +70543,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.0.1",
+      "version": "7.1.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70884,11 +70888,15 @@
         {
           "version": "7.0.1",
           "seen_at": "2026-07-18T22:14:46.760Z"
+        },
+        {
+          "version": "7.1.0",
+          "seen_at": "2026-07-19T00:19:26.433Z"
         }
       ],
-      "release_count": 86,
+      "release_count": 87,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "30a3bf4a6256",
+      "last_seen_sha": "fcf30731ca5a",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70897,9 +70905,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.0.1.zip",
-      "size": 18363923,
-      "previous_version": "7.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.1.0.zip",
+      "size": 18376003,
+      "previous_version": "7.0.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -97368,6 +97376,38 @@
       "github_forks": 14,
       "github_language": "C++",
       "github_updated_at": "2026-06-25T00:21:24Z"
+    },
+    {
+      "repository_name": "matthias-bs/esp32-shelly-ble-rpc",
+      "repository_url": "https://github.com/matthias-bs/esp32-shelly-ble-rpc",
+      "name": "esp32-shelly-ble-rpc",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-19T00:19:26.433Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-19T00:19:26.433Z",
+      "last_seen_sha": "4bf5bb275872",
+      "author": "matthias-bs",
+      "maintainer": "matthias-bs",
+      "sentence": "Controls Shelly Gen2+ devices via JSON-RPC over BLE from an ESP32.",
+      "paragraph": "Implements the mOS (mongoose-os) BLE RPC protocol. Provides a clean Arduino API for scanning and connecting to Shelly devices, sending RPC calls, and using convenience wrappers for Switch, Cover, Temperature, Humidity and Input components. Includes examples with fixed address, scan-and-connect, and WiFi AP configuration.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_shelly_ble_rpc-1.0.0.zip",
+      "size": 27731,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-18T21:28:55Z"
     },
     {
       "repository_name": "rjsachse/ESP32-SpeexDSP",
@@ -190159,6 +190199,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-10-19T13:07:48Z",
       "download_url": "https://github.com/vChavezB/NoBlockEEPROM"
+    },
+    {
+      "repository_name": "dunknowcoding/NobroRTOS-Arduino",
+      "repository_url": "https://github.com/dunknowcoding/NobroRTOS-Arduino",
+      "name": "NobroRTOS",
+      "version": "0.3.1",
+      "version_history": [
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-07-19T00:19:26.433Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-19T00:19:26.433Z",
+      "last_seen_sha": "2c542b4f814c",
+      "author": "dunknowcoding",
+      "maintainer": "dunknowcoding",
+      "sentence": "Ultra-light embedded RTOS contracts for AI robotics, IoT, and intelligent control.",
+      "paragraph": "NobroRTOS provides stable C/C++ report bindings, host-readable diagnostics, and compatibility contracts over the Rust core workspace.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NobroRTOS-0.3.1.zip",
+      "size": 32486,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-07-18T23:45:08Z"
     },
     {
       "repository_name": "Nocturnailed-Community/NocKinematics",
@@ -306146,6 +306215,35 @@
       "download_url": "https://github.com/yergin/yabl"
     },
     {
+      "repository_name": "streef/YetAnotherRotaryEncoder",
+      "repository_url": "https://github.com/streef/YetAnotherRotaryEncoder",
+      "name": "YetAnotherRotaryEncoder",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-19T00:19:26.433Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-19T00:19:26.433Z",
+      "last_seen_sha": "809e210e236a",
+      "author": "Dick Streeland",
+      "maintainer": "Dick Streeland <dick@streefland.net>",
+      "sentence": "Yet another rotary encoder library.",
+      "paragraph": "Doesn't need debouncing circuitry and can work with a single interrupt or polling.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/streef/YetAnotherRotaryEncoder-1.0.0.zip",
+      "size": 10075,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-18T20:51:23Z"
+    },
+    {
       "repository_name": "4211421036/YFS201",
       "repository_url": "https://github.com/4211421036/YFS201",
       "name": "YF-S201 Water Flow",
@@ -308236,7 +308334,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9483,
-    "total_dependencies": 5170
+    "with_github_metadata": 9486,
+    "total_dependencies": 5171
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-19T19:23:39.065Z",
-  "total_libraries": 9696,
-  "index_etag": "W/\"9854b57c268d0a9098c63e8e78933a14\"",
-  "index_last_modified": "Sun, 19 Jul 2026 18:59:11 GMT",
+  "enhanced_at": "2026-07-19T20:15:05.865Z",
+  "total_libraries": 9697,
+  "index_etag": "W/\"5c89764a50685771a7d8dba5a853ff0d\"",
+  "index_last_modified": "Sun, 19 Jul 2026 19:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70696,7 +70696,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.8.0",
+      "version": "7.10.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71061,11 +71061,15 @@
         {
           "version": "7.8.0",
           "seen_at": "2026-07-19T08:44:24.582Z"
+        },
+        {
+          "version": "7.10.0",
+          "seen_at": "2026-07-19T20:15:04.322Z"
         }
       ],
-      "release_count": 91,
+      "release_count": 92,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "bb503a570571",
+      "last_seen_sha": "c4bc289785b5",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71074,9 +71078,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.8.0.zip",
-      "size": 18505235,
-      "previous_version": "7.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.10.0.zip",
+      "size": 18546548,
+      "previous_version": "7.8.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -164056,6 +164060,36 @@
       "github_language": "C++",
       "github_updated_at": "2026-05-19T12:20:48Z",
       "download_url": "https://github.com/JemRF/max7219"
+    },
+    {
+      "repository_name": "styropyr0/MAX7219",
+      "repository_url": "https://github.com/styropyr0/MAX7219",
+      "name": "MAX7219",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-19T20:15:04.322Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-19T20:15:04.322Z",
+      "last_seen_sha": "a8411c4633bf",
+      "author": "Saurav Sajeev",
+      "maintainer": "Saurav Sajeev",
+      "sentence": "Driver for the MAX7219 LED matrix controller.",
+      "paragraph": "The MAX7219 is a popular LED matrix controller that can drive up to 64 LEDs in a 8x8 grid. This library provides a simple interface to control the display and show patterns, text, and other graphics.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/styropyr0/MAX7219-1.0.0.zip",
+      "size": 170848,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-19T16:32:51Z"
     },
     {
       "repository_name": "me-RK/MAX7219_CH32",
@@ -308596,7 +308630,7 @@
   "stats": {
     "total_categories": 80,
     "total_architectures": 160,
-    "with_github_metadata": 9493,
+    "with_github_metadata": 9494,
     "total_dependencies": 5172
   }
 }

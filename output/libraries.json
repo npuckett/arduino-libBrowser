@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-19T07:01:06.406Z",
+  "enhanced_at": "2026-07-19T08:44:24.723Z",
   "total_libraries": 9690,
-  "index_etag": "W/\"f2df3d104fb8a76d331f31eee9d09ac7\"",
-  "index_last_modified": "Sun, 19 Jul 2026 06:59:12 GMT",
+  "index_etag": "W/\"e0e66e80cf19b29123aec50755b3696f\"",
+  "index_last_modified": "Sun, 19 Jul 2026 08:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70547,7 +70547,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.7.0",
+      "version": "7.8.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -70908,11 +70908,15 @@
         {
           "version": "7.7.0",
           "seen_at": "2026-07-19T07:01:06.283Z"
+        },
+        {
+          "version": "7.8.0",
+          "seen_at": "2026-07-19T08:44:24.582Z"
         }
       ],
-      "release_count": 90,
+      "release_count": 91,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "d74af6148268",
+      "last_seen_sha": "bb503a570571",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -70921,9 +70925,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.7.0.zip",
-      "size": 18485167,
-      "previous_version": "7.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.8.0.zip",
+      "size": 18505235,
+      "previous_version": "7.7.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -145478,7 +145482,7 @@
       "repository_name": "felixthecat8a/LCD_BacklightRGB",
       "repository_url": "https://github.com/felixthecat8a/LCD_BacklightRGB",
       "name": "LCD_BacklightRGB",
-      "version": "1.7.1",
+      "version": "1.8.1",
       "version_history": [
         {
           "version": "1.7.3",
@@ -145487,26 +145491,33 @@
         {
           "version": "1.7.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.8.1",
+          "seen_at": "2026-07-19T08:44:24.582Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-23T08:48:40Z",
-      "last_seen_sha": "f452720cd810",
+      "last_seen_sha": "776feed4ed13",
       "author": "Felix Ochoa",
       "maintainer": "Felix Ochoa",
-      "sentence": "An Arduino library for an 18-pin RGB LCD Display",
-      "paragraph": "Interface directly with the RGB backlight pins on an 18-pin RGB LCD Display.",
+      "sentence": "An Arduino library for an 18-pin RGB LCD Display with optional LiquidCrystal integration",
+      "paragraph": "Interface directly with the RGB backlight pins on an 18-pin RGB LCD Display Module.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/felixthecat8a/LCD_BacklightRGB-1.7.1.zip",
-      "size": 20038,
-      "previous_version": "1.7.3",
+      "depends": [
+        "LiquidCrystal"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/felixthecat8a/LCD_BacklightRGB-1.8.1.zip",
+      "size": 18610,
+      "previous_version": "1.7.1",
       "github_stars": 3,
       "github_forks": 0,
-      "github_updated_at": "2026-06-22T17:06:02Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-22T17:06:02Z"
     },
     {
       "repository_name": "ZulNs/LCD_HD44780",
@@ -162596,16 +162607,20 @@
       "repository_name": "Matrix-Robotics/MatrixMiniR4",
       "repository_url": "https://github.com/Matrix-Robotics/MatrixMiniR4",
       "name": "MatrixMiniR4",
-      "version": "1.2.2",
+      "version": "1.2.4",
       "version_history": [
         {
           "version": "1.2.2",
           "seen_at": "2026-04-01T08:04:05Z"
+        },
+        {
+          "version": "1.2.4",
+          "seen_at": "2026-07-19T08:44:24.582Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-01T08:04:05Z",
-      "last_seen_sha": "71f706439694",
+      "last_seen_sha": "adefd67e6a3d",
       "author": "KKITC",
       "maintainer": "Matrix Robotics & KKITC <sales@kkitc.net>",
       "sentence": "An Arduino R4 based Robotics controller made by MATRIX Robotics.",
@@ -162614,15 +162629,17 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 9,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-14T01:12:12Z",
       "depends": [
         "ArduinoBLE",
         "PubSubClient"
       ],
-      "download_url": "https://github.com/Matrix-Robotics/MatrixMiniR4"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Matrix-Robotics/MatrixMiniR4-1.2.4.zip",
+      "size": 195460,
+      "previous_version": "1.2.2",
+      "github_stars": 9,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-14T01:12:12Z"
     },
     {
       "repository_name": "danidask/MatrizLed",
@@ -308394,6 +308411,6 @@
     "total_categories": 80,
     "total_architectures": 160,
     "with_github_metadata": 9487,
-    "total_dependencies": 5171
+    "total_dependencies": 5172
   }
 }

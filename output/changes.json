@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-19T07:01:06.283Z",
+  "since": "2026-07-19T08:44:24.582Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "7.7.0",
+        "version": "7.8.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -368,11 +368,15 @@
           {
             "version": "7.7.0",
             "seen_at": "2026-07-19T07:01:06.283Z"
+          },
+          {
+            "version": "7.8.0",
+            "seen_at": "2026-07-19T08:44:24.582Z"
           }
         ],
-        "release_count": 90,
+        "release_count": 91,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "d74af6148268",
+        "last_seen_sha": "bb503a570571",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -381,58 +385,103 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.7.0.zip",
-        "size": 18485167,
-        "previous_version": "7.6.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.8.0.zip",
+        "size": 18505235,
+        "previous_version": "7.7.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "7.6.0",
-      "new_version": "7.7.0"
+      "old_version": "7.7.0",
+      "new_version": "7.8.0"
     },
     {
       "library": {
-        "repository_name": "razkar-studio/stimeration",
-        "repository_url": "https://github.com/razkar-studio/stimeration",
-        "name": "Stimeration",
-        "version": "0.1.7",
+        "repository_name": "felixthecat8a/LCD_BacklightRGB",
+        "repository_url": "https://github.com/felixthecat8a/LCD_BacklightRGB",
+        "name": "LCD_BacklightRGB",
+        "version": "1.8.1",
         "version_history": [
           {
-            "version": "0.1.5",
-            "seen_at": "2026-07-13T14:56:44.658Z"
+            "version": "1.7.3",
+            "seen_at": "2026-06-23T08:48:40Z"
           },
           {
-            "version": "0.1.6",
-            "seen_at": "2026-07-17T12:22:56.831Z"
+            "version": "1.7.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
           },
           {
-            "version": "0.1.7",
-            "seen_at": "2026-07-19T07:01:06.283Z"
+            "version": "1.8.1",
+            "seen_at": "2026-07-19T08:44:24.582Z"
           }
         ],
         "release_count": 3,
-        "first_seen_at": "2026-07-13T14:56:44.658Z",
-        "last_seen_sha": "cff2564620ee",
-        "author": "RazkarStudio <razkar.studio@proton.me>",
-        "maintainer": "RazkarStudio <razkar.studio@proton.me>",
-        "sentence": "A simple yet powerful timer library that gives you stimulation",
-        "paragraph": "Provides repeating interval timers and one-shot triggers with millisecond and microsecond resolution, backed by millis() or micros(). Timers and triggers can be paused and resumed without losing track of elapsed time, and a stateless hasElapsed() helper is included for one-off checks that do not need a timer object. Header-only and template-based with no dynamic allocation, suited for AVR-class microcontrollers.",
-        "category": "Timing",
+        "first_seen_at": "2026-06-23T08:48:40Z",
+        "last_seen_sha": "776feed4ed13",
+        "author": "Felix Ochoa",
+        "maintainer": "Felix Ochoa",
+        "sentence": "An Arduino library for an 18-pin RGB LCD Display with optional LiquidCrystal integration",
+        "paragraph": "Interface directly with the RGB backlight pins on an 18-pin RGB LCD Display Module.",
+        "category": "Display",
         "architectures": [
-          "avr"
+          "*"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/razkar-studio/Stimeration-0.1.7.zip",
-        "size": 51235,
-        "previous_version": "0.1.6",
-        "github_stars": 1,
+        "depends": [
+          "LiquidCrystal"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/felixthecat8a/LCD_BacklightRGB-1.8.1.zip",
+        "size": 18610,
+        "previous_version": "1.7.1",
+        "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-07-13T10:07:52Z"
+        "github_updated_at": "2026-06-22T17:06:02Z"
       },
-      "old_version": "0.1.6",
-      "new_version": "0.1.7"
+      "old_version": "1.7.1",
+      "new_version": "1.8.1"
+    },
+    {
+      "library": {
+        "repository_name": "Matrix-Robotics/MatrixMiniR4",
+        "repository_url": "https://github.com/Matrix-Robotics/MatrixMiniR4",
+        "name": "MatrixMiniR4",
+        "version": "1.2.4",
+        "version_history": [
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-04-01T08:04:05Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-19T08:44:24.582Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-04-01T08:04:05Z",
+        "last_seen_sha": "adefd67e6a3d",
+        "author": "KKITC",
+        "maintainer": "Matrix Robotics & KKITC <sales@kkitc.net>",
+        "sentence": "An Arduino R4 based Robotics controller made by MATRIX Robotics.",
+        "paragraph": "The Matrix R4 integrates STM32 processing, compact 6-axis IMU Gyro and advanced motor contol, providing a versatile platform for quickly building Arduino-based robots. From simple line-followers to omni-directional platforms, it makes turning ideas into robots fast and easy.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "ArduinoBLE",
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Matrix-Robotics/MatrixMiniR4-1.2.4.zip",
+        "size": 195460,
+        "previous_version": "1.2.2",
+        "github_stars": 9,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-14T01:12:12Z"
+      },
+      "old_version": "1.2.2",
+      "new_version": "1.2.4"
     }
   ],
   "removed_libraries": []

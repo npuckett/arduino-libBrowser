@@ -1,13 +1,246 @@
 {
-  "since": "2026-07-19T02:59:45.686Z",
-  "new_libraries": [],
+  "since": "2026-07-19T04:14:05.638Z",
+  "new_libraries": [
+    {
+      "repository_name": "dunknowcoding/NiusAudio",
+      "repository_url": "https://github.com/dunknowcoding/NiusAudio",
+      "name": "NiusAudio",
+      "version": "0.3.1",
+      "version_history": [
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-07-19T04:14:05.638Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-19T04:14:05.638Z",
+      "last_seen_sha": "5762e3d7bda6",
+      "author": "NiusRobotLab",
+      "maintainer": "NiusRobotLab",
+      "sentence": "Arduino audio library for common codec, ADC, DAC, amplifier, microphone, and wireless audio modules.",
+      "paragraph": "Provides a clean Arduino style API and modular board drivers for common audio modules across ESP32 plus compile-safe RP2040, RP2350, nRF52, STM32, SAMD, Renesas, and AVR families.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusAudio-0.3.1.zip",
+      "size": 154445,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-19T01:35:29Z"
+    }
+  ],
   "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.77",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
+          },
+          {
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
+          },
+          {
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          },
+          {
+            "version": "1.2.40",
+            "seen_at": "2026-07-09T20:31:56.980Z"
+          },
+          {
+            "version": "1.2.41",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.2.43",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.45",
+            "seen_at": "2026-07-10T20:28:52.973Z"
+          },
+          {
+            "version": "1.2.47",
+            "seen_at": "2026-07-10T22:20:06.185Z"
+          },
+          {
+            "version": "1.2.51",
+            "seen_at": "2026-07-11T02:59:28.551Z"
+          },
+          {
+            "version": "1.2.54",
+            "seen_at": "2026-07-11T22:14:50.581Z"
+          },
+          {
+            "version": "1.2.55",
+            "seen_at": "2026-07-12T04:16:52.503Z"
+          },
+          {
+            "version": "1.2.58",
+            "seen_at": "2026-07-12T20:14:14.574Z"
+          },
+          {
+            "version": "1.2.59",
+            "seen_at": "2026-07-15T04:05:33.653Z"
+          },
+          {
+            "version": "1.2.60",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.2.61",
+            "seen_at": "2026-07-15T22:18:19.950Z"
+          },
+          {
+            "version": "1.2.63",
+            "seen_at": "2026-07-16T02:59:38.417Z"
+          },
+          {
+            "version": "1.2.64",
+            "seen_at": "2026-07-16T14:37:55.858Z"
+          },
+          {
+            "version": "1.2.67",
+            "seen_at": "2026-07-16T18:22:06.189Z"
+          },
+          {
+            "version": "1.2.68",
+            "seen_at": "2026-07-17T20:17:53.607Z"
+          },
+          {
+            "version": "1.2.69",
+            "seen_at": "2026-07-18T02:59:02.965Z"
+          },
+          {
+            "version": "1.2.72",
+            "seen_at": "2026-07-18T04:04:01.107Z"
+          },
+          {
+            "version": "1.2.74",
+            "seen_at": "2026-07-18T16:16:38.206Z"
+          },
+          {
+            "version": "1.2.75",
+            "seen_at": "2026-07-18T22:14:46.760Z"
+          },
+          {
+            "version": "1.2.76",
+            "seen_at": "2026-07-19T00:19:26.433Z"
+          },
+          {
+            "version": "1.2.77",
+            "seen_at": "2026-07-19T04:14:05.638Z"
+          }
+        ],
+        "release_count": 40,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "d267c8f0be29",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.77.zip",
+        "size": 43079552,
+        "previous_version": "1.2.76",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
+      },
+      "old_version": "1.2.76",
+      "new_version": "1.2.77"
+    },
     {
       "library": {
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "7.2.0",
+        "version": "7.6.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -360,11 +593,15 @@
           {
             "version": "7.2.0",
             "seen_at": "2026-07-19T02:59:45.686Z"
+          },
+          {
+            "version": "7.6.0",
+            "seen_at": "2026-07-19T04:14:05.638Z"
           }
         ],
-        "release_count": 88,
+        "release_count": 89,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "c62dbacf78a3",
+        "last_seen_sha": "5f68f8e4f940",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -373,54 +610,66 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.2.0.zip",
-        "size": 18389659,
-        "previous_version": "7.1.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.6.0.zip",
+        "size": 18460628,
+        "previous_version": "7.2.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "7.1.0",
-      "new_version": "7.2.0"
+      "old_version": "7.2.0",
+      "new_version": "7.6.0"
     },
     {
       "library": {
-        "repository_name": "dunknowcoding/NobroRTOS-Arduino",
-        "repository_url": "https://github.com/dunknowcoding/NobroRTOS-Arduino",
-        "name": "NobroRTOS",
-        "version": "0.3.2",
+        "repository_name": "owochel/MistMaker",
+        "repository_url": "https://github.com/owochel/MistMaker",
+        "name": "MistMaker",
+        "version": "2.2.0",
         "version_history": [
           {
-            "version": "0.3.1",
-            "seen_at": "2026-07-19T00:19:26.433Z"
+            "version": "1.1.0",
+            "seen_at": "2026-06-20T08:17:07Z"
           },
           {
-            "version": "0.3.2",
-            "seen_at": "2026-07-19T02:59:45.686Z"
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-03T20:23:13.146Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-07-18T16:16:38.206Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-07-19T04:14:05.638Z"
           }
         ],
-        "release_count": 2,
-        "first_seen_at": "2026-07-19T00:19:26.433Z",
-        "last_seen_sha": "7b78131a878f",
-        "author": "dunknowcoding",
-        "maintainer": "dunknowcoding",
-        "sentence": "Ultra-light embedded RTOS contracts for AI robotics, IoT, and intelligent control.",
-        "paragraph": "NobroRTOS provides stable C/C++ report bindings, host-readable diagnostics, and compatibility contracts over the Rust core workspace.",
-        "category": "Device Control",
+        "release_count": 5,
+        "first_seen_at": "2026-06-20T08:17:07Z",
+        "last_seen_sha": "1cfeeca10fb7",
+        "author": "shuang cai, David Yang",
+        "maintainer": "shuangcai64@gmail.com",
+        "sentence": "A library to control a mist maker under OSHWA ID US002742 with PWM, current sensing, and battery monitoring.",
+        "paragraph": "Encapsulates mist maker control functions: 108.7kHz PWM with dimming, piezo current sensing with auto/manual calibration, disc and water-level detection, battery voltage monitoring with USB-vs-cell power-source detection (mux status) and graceful low-battery shutdown, and pin presets for all official Programmable Mist Maker PCB variants (through Battery Kit V0.4.1, the July 2026 production board).",
+        "category": "Signal Input/Output",
         "architectures": [
-          "*"
+          "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NobroRTOS-0.3.2.zip",
-        "size": 32486,
-        "previous_version": "0.3.1",
-        "github_stars": 1,
-        "github_forks": 0,
-        "github_language": "C",
-        "github_updated_at": "2026-07-18T23:45:08Z"
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-2.2.0.zip",
+        "size": 50821,
+        "previous_version": "2.1.0",
+        "github_stars": 2,
+        "github_forks": 1,
+        "github_language": "JavaScript",
+        "github_updated_at": "2026-06-20T03:04:38Z"
       },
-      "old_version": "0.3.1",
-      "new_version": "0.3.2"
+      "old_version": "2.1.0",
+      "new_version": "2.2.0"
     }
   ],
   "removed_libraries": []

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-20T17:34:31.609Z",
+  "enhanced_at": "2026-07-20T18:35:37.620Z",
   "total_libraries": 9699,
-  "index_etag": "W/\"e9e8ba812d34e640290db79c617f98cc\"",
-  "index_last_modified": "Mon, 20 Jul 2026 17:29:12 GMT",
+  "index_etag": "W/\"edbd49d480ea258756ebd958b452723a\"",
+  "index_last_modified": "Mon, 20 Jul 2026 18:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -38848,30 +38848,36 @@
       "repository_name": "avisha95/AViShaMQTT",
       "repository_url": "https://github.com/avisha95/AViShaMQTT",
       "name": "AViShaMQTT",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-01-17T07:38:29Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-20T18:35:37.492Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-17T07:38:29Z",
-      "last_seen_sha": "bbd41a17caa1",
+      "last_seen_sha": "b83b7ae43324",
       "author": "Ajang Rahmat",
       "maintainer": "Ajang Rahmat <ajangrahmat@gmail.com>",
-      "sentence": "This library enables ESP devices to communicate using the MQTT protocol.",
-      "paragraph": "AViShaMQTT is a library designed to simplify the use of the MQTT protocol for ESP8266 and ESP32 devices. This library supports MQTT features such as publish and subscribe, Retain, QoS, and others. By using this library, developers can easily integrate their IoT devices with various MQTT brokers.",
+      "sentence": "MQTT library for ESP8266/ESP32 with auto-reconnect, state tracking, and bundled arduino-mqtt.",
+      "paragraph": "AViShaMQTT is a wrapper library for ESP8266 and ESP32 that simplifies MQTT communication. It supports publish, subscribe, Retain, QoS, Last Will, binary payloads, and TLS. Features include non-blocking connection with timeout, automatic WiFi and MQTT reconnection, and detailed connection state codes. The library comes bundled with arduino-mqtt (256dpi) — no additional dependencies required.",
       "category": "Communication",
       "architectures": [
-        "*"
+        "esp8266",
+        "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/avisha95/AViShaMQTT-1.1.0.zip",
+      "size": 52858,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-01-26T05:42:45Z",
-      "license": "GPL-3.0",
-      "download_url": "https://github.com/avisha95/AViShaMQTT"
+      "github_updated_at": "2026-01-26T05:42:45Z"
     },
     {
       "repository_name": "avisha95/AViShaOTA",
@@ -110705,16 +110711,20 @@
       "repository_name": "firmngin/Firmngin-Arduino",
       "repository_url": "https://github.com/firmngin/Firmngin-Arduino",
       "name": "firmngin",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-07-03T20:23:13.146Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-20T18:35:37.492Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-03T20:23:13.146Z",
-      "last_seen_sha": "cf8260e01c83",
+      "last_seen_sha": "e3bbdba90021",
       "author": "Asya Syarif <asya.syarif94@gmail.com>",
       "maintainer": "Asya Syarif <asya.syarif94@gmail.com>",
       "sentence": "Connect any IoT device to Firmngin and start earning",
@@ -110726,8 +110736,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmngin-1.0.2.zip",
-      "size": 105099,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmngin-1.1.0.zip",
+      "size": 112784,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",

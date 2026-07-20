@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-19T23:16:44.005Z",
+  "enhanced_at": "2026-07-20T00:21:03.643Z",
   "total_libraries": 9697,
-  "index_etag": "W/\"3af6cfac41587f6247d22c5bb3ebb951\"",
-  "index_last_modified": "Sun, 19 Jul 2026 22:59:11 GMT",
+  "index_etag": "W/\"e57f5ceafeb2a0f961222a5499b6b609\"",
+  "index_last_modified": "Sun, 19 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22754,7 +22754,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.79",
+      "version": "1.2.81",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22919,11 +22919,15 @@
         {
           "version": "1.2.79",
           "seen_at": "2026-07-19T18:15:30.629Z"
+        },
+        {
+          "version": "1.2.81",
+          "seen_at": "2026-07-20T00:21:03.509Z"
         }
       ],
-      "release_count": 41,
+      "release_count": 42,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "9f9f04aca321",
+      "last_seen_sha": "daaf07a38ab7",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22944,9 +22948,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.79.zip",
-      "size": 43079606,
-      "previous_version": "1.2.77",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.81.zip",
+      "size": 43529411,
+      "previous_version": "1.2.79",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -45448,29 +45452,35 @@
       "repository_name": "hen1227/bluetooth-serial",
       "repository_url": "https://github.com/hen1227/bluetooth-serial",
       "name": "BluetoothSerial",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2025-07-21T16:16:03Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-07-20T00:21:03.509Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:16:03Z",
-      "last_seen_sha": "1c7f1640ea47",
+      "last_seen_sha": "b71fb0901e9f",
       "author": "Henry Abrahamsen",
       "maintainer": "Henry Abrahamsen <henry@henhen1227.com>",
-      "sentence": "Handles the Bluetooth Serial connection to BluetoothSerial Connect iOS app.",
-      "paragraph": "\"This library handles the data formating, transmission and receiving with the BluetoothSerial Connect App. Download the iOS app at https://apps.apple.com/us/app/bluetooth-serial-connect/id6449396821\"",
-      "category": "Bluetooth Communication",
+      "sentence": "Handles typed Bluetooth serial communication with the Bluetooth Serial Connect iOS app.",
+      "paragraph": "Supports buttons, joysticks, sliders, toggles, D-Pads, displays, labels, indicators, gauges, alerts, and console messages. Works with a hardware UART or SoftwareSerial. Legacy protocol mode remains available for older app versions.",
+      "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hen1227/BluetoothSerial-2.0.0.zip",
+      "size": 29161,
+      "previous_version": "1.1.0",
       "github_stars": 22,
       "github_forks": 6,
       "github_language": "C++",
-      "github_updated_at": "2026-05-13T13:26:11Z",
-      "download_url": "https://github.com/hen1227/bluetooth-serial"
+      "github_updated_at": "2026-05-13T13:26:11Z"
     },
     {
       "repository_name": "loginov-rocks/BluetoothTerminal",
@@ -70696,7 +70706,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.11.0",
+      "version": "7.13.1",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71069,11 +71079,15 @@
         {
           "version": "7.11.0",
           "seen_at": "2026-07-19T22:15:44.385Z"
+        },
+        {
+          "version": "7.13.1",
+          "seen_at": "2026-07-20T00:21:03.509Z"
         }
       ],
-      "release_count": 93,
+      "release_count": 94,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "0805165cb4ae",
+      "last_seen_sha": "3e7c7b241823",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71082,9 +71096,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.11.0.zip",
-      "size": 18622790,
-      "previous_version": "7.10.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.13.1.zip",
+      "size": 18654053,
+      "previous_version": "7.11.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -308636,7 +308650,7 @@
     }
   ],
   "stats": {
-    "total_categories": 80,
+    "total_categories": 79,
     "total_architectures": 160,
     "with_github_metadata": 9494,
     "total_dependencies": 5172

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-20T05:11:06.757Z",
-  "total_libraries": 9697,
-  "index_etag": "W/\"ab3e7fdfe0d7afac4d5f5555d1d5b880\"",
-  "index_last_modified": "Mon, 20 Jul 2026 04:59:11 GMT",
+  "enhanced_at": "2026-07-20T06:59:06.917Z",
+  "total_libraries": 9698,
+  "index_etag": "W/\"323b8d548c494b38aa43af22a18c2ec6\"",
+  "index_last_modified": "Mon, 20 Jul 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70706,7 +70706,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.20.1",
+      "version": "7.22.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71091,11 +71091,15 @@
         {
           "version": "7.20.1",
           "seen_at": "2026-07-20T05:11:06.648Z"
+        },
+        {
+          "version": "7.22.0",
+          "seen_at": "2026-07-20T06:59:05.420Z"
         }
       ],
-      "release_count": 96,
+      "release_count": 97,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "8217fb8c9d90",
+      "last_seen_sha": "ffafc1eaa177",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71104,9 +71108,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.20.1.zip",
-      "size": 18826668,
-      "previous_version": "7.16.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.22.0.zip",
+      "size": 18853664,
+      "previous_version": "7.20.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -249042,6 +249046,35 @@
       "github_updated_at": "2024-02-10T17:46:08Z"
     },
     {
+      "repository_name": "LEKPCSTEAM/SmartFont",
+      "repository_url": "https://github.com/LEKPCSTEAM/SmartFont",
+      "name": "SmartFont",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-20T06:59:05.420Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-20T06:59:05.420Z",
+      "last_seen_sha": "4f468a8d7e0c",
+      "author": "LEKPCSTEAM",
+      "maintainer": "LEKPCSTEAM",
+      "sentence": "A smart font library for LED Matrix displays.",
+      "paragraph": "Supports UTF-8 and specialized text rendering for Thai language (vowels and tone marks). Refactored from dw_font.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LEKPCSTEAM/SmartFont-1.0.0.zip",
+      "size": 13549046,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-02-01T15:53:31Z"
+    },
+    {
       "repository_name": "lucweb/SmartLadderFirmware",
       "repository_url": "https://github.com/lucweb/SmartLadderFirmware",
       "name": "SmartLadder",
@@ -308660,7 +308693,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9494,
+    "with_github_metadata": 9495,
     "total_dependencies": 5172
   }
 }

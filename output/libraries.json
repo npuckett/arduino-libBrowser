@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-20T19:30:51.722Z",
-  "total_libraries": 9699,
-  "index_etag": "W/\"edbd49d480ea258756ebd958b452723a\"",
-  "index_last_modified": "Mon, 20 Jul 2026 19:29:12 GMT",
+  "enhanced_at": "2026-07-20T20:28:01.388Z",
+  "total_libraries": 9700,
+  "index_etag": "W/\"ae7904148f7d4815b506daa11c5c1c10\"",
+  "index_last_modified": "Mon, 20 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -38523,7 +38523,7 @@
       "repository_name": "TechTronicsEngineering/AutoPlex7",
       "repository_url": "https://github.com/TechTronicsEngineering/AutoPlex7",
       "name": "AutoPlex7",
-      "version": "2.3.2",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "2.1.1",
@@ -38540,11 +38540,15 @@
         {
           "version": "2.3.2",
           "seen_at": "2026-07-12T04:16:52.503Z"
+        },
+        {
+          "version": "3.0.1",
+          "seen_at": "2026-07-20T20:27:59.874Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-15T09:21:07Z",
-      "last_seen_sha": "1aa2f5c7c23c",
+      "last_seen_sha": "a665718d250e",
       "author": "Nyjah",
       "maintainer": "Nyjah",
       "sentence": "Control seven segment displays with ease.",
@@ -38553,9 +38557,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-2.3.2.zip",
-      "size": 16973,
-      "previous_version": "2.2.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-3.0.1.zip",
+      "size": 17353,
+      "previous_version": "2.3.2",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "C++",
@@ -225346,6 +225350,40 @@
       "github_updated_at": "2024-06-22T17:17:11Z"
     },
     {
+      "repository_name": "NotPamusa/RoboReach",
+      "repository_url": "https://github.com/NotPamusa/RoboReach",
+      "name": "RoboReach",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-20T20:27:59.874Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-20T20:27:59.874Z",
+      "last_seen_sha": "f9bc3d02b450",
+      "author": "Pamusa <pamusabs@gmail.com>",
+      "maintainer": "Pamusa <pamusabs@gmail.com>",
+      "sentence": "Control your RoboReach ROV submarine from the web.",
+      "paragraph": "Handles WiFi connection, WebSocket communication, and relay registration automatically. The motor board runs on an ESP32 or ESP8266, and the onboard ESP32-CAM streams video to the pilot page.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "WebSockets",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NotPamusa/RoboReach-1.1.0.zip",
+      "size": 31361,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-14T08:06:15Z"
+    },
+    {
       "repository_name": "dunknowcoding/RoboServo",
       "repository_url": "https://github.com/dunknowcoding/RoboServo",
       "name": "RoboServo",
@@ -308774,7 +308812,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9496,
-    "total_dependencies": 5172
+    "with_github_metadata": 9497,
+    "total_dependencies": 5174
   }
 }

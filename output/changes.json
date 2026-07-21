@@ -1,6 +1,49 @@
 {
-  "since": "2026-07-21T19:29:00.060Z",
+  "since": "2026-07-21T20:24:52.460Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ewpa/LibSSH-ESP32",
+        "repository_url": "https://github.com/ewpa/LibSSH-ESP32",
+        "name": "LibSSH-ESP32",
+        "version": "5.9.0",
+        "version_history": [
+          {
+            "version": "5.8.0",
+            "seen_at": "2026-06-12T08:41:33Z"
+          },
+          {
+            "version": "5.8.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "5.9.0",
+            "seen_at": "2026-07-21T20:24:52.460Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-12T08:41:33Z",
+        "last_seen_sha": "88a47a000501",
+        "author": "Ewan Parker",
+        "maintainer": "Ewan Parker",
+        "sentence": "SSH client and SSH server library for ESP32 based on libssh.",
+        "paragraph": "This is an ESP32/FreeRTOS port of the libssh.org SSH Library created originally for Linux, Unix or Windows.  Several examples are included, for example an SSH client, SSH server, SCP client, key generator, and over-the-air (OTA) flashing using SCP.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ewpa/LibSSH_ESP32-5.9.0.zip",
+        "size": 607418,
+        "previous_version": "5.8.0",
+        "github_stars": 367,
+        "github_forks": 52,
+        "github_language": "C",
+        "github_updated_at": "2026-06-20T13:16:54Z"
+      },
+      "old_version": "5.8.0",
+      "new_version": "5.9.0"
+    }
+  ],
   "removed_libraries": []
 }

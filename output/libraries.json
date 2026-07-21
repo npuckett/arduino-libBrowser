@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-21T09:47:39.465Z",
+  "enhanced_at": "2026-07-21T10:41:03.925Z",
   "total_libraries": 9700,
-  "index_etag": "W/\"9d05ba4c87c46a0577ca27a718da4235\"",
-  "index_last_modified": "Tue, 21 Jul 2026 09:29:12 GMT",
+  "index_etag": "W/\"589c4b2b2b0da66b1fadc626f78295ce\"",
+  "index_last_modified": "Tue, 21 Jul 2026 10:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -33717,7 +33717,7 @@
       "repository_name": "ESP32Async/AsyncTCP",
       "repository_url": "https://github.com/ESP32Async/AsyncTCP",
       "name": "Async TCP",
-      "version": "3.4.10",
+      "version": "3.5.0",
       "version_history": [
         {
           "version": "3.4.10",
@@ -33726,11 +33726,15 @@
         {
           "version": "3.4.10",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.5.0",
+          "seen_at": "2026-07-21T10:41:03.784Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-22T09:24:05Z",
-      "last_seen_sha": "68be99fc8013",
+      "last_seen_sha": "e3f5ef82495f",
       "author": "ESP32Async",
       "maintainer": "ESP32Async",
       "sentence": "Async TCP Library for ESP32",
@@ -33740,13 +33744,13 @@
         "*"
       ],
       "license": "LGPL-3.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.4.10.zip",
-      "size": 39214,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.5.0.zip",
+      "size": 39618,
       "previous_version": "3.4.10",
       "github_stars": 158,
       "github_forks": 45,
-      "github_updated_at": "2026-06-21T20:17:35Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-21T20:17:35Z"
     },
     {
       "repository_name": "DaniFoldi/Async_Operations",
@@ -70728,7 +70732,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.28.0",
+      "version": "7.28.4",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71137,11 +71141,15 @@
         {
           "version": "7.28.0",
           "seen_at": "2026-07-21T08:50:41.874Z"
+        },
+        {
+          "version": "7.28.4",
+          "seen_at": "2026-07-21T10:41:03.784Z"
         }
       ],
-      "release_count": 102,
+      "release_count": 103,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "9c4fe818c56c",
+      "last_seen_sha": "758f0c2f94ef",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71150,9 +71158,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.28.0.zip",
-      "size": 19003865,
-      "previous_version": "7.27.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.28.4.zip",
+      "size": 19025820,
+      "previous_version": "7.28.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -256842,7 +256850,7 @@
       "repository_name": "sparkfun/SparkFun_LG290P_GNSS_Arduino_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_LG290P_GNSS_Arduino_Library",
       "name": "SparkFun LG290P Quadband RTK GNSS Arduino Library",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "version_history": [
         {
           "version": "3.0.4",
@@ -256855,11 +256863,15 @@
         {
           "version": "3.1.0",
           "seen_at": "2026-07-20T08:05:51.377Z"
+        },
+        {
+          "version": "3.1.1",
+          "seen_at": "2026-07-21T10:41:03.784Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-20T08:44:38Z",
-      "last_seen_sha": "016f0c7454fa",
+      "last_seen_sha": "89c6d1263f7d",
       "author": "SparkFun Electronics",
       "maintainer": "SparkFun Electronics <sparkfun.com>",
       "sentence": "Library for Serial Communication and Configuration of the LG290P",
@@ -256875,9 +256887,9 @@
       "depends": [
         "SparkFun Extensible Message Parser"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_LG290P_Quadband_RTK_GNSS_Arduino_Library-3.1.0.zip",
-      "size": 217959,
-      "previous_version": "3.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_LG290P_Quadband_RTK_GNSS_Arduino_Library-3.1.1.zip",
+      "size": 223392,
+      "previous_version": "3.1.0",
       "github_stars": 4,
       "github_forks": 2,
       "github_language": "C++",

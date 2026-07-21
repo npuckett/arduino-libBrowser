@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-21T07:53:15.548Z",
+  "enhanced_at": "2026-07-21T08:50:41.999Z",
   "total_libraries": 9700,
-  "index_etag": "W/\"870af4a45ecca90a5972db8910939638\"",
-  "index_last_modified": "Tue, 21 Jul 2026 07:29:12 GMT",
+  "index_etag": "W/\"9d05ba4c87c46a0577ca27a718da4235\"",
+  "index_last_modified": "Tue, 21 Jul 2026 08:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70728,7 +70728,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.27.0",
+      "version": "7.28.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71133,11 +71133,15 @@
         {
           "version": "7.27.0",
           "seen_at": "2026-07-21T07:00:14.905Z"
+        },
+        {
+          "version": "7.28.0",
+          "seen_at": "2026-07-21T08:50:41.874Z"
         }
       ],
-      "release_count": 101,
+      "release_count": 102,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "48d4799d2c9b",
+      "last_seen_sha": "9c4fe818c56c",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71146,9 +71150,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.27.0.zip",
-      "size": 18997621,
-      "previous_version": "7.25.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.28.0.zip",
+      "size": 19003865,
+      "previous_version": "7.27.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -151120,7 +151124,7 @@
       "repository_name": "blah188/LionWifi",
       "repository_url": "https://github.com/blah188/LionWifi",
       "name": "LionWifi",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -151133,11 +151137,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-07-08T14:46:36.932Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-21T08:50:41.874Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "6a5dee8e6385",
+      "last_seen_sha": "c79f9dd6d6d6",
       "author": "leva <leva.the.lion@gmail.com>",
       "maintainer": "leva <leva.the.lion@gmail.com>",
       "sentence": "WiFi connection manager with ArduinoOTA, a web filesystem browser and a status page, for ESP8266 and ESP32.",
@@ -151154,9 +151162,9 @@
         "LionTask",
         "LionRtosTask"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionWifi-1.1.1.zip",
-      "size": 45100,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionWifi-1.2.0.zip",
+      "size": 48650,
+      "previous_version": "1.1.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -201838,16 +201846,20 @@
       "repository_name": "rei-vilo/PDLS_Basic",
       "repository_url": "https://github.com/rei-vilo/PDLS_Basic",
       "name": "PDLS_Basic",
-      "version": "10.0.7",
+      "version": "10.0.8",
       "version_history": [
         {
           "version": "10.0.7",
           "seen_at": "2026-06-09T08:39:46Z"
+        },
+        {
+          "version": "10.0.8",
+          "seen_at": "2026-07-21T08:50:41.874Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-09T08:39:46Z",
-      "last_seen_sha": "b6e62efe3e38",
+      "last_seen_sha": "df766d7a0189",
       "author": "Rei Vilo",
       "maintainer": "Rei Vilo",
       "sentence": "Library for Pervasive Displays iTC screens, extension boards and development kits",
@@ -201856,10 +201868,6 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 2,
-      "github_forks": 4,
-      "github_language": "C",
-      "github_updated_at": "2026-06-08T09:46:14Z",
       "depends": [
         "PDLS_Common",
         "Pervasive_Wide_Large",
@@ -201870,22 +201878,32 @@
         "Pervasive_BWRY_Small",
         "Pervasive_Touch_Small"
       ],
-      "download_url": "https://docs.pervasivedisplays.com/knowledge/"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.0.8.zip",
+      "size": 393232,
+      "previous_version": "10.0.7",
+      "github_stars": 2,
+      "github_forks": 4,
+      "github_language": "C",
+      "github_updated_at": "2026-06-08T09:46:14Z"
     },
     {
       "repository_name": "rei-vilo/PDLS_Common",
       "repository_url": "https://github.com/rei-vilo/PDLS_Common",
       "name": "PDLS_Common",
-      "version": "10.0.7",
+      "version": "10.0.8",
       "version_history": [
         {
           "version": "10.0.7",
           "seen_at": "2026-06-23T08:37:58Z"
+        },
+        {
+          "version": "10.0.8",
+          "seen_at": "2026-07-21T08:50:41.874Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-23T08:37:58Z",
-      "last_seen_sha": "9d61c21fac30",
+      "last_seen_sha": "72e9be0cf5f9",
       "author": "Rei Vilo",
       "maintainer": "Rei Vilo",
       "sentence": "Shared libraries including constants and utilities",
@@ -201894,11 +201912,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Common-10.0.8.zip",
+      "size": 56878,
+      "previous_version": "10.0.7",
       "github_stars": 0,
       "github_forks": 2,
-      "github_updated_at": "2026-06-22T15:41:01Z",
-      "download_url": "https://docs.pervasivedisplays.com/knowledge/",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-22T15:41:01Z"
     },
     {
       "repository_name": "rei-vilo/PDLS_EXT3_Basic_Fast",

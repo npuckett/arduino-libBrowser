@@ -1,5 +1,5 @@
 {
-  "since": "2026-07-21T02:59:47.173Z",
+  "since": "2026-07-21T04:08:37.178Z",
   "new_libraries": [],
   "updated_libraries": [
     {
@@ -7,7 +7,7 @@
         "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
         "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
         "name": "DeterministicESPAsyncWebServer",
-        "version": "7.24.0",
+        "version": "7.25.0",
         "version_history": [
           {
             "version": "4.64.1",
@@ -404,11 +404,15 @@
           {
             "version": "7.24.0",
             "seen_at": "2026-07-21T02:59:47.173Z"
+          },
+          {
+            "version": "7.25.0",
+            "seen_at": "2026-07-21T04:08:37.178Z"
           }
         ],
-        "release_count": 99,
+        "release_count": 100,
         "first_seen_at": "2026-06-30T09:01:40Z",
-        "last_seen_sha": "ca0d0cf3cb2c",
+        "last_seen_sha": "1667a6e7e4f4",
         "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
         "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -417,110 +421,16 @@
         "architectures": [
           "esp32"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.24.0.zip",
-        "size": 18942831,
-        "previous_version": "7.23.1",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.25.0.zip",
+        "size": 18980988,
+        "previous_version": "7.24.0",
         "github_stars": 3,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-07-02T06:46:32Z"
       },
-      "old_version": "7.23.1",
-      "new_version": "7.24.0"
-    },
-    {
-      "library": {
-        "repository_name": "deftio/fr_math",
-        "repository_url": "https://github.com/deftio/fr_math",
-        "name": "FR_Math",
-        "version": "2.0.9",
-        "version_history": [
-          {
-            "version": "2.0.8",
-            "seen_at": "2026-06-03T09:17:29Z"
-          },
-          {
-            "version": "2.0.9",
-            "seen_at": "2026-07-21T02:59:47.173Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-03T09:17:29Z",
-        "last_seen_sha": "a5de622bbbc1",
-        "author": "M. A. Chatterjee <deftio@deftio.com>",
-        "maintainer": "M. A. Chatterjee <deftio@deftio.com>",
-        "sentence": "Compact fixed-point math library for embedded systems. 4KB flash, zero dependencies, any radix.",
-        "paragraph": "Integer-only fixed-point math with caller-selectable binary point. Provides trig (sin, cos, tan, atan2), log/exp, sqrt, hypot, wave generators (sqr, tri, saw, pwm, noise), ADSR envelope, and 2D transforms. Pure C (C99), works on AVR, ESP32, RP2040, Cortex-M, RISC-V, MSP430, and any board with a C compiler. No floating-point hardware or libraries required.",
-        "category": "Other",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/deftio/FR_Math-2.0.9.zip",
-        "size": 613388,
-        "previous_version": "2.0.8",
-        "github_stars": 36,
-        "github_forks": 5,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-03T03:14:42Z"
-      },
-      "old_version": "2.0.8",
-      "new_version": "2.0.9"
-    },
-    {
-      "library": {
-        "repository_name": "codewitch-honey-crisis/gfx",
-        "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
-        "name": "htcw_gfx",
-        "version": "2.4.1",
-        "version_history": [
-          {
-            "version": "2.2.17",
-            "seen_at": "2026-04-18T08:09:23Z"
-          },
-          {
-            "version": "2.3.1",
-            "seen_at": "2026-07-11T04:07:11.266Z"
-          },
-          {
-            "version": "2.3.3",
-            "seen_at": "2026-07-16T12:28:21.727Z"
-          },
-          {
-            "version": "2.4.0",
-            "seen_at": "2026-07-21T00:20:47.426Z"
-          },
-          {
-            "version": "2.4.1",
-            "seen_at": "2026-07-21T02:59:47.173Z"
-          }
-        ],
-        "release_count": 5,
-        "first_seen_at": "2026-04-18T08:09:23Z",
-        "last_seen_sha": "680c6dde12df",
-        "author": "honey the codewitch",
-        "maintainer": "honey the codewitch",
-        "sentence": "Provides cross platform graphics",
-        "paragraph": "Provides cross platform graphics functionality",
-        "category": "Display",
-        "architectures": [
-          "*"
-        ],
-        "depends": [
-          "htcw_bits",
-          "htcw_io",
-          "htcw_ml",
-          "htcw_data"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.4.1.zip",
-        "size": 896877,
-        "previous_version": "2.4.0",
-        "github_stars": 140,
-        "github_forks": 9,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-05T04:00:50Z"
-      },
-      "old_version": "2.4.0",
-      "new_version": "2.4.1"
+      "old_version": "7.24.0",
+      "new_version": "7.25.0"
     }
   ],
   "removed_libraries": []

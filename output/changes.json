@@ -1,6 +1,75 @@
 {
-  "since": "2026-07-21T13:30:31.453Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-21T14:39:02.911Z",
+  "new_libraries": [
+    {
+      "repository_name": "RANINDRAM123/TameModbus",
+      "repository_url": "https://github.com/RANINDRAM123/TameModbus",
+      "name": "TameModbus",
+      "version": "0.4.0",
+      "version_history": [
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-21T14:39:02.911Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-21T14:39:02.911Z",
+      "last_seen_sha": "8725a16a5946",
+      "author": "Ranindram Dutta",
+      "maintainer": "RANINDRAM123",
+      "sentence": "Minimal Modbus RTU master with a tunable, non-blocking response wait.",
+      "paragraph": "Lightweight, dependency-free Modbus RTU master for reading holding registers over RS-232/RS-485. Configurable timeout and retries, CRC and frame validation, Modbus exception decoding, and selectable 32-bit word order. Works with any Modbus RTU slave device and any Arduino-compatible board. See examples/ for a guided walkthrough.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RANINDRAM123/TameModbus-0.4.0.zip",
+      "size": 18615,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-21T10:10:36Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "codezoo-ltd/arduino-ME310G1-library",
+        "repository_url": "https://github.com/codezoo-ltd/arduino-ME310G1-library",
+        "name": "ME310G1",
+        "version": "0.1.13",
+        "version_history": [
+          {
+            "version": "0.1.12",
+            "seen_at": "2026-06-26T08:52:18Z"
+          },
+          {
+            "version": "0.1.13",
+            "seen_at": "2026-07-21T14:39:02.911Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-26T08:52:18Z",
+        "last_seen_sha": "e3fd806f6147",
+        "author": "CodeZoo",
+        "maintainer": "Rooney <rooney.jang@codezoo.co.kr>",
+        "sentence": "Allows communication with ME310G1 Telit module.",
+        "paragraph": "This library allows an Arduino UNO R4 board to control ME310G1 Telit module.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/ME310G1-0.1.13.zip",
+        "size": 2287453,
+        "previous_version": "0.1.12",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-25T11:38:50Z"
+      },
+      "old_version": "0.1.12",
+      "new_version": "0.1.13"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-22T06:55:21.386Z",
+  "enhanced_at": "2026-07-22T06:57:44.804Z",
   "total_libraries": 9703,
-  "index_etag": "",
-  "index_last_modified": "",
+  "index_etag": "W/\"be8f2368f7df1358b49c1fadf55fdd8d\"",
+  "index_last_modified": "Wed, 22 Jul 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40159,20 +40159,24 @@
       "repository_name": "vedacool/Arduino-Azure-IoT-Central",
       "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
       "name": "AzureIoT",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-22T04:09:16.672Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-07-22T06:57:44.678Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-22T04:09:16.672Z",
-      "last_seen_sha": "5925e345c3d4",
+      "last_seen_sha": "8eeb8e79af7d",
       "author": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
       "maintainer": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
       "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
-      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard. See the 20 included examples, ordered easiest to hardest.",
+      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 21 included examples, ordered easiest to hardest.",
       "category": "Communication",
       "architectures": [
         "megaavr",
@@ -40182,8 +40186,9 @@
         "WiFiNINA",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.0.0.zip",
-      "size": 110277,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.1.1.zip",
+      "size": 122486,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -103352,7 +103357,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "version_history": [
         {
           "version": "2.0.1",
@@ -103393,11 +103398,15 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-07-18T14:24:01.283Z"
+        },
+        {
+          "version": "2.4.1",
+          "seen_at": "2026-07-22T06:57:44.678Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "a32eb7733835",
+      "last_seen_sha": "44e307165c8f",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "This is a library for using USB Host with ESP32.",
@@ -103406,9 +103415,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.4.0.zip",
-      "size": 702914,
-      "previous_version": "2.3.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.4.1.zip",
+      "size": 711884,
+      "previous_version": "2.4.0",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",

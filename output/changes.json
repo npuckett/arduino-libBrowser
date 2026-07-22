@@ -1,6 +1,75 @@
 {
-  "since": "2026-07-22T21:22:49.793Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-22T22:19:44.061Z",
+  "new_libraries": [
+    {
+      "repository_name": "cmoz/CMozGlow",
+      "repository_url": "https://github.com/cmoz/CMozGlow",
+      "name": "CMozGlow",
+      "version": "1.2.1",
+      "version_history": [
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-22T22:19:44.061Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-22T22:19:44.061Z",
+      "last_seen_sha": "7a866444dc01",
+      "author": "TinkerTailor.ca (CMozMaker)",
+      "maintainer": "TinkerTailor.ca <hello@tinkertailor.ca>",
+      "sentence": "Beginner-friendly WS2812B/NeoPixel library for ESP32 boards with plain-English error handling and wearable power budgeting.",
+      "paragraph": "Works on ESP32-S3, S2, C3 and the classic ESP32. Non-blocking fashion-tech effects (Sequin, Catwalk, Loom, Silk, Aurora, Heartbeat, Firefly, Ember, Morse messenger), automatic current limiting for battery safety, a live status pixel, async RMT engine, and optional dual-core AutoPilot mode. Onboard pixel on GPIO 3 for the CMoz ESP32-S3 Mini; any valid pin on other boards.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cmoz/CMozGlow-1.2.1.zip",
+      "size": 30168,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-22T19:37:12Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "David-Vandensteen/dv-iir-filter8",
+        "repository_url": "https://github.com/David-Vandensteen/dv-iir-filter8",
+        "name": "dv_iir_filter8",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-22T18:22:57.152Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-22T22:19:44.061Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-22T18:22:57.152Z",
+        "last_seen_sha": "85685afa54a3",
+        "author": "David Vandensteen",
+        "maintainer": "David Vandensteen <dvandensteen@gmail.com>",
+        "sentence": "8-bit IIR filter API with fixed-point internal processing.",
+        "paragraph": "IIR filter for smoothing 8-bit data using progressive linear interpolation.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/David-Vandensteen/dv_iir_filter8-1.0.1.zip",
+        "size": 188860,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-22T15:24:04Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

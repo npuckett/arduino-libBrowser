@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-22T17:28:18.330Z",
-  "total_libraries": 9705,
-  "index_etag": "W/\"a10937ee03aebd497a09164831b08b17\"",
-  "index_last_modified": "Wed, 22 Jul 2026 16:59:12 GMT",
+  "enhanced_at": "2026-07-22T18:22:58.723Z",
+  "total_libraries": 9706,
+  "index_etag": "W/\"31e2a34bc05a7a78317f80a864a01a59\"",
+  "index_last_modified": "Wed, 22 Jul 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -83451,6 +83451,35 @@
       "github_language": "C++",
       "github_updated_at": "2020-02-21T04:19:14Z",
       "download_url": "https://github.com/ekkai/PMD4"
+    },
+    {
+      "repository_name": "David-Vandensteen/dv-iir-filter8",
+      "repository_url": "https://github.com/David-Vandensteen/dv-iir-filter8",
+      "name": "dv_iir_filter8",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-22T18:22:57.152Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-22T18:22:57.152Z",
+      "last_seen_sha": "a209e0f1169f",
+      "author": "David Vandensteen",
+      "maintainer": "David Vandensteen <dvandensteen@gmail.com>",
+      "sentence": "8-bit IIR filter API with fixed-point internal processing.",
+      "paragraph": "IIR filter for smoothing 8-bit data using progressive linear interpolation.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/David-Vandensteen/dv_iir_filter8-1.0.0.zip",
+      "size": 188843,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-22T15:24:04Z"
     },
     {
       "repository_name": "David-Vandensteen/dv-led-blink",
@@ -299490,7 +299519,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.9",
+      "version": "1.9.10",
       "version_history": [
         {
           "version": "1.6.0",
@@ -299535,11 +299564,15 @@
         {
           "version": "1.9.9",
           "seen_at": "2026-07-22T16:28:03.808Z"
+        },
+        {
+          "version": "1.9.10",
+          "seen_at": "2026-07-22T18:22:57.152Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "0021ba73f3a7",
+      "last_seen_sha": "37d511c42372",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -299548,9 +299581,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.9.zip",
-      "size": 101631,
-      "previous_version": "1.9.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.10.zip",
+      "size": 102078,
+      "previous_version": "1.9.9",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -309167,7 +309200,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9502,
+    "with_github_metadata": 9503,
     "total_dependencies": 5175
   }
 }

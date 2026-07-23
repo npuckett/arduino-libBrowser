@@ -1,6 +1,135 @@
 {
-  "since": "2026-07-23T05:58:37.087Z",
+  "since": "2026-07-23T07:00:53.647Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "vedacool/Arduino-Azure-IoT-Central",
+        "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
+        "name": "AzureIoT",
+        "version": "1.2.6",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-22T04:09:16.672Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-22T06:57:44.678Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-22T08:50:10.060Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-23T04:08:17.998Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-07-23T07:00:53.647Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-07-22T04:09:16.672Z",
+        "last_seen_sha": "8e1c7705279d",
+        "author": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
+        "maintainer": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
+        "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
+        "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 21 included examples, ordered easiest to hardest.",
+        "category": "Communication",
+        "architectures": [
+          "megaavr",
+          "esp32"
+        ],
+        "depends": [
+          "WiFiNINA",
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.6.zip",
+        "size": 129550,
+        "previous_version": "1.2.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-22T03:59:50Z"
+      },
+      "old_version": "1.2.4",
+      "new_version": "1.2.6"
+    },
+    {
+      "library": {
+        "repository_name": "Gigasitron-xcross/XC_GUI",
+        "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
+        "name": "XC_GUI",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-02T05:16:29.476Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-02T12:35:31.229Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-02T16:32:49.876Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-03T03:00:23.932Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-07-03T05:15:13.646Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-07-04T06:56:43.040Z"
+          },
+          {
+            "version": "1.0.8",
+            "seen_at": "2026-07-04T09:00:23.750Z"
+          },
+          {
+            "version": "1.0.9",
+            "seen_at": "2026-07-07T07:06:33.969Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-09T12:05:14.783Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-23T07:00:53.647Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-07-02T05:16:29.476Z",
+        "last_seen_sha": "ab781623c76c",
+        "author": "Gigasitron Xcross",
+        "maintainer": "Gigasitron <inquiry@gigasitron.com>",
+        "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
+        "paragraph": "Fast embedded graphics primitives for TFT, OLED, memory LCD, and pixel displays. Includes lines, rectangles, circles, text, bitmap rendering, and buffered drawing without a widget system.",
+        "category": "Display",
+        "architectures": [
+          "stm32",
+          "rp2040",
+          "esp32",
+          "samd"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.1.zip",
+        "size": 1538402,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-07-02T02:49:37Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    }
+  ],
   "removed_libraries": []
 }

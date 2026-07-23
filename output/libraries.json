@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-23T21:22:23.162Z",
-  "total_libraries": 9711,
-  "index_etag": "W/\"674586b38222e77fa2fc9caa9bb39592\"",
-  "index_last_modified": "Thu, 23 Jul 2026 20:59:12 GMT",
+  "enhanced_at": "2026-07-23T22:19:10.116Z",
+  "total_libraries": 9712,
+  "index_etag": "W/\"46ade83841b9ad76a6efde2e976aad45\"",
+  "index_last_modified": "Thu, 23 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -128907,7 +128907,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.4.6",
+      "version": "2.4.8",
       "version_history": [
         {
           "version": "2.2.17",
@@ -128944,11 +128944,15 @@
         {
           "version": "2.4.6",
           "seen_at": "2026-07-23T20:21:35.524Z"
+        },
+        {
+          "version": "2.4.8",
+          "seen_at": "2026-07-23T22:19:08.578Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "acf758b13be1",
+      "last_seen_sha": "4e0522a55d00",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -128963,9 +128967,9 @@
         "htcw_ml",
         "htcw_data"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.4.6.zip",
-      "size": 898165,
-      "previous_version": "2.4.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.4.8.zip",
+      "size": 898984,
+      "previous_version": "2.4.6",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -184674,6 +184678,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-02-19T18:24:17Z"
+    },
+    {
+      "repository_name": "GyverLibs/MultiServo",
+      "repository_url": "https://github.com/GyverLibs/MultiServo",
+      "name": "MultiServo",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-23T22:19:08.578Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-23T22:19:08.578Z",
+      "last_seen_sha": "c3a1823e28f6",
+      "author": "AlexGyver <alex@alexgyver.ru>",
+      "maintainer": "AlexGyver <alex@alexgyver.ru>",
+      "sentence": "Library for controlling multichannel servo drivers like PCA9685",
+      "paragraph": "Library for controlling multichannel servo drivers like PCA9685",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/MultiServo-1.0.0.zip",
+      "size": 10023,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-23T19:37:59Z"
     },
     {
       "repository_name": "gunakkoc/MultiStepperLite",
@@ -309453,7 +309486,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9508,
+    "with_github_metadata": 9509,
     "total_dependencies": 5174
   }
 }

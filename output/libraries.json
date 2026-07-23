@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-23T13:31:12.172Z",
-  "total_libraries": 9709,
-  "index_etag": "W/\"7a8b4fa2ee5f7052dd2a8bec2dda187f\"",
-  "index_last_modified": "Thu, 23 Jul 2026 13:29:12 GMT",
+  "enhanced_at": "2026-07-23T14:43:09.844Z",
+  "total_libraries": 9710,
+  "index_etag": "W/\"f548101569ddf96513814dc9ebc6ed03\"",
+  "index_last_modified": "Thu, 23 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -31508,16 +31508,20 @@
       "repository_name": "teamprof/arduprof",
       "repository_url": "https://github.com/teamprof/arduprof",
       "name": "ArduProf",
-      "version": "2.3.2",
+      "version": "2.4.1",
       "version_history": [
         {
           "version": "2.3.2",
           "seen_at": "2026-05-25T09:07:03Z"
+        },
+        {
+          "version": "2.4.1",
+          "seen_at": "2026-07-23T14:43:07.592Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-25T09:07:03Z",
-      "last_seen_sha": "5a13c2eeb9b8",
+      "last_seen_sha": "b17640aae256",
       "author": "Team Professional",
       "maintainer": "Team Professional <teamprof.net@gmail.com>",
       "sentence": "A thin layer framework for developer to code inter-task communication by an event driven method, running on different RTOS.",
@@ -31528,15 +31532,17 @@
         "mbed_rp2040",
         "rp2040"
       ],
-      "github_stars": 3,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-23T12:47:19Z",
       "depends": [
         "DebugLog",
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/teamprof/arduprof"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/teamprof/ArduProf-2.4.1.zip",
+      "size": 388585,
+      "previous_version": "2.3.2",
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-23T12:47:19Z"
     },
     {
       "repository_name": "pkyanam/ArduRoomba",
@@ -246320,6 +246326,35 @@
       "download_url": "https://github.com/Toernblom/SimpleWiFiClient"
     },
     {
+      "repository_name": "mvoss96/SimpleWifiManager",
+      "repository_url": "https://github.com/mvoss96/SimpleWifiManager",
+      "name": "SimpleWifiManager",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-23T14:43:07.592Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-23T14:43:07.592Z",
+      "last_seen_sha": "4e2c20a10075",
+      "author": "Marcus Voss",
+      "maintainer": "Marcus Voss",
+      "sentence": "Simple Captive portal Wi-Fi manager for ESP32 using the Arduino framework.",
+      "paragraph": "Provides ESP32 access point fallback, captive portal UI, Preferences-backed credential storage, and automatic reconnect handling for embedded Wi-Fi projects.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/SimpleWifiManager-0.2.0.zip",
+      "size": 52579,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-23T14:22:06Z"
+    },
+    {
       "repository_name": "Esslangamer20/SimpleWiFiManager",
       "repository_url": "https://github.com/Esslangamer20/SimpleWifiManager",
       "name": "SimpleWiFiManager",
@@ -251549,7 +251584,7 @@
       "repository_name": "GyverLibs/SoftServo",
       "repository_url": "https://github.com/GyverLibs/SoftServo",
       "name": "SoftServo",
-      "version": "2.0.3",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.2",
@@ -251566,11 +251601,15 @@
         {
           "version": "2.0.3",
           "seen_at": "2026-07-23T12:29:28.524Z"
+        },
+        {
+          "version": "2.0.5",
+          "seen_at": "2026-07-23T14:43:07.592Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-07-21T16:15:49Z",
-      "last_seen_sha": "a3cb602514ff",
+      "last_seen_sha": "73de325acb9b",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for software servo motor control",
@@ -251579,9 +251618,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/SoftServo-2.0.3.zip",
-      "size": 10671,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/SoftServo-2.0.5.zip",
+      "size": 10553,
+      "previous_version": "2.0.3",
       "github_stars": 13,
       "github_forks": 2,
       "github_language": "C++",
@@ -309364,7 +309403,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9506,
+    "with_github_metadata": 9507,
     "total_dependencies": 5174
   }
 }

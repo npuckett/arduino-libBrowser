@@ -1,6 +1,217 @@
 {
-  "since": "2026-07-23T11:35:18.602Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-23T12:29:28.524Z",
+  "new_libraries": [
+    {
+      "repository_name": "mvoss96/bthome-cpp",
+      "repository_url": "https://github.com/mvoss96/bthome-cpp",
+      "name": "bthome-cpp",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-07-23T12:29:28.524Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-23T12:29:28.524Z",
+      "last_seen_sha": "a8e55eac9bf0",
+      "author": "mvoss96",
+      "maintainer": "mvoss96",
+      "sentence": "Dependency-free C++17 BTHome v2 advertisement payload builder.",
+      "paragraph": "Builds BTHome v2 service-data bytes only (no BLE stack). No heap, no exceptions, no RTTI. Supports AES-CCM encryption with pluggable crypto backends (mbedtls and PSA adapters included). Think in sensor values; the library handles object IDs, scaling, endianness and canonical ordering. Pair with any BLE stack.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/bthome_cpp-0.3.0.zip",
+      "size": 53649,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-23T10:12:40Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_GigaDisplay_GFX",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_GigaDisplay_GFX",
+        "name": "Arduino_GigaDisplay_GFX",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2025-07-21T16:07:48Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:07:48Z",
+        "last_seen_sha": "96099286b657",
+        "author": "Arduino",
+        "maintainer": "Arduino <info@arduino.cc>",
+        "sentence": "GFX library for GIGA Display Shield",
+        "category": "Display",
+        "architectures": [
+          "mbed_giga",
+          "zephyr_main"
+        ],
+        "depends": [
+          "Adafruit GFX Library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_GigaDisplay_GFX-1.2.0.zip",
+        "size": 13351,
+        "previous_version": "1.1.0",
+        "github_stars": 9,
+        "github_forks": 6,
+        "github_language": "C++",
+        "github_updated_at": "2025-10-21T21:02:12Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkManager",
+        "repository_url": "https://github.com/soosp/NetworkManager",
+        "name": "NetworkManager",
+        "version": "0.1.2",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "1d260a2b6575",
+        "author": "Péter Soós <https://github.com/soosp>",
+        "maintainer": "Péter Soós <https://github.com/soosp>",
+        "sentence": "Priority-based network connection manager with automatic fallback.",
+        "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "depends": [
+          "Host",
+          "NetworkProfile",
+          "Preferences",
+          "EEPROMPreferences",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.1.2.zip",
+        "size": 115241,
+        "previous_version": "0.1.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T15:01:40Z"
+      },
+      "old_version": "0.1.1",
+      "new_version": "0.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "GyverLibs/SoftServo",
+        "repository_url": "https://github.com/GyverLibs/SoftServo",
+        "name": "SoftServo",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "1.2",
+            "seen_at": "2025-07-21T16:15:49Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-07-01T20:32:34.966Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:15:49Z",
+        "last_seen_sha": "a3cb602514ff",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Library for software servo motor control",
+        "paragraph": "Library for software servo motor control",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/SoftServo-2.0.3.zip",
+        "size": 10671,
+        "previous_version": "2.0.2",
+        "github_stars": 13,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T18:00:26Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/statHelpers",
+        "repository_url": "https://github.com/RobTillaart/statHelpers",
+        "name": "statHelpers",
+        "version": "0.2.3",
+        "version_history": [
+          {
+            "version": "0.2.1",
+            "seen_at": "2025-07-21T16:28:10Z"
+          },
+          {
+            "version": "0.2.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.2.3",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:28:10Z",
+        "last_seen_sha": "ff5ee7703763",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library with a number of statistic helper functions.",
+        "paragraph": "permutation, next permutation, nth permutation, combination, factorial, n over k, n out of k. Experimental big numbers.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/statHelpers-0.2.3.zip",
+        "size": 30201,
+        "previous_version": "0.2.2",
+        "github_stars": 6,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-28T13:29:35Z"
+      },
+      "old_version": "0.2.2",
+      "new_version": "0.2.3"
+    }
+  ],
   "removed_libraries": []
 }

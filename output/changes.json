@@ -1,6 +1,141 @@
 {
-  "since": "2026-07-23T17:28:31.405Z",
+  "since": "2026-07-23T18:23:57.547Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "devjune-apiota/apiota-esp32",
+        "repository_url": "https://github.com/devjune-apiota/apiota-esp32",
+        "name": "APIOTA",
+        "version": "1.4.4",
+        "version_history": [
+          {
+            "version": "1.4.2",
+            "seen_at": "2026-06-29T09:21:21Z"
+          },
+          {
+            "version": "1.4.3",
+            "seen_at": "2026-07-02T07:02:30.220Z"
+          },
+          {
+            "version": "1.4.4",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T09:21:21Z",
+        "last_seen_sha": "ca5c19f2938b",
+        "author": "APIOTA <support@apiota.net>",
+        "maintainer": "APIOTA <support@apiota.net>",
+        "sentence": "ESP32 OTA Update + Device Provisioning + Command Polling via apiota.net",
+        "paragraph": "Header-only library for secure OTA firmware updates with RSA-2048 signature verification, SHA-256 checksum, device provisioning, long-poll command queue, and NVS credential storage. Works with any ESP32 board.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/devjune-apiota/APIOTA-1.4.4.zip",
+        "size": 63127,
+        "previous_version": "1.4.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T05:17:49Z"
+      },
+      "old_version": "1.4.3",
+      "new_version": "1.4.4"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkProfile",
+        "repository_url": "https://github.com/soosp/NetworkProfile",
+        "name": "NetworkProfile",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "50e3d18d4d89",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+        "paragraph": "Provides WiFiProfile and EthProfile classes for managing network configuration (DHCP/static IP, DNS, NTP, hostname, MAC address) with thread-safe access, persistent storage via Preferences, and JSON serialisation. Supports interface priority for fallback scenarios (e.g. ETH → WiFi). Depends on the Host library.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "depends": [
+          "Host",
+          "EEPROMPreferences",
+          "Preferences"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.3.0.zip",
+        "size": 40560,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T14:26:58Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "almtzr/PedroRobot",
+        "repository_url": "https://github.com/almtzr/PedroRobot",
+        "name": "PedroRobot",
+        "version": "1.0.4",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-01-02T21:40:44Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T21:40:44Z",
+        "last_seen_sha": "189f40b2918d",
+        "author": "Almtzr",
+        "maintainer": "Almtzr",
+        "sentence": "Library for controlling Pedro Robot with multiple modes (radio, bluetooth, playback, usb).",
+        "paragraph": "Enables easy use of Pedro Robot with NRF24L01, OLED, HC-05 and Servo motors.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/almtzr/PedroRobot-1.0.4.zip",
+        "size": 731008,
+        "previous_version": "1.0.3",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-23T12:58:54Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.0.4"
+    }
+  ],
   "removed_libraries": []
 }

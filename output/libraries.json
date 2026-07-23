@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-23T15:36:59.800Z",
-  "total_libraries": 9710,
-  "index_etag": "W/\"f548101569ddf96513814dc9ebc6ed03\"",
-  "index_last_modified": "Thu, 23 Jul 2026 15:29:12 GMT",
+  "enhanced_at": "2026-07-23T16:29:33.236Z",
+  "total_libraries": 9711,
+  "index_etag": "W/\"25262889eb365284d92e87e65633ae89\"",
+  "index_last_modified": "Thu, 23 Jul 2026 16:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60733,16 +60733,20 @@
       "repository_name": "cmoz/CMozGlow",
       "repository_url": "https://github.com/cmoz/CMozGlow",
       "name": "CMozGlow",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.2.1",
           "seen_at": "2026-07-22T22:19:44.061Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-07-23T16:29:31.735Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-22T22:19:44.061Z",
-      "last_seen_sha": "7a866444dc01",
+      "last_seen_sha": "3c9a0f10566c",
       "author": "TinkerTailor.ca (CMozMaker)",
       "maintainer": "TinkerTailor.ca <hello@tinkertailor.ca>",
       "sentence": "Beginner-friendly WS2812B/NeoPixel library for ESP32 boards with plain-English error handling and wearable power budgeting.",
@@ -60751,8 +60755,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/cmoz/CMozGlow-1.2.1.zip",
-      "size": 30168,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cmoz/CMozGlow-1.2.2.zip",
+      "size": 33016,
+      "previous_version": "1.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -253340,6 +253345,35 @@
       "github_updated_at": "2026-02-14T21:47:02Z"
     },
     {
+      "repository_name": "SolderedElectronics/Soldered-PCA9685-PWM-Servo-Driver-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/Soldered-PCA9685-PWM-Servo-Driver-Arduino-Library",
+      "name": "Soldered PCA9685 PWM Servo Driver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-23T16:29:31.735Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-23T16:29:31.735Z",
+      "last_seen_sha": "c3f1d0347ec4",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Library for the Soldered PCA9685 16-channel 12-bit PWM/Servo driver breakout board.",
+      "paragraph": "Set raw PWM values or drive hobby servos by angle on all 16 channels over I2C.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_PCA9685_PWM_Servo_Driver-1.0.0.zip",
+      "size": 22455,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-23T13:38:21Z"
+    },
+    {
       "repository_name": "SolderedElectronics/Soldered-PCAL6416A-IO-Expander-Arduino-Library",
       "repository_url": "https://github.com/SolderedElectronics/Soldered-PCAL6416A-IO-Expander-Arduino-Library",
       "name": "Soldered PCAL6416A IO expander library",
@@ -309403,7 +309437,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9507,
+    "with_github_metadata": 9508,
     "total_dependencies": 5174
   }
 }

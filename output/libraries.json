@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-24T11:31:32.662Z",
+  "enhanced_at": "2026-07-24T12:26:58.518Z",
   "total_libraries": 9714,
-  "index_etag": "W/\"423fc897d9e7db861537f4d6c9ab1de9\"",
-  "index_last_modified": "Fri, 24 Jul 2026 11:29:11 GMT",
+  "index_etag": "W/\"a38082fd0807a5c1c19d3b3d98012c18\"",
+  "index_last_modified": "Fri, 24 Jul 2026 11:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40191,7 +40191,7 @@
       "repository_name": "vedacool/Arduino-Azure-IoT-Central",
       "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
       "name": "AzureIoT",
-      "version": "1.2.6",
+      "version": "1.2.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40212,15 +40212,19 @@
         {
           "version": "1.2.6",
           "seen_at": "2026-07-23T07:00:53.647Z"
+        },
+        {
+          "version": "1.2.8",
+          "seen_at": "2026-07-24T12:26:58.412Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-07-22T04:09:16.672Z",
-      "last_seen_sha": "8e1c7705279d",
+      "last_seen_sha": "ddc707c3f5e6",
       "author": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
       "maintainer": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
       "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
-      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 21 included examples, ordered easiest to hardest.",
+      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 22 included examples, ordered easiest to hardest.",
       "category": "Communication",
       "architectures": [
         "megaavr",
@@ -40230,9 +40234,9 @@
         "WiFiNINA",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.6.zip",
-      "size": 129550,
-      "previous_version": "1.2.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.8.zip",
+      "size": 134786,
+      "previous_version": "1.2.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -70895,7 +70899,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.91.0",
+      "version": "7.104.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71332,11 +71336,15 @@
         {
           "version": "7.91.0",
           "seen_at": "2026-07-24T10:38:25.286Z"
+        },
+        {
+          "version": "7.104.0",
+          "seen_at": "2026-07-24T12:26:58.412Z"
         }
       ],
-      "release_count": 109,
+      "release_count": 110,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "1876433f00a5",
+      "last_seen_sha": "d37fc0282d33",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71345,9 +71353,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.91.0.zip",
-      "size": 20370441,
-      "previous_version": "7.76.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.104.0.zip",
+      "size": 20398990,
+      "previous_version": "7.91.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -270757,7 +270765,7 @@
       "repository_name": "stm32duino/X-NUCLEO-NFC12A1",
       "repository_url": "https://github.com/stm32duino/X-NUCLEO-NFC12A1",
       "name": "STM32duino X-NUCLEO-NFC12A1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -270766,11 +270774,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-24T12:26:58.412Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:44:47Z",
-      "last_seen_sha": "bf1eceb3ed3e",
+      "last_seen_sha": "12b6b7f8af49",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
       "sentence": "Allows controlling the ST X-NUCLEO-NFC12A1 expansion board",
@@ -270783,13 +270795,13 @@
         "STM32duino NFC-RFAL",
         "STM32duino ST25R500"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_X_NUCLEO_NFC12A1-1.0.0.zip",
-      "size": 26046,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_X_NUCLEO_NFC12A1-1.0.1.zip",
+      "size": 26049,
       "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 1,
-      "github_updated_at": "2025-12-15T09:58:34Z",
-      "github_language": ""
+      "github_language": "",
+      "github_updated_at": "2025-12-15T09:58:34Z"
     },
     {
       "repository_name": "stm32duino/X-NUCLEO-S2868A1",

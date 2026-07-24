@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-24T21:21:52.140Z",
-  "total_libraries": 9717,
-  "index_etag": "W/\"f343d06cccc85291e8ea848a6b77c8a0\"",
-  "index_last_modified": "Fri, 24 Jul 2026 20:59:11 GMT",
+  "enhanced_at": "2026-07-24T22:21:07.125Z",
+  "total_libraries": 9718,
+  "index_etag": "W/\"0ee1757a8211cf52fc4d11ab06be3432\"",
+  "index_last_modified": "Fri, 24 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70915,7 +70915,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.147.0",
+      "version": "7.152.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71368,11 +71368,15 @@
         {
           "version": "7.147.0",
           "seen_at": "2026-07-24T20:27:43.049Z"
+        },
+        {
+          "version": "7.152.0",
+          "seen_at": "2026-07-24T22:21:05.521Z"
         }
       ],
-      "release_count": 113,
+      "release_count": 114,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "e9752f479428",
+      "last_seen_sha": "f81ca84b6574",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71381,9 +71385,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.147.0.zip",
-      "size": 20456720,
-      "previous_version": "7.126.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.152.0.zip",
+      "size": 20491760,
+      "previous_version": "7.147.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -180757,6 +180761,35 @@
       "download_url": "https://github.com/ShahazadAbdulla/mpu6050-aries-library"
     },
     {
+      "repository_name": "X-croot/MPU6050Auto",
+      "repository_url": "https://github.com/X-croot/MPU6050Auto",
+      "name": "MPU6050Auto",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-24T22:21:05.521Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-24T22:21:05.521Z",
+      "last_seen_sha": "b34e5f723162",
+      "author": "Can Ünüvar <X-croot@github>",
+      "maintainer": "Can Ünüvar <X-croot@github>",
+      "sentence": "Zero-config MPU6050 driver with auto-calibration and built-in Madgwick/Mahony sensor fusion.",
+      "paragraph": "One-line setup, automatic gyro/accel bias calibration stored in EEPROM (or ESP32 Preferences), quaternion and Euler output out of the box. The IMU library you actually want to use.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/X-croot/MPU6050Auto-1.0.0.zip",
+      "size": 78444,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-24T20:01:33Z"
+    },
+    {
       "repository_name": "hideakitai/MPU9250",
       "repository_url": "https://github.com/hideakitai/MPU9250",
       "name": "MPU9250",
@@ -202408,7 +202441,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.1.12",
+      "version": "1.1.13",
       "version_history": [
         {
           "version": "1.1.9",
@@ -202429,11 +202462,15 @@
         {
           "version": "1.1.12",
           "seen_at": "2026-07-16T22:19:06.934Z"
+        },
+        {
+          "version": "1.1.13",
+          "seen_at": "2026-07-24T22:21:05.521Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "c34ba30a1886",
+      "last_seen_sha": "e5fb229e870f",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
       "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
@@ -202444,9 +202481,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.12.zip",
-      "size": 3682641,
-      "previous_version": "1.1.11",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.1.13.zip",
+      "size": 4175572,
+      "previous_version": "1.1.12",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",
@@ -295713,26 +295750,31 @@
       "repository_name": "GyverLibs/uWire",
       "repository_url": "https://github.com/GyverLibs/uWire",
       "name": "uWire",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-24T20:27:43.049Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-24T22:21:05.521Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-24T20:27:43.049Z",
-      "last_seen_sha": "6470a9aa51da",
+      "last_seen_sha": "48308f2da7ee",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple AVR TWI wrapper with Arduino Wire-like API",
       "paragraph": "Simple AVR TWI wrapper with Arduino Wire-like API",
       "category": "Communication",
       "architectures": [
-        "*"
+        "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uWire-1.0.0.zip",
-      "size": 6735,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uWire-1.0.1.zip",
+      "size": 9052,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -309801,7 +309843,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9514,
+    "with_github_metadata": 9515,
     "total_dependencies": 5175
   }
 }

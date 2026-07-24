@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-24T05:56:50.042Z",
-  "total_libraries": 9712,
-  "index_etag": "W/\"10b6e4dd541d2dc35201ea03c5ee44ff\"",
-  "index_last_modified": "Fri, 24 Jul 2026 05:29:11 GMT",
+  "enhanced_at": "2026-07-24T06:53:26.155Z",
+  "total_libraries": 9713,
+  "index_etag": "W/\"5ff1d12df5283d79790928ad432b2b44\"",
+  "index_last_modified": "Fri, 24 Jul 2026 06:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70886,7 +70886,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.39.0",
+      "version": "7.58.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71311,11 +71311,15 @@
         {
           "version": "7.39.0",
           "seen_at": "2026-07-24T04:07:35.750Z"
+        },
+        {
+          "version": "7.58.0",
+          "seen_at": "2026-07-24T06:53:24.731Z"
         }
       ],
-      "release_count": 106,
+      "release_count": 107,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "ac9bf01e804a",
+      "last_seen_sha": "9f75de229d62",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71324,9 +71328,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.39.0.zip",
-      "size": 20218579,
-      "previous_version": "7.31.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.58.0.zip",
+      "size": 20283827,
+      "previous_version": "7.39.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -298806,6 +298810,39 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "LZQS1/VQF-for-Arduino",
+      "repository_url": "https://github.com/LZQS1/VQF-for-Arduino",
+      "name": "VQF_Arduino",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-24T06:53:24.731Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-24T06:53:24.731Z",
+      "last_seen_sha": "bdcfd1d551f8",
+      "author": "LZQ",
+      "maintainer": "LZQ",
+      "sentence": "VQF sensor fusion with optional ICM20948 IMU reader",
+      "paragraph": "Computes orientation via VQF, with NVS-based gyro bias persistence and accel calibration routine. (Can enable build-in ICM20948 reader, other IMU is not supported currently)",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "depends": [
+        "Preferences"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LZQS1/VQF_Arduino-1.0.0.zip",
+      "size": 27910,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-24T03:07:51Z"
+    },
+    {
       "repository_name": "Vrekrer/Vrekrer_scpi_parser",
       "repository_url": "https://github.com/Vrekrer/Vrekrer_scpi_parser",
       "name": "Vrekrer SCPI parser",
@@ -309507,7 +309544,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9509,
-    "total_dependencies": 5174
+    "with_github_metadata": 9510,
+    "total_dependencies": 5175
   }
 }

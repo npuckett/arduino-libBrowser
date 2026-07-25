@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T13:29:08.904Z",
-  "total_libraries": 9720,
-  "index_etag": "W/\"6fa63b9ded31f79bcf56b2101f17d921\"",
-  "index_last_modified": "Sat, 25 Jul 2026 12:59:11 GMT",
+  "enhanced_at": "2026-07-25T14:29:52.738Z",
+  "total_libraries": 9721,
+  "index_etag": "W/\"c175ee4ff7dd8803fc2ef8b66c16e700\"",
+  "index_last_modified": "Sat, 25 Jul 2026 14:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -44558,7 +44558,7 @@
       "repository_name": "akilaid/esp32-blifi-arduino",
       "repository_url": "https://github.com/akilaid/esp32-blifi-arduino",
       "name": "Blifi",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.1",
@@ -44567,11 +44567,15 @@
         {
           "version": "0.1.2",
           "seen_at": "2026-07-25T12:16:14.297Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-25T14:29:51.357Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-25T00:22:17.206Z",
-      "last_seen_sha": "b0af5afa4f6e",
+      "last_seen_sha": "49bac75bf20e",
       "author": "Akila Indunil",
       "maintainer": "Akila Indunil (https://github.com/akilaid)",
       "sentence": "BLE-based Wi-Fi provisioning for ESP32: a friendly Arduino wrapper.",
@@ -44580,9 +44584,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.1.2.zip",
-      "size": 18249,
-      "previous_version": "0.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.2.0.zip",
+      "size": 19179,
+      "previous_version": "0.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -83721,6 +83725,35 @@
       "github_language": "C++",
       "github_updated_at": "2020-02-21T04:19:14Z",
       "download_url": "https://github.com/ekkai/PMD4"
+    },
+    {
+      "repository_name": "David-Vandensteen/dv-average-accumulator8",
+      "repository_url": "https://github.com/David-Vandensteen/dv-average-accumulator8",
+      "name": "dv_average_accumulator8",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-25T14:29:51.357Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-25T14:29:51.357Z",
+      "last_seen_sha": "6631435749cd",
+      "author": "David Vandensteen",
+      "maintainer": "David Vandensteen <dvandensteen@gmail.com>",
+      "sentence": "An Arduino library that computes an incremental average",
+      "paragraph": "Incremental average accumulator for 8-bit Arduino samples",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/David-Vandensteen/dv_average_accumulator8-1.0.0.zip",
+      "size": 6132,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-25T09:54:46Z"
     },
     {
       "repository_name": "David-Vandensteen/dv-every-interval",
@@ -309972,7 +310005,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9517,
+    "with_github_metadata": 9518,
     "total_dependencies": 5175
   }
 }

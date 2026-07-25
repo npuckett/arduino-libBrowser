@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T11:24:32.607Z",
+  "enhanced_at": "2026-07-25T12:16:14.390Z",
   "total_libraries": 9720,
-  "index_etag": "W/\"907ba7d82389e7f81300d813d22e3320\"",
-  "index_last_modified": "Sat, 25 Jul 2026 10:59:11 GMT",
+  "index_etag": "W/\"6fa63b9ded31f79bcf56b2101f17d921\"",
+  "index_last_modified": "Sat, 25 Jul 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -44558,26 +44558,31 @@
       "repository_name": "akilaid/esp32-blifi-arduino",
       "repository_url": "https://github.com/akilaid/esp32-blifi-arduino",
       "name": "Blifi",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.1",
           "seen_at": "2026-07-25T00:22:17.206Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-07-25T12:16:14.297Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-25T00:22:17.206Z",
-      "last_seen_sha": "3e1dfdd76862",
+      "last_seen_sha": "b0af5afa4f6e",
       "author": "Akila Indunil",
       "maintainer": "Akila Indunil (https://github.com/akilaid)",
-      "sentence": "BLE-based Wi-Fi provisioning for ESP32 — a friendly Arduino wrapper.",
+      "sentence": "BLE-based Wi-Fi provisioning for ESP32: a friendly Arduino wrapper.",
       "paragraph": "Provision an ESP32's Wi-Fi credentials over an encrypted BLE session (no hotspot/captive portal), with a companion phone app. Thin C++ wrapper over the blifi ESP-IDF component. Requires the arduino-esp32 core 3.x.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.1.1.zip",
-      "size": 18259,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.1.2.zip",
+      "size": 18249,
+      "previous_version": "0.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

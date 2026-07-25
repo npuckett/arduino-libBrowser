@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T21:15:56.001Z",
+  "enhanced_at": "2026-07-25T22:16:13.484Z",
   "total_libraries": 9722,
-  "index_etag": "W/\"c5a9c6148783a2efed56f6d698fcb06d\"",
-  "index_last_modified": "Sat, 25 Jul 2026 20:59:12 GMT",
+  "index_etag": "W/\"daf5b5a504ceefd8f25702d035dfdfbe\"",
+  "index_last_modified": "Sat, 25 Jul 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -53251,7 +53251,7 @@
       "repository_name": "mvoss96/bthome-cpp",
       "repository_url": "https://github.com/mvoss96/bthome-cpp",
       "name": "bthome-cpp",
-      "version": "0.3.2",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -53264,22 +53264,26 @@
         {
           "version": "0.3.2",
           "seen_at": "2026-07-24T10:38:25.286Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-25T22:16:13.354Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-23T12:29:28.524Z",
-      "last_seen_sha": "ee5e889b6cf3",
+      "last_seen_sha": "a3592b16fd7e",
       "author": "mvoss96",
       "maintainer": "mvoss96",
-      "sentence": "Dependency-free C++17 BTHome v2 advertisement payload builder.",
-      "paragraph": "Builds BTHome v2 service-data bytes only (no BLE stack). No heap, no exceptions, no RTTI. Supports AES-CCM encryption with pluggable crypto backends (mbedtls and PSA adapters included). Think in sensor values; the library handles object IDs, scaling, endianness and canonical ordering. Pair with any BLE stack.",
+      "sentence": "Dependency-free C++17 BTHome v2 payload builder and parser.",
+      "paragraph": "Builds and parses BTHome v2 service-data bytes (no BLE stack). No heap, no exceptions, no RTTI. Supports AES-CCM encryption and decryption with pluggable crypto backends (mbedtls and PSA adapters included), including replay protection on the receiving side. Think in sensor values; the library handles object IDs, scaling, endianness and canonical ordering. Pair with any BLE stack.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/bthome_cpp-0.3.2.zip",
-      "size": 64569,
-      "previous_version": "0.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/bthome_cpp-0.4.0.zip",
+      "size": 91907,
+      "previous_version": "0.3.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -274181,7 +274185,7 @@
       "repository_name": "outlookhazy/SyntropicOS",
       "repository_url": "https://github.com/outlookhazy/SyntropicOS",
       "name": "SyntropicOS",
-      "version": "2026.7.1",
+      "version": "2026.7.2",
       "version_history": [
         {
           "version": "2026.6.2",
@@ -274194,11 +274198,15 @@
         {
           "version": "2026.7.1",
           "seen_at": "2026-07-24T20:27:43.049Z"
+        },
+        {
+          "version": "2026.7.2",
+          "seen_at": "2026-07-25T22:16:13.354Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "d993571e7b9c",
+      "last_seen_sha": "7a8aa78184f4",
       "author": "Charles Galant <cgalant@gmail.com>",
       "maintainer": "Charles Galant <cgalant@gmail.com>",
       "sentence": "Cooperative RTOS for embedded systems.",
@@ -274207,9 +274215,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/outlookhazy/SyntropicOS-2026.7.1.zip",
-      "size": 1131404,
-      "previous_version": "2026.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/outlookhazy/SyntropicOS-2026.7.2.zip",
+      "size": 1256923,
+      "previous_version": "2026.7.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C",

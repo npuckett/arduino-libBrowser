@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T09:31:26.461Z",
+  "enhanced_at": "2026-07-25T10:29:08.066Z",
   "total_libraries": 9720,
-  "index_etag": "W/\"1831c99d1dc6e1b11e3aee15cef29309\"",
-  "index_last_modified": "Sat, 25 Jul 2026 09:29:12 GMT",
+  "index_etag": "W/\"907ba7d82389e7f81300d813d22e3320\"",
+  "index_last_modified": "Sat, 25 Jul 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -32048,29 +32048,35 @@
       "repository_name": "braydenanderson2014/ArduinoArrayList",
       "repository_url": "https://github.com/braydenanderson2014/ArduinoArrayList",
       "name": "ArrayList",
-      "version": "1.0.3-BETA",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.3-BETA",
           "seen_at": "2025-07-30T13:23:17Z"
+        },
+        {
+          "version": "1.0.8",
+          "seen_at": "2026-07-25T10:29:07.925Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-30T13:23:17Z",
-      "last_seen_sha": "3a89446bd17d",
+      "last_seen_sha": "786a2e8f905c",
       "author": "Brayden Anderson",
       "maintainer": "Brayden Anderson <braydenanderson2014@gmail.com>",
       "sentence": "A templated class for creating dynamic or fixed size arrays. Based off of Java's ArrayList class.",
-      "paragraph": "This library provides an easy and efficient way to create dynamic or fixed size arrays in Arduino projects. It supports various operations such as add, insert, remove, and sort, among others.",
+      "paragraph": "This library provides an ArrayList-style container for Arduino projects with bulk operations, iterators, sorting, cloning, capacity management, and optional compile-time memory reduction.",
       "category": "Data Processing",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/braydenanderson2014/ArrayList-1.0.8.zip",
+      "size": 380608,
+      "previous_version": "1.0.3-BETA",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-18T03:15:27Z",
-      "download_url": "https://github.com/braydenanderson2014/C-Arduino-Libraries/tree/main/lib/ArrayList"
+      "github_updated_at": "2026-06-18T03:15:27Z"
     },
     {
       "repository_name": "SkyIsTheLimit/arduino-array-utils",
@@ -70952,7 +70958,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.172.0",
+      "version": "7.173.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71429,11 +71435,15 @@
         {
           "version": "7.172.0",
           "seen_at": "2026-07-25T08:38:15.756Z"
+        },
+        {
+          "version": "7.173.0",
+          "seen_at": "2026-07-25T10:29:07.925Z"
         }
       ],
-      "release_count": 119,
+      "release_count": 120,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "b346e34dee57",
+      "last_seen_sha": "4e5a8eee734d",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71442,9 +71452,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.172.0.zip",
-      "size": 20546194,
-      "previous_version": "7.168.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.173.0.zip",
+      "size": 20553438,
+      "previous_version": "7.172.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -210528,7 +210538,7 @@
       "repository_name": "PowerFeather/powerfeather-sdk",
       "repository_url": "https://github.com/PowerFeather/powerfeather-sdk",
       "name": "PowerFeather-SDK",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "2.1.1",
@@ -210537,11 +210547,15 @@
         {
           "version": "2.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-07-25T10:29:07.925Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-20T08:49:29Z",
-      "last_seen_sha": "b5130ef89c0f",
+      "last_seen_sha": "219483e8aa49",
       "author": "PowerFeather",
       "maintainer": "PowerFeather",
       "sentence": "Software development kit for PowerFeather boards.",
@@ -210551,8 +210565,8 @@
         "esp32"
       ],
       "license": "PowerFeather 4-Clause License",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PowerFeather/PowerFeather_SDK-2.1.1.zip",
-      "size": 75102,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PowerFeather/PowerFeather_SDK-2.1.2.zip",
+      "size": 75073,
       "previous_version": "2.1.1",
       "github_stars": 2,
       "github_forks": 0,
@@ -234545,33 +234559,39 @@
       "repository_name": "braydenanderson2014/ArduinoSDList",
       "repository_url": "https://github.com/braydenanderson2014/ArduinoSDList",
       "name": "SDList",
-      "version": "1.0.0-BETA",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0-BETA",
           "seen_at": "2025-07-21T16:35:53Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-07-25T10:29:07.925Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:35:53Z",
-      "last_seen_sha": "a1d5099d7961",
+      "last_seen_sha": "83af49beb94d",
       "author": "Brayden Anderson",
       "maintainer": "Brayden Anderson <braydenanderson2014@gmail.com>",
-      "sentence": "A Simple ArrayList Implementation that saves memory by dumping contents into an SD Card.",
-      "paragraph": "Built on the ArrayList Library, This Library allows you to use in Memory Lists, Or it will save all elements to an SD Card. Just a fair Warning, SD cards are Slower then In Memory applications. Which means it can take a sec for it to load an element from the sdcard.",
+      "sentence": "Paged, batch-buffered list that offloads elements to SD card or LittleFS using binary storage.",
+      "paragraph": "Stores any trivially-copyable type (int, float, struct) without text serialisation or data corruption. A fixed in-memory batch window keeps RAM usage predictable while the file is pre-allocated to prevent fragmentation. Supports SD card (default) or LittleFS (-DUSE_LITTLEFS).",
       "category": "Data Processing",
       "architectures": [
         "*"
       ],
+      "depends": [
+        "SD",
+        "SPI"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/braydenanderson2014/SDList-2.0.0.zip",
+      "size": 383072,
+      "previous_version": "1.0.0-BETA",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-18T03:16:33Z",
-      "depends": [
-        "ArrayList",
-        "SD"
-      ],
-      "download_url": "https://github.com/braydenanderson2014/C-Arduino-Libraries/tree/main/lib/SDList"
+      "github_updated_at": "2026-06-18T03:16:33Z"
     },
     {
       "repository_name": "dizcza/sdpsensor-esp-arduino",

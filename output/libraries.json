@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T01:31:24.578Z",
-  "total_libraries": 9719,
-  "index_etag": "W/\"0d0e7701f08413fc15a49858f5fa1dcc\"",
-  "index_last_modified": "Sat, 25 Jul 2026 01:29:12 GMT",
+  "enhanced_at": "2026-07-25T02:59:16.820Z",
+  "total_libraries": 9720,
+  "index_etag": "W/\"bcb97c1bd29aa4947bd7a90a51e412ff\"",
+  "index_last_modified": "Sat, 25 Jul 2026 02:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22754,7 +22754,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.92",
+      "version": "1.2.93",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22955,11 +22955,15 @@
         {
           "version": "1.2.92",
           "seen_at": "2026-07-24T16:30:04.549Z"
+        },
+        {
+          "version": "1.2.93",
+          "seen_at": "2026-07-25T02:59:15.449Z"
         }
       ],
-      "release_count": 50,
+      "release_count": 51,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "78bf2d8fe295",
+      "last_seen_sha": "ad6c92e3240c",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22980,9 +22984,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.92.zip",
-      "size": 43681822,
-      "previous_version": "1.2.90",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.93.zip",
+      "size": 43681826,
+      "previous_version": "1.2.92",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -70948,7 +70952,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.154.3",
+      "version": "7.160.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71409,11 +71413,15 @@
         {
           "version": "7.154.3",
           "seen_at": "2026-07-25T00:22:17.206Z"
+        },
+        {
+          "version": "7.160.0",
+          "seen_at": "2026-07-25T02:59:15.449Z"
         }
       ],
-      "release_count": 115,
+      "release_count": 116,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "0ff686cfae48",
+      "last_seen_sha": "a89435fc812e",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71422,9 +71430,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.154.3.zip",
-      "size": 20516613,
-      "previous_version": "7.152.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.160.0.zip",
+      "size": 20537669,
+      "previous_version": "7.154.3",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -83686,6 +83694,35 @@
       "github_language": "C++",
       "github_updated_at": "2020-02-21T04:19:14Z",
       "download_url": "https://github.com/ekkai/PMD4"
+    },
+    {
+      "repository_name": "David-Vandensteen/dv-every-interval",
+      "repository_url": "https://github.com/David-Vandensteen/dv-every-interval",
+      "name": "dv_every_interval",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-25T02:59:15.449Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-25T02:59:15.449Z",
+      "last_seen_sha": "2c052049d24a",
+      "author": "David Vandensteen",
+      "maintainer": "David Vandensteen <dvandensteen@gmail.com>",
+      "sentence": "Arduino helper to run a callback at a fixed interval.",
+      "paragraph": "Non-blocking millis()-based interval timer with callback support.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/David-Vandensteen/dv_every_interval-1.0.1.zip",
+      "size": 7086,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-24T22:06:08Z"
     },
     {
       "repository_name": "David-Vandensteen/dv-iir-filter8",
@@ -190938,29 +190975,35 @@
       "repository_name": "dunknowcoding/ArduinoNRF-IMU",
       "repository_url": "https://github.com/dunknowcoding/ArduinoNRF-IMU",
       "name": "NiusIMU",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.0",
           "seen_at": "2026-06-30T08:57:49Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-07-25T02:59:15.449Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:57:49Z",
-      "last_seen_sha": "8fd8902e5e6e",
+      "last_seen_sha": "4f471a051186",
       "author": "NiusRobotLab",
       "maintainer": "NiusRobotLab",
-      "sentence": "Unified, friendly IMU library with pluggable sensor drivers for the ArduinoNRF board package.",
+      "sentence": "Unified, friendly IMU library with pluggable sensor drivers; runs on AVR, ESP32, ESP8266, RP2040, SAMD, Renesas, and nRF52.",
       "paragraph": "One common API across every IMU (accel/gyro/mag, units, calibration), plus chip-specific extras. Drivers include MPU, ICM, BMI/BMX055, LSM including LSM6DSV320X high-g, SFLP and AI cores, QMI8658, BNO fusion sensors, pressure sensors, magnetometers, MUMO, and common ecommerce modules.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusIMU-0.4.0.zip",
+      "size": 3244702,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-30T01:22:59Z",
-      "download_url": "https://github.com/dunknowcoding/ArduinoNRF-IMU",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-30T01:22:59Z"
     },
     {
       "repository_name": "dunknowcoding/ArduinoNRF-Thread",
@@ -309884,7 +309927,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9516,
+    "with_github_metadata": 9517,
     "total_dependencies": 5175
   }
 }

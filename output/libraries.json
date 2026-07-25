@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T15:21:15.262Z",
-  "total_libraries": 9721,
-  "index_etag": "W/\"c175ee4ff7dd8803fc2ef8b66c16e700\"",
-  "index_last_modified": "Sat, 25 Jul 2026 14:59:11 GMT",
+  "enhanced_at": "2026-07-25T16:16:37.249Z",
+  "total_libraries": 9722,
+  "index_etag": "W/\"82029722bed1a163dc7e8b088f5914fc\"",
+  "index_last_modified": "Sat, 25 Jul 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -213898,6 +213898,34 @@
       "download_url": "https://github.com/marclura/PT2258-Arduino-Library"
     },
     {
+      "repository_name": "RobTillaart/PT2258",
+      "repository_url": "https://github.com/RobTillaart/PT2258",
+      "name": "PT2258_RT",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-25T16:16:35.845Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-25T16:16:35.845Z",
+      "last_seen_sha": "0bbef83f78c5",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for PT2258 I2C 6 channel audio volume processor.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/PT2258_RT-0.1.1.zip",
+      "size": 222388,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-25T13:17:42Z"
+    },
+    {
       "repository_name": "RobTillaart/PT2314",
       "repository_url": "https://github.com/RobTillaart/PT2314",
       "name": "PT2314",
@@ -272997,16 +273025,20 @@
       "repository_name": "juano2310/SuperCANBus",
       "repository_url": "https://github.com/juano2310/SuperCANBus",
       "name": "SuperCANBus",
-      "version": "1.0.5",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.5",
           "seen_at": "2026-01-02T21:42:59Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-07-25T16:16:35.845Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-02T21:42:59Z",
-      "last_seen_sha": "b8fe393293de",
+      "last_seen_sha": "8a49f4062179",
       "author": "Juan Pablo Risso <juano23@gmail.com>",
       "maintainer": "Juan Pablo Risso <juano23@gmail.com>",
       "sentence": "A modern, robust communication protocol for the age of AI. Enhanced Arduino CAN Bus library with pub/sub protocol, persistent IDs, automatic subscription restoration, and extended frame support.",
@@ -273015,11 +273047,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juano2310/SuperCANBus-1.0.7.zip",
+      "size": 128831,
+      "previous_version": "1.0.5",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-19T15:16:42Z",
-      "download_url": "https://github.com/juano2310/SuperCANBus"
+      "github_updated_at": "2026-03-19T15:16:42Z"
     },
     {
       "repository_name": "superdmz/SuperDMZ-Arduino",
@@ -305913,17 +305947,21 @@
       "repository_name": "hinyhiny/XiaoMiaoLED",
       "repository_url": "https://github.com/hinyhiny/XiaoMiaoLED",
       "name": "XiaoMiaoLED",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-23T08:50:01.000Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-25T16:16:35.845Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-23T08:50:01.000Z",
-      "last_seen_sha": "1ca84b3979df",
-      "author": "Your C.HAIBARA(Cloud Power Electric Industries)",
+      "last_seen_sha": "d95c2141b4ed",
+      "author": "C.HAIBARA(Cloud Power Electric Industries)",
       "maintainer": "hinyhiny（CEPI）",
       "sentence": "A library to control XiaoMiao I2C LEDs.",
       "paragraph": "Supports independent ON/OFF control and non-blocking blinking for LED1 and LED2 with configurable I2C addresses.",
@@ -305932,8 +305970,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/hinyhiny/XiaoMiaoLED-1.0.0.zip",
-      "size": 8148,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hinyhiny/XiaoMiaoLED-1.0.1.zip",
+      "size": 8144,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -310005,7 +310044,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9518,
+    "with_github_metadata": 9519,
     "total_dependencies": 5175
   }
 }

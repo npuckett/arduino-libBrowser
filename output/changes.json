@@ -1,6 +1,148 @@
 {
-  "since": "2026-07-26T15:22:06.564Z",
+  "since": "2026-07-26T16:18:48.534Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "firmngin/Firmngin-Arduino",
+        "repository_url": "https://github.com/firmngin/Firmngin-Arduino",
+        "name": "firmngin",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-03T20:23:13.146Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-20T18:35:37.492Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-26T16:18:48.534Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-03T20:23:13.146Z",
+        "last_seen_sha": "50490194e690",
+        "author": "Asya Syarif <asya.syarif94@gmail.com>",
+        "maintainer": "Asya Syarif <asya.syarif94@gmail.com>",
+        "sentence": "Connect any IoT device to Firmngin and start earning",
+        "paragraph": "All-in-one Firmngin AIoT integration for ESP32 and ESP8266. Supports device onboarding, payments, state management, and real-time monitoring.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/firmngin/firmngin-1.2.0.zip",
+        "size": 115732,
+        "previous_version": "1.1.0",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-19T16:26:58Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "codewitch-honey-crisis/gfx",
+        "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
+        "name": "htcw_gfx",
+        "version": "2.6.1",
+        "version_history": [
+          {
+            "version": "2.2.17",
+            "seen_at": "2026-04-18T08:09:23Z"
+          },
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-07-11T04:07:11.266Z"
+          },
+          {
+            "version": "2.3.3",
+            "seen_at": "2026-07-16T12:28:21.727Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-21T00:20:47.426Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-21T02:59:47.173Z"
+          },
+          {
+            "version": "2.4.2",
+            "seen_at": "2026-07-22T00:19:01.539Z"
+          },
+          {
+            "version": "2.4.4",
+            "seen_at": "2026-07-22T02:59:53.885Z"
+          },
+          {
+            "version": "2.4.5",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "2.4.6",
+            "seen_at": "2026-07-23T20:21:35.524Z"
+          },
+          {
+            "version": "2.4.8",
+            "seen_at": "2026-07-23T22:19:08.578Z"
+          },
+          {
+            "version": "2.4.9",
+            "seen_at": "2026-07-24T00:19:26.003Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "2.5.1",
+            "seen_at": "2026-07-24T20:27:43.049Z"
+          },
+          {
+            "version": "2.6.0",
+            "seen_at": "2026-07-25T20:17:34.292Z"
+          },
+          {
+            "version": "2.6.1",
+            "seen_at": "2026-07-26T16:18:48.534Z"
+          }
+        ],
+        "release_count": 15,
+        "first_seen_at": "2026-04-18T08:09:23Z",
+        "last_seen_sha": "08b99b124d26",
+        "author": "honey the codewitch",
+        "maintainer": "honey the codewitch",
+        "sentence": "Provides cross platform graphics",
+        "paragraph": "Provides cross platform graphics functionality",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "htcw_bits",
+          "htcw_io",
+          "htcw_ml",
+          "htcw_data"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.6.1.zip",
+        "size": 917740,
+        "previous_version": "2.6.0",
+        "github_stars": 140,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-05T04:00:50Z"
+      },
+      "old_version": "2.6.0",
+      "new_version": "2.6.1"
+    }
+  ],
   "removed_libraries": []
 }

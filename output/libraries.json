@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-26T17:20:24.961Z",
-  "total_libraries": 9725,
-  "index_etag": "W/\"9a7a935e1c39d0b950e036619ac62143\"",
-  "index_last_modified": "Sun, 26 Jul 2026 16:59:12 GMT",
+  "enhanced_at": "2026-07-26T18:18:20.134Z",
+  "total_libraries": 9729,
+  "index_etag": "W/\"bf59bc25b34159a0f9709ad7bad1ab85\"",
+  "index_last_modified": "Sun, 26 Jul 2026 17:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22754,7 +22754,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.93",
+      "version": "1.2.96",
       "version_history": [
         {
           "version": "1.2.18",
@@ -22959,11 +22959,15 @@
         {
           "version": "1.2.93",
           "seen_at": "2026-07-25T02:59:15.449Z"
+        },
+        {
+          "version": "1.2.96",
+          "seen_at": "2026-07-26T18:18:14.714Z"
         }
       ],
-      "release_count": 51,
+      "release_count": 52,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "ad6c92e3240c",
+      "last_seen_sha": "c5c9f9f9798e",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -22984,9 +22988,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.93.zip",
-      "size": 43681826,
-      "previous_version": "1.2.92",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.96.zip",
+      "size": 43683919,
+      "previous_version": "1.2.93",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -181899,6 +181903,35 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "juarendra/MR24HPC1-Arduino",
+      "repository_url": "https://github.com/juarendra/MR24HPC1-Arduino",
+      "name": "MR24HPC1",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T18:18:14.714Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T18:18:14.714Z",
+      "last_seen_sha": "408942544a19",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino driver for the MR24HPC1 24 GHz human-presence radar.",
+      "paragraph": "Reads human-presence state and moving or stationary target measurements over UART or I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/MR24HPC1-0.1.0.zip",
+      "size": 5312,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T15:34:23Z"
+    },
+    {
       "repository_name": "Shiddieqy/MR76_Radar",
       "repository_url": "https://github.com/Shiddieqy/MR76_Radar",
       "name": "mr76_radar",
@@ -225690,6 +225723,35 @@
       "github_language": "C++",
       "github_updated_at": "2023-01-02T16:46:05Z",
       "download_url": "https://github.com/chipKIT32-libraries/RN487x"
+    },
+    {
+      "repository_name": "juarendra/RN8209D-Arduino",
+      "repository_url": "https://github.com/juarendra/RN8209D-Arduino",
+      "name": "RN8209D",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T18:18:14.714Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T18:18:14.714Z",
+      "last_seen_sha": "77e22ad0c342",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino driver for the RN8209D single-phase energy metering IC.",
+      "paragraph": "Reads RMS current, RMS voltage, active and apparent power, power factor, line frequency, and accumulated energy over the RN8209D UART or SPI protocol.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/RN8209D-0.1.0.zip",
+      "size": 8479,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T15:27:51Z"
     },
     {
       "repository_name": "RocketLauncherCDMX/RocketLauncher_RobbusKidsy",
@@ -297496,6 +297558,35 @@
       "download_url": "https://github.com/smaffer/vgaxua"
     },
     {
+      "repository_name": "juarendra/VIA-Arduino",
+      "repository_url": "https://github.com/juarendra/VIA-Arduino",
+      "name": "VIA_Arduino",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T18:18:14.714Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T18:18:14.714Z",
+      "last_seen_sha": "b0fced442959",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Portable Arduino core for VIA-compatible keyboards and macropads.",
+      "paragraph": "Implements VIA V3 dynamic keymaps, macros, persistent settings, and custom values behind pluggable USB Raw HID and storage adapters.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/VIA_Arduino-0.1.0.zip",
+      "size": 16545,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T13:47:47Z"
+    },
+    {
       "repository_name": "RobTillaart/Vibration",
       "repository_url": "https://github.com/RobTillaart/Vibration",
       "name": "Vibration",
@@ -309248,6 +309339,35 @@
       "github_updated_at": "2023-12-13T06:55:04Z"
     },
     {
+      "repository_name": "juarendra/ZE40B-TVOC-Arduino",
+      "repository_url": "https://github.com/juarendra/ZE40B-TVOC-Arduino",
+      "name": "ZE40B-TVOC",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T18:18:14.714Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T18:18:14.714Z",
+      "last_seen_sha": "d6f5cda763a1",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino driver for Winsen ZE40B-TVOC UART TVOC sensors.",
+      "paragraph": "Parses the ZE40B-TVOC 9600 baud initiative-upload UART frames and returns validated TVOC concentration, unit, decimal places, and full-scale range.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/ZE40B_TVOC-0.1.0.zip",
+      "size": 5032,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T15:56:18Z"
+    },
+    {
       "repository_name": "zoubworldArduino/Zeeprom",
       "repository_url": "https://github.com/zoubworldArduino/Zeeprom",
       "name": "ZEeprom",
@@ -310210,7 +310330,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9522,
+    "with_github_metadata": 9526,
     "total_dependencies": 5179
   }
 }

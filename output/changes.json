@@ -1,6 +1,97 @@
 {
-  "since": "2026-07-26T19:25:39.163Z",
-  "new_libraries": [],
+  "since": "2026-07-26T20:19:00.093Z",
+  "new_libraries": [
+    {
+      "repository_name": "juarendra/ADPD188BI-Arduino",
+      "repository_url": "https://github.com/juarendra/ADPD188BI-Arduino",
+      "name": "ADPD188BI",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "def26aaec011",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino smoke-detection driver for the Analog Devices ADPD188BI.",
+      "paragraph": "Configures the ADPD188BI optical smoke detector over I2C, reads both optical time slots, and provides a clean-air baseline with configurable smoke alarm threshold.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/ADPD188BI-0.1.0.zip",
+      "size": 5528,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T16:01:45Z"
+    },
+    {
+      "repository_name": "juarendra/D6F-W04A1-Arduino",
+      "repository_url": "https://github.com/juarendra/D6F-W04A1-Arduino",
+      "name": "D6F-W04A1",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "7fb0ecdba3c4",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino analog driver for the Omron D6F-W04A1 air-flow sensor.",
+      "paragraph": "Reads the D6F-W04A1 analog output, converts ADC counts to sensor voltage, and applies the documented piecewise voltage-to-flow calibration.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/D6F_W04A1-0.1.0.zip",
+      "size": 4507,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T16:05:24Z"
+    },
+    {
+      "repository_name": "eleboys/LU9685",
+      "repository_url": "https://github.com/eleboys/LU9685",
+      "name": "LU9685",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "8f1c9ab0f72a",
+      "author": "Nima Baghdadi",
+      "maintainer": "Nima Baghdadi",
+      "sentence": "Arduino library for the LU9685 20-channel I2C/UART servo controller.",
+      "paragraph": "Control up to 20 servo channels over I2C. Call Wire.begin() before beginI2C().",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Wire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/eleboys/LU9685-1.1.0.zip",
+      "size": 132986,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T19:56:50Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-26T19:25:39.284Z",
-  "total_libraries": 9729,
-  "index_etag": "W/\"bf59bc25b34159a0f9709ad7bad1ab85\"",
-  "index_last_modified": "Sun, 26 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-26T20:19:03.898Z",
+  "total_libraries": 9732,
+  "index_etag": "W/\"797fc8da37f4a1ccc32f9527d1291477\"",
+  "index_last_modified": "Sun, 26 Jul 2026 19:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -18117,6 +18117,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-02-02T13:25:24Z",
       "download_url": "https://github.com/RCmags/ADNS3080"
+    },
+    {
+      "repository_name": "juarendra/ADPD188BI-Arduino",
+      "repository_url": "https://github.com/juarendra/ADPD188BI-Arduino",
+      "name": "ADPD188BI",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "def26aaec011",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino smoke-detection driver for the Analog Devices ADPD188BI.",
+      "paragraph": "Configures the ADPD188BI optical smoke detector over I2C, reads both optical time slots, and provides a clean-air baseline with configurable smoke alarm threshold.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/ADPD188BI-0.1.0.zip",
+      "size": 5528,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T16:01:45Z"
     },
     {
       "repository_name": "nadavmatalon/ADS1110",
@@ -66603,6 +66632,35 @@
       "github_language": "C++",
       "github_updated_at": "2021-05-03T06:14:51Z",
       "download_url": "https://github.com/shashank3199/Cytron_PS2_Shield"
+    },
+    {
+      "repository_name": "juarendra/D6F-W04A1-Arduino",
+      "repository_url": "https://github.com/juarendra/D6F-W04A1-Arduino",
+      "name": "D6F-W04A1",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "7fb0ecdba3c4",
+      "author": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "maintainer": "Juarendra Ramadhani <jrjuarendra@gmail.com>",
+      "sentence": "Arduino analog driver for the Omron D6F-W04A1 air-flow sensor.",
+      "paragraph": "Reads the D6F-W04A1 analog output, converts ADC counts to sensor voltage, and applies the documented piecewise voltage-to-flow calibration.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juarendra/D6F_W04A1-0.1.0.zip",
+      "size": 4507,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T16:05:24Z"
     },
     {
       "repository_name": "d9ll/d9dist",
@@ -155488,6 +155546,38 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2022-09-19T13:02:28Z"
+    },
+    {
+      "repository_name": "eleboys/LU9685",
+      "repository_url": "https://github.com/eleboys/LU9685",
+      "name": "LU9685",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-26T20:19:00.093Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T20:19:00.093Z",
+      "last_seen_sha": "8f1c9ab0f72a",
+      "author": "Nima Baghdadi",
+      "maintainer": "Nima Baghdadi",
+      "sentence": "Arduino library for the LU9685 20-channel I2C/UART servo controller.",
+      "paragraph": "Control up to 20 servo channels over I2C. Call Wire.begin() before beginI2C().",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Wire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/eleboys/LU9685-1.1.0.zip",
+      "size": 132986,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T19:56:50Z"
     },
     {
       "repository_name": "sapteinkabeltann/lua511-esp32",
@@ -310330,7 +310420,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9526,
-    "total_dependencies": 5179
+    "with_github_metadata": 9529,
+    "total_dependencies": 5180
   }
 }

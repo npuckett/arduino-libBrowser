@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-25T23:17:44.262Z",
-  "total_libraries": 9722,
-  "index_etag": "W/\"daf5b5a504ceefd8f25702d035dfdfbe\"",
-  "index_last_modified": "Sat, 25 Jul 2026 22:59:11 GMT",
+  "enhanced_at": "2026-07-26T00:22:19.170Z",
+  "total_libraries": 9723,
+  "index_etag": "W/\"5f3b920105dc55af6d0a7bc9288d463d\"",
+  "index_last_modified": "Sat, 25 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -53251,7 +53251,7 @@
       "repository_name": "mvoss96/bthome-cpp",
       "repository_url": "https://github.com/mvoss96/bthome-cpp",
       "name": "bthome-cpp",
-      "version": "0.4.0",
+      "version": "0.4.2",
       "version_history": [
         {
           "version": "0.3.0",
@@ -53268,11 +53268,15 @@
         {
           "version": "0.4.0",
           "seen_at": "2026-07-25T22:16:13.354Z"
+        },
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-07-26T00:22:17.813Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-23T12:29:28.524Z",
-      "last_seen_sha": "a3592b16fd7e",
+      "last_seen_sha": "d338fd71ea29",
       "author": "mvoss96",
       "maintainer": "mvoss96",
       "sentence": "Dependency-free C++17 BTHome v2 payload builder and parser.",
@@ -53281,9 +53285,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/bthome_cpp-0.4.0.zip",
-      "size": 91907,
-      "previous_version": "0.3.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mvoss96/bthome_cpp-0.4.2.zip",
+      "size": 93069,
+      "previous_version": "0.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -309768,6 +309772,40 @@
       "github_updated_at": "2025-10-30T23:01:03Z"
     },
     {
+      "repository_name": "Engrzoroz/ZOROZ_OLED",
+      "repository_url": "https://github.com/Engrzoroz/ZOROZ_OLED",
+      "name": "ZorozOLED",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-26T00:22:17.813Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-26T00:22:17.813Z",
+      "last_seen_sha": "d8064b0d09b0",
+      "author": "Engr Zoroz",
+      "maintainer": "Engr Zoroz <umairnaveed990@gmail.com>",
+      "sentence": "An easy high-level Arduino library for SH1106 and SSD1306 monochrome OLED displays.",
+      "paragraph": "Control common 1.3 inch SH1106 and 0.96 inch SSD1306 I2C displays with simple text, layout, icons, status widgets, graphics and animation functions while retaining full Adafruit GFX access.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit SH110X",
+        "Adafruit SSD1306"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Engrzoroz/ZorozOLED-1.0.0.zip",
+      "size": 24102,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-25T20:50:42Z"
+    },
+    {
       "repository_name": "SWITCHSCIENCE/ZPA4756_0311A_R",
       "repository_url": "https://github.com/SWITCHSCIENCE/ZPA4756_0311A_R",
       "name": "ZPA4756-0311A-R",
@@ -310060,7 +310098,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9519,
-    "total_dependencies": 5175
+    "with_github_metadata": 9520,
+    "total_dependencies": 5178
   }
 }

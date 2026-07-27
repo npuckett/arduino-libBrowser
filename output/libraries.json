@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-27T09:02:32.478Z",
-  "total_libraries": 9735,
-  "index_etag": "W/\"02a72efb1033119c6fcd0363a1033f97\"",
-  "index_last_modified": "Mon, 27 Jul 2026 08:59:12 GMT",
+  "enhanced_at": "2026-07-27T11:01:27.303Z",
+  "total_libraries": 9736,
+  "index_etag": "W/\"ebac0834aa94a5d2d7b1d9c284301d0b\"",
+  "index_last_modified": "Mon, 27 Jul 2026 10:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -42200,27 +42200,32 @@
       "repository_name": "PrimusKirill/BD37033",
       "repository_url": "https://github.com/PrimusKirill/BD37033",
       "name": "BD37033",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-07-27T03:00:19.752Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-27T11:01:25.870Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-27T03:00:19.752Z",
-      "last_seen_sha": "9dba707d6525",
+      "last_seen_sha": "ef426ac5785a",
       "author": "Kirill Primus <primus180@mail.ru>",
       "maintainer": "Kirill Primus <primus180@mail.ru>",
       "sentence": "Library for controlling BD37033FV-M audio processor via I2C",
       "paragraph": "Supports volume, tone controls (Bass/Middle/Treble), balance, loudness, input selection, subwoofer and mixer management.",
-      "category": "Uncategorized",
+      "category": "Signal Input/Output",
       "architectures": [
         "esp32",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PrimusKirill/BD37033-1.0.2.zip",
-      "size": 11051,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PrimusKirill/BD37033-1.0.4.zip",
+      "size": 13008,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -44621,7 +44626,7 @@
       "repository_name": "akilaid/esp32-blifi-arduino",
       "repository_url": "https://github.com/akilaid/esp32-blifi-arduino",
       "name": "Blifi",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.1",
@@ -44634,11 +44639,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-07-25T14:29:51.357Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-07-27T11:01:25.870Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-25T00:22:17.206Z",
-      "last_seen_sha": "49bac75bf20e",
+      "last_seen_sha": "7e5322535233",
       "author": "Akila Indunil",
       "maintainer": "Akila Indunil (https://github.com/akilaid)",
       "sentence": "BLE-based Wi-Fi provisioning for ESP32: a friendly Arduino wrapper.",
@@ -44647,9 +44656,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.2.0.zip",
-      "size": 19179,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/akilaid/Blifi-0.3.0.zip",
+      "size": 20063,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -71067,7 +71076,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.178.0",
+      "version": "7.179.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71568,11 +71577,15 @@
         {
           "version": "7.178.0",
           "seen_at": "2026-07-27T09:02:32.349Z"
+        },
+        {
+          "version": "7.179.0",
+          "seen_at": "2026-07-27T11:01:25.870Z"
         }
       ],
-      "release_count": 125,
+      "release_count": 126,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "e48777e66a41",
+      "last_seen_sha": "8de6c7685f78",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71581,9 +71594,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.178.0.zip",
-      "size": 20632216,
-      "previous_version": "7.177.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.179.0.zip",
+      "size": 20635565,
+      "previous_version": "7.178.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -151015,6 +151028,38 @@
       "github_forks": 58,
       "github_language": "C",
       "github_updated_at": "2026-06-21T09:52:19Z"
+    },
+    {
+      "repository_name": "Xinyuan-LilyGO/LilyGo-display-library",
+      "repository_url": "https://github.com/Xinyuan-LilyGO/LilyGo-display-library",
+      "name": "LilyGo-display-library",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-07-27T11:01:25.870Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T11:01:25.870Z",
+      "last_seen_sha": "4043e64426c6",
+      "author": "LILYGO",
+      "maintainer": "LILYGO",
+      "sentence": "LovyanGFX board profiles for selected LILYGO ESP32 display boards.",
+      "paragraph": "Provides ready-to-use LovyanGFX classes for selected LILYGO boards including T-Display, T-Display-S3, T-Circle, T-Circle-S3, T-Display-S3-AMOLED, T4-S3, T-Deck, T-Deck Plus, T-Embed, T-Embed-CC1101, T-Connect Pro, T-Display Bar, T-Display Keyboard, T-Dongle, T-Encoder, T-Display S3 Pro, and T-Camera Plus S3.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "LovyanGFX"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Xinyuan-LilyGO/LilyGo_display_library-0.1.0.zip",
+      "size": 39657,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-27T07:16:47Z"
     },
     {
       "repository_name": "Xinyuan-LilyGO/LilyGo-EPD47",
@@ -241121,16 +241166,20 @@
       "repository_name": "tomrodinger/Servomotor_Arduino_Library",
       "repository_url": "https://github.com/tomrodinger/Servomotor_Arduino_Library",
       "name": "Servomotor",
-      "version": "0.9.2",
+      "version": "0.10.0",
       "version_history": [
         {
           "version": "0.9.2",
           "seen_at": "2026-01-02T21:39:31Z"
+        },
+        {
+          "version": "0.10.0",
+          "seen_at": "2026-07-27T11:01:25.870Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-02T21:39:31Z",
-      "last_seen_sha": "3663025cb854",
+      "last_seen_sha": "ed75d3fced9d",
       "author": "Gearotons",
       "maintainer": "Tom Rodinger <tom@gearotons.com>",
       "sentence": "Library for controlling Gearotons servo motors with advanced features like motion control, torque setting, and homing.",
@@ -241145,11 +241194,13 @@
         "stm32",
         "renesas"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tomrodinger/Servomotor-0.10.0.zip",
+      "size": 73397,
+      "previous_version": "0.9.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-10-17T05:40:05Z",
-      "download_url": "https://github.com/tomrodinger/Servomotor_Arduino_Library"
+      "github_updated_at": "2025-10-17T05:40:05Z"
     },
     {
       "repository_name": "RCmags/ServoMotor",
@@ -310560,7 +310611,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9532,
-    "total_dependencies": 5179
+    "with_github_metadata": 9533,
+    "total_dependencies": 5180
   }
 }

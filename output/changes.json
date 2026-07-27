@@ -1,6 +1,46 @@
 {
-  "since": "2026-07-27T05:14:00.277Z",
+  "since": "2026-07-27T07:01:53.959Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/ESP32CertBundle",
+        "repository_url": "https://github.com/tanakamasayuki/ESP32CertBundle",
+        "name": "ESP32CertBundle",
+        "version": "20260716.0.0",
+        "version_history": [
+          {
+            "version": "20260514.0.0",
+            "seen_at": "2026-05-16T08:10:10Z"
+          },
+          {
+            "version": "20260716.0.0",
+            "seen_at": "2026-07-27T07:01:53.959Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-05-16T08:10:10Z",
+        "last_seen_sha": "991a2f5590a8",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "ESP32 certificate bundle generated from the ESP-IDF root store.",
+        "paragraph": "Provides an Arduino-compatible header embedding the ESP-IDF TLS root certificate bundle and tooling to refresh it from the Mozilla trust store.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MPL-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32CertBundle-20260716.0.0.zip",
+        "size": 143706,
+        "previous_version": "20260514.0.0",
+        "github_stars": 7,
+        "github_forks": 1,
+        "github_language": "C",
+        "github_updated_at": "2026-05-16T03:26:34Z"
+      },
+      "old_version": "20260514.0.0",
+      "new_version": "20260716.0.0"
+    }
+  ],
   "removed_libraries": []
 }

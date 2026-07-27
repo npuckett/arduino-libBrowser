@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-27T19:29:11.321Z",
-  "total_libraries": 9737,
-  "index_etag": "W/\"5c1c7485f6b64c6e819b93abb1c01185\"",
-  "index_last_modified": "Mon, 27 Jul 2026 18:59:12 GMT",
+  "enhanced_at": "2026-07-27T20:28:23.582Z",
+  "total_libraries": 9740,
+  "index_etag": "W/\"81ca1a586a9bec041a53110a98f122f0\"",
+  "index_last_modified": "Mon, 27 Jul 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22783,7 +22783,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.101",
+      "version": "1.2.102",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23000,11 +23000,15 @@
         {
           "version": "1.2.101",
           "seen_at": "2026-07-27T18:28:44.735Z"
+        },
+        {
+          "version": "1.2.102",
+          "seen_at": "2026-07-27T20:28:19.495Z"
         }
       ],
-      "release_count": 54,
+      "release_count": 55,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "53762d2fbd3d",
+      "last_seen_sha": "94d2001f2bac",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23025,9 +23029,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.101.zip",
-      "size": 43667102,
-      "previous_version": "1.2.99",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.102.zip",
+      "size": 43667202,
+      "previous_version": "1.2.101",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -23469,7 +23473,7 @@
       "repository_name": "RobTillaart/AnalogPin",
       "repository_url": "https://github.com/RobTillaart/AnalogPin",
       "name": "AnalogPin",
-      "version": "0.2.10",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.9",
@@ -23478,11 +23482,15 @@
         {
           "version": "0.2.10",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-07-27T20:28:19.495Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:27:00Z",
-      "last_seen_sha": "da53974c6a6a",
+      "last_seen_sha": "72d4fbd6eba8",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino Library for AnalogPin",
@@ -23491,9 +23499,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/AnalogPin-0.2.10.zip",
-      "size": 12718,
-      "previous_version": "0.2.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/AnalogPin-0.3.0.zip",
+      "size": 13318,
+      "previous_version": "0.2.10",
       "github_stars": 9,
       "github_forks": 1,
       "github_language": "C++",
@@ -71874,6 +71882,36 @@
       "download_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_icm20948_library"
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_joystickcontroller_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_joystickcontroller_library",
+      "name": "DevLab_JoystickController",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-27T20:28:19.495Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T20:28:19.495Z",
+      "last_seen_sha": "c3110b8a2bca",
+      "author": "UNIT Electronics",
+      "maintainer": "UNIT Electronics <ventas@uelectronics.com>",
+      "sentence": "Master-side I2C client for joystick nodes: read X/Y/button, scan the bus, and change device addresses.",
+      "paragraph": "Provides a stateless API for controlling multiple joystick nodes on a shared I2C bus, including atomic axis and button reads, bus recovery, device discovery, and address management.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_JoystickController-1.0.0.zip",
+      "size": 16075,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-27T16:37:23Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_max30102_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_max30102_library",
       "name": "DevLab_MAX30102",
@@ -117715,6 +117753,38 @@
         "GFX_Root"
       ],
       "download_url": "https://github.com/ZinggJM/GFX_Extensions"
+    },
+    {
+      "repository_name": "hazowa/Arduino_GFX_Graph",
+      "repository_url": "https://github.com/hazowa/Arduino_GFX_Graph",
+      "name": "GFX_Graph",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-27T20:28:19.495Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T20:28:19.495Z",
+      "last_seen_sha": "fc54d406d39c",
+      "author": "Hans <hazogithub@gmail.com>",
+      "maintainer": "Hans <hazogithub@gmail.com>",
+      "sentence": "Tiny 2D graphing library for Arduino_GFX displays.",
+      "paragraph": "Draws axes, grids, tick labels and data series on any display Arduino_GFX supports. 1-, 2- and 4-quadrant coordinate systems, bar/line/step/scatter plot styles, overlays and a fast data-only redraw. Configured entirely through plain public member fields.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "GFX Library for Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hazowa/GFX_Graph-1.0.1.zip",
+      "size": 79402,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-27T16:56:16Z"
     },
     {
       "repository_name": "ZinggJM/GFX_Root",
@@ -190233,6 +190303,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-07-31T16:32:06Z",
       "download_url": "https://github.com/BlairBlaidd/Newhaven_CharacterOLED_SPI"
+    },
+    {
+      "repository_name": "X-croot/NewPID",
+      "repository_url": "https://github.com/X-croot/NewPID",
+      "name": "NewPID",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-27T20:28:19.495Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T20:28:19.495Z",
+      "last_seen_sha": "08c3cfeb6f08",
+      "author": "X-croot <Can Ünüvar>",
+      "maintainer": "X-croot <https://github.com/X-croot>",
+      "sentence": "Advanced yet easy Arduino PID controller with anti-windup, derivative filtering, feedforward, bumpless transfer, gain scheduling and built-in Ziegler-Nichols relay and step-response auto-tuning.",
+      "paragraph": "AutoPID is a powerful, portable and fully featured PID control library for Arduino, ESP32, ESP8266, STM32 and AVR boards. It supports automatic millis() timing or user supplied dt, output limits, integral anti-windup, derivative-on-measurement with low-pass filtering, feedforward, setpoint ramping, deadband, gain scheduling, bumpless manual/automatic transfer and automatic gain tuning via Ziegler-Nichols relay and open-loop step-response methods. Ideal for temperature control, motor speed, self-balancing robots, drones, line followers, quadcopters and process control.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/X-croot/NewPID-1.0.1.zip",
+      "size": 845558,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-27T16:08:06Z"
     },
     {
       "repository_name": "bitbucket.org/teckel12/arduino-new-ping",
@@ -310699,7 +310798,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9534,
-    "total_dependencies": 5180
+    "with_github_metadata": 9537,
+    "total_dependencies": 5181
   }
 }

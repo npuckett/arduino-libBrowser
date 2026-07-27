@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-26T23:18:13.344Z",
-  "total_libraries": 9732,
-  "index_etag": "W/\"419efaa068c455a4661a49ed93980efe\"",
-  "index_last_modified": "Sun, 26 Jul 2026 22:59:12 GMT",
+  "enhanced_at": "2026-07-27T00:21:58.003Z",
+  "total_libraries": 9733,
+  "index_etag": "W/\"01c8a820fa491db5d7c1e5ee36a8b1e8\"",
+  "index_last_modified": "Sun, 26 Jul 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -71037,7 +71037,7 @@
       "repository_name": "dstroy0/DeterministicESPAsyncWebServer",
       "repository_url": "https://github.com/dstroy0/DeterministicESPAsyncWebServer",
       "name": "DeterministicESPAsyncWebServer",
-      "version": "7.175.1",
+      "version": "7.176.0",
       "version_history": [
         {
           "version": "4.64.1",
@@ -71526,11 +71526,15 @@
         {
           "version": "7.175.1",
           "seen_at": "2026-07-26T04:17:28.206Z"
+        },
+        {
+          "version": "7.176.0",
+          "seen_at": "2026-07-27T00:21:56.484Z"
         }
       ],
-      "release_count": 122,
+      "release_count": 123,
       "first_seen_at": "2026-06-30T09:01:40Z",
-      "last_seen_sha": "388da748a218",
+      "last_seen_sha": "501b3d2bfe6b",
       "author": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "maintainer": "Douglas Quigg (dstroy0) <dquigg123@gmail.com>",
       "sentence": "Zero-heap, asynchronous multi-protocol network server for ESP32 with a fully deterministic memory footprint.",
@@ -71539,9 +71543,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.175.1.zip",
-      "size": 20581574,
-      "previous_version": "7.174.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dstroy0/DeterministicESPAsyncWebServer-7.176.0.zip",
+      "size": 20586593,
+      "previous_version": "7.175.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -134610,6 +134614,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-11-21T00:47:33Z",
       "download_url": "https://github.com/Vegetable-SYC/IMU_Fusion_SYC"
+    },
+    {
+      "repository_name": "richcreations/imud-arduino",
+      "repository_url": "https://github.com/richcreations/imud-arduino",
+      "name": "ImudClient",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-27T00:21:56.484Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T00:21:56.484Z",
+      "last_seen_sha": "eafd15086d45",
+      "author": "Richard Simpson",
+      "maintainer": "Richard Simpson",
+      "sentence": "Receive attitude data from the imud IMU daemon over TCP or UDP.",
+      "paragraph": "Decodes and validates imud's 276-byte binary packets (wire v17): heading, roll, pitch, quaternion, rate of turn, heave, sea state and filter gate health. Requires imud 1.7 or newer; use the 1.0.x line for imud 1.4-1.6. Works with any Arduino Client/UDP transport; ESP32 is the primary target.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/richcreations/ImudClient-1.1.0.zip",
+      "size": 72894,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-26T19:25:48Z"
     },
     {
       "repository_name": "RCmags/imuFilter",
@@ -310438,7 +310471,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9529,
+    "with_github_metadata": 9530,
     "total_dependencies": 5179
   }
 }

@@ -1,6 +1,255 @@
 {
-  "since": "2026-07-27T21:23:02.941Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-27T22:20:52.477Z",
+  "new_libraries": [
+    {
+      "repository_name": "chon-group/neck2arduino",
+      "repository_url": "https://github.com/chon-group/neck2arduino",
+      "name": "NECK",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-07-27T22:20:52.477Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-27T22:20:52.477Z",
+      "last_seen_sha": "045902fbfd29",
+      "author": "Nilson Lazarin",
+      "maintainer": "Chon Group <chon@grupo.cefet-rj.br>",
+      "sentence": "Embodied cognition communication kit for agent-based control of physical bodies",
+      "paragraph": "NECK (ageNt Embodied Cognition Kit) is a lightweight communication library that enables cognitive agents to interact with physical bodies through expressive bodily responses, supporting embodied cognition in embedded and robotic systems.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "license": "CC-BY-4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-0.0.1.zip",
+      "size": 164612,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-27T19:54:53Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "AlfredoSystems/AlfredoCRSF",
+        "repository_url": "https://github.com/AlfredoSystems/AlfredoCRSF",
+        "name": "AlfredoCRSF",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-13T08:12:21Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-13T08:12:21Z",
+        "last_seen_sha": "8676c68927dd",
+        "author": "Jacob Williams",
+        "maintainer": "Jacob Williams (jrw4561@gmail.com)",
+        "sentence": "CRSF serial protocol Arduino library",
+        "paragraph": "Communicate over serial with an ExpressLRS or TBS Crossfire receiver. Read RC channels and link statistics, and send telemetry back to the handset. Works with both ELRS 3.x and 4.x, including the 4.0 telemetry sensors, arming status byte and CRSF router frames.",
+        "category": "Device Control",
+        "architectures": [],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoCRSF-2.0.0.zip",
+        "size": 49229,
+        "previous_version": "1.0.1",
+        "github_stars": 124,
+        "github_forks": 29,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-12T20:06:43Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "LennartHennigs/ESPRotary",
+        "repository_url": "https://github.com/LennartHennigs/ESPRotary",
+        "name": "ESP Rotary",
+        "version": "2.2.1",
+        "version_history": [
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-04-24T07:59:24Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.2.1",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-24T07:59:24Z",
+        "last_seen_sha": "4c88fd1bb1ee",
+        "author": "Lennart Hennigs",
+        "maintainer": "Lennart Hennigs <mail@lennarthennigs.de>",
+        "sentence": "ESP8266/Arduino Library for reading rotary encoder values.",
+        "paragraph": "It allows you to use callback functions to track rotation. This will reduce and simplify your souce code significantly. Tested with Arduino and ESP8266.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/LennartHennigs/ESP_Rotary-2.2.1.zip",
+        "size": 30058,
+        "previous_version": "2.1.2",
+        "github_stars": 189,
+        "github_forks": 27,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-09T17:09:13Z"
+      },
+      "old_version": "2.1.2",
+      "new_version": "2.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          },
+          {
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.1.12",
+            "seen_at": "2026-07-16T22:19:06.934Z"
+          },
+          {
+            "version": "1.1.13",
+            "seen_at": "2026-07-24T22:21:05.521Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-26T14:29:22.694Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "3a7c4a93aa49",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.2.1.zip",
+        "size": 4497575,
+        "previous_version": "1.2.0",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "ziyarago/RisalDash",
+        "repository_url": "https://github.com/ziyarago/RisalDash",
+        "name": "RisalDash",
+        "version": "0.13.0",
+        "version_history": [
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-06-30T09:02:12Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-07-06T18:35:18.558Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-07-07T14:58:02.693Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-07-07T16:46:58.618Z"
+          },
+          {
+            "version": "0.8.1",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "0.10.0",
+            "seen_at": "2026-07-10T09:02:01.418Z"
+          },
+          {
+            "version": "0.11.0",
+            "seen_at": "2026-07-20T22:18:17.107Z"
+          },
+          {
+            "version": "0.13.0",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          }
+        ],
+        "release_count": 11,
+        "first_seen_at": "2026-06-30T09:02:12Z",
+        "last_seen_sha": "d496222c4b82",
+        "author": "Shaxzod Ahmedov",
+        "maintainer": "Shaxzod Ahmedov <ahmedov.shaxzod@gmail.com>",
+        "sentence": "Beautiful real-time web dashboards for ESP32/ESP8266 in a few lines of C++.",
+        "paragraph": "Zero-Waste UI (the linker strips unused widgets), offline-first AP + captive portal + Wi-Fi provisioning, real-time WebSocket, i18n (EN/RU/UZ/AR with full RTL, plus dash.translate() for your own widget titles), and AI control via MCP. Describe widgets; the HTML/CSS/JS and protocol are generated for you.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ziyarago/RisalDash-0.13.0.zip",
+        "size": 488524,
+        "previous_version": "0.11.0",
+        "github_stars": 8,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:33:38Z"
+      },
+      "old_version": "0.11.0",
+      "new_version": "0.13.0"
+    }
+  ],
   "removed_libraries": []
 }

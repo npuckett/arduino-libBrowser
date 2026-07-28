@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-28T01:31:35.411Z",
+  "enhanced_at": "2026-07-28T02:59:32.479Z",
   "total_libraries": 9741,
-  "index_etag": "W/\"772b29c1be02511b0fcf5ffb19ce16db\"",
-  "index_last_modified": "Tue, 28 Jul 2026 01:29:12 GMT",
+  "index_etag": "W/\"b0d99ed65dc0f2c7428d13a570b5428e\"",
+  "index_last_modified": "Tue, 28 Jul 2026 02:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -127927,29 +127927,35 @@
       "repository_name": "GavinnnTann/HLK-ZW-Fingerprint-Sensor",
       "repository_url": "https://github.com/GavinnnTann/HLK-ZW-Fingerprint-Sensor",
       "name": "HLK_fingerprint",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-06-24T08:07:44Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-07-28T02:59:32.357Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-24T08:07:44Z",
-      "last_seen_sha": "7f3f68252819",
+      "last_seen_sha": "e8e067a27a1d",
       "author": "GavinnnTann <gavin3302@gmail.com>",
       "maintainer": "GavinnnTann <gavin3302@gmail.com>",
       "sentence": "Arduino driver for HLK-ZW series fingerprint sensors (EF-01 UART protocol).",
-      "paragraph": "Supports HLK-ZW101, ZW111, ZW06xx, ZW09xx, ZW30xx and other EF-01 compatible modules (AS608, R307). Features auto-detection of template capacity, 2-scan enrollment, 1:N HiSpeedSearch matching, template export/import, slot bitmap, RGB LED control with passive-variant fallback, and full system register access.",
+      "paragraph": "Supports HLK-ZW101, ZW111, ZW06xx, ZW09xx, ZW30xx and other EF-01 compatible modules (AS608, R307). Features auto-detection of template capacity, 2-scan enrollment, 1:N matching with automatic search-opcode fallback for ZW30xx variants, template export/import, slot bitmap, RGB LED control with passive-variant fallback, and full system register access.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GavinnnTann/HLK_fingerprint-1.2.0.zip",
+      "size": 7538830,
+      "previous_version": "1.1.1",
       "github_stars": 2,
       "github_forks": 1,
-      "github_updated_at": "2026-06-24T00:54:53Z",
-      "download_url": "https://github.com/GavinnnTann/HLK-ZW-Fingerprint-Sensor",
-      "github_language": "Python"
+      "github_language": "Python",
+      "github_updated_at": "2026-06-24T00:54:53Z"
     },
     {
       "repository_name": "phuongnamzz/HLK-LD2410S",

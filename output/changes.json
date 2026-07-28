@@ -1,6 +1,84 @@
 {
-  "since": "2026-07-28T17:29:17.893Z",
+  "since": "2026-07-28T18:26:10.063Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "dunknowcoding/NiusAudio",
+        "repository_url": "https://github.com/dunknowcoding/NiusAudio",
+        "name": "NiusAudio",
+        "version": "0.3.2",
+        "version_history": [
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-07-19T04:14:05.638Z"
+          },
+          {
+            "version": "0.3.2",
+            "seen_at": "2026-07-28T18:26:10.063Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-19T04:14:05.638Z",
+        "last_seen_sha": "512940859cfe",
+        "author": "NiusRobotLab",
+        "maintainer": "NiusRobotLab",
+        "sentence": "Arduino audio library for common codec, ADC, DAC, amplifier, microphone, and wireless audio modules.",
+        "paragraph": "Provides a clean Arduino style API and modular board drivers for common audio modules across ESP32 plus compile-safe RP2040, RP2350, nRF52, STM32, SAMD, Renesas, and AVR families.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusAudio-0.3.2.zip",
+        "size": 154805,
+        "previous_version": "0.3.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-19T01:35:29Z"
+      },
+      "old_version": "0.3.1",
+      "new_version": "0.3.2"
+    },
+    {
+      "library": {
+        "repository_name": "dunknowcoding/ArduinoNRF-Zigbee",
+        "repository_url": "https://github.com/dunknowcoding/ArduinoNRF-Zigbee",
+        "name": "NiusZigbee",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T08:57:51Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-28T18:26:10.063Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:57:51Z",
+        "last_seen_sha": "00a5c893b48d",
+        "author": "dunknowcoding (NiusRobotLab)",
+        "maintainer": "dunknowcoding",
+        "sentence": "Drive external Zigbee / IEEE 802.15.4 radio modules (CC2530, ...) from an ArduinoNRF nRF52840 board.",
+        "paragraph": "Host-side Zigbee / IEEE 802.15.4 stack for external 2.4 GHz modules over a hardware UART. Ships an SDCC CC2530 MAC/PHY helper firmware (raw 802.15.4 send/receive, hardware PAN/address filtering, Auto ACK, CCA transmit, retries, promiscuous sniffing) and a growing native Zigbee PRO stack on the nRF52840: short-address MAC + association join, active scan + parent selection, AODV route discovery and multi-hop forwarding, AES-CCM* NWK and APS security, end-to-end acked delivery, APS fragmentation, ZDO discovery and network management (Mgmt_Lqi/Rtg), source binding, network-state persistence, Trust-Center key-transport tooling (AES-MMO/HMAC specialized keys) with per-joiner install-code link keys and key rotation, broadcast transaction table, sleepy-end-device queue + keep-alive with the CC2530 v0.5 auto-ACK frame-pending bit, PAN-ID conflict + channel-change network manager, Touchlink + Green Power proxy/sink commissioning over real inter-PAN MAC frames, plus reusable ZCL device clusters and reporting helpers. Flash the module firmware with the ArduinoNRF board package's built-in CC-Debugger - no external TI programmer required. Extensible to more modules and a future Z-Stack backend.",
+        "category": "Communication",
+        "architectures": [
+          "nrf52"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusZigbee-1.0.1.zip",
+        "size": 368045,
+        "previous_version": "1.0.0",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T02:40:43Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

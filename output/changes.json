@@ -1,44 +1,48 @@
 {
-  "since": "2026-07-28T02:59:32.357Z",
+  "since": "2026-07-28T04:06:24.576Z",
   "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "GavinnnTann/HLK-ZW-Fingerprint-Sensor",
-        "repository_url": "https://github.com/GavinnnTann/HLK-ZW-Fingerprint-Sensor",
-        "name": "HLK_fingerprint",
-        "version": "1.2.0",
+        "repository_name": "sauloverissimo/midi2cpp",
+        "repository_url": "https://github.com/sauloverissimo/midi2cpp",
+        "name": "midi2cpp",
+        "version": "0.7.0",
         "version_history": [
           {
-            "version": "1.1.1",
-            "seen_at": "2026-06-24T08:07:44Z"
+            "version": "0.6.0",
+            "seen_at": "2026-06-30T08:59:43Z"
           },
           {
-            "version": "1.2.0",
-            "seen_at": "2026-07-28T02:59:32.357Z"
+            "version": "0.6.1",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-07-28T04:06:24.576Z"
           }
         ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-24T08:07:44Z",
-        "last_seen_sha": "e8e067a27a1d",
-        "author": "GavinnnTann <gavin3302@gmail.com>",
-        "maintainer": "GavinnnTann <gavin3302@gmail.com>",
-        "sentence": "Arduino driver for HLK-ZW series fingerprint sensors (EF-01 UART protocol).",
-        "paragraph": "Supports HLK-ZW101, ZW111, ZW06xx, ZW09xx, ZW30xx and other EF-01 compatible modules (AS608, R307). Features auto-detection of template capacity, 2-scan enrollment, 1:N matching with automatic search-opcode fallback for ZW30xx variants, template export/import, slot bitmap, RGB LED control with passive-variant fallback, and full system register access.",
-        "category": "Sensors",
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T08:59:43Z",
+        "last_seen_sha": "766b768e1e8f",
+        "author": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "C++ MIDI 2.0 platform: an idiomatic wrapper over the midi2 core.",
+        "paragraph": "C++17 wrapper that bundles the portable midi2 C99 core. Covers UMP transport (M2-104), MIDI-CI with Appendix E (M2-101), Property Exchange Subscribe/Notify, Profile Configuration, Process Inquiry, Flex Data, and Bit Scaling (M2-115). Targets embedded boards (RP2040, RP2350, Teensy, ESP32 family, nRF52, SAMD21).",
+        "category": "Communication",
         "architectures": [
           "*"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/GavinnnTann/HLK_fingerprint-1.2.0.zip",
-        "size": 7538830,
-        "previous_version": "1.1.1",
-        "github_stars": 2,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2cpp-0.7.0.zip",
+        "size": 71732374,
+        "previous_version": "0.6.1",
+        "github_stars": 4,
         "github_forks": 1,
-        "github_language": "Python",
-        "github_updated_at": "2026-06-24T00:54:53Z"
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T16:08:06Z"
       },
-      "old_version": "1.1.1",
-      "new_version": "1.2.0"
+      "old_version": "0.6.1",
+      "new_version": "0.7.0"
     }
   ],
   "removed_libraries": []

@@ -1,6 +1,142 @@
 {
-  "since": "2026-07-28T09:50:50.420Z",
+  "since": "2026-07-28T10:48:05.060Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_GigaDisplay",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_GigaDisplay",
+        "name": "Arduino_GigaDisplay",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-04-02T07:34:44Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-27T12:59:02.992Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-28T10:48:05.060Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-02T07:34:44Z",
+        "last_seen_sha": "b80cb3e38a90",
+        "author": "Arduino",
+        "maintainer": "Arduino <info@arduino.cc>",
+        "sentence": "Examples for GIGA Display Shield",
+        "category": "Device Control",
+        "architectures": [
+          "mbed_giga",
+          "mbed_portenta",
+          "zephyr_main"
+        ],
+        "depends": [
+          "Arduino_BMI270_BMM150",
+          "Arduino_GigaDisplayTouch",
+          "ArduinoGraphics",
+          "Arduino_GigaDisplay_GFX",
+          "lvgl",
+          "arducam_dvp"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_GigaDisplay-1.1.1.zip",
+        "size": 312368,
+        "previous_version": "1.1.0",
+        "github_stars": 11,
+        "github_forks": 6,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-19T10:06:57Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "RAKWireless/RAK13006-MCP2518",
+        "repository_url": "https://github.com/RAKWireless/RAK13006-MCP2518",
+        "name": "RAK13006-MCP2518 library",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:25:55Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-28T10:48:05.060Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:25:55Z",
+        "last_seen_sha": "cdf5f2bf8e5e",
+        "author": "RAKWireless <rakwireless.com>",
+        "maintainer": "RAKWireless <rakwireless.com>",
+        "sentence": "Arduino library for controlling CAN communication",
+        "paragraph": "Arduino library for controlling CAN communication",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RAKWireless/RAK13006_MCP2518_library-1.0.1.zip",
+        "size": 947420,
+        "previous_version": "1.0.0",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-06-15T14:15:32Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "stack-chan/stackchan-arduino",
+        "repository_url": "https://github.com/stack-chan/stackchan-arduino",
+        "name": "stackchan-arduino",
+        "version": "0.0.8",
+        "version_history": [
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-06-30T08:54:09Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.0.8",
+            "seen_at": "2026-07-28T10:48:05.060Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T08:54:09Z",
+        "last_seen_sha": "07302ac1cc4a",
+        "author": "Takao Akaki",
+        "maintainer": "Takao Akaki<takaoakaki@gmail.com>",
+        "sentence": "Stackchan library for M5Stack",
+        "paragraph": "See more on http://M5Stack.com",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stack-chan/stackchan_arduino-0.0.8.zip",
+        "size": 34411,
+        "previous_version": "0.0.7",
+        "github_stars": 33,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T01:28:59Z"
+      },
+      "old_version": "0.0.7",
+      "new_version": "0.0.8"
+    }
+  ],
   "removed_libraries": []
 }

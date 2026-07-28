@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-28T09:50:50.547Z",
+  "enhanced_at": "2026-07-28T10:48:05.195Z",
   "total_libraries": 9744,
-  "index_etag": "W/\"de0ce8f125ce2113eccbd19e3a88e491\"",
-  "index_last_modified": "Tue, 28 Jul 2026 09:29:12 GMT",
+  "index_etag": "W/\"1bdb41c847fea5c42099c6418486fab4\"",
+  "index_last_modified": "Tue, 28 Jul 2026 10:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -27539,7 +27539,7 @@
       "repository_name": "arduino-libraries/Arduino_GigaDisplay",
       "repository_url": "https://github.com/arduino-libraries/Arduino_GigaDisplay",
       "name": "Arduino_GigaDisplay",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.2",
@@ -27548,11 +27548,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-07-27T12:59:02.992Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-07-28T10:48:05.060Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-02T07:34:44Z",
-      "last_seen_sha": "78de45a2ecd2",
+      "last_seen_sha": "b80cb3e38a90",
       "author": "Arduino",
       "maintainer": "Arduino <info@arduino.cc>",
       "sentence": "Examples for GIGA Display Shield",
@@ -27568,11 +27572,11 @@
         "ArduinoGraphics",
         "Arduino_GigaDisplay_GFX",
         "lvgl",
-        "Arducam_dvp"
+        "arducam_dvp"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_GigaDisplay-1.1.0.zip",
-      "size": 312366,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_GigaDisplay-1.1.1.zip",
+      "size": 312368,
+      "previous_version": "1.1.0",
       "github_stars": 11,
       "github_forks": 6,
       "github_language": "C++",
@@ -220414,7 +220418,7 @@
       "repository_name": "RAKWireless/RAK13006-MCP2518",
       "repository_url": "https://github.com/RAKWireless/RAK13006-MCP2518",
       "name": "RAK13006-MCP2518 library",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -220423,11 +220427,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-07-28T10:48:05.060Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:25:55Z",
-      "last_seen_sha": "5cc5b5f8099a",
+      "last_seen_sha": "cdf5f2bf8e5e",
       "author": "RAKWireless <rakwireless.com>",
       "maintainer": "RAKWireless <rakwireless.com>",
       "sentence": "Arduino library for controlling CAN communication",
@@ -220436,8 +220444,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RAKWireless/RAK13006_MCP2518_library-1.0.0.zip",
-      "size": 947375,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RAKWireless/RAK13006_MCP2518_library-1.0.1.zip",
+      "size": 947420,
       "previous_version": "1.0.0",
       "github_stars": 3,
       "github_forks": 1,
@@ -266144,7 +266152,7 @@
       "repository_name": "stack-chan/stackchan-arduino",
       "repository_url": "https://github.com/stack-chan/stackchan-arduino",
       "name": "stackchan-arduino",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "version_history": [
         {
           "version": "0.0.7",
@@ -266153,11 +266161,15 @@
         {
           "version": "0.0.7",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.0.8",
+          "seen_at": "2026-07-28T10:48:05.060Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:54:09Z",
-      "last_seen_sha": "5510cea9ce7f",
+      "last_seen_sha": "07302ac1cc4a",
       "author": "Takao Akaki",
       "maintainer": "Takao Akaki<takaoakaki@gmail.com>",
       "sentence": "Stackchan library for M5Stack",
@@ -266166,13 +266178,13 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stack-chan/stackchan_arduino-0.0.7.zip",
-      "size": 34389,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stack-chan/stackchan_arduino-0.0.8.zip",
+      "size": 34411,
       "previous_version": "0.0.7",
       "github_stars": 33,
       "github_forks": 9,
-      "github_updated_at": "2026-07-02T01:28:59Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T01:28:59Z"
     },
     {
       "repository_name": "PaddyCo/StackmatTimer",

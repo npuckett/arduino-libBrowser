@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-28T05:55:59.763Z",
-  "total_libraries": 9741,
-  "index_etag": "W/\"eb07496916fc64a97afe3d7fd32189a0\"",
-  "index_last_modified": "Tue, 28 Jul 2026 05:29:12 GMT",
+  "enhanced_at": "2026-07-28T06:51:11.725Z",
+  "total_libraries": 9743,
+  "index_etag": "W/\"a639407c144e6dcf2a346d641b4c4379\"",
+  "index_last_modified": "Tue, 28 Jul 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -214407,6 +214407,35 @@
       "download_url": "http://github.com/nyannkov/Psgino"
     },
     {
+      "repository_name": "PiezoSonic/PSI",
+      "repository_url": "https://github.com/PiezoSonic/PSI",
+      "name": "PSI",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-28T06:51:09.018Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-28T06:51:09.018Z",
+      "last_seen_sha": "0bb25bef6063",
+      "author": "PiezoSonic(Nakata Takumi)",
+      "maintainer": "PiezoSonic",
+      "sentence": "SPI communication wrapper library for Piezo Sonic Motor driver PCCII.",
+      "paragraph": "A dedicated SPI communication wrapper library for interfacing microcontrollers with PCCII, the driver for Piezo Sonic Motors.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PiezoSonic/PSI-1.0.0.zip",
+      "size": 26851,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-28T03:42:21Z"
+    },
+    {
       "repository_name": "SukkoPera/PsxNewLib",
       "repository_url": "https://github.com/SukkoPera/PsxNewLib",
       "name": "PsxNewLib",
@@ -251069,6 +251098,35 @@
       "github_forks": 143,
       "github_updated_at": "2026-06-30T07:42:03Z",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "tawfique02/SmartSensorFilter",
+      "repository_url": "https://github.com/tawfique02/SmartSensorFilter",
+      "name": "SmartSensorFilter",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-28T06:51:09.018Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-28T06:51:09.018Z",
+      "last_seen_sha": "be322ece0729",
+      "author": "Tawfique Elahey<angelbracket072@gmail.com>",
+      "maintainer": "Tawfique Elahey<angelbracket072@gmail.com>",
+      "sentence": "A simple moving-average filter library for smoothing analog sensor readings.",
+      "paragraph": "Reduces noise and fluctuation in sensor readings on Arduino using a customizable window-size moving average.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tawfique02/SmartSensorFilter-1.0.0.zip",
+      "size": 2927,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-28T04:59:46Z"
     },
     {
       "repository_name": "technochicken/SmartSW",
@@ -310860,7 +310918,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9538,
+    "with_github_metadata": 9540,
     "total_dependencies": 5181
   }
 }

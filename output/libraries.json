@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-29T09:51:49.054Z",
-  "total_libraries": 9747,
-  "index_etag": "W/\"8d2f33302e5e51787f45217a72858c0d\"",
-  "index_last_modified": "Wed, 29 Jul 2026 09:29:12 GMT",
+  "enhanced_at": "2026-07-29T10:50:40.854Z",
+  "total_libraries": 9748,
+  "index_etag": "W/\"999e8b3b53e45cd38bad618d844630ed\"",
+  "index_last_modified": "Wed, 29 Jul 2026 10:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -21200,6 +21200,35 @@
       "github_forks": 29,
       "github_language": "C++",
       "github_updated_at": "2026-06-12T20:06:43Z"
+    },
+    {
+      "repository_name": "AlfredoSystems/AlfredoDShot",
+      "repository_url": "https://github.com/AlfredoSystems/AlfredoDShot",
+      "name": "AlfredoDShot",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-29T10:50:39.382Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-29T10:50:39.382Z",
+      "last_seen_sha": "4163661d9052",
+      "author": "Alfredo Systems",
+      "maintainer": "Jacob Williams (jrw4561@gmail.com)",
+      "sentence": "Bidirectional DShot for ESP32 with RMT, targeting AM32 ESCs.",
+      "paragraph": "One-wire bidirectional DShot (DShot150/300/600/1200) driven by the RMT peripheral. Decodes GCR eRPM telemetry and Extended DShot Telemetry from AM32 ESCs using a single GPIO per ESC.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoDShot-1.0.0.zip",
+      "size": 34137,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-29T06:31:38Z"
     },
     {
       "repository_name": "algoduino/algoduino",
@@ -311117,7 +311146,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9544,
+    "with_github_metadata": 9545,
     "total_dependencies": 5188
   }
 }

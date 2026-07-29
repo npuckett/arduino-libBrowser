@@ -1,6 +1,36 @@
 {
-  "since": "2026-07-29T09:51:48.931Z",
-  "new_libraries": [],
+  "since": "2026-07-29T10:50:39.382Z",
+  "new_libraries": [
+    {
+      "repository_name": "AlfredoSystems/AlfredoDShot",
+      "repository_url": "https://github.com/AlfredoSystems/AlfredoDShot",
+      "name": "AlfredoDShot",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-29T10:50:39.382Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-29T10:50:39.382Z",
+      "last_seen_sha": "4163661d9052",
+      "author": "Alfredo Systems",
+      "maintainer": "Jacob Williams (jrw4561@gmail.com)",
+      "sentence": "Bidirectional DShot for ESP32 with RMT, targeting AM32 ESCs.",
+      "paragraph": "One-wire bidirectional DShot (DShot150/300/600/1200) driven by the RMT peripheral. Decodes GCR eRPM telemetry and Extended DShot Telemetry from AM32 ESCs using a single GPIO per ESC.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoDShot-1.0.0.zip",
+      "size": 34137,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-29T06:31:38Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

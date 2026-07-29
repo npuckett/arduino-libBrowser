@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-29T01:31:31.899Z",
-  "total_libraries": 9746,
-  "index_etag": "W/\"dfe7080bcfbb5e4076f7750a750e8ec4\"",
-  "index_last_modified": "Wed, 29 Jul 2026 01:29:12 GMT",
+  "enhanced_at": "2026-07-29T02:59:34.585Z",
+  "total_libraries": 9747,
+  "index_etag": "W/\"97cfd0283b8179121faf35c733b1a9a5\"",
+  "index_last_modified": "Wed, 29 Jul 2026 02:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22799,7 +22799,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.104",
+      "version": "1.2.106",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23024,11 +23024,15 @@
         {
           "version": "1.2.104",
           "seen_at": "2026-07-28T00:19:34.417Z"
+        },
+        {
+          "version": "1.2.106",
+          "seen_at": "2026-07-29T02:59:33.159Z"
         }
       ],
-      "release_count": 56,
+      "release_count": 57,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "8eff530a3890",
+      "last_seen_sha": "bdf991e74f29",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23049,9 +23053,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.104.zip",
-      "size": 43691319,
-      "previous_version": "1.2.102",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.106.zip",
+      "size": 43691534,
+      "previous_version": "1.2.104",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -197051,6 +197055,43 @@
       "download_url": "https://github.com/ktauchathuranga/openpager"
     },
     {
+      "repository_name": "jwachlin/open-rc-spotter",
+      "repository_url": "https://github.com/jwachlin/open-rc-spotter",
+      "name": "OpenRCSpotter",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-29T02:59:33.159Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-29T02:59:33.159Z",
+      "last_seen_sha": "1817c37fc68b",
+      "author": "Jake Wachlin <jake@metashunt.com>",
+      "maintainer": "Jake Wachlin <jake@metashunt.com>",
+      "sentence": "Comprehensive datalogger library for RC car telemetry using ESP32.",
+      "paragraph": "OpenRCSpotter provides an easy-to-use interface for logging RC car data including accelerometer, gyroscope, GPS, temperature, battery voltage, PWM signals, and IR receiver data to an SD card.",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Wire",
+        "SPI",
+        "SD",
+        "Adafruit_LSM6DS",
+        "Adafruit_ADS1X15",
+        "BasicLinearAlgebra"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jwachlin/OpenRCSpotter-1.0.0.zip",
+      "size": 3046335,
+      "github_stars": 10,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-28T23:48:01Z"
+    },
+    {
       "repository_name": "CelliesProjects/OpenStreetMap-esp32",
       "repository_url": "https://github.com/CelliesProjects/OpenStreetMap-esp32",
       "name": "OpenStreetMap-esp32",
@@ -311076,7 +311117,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9543,
-    "total_dependencies": 5182
+    "with_github_metadata": 9544,
+    "total_dependencies": 5188
   }
 }

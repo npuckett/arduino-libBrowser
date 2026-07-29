@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-29T11:42:27.090Z",
+  "enhanced_at": "2026-07-29T12:36:33.887Z",
   "total_libraries": 9748,
-  "index_etag": "W/\"999e8b3b53e45cd38bad618d844630ed\"",
-  "index_last_modified": "Wed, 29 Jul 2026 11:29:12 GMT",
+  "index_etag": "W/\"c9274fcfe52da03cbd822cd751bc622d\"",
+  "index_last_modified": "Wed, 29 Jul 2026 12:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -208783,7 +208783,7 @@
       "repository_name": "NickP005/plynx-library",
       "repository_url": "https://github.com/NickP005/plynx-library",
       "name": "Plynx",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
@@ -208792,11 +208792,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-07-27T14:57:33.658Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-07-29T12:36:33.757Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-20T12:39:41.305Z",
-      "last_seen_sha": "2691181673f2",
+      "last_seen_sha": "2e453b3804c9",
       "author": "Plynx, derived from Blynk library by Volodymyr Shymanskyy",
       "maintainer": "Plynx (NickP005)",
       "sentence": "Control your Arduino, ESP32 or ESP8266 from the Plynx app.",
@@ -208806,9 +208810,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.0.3.zip",
-      "size": 584706,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.0.4.zip",
+      "size": 585065,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -224276,26 +224280,31 @@
       "repository_name": "Stutchbury/ResistiveTouchScreen",
       "repository_url": "https://github.com/Stutchbury/ResistiveTouchScreen",
       "name": "ResistiveTouchScreen",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-28T16:30:21.117Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-07-29T12:36:33.757Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-28T16:30:21.117Z",
-      "last_seen_sha": "969798974444",
+      "last_seen_sha": "08a07852f462",
       "author": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "maintainer": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "sentence": "A tuneable TouchScreen library for 4 wire resistive touch screens.",
-      "paragraph": "A fast, tuneable 4 wire resistive touch screen library",
-      "category": "Signal Input/Output",
+      "paragraph": "A fast, 4 wire resistive touch screen library with methods to configure pin settle time, samples, pin use etc and to mirror X and/or Y output.",
+      "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ResistiveTouchScreen-1.0.0.zip",
-      "size": 20954,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ResistiveTouchScreen-1.1.0.zip",
+      "size": 23720,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

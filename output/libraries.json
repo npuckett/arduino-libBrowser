@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-30T13:31:37.709Z",
+  "enhanced_at": "2026-07-30T14:44:22.665Z",
   "total_libraries": 9771,
-  "index_etag": "W/\"1e220bb80ace037053415ee93d98c121\"",
-  "index_last_modified": "Thu, 30 Jul 2026 13:29:12 GMT",
+  "index_etag": "W/\"1694e7d8fd434271db8b2130c3495c6f\"",
+  "index_last_modified": "Thu, 30 Jul 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -53447,7 +53447,7 @@
       "repository_name": "GyverLibs/BSON",
       "repository_url": "https://github.com/GyverLibs/BSON",
       "name": "BSON",
-      "version": "2.3.5",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.3.4",
@@ -53456,11 +53456,15 @@
         {
           "version": "2.3.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-18T07:48:11Z",
-      "last_seen_sha": "f9cdd6233103",
+      "last_seen_sha": "4f88ef9cf880",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Binary JSON packet builder for Arduino",
@@ -53470,12 +53474,11 @@
         "*"
       ],
       "depends": [
-        "StringUtils",
         "GTL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/BSON-2.3.5.zip",
-      "size": 43497,
-      "previous_version": "2.3.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/BSON-3.0.0.zip",
+      "size": 24685,
+      "previous_version": "2.3.5",
       "github_stars": 7,
       "github_forks": 0,
       "github_language": "C++",
@@ -133451,7 +133454,7 @@
       "repository_name": "tdk-invn-oss/motion.arduino.ICM45608",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM45608",
       "name": "ICM45608",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "version_history": [
         {
           "version": "1.1.3",
@@ -133468,11 +133471,15 @@
         {
           "version": "1.1.6",
           "seen_at": "2026-07-30T10:41:08.084Z"
+        },
+        {
+          "version": "1.1.7",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-20T08:14:38Z",
-      "last_seen_sha": "d13f5692196b",
+      "last_seen_sha": "b5f2954f7392",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM45608 Invensence IMU device.",
@@ -133481,9 +133488,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45608-1.1.6.zip",
-      "size": 571020,
-      "previous_version": "1.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45608-1.1.7.zip",
+      "size": 571019,
+      "previous_version": "1.1.6",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -133563,7 +133570,7 @@
       "repository_name": "tdk-invn-oss/motion.arduino.ICM45687",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM45687",
       "name": "ICM45687",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "version_history": [
         {
           "version": "1.1.3",
@@ -133580,11 +133587,15 @@
         {
           "version": "1.1.6",
           "seen_at": "2026-07-30T08:52:11.559Z"
+        },
+        {
+          "version": "1.1.7",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-20T08:13:05Z",
-      "last_seen_sha": "04de4b924e63",
+      "last_seen_sha": "acb90de7d362",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM45687 Invensence IMU device.",
@@ -133593,9 +133604,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45687-1.1.6.zip",
-      "size": 547864,
-      "previous_version": "1.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45687-1.1.7.zip",
+      "size": 547862,
+      "previous_version": "1.1.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -133605,7 +133616,7 @@
       "repository_name": "tdk-invn-oss/motion.arduino.ICM45689",
       "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM45689",
       "name": "ICM45689",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "version_history": [
         {
           "version": "1.1.3",
@@ -133622,11 +133633,15 @@
         {
           "version": "1.1.6",
           "seen_at": "2026-07-30T10:41:08.084Z"
+        },
+        {
+          "version": "1.1.7",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-20T08:14:36Z",
-      "last_seen_sha": "8595940a370e",
+      "last_seen_sha": "ff4be927d965",
       "author": "TDK/Invensense",
       "maintainer": "TDK/Invensense",
       "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM45689 Invensence IMU device.",
@@ -133635,9 +133650,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45689-1.1.6.zip",
-      "size": 571031,
-      "previous_version": "1.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45689-1.1.7.zip",
+      "size": 571030,
+      "previous_version": "1.1.6",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C",
@@ -190046,7 +190061,7 @@
       "repository_name": "soosp/NetworkManager",
       "repository_url": "https://github.com/soosp/NetworkManager",
       "name": "NetworkManager",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "version_history": [
         {
           "version": "0.1.0",
@@ -190063,11 +190078,15 @@
         {
           "version": "0.1.4",
           "seen_at": "2026-07-24T16:30:04.549Z"
+        },
+        {
+          "version": "0.1.5",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "bc919f6e5178",
+      "last_seen_sha": "33fb0fefa2a7",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Priority-based network connection manager with automatic fallback.",
@@ -190085,9 +190104,9 @@
         "EEPROMPreferences",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.1.4.zip",
-      "size": 124726,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.1.5.zip",
+      "size": 124844,
+      "previous_version": "0.1.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -190126,7 +190145,7 @@
       "repository_name": "soosp/NetworkProfile",
       "repository_url": "https://github.com/soosp/NetworkProfile",
       "name": "NetworkProfile",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -190147,11 +190166,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-07-24T16:30:04.549Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "79a9a7806b42",
+      "last_seen_sha": "cfd6c61c51b2",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
@@ -190168,9 +190191,9 @@
         "EEPROMPreferences",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.4.1.zip",
-      "size": 42873,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.5.0.zip",
+      "size": 45967,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -242192,16 +242215,20 @@
       "repository_name": "GyverLibs/Settings",
       "repository_url": "https://github.com/GyverLibs/Settings",
       "name": "Settings",
-      "version": "1.3.17",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.3.17",
           "seen_at": "2026-06-11T08:47:39Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-07-30T14:44:22.538Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-11T08:47:39Z",
-      "last_seen_sha": "b5c27e0bc6ab",
+      "last_seen_sha": "fdbe184153f7",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple UI webface builder for esp8266/esp32",
@@ -242211,10 +242238,6 @@
         "esp8266",
         "esp32"
       ],
-      "github_stars": 114,
-      "github_forks": 16,
-      "github_language": "C",
-      "github_updated_at": "2026-06-20T11:19:23Z",
       "depends": [
         "GTL",
         "GyverDB",
@@ -242224,7 +242247,13 @@
         "Stamp",
         "Table"
       ],
-      "download_url": "https://github.com/GyverLibs/Settings"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Settings-1.4.0.zip",
+      "size": 249406,
+      "previous_version": "1.3.17",
+      "github_stars": 114,
+      "github_forks": 16,
+      "github_language": "C",
+      "github_updated_at": "2026-06-20T11:19:23Z"
     },
     {
       "repository_name": "SergiuToporjinschi/settingsmanager",
@@ -311951,6 +311980,6 @@
     "total_categories": 79,
     "total_architectures": 160,
     "with_github_metadata": 9568,
-    "total_dependencies": 5190
+    "total_dependencies": 5189
   }
 }

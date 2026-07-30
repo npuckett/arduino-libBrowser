@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-30T05:53:07.877Z",
+  "enhanced_at": "2026-07-30T06:48:48.822Z",
   "total_libraries": 9750,
-  "index_etag": "W/\"e3ad77103da2b8d8d56b14a3b833c5dd\"",
-  "index_last_modified": "Thu, 30 Jul 2026 05:29:12 GMT",
+  "index_etag": "W/\"03bf7c97ad7d3aa8c07be861cf75b807\"",
+  "index_last_modified": "Thu, 30 Jul 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -289434,29 +289434,39 @@
       "repository_name": "MJBeltran13/trioe",
       "repository_url": "https://github.com/MJBeltran13/trioe",
       "name": "Trioe",
-      "version": "3.2.5",
+      "version": "3.2.6",
       "version_history": [
         {
           "version": "3.2.5",
           "seen_at": "2025-07-21T16:04:23Z"
+        },
+        {
+          "version": "3.2.6",
+          "seen_at": "2026-07-30T06:48:48.689Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:04:23Z",
-      "last_seen_sha": "0117344e9d2a",
+      "last_seen_sha": "e74a4feb03f0",
       "author": "Marc James Beltran",
       "maintainer": "Marc James Beltran",
-      "sentence": "A comprehensive library to simplify the creation, operation, and utilization of your DIY Internet of Things devices using Trioe hardware.",
-      "paragraph": "The library includes example codes specifically designed for the Trioe Learning Kit, making it easier for beginners and enthusiasts to get started with IoT projects.",
+      "sentence": "TRIOE learning-kit utilities and a secure TRIOE Hub client for ESP32 devices.",
+      "paragraph": "Preserves the classic Trioe API and learning-kit examples while adding secure telemetry batching, state fetching, retries, offline queueing, and typed callbacks.",
       "category": "Communication",
       "architectures": [
-        "trioe"
+        "trioe",
+        "esp32"
       ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MJBeltran13/Trioe-3.2.6.zip",
+      "size": 77932,
+      "previous_version": "3.2.5",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-06-17T09:06:34Z",
-      "download_url": "https://github.com/MJBeltran13/trioe"
+      "github_updated_at": "2025-06-17T09:06:34Z"
     },
     {
       "repository_name": "finani/TriSonica_Mini",
@@ -311274,6 +311284,6 @@
     "total_categories": 79,
     "total_architectures": 160,
     "with_github_metadata": 9547,
-    "total_dependencies": 5188
+    "total_dependencies": 5189
   }
 }

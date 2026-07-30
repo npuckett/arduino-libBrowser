@@ -1,6 +1,99 @@
 {
-  "since": "2026-07-30T07:46:00.067Z",
+  "since": "2026-07-30T08:52:11.559Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tdk-invn-oss/motion.arduino.ICM45606",
+        "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM45606",
+        "name": "ICM45606",
+        "version": "1.1.6",
+        "version_history": [
+          {
+            "version": "1.1.3",
+            "seen_at": "2026-05-20T08:13:07Z"
+          },
+          {
+            "version": "1.1.4",
+            "seen_at": "2026-07-06T18:35:18.558Z"
+          },
+          {
+            "version": "1.1.5",
+            "seen_at": "2026-07-22T12:29:33.437Z"
+          },
+          {
+            "version": "1.1.6",
+            "seen_at": "2026-07-30T08:52:11.559Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-20T08:13:07Z",
+        "last_seen_sha": "5ea9f3040f96",
+        "author": "TDK/Invensense",
+        "maintainer": "TDK/Invensense",
+        "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM45606 Invensence IMU device.",
+        "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM45606 device, using the SPI or the I2C interface. It also provides embedded algorithms such as B2S, Tap, WoM, AID, LowG, HighG, Freefall, VVD",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45606-1.1.6.zip",
+        "size": 544936,
+        "previous_version": "1.1.5",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-05-19T08:24:04Z"
+      },
+      "old_version": "1.1.5",
+      "new_version": "1.1.6"
+    },
+    {
+      "library": {
+        "repository_name": "tdk-invn-oss/motion.arduino.ICM45687",
+        "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM45687",
+        "name": "ICM45687",
+        "version": "1.1.6",
+        "version_history": [
+          {
+            "version": "1.1.3",
+            "seen_at": "2026-05-20T08:13:05Z"
+          },
+          {
+            "version": "1.1.4",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.1.5",
+            "seen_at": "2026-07-22T14:38:28.814Z"
+          },
+          {
+            "version": "1.1.6",
+            "seen_at": "2026-07-30T08:52:11.559Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-20T08:13:05Z",
+        "last_seen_sha": "04de4b924e63",
+        "author": "TDK/Invensense",
+        "maintainer": "TDK/Invensense",
+        "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM45687 Invensence IMU device.",
+        "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM45687 device, using the SPI or the I2C interface. It also provides embedded algorithms such as B2S, Tap, WoM, AID, LowG, HighG, Freefall, VVD",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM45687-1.1.6.zip",
+        "size": 547864,
+        "previous_version": "1.1.5",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-05-19T08:21:27Z"
+      },
+      "old_version": "1.1.5",
+      "new_version": "1.1.6"
+    }
+  ],
   "removed_libraries": []
 }

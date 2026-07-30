@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-30T17:29:14.080Z",
+  "enhanced_at": "2026-07-30T18:27:03.383Z",
   "total_libraries": 9771,
-  "index_etag": "W/\"98fe62391de9153c62b6d4ec76573c7e\"",
-  "index_last_modified": "Thu, 30 Jul 2026 17:29:12 GMT",
+  "index_etag": "W/\"e1e48646eeb2975c0923fe7fc12c34f1\"",
+  "index_last_modified": "Thu, 30 Jul 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40400,7 +40400,7 @@
       "repository_name": "vedacool/Arduino-Azure-IoT-Central",
       "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
       "name": "AzureIoT",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40425,13 +40425,17 @@
         {
           "version": "1.2.8",
           "seen_at": "2026-07-24T12:26:58.412Z"
+        },
+        {
+          "version": "1.2.9",
+          "seen_at": "2026-07-30T18:27:03.252Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-07-22T04:09:16.672Z",
-      "last_seen_sha": "ddc707c3f5e6",
-      "author": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
-      "maintainer": "Ts. Dr. Mohd Husaini bin Mohd Fauzi <mhusaini@syncmind.my>",
+      "last_seen_sha": "23b0eedc1fc2",
+      "author": "Dr. Husaini <mhusaini@syncmind.my>",
+      "maintainer": "Dr. Husaini <mhusaini@syncmind.my>",
       "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
       "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 22 included examples, ordered easiest to hardest.",
       "category": "Communication",
@@ -40443,9 +40447,9 @@
         "WiFiNINA",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.8.zip",
-      "size": 134786,
-      "previous_version": "1.2.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.9.zip",
+      "size": 143236,
+      "previous_version": "1.2.8",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -156120,7 +156124,7 @@
       "repository_name": "eleboys/LU9685",
       "repository_url": "https://github.com/eleboys/LU9685",
       "name": "LU9685",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.1.0",
@@ -156133,11 +156137,15 @@
         {
           "version": "1.1.3",
           "seen_at": "2026-07-27T12:59:02.992Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-07-30T18:27:03.252Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-26T20:19:00.093Z",
-      "last_seen_sha": "169dbe4b4b07",
+      "last_seen_sha": "b95d94fb1031",
       "author": "Nima Baghdadi",
       "maintainer": "Nima Baghdadi",
       "sentence": "Arduino library for the LU9685 20-channel I2C/UART servo controller.",
@@ -156146,9 +156154,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/eleboys/LU9685-1.1.3.zip",
-      "size": 134187,
-      "previous_version": "1.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/eleboys/LU9685-1.1.4.zip",
+      "size": 134332,
+      "previous_version": "1.1.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -191881,7 +191889,7 @@
       "repository_name": "dunknowcoding/NiusAudio",
       "repository_url": "https://github.com/dunknowcoding/NiusAudio",
       "name": "NiusAudio",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "version_history": [
         {
           "version": "0.3.1",
@@ -191890,11 +191898,15 @@
         {
           "version": "0.3.2",
           "seen_at": "2026-07-28T18:26:10.063Z"
+        },
+        {
+          "version": "0.3.3",
+          "seen_at": "2026-07-30T18:27:03.252Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-19T04:14:05.638Z",
-      "last_seen_sha": "512940859cfe",
+      "last_seen_sha": "cc974f3e12d1",
       "author": "NiusRobotLab",
       "maintainer": "NiusRobotLab",
       "sentence": "Arduino audio library for common codec, ADC, DAC, amplifier, microphone, and wireless audio modules.",
@@ -191904,9 +191916,9 @@
         "*"
       ],
       "license": "Apache-2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusAudio-0.3.2.zip",
-      "size": 154805,
-      "previous_version": "0.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusAudio-0.3.3.zip",
+      "size": 155991,
+      "previous_version": "0.3.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

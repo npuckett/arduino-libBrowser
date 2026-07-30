@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-30T21:22:40.463Z",
-  "total_libraries": 9772,
-  "index_etag": "W/\"83f69ef37e82c63ba5d3dc317b9bfcfd\"",
-  "index_last_modified": "Thu, 30 Jul 2026 20:59:12 GMT",
+  "enhanced_at": "2026-07-30T22:21:19.612Z",
+  "total_libraries": 9774,
+  "index_etag": "W/\"8feb1bc52ddd40888bbea377b767d98e\"",
+  "index_last_modified": "Thu, 30 Jul 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -99165,16 +99165,20 @@
       "repository_name": "madhephaestus/ESP32Encoder",
       "repository_url": "https://github.com/madhephaestus/ESP32Encoder",
       "name": "ESP32Encoder",
-      "version": "0.12.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "0.12.0",
           "seen_at": "2026-06-08T08:56:34Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-07-30T22:21:16.816Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-08T08:56:34Z",
-      "last_seen_sha": "feb863d28d39",
+      "last_seen_sha": "1324a8fbb425",
       "author": "Kevin Harrington",
       "maintainer": "Kevin Harrington <mad.hephaestus@gmail.com>",
       "sentence": "Encoder library for the ESP32 using interrupts.",
@@ -99183,11 +99187,13 @@
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/madhephaestus/ESP32Encoder-5.0.0.zip",
+      "size": 42990,
+      "previous_version": "0.12.0",
       "github_stars": 371,
       "github_forks": 80,
       "github_language": "C++",
-      "github_updated_at": "2026-06-06T19:35:06Z",
-      "download_url": "https://github.com/madhephaestus/ESP32Encoder/"
+      "github_updated_at": "2026-06-06T19:35:06Z"
     },
     {
       "repository_name": "gooddisplayshare/ESP32epd",
@@ -131385,6 +131391,36 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-05-11T12:39:45Z"
+    },
+    {
+      "repository_name": "GyverLibs/HybridFS",
+      "repository_url": "https://github.com/GyverLibs/HybridFS",
+      "name": "HybridFS",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-30T22:21:16.816Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-30T22:21:16.816Z",
+      "last_seen_sha": "a762293e53c6",
+      "author": "AlexGyver <alex@alexgyver.ru>",
+      "maintainer": "AlexGyver <alex@alexgyver.ru>",
+      "sentence": "Wrapper for esp8266/esp32 flash and SD card filesystem",
+      "paragraph": "Wrapper for esp8266/esp32 flash and SD card filesystem",
+      "category": "Uncategorized",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/HybridFS-1.0.0.zip",
+      "size": 11595,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T18:51:21Z"
     },
     {
       "repository_name": "GreenLeafLocal/HydroinoJobMgr",
@@ -296271,6 +296307,35 @@
       "download_url": "https://github.com/Bitworx-cz/Updater"
     },
     {
+      "repository_name": "GyverLibs/uPerlin",
+      "repository_url": "https://github.com/GyverLibs/uPerlin",
+      "name": "uPerlin",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-30T22:21:16.816Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-30T22:21:16.816Z",
+      "last_seen_sha": "6aecaa355c0c",
+      "author": "AlexGyver <alex@alexgyver.ru>",
+      "maintainer": "AlexGyver <alex@alexgyver.ru>",
+      "sentence": "Light integer Perlin noise implementation",
+      "paragraph": "Light integer Perlin noise implementation",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uPerlin-1.0.0.zip",
+      "size": 8617,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T18:46:56Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_picodvi_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_picodvi_library",
       "name": "upicodvi",
@@ -302271,7 +302336,7 @@
       "repository_name": "greghulette/WCBClient",
       "repository_url": "https://github.com/greghulette/WCBClient",
       "name": "WCB_Client",
-      "version": "1.9.10",
+      "version": "1.9.11",
       "version_history": [
         {
           "version": "1.6.0",
@@ -302320,11 +302385,15 @@
         {
           "version": "1.9.10",
           "seen_at": "2026-07-22T18:22:57.152Z"
+        },
+        {
+          "version": "1.9.11",
+          "seen_at": "2026-07-30T22:21:16.816Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "37d511c42372",
+      "last_seen_sha": "dd53b8c07dc3",
       "author": "Greg Hulette",
       "maintainer": "Greg Hulette",
       "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
@@ -302333,9 +302402,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.10.zip",
-      "size": 102078,
-      "previous_version": "1.9.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.11.zip",
+      "size": 102154,
+      "previous_version": "1.9.10",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -312066,7 +312135,7 @@
   "stats": {
     "total_categories": 79,
     "total_architectures": 160,
-    "with_github_metadata": 9569,
+    "with_github_metadata": 9571,
     "total_dependencies": 5189
   }
 }

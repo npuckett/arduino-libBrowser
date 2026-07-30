@@ -1,6 +1,187 @@
 {
-  "since": "2026-07-30T21:22:40.340Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-30T22:21:16.816Z",
+  "new_libraries": [
+    {
+      "repository_name": "GyverLibs/HybridFS",
+      "repository_url": "https://github.com/GyverLibs/HybridFS",
+      "name": "HybridFS",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-30T22:21:16.816Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-30T22:21:16.816Z",
+      "last_seen_sha": "a762293e53c6",
+      "author": "AlexGyver <alex@alexgyver.ru>",
+      "maintainer": "AlexGyver <alex@alexgyver.ru>",
+      "sentence": "Wrapper for esp8266/esp32 flash and SD card filesystem",
+      "paragraph": "Wrapper for esp8266/esp32 flash and SD card filesystem",
+      "category": "Uncategorized",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/HybridFS-1.0.0.zip",
+      "size": 11595,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T18:51:21Z"
+    },
+    {
+      "repository_name": "GyverLibs/uPerlin",
+      "repository_url": "https://github.com/GyverLibs/uPerlin",
+      "name": "uPerlin",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-30T22:21:16.816Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-30T22:21:16.816Z",
+      "last_seen_sha": "6aecaa355c0c",
+      "author": "AlexGyver <alex@alexgyver.ru>",
+      "maintainer": "AlexGyver <alex@alexgyver.ru>",
+      "sentence": "Light integer Perlin noise implementation",
+      "paragraph": "Light integer Perlin noise implementation",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uPerlin-1.0.0.zip",
+      "size": 8617,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T18:46:56Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "madhephaestus/ESP32Encoder",
+        "repository_url": "https://github.com/madhephaestus/ESP32Encoder",
+        "name": "ESP32Encoder",
+        "version": "5.0.0",
+        "version_history": [
+          {
+            "version": "0.12.0",
+            "seen_at": "2026-06-08T08:56:34Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-07-30T22:21:16.816Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-08T08:56:34Z",
+        "last_seen_sha": "1324a8fbb425",
+        "author": "Kevin Harrington",
+        "maintainer": "Kevin Harrington <mad.hephaestus@gmail.com>",
+        "sentence": "Encoder library for the ESP32 using interrupts.",
+        "paragraph": "Encoder library for the ESP32 using interrupts. This library supports quadrature and half quadrature.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/madhephaestus/ESP32Encoder-5.0.0.zip",
+        "size": 42990,
+        "previous_version": "0.12.0",
+        "github_stars": 371,
+        "github_forks": 80,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-06T19:35:06Z"
+      },
+      "old_version": "0.12.0",
+      "new_version": "5.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "greghulette/WCBClient",
+        "repository_url": "https://github.com/greghulette/WCBClient",
+        "name": "WCB_Client",
+        "version": "1.9.11",
+        "version_history": [
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-07-07T20:33:11.614Z"
+          },
+          {
+            "version": "1.8.0",
+            "seen_at": "2026-07-09T14:59:59.938Z"
+          },
+          {
+            "version": "1.9.0",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.9.2",
+            "seen_at": "2026-07-10T18:27:57.623Z"
+          },
+          {
+            "version": "1.9.3",
+            "seen_at": "2026-07-13T14:56:44.658Z"
+          },
+          {
+            "version": "1.9.4",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.9.5",
+            "seen_at": "2026-07-13T20:24:38.967Z"
+          },
+          {
+            "version": "1.9.6",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "1.9.7",
+            "seen_at": "2026-07-16T20:16:51.492Z"
+          },
+          {
+            "version": "1.9.9",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "1.9.10",
+            "seen_at": "2026-07-22T18:22:57.152Z"
+          },
+          {
+            "version": "1.9.11",
+            "seen_at": "2026-07-30T22:21:16.816Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "dd53b8c07dc3",
+        "author": "Greg Hulette",
+        "maintainer": "Greg Hulette",
+        "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
+        "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs. With auto-join (on by default) the device also registers regular WCBs it hears as ESP-NOW peers live and remembers them across reboots, so it discovers the fleet once and never needs wcb_quantity to cover it.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.9.11.zip",
+        "size": 102154,
+        "previous_version": "1.9.10",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T22:42:58Z"
+      },
+      "old_version": "1.9.10",
+      "new_version": "1.9.11"
+    }
+  ],
   "removed_libraries": []
 }

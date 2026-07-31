@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-31T09:07:16.025Z",
+  "enhanced_at": "2026-07-31T10:51:46.857Z",
   "total_libraries": 9775,
-  "index_etag": "W/\"e81ee19ed8d8106a86409ee15b488629\"",
-  "index_last_modified": "Fri, 31 Jul 2026 08:59:12 GMT",
+  "index_etag": "W/\"cea077b21df11373f2434b09de137320\"",
+  "index_last_modified": "Fri, 31 Jul 2026 10:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104254,7 +104254,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.5.3",
+      "version": "2.7.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -104311,11 +104311,15 @@
         {
           "version": "2.5.3",
           "seen_at": "2026-07-30T16:29:03.361Z"
+        },
+        {
+          "version": "2.7.0",
+          "seen_at": "2026-07-31T10:51:46.722Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "cae8b588b96d",
+      "last_seen_sha": "ba0e7565c4c0",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "This is a library for using USB Host with ESP32.",
@@ -104324,9 +104328,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.5.3.zip",
-      "size": 796749,
-      "previous_version": "2.5.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.0.zip",
+      "size": 819111,
+      "previous_version": "2.5.3",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -150252,30 +150256,36 @@
       "repository_name": "tgtakaoka/libasm",
       "repository_url": "https://github.com/tgtakaoka/libasm",
       "name": "libasm",
-      "version": "1.6.63",
+      "version": "1.6.64",
       "version_history": [
         {
           "version": "1.6.63",
           "seen_at": "2026-06-30T08:50:14Z"
+        },
+        {
+          "version": "1.6.64",
+          "seen_at": "2026-07-31T10:51:46.722Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:50:14Z",
-      "last_seen_sha": "32d1ee6b5ebf",
+      "last_seen_sha": "74d9b9812e1f",
       "author": "Tadashi G. Takaoka",
       "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
       "sentence": "Cross assembler and disassembler for retro CPUs",
-      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are CDP1802, F3850, I8048, I8051, I8080, I8086, I8096, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, TLCS90, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are CDP1802, CP1600, F3850, H16, H8/300, H8/500, I8048, I8051, I8080, I8086, I8096, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
       "category": "Other",
       "architectures": [
         "*"
       ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.64.zip",
+      "size": 13582275,
+      "previous_version": "1.6.63",
       "github_stars": 44,
       "github_forks": 3,
-      "github_updated_at": "2026-07-01T14:13:07Z",
-      "license": "Apache-2.0",
-      "download_url": "https://github.com/tgtakaoka/libasm",
-      "github_language": "Assembly"
+      "github_language": "Assembly",
+      "github_updated_at": "2026-07-01T14:13:07Z"
     },
     {
       "repository_name": "ssilverman/libCBOR",

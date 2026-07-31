@@ -1,6 +1,250 @@
 {
-  "since": "2026-07-31T15:40:32.001Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-31T16:31:28.627Z",
+  "new_libraries": [
+    {
+      "repository_name": "nawawimegahertz/FarmSense",
+      "repository_url": "https://github.com/nawawimegahertz/FarmSense",
+      "name": "FarmSense",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-31T16:31:28.627Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-31T16:31:28.627Z",
+      "last_seen_sha": "9d1f86440ab2",
+      "author": "nawawimegahertz",
+      "maintainer": "nawawimegahertz",
+      "sentence": "Multi-parameter soil sensor calibration and filtering for Arduino & ESP32.",
+      "paragraph": "Transport-agnostic library for RS485 Modbus 8-in-1 soil sensors with per-channel adaptive Kalman filtering, multi-point segmented linear interpolation calibration, and dual calibration methods (live field + offline batch CSV). Supports Temperature, Moisture, EC, pH, Nitrogen, Phosphorus, Kalium, and Fertility channels. Keywords: soil, calibration, Modbus, multi-point, offline, batch, RS485. Cross-platform persistent storage: ESP32 (Preferences/NVS) and AVR (EEPROM).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nawawimegahertz/FarmSense-1.0.0.zip",
+      "size": 41471,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-31T13:20:06Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "vedacool/Arduino-Azure-IoT-Central",
+        "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
+        "name": "AzureIoT",
+        "version": "1.2.10",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-22T04:09:16.672Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-22T06:57:44.678Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-22T08:50:10.060Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-23T04:08:17.998Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-07-23T07:00:53.647Z"
+          },
+          {
+            "version": "1.2.8",
+            "seen_at": "2026-07-24T12:26:58.412Z"
+          },
+          {
+            "version": "1.2.9",
+            "seen_at": "2026-07-30T18:27:03.252Z"
+          },
+          {
+            "version": "1.2.10",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-07-22T04:09:16.672Z",
+        "last_seen_sha": "aff724c1f432",
+        "author": "Dr. Husaini <mhusaini@syncmind.my>",
+        "maintainer": "Dr. Husaini <mhusaini@syncmind.my>",
+        "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
+        "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 22 included examples, ordered easiest to hardest.",
+        "category": "Communication",
+        "architectures": [
+          "megaavr",
+          "esp32"
+        ],
+        "depends": [
+          "WiFiNINA",
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.2.10.zip",
+        "size": 144788,
+        "previous_version": "1.2.9",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-22T03:59:50Z"
+      },
+      "old_version": "1.2.9",
+      "new_version": "1.2.10"
+    },
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_icm20948_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_icm20948_library",
+        "name": "DevLab_ICM20948",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-06-18T09:14:39Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-18T09:14:39Z",
+        "last_seen_sha": "0439fdb69fce",
+        "author": "7Semi, Jonathan Mejorado Lopez",
+        "maintainer": "Jonathan Mejorado Lopez<ventas@uelectronics.com>",
+        "sentence": "Arduino library for the 9-axis ICM20948 IMU (Accel + Gyro + Magnetometer)",
+        "paragraph": "Lightweight and efficient driver for ICM20948 with support for I2C and SPI communication, accelerometer, gyroscope, magnetometer (AK09916), configurable filters, sample rates, and power management.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_ICM20948-1.1.1.zip",
+        "size": 8151629,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-17T22:44:44Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/EspUsbDevice",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+        "name": "EspUsbDevice",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-03T10:52:10.012Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-07T09:02:39.215Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-07T10:59:14.574Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-07-08T12:29:30.704Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-07-17T12:22:56.831Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-07-01T11:48:44.907Z",
+        "last_seen_sha": "dcf6438566c2",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.0.zip",
+        "size": 582121,
+        "previous_version": "1.2.7",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:04:34Z"
+      },
+      "old_version": "1.2.7",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "habuenav/quickMap",
+        "repository_url": "https://github.com/habuenav/quickMap",
+        "name": "quickMap",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-07T05:16:44.642Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-07T05:16:44.642Z",
+        "last_seen_sha": "359b535d4735",
+        "author": "Holman Buenaventura <habuenav@hotmail.com>",
+        "maintainer": "Holman Buenaventura <habuenav@hotmail.com>",
+        "sentence": "An fast and versatile alternative to Arduino's map() function using floats.",
+        "paragraph": "Designed for critical performance in audio systems, synthesis, and high-speed sensor reading. Precalculates slope and offset to eliminate runtime splits. Supports inverted ranges and automatic constraints.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/quickMap-1.0.2.zip",
+        "size": 9568,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-07T00:04:48Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-07-31T17:29:59.836Z",
-  "total_libraries": 9776,
-  "index_etag": "W/\"6dca031fb83e856cf5a4b22fc9f18d60\"",
-  "index_last_modified": "Fri, 31 Jul 2026 17:29:11 GMT",
+  "enhanced_at": "2026-07-31T18:27:54.270Z",
+  "total_libraries": 9778,
+  "index_etag": "W/\"c03a6d0f36071e3ca0aadf270197f289\"",
+  "index_last_modified": "Fri, 31 Jul 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -44260,7 +44260,7 @@
       "repository_name": "uutzinger/Arduino_BLESerial",
       "repository_url": "https://github.com/uutzinger/Arduino_BLESerial",
       "name": "BLE Serial - NUS",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
@@ -44269,11 +44269,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-07-31T18:27:51.641Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-08T08:14:23Z",
-      "last_seen_sha": "fcffcd4fc986",
+      "last_seen_sha": "f1afea0b85f1",
       "author": "Urs Utzinger",
       "maintainer": "Urs Utzinger",
       "sentence": "Library creating a Nordic UART Service on a BLE device. Server mode.",
@@ -44282,10 +44286,11 @@
       "architectures": [],
       "depends": [
         "NimBLE-Arduino",
-        "UUtzinger_RingBuffer"
+        "UUtzinger_RingBuffer",
+        "UUtzinger_logger"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/BLE_Serial___NUS-1.2.0.zip",
-      "size": 57050,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/BLE_Serial___NUS-1.2.1.zip",
+      "size": 57259,
       "previous_version": "1.2.0",
       "github_stars": 3,
       "github_forks": 2,
@@ -102131,6 +102136,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2025-02-23T21:52:28Z"
+    },
+    {
+      "repository_name": "tanakamasayuki/EspBle",
+      "repository_url": "https://github.com/tanakamasayuki/EspBle",
+      "name": "EspBle",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-31T18:27:51.641Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-31T18:27:51.641Z",
+      "last_seen_sha": "55f498396bea",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "General-purpose Bluetooth Low Energy library for ESP32 Arduino.",
+      "paragraph": "EspBle talks to the NimBLE host bundled with Arduino-ESP32 directly, without the bundled BLE wrapper classes. It provides central and peripheral roles with multiple simultaneous connections, generic GATT client and server operations addressable by UUID or attribute handle, pairing and bonding, standard GATT services, and composable profiles: HID device and host (keyboard, mouse, consumer and system control, gamepad, vendor and fully custom reports) plus BLE MIDI device and host. Bluetooth Classic is not supported.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspBle-1.0.0.zip",
+      "size": 713279,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-31T16:24:38Z"
     },
     {
       "repository_name": "HamzaYslmn/Esp-BLE-Web",
@@ -176088,6 +176122,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-12-22T04:21:34Z",
       "download_url": "https://github.com/XbergCode/MillisCounter"
+    },
+    {
+      "repository_name": "bozont/millisRTC",
+      "repository_url": "https://github.com/bozont/millisRTC",
+      "name": "millisRTC",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-31T18:27:51.641Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-31T18:27:51.641Z",
+      "last_seen_sha": "7fb940eb1537",
+      "author": "Tamas Jozsi",
+      "maintainer": "Bozont Labs",
+      "sentence": "Real Time Clock library for all Arduino boards.",
+      "paragraph": "Uses millis() to keep the set time, provides user-friendly clock and calendar APIs.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bozont/millisRTC-1.0.0.zip",
+      "size": 5598,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-31T15:20:30Z"
     },
     {
       "repository_name": "bhagman/MillisTimer",
@@ -297885,27 +297948,35 @@
       "repository_name": "uutzinger/logger",
       "repository_url": "https://github.com/uutzinger/logger",
       "name": "UUtzinger_logger",
-      "version": "2.0.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2026-03-14T07:52:00Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-07-31T18:27:51.641Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-14T07:52:00Z",
-      "last_seen_sha": "7345a08d5d98",
+      "last_seen_sha": "ba52c5df053d",
       "author": "Urs Utzinger",
       "maintainer": "Urs Utzinger",
-      "sentence": "Library for Arduino logging over serial port",
-      "paragraph": "Provides printf-style logging over Serial with LOG, LOGln, LOGI, LOGW, LOGE, LOGD, custom %b binary formatting, and optional USE_AUDIO_LOGGING macro conflict avoidance.",
-      "category": "Debugging",
-      "architectures": [],
+      "sentence": "Library for Arduino logging over Print outputs",
+      "paragraph": "Provides printf-style logging over Serial or another Print output with configurable log levels, LOG, LOGln, LOGI, LOGW, LOGE, LOGD, custom %b binary formatting, optional simple vsnprintf formatting, and optional USE_AUDIO_LOGGING macro conflict avoidance.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_logger-2.1.1.zip",
+      "size": 8068,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-13T16:48:25Z",
-      "download_url": "https://github.com/uutzinger/logger"
+      "github_updated_at": "2026-03-13T16:48:25Z"
     },
     {
       "repository_name": "uutzinger/Arduino_RingBuffer",
@@ -307554,16 +307625,20 @@
       "repository_name": "asukiaaa/arduino-XboxSeriesXControllerESP32",
       "repository_url": "https://github.com/asukiaaa/arduino-XboxSeriesXControllerESP32",
       "name": "XboxSeriesXControllerESP32_asukiaaa",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-06-20T08:21:52Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-07-31T18:27:51.641Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-20T08:21:52Z",
-      "last_seen_sha": "c9208fe0489c",
+      "last_seen_sha": "5be670f62735",
       "author": "Asuki Kono",
       "maintainer": "Asuki Kono",
       "sentence": "It communicate with a controller of Xbox series X from ESP32.",
@@ -307572,16 +307647,18 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 107,
-      "github_forks": 18,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-20T07:53:53Z",
       "depends": [
         "XboxControllerNotificationParser",
         "NimBLE-Arduino",
         "XboxSeriesXHIDReportBuilder_asukiaaa"
       ],
-      "download_url": "https://github.com/asukiaaa/arduino-XboxSeriesXControllerESP32"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/asukiaaa/XboxSeriesXControllerESP32_asukiaaa-1.1.2.zip",
+      "size": 10103,
+      "previous_version": "1.1.1",
+      "github_stars": 107,
+      "github_forks": 18,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-20T07:53:53Z"
     },
     {
       "repository_name": "asukiaaa/arduino-XboxSeriesXHIDReportBuilder",
@@ -312248,9 +312325,9 @@
     }
   ],
   "stats": {
-    "total_categories": 79,
+    "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9573,
-    "total_dependencies": 5189
+    "with_github_metadata": 9575,
+    "total_dependencies": 5190
   }
 }

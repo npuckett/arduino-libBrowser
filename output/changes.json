@@ -1,6 +1,50 @@
 {
-  "since": "2026-07-31T11:40:46.960Z",
+  "since": "2026-07-31T12:34:18.981Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "qqqlab/madflight",
+        "repository_url": "https://github.com/qqqlab/madflight",
+        "name": "madflight",
+        "version": "2.3.3",
+        "version_history": [
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-06-29T09:14:32Z"
+          },
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-07-09T12:05:14.783Z"
+          },
+          {
+            "version": "2.3.3",
+            "seen_at": "2026-07-31T12:34:18.981Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T09:14:32Z",
+        "last_seen_sha": "87378c922a08",
+        "author": "qqqlab",
+        "maintainer": "qqqlab <madflight@qqqlab.com>",
+        "sentence": "Flight Controller for ESP32-S3 / ESP32 / RP2350 / RP2040 / STM32",
+        "paragraph": "Flight tested with readily available development boards and sensor breakout boards. Build a quadcopter, helicoper, airplane or VTOL craft. Includes modules for PID control, CRSF/ELRS/DSMX/SBUS receiver and telemetry, AHRS, GPS, barometer, magnetometer, calibration, command line interface, black box data logging.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.3.3.zip",
+        "size": 12087673,
+        "previous_version": "2.3.2",
+        "github_stars": 461,
+        "github_forks": 80,
+        "github_language": "C",
+        "github_updated_at": "2026-07-01T14:00:06Z"
+      },
+      "old_version": "2.3.2",
+      "new_version": "2.3.3"
+    }
+  ],
   "removed_libraries": []
 }

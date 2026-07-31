@@ -1,6 +1,74 @@
 {
-  "since": "2026-07-31T01:32:12.432Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-07-31T03:00:05.289Z",
+  "new_libraries": [
+    {
+      "repository_name": "EnviroDIY/EpochTime",
+      "repository_url": "https://github.com/EnviroDIY/EpochTime",
+      "name": "EpochTime",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-07-31T03:00:05.289Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-07-31T03:00:05.289Z",
+      "last_seen_sha": "04946a705392",
+      "author": "Sara Damiano <sdamiano@stroudcenter.org>",
+      "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
+      "sentence": "An Arduino library for converting between time in parts as used by core gmtime functions and epoch time.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/EpochTime-1.0.0.zip",
+      "size": 59071,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T22:38:10Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "milad-nikpendar/IP5108",
+        "repository_url": "https://github.com/milad-nikpendar/IP5108",
+        "name": "IP5108",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-02T20:55:14Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-31T03:00:05.289Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-01-02T20:55:14Z",
+        "last_seen_sha": "b5896906b841",
+        "author": "Milad Nikpendar",
+        "maintainer": "Milad Nikpendar <milad82nikpendar@gmail.com>",
+        "sentence": "Arduino library for the IP5108 PMIC: control charging, boost, flashlight, and battery monitoring via I2C.",
+        "paragraph": "Provides a high-level API for the IP5108 power management IC, supporting ESP32 boards. Features include charger control, boost enable, flashlight mode, battery voltage/current reading, status flags, and datasheet-correct wake-detection via an optional INT/L3 pin. Designed for portable devices and power bank applications.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/milad-nikpendar/IP5108-1.2.0.zip",
+        "size": 20458,
+        "previous_version": "1.0.0",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-02-21T10:46:38Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.2.0"
+    }
+  ],
   "removed_libraries": []
 }

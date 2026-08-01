@@ -1,6 +1,155 @@
 {
-  "since": "2026-07-31T23:19:15.643Z",
+  "since": "2026-08-01T00:20:24.513Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "owochel/MistMaker",
+        "repository_url": "https://github.com/owochel/MistMaker",
+        "name": "MistMaker",
+        "version": "2.5.0",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-20T08:17:07Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-03T20:23:13.146Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-07-18T16:16:38.206Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-07-19T04:14:05.638Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-25T06:43:21.786Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-08-01T00:20:24.513Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-06-20T08:17:07Z",
+        "last_seen_sha": "1ee7b676afbe",
+        "author": "shuang cai, David Yang",
+        "maintainer": "shuangcai64@gmail.com",
+        "sentence": "A library to control a mist maker under OSHWA ID US002742 with PWM, current sensing, and battery monitoring.",
+        "paragraph": "Encapsulates mist maker control functions: 108.7kHz PWM with dimming, piezo current sensing with auto/manual calibration, disc and water-level detection, battery voltage monitoring with USB-vs-cell power-source detection (mux status) and graceful low-battery shutdown, and pin presets for all official Programmable Mist Maker PCB variants (through Battery Kit V0.4.1, the July 2026 production board). Runs on Seeed XIAO ESP32 boards and, over jumper wires, Arduino Uno R3, Uno R4, Nano 33 IoT, and Nano 33 BLE.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "avr",
+          "samd",
+          "renesas_uno",
+          "mbed_nano"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/owochel/MistMaker-2.5.0.zip",
+        "size": 90685,
+        "previous_version": "2.4.0",
+        "github_stars": 2,
+        "github_forks": 1,
+        "github_language": "JavaScript",
+        "github_updated_at": "2026-06-20T03:04:38Z"
+      },
+      "old_version": "2.4.0",
+      "new_version": "2.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "greghulette/WCBClient",
+        "repository_url": "https://github.com/greghulette/WCBClient",
+        "name": "WCB_Client",
+        "version": "1.10.0",
+        "version_history": [
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-07-07T20:33:11.614Z"
+          },
+          {
+            "version": "1.8.0",
+            "seen_at": "2026-07-09T14:59:59.938Z"
+          },
+          {
+            "version": "1.9.0",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.9.2",
+            "seen_at": "2026-07-10T18:27:57.623Z"
+          },
+          {
+            "version": "1.9.3",
+            "seen_at": "2026-07-13T14:56:44.658Z"
+          },
+          {
+            "version": "1.9.4",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.9.5",
+            "seen_at": "2026-07-13T20:24:38.967Z"
+          },
+          {
+            "version": "1.9.6",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "1.9.7",
+            "seen_at": "2026-07-16T20:16:51.492Z"
+          },
+          {
+            "version": "1.9.9",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "1.9.10",
+            "seen_at": "2026-07-22T18:22:57.152Z"
+          },
+          {
+            "version": "1.9.11",
+            "seen_at": "2026-07-30T22:21:16.816Z"
+          },
+          {
+            "version": "1.10.0",
+            "seen_at": "2026-08-01T00:20:24.513Z"
+          }
+        ],
+        "release_count": 14,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "c6f190a21318",
+        "author": "Greg Hulette",
+        "maintainer": "Greg Hulette",
+        "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
+        "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs. With auto-join (on by default) the device also registers regular WCBs it hears as ESP-NOW peers live and remembers them across reboots, so it discovers the fleet once and never needs wcb_quantity to cover it. A bulk-transfer facility (onBulkBegin/onBulkChunk/onBulkComplete) streams payloads too large to hold in RAM to consumer-owned storage with a selective-NACK back-channel, and inbound COMMANDs are de-duplicated by sequence number.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.10.0.zip",
+        "size": 109297,
+        "previous_version": "1.9.11",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T22:42:58Z"
+      },
+      "old_version": "1.9.11",
+      "new_version": "1.10.0"
+    }
+  ],
   "removed_libraries": []
 }

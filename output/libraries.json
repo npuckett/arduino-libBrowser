@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-01T11:26:13.393Z",
+  "enhanced_at": "2026-08-01T12:17:45.853Z",
   "total_libraries": 9781,
-  "index_etag": "W/\"8c6931579fe499f562503257494fefc4\"",
-  "index_last_modified": "Sat, 01 Aug 2026 10:59:12 GMT",
+  "index_etag": "W/\"2258cd4a6e6e0b4105747a00628b6dd9\"",
+  "index_last_modified": "Sat, 01 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -52912,20 +52912,24 @@
       "repository_name": "habuenav/Breath",
       "repository_url": "https://github.com/habuenav/Breath",
       "name": "Breath",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-07T12:04:09.471Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-01T12:17:45.726Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-07T12:04:09.471Z",
-      "last_seen_sha": "74cd05a7dff1",
+      "last_seen_sha": "505a2455a049",
       "author": "Holman Buenaventura",
       "maintainer": "Holman Buenaventura",
-      "sentence": "Ultra-fast breath sensor library for electronic wind instruments (EWI).",
-      "paragraph": "Optimized for wind controllers. Read and scale air pressure sensors with zero runtime division overhead.",
+      "sentence": "Breath is a lightweight library for pressure sensors, optimized for electronic wind instruments (EWI).",
+      "paragraph": "Read and scale air pressure sensors with zero runtime division overhead.",
       "category": "Sensors",
       "architectures": [
         "*"
@@ -52933,8 +52937,9 @@
       "depends": [
         "quickMap"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/Breath-1.0.0.zip",
-      "size": 9663,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/habuenav/Breath-1.0.1.zip",
+      "size": 9768,
+      "previous_version": "1.0.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -102207,16 +102212,20 @@
       "repository_name": "tanakamasayuki/EspBle",
       "repository_url": "https://github.com/tanakamasayuki/EspBle",
       "name": "EspBle",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-31T18:27:51.641Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-01T12:17:45.726Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-31T18:27:51.641Z",
-      "last_seen_sha": "55f498396bea",
+      "last_seen_sha": "1117f30a12e7",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "General-purpose Bluetooth Low Energy library for ESP32 Arduino.",
@@ -102225,8 +102234,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspBle-1.0.0.zip",
-      "size": 713279,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspBle-1.1.0.zip",
+      "size": 746897,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -105639,7 +105649,7 @@
       "repository_name": "agusevtec/eva-motors",
       "repository_url": "https://github.com/agusevtec/eva-motors",
       "name": "eva-motors",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.0",
@@ -105652,11 +105662,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-07-29T16:28:04.217Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-08-01T12:17:45.726Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-23T08:53:29Z",
-      "last_seen_sha": "98171e80cdbf",
+      "last_seen_sha": "369e9aba5bf1",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
       "sentence": "EVA Motors. A modular C++ library for motor and actuator control on Arduino.",
@@ -105668,9 +105682,9 @@
       "depends": [
         "eva-core-sk"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_motors-1.1.1.zip",
-      "size": 1750618,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_motors-1.1.2.zip",
+      "size": 1750633,
+      "previous_version": "1.1.1",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

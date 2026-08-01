@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-01T02:59:56.312Z",
-  "total_libraries": 9778,
-  "index_etag": "W/\"510f5eec31459f12be3dfea9f623c53b\"",
-  "index_last_modified": "Sat, 01 Aug 2026 02:59:12 GMT",
+  "enhanced_at": "2026-08-01T04:13:22.990Z",
+  "total_libraries": 9780,
+  "index_etag": "W/\"0b983033fa19b06c0cdc37803ef53b85\"",
+  "index_last_modified": "Sat, 01 Aug 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -72141,6 +72141,64 @@
       "github_language": ""
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6005_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6005_library",
+      "name": "DevLab_MPU6050",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-01T04:13:20.299Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-01T04:13:20.299Z",
+      "last_seen_sha": "a08285d48f50",
+      "author": "UNIT Electronics DevLab Ecosystem",
+      "maintainer": "Cesar Bautista",
+      "sentence": "Arduino library for the MPU6050 6-axis IMU using direct I2C register access.",
+      "paragraph": "DevLab MPU6050 library for accelerometer, gyroscope, and temperature acquisition using direct register communication over I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-1.0.1.zip",
+      "size": 8443,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-01T00:22:39Z"
+    },
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_tcan1051hvd_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_tcan1051hvd_library",
+      "name": "DevLab_TCAN1051HVD",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-01T04:13:20.299Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-01T04:13:20.299Z",
+      "last_seen_sha": "1780febb50da",
+      "author": "Jonathan Mejorado Lopez",
+      "maintainer": "Jonathan Mejorado Lopez",
+      "sentence": "Arduino library for the TI TCAN1051HVD CAN transceiver over the native ESP32 TWAI controller.",
+      "paragraph": "DevLab TCAN1051HVD library wrapping the ESP32 TWAI driver.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TCAN1051HVD-1.0.0.zip",
+      "size": 8902,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-01T00:37:43Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_tsl2591_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_tsl2591_library",
       "name": "Devlab_TSL2591",
@@ -96511,7 +96569,7 @@
       "repository_name": "sauloverissimo/ESP32_Host_MIDI",
       "repository_url": "https://github.com/sauloverissimo/ESP32_Host_MIDI",
       "name": "ESP32_Host_MIDI",
-      "version": "7.1.0",
+      "version": "7.2.0",
       "version_history": [
         {
           "version": "7.0.0",
@@ -96520,11 +96578,15 @@
         {
           "version": "7.1.0",
           "seen_at": "2026-07-30T16:29:03.361Z"
+        },
+        {
+          "version": "7.2.0",
+          "seen_at": "2026-08-01T04:13:20.299Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:55:00Z",
-      "last_seen_sha": "a25561599f0d",
+      "last_seen_sha": "6446ce063d8f",
       "author": "sauloverissimo",
       "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
       "sentence": "MIDI hub for ESP32: USB Host, BLE, Apple MIDI/WiFi, OSC, Ethernet, UART/DIN-5, ESP-NOW.",
@@ -96533,9 +96595,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/ESP32_Host_MIDI-7.1.0.zip",
-      "size": 5780552,
-      "previous_version": "7.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/ESP32_Host_MIDI-7.2.0.zip",
+      "size": 5783503,
+      "previous_version": "7.1.0",
       "github_stars": 84,
       "github_forks": 11,
       "github_language": "C++",
@@ -297964,7 +298026,7 @@
       "repository_name": "uutzinger/logger",
       "repository_url": "https://github.com/uutzinger/logger",
       "name": "UUtzinger_logger",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "2.0.0",
@@ -297973,11 +298035,15 @@
         {
           "version": "2.1.1",
           "seen_at": "2026-07-31T18:27:51.641Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-08-01T04:13:20.299Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-14T07:52:00Z",
-      "last_seen_sha": "ba52c5df053d",
+      "last_seen_sha": "1d71112e48b8",
       "author": "Urs Utzinger",
       "maintainer": "Urs Utzinger",
       "sentence": "Library for Arduino logging over Print outputs",
@@ -297986,9 +298052,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_logger-2.1.1.zip",
-      "size": 8068,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_logger-2.2.0.zip",
+      "size": 8834,
+      "previous_version": "2.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -312347,7 +312413,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9575,
+    "with_github_metadata": 9577,
     "total_dependencies": 5190
   }
 }

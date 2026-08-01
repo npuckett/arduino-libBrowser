@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-01T13:28:47.884Z",
-  "total_libraries": 9781,
-  "index_etag": "W/\"2258cd4a6e6e0b4105747a00628b6dd9\"",
-  "index_last_modified": "Sat, 01 Aug 2026 12:59:12 GMT",
+  "enhanced_at": "2026-08-01T14:28:51.133Z",
+  "total_libraries": 9782,
+  "index_etag": "W/\"8fc7cead4e1ce7b843f2a500a3794e10\"",
+  "index_last_modified": "Sat, 01 Aug 2026 13:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -84253,6 +84253,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-07-25T09:54:46Z"
+    },
+    {
+      "repository_name": "David-Vandensteen/dv-dual-hold-state",
+      "repository_url": "https://github.com/David-Vandensteen/dv-dual-hold-state",
+      "name": "dv_dual_hold_state",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-01T14:28:49.676Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-01T14:28:49.676Z",
+      "last_seen_sha": "6368e7dbeeb7",
+      "author": "David Vandensteen",
+      "maintainer": "David Vandensteen <dvandensteen@gmail.com>",
+      "sentence": "Manage dual hold state callbacks.",
+      "paragraph": "Non-blocking millis()-based dual hold state with callbacks.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/David-Vandensteen/dv_dual_hold_state-1.0.0.zip",
+      "size": 8038,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-01T10:30:27Z"
     },
     {
       "repository_name": "David-Vandensteen/dv-every-interval",
@@ -224970,7 +224999,7 @@
       "repository_name": "Stutchbury/ResistiveTouchScreen",
       "repository_url": "https://github.com/Stutchbury/ResistiveTouchScreen",
       "name": "ResistiveTouchScreen",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -224979,11 +225008,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-07-29T12:36:33.757Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-08-01T14:28:49.676Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-28T16:30:21.117Z",
-      "last_seen_sha": "08a07852f462",
+      "last_seen_sha": "a064d7dc6923",
       "author": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "maintainer": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "sentence": "A tuneable TouchScreen library for 4 wire resistive touch screens.",
@@ -224992,9 +225025,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ResistiveTouchScreen-1.1.0.zip",
-      "size": 23720,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ResistiveTouchScreen-1.1.1.zip",
+      "size": 23821,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -312473,7 +312506,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9578,
+    "with_github_metadata": 9579,
     "total_dependencies": 5194
   }
 }

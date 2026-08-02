@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-02T19:24:39.993Z",
-  "total_libraries": 9785,
-  "index_etag": "W/\"769def50803327eb99b0d707324b368f\"",
-  "index_last_modified": "Sun, 02 Aug 2026 18:59:11 GMT",
+  "enhanced_at": "2026-08-02T20:18:17.542Z",
+  "total_libraries": 9786,
+  "index_etag": "W/\"e257b20d31c93d7c3e226ed074818af2\"",
+  "index_last_modified": "Sun, 02 Aug 2026 19:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -148744,6 +148744,35 @@
       "download_url": "https://github.com/tobiastl/LD2412"
     },
     {
+      "repository_name": "viniciusczanini/LD2420HumanMotion",
+      "repository_url": "https://github.com/viniciusczanini/LD2420HumanMotion",
+      "name": "LD2420HumanMotion",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-02T20:18:16.168Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-02T20:18:16.168Z",
+      "last_seen_sha": "37eaf7c7fccc",
+      "author": "Vinicius C Zanini",
+      "maintainer": "Vinicius C Zanini",
+      "sentence": "Reliable human motion detection and complete configuration for HLK-LD2420 radar sensors.",
+      "paragraph": "Provides a simple movement boolean, adaptive per-gate filtering, full runtime telemetry, and verified persistent sensor configuration through any Arduino Stream.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/viniciusczanini/LD2420HumanMotion-0.1.1.zip",
+      "size": 47198,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-02T20:06:54Z"
+    },
+    {
       "repository_name": "SirSundays/LDC1312-Arduino",
       "repository_url": "https://github.com/SirSundays/LDC1312-Arduino",
       "name": "LDC1312-1314 I2C Library",
@@ -292813,32 +292842,38 @@
       "repository_name": "UNIT-Electronics-MX/unit_uanima_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_uanima_library",
       "name": "UANIMA",
-      "version": "1.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-05-12T08:43:10Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-08-02T20:18:16.168Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-12T08:43:10Z",
-      "last_seen_sha": "867c71d56c6e",
-      "author": "Jonathan Mejorado López, Cesar Bautista <cesar.bautista@uelectronics.com>",
-      "maintainer": "Jonathan Mejorado López, Cesar Bautista <cesar.bautista@uelectronics.com>",
+      "last_seen_sha": "2c8e75516e1f",
+      "author": "Jonathan Mejorado Lopez, Cesar Bautista <cesar.bautista@uelectronics.com>",
+      "maintainer": "Jonathan Mejorado Lopez, Cesar Bautista <cesar.bautista@uelectronics.com>",
       "sentence": "Arduino library for Neopixel addressable RGB LEDs",
-      "paragraph": "A lightweight library providing basic effects and animations for addressable RGB LED strips (Neopixels)",
+      "paragraph": "Provides 12 built-in effects (color wipe, theater chase, rainbow, scanner, confetti, fade, meteor, twinkle, fire, breathe, and an animated Mexican flag) in both blocking and non-blocking (millis-based) versions, plus 2D matrix support with configurable wiring and low-level pixel/color helpers for building custom animations.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-11T15:24:55Z",
       "depends": [
         "Adafruit NeoPixel"
       ],
-      "download_url": "https://github.com/UNIT-Electronics-MX/unit_uanima_library"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/UANIMA-2.0.1.zip",
+      "size": 21957,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-11T15:24:55Z"
     },
     {
       "repository_name": "H-Kurosaki/UARDECS",
@@ -312666,7 +312701,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9582,
+    "with_github_metadata": 9583,
     "total_dependencies": 5195
   }
 }

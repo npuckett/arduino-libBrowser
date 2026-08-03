@@ -1,6 +1,40 @@
 {
-  "since": "2026-08-03T19:29:47.955Z",
-  "new_libraries": [],
+  "since": "2026-08-03T20:29:00.241Z",
+  "new_libraries": [
+    {
+      "repository_name": "atharvaphadnis-ai/OledAnimator",
+      "repository_url": "https://github.com/atharvaphadnis-ai/OledAnimator",
+      "name": "OledAnimator",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-03T20:29:00.241Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T20:29:00.241Z",
+      "last_seen_sha": "2e91117252d4",
+      "author": "Atharva Phadnis",
+      "maintainer": "Atharva Phadnis",
+      "sentence": "Lightweight non-blocking animation engine for SSD1306 OLED displays.",
+      "paragraph": "Run up to 5 simultaneous frame-based animations using millis() timing, function-pointer callbacks and zero dynamic memory allocation. Includes ScrollText, Bounce and Fade animations. Works on Arduino Nano, Uno and ESP32.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit SSD1306",
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atharvaphadnis-ai/OledAnimator-1.0.0.zip",
+      "size": 12413,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T16:07:49Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

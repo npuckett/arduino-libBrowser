@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-02T23:17:28.091Z",
+  "enhanced_at": "2026-08-03T00:21:38.064Z",
   "total_libraries": 9786,
-  "index_etag": "W/\"460896dcd78b92bcf25aa24d72dc4248\"",
-  "index_last_modified": "Sun, 02 Aug 2026 22:59:11 GMT",
+  "index_etag": "W/\"a42fb23eed86fcf18367c72cebb9092c\"",
+  "index_last_modified": "Sun, 02 Aug 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22915,7 +22915,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.117",
+      "version": "1.2.118",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23164,11 +23164,15 @@
         {
           "version": "1.2.117",
           "seen_at": "2026-08-02T22:16:34.537Z"
+        },
+        {
+          "version": "1.2.118",
+          "seen_at": "2026-08-03T00:21:37.921Z"
         }
       ],
-      "release_count": 62,
+      "release_count": 63,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "175e49072f26",
+      "last_seen_sha": "2eec8030f5a9",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23189,9 +23193,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.117.zip",
-      "size": 43863472,
-      "previous_version": "1.2.115",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.118.zip",
+      "size": 43863745,
+      "previous_version": "1.2.117",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -148755,7 +148759,7 @@
       "repository_name": "viniciusczanini/LD2420HumanMotion",
       "repository_url": "https://github.com/viniciusczanini/LD2420HumanMotion",
       "name": "LD2420HumanMotion",
-      "version": "0.1.3",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.1",
@@ -148764,22 +148768,26 @@
         {
           "version": "0.1.3",
           "seen_at": "2026-08-02T22:16:34.537Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-08-03T00:21:37.921Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-02T20:18:16.168Z",
-      "last_seen_sha": "c5e6c1e8f095",
+      "last_seen_sha": "0e2b15e1ce71",
       "author": "Vinicius C Zanini",
       "maintainer": "Vinicius C Zanini",
       "sentence": "Reliable human motion detection and complete configuration for HLK-LD2420 radar sensors.",
-      "paragraph": "Provides a simple movement boolean, adaptive per-gate filtering, full runtime telemetry, and verified persistent sensor configuration through any Arduino Stream.",
+      "paragraph": "Provides stable native ON/OFF filtering by default, optional 16-gate energy analysis, full runtime telemetry, and verified persistent sensor configuration through any Arduino Stream.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/viniciusczanini/LD2420HumanMotion-0.1.3.zip",
-      "size": 48344,
-      "previous_version": "0.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/viniciusczanini/LD2420HumanMotion-0.2.0.zip",
+      "size": 65390,
+      "previous_version": "0.1.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

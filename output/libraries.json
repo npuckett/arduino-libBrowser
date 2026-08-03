@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-03T12:03:35.206Z",
-  "total_libraries": 9791,
-  "index_etag": "W/\"deb05f16ed79d343220f572fc201692a\"",
-  "index_last_modified": "Mon, 03 Aug 2026 11:59:11 GMT",
+  "enhanced_at": "2026-08-03T13:50:19.963Z",
+  "total_libraries": 9792,
+  "index_etag": "W/\"29b0109e1c5a3fbc974eaf66f148a9cf\"",
+  "index_last_modified": "Mon, 03 Aug 2026 13:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -87423,6 +87423,37 @@
       "github_forks": 1,
       "github_language": "C++",
       "github_updated_at": "2026-02-01T21:33:06Z"
+    },
+    {
+      "repository_name": "jinliangliu/Arduino-EC11-Library",
+      "repository_url": "https://github.com/jinliangliu/Arduino-EC11-Library",
+      "name": "EC11Encoder",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-03T13:50:18.505Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T13:50:18.505Z",
+      "last_seen_sha": "9610688077fd",
+      "author": "jinliangliu",
+      "maintainer": "jinliangliu",
+      "sentence": "Robust EC11 rotary encoder driver with rotation and switch event detection.",
+      "paragraph": "Supports quadrature decoding, fast rotation recognition, debounce filtering, short click and long press switch events. Compatible with AVR, ESP32 and ESP8266 platforms, supports multiple encoder instances and hardware interrupt or polling mode.",
+      "category": "Uncategorized",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jinliangliu/EC11Encoder-1.0.1.zip",
+      "size": 12487,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T08:54:08Z"
     },
     {
       "repository_name": "marbalon/Eccel-C1",
@@ -312929,7 +312960,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9588,
+    "with_github_metadata": 9589,
     "total_dependencies": 5207
   }
 }

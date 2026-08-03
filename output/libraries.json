@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-03T08:06:16.031Z",
-  "total_libraries": 9786,
-  "index_etag": "W/\"e4b945fe51d2259c86e124b05dff86d3\"",
-  "index_last_modified": "Mon, 03 Aug 2026 07:59:11 GMT",
+  "enhanced_at": "2026-08-03T10:15:15.965Z",
+  "total_libraries": 9791,
+  "index_etag": "W/\"70defe0898f0a6a56fb3ece8f10499e1\"",
+  "index_last_modified": "Mon, 03 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -95270,7 +95270,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.12.3",
+      "version": "0.13.0",
       "version_history": [
         {
           "version": "0.12.2",
@@ -95283,11 +95283,15 @@
         {
           "version": "0.12.3",
           "seen_at": "2026-07-13T20:24:38.967Z"
+        },
+        {
+          "version": "0.13.0",
+          "seen_at": "2026-08-03T10:15:08.794Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "14a60846b5d7",
+      "last_seen_sha": "a995c2cd7195",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -95299,9 +95303,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.12.3.zip",
-      "size": 127193,
-      "previous_version": "0.12.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.13.0.zip",
+      "size": 159139,
+      "previous_version": "0.12.3",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -115871,7 +115875,7 @@
       "repository_name": "Benas09/FujitsuAC",
       "repository_url": "https://github.com/Benas09/FujitsuAC",
       "name": "FujitsuAC",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "version_history": [
         {
           "version": "1.3.16",
@@ -115904,11 +115908,15 @@
         {
           "version": "1.4.3",
           "seen_at": "2026-07-24T16:30:04.549Z"
+        },
+        {
+          "version": "1.4.4",
+          "seen_at": "2026-08-03T10:15:08.794Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-30T08:56:08Z",
-      "last_seen_sha": "c7779c34e384",
+      "last_seen_sha": "02b47ed94d3f",
       "author": "Benas09 <benas.rag@gmail.com>",
       "maintainer": "Benas09 <benas.rag@gmail.com>",
       "sentence": "Allows ESP32 boards to control FujitsuAC's.",
@@ -115917,9 +115925,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.3.zip",
-      "size": 30053129,
-      "previous_version": "1.4.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.4.zip",
+      "size": 30053573,
+      "previous_version": "1.4.3",
       "github_stars": 70,
       "github_forks": 13,
       "github_language": "C++",
@@ -126434,16 +126442,20 @@
       "repository_name": "hapbeat/hapbeat-arduino",
       "repository_url": "https://github.com/hapbeat/hapbeat-arduino",
       "name": "Hapbeat",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-06-29T09:22:44Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-08-03T10:15:08.794Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-29T09:22:44Z",
-      "last_seen_sha": "677de25b7115",
+      "last_seen_sha": "e332c6c416de",
       "author": "Hapbeat",
       "maintainer": "Hapbeat <yus988@hapbeat.com>",
       "sentence": "Drive Hapbeat haptic devices from ESP32 / M5Stack over Wi-Fi UDP.",
@@ -126452,11 +126464,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hapbeat/Hapbeat-0.2.0.zip",
+      "size": 42552,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-29T07:45:47Z",
-      "download_url": "https://github.com/hapbeat/hapbeat-arduino",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T07:45:47Z"
     },
     {
       "repository_name": "connormmckelvey/Haplink",
@@ -158377,7 +158391,7 @@
       "repository_name": "m5stack/M5-DLight",
       "repository_url": "https://github.com/m5stack/M5-DLight",
       "name": "M5-DLight",
-      "version": "0.0.3",
+      "version": "0.0.5",
       "version_history": [
         {
           "version": "0.0.5",
@@ -158386,11 +158400,15 @@
         {
           "version": "0.0.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.0.5",
+          "seen_at": "2026-08-03T10:15:08.794Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-30T08:05:19Z",
-      "last_seen_sha": "ab6fd137ec3c",
+      "last_seen_sha": "e142da74da0b",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack Unit & HAT DLight",
@@ -158399,9 +158417,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5_DLight-0.0.3.zip",
-      "size": 13297,
-      "previous_version": "0.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5_DLight-0.0.5.zip",
+      "size": 13284,
+      "previous_version": "0.0.3",
       "github_stars": 7,
       "github_forks": 4,
       "github_language": "C++",
@@ -161414,6 +161432,40 @@
       "github_updated_at": "2026-06-26T10:01:45Z"
     },
     {
+      "repository_name": "m5stack/M5Unit-FLASHLIGHT",
+      "repository_url": "https://github.com/m5stack/M5Unit-FLASHLIGHT",
+      "name": "M5Unit-FLASHLIGHT",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "234d60a6a140",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT FlashLight using M5UnitUnified",
+      "paragraph": "Supports AW3641E (UnitFlashLight, SKU:U152) — 1-wire controlled flash LED driver with 8 brightness levels and 2 timeout settings, controlled via a single GPIO pulse train protocol.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5UnitUnified",
+        "M5Utility",
+        "M5HAL"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.0.1.zip",
+      "size": 60939,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T05:20:00Z"
+    },
+    {
       "repository_name": "m5stack/M5Unit-GESTURE",
       "repository_url": "https://github.com/m5stack/M5Unit-GESTURE",
       "name": "M5Unit-GESTURE",
@@ -161719,6 +161771,40 @@
       "github_updated_at": "2025-07-25T08:55:46Z"
     },
     {
+      "repository_name": "m5stack/M5Unit-LIGHT",
+      "repository_url": "https://github.com/m5stack/M5Unit-LIGHT",
+      "name": "M5Unit-LIGHT",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "541533680533",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT LIGHT / DLight and Hat DLight using M5UnitUnified",
+      "paragraph": "Supports BH1750FVI (UnitDLight, SKU:U136 / HatDLight, SKU:U134) for ambient light detection, and LM393 + photoresistor (UnitLight, SKU:U021) for analog light sensing.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5UnitUnified",
+        "M5Utility",
+        "M5HAL"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.0.1.zip",
+      "size": 75635,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T04:38:06Z"
+    },
+    {
       "repository_name": "m5stack/M5Unit-METER",
       "repository_url": "https://github.com/m5stack/M5Unit-METER",
       "name": "M5Unit-METER",
@@ -162009,6 +162095,74 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-06-22T03:30:58Z"
+    },
+    {
+      "repository_name": "m5stack/M5Unit-RGB",
+      "repository_url": "https://github.com/m5stack/M5Unit-RGB",
+      "name": "M5Unit-RGB",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "172176997011",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT RGB using M5UnitUnified",
+      "paragraph": "Supports SK6812/WS2812 addressable LEDs (Unit RGB, Unit Puzzle, Unit Hex, etc.)",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5UnitUnified",
+        "M5Utility",
+        "M5HAL"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RGB-0.0.1.zip",
+      "size": 86371,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T02:38:49Z"
+    },
+    {
+      "repository_name": "m5stack/M5Unit-RS485",
+      "repository_url": "https://github.com/m5stack/M5Unit-RS485",
+      "name": "M5Unit-RS485",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "bd7e26a3640d",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for M5Stack UNIT RS485 using M5UnitUnified",
+      "paragraph": "Supports UnitRS485 (SKU:U034), HatRS485 (SKU:U067), and Atomic RS485 Base (SKU:A131) for half-duplex RS485 serial communication via SP485EEN.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5UnitUnified",
+        "M5Utility",
+        "M5HAL"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RS485-0.0.1.zip",
+      "size": 55619,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-30T03:53:17Z"
     },
     {
       "repository_name": "m5stack/M5Unit-RTC",
@@ -162400,6 +162554,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-03-21T12:20:10Z",
       "download_url": "https://github.com/m5stack/M5Unit-AudioPlayer.git"
+    },
+    {
+      "repository_name": "fknaopen/M5UnitNFC-M5Stack",
+      "repository_url": "https://github.com/fknaopen/M5UnitNFC-M5Stack",
+      "name": "M5UnitNFC-M5Stack",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "30fca6339643",
+      "author": "fknaopen",
+      "maintainer": "fknaopen",
+      "sentence": "Standalone M5Unit-NFC driver for M5Stack legacy environment",
+      "paragraph": "A partial port of M5Unit-NFC without M5UnitUnified dependency, supporting NFC-A and NFC-F detect.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fknaopen/M5UnitNFC_M5Stack-1.0.0.zip",
+      "size": 268111,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T04:13:41Z"
     },
     {
       "repository_name": "m5stack/M5Unit-QRCode",
@@ -216900,16 +217083,20 @@
       "repository_name": "zjp007/PulseAnalyzer",
       "repository_url": "https://github.com/zjp007/PulseAnalyzer",
       "name": "PulseAnalyzer",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-05-12T08:47:44Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-03T10:15:08.794Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-12T08:47:44Z",
-      "last_seen_sha": "73e53fadaff4",
+      "last_seen_sha": "1adbb891f3ae",
       "author": "zjp007",
       "maintainer": "zjp007",
       "sentence": "A non-blocking, dynamic-threshold heart rate detection library for ESP32 and AVR board.",
@@ -216918,11 +217105,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/zjp007/PulseAnalyzer-1.1.0.zip",
+      "size": 12838,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-12T02:44:31Z",
-      "download_url": "https://github.com/zjp007/PulseAnalyzer"
+      "github_updated_at": "2026-05-12T02:44:31Z"
     },
     {
       "repository_name": "alexandrefelipemuller/PulseAnyPin",
@@ -312726,7 +312915,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9583,
-    "total_dependencies": 5195
+    "with_github_metadata": 9588,
+    "total_dependencies": 5207
   }
 }

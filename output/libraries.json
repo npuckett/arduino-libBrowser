@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-03T10:15:15.965Z",
+  "enhanced_at": "2026-08-03T12:03:35.206Z",
   "total_libraries": 9791,
-  "index_etag": "W/\"70defe0898f0a6a56fb3ece8f10499e1\"",
-  "index_last_modified": "Mon, 03 Aug 2026 09:59:11 GMT",
+  "index_etag": "W/\"deb05f16ed79d343220f572fc201692a\"",
+  "index_last_modified": "Mon, 03 Aug 2026 11:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -95270,7 +95270,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.13.0",
+      "version": "0.13.1",
       "version_history": [
         {
           "version": "0.12.2",
@@ -95287,11 +95287,15 @@
         {
           "version": "0.13.0",
           "seen_at": "2026-08-03T10:15:08.794Z"
+        },
+        {
+          "version": "0.13.1",
+          "seen_at": "2026-08-03T12:03:35.081Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "a995c2cd7195",
+      "last_seen_sha": "895aadd4c9e7",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -95303,9 +95307,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.13.0.zip",
-      "size": 159139,
-      "previous_version": "0.12.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.13.1.zip",
+      "size": 159142,
+      "previous_version": "0.13.0",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -170719,7 +170723,7 @@
       "repository_name": "codezoo-ltd/arduino-ME310G1-library",
       "repository_url": "https://github.com/codezoo-ltd/arduino-ME310G1-library",
       "name": "ME310G1",
-      "version": "0.1.13",
+      "version": "0.1.14",
       "version_history": [
         {
           "version": "0.1.12",
@@ -170728,11 +170732,15 @@
         {
           "version": "0.1.13",
           "seen_at": "2026-07-21T14:39:02.911Z"
+        },
+        {
+          "version": "0.1.14",
+          "seen_at": "2026-08-03T12:03:35.081Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:52:18Z",
-      "last_seen_sha": "e3fd806f6147",
+      "last_seen_sha": "10788208b09f",
       "author": "CodeZoo",
       "maintainer": "Rooney <rooney.jang@codezoo.co.kr>",
       "sentence": "Allows communication with ME310G1 Telit module.",
@@ -170741,9 +170749,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/ME310G1-0.1.13.zip",
-      "size": 2287453,
-      "previous_version": "0.1.12",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/ME310G1-0.1.14.zip",
+      "size": 2410545,
+      "previous_version": "0.1.13",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -291356,16 +291364,20 @@
       "repository_name": "dominicklee/TrueProx",
       "repository_url": "https://github.com/dominicklee/TrueProx",
       "name": "TrueProx",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-08-07T14:16:23Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-03T12:03:35.081Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-08-07T14:16:23Z",
-      "last_seen_sha": "fca466133c7a",
+      "last_seen_sha": "c08a2f192b93",
       "author": "Dominick Lee <dominick@makitronics.com>",
       "maintainer": "Dominick Lee <dominick@makitronics.com>",
       "sentence": "Arduino library for high accuracy presence detection using analog proximity sensors.",
@@ -291374,11 +291386,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dominicklee/TrueProx-1.0.1.zip",
+      "size": 48402,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2023-09-23T16:25:15Z",
-      "download_url": "https://github.com/dominicklee/TrueProx"
+      "github_updated_at": "2023-09-23T16:25:15Z"
     },
     {
       "repository_name": "filipporaciti/TS_lib",

@@ -1,6 +1,49 @@
 {
-  "since": "2026-08-04T21:24:45.200Z",
+  "since": "2026-08-04T22:22:27.136Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "CNMAT/OSC",
+        "repository_url": "https://github.com/CNMAT/OSC",
+        "name": "OSC",
+        "version": "4.0.0",
+        "version_history": [
+          {
+            "version": "3.5.8",
+            "seen_at": "2026-05-30T08:05:37Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-08-04T22:22:27.136Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-30T08:05:37Z",
+        "last_seen_sha": "fbfc07b5a6b7",
+        "author": "Adrian Freed <adrian@adrianfreed.com>, Yotam Mann",
+        "maintainer": "Adrian Freed <adrian@adrianfreed.com>",
+        "sentence": "Open Sound Control (OSC)",
+        "paragraph": "Open Sound Control (OSC) is an open, transport-independent, message-based encoding developed for communication among computers, sound synthesizers, and other multimedia devices. NOTE 4.0.0 corrects the on-the-wire encoding of the 'r' (RGBA) and 'm' (MIDI) types, which were byte-reversed before, and sends the OSC 1.0 \"immediately\" timetag on bundles built without one. Links to devices still running 3.5.8 or earlier must be updated at both ends. See the README.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/CNMAT/OSC-4.0.0.zip",
+        "size": 597327,
+        "previous_version": "1.3.7",
+        "github_stars": 796,
+        "github_forks": 145,
+        "github_language": "Max",
+        "github_updated_at": "2026-05-30T02:07:39Z"
+      },
+      "old_version": "1.3.7",
+      "new_version": "4.0.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-04T17:31:01.557Z",
-  "total_libraries": 9794,
-  "index_etag": "W/\"f9f5eb5df38d213e8dc3ace17a183bf1\"",
-  "index_last_modified": "Tue, 04 Aug 2026 17:29:12 GMT",
+  "enhanced_at": "2026-08-04T18:29:45.193Z",
+  "total_libraries": 9796,
+  "index_etag": "W/\"f932f09f37a222775a67c80688ccc889\"",
+  "index_last_modified": "Tue, 04 Aug 2026 18:29:13 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -18175,6 +18175,40 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-07-26T16:01:45Z"
+    },
+    {
+      "repository_name": "Kinshuk-2005/ADRF6655",
+      "repository_url": "https://github.com/Kinshuk-2005/ADRF6655",
+      "name": "ADRF6655",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-04T18:29:42.260Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-04T18:29:42.260Z",
+      "last_seen_sha": "e8fabd747e70",
+      "author": "kinny",
+      "maintainer": "kinny <[email protected]>",
+      "sentence": "Driver for the Analog Devices ADRF6655 broadband up/downconverting mixer with integrated fractional-N PLL and VCO.",
+      "paragraph": "Provides one configuration function per register (R0-R7), a single low-level SPI write primitive, automatic INT/MOD/FRAC calculation from a target LO frequency, and the full deactivate->reconfigure->activate sequence required on every frequency change. Designed for ESP32 control of the ADRF6655 evaluation board over SPI.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "license": "MIT",
+      "depends": [
+        "SPI"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.0.0.zip",
+      "size": 29047,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T14:46:43Z"
     },
     {
       "repository_name": "nadavmatalon/ADS1110",
@@ -154795,6 +154829,35 @@
       "download_url": "https://github.com/gillham/logic_analyzer"
     },
     {
+      "repository_name": "Canavix/LogicPins",
+      "repository_url": "https://github.com/Canavix/LogicPins",
+      "name": "LogicPins",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-04T18:29:42.260Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-04T18:29:42.260Z",
+      "last_seen_sha": "db8b3ba186b6",
+      "author": "Cristian Camilo Cañaveral Avilés",
+      "maintainer": "Cristian Camilo Cañaveral Avilés <camilo.canavi@gmail.com>",
+      "sentence": "Libreria para abstraccion de pines y logica combinacional.",
+      "paragraph": "Permite tratar los pines de Arduino y ESP32 como variables booleanas para facilitar la ensenanza de compuertas logicas.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Canavix/LogicPins-1.0.0.zip",
+      "size": 6006,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T14:06:40Z"
+    },
+    {
       "repository_name": "RobTillaart/Logistic",
       "repository_url": "https://github.com/RobTillaart/Logistic",
       "name": "Logistic",
@@ -204619,7 +204682,7 @@
       "repository_name": "rei-vilo/PDLS_Basic",
       "repository_url": "https://github.com/rei-vilo/PDLS_Basic",
       "name": "PDLS_Basic",
-      "version": "10.0.8",
+      "version": "10.0.9",
       "version_history": [
         {
           "version": "10.0.7",
@@ -204628,11 +204691,15 @@
         {
           "version": "10.0.8",
           "seen_at": "2026-07-21T08:50:41.874Z"
+        },
+        {
+          "version": "10.0.9",
+          "seen_at": "2026-08-04T18:29:42.260Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-09T08:39:46Z",
-      "last_seen_sha": "df766d7a0189",
+      "last_seen_sha": "d2f8ff4c30f6",
       "author": "Rei Vilo",
       "maintainer": "Rei Vilo",
       "sentence": "Library for Pervasive Displays iTC screens, extension boards and development kits",
@@ -204651,9 +204718,9 @@
         "Pervasive_BWRY_Small",
         "Pervasive_Touch_Small"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.0.8.zip",
-      "size": 393232,
-      "previous_version": "10.0.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.0.9.zip",
+      "size": 393302,
+      "previous_version": "10.0.8",
       "github_stars": 2,
       "github_forks": 4,
       "github_language": "C",
@@ -204663,7 +204730,7 @@
       "repository_name": "rei-vilo/PDLS_Common",
       "repository_url": "https://github.com/rei-vilo/PDLS_Common",
       "name": "PDLS_Common",
-      "version": "10.0.8",
+      "version": "10.0.9",
       "version_history": [
         {
           "version": "10.0.7",
@@ -204672,11 +204739,15 @@
         {
           "version": "10.0.8",
           "seen_at": "2026-07-21T08:50:41.874Z"
+        },
+        {
+          "version": "10.0.9",
+          "seen_at": "2026-08-04T18:29:42.260Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-23T08:37:58Z",
-      "last_seen_sha": "72e9be0cf5f9",
+      "last_seen_sha": "498c419d82b6",
       "author": "Rei Vilo",
       "maintainer": "Rei Vilo",
       "sentence": "Shared libraries including constants and utilities",
@@ -204685,9 +204756,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Common-10.0.8.zip",
-      "size": 56878,
-      "previous_version": "10.0.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Common-10.0.9.zip",
+      "size": 56912,
+      "previous_version": "10.0.8",
       "github_stars": 0,
       "github_forks": 2,
       "github_language": "C",
@@ -313172,7 +313243,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9591,
-    "total_dependencies": 5209
+    "with_github_metadata": 9593,
+    "total_dependencies": 5210
   }
 }

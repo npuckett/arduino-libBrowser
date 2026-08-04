@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-04T19:29:37.316Z",
-  "total_libraries": 9796,
-  "index_etag": "W/\"f932f09f37a222775a67c80688ccc889\"",
-  "index_last_modified": "Tue, 04 Aug 2026 19:29:12 GMT",
+  "enhanced_at": "2026-08-04T20:28:36.588Z",
+  "total_libraries": 9797,
+  "index_etag": "W/\"30e0917e1b5019e8132520e2b5d83549\"",
+  "index_last_modified": "Tue, 04 Aug 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -98453,7 +98453,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.4.1",
+      "version": "1.5.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -98494,11 +98494,15 @@
         {
           "version": "1.4.1",
           "seen_at": "2026-08-02T04:16:50.797Z"
+        },
+        {
+          "version": "1.5.0",
+          "seen_at": "2026-08-04T20:28:35.166Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "9c5a071c69ed",
+      "last_seen_sha": "fe791f46ebdc",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
@@ -98507,9 +98511,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.4.1.zip",
-      "size": 10480045,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.0.zip",
+      "size": 10563548,
+      "previous_version": "1.4.1",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -139611,7 +139615,7 @@
       "repository_name": "gitlab.com/iridium/9704_launch_pad/arduino_library",
       "repository_url": "https://gitlab.com/iridium/9704_launch_pad/arduino_library",
       "name": "Iridium9704LaunchPad",
-      "version": "2.0.7",
+      "version": "2.0.8",
       "version_history": [
         {
           "version": "2.0.5",
@@ -139620,11 +139624,15 @@
         {
           "version": "2.0.7",
           "seen_at": "2026-07-01T22:26:25.010Z"
+        },
+        {
+          "version": "2.0.8",
+          "seen_at": "2026-08-04T20:28:35.166Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "55a11872626a",
+      "last_seen_sha": "467933266ae8",
       "author": "iridium.com",
       "maintainer": "iridium.com",
       "sentence": "IoT from anywhere on Earth! Pair with an Iridium 9704 Launch Pad for seamless global connectivity and real-time data access, no matter how remote your location.",
@@ -139638,9 +139646,9 @@
         "Arduino_BQ24195",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9704_launch_pad/Iridium9704LaunchPad-2.0.7.zip",
-      "size": 221891,
-      "previous_version": "2.0.5"
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/9704_launch_pad/Iridium9704LaunchPad-2.0.8.zip",
+      "size": 221933,
+      "previous_version": "2.0.7"
     },
     {
       "repository_name": "andrewhe-princeton/Iridium-GPP",
@@ -297353,6 +297361,36 @@
       "download_url": "https://github.com/Fran6nd/Updatable"
     },
     {
+      "repository_name": "italo-coelho/UpdateOTW",
+      "repository_url": "https://github.com/italo-coelho/UpdateOTW",
+      "name": "UpdateOTW",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-04T20:28:35.166Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-04T20:28:35.166Z",
+      "last_seen_sha": "c4b593843115",
+      "author": "Ítalo Coelho",
+      "maintainer": "Ítalo Coelho",
+      "sentence": "Peer-to-peer firmware update over the wire (Modbus RTU / RS485).",
+      "paragraph": "Stream a firmware image from a Modbus RTU master to a slave over a half-duplex RS485 bus, and the slave reboots into it. Two register-array state machines (UpdateOTW_Master sender, UpdateOTW_Slave receiver) — your code keeps doing the Modbus, the library only reads/writes a small register window. Non-blocking (one frame per tick), so the device keeps running while it updates, with deferred apply. Per-chunk CRC16 plus full-image CRC32, automatic retry with patient back-off, and free rollback via the ESP32 Update library. No external dependencies.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/italo-coelho/UpdateOTW-1.0.1.zip",
+      "size": 96138,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T18:19:58Z"
+    },
+    {
       "repository_name": "Bitworx-cz/Updater",
       "repository_url": "https://github.com/Bitworx-cz/Updater",
       "name": "Updater",
@@ -313243,7 +313281,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9593,
+    "with_github_metadata": 9594,
     "total_dependencies": 5210
   }
 }

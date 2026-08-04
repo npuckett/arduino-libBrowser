@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-04T15:45:31.585Z",
+  "enhanced_at": "2026-08-04T16:34:46.082Z",
   "total_libraries": 9794,
-  "index_etag": "W/\"ecd2ccbb3704006020187f7b720d48a7\"",
-  "index_last_modified": "Tue, 04 Aug 2026 15:29:12 GMT",
+  "index_etag": "W/\"f9f5eb5df38d213e8dc3ace17a183bf1\"",
+  "index_last_modified": "Tue, 04 Aug 2026 16:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -95377,7 +95377,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "version_history": [
         {
           "version": "0.12.2",
@@ -95402,11 +95402,15 @@
         {
           "version": "0.14.0",
           "seen_at": "2026-08-04T00:21:36.726Z"
+        },
+        {
+          "version": "0.15.0",
+          "seen_at": "2026-08-04T16:34:45.976Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "ba3b24258bef",
+      "last_seen_sha": "4813fc0f52f1",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -95418,9 +95422,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.14.0.zip",
-      "size": 162696,
-      "previous_version": "0.13.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.15.0.zip",
+      "size": 163834,
+      "previous_version": "0.14.0",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -235140,34 +235144,40 @@
       "repository_name": "sbarabe/SBK_BarDrive",
       "repository_url": "https://github.com/sbarabe/SBK_BarDrive",
       "name": "SBK_BarDrive",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "2.0.4",
           "seen_at": "2025-11-28T07:09:21Z"
+        },
+        {
+          "version": "2.0.5",
+          "seen_at": "2026-08-04T16:34:45.976Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-11-28T07:09:21Z",
-      "last_seen_sha": "e14506b952f2",
+      "last_seen_sha": "4927952f5cde",
       "author": "Samuel Barabé <smartbuildskits@gmail.com>",
       "maintainer": "Samuel Barabé <smartbuildskits@gmail.com>",
-      "sentence": "Animated LED bar meter control for MAX7219, MAX7221, HT16K33 - ideal for props and signal-driven displays.",
-      "paragraph": "High-level Arduino library for controlling and animating LED bar meters with MAX7219/MAX7221 or HT16K33. Features include fill effects, block animations, signal tracking, bouncing, beat pulse, and custom mappings. Ideal for makers, props, and meters.",
+      "sentence": "High-level Arduino library for controlling and animating LED bar graph and bar meter displays.",
+      "paragraph": "Controls LED bargraphs, bar graphs, bar meters, and LED arrays using MAX7219/MAX7221 or HT16K33 drivers. Includes fill, block, bouncing, signal-following, beat, and custom-mapping animations.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2025-11-27T18:02:23Z",
       "license": "MIT",
       "depends": [
         "SBK_HT16K33",
         "SBK_MAX72xx"
       ],
-      "download_url": "https://github.com/sbarabe/SBK_BarDrive"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.0.5.zip",
+      "size": 368880,
+      "previous_version": "2.0.4",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2025-11-27T18:02:23Z"
     },
     {
       "repository_name": "sbarabe/SBK_Button",

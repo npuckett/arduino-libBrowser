@@ -1,15 +1,26 @@
 name: Deploy GitHub Pages
 
-# Single trigger: push to main. The three data workflows (hourly-sync,
-# daily-enrich, weekly-stats) all commit and push to main on a change, so a
-# push-triggered deploy already covers them. Previously this also listened on
-# `workflow_run`, which fired a SECOND concurrent deploy on top of the
-# push deploy — the root cause of the recurring "transient Pages backend
-# failures" the retry chain was masking.
+# Triggers:
+#   push             — real (human/PAT) pushes to main. NOTE: pushes made with
+#                      the repo's default GITHUB_TOKEN do NOT fire the `push`
+#                      event, so this alone does not cover the data workflows
+#                      below (they all commit via GITHUB_TOKEN).
+#   workflow_run     — bridges that gap: fires when one of the three scheduled
+#                      data workflows (hourly-sync, daily-enrich, weekly-stats)
+#                      completes, so token-pushed data updates actually deploy.
+#
+# Earlier this also used workflow_run with `cancel-in-progress: false`, which
+# queued a SECOND deploy on top of the push deploy — the root cause of the
+# recurring "transient Pages backend failures". The concurrency group below
+# (with cancel-in-progress: true) now makes both triggers safe to keep.
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Hourly Sync (library_index.json.gz)", "Daily Enrichment (GitHub API + ETag)", "Weekly Stats Rollup"]
+    types: [completed]
+    branches: [main]
 
 concurrency:
   group: pages-${{ github.ref }}
@@ -24,6 +35,10 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    # When triggered via workflow_run, only deploy if the upstream data
+    # workflow actually succeeded — a failed sync/enrich run shouldn't kick
+    # off a deploy. (Push and workflow_dispatch runs are unaffected.)
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       pages: write
       id-token: write

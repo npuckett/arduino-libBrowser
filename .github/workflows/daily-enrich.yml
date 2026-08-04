@@ -69,8 +69,29 @@ jobs:
           CHANGED=$(git diff --cached --name-only | wc -l | tr -d ' ')
           git commit -m "Daily enrich: GitHub metadata refresh ($(date -u '+%Y-%m-%d %H:%M UTC')) [${CHANGED} files]"
 
-          git pull --rebase origin "$GITHUB_REF_NAME" || git pull origin "$GITHUB_REF_NAME" --allow-unrelated-histories || {
-            echo "::error::Failed to pull latest changes before push"
-            exit 1
-          }
+          # Rebase the local commit onto the latest origin and push. The data
+          # workflows all touch output/libraries.json, so a concurrent run can
+          # land a commit mid-rebase and leave the tree conflicted. The old
+          # `|| git pull --allow-unrelated-histories` fallback can't recover
+          # from that (the tree is still mid-rebase), so the run died. This
+          # loop aborts a conflicted rebase cleanly, re-fetches, and retries.
+          OURS=$(git rev-parse HEAD)
+          ATTEMPTS=0
+          until git pull --rebase origin "$GITHUB_REF_NAME"; do
+            ATTEMPTS=$((ATTEMPTS + 1))
+            if [ "$ATTEMPTS" -gt 3 ]; then
+              echo "::error::Could not rebase $OURS onto origin/$GITHUB_REF_NAME after 3 attempts"
+              exit 1
+            fi
+            echo "::warning::Rebase conflicted (attempt $ATTEMPTS); resetting to origin and re-applying..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --hard "origin/$GITHUB_REF_NAME"
+            if ! git cherry-pick "$OURS"; then
+              # Generated-output conflict: prefer this run's output, then finish.
+              git checkout --theirs . 2>/dev/null || true
+              git add -A
+              GIT_EDITOR=true git cherry-pick --continue || git cherry-pick --abort
+            fi
+          done
           git push

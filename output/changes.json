@@ -1,6 +1,52 @@
 {
-  "since": "2026-08-04T11:42:25.342Z",
+  "since": "2026-08-04T12:33:49.439Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "SUNSETDEVER/AVR_TaskScheduler",
+        "repository_url": "https://github.com/SUNSETDEVER/AVR_TaskScheduler",
+        "name": "AVR Task Scheduler",
+        "version": "1.0.4",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-11T16:15:55.729Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-13T06:01:15.216Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-08-04T12:33:49.439Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-11T16:15:55.729Z",
+        "last_seen_sha": "9a8f849f7ba1",
+        "author": "SUNSET",
+        "maintainer": "SUNSET <973879601@qq.com>",
+        "sentence": "A lightweight, polling-based task scheduler for AVR Arduino boards with FreeRTOS-like API.",
+        "paragraph": "This library provides a simple yet powerful task scheduling system for AVR microcontrollers. It uses millis() for timing (no hardware timer required), supports multiple tasks with different intervals, and includes task management features like suspend/resume/delete. Perfect for projects that need to manage multiple periodic tasks without the complexity of RTOS.",
+        "category": "Timing",
+        "architectures": [
+          "avr",
+          "esp32",
+          "esp8266",
+          "samd"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/AVR_Task_Scheduler-1.0.4.zip",
+        "size": 20230,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-11T11:54:35Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.0.4"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-04T23:20:31.157Z",
+  "enhanced_at": "2026-08-05T00:21:54.825Z",
   "total_libraries": 9797,
-  "index_etag": "W/\"097ef5c09cc3c50152dfc1f759c6554e\"",
-  "index_last_modified": "Tue, 04 Aug 2026 22:59:12 GMT",
+  "index_etag": "W/\"28222be845664a5a6cdef55086d5fd64\"",
+  "index_last_modified": "Tue, 04 Aug 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -95411,7 +95411,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "version_history": [
         {
           "version": "0.12.2",
@@ -95440,11 +95440,15 @@
         {
           "version": "0.15.0",
           "seen_at": "2026-08-04T16:34:45.976Z"
+        },
+        {
+          "version": "0.16.0",
+          "seen_at": "2026-08-05T00:21:54.689Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "4813fc0f52f1",
+      "last_seen_sha": "3a80b5af87fe",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -95456,9 +95460,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.15.0.zip",
-      "size": 163834,
-      "previous_version": "0.14.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.16.0.zip",
+      "size": 178130,
+      "previous_version": "0.15.0",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -104654,7 +104658,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.0",
+      "version": "2.7.1",
       "version_history": [
         {
           "version": "2.0.1",
@@ -104715,22 +104719,26 @@
         {
           "version": "2.7.0",
           "seen_at": "2026-07-31T10:51:46.722Z"
+        },
+        {
+          "version": "2.7.1",
+          "seen_at": "2026-08-05T00:21:54.689Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "ba0e7565c4c0",
+      "last_seen_sha": "2d592302ffba",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
-      "sentence": "This is a library for using USB Host with ESP32.",
-      "paragraph": "You can use the functions of the USB host such as the keyboard by using ESP32-S3 etc.",
+      "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
+      "paragraph": "EspUsbHost processes USB events in a background FreeRTOS task, so loop() needs no polling call: register callbacks and call begin(). Supports HID keyboard with international layouts, mouse, gamepad, consumer and system control, keyboard LEDs and vendor reports, CDC ACM and FTDI/CP210x/CH34x USB serial adapters as Arduino Streams, USB MIDI in/out, USB Audio isochronous streaming, Mass Storage with FatFs/VFS and fs::FS access, CDC-NCM/CDC-ECM Ethernet adapters as raw frames or an lwIP interface, CCID smart card readers, generic vendor bulk/control transfers, hubs, and multiple simultaneous devices.",
       "category": "Device Control",
       "architectures": [
-        "*"
+        "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.0.zip",
-      "size": 819111,
-      "previous_version": "2.5.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.1.zip",
+      "size": 888079,
+      "previous_version": "2.7.0",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",

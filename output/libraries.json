@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-05T07:51:05.241Z",
+  "enhanced_at": "2026-08-05T08:53:08.541Z",
   "total_libraries": 9798,
-  "index_etag": "W/\"48e347256cb9e4b571bc1383589b5f94\"",
-  "index_last_modified": "Wed, 05 Aug 2026 07:29:12 GMT",
+  "index_etag": "W/\"4b7efb46c1fff475720a5b4ad63a3065\"",
+  "index_last_modified": "Wed, 05 Aug 2026 08:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40548,7 +40548,7 @@
       "repository_name": "vedacool/Arduino-Azure-IoT-Central",
       "repository_url": "https://github.com/vedacool/Arduino-Azure-IoT-Central",
       "name": "AzureIoT",
-      "version": "1.4.2",
+      "version": "1.5.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40597,15 +40597,19 @@
         {
           "version": "1.4.2",
           "seen_at": "2026-08-05T04:07:17.648Z"
+        },
+        {
+          "version": "1.5.1",
+          "seen_at": "2026-08-05T08:53:08.412Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-07-22T04:09:16.672Z",
-      "last_seen_sha": "89bdca72f65c",
+      "last_seen_sha": "6b364bc1fccf",
       "author": "Dr. Husaini <mhusaini@syncmind.my>",
       "maintainer": "Dr. Husaini <mhusaini@syncmind.my>",
       "sentence": "Connects an Arduino Uno WiFi Rev2 or an ESP32 board to Azure IoT Central: WiFi, on-device DPS provisioning, MQTT telemetry, and cloud-to-device control.",
-      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Includes writable-property support for controlling actuators (LEDs, buzzers) from the IoT Central dashboard, and reading another device's telemetry via the IoT Central REST API. See the 28 included examples, grouped by mode (send to cloud / control from cloud / react to another device) and ordered easiest-to-hardest within each group.",
+      "paragraph": "Replaces firedog1024/arduino-uno-wifi-iotc + the archived Azure/dps-keygen tool. No PC-side tooling required -- the board provisions itself via Azure's Device Provisioning Service at boot. Cloud-to-device control comes in three forms: writable boolean and numeric properties (persistent settings the cloud remembers), and commands (one-shot actions triggered from a dashboard button). Also reads another device's telemetry via the IoT Central REST API. See the 31 included examples, grouped by mode (send to cloud / control from cloud / react to another device) and ordered easiest-to-hardest within each group.",
       "category": "Communication",
       "architectures": [
         "megaavr",
@@ -40615,9 +40619,9 @@
         "WiFiNINA",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.4.2.zip",
-      "size": 185458,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vedacool/AzureIoT-1.5.1.zip",
+      "size": 203192,
+      "previous_version": "1.4.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -104630,7 +104634,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -104671,22 +104675,26 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-07-31T16:31:28.627Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-08-05T08:53:08.412Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "dcf6438566c2",
+      "last_seen_sha": "6358b9ec2ff8",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.0.zip",
-      "size": 582121,
-      "previous_version": "1.2.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.1.zip",
+      "size": 608392,
+      "previous_version": "2.0.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",

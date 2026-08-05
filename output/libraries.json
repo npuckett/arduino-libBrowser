@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-05T05:54:03.490Z",
-  "total_libraries": 9797,
-  "index_etag": "W/\"3346e67ba49631506724c103d3419be3\"",
-  "index_last_modified": "Wed, 05 Aug 2026 05:29:12 GMT",
+  "enhanced_at": "2026-08-05T06:49:17.031Z",
+  "total_libraries": 9798,
+  "index_etag": "W/\"48e347256cb9e4b571bc1383589b5f94\"",
+  "index_last_modified": "Wed, 05 Aug 2026 06:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -56661,6 +56661,36 @@
       "download_url": "https://github.com/senex-code/CarBase"
     },
     {
+      "repository_name": "Carbonara-Individuals/Carbonara_DRV8874",
+      "repository_url": "https://github.com/Carbonara-Individuals/Carbonara_DRV8874",
+      "name": "Carbonara_DRV8874",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-05T06:49:15.592Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-05T06:49:15.592Z",
+      "last_seen_sha": "f60077757b74",
+      "author": "Carbonara Individuals",
+      "maintainer": "Daniel Principe (turtlerock0010@gmail.com)",
+      "sentence": "Arduino library for controlling the DRV8874 motor driver.",
+      "paragraph": "Carbonara Individuals' Arduino motor driver library for the DRV8874 for easy motor control.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Carbonara-Individuals/Carbonara_DRV8874-0.1.0.zip",
+      "size": 7444,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-05T02:15:50Z"
+    },
+    {
       "repository_name": "DaAwesomeP/arduino-cardinal",
       "repository_url": "https://github.com/DaAwesomeP/arduino-cardinal",
       "name": "Cardinal",
@@ -88539,7 +88569,7 @@
       "repository_name": "AlenKrishna2012/EEPROM24CXX",
       "repository_url": "https://github.com/AlenKrishna2012/EEPROM24CXX",
       "name": "EEPROM24CXX",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -88552,12 +88582,16 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-08-04T14:47:44.599Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-05T06:49:15.592Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-03T14:58:49.725Z",
-      "last_seen_sha": "d66f21ddd26d",
-      "author": "Alen KrishnaV.U",
+      "last_seen_sha": "8e67508fe989",
+      "author": "Alen Krishna V.U",
       "maintainer": "Alen Krishna V.U <alenkrishnavu@gmail.com>",
       "sentence": "I2C EEPROM library for 24Cxx and 24CMxx EEPROM chips.",
       "paragraph": "Supports byte access, strings, buffers, datatypes, erase, fill, compare and write protection.",
@@ -88565,9 +88599,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.2.zip",
-      "size": 17815,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.3.zip",
+      "size": 17840,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -150735,7 +150769,7 @@
       "repository_name": "tanakamasayuki/LGFXVirtualCanvas",
       "repository_url": "https://github.com/tanakamasayuki/LGFXVirtualCanvas",
       "name": "LGFXVirtualCanvas",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "version_history": [
         {
           "version": "1.1.0",
@@ -150744,11 +150778,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-07-30T10:41:08.084Z"
+        },
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-08-05T06:49:15.592Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-11T09:06:42Z",
-      "last_seen_sha": "a6672d608e5f",
+      "last_seen_sha": "957bbffae821",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Virtual full-screen canvas over LovyanGFX / M5GFX via vertical tiling.",
@@ -150757,9 +150795,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/LGFXVirtualCanvas-1.2.0.zip",
-      "size": 112614,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/LGFXVirtualCanvas-1.3.0.zip",
+      "size": 126206,
+      "previous_version": "1.2.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -313297,7 +313335,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9594,
+    "with_github_metadata": 9595,
     "total_dependencies": 5210
   }
 }

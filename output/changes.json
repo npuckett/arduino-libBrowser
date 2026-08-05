@@ -1,6 +1,45 @@
 {
-  "since": "2026-08-05T21:23:55.933Z",
+  "since": "2026-08-05T22:21:33.106Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6005_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6005_library",
+        "name": "DevLab_MPU6050",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-01T04:13:20.299Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-08-05T22:21:33.106Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-01T04:13:20.299Z",
+        "last_seen_sha": "5bebd796f5cd",
+        "author": "UNIT Electronics DevLab Ecosystem",
+        "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+        "sentence": "Arduino library for the MPU6050 6-axis IMU using direct I2C register access.",
+        "paragraph": "DevLab MPU6050 library for accelerometer, gyroscope, and temperature acquisition using direct register communication over I2C.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-2.0.1.zip",
+        "size": 14605,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-01T00:22:39Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "2.0.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,45 @@
 {
-  "since": "2026-08-06T13:31:32.229Z",
+  "since": "2026-08-06T14:45:32.000Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ugursayar/NessoLink",
+        "repository_url": "https://github.com/ugursayar/NessoLink",
+        "name": "NessoLink",
+        "version": "1.1.2",
+        "version_history": [
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-22T14:38:28.814Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-08-06T14:45:32.000Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-22T14:38:28.814Z",
+        "last_seen_sha": "82a968b80604",
+        "author": "Ugur Sayar <ugursayar@gmail.com>",
+        "maintainer": "Ugur Sayar <ugursayar@gmail.com>",
+        "sentence": "Versioned binary control-link protocol for the Nesso N1 robot controller.",
+        "paragraph": "RemoteFrame v1/v2 codec (motors, up to two aux sticks, a 16-button bitfield, CRC-8 checked) plus WiFi UDP, TCP, BLE and LoRa (RadioLib) transports. The codec is header-only and dependency-free, so it runs on both the transmitter and the robot receiver on any board; each transport is compile-guarded, so codec-only users pull in no heavy dependencies.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ugursayar/NessoLink-1.1.2.zip",
+        "size": 39826,
+        "previous_version": "1.1.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-22T12:40:11Z"
+      },
+      "old_version": "1.1.1",
+      "new_version": "1.1.2"
+    }
+  ],
   "removed_libraries": []
 }

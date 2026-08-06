@@ -1,6 +1,152 @@
 {
-  "since": "2026-08-05T23:19:49.928Z",
+  "since": "2026-08-06T00:18:43.270Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/NetworkManager",
+        "repository_url": "https://github.com/soosp/NetworkManager",
+        "name": "NetworkManager",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          },
+          {
+            "version": "0.1.4",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "0.1.5",
+            "seen_at": "2026-07-30T14:44:22.538Z"
+          },
+          {
+            "version": "0.1.6",
+            "seen_at": "2026-07-30T16:29:03.361Z"
+          },
+          {
+            "version": "0.1.8",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-06T00:18:43.270Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "277fad89a63e",
+        "author": "Péter Soós <https://github.com/soosp>",
+        "maintainer": "Péter Soós <https://github.com/soosp>",
+        "sentence": "Priority-based network connection manager with automatic fallback.",
+        "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "depends": [
+          "Host",
+          "NetworkProfile",
+          "Preferences",
+          "EEPROMPreferences",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.2.0.zip",
+        "size": 128318,
+        "previous_version": "0.1.8",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T15:01:40Z"
+      },
+      "old_version": "0.1.8",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkProfile",
+        "repository_url": "https://github.com/soosp/NetworkProfile",
+        "name": "NetworkProfile",
+        "version": "0.5.3",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-24T14:32:04.454Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-07-30T14:44:22.538Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-07-31T14:46:09.144Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-08-06T00:18:43.270Z"
+          }
+        ],
+        "release_count": 9,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "1034d89ac6ca",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+        "paragraph": "Provides WiFiProfile and EthProfile classes for managing network configuration (DHCP/static IP, DNS, NTP, hostname, MAC address) with thread-safe access, persistent storage via Preferences, and JSON serialisation. Supports interface priority for fallback scenarios (e.g. ETH → WiFi). Depends on the Host library.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "depends": [
+          "Host",
+          "EEPROMPreferences",
+          "Preferences"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.5.3.zip",
+        "size": 49754,
+        "previous_version": "0.5.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T14:26:58Z"
+      },
+      "old_version": "0.5.2",
+      "new_version": "0.5.3"
+    }
+  ],
   "removed_libraries": []
 }

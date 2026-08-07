@@ -1,6 +1,54 @@
 {
-  "since": "2026-08-07T07:28:18.002Z",
+  "since": "2026-08-07T08:22:12.547Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Xinyuan-LilyGO/LilyGo-EPD47",
+        "repository_url": "https://github.com/Xinyuan-LilyGO/LilyGo-EPD47",
+        "name": "LilyGo-EPD47",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-06-26T08:50:48Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-07T08:22:12.547Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-26T08:50:48Z",
+        "last_seen_sha": "15bee5a41299",
+        "author": "LilyGO",
+        "maintainer": "LilyGO",
+        "sentence": "LilyGo 4.7 inch ink screen driver library",
+        "paragraph": "Drivers and examples are from [epdiy](https://github.com/vroland/epdiy)",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "SensorLib",
+          "Button2",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Xinyuan-LilyGO/LilyGo_EPD47-1.1.0.zip",
+        "size": 17304778,
+        "previous_version": "1.0.1",
+        "github_stars": 546,
+        "github_forks": 183,
+        "github_language": "C",
+        "github_updated_at": "2026-07-02T04:19:30Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

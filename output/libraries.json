@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-07T07:28:18.133Z",
+  "enhanced_at": "2026-08-07T08:22:12.638Z",
   "total_libraries": 9803,
-  "index_etag": "W/\"b269ca5690e2306034805d1d1a462f61\"",
-  "index_last_modified": "Fri, 07 Aug 2026 06:59:12 GMT",
+  "index_etag": "W/\"11e0bbe8a739fb0d8e7370d727ebd1cd\"",
+  "index_last_modified": "Fri, 07 Aug 2026 07:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -152293,7 +152293,7 @@
       "repository_name": "Xinyuan-LilyGO/LilyGo-EPD47",
       "repository_url": "https://github.com/Xinyuan-LilyGO/LilyGo-EPD47",
       "name": "LilyGo-EPD47",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -152302,11 +152302,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-07T08:22:12.547Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:50:48Z",
-      "last_seen_sha": "cd86a6baf9e6",
+      "last_seen_sha": "15bee5a41299",
       "author": "LilyGO",
       "maintainer": "LilyGO",
       "sentence": "LilyGo 4.7 inch ink screen driver library",
@@ -152317,15 +152321,16 @@
       ],
       "depends": [
         "SensorLib",
-        "Button2"
+        "Button2",
+        "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Xinyuan-LilyGO/LilyGo_EPD47-1.0.1.zip",
-      "size": 16373664,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Xinyuan-LilyGO/LilyGo_EPD47-1.1.0.zip",
+      "size": 17304778,
+      "previous_version": "1.0.1",
       "github_stars": 546,
       "github_forks": 183,
-      "github_updated_at": "2026-07-02T04:19:30Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-07-02T04:19:30Z"
     },
     {
       "repository_name": "Xinyuan-LilyGO/LilyGo-T-RGB",
@@ -313655,6 +313660,6 @@
     "total_categories": 78,
     "total_architectures": 160,
     "with_github_metadata": 9600,
-    "total_dependencies": 5214
+    "total_dependencies": 5215
   }
 }

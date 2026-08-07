@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-07T17:15:31.717Z",
+  "enhanced_at": "2026-08-07T18:14:04.631Z",
   "total_libraries": 9804,
-  "index_etag": "W/\"c615eaf023952747ca90c37129ad7f69\"",
-  "index_last_modified": "Fri, 07 Aug 2026 16:59:12 GMT",
+  "index_etag": "W/\"7ecf97cd18fbe20e7af583c7f7db1577\"",
+  "index_last_modified": "Fri, 07 Aug 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -12090,7 +12090,7 @@
       "repository_name": "adafruit/Adafruit_MLX90632",
       "repository_url": "https://github.com/adafruit/Adafruit_MLX90632",
       "name": "Adafruit MLX90632 Library",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -12099,11 +12099,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-08-07T18:14:01.614Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-08-06T07:32:25Z",
-      "last_seen_sha": "8b9d934f9814",
+      "last_seen_sha": "200cd3a2c74b",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Arduino library for MLX90632 Far Infrared Temperature Sensor",
@@ -12115,9 +12119,9 @@
       "depends": [
         "Adafruit BusIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MLX90632_Library-1.0.3.zip",
-      "size": 12564,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MLX90632_Library-1.0.4.zip",
+      "size": 13021,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -22963,7 +22967,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.121",
+      "version": "1.2.123",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23228,11 +23232,15 @@
         {
           "version": "1.2.121",
           "seen_at": "2026-08-04T02:59:22.399Z"
+        },
+        {
+          "version": "1.2.123",
+          "seen_at": "2026-08-07T18:14:01.614Z"
         }
       ],
-      "release_count": 66,
+      "release_count": 67,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "6ba2b2778e8a",
+      "last_seen_sha": "78a536519de9",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23253,9 +23261,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.121.zip",
-      "size": 43879312,
-      "previous_version": "1.2.120",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.123.zip",
+      "size": 43950206,
+      "previous_version": "1.2.121",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -42479,34 +42487,6 @@
       "github_updated_at": "2026-06-24T09:25:19Z",
       "download_url": "https://github.com/bitcode-tech/bc7215ac",
       "github_language": "C"
-    },
-    {
-      "repository_name": "nonpawite/bcc-esp-dev",
-      "repository_url": "https://github.com/nonpawite/bcc-esp-dev",
-      "name": "BCC_ESP32S3",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-01-02T21:40:36Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-01-02T21:40:36Z",
-      "last_seen_sha": "d3d5bef8b24d",
-      "author": "Nonpawit Ekburanawat",
-      "maintainer": "Nonpawit Ekburanawat <nonpawit@example.com>",
-      "sentence": "Library for ESP32-S3-DevKitC-1 breakout board",
-      "paragraph": "Provides pin definitions and motor control functions for the ESP32-S3-DevKitC-1 breakout board with TB6612FNG motor driver",
-      "category": "Device Control",
-      "architectures": [
-        "esp32"
-      ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2025-09-24T12:02:46Z",
-      "download_url": "https://github.com/nonpawite/bcc-esp-dev"
     },
     {
       "repository_name": "sleepdefic1t/bcl",
@@ -72354,22 +72334,18 @@
       "github_language": ""
     },
     {
-      "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6005_library",
-      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6005_library",
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6050_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6050_library",
       "name": "DevLab_MPU6050",
       "version": "2.0.1",
       "version_history": [
         {
-          "version": "1.0.1",
-          "seen_at": "2026-08-01T04:13:20.299Z"
-        },
-        {
           "version": "2.0.1",
-          "seen_at": "2026-08-05T22:21:33.106Z"
+          "seen_at": "2026-08-07T18:14:01.614Z"
         }
       ],
-      "release_count": 2,
-      "first_seen_at": "2026-08-01T04:13:20.299Z",
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T18:14:01.614Z",
       "last_seen_sha": "5bebd796f5cd",
       "author": "UNIT Electronics DevLab Ecosystem",
       "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
@@ -72381,11 +72357,10 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-2.0.1.zip",
       "size": 14605,
-      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-08-01T00:22:39Z"
+      "github_language": "HTML",
+      "github_updated_at": "2026-08-05T18:19:29Z"
     },
     {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_tcan1051hvd_library",
@@ -121393,20 +121368,24 @@
     {
       "repository_name": "GroeiAcademie/GroeiAcademie",
       "repository_url": "https://github.com/GroeiAcademie/GroeiAcademie",
-      "name": "GroeiAcademie",
-      "version": "1.0.0",
+      "name": "GroeiAcademie FrameWork",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-01T08:43:24.404Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-08-07T18:14:01.614Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-01T08:43:24.404Z",
-      "last_seen_sha": "01a4e8976a7d",
-      "author": "Alex Peeters, GROEI ACADEMIE",
+      "last_seen_sha": "37cdfdcb4d97",
+      "author": "Alex Peeters, GROEI ACADEMIE BV",
       "maintainer": "Alex Peeters <info@groeiacademie.be>",
-      "sentence": "GroeiAcademie Framework als Arduino-librarypakket voor de toepassingen en systemen van GROEI ACADEMIE.",
+      "sentence": "GroeiAcademie FrameWork als Arduino-librarypakket voor de toepassingen en systemen van GROEI ACADEMIE BV.",
       "paragraph": "Bevat momenteel de toepassing Stimulus en de gedeelde Screen-laag.",
       "category": "Other",
       "architectures": [
@@ -121421,8 +121400,9 @@
         "Adafruit ST7735 and ST7789 Library",
         "Adafruit ADS1X15"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie-1.0.0.zip",
-      "size": 722316,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie_FrameWork-1.0.4.zip",
+      "size": 741793,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -255005,6 +254985,35 @@
         "PciManager"
       ],
       "download_url": "https://github.com/prampec/arduino-softtimer"
+    },
+    {
+      "repository_name": "HOMPAIN/SoftTimerAdvance",
+      "repository_url": "https://github.com/HOMPAIN/SoftTimerAdvance",
+      "name": "SoftTimerAdvance",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-07T18:14:01.614Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T18:14:01.614Z",
+      "last_seen_sha": "94b34ea94aa4",
+      "author": "Hompain",
+      "maintainer": "Hompain",
+      "sentence": "Versatile soft timers with extensive functionality.",
+      "paragraph": "Implements a software timer manager. Features: timers, delayed calls, timeouts, and threads.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-1.0.2.zip",
+      "size": 34603,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-07T14:24:04Z"
     },
     {
       "repository_name": "end2endzone/SoftTimers",

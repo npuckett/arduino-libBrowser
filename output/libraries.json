@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-07T05:30:19.227Z",
-  "total_libraries": 9802,
-  "index_etag": "W/\"4d8805dca2e78e05fae050412d9e7794\"",
-  "index_last_modified": "Fri, 07 Aug 2026 05:29:12 GMT",
+  "enhanced_at": "2026-08-07T06:21:24.731Z",
+  "total_libraries": 9803,
+  "index_etag": "W/\"b269ca5690e2306034805d1d1a462f61\"",
+  "index_last_modified": "Fri, 07 Aug 2026 05:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -18188,16 +18188,20 @@
       "repository_name": "Kinshuk-2005/ADRF6655",
       "repository_url": "https://github.com/Kinshuk-2005/ADRF6655",
       "name": "ADRF6655",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-04T18:29:42.260Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-07T06:21:23.306Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-04T18:29:42.260Z",
-      "last_seen_sha": "e8fabd747e70",
+      "last_seen_sha": "5f65275db20d",
       "author": "kinny",
       "maintainer": "kinny <[email protected]>",
       "sentence": "Driver for the Analog Devices ADRF6655 broadband up/downconverting mixer with integrated fractional-N PLL and VCO.",
@@ -18208,11 +18212,9 @@
         "avr"
       ],
       "license": "MIT",
-      "depends": [
-        "SPI"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.0.0.zip",
-      "size": 29047,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.0.1.zip",
+      "size": 29040,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -221650,6 +221652,41 @@
       "github_updated_at": "2026-06-15T19:22:43Z"
     },
     {
+      "repository_name": "HelTecAutomation/RadioCore_Library",
+      "repository_url": "https://github.com/HelTecAutomation/RadioCore_Library",
+      "name": "RadioCore_Kit",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-07T06:21:23.306Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T06:21:23.306Z",
+      "last_seen_sha": "f9f3726e555a",
+      "author": "Heltec Automation",
+      "maintainer": "Heltec Automation <support@heltec.cn>",
+      "sentence": "Arduino library for RadioCore series hardware.",
+      "paragraph": "Provides compile-time board configuration for RadioCore hardware and declares sensor-library dependencies used by its examples.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BME280 Library",
+        "BH1750",
+        "Adafruit NeoPixel",
+        "ESP32Servo"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HelTecAutomation/RadioCore_Kit-1.0.0.zip",
+      "size": 31365,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-08-07T02:53:23Z"
+    },
+    {
       "repository_name": "EdanPotter/end-device-radioenge",
       "repository_url": "https://github.com/afpastorio/end-device-radioenge",
       "name": "RadioengeLoraWAN",
@@ -313616,7 +313653,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9599,
-    "total_dependencies": 5211
+    "with_github_metadata": 9600,
+    "total_dependencies": 5214
   }
 }

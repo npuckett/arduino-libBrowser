@@ -1,6 +1,83 @@
 {
-  "since": "2026-08-07T05:30:19.096Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-07T06:21:23.306Z",
+  "new_libraries": [
+    {
+      "repository_name": "HelTecAutomation/RadioCore_Library",
+      "repository_url": "https://github.com/HelTecAutomation/RadioCore_Library",
+      "name": "RadioCore_Kit",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-07T06:21:23.306Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T06:21:23.306Z",
+      "last_seen_sha": "f9f3726e555a",
+      "author": "Heltec Automation",
+      "maintainer": "Heltec Automation <support@heltec.cn>",
+      "sentence": "Arduino library for RadioCore series hardware.",
+      "paragraph": "Provides compile-time board configuration for RadioCore hardware and declares sensor-library dependencies used by its examples.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BME280 Library",
+        "BH1750",
+        "Adafruit NeoPixel",
+        "ESP32Servo"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HelTecAutomation/RadioCore_Kit-1.0.0.zip",
+      "size": 31365,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-08-07T02:53:23Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Kinshuk-2005/ADRF6655",
+        "repository_url": "https://github.com/Kinshuk-2005/ADRF6655",
+        "name": "ADRF6655",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-04T18:29:42.260Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-07T06:21:23.306Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-04T18:29:42.260Z",
+        "last_seen_sha": "5f65275db20d",
+        "author": "kinny",
+        "maintainer": "kinny <[email protected]>",
+        "sentence": "Driver for the Analog Devices ADRF6655 broadband up/downconverting mixer with integrated fractional-N PLL and VCO.",
+        "paragraph": "Provides one configuration function per register (R0-R7), a single low-level SPI write primitive, automatic INT/MOD/FRAC calculation from a target LO frequency, and the full deactivate->reconfigure->activate sequence required on every frequency change. Designed for ESP32 control of the ADRF6655 evaluation board over SPI.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "avr"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.0.1.zip",
+        "size": 29040,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-04T14:46:43Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

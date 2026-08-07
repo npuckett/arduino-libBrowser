@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-07T19:19:34.596Z",
+  "enhanced_at": "2026-08-07T20:11:18.703Z",
   "total_libraries": 9804,
-  "index_etag": "W/\"7ecf97cd18fbe20e7af583c7f7db1577\"",
-  "index_last_modified": "Fri, 07 Aug 2026 18:59:12 GMT",
+  "index_etag": "W/\"21b5ef2d0d681d22ee3564800ac4bd59\"",
+  "index_last_modified": "Fri, 07 Aug 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -57307,16 +57307,20 @@
       "repository_name": "mfurga/cc1101",
       "repository_url": "https://github.com/mfurga/cc1101",
       "name": "CC1101",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "version_history": [
         {
           "version": "1.4.0",
           "seen_at": "2026-06-29T09:01:00Z"
+        },
+        {
+          "version": "1.5.0",
+          "seen_at": "2026-08-07T20:11:18.588Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-29T09:01:00Z",
-      "last_seen_sha": "c964177d0fdb",
+      "last_seen_sha": "22fbc0ab729f",
       "author": "Mateusz Furga <matfurga@gmail.com>",
       "maintainer": "Mateusz Furga <matfurga@gmail.com>",
       "sentence": "Arduino library for CC1101 transceiver.",
@@ -57325,11 +57329,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mfurga/CC1101-1.5.0.zip",
+      "size": 35474,
+      "previous_version": "1.4.0",
       "github_stars": 51,
       "github_forks": 14,
-      "github_updated_at": "2026-06-28T13:29:28Z",
-      "download_url": "https://github.com/mfurga/cc1101",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-28T13:29:28Z"
     },
     {
       "repository_name": "adafruit/CC3000_MDNS",
@@ -98564,7 +98570,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -98609,11 +98615,15 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-08-04T20:28:35.166Z"
+        },
+        {
+          "version": "1.5.1",
+          "seen_at": "2026-08-07T20:11:18.588Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "fe791f46ebdc",
+      "last_seen_sha": "7680189d9754",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
@@ -98622,9 +98632,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.0.zip",
-      "size": 10563548,
-      "previous_version": "1.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.1.zip",
+      "size": 10712418,
+      "previous_version": "1.5.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",

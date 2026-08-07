@@ -1,6 +1,80 @@
 {
-  "since": "2026-08-07T13:25:46.941Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-07T14:20:40.265Z",
+  "new_libraries": [
+    {
+      "repository_name": "FT-tele/IT7259_Touch_driver",
+      "repository_url": "https://github.com/FT-tele/IT7259_Touch_driver",
+      "name": "IT7259_Touch",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-07T14:20:40.265Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T14:20:40.265Z",
+      "last_seen_sha": "931a23fb357b",
+      "author": "youStupid Project",
+      "maintainer": "youStupid Project <noreply@example.com>",
+      "sentence": "Stable IT7259 driver (12-bit coords per datasheet, STOP-only I2C).",
+      "paragraph": "Implements official IT7259 point data parsing (12-bit XY + pressure), STOP-only I2C transactions, and coordinate transforms. For ESP32-C3 and similar.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FT-tele/IT7259_Touch-1.0.0.zip",
+      "size": 11671,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-07T10:52:30Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "dejwk/roo_display",
+        "repository_url": "https://github.com/dejwk/roo_display",
+        "name": "roo_display",
+        "version": "3.2.0",
+        "version_history": [
+          {
+            "version": "3.1.2",
+            "seen_at": "2026-06-30T08:25:38Z"
+          },
+          {
+            "version": "3.2.0",
+            "seen_at": "2026-08-07T14:20:40.265Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:25:38Z",
+        "last_seen_sha": "d39e0ceeecbf",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Graphics library, supporting variety of display devices and touch panels.",
+        "paragraph": "Supports SPI and parallel protocols. Efficient, feature-rich, fast, and customizable.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_backport",
+          "roo_collections",
+          "roo_io"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_display-3.2.0.zip",
+        "size": 4699780,
+        "previous_version": "3.1.2",
+        "github_stars": 171,
+        "github_forks": 10,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T00:49:25Z"
+      },
+      "old_version": "3.1.2",
+      "new_version": "3.2.0"
+    }
+  ],
   "removed_libraries": []
 }

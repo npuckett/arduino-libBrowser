@@ -1,582 +1,90 @@
 {
-  "since": "2026-08-06T23:59:11.596Z",
+  "since": "2026-08-07T01:24:57.423Z",
   "new_libraries": [],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "teamprof/arduprof",
-        "repository_url": "https://github.com/teamprof/arduprof",
-        "name": "ArduProf",
-        "version": "2.5.0",
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.2.6",
         "version_history": [
           {
-            "version": "2.3.2",
-            "seen_at": "2026-05-25T09:07:03Z"
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
           },
           {
-            "version": "2.4.1",
-            "seen_at": "2026-07-23T14:43:07.592Z"
-          },
-          {
-            "version": "2.5.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 3,
-        "first_seen_at": "2026-05-25T09:07:03Z",
-        "last_seen_sha": "b11c978311b7",
-        "author": "Team Professional",
-        "maintainer": "Team Professional <teamprof.net@gmail.com>",
-        "sentence": "A thin layer framework for developer to code inter-task communication by an event driven method, running on different RTOS.",
-        "paragraph": "The ArduProf lib library provides a thin layer framework that makes it easier for developers to code inter-task communication by an event driven method. Version 1.0.0 supports FreeRTOS on ESP32. Version 2.0.0 (plan) supports Mbed OS on Raspherry Pi Pico (RP2040)",
-        "category": "Other",
-        "architectures": [
-          "esp32",
-          "mbed_rp2040",
-          "rp2040"
-        ],
-        "depends": [
-          "DebugLog",
-          "ArduinoJson"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/teamprof/ArduProf-2.5.0.zip",
-        "size": 612021,
-        "previous_version": "2.4.1",
-        "github_stars": 3,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-23T12:47:19Z"
-      },
-      "old_version": "2.4.1",
-      "new_version": "2.5.0"
-    },
-    {
-      "library": {
-        "repository_name": "AlenKrishna2012/EEPROM24CXX",
-        "repository_url": "https://github.com/AlenKrishna2012/EEPROM24CXX",
-        "name": "EEPROM24CXX",
-        "version": "1.0.5",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-08-03T14:58:49.725Z"
-          },
-          {
-            "version": "1.0.1",
-            "seen_at": "2026-08-04T10:51:28.826Z"
-          },
-          {
-            "version": "1.0.2",
-            "seen_at": "2026-08-04T14:47:44.599Z"
-          },
-          {
-            "version": "1.0.3",
-            "seen_at": "2026-08-05T06:49:15.592Z"
-          },
-          {
-            "version": "1.0.5",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 5,
-        "first_seen_at": "2026-08-03T14:58:49.725Z",
-        "last_seen_sha": "545e31bec73f",
-        "author": "Alen KrishnaV.U",
-        "maintainer": "Alen Krishna V.U <alenkrishnavu@gmail.com>",
-        "sentence": "I2C EEPROM library for 24Cxx and 24CMxx EEPROM chips.",
-        "paragraph": "Supports byte access, strings, buffers, datatypes, erase, fill, compare and write protection.",
-        "category": "Data Storage",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.5.zip",
-        "size": 17946,
-        "previous_version": "1.0.3",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-08-03T14:55:31Z"
-      },
-      "old_version": "1.0.3",
-      "new_version": "1.0.5"
-    },
-    {
-      "library": {
-        "repository_name": "prj-electins/ElectinsIoT",
-        "repository_url": "https://github.com/prj-electins/ElectinsIoT",
-        "name": "ElectinsIoT",
-        "version": "3.0.4",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-04-29T08:23:25Z"
-          },
-          {
-            "version": "2.1.4",
+            "version": "1.1.9",
             "seen_at": "2026-06-30T22:37:15.403Z"
           },
           {
-            "version": "3.0.0",
-            "seen_at": "2026-07-10T09:02:01.418Z"
-          },
-          {
-            "version": "3.0.1",
-            "seen_at": "2026-07-12T16:17:45.909Z"
-          },
-          {
-            "version": "3.0.2",
-            "seen_at": "2026-07-17T10:31:11.084Z"
-          },
-          {
-            "version": "3.0.3",
-            "seen_at": "2026-07-22T08:50:10.060Z"
-          },
-          {
-            "version": "3.0.4",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 7,
-        "first_seen_at": "2026-04-29T08:23:25Z",
-        "last_seen_sha": "78cff7d8d924",
-        "author": "Nash <support@electins.id>",
-        "maintainer": "Nash <support@electins.id>",
-        "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
-        "paragraph": "Built-in lightweight TCP connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi and TCP server auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, and automatic device ID generation via MAC address.",
-        "category": "Communication",
-        "architectures": [
-          "esp8266",
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.4.zip",
-        "size": 32039,
-        "previous_version": "3.0.3",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-06T07:07:56Z"
-      },
-      "old_version": "3.0.3",
-      "new_version": "3.0.4"
-    },
-    {
-      "library": {
-        "repository_name": "grantler-instruments/ESP-NOW-MIDI",
-        "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
-        "name": "ESP-NOW MIDI",
-        "version": "0.17.0",
-        "version_history": [
-          {
-            "version": "0.12.2",
-            "seen_at": "2026-06-26T08:51:32Z"
-          },
-          {
-            "version": "0.12.2",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "0.12.3",
-            "seen_at": "2026-07-13T20:24:38.967Z"
-          },
-          {
-            "version": "0.13.0",
-            "seen_at": "2026-08-03T10:15:08.794Z"
-          },
-          {
-            "version": "0.13.1",
-            "seen_at": "2026-08-03T12:03:35.081Z"
-          },
-          {
-            "version": "0.14.0",
-            "seen_at": "2026-08-04T00:21:36.726Z"
-          },
-          {
-            "version": "0.15.0",
-            "seen_at": "2026-08-04T16:34:45.976Z"
-          },
-          {
-            "version": "0.16.0",
-            "seen_at": "2026-08-05T00:21:54.689Z"
-          },
-          {
-            "version": "0.17.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 9,
-        "first_seen_at": "2026-06-26T08:51:32Z",
-        "last_seen_sha": "7dcea111de1e",
-        "author": "Thomas Geissl",
-        "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
-        "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
-        "paragraph": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
-        "category": "Uncategorized",
-        "architectures": [
-          "*"
-        ],
-        "depends": [
-          "Adafruit TinyUSB Library"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.17.0.zip",
-        "size": 211418,
-        "previous_version": "0.16.0",
-        "github_stars": 35,
-        "github_forks": 2,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-25T20:01:27Z"
-      },
-      "old_version": "0.16.0",
-      "new_version": "0.17.0"
-    },
-    {
-      "library": {
-        "repository_name": "qqqlab/madflight",
-        "repository_url": "https://github.com/qqqlab/madflight",
-        "name": "madflight",
-        "version": "2.4.0",
-        "version_history": [
-          {
-            "version": "2.3.1",
-            "seen_at": "2026-06-29T09:14:32Z"
-          },
-          {
-            "version": "2.3.2",
-            "seen_at": "2026-07-09T12:05:14.783Z"
-          },
-          {
-            "version": "2.3.3",
-            "seen_at": "2026-07-31T12:34:18.981Z"
-          },
-          {
-            "version": "2.4.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 4,
-        "first_seen_at": "2026-06-29T09:14:32Z",
-        "last_seen_sha": "32b9bfe4c644",
-        "author": "qqqlab",
-        "maintainer": "qqqlab <madflight@qqqlab.com>",
-        "sentence": "Flight Controller for ESP32-S3 / ESP32 / RP2350 / RP2040 / STM32",
-        "paragraph": "Flight tested with readily available development boards and sensor breakout boards. Build a quadcopter, helicoper, airplane or VTOL craft. Includes modules for PID control, CRSF/ELRS/DSMX/SBUS receiver and telemetry, AHRS, GPS, barometer, magnetometer, calibration, command line interface, black box data logging.",
-        "category": "Other",
-        "architectures": [
-          "*"
-        ],
-        "license": "MIT",
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.4.0.zip",
-        "size": 12095148,
-        "previous_version": "2.3.3",
-        "github_stars": 461,
-        "github_forks": 80,
-        "github_language": "C",
-        "github_updated_at": "2026-07-01T14:00:06Z"
-      },
-      "old_version": "2.3.3",
-      "new_version": "2.4.0"
-    },
-    {
-      "library": {
-        "repository_name": "mcmchris/mcm-esp32-ota-fw-updater",
-        "repository_url": "https://github.com/mcmchris/mcm-esp32-ota-fw-updater",
-        "name": "MCM_GitHub_OTA",
-        "version": "0.0.8",
-        "version_history": [
-          {
-            "version": "0.0.7",
-            "seen_at": "2026-05-22T08:30:28Z"
-          },
-          {
-            "version": "0.0.8",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-05-22T08:30:28Z",
-        "last_seen_sha": "513013ec2059",
-        "author": "mcmchris",
-        "maintainer": "mcmchris <mcmchris@hotmail.com>",
-        "sentence": "Arduino Library for updating ESP32 firmware from a GitHub repository automatically over-the-air (OTA).",
-        "paragraph": "The MCM_GitHub_OTA Library simplifies the process of updating ESP32 firmware from a GitHub repository automatically over-the-air (OTA).",
-        "category": "Other",
-        "architectures": [
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/mcmchris/MCM_GitHub_OTA-0.0.8.zip",
-        "size": 35879,
-        "previous_version": "0.0.7",
-        "github_stars": 43,
-        "github_forks": 16,
-        "github_language": "C++",
-        "github_updated_at": "2026-05-22T02:13:44Z"
-      },
-      "old_version": "0.0.7",
-      "new_version": "0.0.8"
-    },
-    {
-      "library": {
-        "repository_name": "abcdaaaaaaaaa/MQSpaceData.h",
-        "repository_url": "https://github.com/abcdaaaaaaaaa/MQSpaceData.h",
-        "name": "MQSpaceData",
-        "version": "6.0.0",
-        "version_history": [
-          {
-            "version": "5.5.7",
-            "seen_at": "2026-06-29T08:42:00Z"
-          },
-          {
-            "version": "6.0.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-29T08:42:00Z",
-        "last_seen_sha": "6a171f188b09",
-        "author": "abcdaaaaaaaaa",
-        "maintainer": "abcdaaaaaaaaa <amertanik@icloud.com>",
-        "sentence": "The first and only Arduino library where MQ Sensors combine with Data Science",
-        "paragraph": "This library supports a wide range of MQ gas sensors (MQ-2, MQ-3, MQ-4, MQ-5, MQ-6, MQ-7, MQ-8, MQ-9, MQ131, MQ-131_LOW, MQ-135, MQ-136, MQ-137, MQ-138, MQ-214, MQ-216, MQ303A, MQ303B, MQ306A, MQ307A, MQ309A). Instead of sensor-specific calibration, it uses gas-specific reference calibrations, enabling more accurate ppm calculations. Key features include temperature and humidity compensation using a correction coefficient model; calibration and analysis support for unsupported MQ models; enhanced JavaScript-based tools for hardware-free testing and computation; 3D ppm concentration graph simulation; and a Python-based 4D ppm curve prediction platform featuring 76 different models for advanced data analysis, ranging from classical regression methods, multivariable regression models, curve fitting and spline-based approaches, time series analysis, state-space and Kalman filtering methods, to machine learning algorithms, ensemble learning methods and artificial neural networks.",
-        "category": "Sensors",
-        "architectures": [
-          "*"
-        ],
-        "license": "MIT",
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/abcdaaaaaaaaa/MQSpaceData-6.0.0.zip",
-        "size": 4181960,
-        "previous_version": "5.5.7",
-        "github_stars": 11,
-        "github_forks": 4,
-        "github_updated_at": "2026-06-28T10:04:12Z"
-      },
-      "old_version": "5.5.7",
-      "new_version": "6.0.0"
-    },
-    {
-      "library": {
-        "repository_name": "soosp/NetworkProfile",
-        "repository_url": "https://github.com/soosp/NetworkProfile",
-        "name": "NetworkProfile",
-        "version": "0.6.0",
-        "version_history": [
-          {
-            "version": "0.1.0",
-            "seen_at": "2026-07-16T16:27:07.554Z"
-          },
-          {
-            "version": "0.2.0",
-            "seen_at": "2026-07-23T08:50:01.000Z"
-          },
-          {
-            "version": "0.3.0",
-            "seen_at": "2026-07-23T18:23:57.547Z"
-          },
-          {
-            "version": "0.4.0",
-            "seen_at": "2026-07-24T14:32:04.454Z"
-          },
-          {
-            "version": "0.4.1",
-            "seen_at": "2026-07-24T16:30:04.549Z"
-          },
-          {
-            "version": "0.5.0",
-            "seen_at": "2026-07-30T14:44:22.538Z"
-          },
-          {
-            "version": "0.5.1",
-            "seen_at": "2026-07-31T14:46:09.144Z"
-          },
-          {
-            "version": "0.5.2",
-            "seen_at": "2026-08-05T16:30:30.639Z"
-          },
-          {
-            "version": "0.5.3",
-            "seen_at": "2026-08-06T00:18:43.270Z"
-          },
-          {
-            "version": "0.6.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 10,
-        "first_seen_at": "2026-07-16T16:27:07.554Z",
-        "last_seen_sha": "b9271e24524c",
-        "author": "Péter Soós",
-        "maintainer": "Péter Soós",
-        "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
-        "paragraph": "Provides WiFiProfile and EthProfile classes for managing network configuration (DHCP/static IP, DNS, NTP, hostname, MAC address) with thread-safe access, persistent storage via Preferences, and JSON serialisation. Supports interface priority for fallback scenarios (e.g. ETH → WiFi). Also supports storing MQTT configutartion. Depends on the Host library.",
-        "category": "Communication",
-        "architectures": [
-          "esp32",
-          "esp8266",
-          "avr"
-        ],
-        "license": "MIT",
-        "depends": [
-          "Host",
-          "EEPROMPreferences",
-          "Preferences"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.6.0.zip",
-        "size": 62240,
-        "previous_version": "0.5.3",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-07-16T14:26:58Z"
-      },
-      "old_version": "0.5.3",
-      "new_version": "0.6.0"
-    },
-    {
-      "library": {
-        "repository_name": "vvb333007/tarfs",
-        "repository_url": "https://github.com/vvb333007/tarfs",
-        "name": "tarfs",
-        "version": "0.1.5",
-        "version_history": [
-          {
-            "version": "0.1.0",
+            "version": "1.1.10",
             "seen_at": "2026-07-14T22:18:23.703Z"
           },
           {
-            "version": "0.1.1",
-            "seen_at": "2026-07-15T14:31:55.972Z"
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
           },
           {
-            "version": "0.1.2",
-            "seen_at": "2026-07-16T20:16:51.492Z"
+            "version": "1.1.12",
+            "seen_at": "2026-07-16T22:19:06.934Z"
           },
           {
-            "version": "0.1.3",
-            "seen_at": "2026-07-20T16:28:30.674Z"
+            "version": "1.1.13",
+            "seen_at": "2026-07-24T22:21:05.521Z"
           },
           {
-            "version": "0.1.4",
-            "seen_at": "2026-07-29T18:18:15.998Z"
+            "version": "1.2.0",
+            "seen_at": "2026-07-26T14:29:22.694Z"
           },
           {
-            "version": "0.1.5",
-            "seen_at": "2026-08-06T23:59:11.596Z"
+            "version": "1.2.1",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-29T22:17:55.080Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-31T00:22:09.602Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-08-02T00:21:18.637Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-08-03T22:20:21.703Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-08-07T01:24:57.423Z"
           }
         ],
-        "release_count": 6,
-        "first_seen_at": "2026-07-14T22:18:23.703Z",
-        "last_seen_sha": "38eba6f19831",
-        "author": "Viacheslav Logunov <vvb333007@gmail.com>",
-        "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
-        "sentence": "High-performance immutable TAR filesystem for ESP32 with mmap().",
-        "paragraph": "Memory-efficient read-only TAR filesystem with zero-copy mmap(), POSIX-compatible API, hard links, symbolic links, long filenames, UTF-8, CRC64 integrity checking, and low RAM overhead.",
-        "category": "Data Storage",
+        "release_count": 13,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "04777323194d",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
         "architectures": [
+          "avr",
+          "esp8266",
           "esp32"
         ],
-        "license": "MIT",
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.5.zip",
-        "size": 645763,
-        "previous_version": "0.1.4",
-        "github_stars": 5,
-        "github_forks": 0,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.2.6.zip",
+        "size": 8393043,
+        "previous_version": "1.2.5",
+        "github_stars": 81,
+        "github_forks": 24,
         "github_language": "C",
-        "github_updated_at": "2026-07-14T18:37:17Z"
+        "github_updated_at": "2026-06-11T11:40:16Z"
       },
-      "old_version": "0.1.4",
-      "new_version": "0.1.5"
-    },
-    {
-      "library": {
-        "repository_name": "greghulette/WCBClient",
-        "repository_url": "https://github.com/greghulette/WCBClient",
-        "name": "WCB_Client",
-        "version": "1.12.0",
-        "version_history": [
-          {
-            "version": "1.6.0",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "1.7.0",
-            "seen_at": "2026-07-07T20:33:11.614Z"
-          },
-          {
-            "version": "1.8.0",
-            "seen_at": "2026-07-09T14:59:59.938Z"
-          },
-          {
-            "version": "1.9.0",
-            "seen_at": "2026-07-09T22:28:36.356Z"
-          },
-          {
-            "version": "1.9.2",
-            "seen_at": "2026-07-10T18:27:57.623Z"
-          },
-          {
-            "version": "1.9.3",
-            "seen_at": "2026-07-13T14:56:44.658Z"
-          },
-          {
-            "version": "1.9.4",
-            "seen_at": "2026-07-13T16:46:28.867Z"
-          },
-          {
-            "version": "1.9.5",
-            "seen_at": "2026-07-13T20:24:38.967Z"
-          },
-          {
-            "version": "1.9.6",
-            "seen_at": "2026-07-16T16:27:07.554Z"
-          },
-          {
-            "version": "1.9.7",
-            "seen_at": "2026-07-16T20:16:51.492Z"
-          },
-          {
-            "version": "1.9.9",
-            "seen_at": "2026-07-22T16:28:03.808Z"
-          },
-          {
-            "version": "1.9.10",
-            "seen_at": "2026-07-22T18:22:57.152Z"
-          },
-          {
-            "version": "1.9.11",
-            "seen_at": "2026-07-30T22:21:16.816Z"
-          },
-          {
-            "version": "1.10.0",
-            "seen_at": "2026-08-01T00:20:24.513Z"
-          },
-          {
-            "version": "1.11.0",
-            "seen_at": "2026-08-04T08:53:38.477Z"
-          },
-          {
-            "version": "1.12.0",
-            "seen_at": "2026-08-06T23:59:11.596Z"
-          }
-        ],
-        "release_count": 16,
-        "first_seen_at": "2026-06-30T22:37:15.403Z",
-        "last_seen_sha": "1b4d649ca5e0",
-        "author": "Greg Hulette",
-        "maintainer": "Greg Hulette",
-        "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
-        "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), setPortLabel() advertises this device's own per-serial-port labels (the WDP PORTLABEL TLV) so the Wizard and WCBs show what is attached to each of its ports, setMaestroIds() advertises the Maestro controllers this device hosts (the WDP MAESTRO and MAESTRO_CFG TLVs) so WCBs learn where they live and can route to them, and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs. With auto-join (on by default) the device also registers regular WCBs it hears as ESP-NOW peers live and remembers them across reboots, so it discovers the fleet once and never needs wcb_quantity to cover it. A bulk-transfer facility (onBulkBegin/onBulkChunk/onBulkComplete) streams payloads too large to hold in RAM to consumer-owned storage with a selective-NACK back-channel, and inbound COMMANDs are de-duplicated by sequence number.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.12.0.zip",
-        "size": 116016,
-        "previous_version": "1.11.0",
-        "github_stars": 0,
-        "github_forks": 1,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-29T22:42:58Z"
-      },
-      "old_version": "1.11.0",
-      "new_version": "1.12.0"
+      "old_version": "1.2.5",
+      "new_version": "1.2.6"
     }
   ],
   "removed_libraries": []

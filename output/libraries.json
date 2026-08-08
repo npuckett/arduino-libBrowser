@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-08T09:12:47.432Z",
-  "total_libraries": 9804,
-  "index_etag": "W/\"9539706c87f7d9ca08e50b925f0f311c\"",
-  "index_last_modified": "Sat, 08 Aug 2026 08:59:11 GMT",
+  "enhanced_at": "2026-08-08T10:07:18.957Z",
+  "total_libraries": 9805,
+  "index_etag": "W/\"489abee6e379f5a9e77c1441c8d1640d\"",
+  "index_last_modified": "Sat, 08 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22967,7 +22967,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.123",
+      "version": "1.2.126",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23236,11 +23236,15 @@
         {
           "version": "1.2.123",
           "seen_at": "2026-08-07T18:14:01.614Z"
+        },
+        {
+          "version": "1.2.126",
+          "seen_at": "2026-08-08T10:07:17.549Z"
         }
       ],
-      "release_count": 67,
+      "release_count": 68,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "78a536519de9",
+      "last_seen_sha": "0ef02ec0311d",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23261,9 +23265,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.123.zip",
-      "size": 43950206,
-      "previous_version": "1.2.121",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.126.zip",
+      "size": 43968821,
+      "previous_version": "1.2.123",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -130494,7 +130498,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.6.4",
+      "version": "2.7.0",
       "version_history": [
         {
           "version": "2.2.17",
@@ -130563,11 +130567,15 @@
         {
           "version": "2.6.4",
           "seen_at": "2026-07-29T20:19:45.338Z"
+        },
+        {
+          "version": "2.7.0",
+          "seen_at": "2026-08-08T10:07:17.549Z"
         }
       ],
-      "release_count": 17,
+      "release_count": 18,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "6d23f04555f3",
+      "last_seen_sha": "498ab03b24f0",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -130582,9 +130590,9 @@
         "htcw_ml",
         "htcw_data"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.6.4.zip",
-      "size": 919253,
-      "previous_version": "2.6.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.7.0.zip",
+      "size": 924382,
+      "previous_version": "2.6.4",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -241262,6 +241270,39 @@
       "download_url": "https://github.com/Protocentral/SensythingCore"
     },
     {
+      "repository_name": "sedislab/arduino-sentil",
+      "repository_url": "https://github.com/sedislab/arduino-sentil",
+      "name": "Sentil",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-08T10:07:17.549Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-08T10:07:17.549Z",
+      "last_seen_sha": "b3f8d40a9493",
+      "author": "Paapa Kwesi Quansah, Ernest Bonnah, SEDIS Lab",
+      "maintainer": "Paapa Kwesi Quansah <paapa_quansah1@baylor.edu>",
+      "sentence": "Runtime verification with Signal Temporal Logic on a microcontroller.",
+      "paragraph": "Monitors a stream of sensor readings against a temporal-logic specification, reports the quantitative robustness at every step, and synthesizes and runs a controller on the board.",
+      "category": "Data Processing",
+      "architectures": [
+        "samd",
+        "mbed_rp2040",
+        "rp2040",
+        "esp32",
+        "stm32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sedislab/Sentil-0.3.0.zip",
+      "size": 21687465,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-06T17:52:27Z"
+    },
+    {
       "repository_name": "SMFSW/SeqButton",
       "repository_url": "https://github.com/SMFSW/SeqButton",
       "name": "SeqButton",
@@ -313785,7 +313826,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9601,
+    "with_github_metadata": 9602,
     "total_dependencies": 5215
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-08T13:17:47.270Z",
-  "total_libraries": 9805,
-  "index_etag": "W/\"1b1d1bab9b1c16cabc91d3015a672810\"",
-  "index_last_modified": "Sat, 08 Aug 2026 12:59:11 GMT",
+  "enhanced_at": "2026-08-08T14:10:34.027Z",
+  "total_libraries": 9806,
+  "index_etag": "W/\"623e6fab8c4df9bc2ac81cc26c6ef822\"",
+  "index_last_modified": "Sat, 08 Aug 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40776,6 +40776,39 @@
         "Servo"
       ],
       "download_url": "https://github.com/kigster/back-seat-driver"
+    },
+    {
+      "repository_name": "NitrofMtl/BACnet-Arduino",
+      "repository_url": "https://github.com/NitrofMtl/BACnet-Arduino",
+      "name": "BACnet-Arduino",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-08T14:10:32.567Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-08T14:10:32.567Z",
+      "last_seen_sha": "1f8d68964c34",
+      "author": "NitrofMtl <https://github.com/NitrofMtl>",
+      "maintainer": "NitrofMtl <https://github.com/NitrofMtl>",
+      "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
+      "paragraph": "Provides an Arduino-friendly interface for BACnet communication, including BACnet/IP support, object handling, scheduling, and platform integration callbacks.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "depends": [
+        "WeeklyAlarm"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.3.0.zip",
+      "size": 1247754,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-08T00:12:53Z"
     },
     {
       "repository_name": "argeorun/BACnetMSTP-ArduinoLib",
@@ -313832,7 +313865,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 9602,
-    "total_dependencies": 5215
+    "with_github_metadata": 9603,
+    "total_dependencies": 5216
   }
 }

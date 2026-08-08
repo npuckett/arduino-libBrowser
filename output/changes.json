@@ -1,6 +1,160 @@
 {
-  "since": "2026-08-08T15:06:09.864Z",
+  "since": "2026-08-08T16:05:34.268Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "codewitch-honey-crisis/gfx",
+        "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
+        "name": "htcw_gfx",
+        "version": "2.8.1",
+        "version_history": [
+          {
+            "version": "2.2.17",
+            "seen_at": "2026-04-18T08:09:23Z"
+          },
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-07-11T04:07:11.266Z"
+          },
+          {
+            "version": "2.3.3",
+            "seen_at": "2026-07-16T12:28:21.727Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-21T00:20:47.426Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-21T02:59:47.173Z"
+          },
+          {
+            "version": "2.4.2",
+            "seen_at": "2026-07-22T00:19:01.539Z"
+          },
+          {
+            "version": "2.4.4",
+            "seen_at": "2026-07-22T02:59:53.885Z"
+          },
+          {
+            "version": "2.4.5",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "2.4.6",
+            "seen_at": "2026-07-23T20:21:35.524Z"
+          },
+          {
+            "version": "2.4.8",
+            "seen_at": "2026-07-23T22:19:08.578Z"
+          },
+          {
+            "version": "2.4.9",
+            "seen_at": "2026-07-24T00:19:26.003Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "2.5.1",
+            "seen_at": "2026-07-24T20:27:43.049Z"
+          },
+          {
+            "version": "2.6.0",
+            "seen_at": "2026-07-25T20:17:34.292Z"
+          },
+          {
+            "version": "2.6.1",
+            "seen_at": "2026-07-26T16:18:48.534Z"
+          },
+          {
+            "version": "2.6.3",
+            "seen_at": "2026-07-26T22:17:47.285Z"
+          },
+          {
+            "version": "2.6.4",
+            "seen_at": "2026-07-29T20:19:45.338Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-08-08T10:07:17.549Z"
+          },
+          {
+            "version": "2.8.1",
+            "seen_at": "2026-08-08T16:05:34.268Z"
+          }
+        ],
+        "release_count": 19,
+        "first_seen_at": "2026-04-18T08:09:23Z",
+        "last_seen_sha": "d95cb0667257",
+        "author": "honey the codewitch",
+        "maintainer": "honey the codewitch",
+        "sentence": "Provides cross platform graphics",
+        "paragraph": "Provides cross platform graphics functionality",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "htcw_bits",
+          "htcw_io",
+          "htcw_ml",
+          "htcw_data"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.8.1.zip",
+        "size": 924867,
+        "previous_version": "2.7.0",
+        "github_stars": 140,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-05T04:00:50Z"
+      },
+      "old_version": "2.7.0",
+      "new_version": "2.8.1"
+    },
+    {
+      "library": {
+        "repository_name": "xXMarifFXx/N-R_ESP32",
+        "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
+        "name": "N-R_ESP32",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-06T10:50:59.966Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-08T16:05:34.268Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-06T10:50:59.966Z",
+        "last_seen_sha": "0d0d429fee92",
+        "author": "xXMarifFXx",
+        "maintainer": "xXMarifFXx",
+        "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
+        "paragraph": "Hides WiFi, MQTT connect/reconnect, topic naming, JSON encoding and online/offline presence so your sketch is just your algorithm. Works on any ESP32 core. One dependency: PubSubClient.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.0.3.zip",
+        "size": 16808778,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-06T09:21:31Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

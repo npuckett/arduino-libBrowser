@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-09T03:30:35.580Z",
+  "enhanced_at": "2026-08-09T04:25:53.186Z",
   "total_libraries": 9806,
-  "index_etag": "W/\"dce60966d689c2405f573f8553e9b3b7\"",
-  "index_last_modified": "Sun, 09 Aug 2026 03:29:12 GMT",
+  "index_etag": "W/\"184f6773b93584d8f7771f6763a2ac8b\"",
+  "index_last_modified": "Sun, 09 Aug 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -130547,7 +130547,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.8.1",
+      "version": "2.8.2",
       "version_history": [
         {
           "version": "2.2.17",
@@ -130624,11 +130624,15 @@
         {
           "version": "2.8.1",
           "seen_at": "2026-08-08T16:05:34.268Z"
+        },
+        {
+          "version": "2.8.2",
+          "seen_at": "2026-08-09T04:25:53.076Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "d95cb0667257",
+      "last_seen_sha": "73660d63815d",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -130643,9 +130647,9 @@
         "htcw_ml",
         "htcw_data"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.8.1.zip",
-      "size": 924867,
-      "previous_version": "2.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.8.2.zip",
+      "size": 924896,
+      "previous_version": "2.8.1",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -229099,27 +229103,46 @@
       "repository_name": "dunknowcoding/RoboServo",
       "repository_url": "https://github.com/dunknowcoding/RoboServo",
       "name": "RoboServo",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-08-09T04:25:53.076Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "4016cf71fe82",
+      "last_seen_sha": "103db8af06b4",
       "author": "dunknowcoding",
       "maintainer": "dunknowcoding",
-      "sentence": "A high-performance servo control library for ESP32 family and ESP8266 with multi-servo support.",
-      "paragraph": "RoboServo provides easy-to-use functions for controlling multiple servos on ESP32 variants (ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6, ESP32-H2, ESP32-P4) and ESP8266. Features include support for 180/270/360 degree servos, grouped servo control with synchronized PWM, configurable rotation ranges and frequencies (40-400Hz), automatic GPIO validation per variant, optimized PWM generation with intelligent channel management, and safe coexistence with analogWrite().",
+      "sentence": "A high-performance servo control library for ESP32, ESP8266, nRF52/nRF53, RP2040, STM32, AVR, UNO R4, UNO Q, and Mbed boards.",
+      "paragraph": "RoboServo provides easy-to-use functions for controlling multiple servos on ESP32 variants, ESP8266, ArduinoNRF nRF52/nRF53 boards, Adafruit/Nordic DK cores, RP2040/RP2350, STM32, AVR (UNO/Nano/Mega), Arduino UNO R4, Arduino UNO Q, and Mbed boards such as Nano 33 BLE. Features include support for 180/270/360 degree servos, grouped servo control, configurable rotation ranges and frequencies (40-400Hz), automatic GPIO validation per variant, and optimized PWM generation with intelligent channel management.",
       "category": "Device Control",
       "architectures": [
         "esp32",
-        "esp8266"
+        "esp8266",
+        "nrf52",
+        "rp2040",
+        "stm32",
+        "avr",
+        "renesas_uno",
+        "mbed_nano",
+        "mbed_portenta",
+        "mbed_rp2040",
+        "mbed_giga",
+        "mbed_nicla",
+        "mbed_opta",
+        "mbed_edge",
+        "mbed_stella",
+        "zephyr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/RoboServo-1.1.2.zip",
-      "size": 19931,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/RoboServo-1.2.0.zip",
+      "size": 53295,
+      "previous_version": "1.1.2",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -313883,7 +313906,7 @@
   ],
   "stats": {
     "total_categories": 78,
-    "total_architectures": 160,
+    "total_architectures": 161,
     "with_github_metadata": 9603,
     "total_dependencies": 5216
   }

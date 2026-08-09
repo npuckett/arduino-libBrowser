@@ -1,15 +1,15 @@
 {
   "categories": {
-    "data storage": 265,
-    "sensors": 1942,
+    "data storage": 266,
+    "sensors": 1945,
     "other": 829,
-    "communication": 2209,
-    "display": 836,
-    "signal input/output": 767,
-    "uncategorized": 228,
-    "device control": 1657,
-    "data processing": 573,
-    "timing": 359,
+    "communication": 2214,
+    "display": 838,
+    "signal input/output": 770,
+    "uncategorized": 229,
+    "device control": 1662,
+    "data processing": 574,
+    "timing": 360,
     "sensor": 11,
     "control": 4,
     "motion": 2,
@@ -751,6 +751,563 @@
   ],
   "hidden_gems": [
     {
+      "repository_name": "NitrofMtl/BACnet-Arduino",
+      "repository_url": "https://github.com/NitrofMtl/BACnet-Arduino",
+      "name": "BACnet-Arduino",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-08T14:10:32.567Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-08T14:10:32.567Z",
+      "last_seen_sha": "1f8d68964c34",
+      "author": "NitrofMtl <https://github.com/NitrofMtl>",
+      "maintainer": "NitrofMtl <https://github.com/NitrofMtl>",
+      "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
+      "paragraph": "Provides an Arduino-friendly interface for BACnet communication, including BACnet/IP support, object handling, scheduling, and platform integration callbacks.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "depends": [
+        "WeeklyAlarm"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.3.0.zip",
+      "size": 1247754,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-08T00:12:53Z"
+    },
+    {
+      "repository_name": "HOMPAIN/SoftTimerAdvance",
+      "repository_url": "https://github.com/HOMPAIN/SoftTimerAdvance",
+      "name": "SoftTimerAdvance",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-07T18:14:01.614Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T18:14:01.614Z",
+      "last_seen_sha": "94b34ea94aa4",
+      "author": "Hompain",
+      "maintainer": "Hompain",
+      "sentence": "Versatile soft timers with extensive functionality.",
+      "paragraph": "Implements a software timer manager. Features: timers, delayed calls, timeouts, and threads.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-1.0.2.zip",
+      "size": 34603,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-07T14:24:04Z"
+    },
+    {
+      "repository_name": "FT-tele/IT7259_Touch_driver",
+      "repository_url": "https://github.com/FT-tele/IT7259_Touch_driver",
+      "name": "IT7259_Touch",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-07T14:20:40.265Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T14:20:40.265Z",
+      "last_seen_sha": "931a23fb357b",
+      "author": "youStupid Project",
+      "maintainer": "youStupid Project <noreply@example.com>",
+      "sentence": "Stable IT7259 driver (12-bit coords per datasheet, STOP-only I2C).",
+      "paragraph": "Implements official IT7259 point data parsing (12-bit XY + pressure), STOP-only I2C transactions, and coordinate transforms. For ESP32-C3 and similar.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FT-tele/IT7259_Touch-1.0.0.zip",
+      "size": 11671,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-07T10:52:30Z"
+    },
+    {
+      "repository_name": "HelTecAutomation/RadioCore_Library",
+      "repository_url": "https://github.com/HelTecAutomation/RadioCore_Library",
+      "name": "RadioCore_Kit",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-07T06:21:23.306Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T06:21:23.306Z",
+      "last_seen_sha": "f9f3726e555a",
+      "author": "Heltec Automation",
+      "maintainer": "Heltec Automation <support@heltec.cn>",
+      "sentence": "Arduino library for RadioCore series hardware.",
+      "paragraph": "Provides compile-time board configuration for RadioCore hardware and declares sensor-library dependencies used by its examples.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BME280 Library",
+        "BH1750",
+        "Adafruit NeoPixel",
+        "ESP32Servo"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HelTecAutomation/RadioCore_Kit-1.0.0.zip",
+      "size": 31365,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-08-07T02:53:23Z"
+    },
+    {
+      "repository_name": "sedislab/arduino-sentil",
+      "repository_url": "https://github.com/sedislab/arduino-sentil",
+      "name": "Sentil",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-08T10:07:17.549Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-08T10:07:17.549Z",
+      "last_seen_sha": "b3f8d40a9493",
+      "author": "Paapa Kwesi Quansah, Ernest Bonnah, SEDIS Lab",
+      "maintainer": "Paapa Kwesi Quansah <paapa_quansah1@baylor.edu>",
+      "sentence": "Runtime verification with Signal Temporal Logic on a microcontroller.",
+      "paragraph": "Monitors a stream of sensor readings against a temporal-logic specification, reports the quantitative robustness at every step, and synthesizes and runs a controller on the board.",
+      "category": "Data Processing",
+      "architectures": [
+        "samd",
+        "mbed_rp2040",
+        "rp2040",
+        "esp32",
+        "stm32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sedislab/Sentil-0.3.0.zip",
+      "size": 21687465,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-06T17:52:27Z"
+    },
+    {
+      "repository_name": "xXMarifFXx/N-R_ESP32",
+      "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
+      "name": "N-R_ESP32",
+      "version": "1.0.3",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-06T10:50:59.966Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-08T16:05:34.268Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-08-06T10:50:59.966Z",
+      "last_seen_sha": "0d0d429fee92",
+      "author": "xXMarifFXx",
+      "maintainer": "xXMarifFXx",
+      "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
+      "paragraph": "Hides WiFi, MQTT connect/reconnect, topic naming, JSON encoding and online/offline presence so your sketch is just your algorithm. Works on any ESP32 core. One dependency: PubSubClient.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.0.3.zip",
+      "size": 16808778,
+      "previous_version": "1.0.1",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-06T09:21:31Z"
+    },
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6050_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6050_library",
+      "name": "DevLab_MPU6050",
+      "version": "2.0.1",
+      "version_history": [
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-08-07T18:14:01.614Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-07T18:14:01.614Z",
+      "last_seen_sha": "5bebd796f5cd",
+      "author": "UNIT Electronics DevLab Ecosystem",
+      "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+      "sentence": "Arduino library for the MPU6050 6-axis IMU using direct I2C register access.",
+      "paragraph": "DevLab MPU6050 library for accelerometer, gyroscope, and temperature acquisition using direct register communication over I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-2.0.1.zip",
+      "size": 14605,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "HTML",
+      "github_updated_at": "2026-08-05T18:19:29Z"
+    },
+    {
+      "repository_name": "gsgaurav0/ESP32-HID-Keyboard",
+      "repository_url": "https://github.com/gsgaurav0/ESP32-HID-Keyboard",
+      "name": "ESP32 BLE Keyboard",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-05T20:28:54.396Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-05T20:28:54.396Z",
+      "last_seen_sha": "ad478e905bce",
+      "author": "Gaurav Sharma",
+      "maintainer": "Gaurav Sharma <ss3573509@gmail.com>",
+      "sentence": "Bluetooth HID Keyboard library for ESP32 boards.",
+      "paragraph": "Allows ESP32 boards to emulate a Bluetooth Low Energy HID keyboard with support for text, key presses, and multimedia keys.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gsgaurav0/ESP32_BLE_Keyboard-1.0.0.zip",
+      "size": 11191,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-05T17:57:30Z"
+    },
+    {
+      "repository_name": "forgevolt/ESPNowUtilities",
+      "repository_url": "https://github.com/forgevolt/ESPNowUtilities",
+      "name": "ESPNowUtilities",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-05T20:28:54.396Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-05T20:28:54.396Z",
+      "last_seen_sha": "3c167eb1bd33",
+      "author": "Christoph Streit <christoph.streit@gmail.com>",
+      "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+      "sentence": "Paired, single-peer ESP-NOW links between two ESP32 boards.",
+      "paragraph": "Wraps ESP-NOW in a connection class that handles discovery and pairing, tracks one peer with a liveness timeout, and carries application messages of your own definition. The wire format of those messages is yours; the library only routes them and confirms they came from the paired peer.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/ESPNowUtilities-1.0.0.zip",
+      "size": 24436,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-05T16:11:50Z"
+    },
+    {
+      "repository_name": "forgevolt/SoundEngine",
+      "repository_url": "https://github.com/forgevolt/SoundEngine",
+      "name": "SoundEngine",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-05T18:28:57.800Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-05T18:28:57.800Z",
+      "last_seen_sha": "6b629eefe117",
+      "author": "Christoph Streit <christoph.streit@gmail.com>",
+      "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+      "sentence": "Play short WAV sound effects on an ESP32 through an I2S DAC.",
+      "paragraph": "Mixes any number of 16-bit PCM clips embedded in flash and streams them to an I2S amplifier from its own background task, so playback never blocks the sketch. Clips carry their own volume and can repeat; a master gain sits on top. Three sounds are built in and three more ship ready to include.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.0.0.zip",
+      "size": 256989,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-05T16:10:26Z"
+    },
+    {
+      "repository_name": "italo-coelho/UpdateOTW",
+      "repository_url": "https://github.com/italo-coelho/UpdateOTW",
+      "name": "UpdateOTW",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-04T20:28:35.166Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-05T20:28:54.396Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-08-04T20:28:35.166Z",
+      "last_seen_sha": "75b26411fbd0",
+      "author": "Ítalo Coelho",
+      "maintainer": "Ítalo Coelho",
+      "sentence": "Peer-to-peer firmware update over the wire (Modbus RTU / RS485).",
+      "paragraph": "Stream a firmware image from a Modbus RTU master to a slave over a half-duplex RS485 bus, and the slave reboots into it. Two register-array state machines (UpdateOTW_Master sender, UpdateOTW_Slave receiver) — your code keeps doing the Modbus, the library only reads/writes a small register window. Non-blocking (one frame per tick), so the device keeps running while it updates, with deferred apply. Per-chunk CRC16 plus full-image CRC32, automatic retry with patient back-off, and free rollback via the ESP32 Update library. No external dependencies.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/italo-coelho/UpdateOTW-1.1.0.zip",
+      "size": 105582,
+      "previous_version": "1.0.1",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T18:19:58Z"
+    },
+    {
+      "repository_name": "Kinshuk-2005/ADRF6655",
+      "repository_url": "https://github.com/Kinshuk-2005/ADRF6655",
+      "name": "ADRF6655",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-04T18:29:42.260Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-07T06:21:23.306Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-08-04T18:29:42.260Z",
+      "last_seen_sha": "5f65275db20d",
+      "author": "kinny",
+      "maintainer": "kinny <[email protected]>",
+      "sentence": "Driver for the Analog Devices ADRF6655 broadband up/downconverting mixer with integrated fractional-N PLL and VCO.",
+      "paragraph": "Provides one configuration function per register (R0-R7), a single low-level SPI write primitive, automatic INT/MOD/FRAC calculation from a target LO frequency, and the full deactivate->reconfigure->activate sequence required on every frequency change. Designed for ESP32 control of the ADRF6655 evaluation board over SPI.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADRF6655-1.0.1.zip",
+      "size": 29040,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T14:46:43Z"
+    },
+    {
+      "repository_name": "Canavix/LogicPins",
+      "repository_url": "https://github.com/Canavix/LogicPins",
+      "name": "LogicPins",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-04T18:29:42.260Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-04T18:29:42.260Z",
+      "last_seen_sha": "db8b3ba186b6",
+      "author": "Cristian Camilo Cañaveral Avilés",
+      "maintainer": "Cristian Camilo Cañaveral Avilés <camilo.canavi@gmail.com>",
+      "sentence": "Libreria para abstraccion de pines y logica combinacional.",
+      "paragraph": "Permite tratar los pines de Arduino y ESP32 como variables booleanas para facilitar la ensenanza de compuertas logicas.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Canavix/LogicPins-1.0.0.zip",
+      "size": 6006,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-04T14:06:40Z"
+    },
+    {
+      "repository_name": "AlenKrishna2012/EEPROM24CXX",
+      "repository_url": "https://github.com/AlenKrishna2012/EEPROM24CXX",
+      "name": "EEPROM24CXX",
+      "version": "1.0.5",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-03T14:58:49.725Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-04T10:51:28.826Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-04T14:47:44.599Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-05T06:49:15.592Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-08-06T23:59:11.596Z"
+        }
+      ],
+      "release_count": 5,
+      "first_seen_at": "2026-08-03T14:58:49.725Z",
+      "last_seen_sha": "545e31bec73f",
+      "author": "Alen KrishnaV.U",
+      "maintainer": "Alen Krishna V.U <alenkrishnavu@gmail.com>",
+      "sentence": "I2C EEPROM library for 24Cxx and 24CMxx EEPROM chips.",
+      "paragraph": "Supports byte access, strings, buffers, datatypes, erase, fill, compare and write protection.",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.5.zip",
+      "size": 17946,
+      "previous_version": "1.0.3",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T14:55:31Z"
+    },
+    {
+      "repository_name": "fknaopen/M5UnitNFC-M5Stack",
+      "repository_url": "https://github.com/fknaopen/M5UnitNFC-M5Stack",
+      "name": "M5UnitNFC-M5Stack",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-03T10:15:08.794Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-03T10:15:08.794Z",
+      "last_seen_sha": "30fca6339643",
+      "author": "fknaopen",
+      "maintainer": "fknaopen",
+      "sentence": "Standalone M5Unit-NFC driver for M5Stack legacy environment",
+      "paragraph": "A partial port of M5Unit-NFC without M5UnitUnified dependency, supporting NFC-A and NFC-F detect.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fknaopen/M5UnitNFC_M5Stack-1.0.0.zip",
+      "size": 268111,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T04:13:41Z"
+    },
+    {
+      "repository_name": "viniciusczanini/LD2420HumanMotion",
+      "repository_url": "https://github.com/viniciusczanini/LD2420HumanMotion",
+      "name": "LD2420HumanMotion",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-02T20:18:16.168Z"
+        },
+        {
+          "version": "0.1.3",
+          "seen_at": "2026-08-02T22:16:34.537Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-08-03T00:21:37.921Z"
+        }
+      ],
+      "release_count": 3,
+      "first_seen_at": "2026-08-02T20:18:16.168Z",
+      "last_seen_sha": "0e2b15e1ce71",
+      "author": "Vinicius C Zanini",
+      "maintainer": "Vinicius C Zanini",
+      "sentence": "Reliable human motion detection and complete configuration for HLK-LD2420 radar sensors.",
+      "paragraph": "Provides stable native ON/OFF filtering by default, optional 16-gate energy analysis, full runtime telemetry, and verified persistent sensor configuration through any Arduino Stream.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/viniciusczanini/LD2420HumanMotion-0.2.0.zip",
+      "size": 65390,
+      "previous_version": "0.1.3",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-02T20:06:54Z"
+    },
+    {
+      "repository_name": "vagarthgaurav/Akshara-arduino",
+      "repository_url": "https://github.com/vagarthgaurav/Akshara-arduino",
+      "name": "Akshara",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-02T18:17:10.885Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-02T18:17:10.885Z",
+      "last_seen_sha": "93dd7a8871c5",
+      "author": "Vagarth Gaurav",
+      "maintainer": "Vagarth Gaurav <vagarth.gaurav@gmail.com>",
+      "sentence": "Lightweight Indic script renderer for microcontrollers.",
+      "paragraph": "Renders Kannada, Tamil, Devanagari, Telugu, Malayalam, Bengali, and Gujarati text on any C99 target using pre-shaped .aks font files generated on the host. Zero malloc, ~100 bytes RAM per context. Works with GxEPD2, U8g2, Adafruit GFX, or any draw callback.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vagarthgaurav/Akshara-0.1.1.zip",
+      "size": 1113133,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-02T14:40:45Z"
+    },
+    {
       "repository_name": "Kkmit13/synapse-arduino",
       "repository_url": "https://github.com/Kkmit13/synapse-arduino",
       "name": "SynapseDebugger",
@@ -842,516 +1399,6 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-08-01T10:30:27Z"
-    },
-    {
-      "repository_name": "UNIT-Electronics-MX/unit_devlab_tcan1051hvd_library",
-      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_tcan1051hvd_library",
-      "name": "DevLab_TCAN1051HVD",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-08-01T04:13:20.299Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-08-01T04:13:20.299Z",
-      "last_seen_sha": "1780febb50da",
-      "author": "Jonathan Mejorado Lopez",
-      "maintainer": "Jonathan Mejorado Lopez",
-      "sentence": "Arduino library for the TI TCAN1051HVD CAN transceiver over the native ESP32 TWAI controller.",
-      "paragraph": "DevLab TCAN1051HVD library wrapping the ESP32 TWAI driver.",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TCAN1051HVD-1.0.0.zip",
-      "size": 8902,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-08-01T00:37:43Z"
-    },
-    {
-      "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6005_library",
-      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6005_library",
-      "name": "DevLab_MPU6050",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-08-01T04:13:20.299Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-08-01T04:13:20.299Z",
-      "last_seen_sha": "a08285d48f50",
-      "author": "UNIT Electronics DevLab Ecosystem",
-      "maintainer": "Cesar Bautista",
-      "sentence": "Arduino library for the MPU6050 6-axis IMU using direct I2C register access.",
-      "paragraph": "DevLab MPU6050 library for accelerometer, gyroscope, and temperature acquisition using direct register communication over I2C.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-1.0.1.zip",
-      "size": 8443,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-08-01T00:22:39Z"
-    },
-    {
-      "repository_name": "GroeiAcademie/GroeiAcademie",
-      "repository_url": "https://github.com/GroeiAcademie/GroeiAcademie",
-      "name": "GroeiAcademie",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-08-01T08:43:24.404Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-08-01T08:43:24.404Z",
-      "last_seen_sha": "01a4e8976a7d",
-      "author": "Alex Peeters, GROEI ACADEMIE",
-      "maintainer": "Alex Peeters <info@groeiacademie.be>",
-      "sentence": "GroeiAcademie Framework als Arduino-librarypakket voor de toepassingen en systemen van GROEI ACADEMIE.",
-      "paragraph": "Bevat momenteel de toepassing Stimulus en de gedeelde Screen-laag.",
-      "category": "Other",
-      "architectures": [
-        "avr",
-        "renesas_uno",
-        "esp32"
-      ],
-      "license": "LGPL-3.0-or-later",
-      "depends": [
-        "LiquidCrystal I2C",
-        "Adafruit GFX Library",
-        "Adafruit ST7735 and ST7789 Library",
-        "Adafruit ADS1X15"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie-1.0.0.zip",
-      "size": 722316,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-07-31T18:51:22Z"
-    },
-    {
-      "repository_name": "bozont/millisRTC",
-      "repository_url": "https://github.com/bozont/millisRTC",
-      "name": "millisRTC",
-      "version": "1.0.2",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-31T18:27:51.641Z"
-        },
-        {
-          "version": "1.0.2",
-          "seen_at": "2026-08-01T20:17:30.324Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-07-31T18:27:51.641Z",
-      "last_seen_sha": "55ac096c272c",
-      "author": "Tamas Jozsi",
-      "maintainer": "Bozont Labs",
-      "sentence": "Real Time Clock library for all Arduino boards.",
-      "paragraph": "Uses millis() to keep the set time, provides user-friendly clock and calendar APIs.",
-      "category": "Timing",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bozont/millisRTC-1.0.2.zip",
-      "size": 6489,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-31T15:20:30Z"
-    },
-    {
-      "repository_name": "nawawimegahertz/FarmSense",
-      "repository_url": "https://github.com/nawawimegahertz/FarmSense",
-      "name": "FarmSense",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-31T16:31:28.627Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-31T16:31:28.627Z",
-      "last_seen_sha": "9d1f86440ab2",
-      "author": "nawawimegahertz",
-      "maintainer": "nawawimegahertz",
-      "sentence": "Multi-parameter soil sensor calibration and filtering for Arduino & ESP32.",
-      "paragraph": "Transport-agnostic library for RS485 Modbus 8-in-1 soil sensors with per-channel adaptive Kalman filtering, multi-point segmented linear interpolation calibration, and dual calibration methods (live field + offline batch CSV). Supports Temperature, Moisture, EC, pH, Nitrogen, Phosphorus, Kalium, and Fertility channels. Keywords: soil, calibration, Modbus, multi-point, offline, batch, RS485. Cross-platform persistent storage: ESP32 (Preferences/NVS) and AVR (EEPROM).",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/nawawimegahertz/FarmSense-1.0.0.zip",
-      "size": 41471,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-31T13:20:06Z"
-    },
-    {
-      "repository_name": "EnviroDIY/EpochTime",
-      "repository_url": "https://github.com/EnviroDIY/EpochTime",
-      "name": "EpochTime",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-31T03:00:05.289Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-31T03:00:05.289Z",
-      "last_seen_sha": "04946a705392",
-      "author": "Sara Damiano <sdamiano@stroudcenter.org>",
-      "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
-      "sentence": "An Arduino library for converting between time in parts as used by core gmtime functions and epoch time.",
-      "category": "Timing",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/EpochTime-1.0.0.zip",
-      "size": 59071,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T22:38:10Z"
-    },
-    {
-      "repository_name": "GyverLibs/HybridFS",
-      "repository_url": "https://github.com/GyverLibs/HybridFS",
-      "name": "HybridFS",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T22:21:16.816Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T22:21:16.816Z",
-      "last_seen_sha": "a762293e53c6",
-      "author": "AlexGyver <alex@alexgyver.ru>",
-      "maintainer": "AlexGyver <alex@alexgyver.ru>",
-      "sentence": "Wrapper for esp8266/esp32 flash and SD card filesystem",
-      "paragraph": "Wrapper for esp8266/esp32 flash and SD card filesystem",
-      "category": "Uncategorized",
-      "architectures": [
-        "esp8266",
-        "esp32"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/HybridFS-1.0.0.zip",
-      "size": 11595,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T18:51:21Z"
-    },
-    {
-      "repository_name": "GyverLibs/uPerlin",
-      "repository_url": "https://github.com/GyverLibs/uPerlin",
-      "name": "uPerlin",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T22:21:16.816Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T22:21:16.816Z",
-      "last_seen_sha": "6aecaa355c0c",
-      "author": "AlexGyver <alex@alexgyver.ru>",
-      "maintainer": "AlexGyver <alex@alexgyver.ru>",
-      "sentence": "Light integer Perlin noise implementation",
-      "paragraph": "Light integer Perlin noise implementation",
-      "category": "Uncategorized",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/uPerlin-1.0.0.zip",
-      "size": 8617,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T18:46:56Z"
-    },
-    {
-      "repository_name": "Sensirion/arduino-i2c-sfa4x",
-      "repository_url": "https://github.com/Sensirion/arduino-i2c-sfa4x",
-      "name": "Sensirion I2C SFA4x",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T12:30:20.119Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T12:30:20.119Z",
-      "last_seen_sha": "fdef1a27bea5",
-      "author": "Sensirion",
-      "maintainer": "Sensirion",
-      "sentence": "Library for the SFA4X sensor by Sensirion",
-      "paragraph": "Enables you to use the SFA4X sensor via I2C.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "depends": [
-        "Sensirion Core"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_SFA4x-1.0.0.zip",
-      "size": 2388782,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T09:43:25Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-Inputronic-BRIDGE-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-Inputronic-BRIDGE-Library",
-      "name": "Soldered Inputronic BRIDGE Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "3493600184c8",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "Inputronic BRIDGE parser and communication helper for UART, I2C, and SPI.",
-      "paragraph": "Parses keyboard, mouse, MIDI, descriptor, and raw HID events from the Inputronic BRIDGE using UART, I2C, or SPI.",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_Inputronic_BRIDGE_Library-1.0.0.zip",
-      "size": 30615,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T07:38:27Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-VL53L1X-Laser-Distance-Sensor-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-VL53L1X-Laser-Distance-Sensor-Arduino-Library",
-      "name": "Soldered VL53L1X Arduino Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "a1dcc86ba8ab",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "Soldered Arduino Library for VL53L1X Sensor Breakout",
-      "paragraph": "Arduino Library for VL53L1X Sensor Breakout Control with all functionalities",
-      "category": "Uncategorized",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_VL53L1X_Arduino_Library-1.0.0.zip",
-      "size": 50533,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T07:18:57Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-DHT11-DHT22-Temperature-RH-Sensor-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-DHT11-DHT22-Temperature-RH-Sensor-Arduino-Library",
-      "name": "DHT11 and DHT22 Soldered Boards Arduino Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "f0d7a2b60511",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "DHT11 and DHT22 Library",
-      "paragraph": "This is a library for the DHT11 and DHT22 sensor boards by Soldered.",
-      "category": "Uncategorized",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/DHT11_and_DHT22_Soldered_Boards_Arduino_Library-1.0.0.zip",
-      "size": 19848,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T07:15:02Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-APDS9960-Light-Gesture-Color-Sensor-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-APDS9960-Light-Gesture-Color-Sensor-Arduino-Library",
-      "name": "APDS9960 Arduino Library by Soldered",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "dd106421d065",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "APDS9960 gesture, color and light sensor library for Arduino Soldered Board",
-      "paragraph": "This is a library for the APDS9960 gesture, color and light sensor board by Soldered.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/APDS9960_Arduino_Library_by_Soldered-1.0.0.zip",
-      "size": 25236,
-      "github_stars": 0,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T07:07:15Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-PIR-movement-sensor-with-qwiic-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-PIR-movement-sensor-with-qwiic-Arduino-Library",
-      "name": "Soldered PIR sensor with easyC",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "c3801748ed95",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "Library to control PIR sensor with easyC",
-      "paragraph": "Library to control PIR sensor with easyC created by Soldered",
-      "category": "Uncategorized",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_PIR_sensor_with_easyC-1.0.0.zip",
-      "size": 21161,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T07:02:43Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-microSD-Card-Reader-Breakout-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-microSD-Card-Reader-Breakout-Arduino-Library",
-      "name": "Soldered microSD Card Breakout Arduino library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "d773cb67ca64",
-      "author": "Bill Greiman <fat16lib@sbcglobal.net>",
-      "maintainer": "Bill Greiman <fat16lib@sbcglobal.net>",
-      "sentence": "FAT16/FAT32/exFAT file system library for Dasduino",
-      "paragraph": "Easily read and write files to and form the SD card breakout! A fork of the original SDFat library by Bill Greiman",
-      "category": "Data Storage",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_microSD_Card_Breakout_Arduino_library-1.0.0.zip",
-      "size": 441920,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T06:52:39Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
-      "name": "Soldered BMP180 Arduino Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "bba50cab8a3f",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "Soldered BMP180 Arduino Library",
-      "paragraph": "Soldered BMP180 Arduino Library used to control basic functionalities of BMP180 sensor",
-      "category": "Uncategorized",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_BMP180_Arduino_Library-1.0.0.zip",
-      "size": 30347,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-07-30T06:28:36Z"
-    },
-    {
-      "repository_name": "SolderedElectronics/Soldered-I2S-Audio-Amplifier-Arduino-Library",
-      "repository_url": "https://github.com/SolderedElectronics/Soldered-I2S-Audio-Amplifier-Arduino-Library",
-      "name": "Soldered I2S Digital Audio Amplifier Arduino Library",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T10:41:08.084Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-07-30T10:41:08.084Z",
-      "last_seen_sha": "f4d4eaa11887",
-      "author": "Soldered",
-      "maintainer": "Soldered <soldered@soldered.com>",
-      "sentence": "Soldered Arduino library for I2S Digital Audio Amplifier",
-      "paragraph": "Arduino library for I2S Digital Audio Amplifier",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_I2S_Digital_Audio_Amplifier_Arduino_Library-1.0.0.zip",
-      "size": 960127,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-07-30T06:24:37Z"
     }
   ],
   "most_depended_on": [
@@ -1923,6 +1970,75 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "m5stack/M5Utility",
+      "repository_url": "https://github.com/m5stack/M5Utility",
+      "name": "M5Utility",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-06-04T08:45:37Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-07-06T09:17:18.441Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-07-14T08:41:26.006Z"
+        }
+      ],
+      "release_count": 3,
+      "first_seen_at": "2026-06-04T08:45:37Z",
+      "last_seen_sha": "fb4c06490b49",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Library for other M5 libraries and products",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Utility-0.2.0.zip",
+      "size": 178235,
+      "previous_version": "0.1.1",
+      "github_stars": 5,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-03T15:26:50Z"
+    },
+    {
+      "repository_name": "m5stack/M5HAL",
+      "repository_url": "https://github.com/m5stack/M5HAL",
+      "name": "M5HAL",
+      "version": "0.1.2",
+      "version_history": [
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-06-09T08:34:09Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-06-09T08:34:09Z",
+      "last_seen_sha": "61c7435599f4",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Hardware Abstraction Layer(HAL) for M5 Products",
+      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "github_stars": 1,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-08T09:56:24Z",
+      "depends": [
+        "M5Utility"
+      ],
+      "download_url": "https://github.com/m5stack/M5HAL.git"
+    },
+    {
       "repository_name": "adafruit/Adafruit-ST7735-Library",
       "repository_url": "https://github.com/adafruit/Adafruit-ST7735-Library",
       "name": "Adafruit ST7735 and ST7789 Library",
@@ -1960,86 +2076,6 @@
       "github_forks": 324,
       "github_updated_at": "2026-06-30T17:27:44Z",
       "github_language": "C++"
-    },
-    {
-      "repository_name": "m5stack/M5Unified",
-      "repository_url": "https://github.com/m5stack/M5Unified",
-      "name": "M5Unified",
-      "version": "0.2.19",
-      "version_history": [
-        {
-          "version": "0.2.17",
-          "seen_at": "2026-06-30T08:36:17Z"
-        },
-        {
-          "version": "0.2.18",
-          "seen_at": "2026-07-09T09:07:59.829Z"
-        },
-        {
-          "version": "0.2.19",
-          "seen_at": "2026-07-22T12:29:33.437Z"
-        }
-      ],
-      "release_count": 3,
-      "first_seen_at": "2026-06-30T08:36:17Z",
-      "last_seen_sha": "cc7d414d5ffa",
-      "author": "M5Stack",
-      "maintainer": "M5Stack",
-      "sentence": "Unified library for M5Stack series",
-      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
-      "category": "Display",
-      "architectures": [
-        "esp32"
-      ],
-      "depends": [
-        "M5GFX"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.19.zip",
-      "size": 642718,
-      "previous_version": "0.2.18",
-      "github_stars": 656,
-      "github_forks": 118,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-30T11:03:16Z"
-    },
-    {
-      "repository_name": "adafruit/SdFat",
-      "repository_url": "https://github.com/adafruit/SdFat",
-      "name": "SdFat - Adafruit Fork",
-      "version": "2.3.103",
-      "version_history": [
-        {
-          "version": "2.3.103",
-          "seen_at": "2026-03-05T07:28:00Z"
-        },
-        {
-          "version": "2.3.103",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-03-05T07:28:00Z",
-      "last_seen_sha": "5b9c838614a4",
-      "author": "Bill Greiman <fat16lib@sbcglobal.net>",
-      "maintainer": "Adafruit <support@adafruit.com>",
-      "sentence": "Provides access to SD memory cards and (Q)SPI Flash.",
-      "paragraph": "The SdFat library supports FAT12, FAT16, FAT32, and exFAT file systems on Standard SD, SDHC, SDXC cards and (Q)SPI Flash.",
-      "category": "Data Storage",
-      "architectures": [
-        "rp2040",
-        "nrf52",
-        "samd",
-        "esp32",
-        "*"
-      ],
-      "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/SdFat___Adafruit_Fork-2.3.103.zip",
-      "size": 4513524,
-      "previous_version": "2.3.103",
-      "github_stars": 48,
-      "github_forks": 36,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-15T00:37:36Z"
     }
   ],
   "forgotten_classics": [
@@ -2132,44 +2168,9 @@
     }
   ],
   "activity": {
-    "generated_at": "2026-08-02T05:09:27.871Z",
-    "total_libraries": 9784,
+    "generated_at": "2026-08-09T04:31:29.040Z",
+    "total_libraries": 9806,
     "daily": [
-      {
-        "date": "2026-07-04",
-        "new": 0,
-        "updated": 17
-      },
-      {
-        "date": "2026-07-05",
-        "new": 4,
-        "updated": 24
-      },
-      {
-        "date": "2026-07-06",
-        "new": 4,
-        "updated": 50
-      },
-      {
-        "date": "2026-07-07",
-        "new": 3,
-        "updated": 22
-      },
-      {
-        "date": "2026-07-08",
-        "new": 4,
-        "updated": 27
-      },
-      {
-        "date": "2026-07-09",
-        "new": 2,
-        "updated": 22
-      },
-      {
-        "date": "2026-07-10",
-        "new": 1,
-        "updated": 20
-      },
       {
         "date": "2026-07-11",
         "new": 4,
@@ -2277,21 +2278,51 @@
       },
       {
         "date": "2026-08-01",
-        "new": 5,
+        "new": 4,
         "updated": 16
       },
       {
         "date": "2026-08-02",
+        "new": 3,
+        "updated": 15
+      },
+      {
+        "date": "2026-08-03",
+        "new": 8,
+        "updated": 17
+      },
+      {
+        "date": "2026-08-04",
+        "new": 3,
+        "updated": 31
+      },
+      {
+        "date": "2026-08-05",
+        "new": 4,
+        "updated": 15
+      },
+      {
+        "date": "2026-08-06",
         "new": 1,
-        "updated": 5
+        "updated": 23
+      },
+      {
+        "date": "2026-08-07",
+        "new": 4,
+        "updated": 21
+      },
+      {
+        "date": "2026-08-08",
+        "new": 2,
+        "updated": 10
+      },
+      {
+        "date": "2026-08-09",
+        "new": 0,
+        "updated": 3
       }
     ],
     "weekly": [
-      {
-        "week_start": "2026-05-11",
-        "new": 118,
-        "updated": 0
-      },
       {
         "week_start": "2026-05-18",
         "new": 134,
@@ -2344,65 +2375,70 @@
       },
       {
         "week_start": "2026-07-27",
-        "new": 52,
-        "updated": 138
+        "new": 53,
+        "updated": 148
+      },
+      {
+        "week_start": "2026-08-03",
+        "new": 22,
+        "updated": 120
       }
     ],
     "categories_top": [
       {
         "category": "Communication",
-        "count": 2209,
-        "share": 0.22577677841373672
+        "count": 2214,
+        "share": 0.22578013461146237
       },
       {
         "category": "Sensors",
-        "count": 1942,
-        "share": 0.19848732624693377
+        "count": 1945,
+        "share": 0.19834795023455026
       },
       {
         "category": "Device Control",
-        "count": 1657,
-        "share": 0.16935813573180702
+        "count": 1662,
+        "share": 0.16948806852947176
       },
       {
         "category": "Display",
-        "count": 836,
-        "share": 0.08544562551103843
+        "count": 838,
+        "share": 0.08545788292881909
       },
       {
         "category": "Other",
         "count": 829,
-        "share": 0.0847301717089125
+        "share": 0.08454007750356925
       },
       {
         "category": "Signal Input/output",
-        "count": 767,
-        "share": 0.07839329517579723
+        "count": 770,
+        "share": 0.07852335304915357
       },
       {
         "category": "Data Processing",
-        "count": 573,
-        "share": 0.05856500408830744
+        "count": 574,
+        "share": 0.05853559045482358
       },
       {
         "category": "Timing",
-        "count": 359,
-        "share": 0.03669255928045789
+        "count": 360,
+        "share": 0.03671221700999388
       },
       {
         "category": "Data Storage",
-        "count": 265,
-        "share": 0.027085036794766967
+        "count": 266,
+        "share": 0.027126249235162145
       },
       {
         "category": "Uncategorized",
-        "count": 228,
-        "share": 0.02330335241210139
+        "count": 229,
+        "share": 0.02335304915357944
       },
       {
         "category": "Other categories",
         "count": 108,
-        "share": 0.011038430089942763
+        "share": 0.011013665102998164
       }
     ]
   }

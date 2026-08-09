@@ -1,6 +1,52 @@
 {
-  "since": "2026-08-09T07:19:57.878Z",
+  "since": "2026-08-09T08:11:38.091Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "xXMarifFXx/N-R_ESP32",
+        "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
+        "name": "N-R_ESP32",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-06T10:50:59.966Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-08T16:05:34.268Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-09T08:11:38.091Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-06T10:50:59.966Z",
+        "last_seen_sha": "59a554ac1fe9",
+        "author": "xXMarifFXx",
+        "maintainer": "xXMarifFXx",
+        "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
+        "paragraph": "Hides WiFi, MQTT connect/reconnect, topic naming, JSON encoding and online/offline presence so your sketch is just your algorithm. Works on any ESP32 core. One dependency: PubSubClient.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.0.zip",
+        "size": 16826324,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-06T09:21:31Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

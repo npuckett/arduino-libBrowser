@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-09T17:08:32.758Z",
+  "enhanced_at": "2026-08-09T18:06:31.680Z",
   "total_libraries": 9808,
-  "index_etag": "W/\"7375e01515380ff5b159426949af3957\"",
-  "index_last_modified": "Sun, 09 Aug 2026 16:59:12 GMT",
+  "index_etag": "W/\"66c02d268c4861615b30f434e504dfac\"",
+  "index_last_modified": "Sun, 09 Aug 2026 17:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -87002,26 +87002,32 @@
       "repository_name": "Kronbii/easyPID",
       "repository_url": "https://github.com/Kronbii/easyPID",
       "name": "easyPID",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-09T18:06:31.555Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "a62f724e4098",
+      "last_seen_sha": "02c8feb028cd",
       "author": "Rami Kronbi",
       "maintainer": "Rami Kronbi <ramykronby@gmail.com>",
       "sentence": "Multi-featured PID controller with anti-windup, derivative filtering, and optional autotuning",
-      "paragraph": "A feature-rich PID controller library for Arduino offering multi-instance support, flexible timing modes (automatic millis-based or manual dt input), advanced anti-windup protection, derivative filtering for noise reduction, full state introspection for debugging, and an optional relay-based autotuner module with multiple tuning rules. Hardware-agnostic and AVR-optimized. Based on proven field-tested implementation.",
+      "paragraph": "Supports multiple independent instances with no global state, automatic millis()-based or caller-supplied timing, selectable anti-windup and derivative-filter modes, configurable output and integral limits, DIRECT/REVERSE action, and full P/I/D state introspection for debugging. The relay autotuner is an opt-in module: include PIDTuner.h to use it. Hardware-agnostic and AVR-friendly.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kronbii/easyPID-1.0.0.zip",
-      "size": 28117,
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kronbii/easyPID-1.1.0.zip",
+      "size": 68829,
+      "previous_version": "1.0.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -171298,7 +171304,7 @@
       "repository_name": "codezoo-ltd/arduino-ME310G1-library",
       "repository_url": "https://github.com/codezoo-ltd/arduino-ME310G1-library",
       "name": "ME310G1",
-      "version": "0.1.15",
+      "version": "0.1.16",
       "version_history": [
         {
           "version": "0.1.12",
@@ -171315,11 +171321,15 @@
         {
           "version": "0.1.15",
           "seen_at": "2026-08-03T16:47:48.507Z"
+        },
+        {
+          "version": "0.1.16",
+          "seen_at": "2026-08-09T18:06:31.555Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-26T08:52:18Z",
-      "last_seen_sha": "6262d9b2ae25",
+      "last_seen_sha": "d40e40c45e05",
       "author": "CodeZoo",
       "maintainer": "Rooney <rooney.jang@codezoo.co.kr>",
       "sentence": "Allows communication with ME310G1 Telit module.",
@@ -171328,9 +171338,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/ME310G1-0.1.15.zip",
-      "size": 2410546,
-      "previous_version": "0.1.14",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/ME310G1-0.1.16.zip",
+      "size": 2419268,
+      "previous_version": "0.1.15",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

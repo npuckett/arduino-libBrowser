@@ -1,6 +1,46 @@
 {
-  "since": "2026-08-10T19:20:17.615Z",
+  "since": "2026-08-10T20:11:48.760Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "forgevolt/SoundEngine",
+        "repository_url": "https://github.com/forgevolt/SoundEngine",
+        "name": "SoundEngine",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-05T18:28:57.800Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-10T20:11:48.760Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-05T18:28:57.800Z",
+        "last_seen_sha": "8b719a5ca0f5",
+        "author": "Christoph Streit <christoph.streit@gmail.com>",
+        "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+        "sentence": "Play short WAV sound effects on an ESP32 through an I2S DAC.",
+        "paragraph": "Mixes any number of 16-bit PCM clips embedded in flash and streams them to an I2S amplifier from its own background task, so playback never blocks the sketch. Clips carry their own volume and can repeat; a master gain sits on top. Three sounds are built in and three more ship ready to include.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.0.1.zip",
+        "size": 569345,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-05T16:10:26Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

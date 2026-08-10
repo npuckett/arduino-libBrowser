@@ -1,6 +1,53 @@
 {
-  "since": "2026-08-10T03:32:17.355Z",
+  "since": "2026-08-10T04:29:28.777Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "TMRh20/AutoAnalogAudio",
+        "repository_url": "https://github.com/TMRh20/AutoAnalogAudio",
+        "name": "AutoAnalogAudio",
+        "version": "1.55.2",
+        "version_history": [
+          {
+            "version": "1.54.0",
+            "seen_at": "2026-05-20T08:45:36Z"
+          },
+          {
+            "version": "1.55.1",
+            "seen_at": "2026-08-09T16:06:03.270Z"
+          },
+          {
+            "version": "1.55.2",
+            "seen_at": "2026-08-10T04:29:28.777Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-20T08:45:36Z",
+        "last_seen_sha": "c9f698911714",
+        "author": "TMRh20",
+        "maintainer": "TMRh20",
+        "sentence": "Automated analog reads and analog output (streaming) using Arduino DAC(or PWM), ADC, DMA and Timers",
+        "paragraph": "Simplified API for Arduino DAC, ADC, Timers & DMA, designed with radio & wireless communication in mind. Easily create a wide variety of audio related applications.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "avr",
+          "sam",
+          "esp32",
+          "nrf52",
+          "renesas"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/AutoAnalogAudio-1.55.2.zip",
+        "size": 102072725,
+        "previous_version": "1.55.1",
+        "github_stars": 144,
+        "github_forks": 37,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-22T16:36:14Z"
+      },
+      "old_version": "1.55.1",
+      "new_version": "1.55.2"
+    }
+  ],
   "removed_libraries": []
 }

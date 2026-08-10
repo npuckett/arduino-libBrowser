@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-10T09:29:02.727Z",
-  "total_libraries": 9810,
-  "index_etag": "W/\"0662a2762b8efd6bb026c5bd2d9b684b\"",
-  "index_last_modified": "Mon, 10 Aug 2026 08:59:12 GMT",
+  "enhanced_at": "2026-08-10T10:26:46.001Z",
+  "total_libraries": 9811,
+  "index_etag": "W/\"d41f9249a411c13d30568428f5512db9\"",
+  "index_last_modified": "Mon, 10 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22973,7 +22973,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.130",
+      "version": "1.2.132",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23254,11 +23254,15 @@
         {
           "version": "1.2.130",
           "seen_at": "2026-08-09T10:08:59.980Z"
+        },
+        {
+          "version": "1.2.132",
+          "seen_at": "2026-08-10T10:26:44.481Z"
         }
       ],
-      "release_count": 70,
+      "release_count": 71,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "69d7d2c39e3d",
+      "last_seen_sha": "c01d39f6a411",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23279,9 +23283,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.130.zip",
-      "size": 43969834,
-      "previous_version": "1.2.129",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.132.zip",
+      "size": 44014132,
+      "previous_version": "1.2.130",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -95185,6 +95189,38 @@
       "github_forks": 0,
       "github_language": "C",
       "github_updated_at": "2026-06-16T11:42:15Z"
+    },
+    {
+      "repository_name": "rear16/ESP-DOOM",
+      "repository_url": "https://github.com/rear16/ESP-DOOM",
+      "name": "ESP-DOOM",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-10T10:26:44.481Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-10T10:26:44.481Z",
+      "last_seen_sha": "56d86be725c1",
+      "author": "Rear Labs <rear-16@hotmail.com>",
+      "maintainer": "Rear Labs <rear-16@hotmail.com>",
+      "sentence": "Doom engine (doomgeneric) ported to ESP32/Arduino, with a custom PCM mixer, EQ and chiptune music synth.",
+      "paragraph": "Runs the Doom engine on ESP32-S3 boards with PSRAM. You provide three small interfaces (display, input, PCM audio) and a WAD file on SD/LittleFS; the library drives the game loop, renderer and its own software audio mixer (SFX + synthesized MUS music, with a runtime-tunable high-pass/limiter chain built for small speakers). Requires a board with at least ~6MB of free PSRAM today; see README for the memory budget and roadmap toward smaller targets.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "GFX Library for Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rear16/ESP_DOOM-1.0.0.zip",
+      "size": 2322945,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-10T06:19:27Z"
     },
     {
       "repository_name": "chibiegg/esp-echonet-lite",
@@ -224190,16 +224226,20 @@
       "repository_name": "TCL47-GITHUB/RC522_UART",
       "repository_url": "https://github.com/TCL47-GITHUB/RC522_UART",
       "name": "RC522_UART",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-10T06:23:36.279Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-10T10:26:44.481Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-10T06:23:36.279Z",
-      "last_seen_sha": "5ebbb09590c3",
+      "last_seen_sha": "d7280c702a9c",
       "author": "TCL47-Trương Công Lý",
       "maintainer": "TCL47-Trương Công Lý",
       "sentence": "A library for the RC522 Mini RFID 13.56MHz module with UART interface.",
@@ -224208,8 +224248,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TCL47-GITHUB/RC522_UART-1.0.0.zip",
-      "size": 12307,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TCL47-GITHUB/RC522_UART-1.0.2.zip",
+      "size": 25456,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -314068,7 +314109,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9607,
-    "total_dependencies": 5216
+    "with_github_metadata": 9608,
+    "total_dependencies": 5217
   }
 }

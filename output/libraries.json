@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-10T17:16:25.611Z",
-  "total_libraries": 9812,
-  "index_etag": "W/\"442829a87942e05dc6d879c43d3f0724\"",
-  "index_last_modified": "Mon, 10 Aug 2026 16:59:12 GMT",
+  "enhanced_at": "2026-08-10T18:14:41.924Z",
+  "total_libraries": 9813,
+  "index_etag": "W/\"f5fd43c9dfdb47de250408463e1b6f2b\"",
+  "index_last_modified": "Mon, 10 Aug 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -38913,6 +38913,35 @@
       "github_forks": 7,
       "github_updated_at": "2023-01-29T01:26:25Z",
       "github_language": ""
+    },
+    {
+      "repository_name": "nemo4598/AutonomniOTA",
+      "repository_url": "https://github.com/nemo4598/AutonomniOTA",
+      "name": "AutonomniOTA",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-08-10T18:14:40.369Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-10T18:14:40.369Z",
+      "last_seen_sha": "00db6d394c2f",
+      "author": "matej Zvolsky",
+      "maintainer": "Matej Zvolsky",
+      "sentence": "Autonomous wireless background OTA flashing on a configurable ESP32 core.",
+      "paragraph": "This library spawns a FreeRTOS background task that independently handles ArduinoOTA and ElegantOTA. Wi-Fi, hostname, OTA services, task configuration and web server settings are configured in AutonomniOTA_Config.h, while user sketches only need to include AutonomniOTA.h.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nemo4598/AutonomniOTA-2.0.0.zip",
+      "size": 4387,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-10T16:37:18Z"
     },
     {
       "repository_name": "GyverLibs/AutoOTA",
@@ -81459,7 +81488,7 @@
       "repository_name": "TheAngryRaven/DovesLapTimer",
       "repository_url": "https://github.com/TheAngryRaven/DovesLapTimer",
       "name": "DovesLapTimer",
-      "version": "4.2.0",
+      "version": "4.3.0",
       "version_history": [
         {
           "version": "4.1.0",
@@ -81468,15 +81497,19 @@
         {
           "version": "4.2.0",
           "seen_at": "2026-07-18T02:59:02.965Z"
+        },
+        {
+          "version": "4.3.0",
+          "seen_at": "2026-08-10T18:14:40.369Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-25T08:38:56Z",
-      "last_seen_sha": "c1f95cb1037e",
+      "last_seen_sha": "d348551daa0c",
       "author": "Michael Champagne (crimsondove)",
       "maintainer": "Michael Champagne",
       "sentence": "GPS-based lap timing library with course detection and multi-course support",
-      "paragraph": "Handles whole laps, split lap timing, automatic course detection, direction detection, and waypoint-based fallback timing. Supports multiple course layouts per track.",
+      "paragraph": "Handles whole laps, split lap timing, automatic course detection, direction detection, waypoint-based fallback timing, and point-to-point sprint runs (autocross/hillclimb). Supports multiple course layouts per track.",
       "category": "Other",
       "architectures": [
         "*"
@@ -81485,9 +81518,9 @@
       "depends": [
         "ArxTypeTraits"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TheAngryRaven/DovesLapTimer-4.2.0.zip",
-      "size": 4853918,
-      "previous_version": "4.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TheAngryRaven/DovesLapTimer-4.3.0.zip",
+      "size": 4882444,
+      "previous_version": "4.2.0",
       "github_stars": 26,
       "github_forks": 6,
       "github_language": "C",
@@ -244095,7 +244128,7 @@
       "repository_name": "GyverLibs/Settings",
       "repository_url": "https://github.com/GyverLibs/Settings",
       "name": "Settings",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "version_history": [
         {
           "version": "1.3.17",
@@ -244108,11 +244141,15 @@
         {
           "version": "1.4.1",
           "seen_at": "2026-08-09T20:06:15.208Z"
+        },
+        {
+          "version": "1.4.2",
+          "seen_at": "2026-08-10T18:14:40.369Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-11T08:47:39Z",
-      "last_seen_sha": "400178271cae",
+      "last_seen_sha": "52ababc68a27",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple UI webface builder for esp8266/esp32",
@@ -244131,9 +244168,9 @@
         "Stamp",
         "Table"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Settings-1.4.1.zip",
-      "size": 249429,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Settings-1.4.2.zip",
+      "size": 249420,
+      "previous_version": "1.4.1",
       "github_stars": 114,
       "github_forks": 16,
       "github_language": "C",
@@ -314165,7 +314202,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9609,
+    "with_github_metadata": 9610,
     "total_dependencies": 5217
   }
 }

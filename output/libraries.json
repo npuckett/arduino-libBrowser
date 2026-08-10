@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-10T11:21:37.525Z",
-  "total_libraries": 9811,
-  "index_etag": "W/\"d41f9249a411c13d30568428f5512db9\"",
-  "index_last_modified": "Mon, 10 Aug 2026 10:59:12 GMT",
+  "enhanced_at": "2026-08-10T12:12:59.168Z",
+  "total_libraries": 9812,
+  "index_etag": "W/\"f622e9b4cb57f9fa1e0fbeb315ace904\"",
+  "index_last_modified": "Mon, 10 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22973,7 +22973,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.132",
+      "version": "1.2.133",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23258,11 +23258,15 @@
         {
           "version": "1.2.132",
           "seen_at": "2026-08-10T10:26:44.481Z"
+        },
+        {
+          "version": "1.2.133",
+          "seen_at": "2026-08-10T12:12:57.774Z"
         }
       ],
-      "release_count": 71,
+      "release_count": 72,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "c01d39f6a411",
+      "last_seen_sha": "40700145dd89",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23283,9 +23287,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.132.zip",
-      "size": 44014132,
-      "previous_version": "1.2.130",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.133.zip",
+      "size": 44158268,
+      "previous_version": "1.2.132",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -98361,6 +98365,35 @@
       "download_url": "https://github.com/Xorlent/ESP32_WS2812B"
     },
     {
+      "repository_name": "dkaukov/esp32-afsk",
+      "repository_url": "https://github.com/dkaukov/esp32-afsk",
+      "name": "esp32-afsk",
+      "version": "0.1.3",
+      "version_history": [
+        {
+          "version": "0.1.3",
+          "seen_at": "2026-08-10T12:12:57.774Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-10T12:12:57.774Z",
+      "last_seen_sha": "99f66dd84aaf",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "sentence": "ESP32 AFSK modem helper library.",
+      "paragraph": "Modulates and demodulates AFSK audio for AX.25 packet radio applications on ESP32-class microcontrollers.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_afsk-0.1.3.zip",
+      "size": 2448909,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-10T11:20:39Z"
+    },
+    {
       "repository_name": "schreibfaul1/ESP32-audioI2S",
       "repository_url": "https://github.com/schreibfaul1/ESP32-audioI2S",
       "name": "ESP32-audioI2S-master",
@@ -162053,19 +162086,23 @@
       "repository_name": "m5stack/M5Unit-FLASHLIGHT",
       "repository_url": "https://github.com/m5stack/M5Unit-FLASHLIGHT",
       "name": "M5Unit-FLASHLIGHT",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-08-03T10:15:08.794Z"
+        },
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-08-10T12:12:57.774Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-03T10:15:08.794Z",
-      "last_seen_sha": "234d60a6a140",
+      "last_seen_sha": "eb3e04fc259a",
       "author": "M5Stack",
       "maintainer": "M5Stack",
-      "sentence": "Library for M5Stack UNIT FlashLight using M5UnitUnified",
+      "sentence": "Library for M5Stack UNIT FLASHLIGHT using M5UnitUnified",
       "paragraph": "Supports AW3641E (UnitFlashLight, SKU:U152) — 1-wire controlled flash LED driver with 8 brightness levels and 2 timeout settings, controlled via a single GPIO pulse train protocol.",
       "category": "Device Control",
       "architectures": [
@@ -162076,8 +162113,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.0.1.zip",
-      "size": 60939,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.0.2.zip",
+      "size": 61943,
+      "previous_version": "0.0.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -162757,20 +162795,24 @@
       "repository_name": "m5stack/M5Unit-RS485",
       "repository_url": "https://github.com/m5stack/M5Unit-RS485",
       "name": "M5Unit-RS485",
-      "version": "0.0.1",
+      "version": "0.1.0",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-08-03T10:15:08.794Z"
+        },
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-10T12:12:57.774Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-03T10:15:08.794Z",
-      "last_seen_sha": "bd7e26a3640d",
+      "last_seen_sha": "2f23a74df8a8",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT RS485 using M5UnitUnified",
-      "paragraph": "Supports UnitRS485 (SKU:U034), HatRS485 (SKU:U067), and Atomic RS485 Base (SKU:A131) for half-duplex RS485 serial communication via SP485EEN.",
+      "paragraph": "Supports UnitRS485 (SKU:U034), HatRS485 (SKU:U067), Atomic RS485 Base (SKU:A131), and M5Stack Tab5 built-in RS-485 for half-duplex RS485 serial communication via SP485EEN (auto-direction) or SIT3088 (manual DIR pin).",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -162780,8 +162822,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RS485-0.0.1.zip",
-      "size": 55619,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RS485-0.1.0.zip",
+      "size": 69787,
+      "previous_version": "0.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -314109,7 +314152,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9608,
+    "with_github_metadata": 9609,
     "total_dependencies": 5217
   }
 }

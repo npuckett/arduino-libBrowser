@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-10T13:28:06.040Z",
+  "enhanced_at": "2026-08-10T14:24:36.920Z",
   "total_libraries": 9812,
-  "index_etag": "W/\"f622e9b4cb57f9fa1e0fbeb315ace904\"",
-  "index_last_modified": "Mon, 10 Aug 2026 12:59:12 GMT",
+  "index_etag": "W/\"b0adc6a7bf4fc597e554884af20e1d85\"",
+  "index_last_modified": "Mon, 10 Aug 2026 13:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105003,7 +105003,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.2",
+      "version": "2.7.3",
       "version_history": [
         {
           "version": "2.0.1",
@@ -105072,11 +105072,15 @@
         {
           "version": "2.7.2",
           "seen_at": "2026-08-06T06:58:20.863Z"
+        },
+        {
+          "version": "2.7.3",
+          "seen_at": "2026-08-10T14:24:36.837Z"
         }
       ],
-      "release_count": 17,
+      "release_count": 18,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "d8d73fb13202",
+      "last_seen_sha": "fef9b29b323e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -105085,9 +105089,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.2.zip",
-      "size": 899007,
-      "previous_version": "2.7.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.3.zip",
+      "size": 990682,
+      "previous_version": "2.7.2",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -162430,19 +162434,23 @@
       "repository_name": "m5stack/M5Unit-LIGHT",
       "repository_url": "https://github.com/m5stack/M5Unit-LIGHT",
       "name": "M5Unit-LIGHT",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-08-03T10:15:08.794Z"
+        },
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-08-10T14:24:36.837Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-03T10:15:08.794Z",
-      "last_seen_sha": "541533680533",
+      "last_seen_sha": "1e4af0fe92c1",
       "author": "M5Stack",
       "maintainer": "M5Stack",
-      "sentence": "Library for M5Stack UNIT LIGHT / DLight and Hat DLight using M5UnitUnified",
+      "sentence": "Library for M5Stack UNIT LIGHT using M5UnitUnified",
       "paragraph": "Supports BH1750FVI (UnitDLight, SKU:U136 / HatDLight, SKU:U134) for ambient light detection, and LM393 + photoresistor (UnitLight, SKU:U021) for analog light sensing.",
       "category": "Device Control",
       "architectures": [
@@ -162453,8 +162461,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.0.1.zip",
-      "size": 75635,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.0.2.zip",
+      "size": 77942,
+      "previous_version": "0.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

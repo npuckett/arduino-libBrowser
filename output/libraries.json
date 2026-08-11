@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-11T13:26:58.723Z",
+  "enhanced_at": "2026-08-11T14:24:40.852Z",
   "total_libraries": 9815,
-  "index_etag": "W/\"4716f9cb2c9d6c2a26040dcdaec251ed\"",
-  "index_last_modified": "Tue, 11 Aug 2026 12:59:12 GMT",
+  "index_etag": "W/\"834939c45f11109eee212f516666ce90\"",
+  "index_last_modified": "Tue, 11 Aug 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105083,7 +105083,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.4",
+      "version": "2.7.5",
       "version_history": [
         {
           "version": "2.0.1",
@@ -105160,11 +105160,15 @@
         {
           "version": "2.7.4",
           "seen_at": "2026-08-11T06:15:21.349Z"
+        },
+        {
+          "version": "2.7.5",
+          "seen_at": "2026-08-11T14:24:40.705Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "a9fa268940db",
+      "last_seen_sha": "8fc4de1b018e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -105173,9 +105177,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.4.zip",
-      "size": 1107717,
-      "previous_version": "2.7.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.5.zip",
+      "size": 1119041,
+      "previous_version": "2.7.4",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -192718,16 +192722,20 @@
       "repository_name": "Nezaemmy/NezaIR",
       "repository_url": "https://github.com/Nezaemmy/NezaIR",
       "name": "NezaIR",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "2.3.0",
           "seen_at": "2026-05-28T08:26:49Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-08-11T14:24:40.705Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-28T08:26:49Z",
-      "last_seen_sha": "91719a43748b",
+      "last_seen_sha": "ac2c78a73321",
       "author": "Emmanuel Mugwaneza",
       "maintainer": "Emmanuel Mugwaneza <nezaemmy1@gmail.com>",
       "sentence": "A library for sending and receiving IR signals with multiple protocols.",
@@ -192737,11 +192745,13 @@
         "avr",
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nezaemmy/NezaIR-2.4.0.zip",
+      "size": 68152,
+      "previous_version": "2.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-27T11:18:14Z",
-      "download_url": "https://github.com/Nezaemmy/NezaIR"
+      "github_updated_at": "2026-05-27T11:18:14Z"
     },
     {
       "repository_name": "Nezaemmy/NezaRTC",

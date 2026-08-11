@@ -1,6 +1,156 @@
 {
-  "since": "2026-08-11T13:26:58.600Z",
+  "since": "2026-08-11T14:24:40.705Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/EspUsbHost",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
+        "name": "EspUsbHost",
+        "version": "2.7.5",
+        "version_history": [
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-06-30T08:49:13Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-07-08T12:29:30.704Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-07-09T09:07:59.829Z"
+          },
+          {
+            "version": "2.1.3",
+            "seen_at": "2026-07-13T04:19:49.624Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-07-14T12:24:10.895Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-07-15T06:40:57.974Z"
+          },
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-07-16T04:06:32.551Z"
+          },
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-07-17T08:40:41.053Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-18T14:24:01.283Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-22T06:57:44.678Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-07-23T04:08:17.998Z"
+          },
+          {
+            "version": "2.5.2",
+            "seen_at": "2026-07-27T09:02:32.349Z"
+          },
+          {
+            "version": "2.5.3",
+            "seen_at": "2026-07-30T16:29:03.361Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "2.7.1",
+            "seen_at": "2026-08-05T00:21:54.689Z"
+          },
+          {
+            "version": "2.7.2",
+            "seen_at": "2026-08-06T06:58:20.863Z"
+          },
+          {
+            "version": "2.7.3",
+            "seen_at": "2026-08-10T14:24:36.837Z"
+          },
+          {
+            "version": "2.7.4",
+            "seen_at": "2026-08-11T06:15:21.349Z"
+          },
+          {
+            "version": "2.7.5",
+            "seen_at": "2026-08-11T14:24:40.705Z"
+          }
+        ],
+        "release_count": 20,
+        "first_seen_at": "2026-06-30T08:49:13Z",
+        "last_seen_sha": "8fc4de1b018e",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
+        "paragraph": "EspUsbHost processes USB events in a background FreeRTOS task, so loop() needs no polling call: register callbacks and call begin(). Supports HID keyboard with international layouts, mouse, gamepad, consumer and system control, keyboard LEDs and vendor reports, CDC ACM and FTDI/CP210x/CH34x USB serial adapters as Arduino Streams, USB MIDI in/out, USB Audio isochronous streaming, Mass Storage with FatFs/VFS and fs::FS access, CDC-NCM/CDC-ECM Ethernet adapters as raw frames or an lwIP interface, CCID smart card readers, generic vendor bulk/control transfers, hubs, and multiple simultaneous devices.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.5.zip",
+        "size": 1119041,
+        "previous_version": "2.7.4",
+        "github_stars": 149,
+        "github_forks": 37,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T06:48:12Z"
+      },
+      "old_version": "2.7.4",
+      "new_version": "2.7.5"
+    },
+    {
+      "library": {
+        "repository_name": "Nezaemmy/NezaIR",
+        "repository_url": "https://github.com/Nezaemmy/NezaIR",
+        "name": "NezaIR",
+        "version": "2.4.0",
+        "version_history": [
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-05-28T08:26:49Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-08-11T14:24:40.705Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-05-28T08:26:49Z",
+        "last_seen_sha": "ac2c78a73321",
+        "author": "Emmanuel Mugwaneza",
+        "maintainer": "Emmanuel Mugwaneza <nezaemmy1@gmail.com>",
+        "sentence": "A library for sending and receiving IR signals with multiple protocols.",
+        "paragraph": "A library for sending and receiving IR signals with multiple protocols.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Nezaemmy/NezaIR-2.4.0.zip",
+        "size": 68152,
+        "previous_version": "2.3.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-27T11:18:14Z"
+      },
+      "old_version": "2.3.0",
+      "new_version": "2.4.0"
+    }
+  ],
   "removed_libraries": []
 }

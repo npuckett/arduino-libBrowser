@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-11T15:19:36.739Z",
-  "total_libraries": 9815,
-  "index_etag": "W/\"834939c45f11109eee212f516666ce90\"",
-  "index_last_modified": "Tue, 11 Aug 2026 14:59:12 GMT",
+  "enhanced_at": "2026-08-11T16:15:51.788Z",
+  "total_libraries": 9816,
+  "index_etag": "W/\"5d0aab83e43dd868c6a6f6ddd0c9e6e9\"",
+  "index_last_modified": "Tue, 11 Aug 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -83156,6 +83156,35 @@
         "Timezone_Generic"
       ],
       "download_url": "https://github.com/khoih-prog/DS323x_Generic"
+    },
+    {
+      "repository_name": "RobTillaart/DS3502",
+      "repository_url": "https://github.com/RobTillaart/DS3502",
+      "name": "DS3502",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-11T16:15:50.214Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-11T16:15:50.214Z",
+      "last_seen_sha": "fe511b1affc2",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the DS3502, I2C, 7-bit, non-volatile, digital potentiometer.",
+      "paragraph": "10 kOhm,DS3501,DS3503",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DS3502-0.1.0.zip",
+      "size": 127561,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-11T12:58:27Z"
     },
     {
       "repository_name": "orcadom/DS4",
@@ -255468,16 +255497,20 @@
       "repository_name": "HOMPAIN/SoftTimerAdvance",
       "repository_url": "https://github.com/HOMPAIN/SoftTimerAdvance",
       "name": "SoftTimerAdvance",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-08-07T18:14:01.614Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-11T16:15:50.214Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-07T18:14:01.614Z",
-      "last_seen_sha": "94b34ea94aa4",
+      "last_seen_sha": "699d455b6a6f",
       "author": "Hompain",
       "maintainer": "Hompain",
       "sentence": "Versatile soft timers with extensive functionality.",
@@ -255486,8 +255519,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-1.0.2.zip",
-      "size": 34603,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-1.0.3.zip",
+      "size": 37864,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -314304,7 +314338,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9612,
+    "with_github_metadata": 9613,
     "total_dependencies": 5218
   }
 }

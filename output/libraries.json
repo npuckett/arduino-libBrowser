@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-10T23:10:20.200Z",
-  "total_libraries": 9813,
-  "index_etag": "W/\"9eb98890c77c293f84ed68bbe09d4103\"",
-  "index_last_modified": "Mon, 10 Aug 2026 22:59:12 GMT",
+  "enhanced_at": "2026-08-11T00:09:19.417Z",
+  "total_libraries": 9814,
+  "index_etag": "W/\"4a5373fd263275683478868bc25d78f9\"",
+  "index_last_modified": "Mon, 10 Aug 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22973,7 +22973,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.135",
+      "version": "1.2.136",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23266,11 +23266,15 @@
         {
           "version": "1.2.135",
           "seen_at": "2026-08-10T22:11:00.687Z"
+        },
+        {
+          "version": "1.2.136",
+          "seen_at": "2026-08-11T00:09:17.950Z"
         }
       ],
-      "release_count": 73,
+      "release_count": 74,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "a1528e09ee3f",
+      "last_seen_sha": "7a827f2de318",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23291,9 +23295,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.135.zip",
-      "size": 44323531,
-      "previous_version": "1.2.133",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.136.zip",
+      "size": 44323530,
+      "previous_version": "1.2.135",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -269041,6 +269045,38 @@
       "download_url": "https://github.com/gavinlyonsrepo/ST7789_LTSM"
     },
     {
+      "repository_name": "Studio-Poetics/ST77916_QSPI",
+      "repository_url": "https://github.com/Studio-Poetics/ST77916_QSPI",
+      "name": "ST77916_QSPI",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-08-11T00:09:17.950Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-11T00:09:17.950Z",
+      "last_seen_sha": "0f1dc2af19a0",
+      "author": "Studio Poetics",
+      "maintainer": "Studio Poetics",
+      "sentence": "Framebuffer driver for ST77916 360x360 QSPI panels on ESP32-S3.",
+      "paragraph": "Adafruit_GFX compatible, with dirty-rectangle partial updates, queued DMA, optional double buffering and a second-core push task, palettised and RGB565 blitting for GIF and MJPEG playback, alpha blending, anti-aliased primitives, and a p5.js-shaped drawing layer.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Studio-Poetics/ST77916_QSPI-2.0.0.zip",
+      "size": 132392,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-10T21:01:42Z"
+    },
+    {
       "repository_name": "JensDMadsen/StableLCD",
       "repository_url": "https://github.com/JensDMadsen/StableLCD",
       "name": "StableLCD",
@@ -314217,7 +314253,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9610,
-    "total_dependencies": 5217
+    "with_github_metadata": 9611,
+    "total_dependencies": 5218
   }
 }

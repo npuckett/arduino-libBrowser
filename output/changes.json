@@ -1,6 +1,119 @@
 {
-  "since": "2026-08-12T03:41:22.923Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-12T04:32:10.621Z",
+  "new_libraries": [
+    {
+      "repository_name": "alloyrobotics/alloy-logger-arduino",
+      "repository_url": "https://github.com/alloyrobotics/alloy-logger-arduino",
+      "name": "AlloyLogger",
+      "version": "0.5.0",
+      "version_history": [
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-08-12T04:32:10.621Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-12T04:32:10.621Z",
+      "last_seen_sha": "add218c05d28",
+      "author": "Hugh Phan",
+      "maintainer": "Hugh Phan <hugh@usealloy.ai>",
+      "sentence": "Stream ESP32 and Arduino UNO R4 WiFi sensor telemetry directly to Alloy (usealloy.ai).",
+      "paragraph": "RAM-buffered logging from Arduino boards to the Alloy data platform. ESP32 retains the existing background logger; UNO R4 WiFi uses a separate cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "renesas_uno"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyLogger-0.5.0.zip",
+      "size": 16376798,
+      "github_stars": 19,
+      "github_forks": 3,
+      "github_language": "JavaScript",
+      "github_updated_at": "2026-08-12T01:00:10Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/EspUsbDevice",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+        "name": "EspUsbDevice",
+        "version": "2.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-03T10:52:10.012Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-07T09:02:39.215Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-07T10:59:14.574Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-07-08T12:29:30.704Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-07-17T12:22:56.831Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-08-05T08:53:08.412Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-08-12T04:32:10.621Z"
+          }
+        ],
+        "release_count": 12,
+        "first_seen_at": "2026-07-01T11:48:44.907Z",
+        "last_seen_sha": "8f30433e3538",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.2.zip",
+        "size": 626391,
+        "previous_version": "2.0.1",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:04:34Z"
+      },
+      "old_version": "2.0.1",
+      "new_version": "2.0.2"
+    }
+  ],
   "removed_libraries": []
 }

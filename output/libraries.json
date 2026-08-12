@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-12T03:41:23.047Z",
-  "total_libraries": 9821,
-  "index_etag": "W/\"83b6351882d85b0e564211319d95d473\"",
-  "index_last_modified": "Wed, 12 Aug 2026 03:29:12 GMT",
+  "enhanced_at": "2026-08-12T04:32:12.038Z",
+  "total_libraries": 9822,
+  "index_etag": "W/\"9c8de189227175be2c73a354553e8f50\"",
+  "index_last_modified": "Wed, 12 Aug 2026 04:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -21529,6 +21529,39 @@
         "Servo"
       ],
       "download_url": "https://github.com/Velleman/ALLBOT-lib"
+    },
+    {
+      "repository_name": "alloyrobotics/alloy-logger-arduino",
+      "repository_url": "https://github.com/alloyrobotics/alloy-logger-arduino",
+      "name": "AlloyLogger",
+      "version": "0.5.0",
+      "version_history": [
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-08-12T04:32:10.621Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-12T04:32:10.621Z",
+      "last_seen_sha": "add218c05d28",
+      "author": "Hugh Phan",
+      "maintainer": "Hugh Phan <hugh@usealloy.ai>",
+      "sentence": "Stream ESP32 and Arduino UNO R4 WiFi sensor telemetry directly to Alloy (usealloy.ai).",
+      "paragraph": "RAM-buffered logging from Arduino boards to the Alloy data platform. ESP32 retains the existing background logger; UNO R4 WiFi uses a separate cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "renesas_uno"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyLogger-0.5.0.zip",
+      "size": 16376798,
+      "github_stars": 19,
+      "github_forks": 3,
+      "github_language": "JavaScript",
+      "github_updated_at": "2026-08-12T01:00:10Z"
     },
     {
       "repository_name": "jeremycole/AllSensors_DLHR",
@@ -105042,7 +105075,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -105087,11 +105120,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-08-05T08:53:08.412Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-08-12T04:32:10.621Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "6358b9ec2ff8",
+      "last_seen_sha": "8f30433e3538",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -105100,9 +105137,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.1.zip",
-      "size": 608392,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.2.zip",
+      "size": 626391,
+      "previous_version": "2.0.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -314495,7 +314532,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9618,
-    "total_dependencies": 5220
+    "with_github_metadata": 9619,
+    "total_dependencies": 5221
   }
 }

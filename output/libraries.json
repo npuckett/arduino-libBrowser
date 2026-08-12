@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-12T07:28:53.076Z",
-  "total_libraries": 9822,
-  "index_etag": "W/\"a0294dd25929145a9dfb7f3c41bcfac0\"",
-  "index_last_modified": "Wed, 12 Aug 2026 06:59:11 GMT",
+  "enhanced_at": "2026-08-12T08:26:51.669Z",
+  "total_libraries": 9823,
+  "index_etag": "W/\"53e92a1efff5cc95f161acbf330bad25\"",
+  "index_last_modified": "Wed, 12 Aug 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -44773,16 +44773,20 @@
       "repository_name": "andrey-val-rodin/BleCommands.Arduino",
       "repository_url": "https://github.com/andrey-val-rodin/BleCommands.Arduino",
       "name": "BLECommands",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-05-16T08:19:15Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-12T08:26:50.181Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-16T08:19:15Z",
-      "last_seen_sha": "49be0e9632d4",
+      "last_seen_sha": "4bd6cb04443f",
       "author": "Andrey Rodin",
       "maintainer": "Andrey Rodin <andrey.val.rodin@gmail.com>",
       "sentence": "Simple Arduino BLE library implementing text-based command/response protocol.",
@@ -44791,14 +44795,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 5,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-27T09:15:28Z",
       "depends": [
         "ArduinoBLE"
       ],
-      "download_url": "https://github.com/andrey-val-rodin/BleCommands.Arduino/"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/andrey-val-rodin/BLECommands-1.1.0.zip",
+      "size": 9223,
+      "previous_version": "1.0.1",
+      "github_stars": 5,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-27T09:15:28Z"
     },
     {
       "repository_name": "neman-io/Bleeper",
@@ -164744,6 +164750,35 @@
       "download_url": "https://github.com/YUKAI/MakerBoard"
     },
     {
+      "repository_name": "Khuuxuanngoc/MKE_I2C_MotorDriver_lib",
+      "repository_url": "https://github.com/Khuuxuanngoc/MKE_I2C_MotorDriver_lib",
+      "name": "MakerEdu I2C Motor Driver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-12T08:26:50.181Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-12T08:26:50.181Z",
+      "last_seen_sha": "6bf9f44299b2",
+      "author": "MakerEdu.vn",
+      "maintainer": "MakerEdu.vn",
+      "sentence": "Arduino library for MakerEdu MKE-M17 (L9110) & MKE-M18 (BD62130) I2C Dual DC Motor Driver modules.",
+      "paragraph": "Control 2 DC motors via I2C bus. Supports speed/direction control, non-blocking timed run with watchdog auto-stop, PWM frequency configuration, real-time Vin voltage monitoring, and persistent I2C address configuration.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MakerEdu_I2C_Motor_Driver-1.0.0.zip",
+      "size": 8062073,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T05:04:03Z"
+    },
+    {
       "repository_name": "makerlabvn/makerlabvnlib",
       "repository_url": "https://github.com/makerlabvn/makerlabvnlib",
       "name": "MAKERLABVN",
@@ -192866,7 +192901,7 @@
       "repository_name": "Nezaemmy/NezaIR",
       "repository_url": "https://github.com/Nezaemmy/NezaIR",
       "name": "NezaIR",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "2.3.0",
@@ -192875,23 +192910,27 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-08-11T14:24:40.705Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-08-12T08:26:50.181Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-28T08:26:49Z",
-      "last_seen_sha": "ac2c78a73321",
+      "last_seen_sha": "8f1fe134f6d6",
       "author": "Emmanuel Mugwaneza",
       "maintainer": "Emmanuel Mugwaneza <nezaemmy1@gmail.com>",
-      "sentence": "A library for sending and receiving IR signals with multiple protocols.",
-      "paragraph": "A library for sending and receiving IR signals with multiple protocols.",
+      "sentence": "A library for receiving IR signals with multiple protocols.",
+      "paragraph": "A library for receiving IR signals with multiple protocols.",
       "category": "Communication",
       "architectures": [
         "avr",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nezaemmy/NezaIR-2.4.0.zip",
-      "size": 68152,
-      "previous_version": "2.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nezaemmy/NezaIR-2.5.0.zip",
+      "size": 68876,
+      "previous_version": "2.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -314540,7 +314579,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9619,
+    "with_github_metadata": 9620,
     "total_dependencies": 5221
   }
 }

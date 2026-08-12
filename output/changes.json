@@ -1,6 +1,119 @@
 {
-  "since": "2026-08-11T23:13:51.353Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-12T00:13:17.171Z",
+  "new_libraries": [
+    {
+      "repository_name": "nikolaindustry/hyperwisor-iot-arduino-library",
+      "repository_url": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+      "name": "Hyperwisor-IOT",
+      "version": "3.0.0",
+      "version_history": [
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-08-12T00:13:17.171Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-12T00:13:17.171Z",
+      "last_seen_sha": "55ce391f642d",
+      "author": "NIKOLAINDUSTRY",
+      "maintainer": "NIKOLAINDUSTRY <support@nikolaindustry.com>",
+      "sentence": "A powerful abstraction layer for ESP32-based IoT devices.",
+      "paragraph": "Handles Wi-Fi provisioning, real-time communication via nikolaindustry-realtime, OTA updates, GPIO management, and structured JSON command execution out of the box.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "WebSockets"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.0.0.zip",
+      "size": 70419,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-11T20:11:28Z"
+    },
+    {
+      "repository_name": "Stutchbury/ScreenManager",
+      "repository_url": "https://github.com/Stutchbury/ScreenManager",
+      "name": "ScreenManager",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-12T00:13:17.171Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-12T00:13:17.171Z",
+      "last_seen_sha": "5a629bc8f631",
+      "author": "Philip Fletcher <philip.fletcher@stutchbury.com>",
+      "maintainer": "Philip Fletcher <philip.fletcher@stutchbury.com>",
+      "sentence": "A lightweight C++ library for managing application screens, navigation, transitions and display timing. It is platform, framework and GFX agnostic.",
+      "paragraph": "ScreenManager is designed for applications composed of multiple screens or views, on embedded systems/microcontrollers. It provides a simple, predictable framework for screen navigation without depending on any graphics, widget or input library.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ScreenManager-1.0.0.zip",
+      "size": 22281,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-11T20:04:48Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "xXMarifFXx/N-R_ESP32",
+        "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
+        "name": "N-R_ESP32",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-06T10:50:59.966Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-08T16:05:34.268Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-09T08:11:38.091Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-08-12T00:13:17.171Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-08-06T10:50:59.966Z",
+        "last_seen_sha": "0c282fe22476",
+        "author": "xXMarifFXx",
+        "maintainer": "xXMarifFXx",
+        "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
+        "paragraph": "Hides WiFi, MQTT connect/reconnect, topic naming, JSON encoding and online/offline presence so your sketch is just your algorithm. Works on any ESP32 core. One dependency: PubSubClient.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.1.zip",
+        "size": 16828335,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-06T09:21:31Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    }
+  ],
   "removed_libraries": []
 }

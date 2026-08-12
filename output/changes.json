@@ -1,6 +1,187 @@
 {
-  "since": "2026-08-12T19:21:21.103Z",
+  "since": "2026-08-12T20:12:22.714Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "PedroFnseca/esp32-http-client",
+        "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
+        "name": "ESP32-HTTP-Client",
+        "version": "1.5.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-03-31T08:07:40Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-12T04:16:52.503Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-12T08:42:18.459Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-07-12T22:15:27.244Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-07-16T18:22:06.189Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-07-22T04:09:16.672Z"
+          },
+          {
+            "version": "1.4.1",
+            "seen_at": "2026-08-02T04:16:50.797Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-08-04T20:28:35.166Z"
+          },
+          {
+            "version": "1.5.1",
+            "seen_at": "2026-08-07T20:11:18.588Z"
+          },
+          {
+            "version": "1.5.2",
+            "seen_at": "2026-08-12T20:12:22.714Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2026-03-31T08:07:40Z",
+        "last_seen_sha": "cfcb4a524780",
+        "author": "Pedro Fonseca",
+        "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
+        "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
+        "paragraph": "No JSON decoding. No String objects. No boilerplate. Parses JSON streams directly into variables.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.2.zip",
+        "size": 10772997,
+        "previous_version": "1.5.1",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-13T09:09:26Z"
+      },
+      "old_version": "1.5.1",
+      "new_version": "1.5.2"
+    },
+    {
+      "library": {
+        "repository_name": "greghulette/WCBClient",
+        "repository_url": "https://github.com/greghulette/WCBClient",
+        "name": "WCB_Client",
+        "version": "1.13.0",
+        "version_history": [
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-07-07T20:33:11.614Z"
+          },
+          {
+            "version": "1.8.0",
+            "seen_at": "2026-07-09T14:59:59.938Z"
+          },
+          {
+            "version": "1.9.0",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.9.2",
+            "seen_at": "2026-07-10T18:27:57.623Z"
+          },
+          {
+            "version": "1.9.3",
+            "seen_at": "2026-07-13T14:56:44.658Z"
+          },
+          {
+            "version": "1.9.4",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.9.5",
+            "seen_at": "2026-07-13T20:24:38.967Z"
+          },
+          {
+            "version": "1.9.6",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "1.9.7",
+            "seen_at": "2026-07-16T20:16:51.492Z"
+          },
+          {
+            "version": "1.9.9",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "1.9.10",
+            "seen_at": "2026-07-22T18:22:57.152Z"
+          },
+          {
+            "version": "1.9.11",
+            "seen_at": "2026-07-30T22:21:16.816Z"
+          },
+          {
+            "version": "1.10.0",
+            "seen_at": "2026-08-01T00:20:24.513Z"
+          },
+          {
+            "version": "1.11.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "1.12.0",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "1.13.0",
+            "seen_at": "2026-08-12T20:12:22.714Z"
+          }
+        ],
+        "release_count": 17,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "cd6a587fd264",
+        "author": "Greg Hulette",
+        "maintainer": "Greg Hulette",
+        "sentence": "Client library for joining a Wireless Communication Board (WCB) ESP-NOW network.",
+        "paragraph": "Allows any ESP32-based device to participate as a native peer in a WCB network. Supports unicast and broadcast text commands with automatic fragmentation for long commands (e.g. saving large stored sequences), raw binary forwarding for Pololu/Maestro servo packets via WCBStream, ETM heartbeat and ACK tracking, board online/offline status callbacks, and communication with an out-of-band special peer such as NaviCore via enableSpecialPeer(). A raw-packet hook (onRawPacket/sendRawPacket) lets custom protocols — such as firmware OTA — ride the same ESP-NOW mesh. setIdentity() advertises the device over WDP so WCBs discover it by name and firmware version automatically (the mesh twin of the serial WDP-DA device-announce model), setPortLabel() advertises this device's own per-serial-port labels (the WDP PORTLABEL TLV) so the Wizard and WCBs show what is attached to each of its ports, setMaestroIds() advertises the Maestro controllers this device hosts (the WDP MAESTRO and MAESTRO_CFG TLVs) so WCBs learn where they live and can route to them, and onNeighbor()/getNeighbor() consume the same WDP adverts to learn every WCB and client on the mesh — alias, firmware, capabilities, controller link and Maestro IDs. With auto-join (on by default) the device also registers regular WCBs it hears as ESP-NOW peers live and remembers them across reboots, so it discovers the fleet once and never needs wcb_quantity to cover it. A bulk-transfer facility (onBulkBegin/onBulkChunk/onBulkComplete) streams payloads too large to hold in RAM to consumer-owned storage with a selective-NACK back-channel, and inbound COMMANDs are de-duplicated by sequence number. Per-peer delivery statistics (getPeerStats/getAggregateStats/getBroadcastSent/resetStats) accumulate sent, ackd, retries, failed and noSlot counts for the ETM COMMAND layer, so a host can see which mesh links are healthy and which are retrying or failing.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/greghulette/WCB_Client-1.13.0.zip",
+        "size": 143293,
+        "previous_version": "1.12.0",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T22:42:58Z"
+      },
+      "old_version": "1.12.0",
+      "new_version": "1.13.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-13T03:43:59.915Z",
-  "total_libraries": 9827,
-  "index_etag": "W/\"75213c690ef695a47ecc0cf462523fcc\"",
-  "index_last_modified": "Thu, 13 Aug 2026 03:29:12 GMT",
+  "enhanced_at": "2026-08-13T04:33:57.359Z",
+  "total_libraries": 9829,
+  "index_etag": "W/\"00a398a14685efd34af753bda3a5c1b2\"",
+  "index_last_modified": "Thu, 13 Aug 2026 04:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -176708,6 +176708,35 @@
       "download_url": "https://github.com/dcondrey/MicrostepToLinear"
     },
     {
+      "repository_name": "aneesharnavch/microstore",
+      "repository_url": "https://github.com/aneesharnavch/microstore",
+      "name": "microStore",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-13T04:33:54.760Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T04:33:54.760Z",
+      "last_seen_sha": "64a3f855dd71",
+      "author": "Aneesh Arnav Chikkala <aneesharnavchikkala@gmail.com>",
+      "maintainer": "Aneesh Arnav Chikkala <aneesharnavchikkala@gmail.com>",
+      "sentence": "Portable persistent key-value and typed object storage for Arduino-class microcontrollers.",
+      "paragraph": "microStore lets you manage EEPROM, NVS, and FRAM storage behind one API with CRC-checked append-only records, namespaces, typed values, delete markers, recovery from interrupted writes, and power-fail-safe compaction.",
+      "category": "Data Storage",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aneesharnavch/microStore-1.0.0.zip",
+      "size": 40306,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T19:20:41Z"
+    },
+    {
       "repository_name": "MicroSui/microsui-lib",
       "repository_url": "https://github.com/MicroSui/microsui-lib",
       "name": "MicroSui",
@@ -190238,7 +190267,7 @@
       "repository_name": "xXMarifFXx/N-R_ESP32",
       "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
       "name": "N-R_ESP32",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.0.1",
@@ -190259,11 +190288,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-08-12T06:25:52.536Z"
+        },
+        {
+          "version": "1.1.3",
+          "seen_at": "2026-08-13T04:33:54.760Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-08-06T10:50:59.966Z",
-      "last_seen_sha": "5ea2718657ae",
+      "last_seen_sha": "5cc83f7a9304",
       "author": "xXMarifFXx",
       "maintainer": "xXMarifFXx",
       "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
@@ -190275,9 +190308,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.2.zip",
-      "size": 16828700,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.3.zip",
+      "size": 16830524,
+      "previous_version": "1.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -202101,6 +202134,39 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-01-18T04:44:33Z"
+    },
+    {
+      "repository_name": "LUKASYNKOWY/OTAWIFIAsyncBar",
+      "repository_url": "https://github.com/LUKASYNKOWY/OTAWIFIAsyncBar",
+      "name": "OTAWIFIAsyncBar",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-13T04:33:54.760Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T04:33:54.760Z",
+      "last_seen_sha": "42eac992e95d",
+      "author": "Zaju",
+      "maintainer": "Zaju",
+      "sentence": "Asynchronous WiFi OTA firmware update library for ESP32 with upload progress.",
+      "paragraph": "Provides an asynchronous web interface for uploading ESP32 firmware over WiFi. Includes upload progress reporting, automatic restart after successful update and optional OTA progress information available to the main application.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "AsyncTCP",
+        "ESP Async WebServer"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LUKASYNKOWY/OTAWIFIAsyncBar-1.0.0.zip",
+      "size": 10695,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T22:37:59Z"
     },
     {
       "repository_name": "LennartHennigs/OTAWrapper",
@@ -314761,7 +314827,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9624,
-    "total_dependencies": 5222
+    "with_github_metadata": 9626,
+    "total_dependencies": 5224
   }
 }

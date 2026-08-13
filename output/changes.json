@@ -1,6 +1,325 @@
 {
-  "since": "2026-08-13T13:28:34.352Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-13T14:25:57.482Z",
+  "new_libraries": [
+    {
+      "repository_name": "RobTillaart/INA226_USI",
+      "repository_url": "https://github.com/RobTillaart/INA226_USI",
+      "name": "INA226_USI",
+      "version": "0.6.6",
+      "version_history": [
+        {
+          "version": "0.6.6",
+          "seen_at": "2026-08-13T14:25:57.482Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T14:25:57.482Z",
+      "last_seen_sha": "e0c990531b31",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for INA226 power sensor for ATtiny",
+      "paragraph": "Voltage Current Volt Ampere",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/INA226_USI-0.6.6.zip",
+      "size": 1306807,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-13T10:40:08Z"
+    },
+    {
+      "repository_name": "aneesharnavch/microinput",
+      "repository_url": "https://github.com/aneesharnavch/microinput",
+      "name": "microInput",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-13T14:25:57.482Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T14:25:57.482Z",
+      "last_seen_sha": "90b102c55a4e",
+      "author": "Aneesh Arnav Chikkala <aneesharnavchikkala@gmail.com>",
+      "maintainer": "Aneesh Arnav Chikkala <aneesharnavchikkala@gmail.com>",
+      "sentence": "Non-blocking, typed input events for embedded C++.",
+      "paragraph": "Portable fixed-memory debounce, gestures, ISR capture, encoder decoding, analog thresholds, and joystick mapping with Arduino adapters.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aneesharnavch/microInput-1.0.0.zip",
+      "size": 51737,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-13T10:33:11Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Alteriom/painlessMesh",
+        "repository_url": "https://github.com/Alteriom/painlessMesh",
+        "name": "Alteriom PainlessMesh",
+        "version": "1.10.0",
+        "version_history": [
+          {
+            "version": "1.9.20",
+            "seen_at": "2026-04-30T08:24:18Z"
+          },
+          {
+            "version": "1.9.20",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.9.21",
+            "seen_at": "2026-08-04T02:59:22.399Z"
+          },
+          {
+            "version": "1.10.0",
+            "seen_at": "2026-08-13T14:25:57.482Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-04-30T08:24:18Z",
+        "last_seen_sha": "05e7a63228bf",
+        "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
+        "maintainer": "Alteriom",
+        "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
+        "paragraph": "painlessMesh is a user-friendly library for creating mesh networks with ESP8266 and ESP32 devices. This Alteriom fork includes additional packages for sensor data (SensorPackage), device commands (CommandPackage), and status monitoring (StatusPackage). It handles routing and network management automatically, so you can focus on your application. The library uses JSON-based messaging and syncs time across all nodes, making it ideal for coordinated behaviour like synchronized light displays or sensor networks reporting to a central node.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "TaskScheduler"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-1.10.0.zip",
+        "size": 814801,
+        "previous_version": "1.9.21",
+        "github_stars": 9,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-28T07:28:11Z"
+      },
+      "old_version": "1.9.21",
+      "new_version": "1.10.0"
+    },
+    {
+      "library": {
+        "repository_name": "jackjansen/esp32_idf5_https_server_compat",
+        "repository_url": "https://github.com/jackjansen/esp32_idf5_https_server_compat",
+        "name": "esp32_idf5_https_server_compat",
+        "version": "1.1.2",
+        "version_history": [
+          {
+            "version": "1.1.1",
+            "seen_at": "2025-08-07T13:48:05Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-08-13T14:25:57.482Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-08-07T13:48:05Z",
+        "last_seen_sha": "809841944f92",
+        "author": "Frank Hessel <frank@fhessel.de>, Jack Jansen <Jack.Jansen@cwi.nl>",
+        "maintainer": "Jack Jansen <Jack.Jansen@cwi.nl>",
+        "sentence": "An Arduino library for an alternative ESP32 HTTP/HTTPS web server implementation",
+        "paragraph": "This library is a wrapper around esp32_idf5_https_server that provides the same API as the default Webserver library.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ESP32_IDF5_HTTPS_Server"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/jackjansen/esp32_idf5_https_server_compat-1.1.2.zip",
+        "size": 40615,
+        "previous_version": "1.1.1",
+        "github_stars": 5,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-08-01T16:26:38Z"
+      },
+      "old_version": "1.1.1",
+      "new_version": "1.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/EspUsbHost",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
+        "name": "EspUsbHost",
+        "version": "2.7.8",
+        "version_history": [
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-06-30T08:49:13Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-07-08T12:29:30.704Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-07-09T09:07:59.829Z"
+          },
+          {
+            "version": "2.1.3",
+            "seen_at": "2026-07-13T04:19:49.624Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-07-14T12:24:10.895Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-07-15T06:40:57.974Z"
+          },
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-07-16T04:06:32.551Z"
+          },
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-07-17T08:40:41.053Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-18T14:24:01.283Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-22T06:57:44.678Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-07-23T04:08:17.998Z"
+          },
+          {
+            "version": "2.5.2",
+            "seen_at": "2026-07-27T09:02:32.349Z"
+          },
+          {
+            "version": "2.5.3",
+            "seen_at": "2026-07-30T16:29:03.361Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "2.7.1",
+            "seen_at": "2026-08-05T00:21:54.689Z"
+          },
+          {
+            "version": "2.7.2",
+            "seen_at": "2026-08-06T06:58:20.863Z"
+          },
+          {
+            "version": "2.7.3",
+            "seen_at": "2026-08-10T14:24:36.837Z"
+          },
+          {
+            "version": "2.7.4",
+            "seen_at": "2026-08-11T06:15:21.349Z"
+          },
+          {
+            "version": "2.7.5",
+            "seen_at": "2026-08-11T14:24:40.705Z"
+          },
+          {
+            "version": "2.7.6",
+            "seen_at": "2026-08-12T14:24:10.773Z"
+          },
+          {
+            "version": "2.7.7",
+            "seen_at": "2026-08-13T00:13:36.907Z"
+          },
+          {
+            "version": "2.7.8",
+            "seen_at": "2026-08-13T14:25:57.482Z"
+          }
+        ],
+        "release_count": 23,
+        "first_seen_at": "2026-06-30T08:49:13Z",
+        "last_seen_sha": "17fafbecb465",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
+        "paragraph": "EspUsbHost processes USB events in a background FreeRTOS task, so loop() needs no polling call: register callbacks and call begin(). Supports HID keyboard with international layouts, mouse, gamepad, consumer and system control, keyboard LEDs and vendor reports, CDC ACM and FTDI/CP210x/CH34x USB serial adapters as Arduino Streams, USB MIDI in/out, USB Audio isochronous streaming, Mass Storage with FatFs/VFS and fs::FS access, CDC-NCM/CDC-ECM Ethernet adapters as raw frames or an lwIP interface, CCID smart card readers, generic vendor bulk/control transfers, hubs, and multiple simultaneous devices.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.8.zip",
+        "size": 1175340,
+        "previous_version": "2.7.7",
+        "github_stars": 149,
+        "github_forks": 37,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T06:48:12Z"
+      },
+      "old_version": "2.7.7",
+      "new_version": "2.7.8"
+    },
+    {
+      "library": {
+        "repository_name": "MISTERNEGATIVE21/QuectelEC200U",
+        "repository_url": "https://github.com/MISTERNEGATIVE21/QuectelEC200U",
+        "name": "QuectelEC200U",
+        "version": "4.0.1",
+        "version_history": [
+          {
+            "version": "3.5.0",
+            "seen_at": "2026-04-30T08:24:12Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-08-13T10:22:17.995Z"
+          },
+          {
+            "version": "4.0.1",
+            "seen_at": "2026-08-13T14:25:57.482Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-30T08:24:12Z",
+        "last_seen_sha": "0a6cf2826c44",
+        "author": "misternegative21",
+        "maintainer": "MisterNegative21 <misternegative21@gmail.com>",
+        "sentence": "Arduino library for Quectel EC200U (CN-AA) AT commands: network, PDP, TCP/SSL, HTTP(S), MQTT, GNSS, SMS, FS, USSD, NTP, power saving.",
+        "paragraph": "Provides a robust AT command wrapper for EC200U with advanced examples (TLS/HTTPS, MQTT over SSL, filesystem CA, NTP/time, USSD, PSM/eDRX, GNSS). Unofficial; see README for trademark notice.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/MISTERNEGATIVE21/QuectelEC200U-4.0.1.zip",
+        "size": 5332072,
+        "previous_version": "4.0.0",
+        "github_stars": 5,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-29T17:12:34Z"
+      },
+      "old_version": "4.0.0",
+      "new_version": "4.0.1"
+    }
+  ],
   "removed_libraries": []
 }

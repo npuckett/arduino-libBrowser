@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-12T23:13:27.685Z",
-  "total_libraries": 9824,
-  "index_etag": "W/\"7865396bb3ca4ecc8d6109f99d68f40f\"",
-  "index_last_modified": "Wed, 12 Aug 2026 22:59:12 GMT",
+  "enhanced_at": "2026-08-13T00:13:40.938Z",
+  "total_libraries": 9827,
+  "index_etag": "W/\"07541f725079d7da8448a2aa405f1450\"",
+  "index_last_modified": "Wed, 12 Aug 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23010,7 +23010,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.138",
+      "version": "1.2.141",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23315,11 +23315,15 @@
         {
           "version": "1.2.138",
           "seen_at": "2026-08-12T22:13:18.388Z"
+        },
+        {
+          "version": "1.2.141",
+          "seen_at": "2026-08-13T00:13:36.907Z"
         }
       ],
-      "release_count": 76,
+      "release_count": 77,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "53305d92698c",
+      "last_seen_sha": "9544060f7991",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23340,9 +23344,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.138.zip",
-      "size": 44380431,
-      "previous_version": "1.2.137",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.141.zip",
+      "size": 44379364,
+      "previous_version": "1.2.138",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -61112,6 +61116,37 @@
       "github_forks": 6,
       "github_language": "C++",
       "github_updated_at": "2023-06-30T08:16:07Z"
+    },
+    {
+      "repository_name": "jackjansen/cmArduinoJWT",
+      "repository_url": "https://github.com/jackjansen/cmArduinoJWT",
+      "name": "cmArduinoJWT",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-13T00:13:36.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T00:13:36.907Z",
+      "last_seen_sha": "481efc8fcca2",
+      "author": "Chris Moorhouse <cm@interior-automation.co.uk>",
+      "maintainer": "Jack Jansen <Jack.Jansen@cwi.nl>",
+      "sentence": "Library for encoding and decoding JSON web tokens for the Arduino, ESP8266 and ESP32 platforms.",
+      "paragraph": "This library does not currently support adding any options to the JWT and uses a fixed header for HS256.",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jackjansen/cmArduinoJWT-1.0.2.zip",
+      "size": 11253,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T14:46:50Z"
     },
     {
       "repository_name": "GRMrGecko/cmd",
@@ -105134,7 +105169,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -105183,11 +105218,15 @@
         {
           "version": "2.0.2",
           "seen_at": "2026-08-12T04:32:10.621Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-08-13T00:13:36.907Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "8f30433e3538",
+      "last_seen_sha": "906d94345636",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -105196,9 +105235,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.0.2.zip",
-      "size": 626391,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.1.0.zip",
+      "size": 635297,
+      "previous_version": "2.0.2",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -105208,7 +105247,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.6",
+      "version": "2.7.7",
       "version_history": [
         {
           "version": "2.0.1",
@@ -105293,11 +105332,15 @@
         {
           "version": "2.7.6",
           "seen_at": "2026-08-12T14:24:10.773Z"
+        },
+        {
+          "version": "2.7.7",
+          "seen_at": "2026-08-13T00:13:36.907Z"
         }
       ],
-      "release_count": 21,
+      "release_count": 22,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "9a0ab4d04f36",
+      "last_seen_sha": "6d155b52419e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -105306,9 +105349,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.6.zip",
-      "size": 1129118,
-      "previous_version": "2.7.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.7.zip",
+      "size": 1135833,
+      "previous_version": "2.7.6",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -107491,6 +107534,38 @@
       "github_language": "C++",
       "github_updated_at": "2020-01-18T14:38:11Z",
       "download_url": "https://github.com/jwrw/Executive"
+    },
+    {
+      "repository_name": "meta-pytorch/executorch-arduino",
+      "repository_url": "https://github.com/meta-pytorch/executorch-arduino",
+      "name": "ExecuTorch",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-13T00:13:36.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T00:13:36.907Z",
+      "last_seen_sha": "6f0e783b3c32",
+      "author": "Meta Platforms",
+      "maintainer": "ExecuTorch Team <executorch@meta.com>",
+      "sentence": "Run PyTorch models on Arduino microcontrollers with ExecuTorch.",
+      "paragraph": "ExecuTorch is a PyTorch runtime optimized for on-device inference. This library packages the ExecuTorch runtime with CMSIS-NN acceleration for ARM Cortex-M boards, enabling quantized model inference directly from Arduino sketches.",
+      "category": "Data Processing",
+      "architectures": [
+        "zephyr"
+      ],
+      "depends": [
+        "Arduino_RouterBridge"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/meta-pytorch/ExecuTorch-0.1.0.zip",
+      "size": 1420247,
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T21:10:43Z"
     },
     {
       "repository_name": "sne3ks/ExodeCore",
@@ -301613,6 +301688,35 @@
       "github_updated_at": "2020-10-09T20:22:46Z"
     },
     {
+      "repository_name": "zernovtechno/Vendista",
+      "repository_url": "https://github.com/zernovtechno/Vendista",
+      "name": "Vendista",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-13T00:13:36.907Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-13T00:13:36.907Z",
+      "last_seen_sha": "2f4b050abc8f",
+      "author": "Zernov <zernovyt@vk.com>",
+      "maintainer": "Zernov <zernovyt@vk.com>",
+      "sentence": "API for Vendista vending terminals",
+      "paragraph": "Control and communication library for Vendista terminals. Allows you to create your own arduino-based Vending Machine Controller. ESP, STM, AVR supported.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/zernovtechno/Vendista-1.0.0.zip",
+      "size": 9714956,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-12T22:04:18Z"
+    },
+    {
       "repository_name": "VernierST/VernierLib",
       "repository_url": "https://github.com/VernierST/VernierLib",
       "name": "VernierLib",
@@ -314657,7 +314761,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9621,
-    "total_dependencies": 5221
+    "with_github_metadata": 9624,
+    "total_dependencies": 5222
   }
 }

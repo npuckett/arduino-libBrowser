@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-13T05:30:32.251Z",
+  "enhanced_at": "2026-08-13T06:26:55.416Z",
   "total_libraries": 9829,
-  "index_etag": "W/\"00a398a14685efd34af753bda3a5c1b2\"",
-  "index_last_modified": "Thu, 13 Aug 2026 05:29:12 GMT",
+  "index_etag": "W/\"56698ba22924e69b0aad29180853fef3\"",
+  "index_last_modified": "Thu, 13 Aug 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -190267,7 +190267,7 @@
       "repository_name": "xXMarifFXx/N-R_ESP32",
       "repository_url": "https://github.com/xXMarifFXx/N-R_ESP32",
       "name": "N-R_ESP32",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -190292,11 +190292,15 @@
         {
           "version": "1.1.3",
           "seen_at": "2026-08-13T04:33:54.760Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-08-13T06:26:55.286Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-08-06T10:50:59.966Z",
-      "last_seen_sha": "5cc83f7a9304",
+      "last_seen_sha": "f7eca80a4821",
       "author": "xXMarifFXx",
       "maintainer": "xXMarifFXx",
       "sentence": "Dead-simple ESP32 <-> MQTT <-> Node-RED bridge.",
@@ -190308,9 +190312,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.3.zip",
-      "size": 16830524,
-      "previous_version": "1.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xXMarifFXx/N_R_ESP32-1.1.4.zip",
+      "size": 16831566,
+      "previous_version": "1.1.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -227144,18 +227148,22 @@
     },
     {
       "repository_name": "TMRh20/RF24",
-      "repository_url": "https://github.com/nRF24/RF24",
+      "repository_url": "https://github.com/TMRh20/RF24",
       "name": "RF24",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "version_history": [
         {
           "version": "1.6.1",
           "seen_at": "2026-06-30T08:50:54Z"
+        },
+        {
+          "version": "1.6.2",
+          "seen_at": "2026-08-13T06:26:55.286Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:50:54Z",
-      "last_seen_sha": "e20b706b7b7d",
+      "last_seen_sha": "e1b7ab8826a4",
       "author": "TMRh20",
       "maintainer": "TMRh20,Avamander",
       "sentence": "Radio driver, OSI layer 2 library for nrf24L01(+) modules.",
@@ -227164,10 +227172,12 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24-1.6.2.zip",
+      "size": 5917718,
+      "previous_version": "1.6.1",
       "github_stars": 2454,
       "github_forks": 1036,
-      "github_updated_at": "2026-06-29T23:34:38Z",
-      "download_url": "https://nRF24.github.io/RF24/"
+      "github_updated_at": "2026-06-29T23:34:38Z"
     },
     {
       "repository_name": "TMRh20/RF24Ethernet",

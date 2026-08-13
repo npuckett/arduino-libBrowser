@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-13T11:15:36.170Z",
+  "enhanced_at": "2026-08-13T12:13:40.577Z",
   "total_libraries": 9829,
-  "index_etag": "W/\"0b6d62f6ea739f2a73eb5b76395a918d\"",
-  "index_last_modified": "Thu, 13 Aug 2026 10:59:12 GMT",
+  "index_etag": "W/\"ea2a2ccf308a6666d55a2656daa435a3\"",
+  "index_last_modified": "Thu, 13 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -202147,30 +202147,35 @@
       "repository_name": "LUKASYNKOWY/OTAWIFIAsyncBar",
       "repository_url": "https://github.com/LUKASYNKOWY/OTAWIFIAsyncBar",
       "name": "OTAWIFIAsyncBar",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-13T04:33:54.760Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-13T12:13:40.490Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-13T04:33:54.760Z",
-      "last_seen_sha": "42eac992e95d",
-      "author": "Zaju",
-      "maintainer": "Zaju",
-      "sentence": "Asynchronous WiFi OTA firmware update library for ESP32 with upload progress.",
-      "paragraph": "Provides an asynchronous web interface for uploading ESP32 firmware over WiFi. Includes upload progress reporting, automatic restart after successful update and optional OTA progress information available to the main application.",
+      "last_seen_sha": "393037a3d857",
+      "author": "LUKASYNKOWY",
+      "maintainer": "LUKASYNKOWY",
+      "sentence": "Asynchronous WiFi OTA firmware update library for ESP32 with upload progress and error handling.",
+      "paragraph": "ESP32 OTA firmware update library using ESPAsyncWebServer with a web interface, upload progress, timeout detection, error codes and automatic restart after successful updates.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
       "depends": [
         "AsyncTCP",
-        "ESP Async WebServer"
+        "ESPAsyncWebServer"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LUKASYNKOWY/OTAWIFIAsyncBar-1.0.0.zip",
-      "size": 10695,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LUKASYNKOWY/OTAWIFIAsyncBar-1.1.0.zip",
+      "size": 14140,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

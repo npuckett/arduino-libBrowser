@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-14T17:17:15.824Z",
+  "enhanced_at": "2026-08-14T18:15:59.691Z",
   "total_libraries": 9835,
-  "index_etag": "W/\"bb0639ab0f3ff6470bd6f7fcd0bcb152\"",
-  "index_last_modified": "Fri, 14 Aug 2026 16:59:12 GMT",
+  "index_etag": "W/\"80da832545545b79fb6f515b1b3fc6e8\"",
+  "index_last_modified": "Fri, 14 Aug 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40626,33 +40626,38 @@
       "repository_name": "ayresnet/AyresWiFiManager",
       "repository_url": "https://github.com/ayresnet/AyresWiFiManager",
       "name": "AyresWiFiManager",
-      "version": "2.0.2",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.0.2",
           "seen_at": "2026-04-16T08:21:53Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-08-14T18:15:59.558Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-16T08:21:53Z",
-      "last_seen_sha": "12c240491ffd",
+      "last_seen_sha": "f7ea76b4258d",
       "author": "Daniel Salgado <ayresnet>",
       "maintainer": "AyresNet",
-      "sentence": "AyresWiFiManager (AWM): a modern WiFiManager-style alternative for ESP32/ESP8266 with captive portal, LittleFS credentials, NTP and status LED.",
-      "paragraph": "Distinct from the original WiFiManager, designed for professional IoT projects. Provides robust fallback policies, optional DNS catch-all captive portal, JSON scanning, safe .json wipe with whitelist, Internet ping (generate_204), and advanced utilities for ESP32/ESP8266.",
+      "sentence": "Wi-Fi provisioning and connectivity manager for ESP32 with captive portal, LittleFS credentials and diagnostics.",
+      "paragraph": "Provides explicit fallback policies, DNS catch-all captive portal, Wi-Fi scanning, optional credential encryption, reconnection control, NTP, Internet reachability checks, status LED patterns and a unified connectivity state API.",
       "category": "Communication",
       "architectures": [
-        "esp32",
-        "esp8266"
+        "esp32"
       ],
-      "github_stars": 20,
-      "github_forks": 5,
-      "github_language": "HTML",
-      "github_updated_at": "2026-05-22T21:18:36Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/ayresnet/AyresWiFiManager"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ayresnet/AyresWiFiManager-2.3.0.zip",
+      "size": 89381,
+      "previous_version": "2.0.2",
+      "github_stars": 20,
+      "github_forks": 5,
+      "github_language": "HTML",
+      "github_updated_at": "2026-05-22T21:18:36Z"
     },
     {
       "repository_name": "xiongyu0523/AzureRTOS-ThreadX-For-Arduino",
@@ -253434,7 +253439,7 @@
       "repository_name": "periashutosh-prog/Smart-Connect",
       "repository_url": "https://github.com/periashutosh-prog/Smart-Connect",
       "name": "Smart Connect",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -253447,15 +253452,19 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-07-16T18:22:06.189Z"
+        },
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-08-14T18:15:59.558Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T09:22:42Z",
-      "last_seen_sha": "3f2865f3a8a8",
+      "last_seen_sha": "e427884c6258",
       "author": "Ashutosh Peri",
       "maintainer": "Ashutosh Peri <periashutosh@gmail.com>",
       "sentence": "ESP-NOW and Smart Connect receiver library for ESP32 and ESP8266.",
-      "paragraph": "Pairs with an AIO Transmitter (or any compatible transmitter) and drives a 128x64 SSD1306 OLED with a full connection UI. Handles advertising, handshake (plain ESP_NOW or PIN-authenticated Smart Connect), command reception, and telemetry replies. On ESP32 it runs on its own FreeRTOS task pinned to core 0; on ESP8266 it runs cooperatively via tick().",
+      "paragraph": "Pairs with an AIO Transmitter (or any compatible transmitter) and drives an optional 128x64 SSD1306 OLED with a full connection UI. Handles advertising, handshake (plain ESP_NOW or PIN-authenticated Smart Connect), command reception, and telemetry replies. The display is optional in ESP_NOW mode (advertising/handshake need no screen) and required in Smart Connect mode (the PIN has no other way to reach the user) — setup() probes for it and blocks with a clear message until one is connected. On ESP32 it runs on its own FreeRTOS task pinned to core 0; on ESP8266 it runs cooperatively via tick().",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -253465,9 +253474,9 @@
         "Adafruit GFX Library",
         "Adafruit SSD1306"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/periashutosh-prog/Smart_Connect-1.5.0.zip",
-      "size": 30778,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/periashutosh-prog/Smart_Connect-1.6.0.zip",
+      "size": 32330,
+      "previous_version": "1.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -277847,7 +277856,7 @@
       "repository_name": "SUPLA/supla-device",
       "repository_url": "https://github.com/SUPLA/supla-device",
       "name": "SuplaDevice",
-      "version": "26.4.0",
+      "version": "26.8.0",
       "version_history": [
         {
           "version": "26.4",
@@ -277856,28 +277865,32 @@
         {
           "version": "26.4.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "26.8.0",
+          "seen_at": "2026-08-14T18:15:59.558Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:49:03Z",
-      "last_seen_sha": "57e121a15b07",
+      "last_seen_sha": "d239852d48cf",
       "author": "AC SOFTWARE SP. Z O.O.",
       "maintainer": "AC SOFTWARE SP. Z O.O. <krzysiek@supla.org>",
-      "sentence": "Library enables you to connect the device to the SUPLA automation system.",
-      "paragraph": "It provides easy interface for adding various sensors, relays, buttons, roller shutters, etc. that can be controlled via SUPLA Cloud and application on mobile device.",
+      "sentence": "Build custom SUPLA-compatible IoT devices with Arduino.",
+      "paragraph": "Build custom SUPLA-compatible devices with sensors, relays, buttons, roller shutters, HVAC and other channels. Connect them to SUPLA Server using Arduino IDE or PlatformIO on ESP32, ESP8266 and Arduino Mega.",
       "category": "Communication",
       "architectures": [
         "avr",
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUPLA/SuplaDevice-26.4.0.zip",
-      "size": 1985585,
-      "previous_version": "26.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUPLA/SuplaDevice-26.8.0.zip",
+      "size": 2122365,
+      "previous_version": "26.4.0",
       "github_stars": 55,
       "github_forks": 30,
-      "github_updated_at": "2026-07-01T17:05:23Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T17:05:23Z"
     },
     {
       "repository_name": "crmoratelli/SupmeaDO7016",

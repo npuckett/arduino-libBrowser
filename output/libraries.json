@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-14T11:14:29.050Z",
-  "total_libraries": 9834,
-  "index_etag": "W/\"58d8e01d03593f53b3aae6e3bdb0aa91\"",
-  "index_last_modified": "Fri, 14 Aug 2026 10:59:11 GMT",
+  "enhanced_at": "2026-08-14T12:12:56.407Z",
+  "total_libraries": 9835,
+  "index_etag": "W/\"3730c466c4107bc4a1aaeb2e1d12a5e1\"",
+  "index_last_modified": "Fri, 14 Aug 2026 11:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23014,7 +23014,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.144",
+      "version": "1.2.145",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23335,11 +23335,15 @@
         {
           "version": "1.2.144",
           "seen_at": "2026-08-14T10:19:48.209Z"
+        },
+        {
+          "version": "1.2.145",
+          "seen_at": "2026-08-14T12:12:54.999Z"
         }
       ],
-      "release_count": 80,
+      "release_count": 81,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "c3202a0c05f3",
+      "last_seen_sha": "88feb51ad825",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23360,9 +23364,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.144.zip",
-      "size": 44390618,
-      "previous_version": "1.2.143",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.145.zip",
+      "size": 44394762,
+      "previous_version": "1.2.144",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -125156,16 +125160,20 @@
       "repository_name": "GyverLibs/GyverDS18",
       "repository_url": "https://github.com/GyverLibs/GyverDS18",
       "name": "GyverDS18",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-04-16T07:58:12Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-08-14T12:12:54.999Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-16T07:58:12Z",
-      "last_seen_sha": "b867d83a9f50",
+      "last_seen_sha": "f51b5b45b04a",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light library for Dallas DS18b20 temperature sensor",
@@ -125174,14 +125182,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 16,
-      "github_forks": 4,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:55:59Z",
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://github.com/GyverLibs/GyverDS18"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverDS18-1.2.1.zip",
+      "size": 130710,
+      "previous_version": "1.2.0",
+      "github_stars": 16,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:55:59Z"
     },
     {
       "repository_name": "GyverLibs/GyverDS3231",
@@ -161594,6 +161604,35 @@
       "github_updated_at": "2026-06-23T05:52:44Z"
     },
     {
+      "repository_name": "m5stack/M5Stamp-UWB",
+      "repository_url": "https://github.com/m5stack/M5Stamp-UWB",
+      "name": "M5Stamp_UWB",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-14T12:12:54.999Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-14T12:12:54.999Z",
+      "last_seen_sha": "66f0beaed309",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5Stack Library of Stamp UWB",
+      "paragraph": "M5Stack,Stamp UWB, See more on http://M5Stack.com",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Stamp_UWB-0.1.0.zip",
+      "size": 211648,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-14T11:10:56Z"
+    },
+    {
       "repository_name": "yuuu/M5StampC3LED",
       "repository_url": "https://github.com/yuuu/M5StampC3LED",
       "name": "M5StampC3LED",
@@ -191279,16 +191318,20 @@
       "repository_name": "GyverLibs/NecDecoder",
       "repository_url": "https://github.com/GyverLibs/NecDecoder",
       "name": "NecDecoder",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "3.0.3",
           "seen_at": "2026-04-11T07:44:38Z"
+        },
+        {
+          "version": "3.0.4",
+          "seen_at": "2026-08-14T12:12:54.999Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-11T07:44:38Z",
-      "last_seen_sha": "20d0dfe908cf",
+      "last_seen_sha": "9ee5e37eef96",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light library for IR receiver with NEC protocol",
@@ -191297,14 +191340,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 20,
-      "github_forks": 5,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T17:59:05Z",
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://github.com/GyverLibs/NecDecoder"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/NecDecoder-3.0.4.zip",
+      "size": 11744,
+      "previous_version": "3.0.3",
+      "github_stars": 20,
+      "github_forks": 5,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T17:59:05Z"
     },
     {
       "repository_name": "chon-group/neck2arduino",
@@ -315065,7 +315110,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9631,
+    "with_github_metadata": 9632,
     "total_dependencies": 5225
   }
 }

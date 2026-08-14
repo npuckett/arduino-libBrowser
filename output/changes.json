@@ -1,6 +1,49 @@
 {
-  "since": "2026-08-14T13:26:26.466Z",
+  "since": "2026-08-14T14:20:49.976Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "mcmchris/mcm-esp32-ota-fw-updater",
+        "repository_url": "https://github.com/mcmchris/mcm-esp32-ota-fw-updater",
+        "name": "MCM_GitHub_OTA",
+        "version": "0.0.9",
+        "version_history": [
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-05-22T08:30:28Z"
+          },
+          {
+            "version": "0.0.8",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-08-14T14:20:49.976Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-22T08:30:28Z",
+        "last_seen_sha": "c4c677393e29",
+        "author": "mcmchris",
+        "maintainer": "mcmchris <mcmchris@hotmail.com>",
+        "sentence": "Arduino Library for updating ESP32 firmware from a GitHub repository automatically over-the-air (OTA).",
+        "paragraph": "The MCM_GitHub_OTA Library simplifies the process of updating ESP32 firmware from a GitHub repository automatically over-the-air (OTA).",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mcmchris/MCM_GitHub_OTA-0.0.9.zip",
+        "size": 36300,
+        "previous_version": "0.0.8",
+        "github_stars": 43,
+        "github_forks": 16,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-22T02:13:44Z"
+      },
+      "old_version": "0.0.8",
+      "new_version": "0.0.9"
+    }
+  ],
   "removed_libraries": []
 }

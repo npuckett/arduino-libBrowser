@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-14T03:42:24.242Z",
+  "enhanced_at": "2026-08-14T04:32:13.651Z",
   "total_libraries": 9832,
-  "index_etag": "W/\"9d355c2430fe2e9e53b1a526b8c3aed9\"",
-  "index_last_modified": "Fri, 14 Aug 2026 03:29:12 GMT",
+  "index_etag": "W/\"48844bb01ed1c5b68ee8ba0e2646c242\"",
+  "index_last_modified": "Fri, 14 Aug 2026 04:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -227330,18 +227330,22 @@
     },
     {
       "repository_name": "TMRh20/RF24Ethernet",
-      "repository_url": "https://github.com/nRF24/RF24Ethernet",
+      "repository_url": "https://github.com/TMRh20/RF24Ethernet",
       "name": "RF24Ethernet",
-      "version": "2.1.4",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "2.1.4",
           "seen_at": "2026-06-08T09:11:05Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-08-14T04:32:13.508Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-08T09:11:05Z",
-      "last_seen_sha": "873d393c62a3",
+      "last_seen_sha": "e33b252b2c85",
       "author": "TMRh20",
       "maintainer": "TMRh20",
       "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) & nRF52",
@@ -227350,17 +227354,19 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 128,
-      "github_forks": 57,
-      "github_language": "C",
-      "github_updated_at": "2026-06-06T11:38:08Z",
       "depends": [
         "RF24",
         "RF24Network",
         "RF24Mesh",
         "lwIP"
       ],
-      "download_url": "https://nRF24.github.io/RF24Ethernet/"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.0.zip",
+      "size": 426425,
+      "previous_version": "2.1.4",
+      "github_stars": 128,
+      "github_forks": 57,
+      "github_language": "C",
+      "github_updated_at": "2026-06-06T11:38:08Z"
     },
     {
       "repository_name": "Hobietime/RF24G",
@@ -312932,7 +312938,7 @@
       "repository_name": "YFROBOT-TM/Yfrobot-I2C-LineFollowSensor-Library",
       "repository_url": "https://github.com/YFROBOT-TM/Yfrobot-I2C-LineFollowSensor-Library",
       "name": "Yfrobot I2C Line Follow Sensor Library",
-      "version": "0.0.5",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.0.5",
@@ -312941,21 +312947,25 @@
         {
           "version": "0.0.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-14T04:32:13.508Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:34:48Z",
-      "last_seen_sha": "d19474cc8e6a",
+      "last_seen_sha": "10b6cf2dffc1",
       "author": "YFROBOT",
       "maintainer": "YFROBOT-ZL,<yfrobot@qq.com>",
-      "sentence": "Arduino library for yfrobot i2c line follow sensor",
-      "paragraph": "The library supports YFROBOT i2c line follow sensor modules.",
+      "sentence": "Arduino library for YFROBOT legacy SX1508 and YFLSxxI2C CH32 line sensors",
+      "paragraph": "The library keeps the old YFLINEFOLLOW API and adds YFLSxxI2C for YFLS05_I2C and future YFLS07_I2C style CH32 I2C line sensor modules.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/YFROBOT-TM/Yfrobot_I2C_Line_Follow_Sensor_Library-0.0.5.zip",
-      "size": 51988,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/YFROBOT-TM/Yfrobot_I2C_Line_Follow_Sensor_Library-1.0.0.zip",
+      "size": 77747,
       "previous_version": "0.0.5",
       "github_stars": 0,
       "github_forks": 0,

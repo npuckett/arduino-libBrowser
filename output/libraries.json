@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-14T01:30:02.931Z",
+  "enhanced_at": "2026-08-14T02:50:41.050Z",
   "total_libraries": 9832,
-  "index_etag": "W/\"c6033be33bf08aafc6a2c912a7b39fac\"",
-  "index_last_modified": "Fri, 14 Aug 2026 01:29:12 GMT",
+  "index_etag": "W/\"9d355c2430fe2e9e53b1a526b8c3aed9\"",
+  "index_last_modified": "Fri, 14 Aug 2026 02:29:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -214744,29 +214744,35 @@
       "repository_name": "vshymanskyy/Preferences",
       "repository_url": "https://github.com/vshymanskyy/Preferences",
       "name": "Preferences",
-      "version": "2.2.2",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "2.2.2",
           "seen_at": "2026-02-20T07:58:13Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-08-14T02:50:40.914Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-20T07:58:13Z",
-      "last_seen_sha": "b4e28b3905f3",
+      "last_seen_sha": "68299fe3c97f",
       "author": "Volodymyr Shymanskyy",
       "maintainer": "Volodymyr Shymanskyy <vshymanskyi@gmail.com>",
-      "sentence": "Preferences library for Arduino, ESP8266 and Particle Gen3 devices",
-      "paragraph": "",
+      "sentence": "Preferences library for ESP8266, RP2040, Realtek Ameba and Particle Gen3. Compatible with ESP32 API.",
       "category": "Data Storage",
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/Preferences-2.4.0.zip",
+      "size": 26677,
+      "previous_version": "2.2.2",
       "github_stars": 103,
       "github_forks": 20,
       "github_language": "C",
-      "github_updated_at": "2026-06-14T17:41:02Z",
-      "download_url": "https://github.com/vshymanskyy/Preferences"
+      "github_updated_at": "2026-06-14T17:41:02Z"
     },
     {
       "repository_name": "burksbuilds/PreferencesCLI",

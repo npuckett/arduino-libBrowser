@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-14T09:21:18.797Z",
-  "total_libraries": 9833,
-  "index_etag": "W/\"764e7bd39b315eb5a515f767f36ab175\"",
-  "index_last_modified": "Fri, 14 Aug 2026 08:59:11 GMT",
+  "enhanced_at": "2026-08-14T10:19:49.645Z",
+  "total_libraries": 9834,
+  "index_etag": "W/\"58d8e01d03593f53b3aae6e3bdb0aa91\"",
+  "index_last_modified": "Fri, 14 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23014,7 +23014,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.143",
+      "version": "1.2.144",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23331,11 +23331,15 @@
         {
           "version": "1.2.143",
           "seen_at": "2026-08-14T00:13:53.608Z"
+        },
+        {
+          "version": "1.2.144",
+          "seen_at": "2026-08-14T10:19:48.209Z"
         }
       ],
-      "release_count": 79,
+      "release_count": 80,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "f4bfcd1385b2",
+      "last_seen_sha": "c3202a0c05f3",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23356,9 +23360,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.143.zip",
-      "size": 44385676,
-      "previous_version": "1.2.142",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.144.zip",
+      "size": 44390618,
+      "previous_version": "1.2.143",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -68201,6 +68205,38 @@
       "github_language": "C++",
       "github_updated_at": "2026-03-07T19:29:28Z",
       "download_url": "https://github.com/electro-smith/DaisyDuino"
+    },
+    {
+      "repository_name": "atvirokodosprendimai/arduino-dali",
+      "repository_url": "https://github.com/atvirokodosprendimai/arduino-dali",
+      "name": "Dali",
+      "version": "0.0.6",
+      "version_history": [
+        {
+          "version": "0.0.6",
+          "seen_at": "2026-08-14T10:19:48.209Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-14T10:19:48.209Z",
+      "last_seen_sha": "6c46c14379a9",
+      "author": "hubsif <hubsif@gmx.de>, thewhobox <45664417+thewhobox@users.noreply.github.com>",
+      "maintainer": "thewhobox <45664417+thewhobox@users.noreply.github.com>",
+      "sentence": "A (non-blocking) library for the Digital Addressable Lighting Interface (DALI).",
+      "paragraph": "Drives a DALI bus over two pins using a hardware timer for the 1200 baud manchester encoding, so sending and receiving never block the sketch. Supports ARC level and DALI commands, short/group/broadcast addressing, commissioning and responses. Select the hardware timer with the DALI_TIMER build flag (AVR: 1-3, ESP32/ESP8266: 0-1, RP2040: 0-3), or define DALI_NO_TIMER and call DaliBus.timerISR() yourself.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "TimerInterrupt_Generic"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atvirokodosprendimai/Dali-0.0.6.zip",
+      "size": 267583,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-08T02:27:19Z"
     },
     {
       "repository_name": "milesburton/Arduino-Temperature-Control-Library",
@@ -315029,7 +315065,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9630,
-    "total_dependencies": 5224
+    "with_github_metadata": 9631,
+    "total_dependencies": 5225
   }
 }

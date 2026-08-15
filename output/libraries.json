@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-15T01:28:44.551Z",
-  "total_libraries": 9836,
-  "index_etag": "W/\"5d88a859643d5e4423d06f9f193afa10\"",
-  "index_last_modified": "Sat, 15 Aug 2026 00:59:12 GMT",
+  "enhanced_at": "2026-08-15T02:20:57.867Z",
+  "total_libraries": 9837,
+  "index_etag": "W/\"1be495392691a5d04e547d53f6ccd6b7\"",
+  "index_last_modified": "Sat, 15 Aug 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -99982,7 +99982,7 @@
       "repository_name": "tanakamasayuki/ESP32CertBundle",
       "repository_url": "https://github.com/tanakamasayuki/ESP32CertBundle",
       "name": "ESP32CertBundle",
-      "version": "20260716.0.0",
+      "version": "20260813.0.0",
       "version_history": [
         {
           "version": "20260514.0.0",
@@ -99991,11 +99991,15 @@
         {
           "version": "20260716.0.0",
           "seen_at": "2026-07-27T07:01:53.959Z"
+        },
+        {
+          "version": "20260813.0.0",
+          "seen_at": "2026-08-15T02:20:56.350Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-16T08:10:10Z",
-      "last_seen_sha": "991a2f5590a8",
+      "last_seen_sha": "841df8e9a76e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "ESP32 certificate bundle generated from the ESP-IDF root store.",
@@ -100005,9 +100009,9 @@
         "esp32"
       ],
       "license": "MPL-2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32CertBundle-20260716.0.0.zip",
-      "size": 143706,
-      "previous_version": "20260514.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32CertBundle-20260813.0.0.zip",
+      "size": 145142,
+      "previous_version": "20260716.0.0",
       "github_stars": 7,
       "github_forks": 1,
       "github_language": "C",
@@ -115933,7 +115937,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "version_history": [
         {
           "version": "0.0.22",
@@ -115954,11 +115958,15 @@
         {
           "version": "0.1.2",
           "seen_at": "2026-07-30T04:05:49.468Z"
+        },
+        {
+          "version": "0.1.3",
+          "seen_at": "2026-08-15T02:20:56.350Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "927cf5aaec1e",
+      "last_seen_sha": "ff5a95ad7ad4",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -115978,11 +115986,12 @@
         "OneWire",
         "DallasTemperature",
         "hd44780",
-        "TinyGPSPlus"
+        "TinyGPSPlus",
+        "ModbusMaster"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-0.1.2.zip",
-      "size": 393997,
-      "previous_version": "0.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-0.1.3.zip",
+      "size": 523348,
+      "previous_version": "0.1.2",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -177459,7 +177468,7 @@
       "repository_name": "sauloverissimo/midi2cpp",
       "repository_url": "https://github.com/sauloverissimo/midi2cpp",
       "name": "midi2cpp",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "version_history": [
         {
           "version": "0.6.0",
@@ -177476,11 +177485,15 @@
         {
           "version": "0.8.0",
           "seen_at": "2026-08-12T22:13:18.388Z"
+        },
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-08-15T02:20:56.350Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T08:59:43Z",
-      "last_seen_sha": "70786f49f292",
+      "last_seen_sha": "5a7e985a4d77",
       "author": "Saulo Verissimo <sauloverissimo@gmail.com>",
       "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
       "sentence": "C++ MIDI 2.0 platform: an idiomatic wrapper over the midi2 core.",
@@ -177489,9 +177502,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2cpp-0.8.0.zip",
-      "size": 71744666,
-      "previous_version": "0.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2cpp-0.9.0.zip",
+      "size": 71747866,
+      "previous_version": "0.8.0",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
@@ -203645,6 +203658,40 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2024-09-21T04:35:44Z"
+    },
+    {
+      "repository_name": "ScottMit/Pardalote-arduino",
+      "repository_url": "https://github.com/ScottMit/Pardalote-arduino",
+      "name": "Pardalote",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-15T02:20:56.350Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T02:20:56.350Z",
+      "last_seen_sha": "44549624a681",
+      "author": "Scott Mitchell",
+      "maintainer": "Scott Mitchell",
+      "sentence": "Control Arduino hardware directly from a web browser over WiFi.",
+      "paragraph": "Pardalote bridges Arduino and JavaScript over a binary WebSocket protocol. The Arduino-side library handles WiFi, the WebSocket server, board detection, and extension dispatch. Sketches reduce to Pardalote.begin() / Pardalote.run(). Extensions for Servo, NeoPixel, Ultrasonic, IMU, and ESP32 Camera are included as opt-in headers.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "renesas_uno"
+      ],
+      "license": "GPL-3.0",
+      "depends": [
+        "WebSockets"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ScottMit/Pardalote-1.0.0.zip",
+      "size": 149224,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-14T22:32:04Z"
     },
     {
       "repository_name": "ParsePlatform/Parse-SDK-Arduino",
@@ -315161,7 +315208,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9633,
-    "total_dependencies": 5225
+    "with_github_metadata": 9634,
+    "total_dependencies": 5227
   }
 }

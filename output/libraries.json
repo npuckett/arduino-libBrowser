@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-15T15:02:54.007Z",
-  "total_libraries": 9839,
-  "index_etag": "W/\"06c67b6ecb47ab40b90494b0be545a2b\"",
-  "index_last_modified": "Sat, 15 Aug 2026 14:59:12 GMT",
+  "enhanced_at": "2026-08-15T16:02:46.688Z",
+  "total_libraries": 9841,
+  "index_etag": "W/\"f0a9a46450976701916f051c34aeec66\"",
+  "index_last_modified": "Sat, 15 Aug 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -919,6 +919,36 @@
       "github_forks": 28,
       "github_language": "C",
       "github_updated_at": "2026-05-19T19:06:41Z"
+    },
+    {
+      "repository_name": "SUNSETDEVER/3DM_Xrenderer",
+      "repository_url": "https://github.com/SUNSETDEVER/3DM_Xrenderer",
+      "name": "3DM_Xrenderer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-15T16:02:44.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T16:02:44.042Z",
+      "last_seen_sha": "9e5c2bb6aa4e",
+      "author": "SUNSET",
+      "maintainer": "SUNSETDEVER<973879601@qq.com>",
+      "sentence": "Lightweight ray tracing renderer for embedded systems, outputs RGB565 framebuffer.",
+      "paragraph": "Provides scene construction (cubes, pyramids, tables, glass panels), camera control, and single-frame rendering. Optimized for performance description and integration with display drivers.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "stm32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/3DM_Xrenderer-1.0.0.zip",
+      "size": 33477,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T11:58:07Z"
     },
     {
       "repository_name": "AbdulKus/72x40oled_lib",
@@ -149814,6 +149844,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-04-30T08:50:24Z",
       "download_url": "https://github.com/SikongJueluo/LCT200"
+    },
+    {
+      "repository_name": "wedsamuel1230/LD2402",
+      "repository_url": "https://github.com/wedsamuel1230/LD2402",
+      "name": "LD2402",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-15T16:02:44.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T16:02:44.042Z",
+      "last_seen_sha": "6ebeea028a99",
+      "author": "wed",
+      "maintainer": "wed <samuelfong1301@gmail.com>",
+      "sentence": "A library for the HLK-LD2402 presence sensor.",
+      "paragraph": "Parses the sensor's normal-mode ASCII distance stream with a fixed-size state machine and provides an optional moving-average filter and a GPIO presence helper.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wedsamuel1230/LD2402-1.0.0.zip",
+      "size": 710930,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T11:33:47Z"
     },
     {
       "repository_name": "ncmreynolds/ld2410",
@@ -315290,7 +315349,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9636,
+    "with_github_metadata": 9638,
     "total_dependencies": 5229
   }
 }

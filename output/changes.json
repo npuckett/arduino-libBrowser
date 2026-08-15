@@ -1,6 +1,66 @@
 {
-  "since": "2026-08-15T15:02:53.866Z",
-  "new_libraries": [],
+  "since": "2026-08-15T16:02:44.042Z",
+  "new_libraries": [
+    {
+      "repository_name": "SUNSETDEVER/3DM_Xrenderer",
+      "repository_url": "https://github.com/SUNSETDEVER/3DM_Xrenderer",
+      "name": "3DM_Xrenderer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-15T16:02:44.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T16:02:44.042Z",
+      "last_seen_sha": "9e5c2bb6aa4e",
+      "author": "SUNSET",
+      "maintainer": "SUNSETDEVER<973879601@qq.com>",
+      "sentence": "Lightweight ray tracing renderer for embedded systems, outputs RGB565 framebuffer.",
+      "paragraph": "Provides scene construction (cubes, pyramids, tables, glass panels), camera control, and single-frame rendering. Optimized for performance description and integration with display drivers.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "stm32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/3DM_Xrenderer-1.0.0.zip",
+      "size": 33477,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T11:58:07Z"
+    },
+    {
+      "repository_name": "wedsamuel1230/LD2402",
+      "repository_url": "https://github.com/wedsamuel1230/LD2402",
+      "name": "LD2402",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-15T16:02:44.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T16:02:44.042Z",
+      "last_seen_sha": "6ebeea028a99",
+      "author": "wed",
+      "maintainer": "wed <samuelfong1301@gmail.com>",
+      "sentence": "A library for the HLK-LD2402 presence sensor.",
+      "paragraph": "Parses the sensor's normal-mode ASCII distance stream with a fixed-size state machine and provides an optional moving-average filter and a GPIO presence helper.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wedsamuel1230/LD2402-1.0.0.zip",
+      "size": 710930,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T11:33:47Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-15T11:02:41.347Z",
-  "total_libraries": 9838,
-  "index_etag": "W/\"00e2d61d0c31ea0b5995e367e039c060\"",
-  "index_last_modified": "Sat, 15 Aug 2026 10:59:12 GMT",
+  "enhanced_at": "2026-08-15T12:02:44.587Z",
+  "total_libraries": 9839,
+  "index_etag": "W/\"b8a0111528a04ba14f39443295c014ba\"",
+  "index_last_modified": "Sat, 15 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -206094,7 +206094,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "version_history": [
         {
           "version": "1.1.9",
@@ -206151,11 +206151,15 @@
         {
           "version": "1.2.7",
           "seen_at": "2026-08-12T22:13:18.388Z"
+        },
+        {
+          "version": "1.2.8",
+          "seen_at": "2026-08-15T12:02:43.039Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "15f698534cf4",
+      "last_seen_sha": "1e42dd6dab32",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
       "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
@@ -206166,9 +206170,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.2.7.zip",
-      "size": 8402470,
-      "previous_version": "1.2.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.2.8.zip",
+      "size": 8448166,
+      "previous_version": "1.2.7",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",
@@ -259350,6 +259354,39 @@
         "DebugLog"
       ],
       "download_url": "https://github.com/hideakitai"
+    },
+    {
+      "repository_name": "alirezashirzadath/soocket",
+      "repository_url": "https://github.com/alirezashirzadath/soocket",
+      "name": "Soocket",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-15T12:02:43.039Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T12:02:43.039Z",
+      "last_seen_sha": "4c50d0f4c55c",
+      "author": "Soocket",
+      "maintainer": "Soocket",
+      "sentence": "Connect Arduino-compatible boards to the Soocket MQTT device platform.",
+      "paragraph": "Publishes manifests, presence and telemetry, receives dynamic commands, and sends acknowledgements using the Soocket v1 protocol.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alirezashirzadath/Soocket-0.1.0.zip",
+      "size": 6002,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T08:32:35Z"
     },
     {
       "repository_name": "soracom-labs/soracom-arc-esp32-arduino",
@@ -315241,7 +315278,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9635,
-    "total_dependencies": 5227
+    "with_github_metadata": 9636,
+    "total_dependencies": 5229
   }
 }

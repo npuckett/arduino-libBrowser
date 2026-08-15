@@ -1,6 +1,108 @@
 {
-  "since": "2026-08-15T19:05:07.634Z",
+  "since": "2026-08-15T20:02:11.066Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sauloverissimo/midi2cpp",
+        "repository_url": "https://github.com/sauloverissimo/midi2cpp",
+        "name": "midi2cpp",
+        "version": "0.10.0",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-30T08:59:43Z"
+          },
+          {
+            "version": "0.6.1",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-07-28T04:06:24.576Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-08-12T22:13:18.388Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-08-15T02:20:56.350Z"
+          },
+          {
+            "version": "0.10.0",
+            "seen_at": "2026-08-15T20:02:11.066Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-06-30T08:59:43Z",
+        "last_seen_sha": "e208a5b8a3a0",
+        "author": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "C++ MIDI 2.0 platform: an idiomatic wrapper over the midi2 core.",
+        "paragraph": "C++17 wrapper that bundles the portable midi2 C99 core. Covers UMP transport (M2-104), MIDI-CI with Appendix E (M2-101), Property Exchange Subscribe/Notify, Profile Configuration, Process Inquiry, Flex Data, and Bit Scaling (M2-115). Targets embedded boards (RP2040, RP2350, Teensy, ESP32 family, nRF52, SAMD21).",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2cpp-0.10.0.zip",
+        "size": 71753795,
+        "previous_version": "0.9.0",
+        "github_stars": 4,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T16:08:06Z"
+      },
+      "old_version": "0.9.0",
+      "new_version": "0.10.0"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_io",
+        "repository_url": "https://github.com/dejwk/roo_io",
+        "name": "roo_io",
+        "version": "2.2.5",
+        "version_history": [
+          {
+            "version": "2.2.3",
+            "seen_at": "2026-06-05T08:30:06Z"
+          },
+          {
+            "version": "2.2.4",
+            "seen_at": "2026-08-07T12:13:05.758Z"
+          },
+          {
+            "version": "2.2.5",
+            "seen_at": "2026-08-15T20:02:11.066Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-05T08:30:06Z",
+        "last_seen_sha": "e09d2648977e",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Unified I/O library for microcontrollers.",
+        "paragraph": "Standard C++. On ESP32, works with Arduino as well as esp-idf.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_backport",
+          "roo_logging",
+          "roo_threads"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.2.5.zip",
+        "size": 217745,
+        "previous_version": "2.2.4",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-04T15:18:21Z"
+      },
+      "old_version": "2.2.4",
+      "new_version": "2.2.5"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-15T03:13:29.706Z",
-  "total_libraries": 9837,
-  "index_etag": "W/\"1be495392691a5d04e547d53f6ccd6b7\"",
-  "index_last_modified": "Sat, 15 Aug 2026 02:59:12 GMT",
+  "enhanced_at": "2026-08-15T04:08:04.343Z",
+  "total_libraries": 9838,
+  "index_etag": "W/\"09c358da27cad680310efa8a81804956\"",
+  "index_last_modified": "Sat, 15 Aug 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40621,6 +40621,35 @@
         "ArduinoJson"
       ],
       "download_url": "https://github.com/ayresnet/AyresShell"
+    },
+    {
+      "repository_name": "ayresnet/AyresTimer",
+      "repository_url": "https://github.com/ayresnet/AyresTimer",
+      "name": "AyresTimer",
+      "version": "4.1.0",
+      "version_history": [
+        {
+          "version": "4.1.0",
+          "seen_at": "2026-08-15T04:08:02.918Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-15T04:08:02.918Z",
+      "last_seen_sha": "a85e0a9a7cb0",
+      "author": "Daniel Cristian Salgado (AyresNet)",
+      "maintainer": "Daniel Cristian Salgado (AyresNet)",
+      "sentence": "Professional 64-bit Hardware and Software Timer suite for ESP32 by Daniel Cristian Salgado (AyresNet).",
+      "paragraph": "Total professional replacement for millis(). Features 64-bit microsecond precision, silicon hardware timer groups (TG0/TG1), high-resolution software timers (esp_timer), thread-safe FreeRTOS task callback dispatching, real-time jitter telemetry, pause/resume state control, and zero-overhead AyresTimeout and AyresStopwatch modules.",
+      "category": "Timing",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ayresnet/AyresTimer-4.1.0.zip",
+      "size": 45050,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T00:18:35Z"
     },
     {
       "repository_name": "ayresnet/AyresWiFiManager",
@@ -315208,7 +315237,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9634,
+    "with_github_metadata": 9635,
     "total_dependencies": 5227
   }
 }

@@ -1,6 +1,59 @@
 {
-  "since": "2026-08-16T15:03:00.796Z",
+  "since": "2026-08-16T16:02:48.374Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "teamprof/arduprof",
+        "repository_url": "https://github.com/teamprof/arduprof",
+        "name": "ArduProf",
+        "version": "2.5.3",
+        "version_history": [
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-05-25T09:07:03Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-23T14:43:07.592Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "2.5.3",
+            "seen_at": "2026-08-16T16:02:48.374Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-25T09:07:03Z",
+        "last_seen_sha": "fd71e32712f4",
+        "author": "Team Professional",
+        "maintainer": "Team Professional <teamprof.net@gmail.com>",
+        "sentence": "A thin layer framework for developer to code inter-task communication by an event driven method, running on different RTOS.",
+        "paragraph": "The ArduProf lib library provides a thin layer framework that makes it easier for developers to code inter-task communication by an event driven method. Version 1.0.0 supports FreeRTOS on ESP32. Version 2.0.0 (plan) supports Mbed OS on Raspherry Pi Pico (RP2040)",
+        "category": "Other",
+        "architectures": [
+          "esp32",
+          "mbed_rp2040",
+          "rp2040"
+        ],
+        "depends": [
+          "DebugLog",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/teamprof/ArduProf-2.5.3.zip",
+        "size": 613758,
+        "previous_version": "2.5.0",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-23T12:47:19Z"
+      },
+      "old_version": "2.5.0",
+      "new_version": "2.5.3"
+    }
+  ],
   "removed_libraries": []
 }

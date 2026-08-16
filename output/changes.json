@@ -1,6 +1,39 @@
 {
-  "since": "2026-08-15T23:03:05.996Z",
-  "new_libraries": [],
+  "since": "2026-08-16T00:04:09.086Z",
+  "new_libraries": [
+    {
+      "repository_name": "teddokano/Waveshare_TFT_Touch_Arduino",
+      "repository_url": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino",
+      "name": "Waveshare_TFT_Touch",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-16T00:04:09.086Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-16T00:04:09.086Z",
+      "last_seen_sha": "a90813101ded",
+      "author": "Tedd OKANO",
+      "maintainer": "Tedd OKANO",
+      "sentence": "Arduino driver for the Waveshare 2.8inch TFT Touch Shield (SKU: 10684; ST7789V LCD + XPT2046 touch)",
+      "paragraph": "Provides ST7789V graphics primitives and XPT2046 resistive touch reading over the shield's shared hardware SPI bus. Pin mapping is fixed by the shield's own PCB (D3/D4/D7/D9/D10, Arduino Uno R3 header form factor) so no wiring configuration is needed.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "SD"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/teddokano/Waveshare_TFT_Touch-1.0.0.zip",
+      "size": 200261,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-15T21:41:47Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

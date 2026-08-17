@@ -1,6 +1,110 @@
 {
-  "since": "2026-08-17T15:05:02.106Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-17T16:03:36.657Z",
+  "new_libraries": [
+    {
+      "repository_name": "Awulokune/ESP32_ST7789_Fast",
+      "repository_url": "https://github.com/Awulokune/ESP32_ST7789_Fast",
+      "name": "ESP32_ST7789_Fast",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-17T16:03:36.657Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-17T16:03:36.657Z",
+      "last_seen_sha": "be51a768e249",
+      "author": "Awulokune",
+      "maintainer": "Awulokune",
+      "sentence": "Fast ST7789 SPI display library for ESP32.",
+      "paragraph": "Fast RGB565 graphics library for ST7789 displays using ESP32 SPI.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Awulokune/ESP32_ST7789_Fast-1.0.0.zip",
+      "size": 110847,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-17T12:45:20Z"
+    },
+    {
+      "repository_name": "Vanderhell/loxdb",
+      "repository_url": "https://github.com/Vanderhell/loxdb",
+      "name": "loxdb",
+      "version": "1.5.4",
+      "version_history": [
+        {
+          "version": "1.5.4",
+          "seen_at": "2026-08-17T16:03:36.657Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-17T16:03:36.657Z",
+      "last_seen_sha": "beabc91efe8a",
+      "author": "Vanderhell",
+      "maintainer": "Vanderhell <Vanderhell@gmail.com>",
+      "sentence": "Predictable-memory embedded database with KV, time-series, relational engines, and WAL recovery.",
+      "paragraph": "Compact C99 database for microcontrollers with bounded core allocation and optional persistent storage through a storage HAL.",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Vanderhell/loxdb-1.5.4.zip",
+      "size": 839524,
+      "github_stars": 6,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-08-17T10:51:52Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "vishal-95-um/esp32-iot-management",
+        "repository_url": "https://github.com/vishal-95-um/esp32-iot-management",
+        "name": "ESP32IoTSDK",
+        "version": "0.1.2",
+        "version_history": [
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-08-16T14:03:56.515Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-08-17T16:03:36.657Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-16T14:03:56.515Z",
+        "last_seen_sha": "d02b92cbcd93",
+        "author": "Vishal",
+        "maintainer": "Vishal",
+        "sentence": "Reusable IoT SDK for ESP32 with WiFi, MQTT, OTA and provisioning support.",
+        "paragraph": "ESP32 IoT SDK providing reusable components for WiFi management, NVS storage, MQTT communication, OTA updates and WiFi provisioning.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/vishal-95-um/ESP32IoTSDK-0.1.2.zip",
+        "size": 25959,
+        "previous_version": "0.1.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-16T11:16:15Z"
+      },
+      "old_version": "0.1.1",
+      "new_version": "0.1.2"
+    }
+  ],
   "removed_libraries": []
 }

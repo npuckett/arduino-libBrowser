@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-16T23:02:26.895Z",
+  "enhanced_at": "2026-08-17T00:04:24.211Z",
   "total_libraries": 9844,
-  "index_etag": "W/\"a7da024042507bf7d3be7455554a3449\"",
-  "index_last_modified": "Sun, 16 Aug 2026 22:59:12 GMT",
+  "index_etag": "W/\"d325475a9bbea7449f92747cc0fad38a\"",
+  "index_last_modified": "Sun, 16 Aug 2026 23:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23044,7 +23044,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.145",
+      "version": "1.2.148",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23369,11 +23369,15 @@
         {
           "version": "1.2.145",
           "seen_at": "2026-08-14T12:12:54.999Z"
+        },
+        {
+          "version": "1.2.148",
+          "seen_at": "2026-08-17T00:04:24.103Z"
         }
       ],
-      "release_count": 81,
+      "release_count": 82,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "88feb51ad825",
+      "last_seen_sha": "7c5a00288d6f",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23394,9 +23398,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.145.zip",
-      "size": 44394762,
-      "previous_version": "1.2.144",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.148.zip",
+      "size": 44403713,
+      "previous_version": "1.2.145",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -301200,7 +301204,7 @@
       "repository_name": "v7rc/V7RCRobot-ESP32",
       "repository_url": "https://github.com/v7rc/V7RCRobot-ESP32",
       "name": "V7RCRobot-ESP32",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "version_history": [
         {
           "version": "0.0.2",
@@ -301209,15 +301213,19 @@
         {
           "version": "0.0.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.0.6",
+          "seen_at": "2026-08-17T00:04:24.103Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-14T08:28:40Z",
-      "last_seen_sha": "22d0a14e6eab",
+      "last_seen_sha": "72cf8395e9b6",
       "author": "V7RC / V7 Idea Technology Ltd.",
       "maintainer": "Louis Chuang <louis@v7idea.com.tw>",
-      "sentence": "ESP32-only V7RC multi-vehicle platform with layered transport, protocol, core, IO, and legacy compatibility scaffolding.",
-      "paragraph": "Bootstraps an ESP32-specific multi-vehicle V7RC project structure while preserving the legacy V7RCServoDriver implementation as a migration reference for BLE, protocol decoding, and actuator mapping.",
+      "sentence": "Build ESP32 V7RC robots with BLE control, motor outputs, drive kinematics, and line tracing.",
+      "paragraph": "Provides transport, protocol, runtime, and vehicle APIs for ESP32-C3 projects, including failsafe handling, five-channel I2C grayscale sensing, PD line following, and examples for cars, tanks, mecanum robots, drones, quadrupeds, OTTO, and robot arms.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -301227,9 +301235,9 @@
         "NimBLE-Arduino",
         "Adafruit NeoPixel"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/v7rc/V7RCRobot_ESP32-0.0.5.zip",
-      "size": 204255,
-      "previous_version": "0.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/v7rc/V7RCRobot_ESP32-0.0.6.zip",
+      "size": 212677,
+      "previous_version": "0.0.5",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

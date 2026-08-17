@@ -1,6 +1,76 @@
 {
-  "since": "2026-08-17T09:12:28.874Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-17T10:09:14.175Z",
+  "new_libraries": [
+    {
+      "repository_name": "m5stack/M5Unit-8Servos2-I2C",
+      "repository_url": "https://github.com/m5stack/M5Unit-8Servos2-I2C",
+      "name": "M5Unit8Servos2",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-17T10:09:14.175Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-17T10:09:14.175Z",
+      "last_seen_sha": "cc2956e13d9e",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Arduino library for the M5Stack Unit 8Servos2 I2C expansion unit.",
+      "paragraph": "Controls eight channels as digital input, digital output, ADC, servo, RGB LED, or PWM outputs.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit8Servos2-1.0.1.zip",
+      "size": 15716,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-13T09:23:58Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "SUNSETDEVER/3DM_Xrenderer",
+        "repository_url": "https://github.com/SUNSETDEVER/3DM_Xrenderer",
+        "name": "3DM_Xrenderer",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-15T16:02:44.042Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-17T10:09:14.175Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-15T16:02:44.042Z",
+        "last_seen_sha": "c393bfbc6ecf",
+        "author": "SUNSET",
+        "maintainer": "SUNSETDEVER<973879601@qq.com>",
+        "sentence": "Lightweight ray tracing renderer for embedded systems, outputs RGB565 framebuffer.",
+        "paragraph": "Provides scene construction (cubes, pyramids, tables, glass panels), camera control, and single-frame rendering. Optimized for performance description and integration with display drivers.",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/3DM_Xrenderer-1.0.3.zip",
+        "size": 36729,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-15T11:58:07Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

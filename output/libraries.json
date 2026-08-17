@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-17T09:12:28.995Z",
-  "total_libraries": 9847,
-  "index_etag": "W/\"1dd457ba36bf7112a6b3fffb285c6056\"",
-  "index_last_modified": "Mon, 17 Aug 2026 08:59:12 GMT",
+  "enhanced_at": "2026-08-17T10:09:15.640Z",
+  "total_libraries": 9848,
+  "index_etag": "W/\"9fe692163f45355b22087cbd8f82a1a9\"",
+  "index_last_modified": "Mon, 17 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -924,16 +924,20 @@
       "repository_name": "SUNSETDEVER/3DM_Xrenderer",
       "repository_url": "https://github.com/SUNSETDEVER/3DM_Xrenderer",
       "name": "3DM_Xrenderer",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-15T16:02:44.042Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-17T10:09:14.175Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-15T16:02:44.042Z",
-      "last_seen_sha": "9e5c2bb6aa4e",
+      "last_seen_sha": "c393bfbc6ecf",
       "author": "SUNSET",
       "maintainer": "SUNSETDEVER<973879601@qq.com>",
       "sentence": "Lightweight ray tracing renderer for embedded systems, outputs RGB565 framebuffer.",
@@ -943,8 +947,9 @@
         "esp32",
         "stm32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/3DM_Xrenderer-1.0.0.zip",
-      "size": 33477,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/3DM_Xrenderer-1.0.3.zip",
+      "size": 36729,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -163902,6 +163907,35 @@
       "github_updated_at": "2026-04-03T02:04:54Z"
     },
     {
+      "repository_name": "m5stack/M5Unit-8Servos2-I2C",
+      "repository_url": "https://github.com/m5stack/M5Unit-8Servos2-I2C",
+      "name": "M5Unit8Servos2",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-17T10:09:14.175Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-17T10:09:14.175Z",
+      "last_seen_sha": "cc2956e13d9e",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "Arduino library for the M5Stack Unit 8Servos2 I2C expansion unit.",
+      "paragraph": "Controls eight channels as digital input, digital output, ADC, servo, RGB LED, or PWM outputs.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit8Servos2-1.0.1.zip",
+      "size": 15716,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-13T09:23:58Z"
+    },
+    {
       "repository_name": "m5stack/M5Unit-ASR",
       "repository_url": "https://github.com/m5stack/M5Unit-ASR",
       "name": "M5UnitASR",
@@ -315608,7 +315642,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9644,
+    "with_github_metadata": 9645,
     "total_dependencies": 5232
   }
 }

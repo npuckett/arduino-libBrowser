@@ -1,6 +1,88 @@
 {
-  "since": "2026-08-17T11:05:06.032Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-17T12:04:17.828Z",
+  "new_libraries": [
+    {
+      "repository_name": "Blynk-Technologies/Edgent-Arduino",
+      "repository_url": "https://github.com/Blynk-Technologies/Edgent-Arduino",
+      "name": "BlynkEdgent",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-08-17T12:04:17.828Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-17T12:04:17.828Z",
+      "last_seen_sha": "b871721999d4",
+      "author": "Blynk",
+      "maintainer": "Volodymyr Shymanskyy <vshymanskyi@gmail.com>",
+      "sentence": "Blynk.Edgent for Arduino IDE.",
+      "paragraph": "WiFi provisioning (using BLE or WiFi-AP), secure Blynk.Cloud connectivity and OTA updates out of the box. Works with ESP32 and ESP8266 boards.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "samd"
+      ],
+      "license": "Apache-2.0",
+      "depends": [
+        "Blynk",
+        "ArduinoJson",
+        "ArduinoHttpClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Blynk-Technologies/BlynkEdgent-0.9.0.zip",
+      "size": 101509,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-17T08:06:20Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ScottMit/Pardalote-arduino",
+        "repository_url": "https://github.com/ScottMit/Pardalote-arduino",
+        "name": "Pardalote",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-15T02:20:56.350Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-17T12:04:17.828Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-15T02:20:56.350Z",
+        "last_seen_sha": "a31e8009f8e5",
+        "author": "Scott Mitchell",
+        "maintainer": "Scott Mitchell",
+        "sentence": "Control Arduino hardware directly from a web browser over WiFi.",
+        "paragraph": "Pardalote bridges Arduino and JavaScript over a binary WebSocket protocol. The Arduino-side library handles WiFi, the WebSocket server, board detection, and extension dispatch. Sketches reduce to Pardalote.begin() / Pardalote.run(). Extensions for Servo, NeoPixel, Ultrasonic, IMU, and ESP32 Camera are included as opt-in headers.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "renesas_uno"
+        ],
+        "license": "GPL-3.0-or-later",
+        "depends": [
+          "WebSockets"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ScottMit/Pardalote-1.1.0.zip",
+        "size": 149756,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-14T22:32:04Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

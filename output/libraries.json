@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-18T15:07:04.943Z",
+  "enhanced_at": "2026-08-18T16:05:19.619Z",
   "total_libraries": 9852,
-  "index_etag": "W/\"6ecd188928ffb4a34e540291b1bd5f36\"",
-  "index_last_modified": "Tue, 18 Aug 2026 14:59:12 GMT",
+  "index_etag": "W/\"bd2770f3e72b80e526dad7e4ef7261cc\"",
+  "index_last_modified": "Tue, 18 Aug 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -164653,7 +164653,7 @@
       "repository_name": "qqqlab/madflight",
       "repository_url": "https://github.com/qqqlab/madflight",
       "name": "madflight",
-      "version": "2.4.1",
+      "version": "2.4.2",
       "version_history": [
         {
           "version": "2.3.1",
@@ -164674,11 +164674,15 @@
         {
           "version": "2.4.1",
           "seen_at": "2026-08-11T20:12:52.073Z"
+        },
+        {
+          "version": "2.4.2",
+          "seen_at": "2026-08-18T16:05:19.493Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-29T09:14:32Z",
-      "last_seen_sha": "0ec46aa42023",
+      "last_seen_sha": "b6497ce9d8f6",
       "author": "qqqlab",
       "maintainer": "qqqlab <madflight@qqqlab.com>",
       "sentence": "Flight Controller for ESP32-S3 / ESP32 / RP2350 / RP2040 / STM32",
@@ -164688,9 +164692,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.4.1.zip",
-      "size": 12102836,
-      "previous_version": "2.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.4.2.zip",
+      "size": 12102197,
+      "previous_version": "2.4.1",
       "github_stars": 461,
       "github_forks": 80,
       "github_language": "C",
@@ -232626,16 +232630,20 @@
       "repository_name": "dejwk/roo_time",
       "repository_url": "https://github.com/dejwk/roo_time",
       "name": "roo_time",
-      "version": "1.4.4",
+      "version": "1.4.5",
       "version_history": [
         {
           "version": "1.4.4",
           "seen_at": "2026-03-19T07:35:24Z"
+        },
+        {
+          "version": "1.4.5",
+          "seen_at": "2026-08-18T16:05:19.493Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-19T07:35:24Z",
-      "last_seen_sha": "accc6e2c196f",
+      "last_seen_sha": "4f820703a94e",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
@@ -232644,11 +232652,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-1.4.5.zip",
+      "size": 18332,
+      "previous_version": "1.4.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-18T20:14:12Z",
-      "download_url": "https://github.com/dejwk/roo_time"
+      "github_updated_at": "2026-03-18T20:14:12Z"
     },
     {
       "repository_name": "dejwk/roo_time_ds3231",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-18T05:07:31.461Z",
+  "enhanced_at": "2026-08-18T06:05:47.853Z",
   "total_libraries": 9851,
-  "index_etag": "W/\"068228d4bb8dad9047375a8bd725e702\"",
-  "index_last_modified": "Tue, 18 Aug 2026 04:59:12 GMT",
+  "index_etag": "W/\"4e0a2a262dbdc8146433546937f642a1\"",
+  "index_last_modified": "Tue, 18 Aug 2026 05:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -179462,7 +179462,7 @@
       "repository_name": "Khuuxuanngoc/makereduvnlib",
       "repository_url": "https://github.com/Khuuxuanngoc/makereduvnlib",
       "name": "MKE_ONE",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "2.0.0",
@@ -179471,11 +179471,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-08-18T06:05:47.746Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-06T07:20:15Z",
-      "last_seen_sha": "bcbff5d52c53",
+      "last_seen_sha": "6d74e77d1d5d",
       "author": "MakerEdu.vn",
       "maintainer": "MakerEdu.vn",
       "sentence": "MakerEdu Core Library to simplify development for MakerEdu Boards and Educational Kits",
@@ -179499,11 +179503,15 @@
         "MKL_RTClib",
         "IRremote",
         "Makerlabvn_I2C_Line_Follower_Sensor",
-        "Blynk"
+        "Blynk",
+        "Adafruit NeoPixel",
+        "TinyGPSPlus",
+        "MakerEdu I2C Motor Driver",
+        "MKE I2C MP3"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.1.zip",
-      "size": 277697,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.2.zip",
+      "size": 339150,
+      "previous_version": "2.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -208544,16 +208552,20 @@
       "repository_name": "umeiko/PicoCamera",
       "repository_url": "https://github.com/umeiko/PicoCamera",
       "name": "PicoCamera",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-08-16T08:04:19.313Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-18T06:05:47.746Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-16T08:04:19.313Z",
-      "last_seen_sha": "f47a53027455",
+      "last_seen_sha": "725851e308cb",
       "author": "umeko",
       "maintainer": "umeko <umeko@stu.xmu.edu.cn>",
       "sentence": "Camera library for RP2040 with an esp32-camera compatible API.",
@@ -208562,8 +208574,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/umeiko/PicoCamera-0.2.0.zip",
-      "size": 748969,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/umeiko/PicoCamera-0.3.0.zip",
+      "size": 812894,
+      "previous_version": "0.2.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -315767,6 +315780,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9648,
-    "total_dependencies": 5236
+    "total_dependencies": 5240
   }
 }

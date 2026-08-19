@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-19T17:05:38.268Z",
+  "enhanced_at": "2026-08-19T18:04:24.474Z",
   "total_libraries": 9858,
-  "index_etag": "W/\"921e89b21b53651c78ccb06e807173fe\"",
-  "index_last_modified": "Wed, 19 Aug 2026 16:59:12 GMT",
+  "index_etag": "W/\"b8fff654afc16cd6e2b078a73984df38\"",
+  "index_last_modified": "Wed, 19 Aug 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -228344,18 +228344,22 @@
     },
     {
       "repository_name": "TMRh20/RF24Network",
-      "repository_url": "https://github.com/nRF24/RF24Network",
+      "repository_url": "https://github.com/TMRh20/RF24Network",
       "name": "RF24Network",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "2.1.1",
           "seen_at": "2026-06-30T08:50:59Z"
+        },
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-08-19T18:04:24.344Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:50:59Z",
-      "last_seen_sha": "273dc0c2adf9",
+      "last_seen_sha": "e838bfb7e44a",
       "author": "TMRh20",
       "maintainer": "TMRh20,Avamander",
       "sentence": "OSI Layer 3 Networking for nrf24L01(+) & nrf52x devices.",
@@ -228364,14 +228368,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 382,
-      "github_forks": 173,
-      "github_updated_at": "2026-06-29T23:34:40Z",
       "depends": [
         "RF24",
         "nrf_to_nrf"
       ],
-      "download_url": "https://nRF24.github.io/RF24Network/"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.1.2.zip",
+      "size": 1556315,
+      "previous_version": "2.1.1",
+      "github_stars": 382,
+      "github_forks": 173,
+      "github_updated_at": "2026-06-29T23:34:40Z"
     },
     {
       "repository_name": "sebmillet/RF433any",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-19T21:05:54.239Z",
-  "total_libraries": 9858,
-  "index_etag": "W/\"808ce81ccf96f5eb13bcf2d6a9c00618\"",
-  "index_last_modified": "Wed, 19 Aug 2026 20:59:12 GMT",
+  "enhanced_at": "2026-08-19T22:04:18.858Z",
+  "total_libraries": 9859,
+  "index_etag": "W/\"8b2efabac0c5524d418e933b115a4efe\"",
+  "index_last_modified": "Wed, 19 Aug 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23065,7 +23065,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.152",
+      "version": "1.2.153",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23406,11 +23406,15 @@
         {
           "version": "1.2.152",
           "seen_at": "2026-08-19T14:10:10.648Z"
+        },
+        {
+          "version": "1.2.153",
+          "seen_at": "2026-08-19T22:04:17.401Z"
         }
       ],
-      "release_count": 85,
+      "release_count": 86,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "51f642c3cca1",
+      "last_seen_sha": "61150b563fbe",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23431,9 +23435,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.152.zip",
-      "size": 44417971,
-      "previous_version": "1.2.151",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.153.zip",
+      "size": 44419448,
+      "previous_version": "1.2.152",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -155045,32 +155049,38 @@
       "repository_name": "VasilKalchev/LiquidMenu",
       "repository_url": "https://github.com/VasilKalchev/LiquidMenu",
       "name": "LiquidMenu",
-      "version": "1.6.0",
+      "version": "1.6.3",
       "version_history": [
         {
           "version": "1.6.0",
           "seen_at": "2026-04-27T08:22:28Z"
+        },
+        {
+          "version": "1.6.3",
+          "seen_at": "2026-08-19T22:04:17.401Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-27T08:22:28Z",
-      "last_seen_sha": "56b9eedd3be1",
+      "last_seen_sha": "efd3ce8be6cb",
       "author": "Vasil Kalchev <vase7u@gmail.com>",
       "maintainer": "Vasil Kalchev <vase7u@gmail.com>",
       "sentence": "Menu creation Arduino library for LCDs, wraps LiquidCrystal.",
       "paragraph": "LiquidMenu wraps the Arduino's LiquidCrystal library with the ability to create menus. It simplifies the menu creation process by abstracting the elements of a menu into hierarchically organized classes.",
       "category": "Display",
       "architectures": [
-        "avr"
+        "*"
       ],
-      "github_stars": 303,
-      "github_forks": 52,
-      "github_language": "C++",
-      "github_updated_at": "2026-04-27T00:14:52Z",
       "depends": [
         "LiquidCrystal"
       ],
-      "download_url": "https://github.com/VasilKalchev/LiquidMenu"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/VasilKalchev/LiquidMenu-1.6.3.zip",
+      "size": 4157082,
+      "previous_version": "1.6.0",
+      "github_stars": 303,
+      "github_forks": 52,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-27T00:14:52Z"
     },
     {
       "repository_name": "dantler/LircRemote101",
@@ -229490,6 +229500,38 @@
       "download_url": "https://github.com/sidoh/rich_http_server"
     },
     {
+      "repository_name": "ToasterForSale/RideLinkBLE",
+      "repository_url": "https://github.com/ToasterForSale/RideLinkBLE",
+      "name": "RideLinkBLE",
+      "version": "0.4.2",
+      "version_history": [
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-08-19T22:04:17.401Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-19T22:04:17.401Z",
+      "last_seen_sha": "3240324a508e",
+      "author": "Frederik Frederiksen",
+      "maintainer": "Frederik Frederiksen <frede@rocketship.com>",
+      "sentence": "Arduino BLE control and telemetry for compatible e-bike controllers.",
+      "paragraph": "Controls bike features and exposes decoded and raw telemetry through NimBLE-Arduino. Tested with the 2025 Fiido T2.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ToasterForSale/RideLinkBLE-0.4.2.zip",
+      "size": 17961,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-19T19:08:02Z"
+    },
+    {
       "repository_name": "wizard97/ArduinoRingBuffer",
       "repository_url": "https://github.com/wizard97/ArduinoRingBuffer",
       "name": "RingBuf",
@@ -244920,16 +244962,20 @@
       "repository_name": "BroadwellConsultingInc/SerialWombatArdLib",
       "repository_url": "https://github.com/BroadwellConsultingInc/SerialWombatArdLib",
       "name": "SerialWombat",
-      "version": "2.2.40",
+      "version": "2.2.41",
       "version_history": [
         {
           "version": "2.2.40",
           "seen_at": "2026-06-09T08:21:53Z"
+        },
+        {
+          "version": "2.2.41",
+          "seen_at": "2026-08-19T22:04:17.401Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-09T08:21:53Z",
-      "last_seen_sha": "16c38525a66f",
+      "last_seen_sha": "1f9a1b69a846",
       "author": "Broadwell Consulting Inc <help@serialwombat.com>",
       "maintainer": "Broadwell Consulting Inc <help@serialwombat.com>",
       "sentence": "A library to drive the Serial Wombat Family by UART or I2C.",
@@ -244938,11 +244984,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BroadwellConsultingInc/SerialWombat-2.2.41.zip",
+      "size": 33603891,
+      "previous_version": "2.2.40",
       "github_stars": 9,
       "github_forks": 3,
       "github_language": "C++",
-      "github_updated_at": "2026-06-08T16:09:37Z",
-      "download_url": "https://broadwellconsultinginc.github.io/SerialWombatArdLib/"
+      "github_updated_at": "2026-06-08T16:09:37Z"
     },
     {
       "repository_name": "BroadwellConsultingInc/SerialWombat18ABVGADriver",
@@ -316144,7 +316192,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9655,
-    "total_dependencies": 5277
+    "with_github_metadata": 9656,
+    "total_dependencies": 5278
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-19T03:16:41.331Z",
+  "enhanced_at": "2026-08-19T04:11:52.011Z",
   "total_libraries": 9853,
-  "index_etag": "W/\"388a555500623a97064c5c3639305b65\"",
-  "index_last_modified": "Wed, 19 Aug 2026 02:59:12 GMT",
+  "index_etag": "W/\"da28743df4971a160cdab9d04240f6e3\"",
+  "index_last_modified": "Wed, 19 Aug 2026 03:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23061,7 +23061,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.150",
+      "version": "1.2.151",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23394,11 +23394,15 @@
         {
           "version": "1.2.150",
           "seen_at": "2026-08-17T02:25:02.433Z"
+        },
+        {
+          "version": "1.2.151",
+          "seen_at": "2026-08-19T04:11:51.866Z"
         }
       ],
-      "release_count": 83,
+      "release_count": 84,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "38711f521c36",
+      "last_seen_sha": "e8744575ad9f",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23419,9 +23423,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.150.zip",
-      "size": 44407047,
-      "previous_version": "1.2.148",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.151.zip",
+      "size": 44417737,
+      "previous_version": "1.2.150",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -38837,7 +38841,7 @@
       "repository_name": "TMRh20/AutoAnalogAudio",
       "repository_url": "https://github.com/TMRh20/AutoAnalogAudio",
       "name": "AutoAnalogAudio",
-      "version": "1.55.3",
+      "version": "1.55.4",
       "version_history": [
         {
           "version": "1.54.0",
@@ -38854,11 +38858,15 @@
         {
           "version": "1.55.3",
           "seen_at": "2026-08-10T06:23:36.279Z"
+        },
+        {
+          "version": "1.55.4",
+          "seen_at": "2026-08-19T04:11:51.866Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-20T08:45:36Z",
-      "last_seen_sha": "e935f9315d9e",
+      "last_seen_sha": "6e10409d7260",
       "author": "TMRh20",
       "maintainer": "TMRh20",
       "sentence": "Automated analog reads and analog output (streaming) using Arduino DAC(or PWM), ADC, DMA and Timers",
@@ -38871,9 +38879,9 @@
         "nrf52",
         "renesas"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/AutoAnalogAudio-1.55.3.zip",
-      "size": 102072744,
-      "previous_version": "1.55.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/AutoAnalogAudio-1.55.4.zip",
+      "size": 102076695,
+      "previous_version": "1.55.3",
       "github_stars": 144,
       "github_forks": 37,
       "github_language": "C++",
@@ -249107,7 +249115,7 @@
       "repository_name": "NachtRaveVL/Simple-Hydroponics-Arduino",
       "repository_url": "https://github.com/NachtRaveVL/Simple-Hydroponics-Arduino",
       "name": "Simple-Hydroponics-Arduino",
-      "version": "0.6.0",
+      "version": "0.7.1",
       "version_history": [
         {
           "version": "0.6.8.0",
@@ -249116,22 +249124,31 @@
         {
           "version": "0.6.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-08-19T04:11:51.866Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-04T07:43:27Z",
-      "last_seen_sha": "7d2c27406f12",
+      "last_seen_sha": "6f7fa9cc0e93",
       "author": "NachtRaveVL <nachtravevl@gmail.com>",
       "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
       "sentence": "Hydruino: Simple automation controller for hydroponic grow systems.",
-      "paragraph": "Allows one to set up a system of reservoirs, pumps, probes, relays, and other objects useful in automating the daily lighting, feed dosing, watering, and data monitoring & collection processes involved in hydroponically grown fruits, vegetables, teas, herbs, and salves. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Contains a large library of crop data to select from that will automatically aim the system for the best growing parameters during the various growth phases for the system configured, along with fully customizable weekly feed/additive amounts and daily feeding/lighting scheduling. With the right setup Hydruino can automatically do things like: enable grow lights for the needed period each day, drive water pumps and auto-dosers during feedings, spray leafy plants in the morning before lights/sunrise, heat cold water to a specific temp for tropical plants, use CO2 sensors to manage air circulation fans to maintain optimal grow tent parameters, or even use soil moisture sensing to dynamically determine watering schedule.",
+      "paragraph": "Allows one to set up a system of reservoirs, pumps, probes, relays, and other objects useful in automating the daily lighting, feed dosing, watering, and data monitoring & collection processes involved in hydroponically grown fruits, vegetables, teas, herbs, and salves. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Contains a large library of crop data to select from that will automatically aim the system for the best growing parameters during the various growth phases for the system configured, along with fully customizable weekly feed/additive amounts and daily feeding/lighting scheduling. With the right setup Hydruino can automatically do things like: enable grow lights for the needed period each day (potentially only turning on to augment daily sunlight hours), drive water pumps and auto-dosers during feedings, spray leafy plants in the morning before lights/sunrise, heat cold water to a specific temp for tropical plants, use CO2 sensors to manage air circulation fans to maintain optimal grow tent parameters, remind when to prune plants, or even use soil moisture sensing to dynamically determine watering schedule.",
       "category": "Other",
       "architectures": [
         "*"
       ],
       "depends": [
         "Adafruit BusIO",
+        "Adafruit FT6206 Library",
+        "Adafruit GFX Library",
         "Adafruit GPS Library",
+        "Adafruit ILI9341",
+        "Adafruit ST7735 and ST7789 Library",
+        "Adafruit TouchScreen",
         "Adafruit Unified Sensor",
         "ArduinoJson",
         "ArxContainer",
@@ -249141,21 +249158,26 @@
         "I2C_EEPROM",
         "IoAbstraction",
         "LiquidCrystalIO",
+        "MQTT",
         "OneWire",
         "RTClib",
         "SimpleCollections",
         "SD",
         "SolarCalculator",
         "TaskManagerIO",
+        "tcUnicodeHelper",
         "tcMenu",
+        "TFT_eSPI",
         "Time",
+        "U8g2",
         "WiFiEspAT",
         "WiFiNINA_Generic",
-        "WiFi101"
+        "WiFi101",
+        "XPT2046_Touchscreen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Hydroponics_Arduino-0.6.0.zip",
-      "size": 14875534,
-      "previous_version": "0.6.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Hydroponics_Arduino-0.7.1.zip",
+      "size": 15168445,
+      "previous_version": "0.6.0",
       "github_stars": 90,
       "github_forks": 10,
       "github_language": "C++",
@@ -249165,7 +249187,7 @@
       "repository_name": "NachtRaveVL/Simple-SolarTracker-Arduino",
       "repository_url": "https://github.com/NachtRaveVL/Simple-SolarTracker-Arduino",
       "name": "Simple-SolarTracker-Arduino",
-      "version": "0.6.0",
+      "version": "0.7.1",
       "version_history": [
         {
           "version": "0.6.8.0",
@@ -249174,22 +249196,31 @@
         {
           "version": "0.6.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-08-19T04:11:51.866Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-09-19T07:36:26Z",
-      "last_seen_sha": "1d3959817fa6",
+      "last_seen_sha": "61463caf761d",
       "author": "NachtRaveVL <nachtravevl@gmail.com>",
       "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
       "sentence": "Helioduino: Simple automation controller for solar tracking systems.",
-      "paragraph": "Allows one to set up a system of panels, servos, LDRs, relays, and other objects useful in controlling both single and double axis sun tracking solar panel systems, and provides data monitoring & collection abilities while operating panel axis servos and/or linear actuators across the day as the sun moves to maintain optimal panel alignment. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Can be setup to calculate sun position accurately as possible or to auto-balance two opposing photoresistors per panel axis. With the right setup Helioduino can automatically do things like: drive large panels with linear actuators, use power sensing to auto-optimize daily panel offset, spray/wipe panels on routine to keep panels clean, deploy/retract panels at sunrise/sunset, or even provide panel heating during cold temperatures or when ice is detected.",
+      "paragraph": "Allows one to set up a system of panels, servos, LDRs, relays, and other objects useful in controlling both single and dual axis sun tracking solar panel systems, and provides data monitoring & collection abilities while operating panel axis servos and/or linear actuators across the day as the sun moves to maintain optimal panel alignment. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Can be setup to calculate sun position accurately as possible or to auto-balance two opposing photoresistors per panel axis. With the right setup Helioduino can automatically do things like: drive large panels with multiple in-step linear actuators, engaging axis brakes to prevent large panels from moving/taking strain off motors that can then disengage, spray/wipe panels on routine to keep panels clean, deploy panels at sunrise and retract at sunset or when its too windy out, remind when to realign panels, or even provide panel heating during cold temperatures or when ice is detected.",
       "category": "Other",
       "architectures": [
         "*"
       ],
       "depends": [
         "Adafruit BusIO",
+        "Adafruit FT6206 Library",
+        "Adafruit GFX Library",
         "Adafruit GPS Library",
+        "Adafruit ILI9341",
+        "Adafruit ST7735 and ST7789 Library",
+        "Adafruit TouchScreen",
         "Adafruit Unified Sensor",
         "ArduinoJson",
         "ArxContainer",
@@ -249198,21 +249229,26 @@
         "I2C_EEPROM",
         "IoAbstraction",
         "LiquidCrystalIO",
+        "MQTT",
         "OneWire",
         "RTClib",
         "SimpleCollections",
         "SD",
         "SolarCalculator",
         "TaskManagerIO",
+        "tcUnicodeHelper",
         "tcMenu",
+        "TFT_eSPI",
         "Time",
+        "U8g2",
         "WiFiEspAT",
         "WiFiNINA_Generic",
-        "WiFi101"
+        "WiFi101",
+        "XPT2046_Touchscreen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_SolarTracker_Arduino-0.6.0.zip",
-      "size": 916751,
-      "previous_version": "0.6.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_SolarTracker_Arduino-0.7.1.zip",
+      "size": 1205094,
+      "previous_version": "0.6.0",
       "github_stars": 37,
       "github_forks": 2,
       "github_language": "C++",
@@ -315885,6 +315921,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9650,
-    "total_dependencies": 5241
+    "total_dependencies": 5261
   }
 }

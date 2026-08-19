@@ -1,6 +1,213 @@
 {
-  "since": "2026-08-19T05:08:18.576Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-19T06:05:47.239Z",
+  "new_libraries": [
+    {
+      "repository_name": "iskakfatoni/IskakINO",
+      "repository_url": "https://github.com/iskakfatoni/IskakINO",
+      "name": "IskakINO",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-19T06:05:47.239Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-19T06:05:47.239Z",
+      "last_seen_sha": "a98b29d16a39",
+      "author": "Iskak Fatoni",
+      "maintainer": "Iskak Fatoni",
+      "sentence": "Unified IskakINO ecosystem: fast GPIO, storage, LCD, WiFi portal, NTP, and DFPlayer voice control in one library.",
+      "paragraph": "Penggabungan seluruh ekosistem IskakINO (ArduFast, Storage, LiquidCrystal_I2C, WifiPortal, FastNTP, SmartVoice) menjadi satu library dengan shared core. Modul universal (ArduFast, Storage, LCD, SmartVoice) bekerja di platform AVR, ESP32, dan ESP8266; modul WifiPortal dan FastNTP otomatis hanya aktif di board ESP32/ESP8266. Menggantikan library IskakINO_ArduFast, IskakINO_Storage, IskakINO_LiquidCrystal_I2C, IskakINO_WifiPortal, IskakINO_FastNTP, dan IskakINO_SmartVoice yang kini deprecated.",
+      "category": "Other",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO-1.0.0.zip",
+      "size": 108439,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-19T05:36:51Z"
+    },
+    {
+      "repository_name": "NachtRaveVL/Simple-AstroTracker-Arduino",
+      "repository_url": "https://github.com/NachtRaveVL/Simple-AstroTracker-Arduino",
+      "name": "Simple-AstroTracker-Arduino",
+      "version": "0.7.1",
+      "version_history": [
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-08-19T06:05:47.239Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-19T06:05:47.239Z",
+      "last_seen_sha": "adc226a3fa28",
+      "author": "NachtRaveVL <nachtravevl@gmail.com>",
+      "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
+      "sentence": "Astruino: Simple automation controller for DIY astronomical tracking systems.",
+      "paragraph": "Controls hobbyist telescope mounts, covers, cameras, heaters, coolers, fans, sensors, logging, publishing, and night scheduling with offline-first celestial tracking and a built-in target catalog.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "ArxContainer",
+        "ArxSmartPtr",
+        "I2C_EEPROM",
+        "IoAbstraction",
+        "RTClib",
+        "TaskManagerIO",
+        "tcMenu",
+        "Time"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_AstroTracker_Arduino-0.7.1.zip",
+      "size": 243852,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-19T02:48:53Z"
+    },
+    {
+      "repository_name": "NachtRaveVL/Simple-Homestead-Arduino",
+      "repository_url": "https://github.com/NachtRaveVL/Simple-Homestead-Arduino",
+      "name": "Simple-Homestead-Arduino",
+      "version": "0.7.1",
+      "version_history": [
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-08-19T06:05:47.239Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-19T06:05:47.239Z",
+      "last_seen_sha": "af347002f2cf",
+      "author": "NachtRaveVL <nachtravevl@gmail.com>",
+      "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
+      "sentence": "Terraduino: Simple automation controller for homestead resource and environmental systems using Arduino-compatible microcontrollers.",
+      "paragraph": "Provides reusable objects and control logic for rainwater harvesting, cisterns, wells, pumps, valves, water routing, thermal storage, circulation, weather and environmental sensing, scheduling, logging, data publishing, persistence, and optional remote sensor integration. Terraduino is designed to operate locally without an internet connection or cloud service. Networking and external transports can be added when required.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "IoAbstraction",
+        "TaskManagerIO",
+        "tcMenu"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Homestead_Arduino-0.7.1.zip",
+      "size": 231909,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-19T02:49:02Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "gravitech-engineer/AIS_IoT_4G",
+        "repository_url": "https://github.com/gravitech-engineer/AIS_IoT_4G",
+        "name": "AIS 4G board",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.3.1",
+            "seen_at": "2025-07-21T16:15:20Z"
+          },
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-07-15T06:40:57.974Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-07-15T10:32:10.946Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-08-19T06:05:47.239Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-07-21T16:15:20Z",
+        "last_seen_sha": "7e5eec55579a",
+        "author": "AIS",
+        "maintainer": "Gravitech Thai",
+        "sentence": "Enables AIS 4G network connection use by AIS 4G Board",
+        "paragraph": "Allows you to connect to the internet via AIS 4G networks",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gravitech-engineer/AIS_4G_board-1.4.0.zip",
+        "size": 832700,
+        "previous_version": "1.3.7",
+        "github_stars": 25,
+        "github_forks": 17,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-19T03:24:22Z"
+      },
+      "old_version": "1.3.7",
+      "new_version": "1.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "AIS-DeviceInnovation/Magellan",
+        "repository_url": "https://github.com/AIS-DeviceInnovation/Magellan",
+        "name": "MAGELLAN",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.2.2",
+            "seen_at": "2025-12-01T07:10:32Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-07-15T08:44:20.087Z"
+          },
+          {
+            "version": "1.4.1",
+            "seen_at": "2026-07-15T12:25:39.232Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-08-19T06:05:47.239Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-12-01T07:10:32Z",
+        "last_seen_sha": "7fb08fa5c2f1",
+        "author": "AIS IoT Alliance Program",
+        "maintainer": "MAGELLAN POC devices team <aisiot2020@gmail.com>",
+        "sentence": "AIS Magellan Library; Provide Function MAGELLAN API v.2 MQTT Connect for ESP32 and ESP8266 Board and Device Support Client internet interface",
+        "paragraph": "compatible with Magellan",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AIS-DeviceInnovation/MAGELLAN-2.0.0.zip",
+        "size": 272260,
+        "previous_version": "1.4.1",
+        "github_stars": 5,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-18T08:53:06Z"
+      },
+      "old_version": "1.4.1",
+      "new_version": "2.0.0"
+    }
+  ],
   "removed_libraries": []
 }

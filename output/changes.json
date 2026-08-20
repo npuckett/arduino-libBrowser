@@ -1,6 +1,68 @@
 {
-  "since": "2026-08-20T01:28:25.749Z",
-  "new_libraries": [],
+  "since": "2026-08-20T02:23:35.155Z",
+  "new_libraries": [
+    {
+      "repository_name": "adafruit/Adafruit_TMF8801",
+      "repository_url": "https://github.com/adafruit/Adafruit_TMF8801",
+      "name": "Adafruit TMF8801",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-20T02:23:35.155Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T02:23:35.155Z",
+      "last_seen_sha": "607328acc587",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the TMF8801 Time-of-Flight distance sensor.",
+      "paragraph": "Supports continuous and single-shot ranging, result interrupts, factory calibration, algorithm-state replay, GPIO configuration, and standby mode.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TMF8801-1.0.0.zip",
+      "size": 249451,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-08-19T22:46:40Z"
+    },
+    {
+      "repository_name": "codewitch-honey-crisis/htcw_multibutton",
+      "repository_url": "https://github.com/codewitch-honey-crisis/htcw_multibutton",
+      "name": "htcw_multibutton",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-20T02:23:35.155Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T02:23:35.155Z",
+      "last_seen_sha": "9cfd895c6692",
+      "author": "honey the codewitch",
+      "maintainer": "honey the codewitch",
+      "sentence": "A simple button library written in C",
+      "paragraph": "Implements a button handler that can report multiple successive clicks and long clicks",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_multibutton-0.1.0.zip",
+      "size": 7403,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-19T22:50:52Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

@@ -1,6 +1,41 @@
 {
-  "since": "2026-08-20T21:05:52.948Z",
-  "new_libraries": [],
+  "since": "2026-08-20T22:04:31.342Z",
+  "new_libraries": [
+    {
+      "repository_name": "BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+      "repository_url": "https://github.com/BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+      "name": "KeyValueDatabase",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-20T22:04:31.342Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T22:04:31.342Z",
+      "last_seen_sha": "de64d60d2525",
+      "author": "Bojan Jurca",
+      "maintainer": "Bojan Jurca <bojan@gmail.com>",
+      "sentence": "Fast, thread-safe key-value database for ESP32 with block-level optimization.",
+      "paragraph": "Provides a lightweight, crash-resilient key-value store built on top of ESP32 LittleFS.",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "depends": [
+        "LightweightSTL",
+        "ThreadSafeFS"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/KeyValueDatabase-1.0.1.zip",
+      "size": 16722,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-20T17:44:01Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

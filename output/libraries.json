@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-20T21:05:53.052Z",
-  "total_libraries": 9865,
-  "index_etag": "W/\"2b024d7e06bb48b0cb53051d1efe2bbd\"",
-  "index_last_modified": "Thu, 20 Aug 2026 20:59:12 GMT",
+  "enhanced_at": "2026-08-20T22:04:32.873Z",
+  "total_libraries": 9866,
+  "index_etag": "W/\"bbf01260e4835e9277e14065c2895b8a\"",
+  "index_last_modified": "Thu, 20 Aug 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -145469,6 +145469,40 @@
       "github_language": "C++",
       "github_updated_at": "2025-02-10T10:15:35Z",
       "download_url": "https://github.com/roncoa/KeySequence"
+    },
+    {
+      "repository_name": "BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+      "repository_url": "https://github.com/BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+      "name": "KeyValueDatabase",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-20T22:04:31.342Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T22:04:31.342Z",
+      "last_seen_sha": "de64d60d2525",
+      "author": "Bojan Jurca",
+      "maintainer": "Bojan Jurca <bojan@gmail.com>",
+      "sentence": "Fast, thread-safe key-value database for ESP32 with block-level optimization.",
+      "paragraph": "Provides a lightweight, crash-resilient key-value store built on top of ESP32 LittleFS.",
+      "category": "Data Storage",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "depends": [
+        "LightweightSTL",
+        "ThreadSafeFS"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/KeyValueDatabase-1.0.1.zip",
+      "size": 16722,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-20T17:44:01Z"
     },
     {
       "repository_name": "Tomarun029831/kic_notation",
@@ -316420,7 +316454,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9662,
-    "total_dependencies": 5261
+    "with_github_metadata": 9663,
+    "total_dependencies": 5263
   }
 }

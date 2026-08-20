@@ -1,6 +1,79 @@
 {
-  "since": "2026-08-20T19:12:19.857Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-20T20:05:03.042Z",
+  "new_libraries": [
+    {
+      "repository_name": "PedroFnseca/esp32-mcp",
+      "repository_url": "https://github.com/PedroFnseca/esp32-mcp",
+      "name": "ESP32-MCP",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-20T20:05:03.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T20:05:03.042Z",
+      "last_seen_sha": "e6dad3948449",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca",
+      "sentence": "A lightweight Model Context Protocol (MCP) Server library for ESP32.",
+      "paragraph": "ESP32-MCP enables ESP32 microcontrollers to act as MCP Servers, exposing hardware peripherals, sensors, actuators, and custom tools to AI agents (Claude Desktop, Gemini, Cursor, custom agents) over standard JSON-RPC.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_MCP-0.1.0.zip",
+      "size": 28554,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-20T16:24:41Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "BojanJurca/Lightweight-Standard-Template-Library-STL-for-Arduino",
+        "repository_url": "https://github.com/BojanJurca/Lightweight-Standard-Template-Library-STL-for-Arduino",
+        "name": "LightweightSTL",
+        "version": "1.0.14",
+        "version_history": [
+          {
+            "version": "1.0.13",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.14",
+            "seen_at": "2026-08-20T20:05:03.042Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "4a978a2141d3",
+        "author": "Bojan Jurca",
+        "maintainer": "Bojan Jurca <bojan@gmail.com>",
+        "sentence": "C++ STL containers and streams for Arduino, with error flags and PSRAM support.",
+        "paragraph": "Provides iostream, vector, list, queue, map and locale-like formatting for Arduino platforms. Exception-free design with errorFlags for safe runtime diagnostics. Supports PSRAM on compatible boards.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/LightweightSTL-1.0.14.zip",
+        "size": 66972,
+        "previous_version": "1.0.13",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-25T18:25:38Z"
+      },
+      "old_version": "1.0.13",
+      "new_version": "1.0.14"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-20T19:12:19.986Z",
-  "total_libraries": 9864,
-  "index_etag": "W/\"2f394aee6ff272d49fb6f16408b53e31\"",
-  "index_last_modified": "Thu, 20 Aug 2026 18:59:12 GMT",
+  "enhanced_at": "2026-08-20T20:05:04.510Z",
+  "total_libraries": 9865,
+  "index_etag": "W/\"2b024d7e06bb48b0cb53051d1efe2bbd\"",
+  "index_last_modified": "Thu, 20 Aug 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -99597,6 +99597,38 @@
       "github_updated_at": "2026-07-18T18:56:47Z"
     },
     {
+      "repository_name": "PedroFnseca/esp32-mcp",
+      "repository_url": "https://github.com/PedroFnseca/esp32-mcp",
+      "name": "ESP32-MCP",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-20T20:05:03.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-20T20:05:03.042Z",
+      "last_seen_sha": "e6dad3948449",
+      "author": "Pedro Fonseca",
+      "maintainer": "Pedro Fonseca",
+      "sentence": "A lightweight Model Context Protocol (MCP) Server library for ESP32.",
+      "paragraph": "ESP32-MCP enables ESP32 microcontrollers to act as MCP Servers, exposing hardware peripherals, sensors, actuators, and custom tools to AI agents (Claude Desktop, Gemini, Cursor, custom agents) over standard JSON-RPC.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_MCP-0.1.0.zip",
+      "size": 28554,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-20T16:24:41Z"
+    },
+    {
       "repository_name": "scottchiefbaker/ESP-WebOTA",
       "repository_url": "https://github.com/scottchiefbaker/ESP-WebOTA",
       "name": "ESP32-OTA",
@@ -153441,16 +153473,20 @@
       "repository_name": "BojanJurca/Lightweight-Standard-Template-Library-STL-for-Arduino",
       "repository_url": "https://github.com/BojanJurca/Lightweight-Standard-Template-Library-STL-for-Arduino",
       "name": "LightweightSTL",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "version_history": [
         {
           "version": "1.0.13",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.14",
+          "seen_at": "2026-08-20T20:05:03.042Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "8b55d288ff1c",
+      "last_seen_sha": "4a978a2141d3",
       "author": "Bojan Jurca",
       "maintainer": "Bojan Jurca <bojan@gmail.com>",
       "sentence": "C++ STL containers and streams for Arduino, with error flags and PSRAM support.",
@@ -153460,8 +153496,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/LightweightSTL-1.0.13.zip",
-      "size": 67143,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/LightweightSTL-1.0.14.zip",
+      "size": 66972,
+      "previous_version": "1.0.13",
       "github_stars": 3,
       "github_forks": 1,
       "github_language": "C++",
@@ -316383,7 +316420,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9661,
-    "total_dependencies": 5260
+    "with_github_metadata": 9662,
+    "total_dependencies": 5261
   }
 }

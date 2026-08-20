@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-20T15:09:26.051Z",
+  "enhanced_at": "2026-08-20T16:06:16.360Z",
   "total_libraries": 9864,
-  "index_etag": "W/\"d06be5eb2a59ab968928cb48dce77e7c\"",
-  "index_last_modified": "Thu, 20 Aug 2026 14:59:12 GMT",
+  "index_etag": "W/\"94071c286de71abd3c1ebfc2ed0094dd\"",
+  "index_last_modified": "Thu, 20 Aug 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -27783,16 +27783,20 @@
       "repository_name": "arduino-libraries/Arduino_CloudUtils",
       "repository_url": "https://github.com/arduino-libraries/Arduino_CloudUtils",
       "name": "Arduino_CloudUtils",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-06-11T08:39:26Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-08-20T16:06:16.230Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-11T08:39:26Z",
-      "last_seen_sha": "9870296575f2",
+      "last_seen_sha": "a6d6b2e8f42c",
       "author": "Arduino",
       "maintainer": "Arduino <info@arduino.cc>",
       "sentence": "Utility module for features related to ArduinoCloud and Cloud in general",
@@ -27801,11 +27805,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_CloudUtils-1.2.1.zip",
+      "size": 298996,
+      "previous_version": "1.2.0",
       "github_stars": 1,
       "github_forks": 3,
       "github_language": "C",
-      "github_updated_at": "2026-06-10T10:43:24Z",
-      "download_url": "https://github.com/arduino-libraries/Arduino_CloudUtils"
+      "github_updated_at": "2026-06-10T10:43:24Z"
     },
     {
       "repository_name": "arduino-libraries/Arduino_CMSIS-DSP",
@@ -29929,16 +29935,20 @@
       "repository_name": "arduino-libraries/Arduino_Video",
       "repository_url": "https://github.com/arduino-libraries/Arduino_Video",
       "name": "Arduino_Video",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-18T08:44:57Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-20T16:06:16.230Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-18T08:44:57Z",
-      "last_seen_sha": "0a7d5f8114ec",
+      "last_seen_sha": "ff6b696f8623",
       "author": "Arduino",
       "maintainer": "Arduino <info@arduino.cc>",
       "sentence": "Video and display driver library for high-performance Arduino boards.",
@@ -29947,16 +29957,18 @@
       "architectures": [
         "zephyr_main"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-16T13:59:50Z",
       "depends": [
         "ArduinoGraphics",
         "Arduino_GigaDisplayTouch",
         "lvgl"
       ],
-      "download_url": "https://github.com/arduino-libraries/Arduino_Video"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_Video-1.0.1.zip",
+      "size": 246035,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-16T13:59:50Z"
     },
     {
       "repository_name": "coddingtonbear/arduino-async-duplex",
@@ -65978,7 +65990,7 @@
       "repository_name": "FMazz97/CS123x",
       "repository_url": "https://github.com/FMazz97/CS123x",
       "name": "CS123x",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -65987,11 +65999,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-08-19T10:05:37.437Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-20T16:06:16.230Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-18T10:05:32.941Z",
-      "last_seen_sha": "e4e62d95d12e",
+      "last_seen_sha": "d0d096167dd3",
       "author": "FMazz97",
       "maintainer": "FMazz97",
       "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit ADCs (load cells, weight scales).",
@@ -66000,9 +66016,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.0.1.zip",
-      "size": 4264581,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.0.2.zip",
+      "size": 4265536,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -138474,7 +138490,7 @@
       "repository_name": "e-radionicacom/Inkplate-6-Arduino-library",
       "repository_url": "https://github.com/e-radionicacom/Inkplate-6-Arduino-library",
       "name": "InkplateLibrary",
-      "version": "11.1.3",
+      "version": "11.1.4",
       "version_history": [
         {
           "version": "11.1.1",
@@ -138487,11 +138503,15 @@
         {
           "version": "11.1.3",
           "seen_at": "2026-08-06T10:50:59.966Z"
+        },
+        {
+          "version": "11.1.4",
+          "seen_at": "2026-08-20T16:06:16.230Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-24T08:20:10Z",
-      "last_seen_sha": "eb138ccd39b6",
+      "last_seen_sha": "f6896b8f19b9",
       "author": "Soldered <hello@soldered.com>",
       "maintainer": "David Zovko <hello@soldered.com>",
       "sentence": "Inkplate boards driver library",
@@ -138500,9 +138520,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/e-radionicacom/InkplateLibrary-11.1.3.zip",
-      "size": 49221000,
-      "previous_version": "11.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/e-radionicacom/InkplateLibrary-11.1.4.zip",
+      "size": 49229218,
+      "previous_version": "11.1.3",
       "github_stars": 303,
       "github_forks": 93,
       "github_language": "C",
@@ -169801,7 +169821,7 @@
       "repository_name": "RobTillaart/MCP_ADC",
       "repository_url": "https://github.com/RobTillaart/MCP_ADC",
       "name": "MCP_ADC",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "version_history": [
         {
           "version": "0.5.1",
@@ -169810,11 +169830,15 @@
         {
           "version": "0.5.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.5.3",
+          "seen_at": "2026-08-20T16:06:16.230Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:27:39Z",
-      "last_seen_sha": "88f7fe37c22e",
+      "last_seen_sha": "eed50d22cce1",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for MCP_ADC, e.g. MCP3008 SPI 10 bit, 8 channel ADC",
@@ -169823,9 +169847,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MCP_ADC-0.5.2.zip",
-      "size": 27233,
-      "previous_version": "0.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MCP_ADC-0.5.3.zip",
+      "size": 28974,
+      "previous_version": "0.5.2",
       "github_stars": 22,
       "github_forks": 5,
       "github_language": "C++",

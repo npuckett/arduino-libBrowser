@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-21T03:19:39.792Z",
-  "total_libraries": 9866,
-  "index_etag": "W/\"50ba679fb90174b5da21c3d207a8ab2e\"",
-  "index_last_modified": "Fri, 21 Aug 2026 02:59:12 GMT",
+  "enhanced_at": "2026-08-21T04:12:21.567Z",
+  "total_libraries": 9867,
+  "index_etag": "W/\"cdcb928ffcd088166a26f3da30d388b6\"",
+  "index_last_modified": "Fri, 21 Aug 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105820,7 +105820,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.8",
+      "version": "2.7.9",
       "version_history": [
         {
           "version": "2.0.1",
@@ -105913,11 +105913,15 @@
         {
           "version": "2.7.8",
           "seen_at": "2026-08-13T14:25:57.482Z"
+        },
+        {
+          "version": "2.7.9",
+          "seen_at": "2026-08-21T04:12:20.166Z"
         }
       ],
-      "release_count": 23,
+      "release_count": 24,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "17fafbecb465",
+      "last_seen_sha": "23683c9436d5",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -105926,9 +105930,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.8.zip",
-      "size": 1175340,
-      "previous_version": "2.7.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.9.zip",
+      "size": 1303257,
+      "previous_version": "2.7.8",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -108162,16 +108166,20 @@
       "repository_name": "meta-pytorch/executorch-arduino",
       "repository_url": "https://github.com/meta-pytorch/executorch-arduino",
       "name": "ExecuTorch",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-08-13T00:13:36.907Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-08-21T04:12:20.166Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-13T00:13:36.907Z",
-      "last_seen_sha": "6f0e783b3c32",
+      "last_seen_sha": "91a5c8fc3d55",
       "author": "Meta Platforms",
       "maintainer": "ExecuTorch Team <executorch@meta.com>",
       "sentence": "Run PyTorch models on Arduino microcontrollers with ExecuTorch.",
@@ -108183,8 +108191,9 @@
       "depends": [
         "Arduino_RouterBridge"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/meta-pytorch/ExecuTorch-0.1.0.zip",
-      "size": 1420247,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/meta-pytorch/ExecuTorch-0.2.0.zip",
+      "size": 1424890,
+      "previous_version": "0.1.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -240031,6 +240040,35 @@
       "download_url": "https://github.com/SmartElecRu/ArduinoIDE_SE_EEPROM"
     },
     {
+      "repository_name": "charleszyong/SeaPerchDepthSensor",
+      "repository_url": "https://github.com/charleszyong/SeaPerchDepthSensor",
+      "name": "SeaPerchDepthSensor",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-21T04:12:20.166Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-21T04:12:20.166Z",
+      "last_seen_sha": "af187bffe5a9",
+      "author": "Charles Yong <charles@vassarrobotics.com>",
+      "maintainer": "Charles Yong <charles@vassarrobotics.com>",
+      "sentence": "Reads SeaPerch depth safely without allowing I2C faults to freeze the sketch.",
+      "paragraph": "Provides startup zero calibration, validated LPS35HW pressure and temperature readings, bounded I2C timeouts, bus recovery, and freshwater or saltwater depth conversion for Arduino Renesas UNO-core projects.",
+      "category": "Sensors",
+      "architectures": [
+        "renesas_uno"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/charleszyong/SeaPerchDepthSensor-1.0.0.zip",
+      "size": 12706,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-21T00:24:11Z"
+    },
+    {
       "repository_name": "leomil72/secTimer",
       "repository_url": "https://github.com/leomil72/secTimer",
       "name": "secTimer",
@@ -316458,7 +316496,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9663,
+    "with_github_metadata": 9664,
     "total_dependencies": 5263
   }
 }

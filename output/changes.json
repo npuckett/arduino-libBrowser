@@ -1,53 +1,6 @@
 {
-  "since": "2026-08-21T08:10:46.295Z",
+  "since": "2026-08-21T09:11:14.790Z",
   "new_libraries": [],
-  "updated_libraries": [
-    {
-      "library": {
-        "repository_name": "PowerBroker2/SafeString",
-        "repository_url": "https://github.com/PowerBroker2/SafeString",
-        "name": "SafeString",
-        "version": "4.1.45",
-        "version_history": [
-          {
-            "version": "4.1.41",
-            "seen_at": "2025-07-21T16:25:09Z"
-          },
-          {
-            "version": "4.1.43",
-            "seen_at": "2026-06-30T22:37:15.403Z"
-          },
-          {
-            "version": "4.1.44",
-            "seen_at": "2026-08-14T06:25:47.902Z"
-          },
-          {
-            "version": "4.1.45",
-            "seen_at": "2026-08-21T08:10:46.295Z"
-          }
-        ],
-        "release_count": 4,
-        "first_seen_at": "2025-07-21T16:25:09Z",
-        "last_seen_sha": "45ee89c69034",
-        "author": "Matthew Ford",
-        "maintainer": "Matthew Ford",
-        "sentence": "A Safe, Static String library to replace Arduino String, plus non-blocking Serial I/O, I/O buffering, loopTimer and millisDelay",
-        "paragraph": "Use SafeString_AI_Guide.md to give AI coding assistant context about this library. See README.md for revision notes.  This library implements Safe (static) Strings which never cause reboots and has extensive debugging messages. Includes SafeStringReader: non-blocking tokenizing text reader, BufferedOutput: non-blocking text output, BufferedInput: extra buffering for text input, SafeStringStream: a test stream for repeatable testing of input code, SerialComs: checksummed messages between Arduinos via Serial, loopTimer: track of the maximum and average run times for the loop, PinFlasher: non-blocking flashing on an output Pin and millisDelay: a non-blocking delay, with single-shot, repeating, restart and stop facilities.",
-        "category": "Data Processing",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/PowerBroker2/SafeString-4.1.45.zip",
-        "size": 1376944,
-        "previous_version": "4.1.44",
-        "github_stars": 44,
-        "github_forks": 11,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-27T09:00:50Z"
-      },
-      "old_version": "4.1.44",
-      "new_version": "4.1.45"
-    }
-  ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

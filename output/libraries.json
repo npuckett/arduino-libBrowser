@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-21T19:09:37.612Z",
+  "enhanced_at": "2026-08-21T20:03:13.377Z",
   "total_libraries": 9867,
-  "index_etag": "W/\"83390945207377e93b3b3efc8aa915fd\"",
-  "index_last_modified": "Fri, 21 Aug 2026 18:59:12 GMT",
+  "index_etag": "W/\"3c66e6eb496008037b5bdfa1d5a580b5\"",
+  "index_last_modified": "Fri, 21 Aug 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41195,16 +41195,20 @@
       "repository_name": "NitrofMtl/BACnet-Arduino",
       "repository_url": "https://github.com/NitrofMtl/BACnet-Arduino",
       "name": "BACnet-Arduino",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.3.0",
           "seen_at": "2026-08-08T14:10:32.567Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-08-21T20:03:13.249Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-08T14:10:32.567Z",
-      "last_seen_sha": "1f8d68964c34",
+      "last_seen_sha": "1a741ad18bcc",
       "author": "NitrofMtl <https://github.com/NitrofMtl>",
       "maintainer": "NitrofMtl <https://github.com/NitrofMtl>",
       "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
@@ -41217,8 +41221,9 @@
       "depends": [
         "WeeklyAlarm"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.3.0.zip",
-      "size": 1247754,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.4.0.zip",
+      "size": 1302003,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -221935,7 +221940,7 @@
       "repository_name": "ssilverman/QNEthernet",
       "repository_url": "https://github.com/ssilverman/QNEthernet",
       "name": "QNEthernet",
-      "version": "0.36.0",
+      "version": "0.37.0",
       "version_history": [
         {
           "version": "0.36.0-snapshot",
@@ -221948,11 +221953,15 @@
         {
           "version": "0.36.0",
           "seen_at": "2026-07-04T00:23:27.139Z"
+        },
+        {
+          "version": "0.37.0",
+          "seen_at": "2026-08-21T20:03:13.249Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:48:10Z",
-      "last_seen_sha": "fb7373b636ec",
+      "last_seen_sha": "77f61843f928",
       "author": "Shawn Silverman <shawn@pobox.com>",
       "maintainer": "Shawn Silverman <shawn@pobox.com>",
       "sentence": "An lwIP-based Ethernet library for Teensy 4.1 and other platforms.",
@@ -221961,9 +221970,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ssilverman/QNEthernet-0.36.0.zip",
-      "size": 1021136,
-      "previous_version": "0.35.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ssilverman/QNEthernet-0.37.0.zip",
+      "size": 1121444,
+      "previous_version": "0.36.0",
       "github_stars": 123,
       "github_forks": 34,
       "github_language": "C",

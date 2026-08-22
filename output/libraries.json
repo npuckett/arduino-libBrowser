@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-22T21:03:19.680Z",
+  "enhanced_at": "2026-08-22T22:02:40.673Z",
   "total_libraries": 9868,
-  "index_etag": "W/\"70914f35312025f65b6db9498249e414\"",
-  "index_last_modified": "Sat, 22 Aug 2026 20:59:12 GMT",
+  "index_etag": "W/\"ff968bd847752b91009766be85ba21f6\"",
+  "index_last_modified": "Sat, 22 Aug 2026 21:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -66019,7 +66019,7 @@
       "repository_name": "FMazz97/CS123x",
       "repository_url": "https://github.com/FMazz97/CS123x",
       "name": "CS123x",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -66032,22 +66032,26 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-08-20T16:06:16.230Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-22T22:02:40.551Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-18T10:05:32.941Z",
-      "last_seen_sha": "d0d096167dd3",
+      "last_seen_sha": "a902d5c110a8",
       "author": "FMazz97",
       "maintainer": "FMazz97",
-      "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit ADCs (load cells, weight scales).",
-      "paragraph": "Precision driver for Chipsea CS1237/CS1238 24-bit ADCs used in weight scales and bridge sensors. Features configurable PGA gain, data rates, channel selection, tare, scale calibration, and internal temperature sensing.",
+      "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit ADCs (load cells, weight scales, bridge sensors).",
+      "paragraph": "Full PGA gain, data rate, and channel control with two-point scale calibration, internal temperature monitoring, and internal short-circuit offset diagnostics.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.0.2.zip",
-      "size": 4265536,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.0.3.zip",
+      "size": 4547320,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

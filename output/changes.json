@@ -1,6 +1,52 @@
 {
-  "since": "2026-08-22T13:11:48.399Z",
+  "since": "2026-08-22T14:03:06.742Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "aztechell/azdeck-lib",
+        "repository_url": "https://github.com/aztechell/azdeck-lib",
+        "name": "AzDeck",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-19T16:05:28.128Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-08-22T14:03:06.742Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-19T16:05:28.128Z",
+        "last_seen_sha": "96e45f4fec5b",
+        "author": "Azat",
+        "maintainer": "Azat <aztechell@gmail.com>",
+        "sentence": "Simple Arduino library for receiving controls from the AzDeck Android app.",
+        "paragraph": "Connect ESP32, ESP8266, and Arduino UNO R4 WiFi boards to the AzDeck app (https://play.google.com/store/apps/details?id=com.aztechell.azdeck) and read named control channels through a minimal Arduino API.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "renesas_uno"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "WebSockets",
+          "ArduinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/aztechell/AzDeck-0.1.1.zip",
+        "size": 42679,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-19T14:43:02Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    }
+  ],
   "removed_libraries": []
 }

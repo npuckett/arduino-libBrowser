@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-22T09:05:57.734Z",
-  "total_libraries": 9867,
-  "index_etag": "W/\"3310109d7b83b3c5f1f610d2d423d576\"",
-  "index_last_modified": "Sat, 22 Aug 2026 08:59:11 GMT",
+  "enhanced_at": "2026-08-22T10:03:34.902Z",
+  "total_libraries": 9868,
+  "index_etag": "W/\"aeef2cc816096dd80a263e587a164830\"",
+  "index_last_modified": "Sat, 22 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -188474,6 +188474,33 @@
       "download_url": "https://github.com/mickey9801/MultiButtons"
     },
     {
+      "repository_name": "algomusic/MultiControl",
+      "repository_url": "https://github.com/algomusic/MultiControl",
+      "name": "MultiControl",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-22T10:03:33.452Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-22T10:03:33.452Z",
+      "last_seen_sha": "150bdcc15fe9",
+      "author": "Andrew R. Brown",
+      "maintainer": "Andrew R. Brown",
+      "sentence": "A unified interface for ESP32 GPIO management supporting potentiometers, buttons, switches, rotary encoders, capacitive touch, and multiplexed inputs.",
+      "paragraph": "MultiControl provides a single-header library for reading multiple input types through a unified API. Features include potentiometer smoothing with a 7-stage pipeline, button gesture detection (click, double-click, hold, long-press), rotary encoder with acceleration, capacitive touch with noise protection, multiplexed buttons via CD4051, and a bank system for storing presets with latching behavior.",
+      "category": "Device Control",
+      "architectures": [],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/algomusic/MultiControl-1.0.0.zip",
+      "size": 26788,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-22T05:42:48Z"
+    },
+    {
       "repository_name": "xreef/MultiFTPServer",
       "repository_url": "https://github.com/xreef/MultiFTPServer",
       "name": "MultiFTPServer",
@@ -316561,7 +316588,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9664,
+    "with_github_metadata": 9665,
     "total_dependencies": 5263
   }
 }

@@ -1,6 +1,123 @@
 {
-  "since": "2026-08-22T23:02:55.373Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-23T00:04:13.646Z",
+  "new_libraries": [
+    {
+      "repository_name": "Terry-Gould/CANSignalStudioInterface",
+      "repository_url": "https://github.com/Terry-Gould/CANSignalStudioInterface",
+      "name": "CANSignalStudioInterface",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-23T00:04:13.646Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-23T00:04:13.646Z",
+      "last_seen_sha": "6b5d61ad75ba",
+      "author": "Terry Gould",
+      "maintainer": "Terry Gould <terry.gould.public@gmail.com>",
+      "sentence": "Device-side interface library for CAN Signal Studio.",
+      "paragraph": "Connects Arduino CAN firmware to the CAN Signal Studio webapp, exposing CAN traffic, device signals, device parameters, webapp transmitters, overrides, adaptive serial reporting, and session watchdog behavior. Requires ACANFD_SAME and CANMessageSignal.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "ACANFD_SAME",
+        "CANMessageSignal"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/CANSignalStudioInterface-0.1.0.zip",
+      "size": 70683,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-22T21:29:49Z"
+    },
+    {
+      "repository_name": "dunknowcoding/NiusBus",
+      "repository_url": "https://github.com/dunknowcoding/NiusBus",
+      "name": "NiusBus",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-23T00:04:13.646Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-23T00:04:13.646Z",
+      "last_seen_sha": "c2b142552080",
+      "author": "dunknowcoding <NiusRobotLab>",
+      "maintainer": "dunknowcoding <NiusRobotLab>",
+      "sentence": "Drivers for the CAN, CAN FD, RS-485 and Ethernet modules sold on AliExpress and Amazon.",
+      "paragraph": "MCP2515 and MCP2518FD CAN, MAX485-family RS-485 with Modbus RTU, W5500 Ethernet with sockets and DHCP, ENC28J60 raw frames, and WIZnet/USR serial bridges. One API per module category, per-bus error codes and lost-packet statistics, no dynamic allocation, and a 48-board catalog keyed by the silkscreen. Runs on AVR, megaAVR, SAMD, ESP32 and Renesas RA4.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dunknowcoding/NiusBus-0.1.0.zip",
+      "size": 250697,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-22T21:09:29Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "cwi-dis/iotsa",
+        "repository_url": "https://github.com/cwi-dis/iotsa",
+        "name": "iotsa",
+        "version": "2.9.2",
+        "version_history": [
+          {
+            "version": "2.8.1",
+            "seen_at": "2025-10-23T07:14:00Z"
+          },
+          {
+            "version": "2.9.1",
+            "seen_at": "2026-08-15T00:05:17.756Z"
+          },
+          {
+            "version": "2.9.2",
+            "seen_at": "2026-08-23T00:04:13.646Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-10-23T07:14:00Z",
+        "last_seen_sha": "b2b7d8a31a80",
+        "author": "Jack Jansen <Jack.Jansen@cwi.nl>",
+        "maintainer": "Jack Jansen <Jack.Jansen@cwi.nl>",
+        "sentence": "An Internet Of Things Server Architecture for ESP8266.",
+        "paragraph": "Library/application framework that allows easy creation of web servers and REST servers. Optional modules provide access control, clock synchronisation, over-the-air programming, static document storage and retrieval and more. Add your own modules to access hardware.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "ArduinoJson",
+          "cmArduinoJWT",
+          "CoAP simple library",
+          "Ds1302",
+          "ESP32Encoder",
+          "NimBLE-Arduino",
+          "esp32_idf5_https_server_compat"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/cwi-dis/iotsa-2.9.2.zip",
+        "size": 9015980,
+        "previous_version": "2.9.1",
+        "github_stars": 33,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2025-10-22T22:27:46Z"
+      },
+      "old_version": "2.9.1",
+      "new_version": "2.9.2"
+    }
+  ],
   "removed_libraries": []
 }

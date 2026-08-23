@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-23T09:05:53.894Z",
+  "enhanced_at": "2026-08-23T10:03:28.530Z",
   "total_libraries": 9870,
-  "index_etag": "W/\"68ef62aba44a9066aeeba7248c6413b7\"",
-  "index_last_modified": "Sun, 23 Aug 2026 08:59:11 GMT",
+  "index_etag": "W/\"0ca3d0fd2195ddd9de023b0c0e79160f\"",
+  "index_last_modified": "Sun, 23 Aug 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -122586,7 +122586,7 @@
       "repository_name": "GroeiAcademie/GroeiAcademie",
       "repository_url": "https://github.com/GroeiAcademie/GroeiAcademie",
       "name": "GroeiAcademie FrameWork",
-      "version": "1.0.4",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -122595,31 +122595,39 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-08-07T18:14:01.614Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-23T10:03:28.391Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-01T08:43:24.404Z",
-      "last_seen_sha": "37cdfdcb4d97",
+      "last_seen_sha": "5555ee939d79",
       "author": "Alex Peeters, GROEI ACADEMIE BV",
       "maintainer": "Alex Peeters <info@groeiacademie.be>",
       "sentence": "GroeiAcademie FrameWork als Arduino-librarypakket voor de toepassingen en systemen van GROEI ACADEMIE BV.",
-      "paragraph": "Bevat momenteel de toepassing Stimulus en de gedeelde Screen-laag.",
+      "paragraph": "Bevat momenteel de toepassing Stimulus en de gedeelde Screen- en Input-lagen.",
       "category": "Other",
       "architectures": [
         "avr",
         "renesas_uno",
-        "esp32"
+        "esp32",
+        "rp2040",
+        "stm32"
       ],
       "license": "LGPL-3.0-or-later",
       "depends": [
         "LiquidCrystal I2C",
         "Adafruit GFX Library",
         "Adafruit ST7735 and ST7789 Library",
-        "Adafruit ADS1X15"
+        "Adafruit ADS1X15",
+        "PCF8574",
+        "IRremote"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie_FrameWork-1.0.4.zip",
-      "size": 741793,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie_FrameWork-1.1.0.zip",
+      "size": 9848542,
+      "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -207098,7 +207106,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "version_history": [
         {
           "version": "1.1.9",
@@ -207167,11 +207175,15 @@
         {
           "version": "1.3.0",
           "seen_at": "2026-08-22T06:04:12.369Z"
+        },
+        {
+          "version": "1.3.1",
+          "seen_at": "2026-08-23T10:03:28.391Z"
         }
       ],
-      "release_count": 17,
+      "release_count": 18,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "e53270fab0fd",
+      "last_seen_sha": "fdae642eff9a",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
       "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
@@ -207182,9 +207194,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.0.zip",
-      "size": 8669787,
-      "previous_version": "1.2.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.1.zip",
+      "size": 8701129,
+      "previous_version": "1.3.0",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",
@@ -316680,6 +316692,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9667,
-    "total_dependencies": 5265
+    "total_dependencies": 5267
   }
 }

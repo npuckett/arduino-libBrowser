@@ -1,49 +1,6 @@
 {
-  "since": "2026-08-23T12:03:41.413Z",
+  "since": "2026-08-23T13:12:30.981Z",
   "new_libraries": [],
-  "updated_libraries": [
-    {
-      "library": {
-        "repository_name": "Lonely-Binary/FluxGrid",
-        "repository_url": "https://github.com/Lonely-Binary/FluxGrid",
-        "name": "Fluxgrid",
-        "version": "0.18.0",
-        "version_history": [
-          {
-            "version": "0.9.5",
-            "seen_at": "2026-06-15T10:00:59Z"
-          },
-          {
-            "version": "0.18.0",
-            "seen_at": "2026-08-23T12:03:41.413Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-06-15T10:00:59Z",
-        "last_seen_sha": "ce502d318795",
-        "author": "Lonely Binary",
-        "maintainer": "Lonely Binary <hello@lonelybinary.cn>",
-        "sentence": "Dead-simple ESP32 client for the Fluxgrid IoT platform.",
-        "paragraph": "Connect an ESP32 to your Fluxgrid dashboard in ~10 lines. Wraps WiFi, MQTT, auto-reconnect, Last-Will online/offline, and topic plumbing behind a tiny API: Fluxgrid.write(\"temp\", value) to push telemetry and Fluxgrid.read(\"relay\").asBool() (or onReceive) to react to control widgets. Supports autoConfig() for zero-code sensor drivers (DHT22/DHT11/BME280/DS18B20) — install the corresponding Arduino library and the driver is automatically detected at compile time.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "depends": [
-          "PubSubClient",
-          "ArduinoJson"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/Lonely-Binary/Fluxgrid-0.18.0.zip",
-        "size": 115945,
-        "previous_version": "0.9.5",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-06-14T00:33:02Z"
-      },
-      "old_version": "0.9.5",
-      "new_version": "0.18.0"
-    }
-  ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-23T11:03:56.269Z",
+  "enhanced_at": "2026-08-23T12:03:41.538Z",
   "total_libraries": 9870,
-  "index_etag": "W/\"0ca3d0fd2195ddd9de023b0c0e79160f\"",
-  "index_last_modified": "Sun, 23 Aug 2026 10:59:12 GMT",
+  "index_etag": "W/\"bdc64fb362291b00b23d9af7196b335d\"",
+  "index_last_modified": "Sun, 23 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -114924,16 +114924,20 @@
       "repository_name": "Lonely-Binary/FluxGrid",
       "repository_url": "https://github.com/Lonely-Binary/FluxGrid",
       "name": "Fluxgrid",
-      "version": "0.9.5",
+      "version": "0.18.0",
       "version_history": [
         {
           "version": "0.9.5",
           "seen_at": "2026-06-15T10:00:59Z"
+        },
+        {
+          "version": "0.18.0",
+          "seen_at": "2026-08-23T12:03:41.413Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-15T10:00:59Z",
-      "last_seen_sha": "23fa20b85fc9",
+      "last_seen_sha": "ce502d318795",
       "author": "Lonely Binary",
       "maintainer": "Lonely Binary <hello@lonelybinary.cn>",
       "sentence": "Dead-simple ESP32 client for the Fluxgrid IoT platform.",
@@ -114942,15 +114946,17 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-14T00:33:02Z",
       "depends": [
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/Lonely-Binary/FluxGrid"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Lonely-Binary/Fluxgrid-0.18.0.zip",
+      "size": 115945,
+      "previous_version": "0.9.5",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-14T00:33:02Z"
     },
     {
       "repository_name": "derdoktor667/FlyskyIBUS",

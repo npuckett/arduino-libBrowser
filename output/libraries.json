@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-24T13:18:50.547Z",
-  "total_libraries": 9871,
-  "index_etag": "W/\"cb3448dba5e91f74343ee0fd363cbece\"",
-  "index_last_modified": "Mon, 24 Aug 2026 12:59:11 GMT",
+  "enhanced_at": "2026-08-24T14:13:09.641Z",
+  "total_libraries": 9872,
+  "index_etag": "W/\"bfd612148022ae7dad7d4b821677f5bd\"",
+  "index_last_modified": "Mon, 24 Aug 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -62180,16 +62180,20 @@
       "repository_name": "microbotsio/CodeCell",
       "repository_url": "https://github.com/microbotsio/CodeCell",
       "name": "CodeCell",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "2.0.6",
           "seen_at": "2026-06-23T08:14:20Z"
+        },
+        {
+          "version": "2.0.7",
+          "seen_at": "2026-08-24T14:13:08.229Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-23T08:14:20Z",
-      "last_seen_sha": "9f73be35e895",
+      "last_seen_sha": "92a49abff980",
       "author": "Microbots <info@microbots.io>",
       "maintainer": "Microbots <info@microbots.io>",
       "sentence": "CodeCell Arduino Library",
@@ -62198,14 +62202,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 113,
-      "github_forks": 22,
-      "github_updated_at": "2026-06-22T10:16:54Z",
       "depends": [
         "DriveCell"
       ],
-      "download_url": "https://microbots.io/CodeCell",
-      "github_language": "C"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/CodeCell-2.0.7.zip",
+      "size": 5707028,
+      "previous_version": "2.0.6",
+      "github_stars": 113,
+      "github_forks": 22,
+      "github_language": "C",
+      "github_updated_at": "2026-06-22T10:16:54Z"
     },
     {
       "repository_name": "microbotsio/CodeCell-MicroLink",
@@ -98297,16 +98303,20 @@
       "repository_name": "BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library",
       "repository_url": "https://github.com/BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library",
       "name": "ESP32_Multitasking_Network_Suite",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.4",
           "seen_at": "2026-06-19T08:53:19Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-08-24T14:13:08.229Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-19T08:53:19Z",
-      "last_seen_sha": "e0fcf978b464",
+      "last_seen_sha": "76cbf8670b1b",
       "author": "Bojan Jurca",
       "maintainer": "Bojan Jurca <bojan@gmail.com>",
       "sentence": "Multitasking HTTP, HTTPS, FTP, Telnet servers and thread-safe NTP, HTTP, HTTPS, SMTP clients",
@@ -98315,10 +98325,6 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-18T14:32:33Z",
       "license": "MIT",
       "depends": [
         "LightweightSTL",
@@ -98327,7 +98333,13 @@
         "cronDaemon",
         "wolfssl"
       ],
-      "download_url": "https://github.com/BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/ESP32_Multitasking_Network_Suite-1.0.5.zip",
+      "size": 167631,
+      "previous_version": "1.0.4",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-18T14:32:33Z"
     },
     {
       "repository_name": "Syafiqlim/ESP32_MySQL",
@@ -204042,6 +204054,35 @@
       "github_language": "C++",
       "github_updated_at": "2016-12-09T10:46:24Z",
       "download_url": "http://polygondoor.com.au/"
+    },
+    {
+      "repository_name": "jobitjoseph/PAC1xxx",
+      "repository_url": "https://github.com/jobitjoseph/PAC1xxx",
+      "name": "PAC1xxx",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-24T14:13:08.229Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-24T14:13:08.229Z",
+      "last_seen_sha": "81e5198bf800",
+      "author": "Jobit Joseph <jobitjoseph1@gmail.com>",
+      "maintainer": "Jobit Joseph <jobitjoseph1@gmail.com>",
+      "sentence": "Arduino library for Microchip PAC1711, PAC1721, PAC1761, PAC1811, PAC1821 and PAC1861 power monitors.",
+      "paragraph": "Measures bus voltage, current, power, energy and charge over I2C. Detects the connected part automatically and configures full-scale ranges and ADC width to match. Supports bipolar current sensing, the sample-rate and averaging controls, the limit and alert registers, and both blocking and non-blocking operation. Based on the PAC1711 C HAL published by Microchip Technology Inc.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jobitjoseph/PAC1xxx-1.0.0.zip",
+      "size": 76034,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-24T10:28:43Z"
     },
     {
       "repository_name": "Pallob-Gain/packet_device",
@@ -316775,7 +316816,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9668,
+    "with_github_metadata": 9669,
     "total_dependencies": 5269
   }
 }

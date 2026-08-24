@@ -1,6 +1,124 @@
 {
-  "since": "2026-08-24T13:18:50.441Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-24T14:13:08.229Z",
+  "new_libraries": [
+    {
+      "repository_name": "jobitjoseph/PAC1xxx",
+      "repository_url": "https://github.com/jobitjoseph/PAC1xxx",
+      "name": "PAC1xxx",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-24T14:13:08.229Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-24T14:13:08.229Z",
+      "last_seen_sha": "81e5198bf800",
+      "author": "Jobit Joseph <jobitjoseph1@gmail.com>",
+      "maintainer": "Jobit Joseph <jobitjoseph1@gmail.com>",
+      "sentence": "Arduino library for Microchip PAC1711, PAC1721, PAC1761, PAC1811, PAC1821 and PAC1861 power monitors.",
+      "paragraph": "Measures bus voltage, current, power, energy and charge over I2C. Detects the connected part automatically and configures full-scale ranges and ADC width to match. Supports bipolar current sensing, the sample-rate and averaging controls, the limit and alert registers, and both blocking and non-blocking operation. Based on the PAC1711 C HAL published by Microchip Technology Inc.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jobitjoseph/PAC1xxx-1.0.0.zip",
+      "size": 76034,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-24T10:28:43Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "microbotsio/CodeCell",
+        "repository_url": "https://github.com/microbotsio/CodeCell",
+        "name": "CodeCell",
+        "version": "2.0.7",
+        "version_history": [
+          {
+            "version": "2.0.6",
+            "seen_at": "2026-06-23T08:14:20Z"
+          },
+          {
+            "version": "2.0.7",
+            "seen_at": "2026-08-24T14:13:08.229Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-23T08:14:20Z",
+        "last_seen_sha": "92a49abff980",
+        "author": "Microbots <info@microbots.io>",
+        "maintainer": "Microbots <info@microbots.io>",
+        "sentence": "CodeCell Arduino Library",
+        "paragraph": "A tiny ESP32-based module featuring a VCNL4040 light sensor, with the optional BNO085 motion sensor — Made for robotics and wearable DIY projects.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DriveCell"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/CodeCell-2.0.7.zip",
+        "size": 5707028,
+        "previous_version": "2.0.6",
+        "github_stars": 113,
+        "github_forks": 22,
+        "github_language": "C",
+        "github_updated_at": "2026-06-22T10:16:54Z"
+      },
+      "old_version": "2.0.6",
+      "new_version": "2.0.7"
+    },
+    {
+      "library": {
+        "repository_name": "BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library",
+        "repository_url": "https://github.com/BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library",
+        "name": "ESP32_Multitasking_Network_Suite",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-06-19T08:53:19Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-08-24T14:13:08.229Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-19T08:53:19Z",
+        "last_seen_sha": "76cbf8670b1b",
+        "author": "Bojan Jurca",
+        "maintainer": "Bojan Jurca <bojan@gmail.com>",
+        "sentence": "Multitasking HTTP, HTTPS, FTP, Telnet servers and thread-safe NTP, HTTP, HTTPS, SMTP clients",
+        "paragraph": "True multitasking architecture - each server runs in its own FreeRTOS task for high concurrency and responsiveness.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "LightweightSTL",
+          "ThreadSafePing",
+          "ThreadSafeFS",
+          "cronDaemon",
+          "wolfssl"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/ESP32_Multitasking_Network_Suite-1.0.5.zip",
+        "size": 167631,
+        "previous_version": "1.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-18T14:32:33Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "1.0.5"
+    }
+  ],
   "removed_libraries": []
 }

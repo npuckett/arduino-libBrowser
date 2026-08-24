@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-24T15:12:32.967Z",
-  "total_libraries": 9872,
-  "index_etag": "W/\"bfd612148022ae7dad7d4b821677f5bd\"",
-  "index_last_modified": "Mon, 24 Aug 2026 14:59:12 GMT",
+  "enhanced_at": "2026-08-24T16:08:55.720Z",
+  "total_libraries": 9873,
+  "index_etag": "W/\"e24e95f53e6912e2fbbf1a1f82869885\"",
+  "index_last_modified": "Mon, 24 Aug 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -111392,7 +111392,7 @@
       "repository_name": "benjistokman/FastRGB",
       "repository_url": "https://github.com/benjistokman/FastRGB",
       "name": "FastRGB",
-      "version": "0.5.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.4.0",
@@ -111401,22 +111401,27 @@
         {
           "version": "0.5.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-24T16:08:54.215Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:41:56Z",
-      "last_seen_sha": "58e310f5bf72",
+      "last_seen_sha": "374e09ad9c2d",
       "author": "Ben Stokman",
       "maintainer": "Ben Stokman <ben.stokman@protonmail.com>",
-      "sentence": "Simple, modern, & object-oriented library for controlling addressible RGB.",
-      "paragraph": "This is NOT compatible with all architectures. Currently it is supported on the Arduino Uno and Nano revisions 1 through 4.",
+      "sentence": "Simple, modern, object-oriented library for controlling addressible RGB strips.",
+      "paragraph": "Simple, modern, object-oriented library for controlling addressible RGBs strips.",
       "category": "Display",
       "architectures": [
-        "all"
+        "avr",
+        "renesas_uno"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/benjistokman/FastRGB-0.5.0.zip",
-      "size": 11673,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/benjistokman/FastRGB-1.0.0.zip",
+      "size": 12654,
+      "previous_version": "0.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -124362,6 +124367,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-08-27T12:10:57Z",
       "download_url": "https://github.com/dantler/GroveEncoder"
+    },
+    {
+      "repository_name": "ebm9991/GroveI2CStepper",
+      "repository_url": "https://github.com/ebm9991/GroveI2CStepper",
+      "name": "GroveI2CStepper",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-24T16:08:54.215Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-24T16:08:54.215Z",
+      "last_seen_sha": "2bd6237e851b",
+      "author": "EBM",
+      "maintainer": "EBM",
+      "sentence": "Non-blocking bipolar stepper control for Seeed Grove Mini I2C Motor Driver v1.1 (2x DRV8830).",
+      "paragraph": "Designed for Arduino UNO R4 and other Arduino boards using the standard Wire library. Provides an AccelStepper-like speed API for a 4-wire bipolar stepper connected to the two DRV8830 channels.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/GroveI2CStepper-1.0.1.zip",
+      "size": 8058,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-24T12:45:52Z"
     },
     {
       "repository_name": "MRROBO28/GSheet32",
@@ -152993,7 +153027,7 @@
       "repository_name": "phillipweinstock/libsdi12",
       "repository_url": "https://github.com/phillipweinstock/libsdi12",
       "name": "libsdi12",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -153002,11 +153036,15 @@
         {
           "version": "0.4.0",
           "seen_at": "2026-07-06T16:58:22.530Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-08-24T16:08:54.215Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-07T08:31:46Z",
-      "last_seen_sha": "db398cab11c5",
+      "last_seen_sha": "ed3a5c995434",
       "author": "Phillip Weinstock",
       "maintainer": "Phillip Weinstock",
       "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
@@ -153015,9 +153053,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.4.0.zip",
-      "size": 110172,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.0.zip",
+      "size": 128794,
+      "previous_version": "0.4.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -168928,7 +168966,7 @@
       "repository_name": "tcoppex/mbed-ble-hid",
       "repository_url": "https://github.com/tcoppex/mbed-ble-hid",
       "name": "Mbed BLE HID",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.3.0",
@@ -168937,11 +168975,15 @@
         {
           "version": "1.3.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-08-24T16:08:54.215Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:32:32Z",
-      "last_seen_sha": "d90ad16efc77",
+      "last_seen_sha": "466d22cd3f09",
       "author": "Thibault Coppex",
       "maintainer": "Thibault Coppex <tcoppex@pm.me>",
       "sentence": "A Library to implement Human Interface Device with Bluetooth on a Mbed stack (Arduino Nano 33 BLE).",
@@ -168951,8 +168993,8 @@
         "mbed_nano",
         "mbed"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tcoppex/Mbed_BLE_HID-1.3.0.zip",
-      "size": 42576,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tcoppex/Mbed_BLE_HID-1.4.0.zip",
+      "size": 47291,
       "previous_version": "1.3.0",
       "github_stars": 56,
       "github_forks": 16,
@@ -182296,29 +182338,34 @@
       "repository_name": "moddoio/moddoMOUSE-Arduino",
       "repository_url": "https://github.com/moddoio/moddoMOUSE-Arduino",
       "name": "moddoMOUSE",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-06-19T09:31:06Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-08-24T16:08:54.215Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-19T09:31:06Z",
-      "last_seen_sha": "c04e73681ebd",
+      "last_seen_sha": "f5bb5c56a6c3",
       "author": "moddo inc.",
       "maintainer": "moddo inc. <info@moddo.io>",
       "sentence": "Allows you to communicate with the moddoMOUSE main board from your Arduino on an expansion board",
-      "paragraph": "",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/moddoio/moddoMOUSE-1.2.0.zip",
+      "size": 29076,
+      "previous_version": "1.1.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-18T14:59:37Z",
-      "download_url": "https://github.com/moddoio/moddoMOUSE-Arduino"
+      "github_updated_at": "2026-06-18T14:59:37Z"
     },
     {
       "repository_name": "nseinlet/Modelisme",
@@ -316816,7 +316863,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9669,
+    "with_github_metadata": 9670,
     "total_dependencies": 5269
   }
 }

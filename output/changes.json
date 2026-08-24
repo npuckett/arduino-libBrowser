@@ -1,6 +1,87 @@
 {
-  "since": "2026-08-24T21:06:32.088Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-24T22:04:12.804Z",
+  "new_libraries": [
+    {
+      "repository_name": "sheesourav0/zonestar-iot-arduino",
+      "repository_url": "https://github.com/sheesourav0/zonestar-iot-arduino",
+      "name": "ZoneStarIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-24T22:04:12.804Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-24T22:04:12.804Z",
+      "last_seen_sha": "9405579ad41e",
+      "author": "ZoneStar <support@zonestar.tech>",
+      "maintainer": "ZoneStar <support@zonestar.tech>",
+      "sentence": "Connect ESP32 devices to the ZoneStar IoT cloud platform (MQTT/TLS) with a clean, typed device API.",
+      "paragraph": "Register typed devices (switch, light, fan, thermostat, lock, blinds, garage), wire up callbacks for incoming commands, and report state changes back -- ZoneStarIoT handles WiFi, MQTT/TLS connection management, JSON parsing, reconnection/backoff and per-device topic routing automatically. Modeled after the Sinric Pro Arduino SDK's API shape.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sheesourav0/ZoneStarIoT-1.0.0.zip",
+      "size": 29126,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-24T18:04:04Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "phillipweinstock/libsdi12",
+        "repository_url": "https://github.com/phillipweinstock/libsdi12",
+        "name": "libsdi12",
+        "version": "0.5.1",
+        "version_history": [
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-05-07T08:31:46Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-06T16:58:22.530Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-08-24T16:08:54.215Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-08-24T22:04:12.804Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-07T08:31:46Z",
+        "last_seen_sha": "dacdf48b7cf5",
+        "author": "Phillip Weinstock",
+        "maintainer": "Phillip Weinstock",
+        "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
+        "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 165 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.1.zip",
+        "size": 132441,
+        "previous_version": "0.5.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-05-06T09:32:46Z"
+      },
+      "old_version": "0.5.0",
+      "new_version": "0.5.1"
+    }
+  ],
   "removed_libraries": []
 }

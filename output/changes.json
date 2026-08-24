@@ -1,6 +1,119 @@
 {
-  "since": "2026-08-24T09:14:48.937Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-24T10:12:51.695Z",
+  "new_libraries": [
+    {
+      "repository_name": "tanakamasayuki/PCMFlowBluetooth",
+      "repository_url": "https://github.com/tanakamasayuki/PCMFlowBluetooth",
+      "name": "PCMFlowBluetooth",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-24T10:12:51.695Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-24T10:12:51.695Z",
+      "last_seen_sha": "38f9bb66a8ef",
+      "author": "TANAKA Masayuki",
+      "maintainer": "TANAKA Masayuki",
+      "sentence": "Bluetooth Classic audio for PCMFlow: A2DP SBC encode and decode on ESP32.",
+      "paragraph": "Connects A2DP encoded audio handled by EspBle to PCMFlow's PCM boundary. Provides an A2DP Sink PCMSource, frame-at-a-time SBC encoder for A2DP Source, bounded queues, and M5Stack speaker/microphone examples. Bluetooth profiles stay in EspBle and device I/O stays in PCMFlowDevice or the sketch. The Apache-2.0 AOSP / ESP-IDF SBC codec builds and tests on host as well as hardware.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "PCMFlow",
+        "EspBle"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/PCMFlowBluetooth-1.0.1.zip",
+      "size": 256944,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-24T09:09:34Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_JSON",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_JSON",
+        "name": "Arduino_JSON",
+        "version": "0.2.2",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-06-19T08:58:55Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-19T12:04:48.578Z"
+          },
+          {
+            "version": "0.2.2",
+            "seen_at": "2026-08-24T10:12:51.695Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-19T08:58:55Z",
+        "last_seen_sha": "074dbabb545e",
+        "author": "Arduino",
+        "maintainer": "Arduino <info@arduino.cc>",
+        "sentence": "[BETA] Process JSON in your Arduino sketches.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_JSON-0.2.2.zip",
+        "size": 44202,
+        "previous_version": "0.2.1",
+        "github_stars": 191,
+        "github_forks": 65,
+        "github_language": "C",
+        "github_updated_at": "2026-06-27T19:46:38Z"
+      },
+      "old_version": "0.2.1",
+      "new_version": "0.2.2"
+    },
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_LPS22HB",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_LPS22HB",
+        "name": "Arduino_LPS22HB",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-04-11T07:35:22Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-24T10:12:51.695Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-04-11T07:35:22Z",
+        "last_seen_sha": "9992cc0dd2f7",
+        "author": "Arduino",
+        "maintainer": "Arduino <info@arduino.cc>",
+        "sentence": "Allows you to read the pressure sensor of your Nano 33 BLE Sense.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_LPS22HB-1.0.3.zip",
+        "size": 18422,
+        "previous_version": "1.0.2",
+        "github_stars": 9,
+        "github_forks": 22,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-18T21:05:17Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

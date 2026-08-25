@@ -1,6 +1,79 @@
 {
-  "since": "2026-08-25T07:16:36.358Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-25T08:12:19.811Z",
+  "new_libraries": [
+    {
+      "repository_name": "PTSolns/I2Connect_ICP-20100",
+      "repository_url": "https://github.com/PTSolns/I2Connect_ICP-20100",
+      "name": "PTSolns_I2Connect_ICP_20100",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-25T08:12:19.811Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-25T08:12:19.811Z",
+      "last_seen_sha": "3de2f202e2c0",
+      "author": "PTSolns",
+      "maintainer": "PTSolns <support@ptsolns.com>",
+      "sentence": "Library for the PTSolns I2Connect ICP-20100 barometric pressure and temperature module.",
+      "paragraph": "Provides a streamlined interface to read high-accuracy barometric pressure and temperature data, utilize onboard FIFO buffers, and configure hardware interrupts for the ICP-20100 sensor using I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_ICP_20100-1.0.0.zip",
+      "size": 17321,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-25T05:17:45Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-KMeterISO",
+        "repository_url": "https://github.com/m5stack/M5Unit-KMeterISO",
+        "name": "M5Unit-KMeterISO",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:20:49Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-08-25T08:12:19.811Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:20:49Z",
+        "last_seen_sha": "f1a9036bc4a2",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack Unit-KMeterISO",
+        "paragraph": "See more on http://M5Stack.com",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_KMeterISO-1.0.2.zip",
+        "size": 59096,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-25T08:55:46Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

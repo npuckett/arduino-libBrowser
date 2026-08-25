@@ -1,6 +1,129 @@
 {
-  "since": "2026-08-25T09:11:35.698Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-25T10:06:48.480Z",
+  "new_libraries": [
+    {
+      "repository_name": "PTSolns/I2Connect_KXTJ3-1057",
+      "repository_url": "https://github.com/PTSolns/I2Connect_KXTJ3-1057",
+      "name": "PTSolns_I2Connect_KXTJ3_1057",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-25T10:06:48.480Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-25T10:06:48.480Z",
+      "last_seen_sha": "ef5f4ce45f44",
+      "author": "PTSolns",
+      "maintainer": "PTSolns <support@ptsolns.com>",
+      "sentence": "Library for the PTSolns I2Connect KXTJ3-1057 accelerometer module.",
+      "paragraph": "Provides a streamlined interface to read multi-axis acceleration, detect motion, and manage low-power states for the KXTJ3-1057 accelerometer using I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_KXTJ3_1057-1.0.0.zip",
+      "size": 18892,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-25T05:17:49Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "janscience/ESensors",
+        "repository_url": "https://github.com/janscience/ESensors",
+        "name": "ESensors",
+        "version": "1.7.0",
+        "version_history": [
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-05-29T08:38:48Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-08-25T10:06:48.480Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-05-29T08:38:48Z",
+        "last_seen_sha": "f0675813918c",
+        "author": "Jan Benda <jan.benda@uni-tuebingen.de>",
+        "maintainer": "Jan Benda <jan.benda@uni-tuebingen.de>",
+        "sentence": "Manage recordings from multiple environmental sensors.",
+        "paragraph": "Blocking and non-blocking reads from many sensors in parallel, sensor readings in adaptable units, output of sensor properties and readings on streams and into CSV files on SD card, hardware independent derived measures, like for example, dew point and absolute humidity. Currently supported sensors are: BH1750, BME280, DS18x20, TSL2591, and DHT.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "teensy",
+          "avr"
+        ],
+        "license": "GPL 3",
+        "depends": [
+          "SparkFun BME280",
+          "TSL2591MI",
+          "DHT Sensors Non-Blocking"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/janscience/ESensors-1.7.0.zip",
+        "size": 5994364,
+        "previous_version": "1.6.0",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-28T08:53:29Z"
+      },
+      "old_version": "1.6.0",
+      "new_version": "1.7.0"
+    },
+    {
+      "library": {
+        "repository_name": "benjistokman/FastRGB",
+        "repository_url": "https://github.com/benjistokman/FastRGB",
+        "name": "FastRGB",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-01-02T21:41:56Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-24T16:08:54.215Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-25T10:06:48.480Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-02T21:41:56Z",
+        "last_seen_sha": "2e103adcedf8",
+        "author": "Ben Stokman",
+        "maintainer": "Ben Stokman <ben.stokman@protonmail.com>",
+        "sentence": "Simple, modern, object-oriented library for controlling addressible RGB strips.",
+        "paragraph": "Simple, modern, object-oriented library for controlling addressible RGBs strips. Contains many nice features including partitioning & re-arranging series of colors, chainable effect interface with example effects, and more.",
+        "category": "Display",
+        "architectures": [
+          "avr",
+          "renesas_uno"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/benjistokman/FastRGB-1.0.1.zip",
+        "size": 12735,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-24T00:55:46Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

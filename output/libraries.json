@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-25T05:09:36.077Z",
+  "enhanced_at": "2026-08-25T06:06:31.713Z",
   "total_libraries": 9874,
-  "index_etag": "W/\"66c28c7090036dbeef59b55e455a91af\"",
-  "index_last_modified": "Tue, 25 Aug 2026 04:59:12 GMT",
+  "index_etag": "W/\"ecb11ee5eeeca86b1dcece8855321318\"",
+  "index_last_modified": "Tue, 25 Aug 2026 05:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -153031,7 +153031,7 @@
       "repository_name": "phillipweinstock/libsdi12",
       "repository_url": "https://github.com/phillipweinstock/libsdi12",
       "name": "libsdi12",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "version_history": [
         {
           "version": "0.3.0",
@@ -153052,22 +153052,26 @@
         {
           "version": "0.5.2",
           "seen_at": "2026-08-25T02:23:51.532Z"
+        },
+        {
+          "version": "0.5.3",
+          "seen_at": "2026-08-25T06:06:31.584Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-05-07T08:31:46Z",
-      "last_seen_sha": "5bc20615bcc1",
+      "last_seen_sha": "b870ffd0030c",
       "author": "Phillip Weinstock",
       "maintainer": "Phillip Weinstock",
       "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
-      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 181 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
+      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 192 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.2.zip",
-      "size": 137305,
-      "previous_version": "0.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.3.zip",
+      "size": 140890,
+      "previous_version": "0.5.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -157742,7 +157746,7 @@
       "repository_name": "lovyan03/LovyanGFX",
       "repository_url": "https://github.com/lovyan03/LovyanGFX",
       "name": "LovyanGFX",
-      "version": "1.2.27",
+      "version": "1.2.28",
       "version_history": [
         {
           "version": "1.2.24",
@@ -157759,11 +157763,15 @@
         {
           "version": "1.2.27",
           "seen_at": "2026-08-17T04:13:24.764Z"
+        },
+        {
+          "version": "1.2.28",
+          "seen_at": "2026-08-25T06:06:31.584Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-29T08:58:36Z",
-      "last_seen_sha": "a28d84723918",
+      "last_seen_sha": "e2019975fe13",
       "author": "lovyan03",
       "maintainer": "lovyan03,tobozo",
       "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
@@ -157778,9 +157786,9 @@
         "mbed_nano",
         "teensy"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.27.zip",
-      "size": 49002397,
-      "previous_version": "1.2.26",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.28.zip",
+      "size": 49008334,
+      "previous_version": "1.2.27",
       "github_stars": 1683,
       "github_forks": 279,
       "github_language": "C",

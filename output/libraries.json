@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-25T11:06:06.924Z",
+  "enhanced_at": "2026-08-25T12:06:06.574Z",
   "total_libraries": 9876,
-  "index_etag": "W/\"8ab673a015ec9709d81307cc14209c14\"",
-  "index_last_modified": "Tue, 25 Aug 2026 10:59:12 GMT",
+  "index_etag": "W/\"17676fa88d5a7d6ae074a156c0961d66\"",
+  "index_last_modified": "Tue, 25 Aug 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -204144,17 +204144,21 @@
       "repository_name": "jobitjoseph/PAC1xxx",
       "repository_url": "https://github.com/jobitjoseph/PAC1xxx",
       "name": "PAC1xxx",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-24T14:13:08.229Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-25T12:06:06.447Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-24T14:13:08.229Z",
-      "last_seen_sha": "81e5198bf800",
-      "author": "Jobit Joseph <jobitjoseph1@gmail.com>",
+      "last_seen_sha": "334df1c2db48",
+      "author": "Jobit Joseph",
       "maintainer": "Jobit Joseph <jobitjoseph1@gmail.com>",
       "sentence": "Arduino library for Microchip PAC1711, PAC1721, PAC1761, PAC1811, PAC1821 and PAC1861 power monitors.",
       "paragraph": "Measures bus voltage, current, power, energy and charge over I2C. Detects the connected part automatically and configures full-scale ranges and ADC width to match. Supports bipolar current sensing, the sample-rate and averaging controls, the limit and alert registers, and both blocking and non-blocking operation. Based on the PAC1711 C HAL published by Microchip Technology Inc.",
@@ -204162,8 +204166,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jobitjoseph/PAC1xxx-1.0.0.zip",
-      "size": 76034,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jobitjoseph/PAC1xxx-1.0.1.zip",
+      "size": 76033,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

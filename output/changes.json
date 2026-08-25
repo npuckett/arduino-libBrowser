@@ -1,6 +1,95 @@
 {
-  "since": "2026-08-25T15:14:44.761Z",
+  "since": "2026-08-25T16:11:08.768Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "adafruit/Adafruit_BNO08x",
+        "repository_url": "https://github.com/adafruit/Adafruit_BNO08x",
+        "name": "Adafruit BNO08x",
+        "version": "1.2.7",
+        "version_history": [
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-06-06T07:59:50Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-08-25T16:11:08.768Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-06T07:59:50Z",
+        "last_seen_sha": "566d25eb4f3a",
+        "author": "Adafruit",
+        "maintainer": "Adafruit <info@adafruit.com>",
+        "sentence": "Arduino library for the BNO08x sensors in the Adafruit shop",
+        "paragraph": "Arduino library for the BNO08x sensors in the Adafruit shop",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit Unified Sensor",
+          "Adafruit BusIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BNO08x-1.2.7.zip",
+        "size": 534020,
+        "previous_version": "1.2.5",
+        "github_stars": 79,
+        "github_forks": 33,
+        "github_language": "C",
+        "github_updated_at": "2026-06-06T05:35:34Z"
+      },
+      "old_version": "1.2.5",
+      "new_version": "1.2.7"
+    },
+    {
+      "library": {
+        "repository_name": "rock7/RockBLOCK-9704",
+        "repository_url": "https://github.com/rock7/RockBLOCK-9704",
+        "name": "RockBLOCK-9704",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T08:55:40Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-25T16:11:08.768Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T08:55:40Z",
+        "last_seen_sha": "5ec4e4965b6b",
+        "author": "Ground Control",
+        "maintainer": "help@groundcontrol.com",
+        "sentence": "Rockblock 9704 IMT communication library.",
+        "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.0.1.zip",
+        "size": 948788,
+        "previous_version": "1.0.0",
+        "github_stars": 28,
+        "github_forks": 15,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T13:12:33Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-25T01:28:40.295Z",
+  "enhanced_at": "2026-08-25T02:23:51.659Z",
   "total_libraries": 9874,
-  "index_etag": "W/\"19eefdc0175515986e005af19c626ba3\"",
-  "index_last_modified": "Tue, 25 Aug 2026 00:59:12 GMT",
+  "index_etag": "W/\"4ce2930b1b8633e7559d106f5fa980a6\"",
+  "index_last_modified": "Tue, 25 Aug 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23127,7 +23127,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.157",
+      "version": "1.2.158",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23484,11 +23484,15 @@
         {
           "version": "1.2.157",
           "seen_at": "2026-08-21T16:06:14.236Z"
+        },
+        {
+          "version": "1.2.158",
+          "seen_at": "2026-08-25T02:23:51.532Z"
         }
       ],
-      "release_count": 89,
+      "release_count": 90,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "7743da7b41b0",
+      "last_seen_sha": "7ab7f90a7398",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23509,9 +23513,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.157.zip",
-      "size": 44547243,
-      "previous_version": "1.2.155",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.158.zip",
+      "size": 44547672,
+      "previous_version": "1.2.157",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -153027,7 +153031,7 @@
       "repository_name": "phillipweinstock/libsdi12",
       "repository_url": "https://github.com/phillipweinstock/libsdi12",
       "name": "libsdi12",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "version_history": [
         {
           "version": "0.3.0",
@@ -153044,22 +153048,26 @@
         {
           "version": "0.5.1",
           "seen_at": "2026-08-24T22:04:12.804Z"
+        },
+        {
+          "version": "0.5.2",
+          "seen_at": "2026-08-25T02:23:51.532Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-07T08:31:46Z",
-      "last_seen_sha": "dacdf48b7cf5",
+      "last_seen_sha": "5bc20615bcc1",
       "author": "Phillip Weinstock",
       "maintainer": "Phillip Weinstock",
       "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
-      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 165 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
+      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 181 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.1.zip",
-      "size": 132441,
-      "previous_version": "0.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.2.zip",
+      "size": 137305,
+      "previous_version": "0.5.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -219191,7 +219199,7 @@
       "repository_name": "PTSolns/I2Connect_AHT20",
       "repository_url": "https://github.com/PTSolns/I2Connect_AHT20",
       "name": "PTSolns_I2Connect_AHT20",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -219200,11 +219208,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-07-03T20:23:13.146Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-25T02:23:51.532Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-02T09:00:05.763Z",
-      "last_seen_sha": "55656837ea77",
+      "last_seen_sha": "3579f0cfaaca",
       "author": "PTSolns",
       "maintainer": "PTSolns <support@ptsolns.com>",
       "sentence": "library for the PTSolns I2Connect AHT20 module.",
@@ -219213,9 +219225,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.1.zip",
-      "size": 12433,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PTSolns/PTSolns_I2Connect_AHT20-1.0.2.zip",
+      "size": 12367,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

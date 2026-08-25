@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-25T19:11:15.106Z",
-  "total_libraries": 9877,
-  "index_etag": "W/\"578e67f688fdc4dbc18fb44710a4458f\"",
-  "index_last_modified": "Tue, 25 Aug 2026 18:59:12 GMT",
+  "enhanced_at": "2026-08-25T20:04:43.465Z",
+  "total_libraries": 9879,
+  "index_etag": "W/\"8182a5a57f27b277a7584d90142a000c\"",
+  "index_last_modified": "Tue, 25 Aug 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -9617,6 +9617,38 @@
       "github_language": "C"
     },
     {
+      "repository_name": "adafruit/Adafruit_GP8403",
+      "repository_url": "https://github.com/adafruit/Adafruit_GP8403",
+      "name": "Adafruit GP8403",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-25T20:04:40.652Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-25T20:04:40.652Z",
+      "last_seen_sha": "5150da90070b",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the GP8403 dual-channel voltage-output DAC.",
+      "paragraph": "Provides 5 V and 10 V range selection plus raw and floating-point voltage control over I2C.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GP8403-1.0.1.zip",
+      "size": 280847,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-25T17:02:46Z"
+    },
+    {
       "repository_name": "adafruit/Adafruit_GPS",
       "repository_url": "https://github.com/adafruit/Adafruit_GPS",
       "name": "Adafruit GPS Library",
@@ -16055,6 +16087,38 @@
       "github_forks": 77,
       "github_language": "C++",
       "github_updated_at": "2026-06-23T18:50:58Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_TSL2585",
+      "repository_url": "https://github.com/adafruit/Adafruit_TSL2585",
+      "name": "Adafruit TSL2585",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-25T20:04:40.652Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-25T20:04:40.652Z",
+      "last_seen_sha": "a13bef5b0b13",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the TSL2585 ambient light, infrared, and UVA sensor.",
+      "paragraph": "Read coherent photopic, infrared, and factory-calibrated UVA measurements with configurable integration time, per-channel gain, threshold interrupts, and GPIO control.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TSL2585-1.0.0.zip",
+      "size": 353095,
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-25T16:23:20Z"
     },
     {
       "repository_name": "adafruit/Adafruit_TSL2591_Library",
@@ -317042,7 +317106,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9674,
-    "total_dependencies": 5271
+    "with_github_metadata": 9676,
+    "total_dependencies": 5273
   }
 }

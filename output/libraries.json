@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-26T21:52:03.819Z",
+  "enhanced_at": "2026-08-26T22:58:36.779Z",
   "total_libraries": 9885,
-  "index_etag": "W/\"985f026f6f255656d26a61c406fc42ff\"",
-  "index_last_modified": "Wed, 26 Aug 2026 21:29:12 GMT",
+  "index_etag": "W/\"06c1dddbf73a7d00cda7dedff4245bb2\"",
+  "index_last_modified": "Wed, 26 Aug 2026 22:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -193605,7 +193605,7 @@
       "repository_name": "soosp/NetworkManager",
       "repository_url": "https://github.com/soosp/NetworkManager",
       "name": "NetworkManager",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -193638,11 +193638,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-08-06T00:18:43.270Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-08-26T22:58:36.675Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "277fad89a63e",
+      "last_seen_sha": "16639957e6c8",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Priority-based network connection manager with automatic fallback.",
@@ -193660,9 +193664,9 @@
         "EEPROMPreferences",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.2.0.zip",
-      "size": 128318,
-      "previous_version": "0.1.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.3.0.zip",
+      "size": 150341,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -193701,7 +193705,7 @@
       "repository_name": "soosp/NetworkProfile",
       "repository_url": "https://github.com/soosp/NetworkProfile",
       "name": "NetworkProfile",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -193742,15 +193746,19 @@
         {
           "version": "0.6.0",
           "seen_at": "2026-08-06T23:59:11.596Z"
+        },
+        {
+          "version": "0.7.0",
+          "seen_at": "2026-08-26T22:58:36.675Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "b9271e24524c",
+      "last_seen_sha": "82b354f26861",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
-      "paragraph": "Provides WiFiProfile and EthProfile classes for managing network configuration (DHCP/static IP, DNS, NTP, hostname, MAC address) with thread-safe access, persistent storage via Preferences, and JSON serialisation. Supports interface priority for fallback scenarios (e.g. ETH → WiFi). Also supports storing MQTT configutartion. Depends on the Host library.",
+      "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -> WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -193763,9 +193771,9 @@
         "EEPROMPreferences",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.6.0.zip",
-      "size": 62240,
-      "previous_version": "0.5.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.7.0.zip",
+      "size": 82315,
+      "previous_version": "0.6.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

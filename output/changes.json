@@ -1,6 +1,79 @@
 {
-  "since": "2026-08-26T07:16:22.402Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-26T08:12:26.113Z",
+  "new_libraries": [
+    {
+      "repository_name": "5ne/MLBScoreboard-Arduino-Library",
+      "repository_url": "https://github.com/5ne/MLBScoreboard-Arduino-Library",
+      "name": "MLBScoreboard",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-26T08:12:26.113Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-26T08:12:26.113Z",
+      "last_seen_sha": "b603f96f48fe",
+      "author": "5ne",
+      "maintainer": "5ne",
+      "sentence": "Display live MLB scores on Inkplate e-paper boards (Inkplate 2 and larger).",
+      "paragraph": "Fetches game data from the MLB Stats API into a simple struct, and separately ships Inkplate renderers to draw it: a compact single-game renderer for the tiny 3-color Inkplate 2, and a multi-game grid renderer for larger grayscale/color Inkplate boards. The data-fetching class (MLBScoreboard) handles WiFi, adaptive polling (slower pregame, fast during live games, stopped once final), and deep-sleep scheduling for battery-powered installs, and has no dependency on Inkplate or any display code -- pairing it with a renderer is left to your sketch.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "InkplateLibrary",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/5ne/MLBScoreboard-0.1.1.zip",
+      "size": 144861,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-26T05:33:08Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "dac1e/DCF77RX",
+        "repository_url": "https://github.com/dac1e/DCF77RX",
+        "name": "DCF77RX",
+        "version": "3.1.0",
+        "version_history": [
+          {
+            "version": "3.0.0",
+            "seen_at": "2025-07-21T16:37:53Z"
+          },
+          {
+            "version": "3.1.0",
+            "seen_at": "2026-08-26T08:12:26.113Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:37:53Z",
+        "last_seen_sha": "5005b458b67e",
+        "author": "dac1e",
+        "maintainer": "dac1e <1692-586@onlinehome.de>",
+        "sentence": "Receive DCF77 frames and convert them to std::tm structure.",
+        "paragraph": "Use a DCF77 receiver on your Arduino to obtain time and date.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dac1e/DCF77RX-3.1.0.zip",
+        "size": 34053,
+        "previous_version": "3.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-04-10T16:18:02Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.1.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-26T14:13:39.120Z",
-  "total_libraries": 9884,
-  "index_etag": "W/\"74944b9d99296f1f0f35d431e6f51d23\"",
-  "index_last_modified": "Wed, 26 Aug 2026 13:59:12 GMT",
+  "enhanced_at": "2026-08-26T16:26:13.705Z",
+  "total_libraries": 9885,
+  "index_etag": "W/\"c1b2b259fc9992ff515509de3fa79041\"",
+  "index_last_modified": "Wed, 26 Aug 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -126237,7 +126237,7 @@
       "repository_name": "GyverLibs/GyverHTTP",
       "repository_url": "https://github.com/GyverLibs/GyverHTTP",
       "name": "GyverHTTP",
-      "version": "1.0.31",
+      "version": "1.0.32",
       "version_history": [
         {
           "version": "1.0.30",
@@ -126246,11 +126246,15 @@
         {
           "version": "1.0.31",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.32",
+          "seen_at": "2026-08-26T16:26:12.288Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-09-19T07:28:12Z",
-      "last_seen_sha": "d4baaf7ae237",
+      "last_seen_sha": "d6f5fdbc1106",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple Arduino Client based HTTP server and client with stream tools",
@@ -126262,9 +126266,9 @@
       "depends": [
         "StringUtils"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.31.zip",
-      "size": 27923,
-      "previous_version": "1.0.30",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.32.zip",
+      "size": 28913,
+      "previous_version": "1.0.31",
       "github_stars": 11,
       "github_forks": 1,
       "github_language": "C++",
@@ -267685,6 +267689,35 @@
       "github_updated_at": "2025-04-24T04:46:08Z"
     },
     {
+      "repository_name": "sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
+      "repository_url": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
+      "name": "SparkFun SSD168x I2C Interface Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-26T16:26:12.288Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-26T16:26:12.288Z",
+      "last_seen_sha": "403940ab2ea8",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "Library for SSD168x e-paper displays on I2C",
+      "paragraph": "A library to support SSD168x e-paper displays on I2C using a I2C-SPI Bridge. The MSP430FR2433 and STM32G03 folders contain example bridge firmware",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library-1.0.0.zip",
+      "size": 14372328,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-26T13:07:59Z"
+    },
+    {
       "repository_name": "sparkfun/SparkFun_ST25DV64KC_Arduino_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_ST25DV64KC_Arduino_Library",
       "name": "SparkFun ST25DV64KC Arduino Library",
@@ -317317,7 +317350,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9681,
+    "with_github_metadata": 9682,
     "total_dependencies": 5282
   }
 }

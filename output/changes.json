@@ -1,6 +1,211 @@
 {
-  "since": "2026-08-26T19:31:28.511Z",
+  "since": "2026-08-26T20:43:26.247Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "PribaNosati/mrm-board",
+        "repository_url": "https://github.com/PribaNosati/mrm-board",
+        "name": "mrm-board",
+        "version": "0.0.15",
+        "version_history": [
+          {
+            "version": "0.0.13",
+            "seen_at": "2025-07-21T16:25:14Z"
+          },
+          {
+            "version": "0.0.14",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.0.15",
+            "seen_at": "2026-08-26T20:43:26.247Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:25:14Z",
+        "last_seen_sha": "1cc1ff249c4c",
+        "author": "Zoran Pribičević <priba@microline.hr>",
+        "maintainer": "Zoran Pribičević <priba@microline.hr>",
+        "sentence": "CAN Bus library for MRMS mrm-board",
+        "paragraph": "CAN Bus connectivity and local functions exposed via CAN Bus, base classes for all the other sensor, motors, and most of the other derived classes.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "mrm-can-bus",
+          "mrm-common",
+          "mrm-pid",
+          "mrm-robot"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PribaNosati/mrm_board-0.0.15.zip",
+        "size": 14995,
+        "previous_version": "0.0.14",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-09-08T16:53:58Z"
+      },
+      "old_version": "0.0.14",
+      "new_version": "0.0.15"
+    },
+    {
+      "library": {
+        "repository_name": "PribaNosati/mrm-col-b",
+        "repository_url": "https://github.com/PribaNosati/mrm-col-b",
+        "name": "mrm-col-b",
+        "version": "0.0.5",
+        "version_history": [
+          {
+            "version": "0.0.3",
+            "seen_at": "2025-07-21T16:25:14Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.0.5",
+            "seen_at": "2026-08-26T20:43:26.247Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:25:14Z",
+        "last_seen_sha": "e3920ee2682c",
+        "author": "Zoran Pribičević <priba@microline.hr>",
+        "maintainer": "Zoran Pribičević <priba@microline.hr>",
+        "sentence": "CAN Bus library for MRMS mrm-col-b",
+        "paragraph": "CAN Bus connectivity and local functions exposed via CAN Bus for 11-channel color sensor",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "mrm-board",
+          "mrm-robot"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PribaNosati/mrm_col_b-0.0.5.zip",
+        "size": 7106,
+        "previous_version": "0.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-09-08T16:57:23Z"
+      },
+      "old_version": "0.0.4",
+      "new_version": "0.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "PribaNosati/mrm-robot",
+        "repository_url": "https://github.com/PribaNosati/mrm-robot",
+        "name": "mrm-robot",
+        "version": "0.0.24",
+        "version_history": [
+          {
+            "version": "0.0.22",
+            "seen_at": "2025-07-21T16:25:19Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-08-26T20:43:26.247Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:25:19Z",
+        "last_seen_sha": "211cc1a7db93",
+        "author": "Zoran Pribičević <priba@microline.hr>",
+        "maintainer": "Zoran Pribičević <priba@microline.hr>",
+        "sentence": "CAN Bus library for a base class for used-defined robots.",
+        "paragraph": "CAN Bus library for a base class for used-defined robots.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "mrm-8x8a",
+          "mrm-bldc2x50",
+          "mrm-bldc4x2.5",
+          "mrm-board",
+          "mrm-can-bus",
+          "mrm-col-b",
+          "mrm-col-can",
+          "mrm-common",
+          "mrm-fet-can",
+          "mrm-imu",
+          "mrm-ir-finder3",
+          "mrm-lid-can-b",
+          "mrm-lid-can-b2",
+          "mrm-mot2x50",
+          "mrm-mot4x10",
+          "mrm-mot4x3.6can",
+          "mrm-node",
+          "mrm-pid",
+          "mrm-ref-can",
+          "mrm-servo",
+          "mrm-switch",
+          "mrm-therm-b-can",
+          "mrm-us-b",
+          "mrm-us1"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PribaNosati/mrm_robot-0.0.24.zip",
+        "size": 23720,
+        "previous_version": "0.0.23",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-09-08T17:06:59Z"
+      },
+      "old_version": "0.0.23",
+      "new_version": "0.0.24"
+    },
+    {
+      "library": {
+        "repository_name": "BojanJurca/Thread-safe-file-sytem-wrapper-Arduino-library-for-ESP32",
+        "repository_url": "https://github.com/BojanJurca/Thread-safe-file-sytem-wrapper-Arduino-library-for-ESP32",
+        "name": "ThreadSafeFS",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-03-16T07:30:56Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-26T20:43:26.247Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-03-16T07:30:56Z",
+        "last_seen_sha": "bbcbd1ce8d3f",
+        "author": "Bojan Jurca",
+        "maintainer": "Bojan Jurca <bojan@gmail.com>",
+        "sentence": "Thread-safe filesystem wrapper for ESP32 (SPIFFS, LittleFS, SD) with mutex protection.",
+        "paragraph": "Provides safe concurrent access to ESP32 filesystems using a global mutex, preventing race conditions and invalid simultaneous file operations.",
+        "category": "Data Storage",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "LightweightSTL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/ThreadSafeFS-1.1.0.zip",
+        "size": 14554,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-15T20:34:26Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

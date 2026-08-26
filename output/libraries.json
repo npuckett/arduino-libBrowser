@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-26T09:13:37.917Z",
-  "total_libraries": 9882,
-  "index_etag": "W/\"15a2d769aa93d8000f703bcf8fd2e323\"",
-  "index_last_modified": "Wed, 26 Aug 2026 08:59:11 GMT",
+  "enhanced_at": "2026-08-26T10:10:26.409Z",
+  "total_libraries": 9883,
+  "index_etag": "W/\"ec2a97f3d9918b32d9ec2f0f51f13e66\"",
+  "index_last_modified": "Wed, 26 Aug 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -79071,7 +79071,7 @@
       "repository_name": "soosp/DigitalOutput",
       "repository_url": "https://github.com/soosp/DigitalOutput",
       "name": "DigitalOutput",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -79092,11 +79092,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-07-16T14:37:55.858Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-08-26T10:10:24.951Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-07-03T12:34:01.657Z",
-      "last_seen_sha": "d48a1051e45a",
+      "last_seen_sha": "f6d105d82086",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "A lightweight, multi-platform, thread-safe, and glitch-free digital output control library for Arduino.",
@@ -79109,9 +79113,9 @@
       "depends": [
         "Adafruit MCP23017 Arduino Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.4.1.zip",
-      "size": 27455,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/DigitalOutput-0.5.0.zip",
+      "size": 42546,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -218139,6 +218143,35 @@
       "github_updated_at": "2026-06-03T15:59:50Z"
     },
     {
+      "repository_name": "Protocentral/protocentral_tinygsr_arduino",
+      "repository_url": "https://github.com/Protocentral/protocentral_tinygsr_arduino",
+      "name": "ProtoCentral tinyGSR",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-26T10:10:24.951Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-26T10:10:24.951Z",
+      "last_seen_sha": "9e078cfbed95",
+      "author": "ProtoCentral Electronics <support@protocentral.com>",
+      "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
+      "sentence": "Arduino library for the ProtoCentral tinyGSR electrodermal-activity (GSR/EDA) breakout - absolute skin conductance in microsiemens.",
+      "paragraph": "Supports every tinyGSR revision from one library, selected at begin(). Drives the tinyGSR v2/v3 constant-voltage transimpedance front-end and reports ABSOLUTE skin conductance (microsiemens) and resistance, with an 8-tap smoothing filter, no-contact and over-range flags, and one-point self-calibration using the on-board Rcal resistor (JP1). Self-contained: drives the on-board 12-bit TLA2022 ADC (Lite tier) directly over I2C, no external ADC library required; an ADC-agnostic transfer-function helper supports the 16-bit ADS111x Standard tier. Qwiic / STEMMA QT. The original v1 board (LMV324 front-end, trimpot-set gain) is supported in relative ADC-count mode, replacing its dependency on the TLA20xx and FIR libraries.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_tinyGSR-1.0.0.zip",
+      "size": 193828,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-26T07:26:32Z"
+    },
+    {
       "repository_name": "Protocentral/protocentral_tla20XX_arduino",
       "repository_url": "https://github.com/Protocentral/protocentral_tla20XX_arduino",
       "name": "ProtoCentral TLA20xx",
@@ -317218,7 +317251,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9679,
+    "with_github_metadata": 9680,
     "total_dependencies": 5282
   }
 }

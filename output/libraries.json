@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-27T19:29:15.253Z",
-  "total_libraries": 9888,
-  "index_etag": "W/\"dfaa98da71fbcc5177b1b5db439157e0\"",
-  "index_last_modified": "Thu, 27 Aug 2026 19:29:12 GMT",
+  "enhanced_at": "2026-08-27T23:05:31.748Z",
+  "total_libraries": 9890,
+  "index_etag": "W/\"a7d8bba1c57e26c2f79f5721d1bce89e\"",
+  "index_last_modified": "Thu, 27 Aug 2026 22:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -37369,7 +37369,7 @@
       "repository_name": "atsign-foundation/at_client_arduino",
       "repository_url": "https://github.com/atsign-foundation/at_client_arduino",
       "name": "at_client",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "version_history": [
         {
           "version": "0.1.0",
@@ -37378,11 +37378,15 @@
         {
           "version": "0.1.2",
           "seen_at": "2026-07-28T20:24:04.519Z"
+        },
+        {
+          "version": "0.1.3",
+          "seen_at": "2026-08-27T23:05:28.812Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "525e31871baa",
+      "last_seen_sha": "6d97f584afc4",
       "author": "Atsign Foundation",
       "maintainer": "Atsign Foundation <info@atsign.com>",
       "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
@@ -37391,9 +37395,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-0.1.2.zip",
-      "size": 253297,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-0.1.3.zip",
+      "size": 253514,
+      "previous_version": "0.1.2",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C",
@@ -73370,6 +73374,38 @@
       "github_updated_at": "2026-08-01T00:37:43Z"
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_temt6000_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library",
+      "name": "DevLab_TEMT6000",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-27T23:05:28.812Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-27T23:05:28.812Z",
+      "last_seen_sha": "b57f06d392a1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for TEMT6000 using direct I2C register access.",
+      "paragraph": "DevLab TEMT6000 library for temperature acquisition using direct 16-bit register communication over I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "DevLabDDP"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-1.0.1.zip",
+      "size": 15622,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-27T18:29:01Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_tsl2591_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_tsl2591_library",
       "name": "Devlab_TSL2591",
@@ -73456,6 +73492,35 @@
         "Adafruit SSD1306"
       ],
       "download_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_veml7700_library"
+    },
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+      "name": "DevLabDDP",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-27T23:05:28.812Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-27T23:05:28.812Z",
+      "last_seen_sha": "146f9dda152f",
+      "author": "UNIT Electronics",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino master for the DevLab Device Protocol.",
+      "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.1.zip",
+      "size": 24378,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-27T17:22:21Z"
     },
     {
       "repository_name": "RobTillaart/DEVNULL",
@@ -99776,7 +99841,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.5.2",
+      "version": "1.5.3",
       "version_history": [
         {
           "version": "1.0.1",
@@ -99829,11 +99894,15 @@
         {
           "version": "1.5.2",
           "seen_at": "2026-08-12T20:12:22.714Z"
+        },
+        {
+          "version": "1.5.3",
+          "seen_at": "2026-08-27T23:05:28.812Z"
         }
       ],
-      "release_count": 13,
+      "release_count": 14,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "cfcb4a524780",
+      "last_seen_sha": "18967be97377",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
@@ -99842,9 +99911,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.2.zip",
-      "size": 10772997,
-      "previous_version": "1.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.3.zip",
+      "size": 6046976,
+      "previous_version": "1.5.2",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -107405,29 +107474,34 @@
       "repository_name": "agusevtec/eva-boxy",
       "repository_url": "https://github.com/agusevtec/eva-boxy",
       "name": "eva-boxy",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-19T14:10:10.648Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-27T23:05:28.812Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-19T14:10:10.648Z",
-      "last_seen_sha": "c2db5822ae8d",
+      "last_seen_sha": "4121ea7f1f51",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
-      "sentence": "Declarative desktop-style C++ GUI framework. Supports SSD1306, SH1106, KS0108, PCD8544, and HD44780 (LCD I2C) controllers.",
-      "paragraph": "A lightweight, high-ergonomics C++ UI library designed for resource-constrained displays driven by physical keypads. EVA Boxy delivers modern declarative code comfort using compile-time template composition. It also provides a robust, state-safe imperative API for direct screen control and is optimized for low-resolution text, symbols, and Remixicon vector graphics.",
-      "category": "Other",
+      "sentence": "EVA Boxy.",
+      "paragraph": "Declarative desktop-style GUI framework driven by physical keypads. Supports SSD1306, SH1106, KS0108, PCD8544, and HD44780 (LCD I2C) controllers.",
+      "category": "Display",
       "architectures": [
         "*"
       ],
       "depends": [
         "eva-core-sk"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_boxy-1.0.0.zip",
-      "size": 4400069,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_boxy-1.0.1.zip",
+      "size": 4400552,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -212407,7 +212481,7 @@
       "repository_name": "plasmapper/adxl355-arduino",
       "repository_url": "https://github.com/plasmapper/adxl355-arduino",
       "name": "PL ADXL355",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "version_history": [
         {
           "version": "1.2.0",
@@ -212428,11 +212502,15 @@
         {
           "version": "1.4.1",
           "seen_at": "2026-08-20T12:05:55.449Z"
+        },
+        {
+          "version": "1.4.2",
+          "seen_at": "2026-08-27T23:05:28.812Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-07-21T16:24:44Z",
-      "last_seen_sha": "fb3a6889ce1f",
+      "last_seen_sha": "4b6a3f8cf499",
       "author": "plasmapper",
       "maintainer": "plasmapper",
       "sentence": "Analog Devices ADXL355 accelerometer library",
@@ -212440,9 +212518,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/plasmapper/PL_ADXL355-1.4.1.zip",
-      "size": 22585,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/plasmapper/PL_ADXL355-1.4.2.zip",
+      "size": 23243,
+      "previous_version": "1.4.1",
       "github_stars": 14,
       "github_forks": 7,
       "github_language": "C++",
@@ -283517,7 +283595,7 @@
       "repository_name": "pipe1391/TecnovaIoT",
       "repository_url": "https://github.com/pipe1391/TecnovaIoT",
       "name": "TecnovaIoT",
-      "version": "1.2.0",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -283530,11 +283608,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-08-27T04:42:49.406Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-08-27T23:05:28.812Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "1faffbdf7ca5",
+      "last_seen_sha": "aab606c499ca",
       "author": "Tecnova",
       "maintainer": "Tecnova <https://github.com/pipe1391/TecnovaIoT/issues>",
       "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova por MQTT sobre WebSocket seguro (WSS).",
@@ -283546,9 +283628,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.2.0.zip",
-      "size": 48152,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.2.2.zip",
+      "size": 49256,
+      "previous_version": "1.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -317532,7 +317614,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9685,
-    "total_dependencies": 5293
+    "with_github_metadata": 9687,
+    "total_dependencies": 5294
   }
 }

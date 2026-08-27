@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-27T11:17:33.254Z",
+  "enhanced_at": "2026-08-27T15:35:30.496Z",
   "total_libraries": 9888,
-  "index_etag": "W/\"19f75709beb41a3bc0e4ec6f04c7fffe\"",
-  "index_last_modified": "Thu, 27 Aug 2026 10:59:12 GMT",
+  "index_etag": "W/\"dfaa98da71fbcc5177b1b5db439157e0\"",
+  "index_last_modified": "Thu, 27 Aug 2026 15:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -99485,7 +99485,7 @@
       "repository_name": "lemmingDev/ESP32-BLE-Gamepad",
       "repository_url": "https://github.com/lemmingDev/ESP32-BLE-Gamepad",
       "name": "ESP32-BLE-Gamepad",
-      "version": "0.7.3",
+      "version": "0.7.5-rc0",
       "version_history": [
         {
           "version": "0.7.4",
@@ -99494,11 +99494,15 @@
         {
           "version": "0.7.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.7.5-rc0",
+          "seen_at": "2026-08-27T15:35:30.352Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-29T08:58:14Z",
-      "last_seen_sha": "f91c56557777",
+      "last_seen_sha": "82b776b84ddb",
       "author": "lemmingDev",
       "maintainer": "lemmingDev",
       "sentence": "Bluetooth LE Gamepad library for the ESP32.",
@@ -99510,13 +99514,13 @@
       "depends": [
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/lemmingDev/ESP32_BLE_Gamepad-0.7.3.zip",
-      "size": 57901,
-      "previous_version": "0.7.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lemmingDev/ESP32_BLE_Gamepad-0.7.5-rc0.zip",
+      "size": 97463,
+      "previous_version": "0.7.3",
       "github_stars": 1543,
       "github_forks": 250,
-      "github_updated_at": "2026-07-01T20:49:11Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-01T20:49:11Z"
     },
     {
       "repository_name": "max22-/ESP32-BLE-MIDI",
@@ -218261,7 +218265,7 @@
       "repository_name": "Protocentral/protocentral-pulse-express",
       "repository_url": "https://github.com/Protocentral/protocentral-pulse-express",
       "name": "ProtoCentral Pulse Express SpO2 Heartrate and BPT sensor",
-      "version": "2.0.0",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.3",
@@ -218270,22 +218274,26 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-08-27T15:35:30.352Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-05T07:41:55Z",
-      "last_seen_sha": "d9c1dd5a92c0",
-      "author": "Protocentral Electronics <support@protocentral.com>",
+      "last_seen_sha": "8b7ad41f6e6b",
+      "author": "Ashwin Whitchurch, Protocentral Electronics <support@protocentral.com>",
       "maintainer": "Protocentral Electronics <support@protocentral.com>",
       "sentence": "Library for the Protocentral Pulse Express board (MAX30102 + MAX32664D).",
-      "paragraph": "Driver for the ProtoCentral Pulse Express breakout — MAX30102 optical pulse-oximeter coupled to a MAX32664D biometric sensor hub running Maxim's blood-pressure-trending (BPT) algorithm. Selects the correct command set at runtime based on the hub firmware version, so it supports MAX32664D firmware revisions across the 40.x line including the 40.5.0+ multi-point calibration / 512-byte vector / YYYYMMDD changes. Exposes raw PPG, BPT calibration, and BPT estimation modes with explicit calibration-vector persistence. Version 2.0.0 is a clean break from 1.0.x — see README for migration notes.",
+      "paragraph": "Driver for the ProtoCentral Pulse Express breakout — MAX30102 optical pulse-oximeter coupled to a MAX32664D biometric sensor hub running Maxim's blood-pressure-trending (BPT) algorithm. Selects the correct command set at runtime based on the hub firmware version, so it supports MAX32664D firmware revisions across the 40.x line including the 40.5.0+ multi-point calibration / 512-byte vector / YYYYMMDD changes. Exposes raw PPG, heart rate, SpO2, BPT calibration and estimation, HRV, and a factory firmware-flashing helper. The main class is PulseExpress (the 2.0.x Max32664 name still works via a compatibility header). Not a medical device — for research and development use only.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_Pulse_Express_SpO2_Heartrate_and_BPT_sensor-2.0.0.zip",
-      "size": 11743843,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_Pulse_Express_SpO2_Heartrate_and_BPT_sensor-2.2.0.zip",
+      "size": 11812144,
+      "previous_version": "2.0.0",
       "github_stars": 19,
       "github_forks": 13,
       "github_language": "C++",

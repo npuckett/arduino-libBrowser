@@ -1,6 +1,184 @@
 {
-  "since": "2026-08-27T07:29:38.220Z",
+  "since": "2026-08-27T11:17:33.135Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "FMazz97/CS123x",
+        "repository_url": "https://github.com/FMazz97/CS123x",
+        "name": "CS123x",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-18T10:05:32.941Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-19T10:05:37.437Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-08-20T16:06:16.230Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-22T22:02:40.551Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-27T11:17:33.135Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-08-18T10:05:32.941Z",
+        "last_seen_sha": "0fe5cde70803",
+        "author": "FMazz97",
+        "maintainer": "FMazz97",
+        "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit differential ADCs (load cells, weight scales, bridge sensors).",
+        "paragraph": "Full PGA gain, data rate, and channel control with two-point scale calibration, internal temperature monitoring, and internal short-circuit offset diagnostics.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.1.0.zip",
+        "size": 4550382,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-17T20:43:08Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+        "repository_url": "https://github.com/BojanJurca/Key-value-database-Arduino-Library-for-ESP32",
+        "name": "KeyValueDatabase",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-20T22:04:31.342Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-08-27T11:17:33.135Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-20T22:04:31.342Z",
+        "last_seen_sha": "0b5a36ad17a6",
+        "author": "Bojan Jurca",
+        "maintainer": "Bojan Jurca <bojan@gmail.com>",
+        "sentence": "Fast, thread-safe key-value database for ESP32 with block-level optimization.",
+        "paragraph": "Provides a lightweight, crash-resilient key-value store built on top of ESP32 LittleFS.",
+        "category": "Data Storage",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "LightweightSTL",
+          "ThreadSafeFS"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/KeyValueDatabase-1.0.2.zip",
+        "size": 16645,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-20T17:44:01Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Stamp-UWB",
+        "repository_url": "https://github.com/m5stack/M5Stamp-UWB",
+        "name": "M5Stamp_UWB",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-14T12:12:54.999Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-08-27T11:17:33.135Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-14T12:12:54.999Z",
+        "last_seen_sha": "626f82c73eb0",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "M5Stack Library of Stamp UWB",
+        "paragraph": "M5Stack,Stamp UWB, See more on http://M5Stack.com",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Stamp_UWB-0.1.1.zip",
+        "size": 217643,
+        "previous_version": "0.1.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-14T11:10:56Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "okalachev/mavlink-arduino",
+        "repository_url": "https://github.com/okalachev/mavlink-arduino",
+        "name": "MAVLink",
+        "version": "2.0.33",
+        "version_history": [
+          {
+            "version": "2.0.30",
+            "seen_at": "2026-06-01T09:12:24Z"
+          },
+          {
+            "version": "2.0.31",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "2.0.32",
+            "seen_at": "2026-08-01T02:59:56.174Z"
+          },
+          {
+            "version": "2.0.33",
+            "seen_at": "2026-08-27T11:17:33.135Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-01T09:12:24Z",
+        "last_seen_sha": "6528db7f366d",
+        "author": "Oleg Kalachev <okalachev@gmail.com",
+        "maintainer": "Oleg Kalachev <okalachev@gmail.com>",
+        "sentence": "MAVLink v2 for Arduino.",
+        "paragraph": "MAVLink is a lightweight communication protocol for communication between drones (and/or ground systems) and their components.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.33.zip",
+        "size": 1734922,
+        "previous_version": "2.0.32",
+        "github_stars": 54,
+        "github_forks": 13,
+        "github_language": "C",
+        "github_updated_at": "2026-06-01T01:12:29Z"
+      },
+      "old_version": "2.0.32",
+      "new_version": "2.0.33"
+    }
+  ],
   "removed_libraries": []
 }

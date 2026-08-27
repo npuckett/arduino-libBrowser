@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-27T00:13:15.130Z",
+  "enhanced_at": "2026-08-27T02:31:05.166Z",
   "total_libraries": 9888,
-  "index_etag": "W/\"6ede13234088ad939977909ebf416d6c\"",
-  "index_last_modified": "Wed, 26 Aug 2026 23:59:12 GMT",
+  "index_etag": "W/\"bb2bb27382bb0215e3cee5c31a72f381\"",
+  "index_last_modified": "Thu, 27 Aug 2026 02:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23195,7 +23195,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.159",
+      "version": "1.2.160",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23560,11 +23560,15 @@
         {
           "version": "1.2.159",
           "seen_at": "2026-08-26T04:12:41.856Z"
+        },
+        {
+          "version": "1.2.160",
+          "seen_at": "2026-08-27T02:31:05.031Z"
         }
       ],
-      "release_count": 91,
+      "release_count": 92,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "3fc478bdb23b",
+      "last_seen_sha": "2bd6c5944cf8",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23585,9 +23589,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.159.zip",
-      "size": 44547674,
-      "previous_version": "1.2.158",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.160.zip",
+      "size": 44560142,
+      "previous_version": "1.2.159",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -283482,20 +283486,24 @@
       "repository_name": "pipe1391/TecnovaIoT",
       "repository_url": "https://github.com/pipe1391/TecnovaIoT",
       "name": "TecnovaIoT",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-27T00:13:10.829Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-27T02:31:05.031Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "970bb200a699",
+      "last_seen_sha": "60dbe567623b",
       "author": "Tecnova",
       "maintainer": "Tecnova <soporte@ceetecnova.com>",
       "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova (panel.ceetecnova.com) por MQTT sobre WebSocket seguro.",
-      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano.",
+      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Incluye un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -283503,8 +283511,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.0.0.zip",
-      "size": 17451,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.1.0.zip",
+      "size": 30394,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

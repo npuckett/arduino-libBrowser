@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-27T02:31:05.166Z",
+  "enhanced_at": "2026-08-27T04:42:49.550Z",
   "total_libraries": 9888,
-  "index_etag": "W/\"bb2bb27382bb0215e3cee5c31a72f381\"",
-  "index_last_modified": "Thu, 27 Aug 2026 02:29:12 GMT",
+  "index_etag": "W/\"e35ddf551488e6a24854203bca527bc9\"",
+  "index_last_modified": "Thu, 27 Aug 2026 04:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -232028,7 +232028,7 @@
       "repository_name": "joaoaugustocz/RoboS3",
       "repository_url": "https://github.com/joaoaugustocz/RoboS3",
       "name": "RoboS3",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -232037,15 +232037,19 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-08-26T14:13:38.984Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-08-27T04:42:49.406Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-26T06:07:23.836Z",
-      "last_seen_sha": "efdbc1089e39",
+      "last_seen_sha": "4c89008c5fc8",
       "author": "João Augusto Carvalho Araújo",
       "maintainer": "João Augusto Carvalho Araújo",
-      "sentence": "Educational and modular library for the RoboS3 board with ESP32-S3.",
-      "paragraph": "Controls L298N motors, QTR line sensors, ultrasonic sensor, two TCS34725 sensors, MPU6050, PID, and calibration while preserving access to low-level data.",
+      "sentence": "Educational and modular ESP32-S3 robot library with unified sensors.",
+      "paragraph": "Controls L298N motors, QTR line sensors, digital and analog buttons with debounce, ultrasonic and VL53L0X distance sensors, two TCS34725 sensors, MPU6050, PID, diagnostics, and persistent calibration.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -232053,14 +232057,15 @@
       "depends": [
         "QTRSensors",
         "HCSR04",
+        "VL53L0X",
         "Adafruit TCS34725",
         "Adafruit BusIO",
         "MPU6050",
         "PIDEasy"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.3.0.zip",
-      "size": 91269,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.4.0.zip",
+      "size": 111713,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -283486,7 +283491,7 @@
       "repository_name": "pipe1391/TecnovaIoT",
       "repository_url": "https://github.com/pipe1391/TecnovaIoT",
       "name": "TecnovaIoT",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -283495,14 +283500,18 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-27T02:31:05.031Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-08-27T04:42:49.406Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "60dbe567623b",
+      "last_seen_sha": "1faffbdf7ca5",
       "author": "Tecnova",
-      "maintainer": "Tecnova <soporte@ceetecnova.com>",
-      "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova (panel.ceetecnova.com) por MQTT sobre WebSocket seguro.",
+      "maintainer": "Tecnova <https://github.com/pipe1391/TecnovaIoT/issues>",
+      "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova por MQTT sobre WebSocket seguro (WSS).",
       "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Incluye un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo.",
       "category": "Communication",
       "architectures": [
@@ -283511,9 +283520,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.1.0.zip",
-      "size": 30394,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.2.0.zip",
+      "size": 48152,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -317498,6 +317507,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9685,
-    "total_dependencies": 5292
+    "total_dependencies": 5293
   }
 }

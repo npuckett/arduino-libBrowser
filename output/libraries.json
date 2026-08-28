@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-27T23:05:31.748Z",
+  "enhanced_at": "2026-08-28T02:33:21.314Z",
   "total_libraries": 9890,
-  "index_etag": "W/\"a7d8bba1c57e26c2f79f5721d1bce89e\"",
-  "index_last_modified": "Thu, 27 Aug 2026 22:59:12 GMT",
+  "index_etag": "W/\"918a38d97c1028f8acd732fab3643e31\"",
+  "index_last_modified": "Fri, 28 Aug 2026 02:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -37369,7 +37369,7 @@
       "repository_name": "atsign-foundation/at_client_arduino",
       "repository_url": "https://github.com/atsign-foundation/at_client_arduino",
       "name": "at_client",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "version_history": [
         {
           "version": "0.1.0",
@@ -37382,11 +37382,15 @@
         {
           "version": "0.1.3",
           "seen_at": "2026-08-27T23:05:28.812Z"
+        },
+        {
+          "version": "0.1.5",
+          "seen_at": "2026-08-28T02:33:21.165Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "6d97f584afc4",
+      "last_seen_sha": "1842fc2644a7",
       "author": "Atsign Foundation",
       "maintainer": "Atsign Foundation <info@atsign.com>",
       "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
@@ -37395,9 +37399,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-0.1.3.zip",
-      "size": 253514,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-0.1.5.zip",
+      "size": 260548,
+      "previous_version": "0.1.3",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C",
@@ -211334,7 +211338,7 @@
       "repository_name": "kwlew/PIDEasy-Improved",
       "repository_url": "https://github.com/kwlew/PIDEasy-Improved",
       "name": "PIDEasy-Improved",
-      "version": "1.0.6",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -211347,22 +211351,26 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-07-03T00:24:18.708Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-28T02:33:21.165Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:59:38Z",
-      "last_seen_sha": "690cb539e129",
+      "last_seen_sha": "4c11bdf5d6df",
       "author": "Kaleo S. Mendonça",
       "maintainer": "<kaleosoaresmendonca@gmail.com>",
       "sentence": "A simple and efficient PID controller library for Arduino.",
-      "paragraph": "Includes support for gain adjustment, integral limit (anti-windup), derivative term smoothing, and output constraint.",
+      "paragraph": "Includes runtime gain changes, saturation-aware anti-windup (conditional integration), integral limits in output units, loop-rate-independent derivative filtering, output constraint, automatic dt measurement, and per-term telemetry for tuning.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.0.6.zip",
-      "size": 9883,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.1.0.zip",
+      "size": 25232,
+      "previous_version": "1.0.6",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -232132,7 +232140,7 @@
       "repository_name": "joaoaugustocz/RoboS3",
       "repository_url": "https://github.com/joaoaugustocz/RoboS3",
       "name": "RoboS3",
-      "version": "0.4.0",
+      "version": "0.4.2",
       "version_history": [
         {
           "version": "0.2.0",
@@ -232145,11 +232153,15 @@
         {
           "version": "0.4.0",
           "seen_at": "2026-08-27T04:42:49.406Z"
+        },
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-08-28T02:33:21.165Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-26T06:07:23.836Z",
-      "last_seen_sha": "4c89008c5fc8",
+      "last_seen_sha": "efeeb3e37f9b",
       "author": "João Augusto Carvalho Araújo",
       "maintainer": "João Augusto Carvalho Araújo",
       "sentence": "Educational and modular ESP32-S3 robot library with unified sensors.",
@@ -232167,9 +232179,9 @@
         "MPU6050",
         "PIDEasy"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.4.0.zip",
-      "size": 111713,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.4.2.zip",
+      "size": 115127,
+      "previous_version": "0.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -247065,7 +247077,7 @@
       "repository_name": "GyverLibs/Settings",
       "repository_url": "https://github.com/GyverLibs/Settings",
       "name": "Settings",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "version_history": [
         {
           "version": "1.3.17",
@@ -247082,11 +247094,15 @@
         {
           "version": "1.4.2",
           "seen_at": "2026-08-10T18:14:40.369Z"
+        },
+        {
+          "version": "1.4.3",
+          "seen_at": "2026-08-28T02:33:21.165Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-11T08:47:39Z",
-      "last_seen_sha": "52ababc68a27",
+      "last_seen_sha": "01490c45bf74",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple UI webface builder for esp8266/esp32",
@@ -247105,9 +247121,9 @@
         "Stamp",
         "Table"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Settings-1.4.2.zip",
-      "size": 249420,
-      "previous_version": "1.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Settings-1.4.3.zip",
+      "size": 249683,
+      "previous_version": "1.4.2",
       "github_stars": 114,
       "github_forks": 16,
       "github_language": "C",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-28T21:49:27.766Z",
+  "enhanced_at": "2026-08-28T22:17:05.443Z",
   "total_libraries": 9890,
-  "index_etag": "W/\"0afc176a46998b2db19ad944fcf42032\"",
-  "index_last_modified": "Fri, 28 Aug 2026 21:29:12 GMT",
+  "index_etag": "W/\"503a5787eea9507be4100173e1d3a1e0\"",
+  "index_last_modified": "Fri, 28 Aug 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -34699,16 +34699,20 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-08-27T00:13:10.829Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-08-28T22:17:05.295Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "cba1e09352aa",
+      "last_seen_sha": "08ecf9f2148f",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -34725,8 +34729,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.1.0.zip",
-      "size": 146385,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.2.0.zip",
+      "size": 147828,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -119496,16 +119501,20 @@
       "repository_name": "soosp/GeigerMeasurement",
       "repository_url": "https://github.com/soosp/GeigerMeasurement",
       "name": "GeigerMeasurement",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-06-01T09:32:17Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-08-28T22:17:05.295Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-01T09:32:17Z",
-      "last_seen_sha": "d77db73518c8",
+      "last_seen_sha": "e359a777f49b",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Geiger-Müller counter measurement library for ESP32 and ESP8266.",
@@ -119515,14 +119524,16 @@
         "esp8266",
         "esp32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-01T08:43:07Z",
       "depends": [
         "RunningStatistics"
       ],
-      "download_url": "https://github.com/soosp/GeigerMeasurement"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.0.3.zip",
+      "size": 391512,
+      "previous_version": "1.0.2",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-01T08:43:07Z"
     },
     {
       "repository_name": "Spirik/GEM",
@@ -193919,7 +193930,7 @@
       "repository_name": "soosp/NetworkProfile",
       "repository_url": "https://github.com/soosp/NetworkProfile",
       "name": "NetworkProfile",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -193964,11 +193975,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-08-26T22:58:36.675Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-08-28T22:17:05.295Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "82b354f26861",
+      "last_seen_sha": "2d2e1c72a745",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
@@ -193985,9 +194000,9 @@
         "EEPROMPreferences",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.7.0.zip",
-      "size": 82315,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.8.0.zip",
+      "size": 85660,
+      "previous_version": "0.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -237184,16 +237199,20 @@
       "repository_name": "soosp/RunningStatistics",
       "repository_url": "https://github.com/soosp/RunningStatistics",
       "name": "RunningStatistics",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-06-08T09:20:46Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-08-28T22:17:05.295Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-08T09:20:46Z",
-      "last_seen_sha": "03e3b24ed093",
+      "last_seen_sha": "3e00c7a5fe97",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "General-purpose sliding window and cumulative statistics for time-series data on embedded systems.",
@@ -237202,11 +237221,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RunningStatistics-1.1.1.zip",
+      "size": 37591,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-07T21:01:32Z",
-      "download_url": "https://github.com/soosp/RunningStatistics"
+      "github_updated_at": "2026-06-07T21:01:32Z"
     },
     {
       "repository_name": "fredlarochelle/RunningStats",

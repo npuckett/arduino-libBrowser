@@ -1,6 +1,219 @@
 {
-  "since": "2026-08-28T21:49:27.635Z",
+  "since": "2026-08-28T22:17:05.295Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "08ecf9f2148f",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.2.0.zip",
+        "size": 147828,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/GeigerMeasurement",
+        "repository_url": "https://github.com/soosp/GeigerMeasurement",
+        "name": "GeigerMeasurement",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-06-01T09:32:17Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-01T09:32:17Z",
+        "last_seen_sha": "e359a777f49b",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Geiger-Müller counter measurement library for ESP32 and ESP8266.",
+        "paragraph": "Implements the core measurement algorithms of the RadPro project (Gissio), adapted for the Arduino platform. Features five averaging modes, dead-time compensation, 95% confidence interval, in-situ dead-time measurement, live calibration, and fault detection. Tube sensitivity data from Rad Lab simulations via RadPro v3.1.1.",
+        "category": "Sensors",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "RunningStatistics"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.0.3.zip",
+        "size": 391512,
+        "previous_version": "1.0.2",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-01T08:43:07Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkProfile",
+        "repository_url": "https://github.com/soosp/NetworkProfile",
+        "name": "NetworkProfile",
+        "version": "0.8.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-24T14:32:04.454Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-07-30T14:44:22.538Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-07-31T14:46:09.144Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-08-06T00:18:43.270Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-08-26T22:58:36.675Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          }
+        ],
+        "release_count": 12,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "2d2e1c72a745",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+        "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -> WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "depends": [
+          "Host",
+          "EEPROMPreferences",
+          "Preferences"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.8.0.zip",
+        "size": 85660,
+        "previous_version": "0.7.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T14:26:58Z"
+      },
+      "old_version": "0.7.0",
+      "new_version": "0.8.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/RunningStatistics",
+        "repository_url": "https://github.com/soosp/RunningStatistics",
+        "name": "RunningStatistics",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-08T09:20:46Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-08T09:20:46Z",
+        "last_seen_sha": "3e00c7a5fe97",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "General-purpose sliding window and cumulative statistics for time-series data on embedded systems.",
+        "paragraph": "RollingStats provides bin-based sliding window statistics (average, min, max, stddev) with compile-time sizing and no dynamic memory allocation. CumulativeStats provides lifetime statistics and dose accumulation using Welford's numerically stable algorithm. Both classes are hardware-independent — the caller provides the timestamp. Designed for use with GeigerMeasurement but applicable to any time-series sensor data.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RunningStatistics-1.1.1.zip",
+        "size": 37591,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-07T21:01:32Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-28T23:01:58.426Z",
+  "enhanced_at": "2026-08-29T00:06:15.336Z",
   "total_libraries": 9890,
-  "index_etag": "W/\"503a5787eea9507be4100173e1d3a1e0\"",
-  "index_last_modified": "Fri, 28 Aug 2026 22:59:12 GMT",
+  "index_etag": "W/\"af3b5dcdc9f3eb62a2149380dd2996c2\"",
+  "index_last_modified": "Fri, 28 Aug 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -3758,16 +3758,20 @@
       "repository_name": "Terry-Gould/ACANFD_SAME",
       "repository_url": "https://github.com/Terry-Gould/ACANFD_SAME",
       "name": "ACANFD_SAME",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-05-25T09:17:43Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-29T00:06:15.226Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-25T09:17:43Z",
-      "last_seen_sha": "117fab4f6b6a",
+      "last_seen_sha": "bd4add09c5f2",
       "author": "Pierre Molinaro, Terry Gould",
       "maintainer": "Terry Gould <terry.gould.public@gmail.com>",
       "sentence": "CAN FD library for SAME5x MCUs derived from ACANFD_FeatherM4CAN by Pierre Molinaro",
@@ -3776,11 +3780,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/ACANFD_SAME-1.0.1.zip",
+      "size": 1220736,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-23T12:54:19Z",
-      "download_url": "https://github.com/Terry-Gould/ACANFD_SAME"
+      "github_updated_at": "2026-05-23T12:54:19Z"
     },
     {
       "repository_name": "pierremolinaro/acanfd-stm32",
@@ -57116,16 +57122,20 @@
       "repository_name": "Terry-Gould/CANMessageSignal",
       "repository_url": "https://github.com/Terry-Gould/CANMessageSignal",
       "name": "CANMessageSignal",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-16T09:42:58Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-29T00:06:15.226Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-16T09:42:58Z",
-      "last_seen_sha": "23541c3fcfb5",
+      "last_seen_sha": "2bd1fcd3aa03",
       "author": "Terry Gould",
       "maintainer": "Terry Gould <terry.gould.public@gmail.com>",
       "sentence": "DBC-style CAN message and signal packing, sending, and decoding for ACANFD_SAME.",
@@ -57134,14 +57144,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-15T20:17:02Z",
       "depends": [
         "ACANFD_SAME"
       ],
-      "download_url": "https://github.com/Terry-Gould/CANMessageSignal"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/CANMessageSignal-1.0.1.zip",
+      "size": 76302,
+      "previous_version": "1.0.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-15T20:17:02Z"
     },
     {
       "repository_name": "maxmacstn/ESP32-Canon-BLE-Remote",
@@ -57287,16 +57299,20 @@
       "repository_name": "Terry-Gould/CANSignalStudioInterface",
       "repository_url": "https://github.com/Terry-Gould/CANSignalStudioInterface",
       "name": "CANSignalStudioInterface",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-08-23T00:04:13.646Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-29T00:06:15.226Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-23T00:04:13.646Z",
-      "last_seen_sha": "6b5d61ad75ba",
+      "last_seen_sha": "b125fda677f3",
       "author": "Terry Gould",
       "maintainer": "Terry Gould <terry.gould.public@gmail.com>",
       "sentence": "Device-side interface library for CAN Signal Studio.",
@@ -57309,8 +57325,9 @@
         "ACANFD_SAME",
         "CANMessageSignal"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/CANSignalStudioInterface-0.1.0.zip",
-      "size": 70683,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/CANSignalStudioInterface-0.1.1.zip",
+      "size": 66000,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -303695,16 +303712,20 @@
       "repository_name": "SvenRosvall/VCAN2515",
       "repository_url": "https://github.com/SvenRosvall/VCAN2515",
       "name": "VCAN2515",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "3.0.0",
           "seen_at": "2026-07-12T00:19:40.910Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-08-29T00:06:15.226Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-12T00:19:40.910Z",
-      "last_seen_sha": "004e8f085e3b",
+      "last_seen_sha": "4f40a31488af",
       "author": "Sven Rosvall <sven@rosvall.ie>",
       "maintainer": "Sven Rosvall <sven@rosvall.ie>",
       "sentence": "CAN2515 driver for VLCB library",
@@ -303718,8 +303739,9 @@
         "ACAN2515",
         "VLCB"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/SvenRosvall/VCAN2515-3.0.0.zip",
-      "size": 172902,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SvenRosvall/VCAN2515-3.1.0.zip",
+      "size": 173487,
+      "previous_version": "3.0.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

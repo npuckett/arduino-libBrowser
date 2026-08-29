@@ -1,6 +1,80 @@
 {
-  "since": "2026-08-29T13:02:02.832Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-29T14:02:08.635Z",
+  "new_libraries": [
+    {
+      "repository_name": "argeorun/MODBUS-RTU_Slave_Ardu_Lib",
+      "repository_url": "https://github.com/argeorun/MODBUS-RTU_Slave_Ardu_Lib",
+      "name": "Modbus-SerialDevice-ArduinoLib",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-29T14:02:08.635Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-29T14:02:08.635Z",
+      "last_seen_sha": "de92919c96c5",
+      "author": "George Arun <argeorun@gmail.com>",
+      "maintainer": "George Arun <argeorun@gmail.com>",
+      "sentence": "Full-featured Modbus RTU slave (server) library for Arduino boards.",
+      "paragraph": "This library provides full Modbus RTU slave capabilities: FC01 (Read Coils), FC02 (Read Discrete Inputs), FC03 (Read Holding Registers), FC04 (Read Input Registers), FC05 (Write Single Coil), FC06 (Write Single Register), FC07 (Read Exception Status), FC08 (Diagnostics), FC11 (Get Comm Event Counter), FC12 (Get Comm Event Log), FC15 (Write Multiple Coils), FC16 (Write Multiple Registers), FC17 (Report Server ID), FC22 (Mask Write Register), FC23 (Read/Write Multiple Registers) and FC43/14 (Read Device Identification), with all exception codes, broadcast, listen-only mode and persistence. Supports UNO, MEGA, ESP32 (Generic/C3/C6/S3) and STM32 (F1/F4/F7/H7) with RS-485 DE pin control.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/argeorun/Modbus_SerialDevice_ArduinoLib-1.0.0.zip",
+      "size": 34734,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-29T09:57:53Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tgtakaoka/libasm",
+        "repository_url": "https://github.com/tgtakaoka/libasm",
+        "name": "libasm",
+        "version": "1.6.65",
+        "version_history": [
+          {
+            "version": "1.6.63",
+            "seen_at": "2026-06-30T08:50:14Z"
+          },
+          {
+            "version": "1.6.64",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "1.6.65",
+            "seen_at": "2026-08-29T14:02:08.635Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T08:50:14Z",
+        "last_seen_sha": "ce9fa97a440f",
+        "author": "Tadashi G. Takaoka",
+        "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
+        "sentence": "Cross assembler and disassembler for retro CPUs",
+        "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.65.zip",
+        "size": 13716050,
+        "previous_version": "1.6.64",
+        "github_stars": 44,
+        "github_forks": 3,
+        "github_language": "Assembly",
+        "github_updated_at": "2026-07-01T14:13:07Z"
+      },
+      "old_version": "1.6.64",
+      "new_version": "1.6.65"
+    }
+  ],
   "removed_libraries": []
 }

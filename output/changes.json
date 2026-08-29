@@ -1,6 +1,232 @@
 {
-  "since": "2026-08-29T21:02:09.881Z",
+  "since": "2026-08-29T22:02:03.253Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.2.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "4facc990b7a6",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.2.1.zip",
+        "size": 148454,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "JesRex700/HDrive",
+        "repository_url": "https://github.com/JesRex700/HDrive",
+        "name": "HDrive",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-04-21T07:39:12Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-08-20T06:05:40.805Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-21T07:39:12Z",
+        "last_seen_sha": "6f88b21edf28",
+        "author": "Jesús Amezquita, Kame Electronics",
+        "maintainer": "Jesús Amezquita <l25290382@cdguzman.tecnm.mx>",
+        "sentence": "H Bridge architecture based driver controller.",
+        "paragraph": "Library for controlling nearly any motor driver based on an H Bridge architecture, being 100% compatible with independent two channel PWM, braking and freerun.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/JesRex700/HDrive-2.0.3.zip",
+        "size": 9819,
+        "previous_version": "2.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-21T00:51:36Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/HomeAssistantDiscovery",
+        "repository_url": "https://github.com/soosp/HomeAssistantDiscovery",
+        "name": "HomeAssistantDiscovery",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-29T18:02:47.297Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-29T18:02:47.297Z",
+        "last_seen_sha": "1d3aa117d201",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Home Assistant MQTT discovery payloads, built into caller-supplied buffers.",
+        "paragraph": "Builds discovery topics and payloads from constexpr PROGMEM entity tables. No dynamic allocation, no JSON library, and no MQTT client — the application connects and publishes, so the same tables serve any client. Covers the single-state MQTT platforms (sensor, binary_sensor, button, number, select, switch); a publisher walks the tables and a matching clearer removes the retained messages again. Host-testable.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HomeAssistantDiscovery-0.1.1.zip",
+        "size": 30026,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-29T16:06:38Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "bnorth12/LC29H_GNSS-Library",
+        "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
+        "name": "LC29H_GNSS",
+        "version": "0.2.11",
+        "version_history": [
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-27T03:00:19.752Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "0.2.5",
+            "seen_at": "2026-08-29T04:02:39.099Z"
+          },
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-08-29T06:04:02.070Z"
+          },
+          {
+            "version": "0.2.9",
+            "seen_at": "2026-08-29T20:02:12.993Z"
+          },
+          {
+            "version": "0.2.11",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-07-27T03:00:19.752Z",
+        "last_seen_sha": "71dac53ed38c",
+        "author": "LC29H_GNSS Contributors",
+        "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
+        "sentence": "Configuration-focused Arduino library for Quectel LC29H BA, BS, DA, and EA GNSS modules.",
+        "paragraph": "Provides command transport, checksum handling, receiver mode configuration, Survey-In and base fixed helpers, and serial monitor command processing for rapid bench setup.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.11.zip",
+        "size": 116697,
+        "previous_version": "0.2.9",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-27T01:26:43Z"
+      },
+      "old_version": "0.2.9",
+      "new_version": "0.2.11"
+    },
+    {
+      "library": {
+        "repository_name": "todbot/TS20_Arduino",
+        "repository_url": "https://github.com/todbot/TS20_Arduino",
+        "name": "TS20",
+        "version": "0.6.0",
+        "version_history": [
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-08-26T02:28:01.937Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-26T02:28:01.937Z",
+        "last_seen_sha": "8d67c4792a77",
+        "author": "Tod Kurt <tod@todbot.com>",
+        "maintainer": "Tod Kurt <tod@todbot.com>",
+        "sentence": "Arduino library for the TS20 20-channel capacitive touch sensor",
+        "paragraph": "Driver for the AD Semiconductor / TouchSemi TS20 I2C capacitive touch chip. Reads all 20 pads at once and lets sensitivity be tuned globally or per pad at runtime.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/todbot/TS20-0.6.0.zip",
+        "size": 14939,
+        "previous_version": "0.5.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-25T23:43:06Z"
+      },
+      "old_version": "0.5.0",
+      "new_version": "0.6.0"
+    }
+  ],
   "removed_libraries": []
 }

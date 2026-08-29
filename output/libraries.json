@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-29T09:02:29.658Z",
-  "total_libraries": 9890,
-  "index_etag": "W/\"8655997a0b4d7e5b286fc1a1edd1877e\"",
-  "index_last_modified": "Sat, 29 Aug 2026 08:59:12 GMT",
+  "enhanced_at": "2026-08-29T10:02:06.625Z",
+  "total_libraries": 9891,
+  "index_etag": "W/\"9f7ec3cbe0083209222592dc9e7af397\"",
+  "index_last_modified": "Sat, 29 Aug 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -310345,6 +310345,39 @@
       "github_updated_at": "2026-03-06T12:59:02Z"
     },
     {
+      "repository_name": "GrishovAleksei/WiFiOTA",
+      "repository_url": "https://github.com/GrishovAleksei/WiFiOTA",
+      "name": "WiFiOTA",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-29T10:02:05.127Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-29T10:02:05.127Z",
+      "last_seen_sha": "95760b9fbc00",
+      "author": "Aleksei Grishov",
+      "maintainer": "Aleksei Grishov",
+      "sentence": "Simple OTA helper for Arduino UNO R4 WiFi",
+      "paragraph": "WiFi and ArduinoOTA helper for UNO R4 WiFi using WiFiS3 and ArduinoOTA.",
+      "category": "Communication",
+      "architectures": [
+        "renesas_uno"
+      ],
+      "depends": [
+        "WiFiS3",
+        "ArduinoOTA"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GrishovAleksei/WiFiOTA-1.0.0.zip",
+      "size": 3894,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-29T06:05:25Z"
+    },
+    {
       "repository_name": "arshidkv12/WiFiPortalESP8266",
       "repository_url": "https://github.com/arshidkv12/WiFiPortalESP8266",
       "name": "WiFiPortalESP8266",
@@ -317742,7 +317775,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9687,
-    "total_dependencies": 5294
+    "with_github_metadata": 9688,
+    "total_dependencies": 5296
   }
 }

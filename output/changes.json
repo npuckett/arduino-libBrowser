@@ -1,6 +1,81 @@
 {
-  "since": "2026-08-29T11:01:48.759Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-29T12:03:26.690Z",
+  "new_libraries": [
+    {
+      "repository_name": "pucheta/Roberto_MPU6050",
+      "repository_url": "https://github.com/pucheta/Roberto_MPU6050",
+      "name": "Roberto MPU6050",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-29T12:03:26.690Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-29T12:03:26.690Z",
+      "last_seen_sha": "b42dc87cf7ef",
+      "author": "Roberto",
+      "maintainer": "Roberto <roberto@pucheta.dev>",
+      "sentence": "Advanced MPU6050 library that bypasses chip ID validation for clone modules.",
+      "paragraph": "A production-grade fork of the Adafruit MPU6050 driver. It implements a dynamic Whitelist to automatically detect and boot both original sensors (0x68) and market clones (0x70) seamlessly.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO",
+        "Adafruit Unified Sensor",
+        "Adafruit GFX Library",
+        "Adafruit SSD1306"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pucheta/Roberto_MPU6050-1.0.0.zip",
+      "size": 21617,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-29T08:23:59Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "GyverLibs/GyverStepper",
+        "repository_url": "https://github.com/GyverLibs/GyverStepper",
+        "name": "GyverStepper",
+        "version": "2.7.3",
+        "version_history": [
+          {
+            "version": "2.7.2",
+            "seen_at": "2026-06-13T08:20:27Z"
+          },
+          {
+            "version": "2.7.3",
+            "seen_at": "2026-08-29T12:03:26.690Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-13T08:20:27Z",
+        "last_seen_sha": "4d82d294293f",
+        "author": "AlexGyver <alex@alexgyver.ru>",
+        "maintainer": "AlexGyver <alex@alexgyver.ru>",
+        "sentence": "Fast library for stepmotor control and multi-axis planning",
+        "paragraph": "Fast library for stepmotor control and multi-axis planning",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverStepper-2.7.3.zip",
+        "size": 1055780,
+        "previous_version": "2.7.2",
+        "github_stars": 52,
+        "github_forks": 13,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-12T14:29:11Z"
+      },
+      "old_version": "2.7.2",
+      "new_version": "2.7.3"
+    }
+  ],
   "removed_libraries": []
 }

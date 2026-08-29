@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-29T03:03:08.120Z",
+  "enhanced_at": "2026-08-29T04:02:39.228Z",
   "total_libraries": 9890,
-  "index_etag": "W/\"8d41494649c6592511ed13a15e35543b\"",
-  "index_last_modified": "Sat, 29 Aug 2026 02:59:12 GMT",
+  "index_etag": "W/\"0b3e8493a79b9a5941335b841013e268\"",
+  "index_last_modified": "Sat, 29 Aug 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -142180,28 +142180,33 @@
       "repository_name": "iskakfatoni/IskakINO",
       "repository_url": "https://github.com/iskakfatoni/IskakINO",
       "name": "IskakINO",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-19T06:05:47.239Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-29T04:02:39.099Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-19T06:05:47.239Z",
-      "last_seen_sha": "a98b29d16a39",
+      "last_seen_sha": "0670105e6fd2",
       "author": "Iskak Fatoni",
       "maintainer": "Iskak Fatoni",
-      "sentence": "Unified IskakINO ecosystem: fast GPIO, storage, LCD, WiFi portal, NTP, and DFPlayer voice control in one library.",
-      "paragraph": "Penggabungan seluruh ekosistem IskakINO (ArduFast, Storage, LiquidCrystal_I2C, WifiPortal, FastNTP, SmartVoice) menjadi satu library dengan shared core. Modul universal (ArduFast, Storage, LCD, SmartVoice) bekerja di platform AVR, ESP32, dan ESP8266; modul WifiPortal dan FastNTP otomatis hanya aktif di board ESP32/ESP8266. Menggantikan library IskakINO_ArduFast, IskakINO_Storage, IskakINO_LiquidCrystal_I2C, IskakINO_WifiPortal, IskakINO_FastNTP, dan IskakINO_SmartVoice yang kini deprecated.",
+      "sentence": "Unified IskakINO ecosystem: fast GPIO, hybrid storage, LCD/OLED, WiFi portal, NTP, MQTT, Telegram, RTC, sensors suite, JSON parser/builder, BLE, DFPlayer voice, and Basic I/O Shield in one library.",
+      "paragraph": "Penggabungan seluruh ekosistem IskakINO menjadi satu library dengan shared core. Modul universal (ArduFast, Storage, LCD, OLED, Button, Relay, Filter, RTC, Sensors Suite, JSON, SmartVoice, Buzzer) bekerja di AVR, ESP32, dan ESP8266; modul khusus WiFi (WifiPortal, FastNTP, MQTT, Telegram) aktif di ESP32/ESP8266; modul Cam dan BLE aktif khusus di ESP32; modul BasicIOShield aktif khusus di board AVR.",
       "category": "Other",
       "architectures": [
         "avr",
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO-1.0.0.zip",
-      "size": 108439,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO-1.1.0.zip",
+      "size": 261700,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -149632,7 +149637,7 @@
       "repository_name": "bnorth12/LC29H_GNSS-Library",
       "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
       "name": "LC29H_GNSS",
-      "version": "0.2.0",
+      "version": "0.2.5",
       "version_history": [
         {
           "version": "0.1.2",
@@ -149641,11 +149646,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-08-17T04:13:24.764Z"
+        },
+        {
+          "version": "0.2.5",
+          "seen_at": "2026-08-29T04:02:39.099Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-27T03:00:19.752Z",
-      "last_seen_sha": "a3af9b796487",
+      "last_seen_sha": "d56a8c3e3466",
       "author": "LC29H_GNSS Contributors",
       "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
       "sentence": "Configuration-focused Arduino library for Quectel LC29H GNSS modules.",
@@ -149654,9 +149663,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.0.zip",
-      "size": 86671,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.5.zip",
+      "size": 89595,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

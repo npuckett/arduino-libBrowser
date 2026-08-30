@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-30T05:02:24.555Z",
-  "total_libraries": 9894,
-  "index_etag": "W/\"95ee4bfd25a6bc9c6df22e760c9da18b\"",
-  "index_last_modified": "Sun, 30 Aug 2026 04:59:12 GMT",
+  "enhanced_at": "2026-08-30T06:04:19.722Z",
+  "total_libraries": 9895,
+  "index_etag": "W/\"9f7888630efd2b5929a037199dbcb838\"",
+  "index_last_modified": "Sun, 30 Aug 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -180230,6 +180230,41 @@
       "download_url": "https://github.com/Alexandros-Charitonidis/MiniMessenger"
     },
     {
+      "repository_name": "GUNANAG38/MiniMicroKit_PTL",
+      "repository_url": "https://github.com/GUNANAG38/MiniMicroKit_PTL",
+      "name": "MiniMicroKit-PTL",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-30T06:04:18.209Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-30T06:04:18.209Z",
+      "last_seen_sha": "f1ab44612b2f",
+      "author": "GelectronLAB",
+      "maintainer": "GelectronLAB <gunaneg011@gmail.com>",
+      "sentence": "Official library for MiniMicroKit PTL (ESP32-C3 Supermini) with OLED, LEDs, Buzzer, Encoder, and IoT support.",
+      "paragraph": "A feature-rich library designed for classroom AI and IoT projects, supporting Teachable Machine Webapp via MQTT.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit SSD1306",
+        "PubSubClient",
+        "WiFi"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GUNANAG38/MiniMicroKit_PTL-1.0.0.zip",
+      "size": 77675,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-30T04:01:15Z"
+    },
+    {
       "repository_name": "RobTillaart/MiniMP3",
       "repository_url": "https://github.com/RobTillaart/MiniMP3",
       "name": "MiniMP3",
@@ -318003,7 +318038,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9691,
-    "total_dependencies": 5298
+    "with_github_metadata": 9692,
+    "total_dependencies": 5302
   }
 }

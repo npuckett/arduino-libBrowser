@@ -1,6 +1,215 @@
 {
-  "since": "2026-08-30T11:02:07.594Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-30T12:03:20.941Z",
+  "new_libraries": [
+    {
+      "repository_name": "nguyenbinh-shark/shark_pid",
+      "repository_url": "https://github.com/nguyenbinh-shark/shark_pid",
+      "name": "shark_pid",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-30T12:03:20.941Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-30T12:03:20.941Z",
+      "last_seen_sha": "aa9a64395a6c",
+      "author": "Tran Nguyen Binh <trannguyenbinh.shark@gmail.com>",
+      "maintainer": "Tran Nguyen Binh <trannguyenbinh.shark@gmail.com>",
+      "sentence": "Embedded 2-DOF PID controller that matches the Simulink PID Controller (2DOF) block.",
+      "paragraph": "Every parameter maps one-to-one onto a field of the Simulink PID Controller (2DOF) block, so a model you tune in simulation is the controller that runs on the microcontroller - they agree to numerical noise even while the output is saturated. Explicit dt in every term so gains survive a change of loop rate. Setpoint weighting b and c, filter coefficient N, trapezoidal or backward-Euler integration, clamping and back-calculation anti-windup, integrator limits, NaN/Inf rejection and bumpless manual-to-auto transfer. The core has no Arduino or HAL dependency, so the same file builds for STM32, ESP-IDF or a PC simulation.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nguyenbinh-shark/shark_pid-1.0.0.zip",
+      "size": 193531,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-08-30T09:31:58Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "muki01/OBD2_KLine_Library",
+        "repository_url": "https://github.com/muki01/OBD2_KLine_Library",
+        "name": "OBD2 K-Line",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-02-24T08:02:02Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-08-30T12:03:20.941Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-02-24T08:02:02Z",
+        "last_seen_sha": "e2df5f0dbf45",
+        "author": "Muki01",
+        "maintainer": "Muki01 <muksin.muksin04@gmail.com>",
+        "sentence": "K-Line vehicle diagnostics: ISO9141, ISO14230 (KWP2000), KW1281, DS2 and KW82.",
+        "paragraph": "Simple and flexible K-Line library supporting ISO9141, ISO14230 (KWP2000), KW1281, DS2 and KW82. Handles the handshake, packet framing and checksums for you, and ships standard OBD2 diagnostics (live data, freeze frame, DTCs, vehicle info, supported PIDs). Works with HardwareSerial, SoftwareSerial, AltSoftSerial and custom pins.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/muki01/OBD2_K_Line-2.0.0.zip",
+        "size": 1451629,
+        "previous_version": "1.1.0",
+        "github_stars": 55,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T14:49:34Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_display",
+        "repository_url": "https://github.com/dejwk/roo_display",
+        "name": "roo_display",
+        "version": "3.2.2",
+        "version_history": [
+          {
+            "version": "3.1.2",
+            "seen_at": "2026-06-30T08:25:38Z"
+          },
+          {
+            "version": "3.2.0",
+            "seen_at": "2026-08-07T14:20:40.265Z"
+          },
+          {
+            "version": "3.2.1",
+            "seen_at": "2026-08-30T04:02:55.618Z"
+          },
+          {
+            "version": "3.2.2",
+            "seen_at": "2026-08-30T12:03:20.941Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:25:38Z",
+        "last_seen_sha": "08b7786de5b5",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Graphics library, supporting variety of display devices and touch panels.",
+        "paragraph": "Supports SPI and parallel protocols. Efficient, feature-rich, fast, and customizable.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_backport",
+          "roo_collections",
+          "roo_io"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_display-3.2.2.zip",
+        "size": 4727772,
+        "previous_version": "3.2.1",
+        "github_stars": 171,
+        "github_forks": 10,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T00:49:25Z"
+      },
+      "old_version": "3.2.1",
+      "new_version": "3.2.2"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_locale",
+        "repository_url": "https://github.com/dejwk/roo_locale",
+        "name": "roo_locale",
+        "version": "1.1.3",
+        "version_history": [
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-01-02T21:08:36Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.3",
+            "seen_at": "2026-08-30T12:03:20.941Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T21:08:36Z",
+        "last_seen_sha": "bda38e46c3ad",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Multi-language support for roo libraries on microcontrollers.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_locale-1.1.3.zip",
+        "size": 6738,
+        "previous_version": "1.1.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-02-26T02:20:14Z"
+      },
+      "old_version": "1.1.2",
+      "new_version": "1.1.3"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_wifi",
+        "repository_url": "https://github.com/dejwk/roo_wifi",
+        "name": "roo_wifi",
+        "version": "1.1.5",
+        "version_history": [
+          {
+            "version": "1.1.4",
+            "seen_at": "2026-02-27T07:33:07Z"
+          },
+          {
+            "version": "1.1.5",
+            "seen_at": "2026-08-30T12:03:20.941Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-02-27T07:33:07Z",
+        "last_seen_sha": "e2ecd6a6c78c",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "WiFi controller library for ESP32, supporting storing persistent configuration in flash, and abstracting away the architecture.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "roo_collections",
+          "roo_prefs",
+          "roo_backport",
+          "roo_scheduler"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_wifi-1.1.5.zip",
+        "size": 24324,
+        "previous_version": "1.1.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-02-26T21:35:04Z"
+      },
+      "old_version": "1.1.4",
+      "new_version": "1.1.5"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,205 @@
 {
-  "since": "2026-08-29T23:02:03.020Z",
+  "since": "2026-08-30T00:07:19.711Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "f1faba50d9be",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.3.0.zip",
+        "size": 150195,
+        "previous_version": "0.2.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.2.1",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/HomeAssistantDiscovery",
+        "repository_url": "https://github.com/soosp/HomeAssistantDiscovery",
+        "name": "HomeAssistantDiscovery",
+        "version": "0.1.2",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-29T18:02:47.297Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-29T18:02:47.297Z",
+        "last_seen_sha": "bfe703e53bda",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Home Assistant MQTT discovery payloads, built into caller-supplied buffers.",
+        "paragraph": "Builds discovery topics and payloads from constexpr PROGMEM entity tables. No dynamic allocation, no JSON library, and no MQTT client — the application connects and publishes, so the same tables serve any client. Covers the single-state MQTT platforms (sensor, binary_sensor, button, number, select, switch); a publisher walks the tables and a matching clearer removes the retained messages again. Host-testable.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/HomeAssistantDiscovery-0.1.2.zip",
+        "size": 30393,
+        "previous_version": "0.1.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-29T16:06:38Z"
+      },
+      "old_version": "0.1.1",
+      "new_version": "0.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "bnorth12/LC29H_GNSS-Library",
+        "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
+        "name": "LC29H_GNSS",
+        "version": "0.2.13",
+        "version_history": [
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-27T03:00:19.752Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "0.2.5",
+            "seen_at": "2026-08-29T04:02:39.099Z"
+          },
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-08-29T06:04:02.070Z"
+          },
+          {
+            "version": "0.2.9",
+            "seen_at": "2026-08-29T20:02:12.993Z"
+          },
+          {
+            "version": "0.2.11",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.2.13",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-07-27T03:00:19.752Z",
+        "last_seen_sha": "8969d7b56181",
+        "author": "LC29H_GNSS Contributors",
+        "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
+        "sentence": "Configuration-focused Arduino library for Quectel LC29H BA, BS, DA, and EA GNSS modules.",
+        "paragraph": "Provides command transport, checksum handling, receiver mode configuration, Survey-In and base fixed helpers, and serial monitor command processing for rapid bench setup.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.13.zip",
+        "size": 123178,
+        "previous_version": "0.2.11",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-27T01:26:43Z"
+      },
+      "old_version": "0.2.11",
+      "new_version": "0.2.13"
+    },
+    {
+      "library": {
+        "repository_name": "GrishovAleksei/WiFiOTA",
+        "repository_url": "https://github.com/GrishovAleksei/WiFiOTA",
+        "name": "WiFiOTA",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-29T10:02:05.127Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-29T10:02:05.127Z",
+        "last_seen_sha": "d67c40b104db",
+        "author": "Aleksei Grishov",
+        "maintainer": "Aleksei Grishov",
+        "sentence": "Simple OTA helper for Arduino UNO R4 WiFi",
+        "paragraph": "WiFi and ArduinoOTA helper for UNO R4 WiFi using WiFiS3 and ArduinoOTA.",
+        "category": "Communication",
+        "architectures": [
+          "renesas_uno"
+        ],
+        "depends": [
+          "ArduinoOTA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/GrishovAleksei/WiFiOTA-1.0.1.zip",
+        "size": 3890,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-29T06:05:25Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

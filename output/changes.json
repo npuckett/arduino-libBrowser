@@ -1,6 +1,165 @@
 {
-  "since": "2026-08-30T15:02:23.194Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-08-30T16:02:30.294Z",
+  "new_libraries": [
+    {
+      "repository_name": "fun6400/BLEThermalPrinterYHK",
+      "repository_url": "https://github.com/fun6400/BLEThermalPrinterYHK",
+      "name": "BLEThermalPrinterYHK",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-30T16:02:30.294Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-30T16:02:30.294Z",
+      "last_seen_sha": "0fa77307bb8c",
+      "author": "Hans Schou <h.ansschou@gmail.com>",
+      "maintainer": "Hans Schou <h.ansschou@gmail.com>",
+      "sentence": "BLE driver for YHK-compatible thermal printers with an optional u8g2 canvas for text printing.",
+      "paragraph": "Wraps the scan/connect logic and ESC/POS raster-graphics protocol used by YHK thermal printers over NimBLE. Draw with u8g2 (any full-buffer \"_F_\" constructor) and send the buffer straight to the printer with one call.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fun6400/BLEThermalPrinterYHK-0.1.1.zip",
+      "size": 20337,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-30T13:25:23Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sbarabe/SBK_Button",
+        "repository_url": "https://github.com/sbarabe/SBK_Button",
+        "name": "SBK_Button",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-16T04:06:32.551Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-07-16T14:37:55.858Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-08-30T16:02:30.294Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-07-16T04:06:32.551Z",
+        "last_seen_sha": "118d8546e052",
+        "author": "Samuel Barabe",
+        "maintainer": "Samuel Barabe",
+        "sentence": "Lightweight push-button library with debouncing, events, long-press detection, and timing.",
+        "paragraph": "Non-blocking button input library for Arduino-compatible platforms. Supports internal pull-up, external pull-up, and external pull-down wiring, optional logic inversion, configurable debouncing, press and release events, long-press detection, and pressed/released duration tracking.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_Button-1.2.0.zip",
+        "size": 56794,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-15T21:12:32Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "sbarabe/SBK_HT16K33",
+        "repository_url": "https://github.com/sbarabe/SBK_HT16K33",
+        "name": "SBK_HT16K33",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2025-07-21T16:03:21Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-08-30T16:02:30.294Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:03:21Z",
+        "last_seen_sha": "b98ea6880188",
+        "author": "Samuel Barabé",
+        "maintainer": "smartbuildskits@gmail.com",
+        "sentence": "HT16K33 I2C LED driver compatible with SBK_BarDrive.",
+        "paragraph": "Standalone Arduino library to control HT16K33 LED matrices or bar meters via I2C. Can be used directly or as a driver for SBK_BarDrive animations.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_HT16K33-2.0.1.zip",
+        "size": 181671,
+        "previous_version": "2.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-16T15:57:32Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "sbarabe/SBK_MAX72xx",
+        "repository_url": "https://github.com/sbarabe/SBK_MAX72xx",
+        "name": "SBK_MAX72xx",
+        "version": "2.0.5",
+        "version_history": [
+          {
+            "version": "2.0.4",
+            "seen_at": "2025-11-28T07:09:23Z"
+          },
+          {
+            "version": "2.0.5",
+            "seen_at": "2026-08-30T16:02:30.294Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-11-28T07:09:23Z",
+        "last_seen_sha": "77b25956102c",
+        "author": "Samuel Barabé",
+        "maintainer": "smartbuildskits@gmail.com",
+        "sentence": "MAX7219/MAX7221 LED matrix driver with software and hardware SPI support.",
+        "paragraph": "Arduino library for MAX7219/MAX7221 with support for both hardware and software SPI. Fully compatible with SBK_BarDrive bar meter animations and multi-device mapping.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_MAX72xx-2.0.5.zip",
+        "size": 220522,
+        "previous_version": "2.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-11-27T17:59:15Z"
+      },
+      "old_version": "2.0.4",
+      "new_version": "2.0.5"
+    }
+  ],
   "removed_libraries": []
 }

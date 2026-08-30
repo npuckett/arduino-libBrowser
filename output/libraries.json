@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-30T15:02:23.298Z",
-  "total_libraries": 9896,
-  "index_etag": "W/\"72fa7633ad2440c61d4f28cae424227c\"",
-  "index_last_modified": "Sun, 30 Aug 2026 14:59:12 GMT",
+  "enhanced_at": "2026-08-30T16:02:31.802Z",
+  "total_libraries": 9897,
+  "index_etag": "W/\"de37f73497ed37766784c4194fd80626\"",
+  "index_last_modified": "Sun, 30 Aug 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -45679,6 +45679,38 @@
       "github_language": "C++",
       "github_updated_at": "2026-06-02T17:53:56Z",
       "download_url": "https://github.com/GyverLibs/BLESerial_ESP32"
+    },
+    {
+      "repository_name": "fun6400/BLEThermalPrinterYHK",
+      "repository_url": "https://github.com/fun6400/BLEThermalPrinterYHK",
+      "name": "BLEThermalPrinterYHK",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-08-30T16:02:30.294Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-30T16:02:30.294Z",
+      "last_seen_sha": "0fa77307bb8c",
+      "author": "Hans Schou <h.ansschou@gmail.com>",
+      "maintainer": "Hans Schou <h.ansschou@gmail.com>",
+      "sentence": "BLE driver for YHK-compatible thermal printers with an optional u8g2 canvas for text printing.",
+      "paragraph": "Wraps the scan/connect logic and ESC/POS raster-graphics protocol used by YHK thermal printers over NimBLE. Draw with u8g2 (any full-buffer \"_F_\" constructor) and send the buffer straight to the printer with one call.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fun6400/BLEThermalPrinterYHK-0.1.1.zip",
+      "size": 20337,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-30T13:25:23Z"
     },
     {
       "repository_name": "lukdog/BleValueSync",
@@ -239313,7 +239345,7 @@
       "repository_name": "sbarabe/SBK_Button",
       "repository_url": "https://github.com/sbarabe/SBK_Button",
       "name": "SBK_Button",
-      "version": "1.0.2",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -239326,23 +239358,27 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-07-16T16:27:07.554Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-08-30T16:02:30.294Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-16T04:06:32.551Z",
-      "last_seen_sha": "618603f00b38",
+      "last_seen_sha": "118d8546e052",
       "author": "Samuel Barabe",
       "maintainer": "Samuel Barabe",
       "sentence": "Lightweight push-button library with debouncing, events, long-press detection, and timing.",
-      "paragraph": "Non-blocking button input library for Arduino-compatible platforms. Supports internal pull-up, external pull-up, and external pull-down wiring, configurable debouncing, press and release events, long-press detection, and pressed/released duration tracking.",
+      "paragraph": "Non-blocking button input library for Arduino-compatible platforms. Supports internal pull-up, external pull-up, and external pull-down wiring, optional logic inversion, configurable debouncing, press and release events, long-press detection, and pressed/released duration tracking.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_Button-1.0.2.zip",
-      "size": 18118,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_Button-1.2.0.zip",
+      "size": 56794,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -239352,16 +239388,20 @@
       "repository_name": "sbarabe/SBK_HT16K33",
       "repository_url": "https://github.com/sbarabe/SBK_HT16K33",
       "name": "SBK_HT16K33",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2025-07-21T16:03:21Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-08-30T16:02:30.294Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:03:21Z",
-      "last_seen_sha": "fb7c7b271ffe",
+      "last_seen_sha": "b98ea6880188",
       "author": "Samuel Barabé",
       "maintainer": "smartbuildskits@gmail.com",
       "sentence": "HT16K33 I2C LED driver compatible with SBK_BarDrive.",
@@ -239370,26 +239410,33 @@
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_HT16K33-2.0.1.zip",
+      "size": 181671,
+      "previous_version": "2.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-07-16T15:57:32Z",
-      "download_url": "https://github.com/sbarabe/SBK_HT16K33"
+      "github_updated_at": "2025-07-16T15:57:32Z"
     },
     {
       "repository_name": "sbarabe/SBK_MAX72xx",
       "repository_url": "https://github.com/sbarabe/SBK_MAX72xx",
       "name": "SBK_MAX72xx",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "2.0.4",
           "seen_at": "2025-11-28T07:09:23Z"
+        },
+        {
+          "version": "2.0.5",
+          "seen_at": "2026-08-30T16:02:30.294Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-11-28T07:09:23Z",
-      "last_seen_sha": "8d3255e1c5b1",
+      "last_seen_sha": "77b25956102c",
       "author": "Samuel Barabé",
       "maintainer": "smartbuildskits@gmail.com",
       "sentence": "MAX7219/MAX7221 LED matrix driver with software and hardware SPI support.",
@@ -239398,12 +239445,14 @@
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_MAX72xx-2.0.5.zip",
+      "size": 220522,
+      "previous_version": "2.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-11-27T17:59:15Z",
-      "license": "MIT",
-      "download_url": "https://github.com/sbarabe/SBK_MAX72xx"
+      "github_updated_at": "2025-11-27T17:59:15Z"
     },
     {
       "repository_name": "BrushlessPower/SBUS2-Telemetry",
@@ -318127,7 +318176,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9693,
-    "total_dependencies": 5304
+    "with_github_metadata": 9694,
+    "total_dependencies": 5305
   }
 }

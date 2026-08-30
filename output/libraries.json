@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-30T03:03:11.576Z",
+  "enhanced_at": "2026-08-30T04:02:55.748Z",
   "total_libraries": 9894,
-  "index_etag": "W/\"be3ff9e3ef8453ea58c7e534a2c6b608\"",
-  "index_last_modified": "Sun, 30 Aug 2026 02:59:12 GMT",
+  "index_etag": "W/\"95ee4bfd25a6bc9c6df22e760c9da18b\"",
+  "index_last_modified": "Sun, 30 Aug 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -179155,7 +179155,7 @@
       "repository_name": "joshnishikawa/MIDIcontroller",
       "repository_url": "https://github.com/joshnishikawa/MIDIcontroller",
       "name": "MIDIcontroller",
-      "version": "3.1.3",
+      "version": "3.3.0",
       "version_history": [
         {
           "version": "3.2.5",
@@ -179164,18 +179164,22 @@
         {
           "version": "3.1.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.3.0",
+          "seen_at": "2026-08-30T04:02:55.618Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-05T07:33:30Z",
-      "last_seen_sha": "fd254665c2cb",
+      "last_seen_sha": "421b4fbcdf59",
       "author": "Josh Nishikawa <joshnishikawa@gmail.com>",
       "maintainer": "Josh Nishikawa <joshnishikawa@gmail.com>",
-      "sentence": "A library for creating Teensy MIDI controllers.",
-      "paragraph": "Includes easy to follow examples for implementing velocity sensitive FSR, Piezo or Capacitive Touch inputs - momentary, latch or trigger type MIDI buttons (also works with Cap Touch) - stable analog to MIDI conversion for potentiometers and other sensors - stable Capacitive Touch to MIDI conversion for expression control - support for encoders - Min/Max output can be set (or inverted) for all MIDI - Min/Max input can also be set for analog input (maintaining stability in conversion)",
+      "sentence": "A cross-platform library for creating USB, Serial DIN, and multi-interface MIDI controllers.",
+      "paragraph": "Supports Teensy, ESP32, RP2040, AVR, SAMD, and STM32. Includes support for momentary, latch, and trigger buttons (physical or capacitive touch), stable analog potentiometer conversion, velocity-sensitive drum/piezo inputs, capacitive touch expression strips, standard and multi-mode jogwheel encoders (MIDIencMulti), per-control channel/cable routing, and multi-interface output (USB, Serial DIN, USB Host, Debug).",
       "category": "Sensors",
       "architectures": [
-        "avr"
+        "*"
       ],
       "depends": [
         "MIDI Library",
@@ -179183,9 +179187,9 @@
         "Bounce2",
         "Encoder"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/joshnishikawa/MIDIcontroller-3.1.3.zip",
-      "size": 205076,
-      "previous_version": "3.2.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joshnishikawa/MIDIcontroller-3.3.0.zip",
+      "size": 217994,
+      "previous_version": "3.1.3",
       "github_stars": 256,
       "github_forks": 20,
       "github_language": "C++",
@@ -233830,7 +233834,7 @@
       "repository_name": "dejwk/roo_display",
       "repository_url": "https://github.com/dejwk/roo_display",
       "name": "roo_display",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "version_history": [
         {
           "version": "3.1.2",
@@ -233839,11 +233843,15 @@
         {
           "version": "3.2.0",
           "seen_at": "2026-08-07T14:20:40.265Z"
+        },
+        {
+          "version": "3.2.1",
+          "seen_at": "2026-08-30T04:02:55.618Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:25:38Z",
-      "last_seen_sha": "d39e0ceeecbf",
+      "last_seen_sha": "d62b24e22733",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Graphics library, supporting variety of display devices and touch panels.",
@@ -233857,9 +233865,9 @@
         "roo_collections",
         "roo_io"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_display-3.2.0.zip",
-      "size": 4699780,
-      "previous_version": "3.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_display-3.2.1.zip",
+      "size": 4727771,
+      "previous_version": "3.2.0",
       "github_stars": 171,
       "github_forks": 10,
       "github_language": "C++",
@@ -310560,7 +310568,7 @@
       "repository_name": "GrishovAleksei/WiFiOTA",
       "repository_url": "https://github.com/GrishovAleksei/WiFiOTA",
       "name": "WiFiOTA",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -310569,11 +310577,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-08-30T00:07:19.711Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-08-30T04:02:55.618Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-29T10:02:05.127Z",
-      "last_seen_sha": "d67c40b104db",
+      "last_seen_sha": "44aa0ced0a4f",
       "author": "Aleksei Grishov",
       "maintainer": "Aleksei Grishov",
       "sentence": "Simple OTA helper for Arduino UNO R4 WiFi",
@@ -310585,9 +310597,9 @@
       "depends": [
         "ArduinoOTA"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GrishovAleksei/WiFiOTA-1.0.1.zip",
-      "size": 3890,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GrishovAleksei/WiFiOTA-1.0.2.zip",
+      "size": 7554,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

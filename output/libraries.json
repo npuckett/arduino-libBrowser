@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-30T13:02:14.669Z",
+  "enhanced_at": "2026-08-30T14:02:11.888Z",
   "total_libraries": 9896,
-  "index_etag": "W/\"96838bb6d6e29cc4e349c6cc2633c602\"",
-  "index_last_modified": "Sun, 30 Aug 2026 12:59:12 GMT",
+  "index_etag": "W/\"72fa7633ad2440c61d4f28cae424227c\"",
+  "index_last_modified": "Sun, 30 Aug 2026 13:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -34709,7 +34709,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -34730,11 +34730,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-08-30T08:02:50.818Z"
+        },
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "aa041d34ef4a",
+      "last_seen_sha": "eb6874e193d6",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -34751,9 +34755,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.4.1.zip",
-      "size": 152538,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.4.2.zip",
+      "size": 153148,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -98503,29 +98507,36 @@
       "repository_name": "littlemanbuilds/ESP32_MCPWM",
       "repository_url": "https://github.com/littlemanbuilds/ESP32_MCPWM",
       "name": "ESP32_MCPWM",
-      "version": "1.3.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.3.0",
           "seen_at": "2026-06-23T08:13:08Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-23T08:13:08Z",
-      "last_seen_sha": "7adbc0949da7",
-      "author": "Little Man Builds",
+      "last_seen_sha": "dacf9eaaff56",
+      "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
-      "sentence": "Practical ESP32 MCPWM H-bridge driver with safe coast, brake, dither, fault handling, retuning and capture.",
-      "paragraph": "Small Arduino-ESP32 API with validated setup, deterministic output transitions, configurable freewheel and dither braking, software fault actions, runtime frequency changes, GPIO edge capture, and focused ESP32-S3 examples.",
+      "sentence": "Explicit ESP32 MCPWM H-bridge control with drive, coast, brake, lifecycle results, fault handling and diagnostics.",
+      "paragraph": "Arduino-ESP32 motor driver with validated setup, explicit zero-demand behavior, deterministic output transitions, software and MCPWM peripheral fault paths, configurable coast and dither braking, runtime frequency changes, capture, coherent status, hardware readback, and focused ESP32-S3 examples.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/ESP32_MCPWM-2.0.0.zip",
+      "size": 82171,
+      "previous_version": "1.3.0",
       "github_stars": 9,
       "github_forks": 3,
-      "github_updated_at": "2026-06-22T18:06:35Z",
-      "download_url": "https://github.com/littlemanbuilds/ESP32_MCPWM",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-22T18:06:35Z"
     },
     {
       "repository_name": "sensboston/esp32_moga",
@@ -227395,7 +227406,7 @@
       "repository_name": "littlemanbuilds/RCLink",
       "repository_url": "https://github.com/littlemanbuilds/RCLink",
       "name": "RCLink",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.4",
@@ -227404,25 +227415,36 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-29T07:43:04Z",
-      "last_seen_sha": "5ed699a4f36f",
-      "author": "Little Man Builds",
-      "maintainer": "Little Man Builds <darren@ozzyimages.com>",
-      "sentence": "Header-only ESP32 Arduino RC link with iBUS/SBUS transports, shaping/filters, JSON config, and easy failsafe/signature helpers.",
-      "paragraph": "RCLink is a clean, dependency-light RC link for ESP32 Arduino. It includes robust iBUS and ESP32-only SBUS transports, per-channel mapping and shaping (deadband, expo, invert, EMA), epsilon suppression, receiver-failsafe signature detection, and a tiny ArduinoJson-based loader. New: RcMacros adds one-line failsafe signature macros and helper builders.",
+      "last_seen_sha": "7d6e3af63803",
+      "author": "Little Man Builds (Darren Osborne)",
+      "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
+      "sentence": "Validated RC receiver mapping for Arduino with iBUS, ESP32 SBUS, shaping, filtering, and failsafe handling.",
+      "paragraph": "RCLink maps receiver channels into named application roles with calibrated asymmetric axes, deterministic switches, explicit channel validity, link health, failsafe signatures, resilient stream parsers, optional JSON configuration, and an iBUS calibration helper. The core mapping and parsers are hardware-neutral and host-testable; SBUS transport is ESP32-specific.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "sam",
+        "samd",
+        "esp32",
+        "esp8266",
+        "stm32",
+        "teensy",
+        "rp2040"
       ],
+      "license": "MIT",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.1.0.zip",
-      "size": 50926,
-      "previous_version": "1.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.2.0.zip",
+      "size": 82449,
+      "previous_version": "1.1.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -233958,7 +233980,7 @@
       "repository_name": "dejwk/roo_fonts_basic",
       "repository_url": "https://github.com/dejwk/roo_fonts_basic",
       "name": "roo_fonts_basic",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
@@ -233967,11 +233989,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-08-07T12:13:05.758Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-02-27T07:32:57Z",
-      "last_seen_sha": "9e9fce7e988f",
+      "last_seen_sha": "500f151690cb",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Collection of Noto fonts for use with dejwk/roo_display.",
@@ -233983,9 +234009,9 @@
       "depends": [
         "roo_display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_basic-1.0.3.zip",
-      "size": 5610967,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_basic-1.0.4.zip",
+      "size": 5611684,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -233995,7 +234021,7 @@
       "repository_name": "dejwk/roo_icons",
       "repository_url": "https://github.com/dejwk/roo_icons",
       "name": "roo_icons",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "version_history": [
         {
           "version": "1.2.1",
@@ -234004,11 +234030,15 @@
         {
           "version": "1.2.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.4",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-10T07:18:40Z",
-      "last_seen_sha": "4a3896ef038c",
+      "last_seen_sha": "49eaa40a38f0",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Collection of icons for use with the roo_display library.",
@@ -234020,9 +234050,9 @@
       "depends": [
         "roo_display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_icons-1.2.3.zip",
-      "size": 23264241,
-      "previous_version": "1.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_icons-1.2.4.zip",
+      "size": 23264444,
+      "previous_version": "1.2.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -234628,16 +234658,20 @@
       "repository_name": "dejwk/roo_windows",
       "repository_url": "https://github.com/dejwk/roo_windows",
       "name": "roo_windows",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.6.0",
           "seen_at": "2026-06-06T08:06:04Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-08-30T14:02:11.778Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-06T08:06:04Z",
-      "last_seen_sha": "f472d3e5a9f4",
+      "last_seen_sha": "8d84a6422268",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
@@ -234646,10 +234680,6 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 18,
-      "github_forks": 2,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-27T11:28:23Z",
       "depends": [
         "roo_collections",
         "roo_display",
@@ -234662,7 +234692,13 @@
         "roo_scheduler",
         "roo_time"
       ],
-      "download_url": "https://github.com/dejwk/roo_windows"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.6.1.zip",
+      "size": 1608135,
+      "previous_version": "1.6.0",
+      "github_stars": 18,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-27T11:28:23Z"
     },
     {
       "repository_name": "dejwk/roo_windows_onewire",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-31T07:09:28.204Z",
-  "total_libraries": 9900,
-  "index_etag": "W/\"e12066d2e480d735733b2a66e7ee28e8\"",
-  "index_last_modified": "Mon, 31 Aug 2026 06:59:12 GMT",
+  "enhanced_at": "2026-08-31T08:04:11.491Z",
+  "total_libraries": 9901,
+  "index_etag": "W/\"7e30be704ac276b1e17188fa62d40e5a\"",
+  "index_last_modified": "Mon, 31 Aug 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -137796,6 +137796,35 @@
       "download_url": "https://github.com/Vegetable-SYC/IMU_Fusion_SYC"
     },
     {
+      "repository_name": "StrayerSQH/IMU406",
+      "repository_url": "https://github.com/StrayerSQH/IMU406",
+      "name": "IMU406",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-31T08:04:10.055Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-31T08:04:10.055Z",
+      "last_seen_sha": "e6fed3d45322",
+      "author": "StrayerSQH",
+      "maintainer": "StrayerSQH",
+      "sentence": "Driver for the IMU406 serial (UART TTL) attitude sensor: BCD roll/pitch/yaw plus 3-axis accel & gyro.",
+      "paragraph": "Non-blocking frame-sync parser for the 29-byte 0x84 protocol. Returns float angles (deg) and raw +-18000 integers for yaw/pitch/roll, plus 3-axis acceleration and angular rate. Includes new-frame flag and liveness/timeout helper. Portable across AVR, ESP32, SAMD, STM32, RP2040.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/StrayerSQH/IMU406-1.0.0.zip",
+      "size": 10908,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-31T06:17:24Z"
+    },
+    {
       "repository_name": "richcreations/imud-arduino",
       "repository_url": "https://github.com/richcreations/imud-arduino",
       "name": "ImudClient",
@@ -210213,7 +210242,7 @@
       "repository_name": "umeiko/PicoCamera",
       "repository_url": "https://github.com/umeiko/PicoCamera",
       "name": "PicoCamera",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "version_history": [
         {
           "version": "0.2.0",
@@ -210230,11 +210259,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-08-28T18:05:11.411Z"
+        },
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-08-31T08:04:10.055Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-08-16T08:04:19.313Z",
-      "last_seen_sha": "f32c1b8bafcb",
+      "last_seen_sha": "30daad71cb57",
       "author": "umeko",
       "maintainer": "umeko <umeko@stu.xmu.edu.cn>",
       "sentence": "Camera library for RP2040 with an esp32-camera compatible API.",
@@ -210243,9 +210276,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/umeiko/PicoCamera-0.4.1.zip",
-      "size": 831670,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/umeiko/PicoCamera-0.4.2.zip",
+      "size": 854824,
+      "previous_version": "0.4.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -318295,7 +318328,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9697,
+    "with_github_metadata": 9698,
     "total_dependencies": 5303
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-31T01:18:54.360Z",
+  "enhanced_at": "2026-08-31T02:04:26.648Z",
   "total_libraries": 9900,
-  "index_etag": "W/\"08d8aecb3ecccfd63f9c544aa46dcabb\"",
-  "index_last_modified": "Mon, 31 Aug 2026 00:59:12 GMT",
+  "index_etag": "W/\"1e2c0b08cd6cf6df5e3954852142d33c\"",
+  "index_last_modified": "Mon, 31 Aug 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -132235,7 +132235,7 @@
       "repository_name": "codewitch-honey-crisis/htcw_data",
       "repository_url": "https://github.com/codewitch-honey-crisis/htcw_data",
       "name": "htcw_data",
-      "version": "1.4.5",
+      "version": "1.4.6",
       "version_history": [
         {
           "version": "1.4.4",
@@ -132244,11 +132244,15 @@
         {
           "version": "1.4.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.4.6",
+          "seen_at": "2026-08-31T02:04:26.523Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:37:40Z",
-      "last_seen_sha": "f01feaa5f503",
+      "last_seen_sha": "515d7fda74a3",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides STL free containers",
@@ -132257,9 +132261,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_data-1.4.5.zip",
-      "size": 9001,
-      "previous_version": "1.4.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_data-1.4.6.zip",
+      "size": 8992,
+      "previous_version": "1.4.5",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",
@@ -132326,7 +132330,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.8.2",
+      "version": "2.9.2",
       "version_history": [
         {
           "version": "2.2.17",
@@ -132407,11 +132411,15 @@
         {
           "version": "2.8.2",
           "seen_at": "2026-08-09T04:25:53.076Z"
+        },
+        {
+          "version": "2.9.2",
+          "seen_at": "2026-08-31T02:04:26.523Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "73660d63815d",
+      "last_seen_sha": "728869f7bd44",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -132421,14 +132429,12 @@
         "*"
       ],
       "depends": [
-        "htcw_bits",
-        "htcw_io",
-        "htcw_ml",
-        "htcw_data"
+        "htcw_data",
+        "htcw_ml"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.8.2.zip",
-      "size": 924896,
-      "previous_version": "2.8.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.9.2.zip",
+      "size": 924992,
+      "previous_version": "2.8.2",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -318286,6 +318292,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9697,
-    "total_dependencies": 5305
+    "total_dependencies": 5303
   }
 }

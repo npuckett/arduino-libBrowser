@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-30T23:02:06.633Z",
-  "total_libraries": 9899,
-  "index_etag": "W/\"49fc94803019241e4dfde55b3a8fb6f2\"",
-  "index_last_modified": "Sun, 30 Aug 2026 22:59:11 GMT",
+  "enhanced_at": "2026-08-31T00:07:23.265Z",
+  "total_libraries": 9900,
+  "index_etag": "W/\"08d8aecb3ecccfd63f9c544aa46dcabb\"",
+  "index_last_modified": "Sun, 30 Aug 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39504,16 +39504,20 @@
       "repository_name": "TechTronicsEngineering/AutoPlex14",
       "repository_url": "https://github.com/TechTronicsEngineering/AutoPlex14",
       "name": "AutoPlex14",
-      "version": "1.0.4",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.4",
           "seen_at": "2026-08-30T22:02:13.616Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-31T00:07:21.813Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-30T22:02:13.616Z",
-      "last_seen_sha": "3727acb488e9",
+      "last_seen_sha": "a6436ce66bff",
       "author": "Nyjah",
       "maintainer": "Nyjah",
       "sentence": "AutoPlex14 — the most capable Arduino library for fourteen-segment displays",
@@ -39522,8 +39526,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex14-1.0.4.zip",
-      "size": 14706,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex14-1.1.0.zip",
+      "size": 14674,
+      "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -39533,7 +39538,7 @@
       "repository_name": "TechTronicsEngineering/AutoPlex7",
       "repository_url": "https://github.com/TechTronicsEngineering/AutoPlex7",
       "name": "AutoPlex7",
-      "version": "3.0.3",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "2.1.1",
@@ -39562,11 +39567,15 @@
         {
           "version": "3.0.3",
           "seen_at": "2026-07-23T02:59:51.561Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-08-31T00:07:21.813Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-15T09:21:07Z",
-      "last_seen_sha": "9a9ee9367864",
+      "last_seen_sha": "1981ba75ff0e",
       "author": "Nyjah",
       "maintainer": "Nyjah",
       "sentence": "Control seven segment displays with ease.",
@@ -39575,9 +39584,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-3.0.3.zip",
-      "size": 17010,
-      "previous_version": "3.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex7-3.1.0.zip",
+      "size": 16945,
+      "previous_version": "3.0.3",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "C++",
@@ -222492,6 +222501,35 @@
       "download_url": "https://github.com/DanielSaromo/PyDuino_Bridge"
     },
     {
+      "repository_name": "Pyintel/pyintel-lux",
+      "repository_url": "https://github.com/Pyintel/pyintel-lux",
+      "name": "Pyintel Lux",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-08-31T00:07:21.813Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-31T00:07:21.813Z",
+      "last_seen_sha": "584fefdd1042",
+      "author": "Pyintel <dev@pyintel.cc>",
+      "maintainer": "Pyintel <dev@pyintel.cc>",
+      "sentence": "Ultra-lightweight, zero-allocation binary telemetry and tracing engine for microcontrollers.",
+      "paragraph": "Pyintel Lux delivers microsecond-level binary telemetry with zero runtime heap allocation, compile-time symbol compression, and full multi-architecture support (AVR ATmega328P/Mega, SAMD21, RP2040, ESP32, STM32).",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Pyintel/Pyintel_Lux-0.1.0.zip",
+      "size": 242436,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-30T23:06:59Z"
+    },
+    {
       "repository_name": "lu-maca/pyrpc",
       "repository_url": "https://github.com/lu-maca/pyrpc",
       "name": "pyrpc",
@@ -318247,7 +318285,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9696,
+    "with_github_metadata": 9697,
     "total_dependencies": 5305
   }
 }

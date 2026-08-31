@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-08-31T17:02:05.249Z",
-  "total_libraries": 9901,
-  "index_etag": "W/\"e3a632a1b968f4a4ebe69b0bbab1311e\"",
-  "index_last_modified": "Mon, 31 Aug 2026 16:59:12 GMT",
+  "enhanced_at": "2026-08-31T18:03:16.402Z",
+  "total_libraries": 9903,
+  "index_etag": "W/\"348be718d683cf6f76974d3c13ec8b0a\"",
+  "index_last_modified": "Mon, 31 Aug 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -86441,6 +86441,36 @@
       "github_updated_at": "2026-02-13T17:17:08Z"
     },
     {
+      "repository_name": "msnicklous/DYSV17Fmp3",
+      "repository_url": "https://github.com/msnicklous/DYSV17Fmp3",
+      "name": "DYSV17Fmp3",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-08-31T18:03:13.512Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-31T18:03:13.512Z",
+      "last_seen_sha": "186d584f8cce",
+      "author": "Martin Scott Nicklous <snick@web.de>",
+      "maintainer": "Martin Scott Nicklous <snick@web.de>",
+      "sentence": "A library supporting the DY-SV17F MP3 player module.",
+      "paragraph": "This library provides simple single-line UART control of the DY-SV17F MP3 player. The busy line can be monitored to see if the command was successful.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/msnicklous/DYSV17Fmp3-1.0.0.zip",
+      "size": 174514,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-31T13:21:26Z"
+    },
+    {
       "repository_name": "Manjunathan1998/DYSVAUDIO5W",
       "repository_url": "https://github.com/Manjunathan1998/DYSVAUDIO5W",
       "name": "DYSVAudio5W",
@@ -99405,7 +99435,7 @@
       "repository_name": "CelliesProjects/ESP32_VS1053_Stream",
       "repository_url": "https://github.com/CelliesProjects/ESP32_VS1053_Stream",
       "name": "ESP32_VS1053_Stream",
-      "version": "3.0.12",
+      "version": "3.0.13",
       "version_history": [
         {
           "version": "3.0.11",
@@ -99414,11 +99444,15 @@
         {
           "version": "3.0.12",
           "seen_at": "2026-08-22T18:02:43.570Z"
+        },
+        {
+          "version": "3.0.13",
+          "seen_at": "2026-08-31T18:03:13.512Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:23:58Z",
-      "last_seen_sha": "7a76bb5cb353",
+      "last_seen_sha": "b50cf20ec364",
       "author": "Cellie",
       "maintainer": "Cellie",
       "sentence": "This is a Arduino IDE library for playing mp3, aac, ogg and flac local files and online streams with a vs1053 decoder.",
@@ -99427,9 +99461,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/CelliesProjects/ESP32_VS1053_Stream-3.0.12.zip",
-      "size": 885198,
-      "previous_version": "3.0.11",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CelliesProjects/ESP32_VS1053_Stream-3.0.13.zip",
+      "size": 885860,
+      "previous_version": "3.0.12",
       "github_stars": 121,
       "github_forks": 19,
       "github_language": "C++",
@@ -102417,27 +102451,32 @@
       "repository_name": "NguyenHien-8/ESP32WiFiPortal",
       "repository_url": "https://github.com/NguyenHien-8/ESP32WiFiPortal",
       "name": "ESP32WiFiPortal",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-08-30T18:02:40.571Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-08-31T18:03:13.512Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-30T18:02:40.571Z",
-      "last_seen_sha": "c6cf4b8b39b0",
+      "last_seen_sha": "8175db3e275c",
       "author": "Tran Nguyen Hien",
       "maintainer": "Tran Nguyen Hien",
       "sentence": "ESP32-only Wi-Fi captive portal and credential manager.",
-      "paragraph": "Wi-Fi provisioning library for ESP32 Arduino Core with AP mode, captive portal, network scan, NVS credential storage, blocking and non-blocking operation.",
+      "paragraph": "Wi-Fi provisioning library for ESP32 Arduino Core with captive portal, optional static STA IP/DNS, event-driven reconnect, retry/backoff, NVS credential storage, and blocking or non-blocking operation.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
       "license": "Apache License V2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NguyenHien-8/ESP32WiFiPortal-1.1.0.zip",
-      "size": 17575,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NguyenHien-8/ESP32WiFiPortal-1.1.1.zip",
+      "size": 2155086,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -160601,6 +160640,33 @@
       "github_language": "C++",
       "github_updated_at": "2017-06-24T08:55:02Z",
       "download_url": "https://github.com/PulseRain/M10SRAM"
+    },
+    {
+      "repository_name": "algomusic/M16",
+      "repository_url": "https://github.com/algomusic/M16",
+      "name": "M16",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-08-31T18:03:13.512Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-08-31T18:03:13.512Z",
+      "last_seen_sha": "e91288058723",
+      "author": "Andrew R. Brown",
+      "maintainer": "Andrew R. Brown",
+      "sentence": "16-bit audio synthesis library for ESP8266, ESP32, RP2040/RP2350, and Teensy 4.x.",
+      "paragraph": "M16 incliudes wavetable oscillators, envelopes, filters, delay, reverb, chorus, compression, sample playback, MIDI, and physical modelling. Supports dual-core audio rendering, PSRAM auto-detection, and I2S DAC/ADC output.",
+      "category": "Signal Input/Output",
+      "architectures": [],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/algomusic/M16-1.0.1.zip",
+      "size": 206775,
+      "github_stars": 35,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-31T14:46:28Z"
     },
     {
       "repository_name": "m2m-solutions/M2M_Logger",
@@ -239466,7 +239532,7 @@
       "repository_name": "sbarabe/SBK_BarDrive",
       "repository_url": "https://github.com/sbarabe/SBK_BarDrive",
       "name": "SBK_BarDrive",
-      "version": "2.0.5",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.0.4",
@@ -239475,15 +239541,19 @@
         {
           "version": "2.0.5",
           "seen_at": "2026-08-04T16:34:45.976Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-08-31T18:03:13.512Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-11-28T07:09:21Z",
-      "last_seen_sha": "4927952f5cde",
+      "last_seen_sha": "8aaa6e11e994",
       "author": "Samuel Barabé <smartbuildskits@gmail.com>",
       "maintainer": "Samuel Barabé <smartbuildskits@gmail.com>",
       "sentence": "High-level Arduino library for controlling and animating LED bar graph and bar meter displays.",
-      "paragraph": "Controls LED bargraphs, bar graphs, bar meters, and LED arrays using MAX7219/MAX7221 or HT16K33 drivers. Includes fill, block, bouncing, signal-following, beat, and custom-mapping animations.",
+      "paragraph": "Controls LED bargraphs, bar meters, and LED arrays using MAX7219/MAX7221 or HT16K33 drivers. Includes configurable animation queues, fill, block, bounce, signal-following, beat, pixel-blink, and custom-mapping animations.",
       "category": "Display",
       "architectures": [
         "*"
@@ -239493,9 +239563,9 @@
         "SBK_HT16K33",
         "SBK_MAX72xx"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.0.5.zip",
-      "size": 368880,
-      "previous_version": "2.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.1.1.zip",
+      "size": 593498,
+      "previous_version": "2.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -275391,7 +275461,7 @@
       "repository_name": "stm32duino/LPS22DF",
       "repository_url": "https://github.com/stm32duino/LPS22DF",
       "name": "STM32duino LPS22DF",
-      "version": "1.0.4",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.4",
@@ -275400,11 +275470,15 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-08-31T18:03:13.512Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:31:57Z",
-      "last_seen_sha": "521b56b93fd1",
+      "last_seen_sha": "db1863902b12",
       "author": "SRA",
       "maintainer": "stm32duino",
       "sentence": "Nano pressure sensor.",
@@ -275413,8 +275487,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LPS22DF-1.0.4.zip",
-      "size": 19591,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LPS22DF-1.1.0.zip",
+      "size": 24330,
       "previous_version": "1.0.4",
       "github_stars": 2,
       "github_forks": 5,
@@ -276455,7 +276529,7 @@
       "repository_name": "stm32duino/ST25R3916",
       "repository_url": "https://github.com/stm32duino/ST25R3916",
       "name": "STM32duino ST25R3916",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -276464,11 +276538,15 @@
         {
           "version": "2.0.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-08-31T18:03:13.512Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-07T07:41:19Z",
-      "last_seen_sha": "17ab1d2346b9",
+      "last_seen_sha": "995f91b8b176",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
       "sentence": "Allows controlling the ST ST25R3916 and ST25R3916B components",
@@ -276480,9 +276558,9 @@
       "depends": [
         "STM32duino NFC-RFAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ST25R3916-2.0.2.zip",
-      "size": 111714,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ST25R3916-2.1.0.zip",
+      "size": 112865,
+      "previous_version": "2.0.2",
       "github_stars": 16,
       "github_forks": 12,
       "github_language": "C++",
@@ -318344,7 +318422,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9698,
+    "with_github_metadata": 9700,
     "total_dependencies": 5303
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-01T03:03:26.591Z",
-  "total_libraries": 9903,
-  "index_etag": "W/\"47e258bee6843727a46a44a7dbb9f6d4\"",
-  "index_last_modified": "Tue, 01 Sep 2026 02:59:12 GMT",
+  "enhanced_at": "2026-09-01T04:03:40.272Z",
+  "total_libraries": 9904,
+  "index_etag": "W/\"80919152016a984394c7f78230ad028b\"",
+  "index_last_modified": "Tue, 01 Sep 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -137843,16 +137843,20 @@
       "repository_name": "StrayerSQH/IMU406",
       "repository_url": "https://github.com/StrayerSQH/IMU406",
       "name": "IMU406",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-31T08:04:10.055Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-01T04:03:38.849Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-31T08:04:10.055Z",
-      "last_seen_sha": "e6fed3d45322",
+      "last_seen_sha": "71ca6cee016f",
       "author": "StrayerSQH",
       "maintainer": "StrayerSQH",
       "sentence": "Driver for the IMU406 serial (UART TTL) attitude sensor: BCD roll/pitch/yaw plus 3-axis accel & gyro.",
@@ -137861,8 +137865,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/StrayerSQH/IMU406-1.0.0.zip",
-      "size": 10908,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/StrayerSQH/IMU406-2.0.0.zip",
+      "size": 14480,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -215256,6 +215261,39 @@
       "github_forks": 1,
       "github_language": "C++",
       "github_updated_at": "2026-04-08T20:13:17Z"
+    },
+    {
+      "repository_name": "The-POOM/poom-arduino",
+      "repository_url": "https://github.com/The-POOM/poom-arduino",
+      "name": "Poom",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-01T04:03:38.849Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-01T04:03:38.849Z",
+      "last_seen_sha": "bc1889443c07",
+      "author": "Poom",
+      "maintainer": "Michelle Mendez <jupiter@stellar-iot.com>",
+      "sentence": "Arduino library for developing applications on the Poom device.",
+      "paragraph": "Provides access to Poom hardware features for building applications, games, experiments, and hardware projects.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit SH110X",
+        "Adafruit NeoPixel"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/The-POOM/Poom-1.0.0.zip",
+      "size": 33072,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T01:50:48Z"
     },
     {
       "repository_name": "Picovoice/porcupine-arduino-ar",
@@ -318422,7 +318460,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9700,
-    "total_dependencies": 5303
+    "with_github_metadata": 9701,
+    "total_dependencies": 5305
   }
 }

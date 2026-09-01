@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-01T13:02:59.922Z",
+  "enhanced_at": "2026-09-01T14:03:14.877Z",
   "total_libraries": 9904,
-  "index_etag": "W/\"8899115e9b97523a44e349d062e24799\"",
-  "index_last_modified": "Tue, 01 Sep 2026 12:59:12 GMT",
+  "index_etag": "W/\"c4836d480372694b8c7e388ccf420d3f\"",
+  "index_last_modified": "Tue, 01 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -142580,7 +142580,7 @@
       "repository_name": "iskakfatoni/IskakINO_LiquidCrystal_I2C",
       "repository_url": "https://github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C",
       "name": "IskakINO_LiquidCrystal_I2C",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -142589,23 +142589,27 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-07-08T06:58:59.709Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-01T14:03:14.733Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-02-21T07:50:23Z",
-      "last_seen_sha": "3a707442d6ab",
+      "last_seen_sha": "9ff67b09f742",
       "author": "Iskak Fatoni",
       "maintainer": "Iskak Fatoni",
       "sentence": "LiquidCrystal I2C library for HD44780 LCD with automatic I2C address detection.",
-      "paragraph": "Lightweight and backward-compatible LiquidCrystal_I2C library for HD44780 LCD using PCF8574 I2C expander. Supports Arduino and ESP32, custom characters, scrolling text, progress bar, cursor and blink control, with optimized flash and RAM usage.",
+      "paragraph": "Lightweight and backward-compatible LiquidCrystal_I2C library for HD44780 LCD using PCF8574 I2C expander. Supports Arduino and ESP32, custom characters, non-blocking typewriter/scroll effects, progress bar, backlight timeout, and printf-style formatted print.",
       "category": "Display",
       "architectures": [
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C-1.0.3.zip",
-      "size": 26054,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C-1.1.0.zip",
+      "size": 36591,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -223856,7 +223860,7 @@
       "repository_name": "ahmed-Idrees/QuadratureEncoder",
       "repository_url": "https://github.com/ahmed-Idrees/QuadratureEncoder",
       "name": "Quadrature Encoder",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -223865,11 +223869,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-08-31T12:04:24.393Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-01T14:03:14.733Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-13T16:15:55.024Z",
-      "last_seen_sha": "0801b4e2fa20",
+      "last_seen_sha": "542f0fffdc27",
       "author": "Ahmed Idrees",
       "maintainer": "Ahmed Idrees <ahmed.idrees.me@gmail.com>",
       "sentence": "Interrupt-driven quadrature encoder library for AVR and ESP32.",
@@ -223880,9 +223888,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ahmed-Idrees/Quadrature_Encoder-1.0.1.zip",
-      "size": 20062809,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ahmed-Idrees/Quadrature_Encoder-1.0.2.zip",
+      "size": 20062943,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

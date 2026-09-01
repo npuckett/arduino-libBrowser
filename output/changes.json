@@ -1,6 +1,94 @@
 {
-  "since": "2026-09-01T13:02:59.788Z",
+  "since": "2026-09-01T14:03:14.733Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "iskakfatoni/IskakINO_LiquidCrystal_I2C",
+        "repository_url": "https://github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C",
+        "name": "IskakINO_LiquidCrystal_I2C",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-02-21T07:50:23Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-08T06:58:59.709Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-01T14:03:14.733Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-02-21T07:50:23Z",
+        "last_seen_sha": "9ff67b09f742",
+        "author": "Iskak Fatoni",
+        "maintainer": "Iskak Fatoni",
+        "sentence": "LiquidCrystal I2C library for HD44780 LCD with automatic I2C address detection.",
+        "paragraph": "Lightweight and backward-compatible LiquidCrystal_I2C library for HD44780 LCD using PCF8574 I2C expander. Supports Arduino and ESP32, custom characters, non-blocking typewriter/scroll effects, progress bar, backlight timeout, and printf-style formatted print.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO_LiquidCrystal_I2C-1.1.0.zip",
+        "size": 36591,
+        "previous_version": "1.0.3",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-23T12:35:58Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "ahmed-Idrees/QuadratureEncoder",
+        "repository_url": "https://github.com/ahmed-Idrees/QuadratureEncoder",
+        "name": "Quadrature Encoder",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-13T16:15:55.024Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-31T12:04:24.393Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-01T14:03:14.733Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-13T16:15:55.024Z",
+        "last_seen_sha": "542f0fffdc27",
+        "author": "Ahmed Idrees",
+        "maintainer": "Ahmed Idrees <ahmed.idrees.me@gmail.com>",
+        "sentence": "Interrupt-driven quadrature encoder library for AVR and ESP32.",
+        "paragraph": "Four decoding modes (index, x1, x2, x4), configurable A/B/Z pins and input modes, and multiple encoders per board. Reports wrapped angle, incremental delta for velocity, and cumulative displacement. Uses direct port reads on AVR and IRAM-resident handlers on ESP32.",
+        "category": "Sensors",
+        "architectures": [
+          "avr",
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ahmed-Idrees/Quadrature_Encoder-1.0.2.zip",
+        "size": 20062943,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-13T12:26:40Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-01T15:02:26.464Z",
-  "total_libraries": 9904,
-  "index_etag": "W/\"c4836d480372694b8c7e388ccf420d3f\"",
-  "index_last_modified": "Tue, 01 Sep 2026 14:59:12 GMT",
+  "enhanced_at": "2026-09-01T16:24:14.574Z",
+  "total_libraries": 9905,
+  "index_etag": "W/\"158e12595e12b617d94ba024b98ea14c\"",
+  "index_last_modified": "Tue, 01 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -131308,16 +131308,20 @@
       "repository_name": "Johboh/HomeAssistantEntities",
       "repository_url": "https://github.com/Johboh/HomeAssistantEntities",
       "name": "HomeAssistantEntities",
-      "version": "8.0.21",
+      "version": "8.0.22",
       "version_history": [
         {
           "version": "8.0.21",
           "seen_at": "2026-04-28T08:03:09Z"
+        },
+        {
+          "version": "8.0.22",
+          "seen_at": "2026-09-01T16:24:13.161Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-28T08:03:09Z",
-      "last_seen_sha": "35c2c70af6f8",
+      "last_seen_sha": "43f4ca93f0b4",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
@@ -131327,12 +131331,14 @@
         "esp8266",
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-8.0.22.zip",
+      "size": 108707,
+      "previous_version": "8.0.21",
       "github_stars": 20,
       "github_forks": 5,
       "github_language": "C++",
-      "github_updated_at": "2026-04-28T05:58:49Z",
-      "license": "MIT",
-      "download_url": "https://github.com/Johboh/HomeAssistantEntities"
+      "github_updated_at": "2026-04-28T05:58:49Z"
     },
     {
       "repository_name": "sierramike/HomeAssistantMQTT",
@@ -281466,6 +281472,35 @@
       "download_url": "https://github.com/justcallmekoko/SwitchLib"
     },
     {
+      "repository_name": "Sierrastdio/SWP2P",
+      "repository_url": "https://github.com/Sierrastdio/SWP2P",
+      "name": "SWP2P",
+      "version": "0.0.0",
+      "version_history": [
+        {
+          "version": "0.0.0",
+          "seen_at": "2026-09-01T16:24:13.161Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-01T16:24:13.161Z",
+      "last_seen_sha": "ef2b758f0491",
+      "author": "Sierrastdio",
+      "maintainer": "Sierrastdio",
+      "sentence": "A custom software-based peer-to-peer communication library for Arduino.",
+      "paragraph": "SWP2P allows multi-node communication using shared clock, busy, ack, and data lines with hardware interrupts. pull-up resistors are required.",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sierrastdio/SWP2P-0.0.0.zip",
+      "size": 26917,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T15:12:23Z"
+    },
+    {
       "repository_name": "leomil72/swRTC",
       "repository_url": "https://github.com/leomil72/swRTC",
       "name": "swRTC",
@@ -318510,7 +318545,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9701,
+    "with_github_metadata": 9702,
     "total_dependencies": 5308
   }
 }

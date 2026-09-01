@@ -1,6 +1,77 @@
 {
-  "since": "2026-09-01T15:02:26.326Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-01T16:24:13.161Z",
+  "new_libraries": [
+    {
+      "repository_name": "Sierrastdio/SWP2P",
+      "repository_url": "https://github.com/Sierrastdio/SWP2P",
+      "name": "SWP2P",
+      "version": "0.0.0",
+      "version_history": [
+        {
+          "version": "0.0.0",
+          "seen_at": "2026-09-01T16:24:13.161Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-01T16:24:13.161Z",
+      "last_seen_sha": "ef2b758f0491",
+      "author": "Sierrastdio",
+      "maintainer": "Sierrastdio",
+      "sentence": "A custom software-based peer-to-peer communication library for Arduino.",
+      "paragraph": "SWP2P allows multi-node communication using shared clock, busy, ack, and data lines with hardware interrupts. pull-up resistors are required.",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sierrastdio/SWP2P-0.0.0.zip",
+      "size": 26917,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T15:12:23Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Johboh/HomeAssistantEntities",
+        "repository_url": "https://github.com/Johboh/HomeAssistantEntities",
+        "name": "HomeAssistantEntities",
+        "version": "8.0.22",
+        "version_history": [
+          {
+            "version": "8.0.21",
+            "seen_at": "2026-04-28T08:03:09Z"
+          },
+          {
+            "version": "8.0.22",
+            "seen_at": "2026-09-01T16:24:13.161Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-04-28T08:03:09Z",
+        "last_seen_sha": "43f4ca93f0b4",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+        "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-8.0.22.zip",
+        "size": 108707,
+        "previous_version": "8.0.21",
+        "github_stars": 20,
+        "github_forks": 5,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-28T05:58:49Z"
+      },
+      "old_version": "8.0.21",
+      "new_version": "8.0.22"
+    }
+  ],
   "removed_libraries": []
 }

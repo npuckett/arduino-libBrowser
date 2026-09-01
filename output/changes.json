@@ -1,6 +1,91 @@
 {
-  "since": "2026-09-01T11:02:22.249Z",
+  "since": "2026-09-01T12:04:00.524Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_LSM6DS3",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_LSM6DS3",
+        "name": "Arduino_LSM6DS3",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-06-20T08:20:51Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-01T12:04:00.524Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-20T08:20:51Z",
+        "last_seen_sha": "67179bf1e74a",
+        "author": "Arduino",
+        "maintainer": "Arduino <info@arduino.cc>",
+        "sentence": "Allows you to read the accelerometer, gyroscope, and temperature values from the LSM6DS3 IMU on your Arduino Nano 33 IoT or Arduino Uno WiFi Rev2 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_LSM6DS3-1.1.0.zip",
+        "size": 20847,
+        "previous_version": "1.0.3",
+        "github_stars": 35,
+        "github_forks": 33,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-19T12:53:59Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "littlemanbuilds/PotIO",
+        "repository_url": "https://github.com/littlemanbuilds/PotIO",
+        "name": "PotIO",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-03T08:39:19Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-01T12:04:00.524Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-03T08:39:19Z",
+        "last_seen_sha": "ad212c15c22e",
+        "author": "Little Man Builds (Darren Osborne)",
+        "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
+        "sentence": "Reliable potentiometer and joystick inputs with explicit validity, calibration, shaping, filtering, and slew limiting.",
+        "paragraph": "Zero-allocation Arduino input library for LinearPot, Joystick2D, ContinuousPot, and SteppedPot with explicit sample validity and errors, strict or permissive calibration, independent processing stages, timing-gap protection, joystick geometry policies, continuous-wrap plausibility checks, durable step-change sequencing, rolling jitter tools, generic readers, and ESP32 ADC helpers. PotIO owns signal conditioning rather than application safety policy and has no dependency on other LMB libraries. ESP32-S3 is the primary reference target; other listed architectures are compile-validation targets for the portable core.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "avr",
+          "megaavr",
+          "sam",
+          "samd",
+          "esp32",
+          "esp8266",
+          "stm32",
+          "teensy",
+          "rp2040"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/PotIO-1.1.0.zip",
+        "size": 77738,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T20:09:00Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

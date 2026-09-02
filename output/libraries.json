@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-02T03:05:00.477Z",
+  "enhanced_at": "2026-09-02T04:03:18.346Z",
   "total_libraries": 9910,
-  "index_etag": "W/\"8a67c648000e6614d09126d0745fd816\"",
-  "index_last_modified": "Wed, 02 Sep 2026 02:59:12 GMT",
+  "index_etag": "W/\"dd8fa394b2f2fb381766286995c0fe6a\"",
+  "index_last_modified": "Wed, 02 Sep 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -15737,16 +15737,20 @@
       "repository_name": "adafruit/Adafruit_TMF8801",
       "repository_url": "https://github.com/adafruit/Adafruit_TMF8801",
       "name": "Adafruit TMF8801",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-20T02:23:35.155Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-02T04:03:18.217Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-20T02:23:35.155Z",
-      "last_seen_sha": "607328acc587",
+      "last_seen_sha": "c87d40aa3fcf",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Arduino library for the TMF8801 Time-of-Flight distance sensor.",
@@ -15758,8 +15762,9 @@
       "depends": [
         "Adafruit BusIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TMF8801-1.0.0.zip",
-      "size": 249451,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TMF8801-1.0.1.zip",
+      "size": 251883,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C",
@@ -108487,7 +108492,7 @@
       "repository_name": "EVNdevs/EVN-arduino",
       "repository_url": "https://github.com/EVNdevs/EVN-arduino",
       "name": "EVN",
-      "version": "1.4.7",
+      "version": "1.4.8",
       "version_history": [
         {
           "version": "1.4.5",
@@ -108496,11 +108501,15 @@
         {
           "version": "1.4.7",
           "seen_at": "2026-08-18T22:02:51.504Z"
+        },
+        {
+          "version": "1.4.8",
+          "seen_at": "2026-09-02T04:03:18.217Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-10-13T07:27:56Z",
-      "last_seen_sha": "1dac5231db17",
+      "last_seen_sha": "36a654eb450f",
       "author": "Heng Teng Yi <tengyi.maker@gmail.com>",
       "maintainer": "Heng Teng Yi <tengyi.maker@gmail.com>",
       "sentence": "Software libraries for EVN Alpha.",
@@ -108512,9 +108521,9 @@
       "depends": [
         "Madgwick"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/EVNdevs/EVN-1.4.7.zip",
-      "size": 5957062,
-      "previous_version": "1.4.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EVNdevs/EVN-1.4.8.zip",
+      "size": 5957028,
+      "previous_version": "1.4.7",
       "github_stars": 4,
       "github_forks": 2,
       "github_language": "C++",

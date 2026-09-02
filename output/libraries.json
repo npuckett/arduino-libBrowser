@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-02T19:02:29.610Z",
+  "enhanced_at": "2026-09-02T20:02:30.732Z",
   "total_libraries": 9910,
-  "index_etag": "W/\"e5fa7189406004ae296d3125d9963edb\"",
-  "index_last_modified": "Wed, 02 Sep 2026 18:59:12 GMT",
+  "index_etag": "W/\"40378d4815a2553293a78d5ebe879335\"",
+  "index_last_modified": "Wed, 02 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73564,16 +73564,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_temt6000_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library",
       "name": "DevLab_TEMT6000",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-08-27T23:05:28.812Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-02T20:02:30.600Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-27T23:05:28.812Z",
-      "last_seen_sha": "b57f06d392a1",
+      "last_seen_sha": "6932c96e1662",
       "author": "UNIT Electronics MX",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino library for TEMT6000 using direct I2C register access.",
@@ -73585,8 +73589,9 @@
       "depends": [
         "DevLabDDP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-1.0.1.zip",
-      "size": 15622,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-1.0.2.zip",
+      "size": 16557,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -144032,7 +144037,7 @@
       "repository_name": "ailagari/JMCMotorControl",
       "repository_url": "https://github.com/ailagari/JMCMotorControl",
       "name": "JMCMotorControl",
-      "version": "1.5.1",
+      "version": "1.7.2",
       "version_history": [
         {
           "version": "1.3.1",
@@ -144049,15 +144054,19 @@
         {
           "version": "1.5.1",
           "seen_at": "2026-07-17T14:30:32.184Z"
+        },
+        {
+          "version": "1.7.2",
+          "seen_at": "2026-09-02T20:02:30.600Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-14T16:25:47.383Z",
-      "last_seen_sha": "d77e5f804b49",
+      "last_seen_sha": "60ad6deecf65",
       "author": "LAGARI A <lagariscience@gmail.com>",
       "maintainer": "LAGARI A <lagariscience@gmail.com>",
-      "sentence": "Complete UDP command system for JMC integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and the full JMC_CONTROLLINO_V3 command set (P, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X plus V/VA/VS/HV/H extensions). Verified against the JMC Modbus-RTU manual V2.2 and the IHSS60-R/RC datasheet. Not affiliated with JMC (Shenzhen Just Motion Control).",
+      "sentence": "ACCESS RESTRICTED (company use only) - contact lagariscience@gmail.com for access. Complete UDP command system for JMC integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+      "paragraph": "This library is now restricted to company use and is no longer distributed publicly; contact lagariscience@gmail.com to request access. Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and the full JMC_CONTROLLINO_V3 command set (P, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X plus V/VA/VS/HV/H extensions). Verified against the JMC Modbus-RTU manual V2.2 and the IHSS60-R/RC datasheet. Not affiliated with JMC (Shenzhen Just Motion Control).",
       "category": "Device Control",
       "architectures": [
         "avr"
@@ -144066,9 +144075,9 @@
         "CONTROLLINO",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/JMCMotorControl-1.5.1.zip",
-      "size": 38120,
-      "previous_version": "1.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/JMCMotorControl-1.7.2.zip",
+      "size": 97033,
+      "previous_version": "1.5.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -308789,7 +308798,7 @@
       "repository_name": "teddokano/Waveshare_TFT_Touch_Arduino",
       "repository_url": "https://github.com/teddokano/Waveshare_TFT_Touch_Arduino",
       "name": "Waveshare_TFT_Touch",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -308798,11 +308807,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-01T06:04:38.437Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-02T20:02:30.600Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-16T00:04:09.086Z",
-      "last_seen_sha": "448d440a45d5",
+      "last_seen_sha": "4c1822e66613",
       "author": "Tedd OKANO",
       "maintainer": "Tedd OKANO",
       "sentence": "Arduino driver for the Waveshare 2.8inch TFT Touch Shield (SKU: 10684; ST7789V LCD + XPT2046 touch)",
@@ -308814,9 +308827,9 @@
       "depends": [
         "SD"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/teddokano/Waveshare_TFT_Touch-1.1.0.zip",
-      "size": 512461,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/teddokano/Waveshare_TFT_Touch-1.2.0.zip",
+      "size": 528016,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

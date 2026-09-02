@@ -1,6 +1,149 @@
 {
-  "since": "2026-09-02T21:02:16.430Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-02T22:02:28.069Z",
+  "new_libraries": [
+    {
+      "repository_name": "sukanta0011/DAC8568",
+      "repository_url": "https://github.com/sukanta0011/DAC8568",
+      "name": "DAC8568",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-02T22:02:28.069Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-02T22:02:28.069Z",
+      "last_seen_sha": "66dad9ebb31e",
+      "author": "Sukanta Das <das.sukanta2praha@gmail.com>",
+      "maintainer": "Sukanta Das <das.sukanta2praha@gmail.com>",
+      "sentence": "Driver for the TI DAC8568/DAC8168/DAC7568 16/14/12-bit, 8-channel SPI DAC.",
+      "paragraph": "Supports channel writes, per-channel and all-channel power control, and both Static and Flexible internal reference modes. Written for our lab's data acquisition system PCB.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sukanta0011/DAC8568-0.1.1.zip",
+      "size": 10720,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-27T09:02:41Z"
+    },
+    {
+      "repository_name": "YostLabs/3Space-Arduino",
+      "repository_url": "https://github.com/YostLabs/3Space-Arduino",
+      "name": "YostLabs 3-Space Sensors",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-02T22:02:28.069Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-02T22:02:28.069Z",
+      "last_seen_sha": "07008c10c331",
+      "author": "Yost Labs <techsupport@yostlabs.com>",
+      "maintainer": "Andy Riedlinger <andy@yostlabs.com>",
+      "sentence": "Driver for v3.0 Yost Labs 3-Space Sensors.",
+      "paragraph": "Contains the communication library and other tools for working with V3 3-Space sensors.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/YostLabs/YostLabs_3_Space_Sensors-1.0.0.zip",
+      "size": 115784,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-02T18:01:35Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "pucheta/Roberto_MPU6050",
+        "repository_url": "https://github.com/pucheta/Roberto_MPU6050",
+        "name": "Roberto MPU6050",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-29T12:03:26.690Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-09-02T22:02:28.069Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-29T12:03:26.690Z",
+        "last_seen_sha": "de94da5179c7",
+        "author": "Roberto",
+        "maintainer": "Roberto <roberto@pucheta.dev>",
+        "sentence": "Advanced MPU6050 library that bypasses chip ID validation for clone modules.",
+        "paragraph": "A production-grade fork of the Adafruit MPU6050 driver. It implements a dynamic Whitelist to automatically detect and boot both original sensors (0x68) and market clones (0x70) seamlessly.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit BusIO",
+          "Adafruit Unified Sensor",
+          "Adafruit GFX Library",
+          "Adafruit SSD1306"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pucheta/Roberto_MPU6050-1.0.3.zip",
+        "size": 625400,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-29T08:23:59Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "boby15000/SensorCurrent",
+        "repository_url": "https://github.com/boby15000/SensorCurrent",
+        "name": "SensorCurrent",
+        "version": "4.1.0",
+        "version_history": [
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-01-02T20:58:16Z"
+          },
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-09-02T22:02:28.069Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-01-02T20:58:16Z",
+        "last_seen_sha": "66c13db57e5b",
+        "author": "Nicolas Fourgheon <boby15000@hotmail.com>",
+        "maintainer": "Nicolas Fourgheon <boby15000@hotmail.com>",
+        "sentence": "Mesure du courant alternatif (AC) avec les capteurs ACS712, SCT-013 et similaires : crête, RMS, puissance apparente et estimation de puissance active.",
+        "paragraph": "Permet de mesurer l'intensité crête, l'intensité efficace (RMS) et la puissance apparente, ainsi qu'une estimation de puissance active/réactive basée sur un facteur de puissance fourni. Fournit une calibration automatique du zéro et un filtrage logiciel. Compatible avec les capteurs analogiques centrés sur Vcc/2.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/boby15000/SensorCurrent-4.1.0.zip",
+        "size": 16933,
+        "previous_version": "2.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-08-04T13:03:13Z"
+      },
+      "old_version": "2.1.0",
+      "new_version": "4.1.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-01T23:02:42.218Z",
-  "total_libraries": 9907,
-  "index_etag": "W/\"51ebbf5304bdc61b83f46ca09646b606\"",
-  "index_last_modified": "Tue, 01 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-02T00:06:58.235Z",
+  "total_libraries": 9910,
+  "index_etag": "W/\"2b41a48f83297ee96a97d9e35c92c05e\"",
+  "index_last_modified": "Tue, 01 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -208262,7 +208262,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "version_history": [
         {
           "version": "1.1.9",
@@ -208335,11 +208335,15 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-08-23T10:03:28.391Z"
+        },
+        {
+          "version": "1.3.2",
+          "seen_at": "2026-09-02T00:06:54.309Z"
         }
       ],
-      "release_count": 18,
+      "release_count": 19,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "fdae642eff9a",
+      "last_seen_sha": "79ff978c650e",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
       "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
@@ -208350,9 +208354,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.1.zip",
-      "size": 8701129,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.2.zip",
+      "size": 8864107,
+      "previous_version": "1.3.1",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",
@@ -208755,6 +208759,40 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2025-12-12T23:54:46Z"
+    },
+    {
+      "repository_name": "Penguin-Lab/PenguinLib",
+      "repository_url": "https://github.com/Penguin-Lab/PenguinLib",
+      "name": "PenguinLib",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-02T00:06:54.309Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-02T00:06:54.309Z",
+      "last_seen_sha": "06993b34f3c6",
+      "author": "Penguin Lab",
+      "maintainer": "Penguin Lab",
+      "sentence": "Library for controlling legged robots.",
+      "paragraph": "Library for controlling legged robots using ESP32, PCA9685 and BNO08x IMU.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "DabbleESP32",
+        "Adafruit PWM Servo Driver Library",
+        "SparkFun BNO08x Cortex Based IMU"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Penguin-Lab/PenguinLib-1.0.0.zip",
+      "size": 20526,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T19:54:09Z"
     },
     {
       "repository_name": "galarb/PenYX",
@@ -263041,6 +263079,38 @@
       "github_updated_at": "2025-06-27T17:48:28Z"
     },
     {
+      "repository_name": "sparkfun/SparkFun_ADE7953_Arduino_Library",
+      "repository_url": "https://github.com/sparkfun/SparkFun_ADE7953_Arduino_Library",
+      "name": "SparkFun ADE7953 Arduino Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-02T00:06:54.309Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-02T00:06:54.309Z",
+      "last_seen_sha": "2810adb588d4",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "An Arduino library to make use of the Qwiic Current Sensor ADE7953",
+      "paragraph": "This library allows you to interface with the Qwiic Current Sensor ADE7953, providing clamp-on current measurements for your Arduino projects.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "SparkFun Toolkit"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_ADE7953_Arduino_Library-1.0.0.zip",
+      "size": 660784,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T20:27:30Z"
+    },
+    {
       "repository_name": "sparkfun/SparkFun_ADIN1110_Arduino_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_ADIN1110_Arduino_Library",
       "name": "SparkFun ADIN1110 Arduino Library",
@@ -265392,6 +265462,38 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2026-06-24T16:55:21Z"
+    },
+    {
+      "repository_name": "sparkfun/SparkFun_INA2XX_Arduino_Library",
+      "repository_url": "https://github.com/sparkfun/SparkFun_INA2XX_Arduino_Library",
+      "name": "SparkFun INA2XX Arduino Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-02T00:06:54.309Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-02T00:06:54.309Z",
+      "last_seen_sha": "4a311011eb6c",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "An Arduino library for the INA228 and INA237 Qwiic Power Monitor boards",
+      "paragraph": "This library provides high-level access to the TI INA228 (20-bit, high-precision) and INA237 (16-bit) digital power/energy/charge monitor ICs over I2C. Supports current, voltage, power, temperature, energy accumulation (INA228), charge accumulation (INA228), alert/diagnostic configuration, and calibration for any shunt resistor.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "SparkFun Toolkit"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_INA2XX_Arduino_Library-1.0.0.zip",
+      "size": 1035952,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-01T20:20:23Z"
     },
     {
       "repository_name": "sparkfun/SparkFun_Indoor_Air_Quality_Sensor-ENS160_Arduino_Library",
@@ -318611,7 +318713,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9704,
-    "total_dependencies": 5311
+    "with_github_metadata": 9707,
+    "total_dependencies": 5316
   }
 }

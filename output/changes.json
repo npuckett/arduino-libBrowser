@@ -1,6 +1,76 @@
 {
-  "since": "2026-09-03T09:03:04.908Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-03T10:02:48.029Z",
+  "new_libraries": [
+    {
+      "repository_name": "nahomyirga787-spec/Biovo1020A",
+      "repository_url": "https://github.com/nahomyirga787-spec/Biovo1020A",
+      "name": "Biovo1020A",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-03T10:02:48.029Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-03T10:02:48.029Z",
+      "last_seen_sha": "93bab127a02a",
+      "author": "Nahom Yirga",
+      "maintainer": "Nahom Yirga <nahomyirga787@gmail.com>",
+      "sentence": "AVR-compatible driver for BIOVO and M5Stack FPC1020A fingerprint modules.",
+      "paragraph": "A lightweight, low-SRAM C++ library for 8-bit AVR microcontrollers (Arduino Uno, Nano, Mega) and 32-bit platforms to interface with FPC1020A capacitive fingerprint sensors using native 0xF5 frame encapsulation.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nahomyirga787-spec/Biovo1020A-1.0.0.zip",
+      "size": 11140,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-03T07:24:17Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "cyfney/cyfney-cpp-arduino",
+        "repository_url": "https://github.com/cyfney/cyfney-cpp-arduino",
+        "name": "cyfney-cpp",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-26T12:06:00.595Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-03T10:02:48.029Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-26T12:06:00.595Z",
+        "last_seen_sha": "665bf1f1bf86",
+        "author": "anka",
+        "maintainer": "anka",
+        "sentence": "Reusable C++ utilities and base classes.",
+        "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-1.0.5.zip",
+        "size": 9840,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T09:53:23Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.5"
+    }
+  ],
   "removed_libraries": []
 }

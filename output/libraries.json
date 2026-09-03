@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-02T23:02:24.711Z",
+  "enhanced_at": "2026-09-03T00:07:14.099Z",
   "total_libraries": 9912,
-  "index_etag": "W/\"7678fd89330b56a92b1466d014978a51\"",
-  "index_last_modified": "Wed, 02 Sep 2026 22:59:12 GMT",
+  "index_etag": "W/\"c9c87f80a2903f862f1e326c28ad93e6\"",
+  "index_last_modified": "Wed, 02 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -194229,7 +194229,7 @@
       "repository_name": "ugursayar/NessoLink",
       "repository_url": "https://github.com/ugursayar/NessoLink",
       "name": "NessoLink",
-      "version": "1.1.2",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.1.1",
@@ -194238,22 +194238,26 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-08-06T14:45:32.000Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-09-03T00:07:13.967Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-22T14:38:28.814Z",
-      "last_seen_sha": "82a968b80604",
+      "last_seen_sha": "3c24ad0ac8e4",
       "author": "Ugur Sayar <ugursayar@gmail.com>",
       "maintainer": "Ugur Sayar <ugursayar@gmail.com>",
       "sentence": "Versioned binary control-link protocol for the Nesso N1 robot controller.",
-      "paragraph": "RemoteFrame v1/v2 codec (motors, up to two aux sticks, a 16-button bitfield, CRC-8 checked) plus WiFi UDP, TCP, BLE and LoRa (RadioLib) transports. The codec is header-only and dependency-free, so it runs on both the transmitter and the robot receiver on any board; each transport is compile-guarded, so codec-only users pull in no heavy dependencies.",
+      "paragraph": "RemoteFrame v1-v4 codec (motors, up to three aux sticks, transmitter IMU attitude, a 16-button bitfield, CRC-8 checked) plus WiFi UDP, TCP, BLE and LoRa (RadioLib) transports. The codec is header-only and dependency-free, so it runs on both the transmitter and the robot receiver on any board; each transport is compile-guarded, so codec-only users pull in no heavy dependencies.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ugursayar/NessoLink-1.1.2.zip",
-      "size": 39826,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ugursayar/NessoLink-1.4.0.zip",
+      "size": 46159,
+      "previous_version": "1.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -294605,16 +294609,20 @@
       "repository_name": "janelia-arduino/TMC51X0",
       "repository_url": "https://github.com/janelia-arduino/TMC51X0",
       "name": "TMC51X0",
-      "version": "4.0.3",
+      "version": "4.1.0",
       "version_history": [
         {
           "version": "4.0.3",
           "seen_at": "2026-04-04T07:37:48Z"
+        },
+        {
+          "version": "4.1.0",
+          "seen_at": "2026-09-03T00:07:13.967Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-04T07:37:48Z",
-      "last_seen_sha": "e4bab577e971",
+      "last_seen_sha": "e05e0f0be8b1",
       "author": "Peter Polidoro <peter@polidoro.io>",
       "maintainer": "Peter Polidoro <peter@polidoro.io>",
       "sentence": "TMC5130 and TMC5160 are high-performance ICs combining both a stepper motor controller and driver.",
@@ -294623,11 +294631,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/janelia-arduino/TMC51X0-4.1.0.zip",
+      "size": 5297915,
+      "previous_version": "4.0.3",
       "github_stars": 13,
       "github_forks": 5,
       "github_language": "C++",
-      "github_updated_at": "2026-06-15T05:41:34Z",
-      "download_url": "https://github.com/janelia-arduino/TMC51X0"
+      "github_updated_at": "2026-06-15T05:41:34Z"
     },
     {
       "repository_name": "joshua-8/TMC7300",

@@ -1,6 +1,49 @@
 {
-  "since": "2026-09-03T17:02:27.430Z",
+  "since": "2026-09-03T18:03:11.624Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Terry-Gould/ACANFD_SAME",
+        "repository_url": "https://github.com/Terry-Gould/ACANFD_SAME",
+        "name": "ACANFD_SAME",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-05-25T09:17:43Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-29T00:06:15.226Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-03T18:03:11.624Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-25T09:17:43Z",
+        "last_seen_sha": "31a1835c45c5",
+        "author": "Pierre Molinaro, Terry Gould",
+        "maintainer": "Terry Gould <terry.gould.public@gmail.com>",
+        "sentence": "CAN FD library for SAME5x MCUs derived from ACANFD_FeatherM4CAN by Pierre Molinaro",
+        "paragraph": "Based on ACANFD_FeatherM4CAN with added BSP-driven pin detection, multi-board support and portability improvements. Compatible with ACAN2515, ACAN2517, ACAN2517FD libraries. Default configuration sends and receives any frame – no default filter to provide. Standard reception filters (up to 128) and extended reception filters (up to 128) can be easily defined.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Terry-Gould/ACANFD_SAME-1.1.0.zip",
+        "size": 1221388,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-23T12:54:19Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

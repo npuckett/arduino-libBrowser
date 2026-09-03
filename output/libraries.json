@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-03T05:35:12.754Z",
+  "enhanced_at": "2026-09-03T06:05:05.241Z",
   "total_libraries": 9912,
-  "index_etag": "W/\"9f4ea330f8e52aa791f9f52ee4c390e8\"",
-  "index_last_modified": "Thu, 03 Sep 2026 05:29:12 GMT",
+  "index_etag": "W/\"c150e591957c60e00b36c3a5b8a813bc\"",
+  "index_last_modified": "Thu, 03 Sep 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -251591,16 +251591,20 @@
       "repository_name": "NachtRaveVL/Simple-Homestead-Arduino",
       "repository_url": "https://github.com/NachtRaveVL/Simple-Homestead-Arduino",
       "name": "Simple-Homestead-Arduino",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "version_history": [
         {
           "version": "0.7.1",
           "seen_at": "2026-08-19T06:05:47.239Z"
+        },
+        {
+          "version": "0.7.2",
+          "seen_at": "2026-09-03T06:05:05.136Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-19T06:05:47.239Z",
-      "last_seen_sha": "af347002f2cf",
+      "last_seen_sha": "897ea20a8de2",
       "author": "NachtRaveVL <nachtravevl@gmail.com>",
       "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
       "sentence": "Terraduino: Simple automation controller for homestead resource and environmental systems using Arduino-compatible microcontrollers.",
@@ -251610,12 +251614,41 @@
         "*"
       ],
       "depends": [
+        "Adafruit BusIO",
+        "Adafruit FT6206 Library",
+        "Adafruit GFX Library",
+        "Adafruit GPS Library",
+        "Adafruit ILI9341",
+        "Adafruit ST7735 and ST7789 Library",
+        "Adafruit TouchScreen",
+        "Adafruit Unified Sensor",
+        "ArduinoJson",
+        "ArxContainer",
+        "ArxSmartPtr",
+        "DHT sensor library",
+        "I2C_EEPROM",
         "IoAbstraction",
+        "LiquidCrystalIO",
+        "MQTT",
+        "OneWire",
+        "RTClib",
+        "SimpleCollections",
+        "SD",
+        "SolarCalculator",
         "TaskManagerIO",
-        "tcMenu"
+        "tcUnicodeHelper",
+        "tcMenu",
+        "TFT_eSPI",
+        "Time",
+        "U8g2",
+        "WiFiEspAT",
+        "WiFiNINA_Generic",
+        "WiFi101",
+        "XPT2046_Touchscreen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Homestead_Arduino-0.7.1.zip",
-      "size": 231909,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Homestead_Arduino-0.7.2.zip",
+      "size": 357236,
+      "previous_version": "0.7.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -251625,7 +251658,7 @@
       "repository_name": "NachtRaveVL/Simple-Hydroponics-Arduino",
       "repository_url": "https://github.com/NachtRaveVL/Simple-Hydroponics-Arduino",
       "name": "Simple-Hydroponics-Arduino",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "version_history": [
         {
           "version": "0.6.8.0",
@@ -251638,11 +251671,15 @@
         {
           "version": "0.7.1",
           "seen_at": "2026-08-19T04:11:51.866Z"
+        },
+        {
+          "version": "0.7.2",
+          "seen_at": "2026-09-03T06:05:05.136Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-04-04T07:43:27Z",
-      "last_seen_sha": "6f7fa9cc0e93",
+      "last_seen_sha": "e145284bd8dc",
       "author": "NachtRaveVL <nachtravevl@gmail.com>",
       "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
       "sentence": "Hydruino: Simple automation controller for hydroponic grow systems.",
@@ -251685,9 +251722,9 @@
         "WiFi101",
         "XPT2046_Touchscreen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Hydroponics_Arduino-0.7.1.zip",
-      "size": 15168445,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Hydroponics_Arduino-0.7.2.zip",
+      "size": 15180885,
+      "previous_version": "0.7.1",
       "github_stars": 90,
       "github_forks": 10,
       "github_language": "C++",
@@ -251697,7 +251734,7 @@
       "repository_name": "NachtRaveVL/Simple-SolarTracker-Arduino",
       "repository_url": "https://github.com/NachtRaveVL/Simple-SolarTracker-Arduino",
       "name": "Simple-SolarTracker-Arduino",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "version_history": [
         {
           "version": "0.6.8.0",
@@ -251710,11 +251747,15 @@
         {
           "version": "0.7.1",
           "seen_at": "2026-08-19T04:11:51.866Z"
+        },
+        {
+          "version": "0.7.2",
+          "seen_at": "2026-09-03T06:05:05.136Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-09-19T07:36:26Z",
-      "last_seen_sha": "61463caf761d",
+      "last_seen_sha": "af94a3c79bde",
       "author": "NachtRaveVL <nachtravevl@gmail.com>",
       "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
       "sentence": "Helioduino: Simple automation controller for solar tracking systems.",
@@ -251756,9 +251797,9 @@
         "WiFi101",
         "XPT2046_Touchscreen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_SolarTracker_Arduino-0.7.1.zip",
-      "size": 1205094,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_SolarTracker_Arduino-0.7.2.zip",
+      "size": 1222820,
+      "previous_version": "0.7.1",
       "github_stars": 37,
       "github_forks": 2,
       "github_language": "C++",
@@ -318864,6 +318905,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9709,
-    "total_dependencies": 5316
+    "total_dependencies": 5344
   }
 }

@@ -1,6 +1,237 @@
 {
-  "since": "2026-09-03T05:35:12.626Z",
+  "since": "2026-09-03T06:05:05.136Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "NachtRaveVL/Simple-Homestead-Arduino",
+        "repository_url": "https://github.com/NachtRaveVL/Simple-Homestead-Arduino",
+        "name": "Simple-Homestead-Arduino",
+        "version": "0.7.2",
+        "version_history": [
+          {
+            "version": "0.7.1",
+            "seen_at": "2026-08-19T06:05:47.239Z"
+          },
+          {
+            "version": "0.7.2",
+            "seen_at": "2026-09-03T06:05:05.136Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-19T06:05:47.239Z",
+        "last_seen_sha": "897ea20a8de2",
+        "author": "NachtRaveVL <nachtravevl@gmail.com>",
+        "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
+        "sentence": "Terraduino: Simple automation controller for homestead resource and environmental systems using Arduino-compatible microcontrollers.",
+        "paragraph": "Provides reusable objects and control logic for rainwater harvesting, cisterns, wells, pumps, valves, water routing, thermal storage, circulation, weather and environmental sensing, scheduling, logging, data publishing, persistence, and optional remote sensor integration. Terraduino is designed to operate locally without an internet connection or cloud service. Networking and external transports can be added when required.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit BusIO",
+          "Adafruit FT6206 Library",
+          "Adafruit GFX Library",
+          "Adafruit GPS Library",
+          "Adafruit ILI9341",
+          "Adafruit ST7735 and ST7789 Library",
+          "Adafruit TouchScreen",
+          "Adafruit Unified Sensor",
+          "ArduinoJson",
+          "ArxContainer",
+          "ArxSmartPtr",
+          "DHT sensor library",
+          "I2C_EEPROM",
+          "IoAbstraction",
+          "LiquidCrystalIO",
+          "MQTT",
+          "OneWire",
+          "RTClib",
+          "SimpleCollections",
+          "SD",
+          "SolarCalculator",
+          "TaskManagerIO",
+          "tcUnicodeHelper",
+          "tcMenu",
+          "TFT_eSPI",
+          "Time",
+          "U8g2",
+          "WiFiEspAT",
+          "WiFiNINA_Generic",
+          "WiFi101",
+          "XPT2046_Touchscreen"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Homestead_Arduino-0.7.2.zip",
+        "size": 357236,
+        "previous_version": "0.7.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-19T02:49:02Z"
+      },
+      "old_version": "0.7.1",
+      "new_version": "0.7.2"
+    },
+    {
+      "library": {
+        "repository_name": "NachtRaveVL/Simple-Hydroponics-Arduino",
+        "repository_url": "https://github.com/NachtRaveVL/Simple-Hydroponics-Arduino",
+        "name": "Simple-Hydroponics-Arduino",
+        "version": "0.7.2",
+        "version_history": [
+          {
+            "version": "0.6.8.0",
+            "seen_at": "2026-04-04T07:43:27Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.7.1",
+            "seen_at": "2026-08-19T04:11:51.866Z"
+          },
+          {
+            "version": "0.7.2",
+            "seen_at": "2026-09-03T06:05:05.136Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-04-04T07:43:27Z",
+        "last_seen_sha": "e145284bd8dc",
+        "author": "NachtRaveVL <nachtravevl@gmail.com>",
+        "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
+        "sentence": "Hydruino: Simple automation controller for hydroponic grow systems.",
+        "paragraph": "Allows one to set up a system of reservoirs, pumps, probes, relays, and other objects useful in automating the daily lighting, feed dosing, watering, and data monitoring & collection processes involved in hydroponically grown fruits, vegetables, teas, herbs, and salves. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Contains a large library of crop data to select from that will automatically aim the system for the best growing parameters during the various growth phases for the system configured, along with fully customizable weekly feed/additive amounts and daily feeding/lighting scheduling. With the right setup Hydruino can automatically do things like: enable grow lights for the needed period each day (potentially only turning on to augment daily sunlight hours), drive water pumps and auto-dosers during feedings, spray leafy plants in the morning before lights/sunrise, heat cold water to a specific temp for tropical plants, use CO2 sensors to manage air circulation fans to maintain optimal grow tent parameters, remind when to prune plants, or even use soil moisture sensing to dynamically determine watering schedule.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit BusIO",
+          "Adafruit FT6206 Library",
+          "Adafruit GFX Library",
+          "Adafruit GPS Library",
+          "Adafruit ILI9341",
+          "Adafruit ST7735 and ST7789 Library",
+          "Adafruit TouchScreen",
+          "Adafruit Unified Sensor",
+          "ArduinoJson",
+          "ArxContainer",
+          "ArxSmartPtr",
+          "DallasTemperature",
+          "DHT sensor library",
+          "I2C_EEPROM",
+          "IoAbstraction",
+          "LiquidCrystalIO",
+          "MQTT",
+          "OneWire",
+          "RTClib",
+          "SimpleCollections",
+          "SD",
+          "SolarCalculator",
+          "TaskManagerIO",
+          "tcUnicodeHelper",
+          "tcMenu",
+          "TFT_eSPI",
+          "Time",
+          "U8g2",
+          "WiFiEspAT",
+          "WiFiNINA_Generic",
+          "WiFi101",
+          "XPT2046_Touchscreen"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_Hydroponics_Arduino-0.7.2.zip",
+        "size": 15180885,
+        "previous_version": "0.7.1",
+        "github_stars": 90,
+        "github_forks": 10,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-16T09:51:36Z"
+      },
+      "old_version": "0.7.1",
+      "new_version": "0.7.2"
+    },
+    {
+      "library": {
+        "repository_name": "NachtRaveVL/Simple-SolarTracker-Arduino",
+        "repository_url": "https://github.com/NachtRaveVL/Simple-SolarTracker-Arduino",
+        "name": "Simple-SolarTracker-Arduino",
+        "version": "0.7.2",
+        "version_history": [
+          {
+            "version": "0.6.8.0",
+            "seen_at": "2025-09-19T07:36:26Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.7.1",
+            "seen_at": "2026-08-19T04:11:51.866Z"
+          },
+          {
+            "version": "0.7.2",
+            "seen_at": "2026-09-03T06:05:05.136Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-09-19T07:36:26Z",
+        "last_seen_sha": "af94a3c79bde",
+        "author": "NachtRaveVL <nachtravevl@gmail.com>",
+        "maintainer": "NachtRaveVL <nachtravevl@gmail.com>",
+        "sentence": "Helioduino: Simple automation controller for solar tracking systems.",
+        "paragraph": "Allows one to set up a system of panels, servos, LDRs, relays, and other objects useful in controlling both single and dual axis sun tracking solar panel systems, and provides data monitoring & collection abilities while operating panel axis servos and/or linear actuators across the day as the sun moves to maintain optimal panel alignment. Works with a large variety of widely-available aquarium/hobbyist equipment, including popular GPS, RTC, EEPROM, SD card, WiFi, and other modules compatible with Arduino. Can be setup to calculate sun position accurately as possible or to auto-balance two opposing photoresistors per panel axis. With the right setup Helioduino can automatically do things like: drive large panels with multiple in-step linear actuators, engaging axis brakes to prevent large panels from moving/taking strain off motors that can then disengage, spray/wipe panels on routine to keep panels clean, deploy panels at sunrise and retract at sunset or when its too windy out, remind when to realign panels, or even provide panel heating during cold temperatures or when ice is detected.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit BusIO",
+          "Adafruit FT6206 Library",
+          "Adafruit GFX Library",
+          "Adafruit GPS Library",
+          "Adafruit ILI9341",
+          "Adafruit ST7735 and ST7789 Library",
+          "Adafruit TouchScreen",
+          "Adafruit Unified Sensor",
+          "ArduinoJson",
+          "ArxContainer",
+          "ArxSmartPtr",
+          "DHT sensor library",
+          "I2C_EEPROM",
+          "IoAbstraction",
+          "LiquidCrystalIO",
+          "MQTT",
+          "OneWire",
+          "RTClib",
+          "SimpleCollections",
+          "SD",
+          "SolarCalculator",
+          "TaskManagerIO",
+          "tcUnicodeHelper",
+          "tcMenu",
+          "TFT_eSPI",
+          "Time",
+          "U8g2",
+          "WiFiEspAT",
+          "WiFiNINA_Generic",
+          "WiFi101",
+          "XPT2046_Touchscreen"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NachtRaveVL/Simple_SolarTracker_Arduino-0.7.2.zip",
+        "size": 1222820,
+        "previous_version": "0.7.1",
+        "github_stars": 37,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-29T21:36:37Z"
+      },
+      "old_version": "0.7.1",
+      "new_version": "0.7.2"
+    }
+  ],
   "removed_libraries": []
 }

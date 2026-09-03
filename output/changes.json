@@ -1,6 +1,166 @@
 {
-  "since": "2026-09-03T15:02:44.099Z",
+  "since": "2026-09-03T16:03:01.753Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "prj-electins/ElectinsIoT",
+        "repository_url": "https://github.com/prj-electins/ElectinsIoT",
+        "name": "ElectinsIoT",
+        "version": "3.0.5",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-04-29T08:23:25Z"
+          },
+          {
+            "version": "2.1.4",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-07-10T09:02:01.418Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-07-12T16:17:45.909Z"
+          },
+          {
+            "version": "3.0.2",
+            "seen_at": "2026-07-17T10:31:11.084Z"
+          },
+          {
+            "version": "3.0.3",
+            "seen_at": "2026-07-22T08:50:10.060Z"
+          },
+          {
+            "version": "3.0.4",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "3.0.5",
+            "seen_at": "2026-09-03T16:03:01.753Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-04-29T08:23:25Z",
+        "last_seen_sha": "02e22de40b31",
+        "author": "Nash <support@electins.id>",
+        "maintainer": "Nash <support@electins.id>",
+        "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
+        "paragraph": "Built-in lightweight TCP connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi and TCP server auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, and automatic device ID generation via MAC address.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.5.zip",
+        "size": 32030,
+        "previous_version": "3.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-06T07:07:56Z"
+      },
+      "old_version": "3.0.4",
+      "new_version": "3.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "mathieucarbou/MycilaHADiscovery",
+        "repository_url": "https://github.com/mathieucarbou/MycilaHADiscovery",
+        "name": "MycilaHADiscovery",
+        "version": "7.1.0",
+        "version_history": [
+          {
+            "version": "7.0.1",
+            "seen_at": "2026-06-30T08:37:29Z"
+          },
+          {
+            "version": "7.1.0",
+            "seen_at": "2026-09-03T16:03:01.753Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:37:29Z",
+        "last_seen_sha": "afabc8aa1e4b",
+        "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "sentence": "Simple and efficient Home Assistant Discovery library for Arduino / ESP32",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-7.1.0.zip",
+        "size": 15607,
+        "previous_version": "7.0.1",
+        "github_stars": 10,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T10:24:40Z"
+      },
+      "old_version": "7.0.1",
+      "new_version": "7.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "NickP005/plynx-library",
+        "repository_url": "https://github.com/NickP005/plynx-library",
+        "name": "Plynx",
+        "version": "1.0.6",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-07-20T12:39:41.305Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-07-27T14:57:33.658Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-29T12:36:33.757Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-08-04T10:51:28.826Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-03T16:03:01.753Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-07-20T12:39:41.305Z",
+        "last_seen_sha": "f4faca766dac",
+        "author": "Plynx, derived from Blynk library by Volodymyr Shymanskyy",
+        "maintainer": "Plynx (NickP005)",
+        "sentence": "Control your Arduino, ESP32 or ESP8266 from the Plynx app.",
+        "paragraph": "Talks to a Plynx (or Blynk-legacy) server. Default server yes.plynx.cc. It supports  WiFi, BLE, Bluetooth, Ethernet, GSM, USB, Serial. Works with many boards like ESP8266, ESP32, Arduino UNO, Nano, Due, Mega, Zero, MKR100, Yun, Raspberry Pi, Particle, Energia, ARM mbed, Intel Edison/Galileo/Joule, BBC micro:bit, DFRobot, RedBearLab, Microduino, LinkIt ONE ...",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "depends": [
+          "Ethernet",
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.0.6.zip",
+        "size": 619489,
+        "previous_version": "1.0.5",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-20T09:47:40Z"
+      },
+      "old_version": "1.0.5",
+      "new_version": "1.0.6"
+    }
+  ],
   "removed_libraries": []
 }

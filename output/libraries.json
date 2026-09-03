@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-03T15:02:44.229Z",
+  "enhanced_at": "2026-09-03T16:03:01.910Z",
   "total_libraries": 9914,
-  "index_etag": "W/\"d8e8cae689452e0d4c0d8e5509fddfcb\"",
-  "index_last_modified": "Thu, 03 Sep 2026 14:59:13 GMT",
+  "index_etag": "W/\"ee35def1d195a0c5b37e9f5d496a4f3e\"",
+  "index_last_modified": "Thu, 03 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -91164,7 +91164,7 @@
       "repository_name": "prj-electins/ElectinsIoT",
       "repository_url": "https://github.com/prj-electins/ElectinsIoT",
       "name": "ElectinsIoT",
-      "version": "3.0.4",
+      "version": "3.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -91193,11 +91193,15 @@
         {
           "version": "3.0.4",
           "seen_at": "2026-08-06T23:59:11.596Z"
+        },
+        {
+          "version": "3.0.5",
+          "seen_at": "2026-09-03T16:03:01.753Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-04-29T08:23:25Z",
-      "last_seen_sha": "78cff7d8d924",
+      "last_seen_sha": "02e22de40b31",
       "author": "Nash <support@electins.id>",
       "maintainer": "Nash <support@electins.id>",
       "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
@@ -91207,9 +91211,9 @@
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.4.zip",
-      "size": 32039,
-      "previous_version": "3.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.5.zip",
+      "size": 32030,
+      "previous_version": "3.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -191770,33 +191774,38 @@
       "repository_name": "mathieucarbou/MycilaHADiscovery",
       "repository_url": "https://github.com/mathieucarbou/MycilaHADiscovery",
       "name": "MycilaHADiscovery",
-      "version": "7.0.1",
+      "version": "7.1.0",
       "version_history": [
         {
           "version": "7.0.1",
           "seen_at": "2026-06-30T08:37:29Z"
+        },
+        {
+          "version": "7.1.0",
+          "seen_at": "2026-09-03T16:03:01.753Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T08:37:29Z",
-      "last_seen_sha": "db5138c3d40d",
+      "last_seen_sha": "afabc8aa1e4b",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "Simple and efficient Home Assistant Discovery library for Arduino / ESP32",
-      "paragraph": "",
       "category": "Other",
       "architectures": [
         "esp32"
       ],
-      "github_stars": 10,
-      "github_forks": 1,
-      "github_updated_at": "2026-06-29T10:24:40Z",
       "license": "MIT",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/mathieucarbou/MycilaHADiscovery",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-7.1.0.zip",
+      "size": 15607,
+      "previous_version": "7.0.1",
+      "github_stars": 10,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-29T10:24:40Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaJSY",
@@ -213997,7 +214006,7 @@
       "repository_name": "NickP005/plynx-library",
       "repository_url": "https://github.com/NickP005/plynx-library",
       "name": "Plynx",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.2",
@@ -214014,11 +214023,15 @@
         {
           "version": "1.0.5",
           "seen_at": "2026-08-04T10:51:28.826Z"
+        },
+        {
+          "version": "1.0.6",
+          "seen_at": "2026-09-03T16:03:01.753Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-20T12:39:41.305Z",
-      "last_seen_sha": "9c5ea4d25569",
+      "last_seen_sha": "f4faca766dac",
       "author": "Plynx, derived from Blynk library by Volodymyr Shymanskyy",
       "maintainer": "Plynx (NickP005)",
       "sentence": "Control your Arduino, ESP32 or ESP8266 from the Plynx app.",
@@ -214028,9 +214041,13 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.0.5.zip",
-      "size": 597036,
-      "previous_version": "1.0.4",
+      "depends": [
+        "Ethernet",
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NickP005/Plynx-1.0.6.zip",
+      "size": 619489,
+      "previous_version": "1.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -318999,6 +319016,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9711,
-    "total_dependencies": 5344
+    "total_dependencies": 5346
   }
 }

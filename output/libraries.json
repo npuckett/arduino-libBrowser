@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-04T11:02:27.902Z",
-  "total_libraries": 9914,
-  "index_etag": "W/\"263d26777bbb4746d370497bc19a5896\"",
-  "index_last_modified": "Fri, 04 Sep 2026 10:59:12 GMT",
+  "enhanced_at": "2026-09-04T12:03:52.496Z",
+  "total_libraries": 9915,
+  "index_etag": "W/\"4a2ab6a3413d00215f6b72614d989af9\"",
+  "index_last_modified": "Fri, 04 Sep 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -178020,6 +178020,39 @@
       "github_updated_at": "2026-06-15T16:29:44Z"
     },
     {
+      "repository_name": "Microeden/MicroedenConnect",
+      "repository_url": "https://github.com/Microeden/MicroedenConnect",
+      "name": "MicroedenConnect",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-04T12:03:50.981Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-04T12:03:50.981Z",
+      "last_seen_sha": "fa07170a6f94",
+      "author": "Microeden",
+      "maintainer": "Microeden <info@microeden.io>",
+      "sentence": "Connect Arduino-compatible devices to the My Microeden platform over MQTT.",
+      "paragraph": "Publishes widget data and receives commands through the Microeden MQTT broker.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MicroedenConnect-1.0.1.zip",
+      "size": 14529,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-04T10:53:56Z"
+    },
+    {
       "repository_name": "u-fire/Mod-NTC",
       "repository_url": "https://github.com/u-fire/Mod-NTC",
       "name": "Microfire Mod-NTC",
@@ -319057,7 +319090,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9711,
-    "total_dependencies": 5346
+    "with_github_metadata": 9712,
+    "total_dependencies": 5348
   }
 }

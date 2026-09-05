@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-05T07:02:26.664Z",
-  "total_libraries": 9917,
-  "index_etag": "W/\"5c342cbb6dae42e2832a735e9452871e\"",
-  "index_last_modified": "Sat, 05 Sep 2026 06:59:12 GMT",
+  "enhanced_at": "2026-09-05T08:03:11.246Z",
+  "total_libraries": 9918,
+  "index_etag": "W/\"b2958e601dd51ce95e2ce88beb33cb8f\"",
+  "index_last_modified": "Sat, 05 Sep 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -231730,6 +231730,31 @@
       "github_language": "C++",
       "github_updated_at": "2026-05-26T06:30:27Z",
       "download_url": "https://github.com/Locoduino/RingBuffer"
+    },
+    {
+      "repository_name": "gitlab.com/atesin/ringbufferstream",
+      "repository_url": "https://gitlab.com/atesin/ringbufferstream",
+      "name": "RingBufferStream",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-05T08:03:10.038Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-05T08:03:10.038Z",
+      "last_seen_sha": "61c694e4a7a5",
+      "author": "atesin <atesin@gmail.com>",
+      "maintainer": "atesin <atesin@gmail.com>",
+      "sentence": "Implements a light and optimized circular buffer in RAM as a Stream derived class",
+      "paragraph": "Useful for custom data streams like device and virtual files",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/atesin/RingBufferStream-1.0.0.zip",
+      "size": 6438
     },
     {
       "repository_name": "shuvangkar/RingEEPROM",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-05T13:02:13.651Z",
-  "total_libraries": 9918,
-  "index_etag": "W/\"bb77e0c713ea72ea7e9ca2555dc6eda7\"",
-  "index_last_modified": "Sat, 05 Sep 2026 12:59:12 GMT",
+  "enhanced_at": "2026-09-05T14:02:07.937Z",
+  "total_libraries": 9920,
+  "index_etag": "W/\"fa7897e7fd2b38afc399267d7874b974\"",
+  "index_last_modified": "Sat, 05 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60145,6 +60145,42 @@
       "github_language": "C++",
       "github_updated_at": "2026-03-15T18:58:12Z",
       "download_url": "https://github.com/nitz/Cie1931"
+    },
+    {
+      "repository_name": "bcan77/CiftPulsar-OTA",
+      "repository_url": "https://github.com/bcan77/CiftPulsar-OTA",
+      "name": "CiftPulsarOTA",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-05T14:02:05.234Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-05T14:02:05.234Z",
+      "last_seen_sha": "a7128ca63eb5",
+      "author": "Bilgin Demir CAN (bcan77)",
+      "maintainer": "bilginikinci@gmail.com",
+      "sentence": "ESP32 OTA update receiver for Cift Pulsar — WiFi HTTP (universal) + BLE.",
+      "paragraph": "Arduino library that receives OTA firmware updates on ESP32 via WiFi HTTP (works on any browser/OS, AP or STA) and BLE (Web Bluetooth). Includes version/update detection, mDNS, progress callbacks, and safe Update handling. Works with https://bcan77.github.io/ciftpulsar-ota/",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "WiFi",
+        "WebServer",
+        "Update",
+        "Preferences",
+        "ESPmDNS"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bcan77/CiftPulsarOTA-2.0.0.zip",
+      "size": 20333,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-05T10:51:04Z"
     },
     {
       "repository_name": "BojanJurca/cin-cout-for-Arduino",
@@ -148812,6 +148848,39 @@
       "github_forks": 1,
       "github_language": "C++",
       "github_updated_at": "2025-09-09T22:48:06Z"
+    },
+    {
+      "repository_name": "ailagari/LagariMotors",
+      "repository_url": "https://github.com/ailagari/LagariMotors",
+      "name": "LagariMotors",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-05T14:02:05.234Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-05T14:02:05.234Z",
+      "last_seen_sha": "0c2c6622eec9",
+      "author": "LAGARI A <lagariscience@gmail.com>",
+      "maintainer": "LAGARI A <lagariscience@gmail.com>",
+      "sentence": "Internal beta - UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X plus V/VA/VS/HV/H extensions). Internal test build - not the final public release.",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "depends": [
+        "CONTROLLINO",
+        "Ethernet"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.1.0.zip",
+      "size": 43430,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-05T11:28:17Z"
     },
     {
       "repository_name": "lansium-dev/lansium-arduino",
@@ -319216,7 +319285,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9714,
-    "total_dependencies": 5353
+    "with_github_metadata": 9716,
+    "total_dependencies": 5360
   }
 }

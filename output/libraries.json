@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-05T19:01:48.086Z",
-  "total_libraries": 9922,
-  "index_etag": "W/\"966a9fdbbeb28c64be5f74d859012e6a\"",
-  "index_last_modified": "Sat, 05 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-05T20:02:23.064Z",
+  "total_libraries": 9923,
+  "index_etag": "W/\"afc09e262173dacf63e4b903a39798ee\"",
+  "index_last_modified": "Sat, 05 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -231874,26 +231874,31 @@
       "repository_name": "gitlab.com/atesin/ringbufferstream",
       "repository_url": "https://gitlab.com/atesin/ringbufferstream",
       "name": "RingBufferStream",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-05T08:03:10.038Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-05T20:02:21.576Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-05T08:03:10.038Z",
-      "last_seen_sha": "61c694e4a7a5",
+      "last_seen_sha": "25bd7faae1c5",
       "author": "atesin <atesin@gmail.com>",
       "maintainer": "atesin <atesin@gmail.com>",
       "sentence": "Implements a light and optimized circular buffer in RAM as a Stream derived class",
-      "paragraph": "Useful for custom data streams like device and virtual files",
+      "paragraph": "Useful for custom data buffers like device and virtual files",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/atesin/RingBufferStream-1.0.0.zip",
-      "size": 6438
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/atesin/RingBufferStream-1.0.1.zip",
+      "size": 6436,
+      "previous_version": "1.0.0"
     },
     {
       "repository_name": "shuvangkar/RingEEPROM",
@@ -294632,6 +294637,35 @@
       "github_updated_at": "2026-03-09T17:59:18Z"
     },
     {
+      "repository_name": "klenov1900-lang/TM1637_6Easy",
+      "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
+      "name": "TM1637_6Easy",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-05T20:02:21.576Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-05T20:02:21.576Z",
+      "last_seen_sha": "f1ee23850545",
+      "author": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+      "maintainer": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+      "sentence": "High-performance library for 6-digit LED displays based on TM1637 driver.",
+      "paragraph": "Minimalistic and fast library for TM1637 6-digit displays with direct port I/O.",
+      "category": "Display",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-1.0.0.zip",
+      "size": 7747,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-05T18:59:39Z"
+    },
+    {
       "repository_name": "RobTillaart/TM1637_RT",
       "repository_url": "https://github.com/RobTillaart/TM1637_RT",
       "name": "TM1637_RT",
@@ -319355,7 +319389,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9718,
+    "with_github_metadata": 9719,
     "total_dependencies": 5361
   }
 }

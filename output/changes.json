@@ -1,6 +1,57 @@
 {
-  "since": "2026-09-06T15:02:11.373Z",
+  "since": "2026-09-06T16:02:38.618Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Microeden/MyDotLib",
+        "repository_url": "https://github.com/Microeden/MyDotLib",
+        "name": "MyDot",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-09-04T16:02:48.199Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-06T16:02:38.618Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-04T16:02:48.199Z",
+        "last_seen_sha": "f900f3861fdc",
+        "author": "Microeden",
+        "maintainer": "Microeden <info@microeden.io>",
+        "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
+        "paragraph": "Controls the MyDot board peripherals and connects compatible Wi-Fi boards to Microeden over MQTT.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "samd",
+          "rp2040",
+          "mbed_nano"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "Adafruit SSD1306",
+          "Adafruit BME680 Library",
+          "PubSubClient",
+          "ArduinoJson",
+          "SD",
+          "WiFiNINA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.5.zip",
+        "size": 47351,
+        "previous_version": "1.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-04T13:38:25Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "1.0.5"
+    }
+  ],
   "removed_libraries": []
 }

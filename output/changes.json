@@ -1,6 +1,121 @@
 {
-  "since": "2026-09-06T11:02:05.502Z",
+  "since": "2026-09-06T12:03:22.856Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "bcan77/CiftPulsar-OTA",
+        "repository_url": "https://github.com/bcan77/CiftPulsar-OTA",
+        "name": "CiftPulsarOTA",
+        "version": "2.1.0",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-05T14:02:05.234Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-09-06T12:03:22.856Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-05T14:02:05.234Z",
+        "last_seen_sha": "53bc7d211574",
+        "author": "Bilgin Demir CAN (bcan77)",
+        "maintainer": "bilginikinci@gmail.com",
+        "sentence": "ESP32 OTA receiver for Cift Pulsar — use https://bcan77.github.io/ciftpulsar-ota/ to upload firmware (WiFi + BLE).",
+        "paragraph": "Arduino library that receives OTA firmware updates on ESP32. To actually perform an update, open https://bcan77.github.io/ciftpulsar-ota/ in your browser (WiFi tab: enter ESP IP, select .bin, Update; BLE tab: Web Bluetooth). WiFi HTTP works on any browser/OS (AP or STA), BLE via Web Bluetooth. Includes version/update detection, mDNS, progress callbacks, and safe Update handling.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bcan77/CiftPulsarOTA-2.1.0.zip",
+        "size": 27165,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T10:51:04Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "ebm9991/GroveI2CStepper",
+        "repository_url": "https://github.com/ebm9991/GroveI2CStepper",
+        "name": "GroveI2CStepper",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-24T16:08:54.215Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-06T12:03:22.856Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-24T16:08:54.215Z",
+        "last_seen_sha": "c085cec58c38",
+        "author": "EBM",
+        "maintainer": "EBM",
+        "sentence": "Non-blocking bipolar stepper control for Seeed Grove Mini I2C Motor Driver v1.1 (2x DRV8830).",
+        "paragraph": "Designed for Arduino UNO R4 and other Arduino boards using the standard Wire library. Provides an AccelStepper-like speed API for a 4-wire bipolar stepper connected to the two DRV8830 channels.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/GroveI2CStepper-1.0.2.zip",
+        "size": 13072,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-24T12:45:52Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "ridiculousfish/libdivide",
+        "repository_url": "https://github.com/ridiculousfish/libdivide",
+        "name": "libdivide",
+        "version": "5.4.0",
+        "version_history": [
+          {
+            "version": "5.3.0",
+            "seen_at": "2026-06-25T08:42:58Z"
+          },
+          {
+            "version": "5.4.0",
+            "seen_at": "2026-09-06T12:03:22.856Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-25T08:42:58Z",
+        "last_seen_sha": "80a838661f62",
+        "author": "ridiculousfish",
+        "maintainer": "ridiculousfish",
+        "sentence": "Optimised integer division.",
+        "paragraph": "libdivide.h is a header-only C/C++ library for optimizing integer division. Integer division is one of the slowest instructions on most CPUs e.g. on current x64 CPUs a 64-bit integer division has a latency of up to 90 clock cycles whereas a multiplication has a latency of only 3 clock cycles. libdivide allows you to replace expensive integer division instructions by a sequence of shift, add and multiply instructions that will calculate the integer division much faster.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ridiculousfish/libdivide-5.4.0.zip",
+        "size": 1294271,
+        "previous_version": "5.3.0",
+        "github_stars": 1337,
+        "github_forks": 97,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-25T07:35:32Z"
+      },
+      "old_version": "5.3.0",
+      "new_version": "5.4.0"
+    }
+  ],
   "removed_libraries": []
 }

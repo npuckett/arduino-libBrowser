@@ -1,6 +1,154 @@
 {
-  "since": "2026-09-06T13:02:16.315Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-06T14:02:06.710Z",
+  "new_libraries": [
+    {
+      "repository_name": "MaSzyna-EU07/mhp_arduino_library",
+      "repository_url": "https://github.com/MaSzyna-EU07/mhp_arduino_library",
+      "name": "MaSzyna Hardware Protocol v2",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-06T14:02:06.710Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-06T14:02:06.710Z",
+      "last_seen_sha": "9961ee341758",
+      "author": "MaSzyna community",
+      "maintainer": "MaSzyna community",
+      "sentence": "Client library for the MaSzyna Hardware Protocol v2 (UART v2).",
+      "paragraph": "Connects Arduino, ESP32, RP2040 and STM32 controllers to the MaSzyna railway simulator: symbolic state subscriptions, discrete commands with acknowledgement, continuous controls, link diagnostics, COBS framing with CRC32C, automatic reconnection.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MaSzyna-EU07/MaSzyna_Hardware_Protocol_v2-1.0.0.zip",
+      "size": 45970,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-06T11:36:43Z"
+    },
+    {
+      "repository_name": "Khuuxuanngoc/MKE_I2C_Loadcell_lib",
+      "repository_url": "https://github.com/Khuuxuanngoc/MKE_I2C_Loadcell_lib",
+      "name": "MKE_I2C_Loadcell",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-06T14:02:06.710Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-06T14:02:06.710Z",
+      "last_seen_sha": "729c7af695a5",
+      "author": "MakerEdu.vn",
+      "maintainer": "MakerEdu.vn",
+      "sentence": "A library for interacting with the MKE-S18 I2C HX710 Loadcell Sensor module.",
+      "paragraph": "Supports Tare, Calibration, Gram output, and EEPROM saving. Compatible with Uno, ESP32, and STM32.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_I2C_Loadcell-1.0.0.zip",
+      "size": 1888909,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-06T10:07:27Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Company-of-Things/deploii-library",
+        "repository_url": "https://github.com/Company-of-Things/deploii-library",
+        "name": "deploii",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.3.2",
+            "seen_at": "2026-04-20T07:43:41Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-09-06T14:02:06.710Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-04-20T07:43:41Z",
+        "last_seen_sha": "aa87604bfc86",
+        "author": "Company of Things",
+        "maintainer": "Company of Things <post@cot.as>",
+        "sentence": "Library for enabling communication between a MCU and Deploii",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "samd",
+          "renesas_uno"
+        ],
+        "depends": [
+          "WebSockets",
+          "MsgPack",
+          "WiFi",
+          "WiFiNINA",
+          "ArduinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Company-of-Things/deploii-0.4.0.zip",
+        "size": 34146,
+        "previous_version": "0.3.2",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-19T16:05:23Z"
+      },
+      "old_version": "0.3.2",
+      "new_version": "0.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "Microeden/MicroedenConnect",
+        "repository_url": "https://github.com/Microeden/MicroedenConnect",
+        "name": "MicroedenConnect",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-04T12:03:50.981Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-06T14:02:06.710Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-04T12:03:50.981Z",
+        "last_seen_sha": "9a8242cf087d",
+        "author": "Microeden",
+        "maintainer": "Microeden <info@microeden.io>",
+        "sentence": "Connect Arduino-compatible devices to the MicroEden platform over MQTT.",
+        "paragraph": "Publishes widget data and receives commands through the Microeden MQTT broker.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MicroedenConnect-1.0.2.zip",
+        "size": 28413,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-04T10:53:56Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

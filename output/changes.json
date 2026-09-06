@@ -1,6 +1,133 @@
 {
-  "since": "2026-09-06T19:01:59.228Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-06T20:02:31.565Z",
+  "new_libraries": [
+    {
+      "repository_name": "FsBotzTg/SevenSegCountdown",
+      "repository_url": "https://github.com/FsBotzTg/SevenSegCountdown",
+      "name": "SevenSegCountdown",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-06T20:02:31.565Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-06T20:02:31.565Z",
+      "last_seen_sha": "a437758bb827",
+      "author": "Firos Sha Muhammad <fsbotztg@gmail.com>",
+      "maintainer": "Firos Sha Muhammad <fsbotztg@gmail.com>",
+      "sentence": "Runs a countdown timer on a two-digit multiplexed 7-segment display.",
+      "paragraph": "Counts down from any value 0-99 to 0 on a common two-digit 7-segment display using pins 2-8 (A-G) for segments and pins 9-10 to select the active digit, then holds at 00.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FsBotzTg/SevenSegCountdown-1.0.0.zip",
+      "size": 5614,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-06T16:35:45Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Microeden/MyDotLib",
+        "repository_url": "https://github.com/Microeden/MyDotLib",
+        "name": "MyDot",
+        "version": "1.0.7",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-09-04T16:02:48.199Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-06T16:02:38.618Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-09-06T20:02:31.565Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-04T16:02:48.199Z",
+        "last_seen_sha": "36275f30a702",
+        "author": "Microeden",
+        "maintainer": "Microeden <info@microeden.io>",
+        "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
+        "paragraph": "Controls the MyDot board peripherals and connects compatible Wi-Fi boards to Microeden over MQTT.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "samd",
+          "rp2040",
+          "mbed_nano"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "Adafruit SSD1306",
+          "Adafruit BME680 Library",
+          "PubSubClient",
+          "ArduinoJson",
+          "SD",
+          "WiFiNINA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.7.zip",
+        "size": 47806,
+        "previous_version": "1.0.6",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-04T13:38:25Z"
+      },
+      "old_version": "1.0.6",
+      "new_version": "1.0.7"
+    },
+    {
+      "library": {
+        "repository_name": "klenov1900-lang/TM1637_6Easy",
+        "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
+        "name": "TM1637_6Easy",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-05T20:02:21.576Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-06T20:02:31.565Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-05T20:02:21.576Z",
+        "last_seen_sha": "de285ed95c06",
+        "author": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+        "maintainer": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+        "sentence": "High-performance library for 6-digit LED displays based on TM1637 driver.",
+        "paragraph": "Minimalistic and fast library for TM1637 6-digit displays with direct port I/O.",
+        "category": "Display",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-1.0.2.zip",
+        "size": 8781,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T18:59:39Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

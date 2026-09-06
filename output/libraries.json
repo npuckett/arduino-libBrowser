@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-06T19:01:59.322Z",
-  "total_libraries": 9929,
-  "index_etag": "W/\"7b9fbbb6db624fccdcdbbd5abaee4976\"",
-  "index_last_modified": "Sun, 06 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-06T20:02:33.073Z",
+  "total_libraries": 9930,
+  "index_etag": "W/\"f35ae36011c5cea996e3388e97f277a2\"",
+  "index_last_modified": "Sun, 06 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -192694,7 +192694,7 @@
       "repository_name": "Microeden/MyDotLib",
       "repository_url": "https://github.com/Microeden/MyDotLib",
       "name": "MyDot",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.4",
@@ -192707,11 +192707,15 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-09-06T18:02:52.935Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-09-06T20:02:31.565Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-04T16:02:48.199Z",
-      "last_seen_sha": "018342a4a880",
+      "last_seen_sha": "36275f30a702",
       "author": "Microeden",
       "maintainer": "Microeden <info@microeden.io>",
       "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
@@ -192732,9 +192736,9 @@
         "SD",
         "WiFiNINA"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.6.zip",
-      "size": 47543,
-      "previous_version": "1.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.7.zip",
+      "size": 47806,
+      "previous_version": "1.0.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -248908,6 +248912,35 @@
       "download_url": "https://github.com/brigosx/SevenSeg4D"
     },
     {
+      "repository_name": "FsBotzTg/SevenSegCountdown",
+      "repository_url": "https://github.com/FsBotzTg/SevenSegCountdown",
+      "name": "SevenSegCountdown",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-06T20:02:31.565Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-06T20:02:31.565Z",
+      "last_seen_sha": "a437758bb827",
+      "author": "Firos Sha Muhammad <fsbotztg@gmail.com>",
+      "maintainer": "Firos Sha Muhammad <fsbotztg@gmail.com>",
+      "sentence": "Runs a countdown timer on a two-digit multiplexed 7-segment display.",
+      "paragraph": "Counts down from any value 0-99 to 0 on a common two-digit 7-segment display using pins 2-8 (A-G) for segments and pins 9-10 to select the active digit, then holds at 00.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FsBotzTg/SevenSegCountdown-1.0.0.zip",
+      "size": 5614,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-06T16:35:45Z"
+    },
+    {
       "repository_name": "GabyGold67/SevenSegDisplaysRTOSLib",
       "repository_url": "https://github.com/GabyGold67/SevenSegDisplaysRTOSLib",
       "name": "SevenSegDisplays",
@@ -294883,16 +294916,20 @@
       "repository_name": "klenov1900-lang/TM1637_6Easy",
       "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
       "name": "TM1637_6Easy",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-05T20:02:21.576Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-06T20:02:31.565Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-05T20:02:21.576Z",
-      "last_seen_sha": "f1ee23850545",
+      "last_seen_sha": "de285ed95c06",
       "author": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
       "maintainer": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
       "sentence": "High-performance library for 6-digit LED displays based on TM1637 driver.",
@@ -294901,8 +294938,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-1.0.0.zip",
-      "size": 7747,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-1.0.2.zip",
+      "size": 8781,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -319632,7 +319670,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9725,
+    "with_github_metadata": 9726,
     "total_dependencies": 5359
   }
 }

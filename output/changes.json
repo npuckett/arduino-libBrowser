@@ -1,6 +1,192 @@
 {
-  "since": "2026-09-07T17:02:23.187Z",
+  "since": "2026-09-07T18:03:14.082Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Alteriom/painlessMesh",
+        "repository_url": "https://github.com/Alteriom/painlessMesh",
+        "name": "Alteriom PainlessMesh",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.9.20",
+            "seen_at": "2026-04-30T08:24:18Z"
+          },
+          {
+            "version": "1.9.20",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.9.21",
+            "seen_at": "2026-08-04T02:59:22.399Z"
+          },
+          {
+            "version": "1.10.0",
+            "seen_at": "2026-08-13T14:25:57.482Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-07T18:03:14.082Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-04-30T08:24:18Z",
+        "last_seen_sha": "d0c969651f9e",
+        "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
+        "maintainer": "Alteriom",
+        "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
+        "paragraph": "painlessMesh is a user-friendly library for creating mesh networks with ESP8266 and ESP32 devices. This Alteriom fork includes additional packages for sensor data (SensorPackage), device commands (CommandPackage), and status monitoring (StatusPackage). It handles routing and network management automatically, so you can focus on your application. The library uses JSON-based messaging and syncs time across all nodes, making it ideal for coordinated behaviour like synchronized light displays or sensor networks reporting to a central node.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "TaskScheduler",
+          "PubSubClient"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.0.zip",
+        "size": 916089,
+        "previous_version": "1.10.0",
+        "github_stars": 9,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-28T07:28:11Z"
+      },
+      "old_version": "1.10.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "DigitalCodesign/MentorBit-1Rele",
+        "repository_url": "https://github.com/DigitalCodesign/MentorBit-1Rele",
+        "name": "MentorBit-1Rele",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-08-15T07:25:17Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-07T18:03:14.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-08-15T07:25:17Z",
+        "last_seen_sha": "e223fb53f7fe",
+        "author": "Digital Codesign",
+        "maintainer": "Digital Codesign",
+        "sentence": "Librería para Módulo MentorBit Relé de un Canal",
+        "paragraph": "Conjunto de valores y funciones para facilitar su uso y testeo",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_1Rele-1.0.1.zip",
+        "size": 302561,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-08-14T07:44:10Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "DigitalCodesign/MentorBit-DHT11",
+        "repository_url": "https://github.com/DigitalCodesign/MentorBit-DHT11",
+        "name": "MentorBit-DHT11",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2025-08-15T07:25:28Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-07T18:03:14.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-08-15T07:25:28Z",
+        "last_seen_sha": "ef2d65731c11",
+        "author": "Digital Codesign",
+        "maintainer": "Digital Codesign",
+        "sentence": "Librería para Módulo MentorBit de Sensor DHT11",
+        "paragraph": "Conjunto de valores y funciones para facilitar su uso y testeo",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DHT sensor library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_DHT11-1.0.2.zip",
+        "size": 245314,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-02-25T14:31:23Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "DigitalCodesign/MentorBit-LDR",
+        "repository_url": "https://github.com/DigitalCodesign/MentorBit-LDR",
+        "name": "MentorBit-LDR",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-08-15T07:25:33Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-07T18:03:14.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-08-15T07:25:33Z",
+        "last_seen_sha": "7cc982de1f75",
+        "author": "Digital Codesign",
+        "maintainer": "Digital Codesign",
+        "sentence": "Librería para Módulo MentorBit de LDR",
+        "paragraph": "Conjunto de valores y funciones para facilitar su uso y testeo",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_LDR-1.0.1.zip",
+        "size": 216896,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-08-14T07:55:13Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

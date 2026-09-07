@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-07T17:02:23.321Z",
+  "enhanced_at": "2026-09-07T18:03:14.197Z",
   "total_libraries": 9932,
-  "index_etag": "W/\"70b8bf56b5b0e5cdfc799a9370c7f2e2\"",
-  "index_last_modified": "Mon, 07 Sep 2026 16:59:12 GMT",
+  "index_etag": "W/\"5fb90c2278bea37eb0526f319e87676b\"",
+  "index_last_modified": "Mon, 07 Sep 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22228,7 +22228,7 @@
       "repository_name": "Alteriom/painlessMesh",
       "repository_url": "https://github.com/Alteriom/painlessMesh",
       "name": "Alteriom PainlessMesh",
-      "version": "1.10.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.9.20",
@@ -22245,11 +22245,15 @@
         {
           "version": "1.10.0",
           "seen_at": "2026-08-13T14:25:57.482Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-07T18:03:14.082Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-04-30T08:24:18Z",
-      "last_seen_sha": "05e7a63228bf",
+      "last_seen_sha": "d0c969651f9e",
       "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
       "maintainer": "Alteriom",
       "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
@@ -22261,11 +22265,12 @@
       ],
       "depends": [
         "ArduinoJson",
-        "TaskScheduler"
+        "TaskScheduler",
+        "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-1.10.0.zip",
-      "size": 814801,
-      "previous_version": "1.9.21",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.0.zip",
+      "size": 916089,
+      "previous_version": "1.10.0",
       "github_stars": 9,
       "github_forks": 4,
       "github_language": "C++",
@@ -175675,7 +175680,7 @@
       "repository_name": "DigitalCodesign/MentorBit-1Rele",
       "repository_url": "https://github.com/DigitalCodesign/MentorBit-1Rele",
       "name": "MentorBit-1Rele",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -175684,11 +175689,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-07T18:03:14.082Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-08-15T07:25:17Z",
-      "last_seen_sha": "ebfc1de522f1",
+      "last_seen_sha": "e223fb53f7fe",
       "author": "Digital Codesign",
       "maintainer": "Digital Codesign",
       "sentence": "Librería para Módulo MentorBit Relé de un Canal",
@@ -175697,8 +175706,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_1Rele-1.0.0.zip",
-      "size": 4379,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_1Rele-1.0.1.zip",
+      "size": 302561,
       "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 1,
@@ -175956,7 +175965,7 @@
       "repository_name": "DigitalCodesign/MentorBit-DHT11",
       "repository_url": "https://github.com/DigitalCodesign/MentorBit-DHT11",
       "name": "MentorBit-DHT11",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
@@ -175965,11 +175974,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-07T18:03:14.082Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-08-15T07:25:28Z",
-      "last_seen_sha": "c8359820abc4",
+      "last_seen_sha": "ef2d65731c11",
       "author": "Digital Codesign",
       "maintainer": "Digital Codesign",
       "sentence": "Librería para Módulo MentorBit de Sensor DHT11",
@@ -175981,8 +175994,8 @@
       "depends": [
         "DHT sensor library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_DHT11-1.0.1.zip",
-      "size": 5341,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_DHT11-1.0.2.zip",
+      "size": 245314,
       "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 1,
@@ -176166,7 +176179,7 @@
       "repository_name": "DigitalCodesign/MentorBit-LDR",
       "repository_url": "https://github.com/DigitalCodesign/MentorBit-LDR",
       "name": "MentorBit-LDR",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -176175,11 +176188,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-07T18:03:14.082Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-08-15T07:25:33Z",
-      "last_seen_sha": "b3300c16c83c",
+      "last_seen_sha": "7cc982de1f75",
       "author": "Digital Codesign",
       "maintainer": "Digital Codesign",
       "sentence": "Librería para Módulo MentorBit de LDR",
@@ -176188,8 +176205,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_LDR-1.0.0.zip",
-      "size": 5440,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_LDR-1.0.1.zip",
+      "size": 216896,
       "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
@@ -319797,6 +319814,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9728,
-    "total_dependencies": 5359
+    "total_dependencies": 5360
   }
 }

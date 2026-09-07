@@ -1,6 +1,54 @@
 {
-  "since": "2026-09-07T03:03:27.548Z",
+  "since": "2026-09-07T04:03:11.114Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "syntax1269/SNMP_Embedded",
+        "repository_url": "https://github.com/syntax1269/SNMP_Embedded",
+        "name": "SNMP_Embedded",
+        "version": "3.4.0",
+        "version_history": [
+          {
+            "version": "3.3.3",
+            "seen_at": "2026-09-05T06:03:46.971Z"
+          },
+          {
+            "version": "3.3.5",
+            "seen_at": "2026-09-05T22:02:05.225Z"
+          },
+          {
+            "version": "3.3.6",
+            "seen_at": "2026-09-06T02:03:40.935Z"
+          },
+          {
+            "version": "3.4.0",
+            "seen_at": "2026-09-07T04:03:11.114Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-05T06:03:46.971Z",
+        "last_seen_sha": "ee3daab7b46d",
+        "author": "syntax <yard_botch.6g@icloud.com>",
+        "maintainer": "syntax <yard_botch.6g@icloud.com>",
+        "sentence": "Memory-safe SNMPv2c agent with derived compile-time sizing and built-in system group.",
+        "paragraph": "A full SNMPv2c agent: GET/GETNEXT/GETBULK/SET, v1/v2c TRAP and INFORM. Varbind cap and pool size are derived from the packet budget and your handler count (no magic numbers); the memory arena is locked in at boot so long-running nodes never fragment. Stateless trap/inform sends, loud tooBig rejection instead of silent drops, CI-validated (arduino-lint, host Catch2 suite, ESP8266+ESP32 example matrix).",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/SNMP_Embedded-3.4.0.zip",
+        "size": 267831,
+        "previous_version": "3.3.6",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T02:57:48Z"
+      },
+      "old_version": "3.3.6",
+      "new_version": "3.4.0"
+    }
+  ],
   "removed_libraries": []
 }

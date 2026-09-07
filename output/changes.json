@@ -1,6 +1,162 @@
 {
-  "since": "2026-09-07T21:02:15.758Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-07T22:02:13.588Z",
+  "new_libraries": [
+    {
+      "repository_name": "franzbischoff/mpx-arduino",
+      "repository_url": "https://github.com/franzbischoff/mpx-arduino",
+      "name": "Mpx",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-07T22:02:13.588Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-07T22:02:13.588Z",
+      "last_seen_sha": "11f4cc393465",
+      "author": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "maintainer": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "sentence": "Streaming Matrix Profile and FLOSS time series analysis for embedded systems.",
+      "paragraph": "Processes time series data incrementally with a small memory footprint. Provides Matrix Profile motif discovery and FLOSS semantic segmentation for Arduino-compatible microcontrollers.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/franzbischoff/Mpx-1.0.1.zip",
+      "size": 381855,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T18:06:15Z"
+    },
+    {
+      "repository_name": "franzbischoff/mpx-arduino-cpp17",
+      "repository_url": "https://github.com/franzbischoff/mpx-arduino-cpp17",
+      "name": "MpxCpp17",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-07T22:02:13.588Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-07T22:02:13.588Z",
+      "last_seen_sha": "d48974796a9a",
+      "author": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "maintainer": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "sentence": "Streaming Matrix Profile and FLOSS analysis for modern Arduino boards.",
+      "paragraph": "Processes time series data incrementally with a small memory footprint. Provides Matrix Profile motif discovery and FLOSS semantic segmentation using C++17 standard-library facilities.",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "renesas_uno",
+        "mbed_nano",
+        "mbed_portenta",
+        "mbed_giga",
+        "rp2040"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/franzbischoff/MpxCpp17-1.0.0.zip",
+      "size": 382275,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T18:03:56Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "samar-01/SnappyXOShield",
+        "repository_url": "https://github.com/samar-01/SnappyXOShield",
+        "name": "SnappyXOShield",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-07T20:02:23.378Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-09-07T22:02:13.588Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-07T20:02:23.378Z",
+        "last_seen_sha": "ffcab73c1392",
+        "author": "Samar Singh",
+        "maintainer": "Samar Singh",
+        "sentence": "Motor control library for the SnappyXO Shield.",
+        "paragraph": "Provides simplified motor control for use with the SnappyXO Motor Shield.",
+        "category": "Device Control",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/samar-01/SnappyXOShield-0.1.1.zip",
+        "size": 16565,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-07T16:42:02Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "syntax1269/SNMP_Embedded",
+        "repository_url": "https://github.com/syntax1269/SNMP_Embedded",
+        "name": "SNMP_Embedded",
+        "version": "3.4.1",
+        "version_history": [
+          {
+            "version": "3.3.3",
+            "seen_at": "2026-09-05T06:03:46.971Z"
+          },
+          {
+            "version": "3.3.5",
+            "seen_at": "2026-09-05T22:02:05.225Z"
+          },
+          {
+            "version": "3.3.6",
+            "seen_at": "2026-09-06T02:03:40.935Z"
+          },
+          {
+            "version": "3.4.0",
+            "seen_at": "2026-09-07T04:03:11.114Z"
+          },
+          {
+            "version": "3.4.1",
+            "seen_at": "2026-09-07T22:02:13.588Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-09-05T06:03:46.971Z",
+        "last_seen_sha": "87b3116d7fe4",
+        "author": "syntax <yard_botch.6g@icloud.com>",
+        "maintainer": "syntax <yard_botch.6g@icloud.com>",
+        "sentence": "Memory-safe SNMPv2c agent with derived compile-time sizing and built-in system group.",
+        "paragraph": "A full SNMPv2c agent: GET/GETNEXT/GETBULK/SET, v1/v2c TRAP and INFORM. Varbind cap and pool size are derived from the packet budget and your handler count (no magic numbers); the memory arena is locked in at boot so long-running nodes never fragment. Stateless trap/inform sends, loud tooBig rejection instead of silent drops, CI-validated (arduino-lint, host Catch2 suite, ESP8266+ESP32 example matrix).",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/SNMP_Embedded-3.4.1.zip",
+        "size": 271409,
+        "previous_version": "3.4.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T02:57:48Z"
+      },
+      "old_version": "3.4.0",
+      "new_version": "3.4.1"
+    }
+  ],
   "removed_libraries": []
 }

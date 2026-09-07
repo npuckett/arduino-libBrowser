@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-07T21:02:15.915Z",
-  "total_libraries": 9933,
-  "index_etag": "W/\"058288c7459f58d45df089bd54cf1e7c\"",
-  "index_last_modified": "Mon, 07 Sep 2026 20:59:12 GMT",
+  "enhanced_at": "2026-09-07T22:02:16.183Z",
+  "total_libraries": 9935,
+  "index_etag": "W/\"98764cb96c7ad1c32b14b0739e051893\"",
+  "index_last_modified": "Mon, 07 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -186560,6 +186560,36 @@
       "download_url": "https://github.com/wollewald/MPU9250_WE"
     },
     {
+      "repository_name": "franzbischoff/mpx-arduino",
+      "repository_url": "https://github.com/franzbischoff/mpx-arduino",
+      "name": "Mpx",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-07T22:02:13.588Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-07T22:02:13.588Z",
+      "last_seen_sha": "11f4cc393465",
+      "author": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "maintainer": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "sentence": "Streaming Matrix Profile and FLOSS time series analysis for embedded systems.",
+      "paragraph": "Processes time series data incrementally with a small memory footprint. Provides Matrix Profile motif discovery and FLOSS semantic segmentation for Arduino-compatible microcontrollers.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/franzbischoff/Mpx-1.0.1.zip",
+      "size": 381855,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T18:06:15Z"
+    },
+    {
       "repository_name": "jamesy0ung/MPXA6115A",
       "repository_url": "https://github.com/jamesy0ung/MPXA6115A",
       "name": "MPXA6115A",
@@ -186586,6 +186616,41 @@
       "github_language": "C++",
       "github_updated_at": "2025-06-10T12:13:24Z",
       "download_url": "https://github.com/jamesy0ung/MPXA6115A"
+    },
+    {
+      "repository_name": "franzbischoff/mpx-arduino-cpp17",
+      "repository_url": "https://github.com/franzbischoff/mpx-arduino-cpp17",
+      "name": "MpxCpp17",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-07T22:02:13.588Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-07T22:02:13.588Z",
+      "last_seen_sha": "d48974796a9a",
+      "author": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "maintainer": "Francisco Bischoff <franzbischoff@gmail.com>",
+      "sentence": "Streaming Matrix Profile and FLOSS analysis for modern Arduino boards.",
+      "paragraph": "Processes time series data incrementally with a small memory footprint. Provides Matrix Profile motif discovery and FLOSS semantic segmentation using C++17 standard-library facilities.",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "renesas_uno",
+        "mbed_nano",
+        "mbed_portenta",
+        "mbed_giga",
+        "rp2040"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/franzbischoff/MpxCpp17-1.0.0.zip",
+      "size": 382275,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T18:03:56Z"
     },
     {
       "repository_name": "jamesy0ung/MPXHZ6116A",
@@ -259164,26 +259229,31 @@
       "repository_name": "samar-01/SnappyXOShield",
       "repository_url": "https://github.com/samar-01/SnappyXOShield",
       "name": "SnappyXOShield",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-07T20:02:23.378Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-07T22:02:13.588Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-07T20:02:23.378Z",
-      "last_seen_sha": "a80df216d885",
-      "author": "Samar Singh <singhsamar10101@gmail.com>",
-      "maintainer": "Samar Singh <singhsamar10101@gmail.com>",
+      "last_seen_sha": "ffcab73c1392",
+      "author": "Samar Singh",
+      "maintainer": "Samar Singh",
       "sentence": "Motor control library for the SnappyXO Shield.",
       "paragraph": "Provides simplified motor control for use with the SnappyXO Motor Shield.",
       "category": "Device Control",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/samar-01/SnappyXOShield-0.1.0.zip",
-      "size": 16653,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/samar-01/SnappyXOShield-0.1.1.zip",
+      "size": 16565,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -259333,7 +259403,7 @@
       "repository_name": "syntax1269/SNMP_Embedded",
       "repository_url": "https://github.com/syntax1269/SNMP_Embedded",
       "name": "SNMP_Embedded",
-      "version": "3.4.0",
+      "version": "3.4.1",
       "version_history": [
         {
           "version": "3.3.3",
@@ -259350,11 +259420,15 @@
         {
           "version": "3.4.0",
           "seen_at": "2026-09-07T04:03:11.114Z"
+        },
+        {
+          "version": "3.4.1",
+          "seen_at": "2026-09-07T22:02:13.588Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-09-05T06:03:46.971Z",
-      "last_seen_sha": "ee3daab7b46d",
+      "last_seen_sha": "87b3116d7fe4",
       "author": "syntax <yard_botch.6g@icloud.com>",
       "maintainer": "syntax <yard_botch.6g@icloud.com>",
       "sentence": "Memory-safe SNMPv2c agent with derived compile-time sizing and built-in system group.",
@@ -259364,9 +259438,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/SNMP_Embedded-3.4.0.zip",
-      "size": 267831,
-      "previous_version": "3.3.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/syntax1269/SNMP_Embedded-3.4.1.zip",
+      "size": 271409,
+      "previous_version": "3.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -319842,7 +319916,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9729,
+    "with_github_metadata": 9731,
     "total_dependencies": 5360
   }
 }

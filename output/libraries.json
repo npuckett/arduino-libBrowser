@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-07T07:10:44.748Z",
-  "total_libraries": 9931,
-  "index_etag": "W/\"0708734d517cc7f612f65d614e0db853\"",
-  "index_last_modified": "Mon, 07 Sep 2026 06:59:12 GMT",
+  "enhanced_at": "2026-09-07T08:04:20.073Z",
+  "total_libraries": 9932,
+  "index_etag": "W/\"586651f6b15346bb708699056bc01988\"",
+  "index_last_modified": "Mon, 07 Sep 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -68611,7 +68611,7 @@
       "repository_name": "RobTillaart/DAC53001",
       "repository_url": "https://github.com/RobTillaart/DAC53001",
       "name": "DAC53001",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -68620,11 +68620,15 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-09-07T08:04:18.526Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:27:08Z",
-      "last_seen_sha": "7bda37e94f72",
+      "last_seen_sha": "ad3694a6ac40",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for I2C DAC53001 10 bit DAC.",
@@ -68633,9 +68637,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DAC53001-0.1.1.zip",
-      "size": 12758,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DAC53001-0.2.0.zip",
+      "size": 14742,
+      "previous_version": "0.1.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -81297,6 +81301,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-04-21T02:07:19Z",
       "download_url": "https://diyables.io/motor-shield"
+    },
+    {
+      "repository_name": "DIYables/DIYables_DS18B20",
+      "repository_url": "https://github.com/DIYables/DIYables_DS18B20",
+      "name": "DIYables_DS18B20",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-07T08:04:18.526Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-07T08:04:18.526Z",
+      "last_seen_sha": "aef3911748c6",
+      "author": "DIYables.io",
+      "maintainer": "DIYables.io",
+      "sentence": "Non-blocking library for the DS18B20 1-Wire temperature sensor",
+      "paragraph": "Reads the DS18B20 temperature sensor without blocking the sketch. The 750 ms conversion and the 1-Wire transfer are both run as a state machine, so a call of loop() never takes longer than about 90 microseconds, and the library reports that figure at runtime with getMaxLoopTime(). Supports several sensors on one pin, ROM address search, 9 to 12 bit resolution, CRC checking, and parasite power. Uses only standard Arduino APIs and has no dependencies, so it works on Arduino, ESP32, ESP8266 and other platforms.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DIYables/DIYables_DS18B20-1.0.0.zip",
+      "size": 26125,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T04:16:29Z"
     },
     {
       "repository_name": "DIYables/DIYables_IRcontroller",
@@ -142879,7 +142912,7 @@
       "repository_name": "iskakfatoni/IskakINO",
       "repository_url": "https://github.com/iskakfatoni/IskakINO",
       "name": "IskakINO",
-      "version": "1.1.0",
+      "version": "1.1.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -142888,24 +142921,28 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-29T04:02:39.099Z"
+        },
+        {
+          "version": "1.1.5",
+          "seen_at": "2026-09-07T08:04:18.526Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-19T06:05:47.239Z",
-      "last_seen_sha": "0670105e6fd2",
+      "last_seen_sha": "6381264f6107",
       "author": "Iskak Fatoni",
       "maintainer": "Iskak Fatoni",
-      "sentence": "Unified IskakINO ecosystem: fast GPIO, hybrid storage, LCD/OLED, WiFi portal, NTP, MQTT, Telegram, RTC, sensors suite, JSON parser/builder, BLE, DFPlayer voice, and Basic I/O Shield in one library.",
-      "paragraph": "Penggabungan seluruh ekosistem IskakINO menjadi satu library dengan shared core. Modul universal (ArduFast, Storage, LCD, OLED, Button, Relay, Filter, RTC, Sensors Suite, JSON, SmartVoice, Buzzer) bekerja di AVR, ESP32, dan ESP8266; modul khusus WiFi (WifiPortal, FastNTP, MQTT, Telegram) aktif di ESP32/ESP8266; modul Cam dan BLE aktif khusus di ESP32; modul BasicIOShield aktif khusus di board AVR.",
+      "sentence": "Unified IskakINO ecosystem: fast GPIO, hybrid storage, LCD/OLED, WiFi portal, NTP, MQTT, Telegram, WebSockets, PrayerTimes, RTC, sensors suite, JSON, BLE, TaskCore, DFPlayer voice, and Basic I/O Shield in one library.",
+      "paragraph": "Penggabungan seluruh ekosistem IskakINO menjadi satu library dengan shared core. Modul universal (ArduFast, Storage, LCD, OLED, Button, Relay, Filter, RTC, Sensors Suite, JSON, PrayerTimes, SmartVoice, Buzzer) bekerja di AVR, ESP32, dan ESP8266; modul khusus WiFi (WifiPortal, FastNTP, MQTT, Telegram, WebSockets) aktif di ESP32/ESP8266; modul Cam, BLE, dan TaskCore aktif khusus di ESP32; modul BasicIOShield aktif khusus di board AVR.",
       "category": "Other",
       "architectures": [
         "avr",
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO-1.1.0.zip",
-      "size": 261700,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iskakfatoni/IskakINO-1.1.5.zip",
+      "size": 21127626,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -319738,7 +319775,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9727,
+    "with_github_metadata": 9728,
     "total_dependencies": 5359
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-08T09:03:25.359Z",
-  "total_libraries": 9939,
-  "index_etag": "W/\"b8ea4c89a90066490a4e646dd79c09f7\"",
-  "index_last_modified": "Tue, 08 Sep 2026 08:59:12 GMT",
+  "enhanced_at": "2026-09-08T10:02:44.173Z",
+  "total_libraries": 9940,
+  "index_etag": "W/\"1977f6f8948ef4aad994159aceaccc46\"",
+  "index_last_modified": "Tue, 08 Sep 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -176603,7 +176603,7 @@
       "repository_name": "DigitalCodesign/MentorBit-RGB",
       "repository_url": "https://github.com/DigitalCodesign/MentorBit-RGB",
       "name": "MentorBit-RGB",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
@@ -176612,11 +176612,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-09-08T10:02:42.704Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-08-15T07:25:52Z",
-      "last_seen_sha": "47141c7507bf",
+      "last_seen_sha": "5ec09ed29383",
       "author": "Digital Codesign",
       "maintainer": "Digital Codesign",
       "sentence": "Librería para Módulo MentorBit de LED RGB",
@@ -176628,8 +176632,8 @@
       "depends": [
         "Adafruit NeoPixel"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_RGB-1.0.2.zip",
-      "size": 5579,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_RGB-1.0.3.zip",
+      "size": 232961,
       "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 1,
@@ -293608,6 +293612,35 @@
       "github_updated_at": "2026-05-06T14:12:52Z"
     },
     {
+      "repository_name": "aschet/tinyolfarve",
+      "repository_url": "https://github.com/aschet/tinyolfarve",
+      "name": "tinyolfarve",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-08T10:02:42.704Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-08T10:02:42.704Z",
+      "last_seen_sha": "5e9b5523b2e4",
+      "author": "Thomas Ascher <thomas.ascher@gmx.at>",
+      "maintainer": "Thomas Ascher <thomas.ascher@gmx.at>",
+      "sentence": "sRGB rendering of SRM/EBC beer color values.",
+      "paragraph": "A lightweight port of cppolfarve.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aschet/tinyolfarve-1.0.2.zip",
+      "size": 19440,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T21:56:49Z"
+    },
+    {
       "repository_name": "UnexpectedMaker/tinypico-helper",
       "repository_url": "https://github.com/UnexpectedMaker/tinypico-helper",
       "name": "TinyPICO Helper Library",
@@ -320070,7 +320103,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9735,
+    "with_github_metadata": 9736,
     "total_dependencies": 5361
   }
 }

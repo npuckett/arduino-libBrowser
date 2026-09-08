@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-08T21:02:10.134Z",
+  "enhanced_at": "2026-09-08T22:02:37.176Z",
   "total_libraries": 9941,
-  "index_etag": "W/\"7eb59f25eb6f9816d6a2a73d969341bc\"",
-  "index_last_modified": "Tue, 08 Sep 2026 20:59:12 GMT",
+  "index_etag": "W/\"0143c9b954853372b55cfb309b3e8d93\"",
+  "index_last_modified": "Tue, 08 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -37483,7 +37483,7 @@
       "repository_name": "atsign-foundation/at_client_arduino",
       "repository_url": "https://github.com/atsign-foundation/at_client_arduino",
       "name": "at_client",
-      "version": "0.1.6",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -37504,11 +37504,15 @@
         {
           "version": "0.1.6",
           "seen_at": "2026-08-28T05:38:29.956Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-08T22:02:37.048Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "4824b9da0aab",
+      "last_seen_sha": "bcc6e6495bb1",
       "author": "Atsign Foundation",
       "maintainer": "Atsign Foundation <info@atsign.com>",
       "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
@@ -37517,9 +37521,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-0.1.6.zip",
-      "size": 261073,
-      "previous_version": "0.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-1.0.0.zip",
+      "size": 265611,
+      "previous_version": "0.1.6",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C",
@@ -101004,7 +101008,7 @@
       "repository_name": "matthias-bs/esp32-shelly-ble-rpc",
       "repository_url": "https://github.com/matthias-bs/esp32-shelly-ble-rpc",
       "name": "esp32-shelly-ble-rpc",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -101013,11 +101017,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-07-24T16:30:04.549Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-09-08T22:02:37.048Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-19T00:19:26.433Z",
-      "last_seen_sha": "09ed06be955e",
+      "last_seen_sha": "3691dad32f15",
       "author": "matthias-bs",
       "maintainer": "matthias-bs",
       "sentence": "Controls Shelly Gen2+ devices via JSON-RPC over BLE from an ESP32.",
@@ -101029,9 +101037,9 @@
       "depends": [
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_shelly_ble_rpc-1.1.0.zip",
-      "size": 36556,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_shelly_ble_rpc-1.1.2.zip",
+      "size": 36681,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -209175,7 +209183,7 @@
       "repository_name": "Suraj151/pdi-framework",
       "repository_url": "https://github.com/Suraj151/pdi-framework",
       "name": "pdi-framework",
-      "version": "1.3.5",
+      "version": "1.3.6",
       "version_history": [
         {
           "version": "1.1.9",
@@ -209264,24 +209272,28 @@
         {
           "version": "1.3.5",
           "seen_at": "2026-09-07T00:07:15.601Z"
+        },
+        {
+          "version": "1.3.6",
+          "seen_at": "2026-09-08T22:02:37.048Z"
         }
       ],
-      "release_count": 22,
+      "release_count": 23,
       "first_seen_at": "2026-06-12T08:59:21Z",
-      "last_seen_sha": "757a28d76764",
+      "last_seen_sha": "ff43015addbf",
       "author": "Suraj I.",
       "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
-      "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Commandline terminal and much more.",
-      "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+      "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Time, Crontab, Commandline terminal and much more.",
+      "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, Time, Crontab, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
       "category": "Other",
       "architectures": [
         "avr",
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.5.zip",
-      "size": 9370356,
-      "previous_version": "1.3.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.6.zip",
+      "size": 9391418,
+      "previous_version": "1.3.5",
       "github_stars": 81,
       "github_forks": 24,
       "github_language": "C",

@@ -1,6 +1,230 @@
 {
-  "since": "2026-09-08T21:02:10.012Z",
+  "since": "2026-09-08T22:02:37.048Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "atsign-foundation/at_client_arduino",
+        "repository_url": "https://github.com/atsign-foundation/at_client_arduino",
+        "name": "at_client",
+        "version": "1.0.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-28T20:24:04.519Z"
+          },
+          {
+            "version": "0.1.3",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "0.1.5",
+            "seen_at": "2026-08-28T02:33:21.165Z"
+          },
+          {
+            "version": "0.1.6",
+            "seen_at": "2026-08-28T05:38:29.956Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-08T22:02:37.048Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "bcc6e6495bb1",
+        "author": "Atsign Foundation",
+        "maintainer": "Atsign Foundation <info@atsign.com>",
+        "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
+        "paragraph": "Provides atchops (cryptographic operations), atclient (atProtocol client, monitor, notifications), atauth (atsign activation/onboarding/enrollment), atlogger, and cJSON for building atProtocol applications on ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-1.0.0.zip",
+        "size": 265611,
+        "previous_version": "0.1.6",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-06-22T01:53:01Z"
+      },
+      "old_version": "0.1.6",
+      "new_version": "1.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "matthias-bs/esp32-shelly-ble-rpc",
+        "repository_url": "https://github.com/matthias-bs/esp32-shelly-ble-rpc",
+        "name": "esp32-shelly-ble-rpc",
+        "version": "1.1.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-19T00:19:26.433Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-09-08T22:02:37.048Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-07-19T00:19:26.433Z",
+        "last_seen_sha": "3691dad32f15",
+        "author": "matthias-bs",
+        "maintainer": "matthias-bs",
+        "sentence": "Controls Shelly Gen2+ devices via JSON-RPC over BLE from an ESP32.",
+        "paragraph": "Implements the mOS (mongoose-os) BLE RPC protocol. Provides a clean Arduino API for scanning and connecting to Shelly devices, sending RPC calls, and using convenience wrappers for Switch, Cover, Temperature, Humidity and Input components. Includes examples with fixed address, scan-and-connect, and WiFi AP configuration.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_shelly_ble_rpc-1.1.2.zip",
+        "size": 36681,
+        "previous_version": "1.1.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-18T21:28:55Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.3.6",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          },
+          {
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.1.12",
+            "seen_at": "2026-07-16T22:19:06.934Z"
+          },
+          {
+            "version": "1.1.13",
+            "seen_at": "2026-07-24T22:21:05.521Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-26T14:29:22.694Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-29T22:17:55.080Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-31T00:22:09.602Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-08-02T00:21:18.637Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-08-03T22:20:21.703Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-08-07T01:24:57.423Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-08-12T22:13:18.388Z"
+          },
+          {
+            "version": "1.2.8",
+            "seen_at": "2026-08-15T12:02:43.039Z"
+          },
+          {
+            "version": "1.2.9",
+            "seen_at": "2026-08-20T00:04:45.325Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-08-22T06:04:12.369Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-08-23T10:03:28.391Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-09-02T00:06:54.309Z"
+          },
+          {
+            "version": "1.3.3",
+            "seen_at": "2026-09-04T00:06:30.780Z"
+          },
+          {
+            "version": "1.3.4",
+            "seen_at": "2026-09-04T22:02:27.678Z"
+          },
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-09-07T00:07:15.601Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-09-08T22:02:37.048Z"
+          }
+        ],
+        "release_count": 23,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "ff43015addbf",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Time, Crontab, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, Time, Crontab, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.6.zip",
+        "size": 9391418,
+        "previous_version": "1.3.5",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.3.5",
+      "new_version": "1.3.6"
+    }
+  ],
   "removed_libraries": []
 }

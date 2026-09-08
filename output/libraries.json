@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-08T11:02:28.889Z",
-  "total_libraries": 9940,
-  "index_etag": "W/\"1977f6f8948ef4aad994159aceaccc46\"",
-  "index_last_modified": "Tue, 08 Sep 2026 10:59:12 GMT",
+  "enhanced_at": "2026-09-08T12:04:06.659Z",
+  "total_libraries": 9941,
+  "index_etag": "W/\"cf578daa65c0f270982ea402239c0721\"",
+  "index_last_modified": "Tue, 08 Sep 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -176323,7 +176323,7 @@
       "repository_name": "DigitalCodesign/MentorBit-Library",
       "repository_url": "https://github.com/DigitalCodesign/MentorBit-Library",
       "name": "MentorBit-Library",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
@@ -176332,11 +176332,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-09-08T12:04:05.082Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-23T07:42:56Z",
-      "last_seen_sha": "89a8c5719913",
+      "last_seen_sha": "bcae812b4664",
       "author": "Digital Codesign",
       "maintainer": "Digital Codesign",
       "sentence": "Librería para MentorBit",
@@ -176353,8 +176357,8 @@
         "SD",
         "Servo"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_Library-1.1.0.zip",
-      "size": 51419,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalCodesign/MentorBit_Library-1.1.1.zip",
+      "size": 52206,
       "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
@@ -223261,6 +223265,35 @@
       "github_language": "C",
       "github_updated_at": "2022-01-31T06:45:53Z",
       "download_url": "https://www.playingwithfusion.com/productview.php?pdid=122"
+    },
+    {
+      "repository_name": "panjingwei1945/PWM_Pulse",
+      "repository_url": "https://github.com/panjingwei1945/PWM_Pulse",
+      "name": "PWM_Pulse",
+      "version": "0.3.2",
+      "version_history": [
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-09-08T12:04:05.082Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-08T12:04:05.082Z",
+      "last_seen_sha": "a7476603978f",
+      "author": "Jingwei Pan",
+      "maintainer": "Jingwei Pan <jwpan@ion.ac.cn>",
+      "sentence": "Three-channel PWM-modulated pulse generation for Arduino Mega 2560.",
+      "paragraph": "xulab library for PWM-modulated pulse control for experiments. Uses Timer4 for PWM on D8, D7 and D6 and Timer1, Timer3 and Timer5 for independent millisecond pulse timing. Supports pulse trains, constant output, pre-trigger delays and end-of-output ramp down. Requires ATmega2560 at 16 MHz; other AVR boards are not supported.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/panjingwei1945/PWM_Pulse-0.3.2.zip",
+      "size": 14504,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-08T08:44:52Z"
     },
     {
       "repository_name": "Bina-Lee/PWM2motor_BNL",
@@ -320103,7 +320136,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9736,
+    "with_github_metadata": 9737,
     "total_dependencies": 5361
   }
 }

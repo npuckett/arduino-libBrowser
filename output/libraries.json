@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-08T01:15:11.567Z",
-  "total_libraries": 9936,
-  "index_etag": "W/\"ccb96c543f184974e33a6951c83544e4\"",
-  "index_last_modified": "Tue, 08 Sep 2026 00:59:12 GMT",
+  "enhanced_at": "2026-09-08T02:03:50.507Z",
+  "total_libraries": 9938,
+  "index_etag": "W/\"1eb316aaabe29e587bf8bbcf253f683d\"",
+  "index_last_modified": "Tue, 08 Sep 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23223,7 +23223,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.163",
+      "version": "1.2.164",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23600,11 +23600,15 @@
         {
           "version": "1.2.163",
           "seen_at": "2026-08-31T04:03:26.874Z"
+        },
+        {
+          "version": "1.2.164",
+          "seen_at": "2026-09-08T02:03:47.769Z"
         }
       ],
-      "release_count": 94,
+      "release_count": 95,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "42d5fec9aec2",
+      "last_seen_sha": "71c455c41dd7",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23625,9 +23629,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.163.zip",
-      "size": 44560528,
-      "previous_version": "1.2.162",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.164.zip",
+      "size": 44560929,
+      "previous_version": "1.2.163",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -73662,6 +73666,34 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-06-17T22:44:44Z"
+    },
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_interface_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library",
+      "name": "DevLab_Interface",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-08T02:03:47.769Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-08T02:03:47.769Z",
+      "last_seen_sha": "288d7a5d568e",
+      "author": "UNIT Electronics",
+      "maintainer": "Jonathan Mejorado Lopez",
+      "sentence": "Arduino library interface for DevLab Sensors and external sensors, through I2C, SPI and other communication protocols.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.0.0.zip",
+      "size": 14905,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T22:13:35Z"
     },
     {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_joystickcontroller_library",
@@ -304091,6 +304123,38 @@
       "download_url": "https://github.com/plageoj/urlencode"
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_rp2_dvi_hstx_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_rp2_dvi_hstx_library",
+      "name": "URP2_DVI_HSTX",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-08T02:03:47.769Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-08T02:03:47.769Z",
+      "last_seen_sha": "b7bc4a638a42",
+      "author": "UNIT Electronics",
+      "maintainer": "Cesar Bautista <ventas@uelectronics.com>, Jonathan Mejorado",
+      "sentence": "Arduino library for RP2350 DVI output via HSTX",
+      "paragraph": "DVI/HDMI output library for RP2350 boards using HSTX peripheral. GFX-compatible 16-bit, 8-bit palette, and text modes.",
+      "category": "Display",
+      "architectures": [
+        "rp2040"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/URP2_DVI_HSTX-1.0.1.zip",
+      "size": 1010780,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-07T22:39:17Z"
+    },
+    {
       "repository_name": "Naguissa/uRTCLib",
       "repository_url": "https://github.com/Naguissa/uRTCLib",
       "name": "uRTCLib",
@@ -319953,7 +320017,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9732,
-    "total_dependencies": 5360
+    "with_github_metadata": 9734,
+    "total_dependencies": 5361
   }
 }

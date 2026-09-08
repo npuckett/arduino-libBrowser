@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-07T23:02:53.647Z",
-  "total_libraries": 9935,
-  "index_etag": "W/\"98764cb96c7ad1c32b14b0739e051893\"",
-  "index_last_modified": "Mon, 07 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-08T00:06:48.251Z",
+  "total_libraries": 9936,
+  "index_etag": "W/\"ccb96c543f184974e33a6951c83544e4\"",
+  "index_last_modified": "Mon, 07 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22228,7 +22228,7 @@
       "repository_name": "Alteriom/painlessMesh",
       "repository_url": "https://github.com/Alteriom/painlessMesh",
       "name": "Alteriom PainlessMesh",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.9.20",
@@ -22249,11 +22249,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-07T18:03:14.082Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-09-08T00:06:46.855Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-04-30T08:24:18Z",
-      "last_seen_sha": "d0c969651f9e",
+      "last_seen_sha": "ebda0ed8e917",
       "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
       "maintainer": "Alteriom",
       "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
@@ -22268,9 +22272,9 @@
         "TaskScheduler",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.0.zip",
-      "size": 916089,
-      "previous_version": "1.10.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.1.zip",
+      "size": 917753,
+      "previous_version": "2.0.0",
       "github_stars": 9,
       "github_forks": 4,
       "github_language": "C++",
@@ -92573,6 +92577,35 @@
         "BasicTag"
       ],
       "download_url": "https://github.com/mkeras/EmbeddedSparkplugNode"
+    },
+    {
+      "repository_name": "ristllin/EmbeddedTemporal",
+      "repository_url": "https://github.com/ristllin/EmbeddedTemporal",
+      "name": "EmbeddedTemporal",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-08T00:06:46.855Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-08T00:06:46.855Z",
+      "last_seen_sha": "8a72200fb3bf",
+      "author": "Roy Darnell",
+      "maintainer": "Roy Darnell <contact@cumulo-nimbus.ai>",
+      "sentence": "Run a Mistral Workflows / Temporal activity worker on an ESP32.",
+      "paragraph": "The ESP32 registers as a worker, long-polls for activity tasks over gRPC/TLS (HTTP/2 via bundled nghttp2, protobuf via bundled nanopb), runs your handler, and reports the result. No cloud SDK, no host in the loop. Requires the ESP32 Arduino core 3.x (Arduino IDE: esp32 boards package 3.0.0 or newer).",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ristllin/EmbeddedTemporal-0.1.1.zip",
+      "size": 309740,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-07T20:23:54Z"
     },
     {
       "repository_name": "boeserfrosch/EmbeddedTerminal",
@@ -289173,7 +289206,7 @@
       "repository_name": "theengs/decoder",
       "repository_url": "https://github.com/theengs/decoder",
       "name": "TheengsDecoder",
-      "version": "2.4.0",
+      "version": "2.4.5",
       "version_history": [
         {
           "version": "2.2.0",
@@ -289182,11 +289215,15 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-09-02T18:03:13.158Z"
+        },
+        {
+          "version": "2.4.5",
+          "seen_at": "2026-09-08T00:06:46.855Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-29T09:11:48Z",
-      "last_seen_sha": "0842367687c9",
+      "last_seen_sha": "3a26fda82de7",
       "author": "Florian Robert, Ryan Powell",
       "maintainer": "Florian Robert",
       "sentence": "A simple, efficient, portable and lightweight library for Internet of Things messages decoding.",
@@ -289195,9 +289232,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.4.0.zip",
-      "size": 4155038,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.4.5.zip",
+      "size": 4155035,
+      "previous_version": "2.4.0",
       "github_stars": 202,
       "github_forks": 66,
       "github_language": "C",
@@ -319916,7 +319953,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9731,
+    "with_github_metadata": 9732,
     "total_dependencies": 5360
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-08T13:02:41.867Z",
+  "enhanced_at": "2026-09-08T14:03:07.940Z",
   "total_libraries": 9941,
-  "index_etag": "W/\"cf578daa65c0f270982ea402239c0721\"",
-  "index_last_modified": "Tue, 08 Sep 2026 12:59:12 GMT",
+  "index_etag": "W/\"5008c87dbce407ea9a5400f061a9c7ed\"",
+  "index_last_modified": "Tue, 08 Sep 2026 13:59:13 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -26435,16 +26435,20 @@
       "repository_name": "muchaste/Ardoxy",
       "repository_url": "https://github.com/muchaste/Ardoxy",
       "name": "Ardoxy",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-03-06T07:22:30Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-08T14:03:07.779Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-06T07:22:30Z",
-      "last_seen_sha": "ddf3de3750c0",
+      "last_seen_sha": "970c782e2e1f",
       "author": "Stefan Mucha stefan.mucha@posteo.de",
       "maintainer": "Stefan Mucha stefan.mucha@posteo.de",
       "sentence": "Arduino library for interfacing with PyroScience FireSting oxygen meters.",
@@ -26453,11 +26457,16 @@
       "architectures": [
         "*"
       ],
+      "depends": [
+        "PID_v1"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/muchaste/Ardoxy-2.0.0.zip",
+      "size": 11668500,
+      "previous_version": "1.0.1",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "Python",
-      "github_updated_at": "2026-03-05T15:40:58Z",
-      "download_url": "https://github.com/muchaste/Ardoxy"
+      "github_updated_at": "2026-03-05T15:40:58Z"
     },
     {
       "repository_name": "sleepnow2/ArdRTOS",
@@ -38969,16 +38978,20 @@
       "repository_name": "DampflokHD/ATTinySerial",
       "repository_url": "https://github.com/DampflokHD/ATTinySerial",
       "name": "ATTinySerial",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-08T08:03:27.040Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-09-08T14:03:07.779Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-08T08:03:27.040Z",
-      "last_seen_sha": "856d50ee8562",
+      "last_seen_sha": "6b0591f7a676",
       "author": "DampflokHD",
       "maintainer": "DampflokHD",
       "sentence": "An ultra-minimalist, high-performance software UART TX library for AVR ATtiny microcontrollers with zero timer dependency.",
@@ -38987,8 +39000,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DampflokHD/ATTinySerial-1.0.0.zip",
-      "size": 12278,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DampflokHD/ATTinySerial-1.0.3.zip",
+      "size": 70331,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -106857,7 +106871,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.7.9",
+      "version": "2.8.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -106954,11 +106968,15 @@
         {
           "version": "2.7.9",
           "seen_at": "2026-08-21T04:12:20.166Z"
+        },
+        {
+          "version": "2.8.0",
+          "seen_at": "2026-09-08T14:03:07.779Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "23683c9436d5",
+      "last_seen_sha": "33e18835b656",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -106967,9 +106985,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.7.9.zip",
-      "size": 1303257,
-      "previous_version": "2.7.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.8.0.zip",
+      "size": 1326648,
+      "previous_version": "2.7.9",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -320137,6 +320155,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9737,
-    "total_dependencies": 5361
+    "total_dependencies": 5362
   }
 }

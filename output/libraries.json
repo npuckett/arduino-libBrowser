@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-09T15:02:29.835Z",
-  "total_libraries": 9943,
-  "index_etag": "W/\"5f2a6f5a1ba386d810b208807e81a720\"",
-  "index_last_modified": "Wed, 09 Sep 2026 14:59:12 GMT",
+  "enhanced_at": "2026-09-09T16:02:40.523Z",
+  "total_libraries": 9944,
+  "index_etag": "W/\"acd56f0f83c06b6913e28984d61ba568\"",
+  "index_last_modified": "Wed, 09 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -29665,7 +29665,7 @@
       "repository_name": "arduino-libraries/Arduino_RPCLite",
       "repository_url": "https://github.com/arduino-libraries/Arduino_RPCLite",
       "name": "Arduino_RPClite",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.2.1",
@@ -29674,11 +29674,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-09-09T16:02:39.034Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:03:46Z",
-      "last_seen_sha": "a40766149600",
+      "last_seen_sha": "9ba6ad61514d",
       "author": "Arduino, Lucio Rossi (eigen-value)",
       "maintainer": "Arduino, Lucio Rossi (eigen-value)",
       "sentence": "A MessagePack RPC library for Arduino",
@@ -29690,9 +29694,9 @@
       "depends": [
         "MsgPack"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RPClite-0.3.0.zip",
-      "size": 47760,
-      "previous_version": "0.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RPClite-0.3.1.zip",
+      "size": 47752,
+      "previous_version": "0.3.0",
       "github_stars": 6,
       "github_forks": 4,
       "github_language": "C++",
@@ -144854,6 +144858,61 @@
       "github_updated_at": "2025-12-08T10:28:46Z"
     },
     {
+      "repository_name": "joy-it/JoyPi_Advanced_Nano-ESP32",
+      "repository_url": "https://github.com/joy-it/JoyPi_Advanced_Nano-ESP32",
+      "name": "JoyPi_Advanced_Nano-ESP32",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-09T16:02:39.034Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-09T16:02:39.034Z",
+      "last_seen_sha": "c807cedfa3cb",
+      "author": "Joy-IT <support@joy-it.de>",
+      "maintainer": "Joy-IT <support@joy-it.de>",
+      "sentence": "This library is a collection for the Arduino for two modules on the Joy-Pi Advanced. See [here](https://www.joy-pi.net) for more information.",
+      "paragraph": "It includes some libraries for the Advanced. All other used libraries for the Advanced are set as dependency.",
+      "category": "Sensors",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "depends": [
+        "MFRC522",
+        "Keypad",
+        "OneWire",
+        "Servo",
+        "VEML6040",
+        "Adafruit MPR121",
+        "Adafruit BusIO",
+        "DHT sensor library",
+        "hd44780",
+        "Adafruit GFX Library",
+        "Adafruit LED Backpack Library",
+        "IRremote",
+        "Adafruit SSD1306",
+        "Adafruit ST7735 and ST7789 Library",
+        "RTCDS1307",
+        "MS5xxx",
+        "ESP32Servo",
+        "PinChangeInterrupt",
+        "SSD1306Ascii",
+        "Adafruit NeoPixel",
+        "Adafruit Unified Sensor",
+        "Adafruit seesaw Library",
+        "SD"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joy-it/JoyPi_Advanced_Nano_ESP32-1.0.0.zip",
+      "size": 44809,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-09T13:46:32Z"
+    },
+    {
       "repository_name": "gmarty2000-ARDUINO/arduino-JOYSTICK",
       "repository_url": "https://github.com/gmarty2000-ARDUINO/arduino-JOYSTICK",
       "name": "Joystick",
@@ -240853,7 +240912,7 @@
       "repository_name": "sbarabe/SBK_BarDrive",
       "repository_url": "https://github.com/sbarabe/SBK_BarDrive",
       "name": "SBK_BarDrive",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "2.0.4",
@@ -240874,11 +240933,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-09-09T02:03:40.462Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-09-09T16:02:39.034Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-28T07:09:21Z",
-      "last_seen_sha": "c8d3d2197000",
+      "last_seen_sha": "74a477c5f45c",
       "author": "Samuel Barabé <smartbuildskits@gmail.com>",
       "maintainer": "Samuel Barabé <smartbuildskits@gmail.com>",
       "sentence": "High-level Arduino library for controlling and animating LED bar graph and bar meter displays.",
@@ -240892,9 +240955,9 @@
         "SBK_HT16K33",
         "SBK_MAX72xx"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.2.0.zip",
-      "size": 641890,
-      "previous_version": "2.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.2.1.zip",
+      "size": 659408,
+      "previous_version": "2.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -320295,7 +320358,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9739,
-    "total_dependencies": 5363
+    "with_github_metadata": 9740,
+    "total_dependencies": 5386
   }
 }

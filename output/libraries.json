@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-09T17:02:10.134Z",
+  "enhanced_at": "2026-09-09T18:03:27.140Z",
   "total_libraries": 9944,
-  "index_etag": "W/\"acd56f0f83c06b6913e28984d61ba568\"",
-  "index_last_modified": "Wed, 09 Sep 2026 16:59:12 GMT",
+  "index_etag": "W/\"07a38e56c4517f31a6392bdf5cc53196\"",
+  "index_last_modified": "Wed, 09 Sep 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -138576,26 +138576,31 @@
       "repository_name": "richcreations/imud-arduino",
       "repository_url": "https://github.com/richcreations/imud-arduino",
       "name": "ImudClient",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-07-27T00:21:56.484Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-09T18:03:27.053Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-27T00:21:56.484Z",
-      "last_seen_sha": "eafd15086d45",
+      "last_seen_sha": "b9eee8572a7f",
       "author": "Richard Simpson",
       "maintainer": "Richard Simpson",
       "sentence": "Receive attitude data from the imud IMU daemon over TCP or UDP.",
-      "paragraph": "Decodes and validates imud's 276-byte binary packets (wire v17): heading, roll, pitch, quaternion, rate of turn, heave, sea state and filter gate health. Requires imud 1.7 or newer; use the 1.0.x line for imud 1.4-1.6. Works with any Arduino Client/UDP transport; ESP32 is the primary target.",
+      "paragraph": "Decodes and validates imud's 288-byte binary packets (wire v18): heading, roll, pitch, quaternion, rate of turn, heave, sea state and filter gate health. Requires imud 1.10 or newer; use the 1.1.x line for imud 1.7-1.9 and 1.0.x for imud 1.4-1.6. Works with any Arduino Client/UDP transport; ESP32 is the primary target.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/richcreations/ImudClient-1.1.0.zip",
-      "size": 72894,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/richcreations/ImudClient-1.2.0.zip",
+      "size": 102550,
+      "previous_version": "1.1.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",

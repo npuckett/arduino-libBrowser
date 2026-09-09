@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-09T19:02:02.669Z",
-  "total_libraries": 9944,
-  "index_etag": "W/\"07a38e56c4517f31a6392bdf5cc53196\"",
-  "index_last_modified": "Wed, 09 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-09T20:02:29.944Z",
+  "total_libraries": 9946,
+  "index_etag": "W/\"901ad4a20a7ca469ff4a22f305a6486c\"",
+  "index_last_modified": "Wed, 09 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -15777,6 +15777,38 @@
       "github_forks": 1,
       "github_language": "C",
       "github_updated_at": "2026-08-19T22:46:40Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_TMF8806",
+      "repository_url": "https://github.com/adafruit/Adafruit_TMF8806",
+      "name": "Adafruit TMF8806",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-09T20:02:27.134Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-09T20:02:27.134Z",
+      "last_seen_sha": "cbec956e55e6",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the TMF8806 Time-of-Flight distance sensor.",
+      "paragraph": "Arduino library for the TMF8806 dToF sensor from ams-OSRAM. Measures distances from 10mm to 5000mm using ROM firmware, or 10000mm using the included optional RAM firmware patch.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TMF8806-1.0.0.zip",
+      "size": 39768,
+      "github_stars": 1,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-27T22:57:07Z"
     },
     {
       "repository_name": "adafruit/Adafruit_TMP006",
@@ -39695,7 +39727,7 @@
       "repository_name": "TechTronicsEngineering/AutoPlex14",
       "repository_url": "https://github.com/TechTronicsEngineering/AutoPlex14",
       "name": "AutoPlex14",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.4",
@@ -39704,11 +39736,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-31T00:07:21.813Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-09-09T20:02:27.134Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-30T22:02:13.616Z",
-      "last_seen_sha": "a6436ce66bff",
+      "last_seen_sha": "3529bdbb4753",
       "author": "Nyjah",
       "maintainer": "Nyjah",
       "sentence": "AutoPlex14 — the most capable Arduino library for fourteen-segment displays",
@@ -39717,9 +39753,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex14-1.1.0.zip",
-      "size": 14674,
-      "previous_version": "1.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TechTronicsEngineering/AutoPlex14-1.1.1.zip",
+      "size": 14845,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -201250,6 +201286,39 @@
       "github_updated_at": "2026-08-03T16:07:49Z"
     },
     {
+      "repository_name": "thecaptainexe/OLEDAnimator",
+      "repository_url": "https://github.com/thecaptainexe/OLEDAnimator",
+      "name": "OLEDAnimator",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-09T20:02:27.134Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-09T20:02:27.134Z",
+      "last_seen_sha": "5f22053202c1",
+      "author": "CaptainEXE",
+      "maintainer": "CaptainEXE <itscaptainexe@gmail.com>",
+      "sentence": "A lightweight, non-blocking OLED animation and UI library for Arduino.",
+      "paragraph": "OLEDAnimator brings 128x64 SSD1306/SH1106 OLED displays to life using non-blocking millis() frame loops. Features include procedural expressive robot faces, progress loaders, smooth UI page transitions, and bitmap sprite animation playback without freezing loop execution.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit SSD1306"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thecaptainexe/OLEDAnimator-1.0.0.zip",
+      "size": 9956,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-09T17:25:06Z"
+    },
+    {
       "repository_name": "skr-electronics-lab/OLEDKeyboard",
       "repository_url": "https://github.com/skr-electronics-lab/OLEDKeyboard",
       "name": "OLEDKeyboard",
@@ -320363,7 +320432,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9740,
-    "total_dependencies": 5386
+    "with_github_metadata": 9742,
+    "total_dependencies": 5389
   }
 }

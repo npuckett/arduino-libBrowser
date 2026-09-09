@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-09T01:14:39.017Z",
-  "total_libraries": 9941,
-  "index_etag": "W/\"631fb867b5ef6ad63ac00e9f25fb4e9b\"",
-  "index_last_modified": "Wed, 09 Sep 2026 00:59:12 GMT",
+  "enhanced_at": "2026-09-09T02:03:43.128Z",
+  "total_libraries": 9943,
+  "index_etag": "W/\"f3bed3f43b16425589203b982f6db037\"",
+  "index_last_modified": "Wed, 09 Sep 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22232,7 +22232,7 @@
       "repository_name": "Alteriom/painlessMesh",
       "repository_url": "https://github.com/Alteriom/painlessMesh",
       "name": "Alteriom PainlessMesh",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.9.20",
@@ -22257,11 +22257,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-09-08T00:06:46.855Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-09-09T02:03:40.462Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-04-30T08:24:18Z",
-      "last_seen_sha": "ebda0ed8e917",
+      "last_seen_sha": "915eb45c9ccc",
       "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
       "maintainer": "Alteriom",
       "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
@@ -22276,9 +22280,9 @@
         "TaskScheduler",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.1.zip",
-      "size": 917753,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.2.zip",
+      "size": 925607,
+      "previous_version": "2.0.1",
       "github_stars": 9,
       "github_forks": 4,
       "github_language": "C++",
@@ -23227,7 +23231,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.164",
+      "version": "1.2.165",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23608,11 +23612,15 @@
         {
           "version": "1.2.164",
           "seen_at": "2026-09-08T02:03:47.769Z"
+        },
+        {
+          "version": "1.2.165",
+          "seen_at": "2026-09-09T02:03:40.462Z"
         }
       ],
-      "release_count": 95,
+      "release_count": 96,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "71c455c41dd7",
+      "last_seen_sha": "7d32af278513",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23633,9 +23641,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.164.zip",
-      "size": 44560929,
-      "previous_version": "1.2.163",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.165.zip",
+      "size": 44561149,
+      "previous_version": "1.2.164",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -37487,7 +37495,7 @@
       "repository_name": "atsign-foundation/at_client_arduino",
       "repository_url": "https://github.com/atsign-foundation/at_client_arduino",
       "name": "at_client",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -37512,11 +37520,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-09-08T22:02:37.048Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-09T02:03:40.462Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "bcc6e6495bb1",
+      "last_seen_sha": "5da3aeadc9be",
       "author": "Atsign Foundation",
       "maintainer": "Atsign Foundation <info@atsign.com>",
       "sentence": "Atsign atSDK client library for Arduino/ESP32 - atProtocol, crypto, networking, and activation.",
@@ -37525,9 +37537,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-1.0.0.zip",
-      "size": 265611,
-      "previous_version": "0.1.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atsign-foundation/at_client-1.0.1.zip",
+      "size": 265699,
+      "previous_version": "1.0.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C",
@@ -38985,6 +38997,35 @@
       "github_language": "C++",
       "github_updated_at": "2021-11-29T06:44:52Z",
       "download_url": "https://github.com/9glt/arduino-attiny85-fastpin-library"
+    },
+    {
+      "repository_name": "DampflokHD/ATTinyBME280",
+      "repository_url": "https://github.com/DampflokHD/ATTinyBME280",
+      "name": "ATTinyBME280",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-09T02:03:40.462Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-09T02:03:40.462Z",
+      "last_seen_sha": "5bfcc83bbfbb",
+      "author": "DampflokHD",
+      "maintainer": "DampflokHD",
+      "sentence": "Lightweight USI-based BME280 library for ATtiny25, ATtiny45 and ATtiny85.",
+      "paragraph": "Reads temperature, pressure and humidity from BME280 sensors using the ATtiny USI peripheral as an I2C master. Includes calibration, Bosch compensation, bounded timeouts and bus recovery.",
+      "category": "Sensors",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DampflokHD/ATTinyBME280-1.0.1.zip",
+      "size": 69704,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-09T01:07:13Z"
     },
     {
       "repository_name": "DampflokHD/ATTinySerial",
@@ -116199,6 +116240,39 @@
       "github_forks": 1,
       "github_language": "C++",
       "github_updated_at": "2026-03-06T09:34:45Z"
+    },
+    {
+      "repository_name": "240974a/FmtLog",
+      "repository_url": "https://github.com/240974a/FmtLog",
+      "name": "FmtLog",
+      "version": "1.3.0",
+      "version_history": [
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-09-09T02:03:40.462Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-09T02:03:40.462Z",
+      "last_seen_sha": "2789ec746052",
+      "author": "G-IoT <g-iot@mail.ru>",
+      "maintainer": "G-IoT <g-iot@mail.ru>",
+      "sentence": "A lightweight logger for microcontrollers: levels, sources and pluggable sinks.",
+      "paragraph": "Send a log line where you need it: the library writes nowhere by itself, the sink is supplied by the application, and one message can go to several at once - the serial port while debugging, the network on a working device, a memory card for post-mortem. Levels are set per source, so a chatty part can be quieted without touching the rest, and the check happens before the message is built. Critical and system levels are never suppressed. Ready-made sinks: serial port, coloured terminal output, telnet with history, a web page fed over SSE, SNMP traps for a monitoring station, and Loki for searching logs in Grafana. Telnet and the web page keep their own place per connection, so a client joining late sees the same depth as the first one. Pattern formatting comes from the FmtTiny library.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "depends": [
+        "FmtTiny"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/240974a/FmtLog-1.3.0.zip",
+      "size": 122844,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-08T21:51:18Z"
     },
     {
       "repository_name": "240974a/FmtTiny",
@@ -240752,7 +240826,7 @@
       "repository_name": "sbarabe/SBK_BarDrive",
       "repository_url": "https://github.com/sbarabe/SBK_BarDrive",
       "name": "SBK_BarDrive",
-      "version": "2.1.2",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "2.0.4",
@@ -240769,11 +240843,15 @@
         {
           "version": "2.1.2",
           "seen_at": "2026-09-03T14:02:55.611Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-09-09T02:03:40.462Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-11-28T07:09:21Z",
-      "last_seen_sha": "5930c7b34087",
+      "last_seen_sha": "c8d3d2197000",
       "author": "Samuel Barabé <smartbuildskits@gmail.com>",
       "maintainer": "Samuel Barabé <smartbuildskits@gmail.com>",
       "sentence": "High-level Arduino library for controlling and animating LED bar graph and bar meter displays.",
@@ -240787,9 +240865,9 @@
         "SBK_HT16K33",
         "SBK_MAX72xx"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.1.2.zip",
-      "size": 619660,
-      "previous_version": "2.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sbarabe/SBK_BarDrive-2.2.0.zip",
+      "size": 641890,
+      "previous_version": "2.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -320190,7 +320268,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9737,
-    "total_dependencies": 5362
+    "with_github_metadata": 9739,
+    "total_dependencies": 5363
   }
 }

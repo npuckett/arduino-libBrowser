@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-09T23:02:22.686Z",
-  "total_libraries": 9947,
-  "index_etag": "W/\"d7b32785485c8c9ad3ffd2e50183f2f4\"",
-  "index_last_modified": "Wed, 09 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-10T00:06:38.182Z",
+  "total_libraries": 9948,
+  "index_etag": "W/\"b3068c3742d5fea4d0717e8e298c5cd3\"",
+  "index_last_modified": "Wed, 09 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -212150,100 +212150,118 @@
       "repository_name": "Picovoice/picovoice-arduino-de",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-de",
       "name": "Picovoice_DE",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:03Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:03Z",
-      "last_seen_sha": "66315ab342f2",
+      "last_seen_sha": "f20f6efad7dc",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for German language.",
+      "sentence": "Microcontroller Voice Assistant for German language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T19:59:07Z",
       "depends": [
         "Porcupine_DE",
         "Rhino_DE"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_DE-4.0.1.zip",
+      "size": 14151,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T19:59:07Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-en",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-en",
       "name": "Picovoice_EN",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-09T07:52:25Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-09T07:52:25Z",
-      "last_seen_sha": "b4416519e6bf",
+      "last_seen_sha": "8a819a1add0a",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for English language.",
+      "sentence": "Microcontroller Voice Assistant for English language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 9,
-      "github_forks": 1,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T19:59:36Z",
       "depends": [
         "Porcupine_EN",
         "Rhino_EN"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_EN-4.0.1.zip",
+      "size": 16301,
+      "previous_version": "4.0.0",
+      "github_stars": 9,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T19:59:36Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-es",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-es",
       "name": "Picovoice_ES",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:07Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:07Z",
-      "last_seen_sha": "e5d1351a2265",
+      "last_seen_sha": "b9aeb4cc1a95",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Spanish language.",
+      "sentence": "Microcontroller Voice Assistant for Spanish language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T19:59:58Z",
       "depends": [
         "Porcupine_ES",
         "Rhino_ES"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_ES-4.0.1.zip",
+      "size": 14007,
+      "previous_version": "4.0.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T19:59:58Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-fa",
@@ -212281,34 +212299,40 @@
       "repository_name": "Picovoice/picovoice-arduino-fr",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-fr",
       "name": "Picovoice_FR",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:09Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:09Z",
-      "last_seen_sha": "481fed06319e",
+      "last_seen_sha": "ae587d7bf86e",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for French language.",
+      "sentence": "Microcontroller Voice Assistant for French language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:00:33Z",
       "depends": [
         "Porcupine_FR",
         "Rhino_FR"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_FR-4.0.1.zip",
+      "size": 13944,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:00:33Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-hi",
@@ -212346,100 +212370,118 @@
       "repository_name": "Picovoice/picovoice-arduino-it",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-it",
       "name": "Picovoice_IT",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:11Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:11Z",
-      "last_seen_sha": "28e62a919080",
+      "last_seen_sha": "8e518cf8a5af",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Italian language.",
+      "sentence": "Microcontroller Voice Assistant for Italian language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:00:49Z",
       "depends": [
         "Porcupine_IT",
         "Rhino_IT"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_IT-4.0.1.zip",
+      "size": 15077,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:00:49Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-ja",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-ja",
       "name": "Picovoice_JA",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:13Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:13Z",
-      "last_seen_sha": "2f009af91813",
+      "last_seen_sha": "4521628c1689",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Japanese language.",
+      "sentence": "Microcontroller Voice Assistant for Japanese language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:01:05Z",
       "depends": [
         "Porcupine_JA",
         "Rhino_JA"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_JA-4.0.1.zip",
+      "size": 16336,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:01:05Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-ko",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-ko",
       "name": "Picovoice_KO",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:15Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:15Z",
-      "last_seen_sha": "f38e9f52d1ff",
+      "last_seen_sha": "20976e68a25f",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Korean language.",
+      "sentence": "Microcontroller Voice Assistant for Korean language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 1,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:01:43Z",
       "depends": [
         "Porcupine_KO",
         "Rhino_KO"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_KO-4.0.1.zip",
+      "size": 15013,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:01:43Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-nl",
@@ -212509,34 +212551,40 @@
       "repository_name": "Picovoice/picovoice-arduino-pt",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-pt",
       "name": "Picovoice_PT",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:17Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:17Z",
-      "last_seen_sha": "23124e6e422a",
+      "last_seen_sha": "9525a86b5d21",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Portuguese language.",
+      "sentence": "Microcontroller Voice Assistant for Portuguese language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:02:37Z",
       "depends": [
         "Porcupine_PT",
         "Rhino_PT"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_PT-4.0.1.zip",
+      "size": 14998,
+      "previous_version": "4.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:02:37Z"
     },
     {
       "repository_name": "Picovoice/picovoice-arduino-ru",
@@ -212638,34 +212686,40 @@
       "repository_name": "Picovoice/picovoice-arduino-zh",
       "repository_url": "https://github.com/Picovoice/picovoice-arduino-zh",
       "name": "Picovoice_ZH",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
           "seen_at": "2026-02-04T07:41:19Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-09-10T00:06:36.690Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-04T07:41:19Z",
-      "last_seen_sha": "2c7815f10448",
+      "last_seen_sha": "9d0844433ba4",
       "author": "Picovoice Inc.",
       "maintainer": "Picovoice Inc. hello@picovoice.ai",
-      "sentence": "Intent-Based Voice Assistant for Mandarin language.",
+      "sentence": "Microcontroller Voice Assistant for Mandarin language.",
       "paragraph": "Hands-free voice control combining wake word and task oriented voice intent. Wake word detection and intent inference are both on-device.",
       "category": "Data Processing",
       "architectures": [
         "mbed_nano",
         "stm32"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-06-15T20:03:05Z",
       "depends": [
         "Porcupine_ZH",
         "Rhino_ZH"
       ],
-      "download_url": "https://www.picovoice.ai"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Picovoice/Picovoice_ZH-4.0.1.zip",
+      "size": 16889,
+      "previous_version": "4.0.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-06-15T20:03:05Z"
     },
     {
       "repository_name": "mlesniew/PicoWebsocket",
@@ -222756,6 +222810,35 @@
       "github_updated_at": "2026-06-04T09:59:01Z",
       "license": "MIT",
       "download_url": "https://github.com/gustavofisica/PulseHeartLab"
+    },
+    {
+      "repository_name": "pulsecoreengineering/pulseHSM",
+      "repository_url": "https://github.com/pulsecoreengineering/pulseHSM",
+      "name": "PulseHSM",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-10T00:06:36.690Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-10T00:06:36.690Z",
+      "last_seen_sha": "960b859b50a7",
+      "author": "Alex Gabriel Malisa",
+      "maintainer": "Alex Gabriel Malisa <alex.malisa@pulsecoreengineering.com>",
+      "sentence": "Tiny hierarchical state machine for embedded systems — no heap, no dynamic allocation.",
+      "paragraph": "Static, bounded, interrupt-safe hierarchical state machine (HSM) with entry/exit/update actions, initial (default) substates, timed transitions, and a fixed-size event queue. Designed for AVR, ESP32, STM32, RP2040, SAMD and other Arduino-compatible targets.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsecoreengineering/PulseHSM-1.2.0.zip",
+      "size": 63038,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-09T20:39:22Z"
     },
     {
       "repository_name": "RCmags/pulseInput",
@@ -320521,7 +320604,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9743,
+    "with_github_metadata": 9744,
     "total_dependencies": 5388
   }
 }

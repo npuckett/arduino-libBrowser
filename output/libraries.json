@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-11T15:02:28.537Z",
-  "total_libraries": 9955,
-  "index_etag": "W/\"c9db132758af235d40e0204d751d92ea\"",
-  "index_last_modified": "Fri, 11 Sep 2026 14:59:12 GMT",
+  "enhanced_at": "2026-09-11T16:02:50.796Z",
+  "total_libraries": 9956,
+  "index_etag": "W/\"fe7c7a5fffbc8cd320a51352cee32372\"",
+  "index_last_modified": "Fri, 11 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -284176,6 +284176,41 @@
       "download_url": "https://github.com/zimbora/esp32-sysfile"
     },
     {
+      "repository_name": "soosp/SyslogSender",
+      "repository_url": "https://github.com/soosp/SyslogSender",
+      "name": "SyslogSender",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-11T16:02:49.380Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T16:02:49.380Z",
+      "last_seen_sha": "0bfa3432d134",
+      "author": "Péter Soós <https://github.com/soosp>",
+      "maintainer": "Péter Soós <https://github.com/soosp>",
+      "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+      "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "depends": [
+        "Host",
+        "Ethernet"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.1.0.zip",
+      "size": 28737,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T12:26:28Z"
+    },
+    {
       "repository_name": "houslast3/sistema",
       "repository_url": "https://github.com/houslast3/sistema",
       "name": "SysUILib",
@@ -320896,7 +320931,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9751,
-    "total_dependencies": 5393
+    "with_github_metadata": 9752,
+    "total_dependencies": 5395
   }
 }

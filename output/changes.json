@@ -1,6 +1,42 @@
 {
-  "since": "2026-09-11T15:02:28.399Z",
-  "new_libraries": [],
+  "since": "2026-09-11T16:02:49.380Z",
+  "new_libraries": [
+    {
+      "repository_name": "soosp/SyslogSender",
+      "repository_url": "https://github.com/soosp/SyslogSender",
+      "name": "SyslogSender",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-11T16:02:49.380Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T16:02:49.380Z",
+      "last_seen_sha": "0bfa3432d134",
+      "author": "Péter Soós <https://github.com/soosp>",
+      "maintainer": "Péter Soós <https://github.com/soosp>",
+      "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+      "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "depends": [
+        "Host",
+        "Ethernet"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.1.0.zip",
+      "size": 28737,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T12:26:28Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

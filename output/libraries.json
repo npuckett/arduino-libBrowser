@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-11T09:02:49.974Z",
-  "total_libraries": 9951,
-  "index_etag": "W/\"f272cb8fc86873abb56223ffff1874ac\"",
-  "index_last_modified": "Fri, 11 Sep 2026 08:59:12 GMT",
+  "enhanced_at": "2026-09-11T10:02:50.597Z",
+  "total_libraries": 9953,
+  "index_etag": "W/\"534f5a64bf0fdb2640284bb2d5c14257\"",
+  "index_last_modified": "Fri, 11 Sep 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105210,6 +105210,35 @@
       "download_url": "https://github.com/chrmlinux/ESPDisplay"
     },
     {
+      "repository_name": "salernosimone/arduino-espdlx",
+      "repository_url": "https://github.com/salernosimone/arduino-espdlx",
+      "name": "espdlx",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-11T10:02:47.777Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T10:02:47.777Z",
+      "last_seen_sha": "03a40bb37349",
+      "author": "Simone Salerno",
+      "maintainer": "Simone Salerno",
+      "sentence": "esp-dl port for Arduino (ESP32-S3 core+vision+audio)",
+      "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for ESP32-S3. Ships S3 prebuilt fbs_model lib. Excludes JPEG codec (needs esp_new_jpeg) and P4 ISA. Target ESP32-S3.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.0.0.zip",
+      "size": 1435961,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T06:39:29Z"
+    },
+    {
       "repository_name": "tanakamasayuki/EspEasyUtils",
       "repository_url": "https://github.com/tanakamasayuki/EspEasyUtils",
       "name": "EspEasyUtils",
@@ -155284,6 +155313,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-04-21T10:17:55Z",
       "download_url": "https://github.com/belem2050/TaskScheduler"
+    },
+    {
+      "repository_name": "cmsolomon/lightweight-shell",
+      "repository_url": "https://github.com/cmsolomon/lightweight-shell",
+      "name": "lightweight-shell",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-11T10:02:47.777Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T10:02:47.777Z",
+      "last_seen_sha": "635641e69e03",
+      "author": "Chris Solomon",
+      "maintainer": "Chris Solomon <chris.m.solomon@gmail.com>",
+      "sentence": "Zero-heap embedded shell for Arduino and embedded systems",
+      "paragraph": "Interactive command-line interface with ANSI line editing, command history, role-based access control, tab completion, and multi-channel I/O (UART, Bluetooth, USB, etc.). Template-based command dispatch avoids per-command vtable overhead.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cmsolomon/lightweight_shell-1.0.1.zip",
+      "size": 192908,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T06:14:00Z"
     },
     {
       "repository_name": "RacoonX65/LightweightIoT-Arduino-Lib",
@@ -320771,7 +320829,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9747,
+    "with_github_metadata": 9749,
     "total_dependencies": 5392
   }
 }

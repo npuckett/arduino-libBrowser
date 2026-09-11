@@ -1,6 +1,65 @@
 {
-  "since": "2026-09-11T09:02:49.889Z",
-  "new_libraries": [],
+  "since": "2026-09-11T10:02:47.777Z",
+  "new_libraries": [
+    {
+      "repository_name": "salernosimone/arduino-espdlx",
+      "repository_url": "https://github.com/salernosimone/arduino-espdlx",
+      "name": "espdlx",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-11T10:02:47.777Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T10:02:47.777Z",
+      "last_seen_sha": "03a40bb37349",
+      "author": "Simone Salerno",
+      "maintainer": "Simone Salerno",
+      "sentence": "esp-dl port for Arduino (ESP32-S3 core+vision+audio)",
+      "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for ESP32-S3. Ships S3 prebuilt fbs_model lib. Excludes JPEG codec (needs esp_new_jpeg) and P4 ISA. Target ESP32-S3.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.0.0.zip",
+      "size": 1435961,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T06:39:29Z"
+    },
+    {
+      "repository_name": "cmsolomon/lightweight-shell",
+      "repository_url": "https://github.com/cmsolomon/lightweight-shell",
+      "name": "lightweight-shell",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-11T10:02:47.777Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T10:02:47.777Z",
+      "last_seen_sha": "635641e69e03",
+      "author": "Chris Solomon",
+      "maintainer": "Chris Solomon <chris.m.solomon@gmail.com>",
+      "sentence": "Zero-heap embedded shell for Arduino and embedded systems",
+      "paragraph": "Interactive command-line interface with ANSI line editing, command history, role-based access control, tab completion, and multi-channel I/O (UART, Bluetooth, USB, etc.). Template-based command dispatch avoids per-command vtable overhead.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cmsolomon/lightweight_shell-1.0.1.zip",
+      "size": 192908,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T06:14:00Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

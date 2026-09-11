@@ -1,6 +1,113 @@
 {
-  "since": "2026-09-11T03:03:07.318Z",
+  "since": "2026-09-11T04:03:00.303Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "pkyanam/ArduRoomba",
+        "repository_url": "https://github.com/pkyanam/ArduRoomba",
+        "name": "ArduRoomba",
+        "version": "4.0.2",
+        "version_history": [
+          {
+            "version": "4.0.1",
+            "seen_at": "2026-05-15T08:39:16Z"
+          },
+          {
+            "version": "4.0.2",
+            "seen_at": "2026-09-11T04:03:00.303Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-05-15T08:39:16Z",
+        "last_seen_sha": "62e8dbb2b75b",
+        "author": "Preetham Kyanam <preetham@preetham.org>",
+        "maintainer": "Preetham Kyanam <preetham@preetham.org>",
+        "sentence": "Modular Arduino library for iRobot Roomba control with WiFi and Bluetooth support.",
+        "paragraph": "The definitive library for breathing new life into legacy iRobot Roomba robots. Full Open Interface support with WiFi web control and Bluetooth LE for Arduino Uno R4, ESP32, ESP8266, and more. Turn e-waste into smart robots.",
+        "category": "Device Control",
+        "architectures": [
+          "avr",
+          "renesas_uno",
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pkyanam/ArduRoomba-4.0.2.zip",
+        "size": 66658,
+        "previous_version": "4.0.1",
+        "github_stars": 40,
+        "github_forks": 11,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-15T03:13:10Z"
+      },
+      "old_version": "4.0.1",
+      "new_version": "4.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "bnorth12/LC29H_GNSS-Library",
+        "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
+        "name": "LC29H_GNSS",
+        "version": "0.2.14",
+        "version_history": [
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-27T03:00:19.752Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "0.2.5",
+            "seen_at": "2026-08-29T04:02:39.099Z"
+          },
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-08-29T06:04:02.070Z"
+          },
+          {
+            "version": "0.2.9",
+            "seen_at": "2026-08-29T20:02:12.993Z"
+          },
+          {
+            "version": "0.2.11",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.2.13",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          },
+          {
+            "version": "0.2.14",
+            "seen_at": "2026-09-11T04:03:00.303Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-07-27T03:00:19.752Z",
+        "last_seen_sha": "cc9bd52b36ba",
+        "author": "LC29H_GNSS Contributors",
+        "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
+        "sentence": "Configuration-focused Arduino library for Quectel LC29H BA, BS, DA, and EA GNSS modules.",
+        "paragraph": "Provides command transport, checksum handling, receiver mode configuration, Survey-In and base fixed helpers, and serial monitor command processing for rapid bench setup.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.14.zip",
+        "size": 123750,
+        "previous_version": "0.2.13",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-27T01:26:43Z"
+      },
+      "old_version": "0.2.13",
+      "new_version": "0.2.14"
+    }
+  ],
   "removed_libraries": []
 }

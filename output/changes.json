@@ -1,6 +1,124 @@
 {
-  "since": "2026-09-11T17:02:09.633Z",
+  "since": "2026-09-11T18:03:08.492Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "TidalImpact/LighthouseReckoning",
+        "repository_url": "https://github.com/TidalImpact/LighthouseReckoning",
+        "name": "LighthouseReckoning",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-18T18:05:17.590Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-11T18:03:08.492Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-18T18:05:17.590Z",
+        "last_seen_sha": "7a21a873cce6",
+        "author": "Fynn Jannis Schulz <fynnsscp009@gmail.com>",
+        "maintainer": "Fynn Jannis Schulz <fynnsscp009@gmail.com>",
+        "sentence": "A library implementing the Lighthouse Reckoning protocol for LoRa networks.",
+        "paragraph": "This library provides the complete implementation of the Lighthouse Reckoning protocol, including routing, neighbor discovery, packet forwarding, acknowledgements, retries and duty-cycle management for LoRa communication.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "RadioLib"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TidalImpact/LighthouseReckoning-1.1.0.zip",
+        "size": 133571,
+        "previous_version": "1.0.0",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-18T15:08:33Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "pulsecoreengineering/pulseHSM",
+        "repository_url": "https://github.com/pulsecoreengineering/pulseHSM",
+        "name": "PulseHSM",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-09-10T00:06:36.690Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-11T18:03:08.492Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-10T00:06:36.690Z",
+        "last_seen_sha": "e7b3b863802f",
+        "author": "Alex Gabriel Malisa",
+        "maintainer": "Alex Gabriel Malisa <alex.malisa@pulsecoreengineering.com>",
+        "sentence": "Tiny hierarchical state machine for embedded systems — no heap, no dynamic allocation.",
+        "paragraph": "Static, bounded, interrupt-safe hierarchical state machine (HSM) with entry/exit/update actions, initial (default) substates, timed transitions, and a fixed-size event queue. Designed for AVR, ESP32, STM32, RP2040, SAMD and other Arduino-compatible targets.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsecoreengineering/PulseHSM-1.2.1.zip",
+        "size": 74801,
+        "previous_version": "1.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-09T20:39:22Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "ZAN-Tech-bd/esp-wifi-provisioning",
+        "repository_url": "https://github.com/ZAN-Tech-bd/esp-wifi-provisioning",
+        "name": "ZanWifiSetup",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-11T12:03:46.515Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-11T18:03:08.492Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-11T12:03:46.515Z",
+        "last_seen_sha": "a8d710d59c97",
+        "author": "ZAN Tech",
+        "maintainer": "ZAN Tech <https://github.com/ZAN-Tech-bd>",
+        "sentence": "One-time Wi-Fi setup for any ESP32 project - hotspot + web form, no app, no re-uploading.",
+        "paragraph": "Include this once and every new ESP32 project gets Wi-Fi provisioning for free: tries the last saved network on boot, opens a setup hotspot with a web form if that fails (or none was ever saved), shows connection status on the onboard LED, and resets from a single button hold. Write your own project logic in your own sketch and never touch the Wi-Fi part again.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ZAN-Tech-bd/ZanWifiSetup-1.0.1.zip",
+        "size": 99234,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-11T08:13:08Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

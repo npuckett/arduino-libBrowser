@@ -1,6 +1,442 @@
 {
-  "since": "2026-09-11T21:02:19.395Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-11T22:02:16.969Z",
+  "new_libraries": [
+    {
+      "repository_name": "sparkfun/SparkFun_SFA40_Arduino_Library",
+      "repository_url": "https://github.com/sparkfun/SparkFun_SFA40_Arduino_Library",
+      "name": "SparkFun SFA40 Arduino Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-11T22:02:16.969Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T22:02:16.969Z",
+      "last_seen_sha": "41b0ef50077c",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "An Arduino library for the SparkFun Qwiic Formaldehyde Sensor (SFA40)",
+      "paragraph": "This library allows you to interface with the Sensirion SFA40 formaldehyde sensor, providing calibrated formaldehyde concentration along with on-board relative humidity and temperature for your Arduino projects.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "SparkFun Toolkit"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SFA40_Arduino_Library-1.0.0.zip",
+      "size": 24357,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T18:38:10Z"
+    },
+    {
+      "repository_name": "sparkfun/SparkFun_STCC4_Arduino_Library",
+      "repository_url": "https://github.com/sparkfun/SparkFun_STCC4_Arduino_Library",
+      "name": "SparkFun STCC4 Arduino Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-11T22:02:16.969Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T22:02:16.969Z",
+      "last_seen_sha": "c3f48663fc92",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "An Arduino library for the SparkFun Qwiic CO2 Sensor (STCC4)",
+      "paragraph": "This library allows you to interface with the Sensirion STCC4 CO2 sensor and the onboard SHT40, providing CO2 concentration, temperature, and relative humidity (with automatic CO2 compensation) for your Arduino projects.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "SparkFun Toolkit"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_STCC4_Arduino_Library-1.0.0.zip",
+      "size": 39799,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T18:37:16Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.5.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-08-30T08:02:50.818Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-08-30T14:02:11.778Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-09-08T18:03:23.738Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "1facf07c1426",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.5.0.zip",
+        "size": 160183,
+        "previous_version": "0.4.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.4.3",
+      "new_version": "0.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "Erqos/EQSP32",
+        "repository_url": "https://github.com/Erqos/EQSP32",
+        "name": "EQSP32",
+        "version": "1.5.0",
+        "version_history": [
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-06-27T08:01:03Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-27T08:01:03Z",
+        "last_seen_sha": "41b740ace86a",
+        "author": "Erqos Technologies info@erqos.com",
+        "maintainer": "Erqos Technologies",
+        "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
+        "paragraph": "This library provides the complete EQSP32 hardware and managed IoT APIs, including local and expansion I/O, MQTT integrations, and EQConnect provisioning.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.5.0.zip",
+        "size": 14944655,
+        "previous_version": "1.4.0",
+        "github_stars": 9,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T19:15:10Z"
+      },
+      "old_version": "1.4.0",
+      "new_version": "1.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkProfile",
+        "repository_url": "https://github.com/soosp/NetworkProfile",
+        "name": "NetworkProfile",
+        "version": "0.9.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-07-23T18:23:57.547Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-07-24T14:32:04.454Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-07-30T14:44:22.538Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-07-31T14:46:09.144Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-08-06T00:18:43.270Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-08-26T22:58:36.675Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "531e7c700f0b",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
+        "paragraph": "WiFiProfile and EthProfile hold a network interface's configuration (DHCP/static IP, DNS, hostname, MAC address, priority for ETH -> WiFi fallback). NtpProfile holds the NTP servers a device synchronises from, and MqttProfile the settings needed to reach an MQTT broker. All four offer thread-safe access, validation, persistent storage via Preferences, and JSON serialisation. Depends on the Host library.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "depends": [
+          "Host",
+          "EEPROMPreferences",
+          "Preferences"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.9.0.zip",
+        "size": 90382,
+        "previous_version": "0.8.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T14:26:58Z"
+      },
+      "old_version": "0.8.0",
+      "new_version": "0.9.0"
+    },
+    {
+      "library": {
+        "repository_name": "Suraj151/pdi-framework",
+        "repository_url": "https://github.com/Suraj151/pdi-framework",
+        "name": "pdi-framework",
+        "version": "1.3.7",
+        "version_history": [
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-12T08:59:21Z"
+          },
+          {
+            "version": "1.1.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.10",
+            "seen_at": "2026-07-14T22:18:23.703Z"
+          },
+          {
+            "version": "1.1.11",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.1.12",
+            "seen_at": "2026-07-16T22:19:06.934Z"
+          },
+          {
+            "version": "1.1.13",
+            "seen_at": "2026-07-24T22:21:05.521Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-26T14:29:22.694Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-27T22:20:52.477Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-07-29T22:17:55.080Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-31T00:22:09.602Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-08-02T00:21:18.637Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-08-03T22:20:21.703Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-08-07T01:24:57.423Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-08-12T22:13:18.388Z"
+          },
+          {
+            "version": "1.2.8",
+            "seen_at": "2026-08-15T12:02:43.039Z"
+          },
+          {
+            "version": "1.2.9",
+            "seen_at": "2026-08-20T00:04:45.325Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-08-22T06:04:12.369Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-08-23T10:03:28.391Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-09-02T00:06:54.309Z"
+          },
+          {
+            "version": "1.3.3",
+            "seen_at": "2026-09-04T00:06:30.780Z"
+          },
+          {
+            "version": "1.3.4",
+            "seen_at": "2026-09-04T22:02:27.678Z"
+          },
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-09-07T00:07:15.601Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-09-08T22:02:37.048Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          }
+        ],
+        "release_count": 24,
+        "first_seen_at": "2026-06-12T08:59:21Z",
+        "last_seen_sha": "4ad42ff565ce",
+        "author": "Suraj I.",
+        "maintainer": "Suraj I. <surajinamdar151@gmail.com>",
+        "sentence": "Portable Device Interface (PDI) framework stack for easy configurable applications running over avr, esp8266, esp32 devices. Designed to easily manage services such as WiFi, HTTP/S, MQTT, SSH server, SFTP, Telnet server, OTA, GPIO, Serial, Time, Crontab, Commandline terminal and much more.",
+        "paragraph": "pdi framework includes all services like gpio, wifi, cmd, mqtt, ntp, ota, napt, http/s server, telnet, ssh server, sftp, Time, Crontab, commandline terminal etc. which are ready to use in all applications where arduino, esp8266, esp32 devices will be used.",
+        "category": "Other",
+        "architectures": [
+          "avr",
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Suraj151/pdi_framework-1.3.7.zip",
+        "size": 8049527,
+        "previous_version": "1.3.6",
+        "github_stars": 81,
+        "github_forks": 24,
+        "github_language": "C",
+        "github_updated_at": "2026-06-11T11:40:16Z"
+      },
+      "old_version": "1.3.6",
+      "new_version": "1.3.7"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/SyslogSender",
+        "repository_url": "https://github.com/soosp/SyslogSender",
+        "name": "SyslogSender",
+        "version": "0.1.3",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-11T16:02:49.380Z"
+          },
+          {
+            "version": "0.1.3",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-11T16:02:49.380Z",
+        "last_seen_sha": "a2e3cccd1353",
+        "author": "Péter Soós <https://github.com/soosp>",
+        "maintainer": "Péter Soós <https://github.com/soosp>",
+        "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
+        "paragraph": "A sender, not a logging framework: frames and sends what ESP_LOG (ESP32), a library's logger callback, or the application hands it. No queue, no heap after begin(), thread-safe on ESP32, host-testable framing. Depends on Host for target validation.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "depends": [
+          "Host",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.1.3.zip",
+        "size": 30773,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-11T12:26:28Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.3"
+    }
+  ],
   "removed_libraries": []
 }

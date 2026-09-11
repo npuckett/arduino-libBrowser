@@ -1,6 +1,41 @@
 {
-  "since": "2026-09-11T07:02:48.606Z",
-  "new_libraries": [],
+  "since": "2026-09-11T08:03:34.008Z",
+  "new_libraries": [
+    {
+      "repository_name": "minervasoft-inc/Kelvarune",
+      "repository_url": "https://github.com/minervasoft-inc/Kelvarune",
+      "name": "Kelvarune",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-11T08:03:34.008Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-11T08:03:34.008Z",
+      "last_seen_sha": "dca42bd05c63",
+      "author": "Minerva, Inc.",
+      "maintainer": "Minerva, Inc. <info@minervasoft.co.jp>",
+      "sentence": "Kelvarune SDK for ESP32 Arduino Core - monitor, debug, and control your device from the Kelvarune app.",
+      "paragraph": "Implements the Kelvarune Protocol over a Nordic UART Service (NUS) compatible BLE GATT service, or over Wi-Fi/WebSocket. See README.md and the examples/ folder for usage.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "WebSockets",
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/minervasoft-inc/Kelvarune-1.0.0.zip",
+      "size": 27301,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T04:58:15Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

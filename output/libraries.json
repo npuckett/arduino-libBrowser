@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-12T11:02:07.668Z",
+  "enhanced_at": "2026-09-12T12:03:14.336Z",
   "total_libraries": 9959,
-  "index_etag": "W/\"74e0727bbd56f71513043300ee83c1ff\"",
-  "index_last_modified": "Sat, 12 Sep 2026 10:59:12 GMT",
+  "index_etag": "W/\"00f2b2aeb5511dec6985ac891da9f51a\"",
+  "index_last_modified": "Sat, 12 Sep 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -116176,26 +116176,32 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-09-05T22:02:05.225Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-09-12T12:03:14.232Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "baa677ade6e0",
+      "last_seen_sha": "d7fc2b00e743",
       "author": "Flova",
       "maintainer": "Flova",
-      "sentence": "Connect ESP32 Arduino devices to Flova with bounded local-first datastreams.",
-      "paragraph": "Provides the Flova ESP32 runtime, provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services.",
+      "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
+      "paragraph": "Provides provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services for ESP32 and ESP8266.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.2.0.zip",
-      "size": 195576,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.1.zip",
+      "size": 189479,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -272770,7 +272776,7 @@
       "repository_name": "Embedded-Petal/Spell_IoT",
       "repository_url": "https://github.com/Embedded-Petal/Spell_IoT",
       "name": "Spell_IoT",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "version_history": [
         {
           "version": "1.1.7",
@@ -272787,13 +272793,17 @@
         {
           "version": "1.1.10",
           "seen_at": "2026-08-22T12:02:51.054Z"
+        },
+        {
+          "version": "1.1.11",
+          "seen_at": "2026-09-12T12:03:14.232Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-04-10T07:41:31Z",
-      "last_seen_sha": "add2d503489f",
-      "author": "Karthickraja",
-      "maintainer": "Karthickraja <karthickraja.thepetal@gmail.com>",
+      "last_seen_sha": "a6dde3835e0c",
+      "author": "M.Karthickraja",
+      "maintainer": "M.Karthickraja <karthickraja.thepetal@gmail.com>",
       "sentence": "Spelliot library for ESP32 and ESP8266.",
       "paragraph": "Spell IoT Cloud is an open-source IoT platform for sending and receiving virtual pin data such as joystick, RGB, and map location. Includes a companion mobile app for visualization and control.",
       "category": "Communication",
@@ -272807,11 +272817,12 @@
         "FastLED",
         "Adafruit BusIO",
         "Adafruit SSD1306",
-        "TM16xx LEDs and Buttons"
+        "TM16xx LEDs and Buttons",
+        "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Embedded-Petal/Spell_IoT-1.1.10.zip",
-      "size": 88887,
-      "previous_version": "1.1.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Embedded-Petal/Spell_IoT-1.1.11.zip",
+      "size": 128268,
+      "previous_version": "1.1.10",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -321089,6 +321100,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9755,
-    "total_dependencies": 5397
+    "total_dependencies": 5398
   }
 }

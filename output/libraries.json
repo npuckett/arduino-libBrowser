@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-12T21:02:17.707Z",
+  "enhanced_at": "2026-09-12T22:07:29.716Z",
   "total_libraries": 9961,
-  "index_etag": "W/\"76145ad4d2734658a278eb9a49b58ae2\"",
-  "index_last_modified": "Sat, 12 Sep 2026 20:59:12 GMT",
+  "index_etag": "W/\"583352ab92b349e95510dd0817ec47d6\"",
+  "index_last_modified": "Sat, 12 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -95961,7 +95961,7 @@
       "repository_name": "ESP32Async/ESPAsyncWebServer",
       "repository_url": "https://github.com/ESP32Async/ESPAsyncWebServer",
       "name": "ESP Async WebServer",
-      "version": "3.12.0",
+      "version": "3.12.1",
       "version_history": [
         {
           "version": "3.11.2",
@@ -95974,11 +95974,15 @@
         {
           "version": "3.12.0",
           "seen_at": "2026-07-26T12:20:19.669Z"
+        },
+        {
+          "version": "3.12.1",
+          "seen_at": "2026-09-12T22:07:29.578Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:37:19Z",
-      "last_seen_sha": "dc35ad00085b",
+      "last_seen_sha": "914f8bd05317",
       "author": "ESP32Async",
       "maintainer": "ESP32Async",
       "sentence": "Asynchronous HTTP and WebSocket Server Library for ESP32, ESP8266 and RP2040",
@@ -95988,9 +95992,9 @@
         "*"
       ],
       "license": "LGPL-3.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/ESP_Async_WebServer-3.12.0.zip",
-      "size": 906769,
-      "previous_version": "3.11.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/ESP_Async_WebServer-3.12.1.zip",
+      "size": 907193,
+      "previous_version": "3.12.0",
       "github_stars": 619,
       "github_forks": 102,
       "github_language": "C++",
@@ -192987,7 +192991,7 @@
       "repository_name": "mathieucarbou/MycilaESPConnect",
       "repository_url": "https://github.com/mathieucarbou/MycilaESPConnect",
       "name": "MycilaESPConnect",
-      "version": "10.6.2",
+      "version": "10.6.3",
       "version_history": [
         {
           "version": "10.6.0",
@@ -193000,11 +193004,15 @@
         {
           "version": "10.6.2",
           "seen_at": "2026-07-14T16:25:47.383Z"
+        },
+        {
+          "version": "10.6.3",
+          "seen_at": "2026-09-12T22:07:29.578Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:37:27Z",
-      "last_seen_sha": "ec507bfcd528",
+      "last_seen_sha": "130819de7596",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "Simple & Easy Network Manager for ESP32 with WiFi, Ethernet and Captive Portal support",
@@ -193019,9 +193027,9 @@
         "ArduinoJson",
         "ESPAsyncWebServer"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaESPConnect-10.6.2.zip",
-      "size": 317152,
-      "previous_version": "10.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaESPConnect-10.6.3.zip",
+      "size": 318514,
+      "previous_version": "10.6.2",
       "github_stars": 22,
       "github_forks": 4,
       "github_language": "C++",
@@ -194917,16 +194925,20 @@
       "repository_name": "chon-group/neck2arduino",
       "repository_url": "https://github.com/chon-group/neck2arduino",
       "name": "NECK",
-      "version": "0.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-07-27T22:20:52.477Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-12T22:07:29.578Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-27T22:20:52.477Z",
-      "last_seen_sha": "045902fbfd29",
+      "last_seen_sha": "c6a99b542bd7",
       "author": "Nilson Lazarin",
       "maintainer": "Chon Group <chon@grupo.cefet-rj.br>",
       "sentence": "Embodied cognition communication kit for agent-based control of physical bodies",
@@ -194936,8 +194948,9 @@
         "*"
       ],
       "license": "CC-BY-4.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-0.0.1.zip",
-      "size": 164612,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-1.1.0.zip",
+      "size": 188361,
+      "previous_version": "0.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -196155,32 +196168,39 @@
       "repository_name": "NeuraiProject/NeuraiDepinMsg",
       "repository_url": "https://github.com/NeuraiProject/NeuraiDepinMsg",
       "name": "NeuraiDepinMsg",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-01-09T07:32:49Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-12T22:07:29.578Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-09T07:32:49Z",
-      "last_seen_sha": "104c6a1b4906",
+      "last_seen_sha": "a9d4979a97c0",
       "author": "Asimov",
       "maintainer": "Asimov <web@neurai.org>",
       "sentence": "Build, encrypt and sign DePIN messages for Neurai.",
-      "paragraph": "A library to create Core-compatible DePIN messages on ESP32. Requires uNeurai library.",
+      "paragraph": "Build, encrypt, sign, verify and decrypt Neurai DePIN Messaging Protocol 2 messages on ESP32. Requires uNeurai >= 0.0.11 and ArduinoJson 6.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "depends": [
+        "uNeurai",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NeuraiProject/NeuraiDepinMsg-1.1.0.zip",
+      "size": 97133,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-01-08T10:31:35Z",
-      "depends": [
-        "uNeurai"
-      ],
-      "download_url": "https://github.com/NeuraiProject/NeuraiDepinMsg"
+      "github_updated_at": "2026-01-08T10:31:35Z"
     },
     {
       "repository_name": "GiorgosXou/NeuralNetworks",
@@ -321207,6 +321227,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9757,
-    "total_dependencies": 5404
+    "total_dependencies": 5405
   }
 }

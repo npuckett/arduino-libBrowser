@@ -1,6 +1,44 @@
 {
-  "since": "2026-09-12T15:02:05.282Z",
-  "new_libraries": [],
+  "since": "2026-09-12T16:02:45.911Z",
+  "new_libraries": [
+    {
+      "repository_name": "matthias-bs/esp32-rfid-switch",
+      "repository_url": "https://github.com/matthias-bs/esp32-rfid-switch",
+      "name": "esp32-rfid-switch",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-12T16:02:45.911Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-12T16:02:45.911Z",
+      "last_seen_sha": "47c8030dbaa0",
+      "author": "matthias-bs",
+      "maintainer": "matthias-bs",
+      "sentence": "Controls a switch (e.g. relay) by presence of a UHF RFID Tag.",
+      "paragraph": "Controls a local relay or Shelly switch from a validated UHF RFID tag, with optional BLE address or name-based Shelly configuration.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5Unit-UHF-RFID",
+        "M5Unified",
+        "esp32-shelly-ble-rpc",
+        "NimBLE-Arduino",
+        "GDTouchKeyboard",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_rfid_switch-0.1.0.zip",
+      "size": 132115,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-12T12:44:58Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

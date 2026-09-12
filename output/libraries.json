@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-12T19:01:57.643Z",
-  "total_libraries": 9960,
-  "index_etag": "W/\"b0e2ac5b64d701dfdffeaa974a3c8770\"",
-  "index_last_modified": "Sat, 12 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-12T20:02:27.439Z",
+  "total_libraries": 9961,
+  "index_etag": "W/\"76145ad4d2734658a278eb9a49b58ae2\"",
+  "index_last_modified": "Sat, 12 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -116225,7 +116225,7 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "version_history": [
         {
           "version": "0.2.0",
@@ -116238,11 +116238,15 @@
         {
           "version": "0.3.3",
           "seen_at": "2026-09-12T14:02:11.454Z"
+        },
+        {
+          "version": "0.3.4",
+          "seen_at": "2026-09-12T20:02:25.988Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "d3c2f2891586",
+      "last_seen_sha": "adc84edbe565",
       "author": "Flova",
       "maintainer": "Flova",
       "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
@@ -116252,9 +116256,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.3.zip",
-      "size": 189980,
-      "previous_version": "0.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.4.zip",
+      "size": 192992,
+      "previous_version": "0.3.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -151036,7 +151040,7 @@
       "repository_name": "bnorth12/LC29H_GNSS-Library",
       "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
       "name": "LC29H_GNSS",
-      "version": "0.2.14",
+      "version": "0.2.15",
       "version_history": [
         {
           "version": "0.1.2",
@@ -151069,22 +151073,26 @@
         {
           "version": "0.2.14",
           "seen_at": "2026-09-11T04:03:00.303Z"
+        },
+        {
+          "version": "0.2.15",
+          "seen_at": "2026-09-12T20:02:25.988Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-07-27T03:00:19.752Z",
-      "last_seen_sha": "cc9bd52b36ba",
+      "last_seen_sha": "6986bc5bf1d0",
       "author": "LC29H_GNSS Contributors",
       "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
-      "sentence": "Configuration-focused Arduino library for Quectel LC29H BA, BS, DA, and EA GNSS modules.",
-      "paragraph": "Provides command transport, checksum handling, receiver mode configuration, Survey-In and base fixed helpers, and serial monitor command processing for rapid bench setup.",
+      "sentence": "Configure Quectel LC29H BA, BS, DA, and EA GNSS modules over UART.",
+      "paragraph": "Identifies the IC before SAVEPAR, applies rover or base presets with Survey-In, and drains mixed NMEA plus RTCM on ESP32 so one UART does not overflow. Assembles complete RTCM frames (CRC-24Q) before they are written to the module. DA and EA need PAIR023 after save, not PAIR003. Serial Monitor commands for bench setup. Not an NTRIP caster. Quectel protocol PDFs remain required.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.14.zip",
-      "size": 123750,
-      "previous_version": "0.2.13",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.15.zip",
+      "size": 142668,
+      "previous_version": "0.2.14",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -154184,16 +154192,20 @@
       "repository_name": "tobozo/LGFX_PPA",
       "repository_url": "https://github.com/tobozo/LGFX_PPA",
       "name": "LGFX_PPA",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "version_history": [
         {
           "version": "0.2.2",
           "seen_at": "2026-05-22T08:41:36Z"
+        },
+        {
+          "version": "0.2.3",
+          "seen_at": "2026-09-12T20:02:25.988Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-22T08:41:36Z",
-      "last_seen_sha": "4c91143c9c91",
+      "last_seen_sha": "3ced13bcb6d1",
       "author": "tobozo",
       "maintainer": "tobozo",
       "sentence": "Pixel-Processing Accelerator (PPA) utilities for LovyanGFX/M5GFX with ESP32P4",
@@ -154203,11 +154215,13 @@
         "esp32",
         "esp32p4"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tobozo/LGFX_PPA-0.2.3.zip",
+      "size": 20898,
+      "previous_version": "0.2.2",
       "github_stars": 22,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-05-21T18:50:55Z",
-      "download_url": "https://github.com/tobozo/LGFX_PPA"
+      "github_updated_at": "2026-05-21T18:50:55Z"
     },
     {
       "repository_name": "CelliesProjects/LGFX-ScreenShot",
@@ -209322,6 +209336,35 @@
       "github_updated_at": "2026-05-27T09:46:18Z"
     },
     {
+      "repository_name": "klenov1900-lang/PCFKeypad",
+      "repository_url": "https://github.com/klenov1900-lang/PCFKeypad",
+      "name": "PCFKeypad",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-12T20:02:25.988Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-12T20:02:25.988Z",
+      "last_seen_sha": "64fff9dcec90",
+      "author": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+      "maintainer": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
+      "sentence": "Keypad 4x4 driver for PCF8574 I2C expander.",
+      "paragraph": "Supports debouncing, auto-repeat, power save, ghosting protection, interrupt handling.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/PCFKeypad-1.0.0.zip",
+      "size": 16726,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-11T20:32:09Z"
+    },
+    {
       "repository_name": "prampec/arduino-pcimanager",
       "repository_url": "https://github.com/prampec/arduino-pcimanager",
       "name": "PciManager",
@@ -242766,16 +242809,20 @@
       "repository_name": "Stutchbury/ScreenManager",
       "repository_url": "https://github.com/Stutchbury/ScreenManager",
       "name": "ScreenManager",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-08-12T00:13:17.171Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-12T20:02:25.988Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-12T00:13:17.171Z",
-      "last_seen_sha": "5a629bc8f631",
+      "last_seen_sha": "5892c5dba7a6",
       "author": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "maintainer": "Philip Fletcher <philip.fletcher@stutchbury.com>",
       "sentence": "A lightweight C++ library for managing application screens, navigation, transitions and display timing. It is platform, framework and GFX agnostic.",
@@ -242784,8 +242831,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ScreenManager-1.0.0.zip",
-      "size": 22281,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Stutchbury/ScreenManager-1.1.0.zip",
+      "size": 24725,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -321158,7 +321206,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9756,
+    "with_github_metadata": 9757,
     "total_dependencies": 5404
   }
 }

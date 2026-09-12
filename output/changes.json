@@ -1,6 +1,93 @@
 {
-  "since": "2026-09-12T17:01:59.756Z",
+  "since": "2026-09-12T18:02:52.893Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "NguyenHien-8/ESP32WiFiPortal",
+        "repository_url": "https://github.com/NguyenHien-8/ESP32WiFiPortal",
+        "name": "ESP32WiFiPortal",
+        "version": "2.1.2",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-30T18:02:40.571Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-08-31T18:03:13.512Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-09-10T16:02:39.038Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-09-12T18:02:52.893Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-08-30T18:02:40.571Z",
+        "last_seen_sha": "0bc9147ae24d",
+        "author": "Tran Nguyen Hien",
+        "maintainer": "Tran Nguyen Hien",
+        "sentence": "ESP32-only Wi-Fi captive portal and credential manager.",
+        "paragraph": "Wi-Fi provisioning library for ESP32 Arduino Core with captive portal, optional static STA IP/DNS, event-driven reconnect, retry/backoff, NVS credential storage, and blocking or non-blocking operation.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "Apache License V2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NguyenHien-8/ESP32WiFiPortal-2.1.2.zip",
+        "size": 2135727,
+        "previous_version": "2.1.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-30T15:35:32Z"
+      },
+      "old_version": "2.1.1",
+      "new_version": "2.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "blah188/LionStreams",
+        "repository_url": "https://github.com/blah188/LionStreams",
+        "name": "LionStreams",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T09:02:39Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-09-12T18:02:52.893Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T09:02:39Z",
+        "last_seen_sha": "12e751cc17be",
+        "author": "leva <leva.the.lion@gmail.com>",
+        "maintainer": "leva <leva.the.lion@gmail.com>",
+        "sentence": "Tiny Arduino Stream adapters: a String-backed stream and a chunk-flushing web-server stream.",
+        "paragraph": "StringStream is a read/write Stream view over an external String (non-owning — the String must outlive the stream; reset() rewinds the read cursor and clears the String). ServerStream is a write-only Stream that buffers Print output and flushes it in chunks via server.sendContent() on ESP8266WebServer / ESP32 WebServer, so large HTML pages stream out without holding the whole response in RAM (start a chunked/unknown-length response first and call flush() at the end). Both are header-only and non-copyable. For ESPAsyncWebServer use the built-in beginResponseStream() instead.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionStreams-1.2.0.zip",
+        "size": 17075,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T01:13:35Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.2.0"
+    }
+  ],
   "removed_libraries": []
 }

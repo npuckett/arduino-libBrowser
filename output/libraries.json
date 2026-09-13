@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-12T23:02:04.195Z",
-  "total_libraries": 9961,
-  "index_etag": "W/\"583352ab92b349e95510dd0817ec47d6\"",
-  "index_last_modified": "Sat, 12 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-13T00:07:38.939Z",
+  "total_libraries": 9962,
+  "index_etag": "W/\"31556293e0394fc9cdb32f658e5109a2\"",
+  "index_last_modified": "Sat, 12 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -84015,6 +84015,35 @@
       "download_url": "https://github.com/Zanduino/DS1631"
     },
     {
+      "repository_name": "RobTillaart/DS1682",
+      "repository_url": "https://github.com/RobTillaart/DS1682",
+      "name": "DS1682",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-13T00:07:37.565Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-13T00:07:37.565Z",
+      "last_seen_sha": "8ae9e0bbd244",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the I2C DS1682 elapsed time monitor.",
+      "paragraph": "uptime,runtime",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DS1682-0.1.0.zip",
+      "size": 414579,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-12T20:42:40Z"
+    },
+    {
       "repository_name": "RobTillaart/DS1804",
       "repository_url": "https://github.com/RobTillaart/DS1804",
       "name": "DS1804",
@@ -107097,7 +107126,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -107154,11 +107183,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-09-09T04:03:11.882Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-09-13T00:07:37.565Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "ce1b8359fea0",
+      "last_seen_sha": "34d17eb507b3",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -107167,9 +107200,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.2.0.zip",
-      "size": 777062,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.3.0.zip",
+      "size": 822543,
+      "previous_version": "2.2.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -321226,7 +321259,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9757,
+    "with_github_metadata": 9758,
     "total_dependencies": 5405
   }
 }

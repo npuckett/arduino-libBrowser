@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-13T17:02:11.332Z",
+  "enhanced_at": "2026-09-13T18:02:37.231Z",
   "total_libraries": 9962,
-  "index_etag": "W/\"8190c4357a8fe480708c2f353806f4ff\"",
-  "index_last_modified": "Sun, 13 Sep 2026 16:59:12 GMT",
+  "index_etag": "W/\"0cb967f79ec63b3da5e19e089aa87042\"",
+  "index_last_modified": "Sun, 13 Sep 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23267,7 +23267,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.166",
+      "version": "1.2.167",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23656,11 +23656,15 @@
         {
           "version": "1.2.166",
           "seen_at": "2026-09-10T02:03:47.563Z"
+        },
+        {
+          "version": "1.2.167",
+          "seen_at": "2026-09-13T18:02:37.095Z"
         }
       ],
-      "release_count": 97,
+      "release_count": 98,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "3bbc0e18df74",
+      "last_seen_sha": "71c0b73de7bd",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23681,9 +23685,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.166.zip",
-      "size": 44567120,
-      "previous_version": "1.2.165",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.167.zip",
+      "size": 44567870,
+      "previous_version": "1.2.166",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -84018,16 +84022,20 @@
       "repository_name": "RobTillaart/DS1682",
       "repository_url": "https://github.com/RobTillaart/DS1682",
       "name": "DS1682",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-13T00:07:37.565Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-13T18:02:37.095Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-13T00:07:37.565Z",
-      "last_seen_sha": "8ae9e0bbd244",
+      "last_seen_sha": "47d772b271f9",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for the I2C DS1682 elapsed time monitor.",
@@ -84036,8 +84044,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DS1682-0.1.0.zip",
-      "size": 414579,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DS1682-0.1.1.zip",
+      "size": 414696,
+      "previous_version": "0.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -151093,7 +151102,7 @@
       "repository_name": "bnorth12/LC29H_GNSS-Library",
       "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
       "name": "LC29H_GNSS",
-      "version": "0.2.15",
+      "version": "0.2.16",
       "version_history": [
         {
           "version": "0.1.2",
@@ -151130,11 +151139,15 @@
         {
           "version": "0.2.15",
           "seen_at": "2026-09-12T20:02:25.988Z"
+        },
+        {
+          "version": "0.2.16",
+          "seen_at": "2026-09-13T18:02:37.095Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-07-27T03:00:19.752Z",
-      "last_seen_sha": "6986bc5bf1d0",
+      "last_seen_sha": "1544affa3653",
       "author": "LC29H_GNSS Contributors",
       "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
       "sentence": "Configure Quectel LC29H BA, BS, DA, and EA GNSS modules over UART.",
@@ -151143,9 +151156,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.15.zip",
-      "size": 142668,
-      "previous_version": "0.2.14",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.16.zip",
+      "size": 142772,
+      "previous_version": "0.2.15",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -273811,16 +273824,20 @@
       "repository_name": "FinianLandes/SpotifyEsp32",
       "repository_url": "https://github.com/FinianLandes/SpotifyEsp32",
       "name": "SpotifyEsp32",
-      "version": "4.0.1",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "4.0.1",
           "seen_at": "2026-06-29T08:41:28Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-09-13T18:02:37.095Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-29T08:41:28Z",
-      "last_seen_sha": "0f0ac198c3a8",
+      "last_seen_sha": "7f11c9b946be",
       "author": "Finian Landes, Pia Piekarek, T-vK",
       "maintainer": "Finian Landes <landesfinian@gmail.com>",
       "sentence": "A wrapper for the Spotify API",
@@ -273829,14 +273846,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 135,
-      "github_forks": 16,
-      "github_updated_at": "2026-06-28T20:33:43Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/FinianLandes/SpotifyEsp32",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FinianLandes/SpotifyEsp32-5.0.0.zip",
+      "size": 37837,
+      "previous_version": "4.0.1",
+      "github_stars": 135,
+      "github_forks": 16,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-28T20:33:43Z"
     },
     {
       "repository_name": "chrmlinux/spreGnssRtcLib",

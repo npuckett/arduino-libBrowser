@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-15T19:02:14.161Z",
-  "total_libraries": 9975,
-  "index_etag": "W/\"e227b8ced8bbe20bb1b955e9c81a96fc\"",
-  "index_last_modified": "Tue, 15 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-15T20:02:44.238Z",
+  "total_libraries": 9976,
+  "index_etag": "W/\"3d11864e786d84f8a6c63922949d3eb4\"",
+  "index_last_modified": "Tue, 15 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -9692,7 +9692,7 @@
       "repository_name": "adafruit/Adafruit_GPS",
       "repository_url": "https://github.com/adafruit/Adafruit_GPS",
       "name": "Adafruit GPS Library",
-      "version": "1.7.5",
+      "version": "1.8.0",
       "version_history": [
         {
           "version": "1.7.5",
@@ -9701,11 +9701,15 @@
         {
           "version": "1.7.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.8.0",
+          "seen_at": "2026-09-15T20:02:42.795Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-11T08:37:34Z",
-      "last_seen_sha": "25ac42271e99",
+      "last_seen_sha": "c53fa11d46aa",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "An interrupt-based GPS library for no-parsing-required use",
@@ -9714,11 +9718,8 @@
       "architectures": [
         "*"
       ],
-      "depends": [
-        "SD"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GPS_Library-1.7.5.zip",
-      "size": 78766,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GPS_Library-1.8.0.zip",
+      "size": 94669,
       "previous_version": "1.7.5",
       "github_stars": 498,
       "github_forks": 316,
@@ -15242,6 +15243,38 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2026-03-11T17:30:15Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_TCS3448",
+      "repository_url": "https://github.com/adafruit/Adafruit_TCS3448",
+      "name": "Adafruit TCS3448",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-15T20:02:42.795Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T20:02:42.795Z",
+      "last_seen_sha": "711a06701c77",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the TCS3448 14-channel multi-spectral sensor",
+      "paragraph": "This library subclasses the compatible Adafruit AS7343 driver and adds the TCS3448 I2C address, TCS3448-named types, and coherent non-blocking result reads.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit AS7343"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TCS3448-1.0.0.zip",
+      "size": 49847,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-15T17:53:58Z"
     },
     {
       "repository_name": "adafruit/Adafruit_TCS34725",
@@ -203490,7 +203523,7 @@
       "repository_name": "openlcb/OpenLCB_Single_Thread",
       "repository_url": "https://github.com/openlcb/OpenLCB_Single_Thread",
       "name": "OpenLCB_Single_Thread",
-      "version": "0.1.21",
+      "version": "0.1.22",
       "version_history": [
         {
           "version": "0.1.16",
@@ -203507,11 +203540,15 @@
         {
           "version": "0.1.21",
           "seen_at": "2026-09-15T04:03:17.130Z"
+        },
+        {
+          "version": "0.1.22",
+          "seen_at": "2026-09-15T20:02:42.795Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-12-19T07:29:42Z",
-      "last_seen_sha": "448353e99db9",
+      "last_seen_sha": "8514a34767a2",
       "author": "David Harris, Bob Jacobsen, OpenLCB team",
       "maintainer": "David Harris <drdpharris@gmail.com>",
       "sentence": "Implements Single-threaded OpenLCB/LCC stack based on Arduino IDE.",
@@ -203520,9 +203557,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/openlcb/OpenLCB_Single_Thread-0.1.21.zip",
-      "size": 1929348,
-      "previous_version": "0.1.20",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/openlcb/OpenLCB_Single_Thread-0.1.22.zip",
+      "size": 1929349,
+      "previous_version": "0.1.21",
       "github_stars": 8,
       "github_forks": 12,
       "github_language": "C++",
@@ -321787,7 +321824,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9772,
+    "with_github_metadata": 9773,
     "total_dependencies": 5407
   }
 }

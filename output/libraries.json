@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-15T15:02:52.112Z",
-  "total_libraries": 9971,
-  "index_etag": "W/\"c8bc35873eeb666f19313a009701827d\"",
-  "index_last_modified": "Tue, 15 Sep 2026 14:59:12 GMT",
+  "enhanced_at": "2026-09-15T16:02:50.838Z",
+  "total_libraries": 9973,
+  "index_etag": "W/\"d81f6f04eac5efe9b9963f0c0a137cf0\"",
+  "index_last_modified": "Tue, 15 Sep 2026 15:59:13 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -32844,24 +32844,29 @@
       "repository_name": "AJArnovitz/ArnoTek_HeartBeat",
       "repository_url": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
       "name": "ArnoTek_HeartBeat",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-14T18:03:01.072Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-15T16:02:48.133Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "c4e0d619ccad",
-      "author": "Anthony Arnovitz <aarnovitz@arnotek.com>",
-      "maintainer": "Anthony Arnovitz <aarnovitz@arnotek.com>",
+      "last_seen_sha": "d23134f3137e",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
       "sentence": "Heartbeat utility for Arduino",
       "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
       "category": "Timing",
       "architectures": [],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_HeartBeat-1.0.0.zip",
-      "size": 19814,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_HeartBeat-1.0.2.zip",
+      "size": 270679,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -41501,7 +41506,7 @@
       "repository_name": "aztechell/azdeck-lib",
       "repository_url": "https://github.com/aztechell/azdeck-lib",
       "name": "AzDeck",
-      "version": "0.1.3",
+      "version": "0.2.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -41518,11 +41523,15 @@
         {
           "version": "0.1.3",
           "seen_at": "2026-09-14T06:05:33.824Z"
+        },
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-09-15T16:02:48.133Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-08-19T16:05:28.128Z",
-      "last_seen_sha": "99d1109def2a",
+      "last_seen_sha": "80513d923f18",
       "author": "Azat",
       "maintainer": "Azat <aztechell@gmail.com>",
       "sentence": "Simple Arduino library for receiving controls from the AzDeck Android app.",
@@ -41538,9 +41547,9 @@
         "WebSockets",
         "ArduinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/aztechell/AzDeck-0.1.3.zip",
-      "size": 47103,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aztechell/AzDeck-0.2.1.zip",
+      "size": 43994,
+      "previous_version": "0.1.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -90231,27 +90240,32 @@
       "repository_name": "EduWit-Dev/EduWit",
       "repository_url": "https://github.com/EduWit-Dev/EduWit",
       "name": "EduWit",
-      "version": "1.0.0",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-13T22:02:19.822Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-09-15T16:02:48.133Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-13T22:02:19.822Z",
-      "last_seen_sha": "3b6262a1395c",
+      "last_seen_sha": "310bb61f9f8e",
       "author": "EduWit",
       "maintainer": "EduWit <developer@eduwit.com.mx>",
-      "sentence": "Libreria oficial del ecosistema de robotica educativa EduWit.",
-      "paragraph": "Control integral para shields EduBoard (UNO, Profesional) y sensores modulares. Disenada para ninos, jovenes y proyectos de competencia STEAM.",
+      "sentence": "Libreria oficial para aprender Arduino con las tarjetas EduBoard.",
+      "paragraph": "API clara y progresiva para controlar la EduBoard UNO, sus actuadores, sensores y puertos de comunicacion desde Arduino IDE y mBlock.",
       "category": "Device Control",
       "architectures": [
         "avr",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/EduWit-Dev/EduWit-1.0.0.zip",
-      "size": 11999,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EduWit-Dev/EduWit-1.1.2.zip",
+      "size": 27501,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -96855,6 +96869,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-04-26T04:19:55Z",
       "download_url": "https://github.com/cakraawijaya/ESP_FC28.git"
+    },
+    {
+      "repository_name": "Deric-03/Esp_Lite_Core",
+      "repository_url": "https://github.com/Deric-03/Esp_Lite_Core",
+      "name": "Esp_Lite_Core",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-15T16:02:48.133Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T16:02:48.133Z",
+      "last_seen_sha": "07c87c6acc09",
+      "author": "Cedric",
+      "maintainer": "Cedric <dijix.4d@gmail.com>",
+      "sentence": "Socle commun aux bibliotheques Qt_Lite_Esp et Control_Led_Bus : journal de debug et verrou RAII.",
+      "paragraph": "Debug tient un journal circulaire en RAM avec sortie serie activable et persistante (Preferences), consultable ligne par ligne pour affichage a l'ecran. MutexLock est un verrou RAII sur un SemaphoreHandle_t FreeRTOS. Regroupes ici pour qu'une seule definition de ces classes existe, quelle que soit la combinaison de bibliotheques utilisee.",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Deric-03/Esp_Lite_Core-1.0.0.zip",
+      "size": 5236,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-15T13:18:16Z"
     },
     {
       "repository_name": "CMakerA/ESP_LM35",
@@ -107340,7 +107383,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -107401,11 +107444,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-09-13T00:07:37.565Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-09-15T16:02:48.133Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "34d17eb507b3",
+      "last_seen_sha": "3a2d00b017b8",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -107414,9 +107461,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.3.0.zip",
-      "size": 822543,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.4.0.zip",
+      "size": 976592,
+      "previous_version": "2.3.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -227102,6 +227149,35 @@
       "download_url": "https://github.com/gpb01/R4SwRTC"
     },
     {
+      "repository_name": "nahomyirga787-spec/R558S",
+      "repository_url": "https://github.com/nahomyirga787-spec/R558S",
+      "name": "R558S",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-15T16:02:48.133Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T16:02:48.133Z",
+      "last_seen_sha": "e9cc5f89152f",
+      "author": "Nahom Yirga",
+      "maintainer": "Nahom Yirga",
+      "sentence": "Arduino library for R558S fingerprint sensors.",
+      "paragraph": "Provides fingerprint image capture, feature extraction, template creation, storage, identification, deletion, database clearing, LED control, and finger detection for R558S fingerprint modules.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nahomyirga787-spec/R558S-1.0.0.zip",
+      "size": 10274,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-15T13:46:48Z"
+    },
+    {
       "repository_name": "r89m/Button",
       "repository_url": "https://github.com/r89m/Button",
       "name": "r89m Buttons",
@@ -321638,7 +321714,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9768,
+    "with_github_metadata": 9770,
     "total_dependencies": 5406
   }
 }

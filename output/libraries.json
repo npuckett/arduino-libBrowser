@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-15T07:04:33.027Z",
+  "enhanced_at": "2026-09-15T08:03:30.444Z",
   "total_libraries": 9971,
-  "index_etag": "W/\"2470eca8a7f4d4d652daf389094fb918\"",
-  "index_last_modified": "Tue, 15 Sep 2026 06:59:12 GMT",
+  "index_etag": "W/\"c8bc35873eeb666f19313a009701827d\"",
+  "index_last_modified": "Tue, 15 Sep 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -54381,7 +54381,7 @@
       "repository_name": "matthias-bs/BresserWeatherSensorReceiver",
       "repository_url": "https://github.com/matthias-bs/BresserWeatherSensorReceiver",
       "name": "BresserWeatherSensorReceiver",
-      "version": "0.42.0",
+      "version": "0.43.0",
       "version_history": [
         {
           "version": "0.41.1",
@@ -54390,11 +54390,15 @@
         {
           "version": "0.42.0",
           "seen_at": "2026-08-26T18:33:09.434Z"
+        },
+        {
+          "version": "0.43.0",
+          "seen_at": "2026-09-15T08:03:30.292Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:38:01Z",
-      "last_seen_sha": "3b5bf7116adb",
+      "last_seen_sha": "3bdd31031efd",
       "author": "Matthias Prinke <matthias-bs@web.de>",
       "maintainer": "Matthias Prinke <matthias-bs@web.de>",
       "sentence": "Bresser 5-in-1/6-in-1/7-in-1 868 MHz Weather Sensor Radio Receiver for Arduino based on CC1101, SX1276/RFM95W, SX1262 or LR1121.",
@@ -54408,9 +54412,9 @@
       "depends": [
         "RadioLib"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/BresserWeatherSensorReceiver-0.42.0.zip",
-      "size": 2624766,
-      "previous_version": "0.41.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/BresserWeatherSensorReceiver-0.43.0.zip",
+      "size": 2624955,
+      "previous_version": "0.42.0",
       "github_stars": 181,
       "github_forks": 42,
       "github_language": "C++",
@@ -166497,7 +166501,7 @@
       "repository_name": "m5stack/M5Unit-RFID",
       "repository_url": "https://github.com/m5stack/M5Unit-RFID",
       "name": "M5Unit-RFID",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.0.2",
@@ -166506,14 +166510,19 @@
         {
           "version": "0.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-09-15T08:03:30.292Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-16T08:19:31Z",
-      "last_seen_sha": "cd2cd818cc0d",
+      "last_seen_sha": "8bdeb9186a41",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT RFID using M5UnitUnified",
+      "paragraph": "Supports WS1850S (UnitRFID2, SKU:U031-B) for 13.56MHz NFC and JRD-4035 (UnitUHF-RFID, SKU:U107) for UHF EPC Gen2 tags.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -166524,9 +166533,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RFID-0.1.0.zip",
-      "size": 150963,
-      "previous_version": "0.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RFID-0.2.0.zip",
+      "size": 338789,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -273162,7 +273171,7 @@
       "repository_name": "Embedded-Petal/Spell_IoT",
       "repository_url": "https://github.com/Embedded-Petal/Spell_IoT",
       "name": "Spell_IoT",
-      "version": "1.1.11",
+      "version": "1.1.12",
       "version_history": [
         {
           "version": "1.1.7",
@@ -273183,11 +273192,15 @@
         {
           "version": "1.1.11",
           "seen_at": "2026-09-12T12:03:14.232Z"
+        },
+        {
+          "version": "1.1.12",
+          "seen_at": "2026-09-15T08:03:30.292Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-04-10T07:41:31Z",
-      "last_seen_sha": "a6dde3835e0c",
+      "last_seen_sha": "c6a3c72010b4",
       "author": "M.Karthickraja",
       "maintainer": "M.Karthickraja <karthickraja.thepetal@gmail.com>",
       "sentence": "Spelliot library for ESP32 and ESP8266.",
@@ -273206,9 +273219,9 @@
         "TM16xx LEDs and Buttons",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Embedded-Petal/Spell_IoT-1.1.11.zip",
-      "size": 128268,
-      "previous_version": "1.1.10",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Embedded-Petal/Spell_IoT-1.1.12.zip",
+      "size": 132746,
+      "previous_version": "1.1.11",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

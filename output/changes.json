@@ -1,6 +1,149 @@
 {
-  "since": "2026-09-15T17:02:12.021Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-15T18:02:55.452Z",
+  "new_libraries": [
+    {
+      "repository_name": "Deric-03/Control_Led_Bus",
+      "repository_url": "https://github.com/Deric-03/Control_Led_Bus",
+      "name": "Control_Led_Bus",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-15T18:02:55.452Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T18:02:55.452Z",
+      "last_seen_sha": "c3ab5f21929d",
+      "author": "Cedric",
+      "maintainer": "Cedric <dijix.4d@gmail.com>",
+      "sentence": "Pilotage de rubans LED adressables (RMT) sur ESP32, depuis une source DMX / Art-Net ou en mode manuel.",
+      "paragraph": "StripLed pilote un ruban via RMT (show() non bloquant). CDmx et CArtnet recuperent les niveaux via DMX physique ou Art-Net, et StripDmx fait le lien entre une source (CSource) et plusieurs rubans avec lissage/snap/gamma. Le mode manuel (Preset, Effect, Select, ManualRender) joue couleurs fixes et effets sans source externe. esp_dmx est integre dans src/third_party, rien a installer a part.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Esp_Lite_Core"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Deric-03/Control_Led_Bus-1.0.1.zip",
+      "size": 154901,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-15T15:30:04Z"
+    },
+    {
+      "repository_name": "multiaxis/TempestTCode",
+      "repository_url": "https://github.com/multiaxis/TempestTCode",
+      "name": "TempestTCode",
+      "version": "0.4.2",
+      "version_history": [
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-09-15T18:02:55.452Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T18:02:55.452Z",
+      "last_seen_sha": "6302c5912f52",
+      "author": "TempestMAx",
+      "maintainer": "TempestMAx",
+      "sentence": "TCode protocol parser and multi-axis motion library for DIY stroker devices.",
+      "paragraph": "Implements TCode v0.4 command parsing, per-axis motion, and EEPROM/Preferences range save. Intended for OSR2, SR6, SSR1, SSR2 and other TCode-compatible firmware.",
+      "category": "Uncategorized",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/multiaxis/TempestTCode-0.4.2.zip",
+      "size": 18753,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-15T15:04:22Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "AJArnovitz/ArnoTek_HeartBeat",
+        "repository_url": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
+        "name": "ArnoTek_HeartBeat",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-14T18:03:01.072Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-15T16:02:48.133Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-09-15T18:02:55.452Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-14T18:03:01.072Z",
+        "last_seen_sha": "2f37e51b23a9",
+        "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+        "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+        "sentence": "Heartbeat utility for Arduino",
+        "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
+        "category": "Timing",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_HeartBeat-1.0.3.zip",
+        "size": 270680,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-14T13:30:02Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "hpsaturn/esp32s3-cam",
+        "repository_url": "https://github.com/hpsaturn/esp32s3-cam",
+        "name": "EspNowCam",
+        "version": "0.2.2",
+        "version_history": [
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-06-30T08:32:55Z"
+          },
+          {
+            "version": "0.2.2",
+            "seen_at": "2026-09-15T18:02:55.452Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:32:55Z",
+        "last_seen_sha": "412a9fd99fa8",
+        "author": "@hpsaturn",
+        "maintainer": "Antonio Vanegas <hpsaturn@gmail.com>",
+        "sentence": "ESPNowCam, a straightforward video streamer for popular ESP32Cam models, leveraging the ESPNow protocol. No need for IPs, routers, or credentials—keeping it simple! :D",
+        "paragraph": "ESPNowCam supports ESP32 Cameras for give an easy video streamer from popular ESP32Cam models and it uses ESPNow protocol. No IP, No routers, No credentials. It has broadcast and P2P support. **This library is for general purpose**, as it receives pointers to data, such as buffers, strings, images, or any byte-formatted content. This versatility allows you to transmit larger packages. Tested on ESP32S3 cameras. Please visit my ESP32 Telegram channel https://t.me/esp_es and ask any doubt.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "GPL-3.0-only",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/hpsaturn/EspNowCam-0.2.2.zip",
+        "size": 1352438,
+        "previous_version": "0.2.1",
+        "github_stars": 232,
+        "github_forks": 23,
+        "github_updated_at": "2026-06-30T01:16:11Z"
+      },
+      "old_version": "0.2.1",
+      "new_version": "0.2.2"
+    }
+  ],
   "removed_libraries": []
 }

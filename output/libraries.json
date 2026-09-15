@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-14T23:02:19.305Z",
-  "total_libraries": 9969,
-  "index_etag": "W/\"a412a088a1154fc331201d3576a45b4d\"",
-  "index_last_modified": "Mon, 14 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-15T00:06:57.314Z",
+  "total_libraries": 9970,
+  "index_etag": "W/\"e53e6fb78ff5c7ad0753af60ff7e0765\"",
+  "index_last_modified": "Mon, 14 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -79622,6 +79622,35 @@
       "github_forks": 2,
       "github_language": "C++",
       "github_updated_at": "2024-12-12T17:05:10Z"
+    },
+    {
+      "repository_name": "marcocarnut/DigiCDCFast",
+      "repository_url": "https://github.com/marcocarnut/DigiCDCFast",
+      "name": "DigiCDCFast",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-15T00:06:55.903Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-15T00:06:55.903Z",
+      "last_seen_sha": "02f96b4201e0",
+      "author": "Ihsan Kehribar and Digistump LLC (DigiCDC), OBJECTIVE DEVELOPMENT Software GmbH (V-USB), Marco Carnut",
+      "maintainer": "Marco Carnut <kikocarnut@gmail.com>",
+      "sentence": "USB CDC serial port for the Digispark (ATtiny85) and Digispark Pro, without the throughput limits and bugs of DigisparkCDC.",
+      "paragraph": "Fork of the DigisparkCDC library from the Digistump AVR core 1.7.5 with the same SerialUSB API. The original waits 5 ms after every byte written, 1 ms before every USB poll and sends a zero-length packet after every data packet, which caps output near 200 bytes/s; without them it reaches 8000 bytes/s. Also fixes receive stalls, lost data and flush(), keeps the host's line settings (baud()), and offers DigiCDCMedium.h with 2-byte packets for timing-sensitive sketches. Needs the Digistump AVR core. Tested on Linux (PC, Raspberry Pi); Windows refuses low-speed USB serial devices.",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/marcocarnut/DigiCDCFast-1.0.0.zip",
+      "size": 154184,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Assembly",
+      "github_updated_at": "2026-09-14T21:10:27Z"
     },
     {
       "repository_name": "ES-factory/DigiCombo",
@@ -321553,7 +321582,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9766,
+    "with_github_metadata": 9767,
     "total_dependencies": 5406
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-16T03:03:07.081Z",
-  "total_libraries": 9977,
-  "index_etag": "W/\"4e182d89fb024965b36fc9820cc64eb3\"",
-  "index_last_modified": "Wed, 16 Sep 2026 02:59:12 GMT",
+  "enhanced_at": "2026-09-16T04:02:54.394Z",
+  "total_libraries": 9978,
+  "index_etag": "W/\"94b188d48001144762c8b9db1b6130e1\"",
+  "index_last_modified": "Wed, 16 Sep 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22327,7 +22327,7 @@
       "repository_name": "Alteriom/painlessMesh",
       "repository_url": "https://github.com/Alteriom/painlessMesh",
       "name": "Alteriom PainlessMesh",
-      "version": "2.0.3",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.9.20",
@@ -22360,11 +22360,15 @@
         {
           "version": "2.0.3",
           "seen_at": "2026-09-12T14:02:11.454Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-09-16T04:02:52.896Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-04-30T08:24:18Z",
-      "last_seen_sha": "1d92c0fd8e4a",
+      "last_seen_sha": "fe33d5d46a1c",
       "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
       "maintainer": "Alteriom",
       "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
@@ -22379,9 +22383,9 @@
         "TaskScheduler",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.0.3.zip",
-      "size": 957936,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.1.0.zip",
+      "size": 987441,
+      "previous_version": "2.0.3",
       "github_stars": 9,
       "github_forks": 4,
       "github_language": "C++",
@@ -23330,7 +23334,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.168",
+      "version": "1.2.171",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23727,11 +23731,15 @@
         {
           "version": "1.2.168",
           "seen_at": "2026-09-16T02:03:39.000Z"
+        },
+        {
+          "version": "1.2.171",
+          "seen_at": "2026-09-16T04:02:52.896Z"
         }
       ],
-      "release_count": 99,
+      "release_count": 100,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "3e54f647d3dc",
+      "last_seen_sha": "c1d73b22133c",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23752,9 +23760,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.168.zip",
-      "size": 44567997,
-      "previous_version": "1.2.167",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.171.zip",
+      "size": 44570148,
+      "previous_version": "1.2.168",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -74552,6 +74560,38 @@
       "github_language": "C++",
       "github_updated_at": "2023-01-09T20:45:22Z",
       "download_url": "https://github.com/monkcs/devuino"
+    },
+    {
+      "repository_name": "uniot-outech/DexmodIoT",
+      "repository_url": "https://github.com/uniot-outech/DexmodIoT",
+      "name": "DexmodIoT",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-16T04:02:52.896Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-16T04:02:52.896Z",
+      "last_seen_sha": "64a91fcfb706",
+      "author": "Dexmod",
+      "maintainer": "Dexmod",
+      "sentence": "Connect ESP32 projects securely to Dexmod Remote IoT Monitoring.",
+      "paragraph": "Provides managed TLS trust, Wi-Fi and MQTT reconnection, Dexmod telemetry envelopes, message IDs, and a small metric builder for ESP32 projects.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uniot-outech/DexmodIoT-0.1.0.zip",
+      "size": 11214,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-16T00:48:17Z"
     },
     {
       "repository_name": "dezibot/dezibot",
@@ -321866,7 +321906,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9774,
-    "total_dependencies": 5409
+    "with_github_metadata": 9775,
+    "total_dependencies": 5410
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-16T19:02:16.630Z",
-  "total_libraries": 9984,
-  "index_etag": "W/\"adea05f0a5fa68b3b8d122dbf4a10fff\"",
-  "index_last_modified": "Wed, 16 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-16T20:03:18.862Z",
+  "total_libraries": 9985,
+  "index_etag": "W/\"14fb8a0890cf8d80d30bfda877a7c214\"",
+  "index_last_modified": "Wed, 16 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -317762,6 +317762,41 @@
       "github_updated_at": "2026-09-13T22:45:40Z"
     },
     {
+      "repository_name": "xewe-labs/xewe-library-os",
+      "repository_url": "https://github.com/xewe-labs/xewe-library-os",
+      "name": "XeWeOS",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-16T20:03:17.459Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-16T20:03:17.459Z",
+      "last_seen_sha": "dc328f7a6a87",
+      "author": "Maxim Dokukin",
+      "maintainer": "Maxim Dokukin",
+      "sentence": "Modular firmware base for ESP32: assemble plug-and-play modules with setup flows, persistence, and a CLI.",
+      "paragraph": "Core services (serial console, NVS, command executor, system) plus a Module base class. Other XeWe libraries plug in as modules declared in your sketch.",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "XeWeUtils",
+        "XeWeSerial",
+        "XeWeNvs",
+        "XeWeCli"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeOS-0.1.0.zip",
+      "size": 28381,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-14T18:15:44Z"
+    },
+    {
       "repository_name": "xewe-labs/xewe-library-serial",
       "repository_url": "https://github.com/xewe-labs/xewe-library-serial",
       "name": "XeWeSerial",
@@ -322154,7 +322189,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9781,
-    "total_dependencies": 5413
+    "with_github_metadata": 9782,
+    "total_dependencies": 5417
   }
 }

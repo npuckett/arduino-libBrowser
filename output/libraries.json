@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-16T11:02:39.953Z",
-  "total_libraries": 9979,
-  "index_etag": "W/\"d16c6cd11d1f559f74e25df96bbf00a2\"",
-  "index_last_modified": "Wed, 16 Sep 2026 10:59:12 GMT",
+  "enhanced_at": "2026-09-16T12:04:19.001Z",
+  "total_libraries": 9980,
+  "index_etag": "W/\"daa659a9bc6890abd1afa500d9b2aa75\"",
+  "index_last_modified": "Wed, 16 Sep 2026 11:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -199014,16 +199014,20 @@
       "repository_name": "decoded-cipher/nodrix-sdk",
       "repository_url": "https://github.com/decoded-cipher/nodrix-sdk",
       "name": "Nodrix",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-07-05T03:00:55.745Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-16T12:04:17.489Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-05T03:00:55.745Z",
-      "last_seen_sha": "a30f987f69a3",
+      "last_seen_sha": "38621a0df8d8",
       "author": "Arjun Krishna",
       "maintainer": "Arjun Krishna <arjun12345krishna@gmail.com>",
       "sentence": "Connect ESP32/ESP8266 hardware to Nodrix with a few lines of code.",
@@ -199037,8 +199041,9 @@
         "ArduinoJson",
         "WebSockets"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.0.zip",
-      "size": 16493,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.1.zip",
+      "size": 18323,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -206503,6 +206508,40 @@
       "license": "MIT",
       "download_url": "https://otahub.dev",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "TimothyFran/OtamaticClient",
+      "repository_url": "https://github.com/TimothyFran/OtamaticClient",
+      "name": "OtamaticClient",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-16T12:04:17.489Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-16T12:04:17.489Z",
+      "last_seen_sha": "330cdf1f541b",
+      "author": "Timothy Franceschi",
+      "maintainer": "Timothy Franceschi <timothy@franceschi.es>",
+      "sentence": "Automatic Remote OTA Client for ESP32.",
+      "paragraph": "This library allows you to perform managed OTA updates on ESP32 devices through the Otamatic platform.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Update",
+        "ArduinoJson",
+        "StreamUtils"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TimothyFran/OtamaticClient-0.1.0.zip",
+      "size": 23589,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-16T11:21:26Z"
     },
     {
       "repository_name": "raghulrajg/OTAUpdateManager",
@@ -306228,7 +306267,7 @@
       "repository_name": "pbosetti/ArduinoDriver",
       "repository_url": "https://github.com/pbosetti/ArduinoDriver",
       "name": "UsbIo",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -306241,11 +306280,15 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-09-10T18:03:23.665Z"
+        },
+        {
+          "version": "0.2.2",
+          "seen_at": "2026-09-16T12:04:17.489Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-03T08:03:34.165Z",
-      "last_seen_sha": "09eb47ebf080",
+      "last_seen_sha": "b2e1bb737449",
       "author": "Paolo Bosetti",
       "maintainer": "Paolo Bosetti <paolo.bosetti@me.com>",
       "sentence": "Turns the board into a USB vendor-class I/O device (digital I/O, analog in, PWM, DAC) driven by a libusb host driver.",
@@ -306261,9 +306304,9 @@
         "rp2040",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pbosetti/UsbIo-0.2.1.zip",
-      "size": 180413,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pbosetti/UsbIo-0.2.2.zip",
+      "size": 181054,
+      "previous_version": "0.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -321954,7 +321997,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9776,
-    "total_dependencies": 5410
+    "with_github_metadata": 9777,
+    "total_dependencies": 5413
   }
 }

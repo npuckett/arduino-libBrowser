@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-16T09:03:34.627Z",
-  "total_libraries": 9978,
-  "index_etag": "W/\"2f3eb27e9256d25dc43de87be78877e9\"",
-  "index_last_modified": "Wed, 16 Sep 2026 08:59:12 GMT",
+  "enhanced_at": "2026-09-16T10:02:47.869Z",
+  "total_libraries": 9979,
+  "index_etag": "W/\"d16c6cd11d1f559f74e25df96bbf00a2\"",
+  "index_last_modified": "Wed, 16 Sep 2026 09:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -188311,29 +188311,35 @@
       "repository_name": "Zefek/MQTTESP8266",
       "repository_url": "https://github.com/Zefek/MQTTESP8266",
       "name": "MQTTESP8266",
-      "version": "6.1.0",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "6.1.0",
           "seen_at": "2026-06-26T08:53:13Z"
+        },
+        {
+          "version": "7.0.0",
+          "seen_at": "2026-09-16T10:02:46.331Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-26T08:53:13Z",
-      "last_seen_sha": "a159482ffd99",
+      "last_seen_sha": "0ef2f573e640",
       "author": "Petr B.",
       "maintainer": "Petr B.",
-      "sentence": "Lightweight MQTT client library for Arduino using ESP8266 AT command firmware.",
-      "paragraph": "Provides an MQTT client for Arduino boards communicating with ESP8266 modules via AT commands. Supports MQTT 3.1/3.1.1, publish/subscribe, QoS 0/1, and WiFi reconnection. Designed for resource-constrained devices.",
+      "sentence": "Lightweight MQTT client library for Arduino using ESP8266 or ESP32 AT command firmware.",
+      "paragraph": "Provides an MQTT client for Arduino boards communicating with ESP8266 or ESP32 modules via AT commands. Supports MQTT 3.1/3.1.1, publish/subscribe, QoS 0/1, and WiFi reconnection. Designed for resource-constrained devices.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.0.zip",
+      "size": 67693,
+      "previous_version": "6.1.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-06-25T09:01:44Z",
-      "download_url": "https://github.com/Zefek/MQTTESP8266",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-25T09:01:44Z"
     },
     {
       "repository_name": "androbi-com/MqttLogger",
@@ -262731,6 +262737,35 @@
       "github_updated_at": "2026-07-29T12:14:26Z"
     },
     {
+      "repository_name": "SolderedElectronics/Soldered-BME690-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/Soldered-BME690-Arduino-Library",
+      "name": "Soldered BME690 Arduino Library",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-16T10:02:46.331Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-16T10:02:46.331Z",
+      "last_seen_sha": "3632fe1b61ea",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Arduino library for the Soldered BME690 temperature, humidity, pressure and gas sensor breakout board.",
+      "paragraph": "I2C only wrapper around the official Bosch BME69x Sensor API. Supports forced, parallel and sequential mode, heater profiles and the built-in self test.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_BME690_Arduino_Library-1.0.0.zip",
+      "size": 60325,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-16T06:34:25Z"
+    },
+    {
       "repository_name": "SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
       "repository_url": "https://github.com/SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
       "name": "Soldered BMP180 Arduino Library",
@@ -321919,7 +321954,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9775,
+    "with_github_metadata": 9776,
     "total_dependencies": 5410
   }
 }

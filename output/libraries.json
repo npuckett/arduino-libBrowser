@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-16T21:02:31.298Z",
-  "total_libraries": 9985,
-  "index_etag": "W/\"14fb8a0890cf8d80d30bfda877a7c214\"",
-  "index_last_modified": "Wed, 16 Sep 2026 20:59:12 GMT",
+  "enhanced_at": "2026-09-16T22:02:23.757Z",
+  "total_libraries": 9986,
+  "index_etag": "W/\"32fa412f26b0c911b07ac88b1845767d\"",
+  "index_last_modified": "Wed, 16 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -9692,7 +9692,7 @@
       "repository_name": "adafruit/Adafruit_GPS",
       "repository_url": "https://github.com/adafruit/Adafruit_GPS",
       "name": "Adafruit GPS Library",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "version_history": [
         {
           "version": "1.7.5",
@@ -9705,11 +9705,15 @@
         {
           "version": "1.8.0",
           "seen_at": "2026-09-15T20:02:42.795Z"
+        },
+        {
+          "version": "1.9.0",
+          "seen_at": "2026-09-16T22:02:22.244Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-11T08:37:34Z",
-      "last_seen_sha": "c53fa11d46aa",
+      "last_seen_sha": "00fbe9a3ca90",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "An interrupt-based GPS library for no-parsing-required use",
@@ -9718,9 +9722,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GPS_Library-1.8.0.zip",
-      "size": 94669,
-      "previous_version": "1.7.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GPS_Library-1.9.0.zip",
+      "size": 161007,
+      "previous_version": "1.8.0",
       "github_stars": 498,
       "github_forks": 316,
       "github_language": "C++",
@@ -95611,6 +95615,36 @@
       "github_updated_at": "2026-01-14T11:58:03Z"
     },
     {
+      "repository_name": "yu911517778-a11y/ErdiLRF",
+      "repository_url": "https://github.com/yu911517778-a11y/ErdiLRF",
+      "name": "ErdiLRF",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-16T22:02:22.244Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-16T22:02:22.244Z",
+      "last_seen_sha": "4dec712a883c",
+      "author": "ERDI TECH LTD <tommy@erdimail.com>",
+      "maintainer": "ERDI TECH LTD <tommy@erdimail.com>",
+      "sentence": "Driver for ERDI 905 nm laser rangefinder modules (LR/LRF-A1/SPD1200/LRF-H/LRF-VB series) over UART.",
+      "paragraph": "Supports both published ERDI protocol families: the 8-byte 55 AA command/response protocol (LR1000/1200/1500/2000 E-series, LRF1200A1, LRF3000A1, SPD1200 series) and the free-running 5C data-frame protocol (LRF-H and LRF-VB series). Works with HardwareSerial or SoftwareSerial. Every constant is transcribed from the manufacturer manual; per-model units are respected (the VB series reports millimetres, the H series centimetres).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/yu911517778-a11y/ErdiLRF-0.1.0.zip",
+      "size": 15963,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-16T18:19:21Z"
+    },
+    {
       "repository_name": "septentrio-gnss/Septentrio_Arduino_library",
       "repository_url": "https://github.com/septentrio-gnss/Septentrio_Arduino_library",
       "name": "Eridano-Septentrio",
@@ -107547,7 +107581,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -107612,22 +107646,26 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-09-15T16:02:48.133Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-09-16T22:02:22.244Z"
         }
       ],
-      "release_count": 16,
+      "release_count": 17,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "3a2d00b017b8",
+      "last_seen_sha": "6ae1485c66f8",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio, and multi-function composite devices for ESP32 Arduino sketches.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio, a USB Video (UVC) camera, and multi-function composite devices for ESP32 Arduino sketches.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.4.0.zip",
-      "size": 976592,
-      "previous_version": "2.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.5.0.zip",
+      "size": 1046043,
+      "previous_version": "2.4.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -128487,7 +128525,7 @@
       "repository_name": "GyverLibs/GyverMenu",
       "repository_url": "https://github.com/GyverLibs/GyverMenu",
       "name": "GyverMenu",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -128496,11 +128534,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-07-11T20:15:23.120Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-16T22:02:22.244Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-11-29T07:22:07Z",
-      "last_seen_sha": "d23df1d7839f",
+      "last_seen_sha": "1dddaffb0e67",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Dynamic menu system for Arduino",
@@ -128512,9 +128554,9 @@
       "depends": [
         "StringN"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.0.2.zip",
-      "size": 37712,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.0.zip",
+      "size": 51619,
+      "previous_version": "1.0.2",
       "github_stars": 16,
       "github_forks": 3,
       "github_language": "C++",
@@ -322189,7 +322231,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9782,
+    "with_github_metadata": 9783,
     "total_dependencies": 5417
   }
 }

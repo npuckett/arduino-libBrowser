@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-17T19:02:13.292Z",
+  "enhanced_at": "2026-09-17T20:02:42.706Z",
   "total_libraries": 9988,
-  "index_etag": "W/\"5cb4d495e9e02aea52b665d8154dc9a0\"",
-  "index_last_modified": "Thu, 17 Sep 2026 18:59:12 GMT",
+  "index_etag": "W/\"1ae2210b597dccf82b5dc64052fa7cb9\"",
+  "index_last_modified": "Thu, 17 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -92051,7 +92051,7 @@
       "repository_name": "prj-electins/ElectinsIoT",
       "repository_url": "https://github.com/prj-electins/ElectinsIoT",
       "name": "ElectinsIoT",
-      "version": "3.0.5",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -92084,23 +92084,27 @@
         {
           "version": "3.0.5",
           "seen_at": "2026-09-03T16:03:01.753Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-09-17T20:02:42.605Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-04-29T08:23:25Z",
-      "last_seen_sha": "02e22de40b31",
+      "last_seen_sha": "e1b59b6bb772",
       "author": "Nash <support@electins.id>",
       "maintainer": "Nash <support@electins.id>",
-      "sentence": "Zero-dependency async TCP and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
-      "paragraph": "Built-in lightweight TCP connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi and TCP server auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, and automatic device ID generation via MAC address.",
+      "sentence": "Zero-dependency async TCP, WebSocket WSS, and Protobuf library for ESP32 and ESP8266. One call in setup(), nothing in loop().",
+      "paragraph": "Built-in lightweight TCP & WebSocket WSS connection engine and inline Protobuf serializer (no external libraries required). Uses WiFiClient/WiFiClientSecure from the ESP32/ESP8266 SDK. Single-owner socket engine driven from a dedicated FreeRTOS task (ESP32) or scheduled function (ESP8266) with a thread-safe outbox — no socket access from timer/ISR or WiFi-event contexts, eliminating race conditions. Automatic online/offline status, heartbeat, WiFi, TCP, and WebSocket auto-reconnect. Supports per-parameter command callbacks, TLS/SSL, WSS port 443, and automatic device ID generation via MAC address.",
       "category": "Communication",
       "architectures": [
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.0.5.zip",
-      "size": 32030,
-      "previous_version": "3.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/prj-electins/ElectinsIoT-3.1.0.zip",
+      "size": 36739,
+      "previous_version": "3.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -119478,7 +119482,7 @@
       "repository_name": "Benas09/FujitsuAC",
       "repository_url": "https://github.com/Benas09/FujitsuAC",
       "name": "FujitsuAC",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "version_history": [
         {
           "version": "1.3.16",
@@ -119519,11 +119523,15 @@
         {
           "version": "1.4.6",
           "seen_at": "2026-09-10T06:04:35.614Z"
+        },
+        {
+          "version": "1.4.7",
+          "seen_at": "2026-09-17T20:02:42.605Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-06-30T08:56:08Z",
-      "last_seen_sha": "9f0d5e9900d7",
+      "last_seen_sha": "9edff9bbbe55",
       "author": "Benas09 <benas.rag@gmail.com>",
       "maintainer": "Benas09 <benas.rag@gmail.com>",
       "sentence": "Allows ESP32 boards to control FujitsuAC's.",
@@ -119532,9 +119540,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.6.zip",
-      "size": 33099132,
-      "previous_version": "1.4.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.7.zip",
+      "size": 33104131,
+      "previous_version": "1.4.6",
       "github_stars": 70,
       "github_forks": 13,
       "github_language": "C++",

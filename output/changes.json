@@ -1,6 +1,53 @@
 {
-  "since": "2026-09-16T23:02:09.948Z",
+  "since": "2026-09-17T00:06:05.903Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sauloverissimo/ESP32_Host_MIDI",
+        "repository_url": "https://github.com/sauloverissimo/ESP32_Host_MIDI",
+        "name": "ESP32_Host_MIDI",
+        "version": "7.3.0",
+        "version_history": [
+          {
+            "version": "7.0.0",
+            "seen_at": "2026-06-30T08:55:00Z"
+          },
+          {
+            "version": "7.1.0",
+            "seen_at": "2026-07-30T16:29:03.361Z"
+          },
+          {
+            "version": "7.2.0",
+            "seen_at": "2026-08-01T04:13:20.299Z"
+          },
+          {
+            "version": "7.3.0",
+            "seen_at": "2026-09-17T00:06:05.903Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:55:00Z",
+        "last_seen_sha": "ba2269f2da66",
+        "author": "sauloverissimo",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "MIDI hub for ESP32: USB Host, BLE, Apple MIDI/WiFi, OSC, Ethernet, UART/DIN-5, ESP-NOW.",
+        "paragraph": "Connect USB MIDI keyboards via USB Host OTG; receive BLE MIDI from iPhone, iPad, and iOS apps; bridge DAWs with Apple MIDI / RTP-MIDI over WiFi or Ethernet (W5500/P4); control Max/MSP and Pure Data via OSC; reach vintage DIN-5 synthesizers over serial UART; link ESP32 boards wirelessly with ESP-NOW. All transports share a single event queue and a unified send API; read the queue and resend to bridge one transport to another. Chord detection, active note tracking, PSRAM history, SysEx queue, thread-safe queue. Supports ESP32-S3, S2, P4, and classic ESP32. Arduino IDE, PlatformIO, ESP-IDF.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/ESP32_Host_MIDI-7.3.0.zip",
+        "size": 5788058,
+        "previous_version": "7.2.0",
+        "github_stars": 84,
+        "github_forks": 11,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T13:17:06Z"
+      },
+      "old_version": "7.2.0",
+      "new_version": "7.3.0"
+    }
+  ],
   "removed_libraries": []
 }

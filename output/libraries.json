@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-17T15:02:52.296Z",
+  "enhanced_at": "2026-09-17T16:03:23.226Z",
   "total_libraries": 9988,
-  "index_etag": "W/\"dd071ba382a1a54b6e49cd8725ad99ea\"",
-  "index_last_modified": "Thu, 17 Sep 2026 14:59:12 GMT",
+  "index_etag": "W/\"8b42e63bd65bbda946302aa2f0686db6\"",
+  "index_last_modified": "Thu, 17 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -29160,7 +29160,7 @@
       "repository_name": "arduino-libraries/Arduino_Modulino",
       "repository_url": "https://github.com/arduino-libraries/Arduino_Modulino",
       "name": "Arduino_Modulino",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "version_history": [
         {
           "version": "0.8.0",
@@ -29169,11 +29169,15 @@
         {
           "version": "0.9.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.9.1",
+          "seen_at": "2026-09-17T16:03:23.098Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-26T08:25:56Z",
-      "last_seen_sha": "cf2fee270d30",
+      "last_seen_sha": "d9fa998e5395",
       "author": "Arduino",
       "maintainer": "Arduino <info@arduino.cc>",
       "sentence": "Arduino Library for Modulinos",
@@ -29191,9 +29195,9 @@
         "ArduinoGraphics",
         "Arduino_LTR381RGB"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_Modulino-0.9.0.zip",
-      "size": 2092265,
-      "previous_version": "0.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_Modulino-0.9.1.zip",
+      "size": 2092439,
+      "previous_version": "0.9.0",
       "github_stars": 36,
       "github_forks": 25,
       "github_language": "C",
@@ -107692,7 +107696,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.9.4",
+      "version": "2.10.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -107809,11 +107813,15 @@
         {
           "version": "2.9.4",
           "seen_at": "2026-09-16T16:03:40.707Z"
+        },
+        {
+          "version": "2.10.0",
+          "seen_at": "2026-09-17T16:03:23.098Z"
         }
       ],
-      "release_count": 29,
+      "release_count": 30,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "22341cb7c3ef",
+      "last_seen_sha": "e686a88ac896",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -107822,9 +107830,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.9.4.zip",
-      "size": 1370564,
-      "previous_version": "2.9.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.10.0.zip",
+      "size": 1421984,
+      "previous_version": "2.9.4",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -289191,26 +289199,31 @@
       "repository_name": "multiaxis/TempestTCode",
       "repository_url": "https://github.com/multiaxis/TempestTCode",
       "name": "TempestTCode",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "version_history": [
         {
           "version": "0.4.2",
           "seen_at": "2026-09-15T18:02:55.452Z"
+        },
+        {
+          "version": "0.4.3",
+          "seen_at": "2026-09-17T16:03:23.098Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-15T18:02:55.452Z",
-      "last_seen_sha": "6302c5912f52",
+      "last_seen_sha": "e17816e4c30d",
       "author": "TempestMAx",
       "maintainer": "TempestMAx",
       "sentence": "TCode protocol parser and multi-axis motion library for DIY stroker devices.",
       "paragraph": "Implements TCode v0.4 command parsing, per-axis motion, and EEPROM/Preferences range save. Intended for OSR2, SR6, SSR1, SSR2 and other TCode-compatible firmware.",
-      "category": "Uncategorized",
+      "category": "Device Control",
       "architectures": [
-        "esp32"
+        "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/multiaxis/TempestTCode-0.4.2.zip",
-      "size": 18753,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/multiaxis/TempestTCode-0.4.3.zip",
+      "size": 25449,
+      "previous_version": "0.4.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

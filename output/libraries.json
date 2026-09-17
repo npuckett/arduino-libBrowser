@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-17T21:02:25.958Z",
+  "enhanced_at": "2026-09-17T22:02:27.189Z",
   "total_libraries": 9988,
-  "index_etag": "W/\"1ae2210b597dccf82b5dc64052fa7cb9\"",
-  "index_last_modified": "Thu, 17 Sep 2026 20:59:12 GMT",
+  "index_etag": "W/\"fa9fdd8c1739d2706bf5a1fdda93f1c7\"",
+  "index_last_modified": "Thu, 17 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -67047,7 +67047,7 @@
       "repository_name": "FMazz97/CS123x",
       "repository_url": "https://github.com/FMazz97/CS123x",
       "name": "CS123x",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -67068,11 +67068,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-27T11:17:33.135Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-17T22:02:27.060Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-08-18T10:05:32.941Z",
-      "last_seen_sha": "0fe5cde70803",
+      "last_seen_sha": "e7d88c210f15",
       "author": "FMazz97",
       "maintainer": "FMazz97",
       "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit differential ADCs (load cells, weight scales, bridge sensors).",
@@ -67081,9 +67085,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-1.1.0.zip",
-      "size": 4550382,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.0.zip",
+      "size": 4597188,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -100874,7 +100878,7 @@
       "repository_name": "lemmingDev/ESP32-BLE-Gamepad",
       "repository_url": "https://github.com/lemmingDev/ESP32-BLE-Gamepad",
       "name": "ESP32-BLE-Gamepad",
-      "version": "0.7.5-rc0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.7.4",
@@ -100887,11 +100891,15 @@
         {
           "version": "0.7.5-rc0",
           "seen_at": "2026-08-27T15:35:30.352Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-09-17T22:02:27.060Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T08:58:14Z",
-      "last_seen_sha": "82b776b84ddb",
+      "last_seen_sha": "625cfae5bb24",
       "author": "lemmingDev",
       "maintainer": "lemmingDev",
       "sentence": "Bluetooth LE Gamepad library for the ESP32.",
@@ -100903,9 +100911,9 @@
       "depends": [
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/lemmingDev/ESP32_BLE_Gamepad-0.7.5-rc0.zip",
-      "size": 97463,
-      "previous_version": "0.7.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lemmingDev/ESP32_BLE_Gamepad-0.8.0.zip",
+      "size": 276676,
+      "previous_version": "0.7.5-rc0",
       "github_stars": 1543,
       "github_forks": 250,
       "github_language": "C++",
@@ -239137,29 +239145,35 @@
       "repository_name": "RobTillaart/RS485",
       "repository_url": "https://github.com/RobTillaart/RS485",
       "name": "RS485",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "version_history": [
         {
           "version": "0.5.3",
           "seen_at": "2026-05-19T08:40:55Z"
+        },
+        {
+          "version": "0.5.4",
+          "seen_at": "2026-09-17T22:02:27.060Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-19T08:40:55Z",
-      "last_seen_sha": "679e9e4690f4",
+      "last_seen_sha": "fa54d4d59c3c",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
-      "sentence": "RS485 library for Arduino.",
+      "sentence": "Arduino library for RS485 modules.",
       "paragraph": "MAX485,",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/RS485-0.5.4.zip",
+      "size": 33004,
+      "previous_version": "0.5.3",
       "github_stars": 50,
       "github_forks": 8,
       "github_language": "C++",
-      "github_updated_at": "2026-05-18T20:03:41Z",
-      "download_url": "https://github.com/RobTillaart/RS485"
+      "github_updated_at": "2026-05-18T20:03:41Z"
     },
     {
       "repository_name": "asukiaaa/arduino-rs485",
@@ -265477,7 +265491,7 @@
       "repository_name": "forgevolt/SoundEngine",
       "repository_url": "https://github.com/forgevolt/SoundEngine",
       "name": "SoundEngine",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -265486,23 +265500,27 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-08-10T20:11:48.760Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-17T22:02:27.060Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-05T18:28:57.800Z",
-      "last_seen_sha": "8b719a5ca0f5",
+      "last_seen_sha": "045919e692bb",
       "author": "Christoph Streit <christoph.streit@gmail.com>",
       "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
       "sentence": "Play short WAV sound effects on an ESP32 through an I2S DAC.",
-      "paragraph": "Mixes any number of 16-bit PCM clips embedded in flash and streams them to an I2S amplifier from its own background task, so playback never blocks the sketch. Clips carry their own volume and can repeat; a master gain sits on top. Three sounds are built in and three more ship ready to include.",
+      "paragraph": "Mixes any number of 16-bit PCM clips and streams them to an I2S amplifier from its own background task, so playback never blocks the sketch. Clips carry their own volume and can repeat; a master gain sits on top. Sounds can be embedded in flash or read from LittleFS, FFat or SD (PSRAM needed for those); tones and melodies are generated with no file at all. Three sounds are built in and three more ship ready to include.",
       "category": "Signal Input/Output",
       "architectures": [
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.0.1.zip",
-      "size": 569345,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.1.0.zip",
+      "size": 573357,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

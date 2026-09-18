@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-18T11:03:36.374Z",
+  "enhanced_at": "2026-09-18T12:03:39.539Z",
   "total_libraries": 9989,
-  "index_etag": "W/\"d48d97c7363f6cc6f00e5d4710833cad\"",
-  "index_last_modified": "Fri, 18 Sep 2026 10:59:12 GMT",
+  "index_etag": "W/\"5e11aa5e8bfc9f88658960444ee9db84\"",
+  "index_last_modified": "Fri, 18 Sep 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25621,20 +25621,24 @@
       "repository_name": "apadevices/APAPHX2_ADS1115",
       "repository_url": "https://github.com/apadevices/APAPHX2_ADS1115",
       "name": "APAPHX2_ADS1115",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-04-23T07:38:56Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-18T12:03:39.422Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-23T07:38:56Z",
-      "last_seen_sha": "c21f66b792b3",
+      "last_seen_sha": "1acb7fd38e2b",
       "author": "APADevices <kecup@vazac.eu>",
       "maintainer": "APADevices <kecup@vazac.eu>",
       "sentence": "pH and ORP/RX measurement library for APADevices PHX v2 board using ADS1115 16-bit ADC.",
-      "paragraph": "Non-blocking state machine design with two-point calibration, EEPROM persistence, temperature compensation (Pasco 2001), rolling average filter, message callback for LCD/Serial, and compile-time debug system. Zero heap allocation after begin() — AVR safe. Supports AVR, ESP8266, ESP32 and STM32 (STM32duino).",
+      "paragraph": "Non-blocking state machine design with two-point calibration, EEPROM persistence, temperature compensation (Pasco 2001), rolling average filter, message callback for LCD/Serial, tick callback for external watchdog feeding during calibration's blocking waits, and compile-time debug system. Zero heap allocation after begin() — AVR safe. Supports AVR, ESP8266, ESP32 and STM32 (STM32duino).",
       "category": "Sensors",
       "architectures": [
         "avr",
@@ -25642,11 +25646,13 @@
         "esp32",
         "stm32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APAPHX2_ADS1115-1.2.0.zip",
+      "size": 2873653,
+      "previous_version": "1.1.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-04-22T12:16:16Z",
-      "download_url": "https://github.com/apadevices/APAPHX2_ADS1115"
+      "github_updated_at": "2026-04-22T12:16:16Z"
     },
     {
       "repository_name": "Enzo-Coutinho/APDS-9151",
@@ -116865,26 +116871,31 @@
       "repository_name": "Tunasha/FlowSensorLib",
       "repository_url": "https://github.com/Tunasha/FlowSensorLib",
       "name": "FlowSensorLib",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-16T16:03:40.707Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-18T12:03:39.422Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-16T16:03:40.707Z",
-      "last_seen_sha": "7fefcd597ce9",
-      "author": "Babatunde Adegoke",
-      "maintainer": "Babatunde Adegoke <tunashapcb@gmail.com>",
+      "last_seen_sha": "57c2dd5b4886",
+      "author": "Tunasha,Babatunde Adg",
+      "maintainer": "Babatunde Adg <tunashapcb@gmail.com>",
       "sentence": "Reads the amount of liquid that flows through a flow sensor.",
       "paragraph": "This library provides non-blocking class that counts pulses from a hall-effect flow sensor, converts them to flow rate (L/min) and accumulated volume (L). Works with any pulse-output flow meter.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/FlowSensorLib-1.0.0.zip",
-      "size": 625103,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/FlowSensorLib-1.0.2.zip",
+      "size": 625193,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -124692,7 +124703,7 @@
       "repository_name": "GroeiAcademie/GroeiAcademie",
       "repository_url": "https://github.com/GroeiAcademie/GroeiAcademie",
       "name": "GroeiAcademie FrameWork",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -124709,11 +124720,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-08-25T18:06:16.764Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-09-18T12:03:39.422Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-08-01T08:43:24.404Z",
-      "last_seen_sha": "0ed5a99d8ffa",
+      "last_seen_sha": "d64c6e4404f2",
       "author": "Alex Peeters, GROEI ACADEMIE BV",
       "maintainer": "Alex Peeters <info@groeiacademie.be>",
       "sentence": "GroeiAcademie FrameWork als Arduino-librarypakket voor de toepassingen en systemen van GROEI ACADEMIE BV.",
@@ -124735,9 +124750,9 @@
         "PCF8574",
         "IRremote"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie_FrameWork-1.1.1.zip",
-      "size": 10564160,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GroeiAcademie/GroeiAcademie_FrameWork-1.1.2.zip",
+      "size": 18905701,
+      "previous_version": "1.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -219947,26 +219962,31 @@
       "repository_name": "Tunasha/PressureSensorLib",
       "repository_url": "https://github.com/Tunasha/PressureSensorLib",
       "name": "PressureSensorLib",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-16T14:02:45.911Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-18T12:03:39.422Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-16T14:02:45.911Z",
-      "last_seen_sha": "b099c3c8137f",
-      "author": "Babatunde Adegoke",
-      "maintainer": "Babatunde Adegoke <tunashapcb@gmail.com>",
+      "last_seen_sha": "9166388c074c",
+      "author": "Tunasha,Babatunde Adg",
+      "maintainer": "Babatunde Adg <tunashapcb@gmail.com>",
       "sentence": "Arduino library for interfacing with hydrostatic pressure sensor.",
-      "paragraph": "Calculates liquid level in a tank.",
+      "paragraph": "Handles voltage and current conversions for 4-20mA or 0-10V pressure transducers. Supports configurable pressure ranges and sample averaging.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/PressureSensorLib-1.0.0.zip",
-      "size": 23816,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/PressureSensorLib-1.0.1.zip",
+      "size": 23929,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -284776,7 +284796,7 @@
       "repository_name": "Sierrastdio/SWP2P",
       "repository_url": "https://github.com/Sierrastdio/SWP2P",
       "name": "SWP2P",
-      "version": "0.0.5",
+      "version": "0.1.5",
       "version_history": [
         {
           "version": "0.0.0",
@@ -284789,11 +284809,15 @@
         {
           "version": "0.0.5",
           "seen_at": "2026-09-17T08:03:59.436Z"
+        },
+        {
+          "version": "0.1.5",
+          "seen_at": "2026-09-18T12:03:39.422Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-01T16:24:13.161Z",
-      "last_seen_sha": "6f42b636ab7f",
+      "last_seen_sha": "9226f5c374fe",
       "author": "Sierrastdio",
       "maintainer": "Sierrastdio",
       "sentence": "A custom software-based peer-to-peer communication library for Arduino.",
@@ -284802,9 +284826,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sierrastdio/SWP2P-0.0.5.zip",
-      "size": 28437,
-      "previous_version": "0.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sierrastdio/SWP2P-0.1.5.zip",
+      "size": 32221,
+      "previous_version": "0.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

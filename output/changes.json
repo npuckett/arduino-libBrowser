@@ -1,6 +1,273 @@
 {
-  "since": "2026-09-18T13:02:10.252Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-18T14:02:47.938Z",
+  "new_libraries": [
+    {
+      "repository_name": "skr-electronics-lab/groq-stt",
+      "repository_url": "https://github.com/skr-electronics-lab/groq-stt",
+      "name": "groq_stt",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T14:02:47.938Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-18T14:02:47.938Z",
+      "last_seen_sha": "15b42b67a328",
+      "author": "Sk Raihan",
+      "maintainer": "SKR Electronics Lab <skrelectronicslab@gmail.com>",
+      "sentence": "Speech-to-text for ESP32/ESP32-S3 using Groq's ultra-fast Whisper API.",
+      "paragraph": "Streaming voice recognition library for ESP32 and ESP32-S3 with INMP441 I2S microphones. Records and uploads simultaneously (no PSRAM or audio buffering needed), with built-in filtering, silence detection, opt-in voice-activity detection for hands-free auto-stop, blocking and non-blocking APIs, file/buffer transcription, translation and verbose JSON output with segment timestamps. Works with Arduino IDE and PlatformIO.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/skr-electronics-lab/groq_stt-1.0.0.zip",
+      "size": 42524,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-18T10:00:41Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "moononournation/Arduino_GFX",
+        "repository_url": "https://github.com/moononournation/Arduino_GFX",
+        "name": "GFX Library for Arduino",
+        "version": "1.6.8",
+        "version_history": [
+          {
+            "version": "1.6.6",
+            "seen_at": "2026-06-29T09:01:30Z"
+          },
+          {
+            "version": "1.6.6",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.6.7",
+            "seen_at": "2026-07-18T06:35:47.080Z"
+          },
+          {
+            "version": "1.6.8",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-29T09:01:30Z",
+        "last_seen_sha": "af3c9185994b",
+        "author": "Moon On Our Nation <moononournation@gmail.com>",
+        "maintainer": "Moon On Our Nation <moononournation@gmail.com>",
+        "sentence": "Arduino_GFX is a GFX library for various color displays with various data bus interfaces",
+        "paragraph": "Arduino_GFX is a Arduino graphics library. Currently support GC9A01 round display, GC9106, GC9107, HX8347C, HX8347D, HX8352C, HX8357A, HX8357B, HX8369A, ILI6122, ILI9225, ILI9331, ILI9341, ILI9342(M5Stack, ESP32-S3-BOX), ILI9481, ILI9486, ILI9488, ILI9806, JBT6K71, NT35310, NT35510, NT39125, NV3041A, OTM8009A, R61529, RM67162, SEPS525, SSD1283A, SSD1331, SSD1351, ST7735, ST7789, ST7796 and virtually all Raspberry Pi DPI (RGB) display. Tested RGB display: GC9503V, ILI6485, ST7262, ST7701. Currently support software SPI (8-bit and 9-bit), hardware SPI (8-bit, ESP32 also support 9-bit), 8-bit parallel interface(AVR, ESP32, RPi Pico, RTL8720, STM32), 16-bit parallel interface(ESP32 and RPi Pico) and RGB Panel interface(ESP32S3).",
+        "category": "Display",
+        "architectures": [],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/moononournation/GFX_Library_for_Arduino-1.6.8.zip",
+        "size": 10890953,
+        "previous_version": "1.6.7",
+        "github_stars": 1115,
+        "github_forks": 243,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T22:41:48Z"
+      },
+      "old_version": "1.6.7",
+      "new_version": "1.6.8"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/ILPS22QS",
+        "repository_url": "https://github.com/stm32duino/ILPS22QS",
+        "name": "STM32duino ILPS22QS",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-01-02T21:40:10Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T21:40:10Z",
+        "last_seen_sha": "1d8bcdc71b2e",
+        "author": "STMicroelectronics",
+        "maintainer": "stm32duino",
+        "sentence": "Nano pressure sensor with I3C support.",
+        "paragraph": "This library provides Arduino support for the Ultra Low Power ILPS22QS over I2C, SPI, or I3C for STM32 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ILPS22QS-1.1.0.zip",
+        "size": 24907,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C",
+        "github_updated_at": "2025-10-14T16:21:40Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/LIS2DUXS12",
+        "repository_url": "https://github.com/stm32duino/LIS2DUXS12",
+        "name": "STM32duino LIS2DUXS12",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2025-07-21T16:31:56Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-02T18:03:13.158Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:31:56Z",
+        "last_seen_sha": "f6f860b38981",
+        "author": "SRA",
+        "maintainer": "stm32duino",
+        "sentence": "Ultra Low Power 3D accelerometer.",
+        "paragraph": "This library provides Arduino support for the Ultra Low Power 3D accelerometer LIS2DUXS12 for STM32 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LIS2DUXS12-1.1.1.zip",
+        "size": 68768,
+        "previous_version": "1.1.0",
+        "github_stars": 2,
+        "github_forks": 3,
+        "github_language": "C",
+        "github_updated_at": "2025-04-26T13:13:20Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/LSM6DSV16X",
+        "repository_url": "https://github.com/stm32duino/LSM6DSV16X",
+        "name": "STM32duino LSM6DSV16X",
+        "version": "2.1.1",
+        "version_history": [
+          {
+            "version": "2.0.3",
+            "seen_at": "2025-07-21T16:31:59Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-09-02T18:03:13.158Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:31:59Z",
+        "last_seen_sha": "f4d6d4b1183e",
+        "author": "SRA",
+        "maintainer": "stm32duino",
+        "sentence": "Ultra Low Power inertial measurement unit.",
+        "paragraph": "This library provides Arduino support for the Ultra Low Power LSM6DSV16X for STM32 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LSM6DSV16X-2.1.1.zip",
+        "size": 99993,
+        "previous_version": "2.1.0",
+        "github_stars": 15,
+        "github_forks": 10,
+        "github_language": "C",
+        "github_updated_at": "2026-06-09T14:58:39Z"
+      },
+      "old_version": "2.1.0",
+      "new_version": "2.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/X-NUCLEO-IKS4A1",
+        "repository_url": "https://github.com/stm32duino/X-NUCLEO-IKS4A1",
+        "name": "STM32duino X-NUCLEO-IKS4A1",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2025-07-21T16:32:12Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-04T16:02:48.199Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:32:12Z",
+        "last_seen_sha": "57e18f6f8340",
+        "author": "STMicroelectronics",
+        "maintainer": "stm32duino",
+        "sentence": "Allows controlling the ST X-NUCLEO-IKS4A1 expansion board",
+        "paragraph": "This library provides several sample applications to control ST X-NUCLEO-IKS4A1 expansion board",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "STM32duino LSM6DSV16X",
+          "STM32duino LIS2DUXS12",
+          "STM32duino LSM6DSO16IS",
+          "STM32duino LIS2MDL",
+          "STM32duino SHT40-AD1B",
+          "STM32duino LPS22DF",
+          "STM32duino STTS22H"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_X_NUCLEO_IKS4A1-1.1.1.zip",
+        "size": 68572,
+        "previous_version": "1.1.0",
+        "github_stars": 3,
+        "github_forks": 3,
+        "github_language": "",
+        "github_updated_at": "2026-04-09T09:07:15Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    }
+  ],
   "removed_libraries": []
 }

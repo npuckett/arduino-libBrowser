@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-18T15:02:22.748Z",
-  "total_libraries": 9990,
-  "index_etag": "W/\"96427137856ed049d094803e80c3f92e\"",
-  "index_last_modified": "Fri, 18 Sep 2026 14:59:12 GMT",
+  "enhanced_at": "2026-09-18T16:02:32.284Z",
+  "total_libraries": 9991,
+  "index_etag": "W/\"6d3141ec1d928a3b1ed8bcc3baf451e0\"",
+  "index_last_modified": "Fri, 18 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -226515,6 +226515,35 @@
       "download_url": "https://github.com/yoprogramo/QRcodeOled"
     },
     {
+      "repository_name": "Sollemdev/qsetun",
+      "repository_url": "https://github.com/Sollemdev/qsetun",
+      "name": "QSetun",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-18T16:02:30.759Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-18T16:02:30.759Z",
+      "last_seen_sha": "076e2bcf321d",
+      "author": "Leonid Kulcha and Antigravity <216130664+Sollemdev@users.noreply.github.com>",
+      "maintainer": "Leonid Kulcha and Antigravity <216130664+Sollemdev@users.noreply.github.com>",
+      "sentence": "Integer-only signal intelligence engine using Brusentsov balanced ternary logic and cellular apoptosis.",
+      "paragraph": "Q-Setun is a lightweight, zero-malloc signal processing engine for microcontrollers. Replaces heavy floating-point neural networks for 1D threshold anomaly tasks with discrete balanced ternary {-1, 0, +1} phase-space attractors. High-frequency noise is automatically annihilated via cellular apoptosis (+1 + -1 = 0), yielding sub-microsecond latency, 100% integer arithmetic, and zero heap fragmentation on ESP32, STM32, and AVR.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sollemdev/QSetun-2.0.0.zip",
+      "size": 4318951,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-09-18T06:34:34Z"
+    },
+    {
       "repository_name": "ycharfi09/QTRMuxes",
       "repository_url": "https://github.com/ycharfi09/QTRMuxes",
       "name": "QTRMuxes",
@@ -246030,7 +246059,7 @@
       "repository_name": "fanfare-ff/SensEdu-Library",
       "repository_url": "https://github.com/fanfare-ff/SensEdu-Library",
       "name": "SensEdu",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "version_history": [
         {
           "version": "0.9.0",
@@ -246039,11 +246068,15 @@
         {
           "version": "0.8.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:55:16Z",
-      "last_seen_sha": "beb947e07f38",
+      "last_seen_sha": "f375c976c11f",
       "author": "Vladyslav Sorokin, Azra Talić",
       "maintainer": "Vladyslav Sorokin <Vladyslav.Sorokin@infineon.com>",
       "sentence": "API for SensEdu projects on the Arduino GIGA R1.",
@@ -246053,13 +246086,13 @@
         "mbed_giga"
       ],
       "license": "GPLv3",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/fanfare-ff/SensEdu-0.8.0.zip",
-      "size": 27328538,
-      "previous_version": "0.9.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fanfare-ff/SensEdu-0.9.0.zip",
+      "size": 96829,
+      "previous_version": "0.8.0",
       "github_stars": 2,
       "github_forks": 1,
-      "github_updated_at": "2026-06-30T07:25:57Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-30T07:25:57Z"
     },
     {
       "repository_name": "Isaranu/Senses_NBIoT",
@@ -278387,7 +278420,7 @@
       "repository_name": "stm32duino/IIS2DULPX",
       "repository_url": "https://github.com/stm32duino/IIS2DULPX",
       "name": "STM32duino IIS2DULPX",
-      "version": "1.0.1",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -278396,21 +278429,25 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:40:06Z",
-      "last_seen_sha": "c157110b9aa2",
+      "last_seen_sha": "f60ab650af85",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
-      "sentence": "Ultra Low Power inertial measurement unit.",
-      "paragraph": "This library provides Arduino support for the Ultra Low Power IIS2DULPX for STM32 boards.",
+      "sentence": "Ultra Low Power inertial measurement unit with I3C support.",
+      "paragraph": "This library provides Arduino support for the Ultra Low Power IIS2DULPX over I2C, SPI, or I3C for STM32 boards.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_IIS2DULPX-1.0.1.zip",
-      "size": 44375,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_IIS2DULPX-1.1.1.zip",
+      "size": 48461,
       "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 1,
@@ -278457,7 +278494,7 @@
       "repository_name": "stm32duino/ILPS22QS",
       "repository_url": "https://github.com/stm32duino/ILPS22QS",
       "name": "STM32duino ILPS22QS",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -278470,11 +278507,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-18T14:02:47.938Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-01-02T21:40:10Z",
-      "last_seen_sha": "1d8bcdc71b2e",
+      "last_seen_sha": "2f2c48d5d51d",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
       "sentence": "Nano pressure sensor with I3C support.",
@@ -278483,9 +278524,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ILPS22QS-1.1.0.zip",
-      "size": 24907,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ILPS22QS-1.1.1.zip",
+      "size": 24956,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C",
@@ -278635,7 +278676,7 @@
       "repository_name": "stm32duino/ISM6HG256X",
       "repository_url": "https://github.com/stm32duino/ISM6HG256X",
       "name": "STM32duino ISM6HG256X",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.0",
@@ -278644,21 +278685,25 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:40:04Z",
-      "last_seen_sha": "891ea7d58861",
+      "last_seen_sha": "d474aa2a9254",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
-      "sentence": "Intelligent IMU with simultaneous low-g and high-g acceleration detection.",
-      "paragraph": "This library provides Arduino support for ISM6HG256X for STM32 boards.",
+      "sentence": "Intelligent IMU with simultaneous low-g and high-g acceleration detection and I3C support.",
+      "paragraph": "This library provides Arduino support for ISM6HG256X over I2C, SPI, or I3C for STM32 boards.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ISM6HG256X-2.0.0.zip",
-      "size": 87217,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_ISM6HG256X-2.1.0.zip",
+      "size": 91392,
       "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 3,
@@ -278705,7 +278750,7 @@
       "repository_name": "stm32duino/LIS2DUXS12",
       "repository_url": "https://github.com/stm32duino/LIS2DUXS12",
       "name": "STM32duino LIS2DUXS12",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.2",
@@ -278722,11 +278767,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-09-18T14:02:47.938Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-07-21T16:31:56Z",
-      "last_seen_sha": "f6f860b38981",
+      "last_seen_sha": "d2fb2a7d61a2",
       "author": "SRA",
       "maintainer": "stm32duino",
       "sentence": "Ultra Low Power 3D accelerometer.",
@@ -278735,9 +278784,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LIS2DUXS12-1.1.1.zip",
-      "size": 68768,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LIS2DUXS12-1.1.2.zip",
+      "size": 68786,
+      "previous_version": "1.1.1",
       "github_stars": 2,
       "github_forks": 3,
       "github_language": "C",
@@ -281814,7 +281863,7 @@
       "repository_name": "stm32duino/X-NUCLEO-IKS5A1",
       "repository_url": "https://github.com/stm32duino/X-NUCLEO-IKS5A1",
       "name": "STM32duino X-NUCLEO-IKS5A1",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -281823,11 +281872,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-18T16:02:30.759Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:41:50Z",
-      "last_seen_sha": "3b6dd9a15e52",
+      "last_seen_sha": "cd127281460c",
       "author": "STMicroelectronics",
       "maintainer": "stm32duino",
       "sentence": "Allows controlling the ST X-NUCLEO-IKS5A1 expansion board",
@@ -281843,13 +281896,13 @@
         "STM32duino IIS2MDC",
         "STM32duino ILPS22QS"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_X_NUCLEO_IKS5A1-1.0.0.zip",
-      "size": 63378,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_X_NUCLEO_IKS5A1-1.1.0.zip",
+      "size": 67343,
       "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
-      "github_updated_at": "2026-05-07T18:44:21Z",
-      "github_language": ""
+      "github_language": "",
+      "github_updated_at": "2026-05-07T18:44:21Z"
     },
     {
       "repository_name": "stm32duino/X-NUCLEO-LED61A1",
@@ -322527,7 +322580,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9787,
+    "with_github_metadata": 9788,
     "total_dependencies": 5418
   }
 }

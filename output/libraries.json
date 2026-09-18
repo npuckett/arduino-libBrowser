@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-17T23:02:03.524Z",
+  "enhanced_at": "2026-09-18T00:06:07.982Z",
   "total_libraries": 9988,
-  "index_etag": "W/\"fa9fdd8c1739d2706bf5a1fdda93f1c7\"",
-  "index_last_modified": "Thu, 17 Sep 2026 22:59:11 GMT",
+  "index_etag": "W/\"cea12a28a762e9a8683f593bb2347a51\"",
+  "index_last_modified": "Thu, 17 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -317896,16 +317896,20 @@
       "repository_name": "xewe-labs/xewe-library-cli",
       "repository_url": "https://github.com/xewe-labs/xewe-library-cli",
       "name": "XeWeCli",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-15T22:02:36.478Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T00:06:07.854Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-15T22:02:36.478Z",
-      "last_seen_sha": "756a3537ff41",
+      "last_seen_sha": "72333a53d630",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Serial command line for ESP32: register command groups and run them as $group command args.",
@@ -317918,8 +317922,9 @@
         "XeWeSerial",
         "XeWeUtils"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCli-0.1.0.zip",
-      "size": 19427,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCli-1.0.0.zip",
+      "size": 30805,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -317929,16 +317934,20 @@
       "repository_name": "xewe-labs/xewe-library-nvs",
       "repository_url": "https://github.com/xewe-labs/xewe-library-nvs",
       "name": "XeWeNvs",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-14T18:03:01.072Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T00:06:07.854Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "eb48c225c418",
+      "last_seen_sha": "8901a9d5208f",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Typed key-value storage on ESP32 NVS, including whole structs persisted via FlexData.",
@@ -317950,8 +317959,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeNvs-0.1.0.zip",
-      "size": 24182,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeNvs-1.0.0.zip",
+      "size": 37605,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -317961,16 +317971,20 @@
       "repository_name": "xewe-labs/xewe-library-os",
       "repository_url": "https://github.com/xewe-labs/xewe-library-os",
       "name": "XeWeOS",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-16T20:03:17.459Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T00:06:07.854Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-16T20:03:17.459Z",
-      "last_seen_sha": "dc328f7a6a87",
+      "last_seen_sha": "aa534ff9d721",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Modular firmware base for ESP32: assemble plug-and-play modules with setup flows, persistence, and a CLI.",
@@ -317985,8 +317999,9 @@
         "XeWeNvs",
         "XeWeCli"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeOS-0.1.0.zip",
-      "size": 28381,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeOS-1.0.0.zip",
+      "size": 49148,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -317996,16 +318011,20 @@
       "repository_name": "xewe-labs/xewe-library-serial",
       "repository_url": "https://github.com/xewe-labs/xewe-library-serial",
       "name": "XeWeSerial",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-14T18:03:01.072Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T00:06:07.854Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "b97bc6a259b5",
+      "last_seen_sha": "9212a65dfc63",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Non-blocking serial console for ESP32 with formatted output, boxed headers, tables, and typed input prompts.",
@@ -318017,8 +318036,9 @@
       "depends": [
         "XeWeUtils"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeSerial-0.1.0.zip",
-      "size": 23847,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeSerial-1.0.0.zip",
+      "size": 37490,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -318028,16 +318048,20 @@
       "repository_name": "xewe-labs/xewe-library-utils",
       "repository_url": "https://github.com/xewe-labs/xewe-library-utils",
       "name": "XeWeUtils",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-14T02:06:29.531Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-18T00:06:07.854Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-14T02:06:29.531Z",
-      "last_seen_sha": "30cce07012f9",
+      "last_seen_sha": "6921f61a9cb4",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Header-only helpers for ESP32: string formatting, input validation, async timers, FreeRTOS mutex guard, color conversion.",
@@ -318046,8 +318070,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeUtils-0.1.0.zip",
-      "size": 25303,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeUtils-1.0.0.zip",
+      "size": 41376,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

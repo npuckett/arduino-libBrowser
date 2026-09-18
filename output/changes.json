@@ -1,6 +1,182 @@
 {
-  "since": "2026-09-18T19:02:30.261Z",
+  "since": "2026-09-18T20:02:46.142Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Erqos/EQSP32",
+        "repository_url": "https://github.com/Erqos/EQSP32",
+        "name": "EQSP32",
+        "version": "1.5.1",
+        "version_history": [
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-06-27T08:01:03Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          },
+          {
+            "version": "1.5.1",
+            "seen_at": "2026-09-18T20:02:46.142Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-27T08:01:03Z",
+        "last_seen_sha": "7161f0c37986",
+        "author": "Erqos Technologies info@erqos.com",
+        "maintainer": "Erqos Technologies",
+        "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
+        "paragraph": "This library provides the complete EQSP32 hardware and managed IoT APIs, including local and expansion I/O, MQTT integrations, and EQConnect provisioning.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.5.1.zip",
+        "size": 14951533,
+        "previous_version": "1.5.0",
+        "github_stars": 9,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T19:15:10Z"
+      },
+      "old_version": "1.5.0",
+      "new_version": "1.5.1"
+    },
+    {
+      "library": {
+        "repository_name": "matthias-bs/esp32-rfid-switch",
+        "repository_url": "https://github.com/matthias-bs/esp32-rfid-switch",
+        "name": "esp32-rfid-switch",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-12T16:02:45.911Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-09-18T20:02:46.142Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-12T16:02:45.911Z",
+        "last_seen_sha": "f0d90dc165b8",
+        "author": "matthias-bs",
+        "maintainer": "matthias-bs",
+        "sentence": "Controls a switch (e.g. relay) by presence of a UHF RFID Tag.",
+        "paragraph": "Controls a local relay or Shelly switch from a validated UHF RFID tag, with optional BLE address or name-based Shelly configuration.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5Unit-UHF-RFID",
+          "M5Unified",
+          "esp32-shelly-ble-rpc",
+          "NimBLE-Arduino",
+          "GDTouchKeyboard",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/matthias-bs/esp32_rfid_switch-0.2.0.zip",
+        "size": 134876,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-12T12:44:58Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "skr-electronics-lab/groq-stt",
+        "repository_url": "https://github.com/skr-electronics-lab/groq-stt",
+        "name": "groq_stt",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-18T14:02:47.938Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-18T20:02:46.142Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-18T14:02:47.938Z",
+        "last_seen_sha": "41cb16544b44",
+        "author": "Sk Raihan",
+        "maintainer": "SKR Electronics Lab <skrelectronicslab@gmail.com>",
+        "sentence": "Speech-to-text for ESP32/ESP32-S3 using Groq's ultra-fast Whisper API.",
+        "paragraph": "Streaming voice recognition library for ESP32 and ESP32-S3 with INMP441 I2S microphones. Records and uploads simultaneously (no PSRAM or audio buffering needed), with built-in filtering, silence detection, opt-in voice-activity detection for hands-free auto-stop, blocking and non-blocking APIs, file/buffer transcription, translation and verbose JSON output with segment timestamps. Works with Arduino IDE and PlatformIO.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/skr-electronics-lab/groq_stt-1.0.1.zip",
+        "size": 42526,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-18T10:00:41Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "zimbora/esp32-modem-freeRTOS",
+        "repository_url": "https://github.com/zimbora/esp32-modem-freeRTOS",
+        "name": "modem-freeRTOS",
+        "version": "1.0.12",
+        "version_history": [
+          {
+            "version": "1.0.10",
+            "seen_at": "2026-05-23T08:23:36Z"
+          },
+          {
+            "version": "1.0.10",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.11",
+            "seen_at": "2026-07-18T18:15:49.615Z"
+          },
+          {
+            "version": "1.0.12",
+            "seen_at": "2026-09-18T20:02:46.142Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-23T08:23:36Z",
+        "last_seen_sha": "c93c8cfef307",
+        "author": "J. Lucas S. <lucas.ua.eet@gmail.com>",
+        "maintainer": "J. Lucas S. <lucas.ua.eet@gmail.com>",
+        "sentence": "process to manage network interfaces",
+        "paragraph": "This library implements an independent process to manage LTE and WiFi interfaces",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/zimbora/modem_freeRTOS-1.0.12.zip",
+        "size": 37215,
+        "previous_version": "1.0.11",
+        "github_stars": 4,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-22T15:27:13Z"
+      },
+      "old_version": "1.0.11",
+      "new_version": "1.0.12"
+    }
+  ],
   "removed_libraries": []
 }

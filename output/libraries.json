@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-19T19:02:30.587Z",
+  "enhanced_at": "2026-09-19T20:02:28.841Z",
   "total_libraries": 9996,
-  "index_etag": "W/\"946d709c717bb5ac6f43ffaba21894ff\"",
-  "index_last_modified": "Sat, 19 Sep 2026 18:59:12 GMT",
+  "index_etag": "W/\"71c4e70fa0829e32d1f564d54b76d363\"",
+  "index_last_modified": "Sat, 19 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -19286,16 +19286,20 @@
       "repository_name": "jibrilsharafi/AdvancedLogger",
       "repository_url": "https://github.com/jibrilsharafi/AdvancedLogger",
       "name": "AdvancedLogger",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.1",
           "seen_at": "2025-12-09T07:09:44Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-09-19T20:02:28.695Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-12-09T07:09:44Z",
-      "last_seen_sha": "c0c6d5e9fa8e",
+      "last_seen_sha": "48c73b3d2cd1",
       "author": "Jibril Sharafi <jibril.sharafi@gmail.com>",
       "maintainer": "Jibril Sharafi <jibril.sharafi@gmail.com>",
       "sentence": "Library for simple logging to memory with comprehensive format.",
@@ -19304,11 +19308,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jibrilsharafi/AdvancedLogger-2.1.0.zip",
+      "size": 36356,
+      "previous_version": "2.0.1",
       "github_stars": 30,
       "github_forks": 3,
       "github_language": "C++",
-      "github_updated_at": "2026-02-13T22:30:47Z",
-      "download_url": "https://github.com/jibrilsharafi/AdvancedLogger"
+      "github_updated_at": "2026-02-13T22:30:47Z"
     },
     {
       "repository_name": "jaikulk14/Advanced-Oximeter",
@@ -38730,16 +38736,20 @@
       "repository_name": "T-arg/ATMlib",
       "repository_url": "https://github.com/T-arg/ATMlib",
       "name": "ATMlib",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "version_history": [
         {
           "version": "1.2.7",
           "seen_at": "2026-09-14T18:03:01.072Z"
+        },
+        {
+          "version": "1.2.8",
+          "seen_at": "2026-09-19T20:02:28.695Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "dc6c92dfff4e",
+      "last_seen_sha": "4f81b1ddae8e",
       "author": "TEAM a.r.g., Joeri Gantois aka JO3RI, Davey Taylor aka STG",
       "maintainer": "joerigantois@gmail.com",
       "sentence": "The Arduboy Tracker Music library.",
@@ -38748,8 +38758,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-1.2.7.zip",
-      "size": 97902,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-1.2.8.zip",
+      "size": 97893,
+      "previous_version": "1.2.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -297829,7 +297840,7 @@
       "repository_name": "klenov1900-lang/TM1637_6Easy",
       "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
       "name": "TM1637_6Easy",
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -297838,22 +297849,26 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-09-06T20:02:31.565Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-19T20:02:28.695Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-05T20:02:21.576Z",
-      "last_seen_sha": "de285ed95c06",
-      "author": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
-      "maintainer": "Sergey Nikolaevich <gray_wolf19@mail.ru>",
-      "sentence": "High-performance library for 6-digit LED displays based on TM1637 driver.",
-      "paragraph": "Minimalistic and fast library for TM1637 6-digit displays with direct port I/O.",
+      "last_seen_sha": "9e53441b8eb5",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
+      "sentence": "Easy library for 4- and 6-digit TM1637 LED displays on ATmega328P.",
+      "paragraph": "Optimized for cheap clones with ceramic resonator. Direct register access, nop-based protocol delay, supports 4- and 6-digit modules, two digit orders for Chinese modules.",
       "category": "Display",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-1.0.2.zip",
-      "size": 8781,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-2.0.0.zip",
+      "size": 15032,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

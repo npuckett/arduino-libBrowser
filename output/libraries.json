@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-19T13:02:13.058Z",
+  "enhanced_at": "2026-09-19T14:02:22.514Z",
   "total_libraries": 9996,
-  "index_etag": "W/\"ff00ce98085f530c888befe28cdbbf47\"",
-  "index_last_modified": "Sat, 19 Sep 2026 12:59:12 GMT",
+  "index_etag": "W/\"97d03770ff3080acd039c7a5e0b7f419\"",
+  "index_last_modified": "Sat, 19 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -237203,7 +237203,7 @@
       "repository_name": "dejwk/roo_collections",
       "repository_url": "https://github.com/dejwk/roo_collections",
       "name": "roo_collections",
-      "version": "1.4.6",
+      "version": "1.4.7",
       "version_history": [
         {
           "version": "1.4.4",
@@ -237216,11 +237216,15 @@
         {
           "version": "1.4.6",
           "seen_at": "2026-08-29T18:02:47.297Z"
+        },
+        {
+          "version": "1.4.7",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-05T08:30:02Z",
-      "last_seen_sha": "76445edbbdd0",
+      "last_seen_sha": "cab80b35c5b0",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Memory-conscious collections, supporting flat small hashtables, hash maps, and hash sets.",
@@ -237232,9 +237236,9 @@
       "depends": [
         "roo_backport"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-1.4.6.zip",
-      "size": 28968,
-      "previous_version": "1.4.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-1.4.7.zip",
+      "size": 31143,
+      "previous_version": "1.4.6",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -237334,7 +237338,7 @@
       "repository_name": "dejwk/roo_flags",
       "repository_url": "https://github.com/dejwk/roo_flags",
       "name": "roo_flags",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "version_history": [
         {
           "version": "1.2.3",
@@ -237343,11 +237347,15 @@
         {
           "version": "1.2.4",
           "seen_at": "2026-08-21T22:03:18.908Z"
+        },
+        {
+          "version": "1.2.5",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-02-25T07:37:47Z",
-      "last_seen_sha": "fc11d19a8eeb",
+      "last_seen_sha": "1066437e0597",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Minimalistic library for run-time configuration flags.",
@@ -237356,9 +237364,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_flags-1.2.4.zip",
-      "size": 4615,
-      "previous_version": "1.2.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_flags-1.2.5.zip",
+      "size": 5586,
+      "previous_version": "1.2.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -237450,7 +237458,7 @@
       "repository_name": "dejwk/roo_io",
       "repository_url": "https://github.com/dejwk/roo_io",
       "name": "roo_io",
-      "version": "2.2.7",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.2.3",
@@ -237467,11 +237475,15 @@
         {
           "version": "2.2.7",
           "seen_at": "2026-08-29T18:02:47.297Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-05T08:30:06Z",
-      "last_seen_sha": "30cb64873764",
+      "last_seen_sha": "d737974fab16",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Unified I/O library for microcontrollers.",
@@ -237485,9 +237497,9 @@
         "roo_logging",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.2.7.zip",
-      "size": 225722,
-      "previous_version": "2.2.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.3.0.zip",
+      "size": 241561,
+      "previous_version": "2.2.7",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -237531,7 +237543,7 @@
       "repository_name": "dejwk/roo_locale",
       "repository_url": "https://github.com/dejwk/roo_locale",
       "name": "roo_locale",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.1.1",
@@ -237544,11 +237556,15 @@
         {
           "version": "1.1.3",
           "seen_at": "2026-08-30T12:03:20.941Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-01-02T21:08:36Z",
-      "last_seen_sha": "bda38e46c3ad",
+      "last_seen_sha": "747603ec0c3a",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Multi-language support for roo libraries on microcontrollers.",
@@ -237556,9 +237572,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_locale-1.1.3.zip",
-      "size": 6738,
-      "previous_version": "1.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_locale-1.1.4.zip",
+      "size": 7564,
+      "previous_version": "1.1.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -237568,7 +237584,7 @@
       "repository_name": "dejwk/roo_logging",
       "repository_url": "https://github.com/dejwk/roo_logging",
       "name": "roo_logging",
-      "version": "1.5.9",
+      "version": "1.5.10",
       "version_history": [
         {
           "version": "1.5.7",
@@ -237581,11 +237597,15 @@
         {
           "version": "1.5.9",
           "seen_at": "2026-09-19T12:03:08.494Z"
+        },
+        {
+          "version": "1.5.10",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-03-25T07:40:43Z",
-      "last_seen_sha": "e067901bca43",
+      "last_seen_sha": "e685e82ae210",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Logging library, targeted at ESP32 and related boards.",
@@ -237600,9 +237620,9 @@
         "roo_time",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.5.9.zip",
-      "size": 97750,
-      "previous_version": "1.5.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.5.10.zip",
+      "size": 100250,
+      "previous_version": "1.5.9",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "C++",
@@ -237841,7 +237861,7 @@
       "repository_name": "dejwk/roo_threads",
       "repository_url": "https://github.com/dejwk/roo_threads",
       "name": "roo_threads",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "version_history": [
         {
           "version": "1.2.5",
@@ -237854,11 +237874,15 @@
         {
           "version": "1.2.7",
           "seen_at": "2026-08-29T16:02:18.007Z"
+        },
+        {
+          "version": "1.2.8",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-03-19T07:35:22Z",
-      "last_seen_sha": "3d5404ed5fac",
+      "last_seen_sha": "fd3f786ccf04",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Portable threading library for microcontrollers.",
@@ -237870,9 +237894,9 @@
       "depends": [
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.2.7.zip",
-      "size": 52260,
-      "previous_version": "1.2.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.2.8.zip",
+      "size": 54130,
+      "previous_version": "1.2.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -237882,7 +237906,7 @@
       "repository_name": "dejwk/roo_time",
       "repository_url": "https://github.com/dejwk/roo_time",
       "name": "roo_time",
-      "version": "1.5.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.4.4",
@@ -237903,11 +237927,15 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-09-19T00:06:36.010Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-03-19T07:35:24Z",
-      "last_seen_sha": "557dc123ff92",
+      "last_seen_sha": "65098b2c4879",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
@@ -237919,9 +237947,9 @@
       "depends": [
         "roo_backport"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-1.5.0.zip",
-      "size": 60579,
-      "previous_version": "1.4.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.0.0.zip",
+      "size": 87418,
+      "previous_version": "1.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -237931,7 +237959,7 @@
       "repository_name": "dejwk/roo_time_ds3231",
       "repository_url": "https://github.com/dejwk/roo_time_ds3231",
       "name": "roo_time_ds3231",
-      "version": "1.1.9",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.1.3",
@@ -237952,24 +237980,29 @@
         {
           "version": "1.1.9",
           "seen_at": "2026-09-19T00:06:36.010Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-19T14:02:22.379Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-13T07:15:27Z",
-      "last_seen_sha": "78a118c0088a",
+      "last_seen_sha": "3f8869d04ff9",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
-      "sentence": "Arduino driver for DS3231 real-time clock, compliant with roo_time.",
+      "sentence": "Arduino and ESP-IDF driver for DS3231 real-time clock, compliant with roo_time.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
       "depends": [
-        "roo_time"
+        "roo_time",
+        "roo_io"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-1.1.9.zip",
-      "size": 12298,
-      "previous_version": "1.1.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-2.0.0.zip",
+      "size": 17947,
+      "previous_version": "1.1.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -322814,6 +322847,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9793,
-    "total_dependencies": 5421
+    "total_dependencies": 5422
   }
 }

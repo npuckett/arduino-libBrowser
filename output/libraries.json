@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-18T23:02:15.870Z",
+  "enhanced_at": "2026-09-19T00:06:36.155Z",
   "total_libraries": 9992,
-  "index_etag": "W/\"0234c80c9ae8fbdbc00fe748076bdf27\"",
-  "index_last_modified": "Fri, 18 Sep 2026 22:59:12 GMT",
+  "index_etag": "W/\"4888e8de70439877aeb0148081bd4c55\"",
+  "index_last_modified": "Fri, 18 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -237759,7 +237759,7 @@
       "repository_name": "dejwk/roo_time",
       "repository_url": "https://github.com/dejwk/roo_time",
       "name": "roo_time",
-      "version": "1.4.7",
+      "version": "1.5.0",
       "version_history": [
         {
           "version": "1.4.4",
@@ -237776,11 +237776,15 @@
         {
           "version": "1.4.7",
           "seen_at": "2026-08-29T16:02:18.007Z"
+        },
+        {
+          "version": "1.5.0",
+          "seen_at": "2026-09-19T00:06:36.010Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-03-19T07:35:24Z",
-      "last_seen_sha": "763738ffe00f",
+      "last_seen_sha": "557dc123ff92",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
@@ -237789,9 +237793,12 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-1.4.7.zip",
-      "size": 19168,
-      "previous_version": "1.4.6",
+      "depends": [
+        "roo_backport"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-1.5.0.zip",
+      "size": 60579,
+      "previous_version": "1.4.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -237801,7 +237808,7 @@
       "repository_name": "dejwk/roo_time_ds3231",
       "repository_url": "https://github.com/dejwk/roo_time_ds3231",
       "name": "roo_time_ds3231",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "version_history": [
         {
           "version": "1.1.3",
@@ -237818,11 +237825,15 @@
         {
           "version": "1.1.8",
           "seen_at": "2026-08-29T16:02:18.007Z"
+        },
+        {
+          "version": "1.1.9",
+          "seen_at": "2026-09-19T00:06:36.010Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-11-13T07:15:27Z",
-      "last_seen_sha": "63472e17b2b8",
+      "last_seen_sha": "78a118c0088a",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Arduino driver for DS3231 real-time clock, compliant with roo_time.",
@@ -237833,9 +237844,9 @@
       "depends": [
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-1.1.8.zip",
-      "size": 7412,
-      "previous_version": "1.1.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-1.1.9.zip",
+      "size": 12298,
+      "previous_version": "1.1.8",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -322651,6 +322662,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9789,
-    "total_dependencies": 5418
+    "total_dependencies": 5419
   }
 }

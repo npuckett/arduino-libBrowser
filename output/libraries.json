@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-19T09:02:52.586Z",
-  "total_libraries": 9994,
-  "index_etag": "W/\"4cf8c0c17ed42fc9a2a6f21aabd26255\"",
-  "index_last_modified": "Sat, 19 Sep 2026 08:59:12 GMT",
+  "enhanced_at": "2026-09-19T10:02:20.952Z",
+  "total_libraries": 9995,
+  "index_etag": "W/\"497e2263c6d81f4bca0d278d240d4de1\"",
+  "index_last_modified": "Sat, 19 Sep 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -276194,6 +276194,35 @@
       "download_url": "https://github.com/Spaguetron/ST_HW_HC_SR04"
     },
     {
+      "repository_name": "lewisxhe/ST25R3916-NFC-RFAL",
+      "repository_url": "https://github.com/lewisxhe/ST25R3916-NFC-RFAL",
+      "name": "ST25R3916-NFC-RFAL",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-19T10:02:19.567Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-19T10:02:19.567Z",
+      "last_seen_sha": "ae54ff0639e1",
+      "author": "STMicroelectronics, Arduino fork contributors",
+      "maintainer": "local",
+      "sentence": "Self-contained ST25R3916 driver and RFAL/NDEF library for Arduino ESP32",
+      "paragraph": "This library merges ST25R3916-fork and NFC-RFAL-fork so examples can build without external library dependencies.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lewisxhe/ST25R3916_NFC_RFAL-1.0.1.zip",
+      "size": 361140,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-19T07:49:38Z"
+    },
+    {
       "repository_name": "asukiaaa/ST7032_asukiaaa",
       "repository_url": "https://github.com/asukiaaa/ST7032_asukiaaa",
       "name": "ST7032_asukiaaa",
@@ -322743,7 +322772,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9791,
+    "with_github_metadata": 9792,
     "total_dependencies": 5421
   }
 }

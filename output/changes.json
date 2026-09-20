@@ -1,6 +1,94 @@
 {
-  "since": "2026-09-20T21:02:12.836Z",
+  "since": "2026-09-20T22:02:18.682Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "teddokano/AFE_NXP_Arduino",
+        "repository_url": "https://github.com/teddokano/AFE_NXP_Arduino",
+        "name": "AFE_NXP_Arduino",
+        "version": "3.0.0",
+        "version_history": [
+          {
+            "version": "2.0.5",
+            "seen_at": "2026-06-30T08:49:52Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-09-20T22:02:18.682Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T08:49:52Z",
+        "last_seen_sha": "a38c912e00a5",
+        "author": "Tedd OKANO",
+        "maintainer": "Tedd OKANO",
+        "sentence": "Class library for NXP Analog Front End",
+        "paragraph": "NAFE13388, NAFE73388, NAFE13388-UIM, NAFExx388-EVB, NAFE33352, NAFE93352, NAFE33352-UIOM and NAFE33352-EVB are supported",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/teddokano/AFE_NXP_Arduino-3.0.0.zip",
+        "size": 3408504,
+        "previous_version": "2.0.5",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T21:18:53Z"
+      },
+      "old_version": "2.0.5",
+      "new_version": "3.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "bitbank2/bb_temperature",
+        "repository_url": "https://github.com/bitbank2/bb_temperature",
+        "name": "bb_temperature",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-02T21:41:16Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-08-18T02:22:21.120Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-20T22:02:18.682Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-02T21:41:16Z",
+        "last_seen_sha": "713e9967d2d9",
+        "author": "Larry Bank",
+        "maintainer": "Larry Bank",
+        "sentence": "multi-device library for a variety of temperature/humidity/pressure sensors.",
+        "paragraph": "A full featured I2C sensor library which auto-detects the most popular I2C devices.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "BitBang_I2C"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bitbank2/bb_temperature-1.1.0.zip",
+        "size": 510903,
+        "previous_version": "1.0.2",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-13T19:01:43Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

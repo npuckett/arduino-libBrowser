@@ -1,6 +1,91 @@
 {
-  "since": "2026-09-20T15:02:10.230Z",
+  "since": "2026-09-20T16:02:37.345Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "salernosimone/arduino-espdlx",
+        "repository_url": "https://github.com/salernosimone/arduino-espdlx",
+        "name": "espdlx",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-11T10:02:47.777Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-20T16:02:37.345Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-11T10:02:47.777Z",
+        "last_seen_sha": "770349c49601",
+        "author": "Simone Salerno",
+        "maintainer": "Simone Salerno",
+        "sentence": "esp-dl port for Arduino (ESP32-S3 core+vision+audio)",
+        "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for ESP32-S3. Ships S3 prebuilt fbs_model lib. Excludes JPEG codec (needs esp_new_jpeg) and P4 ISA. Target ESP32-S3.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.1.0.zip",
+        "size": 1447939,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-11T06:39:29Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/GeigerMeasurement",
+        "repository_url": "https://github.com/soosp/GeigerMeasurement",
+        "name": "GeigerMeasurement",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-06-01T09:32:17Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-20T16:02:37.345Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-01T09:32:17Z",
+        "last_seen_sha": "cf8ab84f5bb8",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Geiger-Müller counter measurement library for ESP32 and ESP8266.",
+        "paragraph": "Implements the core measurement algorithms of the RadPro project (Gissio), adapted for the Arduino platform. Features five averaging modes, dead-time compensation, 95% confidence interval, in-situ dead-time measurement, live calibration, and fault detection. Tube sensitivity data from Rad Lab simulations via RadPro v3.1.1.",
+        "category": "Sensors",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "RunningStatistics"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.1.0.zip",
+        "size": 397307,
+        "previous_version": "1.0.3",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-01T08:43:07Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

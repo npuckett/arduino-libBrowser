@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-20T15:02:10.363Z",
+  "enhanced_at": "2026-09-20T16:02:37.453Z",
   "total_libraries": 9997,
-  "index_etag": "W/\"90a6e3802d1f76e98ba00fbca405da7c\"",
-  "index_last_modified": "Sun, 20 Sep 2026 14:59:12 GMT",
+  "index_etag": "W/\"6af31244c0a671f9798f2a6efae4bbf2\"",
+  "index_last_modified": "Sun, 20 Sep 2026 15:59:11 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105854,16 +105854,20 @@
       "repository_name": "salernosimone/arduino-espdlx",
       "repository_url": "https://github.com/salernosimone/arduino-espdlx",
       "name": "espdlx",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-11T10:02:47.777Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-20T16:02:37.345Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-11T10:02:47.777Z",
-      "last_seen_sha": "03a40bb37349",
+      "last_seen_sha": "770349c49601",
       "author": "Simone Salerno",
       "maintainer": "Simone Salerno",
       "sentence": "esp-dl port for Arduino (ESP32-S3 core+vision+audio)",
@@ -105872,8 +105876,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.0.0.zip",
-      "size": 1435961,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.1.0.zip",
+      "size": 1447939,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -121305,7 +121310,7 @@
       "repository_name": "soosp/GeigerMeasurement",
       "repository_url": "https://github.com/soosp/GeigerMeasurement",
       "name": "GeigerMeasurement",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.2",
@@ -121314,11 +121319,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-08-28T22:17:05.295Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-20T16:02:37.345Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-01T09:32:17Z",
-      "last_seen_sha": "e359a777f49b",
+      "last_seen_sha": "cf8ab84f5bb8",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Geiger-Müller counter measurement library for ESP32 and ESP8266.",
@@ -121331,9 +121340,9 @@
       "depends": [
         "RunningStatistics"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.0.3.zip",
-      "size": 391512,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.1.0.zip",
+      "size": 397307,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

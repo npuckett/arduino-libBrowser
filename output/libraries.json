@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-21T19:02:15.265Z",
+  "enhanced_at": "2026-09-21T20:02:59.629Z",
   "total_libraries": 10001,
-  "index_etag": "W/\"ef87097c544400fe1a36a2506addc1be\"",
-  "index_last_modified": "Mon, 21 Sep 2026 18:59:12 GMT",
+  "index_etag": "W/\"897c31f73957660d3feb930b4dd0e1db\"",
+  "index_last_modified": "Mon, 21 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22343,7 +22343,7 @@
       "repository_name": "Alteriom/painlessMesh",
       "repository_url": "https://github.com/Alteriom/painlessMesh",
       "name": "Alteriom PainlessMesh",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "1.9.20",
@@ -22380,11 +22380,15 @@
         {
           "version": "2.1.0",
           "seen_at": "2026-09-16T04:02:52.896Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-09-21T20:02:59.481Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-04-30T08:24:18Z",
-      "last_seen_sha": "fe33d5d46a1c",
+      "last_seen_sha": "27772020b83a",
       "author": "Coopdis,Scotty Franzyshen,Edwin van Leeuwen,Germán Martín,Maximilian Schwarz,Doanh Doanh,Alteriom",
       "maintainer": "Alteriom",
       "sentence": "A painless way to setup a mesh with ESP8266 and ESP32 devices with Alteriom extensions",
@@ -22399,9 +22403,9 @@
         "TaskScheduler",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.1.0.zip",
-      "size": 987441,
-      "previous_version": "2.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alteriom/Alteriom_PainlessMesh-2.1.1.zip",
+      "size": 998363,
+      "previous_version": "2.1.0",
       "github_stars": 9,
       "github_forks": 4,
       "github_language": "C++",
@@ -101299,7 +101303,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.5.3",
+      "version": "1.6.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -101356,22 +101360,26 @@
         {
           "version": "1.5.3",
           "seen_at": "2026-08-27T23:05:28.812Z"
+        },
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-09-21T20:02:59.481Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "18967be97377",
+      "last_seen_sha": "5d89a64c82f3",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
-      "sentence": "Lightweight HTTP client for ESP32 with direct JSON stream parsing into variables.",
-      "paragraph": "No JSON decoding. No String objects. No boilerplate. Parses JSON streams directly into variables.",
+      "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
+      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST and SOAP services, and minimal memory footprint.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.5.3.zip",
-      "size": 6046976,
-      "previous_version": "1.5.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.6.0.zip",
+      "size": 6193578,
+      "previous_version": "1.5.3",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -167850,7 +167858,7 @@
       "repository_name": "m5stack/M5UnitUnified",
       "repository_url": "https://github.com/m5stack/M5UnitUnified",
       "name": "M5UnitUnified",
-      "version": "0.5.6",
+      "version": "0.5.7",
       "version_history": [
         {
           "version": "0.5.5",
@@ -167859,11 +167867,15 @@
         {
           "version": "0.5.6",
           "seen_at": "2026-09-21T16:02:57.175Z"
+        },
+        {
+          "version": "0.5.7",
+          "seen_at": "2026-09-21T20:02:59.481Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-10T08:41:02Z",
-      "last_seen_sha": "23b0117478bf",
+      "last_seen_sha": "dc5f55594668",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
@@ -167876,9 +167888,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.5.6.zip",
-      "size": 129025,
-      "previous_version": "0.5.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.5.7.zip",
+      "size": 130011,
+      "previous_version": "0.5.6",
       "github_stars": 26,
       "github_forks": 9,
       "github_language": "C++",
@@ -237753,7 +237765,7 @@
       "repository_name": "dejwk/roo_io",
       "repository_url": "https://github.com/dejwk/roo_io",
       "name": "roo_io",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "version_history": [
         {
           "version": "2.2.3",
@@ -237774,11 +237786,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-09-19T14:02:22.379Z"
+        },
+        {
+          "version": "2.3.1",
+          "seen_at": "2026-09-21T20:02:59.481Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-05T08:30:06Z",
-      "last_seen_sha": "d737974fab16",
+      "last_seen_sha": "aeded161dbc4",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Unified I/O library for microcontrollers.",
@@ -237792,9 +237808,9 @@
         "roo_logging",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.3.0.zip",
-      "size": 241561,
-      "previous_version": "2.2.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.3.1.zip",
+      "size": 242468,
+      "previous_version": "2.3.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",

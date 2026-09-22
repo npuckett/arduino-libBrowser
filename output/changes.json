@@ -1,6 +1,265 @@
 {
-  "since": "2026-09-22T11:02:29.419Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-22T12:03:25.201Z",
+  "new_libraries": [
+    {
+      "repository_name": "SuXYIO/lora_a39c_arduino",
+      "repository_url": "https://github.com/SuXYIO/lora_a39c_arduino",
+      "name": "LoraA39C",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-22T12:03:25.201Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-22T12:03:25.201Z",
+      "last_seen_sha": "6dbdf75e6cba",
+      "author": "SuXYIO <suxymc@163.com>",
+      "maintainer": "SuXYIO <suxymc@163.com>",
+      "sentence": "Arduino library for A39C-T400A22D1a Lora wireless module.",
+      "paragraph": "Note that this library has not implemented full functionalities of the module yet, but it should be enough for simple cases.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SuXYIO/LoraA39C-0.1.0.zip",
+      "size": 21176,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-22T08:28:38Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "FMazz97/CS123x",
+        "repository_url": "https://github.com/FMazz97/CS123x",
+        "name": "CS123x",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-18T10:05:32.941Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-19T10:05:37.437Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-08-20T16:06:16.230Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-08-22T22:02:40.551Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-27T11:17:33.135Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-17T22:02:27.060Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-09-21T14:03:04.055Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-09-22T12:03:25.201Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-08-18T10:05:32.941Z",
+        "last_seen_sha": "76fcc5af6c9a",
+        "author": "FMazz97",
+        "maintainer": "FMazz97",
+        "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit differential ADCs (load cells, weight scales, bridge sensors).",
+        "paragraph": "Full PGA gain, data rate, and channel control with two-point scale calibration, internal temperature monitoring, and internal short-circuit offset diagnostics.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.3.zip",
+        "size": 4600278,
+        "previous_version": "2.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-17T20:43:08Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "mitra42/frugal-iot",
+        "repository_url": "https://github.com/mitra42/frugal-iot",
+        "name": "Frugal-IoT",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-06-27T08:37:59Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-05T08:59:00.751Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-07-12T08:42:18.459Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-30T04:05:49.468Z"
+          },
+          {
+            "version": "0.1.3",
+            "seen_at": "2026-08-15T02:20:56.350Z"
+          },
+          {
+            "version": "0.1.5",
+            "seen_at": "2026-08-22T04:10:44.870Z"
+          },
+          {
+            "version": "0.1.7",
+            "seen_at": "2026-09-19T22:02:55.652Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-22T12:03:25.201Z"
+          }
+        ],
+        "release_count": 9,
+        "first_seen_at": "2026-06-27T08:37:59Z",
+        "last_seen_sha": "2c2d2de5ad4f",
+        "author": "Mitra Ardron",
+        "maintainer": "Mitra Ardron <mitra@mitra.biz>",
+        "sentence": "Platform for affordable sensors",
+        "paragraph": "The Frugal-IoT library implement an easy to use platform for a variety of sensors communicating over WiFi, LoRa, MQTT etc",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "BH1750",
+          "Button2",
+          "DHTNEW",
+          "HX711",
+          "MQTT",
+          "OneWire",
+          "DallasTemperature",
+          "hd44780",
+          "TinyGPSPlus",
+          "ModbusMaster"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.0.zip",
+        "size": 741983,
+        "previous_version": "0.1.7",
+        "github_stars": 10,
+        "github_forks": 7,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:05:45Z"
+      },
+      "old_version": "0.1.7",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "Khuuxuanngoc/makereduvnlib",
+        "repository_url": "https://github.com/Khuuxuanngoc/makereduvnlib",
+        "name": "MKE_ONE",
+        "version": "2.0.4",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-03-06T07:20:15Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-08-18T06:05:47.746Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-08-20T10:06:32.483Z"
+          },
+          {
+            "version": "2.0.4",
+            "seen_at": "2026-09-22T12:03:25.201Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-03-06T07:20:15Z",
+        "last_seen_sha": "a3244176a9b2",
+        "author": "MakerEdu.vn",
+        "maintainer": "MakerEdu.vn",
+        "sentence": "MakerEdu Core Library to simplify development for MakerEdu Boards and Educational Kits",
+        "paragraph": ".",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.4.zip",
+        "size": 390421,
+        "previous_version": "2.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-21T09:40:26Z"
+      },
+      "old_version": "2.0.3",
+      "new_version": "2.0.4"
+    },
+    {
+      "library": {
+        "repository_name": "lewisxhe/SensorLib",
+        "repository_url": "https://github.com/lewisxhe/SensorLib",
+        "name": "SensorLib",
+        "version": "0.5.0",
+        "version_history": [
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-06-27T08:18:36Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-09-22T12:03:25.201Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-27T08:18:36Z",
+        "last_seen_sha": "be0bac7a3622",
+        "author": "Lewis He",
+        "maintainer": "Lewis He <lewishe@outlook.com>",
+        "sentence": "Multi-platform I2C and SPI sensor and power device library",
+        "paragraph": "Supports RTC, IMU, magnetometer, accelerometer, touch, PMIC, battery gauge, haptic, light sensor, I/O expander, LED, and finger navigation devices on Arduino, PlatformIO, and ESP-IDF.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/lewisxhe/SensorLib-0.5.0.zip",
+        "size": 11515935,
+        "previous_version": "0.4.1",
+        "github_stars": 230,
+        "github_forks": 36,
+        "github_language": "C",
+        "github_updated_at": "2026-07-01T15:56:59Z"
+      },
+      "old_version": "0.4.1",
+      "new_version": "0.5.0"
+    }
+  ],
   "removed_libraries": []
 }

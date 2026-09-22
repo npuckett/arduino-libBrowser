@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-22T11:02:29.546Z",
-  "total_libraries": 10005,
-  "index_etag": "W/\"5b8aeb81d9c3c371cc8148780e70cd71\"",
-  "index_last_modified": "Tue, 22 Sep 2026 10:59:12 GMT",
+  "enhanced_at": "2026-09-22T12:03:26.637Z",
+  "total_libraries": 10006,
+  "index_etag": "W/\"12107fb286e5708ee9e029b629f85281\"",
+  "index_last_modified": "Tue, 22 Sep 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -67155,7 +67155,7 @@
       "repository_name": "FMazz97/CS123x",
       "repository_url": "https://github.com/FMazz97/CS123x",
       "name": "CS123x",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -67184,11 +67184,15 @@
         {
           "version": "2.0.2",
           "seen_at": "2026-09-21T14:03:04.055Z"
+        },
+        {
+          "version": "2.0.3",
+          "seen_at": "2026-09-22T12:03:25.201Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-08-18T10:05:32.941Z",
-      "last_seen_sha": "d6ce46c0aaa9",
+      "last_seen_sha": "76fcc5af6c9a",
       "author": "FMazz97",
       "maintainer": "FMazz97",
       "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit differential ADCs (load cells, weight scales, bridge sensors).",
@@ -67197,9 +67201,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.2.zip",
-      "size": 4600483,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.3.zip",
+      "size": 4600278,
+      "previous_version": "2.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -118846,7 +118850,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "0.1.7",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "0.0.22",
@@ -118879,11 +118883,15 @@
         {
           "version": "0.1.7",
           "seen_at": "2026-09-19T22:02:55.652Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-22T12:03:25.201Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "2eb172b37c4c",
+      "last_seen_sha": "2c2d2de5ad4f",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -118898,17 +118906,15 @@
         "DHTNEW",
         "HX711",
         "MQTT",
-        "SHT4x",
-        "SHT85",
         "OneWire",
         "DallasTemperature",
         "hd44780",
         "TinyGPSPlus",
         "ModbusMaster"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-0.1.7.zip",
-      "size": 726505,
-      "previous_version": "0.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.0.zip",
+      "size": 741983,
+      "previous_version": "0.1.7",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -160202,6 +160208,35 @@
       "github_updated_at": "2026-06-18T17:01:06Z"
     },
     {
+      "repository_name": "SuXYIO/lora_a39c_arduino",
+      "repository_url": "https://github.com/SuXYIO/lora_a39c_arduino",
+      "name": "LoraA39C",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-22T12:03:25.201Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-22T12:03:25.201Z",
+      "last_seen_sha": "6dbdf75e6cba",
+      "author": "SuXYIO <suxymc@163.com>",
+      "maintainer": "SuXYIO <suxymc@163.com>",
+      "sentence": "Arduino library for A39C-T400A22D1a Lora wireless module.",
+      "paragraph": "Note that this library has not implemented full functionalities of the module yet, but it should be enough for simple cases.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SuXYIO/LoraA39C-0.1.0.zip",
+      "size": 21176,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-22T08:28:38Z"
+    },
+    {
       "repository_name": "Mizar03110/LoRaDomo",
       "repository_url": "https://github.com/Mizar03110/LoRaDomo",
       "name": "LoRaDomo",
@@ -183490,7 +183525,7 @@
       "repository_name": "Khuuxuanngoc/makereduvnlib",
       "repository_url": "https://github.com/Khuuxuanngoc/makereduvnlib",
       "name": "MKE_ONE",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "2.0.0",
@@ -183507,11 +183542,15 @@
         {
           "version": "2.0.3",
           "seen_at": "2026-08-20T10:06:32.483Z"
+        },
+        {
+          "version": "2.0.4",
+          "seen_at": "2026-09-22T12:03:25.201Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-03-06T07:20:15Z",
-      "last_seen_sha": "87bbb053600c",
+      "last_seen_sha": "a3244176a9b2",
       "author": "MakerEdu.vn",
       "maintainer": "MakerEdu.vn",
       "sentence": "MakerEdu Core Library to simplify development for MakerEdu Boards and Educational Kits",
@@ -183520,9 +183559,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.3.zip",
-      "size": 339123,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.4.zip",
+      "size": 390421,
+      "previous_version": "2.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -248650,29 +248689,35 @@
       "repository_name": "lewisxhe/SensorLib",
       "repository_url": "https://github.com/lewisxhe/SensorLib",
       "name": "SensorLib",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.4.1",
           "seen_at": "2026-06-27T08:18:36Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-09-22T12:03:25.201Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-27T08:18:36Z",
-      "last_seen_sha": "64a7e5b73028",
+      "last_seen_sha": "be0bac7a3622",
       "author": "Lewis He",
       "maintainer": "Lewis He <lewishe@outlook.com>",
-      "sentence": "Commonly used I2C , SPI device multi-platform libraries",
-      "paragraph": "Support QMC6309,QMC6310,QMI8658,PCF8563,PCF85063,XL9555,BMA423,BHI260AP,BHI360,DRV2605,CM32181,LTR553,FT5206,FT3267,FT6236,FT6336,CST816S/T/D,CST820,CST226,CHSC5816,GT911,CST9217,CST9220,CST3240,AW9364,AW86224,PAW-A350",
+      "sentence": "Multi-platform I2C and SPI sensor and power device library",
+      "paragraph": "Supports RTC, IMU, magnetometer, accelerometer, touch, PMIC, battery gauge, haptic, light sensor, I/O expander, LED, and finger navigation devices on Arduino, PlatformIO, and ESP-IDF.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lewisxhe/SensorLib-0.5.0.zip",
+      "size": 11515935,
+      "previous_version": "0.4.1",
       "github_stars": 230,
       "github_forks": 36,
-      "github_updated_at": "2026-07-01T15:56:59Z",
-      "download_url": "https://github.com/lewisxhe/SensorLib",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-07-01T15:56:59Z"
     },
     {
       "repository_name": "k3ldar/SensorManager",
@@ -323402,7 +323447,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9802,
-    "total_dependencies": 5423
+    "with_github_metadata": 9803,
+    "total_dependencies": 5421
   }
 }

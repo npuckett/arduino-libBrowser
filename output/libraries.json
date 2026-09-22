@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-22T13:02:50.983Z",
-  "total_libraries": 10006,
-  "index_etag": "W/\"12107fb286e5708ee9e029b629f85281\"",
-  "index_last_modified": "Tue, 22 Sep 2026 12:59:12 GMT",
+  "enhanced_at": "2026-09-22T14:02:55.758Z",
+  "total_libraries": 10007,
+  "index_etag": "W/\"c49c97d684832326bb241aea593e7dfb\"",
+  "index_last_modified": "Tue, 22 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23383,7 +23383,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.172",
+      "version": "1.2.173",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23788,11 +23788,15 @@
         {
           "version": "1.2.172",
           "seen_at": "2026-09-21T14:03:04.055Z"
+        },
+        {
+          "version": "1.2.173",
+          "seen_at": "2026-09-22T14:02:54.266Z"
         }
       ],
-      "release_count": 101,
+      "release_count": 102,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "70f5007e7609",
+      "last_seen_sha": "fc4cf59f159d",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23813,9 +23817,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.172.zip",
-      "size": 44570931,
-      "previous_version": "1.2.171",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.173.zip",
+      "size": 44589793,
+      "previous_version": "1.2.172",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -25580,7 +25584,7 @@
       "repository_name": "apadevices/APADOSE",
       "repository_url": "https://github.com/apadevices/APADOSE",
       "name": "APA-Dose",
-      "version": "3.17.4",
+      "version": "3.17.6",
       "version_history": [
         {
           "version": "3.17.3",
@@ -25593,11 +25597,15 @@
         {
           "version": "3.17.4",
           "seen_at": "2026-09-22T08:03:40.136Z"
+        },
+        {
+          "version": "3.17.6",
+          "seen_at": "2026-09-22T14:02:54.266Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-02T08:30:41Z",
-      "last_seen_sha": "c5458b92a6b1",
+      "last_seen_sha": "5ea20a8a38f9",
       "author": "APADevices <kecup@vazac.eu>",
       "maintainer": "APADevices <kecup@vazac.eu>",
       "sentence": "Autonomous proportional chemical dosing for swimming pool pH and ORP control.",
@@ -25606,9 +25614,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.17.4.zip",
-      "size": 294782,
-      "previous_version": "3.17.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.17.6.zip",
+      "size": 296618,
+      "previous_version": "3.17.4",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
@@ -264012,6 +264020,35 @@
       "github_updated_at": "2026-09-16T06:34:25Z"
     },
     {
+      "repository_name": "SolderedElectronics/Soldered-BMM350-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/Soldered-BMM350-Arduino-Library",
+      "name": "Soldered BMM350 Geomagnetic Sensor",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-22T14:02:54.266Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-22T14:02:54.266Z",
+      "last_seen_sha": "9134ba6a036c",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Library for the Soldered BMM350 Geomagnetic Sensor breakout board",
+      "paragraph": "Library for the Soldered BMM350 Geomagnetic Sensor breakout board, providing basic functionalities for communicating with the board via I2C",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_BMM350_Geomagnetic_Sensor-1.0.0.zip",
+      "size": 57605,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-22T10:36:17Z"
+    },
+    {
       "repository_name": "SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
       "repository_url": "https://github.com/SolderedElectronics/Soldered-BMP180-Temperature-Pressure-Sensor-Arduino-Library",
       "name": "Soldered BMP180 Arduino Library",
@@ -323447,7 +323484,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9803,
+    "with_github_metadata": 9804,
     "total_dependencies": 5421
   }
 }

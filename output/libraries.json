@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-22T01:14:34.153Z",
-  "total_libraries": 10003,
-  "index_etag": "W/\"3a493b53024ecd394741ca5385dba299\"",
-  "index_last_modified": "Tue, 22 Sep 2026 00:59:12 GMT",
+  "enhanced_at": "2026-09-22T02:03:38.035Z",
+  "total_libraries": 10004,
+  "index_etag": "W/\"2a4ed9be6cbb9d2307688c85d43ae5e7\"",
+  "index_last_modified": "Tue, 22 Sep 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -300168,6 +300168,36 @@
       "download_url": "https://github.com/theprototypedesigner/tpdButton"
     },
     {
+      "repository_name": "DrMattGBarr/TPS92520-Arduino",
+      "repository_url": "https://github.com/DrMattGBarr/TPS92520-Arduino",
+      "name": "TPS92520Driver",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-09-22T02:03:36.703Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-22T02:03:36.703Z",
+      "last_seen_sha": "79697e148859",
+      "author": "Matthew Barr",
+      "maintainer": "Matthew Barr <matthew.g.barr@gmail.com>",
+      "sentence": "Arduino driver for the TI TPS92520-Q1 LED driver.",
+      "paragraph": "Provides current control, telemetry, status monitoring, and SPI protocol abstraction.",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DrMattGBarr/TPS92520Driver-0.1.1.zip",
+      "size": 12750,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-21T23:32:49Z"
+    },
+    {
       "repository_name": "triqadafi/TQDF_WatchOS",
       "repository_url": "https://github.com/triqadafi/TQDF_WatchOS",
       "name": "TQDF_WatchOS",
@@ -323325,7 +323355,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9800,
+    "with_github_metadata": 9801,
     "total_dependencies": 5421
   }
 }

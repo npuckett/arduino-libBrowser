@@ -1,6 +1,39 @@
 {
-  "since": "2026-09-23T05:02:41.791Z",
-  "new_libraries": [],
+  "since": "2026-09-23T06:04:09.689Z",
+  "new_libraries": [
+    {
+      "repository_name": "mahadihasan9/ESP32TelegramBot",
+      "repository_url": "https://github.com/mahadihasan9/ESP32TelegramBot",
+      "name": "ESP32TelegramBot",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-23T06:04:09.689Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T06:04:09.689Z",
+      "last_seen_sha": "f88509b9757a",
+      "author": "Mahdi bin Iqbal",
+      "maintainer": "mahdi bin Iqbal",
+      "sentence": "Simple Telegram bot library for ESP32 with memory-optimized JSON parsing.",
+      "paragraph": "Handles text messages only. Uses ArduinoJson 7.x filter deserialization and WiFiClientSecure connection reuse.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mahadihasan9/ESP32TelegramBot-1.0.0.zip",
+      "size": 17514,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-23T02:24:24Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

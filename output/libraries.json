@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-23T05:02:41.886Z",
-  "total_libraries": 10013,
-  "index_etag": "W/\"2a92a894d2c828026a4f06affcb35e9b\"",
-  "index_last_modified": "Wed, 23 Sep 2026 04:59:12 GMT",
+  "enhanced_at": "2026-09-23T06:04:11.126Z",
+  "total_libraries": 10014,
+  "index_etag": "W/\"eaae4f78ac173e0133eae67315de265c\"",
+  "index_last_modified": "Wed, 23 Sep 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -103877,6 +103877,38 @@
       "github_language": "C++",
       "github_updated_at": "2026-06-11T09:16:41Z",
       "download_url": "https://github.com/tanakamasayuki/ESP32TaskKit"
+    },
+    {
+      "repository_name": "mahadihasan9/ESP32TelegramBot",
+      "repository_url": "https://github.com/mahadihasan9/ESP32TelegramBot",
+      "name": "ESP32TelegramBot",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-23T06:04:09.689Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T06:04:09.689Z",
+      "last_seen_sha": "f88509b9757a",
+      "author": "Mahdi bin Iqbal",
+      "maintainer": "mahdi bin Iqbal",
+      "sentence": "Simple Telegram bot library for ESP32 with memory-optimized JSON parsing.",
+      "paragraph": "Handles text messages only. Uses ArduinoJson 7.x filter deserialization and WiFiClientSecure connection reuse.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mahadihasan9/ESP32TelegramBot-1.0.0.zip",
+      "size": 17514,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-23T02:24:24Z"
     },
     {
       "repository_name": "fbiego/ESP32Time",
@@ -323767,7 +323799,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9810,
-    "total_dependencies": 5464
+    "with_github_metadata": 9811,
+    "total_dependencies": 5465
   }
 }

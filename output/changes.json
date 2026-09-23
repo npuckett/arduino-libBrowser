@@ -1,6 +1,138 @@
 {
-  "since": "2026-09-23T11:02:35.133Z",
+  "since": "2026-09-23T12:04:09.218Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "HamzaYslmn/esp-rtosLogger",
+        "repository_url": "https://github.com/HamzaYslmn/esp-rtosLogger",
+        "name": "esp-rtosLogger",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.0.1",
+            "seen_at": "2026-09-22T18:03:36.693Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-23T02:03:40.536Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-09-23T10:02:34.992Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-09-23T12:04:09.218Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-22T18:03:36.693Z",
+        "last_seen_sha": "c12865f5ceea",
+        "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
+        "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
+        "sentence": "printf style logging that costs the caller about a microsecond: arguments go raw into a ring of the caller's own core, a FreeRTOS task formats them later.",
+        "paragraph": "logI(\"rpm=%d temp=%.2f\", rpm, temp) writes the raw arguments into a ring of the caller's own core, with that core's interrupts masked for the write, so no lock is ever shared between cores. A low priority task formats the lines with the real snprintf and sends them to Serial, or wherever logTo says, batched. logBin(struct) sends a plain struct as bytes instead, read back on the other board with logBinRead. Safe from interrupts and from any number of tasks. Measured on an ESP32-S3 under a SimpleFOC drive: 0.9 us mean, 1.4 us worst from a loop in IRAM, 0.5 us from an interrupt; 4.4 us on an nRF52840. Runs on ESP32 (Arduino-ESP32 3.x) and nRF52 (Adafruit core).",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "nrf52"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_rtosLogger-0.3.0.zip",
+        "size": 22221,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-22T14:24:57Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/LPS22HH",
+        "repository_url": "https://github.com/stm32duino/LPS22HH",
+        "name": "STM32duino LPS22HH",
+        "version": "2.1.0",
+        "version_history": [
+          {
+            "version": "2.0.4",
+            "seen_at": "2025-07-21T16:31:57Z"
+          },
+          {
+            "version": "2.0.4",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-09-23T12:04:09.218Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:31:57Z",
+        "last_seen_sha": "6b19e673a3ba",
+        "author": "SRA",
+        "maintainer": "stm32duino",
+        "sentence": "Nano pressure sensor.",
+        "paragraph": "This library provides Arduino support for the nano pressure sensor LPS22HH for STM32 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LPS22HH-2.1.0.zip",
+        "size": 23321,
+        "previous_version": "2.0.4",
+        "github_stars": 3,
+        "github_forks": 6,
+        "github_language": "C",
+        "github_updated_at": "2022-08-11T11:54:44Z"
+      },
+      "old_version": "2.0.4",
+      "new_version": "2.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/LSM6DSO",
+        "repository_url": "https://github.com/stm32duino/LSM6DSO",
+        "name": "STM32duino LSM6DSO",
+        "version": "2.3.0",
+        "version_history": [
+          {
+            "version": "2.2.0",
+            "seen_at": "2025-07-21T16:31:58Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-09-23T12:04:09.218Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:31:58Z",
+        "last_seen_sha": "e2a9a4ac4d08",
+        "author": "SRA",
+        "maintainer": "stm32duino",
+        "sentence": "Ultra Low Power inertial measurement unit.",
+        "paragraph": "This library provides Arduino support for the Ultra Low Power LSM6DSO for STM32 boards.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_LSM6DSO-2.3.0.zip",
+        "size": 84043,
+        "previous_version": "2.2.0",
+        "github_stars": 21,
+        "github_forks": 13,
+        "github_language": "C",
+        "github_updated_at": "2025-12-06T22:47:43Z"
+      },
+      "old_version": "2.2.0",
+      "new_version": "2.3.0"
+    }
+  ],
   "removed_libraries": []
 }

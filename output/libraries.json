@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-23T03:03:16.006Z",
+  "enhanced_at": "2026-09-23T04:03:04.288Z",
   "total_libraries": 10013,
-  "index_etag": "W/\"416a59eac6e19c4d737b3c4ee5438555\"",
-  "index_last_modified": "Wed, 23 Sep 2026 02:59:12 GMT",
+  "index_etag": "W/\"2a92a894d2c828026a4f06affcb35e9b\"",
+  "index_last_modified": "Wed, 23 Sep 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -183757,7 +183757,7 @@
       "repository_name": "Khuuxuanngoc/makereduvnlib",
       "repository_url": "https://github.com/Khuuxuanngoc/makereduvnlib",
       "name": "MKE_ONE",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "2.0.0",
@@ -183778,11 +183778,15 @@
         {
           "version": "2.0.4",
           "seen_at": "2026-09-22T12:03:25.201Z"
+        },
+        {
+          "version": "2.0.5",
+          "seen_at": "2026-09-23T04:03:04.159Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-03-06T07:20:15Z",
-      "last_seen_sha": "a3244176a9b2",
+      "last_seen_sha": "a29ffb3f400e",
       "author": "MakerEdu.vn",
       "maintainer": "MakerEdu.vn",
       "sentence": "MakerEdu Core Library to simplify development for MakerEdu Boards and Educational Kits",
@@ -183791,9 +183795,31 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.4.zip",
+      "depends": [
+        "kxnTask",
+        "OneButton",
+        "LiquidCrystal I2C",
+        "Dabble",
+        "HCSR04 ultrasonic MKL",
+        "BlynkGate",
+        "Makerlabvn_SimpleMotor",
+        "MKL_DHT sensor library",
+        "MKL_DS18B20",
+        "MKL_RTClib",
+        "Makerlabvn_I2C_Line_Follower_Sensor",
+        "Blynk",
+        "Adafruit NeoPixel",
+        "TinyGPSPlus",
+        "MakerEdu I2C Motor Driver",
+        "MKE I2C MP3",
+        "DabbleESP32",
+        "MKE_I2C_Loadcell",
+        "MKE_I2C_RFID",
+        "MKE_S17_AGS10"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_ONE-2.0.5.zip",
       "size": 390421,
-      "previous_version": "2.0.3",
+      "previous_version": "2.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -323742,6 +323768,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9810,
-    "total_dependencies": 5444
+    "total_dependencies": 5464
   }
 }

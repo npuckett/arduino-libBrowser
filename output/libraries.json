@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-23T19:02:24.167Z",
-  "total_libraries": 10017,
-  "index_etag": "W/\"0eefb48e6a4d4cd47d47fa655feb785d\"",
-  "index_last_modified": "Wed, 23 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-23T20:03:02.330Z",
+  "total_libraries": 10018,
+  "index_etag": "W/\"98076b9535879e03f8500edb2e11f736\"",
+  "index_last_modified": "Wed, 23 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105898,6 +105898,38 @@
       "github_updated_at": "2026-07-31T16:24:38Z"
     },
     {
+      "repository_name": "naseem-shawarba/esp-ble-sdk",
+      "repository_url": "https://github.com/naseem-shawarba/esp-ble-sdk",
+      "name": "ESPBLESDK",
+      "version": "0.1.0-beta.1",
+      "version_history": [
+        {
+          "version": "0.1.0-beta.1",
+          "seen_at": "2026-09-23T20:03:00.931Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T20:03:00.931Z",
+      "last_seen_sha": "1f3f8c383330",
+      "author": "Naseem Shawarba",
+      "maintainer": "Naseem Shawarba",
+      "sentence": "Typed Web Bluetooth SDK for ESP32",
+      "paragraph": "Pairs with the esp-ble-sdk npm package.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/naseem-shawarba/ESPBLESDK-0.1.0-beta.1.zip",
+      "size": 3655,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "TypeScript",
+      "github_updated_at": "2026-09-23T17:06:08Z"
+    },
+    {
       "repository_name": "HamzaYslmn/Esp-BLE-Web",
       "repository_url": "https://github.com/HamzaYslmn/Esp-BLE-Web",
       "name": "EspBleWeb",
@@ -112858,7 +112890,7 @@
       "repository_name": "gin66/FastAccelStepper",
       "repository_url": "https://github.com/gin66/FastAccelStepper",
       "name": "FastAccelStepper",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "version_history": [
         {
           "version": "1.2.5",
@@ -112891,11 +112923,15 @@
         {
           "version": "1.3.3",
           "seen_at": "2026-09-19T12:03:08.494Z"
+        },
+        {
+          "version": "1.3.4",
+          "seen_at": "2026-09-23T20:03:00.931Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-27T08:13:01Z",
-      "last_seen_sha": "e1abf1888f22",
+      "last_seen_sha": "8ac24e717f0a",
       "author": "Jochen Kiemes <jochen@kiemes.de>",
       "maintainer": "Jochen Kiemes <jochen@kiemes.de>",
       "sentence": "A high speed stepper library for Atmega 168/168p/328/328p (nano), 32u4 (leonardo), 2560, ESP32, ESP32S2, ESP32S3, ESP32C3, ESP32C6, Atmel SAM Due, Microchip SAMD51, Raspberry pi pico and pico 2",
@@ -112907,12 +112943,13 @@
         "sam",
         "samd",
         "rp2040",
-        "rp2350"
+        "rp2350",
+        "teensy"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/gin66/FastAccelStepper-1.3.3.zip",
-      "size": 679575,
-      "previous_version": "1.3.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gin66/FastAccelStepper-1.3.4.zip",
+      "size": 703020,
+      "previous_version": "1.3.3",
       "github_stars": 501,
       "github_forks": 100,
       "github_language": "C++",
@@ -156539,7 +156576,7 @@
       "repository_name": "TidalImpact/LighthouseReckoning",
       "repository_url": "https://github.com/TidalImpact/LighthouseReckoning",
       "name": "LighthouseReckoning",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -156548,11 +156585,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-11T18:03:08.492Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-23T20:03:00.931Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-18T18:05:17.590Z",
-      "last_seen_sha": "7a21a873cce6",
+      "last_seen_sha": "8d73ee0cd4cf",
       "author": "Fynn Jannis Schulz <fynnsscp009@gmail.com>",
       "maintainer": "Fynn Jannis Schulz <fynnsscp009@gmail.com>",
       "sentence": "A library implementing the Lighthouse Reckoning protocol for LoRa networks.",
@@ -156564,9 +156605,9 @@
       "depends": [
         "RadioLib"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TidalImpact/LighthouseReckoning-1.1.0.zip",
-      "size": 133571,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TidalImpact/LighthouseReckoning-1.2.0.zip",
+      "size": 134371,
+      "previous_version": "1.1.0",
       "github_stars": 3,
       "github_forks": 1,
       "github_language": "C++",
@@ -323970,7 +324011,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9814,
-    "total_dependencies": 5466
+    "with_github_metadata": 9815,
+    "total_dependencies": 5467
   }
 }

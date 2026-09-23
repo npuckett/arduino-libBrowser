@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-23T07:05:22.405Z",
-  "total_libraries": 10014,
-  "index_etag": "W/\"eaae4f78ac173e0133eae67315de265c\"",
-  "index_last_modified": "Wed, 23 Sep 2026 06:59:12 GMT",
+  "enhanced_at": "2026-09-23T08:03:35.611Z",
+  "total_libraries": 10015,
+  "index_etag": "W/\"736181645956c40aefc7e1c7826997e8\"",
+  "index_last_modified": "Wed, 23 Sep 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25689,7 +25689,7 @@
       "repository_name": "apadevices/APADOSE",
       "repository_url": "https://github.com/apadevices/APADOSE",
       "name": "APA-Dose",
-      "version": "3.17.6",
+      "version": "3.17.7",
       "version_history": [
         {
           "version": "3.17.3",
@@ -25706,11 +25706,15 @@
         {
           "version": "3.17.6",
           "seen_at": "2026-09-22T14:02:54.266Z"
+        },
+        {
+          "version": "3.17.7",
+          "seen_at": "2026-09-23T08:03:34.127Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-02T08:30:41Z",
-      "last_seen_sha": "5ea20a8a38f9",
+      "last_seen_sha": "ce229ee679d6",
       "author": "APADevices <kecup@vazac.eu>",
       "maintainer": "APADevices <kecup@vazac.eu>",
       "sentence": "Autonomous proportional chemical dosing for swimming pool pH and ORP control.",
@@ -25719,9 +25723,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.17.6.zip",
-      "size": 296618,
-      "previous_version": "3.17.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.17.7.zip",
+      "size": 297523,
+      "previous_version": "3.17.6",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
@@ -208931,7 +208935,7 @@
       "repository_name": "ScottMit/Pardalote-arduino",
       "repository_url": "https://github.com/ScottMit/Pardalote-arduino",
       "name": "Pardalote",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -208940,11 +208944,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-17T12:04:17.828Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-23T08:03:34.127Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-15T02:20:56.350Z",
-      "last_seen_sha": "a31e8009f8e5",
+      "last_seen_sha": "30927a209d6b",
       "author": "Scott Mitchell",
       "maintainer": "Scott Mitchell",
       "sentence": "Control Arduino hardware directly from a web browser over WiFi.",
@@ -208958,9 +208966,9 @@
       "depends": [
         "WebSockets"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ScottMit/Pardalote-1.1.0.zip",
-      "size": 149756,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ScottMit/Pardalote-1.2.0.zip",
+      "size": 174321,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -255732,6 +255740,36 @@
       "download_url": "https://github.com/TheSpaceEgg/SimpleAD9833"
     },
     {
+      "repository_name": "noelanderson/SimpleAwait",
+      "repository_url": "https://github.com/noelanderson/SimpleAwait",
+      "name": "SimpleAwait",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-23T08:03:34.127Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T08:03:34.127Z",
+      "last_seen_sha": "e1957e954f35",
+      "author": "Noel Anderson",
+      "maintainer": "Noel Anderson",
+      "sentence": "Deterministic, fixed-memory cooperative coroutine library using native C++20 coroutines.",
+      "paragraph": "SimpleAwait provides cooperative concurrency for Arduino-class microcontrollers (RP2040, RP2350, ESP32) using standard C++20 coroutines with a statically allocated scheduler and coroutine frame pool. No RTOS, no heap allocation for coroutine frames, and deterministic failure behavior. It provides lazy Tasks, a fair cooperative scheduler, yield/delay timers, parent/child await, scheduler-local Event and bounded Queue, an ISR-safe ThreadSafeFlag bridge, and waitUntil.",
+      "category": "Timing",
+      "architectures": [
+        "rp2040",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/noelanderson/SimpleAwait-1.0.1.zip",
+      "size": 183607,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-23T03:19:09Z"
+    },
+    {
       "repository_name": "gitlab.com/riva-lab/SimpleBME280",
       "repository_url": "https://gitlab.com/riva-lab/SimpleBME280",
       "name": "SimpleBME280",
@@ -258433,7 +258471,7 @@
       "repository_name": "sinricpro/arduino-esp32-webrtc-lib",
       "repository_url": "https://github.com/sinricpro/arduino-esp32-webrtc-lib",
       "name": "SinricProWebRTC",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.2.1",
@@ -258442,11 +258480,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-09-22T08:03:40.136Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-09-23T08:03:34.127Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-20T08:03:21.339Z",
-      "last_seen_sha": "e29cb2a142fa",
+      "last_seen_sha": "4ea4f9282fe6",
       "author": "SinricPro",
       "maintainer": "SinricPro",
       "sentence": "Espressif WebRTC peer connections for Arduino ESP32 and ESP32-S3.",
@@ -258455,9 +258497,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricProWebRTC-0.3.0.zip",
-      "size": 9581615,
-      "previous_version": "0.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricProWebRTC-0.3.1.zip",
+      "size": 9590360,
+      "previous_version": "0.3.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -323799,7 +323841,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9811,
+    "with_github_metadata": 9812,
     "total_dependencies": 5465
   }
 }

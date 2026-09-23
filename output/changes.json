@@ -1,6 +1,135 @@
 {
-  "since": "2026-09-23T13:02:56.019Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-23T14:02:52.237Z",
+  "new_libraries": [
+    {
+      "repository_name": "sparkfun/SparkFun_u-blox_GNSS_v4",
+      "repository_url": "https://github.com/sparkfun/SparkFun_u-blox_GNSS_v4",
+      "name": "SparkFun u-blox GNSS v4",
+      "version": "4.0.0",
+      "version_history": [
+        {
+          "version": "4.0.0",
+          "seen_at": "2026-09-23T14:02:52.237Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T14:02:52.237Z",
+      "last_seen_sha": "5b1948542bd0",
+      "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+      "maintainer": "SparkFun Electronics <sparkfun.com>",
+      "sentence": "Library for I2C, Serial and SPI Communication with u-blox GNSS modules<br/><br/>",
+      "paragraph": "An Arduino Library to support the latest u-blox GNSS modules, using both NMEA and UBX protocols over I2C, Serial and SPI.<br/><br/>Useful for interfacing to the <a href=\"https://www.sparkfun.com/sparkfun-allband-gnss-rtk-breakout-zed-x20p-qwiic.html\">SparkFun Allband GNSS RTK Breakout - ZED-X20P (GPS-28871)</a>.<br/>",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_u_blox_GNSS_v4-4.0.0.zip",
+      "size": 583969,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-23T11:11:04Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ailagari/LagariMotors",
+        "repository_url": "https://github.com/ailagari/LagariMotors",
+        "name": "LagariMotors",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-05T14:02:05.234Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-09-06T00:07:17.875Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-09-23T10:02:34.992Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-09-23T14:02:52.237Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-05T14:02:05.234Z",
+        "last_seen_sha": "d3b90bcd3b18",
+        "author": "LAGARI A <lagariscience@gmail.com>",
+        "maintainer": "LAGARI A <lagariscience@gmail.com>",
+        "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+        "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PR, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X, MC, DG plus V/VA/VS/AD/HV/HO/H extensions).",
+        "category": "Device Control",
+        "architectures": [
+          "avr"
+        ],
+        "depends": [
+          "CONTROLLINO",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.3.0.zip",
+        "size": 46165,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T11:28:17Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "SUPLA/supla-device",
+        "repository_url": "https://github.com/SUPLA/supla-device",
+        "name": "SuplaDevice",
+        "version": "26.9.2",
+        "version_history": [
+          {
+            "version": "26.4",
+            "seen_at": "2026-06-30T08:49:03Z"
+          },
+          {
+            "version": "26.4.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "26.8.0",
+            "seen_at": "2026-08-14T18:15:59.558Z"
+          },
+          {
+            "version": "26.9.2",
+            "seen_at": "2026-09-23T14:02:52.237Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:49:03Z",
+        "last_seen_sha": "a24cf6893d0c",
+        "author": "AC SOFTWARE SP. Z O.O.",
+        "maintainer": "AC SOFTWARE SP. Z O.O. <krzysiek@supla.org>",
+        "sentence": "Build custom SUPLA-compatible IoT devices with Arduino.",
+        "paragraph": "Build custom SUPLA-compatible devices with sensors, relays, buttons, roller shutters, HVAC and other channels. Connect them to SUPLA Server using Arduino IDE or PlatformIO on ESP32, ESP8266 and Arduino Mega.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SUPLA/SuplaDevice-26.9.2.zip",
+        "size": 2221159,
+        "previous_version": "26.8.0",
+        "github_stars": 55,
+        "github_forks": 30,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T17:05:23Z"
+      },
+      "old_version": "26.8.0",
+      "new_version": "26.9.2"
+    }
+  ],
   "removed_libraries": []
 }

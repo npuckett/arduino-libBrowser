@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-23T01:15:17.118Z",
-  "total_libraries": 10012,
-  "index_etag": "W/\"931dae09643013fb0c1452a66ec34040\"",
-  "index_last_modified": "Wed, 23 Sep 2026 00:59:12 GMT",
+  "enhanced_at": "2026-09-23T02:03:42.076Z",
+  "total_libraries": 10013,
+  "index_etag": "W/\"416a59eac6e19c4d737b3c4ee5438555\"",
+  "index_last_modified": "Wed, 23 Sep 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -12441,6 +12441,50 @@
       "github_forks": 7,
       "github_language": "C++",
       "github_updated_at": "2026-06-25T17:35:29Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_Monster_Eyes",
+      "repository_url": "https://github.com/adafruit/Adafruit_Monster_Eyes",
+      "name": "Adafruit Monster Eyes",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-23T02:03:40.536Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-23T02:03:40.536Z",
+      "last_seen_sha": "baebecddfdb7",
+      "author": "Adafruit Industries",
+      "maintainer": "Adafruit Industries",
+      "sentence": "Animated monster eyes for RP2040/RP2350 and ESP32, on SPI TFT, PicoDVI or parallel RGB666 displays.",
+      "paragraph": "A port of Adafruit M4_Eyes project to an Arduino library with support for more chipsets and display types. Eye appearance is read from config.eye and BMP files on the CIRCUITPY drive, and every attribute can be driven from sketch code.",
+      "category": "Display",
+      "architectures": [
+        "rp2040",
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit BusIO",
+        "Adafruit ST7735 and ST7789 Library",
+        "Adafruit ILI9341",
+        "Adafruit GC9A01A",
+        "PicoDVI - Adafruit Fork",
+        "GFX Library for Arduino",
+        "Adafruit SPIFlash",
+        "SdFat - Adafruit Fork",
+        "Adafruit TinyUSB Library",
+        "ArduinoJson",
+        "Adafruit TSL2585"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Monster_Eyes-2.0.0.zip",
+      "size": 79871,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-22T21:33:33Z"
     },
     {
       "repository_name": "adafruit/Adafruit-Motor-Shield-library",
@@ -98317,27 +98361,32 @@
       "repository_name": "HamzaYslmn/esp-rtosLogger",
       "repository_url": "https://github.com/HamzaYslmn/esp-rtosLogger",
       "name": "esp-rtosLogger",
-      "version": "0.0.1",
+      "version": "0.1.0",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-09-22T18:03:36.693Z"
+        },
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-23T02:03:40.536Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-22T18:03:36.693Z",
-      "last_seen_sha": "45de25dc6110",
+      "last_seen_sha": "d101366a1fe0",
       "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
-      "sentence": "printf style logging that costs the caller a few microseconds: arguments are queued raw, a FreeRTOS task formats them later.",
-      "paragraph": "logI(\"rpm=%d temp=%.2f\", rpm, temp) copies the arguments into a 512 byte record and posts it to a static FreeRTOS queue. A low priority task on the core you choose formats the lines with the real snprintf and writes them to Serial, or to any sink you define, batched. Safe from interrupts. Measured 3.2 us p50 per call on an ESP32-S3 at 240 MHz from a 20 kHz loop on the other core. Runs on ESP32 (Arduino-ESP32 3.x) and nRF52 (Adafruit core).",
+      "sentence": "printf style logging that costs the caller about a microsecond: arguments go raw into a ring of the caller's own core, a FreeRTOS task formats them later.",
+      "paragraph": "logI(\"rpm=%d temp=%.2f\", rpm, temp) writes the raw arguments into a ring of the caller's own core, with that core's interrupts masked for the write, so no lock is ever shared between cores. A low priority task formats the lines with the real snprintf and sends them to Serial, or wherever logTo says, batched. Safe from interrupts and from any number of tasks. Measured on an ESP32-S3 under a SimpleFOC drive: 0.9 us mean, 1.4 us worst from a loop in IRAM, 0.5 us from an interrupt; 4.4 us on an nRF52840. Runs on ESP32 (Arduino-ESP32 3.x) and nRF52 (Adafruit core).",
       "category": "Communication",
       "architectures": [
         "esp32",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_rtosLogger-0.0.1.zip",
-      "size": 10841,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_rtosLogger-0.1.0.zip",
+      "size": 12489,
+      "previous_version": "0.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -101452,7 +101501,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.6.0",
+      "version": "1.7.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -101513,22 +101562,26 @@
         {
           "version": "1.6.0",
           "seen_at": "2026-09-21T20:02:59.481Z"
+        },
+        {
+          "version": "1.7.1",
+          "seen_at": "2026-09-23T02:03:40.536Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "5d89a64c82f3",
+      "last_seen_sha": "c49f1e8eecc4",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
-      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST and SOAP services, and minimal memory footprint.",
+      "paragraph": "Direct stream-to-variable binding, zero-heap streaming parser for REST, SOAP, and GraphQL services, and minimal memory footprint.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.6.0.zip",
-      "size": 6193578,
-      "previous_version": "1.5.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.7.1.zip",
+      "size": 6255620,
+      "previous_version": "1.6.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -323688,7 +323741,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9809,
-    "total_dependencies": 5432
+    "with_github_metadata": 9810,
+    "total_dependencies": 5444
   }
 }

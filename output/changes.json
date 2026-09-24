@@ -1,6 +1,65 @@
 {
-  "since": "2026-09-24T17:02:29.443Z",
-  "new_libraries": [],
+  "since": "2026-09-24T18:03:10.453Z",
+  "new_libraries": [
+    {
+      "repository_name": "toggio/PacketLED",
+      "repository_url": "https://github.com/toggio/PacketLED",
+      "name": "PacketLED",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-24T18:03:10.453Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-24T18:03:10.453Z",
+      "last_seen_sha": "a5a4a30bfd5c",
+      "author": "Luca Soltoggio",
+      "maintainer": "Luca Soltoggio",
+      "sentence": "Packet communication over bidirectional LEDs, inspired by Packet Radio.",
+      "paragraph": "Two boards exchange packets through a pair of ordinary LEDs: each LED both transmits and senses light, no photodiode needed. LX.25 protocol with CRC-16/X.25, acknowledgements and retransmissions, 256-1024 bit/s. LoRa-style API.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/toggio/PacketLED-1.0.0.zip",
+      "size": 45308,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-24T14:44:29Z"
+    },
+    {
+      "repository_name": "MAKIO135/sensorShieldLib",
+      "repository_url": "https://github.com/MAKIO135/sensorShieldLib",
+      "name": "sensorShieldLib",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-24T18:03:10.453Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-24T18:03:10.453Z",
+      "last_seen_sha": "b51024676dff",
+      "author": "makio135",
+      "maintainer": "makio135",
+      "sentence": "Easily monitor sensors and communicate values in JSON on changes.",
+      "paragraph": "sensorShieldLib provides methods to easily declare sensors, monitor their values, process them if needed, set limits and/or sensitivities, and finally communicate the values in JSON on changes, without dependencies.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MAKIO135/sensorShieldLib-2.0.0.zip",
+      "size": 7775405,
+      "github_stars": 7,
+      "github_forks": 1,
+      "github_language": "Makefile",
+      "github_updated_at": "2026-09-24T14:55:39Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

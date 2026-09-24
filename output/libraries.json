@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-24T13:02:39.987Z",
-  "total_libraries": 10019,
-  "index_etag": "W/\"8417402fd637160ce5e6fa6dd01ac92a\"",
-  "index_last_modified": "Thu, 24 Sep 2026 12:59:12 GMT",
+  "enhanced_at": "2026-09-24T14:03:10.645Z",
+  "total_libraries": 10020,
+  "index_etag": "W/\"21dba799202a2adb3de343bf6d08129a\"",
+  "index_last_modified": "Thu, 24 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23485,7 +23485,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.176",
+      "version": "1.2.178",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23902,11 +23902,15 @@
         {
           "version": "1.2.176",
           "seen_at": "2026-09-23T00:06:45.817Z"
+        },
+        {
+          "version": "1.2.178",
+          "seen_at": "2026-09-24T14:03:09.186Z"
         }
       ],
-      "release_count": 104,
+      "release_count": 105,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "1b695af5fb89",
+      "last_seen_sha": "4be04bcc5898",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23927,9 +23931,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.176.zip",
-      "size": 44591280,
-      "previous_version": "1.2.174",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.178.zip",
+      "size": 44591938,
+      "previous_version": "1.2.176",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -60790,6 +60794,35 @@
       "github_language": "C",
       "github_updated_at": "2026-05-21T09:52:54Z",
       "download_url": "https://github.com/tdk-invn-oss/ultrasonic.arduino.CHx01"
+    },
+    {
+      "repository_name": "ilyabrin/ci18n",
+      "repository_url": "https://github.com/ilyabrin/ci18n",
+      "name": "ci18n",
+      "version": "2.18.0",
+      "version_history": [
+        {
+          "version": "2.18.0",
+          "seen_at": "2026-09-24T14:03:09.186Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-24T14:03:09.186Z",
+      "last_seen_sha": "7843f9d94c74",
+      "author": "Ilya Brin",
+      "maintainer": "Ilya Brin",
+      "sentence": "Translations for C in one header: plurals for 71 languages, formatting, right-to-left text.",
+      "paragraph": "Translations compile into flash and take no RAM there. On an Arduino Uno the Hello example, two languages with plurals and formatting, costs 9.5 KB of flash and 0.7 KB of RAM. Include ci18n.h and nothing else.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ilyabrin/ci18n-2.18.0.zip",
+      "size": 307216,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-24T13:03:44Z"
     },
     {
       "repository_name": "SMFSW/cI2C",
@@ -240056,16 +240089,20 @@
       "repository_name": "n-car/rpc-arduino-toolkit",
       "repository_url": "https://github.com/n-car/rpc-arduino-toolkit",
       "name": "RPCToolkit",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-15T10:01:02Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-09-24T14:03:09.186Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-15T10:01:02Z",
-      "last_seen_sha": "9e3437e2c60b",
+      "last_seen_sha": "39694bb95dfa",
       "author": "Nicola Carpanese <https://github.com/n-car>",
       "maintainer": "Nicola Carpanese <https://github.com/n-car>",
       "sentence": "Lightweight JSON-RPC 2.0 client and server for Arduino-compatible embedded targets",
@@ -240075,15 +240112,17 @@
         "esp32",
         "esp8266"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-14T00:23:38Z",
       "license": "MIT",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/n-car/rpc-arduino-toolkit"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/n-car/RPCToolkit-1.1.0.zip",
+      "size": 57966,
+      "previous_version": "1.0.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-14T00:23:38Z"
     },
     {
       "repository_name": "khoih-prog/RPI_PICO_TimerInterrupt",
@@ -324063,7 +324102,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9816,
+    "with_github_metadata": 9817,
     "total_dependencies": 5467
   }
 }

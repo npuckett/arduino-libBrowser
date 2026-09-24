@@ -1,6 +1,58 @@
 {
-  "since": "2026-09-24T05:02:40.086Z",
+  "since": "2026-09-24T06:04:39.078Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-NFC",
+        "repository_url": "https://github.com/m5stack/M5Unit-NFC",
+        "name": "M5Unit-NFC",
+        "version": "0.1.2",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-06-11T09:15:35Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-09-14T12:04:01.232Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-09-24T06:04:39.078Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-11T09:15:35Z",
+        "last_seen_sha": "e2c1fac41866",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack UNIT NFC using M5UnitUnified",
+        "paragraph": "Supports ST25R3916 (UnitNFC, SKU:U216 / CapCC1101NFC, SKU:U219) for NFC read/write operations with ISO 14443A/B, FeliCa, and ISO 15693 protocols.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_NFC-0.1.2.zip",
+        "size": 445349,
+        "previous_version": "0.1.1",
+        "github_stars": 5,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-10T13:43:23Z"
+      },
+      "old_version": "0.1.1",
+      "new_version": "0.1.2"
+    }
+  ],
   "removed_libraries": []
 }

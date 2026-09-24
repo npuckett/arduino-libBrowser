@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-24T15:02:30.403Z",
+  "enhanced_at": "2026-09-24T16:03:09.642Z",
   "total_libraries": 10020,
-  "index_etag": "W/\"21dba799202a2adb3de343bf6d08129a\"",
-  "index_last_modified": "Thu, 24 Sep 2026 14:59:12 GMT",
+  "index_etag": "W/\"6e50308a9c82d29bee0948cb18bb1836\"",
+  "index_last_modified": "Thu, 24 Sep 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -98442,7 +98442,7 @@
       "repository_name": "HamzaYslmn/esp-rtosLogger",
       "repository_url": "https://github.com/HamzaYslmn/esp-rtosLogger",
       "name": "esp-rtosLogger",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.0.1",
@@ -98459,23 +98459,27 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-09-23T12:04:09.218Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-09-22T18:03:36.693Z",
-      "last_seen_sha": "c12865f5ceea",
+      "last_seen_sha": "9aef2be2e9de",
       "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "sentence": "printf style logging that costs the caller about a microsecond: arguments go raw into a ring of the caller's own core, a FreeRTOS task formats them later.",
-      "paragraph": "logI(\"rpm=%d temp=%.2f\", rpm, temp) writes the raw arguments into a ring of the caller's own core, with that core's interrupts masked for the write, so no lock is ever shared between cores. A low priority task formats the lines with the real snprintf and sends them to Serial, or wherever logTo says, batched. logBin(struct) sends a plain struct as bytes instead, read back on the other board with logBinRead. Safe from interrupts and from any number of tasks. Measured on an ESP32-S3 under a SimpleFOC drive: 0.9 us mean, 1.4 us worst from a loop in IRAM, 0.5 us from an interrupt; 4.4 us on an nRF52840. Runs on ESP32 (Arduino-ESP32 3.x) and nRF52 (Adafruit core).",
+      "paragraph": "logI(\"rpm=%d temp=%.2f\", rpm, temp) writes the raw arguments into a ring of the caller's own core, with that core's interrupts masked for the write, so no lock is ever shared between cores. A low priority task formats the lines with the real snprintf and sends them to Serial, or to the outputs you make, batched. logBin(struct) sends a plain struct as bytes instead, read back on the other board with logBinRead. Safe from interrupts and from any number of tasks. Measured on an ESP32-S3 under a SimpleFOC drive: 0.9 us mean, 1.4 us worst from a loop in IRAM, 0.5 us from an interrupt; 4.4 us on an nRF52840. Runs on ESP32 (Arduino-ESP32 3.x) and nRF52 (Adafruit core).",
       "category": "Communication",
       "architectures": [
         "esp32",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_rtosLogger-0.3.0.zip",
-      "size": 22221,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp_rtosLogger-0.4.0.zip",
+      "size": 23851,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -109538,7 +109542,7 @@
       "repository_name": "agusevtec/eva-boxy",
       "repository_url": "https://github.com/agusevtec/eva-boxy",
       "name": "eva-boxy",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -109547,15 +109551,18 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-08-27T23:05:28.812Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-19T14:10:10.648Z",
-      "last_seen_sha": "4121ea7f1f51",
+      "last_seen_sha": "145bc7045367",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
-      "sentence": "EVA Boxy.",
-      "paragraph": "Declarative desktop-style GUI framework driven by physical keypads. Supports SSD1306, SH1106, KS0108, PCD8544, and HD44780 (LCD I2C) controllers.",
+      "sentence": "EVA Boxy. Declarative desktop-style GUI framework driven by physical keypads. Supports SSD1306, SH1106, KS0108, PCD8544, and HD44780 (LCD I2C) controllers.",
       "category": "Display",
       "architectures": [
         "*"
@@ -109563,9 +109570,9 @@
       "depends": [
         "eva-core-sk"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_boxy-1.0.1.zip",
-      "size": 4400552,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_boxy-1.0.2.zip",
+      "size": 4400437,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -109575,7 +109582,7 @@
       "repository_name": "agusevtec/eva-core-sk",
       "repository_url": "https://github.com/agusevtec/eva-core-sk",
       "name": "eva-core-sk",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "version_history": [
         {
           "version": "1.2.0",
@@ -109604,22 +109611,25 @@
         {
           "version": "1.3.3",
           "seen_at": "2026-09-24T10:02:41.373Z"
+        },
+        {
+          "version": "1.3.4",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-10T09:00:32Z",
-      "last_seen_sha": "4ab549c3a038",
+      "last_seen_sha": "12acc3396b29",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
-      "sentence": "EVA Core | EVA Survival Kit.",
-      "paragraph": "An architectural core with essential components for an event-driven approach.",
+      "sentence": "EVA Core | EVA Survival Kit. An architectural core with essential components for a truly object-oriented, event-driven architecture.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_core_sk-1.3.3.zip",
-      "size": 1287430,
-      "previous_version": "1.3.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_core_sk-1.3.4.zip",
+      "size": 1287093,
+      "previous_version": "1.3.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -109629,7 +109639,7 @@
       "repository_name": "agusevtec/eva-filters",
       "repository_url": "https://github.com/agusevtec/eva-filters",
       "name": "eva-filters",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "0.0.1",
@@ -109638,15 +109648,18 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-09-23T10:02:34.992Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-11T12:03:46.515Z",
-      "last_seen_sha": "f790257eaf31",
+      "last_seen_sha": "7d39f50e2311",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
-      "sentence": "EVA Filters.",
-      "paragraph": "Signal filtering library: Median, Exponential Moving Average, Adaptive Exponential Moving Average, Slew Rate Limiter, Morphological Min-max and open-close.",
+      "sentence": "EVA Filters. Signal filtering library: Median, Exponential Moving Average, Adaptive Exponential Moving Average, Slew Rate Limiter, Morphological Min-max and open-close.",
       "category": "Data Processing",
       "architectures": [
         "*"
@@ -109654,9 +109667,9 @@
       "depends": [
         "eva-core-sk"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_filters-1.0.0.zip",
-      "size": 31976,
-      "previous_version": "0.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_filters-1.0.1.zip",
+      "size": 32007,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -109666,7 +109679,7 @@
       "repository_name": "agusevtec/eva-motors",
       "repository_url": "https://github.com/agusevtec/eva-motors",
       "name": "eva-motors",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.1.0",
@@ -109691,15 +109704,18 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-09-23T10:02:34.992Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-23T08:53:29Z",
-      "last_seen_sha": "282ab1af66d1",
+      "last_seen_sha": "71fa0607fa43",
       "author": "Andrey Gusev",
       "maintainer": "Andrey Gusev",
-      "sentence": "EVA Motors.",
-      "paragraph": "Modular decorator-based library for behavioral modification of micro-motors.",
+      "sentence": "EVA Motors. Modular decorator-based library for behavioral modification of micro-motors.",
       "category": "Device Control",
       "architectures": [
         "*"
@@ -109708,9 +109724,9 @@
         "eva-core-sk",
         "eva-filters"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_motors-1.2.0.zip",
-      "size": 1787763,
-      "previous_version": "1.1.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_motors-1.2.1.zip",
+      "size": 1787772,
+      "previous_version": "1.2.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -308652,16 +308668,20 @@
       "repository_name": "metaloomlabs/usmp-arduino",
       "repository_url": "https://github.com/metaloomlabs/usmp-arduino",
       "name": "USMP",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.2.1",
           "seen_at": "2026-09-22T20:02:19.381Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-09-24T16:03:09.538Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-22T20:02:19.381Z",
-      "last_seen_sha": "3ad330400568",
+      "last_seen_sha": "346ec5d2d975",
       "author": "winterx64",
       "maintainer": "winterx64 <winterx64.work@gmail.com>",
       "sentence": "Secure lightweight encrypted device communication protocol.",
@@ -308670,8 +308690,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/metaloomlabs/USMP-1.2.1.zip",
-      "size": 44681,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/metaloomlabs/USMP-1.2.2.zip",
+      "size": 45054,
+      "previous_version": "1.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

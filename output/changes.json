@@ -1,6 +1,79 @@
 {
-  "since": "2026-09-23T23:02:11.271Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-24T00:06:11.313Z",
+  "new_libraries": [
+    {
+      "repository_name": "Mirco850/EasyIO",
+      "repository_url": "https://github.com/Mirco850/EasyIO",
+      "name": "EasyIO",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-24T00:06:11.313Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-24T00:06:11.313Z",
+      "last_seen_sha": "91bdf36d1dae",
+      "author": "Mirco Spaggiari <EasyProjects85@proton.me>",
+      "maintainer": "Mirco Spaggiari <EasyProjects85@proton.me>",
+      "sentence": "A library for PCF8574A (8-bit) and PCF8575 (16-bit) I2C I/O expanders used on a custom PCB that provide input read (State ON 4 to 30V) and relay output.",
+      "paragraph": "EasyIO simplifies the control of PCF8574A and PCF8575 expanders using active-LOW output logic. It prevents chip damage and short circuits by automatically enforcing input bits LOW during operations, avoiding incorrect pin state conflicts.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Mirco850/EasyIO-1.0.0.zip",
+      "size": 741608,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-23T20:08:40Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "johngavel/Terminal",
+        "repository_url": "https://github.com/johngavel/Terminal",
+        "name": "Terminal",
+        "version": "1.0.14",
+        "version_history": [
+          {
+            "version": "1.0.12",
+            "seen_at": "2026-02-04T07:19:05Z"
+          },
+          {
+            "version": "1.0.13",
+            "seen_at": "2026-07-14T16:25:47.383Z"
+          },
+          {
+            "version": "1.0.14",
+            "seen_at": "2026-09-24T00:06:11.313Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-02-04T07:19:05Z",
+        "last_seen_sha": "f42fca7b7daf",
+        "author": "John J. Gavel <john.gavel@gmail.com>",
+        "maintainer": "John J. Gavel <john.gavel@gmail.com>",
+        "sentence": "Terminal for Serial Ports, Telnet, and other Streams.",
+        "paragraph": "Processing, Parsing, Executing, and Output Control for Terminals. Provides the ability to easily add commands to Terminals, Execute commands, and Parse and Tokenize the Input. Handles backspace and up/down arrows from history.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/johngavel/Terminal-1.0.14.zip",
+        "size": 37750,
+        "previous_version": "1.0.13",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-02-03T19:56:35Z"
+      },
+      "old_version": "1.0.13",
+      "new_version": "1.0.14"
+    }
+  ],
   "removed_libraries": []
 }

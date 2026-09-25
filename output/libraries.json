@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-25T19:02:18.301Z",
-  "total_libraries": 10027,
-  "index_etag": "W/\"776551e89a67bec4d1cdf75070f1ab63\"",
-  "index_last_modified": "Fri, 25 Sep 2026 18:59:12 GMT",
+  "enhanced_at": "2026-09-25T20:02:39.786Z",
+  "total_libraries": 10024,
+  "index_etag": "W/\"7a3f8db1016e41d07c00b3a7b5836a1a\"",
+  "index_last_modified": "Fri, 25 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23490,7 +23490,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.179",
+      "version": "1.2.180",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23915,11 +23915,15 @@
         {
           "version": "1.2.179",
           "seen_at": "2026-09-25T14:03:08.490Z"
+        },
+        {
+          "version": "1.2.180",
+          "seen_at": "2026-09-25T20:02:35.810Z"
         }
       ],
-      "release_count": 106,
+      "release_count": 107,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "b125c4c1d501",
+      "last_seen_sha": "f6767d4ec258",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23940,9 +23944,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.179.zip",
-      "size": 44591938,
-      "previous_version": "1.2.178",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.180.zip",
+      "size": 44592106,
+      "previous_version": "1.2.179",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -74415,6 +74419,39 @@
       "github_updated_at": "2026-05-29T21:48:28Z"
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+      "name": "DevLab_GT365xx",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-25T20:02:35.810Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-25T20:02:35.810Z",
+      "last_seen_sha": "8f832824cde1",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the GT365xx light sensor (LDR) using DDP over I2C.",
+      "paragraph": "DevLab GT365xx library for light acquisition through the DevLab Device Protocol (DDP) over I2C. Reads the 12-bit ADC value of the LDR voltage divider.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "DevLabDDP",
+        "DevLab_Interface"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_GT365xx-1.0.1.zip",
+      "size": 14923,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-25T17:52:23Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_icm20948_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_icm20948_library",
       "name": "DevLab_ICM20948",
@@ -117563,40 +117600,6 @@
       "download_url": "https://github.com/hafidhh/FlowSensor-Arduino"
     },
     {
-      "repository_name": "Tunasha/FlowSensorLib",
-      "repository_url": "https://github.com/Tunasha/FlowSensorLib",
-      "name": "FlowSensorLib",
-      "version": "1.0.2",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-16T16:03:40.707Z"
-        },
-        {
-          "version": "1.0.2",
-          "seen_at": "2026-09-18T12:03:39.422Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-16T16:03:40.707Z",
-      "last_seen_sha": "57c2dd5b4886",
-      "author": "Tunasha,Babatunde Adg",
-      "maintainer": "Babatunde Adg <tunashapcb@gmail.com>",
-      "sentence": "Reads the amount of liquid that flows through a flow sensor.",
-      "paragraph": "This library provides non-blocking class that counts pulses from a hall-effect flow sensor, converts them to flow rate (L/min) and accumulated volume (L). Works with any pulse-output flow meter.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/FlowSensorLib-1.0.2.zip",
-      "size": 625193,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-16T13:53:32Z"
-    },
-    {
       "repository_name": "FluxGarage/RoboEyes",
       "repository_url": "https://github.com/FluxGarage/RoboEyes",
       "name": "FluxGarage RoboEyes",
@@ -139017,40 +139020,6 @@
       "github_forks": 0,
       "github_language": "C",
       "github_updated_at": "2026-05-19T08:26:27Z"
-    },
-    {
-      "repository_name": "tdk-invn-oss/motion.arduino.ICM56686",
-      "repository_url": "https://github.com/tdk-invn-oss/motion.arduino.ICM56686",
-      "name": "ICM56686",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-04-18T07:32:54Z"
-        },
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-07-06T16:58:22.530Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-04-18T07:32:54Z",
-      "last_seen_sha": "c0d6fec78810",
-      "author": "TDK/Invensense",
-      "maintainer": "TDK/Invensense",
-      "sentence": "Allows to read accelerometer, gyroscope and temperature sensors from an ICM56686 Invensence IMU device.",
-      "paragraph": "This library allows to easily configure and log accelerometer, gyroscope and temperature data from an ICM56686 device, using the SPI or the I2C interface. It also provides embedded algorithms such as Tap, Wake on Motion...",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tdk-invn-oss/ICM56686-1.0.1.zip",
-      "size": 634317,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2026-05-19T08:25:50Z"
     },
     {
       "repository_name": "Andy4495/ICM7218",
@@ -221122,18 +221091,18 @@
       "download_url": "https://github.com/burksbuilds/PreferencesCLI"
     },
     {
-      "repository_name": "horse-pants/Preflight-Arduino",
-      "repository_url": "https://github.com/horse-pants/Preflight-Arduino",
+      "repository_name": "diydoohickeys/Preflight-Arduino",
+      "repository_url": "https://github.com/diydoohickeys/Preflight-Arduino",
       "name": "Preflight",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-09-19T02:03:38.898Z"
+          "seen_at": "2026-09-25T20:02:35.810Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-09-19T02:03:38.898Z",
+      "first_seen_at": "2026-09-25T20:02:35.810Z",
       "last_seen_sha": "58c8e8306b78",
       "author": "James Cartwright",
       "maintainer": "James Cartwright",
@@ -221147,12 +221116,12 @@
         "ESP Async WebServer",
         "Async TCP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/horse-pants/Preflight-1.0.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.0.0.zip",
       "size": 495676,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-09-19T01:13:24Z"
+      "github_updated_at": "2026-09-19T02:32:25Z"
     },
     {
       "repository_name": "purwar2016/PreciseMovement-library",
@@ -221257,40 +221226,6 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2026-03-04T03:37:03Z"
-    },
-    {
-      "repository_name": "Tunasha/PressureSensorLib",
-      "repository_url": "https://github.com/Tunasha/PressureSensorLib",
-      "name": "PressureSensorLib",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-16T14:02:45.911Z"
-        },
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-09-18T12:03:39.422Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-16T14:02:45.911Z",
-      "last_seen_sha": "9166388c074c",
-      "author": "Tunasha,Babatunde Adg",
-      "maintainer": "Babatunde Adg <tunashapcb@gmail.com>",
-      "sentence": "Arduino library for interfacing with hydrostatic pressure sensor.",
-      "paragraph": "Handles voltage and current conversions for 4-20mA or 0-10V pressure transducers. Supports configurable pressure ranges and sample averaging.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/PressureSensorLib-1.0.1.zip",
-      "size": 23929,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-16T12:06:17Z"
     },
     {
       "repository_name": "fiskbil/PressureTransducer",
@@ -267000,20 +266935,20 @@
       "download_url": "http://redhunter.com/"
     },
     {
-      "repository_name": "Axxel-otl/Sonic",
-      "repository_url": "https://github.com/Axxel-otl/Sonic",
+      "repository_name": "gitlab.com/axxel-otl/Sonic",
+      "repository_url": "https://gitlab.com/axxel-otl/Sonic",
       "name": "Sonic",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
-          "version": "2.0.4",
-          "seen_at": "2026-06-30T22:37:15.403Z"
+          "version": "2.0.5",
+          "seen_at": "2026-09-25T20:02:35.810Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "6b45132ca54a",
-      "author": "Axxel",
+      "first_seen_at": "2026-09-25T20:02:35.810Z",
+      "last_seen_sha": "1d5b00997737",
+      "author": "axxel",
       "maintainer": "Axxel <Axxel.Inkordia@proton.me>",
       "sentence": "Simple HC-SR04 ultrasonic sensor library",
       "paragraph": "Supports multiple sensor objects with attach, scream and average methods. Returns -1 for invalid readings.",
@@ -267021,12 +266956,8 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Axxel-otl/Sonic-2.0.4.zip",
-      "size": 17384,
-      "github_stars": 3,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-24T05:04:14Z"
+      "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/axxel-otl/Sonic-2.0.5.zip",
+      "size": 17279
     },
     {
       "repository_name": "Rupakpoddar/ESP32Sonos",
@@ -289685,7 +289616,7 @@
       "repository_name": "pipe1391/TecnovaIoT",
       "repository_url": "https://github.com/pipe1391/TecnovaIoT",
       "name": "TecnovaIoT",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -289706,25 +289637,30 @@
         {
           "version": "1.3.0",
           "seen_at": "2026-08-28T05:38:29.956Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-09-25T20:02:35.810Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "211b924c88df",
+      "last_seen_sha": "449f8b496382",
       "author": "Tecnova",
       "maintainer": "Tecnova <https://github.com/pipe1391/TecnovaIoT/issues>",
       "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova por MQTT sobre WebSocket seguro (WSS).",
-      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Incluye un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo.",
+      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Los comandos del panel llegan a onCommand() con su tipo JSON: booleano para interruptores y botones, numero para deslizadores. Incluye manejo de consumo para proyectos a bateria: deepSleepSeconds() para sensores que solo publican, y enablePowerSave() para actuadores o dispositivos mixtos, que tienen que seguir alcanzables. Incluye tambien un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.3.0.zip",
-      "size": 50897,
-      "previous_version": "1.2.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.4.0.zip",
+      "size": 60417,
+      "previous_version": "1.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -302891,35 +302827,6 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-06-03T14:56:53Z"
-    },
-    {
-      "repository_name": "Tunasha/TunashaHydrostaticPressureSensor",
-      "repository_url": "https://github.com/Tunasha/TunashaHydrostaticPressureSensor",
-      "name": "TunashaHydrostaticPressureSensor",
-      "version": "0.0.1",
-      "version_history": [
-        {
-          "version": "0.0.1",
-          "seen_at": "2026-09-11T00:06:59.236Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-09-11T00:06:59.236Z",
-      "last_seen_sha": "0c16bd4684f0",
-      "author": "Babatunde Adegoke",
-      "maintainer": "Babatunde Adegoke <tunashapcb@gmail.com>",
-      "sentence": "Reads pressure sensors to measure liquid level in a tank.",
-      "paragraph": "A cross-platform Arduino library for interfacing with hydrostatic pressure sensors and calculating liquid level in a tank. Compatible with a range of Arduino boards.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunasha/TunashaHydrostaticPressureSensor-0.0.1.zip",
-      "size": 23504,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-10T18:19:53Z"
     },
     {
       "repository_name": "jgOhYeah/TunePlayer",
@@ -324414,7 +324321,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9824,
-    "total_dependencies": 5467
+    "with_github_metadata": 9820,
+    "total_dependencies": 5469
   }
 }

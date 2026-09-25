@@ -1,6 +1,206 @@
 {
-  "since": "2026-09-25T11:02:34.675Z",
+  "since": "2026-09-25T12:04:13.691Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "autoconnecto/autoconnecto-sdk",
+        "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
+        "name": "AutoconnectoSDK",
+        "version": "1.6.0",
+        "version_history": [
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-06-01T08:49:25Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-07-29T16:28:04.217Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-09-21T16:02:57.175Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-25T06:04:35.802Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-06-01T08:49:25Z",
+        "last_seen_sha": "5a35a6d655f6",
+        "author": "Autoconnecto",
+        "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
+        "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
+        "paragraph": "Connects ESP32 devices to the Autoconnecto platform using the ESP32 Arduino core MQTT client (TLS and MQTT-over-WebSocket), with shared and client attributes, telemetry, and dashboard RPC. Requires ArduinoJson. ESP32 architecture only.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.0.zip",
+        "size": 167440,
+        "previous_version": "1.5.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-30T13:43:09Z"
+      },
+      "old_version": "1.5.0",
+      "new_version": "1.6.0"
+    },
+    {
+      "library": {
+        "repository_name": "agusevtec/eva-motors",
+        "repository_url": "https://github.com/agusevtec/eva-motors",
+        "name": "eva-motors",
+        "version": "1.2.2",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-23T08:53:29Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-29T16:28:04.217Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-08-01T12:17:45.726Z"
+          },
+          {
+            "version": "1.1.3",
+            "seen_at": "2026-08-20T14:11:38.755Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-09-23T10:02:34.992Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-24T16:03:09.538Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-06-23T08:53:29Z",
+        "last_seen_sha": "000f911961b6",
+        "author": "Andrey Gusev",
+        "maintainer": "Andrey Gusev",
+        "sentence": "EVA Motors. Modular decorator-based library for behavioral modification of micro-motors.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "eva-core-sk",
+          "eva-filters"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/agusevtec/eva_motors-1.2.2.zip",
+        "size": 1787062,
+        "previous_version": "1.2.1",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-23T06:20:24Z"
+      },
+      "old_version": "1.2.1",
+      "new_version": "1.2.2"
+    },
+    {
+      "library": {
+        "repository_name": "Nocturnailed-Community/NocShield",
+        "repository_url": "https://github.com/Nocturnailed-Community/NocShield",
+        "name": "NocShield",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-05-11T09:02:03Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-05-11T09:02:03Z",
+        "last_seen_sha": "de8eaa0fe441",
+        "author": "Muhammad Ikhwan Fathulloh ikhwan@utb-univ.ac.id, Yasti Aisyah Primianjani yasti@utb-univ.ac.id",
+        "maintainer": "Nocturnailed Community nocturnailed.team@gmail.com",
+        "sentence": "Modular network security simulation for ESP32",
+        "paragraph": "NocShield brings network security simulations to microcontrollers. It offers a modular architecture and dynamic memory allocation suited for resource-constrained platforms, helping you simulate offensive and defensive network operations.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Nocturnailed-Community/NocShield-1.0.2.zip",
+        "size": 27196,
+        "previous_version": "1.0.0",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-10T01:00:29Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "fbiego/ParkingSensor",
+        "repository_url": "https://github.com/fbiego/ParkingSensor",
+        "name": "ParkingSensor",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-24T22:02:26.877Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-24T22:02:26.877Z",
+        "last_seen_sha": "3a6a9d34c08c",
+        "author": "fbiego",
+        "maintainer": "fbiego",
+        "sentence": "Driver and controller decoder for a four-sensor ultrasonic parking display.",
+        "paragraph": "Transmits distance readings to an ultrasonic parking sensor display and decodes frames from the A43 controller signal.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/fbiego/ParkingSensor-1.1.0.zip",
+        "size": 4137213,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-24T17:50:55Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,102 @@
 {
-  "since": "2026-09-25T09:03:09.395Z",
+  "since": "2026-09-25T10:02:49.533Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "m5stack/M5UnitUnified",
+        "repository_url": "https://github.com/m5stack/M5UnitUnified",
+        "name": "M5UnitUnified",
+        "version": "0.5.8",
+        "version_history": [
+          {
+            "version": "0.5.5",
+            "seen_at": "2026-06-10T08:41:02Z"
+          },
+          {
+            "version": "0.5.6",
+            "seen_at": "2026-09-21T16:02:57.175Z"
+          },
+          {
+            "version": "0.5.7",
+            "seen_at": "2026-09-21T20:02:59.481Z"
+          },
+          {
+            "version": "0.5.8",
+            "seen_at": "2026-09-25T10:02:49.533Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-10T08:41:02Z",
+        "last_seen_sha": "1237f3e3fafe",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
+        "paragraph": "Unified hardware abstraction for M5Stack units with common APIs for I2C, GPIO, UART, and SPI communications.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5Utility",
+          "M5HAL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.5.8.zip",
+        "size": 133196,
+        "previous_version": "0.5.7",
+        "github_stars": 26,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T10:07:49Z"
+      },
+      "old_version": "0.5.7",
+      "new_version": "0.5.8"
+    },
+    {
+      "library": {
+        "repository_name": "Johboh/MQTTRemote",
+        "repository_url": "https://github.com/Johboh/MQTTRemote",
+        "name": "MQTTRemote",
+        "version": "6.0.4",
+        "version_history": [
+          {
+            "version": "6.0.2",
+            "seen_at": "2025-07-21T16:17:48Z"
+          },
+          {
+            "version": "6.0.3",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "6.0.4",
+            "seen_at": "2026-09-25T10:02:49.533Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:17:48Z",
+        "last_seen_sha": "0474466013b8",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "MQTT wrapper for setting up an MQTT connection",
+        "paragraph": "Reduce boiler plate for setting up MQTT.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32",
+          "samd"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/MQTTRemote-6.0.4.zip",
+        "size": 39073,
+        "previous_version": "6.0.3",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-21T10:20:19Z"
+      },
+      "old_version": "6.0.3",
+      "new_version": "6.0.4"
+    }
+  ],
   "removed_libraries": []
 }

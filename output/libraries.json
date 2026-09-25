@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-25T13:03:16.279Z",
-  "total_libraries": 10025,
-  "index_etag": "W/\"006ffcb2f1e3ecf9b91f9e242149ea2d\"",
-  "index_last_modified": "Fri, 25 Sep 2026 12:59:12 GMT",
+  "enhanced_at": "2026-09-25T14:03:11.308Z",
+  "total_libraries": 10027,
+  "index_etag": "W/\"c0bbd28bbfc2d5e2eddec1a89073cafe\"",
+  "index_last_modified": "Fri, 25 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23490,7 +23490,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.178",
+      "version": "1.2.179",
       "version_history": [
         {
           "version": "1.2.18",
@@ -23911,11 +23911,15 @@
         {
           "version": "1.2.178",
           "seen_at": "2026-09-24T14:03:09.186Z"
+        },
+        {
+          "version": "1.2.179",
+          "seen_at": "2026-09-25T14:03:08.490Z"
         }
       ],
-      "release_count": 105,
+      "release_count": 106,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "4be04bcc5898",
+      "last_seen_sha": "b125c4c1d501",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -23936,9 +23940,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.178.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.179.zip",
       "size": 44591938,
-      "previous_version": "1.2.176",
+      "previous_version": "1.2.178",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -95640,6 +95644,35 @@
       "download_url": "https://github.com/sstaub/eOS"
     },
     {
+      "repository_name": "sstaub/eOS3",
+      "repository_url": "https://github.com/sstaub/eOS3",
+      "name": "eOS3",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-25T14:03:08.490Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-25T14:03:08.490Z",
+      "last_seen_sha": "0ef994c31cbe",
+      "author": "Stefan Staub",
+      "maintainer": "Stefan Staub <stefan.staub@lichtkunst-kunstlicht.de.com>",
+      "sentence": "ETC EOS library for OSC",
+      "paragraph": "Arduino library to control ETC EOS consoles using OSC over USB and UDP/TCP.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sstaub/eOS3-1.0.0.zip",
+      "size": 447745,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-25T11:05:26Z"
+    },
+    {
       "repository_name": "asukiaaa/EPD",
       "repository_url": "https://github.com/asukiaaa/EPD",
       "name": "EPD",
@@ -110254,6 +110287,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-04-04T18:23:07Z",
       "download_url": "https://github.com/danmowehhuk/Eventuino"
+    },
+    {
+      "repository_name": "fpedrei/every",
+      "repository_url": "https://github.com/fpedrei/every",
+      "name": "every",
+      "version": "0.8.0",
+      "version_history": [
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-09-25T14:03:08.490Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-25T14:03:08.490Z",
+      "last_seen_sha": "cdf5744806e3",
+      "author": "Funny Pedrei <funny.pedrei@platynum.ch>",
+      "maintainer": "Funny Pedrei <funny.pedrei@platynum.ch>",
+      "sentence": "A library that executes a piece of code at defined intervals.",
+      "paragraph": "Depends on the internal arduino millis functions, only.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fpedrei/every-0.8.0.zip",
+      "size": 6503,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-25T10:42:50Z"
     },
     {
       "repository_name": "awgrover/Every-for-arduino",
@@ -324343,7 +324405,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9822,
+    "with_github_metadata": 9824,
     "total_dependencies": 5467
   }
 }

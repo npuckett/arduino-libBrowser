@@ -1,6 +1,92 @@
 {
-  "since": "2026-09-25T15:02:45.416Z",
+  "since": "2026-09-25T16:03:28.611Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Erqos/EQSP32",
+        "repository_url": "https://github.com/Erqos/EQSP32",
+        "name": "EQSP32",
+        "version": "1.5.2",
+        "version_history": [
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-06-27T08:01:03Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          },
+          {
+            "version": "1.5.1",
+            "seen_at": "2026-09-18T20:02:46.142Z"
+          },
+          {
+            "version": "1.5.2",
+            "seen_at": "2026-09-25T16:03:28.611Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-27T08:01:03Z",
+        "last_seen_sha": "728071ba7f45",
+        "author": "Erqos Technologies info@erqos.com",
+        "maintainer": "Erqos Technologies",
+        "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
+        "paragraph": "This library provides the complete EQSP32 hardware and managed IoT APIs, including local and expansion I/O, MQTT integrations, and EQConnect provisioning.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.5.2.zip",
+        "size": 14955610,
+        "previous_version": "1.5.1",
+        "github_stars": 9,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-26T19:15:10Z"
+      },
+      "old_version": "1.5.1",
+      "new_version": "1.5.2"
+    },
+    {
+      "library": {
+        "repository_name": "pbosetti/ArduinoRpc",
+        "repository_url": "https://github.com/pbosetti/ArduinoRpc",
+        "name": "SerialRPC",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-23T18:03:20.771Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-09-25T16:03:28.611Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-23T18:03:20.771Z",
+        "last_seen_sha": "92be47479e9d",
+        "author": "Paolo Bosetti",
+        "maintainer": "Paolo Bosetti <paolo.bosetti@unitn.it>",
+        "sentence": "MsgPack-RPC over serial for Arduino and host.",
+        "paragraph": "Typed request/response and notification RPC between a host PC and an Arduino, over a single serial line shared with plain text, using a dependency-free MsgPack codec.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pbosetti/SerialRPC-0.1.1.zip",
+        "size": 1944732,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-23T15:48:42Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    }
+  ],
   "removed_libraries": []
 }

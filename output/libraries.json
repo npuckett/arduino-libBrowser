@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-26T07:02:45.167Z",
-  "total_libraries": 10027,
-  "index_etag": "W/\"e05b56e15f76a140f229e87139652f5a\"",
-  "index_last_modified": "Sat, 26 Sep 2026 06:59:12 GMT",
+  "enhanced_at": "2026-09-26T08:03:54.252Z",
+  "total_libraries": 10028,
+  "index_etag": "W/\"5c095c170188120691a7df565be7a2d0\"",
+  "index_last_modified": "Sat, 26 Sep 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -21740,7 +21740,7 @@
       "repository_name": "AlfredoSystems/AlfredoCRSF",
       "repository_url": "https://github.com/AlfredoSystems/AlfredoCRSF",
       "name": "AlfredoCRSF",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -21753,20 +21753,24 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-08-18T20:02:51.983Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-09-26T08:03:52.840Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-13T08:12:21Z",
-      "last_seen_sha": "f74bba6838b7",
+      "last_seen_sha": "63e7d2f23464",
       "author": "Jacob Williams",
       "maintainer": "Jacob Williams (jrw4561@gmail.com)",
       "sentence": "CRSF serial protocol Arduino library",
       "paragraph": "Communicate over serial with an ExpressLRS or TBS Crossfire receiver. Read RC channels and link statistics, and send telemetry back to the handset. Works with both ELRS 3.x and 4.x, including the 4.0 telemetry sensors, arming status byte and CRSF router frames.",
       "category": "Device Control",
       "architectures": [],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoCRSF-2.2.0.zip",
-      "size": 54900,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoCRSF-2.3.0.zip",
+      "size": 67539,
+      "previous_version": "2.2.0",
       "github_stars": 124,
       "github_forks": 29,
       "github_language": "C++",
@@ -107225,6 +107229,35 @@
         "PubSubClient"
       ],
       "download_url": "https://github.com/zimbora/EspMQTTClient"
+    },
+    {
+      "repository_name": "EudoksjuszSzalony/ESPNetworkSerial",
+      "repository_url": "https://github.com/EudoksjuszSzalony/ESPNetworkSerial",
+      "name": "ESPNetworkSerial",
+      "version": "0.1.2",
+      "version_history": [
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-09-26T08:03:52.840Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-26T08:03:52.840Z",
+      "last_seen_sha": "2c28ab0e577a",
+      "author": "EudoksjuszSzalony <eudoksjusz.szalony@gmail.com>",
+      "maintainer": "EudoksjuszSzalony <eudoksjusz.szalony@gmail.com>",
+      "sentence": "Wireless Serial Monitor for ESP32, integrated directly with Arduino IDE.",
+      "paragraph": "Use Wi-Fi for bidirectional serial communication with a simple Arduino API while keeping an OTA-friendly workflow. Install the companion host setup from GitHub Releases once per computer to integrate the network Serial Monitor with Arduino IDE.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EudoksjuszSzalony/ESPNetworkSerial-0.1.2.zip",
+      "size": 102007,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Go",
+      "github_updated_at": "2026-09-26T06:00:26Z"
     },
     {
       "repository_name": "Nredor/ESPNexUpload",
@@ -324430,7 +324463,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9823,
+    "with_github_metadata": 9824,
     "total_dependencies": 5469
   }
 }

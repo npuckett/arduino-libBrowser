@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-26T17:02:02.243Z",
-  "total_libraries": 10029,
-  "index_etag": "W/\"6e2bb20173c725da122c1b14ac0ded18\"",
-  "index_last_modified": "Sat, 26 Sep 2026 16:59:12 GMT",
+  "enhanced_at": "2026-09-26T18:02:58.365Z",
+  "total_libraries": 10030,
+  "index_etag": "W/\"65498d9c80d08ecbc7bf0447ff5268a5\"",
+  "index_last_modified": "Sat, 26 Sep 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -51718,32 +51718,38 @@
       "repository_name": "remocons/boho-arduino",
       "repository_url": "https://github.com/remocons/boho-arduino",
       "name": "Boho",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.7.0",
           "seen_at": "2025-12-12T07:32:25Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-09-26T18:02:56.971Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-12-12T07:32:25Z",
-      "last_seen_sha": "a13551e83610",
+      "last_seen_sha": "a0889efe52ca",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
-      "sentence": "Encryption, authentication, Secure communication.",
-      "paragraph": "The Boho library implements Encrypted Client–Server authentication protocols, Secure communication, and Data encryption.",
+      "sentence": "Data encryption and client-server authentication for Arduino.",
+      "paragraph": "Encrypt and verify data, authenticate clients and servers with shared keys, and exchange encrypted messages with JavaScript peers. Supports end-to-end encryption with separate data keys and integrates with IOSignal.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "github_stars": 2,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2025-12-11T17:43:34Z",
       "depends": [
         "Crypto"
       ],
-      "download_url": "https://github.com/remocons/boho-arduino"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Boho-0.8.0.zip",
+      "size": 12797,
+      "previous_version": "0.7.0",
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2025-12-11T17:43:34Z"
     },
     {
       "repository_name": "bolderflight/ainstein-usd1",
@@ -101563,6 +101569,35 @@
       "github_updated_at": "2026-03-04T00:56:40Z"
     },
     {
+      "repository_name": "Prince223889/ESP32-Diagnostics",
+      "repository_url": "https://github.com/Prince223889/ESP32-Diagnostics",
+      "name": "ESP32-Diagnostics",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-09-26T18:02:56.971Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-26T18:02:56.971Z",
+      "last_seen_sha": "c52bbcb92902",
+      "author": "Prince223889",
+      "maintainer": "Prince223889",
+      "sentence": "Portable ESP32 system diagnostics and safe peripheral inspection tools",
+      "paragraph": "Portable ESP32 system diagnostics and safe peripheral inspection tools Built for Arduino-ESP32 and designed for reusable embedded projects.",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Prince223889/ESP32_Diagnostics-0.1.0.zip",
+      "size": 4901,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-26T15:00:03Z"
+    },
+    {
       "repository_name": "junkfix/esp32-ds18b20",
       "repository_url": "https://github.com/junkfix/esp32-ds18b20",
       "name": "esp32-ds18b20",
@@ -141973,7 +142008,7 @@
       "repository_name": "jeanloickdt/InstantIoT",
       "repository_url": "https://github.com/jeanloickdt/InstantIoT",
       "name": "InstantIoT",
-      "version": "1.2.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.1.0",
@@ -141982,25 +142017,32 @@
         {
           "version": "1.2.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-26T18:02:56.971Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-07T07:40:04Z",
-      "last_seen_sha": "a489428168b0",
+      "last_seen_sha": "60ec6c63a726",
       "author": "JeanLoick DT <jeanloickdt@gmail.com>",
       "maintainer": "JeanLoick DT <jeanloickdt@gmail.com>",
-      "sentence": "Arduino client for the InstantIoT mobile app — bridges ESP32, ESP8266 and Arduino Uno R4 WiFi with a simple declarative DSL.",
-      "paragraph": "Connects your Arduino board to the InstantIoT mobile app over Wi-Fi. Two active transports: Wi-Fi SoftAP (the board hosts its own Wi-Fi, no router) and Wi-Fi client to a self-hosted InstantIoT Server (multi-device, with history). Seventeen widgets out of the box: simple/advanced/emergency buttons, horizontal/vertical sliders, switch, joystick, direction pad, segmented switch, LED, gauge, metric, bar chart, advanced chart, horizontal/vertical level meters and text. Declarative DSL: file-scope blocks like ISimpleButton(\"btn1\") { WHEN_PRESSED { ... } } — no boilerplate. Compact binary protocol about 5x smaller than JSON. Bluetooth Classic, BLE and SoftwareSerial transports ship in source as preview — they are not currently exposed by the mobile app (see README).",
+      "sentence": "Arduino client for the InstantIoT mobile app — the board writes a value at an address, the app decides what it looks like.",
+      "paragraph": "Connects an ESP32, ESP8266 or Arduino Uno R4 WiFi to the InstantIoT mobile app — over the board's own Wi-Fi, through a server you host, or through the InstantIoT Cloud over TLS. One header, one object, one begin(): InstantIoT.begin(WiFiLink(ssid, pass), Cloud(token)). The board writes values at addresses I0..I255 and reacts to the ones written to it; whether a value is drawn as a gauge, a chart or a number is decided in the app, without reflashing. Declarative DSL at file scope: ISimpleButton(I0) { WHEN_PRESSED { ... } } and ISignal(I5, float setpoint) { ... } — no boilerplate. A setpoint survives a reboot: the server replays it on connect. Compact binary protocol, 14 bytes for a float, no dynamic memory. Bluetooth Classic, BLE and SoftwareSerial links ship in source as preview — the mobile app does not expose them yet (see README).",
       "category": "Communication",
       "architectures": [
         "esp32",
         "esp8266",
-        "renesas_uno"
+        "renesas_uno",
+        "samd",
+        "megaavr",
+        "avr"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jeanloickdt/InstantIoT-1.2.1.zip",
-      "size": 95790,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jeanloickdt/InstantIoT-2.0.0.zip",
+      "size": 193850,
+      "previous_version": "1.2.1",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",
@@ -324552,7 +324594,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9825,
+    "with_github_metadata": 9826,
     "total_dependencies": 5469
   }
 }

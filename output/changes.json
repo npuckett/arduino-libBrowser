@@ -1,6 +1,273 @@
 {
-  "since": "2026-09-26T13:01:57.028Z",
+  "since": "2026-09-26T14:02:32.079Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ScottMit/Pardalote-arduino",
+        "repository_url": "https://github.com/ScottMit/Pardalote-arduino",
+        "name": "Pardalote",
+        "version": "1.3.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-15T02:20:56.350Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-08-17T12:04:17.828Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-09-23T08:03:34.127Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-08-15T02:20:56.350Z",
+        "last_seen_sha": "58cd49db9203",
+        "author": "Scott Mitchell",
+        "maintainer": "Scott Mitchell",
+        "sentence": "Control Arduino hardware directly from a web browser over WiFi.",
+        "paragraph": "Pardalote bridges Arduino and JavaScript over a binary WebSocket protocol. The Arduino-side library handles WiFi, the WebSocket server, board detection, and extension dispatch. Sketches reduce to Pardalote.begin() / Pardalote.run(). Extensions for Servo, NeoPixel, Ultrasonic, IMU, and ESP32 Camera are included as opt-in headers.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "renesas_uno"
+        ],
+        "license": "GPL-3.0-or-later",
+        "depends": [
+          "WebSockets"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ScottMit/Pardalote-1.3.0.zip",
+        "size": 177625,
+        "previous_version": "1.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-14T22:32:04Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "TMRh20/RF24Ethernet",
+        "repository_url": "https://github.com/TMRh20/RF24Ethernet",
+        "name": "RF24Ethernet",
+        "version": "2.2.1",
+        "version_history": [
+          {
+            "version": "2.1.4",
+            "seen_at": "2026-06-08T09:11:05Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-08-14T04:32:13.508Z"
+          },
+          {
+            "version": "2.2.1",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-08T09:11:05Z",
+        "last_seen_sha": "c23c19165f3c",
+        "author": "TMRh20",
+        "maintainer": "TMRh20",
+        "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) & nRF52",
+        "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols & networking. An experiment disconnected...",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "RF24",
+          "RF24Network",
+          "RF24Mesh",
+          "lwIP"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.1.zip",
+        "size": 433760,
+        "previous_version": "2.2.0",
+        "github_stars": 128,
+        "github_forks": 57,
+        "github_language": "C",
+        "github_updated_at": "2026-06-06T11:38:08Z"
+      },
+      "old_version": "2.2.0",
+      "new_version": "2.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_collections",
+        "repository_url": "https://github.com/dejwk/roo_collections",
+        "name": "roo_collections",
+        "version": "1.4.8",
+        "version_history": [
+          {
+            "version": "1.4.4",
+            "seen_at": "2026-06-05T08:30:02Z"
+          },
+          {
+            "version": "1.4.5",
+            "seen_at": "2026-08-07T12:13:05.758Z"
+          },
+          {
+            "version": "1.4.6",
+            "seen_at": "2026-08-29T18:02:47.297Z"
+          },
+          {
+            "version": "1.4.7",
+            "seen_at": "2026-09-19T14:02:22.379Z"
+          },
+          {
+            "version": "1.4.8",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-05T08:30:02Z",
+        "last_seen_sha": "d2b44ba22cc6",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Memory-conscious collections, supporting flat small hashtables, hash maps, and hash sets.",
+        "paragraph": "Keeps all elements with a single flat array, with size 2-3x times the number of elements (but with const lookup time by key).",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_backport"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-1.4.8.zip",
+        "size": 31812,
+        "previous_version": "1.4.7",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-04T15:23:23Z"
+      },
+      "old_version": "1.4.7",
+      "new_version": "1.4.8"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_threads",
+        "repository_url": "https://github.com/dejwk/roo_threads",
+        "name": "roo_threads",
+        "version": "1.2.9",
+        "version_history": [
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-03-19T07:35:22Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-08-21T22:03:18.908Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-08-29T16:02:18.007Z"
+          },
+          {
+            "version": "1.2.8",
+            "seen_at": "2026-09-19T14:02:22.379Z"
+          },
+          {
+            "version": "1.2.9",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-03-19T07:35:22Z",
+        "last_seen_sha": "9411d6859198",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Portable threading library for microcontrollers.",
+        "paragraph": "Works with the ESP32 family, as well as RP2040 SMP. Should be easy to port to anything that uses FreeRTOS.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_time"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.2.9.zip",
+        "size": 54741,
+        "previous_version": "1.2.8",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-18T21:29:32Z"
+      },
+      "old_version": "1.2.8",
+      "new_version": "1.2.9"
+    },
+    {
+      "library": {
+        "repository_name": "dejwk/roo_time",
+        "repository_url": "https://github.com/dejwk/roo_time",
+        "name": "roo_time",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "1.4.4",
+            "seen_at": "2026-03-19T07:35:24Z"
+          },
+          {
+            "version": "1.4.5",
+            "seen_at": "2026-08-18T16:05:19.493Z"
+          },
+          {
+            "version": "1.4.6",
+            "seen_at": "2026-08-21T22:03:18.908Z"
+          },
+          {
+            "version": "1.4.7",
+            "seen_at": "2026-08-29T16:02:18.007Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-19T00:06:36.010Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-19T14:02:22.379Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-03-19T07:35:24Z",
+        "last_seen_sha": "8d07bb660471",
+        "author": "Dejwk <dejwk.oss@gmail.com>",
+        "maintainer": "Dejwk <dejwk.oss@gmail.com>",
+        "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
+        "paragraph": "Provides type safety around durations and different time units, guarding against common programming errors like confusing time units, or confusing 'timestamps' with 'durations'. Tested on ESP32 SOC family, as well as RP2040-based Raspberry Pi Pico.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "roo_backport"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.0.1.zip",
+        "size": 87708,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-18T20:14:12Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    }
+  ],
   "removed_libraries": []
 }

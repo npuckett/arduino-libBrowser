@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-25T23:02:10.622Z",
-  "total_libraries": 10024,
-  "index_etag": "W/\"e1c2eaf37441d2d8b6903800243131c6\"",
-  "index_last_modified": "Fri, 25 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-26T00:06:36.218Z",
+  "total_libraries": 10025,
+  "index_etag": "W/\"63e48fd3aa65b6fc24b6bfdfde596137\"",
+  "index_last_modified": "Fri, 25 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -215727,6 +215727,35 @@
       "download_url": "https://github.com/jaredliw/pikabot"
     },
     {
+      "repository_name": "splash0e/PILOTKWS",
+      "repository_url": "https://github.com/splash0e/PILOTKWS",
+      "name": "PILOT_KWS",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-09-26T00:06:34.792Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-26T00:06:34.792Z",
+      "last_seen_sha": "f959a775ca22",
+      "author": "Aarush singh",
+      "maintainer": "splash0e",
+      "sentence": "Custom offline wake-word (PILOT) detection for ESP32 using INT8 TensorFlow Lite Micro.",
+      "paragraph": "Runs a custom-trained keyword-spotting model locally on ESP32 with INMP441 I2S microphone input.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/splash0e/PILOT_KWS-1.0.1.zip",
+      "size": 19465,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-25T20:38:03Z"
+    },
+    {
       "repository_name": "gitlab.com/soruce/pimiento-clock-library",
       "repository_url": "https://gitlab.com/soruce/pimiento-clock-library",
       "name": "PimientoClockLib",
@@ -324334,7 +324363,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9820,
+    "with_github_metadata": 9821,
     "total_dependencies": 5469
   }
 }

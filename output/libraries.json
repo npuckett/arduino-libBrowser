@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-26T05:02:34.340Z",
-  "total_libraries": 10025,
-  "index_etag": "W/\"768385408e4ad4ecd27410e8f5d414ac\"",
-  "index_last_modified": "Sat, 26 Sep 2026 04:59:12 GMT",
+  "enhanced_at": "2026-09-26T06:04:15.340Z",
+  "total_libraries": 10027,
+  "index_etag": "W/\"e05b56e15f76a140f229e87139652f5a\"",
+  "index_last_modified": "Sat, 26 Sep 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -184014,6 +184014,35 @@
       "github_updated_at": "2026-07-28T04:58:06Z"
     },
     {
+      "repository_name": "Khuuxuanngoc/MKE_I2C_DHT20_lib",
+      "repository_url": "https://github.com/Khuuxuanngoc/MKE_I2C_DHT20_lib",
+      "name": "MKE_I2C_DHT20",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-26T06:04:12.634Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-26T06:04:12.634Z",
+      "last_seen_sha": "4fadeba960ce",
+      "author": "MakerEdu.vn",
+      "maintainer": "MakerEdu.vn",
+      "sentence": "Library for MKE I2C DHT20 temperature and humidity sensor",
+      "paragraph": "Provides an easy interface to control the MKE-S11-DHT20-I2C-TEMPERATURE-HUMIDITY-SENSOR module.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Khuuxuanngoc/MKE_I2C_DHT20-1.0.0.zip",
+      "size": 9308,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-26T02:18:03Z"
+    },
+    {
       "repository_name": "Khuuxuanngoc/MKE_I2C_Loadcell_lib",
       "repository_url": "https://github.com/Khuuxuanngoc/MKE_I2C_Loadcell_lib",
       "name": "MKE_I2C_Loadcell",
@@ -234330,7 +234359,7 @@
       "repository_name": "LautaroRodriguezBase/RFDO",
       "repository_url": "https://github.com/LautaroRodriguezBase/RFDO",
       "name": "RFDO",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.0.2",
@@ -234339,11 +234368,15 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-09-22T06:04:28.834Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-09-26T06:04:12.634Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-02T07:02:30.220Z",
-      "last_seen_sha": "b898f9eaad52",
+      "last_seen_sha": "68bc5ddbed18",
       "author": "Lautaro Ezequiel Rodriguez Base lerb.dev@gmail.com",
       "maintainer": "Lautaro Ezequiel Rodriguez Base lerb.dev@gmail.com",
       "sentence": "Library for sending and receiving data to N nRF24 devices.",
@@ -234355,9 +234388,9 @@
       "depends": [
         "RF24"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LautaroRodriguezBase/RFDO-0.1.1.zip",
-      "size": 8710,
-      "previous_version": "0.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LautaroRodriguezBase/RFDO-0.1.2.zip",
+      "size": 8733,
+      "previous_version": "0.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -242882,6 +242915,36 @@
       "github_language": "C++",
       "github_updated_at": "2018-11-30T19:48:40Z",
       "download_url": "https://github.com/jakalada/Arduino-S5851A"
+    },
+    {
+      "repository_name": "zdw169/S6D0154X",
+      "repository_url": "https://github.com/zdw169/S6D0154X",
+      "name": "S6D0154X",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-26T06:04:12.634Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-26T06:04:12.634Z",
+      "last_seen_sha": "75aabea37838",
+      "author": "Dword",
+      "maintainer": "Dword <zdw_169@163.com>",
+      "sentence": "Driver for the S6D0154X 320x240 TFT controller over 4-wire SPI",
+      "paragraph": "Supports the 2.4 inch IPS module sold as UF24U145AM, which uses a register map that does not follow MIPI DCS numbering. Provides panel initialisation, window addressing, solid fills, lines, rectangles, single pixels and bulk RGB565 image upload, plus a serial-driven tuning example for recovering the parameters on a new module batch. Verified on ESP8266.",
+      "category": "Display",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/zdw169/S6D0154X-1.0.0.zip",
+      "size": 21248,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-26T03:16:58Z"
     },
     {
       "repository_name": "xoseperez/s7xg",
@@ -324367,7 +324430,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9821,
+    "with_github_metadata": 9823,
     "total_dependencies": 5469
   }
 }

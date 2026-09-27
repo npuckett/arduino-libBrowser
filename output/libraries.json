@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-27T19:01:57.235Z",
+  "enhanced_at": "2026-09-27T20:03:03.369Z",
   "total_libraries": 10033,
-  "index_etag": "W/\"5cf495e4d61bb856efcab2eadd61590e\"",
-  "index_last_modified": "Sun, 27 Sep 2026 18:59:12 GMT",
+  "index_etag": "W/\"2991507b0017fb1a92c555702147ccb3\"",
+  "index_last_modified": "Sun, 27 Sep 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104303,18 +104303,22 @@
     },
     {
       "repository_name": "RacoonX65/WiFiEnterprise",
-      "repository_url": "https://github.com/JudasSithole/WiFiEnterprise",
+      "repository_url": "https://github.com/RacoonX65/WiFiEnterprise",
       "name": "ESP32WiFiEnterprise",
-      "version": "1.0.0",
+      "version": "2.0.0-beta.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-07-21T16:03:16Z"
+        },
+        {
+          "version": "2.0.0-beta.1",
+          "seen_at": "2026-09-27T20:03:03.242Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:03:16Z",
-      "last_seen_sha": "4975ddc462a4",
+      "last_seen_sha": "858eadca54a4",
       "author": "Judas Sithole",
       "maintainer": "Judas Sithole <judassithle@duck.com>",
       "sentence": "Lightweight Arduino-style library for ESP32 WPA2-Enterprise connections",
@@ -104323,14 +104327,16 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2025-07-10T09:08:51Z",
       "depends": [
         "WiFi"
       ],
-      "download_url": "https://github.com/RacoonX65/WiFiEnterprise"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RacoonX65/ESP32WiFiEnterprise-2.0.0-beta.1.zip",
+      "size": 58350,
+      "previous_version": "1.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2025-07-10T09:08:51Z"
     },
     {
       "repository_name": "madhephaestus/Esp32WifiManager",

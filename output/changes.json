@@ -1,6 +1,48 @@
 {
-  "since": "2026-09-27T19:01:57.101Z",
+  "since": "2026-09-27T20:03:03.242Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "RacoonX65/WiFiEnterprise",
+        "repository_url": "https://github.com/RacoonX65/WiFiEnterprise",
+        "name": "ESP32WiFiEnterprise",
+        "version": "2.0.0-beta.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:03:16Z"
+          },
+          {
+            "version": "2.0.0-beta.1",
+            "seen_at": "2026-09-27T20:03:03.242Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:03:16Z",
+        "last_seen_sha": "858eadca54a4",
+        "author": "Judas Sithole",
+        "maintainer": "Judas Sithole <judassithle@duck.com>",
+        "sentence": "Lightweight Arduino-style library for ESP32 WPA2-Enterprise connections",
+        "paragraph": "A simple library that allows ESP32 devices to connect to WPA2-Enterprise networks (EAP-PEAP) using only SSID, username, and password - similar to connecting to a normal Wi-Fi network. Features Arduino-style API with .begin() function, optional debug logging, and minimal dependencies.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "WiFi"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RacoonX65/ESP32WiFiEnterprise-2.0.0-beta.1.zip",
+        "size": 58350,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-10T09:08:51Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "2.0.0-beta.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-27T05:02:41.966Z",
+  "enhanced_at": "2026-09-27T06:04:23.637Z",
   "total_libraries": 10031,
-  "index_etag": "W/\"92d5327674cf79a37f25798fa7e42a3a\"",
-  "index_last_modified": "Sun, 27 Sep 2026 04:59:12 GMT",
+  "index_etag": "W/\"ed82d60c74c81aaedfc8ada8398ce52b\"",
+  "index_last_modified": "Sun, 27 Sep 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -74962,20 +74962,24 @@
       "repository_name": "uniot-outech/DexmodIoT",
       "repository_url": "https://github.com/uniot-outech/DexmodIoT",
       "name": "DexmodIoT",
-      "version": "0.1.0",
+      "version": "0.2.3",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-16T04:02:52.896Z"
+        },
+        {
+          "version": "0.2.3",
+          "seen_at": "2026-09-27T06:04:23.508Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-16T04:02:52.896Z",
-      "last_seen_sha": "64a91fcfb706",
+      "last_seen_sha": "ff472ecd7793",
       "author": "Dexmod",
       "maintainer": "Dexmod",
-      "sentence": "Connect ESP32 projects securely to Dexmod Remote IoT Monitoring.",
-      "paragraph": "Provides managed TLS trust, Wi-Fi and MQTT reconnection, Dexmod telemetry envelopes, message IDs, and a small metric builder for ESP32 projects.",
+      "sentence": "Connect ESP32 projects securely to Dexmod monitoring and remote control.",
+      "paragraph": "Provides managed TLS trust, Wi-Fi and MQTT reconnection, telemetry envelopes, typed remote commands, acknowledgements, message IDs, and a small metric builder for ESP32 projects.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -74983,8 +74987,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/uniot-outech/DexmodIoT-0.1.0.zip",
-      "size": 11214,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uniot-outech/DexmodIoT-0.2.3.zip",
+      "size": 17141,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

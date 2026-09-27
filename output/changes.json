@@ -1,6 +1,54 @@
 {
-  "since": "2026-09-27T07:04:16.950Z",
+  "since": "2026-09-27T08:03:15.383Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tgtakaoka/libasm",
+        "repository_url": "https://github.com/tgtakaoka/libasm",
+        "name": "libasm",
+        "version": "1.6.66",
+        "version_history": [
+          {
+            "version": "1.6.63",
+            "seen_at": "2026-06-30T08:50:14Z"
+          },
+          {
+            "version": "1.6.64",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "1.6.65",
+            "seen_at": "2026-08-29T14:02:08.635Z"
+          },
+          {
+            "version": "1.6.66",
+            "seen_at": "2026-09-27T08:03:15.383Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:50:14Z",
+        "last_seen_sha": "53779ee10351",
+        "author": "Tadashi G. Takaoka",
+        "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
+        "sentence": "Cross assembler and disassembler for retro CPUs",
+        "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.66.zip",
+        "size": 13863086,
+        "previous_version": "1.6.65",
+        "github_stars": 44,
+        "github_forks": 3,
+        "github_language": "Assembly",
+        "github_updated_at": "2026-07-01T14:13:07Z"
+      },
+      "old_version": "1.6.65",
+      "new_version": "1.6.66"
+    }
+  ],
   "removed_libraries": []
 }

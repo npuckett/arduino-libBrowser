@@ -1,6 +1,118 @@
 {
-  "since": "2026-09-27T13:01:59.601Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-27T14:02:02.725Z",
+  "new_libraries": [
+    {
+      "repository_name": "apbokkasa/BlueCrypt",
+      "repository_url": "https://github.com/apbokkasa/BlueCrypt",
+      "name": "BlueCrypt",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-27T14:02:02.725Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-27T14:02:02.725Z",
+      "last_seen_sha": "33760596522c",
+      "author": "Aadruta PB <aadrutapb@gmail.com>",
+      "maintainer": "Aadruta PB <aadrutapb@gmail.com>",
+      "sentence": "A lightweight constant-time cryptographic library optimized for 8-bit AVR microcontrollers.",
+      "paragraph": "BlueCrypt V2 features a dynamic 128-slot pipeline scheduler, dual-mode non-linear byte substitution (zero-SRAM Flash PROGMEM or dynamic SRAM), two-pass bidirectional avalanche diffusion, and rolling 2-byte HMAC integrity verification.",
+      "category": "Data Processing",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apbokkasa/BlueCrypt-2.0.0.zip",
+      "size": 7773,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-27T11:16:07Z"
+    },
+    {
+      "repository_name": "cxandy/SmartMatrix4-ESP32",
+      "repository_url": "https://github.com/cxandy/SmartMatrix4-ESP32",
+      "name": "SmartMatrix4-ESP32",
+      "version": "4.0.3-esp32.1",
+      "version_history": [
+        {
+          "version": "4.0.3-esp32.1",
+          "seen_at": "2026-09-27T14:02:02.725Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-27T14:02:02.725Z",
+      "last_seen_sha": "faca83a6055f",
+      "author": "SmartMatrix4-ESP32 contributors",
+      "maintainer": "cxandy <cxandy@163.com>",
+      "sentence": "SmartMatrix 4.0.3 with Arduino-ESP32 core 2.x build support",
+      "paragraph": "Fork of pixelmatix/SmartMatrix 4.0.3 (MIT). Two additive changes: three #includes in src/esp32_i2s_parallel.c so the ESP32 I2S-parallel build works on Arduino-ESP32 core 2.x, verified on 2.0.17, and restoration of the AZSMZ_ESP32Matrix_v12/v15 pinouts that 4.0 dropped. Core 3.x is NOT verified and may need more work. No functional, structural, or API changes to the display path; Teensy support is byte-for-byte unchanged. Original project: http://docs.pixelmatix.com/SmartMatrix --- See README.md in this library for the full change list, 3.x migration notes, and hardware verification.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "teensy"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cxandy/SmartMatrix4_ESP32-4.0.3-esp32.1.zip",
+      "size": 5055939,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-27T11:15:37Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "remocons/remocon-arduino",
+        "repository_url": "https://github.com/remocons/remocon-arduino",
+        "name": "Remocon",
+        "version": "2.3.0",
+        "version_history": [
+          {
+            "version": "2.2.1",
+            "seen_at": "2025-07-21T16:26:09Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-09-27T14:02:02.725Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:26:09Z",
+        "last_seen_sha": "8b7c3c9a273b",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Remocon Examples for https://remocon.kr app",
+        "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "IOSignal",
+          "Crypto",
+          "Boho",
+          "Bounce2",
+          "U8g2",
+          "IRremote",
+          "WiFiManager",
+          "FastLED",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-2.3.0.zip",
+        "size": 43139,
+        "previous_version": "2.2.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2025-03-09T07:25:17Z"
+      },
+      "old_version": "2.2.1",
+      "new_version": "2.3.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-27T13:01:59.750Z",
-  "total_libraries": 10031,
-  "index_etag": "W/\"d30e6e79014964b4d81b684f9071e046\"",
-  "index_last_modified": "Sun, 27 Sep 2026 12:59:12 GMT",
+  "enhanced_at": "2026-09-27T14:02:05.531Z",
+  "total_libraries": 10033,
+  "index_etag": "W/\"85a7f2997e8b74df41137ff30354ce72\"",
+  "index_last_modified": "Sun, 27 Sep 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -46892,6 +46892,37 @@
       "github_language": "C++",
       "github_updated_at": "2023-03-23T19:41:15Z",
       "download_url": "https://github.com/Teknikio/Teknikio_Bluebird_Arduino"
+    },
+    {
+      "repository_name": "apbokkasa/BlueCrypt",
+      "repository_url": "https://github.com/apbokkasa/BlueCrypt",
+      "name": "BlueCrypt",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-09-27T14:02:02.725Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-27T14:02:02.725Z",
+      "last_seen_sha": "33760596522c",
+      "author": "Aadruta PB <aadrutapb@gmail.com>",
+      "maintainer": "Aadruta PB <aadrutapb@gmail.com>",
+      "sentence": "A lightweight constant-time cryptographic library optimized for 8-bit AVR microcontrollers.",
+      "paragraph": "BlueCrypt V2 features a dynamic 128-slot pipeline scheduler, dual-mode non-linear byte substitution (zero-SRAM Flash PROGMEM or dynamic SRAM), two-pass bidirectional avalanche diffusion, and rolling 2-byte HMAC integrity verification.",
+      "category": "Data Processing",
+      "architectures": [
+        "avr",
+        "megaavr",
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apbokkasa/BlueCrypt-2.0.0.zip",
+      "size": 7773,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-27T11:16:07Z"
     },
     {
       "repository_name": "ArminJo/Arduino-BlueDisplay",
@@ -233422,28 +233453,28 @@
       "repository_name": "remocons/remocon-arduino",
       "repository_url": "https://github.com/remocons/remocon-arduino",
       "name": "Remocon",
-      "version": "2.2.1",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.2.1",
           "seen_at": "2025-07-21T16:26:09Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-09-27T14:02:02.725Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:26:09Z",
-      "last_seen_sha": "03e4f02c4835",
+      "last_seen_sha": "8b7c3c9a273b",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Remocon Examples for https://remocon.kr app",
-      "paragraph": "Control your DIY Arduino IoT remote control system with the web app.",
+      "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C",
-      "github_updated_at": "2025-03-09T07:25:17Z",
       "depends": [
         "IOSignal",
         "Crypto",
@@ -233451,9 +233482,17 @@
         "Bounce2",
         "U8g2",
         "IRremote",
-        "WiFiManager"
+        "WiFiManager",
+        "FastLED",
+        "Ethernet"
       ],
-      "download_url": "https://github.com/remocons/remocon-arduino"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-2.3.0.zip",
+      "size": 43139,
+      "previous_version": "2.2.1",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2025-03-09T07:25:17Z"
     },
     {
       "repository_name": "JoaoLopesF/RemoteDebug",
@@ -262131,6 +262170,36 @@
       "github_forks": 10,
       "github_language": "C++",
       "github_updated_at": "2026-02-17T13:08:25Z"
+    },
+    {
+      "repository_name": "cxandy/SmartMatrix4-ESP32",
+      "repository_url": "https://github.com/cxandy/SmartMatrix4-ESP32",
+      "name": "SmartMatrix4-ESP32",
+      "version": "4.0.3-esp32.1",
+      "version_history": [
+        {
+          "version": "4.0.3-esp32.1",
+          "seen_at": "2026-09-27T14:02:02.725Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-27T14:02:02.725Z",
+      "last_seen_sha": "faca83a6055f",
+      "author": "SmartMatrix4-ESP32 contributors",
+      "maintainer": "cxandy <cxandy@163.com>",
+      "sentence": "SmartMatrix 4.0.3 with Arduino-ESP32 core 2.x build support",
+      "paragraph": "Fork of pixelmatix/SmartMatrix 4.0.3 (MIT). Two additive changes: three #includes in src/esp32_i2s_parallel.c so the ESP32 I2S-parallel build works on Arduino-ESP32 core 2.x, verified on 2.0.17, and restoration of the AZSMZ_ESP32Matrix_v12/v15 pinouts that 4.0 dropped. Core 3.x is NOT verified and may need more work. No functional, structural, or API changes to the display path; Teensy support is byte-for-byte unchanged. Original project: http://docs.pixelmatix.com/SmartMatrix --- See README.md in this library for the full change list, 3.x migration notes, and hardware verification.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "teensy"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cxandy/SmartMatrix4_ESP32-4.0.3-esp32.1.zip",
+      "size": 5055939,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-27T11:15:37Z"
     },
     {
       "repository_name": "ripred/SmartPin",
@@ -324655,7 +324724,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9827,
-    "total_dependencies": 5470
+    "with_github_metadata": 9829,
+    "total_dependencies": 5472
   }
 }

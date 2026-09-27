@@ -1,6 +1,45 @@
 {
-  "since": "2026-09-27T17:02:12.903Z",
+  "since": "2026-09-27T18:03:47.911Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arkhipenko/TaskScheduler",
+        "repository_url": "https://github.com/arkhipenko/TaskScheduler",
+        "name": "TaskScheduler",
+        "version": "4.1.0",
+        "version_history": [
+          {
+            "version": "4.0.8",
+            "seen_at": "2026-06-29T08:46:47Z"
+          },
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-09-27T18:03:47.911Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-29T08:46:47Z",
+        "last_seen_sha": "5e7fe558f34c",
+        "author": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
+        "maintainer": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
+        "sentence": "Cooperative multitasking for Arduino, ESPx, STM32 and other microcontrollers.",
+        "paragraph": "Supports: periodic task execution (with dynamic execution period in milliseconds or microseconds – frequency of execution), number of iterations (limited or infinite number of iterations), execution of tasks in predefined sequence, dynamic change of task execution parameters (frequency, number of iterations, callback methods), power saving via entering IDLE sleep mode when tasks are not scheduled to run, event-driven task invocation via Status Request object, task IDs and Control Points for error handling and watchdog timer, Local Task Storage pointer (allowing use of same callback code for multiple tasks), layered task prioritization, std::functions (where supported), overall task timeout, static and dynamic callback method binding.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/TaskScheduler-4.1.0.zip",
+        "size": 1037074,
+        "previous_version": "4.0.8",
+        "github_stars": 1638,
+        "github_forks": 290,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-28T14:06:09Z"
+      },
+      "old_version": "4.0.8",
+      "new_version": "4.1.0"
+    }
+  ],
   "removed_libraries": []
 }

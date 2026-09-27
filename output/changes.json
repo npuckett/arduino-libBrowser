@@ -1,6 +1,100 @@
 {
-  "since": "2026-09-27T15:02:11.932Z",
+  "since": "2026-09-27T16:02:46.454Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "flova-platform/flova-firmware",
+        "repository_url": "https://github.com/flova-platform/flova-firmware",
+        "name": "FlovaSDK",
+        "version": "0.3.7",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-09-05T22:02:05.225Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-09-12T12:03:14.232Z"
+          },
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-09-12T14:02:11.454Z"
+          },
+          {
+            "version": "0.3.4",
+            "seen_at": "2026-09-12T20:02:25.988Z"
+          },
+          {
+            "version": "0.3.5",
+            "seen_at": "2026-09-14T12:04:01.232Z"
+          },
+          {
+            "version": "0.3.7",
+            "seen_at": "2026-09-27T16:02:46.454Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-09-05T22:02:05.225Z",
+        "last_seen_sha": "769877fb01ec",
+        "author": "Flova",
+        "maintainer": "Flova",
+        "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
+        "paragraph": "Provides provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services for ESP32 and ESP8266.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.7.zip",
+        "size": 204312,
+        "previous_version": "0.3.5",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T19:32:39Z"
+      },
+      "old_version": "0.3.5",
+      "new_version": "0.3.7"
+    },
+    {
+      "library": {
+        "repository_name": "jgromes/RadioLib",
+        "repository_url": "https://github.com/jgromes/RadioLib",
+        "name": "RadioLib",
+        "version": "7.8.0",
+        "version_history": [
+          {
+            "version": "7.7.1",
+            "seen_at": "2026-06-29T08:56:55Z"
+          },
+          {
+            "version": "7.8.0",
+            "seen_at": "2026-09-27T16:02:46.454Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-29T08:56:55Z",
+        "last_seen_sha": "d5d305956808",
+        "author": "Jan Gromes <gromes.jan@gmail.com>",
+        "maintainer": "Jan Gromes <gromes.jan@gmail.com>",
+        "sentence": "Universal wireless communication library",
+        "paragraph": "User-friendly library for sub-GHz radio modules (SX1278, RF69, CC1101, SX1268, LR1110, LR2021 and many others), as well as ham radio digital modes (RTTY, SSTV, AX.25 etc.) and other protocols (Pagers, LoRaWAN, ADS-B).",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/jgromes/RadioLib-7.8.0.zip",
+        "size": 5532676,
+        "previous_version": "7.7.1",
+        "github_stars": 2493,
+        "github_forks": 570,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T16:41:09Z"
+      },
+      "old_version": "7.7.1",
+      "new_version": "7.8.0"
+    }
+  ],
   "removed_libraries": []
 }

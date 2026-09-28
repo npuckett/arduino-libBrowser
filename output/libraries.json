@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-27T23:02:28.401Z",
-  "total_libraries": 10033,
-  "index_etag": "W/\"3008837d505264726c061ef0f99ed39b\"",
-  "index_last_modified": "Sun, 27 Sep 2026 22:59:12 GMT",
+  "enhanced_at": "2026-09-28T00:07:56.029Z",
+  "total_libraries": 10034,
+  "index_etag": "W/\"7232388b32fa0e4b4d0f707e558fa8ac\"",
+  "index_last_modified": "Sun, 27 Sep 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -18173,6 +18173,36 @@
       "github_language": "C++",
       "github_updated_at": "2025-01-20T01:27:36Z",
       "download_url": "https://github.com/JSC-electronics/Adeon"
+    },
+    {
+      "repository_name": "Kinshuk-2005/ADF4159",
+      "repository_url": "https://github.com/Kinshuk-2005/ADF4159",
+      "name": "ADF4159",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-09-28T00:07:54.632Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-28T00:07:54.632Z",
+      "last_seen_sha": "9b8bc56931bc",
+      "author": "kinny",
+      "maintainer": "kinny <Kinshuk-2005@://github.com>",
+      "sentence": "[BETA - Emulator Tested Only] Arduino library for the Analog Devices ADF4159 13 GHz fractional-N frequency synthesizer.",
+      "paragraph": "Register-level and high-level control of the ADF4159, including frequency programming, sawtooth/triangle/dual/fast/parabolic ramp (FMCW chirp) generation, FSK and PSK modulation, ramp delay/delayed start, interrupt frequency readback, and full status readback. Supports AVR, ESP32, Teensy, STM32, and Raspberry Pi Pico (RP2040), with exact 64-bit integer frequency math for AVR precision and selectable SPI bus per platform. Thoroughly verified using a dual-ESP32 hardware emulation setup.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kinshuk-2005/ADF4159-0.9.0.zip",
+      "size": 32999,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-27T20:50:30Z"
     },
     {
       "repository_name": "levkovigor/ADF7023",
@@ -324759,7 +324789,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9829,
+    "with_github_metadata": 9830,
     "total_dependencies": 5472
   }
 }

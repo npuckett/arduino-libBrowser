@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-28T21:02:29.618Z",
+  "enhanced_at": "2026-09-28T22:02:53.809Z",
   "total_libraries": 10035,
-  "index_etag": "W/\"70665781caea6db2a35bd7f2732af7f2\"",
-  "index_last_modified": "Mon, 28 Sep 2026 20:59:12 GMT",
+  "index_etag": "W/\"2163a17b17156f1ad52f76a270af3724\"",
+  "index_last_modified": "Mon, 28 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -61113,30 +61113,36 @@
       "repository_name": "BojanJurca/cin-cout-for-Arduino",
       "repository_url": "https://github.com/BojanJurca/cin-cout-for-Arduino",
       "name": "CinCout",
-      "version": "1.0.11",
+      "version": "1.0.17",
       "version_history": [
         {
           "version": "1.0.11",
           "seen_at": "2026-02-14T07:18:32Z"
+        },
+        {
+          "version": "1.0.17",
+          "seen_at": "2026-09-28T22:02:53.670Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-14T07:18:32Z",
-      "last_seen_sha": "0592105e8a41",
+      "last_seen_sha": "562b2ff3cb1d",
       "author": "Bojan Jurca",
       "maintainer": "Bojan Jurca <bojan@gmail.com>",
-      "sentence": "Lightweight C++ stream library for Arduino, providing cin and cout-style serial communication.",
-      "paragraph": "Provides lightweight cin and cout-style stream instances for serial communication on Arduino. Compatible with standard C++ syntax and idioms, with partial support for input streams. Designed to work across most Arduino platforms.",
+      "sentence": "Bring familiar C++ cin and cout streams to Arduino.",
+      "paragraph": "Implements minimal cin and cout stream objects for Arduino.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BojanJurca/CinCout-1.0.17.zip",
+      "size": 10043,
+      "previous_version": "1.0.11",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-02-21T11:53:42Z",
-      "license": "MIT",
-      "download_url": "https://github.com/BojanJurca/cin-cout-for-Arduino"
+      "github_updated_at": "2026-02-21T11:53:42Z"
     },
     {
       "repository_name": "fellipecouto/CipherCode",
@@ -215890,7 +215896,7 @@
       "repository_name": "kwlew/PIDEasy-Improved",
       "repository_url": "https://github.com/kwlew/PIDEasy-Improved",
       "name": "PIDEasy-Improved",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -215907,22 +215913,26 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-08-28T02:33:21.165Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-28T22:02:53.670Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T08:59:38Z",
-      "last_seen_sha": "4c11bdf5d6df",
+      "last_seen_sha": "58d02c920ffb",
       "author": "Kaleo S. Mendonça",
-      "maintainer": "<kaleosoaresmendonca@gmail.com>",
-      "sentence": "A simple and efficient PID controller library for Arduino.",
-      "paragraph": "Includes runtime gain changes, saturation-aware anti-windup (conditional integration), integral limits in output units, loop-rate-independent derivative filtering, output constraint, automatic dt measurement, and per-term telemetry for tuning.",
-      "category": "Signal Input/Output",
+      "maintainer": "Kaleo S. Mendonça <kaleosoaresmendonca@gmail.com>",
+      "sentence": "A simple, robust PID controller for Arduino robots.",
+      "paragraph": "Built for competition robots: micros() timing, derivative on measurement, heading wrap-around, a settle check for turns, feedforward, motor deadband and ramp limits, saturation-aware anti-windup, NaN-safe inputs, and per-term telemetry for tuning.",
+      "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.1.0.zip",
-      "size": 25232,
-      "previous_version": "1.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kwlew/PIDEasy_Improved-1.2.0.zip",
+      "size": 43842,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

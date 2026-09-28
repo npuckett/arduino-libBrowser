@@ -1,6 +1,140 @@
 {
-  "since": "2026-09-28T07:20:54.781Z",
+  "since": "2026-09-28T08:09:34.910Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "CodexPad/codex_pad_arduino_lib",
+        "repository_url": "https://github.com/CodexPad/codex_pad_arduino_lib",
+        "name": "CodexPad",
+        "version": "3.1.1",
+        "version_history": [
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-06-24T08:47:00Z"
+          },
+          {
+            "version": "3.1.1",
+            "seen_at": "2026-09-28T08:09:34.910Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-24T08:47:00Z",
+        "last_seen_sha": "f247de188d64",
+        "author": "cyfney-anka",
+        "maintainer": "cyfney-anka@qq.com",
+        "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
+        "paragraph": "Arduino library for CodexPad gamepads. Enables ESP32 to connect via Bluetooth (direct or button-mask scanning) and read button states and analog stick values. Depends on NimBLE-Arduino.",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "NimBLE-Arduino",
+          "GamepadInput"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-3.1.1.zip",
+        "size": 612690,
+        "previous_version": "3.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-24T06:28:23Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-PoESP32",
+        "repository_url": "https://github.com/m5stack/M5Unit-PoESP32",
+        "name": "M5Unit-PoESP32",
+        "version": "0.0.2",
+        "version_history": [
+          {
+            "version": "0.0.1",
+            "seen_at": "2025-07-21T16:20:47Z"
+          },
+          {
+            "version": "0.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-28T08:09:34.910Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:20:47Z",
+        "last_seen_sha": "ba48bff152d2",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5STACK UNIT PoESP32",
+        "paragraph": "See more on https://docs.m5stack.com/en/unit/poesp32",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_PoESP32-0.0.2.zip",
+        "size": 28905,
+        "previous_version": "0.0.1",
+        "github_stars": 3,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-02T15:12:25Z"
+      },
+      "old_version": "0.0.1",
+      "new_version": "0.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "sinricpro/esp8266-esp32-sdk",
+        "repository_url": "https://github.com/sinricpro/esp8266-esp32-sdk",
+        "name": "SinricPro",
+        "version": "5.1.0",
+        "version_history": [
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-06-29T09:08:49Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-09-06T08:03:08.760Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-09-28T08:09:34.910Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T09:08:49Z",
+        "last_seen_sha": "74cdb9c0534c",
+        "author": "Boris Jaeger <sivar2311@gmail.com>",
+        "maintainer": "SinricPro <support@sinric.com>",
+        "sentence": "Library for https://sinric.pro - simple way to connect your device to alexa",
+        "paragraph": "Simple way to control your IOT development boards like ESP8226 or ESP32 with Amazon Alexa or Google Home",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32",
+          "rp2040"
+        ],
+        "license": "CC-BY-SA",
+        "depends": [
+          "ArduinoJson",
+          "WebSockets"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricPro-5.1.0.zip",
+        "size": 2073367,
+        "previous_version": "5.0.0",
+        "github_stars": 272,
+        "github_forks": 133,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T00:50:23Z"
+      },
+      "old_version": "5.0.0",
+      "new_version": "5.1.0"
+    }
+  ],
   "removed_libraries": []
 }

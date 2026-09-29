@@ -1,6 +1,47 @@
 {
-  "since": "2026-09-29T03:03:13.794Z",
+  "since": "2026-09-29T04:03:07.124Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "m5stack/M5StamPLC",
+        "repository_url": "https://github.com/m5stack/M5StamPLC",
+        "name": "M5StamPLC",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-03-03T07:43:03Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-29T04:03:07.124Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-03-03T07:43:03Z",
+        "last_seen_sha": "8aab987e3303",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "M5StamPLC is a library for M5StamPLC",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5Unified"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5StamPLC-1.2.1.zip",
+        "size": 103074,
+        "previous_version": "1.2.0",
+        "github_stars": 17,
+        "github_forks": 12,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-11T06:27:16Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.2.1"
+    }
+  ],
   "removed_libraries": []
 }

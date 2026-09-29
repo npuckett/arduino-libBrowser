@@ -1,6 +1,154 @@
 {
-  "since": "2026-09-29T21:02:34.250Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-29T22:02:56.084Z",
+  "new_libraries": [
+    {
+      "repository_name": "EddieGreen/Esp32RmtDs18b20",
+      "repository_url": "https://github.com/EddieGreen/Esp32RmtDs18b20",
+      "name": "Esp32RmtDs18b20",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-29T22:02:56.084Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-29T22:02:56.084Z",
+      "last_seen_sha": "8600783a26b1",
+      "author": "Eddie Green",
+      "maintainer": "Eddie Green",
+      "sentence": "DS18B20/DS1822/DS18S20 Dallas temperature sensor support on top of Esp32RmtOneWire.",
+      "paragraph": "Reads temperatures from DS18B20/DS1822/DS18S20 1-Wire devices using the hardware-timed (RMT-backed) Esp32RmtOneWireBus as its transport. Depends on Esp32RmtOneWire.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Esp32RmtOneWire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EddieGreen/Esp32RmtDs18b20-1.0.0.zip",
+      "size": 7075,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-29T18:58:51Z"
+    },
+    {
+      "repository_name": "EddieGreen/Esp32RmtOneWireBus",
+      "repository_url": "https://github.com/EddieGreen/Esp32RmtOneWireBus",
+      "name": "Esp32RmtOneWire",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-29T22:02:56.084Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-29T22:02:56.084Z",
+      "last_seen_sha": "03d1ec1355ff",
+      "author": "Eddie Green",
+      "maintainer": "Eddie Green",
+      "sentence": "Hardware-timed (RMT-backed) 1-Wire bus driver for ESP32.",
+      "paragraph": "Provides 1-Wire reset/read/write primitives and Maxim/Dallas AN187 ROM search using Espressif's onewire_bus RMT component, avoiding fragile bit-banged GPIO timing. Intended as a dependency for device-specific libraries (e.g. Esp32RmtDs18b20).",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EddieGreen/Esp32RmtOneWire-1.0.0.zip",
+      "size": 31907,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-09-29T18:59:41Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "hmueller01/pubsubclient3",
+        "repository_url": "https://github.com/hmueller01/pubsubclient3",
+        "name": "PubSubClient3",
+        "version": "3.3.2",
+        "version_history": [
+          {
+            "version": "3.3.0",
+            "seen_at": "2026-06-13T08:09:35Z"
+          },
+          {
+            "version": "3.3.1",
+            "seen_at": "2026-09-13T14:02:09.063Z"
+          },
+          {
+            "version": "3.3.2",
+            "seen_at": "2026-09-29T22:02:56.084Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-13T08:09:35Z",
+        "last_seen_sha": "087bcdd9751c",
+        "author": "Nick O'Leary <nick.oleary@gmail.com>",
+        "maintainer": "Holger Mueller <github@euhm.de>",
+        "sentence": "A client library for MQTT messaging.",
+        "paragraph": "MQTT is a lightweight messaging protocol ideal for small devices. This library allows you to send and receive MQTT messages. It supports the latest MQTT 3.1.1 protocol and can be configured to use the older MQTT 3.1 if needed. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison, ESP8266 and TI CC3000.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/hmueller01/PubSubClient3-3.3.2.zip",
+        "size": 62163,
+        "previous_version": "3.3.1",
+        "github_stars": 58,
+        "github_forks": 7,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-28T02:16:03Z"
+      },
+      "old_version": "3.3.1",
+      "new_version": "3.3.2"
+    },
+    {
+      "library": {
+        "repository_name": "pulsync/pulsync-arduino",
+        "repository_url": "https://github.com/pulsync/pulsync-arduino",
+        "name": "Pulsync",
+        "version": "0.2.8",
+        "version_history": [
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-09-06T00:07:17.875Z"
+          },
+          {
+            "version": "0.2.7",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "0.2.8",
+            "seen_at": "2026-09-29T22:02:56.084Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-06T00:07:17.875Z",
+        "last_seen_sha": "becf9614ff37",
+        "author": "Vineeth Rai K <vineethraik@gmail.com>",
+        "maintainer": "Vineeth Rai K <vineethraik@gmail.com>",
+        "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
+        "paragraph": "Provides setTimeout, setInterval, and non-blocking equivalents for the ESP32. Includes multi-network WiFi management with a captive portal, real-time cloud communication over MQTT (HTTP for enrollment and OTA), OTA firmware updates with rollback, and remote config. Built for the ESP32; works on both the Arduino and ESP-IDF frameworks.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.2.8.zip",
+        "size": 91386,
+        "previous_version": "0.2.7",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-05T21:55:58Z"
+      },
+      "old_version": "0.2.7",
+      "new_version": "0.2.8"
+    }
+  ],
   "removed_libraries": []
 }

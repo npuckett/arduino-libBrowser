@@ -1,6 +1,167 @@
 {
-  "since": "2026-09-29T19:02:17.087Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-09-29T20:03:07.691Z",
+  "new_libraries": [
+    {
+      "repository_name": "AlfredoSystems/AlfredoTelemetry",
+      "repository_url": "https://github.com/AlfredoSystems/AlfredoTelemetry",
+      "name": "AlfredoTelemetry",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-29T20:03:07.691Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-29T20:03:07.691Z",
+      "last_seen_sha": "4d1cd9dd08b1",
+      "author": "Jacob Williams",
+      "maintainer": "Jacob Williams (jrw4561@gmail.com)",
+      "sentence": "Easy, high rate robot telemetry over ESP-NOW, with a browser viewer.",
+      "paragraph": "Log values from your robot with one line each, watch and tune them live in a web page, and record to CSV. Uses an ESP32 plugged into your computer over USB as the receiver. Works alongside BLE on the ESP32-S3.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoTelemetry-1.0.0.zip",
+      "size": 78754,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-29T16:20:02Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "adafruit/Adafruit_Marquee",
+        "repository_url": "https://github.com/adafruit/Adafruit_Marquee",
+        "name": "Adafruit Marquee",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-22T22:02:09.509Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-23T22:02:36.919Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-09-29T20:03:07.691Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-22T22:02:09.509Z",
+        "last_seen_sha": "635074614c06",
+        "author": "Adafruit",
+        "maintainer": "Adafruit <info@adafruit.com>",
+        "sentence": "Adafruit Marquee Client",
+        "paragraph": "Adafruit Marquee Client for Arduino.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit GFX Library",
+          "Adafruit EPD",
+          "ArduinoJson",
+          "Adafruit SPIFlash",
+          "SdFat - Adafruit Fork",
+          "Adafruit TinyUSB Library",
+          "base64",
+          "Adafruit ImageReader Library",
+          "Adafruit MQTT Library",
+          "CRC"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.3.zip",
+        "size": 88881,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-22T18:55:57Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "mogrinz/AMT630A",
+        "repository_url": "https://github.com/mogrinz/AMT630A",
+        "name": "AMT630A_OSD",
+        "version": "0.7.1",
+        "version_history": [
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-09-21T00:06:49.508Z"
+          },
+          {
+            "version": "0.7.1",
+            "seen_at": "2026-09-29T20:03:07.691Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-21T00:06:49.508Z",
+        "last_seen_sha": "ea7b06835584",
+        "author": "Mike Ogrinz",
+        "maintainer": "Mike Ogrinz <mike@ogrinz.com>",
+        "sentence": "Control the AMT630A hardware OSD in inexpensive composite-video LCD monitor boards.",
+        "paragraph": "Provides five text or 16-color bitmap OSD windows, LargeFont and SmallFont support, custom glyphs, bitmap conversion tools, palette control, opacity and video blending, scaling, blink regions, animation helpers, Index RAM and Font RAM management, and optional factory-menu keypad automation for compatible AMT630A monitor firmware.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mogrinz/AMT630A_OSD-0.7.1.zip",
+        "size": 119917,
+        "previous_version": "0.7.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-20T20:30:00Z"
+      },
+      "old_version": "0.7.0",
+      "new_version": "0.7.1"
+    },
+    {
+      "library": {
+        "repository_name": "arkhipenko/PersistentQueue",
+        "repository_url": "https://github.com/arkhipenko/PersistentQueue",
+        "name": "PersistentQueue",
+        "version": "1.2.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2025-07-21T16:36:49Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-29T20:03:07.691Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:36:49Z",
+        "last_seen_sha": "93384492768b",
+        "author": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
+        "maintainer": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
+        "sentence": "Implementation of a queue that persists messages to flash.",
+        "paragraph": "Each message is a file on SPIFFS or LittleFS, so the queue survives a reset or power loss. Messages are retrieved oldest first or newest first. Supports peek and drop for at-least-once delivery and an optional message limit. ESP32 (arduino-esp32).",
+        "category": "Data Storage",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/PersistentQueue-1.2.1.zip",
+        "size": 33272,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2024-06-28T19:43:53Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.2.1"
+    }
+  ],
   "removed_libraries": []
 }

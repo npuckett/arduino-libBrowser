@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-30T21:02:27.947Z",
-  "total_libraries": 10047,
-  "index_etag": "W/\"0a9b91a5837864696264a8405c4e858e\"",
-  "index_last_modified": "Wed, 30 Sep 2026 20:59:12 GMT",
+  "enhanced_at": "2026-09-30T22:02:42.646Z",
+  "total_libraries": 10048,
+  "index_etag": "W/\"5d1068ca2a05b23b09e80f90b52bf34d\"",
+  "index_last_modified": "Wed, 30 Sep 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -150910,6 +150910,35 @@
       "github_updated_at": "2026-09-29T13:56:33Z"
     },
     {
+      "repository_name": "KacperTora/KT_SHT40",
+      "repository_url": "https://github.com/KacperTora/KT_SHT40",
+      "name": "KT_SHT40",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-09-30T22:02:41.257Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-09-30T22:02:41.257Z",
+      "last_seen_sha": "b4a714368f1a",
+      "author": "Kacper Tora",
+      "maintainer": "Kacper Tora",
+      "sentence": "Arduino library for Sensirion SHT40 I2C temperature and humidity sensors.",
+      "paragraph": "Driver for Sensirion SHT40 digital relative humidity and temperature sensors. Features hardware CRC-8 data integrity checks, configurable precision modes, full on-chip pulsed heater control for de-condensation/diagnostics, 32-bit unique serial number readout, and software reset. Highly optimized for memory-constrained platforms including AVR, ESP8266, ESP32, STM32, and RP2040.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KacperTora/KT_SHT40-1.0.0.zip",
+      "size": 21501,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-30T18:49:39Z"
+    },
+    {
       "repository_name": "RobTillaart/KT0803",
       "repository_url": "https://github.com/RobTillaart/KT0803",
       "name": "KT0803",
@@ -239099,7 +239128,7 @@
       "repository_name": "dejwk/roo_blink",
       "repository_url": "https://github.com/dejwk/roo_blink",
       "name": "roo_blink",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.2",
@@ -239120,11 +239149,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-01-02T21:08:31Z",
-      "last_seen_sha": "ac70b312ebd8",
+      "last_seen_sha": "bc0c9dc0ce9d",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Blink LEDs like a pro!",
@@ -239138,9 +239171,9 @@
         "roo_threads",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_blink-1.1.1.zip",
-      "size": 31788,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_blink-1.2.0.zip",
+      "size": 31943,
+      "previous_version": "1.1.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -239199,7 +239232,7 @@
       "repository_name": "dejwk/roo_control",
       "repository_url": "https://github.com/dejwk/roo_control",
       "name": "roo_control",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "version_history": [
         {
           "version": "1.2.2",
@@ -239220,11 +239253,15 @@
         {
           "version": "1.2.8",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "1.2.9",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-13T07:15:07Z",
-      "last_seen_sha": "71b3835002e2",
+      "last_seen_sha": "d61a990d0fab",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Arduino relays, port extenders, debouncing, retries: common abstractions and implementations.",
@@ -239238,9 +239275,9 @@
         "roo_quantity",
         "roo_scheduler"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_control-1.2.8.zip",
-      "size": 29401,
-      "previous_version": "1.2.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_control-1.2.9.zip",
+      "size": 29520,
+      "previous_version": "1.2.8",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -239650,7 +239687,7 @@
       "repository_name": "dejwk/roo_onewire",
       "repository_url": "https://github.com/dejwk/roo_onewire",
       "name": "roo_onewire",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "version_history": [
         {
           "version": "2.0.5",
@@ -239671,11 +239708,15 @@
         {
           "version": "2.0.13",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "2.0.14",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-13T07:15:17Z",
-      "last_seen_sha": "d9a77c23f980",
+      "last_seen_sha": "dcc6ec9aac94",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Arduino library for OneWire thermometers.",
@@ -239690,9 +239731,9 @@
         "roo_scheduler",
         "roo_quantity"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_onewire-2.0.13.zip",
-      "size": 39152,
-      "previous_version": "2.0.12",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_onewire-2.0.14.zip",
+      "size": 39266,
+      "previous_version": "2.0.13",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -239702,7 +239743,7 @@
       "repository_name": "dejwk/roo_prefs",
       "repository_url": "https://github.com/dejwk/roo_prefs",
       "name": "roo_prefs",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "version_history": [
         {
           "version": "1.3.0",
@@ -239727,11 +239768,15 @@
         {
           "version": "2.0.2",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "2.0.3",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-05T08:30:08Z",
-      "last_seen_sha": "c88a78dfdb20",
+      "last_seen_sha": "616ef83fd3b5",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Utility library for persistent settings using ESP32 NVS or Arduino Preferences, with namespaces and transactions.",
@@ -239744,9 +239789,9 @@
         "roo_backport",
         "roo_logging"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_prefs-2.0.2.zip",
-      "size": 48145,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_prefs-2.0.3.zip",
+      "size": 48263,
+      "previous_version": "2.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -239807,7 +239852,7 @@
       "repository_name": "dejwk/roo_scheduler",
       "repository_url": "https://github.com/dejwk/roo_scheduler",
       "name": "roo_scheduler",
-      "version": "2.2.1",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.1.9",
@@ -239824,11 +239869,15 @@
         {
           "version": "2.2.1",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-02-26T07:36:14Z",
-      "last_seen_sha": "de4dfb55cfe9",
+      "last_seen_sha": "141424fbb99c",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Allows scheduling delayed and/or repetitive tasks.",
@@ -239842,9 +239891,9 @@
         "roo_threads",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_scheduler-2.2.1.zip",
-      "size": 33001,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_scheduler-2.3.0.zip",
+      "size": 36847,
+      "previous_version": "2.2.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -240046,7 +240095,7 @@
       "repository_name": "dejwk/roo_transport",
       "repository_url": "https://github.com/dejwk/roo_transport",
       "name": "roo_transport",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.1.3",
@@ -240067,11 +240116,15 @@
         {
           "version": "1.2.1",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-05T08:30:10Z",
-      "last_seen_sha": "e3d4e3878258",
+      "last_seen_sha": "d2178e3ab541",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Reliable transport (sockets, streams) over Serial and ESP-NOW.",
@@ -240085,9 +240138,9 @@
         "roo_logging",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_transport-1.2.1.zip",
-      "size": 171580,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_transport-1.2.2.zip",
+      "size": 171649,
+      "previous_version": "1.2.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -240097,7 +240150,7 @@
       "repository_name": "dejwk/roo_wifi",
       "repository_url": "https://github.com/dejwk/roo_wifi",
       "name": "roo_wifi",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.1.4",
@@ -240114,14 +240167,18 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-21T22:02:31.540Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-02-27T07:33:07Z",
-      "last_seen_sha": "dc447f3d397b",
+      "last_seen_sha": "e719c0828f7c",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
-      "sentence": "Portable Wi-Fi operations and known-key profiles, with an ESP32 ESP-IDF adapter.",
+      "sentence": "Portable Wi-Fi operations and SSID-addressed profiles, with an ESP32 ESP-IDF adapter.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -240132,9 +240189,9 @@
         "roo_backport",
         "roo_scheduler"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_wifi-2.0.0.zip",
-      "size": 89593,
-      "previous_version": "1.1.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_wifi-3.0.0.zip",
+      "size": 108673,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -240144,7 +240201,7 @@
       "repository_name": "dejwk/roo_windows",
       "repository_url": "https://github.com/dejwk/roo_windows",
       "name": "roo_windows",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "version_history": [
         {
           "version": "1.6.0",
@@ -240157,11 +240214,15 @@
         {
           "version": "1.7.0",
           "seen_at": "2026-09-19T18:02:54.518Z"
+        },
+        {
+          "version": "1.8.0",
+          "seen_at": "2026-09-30T22:02:41.257Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-06T08:06:04Z",
-      "last_seen_sha": "182706c329c7",
+      "last_seen_sha": "2f3cf216afaf",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
@@ -240182,9 +240243,9 @@
         "roo_scheduler",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.7.0.zip",
-      "size": 2355804,
-      "previous_version": "1.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.8.0.zip",
+      "size": 2649404,
+      "previous_version": "1.7.0",
       "github_stars": 18,
       "github_forks": 2,
       "github_language": "C++",
@@ -325484,7 +325545,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9843,
+    "with_github_metadata": 9844,
     "total_dependencies": 5489
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-09-30T03:04:12.552Z",
+  "enhanced_at": "2026-09-30T04:03:10.605Z",
   "total_libraries": 10044,
-  "index_etag": "W/\"0c003331d848fe746aaadd396499e6d6\"",
-  "index_last_modified": "Wed, 30 Sep 2026 02:59:12 GMT",
+  "index_etag": "W/\"a260554bdd90ac83652a77e72322d58b\"",
+  "index_last_modified": "Wed, 30 Sep 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -205495,7 +205495,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.4",
+      "version": "0.0.7",
       "version_history": [
         {
           "version": "0.0.2",
@@ -205508,22 +205508,26 @@
         {
           "version": "0.0.4",
           "seen_at": "2026-09-30T02:10:37.042Z"
+        },
+        {
+          "version": "0.0.7",
+          "seen_at": "2026-09-30T04:03:10.473Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "3fefdf888c5d",
+      "last_seen_sha": "0e7688680d88",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
-      "sentence": "OEP v1 development probe firmware (ESP32-P4, classic ESP32, RP2350 / RP2040).",
-      "paragraph": "Experimental; wire numbers come from oep-spec registry/oep-v1.toml via tools/sync_registry.sh.",
+      "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+      "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
       "category": "Other",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.4.zip",
-      "size": 228046,
-      "previous_version": "0.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.7.zip",
+      "size": 248289,
+      "previous_version": "0.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -268000,29 +268004,38 @@
       "repository_name": "soracom-labs/soracom-arc-esp32-arduino",
       "repository_url": "https://github.com/soracom-labs/soracom-arc-esp32-arduino",
       "name": "SoracomArcESP32",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2025-07-21T16:30:36Z"
+        },
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-09-30T04:03:10.473Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:30:36Z",
-      "last_seen_sha": "f1e4ab1932ee",
+      "last_seen_sha": "50231f97e94e",
       "author": "SORACOM, Inc.",
       "maintainer": "moznion <moznion@mail.moznion.net>",
       "sentence": "A utility library to use/bootstrap Soracom Arc easily on ESP32 Arduino boards.",
-      "paragraph": "",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "depends": [
+        "ArduinoJson",
+        "WireGuard-ESP32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soracom-labs/SoracomArcESP32-0.0.2.zip",
+      "size": 17916,
+      "previous_version": "0.0.1",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-03-17T20:59:40Z",
-      "download_url": "https://github.com/soracom-labs/soracom-arc-esp32-arduino"
+      "github_updated_at": "2026-03-17T20:59:40Z"
     },
     {
       "repository_name": "reyanvaldes/SorbaMQTT-Wifi",
@@ -325316,6 +325329,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9840,
-    "total_dependencies": 5478
+    "total_dependencies": 5480
   }
 }

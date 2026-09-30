@@ -1,6 +1,65 @@
 {
-  "since": "2026-09-30T09:03:07.760Z",
+  "since": "2026-09-30T10:03:36.559Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.17",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "3b7e29921283",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.17.zip",
+        "size": 346552,
+        "previous_version": "0.0.11",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.11",
+      "new_version": "0.0.17"
+    }
+  ],
   "removed_libraries": []
 }

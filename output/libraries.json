@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-01T09:04:12.601Z",
+  "enhanced_at": "2026-10-01T10:03:11.599Z",
   "total_libraries": 10049,
-  "index_etag": "W/\"06ce47adc14a3782a1e920b92f49cf7c\"",
-  "index_last_modified": "Thu, 01 Oct 2026 08:59:12 GMT",
+  "index_etag": "W/\"2b27bb2eedbaa3775fee072cedcd2718\"",
+  "index_last_modified": "Thu, 01 Oct 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -143084,32 +143084,37 @@
       "repository_name": "TcMenu/IoAbstraction",
       "repository_url": "https://github.com/TcMenu/IoAbstraction",
       "name": "IoAbstraction",
-      "version": "4.5.3",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "4.5.3",
           "seen_at": "2026-05-11T08:28:09Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-11T08:28:09Z",
-      "last_seen_sha": "e41a9011a7ff",
+      "last_seen_sha": "75ab9d25863d",
       "author": "tcmenu",
       "maintainer": "https://github.com/TcMenu",
       "sentence": "Treat PCF8574, MCP23017 and Shift registers like pins, matrix keypad, touch screen handler,  button press and rotary encoder management (switches) on any supported IO (including DfRobot & Joysticks) with event handling, interchangable AVR/I2C(AT24) EEPROMs.",
       "paragraph": "Interchange between PCF8574, MCP23017, 74HC595, and regular pins. Fully debounced switches, rotary encoders, joystick encoder emulation (including on DfRobot), matrix keypads/keyboards, and touch screen input on any IO device that require no extra components in most cases. An EEPROM abstraction that works with AVR & I2C AT24x ROMs. Simple cross device btree collection.",
       "category": "Other",
       "architectures": [],
+      "depends": [
+        "TaskManagerIO",
+        "TcMenuLog"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/IoAbstraction-5.0.0.zip",
+      "size": 945910,
+      "previous_version": "4.5.3",
       "github_stars": 164,
       "github_forks": 33,
       "github_language": "C++",
-      "github_updated_at": "2026-05-10T14:57:57Z",
-      "depends": [
-        "TaskManagerIO",
-        "SimpleCollections",
-        "TcMenuLog"
-      ],
-      "download_url": "https://www.thecoderscorner.com/products/arduino-libraries/"
+      "github_updated_at": "2026-05-10T14:57:57Z"
     },
     {
       "repository_name": "iobeam/iobeam-client-embedded",
@@ -165858,7 +165863,7 @@
       "repository_name": "m5stack/M5HAL",
       "repository_url": "https://github.com/m5stack/M5HAL",
       "name": "M5HAL",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "version_history": [
         {
           "version": "0.1.2",
@@ -165867,11 +165872,15 @@
         {
           "version": "0.1.3",
           "seen_at": "2026-09-21T08:03:54.451Z"
+        },
+        {
+          "version": "0.1.4",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-09T08:34:09Z",
-      "last_seen_sha": "7289e2eed98e",
+      "last_seen_sha": "19751cd21e63",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Hardware Abstraction Layer(HAL) for M5 Products",
@@ -165883,9 +165892,9 @@
       "depends": [
         "M5Utility"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5HAL-0.1.3.zip",
-      "size": 30891,
-      "previous_version": "0.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5HAL-0.1.4.zip",
+      "size": 33893,
+      "previous_version": "0.1.3",
       "github_stars": 1,
       "github_forks": 4,
       "github_language": "C++",
@@ -205635,7 +205644,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.22",
+      "version": "0.0.23",
       "version_history": [
         {
           "version": "0.0.2",
@@ -205684,11 +205693,15 @@
         {
           "version": "0.0.22",
           "seen_at": "2026-10-01T08:03:49.359Z"
+        },
+        {
+          "version": "0.0.23",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "e72628b4cf7e",
+      "last_seen_sha": "05d4422244b5",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -205697,9 +205710,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.22.zip",
-      "size": 486686,
-      "previous_version": "0.0.21",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.23.zip",
+      "size": 490557,
+      "previous_version": "0.0.22",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -289491,30 +289504,36 @@
       "repository_name": "TcMenu/TaskManagerIO",
       "repository_url": "https://github.com/TcMenu/TaskManagerIO",
       "name": "TaskManagerIO",
-      "version": "1.5.4",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.5.4",
           "seen_at": "2026-05-11T08:28:13Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-11T08:28:13Z",
-      "last_seen_sha": "d4b3ce0a56df",
+      "last_seen_sha": "148c3e1c9a4a",
       "author": "davetcc",
       "maintainer": "https://www.thecoderscorner.com",
       "sentence": "Task manager for Arduino and mbed with marshalled interrupts, first class support for events and timed execution. Thread safe for RTOS use.",
       "paragraph": "Simple efficient task management with interrupt marshalling. Provides the ability to schedule things to be done either at certain times or on event triggers. This library can also marshall interrupts into task manager",
       "category": "Other",
       "architectures": [],
-      "github_stars": 136,
-      "github_forks": 14,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-10T14:48:37Z",
       "depends": [
         "TcMenuLog"
       ],
-      "download_url": "https://www.thecoderscorner.com/products/arduino-libraries/"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/TaskManagerIO-5.0.0.zip",
+      "size": 127862,
+      "previous_version": "1.5.4",
+      "github_stars": 136,
+      "github_forks": 14,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-10T14:48:37Z"
     },
     {
       "repository_name": "Robokishan/Arduino-Scheduler",
@@ -290189,7 +290208,7 @@
       "repository_name": "TcMenu/tcMenuLib",
       "repository_url": "https://github.com/TcMenu/tcMenuLib",
       "name": "tcMenu",
-      "version": "4.5.9",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "4.5.1",
@@ -290202,11 +290221,15 @@
         {
           "version": "4.5.9",
           "seen_at": "2026-08-02T10:30:21.201Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-05-18T08:36:30Z",
-      "last_seen_sha": "fa033b43f45c",
+      "last_seen_sha": "cace1c03837e",
       "author": "davetcc",
       "maintainer": "www.thecoderscorner.com",
       "sentence": "Menu library for Arduino with IoT capabilities that supports many input and display devices with a designer UI, code generator, CLI, and strong remote control capability.",
@@ -290219,9 +290242,9 @@
         "IoAbstraction",
         "tcUnicodeHelper"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/tcMenu-4.5.9.zip",
-      "size": 672648,
-      "previous_version": "4.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/tcMenu-5.0.0.zip",
+      "size": 681120,
+      "previous_version": "4.5.9",
       "github_stars": 117,
       "github_forks": 11,
       "github_language": "C++",
@@ -290591,27 +290614,33 @@
       "repository_name": "TcMenu/tcUnicodeHelper",
       "repository_url": "https://github.com/TcMenu/tcUnicodeHelper",
       "name": "tcUnicodeHelper",
-      "version": "1.2.3",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.2.3",
           "seen_at": "2026-05-11T08:28:17Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-11T08:28:17Z",
-      "last_seen_sha": "f276deb43e7b",
+      "last_seen_sha": "7f6409354097",
       "author": "davetcc",
       "maintainer": "https://www.thecoderscorner.com",
       "sentence": "Adds tcUnicode UTF-8 support to Adafruit_GFX, U8G2, tcMenu, and TFT_eSPI graphics libraries with a graphical font creation utility available. Works with existing libraries",
       "paragraph": "Adds tcUnicode UTF-8 support to Adafruit_GFX, U8G2, tcMenu, and TFT_eSPI graphics libraries with a graphical font creation utility available. Works with existing libraries",
       "category": "Other",
       "architectures": [],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/tcUnicodeHelper-5.0.0.zip",
+      "size": 240020,
+      "previous_version": "1.2.3",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-05-10T14:48:34Z",
-      "download_url": "https://github.com/TcMenu/tcUnicodeHelper"
+      "github_updated_at": "2026-05-10T14:48:34Z"
     },
     {
       "repository_name": "firefly-cpp/TCXWriter",
@@ -304093,26 +304122,31 @@
       "repository_name": "Tunglam0605/TungLam-OmniMecanum-4WD",
       "repository_url": "https://github.com/Tunglam0605/TungLam-OmniMecanum-4WD",
       "name": "TungLam_OmniMecanum_4WD",
-      "version": "0.8.2",
+      "version": "0.9.2",
       "version_history": [
         {
           "version": "0.8.2",
           "seen_at": "2026-09-30T14:03:10.568Z"
+        },
+        {
+          "version": "0.9.2",
+          "seen_at": "2026-10-01T10:03:11.455Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-30T14:03:10.568Z",
-      "last_seen_sha": "c763e541e6dd",
+      "last_seen_sha": "ab4c2c83bd27",
       "author": "Nguyen Khac Tung Lam",
       "maintainer": "Nguyen Khac Tung Lam <183681608+Tunglam0605@users.noreply.github.com>",
-      "sentence": "Hardware-timer 4WD Mecanum and Omni motor control for Arduino Mega with two L298N drivers.",
-      "paragraph": "Provides signed per-wheel control, V5-compatible Mecanum motion, Omni-X mixing, safe direction dead-time, Timer3/Timer4 hardware PWM, hardware-timed active reverse braking, motor inversion, beginner wiring guidance, and drop-in legacy V5 API compatibility.",
+      "sentence": "Arduino Mega 4WD Mecanum/Omni control with hardware PWM, SI kinematics, and legacy V5 compatibility.",
+      "paragraph": "Provides normalized and SI-unit body velocity control, motor/chassis physical configuration, Mecanum-X and Omni-X inverse/forward kinematics, open-loop RPM-to-PWM feed-forward, Timer3/Timer4 hardware PWM, active reverse braking, motor inversion, and drop-in legacy V5 API compatibility.",
       "category": "Device Control",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_OmniMecanum_4WD-0.8.2.zip",
-      "size": 51264,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_OmniMecanum_4WD-0.9.2.zip",
+      "size": 116336,
+      "previous_version": "0.8.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -325655,6 +325689,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9845,
-    "total_dependencies": 5491
+    "total_dependencies": 5490
   }
 }

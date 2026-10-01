@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-01T15:02:34.100Z",
-  "total_libraries": 10049,
-  "index_etag": "W/\"adceb2432418d68bd45117abbb47e3af\"",
-  "index_last_modified": "Thu, 01 Oct 2026 14:59:12 GMT",
+  "enhanced_at": "2026-10-01T16:03:00.987Z",
+  "total_libraries": 10050,
+  "index_etag": "W/\"9e710a42786a5079c0b4f26951ca598e\"",
+  "index_last_modified": "Thu, 01 Oct 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -67402,6 +67402,40 @@
       "github_updated_at": "2026-06-30T04:47:24Z",
       "download_url": "https://github.com/ZZ-Cat/CRSFforArduino",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "OnlyBauer/arduino_crsf",
+      "repository_url": "https://github.com/OnlyBauer/arduino_crsf",
+      "name": "CRSFv3",
+      "version": "0.5.0",
+      "version_history": [
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-10-01T16:02:59.448Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-01T16:02:59.448Z",
+      "last_seen_sha": "09c823187860",
+      "author": "Maximilian Bauer <maximilian@bauer.pub>",
+      "maintainer": "Maximilian Bauer <maximilian@bauer.pub>",
+      "sentence": "Complete TBS CRSFv3: telemetry, RC channels, parameters, MAVLink and MSP tunnels, commands and routing.",
+      "paragraph": "An Arduino wrapper over the portable c_crsf core, which also runs on ESP-IDF and STM32. Frame layer with both header forms and both CRC polynomials, the full telemetry set, 0x16/0x17/0x18 channels, the parameter protocol in both directions, MAVLink and MSP tunnels with chunking and reassembly, 0x32 Direct Commands, multi-port routing and CRSFv3 baudrate negotiation. AVR needs the compile-time switches: define CRSF_ARDUINO_MINIMAL in src/crsf_local_conf.h and a receiver or transmitter station fits an ATmega328P with room to spare, at the cost of the tunnels and the parameter protocol. Compiles for five architectures and passes the host test suites.",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32",
+        "stm32",
+        "rp2040",
+        "samd"
+      ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/OnlyBauer/CRSFv3-0.5.0.zip",
+      "size": 216771,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-01T12:50:52Z"
     },
     {
       "repository_name": "GyverLibs/CRT",
@@ -185486,16 +185520,20 @@
       "repository_name": "Jueff/MLLServoConfigurator",
       "repository_url": "https://github.com/Jueff/MLLServoConfigurator",
       "name": "MLLServoConfigurator",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-03-27T07:50:45Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-01T16:02:59.448Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-27T07:50:45Z",
-      "last_seen_sha": "cdb4a79a70ad",
+      "last_seen_sha": "da7bcdd54ebe",
       "author": "Jueff",
       "maintainer": "Jueff <mobaledlib@gmx.at>",
       "sentence": "<h3>The library bundles servo related classes for MobaLedLib</h3>",
@@ -185504,14 +185542,16 @@
       "architectures": [
         "rp2040"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-03-26T16:56:21Z",
       "depends": [
         "PicoFlashStorage"
       ],
-      "download_url": "https://github.com/Jueff/MLLServoConfigurator"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Jueff/MLLServoConfigurator-1.2.0.zip",
+      "size": 26502,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-03-26T16:56:21Z"
     },
     {
       "repository_name": "Jueff/MLLSoundTiny",
@@ -205656,7 +205696,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.25",
+      "version": "0.0.26",
       "version_history": [
         {
           "version": "0.0.2",
@@ -205717,11 +205757,15 @@
         {
           "version": "0.0.25",
           "seen_at": "2026-10-01T14:02:57.149Z"
+        },
+        {
+          "version": "0.0.26",
+          "seen_at": "2026-10-01T16:02:59.448Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "4648243067a0",
+      "last_seen_sha": "d7c16da43996",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -205730,9 +205774,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.25.zip",
-      "size": 502486,
-      "previous_version": "0.0.24",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.26.zip",
+      "size": 502489,
+      "previous_version": "0.0.25",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -265127,7 +265171,7 @@
       "repository_name": "HOMPAIN/SoftTimerAdvance",
       "repository_url": "https://github.com/HOMPAIN/SoftTimerAdvance",
       "name": "SoftTimerAdvance",
-      "version": "1.0.3",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.2",
@@ -265136,22 +265180,26 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-08-11T16:15:50.214Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-10-01T16:02:59.448Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-07T18:14:01.614Z",
-      "last_seen_sha": "699d455b6a6f",
+      "last_seen_sha": "4df6a157683f",
       "author": "Hompain",
       "maintainer": "Hompain",
       "sentence": "Versatile soft timers with extensive functionality.",
-      "paragraph": "Implements a software timer manager. Features: timers, delayed calls, timeouts, and threads.",
+      "paragraph": "Implements a software timer manager. Features: timers, delayed calls, timeouts, tasks (pseudo-threads), control from interrupts, sleep support and telemetry.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-1.0.3.zip",
-      "size": 37864,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HOMPAIN/SoftTimerAdvance-2.0.0.zip",
+      "size": 103985,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -325720,7 +325768,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9845,
+    "with_github_metadata": 9846,
     "total_dependencies": 5490
   }
 }

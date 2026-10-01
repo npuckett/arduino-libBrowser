@@ -1,6 +1,158 @@
 {
-  "since": "2026-10-01T19:02:18.466Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-01T20:03:28.309Z",
+  "new_libraries": [
+    {
+      "repository_name": "AJArnovitz/ArnoTek_Debug",
+      "repository_url": "https://github.com/AJArnovitz/ArnoTek_Debug",
+      "name": "ArnoTek_Debug",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-01T20:03:28.309Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-01T20:03:28.309Z",
+      "last_seen_sha": "53222a6ca929",
+      "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+      "sentence": "Conditional debugging utility for Arduino",
+      "paragraph": "This utility conditionally generates Arduino C++ debugging statements.",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Debug-1.0.0.zip",
+      "size": 183161,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-01T15:39:23Z"
+    },
+    {
+      "repository_name": "EnviroDIY/RTC_I2C",
+      "repository_url": "https://github.com/EnviroDIY/RTC_I2C",
+      "name": "RTC_I2C",
+      "version": "0.7.0",
+      "version_history": [
+        {
+          "version": "0.7.0",
+          "seen_at": "2026-10-01T20:03:28.309Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-01T20:03:28.309Z",
+      "last_seen_sha": "6f626b0f72ba",
+      "author": "Bernhard Nebel <nebel@hinterm-ziel.de>",
+      "maintainer": "Bernhard Nebel <nebel@hinterm-ziel.de>",
+      "sentence": "A universal API for a large number of I2C RTCs. Note that not the complete functionality of each RTC is supported",
+      "paragraph": "This library provides a unified API to many I2C RTCs. It can be used to run RTCs in parallel. Currently supported RTCs: DS1307, DS1337, DS3231, PCF8523, PCF8563, RS5C372, RV-8523, RV-8803, RV-3032, RV-3028, MCP79140, SD2405",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "EpochTime"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/RTC_I2C-0.7.0.zip",
+      "size": 99397,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-01T16:18:14Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Unical-A/DashlyClient",
+        "repository_url": "https://github.com/Unical-A/DashlyClient",
+        "name": "DashlyClient",
+        "version": "2.1.2",
+        "version_history": [
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-10-01T20:03:28.309Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "18c95f05feeb",
+        "author": "DashlyIot.com by Arsen Vardanyan",
+        "maintainer": "Smart Stack Solutions <support@dashlyiot.com>",
+        "sentence": "Official Arduino client for DashlyIoT.com.",
+        "paragraph": "A fast and lightweight library to connect your ESP32 or ESP8266 to DashlyIoT dashboards. Send sensor data and receive real-time commands with ease.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Unical-A/DashlyClient-2.1.2.zip",
+        "size": 14743,
+        "previous_version": "2.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-27T17:15:49Z"
+      },
+      "old_version": "2.1.0",
+      "new_version": "2.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "pulsync/pulsync-arduino",
+        "repository_url": "https://github.com/pulsync/pulsync-arduino",
+        "name": "Pulsync",
+        "version": "0.3.1",
+        "version_history": [
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-09-06T00:07:17.875Z"
+          },
+          {
+            "version": "0.2.7",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "0.2.8",
+            "seen_at": "2026-09-29T22:02:56.084Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-09-30T18:03:22.507Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-10-01T20:03:28.309Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-09-06T00:07:17.875Z",
+        "last_seen_sha": "0922427f2e18",
+        "author": "Vineeth Rai K <vineethraik@gmail.com>",
+        "maintainer": "Vineeth Rai K <vineethraik@gmail.com>",
+        "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
+        "paragraph": "Provides setTimeout, setInterval, and non-blocking equivalents for the ESP32. Includes multi-network WiFi management with a captive portal, real-time cloud communication over MQTT (HTTP for enrollment and OTA), OTA firmware updates with rollback, and remote config. Built for the ESP32; works on both the Arduino and ESP-IDF frameworks.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.1.zip",
+        "size": 92172,
+        "previous_version": "0.3.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-05T21:55:58Z"
+      },
+      "old_version": "0.3.0",
+      "new_version": "0.3.1"
+    }
+  ],
   "removed_libraries": []
 }

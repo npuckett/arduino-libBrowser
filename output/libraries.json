@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-01T01:30:44.251Z",
+  "enhanced_at": "2026-10-01T02:15:30.622Z",
   "total_libraries": 10048,
-  "index_etag": "W/\"dc81d0e4c4f3bde466f792d8f19f270f\"",
-  "index_last_modified": "Thu, 01 Oct 2026 01:29:12 GMT",
+  "index_etag": "W/\"d4ad6c1ee2dc9654f483fc5a8c76d9de\"",
+  "index_last_modified": "Thu, 01 Oct 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -26983,30 +26983,36 @@
       "repository_name": "sleepnow2/ArdRTOS",
       "repository_url": "https://github.com/sleepnow2/ArdRTOS",
       "name": "ArdRTOS",
-      "version": "1.0.4",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.4",
           "seen_at": "2025-08-07T14:34:04Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-10-01T02:15:30.527Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-08-07T14:34:04Z",
-      "last_seen_sha": "c9b502ee6860",
-      "author": "Alex Olson <aolson1714@gmail.com>",
-      "maintainer": "Alex Olson <aolson1714@gmail.com>",
-      "sentence": "ArdRTOS provides a real-time operating system for embedded systems.",
-      "paragraph": "ArdRTOS was designed from the ground up to be as simple as possible from the users perspective.",
+      "last_seen_sha": "3bfbc566bc0a",
+      "author": "Alex Olson <sleepnow2@gmail.com>",
+      "maintainer": "Alex Olson <sleepnow2@gmail.com>",
+      "sentence": "ArdRTOS provides a simple cooperative operating system for embedded systems.",
+      "paragraph": "ArdRTOS was designed from the ground up to be as simple as possible from the users perspective. This offers an easy on-ramp to learning what goes on behind an RTOS, and also offers a dead simple RTOS that will fit many hobbiests needs.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sleepnow2/ArdRTOS-2.0.1.zip",
+      "size": 35859,
+      "previous_version": "1.0.4",
       "github_stars": 13,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2025-12-02T11:36:45Z",
-      "license": "MIT",
-      "download_url": "https://github.com/sleepnow2/ArdRTOS"
+      "github_updated_at": "2025-12-02T11:36:45Z"
     },
     {
       "repository_name": "iotize-sas/Arduino-Tap",
@@ -87951,16 +87957,20 @@
       "repository_name": "ROBOTIS-GIT/Dynamixel2Arduino",
       "repository_url": "https://github.com/ROBOTIS-GIT/Dynamixel2Arduino",
       "name": "Dynamixel2Arduino",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "version_history": [
         {
           "version": "0.8.1",
           "seen_at": "2026-06-16T09:28:23Z"
+        },
+        {
+          "version": "0.8.2",
+          "seen_at": "2026-10-01T02:15:30.527Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-16T09:28:23Z",
-      "last_seen_sha": "f185c913f34b",
+      "last_seen_sha": "23dc989c36db",
       "author": "ROBOTIS",
       "maintainer": "Sookyung Son(sukaa@robotis.com)",
       "sentence": "DYNAMIXEL protocol Library for Arduino",
@@ -87969,12 +87979,14 @@
       "architectures": [
         "*"
       ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ROBOTIS-GIT/Dynamixel2Arduino-0.8.2.zip",
+      "size": 151573,
+      "previous_version": "0.8.1",
       "github_stars": 118,
       "github_forks": 64,
       "github_language": "C++",
-      "github_updated_at": "2026-06-15T10:10:25Z",
-      "license": "Apache-2.0",
-      "download_url": "https://github.com/ROBOTIS-GIT/dynamixel2arduino"
+      "github_updated_at": "2026-06-15T10:10:25Z"
     },
     {
       "repository_name": "ROBOTIS-GIT/DynamixelShield",
@@ -119734,7 +119746,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "0.0.22",
@@ -119783,11 +119795,15 @@
         {
           "version": "2.0.3",
           "seen_at": "2026-09-29T06:04:28.816Z"
+        },
+        {
+          "version": "2.0.4",
+          "seen_at": "2026-10-01T02:15:30.527Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "ca0735b24110",
+      "last_seen_sha": "da78e8856048",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -119808,9 +119824,9 @@
         "TinyGPSPlus",
         "ModbusMaster"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.3.zip",
-      "size": 953781,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.4.zip",
+      "size": 944783,
+      "previous_version": "2.0.3",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -171513,7 +171529,7 @@
       "repository_name": "okalachev/mavlink-arduino",
       "repository_url": "https://github.com/okalachev/mavlink-arduino",
       "name": "MAVLink",
-      "version": "2.0.33",
+      "version": "2.0.34",
       "version_history": [
         {
           "version": "2.0.30",
@@ -171530,11 +171546,15 @@
         {
           "version": "2.0.33",
           "seen_at": "2026-08-27T11:17:33.135Z"
+        },
+        {
+          "version": "2.0.34",
+          "seen_at": "2026-10-01T02:15:30.527Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-01T09:12:24Z",
-      "last_seen_sha": "6528db7f366d",
+      "last_seen_sha": "3d252b2830d9",
       "author": "Oleg Kalachev <okalachev@gmail.com",
       "maintainer": "Oleg Kalachev <okalachev@gmail.com>",
       "sentence": "MAVLink v2 for Arduino.",
@@ -171543,9 +171563,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.33.zip",
-      "size": 1734922,
-      "previous_version": "2.0.32",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.34.zip",
+      "size": 1763055,
+      "previous_version": "2.0.33",
       "github_stars": 54,
       "github_forks": 13,
       "github_language": "C",
@@ -205555,7 +205575,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.20",
+      "version": "0.0.21",
       "version_history": [
         {
           "version": "0.0.2",
@@ -205596,11 +205616,15 @@
         {
           "version": "0.0.20",
           "seen_at": "2026-10-01T00:08:14.089Z"
+        },
+        {
+          "version": "0.0.21",
+          "seen_at": "2026-10-01T02:15:30.527Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "3421516d66fe",
+      "last_seen_sha": "6b62dcc640eb",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -205609,9 +205633,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.20.zip",
-      "size": 348290,
-      "previous_version": "0.0.19",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.21.zip",
+      "size": 350290,
+      "previous_version": "0.0.20",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

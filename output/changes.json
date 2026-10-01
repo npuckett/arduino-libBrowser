@@ -1,6 +1,265 @@
 {
-  "since": "2026-10-01T11:02:30.957Z",
+  "since": "2026-10-01T12:04:40.082Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "AJArnovitz/ArnoTek_HeartBeat",
+        "repository_url": "https://github.com/AJArnovitz/ArnoTek_HeartBeat",
+        "name": "ArnoTek_HeartBeat",
+        "version": "1.0.4",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-14T18:03:01.072Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-15T16:02:48.133Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-09-15T18:02:55.452Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-14T18:03:01.072Z",
+        "last_seen_sha": "d0b0210d0e99",
+        "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
+        "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
+        "sentence": "Heartbeat utility for Arduino",
+        "paragraph": "This utility toggles Arduino pins and/or calls user defined functions at specific time intervals.",
+        "category": "Timing",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_HeartBeat-1.0.4.zip",
+        "size": 270666,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-14T13:30:02Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.0.4"
+    },
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.24",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          }
+        ],
+        "release_count": 14,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "bc521a6c99cb",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.24.zip",
+        "size": 501069,
+        "previous_version": "0.0.23",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.23",
+      "new_version": "0.0.24"
+    },
+    {
+      "library": {
+        "repository_name": "sparkfun/SparkFun_u-blox_GNSS_v4",
+        "repository_url": "https://github.com/sparkfun/SparkFun_u-blox_GNSS_v4",
+        "name": "SparkFun u-blox GNSS v4",
+        "version": "4.1.1",
+        "version_history": [
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-09-23T14:02:52.237Z"
+          },
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "4.1.1",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-23T14:02:52.237Z",
+        "last_seen_sha": "24f7f0b61778",
+        "author": "SparkFun Electronics <techsupport@sparkfun.com>",
+        "maintainer": "SparkFun Electronics <sparkfun.com>",
+        "sentence": "Library for I2C, Serial and SPI Communication with u-blox GNSS modules<br/><br/>",
+        "paragraph": "An Arduino Library to support the latest u-blox GNSS modules, using both NMEA and UBX protocols over I2C, Serial and SPI.<br/><br/>Useful for interfacing to the <a href=\"https://www.sparkfun.com/sparkfun-allband-gnss-rtk-breakout-zed-x20p-qwiic.html\">SparkFun Allband GNSS RTK Breakout - ZED-X20P (GPS-28871)</a>.<br/>",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_u_blox_GNSS_v4-4.1.1.zip",
+        "size": 729281,
+        "previous_version": "4.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-23T11:11:04Z"
+      },
+      "old_version": "4.1.0",
+      "new_version": "4.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/MX25R6435F",
+        "repository_url": "https://github.com/stm32duino/MX25R6435F",
+        "name": "STM32duino MX25R6435F",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2025-07-21T16:31:59Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:31:59Z",
+        "last_seen_sha": "c29203252c29",
+        "author": "stm32duino",
+        "maintainer": "stm32duino",
+        "sentence": "Quad-SPI NOR Flash memory library.",
+        "paragraph": "This library provides Arduino support for the 64-Mbit Quad-SPI NOR Flash memory MX25R6435F connected to the Quad-SPI or Octo-SPI interfaces of a STM32 board.",
+        "category": "Data Storage",
+        "architectures": [
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_MX25R6435F-2.0.1.zip",
+        "size": 19743,
+        "previous_version": "2.0.0",
+        "github_stars": 12,
+        "github_forks": 10,
+        "github_language": "C",
+        "github_updated_at": "2025-09-07T08:47:46Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "Tunglam0605/TungLam-OmniMecanum-4WD",
+        "repository_url": "https://github.com/Tunglam0605/TungLam-OmniMecanum-4WD",
+        "name": "TungLam_OmniMecanum_4WD",
+        "version": "0.10.0",
+        "version_history": [
+          {
+            "version": "0.8.2",
+            "seen_at": "2026-09-30T14:03:10.568Z"
+          },
+          {
+            "version": "0.9.2",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.10.0",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-30T14:03:10.568Z",
+        "last_seen_sha": "68ba769f1bf9",
+        "author": "Nguyen Khac Tung Lam",
+        "maintainer": "Nguyen Khac Tung Lam <183681608+Tunglam0605@users.noreply.github.com>",
+        "sentence": "Arduino Mega 4WD Mecanum/Omni control with hardware PWM, SI kinematics, and legacy V5 compatibility.",
+        "paragraph": "Provides normalized and SI-unit body velocity control, cached Mecanum/Omni kinematics, smart command watchdog, velocity smoothing, saturation telemetry, open-loop RPM-to-PWM feed-forward, hardware PWM/ABS, motor inversion, and drop-in legacy V5 compatibility.",
+        "category": "Device Control",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_OmniMecanum_4WD-0.10.0.zip",
+        "size": 126341,
+        "previous_version": "0.9.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-30T12:35:50Z"
+      },
+      "old_version": "0.9.2",
+      "new_version": "0.10.0"
+    }
+  ],
   "removed_libraries": []
 }

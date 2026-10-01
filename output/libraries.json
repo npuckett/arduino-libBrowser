@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-01T05:02:45.141Z",
-  "total_libraries": 10048,
-  "index_etag": "W/\"2aa2229788d214d75df74ce2f8694558\"",
-  "index_last_modified": "Thu, 01 Oct 2026 04:59:12 GMT",
+  "enhanced_at": "2026-10-01T06:04:32.024Z",
+  "total_libraries": 10049,
+  "index_etag": "W/\"5d31cdbf63ea3ef6bc7ea75b797c80c7\"",
+  "index_last_modified": "Thu, 01 Oct 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -23614,7 +23614,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.187",
+      "version": "1.2.188",
       "version_history": [
         {
           "version": "1.2.18",
@@ -24063,11 +24063,15 @@
         {
           "version": "1.2.187",
           "seen_at": "2026-09-29T14:02:33.451Z"
+        },
+        {
+          "version": "1.2.188",
+          "seen_at": "2026-10-01T06:04:30.518Z"
         }
       ],
-      "release_count": 112,
+      "release_count": 113,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "0ac209c884f4",
+      "last_seen_sha": "13361aedc626",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -24088,9 +24092,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.187.zip",
-      "size": 44614109,
-      "previous_version": "1.2.185",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.188.zip",
+      "size": 44615547,
+      "previous_version": "1.2.187",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -57273,6 +57277,39 @@
       "github_updated_at": "2026-06-27T18:45:57Z",
       "download_url": "https://github.com/alkonosst/BytePack/",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "BYU-I-eBadge/byui-ebadge-arduino",
+      "repository_url": "https://github.com/BYU-I-eBadge/byui-ebadge-arduino",
+      "name": "BYUI EBadge",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-01T06:04:30.518Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-01T06:04:30.518Z",
+      "last_seen_sha": "e12eb4009d37",
+      "author": "BYU-Idaho",
+      "maintainer": "BYU-Idaho E-Badge Team <CSE_Leadership_Team@webmailbyui.onmicrosoft.com>",
+      "sentence": "Beginner-friendly LCD console support for the BYU-Idaho E-Badge.",
+      "paragraph": "Provides automatic ST7789 LCD setup, console wrapping and scrolling, tab handling, global printf LCD output, and scanf input from the Serial Monitor for ESP32-S3 E-Badge sketches.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit ST7735 and ST7789 Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BYU-I-eBadge/BYUI_EBadge-1.0.0.zip",
+      "size": 10801,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-30T23:43:11Z"
     },
     {
       "repository_name": "SimonVonSchmude/Cabluino",
@@ -136964,7 +137001,7 @@
       "repository_name": "TexhFexLabs/HydroNode-Library",
       "repository_url": "https://github.com/TexhFexLabs/HydroNode-Library",
       "name": "HydroNode-Library",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -136985,18 +137022,23 @@
         {
           "version": "1.3.0",
           "seen_at": "2026-09-28T14:03:00.918Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-10-01T06:04:30.518Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-01-02T21:37:12Z",
-      "last_seen_sha": "1363468c9ce2",
+      "last_seen_sha": "ec06599202bc",
       "author": "Felix Knoll",
-      "maintainer": "Felix Knoll <contact@knollfelix.de>",
+      "maintainer": "Felix Knoll <contact@hydronode.tech>",
       "sentence": "Send sensor data and receive backend events for HydroNode projects.",
-      "paragraph": "Easy API client for HydroNode sensors and actuators, with event callback system, HMAC-SHA256 auth, TLS with bundled root CAs, NTP time sync and optional WiFi helper. ESP32 only.",
+      "paragraph": "Easy API client for HydroNode sensors and actuators, with event callback system, HMAC-SHA256 auth, TLS with bundled root CAs, NTP time sync and optional WiFi helper. ESP32 and ESP8266.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "esp8266"
       ],
       "license": "MIT",
       "depends": [
@@ -137005,9 +137047,9 @@
         "NTPClient",
         "WiFiManager"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.3.0.zip",
-      "size": 30893,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.4.0.zip",
+      "size": 31265,
+      "previous_version": "1.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -325586,7 +325628,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9844,
-    "total_dependencies": 5489
+    "with_github_metadata": 9845,
+    "total_dependencies": 5491
   }
 }

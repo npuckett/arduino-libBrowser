@@ -1,50 +1,6 @@
 {
-  "since": "2026-10-01T04:04:31.457Z",
+  "since": "2026-10-01T05:02:45.001Z",
   "new_libraries": [],
-  "updated_libraries": [
-    {
-      "library": {
-        "repository_name": "fruit-vale/FruitVale-Arduino",
-        "repository_url": "https://github.com/fruit-vale/FruitVale-Arduino",
-        "name": "FruitVale",
-        "version": "1.0.1",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-09-29T14:02:33.451Z"
-          },
-          {
-            "version": "1.0.1",
-            "seen_at": "2026-10-01T04:04:31.457Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-09-29T14:02:33.451Z",
-        "last_seen_sha": "a8efd738e790",
-        "author": "jvxtor <joaovictortwrp@gmail.com>",
-        "maintainer": "jvxtor <joaovictortwrp@gmail.com>",
-        "sentence": "Conecta placas ESP32 à plataforma agrícola FruitVale (Wi-Fi, MQTT com TLS e portal de configuração).",
-        "paragraph": "Cuida do Wi-Fi, do relógio (NTP), da conexão MQTT com TLS validado e do formato das leituras; o sketch só lê o sensor e chama valor() e enviar(). Inclui portal de configuração pelo celular para Wi-Fi e credenciais do sensor, salvos na flash.",
-        "category": "Communication",
-        "architectures": [
-          "esp32"
-        ],
-        "license": "MIT",
-        "depends": [
-          "PubSubClient",
-          "ArduinoJson"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/fruit-vale/FruitVale-1.0.1.zip",
-        "size": 22957,
-        "previous_version": "1.0.0",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-09-29T10:17:51Z"
-      },
-      "old_version": "1.0.0",
-      "new_version": "1.0.1"
-    }
-  ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

@@ -1,6 +1,36 @@
 {
-  "since": "2026-10-01T21:02:32.194Z",
-  "new_libraries": [],
+  "since": "2026-10-01T22:02:42.478Z",
+  "new_libraries": [
+    {
+      "repository_name": "industrialpioneer/HX711_Vidimus",
+      "repository_url": "https://github.com/industrialpioneer/HX711_Vidimus",
+      "name": "HX711_Vidimus",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-01T22:02:42.478Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-01T22:02:42.478Z",
+      "last_seen_sha": "03ab98be07a5",
+      "author": "industrialpioneer",
+      "maintainer": "industrialpioneer <bajorjoci@gmail.com>",
+      "sentence": "Independent boot-time hardware and load cell integrity verifier for HX711.",
+      "paragraph": "A library-agnostic, zero-dependency guard function that executes during setup to validate HX711 module responsiveness and diagnose load cell wire breakage or floating inputs using standard deviation (delta tracking) before the main scale library initializes. Perfect for robust industrial applications.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/industrialpioneer/HX711_Vidimus-1.0.0.zip",
+      "size": 7199,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-01T19:14:45Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

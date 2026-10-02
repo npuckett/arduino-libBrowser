@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-02T19:02:23.309Z",
+  "enhanced_at": "2026-10-02T20:02:39.302Z",
   "total_libraries": 10059,
-  "index_etag": "W/\"06e7bca7ec5a3d016c47b00ea824d92b\"",
-  "index_last_modified": "Fri, 02 Oct 2026 18:59:12 GMT",
+  "index_etag": "W/\"b07c0b6769931338de5c2361cd1203c0\"",
+  "index_last_modified": "Fri, 02 Oct 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -52002,7 +52002,7 @@
       "repository_name": "remocons/boho-arduino",
       "repository_url": "https://github.com/remocons/boho-arduino",
       "name": "Boho",
-      "version": "0.8.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.7.0",
@@ -52011,11 +52011,15 @@
         {
           "version": "0.8.0",
           "seen_at": "2026-09-26T18:02:56.971Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-02T20:02:39.164Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-12-12T07:32:25Z",
-      "last_seen_sha": "a0889efe52ca",
+      "last_seen_sha": "2bd62c0f6bc6",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "Data encryption and client-server authentication for Arduino.",
@@ -52027,9 +52031,9 @@
       "depends": [
         "Crypto"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Boho-0.8.0.zip",
-      "size": 12797,
-      "previous_version": "0.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Boho-1.0.0.zip",
+      "size": 24208,
+      "previous_version": "0.8.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -143573,7 +143577,7 @@
       "repository_name": "remocons/iosignal-arduino",
       "repository_url": "https://github.com/remocons/iosignal-arduino",
       "name": "IOSignal",
-      "version": "5.1.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -143582,11 +143586,15 @@
         {
           "version": "5.1.0",
           "seen_at": "2026-09-26T20:02:18.227Z"
+        },
+        {
+          "version": "6.0.0",
+          "seen_at": "2026-10-02T20:02:39.164Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-12-12T07:32:27Z",
-      "last_seen_sha": "84bc9d56346b",
+      "last_seen_sha": "47956280e4a4",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino Client.",
@@ -143600,9 +143608,9 @@
         "Crypto",
         "Bounce2"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-5.1.0.zip",
-      "size": 35750,
-      "previous_version": "5.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-6.0.0.zip",
+      "size": 36171,
+      "previous_version": "5.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -227805,7 +227813,7 @@
       "repository_name": "pxsty0/pxserv.arduino",
       "repository_url": "https://github.com/pxsty0/pxserv.arduino",
       "name": "PxServ",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.1.1",
@@ -227822,11 +227830,15 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-08-26T14:13:38.984Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-10-02T20:02:39.164Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-07-21T16:25:43Z",
-      "last_seen_sha": "8fbec5d4dcef",
+      "last_seen_sha": "e87aa7523935",
       "author": "mustafa_kok",
       "maintainer": "PxServ",
       "sentence": "PxServ Library for ESP32 / ESP8266",
@@ -227838,9 +227850,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pxsty0/PxServ-1.3.1.zip",
-      "size": 7628,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pxsty0/PxServ-1.4.0.zip",
+      "size": 7727,
+      "previous_version": "1.3.1",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
@@ -304428,7 +304440,7 @@
       "repository_name": "KravitzLabDevices/TumbleFeeder",
       "repository_url": "https://github.com/KravitzLabDevices/TumbleFeeder",
       "name": "TumbleFeeder",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "version_history": [
         {
           "version": "2.2.0",
@@ -304441,11 +304453,15 @@
         {
           "version": "2.3.1",
           "seen_at": "2026-09-22T20:02:19.381Z"
+        },
+        {
+          "version": "2.3.2",
+          "seen_at": "2026-10-02T20:02:39.164Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-06T08:32:13Z",
-      "last_seen_sha": "97f84b7633e6",
+      "last_seen_sha": "c7a9093f6d45",
       "author": "Mason Barrett, Kravitz Lab",
       "maintainer": "Mason Barrett, Kravitz Lab",
       "sentence": "Complete servo-based pellet feeder system for behavioral neuroscience",
@@ -304461,9 +304477,9 @@
         "Adafruit GFX Library",
         "Adafruit SHARP Memory Display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/KravitzLabDevices/TumbleFeeder-2.3.1.zip",
-      "size": 1857675,
-      "previous_version": "2.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KravitzLabDevices/TumbleFeeder-2.3.2.zip",
+      "size": 1857665,
+      "previous_version": "2.3.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

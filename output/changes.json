@@ -1,6 +1,79 @@
 {
-  "since": "2026-10-02T15:02:41.171Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-02T16:03:04.763Z",
+  "new_libraries": [
+    {
+      "repository_name": "Matth-M/EM4095-Arduino",
+      "repository_url": "https://github.com/Matth-M/EM4095-Arduino",
+      "name": "EM4095Reader",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-02T16:03:04.763Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-02T16:03:04.763Z",
+      "last_seen_sha": "deb17ea2453a",
+      "author": "Matthieu Matsima <matthieu.matsima@gmail.com>",
+      "maintainer": "Matthieu Matsima <matthieu.matsima@gmail.com>",
+      "sentence": "Driver for the EM4095 to read RFID tags using FDX-B protocol",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Matth-M/EM4095Reader-0.1.0.zip",
+      "size": 21095,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-02T13:02:02Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "abcdaaaaaaaaa/MQSpaceData.h",
+        "repository_url": "https://github.com/abcdaaaaaaaaa/MQSpaceData.h",
+        "name": "MQSpaceData",
+        "version": "7.0.0",
+        "version_history": [
+          {
+            "version": "5.5.7",
+            "seen_at": "2026-06-29T08:42:00Z"
+          },
+          {
+            "version": "6.0.0",
+            "seen_at": "2026-08-06T23:59:11.596Z"
+          },
+          {
+            "version": "7.0.0",
+            "seen_at": "2026-10-02T16:03:04.763Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T08:42:00Z",
+        "last_seen_sha": "0d31f425b3b8",
+        "author": "abcdaaaaaaaaa",
+        "maintainer": "abcdaaaaaaaaa <amertanik@icloud.com>",
+        "sentence": "The first and only Arduino library where MQ Sensors combine with Data Science",
+        "paragraph": "This library supports a wide range of MQ gas sensors (MQ-2, MQ-3, MQ-4, MQ-5, MQ-6, MQ-7, MQ-8, MQ-9, MQ131, MQ-131_LOW, MQ-135, MQ-136, MQ-137, MQ-138, MQ-214, MQ-216, MQ303A, MQ303B, MQ306A, MQ307A, MQ309A). Instead of sensor-specific calibration, it uses gas-specific reference calibrations, enabling more accurate ppm calculations. Key features include temperature and humidity compensation using a correction coefficient model; calibration and analysis support for unsupported MQ models; enhanced JavaScript-based tools for hardware-free testing and computation; 3D ppm concentration graph simulation; and a Python-based 4D ppm curve prediction platform featuring 76 different models for advanced data analysis, ranging from classical regression methods, multivariable regression models, curve fitting and spline-based approaches, time series analysis, state-space and Kalman filtering methods, to machine learning algorithms, ensemble learning methods and artificial neural networks.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/abcdaaaaaaaaa/MQSpaceData-7.0.0.zip",
+        "size": 4190918,
+        "previous_version": "6.0.0",
+        "github_stars": 11,
+        "github_forks": 4,
+        "github_language": "Python",
+        "github_updated_at": "2026-08-06T16:25:24Z"
+      },
+      "old_version": "6.0.0",
+      "new_version": "7.0.0"
+    }
+  ],
   "removed_libraries": []
 }

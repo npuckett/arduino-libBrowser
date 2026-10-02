@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-02T01:21:14.899Z",
+  "enhanced_at": "2026-10-02T02:10:00.063Z",
   "total_libraries": 10056,
-  "index_etag": "W/\"cba718cfc18fc0634f1f31b12e29a665\"",
-  "index_last_modified": "Fri, 02 Oct 2026 00:59:12 GMT",
+  "index_etag": "W/\"015fa247f378e2c46c80bb309ffae8ef\"",
+  "index_last_modified": "Fri, 02 Oct 2026 01:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -205861,7 +205861,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.26",
+      "version": "0.0.27",
       "version_history": [
         {
           "version": "0.0.2",
@@ -205926,11 +205926,15 @@
         {
           "version": "0.0.26",
           "seen_at": "2026-10-01T16:02:59.448Z"
+        },
+        {
+          "version": "0.0.27",
+          "seen_at": "2026-10-02T02:09:59.934Z"
         }
       ],
-      "release_count": 16,
+      "release_count": 17,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "d7c16da43996",
+      "last_seen_sha": "5e8ed4ed5b7f",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -205939,9 +205943,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.26.zip",
-      "size": 502489,
-      "previous_version": "0.0.25",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.27.zip",
+      "size": 506353,
+      "previous_version": "0.0.26",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -291146,7 +291150,7 @@
       "repository_name": "pipe1391/TecnovaIoT",
       "repository_url": "https://github.com/pipe1391/TecnovaIoT",
       "name": "TecnovaIoT",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -291171,15 +291175,19 @@
         {
           "version": "1.4.0",
           "seen_at": "2026-09-25T20:02:35.810Z"
+        },
+        {
+          "version": "1.5.0",
+          "seen_at": "2026-10-02T02:09:59.934Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "449f8b496382",
+      "last_seen_sha": "e764b5ebab5e",
       "author": "Tecnova",
       "maintainer": "Tecnova <https://github.com/pipe1391/TecnovaIoT/issues>",
       "sentence": "Conecta un ESP32 a la plataforma IoT Tecnova por MQTT sobre WebSocket seguro (WSS).",
-      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker, la reconexion automatica ante cortes, y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Los comandos del panel llegan a onCommand() con su tipo JSON: booleano para interruptores y botones, numero para deslizadores. Incluye manejo de consumo para proyectos a bateria: deepSleepSeconds() para sensores que solo publican, y enablePowerSave() para actuadores o dispositivos mixtos, que tienen que seguir alcanzables. Incluye tambien un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo.",
+      "paragraph": "Maneja WiFi, la obtencion de credenciales via el webhook del dispositivo, la validacion TLS del broker y del webhook, la reconexion automatica del MQTT (ante un corte de WiFi reinicia el ESP32, salvo con setAutoRestart(false)), y el mapeo de variables del panel por nombre -- publicar un sensor o reaccionar a un comando queda reducido a un par de llamadas (setValue/onCommand), sin tocar MQTT ni certificados a mano. Los comandos del panel llegan a onCommand() con su tipo JSON: booleano para interruptores y botones, numero para deslizadores. Incluye manejo de consumo para proyectos a bateria: deepSleepSeconds() para sensores que solo publican, y enablePowerSave() para actuadores o dispositivos mixtos, que tienen que seguir alcanzables. Incluye tambien un modulo opcional (TecnovaProvisioning) para cargar las credenciales desde un portal cautivo en vez de escribirlas en el codigo. Incluye un modo sin reinicios (setAutoRestart(false)) para equipos con pantalla.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -291188,9 +291196,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.4.0.zip",
-      "size": 60417,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pipe1391/TecnovaIoT-1.5.0.zip",
+      "size": 88122,
+      "previous_version": "1.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

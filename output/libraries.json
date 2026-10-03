@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-03T13:27:33.799Z",
-  "total_libraries": 10062,
-  "index_etag": "W/\"24fa506cf251809e44a469af5833537a\"",
-  "index_last_modified": "Sat, 03 Oct 2026 12:59:12 GMT",
+  "enhanced_at": "2026-10-03T14:48:44.713Z",
+  "total_libraries": 10063,
+  "index_etag": "W/\"19bab2d82ea17e52514d2642cdc0b76c\"",
+  "index_last_modified": "Sat, 03 Oct 2026 14:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -5836,6 +5836,38 @@
       "github_language": "C++",
       "github_updated_at": "2026-01-05T13:40:27Z",
       "download_url": "https://github.com/RobTillaart/AD568X"
+    },
+    {
+      "repository_name": "srirangaraj-b/AD569X",
+      "repository_url": "https://github.com/srirangaraj-b/AD569X",
+      "name": "AD569x",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-03T14:48:43.251Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-03T14:48:43.251Z",
+      "last_seen_sha": "0b0f77a03736",
+      "author": "Sri Ranga Raj B",
+      "maintainer": "Sri Ranga Raj B <sreerangaraj387@gmail.com>",
+      "sentence": "Professional, extensible Arduino library for the Analog Devices AD569x nanoDAC+ family (AD5691 to AD5696).",
+      "paragraph": "Supports 1, 2, and 4-channel 12-bit, 14-bit, and 16-bit I2C DACs with robust error handling, flexible voltage/code scaling, gain configuration, and power-down management.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Wire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/srirangaraj-b/AD569x-1.0.0.zip",
+      "size": 12111,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-03T11:21:45Z"
     },
     {
       "repository_name": "RobTillaart/AD56X8",
@@ -23618,7 +23650,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.188",
+      "version": "1.2.189",
       "version_history": [
         {
           "version": "1.2.18",
@@ -24071,11 +24103,15 @@
         {
           "version": "1.2.188",
           "seen_at": "2026-10-01T06:04:30.518Z"
+        },
+        {
+          "version": "1.2.189",
+          "seen_at": "2026-10-03T14:48:43.251Z"
         }
       ],
-      "release_count": 113,
+      "release_count": 114,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "13361aedc626",
+      "last_seen_sha": "4ff93bf4e9f4",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -24096,9 +24132,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.188.zip",
-      "size": 44615547,
-      "previous_version": "1.2.187",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.189.zip",
+      "size": 44615476,
+      "previous_version": "1.2.188",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -118270,7 +118306,7 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.3.7",
+      "version": "0.3.9",
       "version_history": [
         {
           "version": "0.2.0",
@@ -118295,11 +118331,15 @@
         {
           "version": "0.3.7",
           "seen_at": "2026-09-27T16:02:46.454Z"
+        },
+        {
+          "version": "0.3.9",
+          "seen_at": "2026-10-03T14:48:43.251Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "769877fb01ec",
+      "last_seen_sha": "17a6f12f84f9",
       "author": "Flova",
       "maintainer": "Flova",
       "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
@@ -118309,9 +118349,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.7.zip",
-      "size": 204312,
-      "previous_version": "0.3.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.9.zip",
+      "size": 207162,
+      "previous_version": "0.3.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -326283,7 +326323,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9858,
-    "total_dependencies": 5498
+    "with_github_metadata": 9859,
+    "total_dependencies": 5499
   }
 }

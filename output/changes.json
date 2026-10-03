@@ -1,148 +1,596 @@
 {
-  "since": "2026-10-03T13:27:31.162Z",
+  "since": "2026-10-03T14:48:43.251Z",
   "new_libraries": [
     {
-      "repository_name": "nothinx/ArahMPU6050",
-      "repository_url": "https://github.com/nothinx/ArahMPU6050",
-      "name": "ArahMPU6050",
+      "repository_name": "srirangaraj-b/AD569X",
+      "repository_url": "https://github.com/srirangaraj-b/AD569X",
+      "name": "AD569x",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-03T13:27:31.162Z"
+          "seen_at": "2026-10-03T14:48:43.251Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-03T13:27:31.162Z",
-      "last_seen_sha": "41d1119244d8",
-      "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
-      "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
-      "sentence": "Pelacak arah hadap (heading) berbahasa Indonesia dari IMU MPU6050.",
-      "paragraph": "Arah 0-360 derajat, mata angin, selisih ke sudut tujuan, dan kemiringan. Sampling FIFO 100 Hz (tahan loop lambat), kompensasi kemiringan, dan koreksi bias gyro otomatis. Bekerja di AVR (Uno, Nano, Mega), ESP32, dan STM32 (Blackpill, Bluepill). Arah bersifat relatif karena MPU6050 tidak memiliki magnetometer.",
-      "category": "Sensors",
+      "first_seen_at": "2026-10-03T14:48:43.251Z",
+      "last_seen_sha": "0b0f77a03736",
+      "author": "Sri Ranga Raj B",
+      "maintainer": "Sri Ranga Raj B <sreerangaraj387@gmail.com>",
+      "sentence": "Professional, extensible Arduino library for the Analog Devices AD569x nanoDAC+ family (AD5691 to AD5696).",
+      "paragraph": "Supports 1, 2, and 4-channel 12-bit, 14-bit, and 16-bit I2C DACs with robust error handling, flexible voltage/code scaling, gain configuration, and power-down management.",
+      "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/ArahMPU6050-1.0.0.zip",
-      "size": 17790,
+      "depends": [
+        "Wire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/srirangaraj-b/AD569x-1.0.0.zip",
+      "size": 12111,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-03T08:43:25Z"
-    },
-    {
-      "repository_name": "vaibhav-rm/DS4Arduino",
-      "repository_url": "https://github.com/vaibhav-rm/DS4Arduino",
-      "name": "DS4Arduino",
-      "version": "0.1.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-10-03T13:27:31.162Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-03T13:27:31.162Z",
-      "last_seen_sha": "c6fb8ff6f0ce",
-      "author": "Vaibhav Rathod",
-      "maintainer": "Vaibhav <rathodvaibhav401@gmail.com>",
-      "sentence": "Native DualShock 4 Bluetooth Classic HID host for the original ESP32.",
-      "paragraph": "Connect a Sony DualShock 4 (CUH-ZCT1x, 054c:05c4) to an ESP32 over Bluetooth Classic and read sticks, buttons, triggers, D-pad, IMU, battery and touchpad from normal Arduino sketches. No PS4 console, USB dongle, or Bluepad32 dependency required.",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vaibhav-rm/DS4Arduino-0.1.0.zip",
-      "size": 198643,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-03T10:14:53Z"
+      "github_updated_at": "2026-10-03T11:21:45Z"
     }
   ],
   "updated_libraries": [
     {
       "library": {
-        "repository_name": "toggio/PacketLED",
-        "repository_url": "https://github.com/toggio/PacketLED",
-        "name": "PacketLED",
-        "version": "1.1.0",
+        "repository_name": "shorepine/amy",
+        "repository_url": "https://github.com/shorepine/amy",
+        "name": "AMY Synthesizer",
+        "version": "1.2.189",
         "version_history": [
           {
-            "version": "1.0.0",
-            "seen_at": "2026-09-24T18:03:10.453Z"
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T08:15:25Z"
           },
           {
-            "version": "1.0.1",
-            "seen_at": "2026-09-24T20:03:07.766Z"
+            "version": "1.2.18",
+            "seen_at": "2026-06-30T22:37:15.403Z"
           },
           {
-            "version": "1.0.2",
-            "seen_at": "2026-09-24T22:02:26.877Z"
+            "version": "1.2.19",
+            "seen_at": "2026-07-04T03:00:21.335Z"
           },
           {
-            "version": "1.1.0",
-            "seen_at": "2026-10-03T13:27:31.162Z"
+            "version": "1.2.20",
+            "seen_at": "2026-07-04T22:16:47.068Z"
+          },
+          {
+            "version": "1.2.21",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.2.22",
+            "seen_at": "2026-07-05T22:18:31.813Z"
+          },
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-07-06T03:01:13.701Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-06T05:23:41.765Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-07-06T15:01:44.583Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-07-06T20:35:33.750Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-07-06T22:25:28.794Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-07-07T00:25:21.648Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-07-07T18:37:39.940Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-07-08T02:59:42.960Z"
+          },
+          {
+            "version": "1.2.34",
+            "seen_at": "2026-07-08T14:46:36.932Z"
+          },
+          {
+            "version": "1.2.37",
+            "seen_at": "2026-07-08T16:30:07.517Z"
+          },
+          {
+            "version": "1.2.38",
+            "seen_at": "2026-07-08T18:26:59.258Z"
+          },
+          {
+            "version": "1.2.39",
+            "seen_at": "2026-07-08T22:19:43.030Z"
+          },
+          {
+            "version": "1.2.40",
+            "seen_at": "2026-07-09T20:31:56.980Z"
+          },
+          {
+            "version": "1.2.41",
+            "seen_at": "2026-07-09T22:28:36.356Z"
+          },
+          {
+            "version": "1.2.43",
+            "seen_at": "2026-07-10T00:24:44.575Z"
+          },
+          {
+            "version": "1.2.45",
+            "seen_at": "2026-07-10T20:28:52.973Z"
+          },
+          {
+            "version": "1.2.47",
+            "seen_at": "2026-07-10T22:20:06.185Z"
+          },
+          {
+            "version": "1.2.51",
+            "seen_at": "2026-07-11T02:59:28.551Z"
+          },
+          {
+            "version": "1.2.54",
+            "seen_at": "2026-07-11T22:14:50.581Z"
+          },
+          {
+            "version": "1.2.55",
+            "seen_at": "2026-07-12T04:16:52.503Z"
+          },
+          {
+            "version": "1.2.58",
+            "seen_at": "2026-07-12T20:14:14.574Z"
+          },
+          {
+            "version": "1.2.59",
+            "seen_at": "2026-07-15T04:05:33.653Z"
+          },
+          {
+            "version": "1.2.60",
+            "seen_at": "2026-07-15T20:20:27.721Z"
+          },
+          {
+            "version": "1.2.61",
+            "seen_at": "2026-07-15T22:18:19.950Z"
+          },
+          {
+            "version": "1.2.63",
+            "seen_at": "2026-07-16T02:59:38.417Z"
+          },
+          {
+            "version": "1.2.64",
+            "seen_at": "2026-07-16T14:37:55.858Z"
+          },
+          {
+            "version": "1.2.67",
+            "seen_at": "2026-07-16T18:22:06.189Z"
+          },
+          {
+            "version": "1.2.68",
+            "seen_at": "2026-07-17T20:17:53.607Z"
+          },
+          {
+            "version": "1.2.69",
+            "seen_at": "2026-07-18T02:59:02.965Z"
+          },
+          {
+            "version": "1.2.72",
+            "seen_at": "2026-07-18T04:04:01.107Z"
+          },
+          {
+            "version": "1.2.74",
+            "seen_at": "2026-07-18T16:16:38.206Z"
+          },
+          {
+            "version": "1.2.75",
+            "seen_at": "2026-07-18T22:14:46.760Z"
+          },
+          {
+            "version": "1.2.76",
+            "seen_at": "2026-07-19T00:19:26.433Z"
+          },
+          {
+            "version": "1.2.77",
+            "seen_at": "2026-07-19T04:14:05.638Z"
+          },
+          {
+            "version": "1.2.79",
+            "seen_at": "2026-07-19T18:15:30.629Z"
+          },
+          {
+            "version": "1.2.81",
+            "seen_at": "2026-07-20T00:21:03.509Z"
+          },
+          {
+            "version": "1.2.83",
+            "seen_at": "2026-07-20T14:42:47.256Z"
+          },
+          {
+            "version": "1.2.84",
+            "seen_at": "2026-07-20T16:28:30.674Z"
+          },
+          {
+            "version": "1.2.86",
+            "seen_at": "2026-07-20T22:18:17.107Z"
+          },
+          {
+            "version": "1.2.87",
+            "seen_at": "2026-07-21T18:25:16.117Z"
+          },
+          {
+            "version": "1.2.88",
+            "seen_at": "2026-07-24T02:59:21.347Z"
+          },
+          {
+            "version": "1.2.89",
+            "seen_at": "2026-07-24T04:07:35.750Z"
+          },
+          {
+            "version": "1.2.90",
+            "seen_at": "2026-07-24T14:32:04.454Z"
+          },
+          {
+            "version": "1.2.92",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "1.2.93",
+            "seen_at": "2026-07-25T02:59:15.449Z"
+          },
+          {
+            "version": "1.2.96",
+            "seen_at": "2026-07-26T18:18:14.714Z"
+          },
+          {
+            "version": "1.2.99",
+            "seen_at": "2026-07-27T16:40:54.893Z"
+          },
+          {
+            "version": "1.2.101",
+            "seen_at": "2026-07-27T18:28:44.735Z"
+          },
+          {
+            "version": "1.2.102",
+            "seen_at": "2026-07-27T20:28:19.495Z"
+          },
+          {
+            "version": "1.2.104",
+            "seen_at": "2026-07-28T00:19:34.417Z"
+          },
+          {
+            "version": "1.2.106",
+            "seen_at": "2026-07-29T02:59:33.159Z"
+          },
+          {
+            "version": "1.2.108",
+            "seen_at": "2026-07-29T16:28:04.217Z"
+          },
+          {
+            "version": "1.2.110",
+            "seen_at": "2026-08-01T22:16:48.472Z"
+          },
+          {
+            "version": "1.2.111",
+            "seen_at": "2026-08-02T05:59:14.397Z"
+          },
+          {
+            "version": "1.2.115",
+            "seen_at": "2026-08-02T16:18:26.451Z"
+          },
+          {
+            "version": "1.2.117",
+            "seen_at": "2026-08-02T22:16:34.537Z"
+          },
+          {
+            "version": "1.2.118",
+            "seen_at": "2026-08-03T00:21:37.921Z"
+          },
+          {
+            "version": "1.2.119",
+            "seen_at": "2026-08-03T14:58:49.725Z"
+          },
+          {
+            "version": "1.2.120",
+            "seen_at": "2026-08-03T18:32:04.501Z"
+          },
+          {
+            "version": "1.2.121",
+            "seen_at": "2026-08-04T02:59:22.399Z"
+          },
+          {
+            "version": "1.2.123",
+            "seen_at": "2026-08-07T18:14:01.614Z"
+          },
+          {
+            "version": "1.2.126",
+            "seen_at": "2026-08-08T10:07:17.549Z"
+          },
+          {
+            "version": "1.2.129",
+            "seen_at": "2026-08-09T00:07:42.976Z"
+          },
+          {
+            "version": "1.2.130",
+            "seen_at": "2026-08-09T10:08:59.980Z"
+          },
+          {
+            "version": "1.2.132",
+            "seen_at": "2026-08-10T10:26:44.481Z"
+          },
+          {
+            "version": "1.2.133",
+            "seen_at": "2026-08-10T12:12:57.774Z"
+          },
+          {
+            "version": "1.2.135",
+            "seen_at": "2026-08-10T22:11:00.687Z"
+          },
+          {
+            "version": "1.2.136",
+            "seen_at": "2026-08-11T00:09:17.950Z"
+          },
+          {
+            "version": "1.2.137",
+            "seen_at": "2026-08-12T10:21:28.759Z"
+          },
+          {
+            "version": "1.2.138",
+            "seen_at": "2026-08-12T22:13:18.388Z"
+          },
+          {
+            "version": "1.2.141",
+            "seen_at": "2026-08-13T00:13:36.907Z"
+          },
+          {
+            "version": "1.2.142",
+            "seen_at": "2026-08-13T10:22:17.995Z"
+          },
+          {
+            "version": "1.2.143",
+            "seen_at": "2026-08-14T00:13:53.608Z"
+          },
+          {
+            "version": "1.2.144",
+            "seen_at": "2026-08-14T10:19:48.209Z"
+          },
+          {
+            "version": "1.2.145",
+            "seen_at": "2026-08-14T12:12:54.999Z"
+          },
+          {
+            "version": "1.2.148",
+            "seen_at": "2026-08-17T00:04:24.103Z"
+          },
+          {
+            "version": "1.2.150",
+            "seen_at": "2026-08-17T02:25:02.433Z"
+          },
+          {
+            "version": "1.2.151",
+            "seen_at": "2026-08-19T04:11:51.866Z"
+          },
+          {
+            "version": "1.2.152",
+            "seen_at": "2026-08-19T14:10:10.648Z"
+          },
+          {
+            "version": "1.2.153",
+            "seen_at": "2026-08-19T22:04:17.401Z"
+          },
+          {
+            "version": "1.2.154",
+            "seen_at": "2026-08-20T04:12:09.635Z"
+          },
+          {
+            "version": "1.2.155",
+            "seen_at": "2026-08-21T02:27:02.881Z"
+          },
+          {
+            "version": "1.2.157",
+            "seen_at": "2026-08-21T16:06:14.236Z"
+          },
+          {
+            "version": "1.2.158",
+            "seen_at": "2026-08-25T02:23:51.532Z"
+          },
+          {
+            "version": "1.2.159",
+            "seen_at": "2026-08-26T04:12:41.856Z"
+          },
+          {
+            "version": "1.2.160",
+            "seen_at": "2026-08-27T02:31:05.031Z"
+          },
+          {
+            "version": "1.2.162",
+            "seen_at": "2026-08-29T20:02:12.993Z"
+          },
+          {
+            "version": "1.2.163",
+            "seen_at": "2026-08-31T04:03:26.874Z"
+          },
+          {
+            "version": "1.2.164",
+            "seen_at": "2026-09-08T02:03:47.769Z"
+          },
+          {
+            "version": "1.2.165",
+            "seen_at": "2026-09-09T02:03:40.462Z"
+          },
+          {
+            "version": "1.2.166",
+            "seen_at": "2026-09-10T02:03:47.563Z"
+          },
+          {
+            "version": "1.2.167",
+            "seen_at": "2026-09-13T18:02:37.095Z"
+          },
+          {
+            "version": "1.2.168",
+            "seen_at": "2026-09-16T02:03:39.000Z"
+          },
+          {
+            "version": "1.2.171",
+            "seen_at": "2026-09-16T04:02:52.896Z"
+          },
+          {
+            "version": "1.2.172",
+            "seen_at": "2026-09-21T14:03:04.055Z"
+          },
+          {
+            "version": "1.2.173",
+            "seen_at": "2026-09-22T14:02:54.266Z"
+          },
+          {
+            "version": "1.2.174",
+            "seen_at": "2026-09-22T16:03:05.841Z"
+          },
+          {
+            "version": "1.2.176",
+            "seen_at": "2026-09-23T00:06:45.817Z"
+          },
+          {
+            "version": "1.2.178",
+            "seen_at": "2026-09-24T14:03:09.186Z"
+          },
+          {
+            "version": "1.2.179",
+            "seen_at": "2026-09-25T14:03:08.490Z"
+          },
+          {
+            "version": "1.2.180",
+            "seen_at": "2026-09-25T20:02:35.810Z"
+          },
+          {
+            "version": "1.2.182",
+            "seen_at": "2026-09-28T04:04:00.552Z"
+          },
+          {
+            "version": "1.2.183",
+            "seen_at": "2026-09-28T18:03:57.674Z"
+          },
+          {
+            "version": "1.2.184",
+            "seen_at": "2026-09-29T00:07:41.225Z"
+          },
+          {
+            "version": "1.2.185",
+            "seen_at": "2026-09-29T02:08:05.021Z"
+          },
+          {
+            "version": "1.2.187",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "1.2.188",
+            "seen_at": "2026-10-01T06:04:30.518Z"
+          },
+          {
+            "version": "1.2.189",
+            "seen_at": "2026-10-03T14:48:43.251Z"
           }
         ],
-        "release_count": 4,
-        "first_seen_at": "2026-09-24T18:03:10.453Z",
-        "last_seen_sha": "e6e81c836d6f",
-        "author": "Luca Soltoggio",
-        "maintainer": "Luca Soltoggio",
-        "sentence": "Packet communication over bidirectional LEDs, inspired by Packet Radio.",
-        "paragraph": "PacketLED lets two boards exchange data through a pair of ordinary LEDs placed face to face. There is no photodiode: each LED emits light to transmit, and is used as a light sensor to receive. One LED and one resistor per board are all you need. Tested up to 2.5 m at 1024 bit/s with clear, narrow-beam LEDs.",
-        "category": "Communication",
+        "release_count": 114,
+        "first_seen_at": "2026-06-30T08:15:25Z",
+        "last_seen_sha": "4ff93bf4e9f4",
+        "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
+        "maintainer": "Brian Whitman <brian@variogram.com>",
+        "sentence": "AMY, the Music Synthesizer Library",
+        "paragraph": "AMY supports many types of oscillators, filters, envelopes, analog, FM, PCM, Karplus-strong, reverb, chorus, echo",
+        "category": "Signal Input/Output",
         "architectures": [
-          "esp32"
+          "esp32",
+          "stm32",
+          "rp2040",
+          "mbed_rp2040",
+          "rp2350",
+          "mbed_rp2350",
+          "teensy",
+          "STM32F1",
+          "STM32F4",
+          "STM32H7",
+          "nrf52",
+          "samd",
+          "avr"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/toggio/PacketLED-1.1.0.zip",
-        "size": 60316,
-        "previous_version": "1.0.2",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-09-24T14:44:29Z"
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.189.zip",
+        "size": 44615476,
+        "previous_version": "1.2.188",
+        "github_stars": 652,
+        "github_forks": 49,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T21:59:06Z"
       },
-      "old_version": "1.0.2",
-      "new_version": "1.1.0"
+      "old_version": "1.2.188",
+      "new_version": "1.2.189"
     },
     {
       "library": {
-        "repository_name": "ve-cto/SwitchMatrixLib",
-        "repository_url": "https://github.com/ve-cto/SwitchMatrixLib",
-        "name": "SwitchMatrixLib",
-        "version": "1.0.2",
+        "repository_name": "flova-platform/flova-firmware",
+        "repository_url": "https://github.com/flova-platform/flova-firmware",
+        "name": "FlovaSDK",
+        "version": "0.3.9",
         "version_history": [
           {
-            "version": "1.0.1",
-            "seen_at": "2026-10-03T10:02:35.109Z"
+            "version": "0.2.0",
+            "seen_at": "2026-09-05T22:02:05.225Z"
           },
           {
-            "version": "1.0.2",
-            "seen_at": "2026-10-03T13:27:31.162Z"
+            "version": "0.3.1",
+            "seen_at": "2026-09-12T12:03:14.232Z"
+          },
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-09-12T14:02:11.454Z"
+          },
+          {
+            "version": "0.3.4",
+            "seen_at": "2026-09-12T20:02:25.988Z"
+          },
+          {
+            "version": "0.3.5",
+            "seen_at": "2026-09-14T12:04:01.232Z"
+          },
+          {
+            "version": "0.3.7",
+            "seen_at": "2026-09-27T16:02:46.454Z"
+          },
+          {
+            "version": "0.3.9",
+            "seen_at": "2026-10-03T14:48:43.251Z"
           }
         ],
-        "release_count": 2,
-        "first_seen_at": "2026-10-03T10:02:35.109Z",
-        "last_seen_sha": "29eae14e7c26",
-        "author": "ve-cto <arkusarkus135@gmail.com>",
-        "maintainer": "ve-cto <arkusarkus135@gmail.com>",
-        "sentence": "Library for interfacing with button/switch diode matrices.",
-        "category": "Signal Input/Output",
+        "release_count": 7,
+        "first_seen_at": "2026-09-05T22:02:05.225Z",
+        "last_seen_sha": "17a6f12f84f9",
+        "author": "Flova",
+        "maintainer": "Flova",
+        "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
+        "paragraph": "Provides provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services for ESP32 and ESP8266.",
+        "category": "Communication",
         "architectures": [
-          "*"
+          "esp32",
+          "esp8266"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/ve-cto/SwitchMatrixLib-1.0.2.zip",
-        "size": 10803,
-        "previous_version": "1.0.1",
-        "github_stars": 1,
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.9.zip",
+        "size": 207162,
+        "previous_version": "0.3.7",
+        "github_stars": 0,
         "github_forks": 0,
         "github_language": "C++",
-        "github_updated_at": "2026-10-03T09:48:30Z"
+        "github_updated_at": "2026-09-05T19:32:39Z"
       },
-      "old_version": "1.0.1",
-      "new_version": "1.0.2"
+      "old_version": "0.3.7",
+      "new_version": "0.3.9"
     }
   ],
   "removed_libraries": []

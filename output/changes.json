@@ -1,6 +1,117 @@
 {
-  "since": "2026-10-03T09:03:36.880Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-03T10:02:35.109Z",
+  "new_libraries": [
+    {
+      "repository_name": "ve-cto/SwitchMatrixLib",
+      "repository_url": "https://github.com/ve-cto/SwitchMatrixLib",
+      "name": "SwitchMatrixLib",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-03T10:02:35.109Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-03T10:02:35.109Z",
+      "last_seen_sha": "0b429d83e9d6",
+      "author": "ve-cto <arkusarkus135@gmail.com>",
+      "maintainer": "ve-cto <arkusarkus135@gmail.com>",
+      "sentence": "Library for interfacing with button/switch diode matrices.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ve-cto/SwitchMatrixLib-1.0.1.zip",
+      "size": 10796,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-03T09:48:30Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Unical-A/DashlyClient",
+        "repository_url": "https://github.com/Unical-A/DashlyClient",
+        "name": "DashlyClient",
+        "version": "2.2.0",
+        "version_history": [
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.2",
+            "seen_at": "2026-10-01T20:03:28.309Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-10-03T10:02:35.109Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "9fe1a9cd6c96",
+        "author": "Arsen Vardanyan",
+        "maintainer": "Smart Stack Solutions <support@dashlyiot.com>",
+        "sentence": "Official Arduino client for DashlyIoT.com.",
+        "paragraph": "A fast and lightweight library to connect your ESP32 or ESP8266 to DashlyIoT dashboards. Send sensor data and receive real-time commands with ease.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Unical-A/DashlyClient-2.2.0.zip",
+        "size": 17707,
+        "previous_version": "2.1.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-27T17:15:49Z"
+      },
+      "old_version": "2.1.2",
+      "new_version": "2.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "srirangaraj-b/UNOQ_STM32_HAL",
+        "repository_url": "https://github.com/srirangaraj-b/UNOQ_STM32_HAL",
+        "name": "UNOQ_STM32_HAL",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-15T16:28:36.442Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-03T10:02:35.109Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-15T16:28:36.442Z",
+        "last_seen_sha": "fc0fb6ef8ab5",
+        "author": "Sri Ranga Raj B",
+        "maintainer": "Sri Ranga Raj B <sreerangaraj387@gmail.com>",
+        "sentence": "STM32 HAL wrapper library for Arduino.",
+        "paragraph": "Special Library specifically developed for accessing the PIN in Arduino UNO Q with the STM Pin Mappings",
+        "category": "Device Control",
+        "architectures": [
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/srirangaraj-b/UNOQ_STM32_HAL-2.0.0.zip",
+        "size": 14639,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-15T12:36:12Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    }
+  ],
   "removed_libraries": []
 }

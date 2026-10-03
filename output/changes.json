@@ -1,6 +1,149 @@
 {
-  "since": "2026-10-03T11:07:40.423Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-03T13:27:31.162Z",
+  "new_libraries": [
+    {
+      "repository_name": "nothinx/ArahMPU6050",
+      "repository_url": "https://github.com/nothinx/ArahMPU6050",
+      "name": "ArahMPU6050",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-03T13:27:31.162Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-03T13:27:31.162Z",
+      "last_seen_sha": "41d1119244d8",
+      "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+      "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+      "sentence": "Pelacak arah hadap (heading) berbahasa Indonesia dari IMU MPU6050.",
+      "paragraph": "Arah 0-360 derajat, mata angin, selisih ke sudut tujuan, dan kemiringan. Sampling FIFO 100 Hz (tahan loop lambat), kompensasi kemiringan, dan koreksi bias gyro otomatis. Bekerja di AVR (Uno, Nano, Mega), ESP32, dan STM32 (Blackpill, Bluepill). Arah bersifat relatif karena MPU6050 tidak memiliki magnetometer.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/ArahMPU6050-1.0.0.zip",
+      "size": 17790,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-03T08:43:25Z"
+    },
+    {
+      "repository_name": "vaibhav-rm/DS4Arduino",
+      "repository_url": "https://github.com/vaibhav-rm/DS4Arduino",
+      "name": "DS4Arduino",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-03T13:27:31.162Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-03T13:27:31.162Z",
+      "last_seen_sha": "c6fb8ff6f0ce",
+      "author": "Vaibhav Rathod",
+      "maintainer": "Vaibhav <rathodvaibhav401@gmail.com>",
+      "sentence": "Native DualShock 4 Bluetooth Classic HID host for the original ESP32.",
+      "paragraph": "Connect a Sony DualShock 4 (CUH-ZCT1x, 054c:05c4) to an ESP32 over Bluetooth Classic and read sticks, buttons, triggers, D-pad, IMU, battery and touchpad from normal Arduino sketches. No PS4 console, USB dongle, or Bluepad32 dependency required.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vaibhav-rm/DS4Arduino-0.1.0.zip",
+      "size": 198643,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-03T10:14:53Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "toggio/PacketLED",
+        "repository_url": "https://github.com/toggio/PacketLED",
+        "name": "PacketLED",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-24T18:03:10.453Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-24T20:03:07.766Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-24T22:02:26.877Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-03T13:27:31.162Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-24T18:03:10.453Z",
+        "last_seen_sha": "e6e81c836d6f",
+        "author": "Luca Soltoggio",
+        "maintainer": "Luca Soltoggio",
+        "sentence": "Packet communication over bidirectional LEDs, inspired by Packet Radio.",
+        "paragraph": "PacketLED lets two boards exchange data through a pair of ordinary LEDs placed face to face. There is no photodiode: each LED emits light to transmit, and is used as a light sensor to receive. One LED and one resistor per board are all you need. Tested up to 2.5 m at 1024 bit/s with clear, narrow-beam LEDs.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/toggio/PacketLED-1.1.0.zip",
+        "size": 60316,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-24T14:44:29Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "ve-cto/SwitchMatrixLib",
+        "repository_url": "https://github.com/ve-cto/SwitchMatrixLib",
+        "name": "SwitchMatrixLib",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-03T10:02:35.109Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-03T13:27:31.162Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T10:02:35.109Z",
+        "last_seen_sha": "29eae14e7c26",
+        "author": "ve-cto <arkusarkus135@gmail.com>",
+        "maintainer": "ve-cto <arkusarkus135@gmail.com>",
+        "sentence": "Library for interfacing with button/switch diode matrices.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ve-cto/SwitchMatrixLib-1.0.2.zip",
+        "size": 10803,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T09:48:30Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

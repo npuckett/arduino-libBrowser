@@ -1,6 +1,263 @@
 {
-  "since": "2026-10-03T21:56:23.101Z",
+  "since": "2026-10-03T22:54:30.985Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.7.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-08-30T08:02:50.818Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-08-30T14:02:11.778Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-09-08T18:03:23.738Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-09-12T00:06:21.484Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-09-20T20:02:26.994Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          }
+        ],
+        "release_count": 12,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "ba60bb82a574",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.7.0.zip",
+        "size": 164321,
+        "previous_version": "0.6.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.7.0"
+    },
+    {
+      "library": {
+        "repository_name": "T-arg/ATMlib",
+        "repository_url": "https://github.com/T-arg/ATMlib",
+        "name": "ATMlib",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-09-14T18:03:01.072Z"
+          },
+          {
+            "version": "1.2.8",
+            "seen_at": "2026-09-19T20:02:28.695Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-14T18:03:01.072Z",
+        "last_seen_sha": "b1ee3805b25f",
+        "author": "TEAM a.r.g., Joeri Gantois aka JO3RI, Davey Taylor aka STG",
+        "maintainer": "joerigantois@gmail.com",
+        "sentence": "The Arduboy Tracker Music library.",
+        "paragraph": "A library for playing 4 channel chiptune music and oscilator sounds, intended for use with the Arduboy game system",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-2.0.1.zip",
+        "size": 106879,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-10T17:36:20Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "codewitch-honey-crisis/htcw_chess",
+        "repository_url": "https://github.com/codewitch-honey-crisis/htcw_chess",
+        "name": "htcw_chess",
+        "version": "0.5.3",
+        "version_history": [
+          {
+            "version": "0.5.1",
+            "seen_at": "2025-12-24T07:39:32Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-12-24T07:39:32Z",
+        "last_seen_sha": "d58bb05046c0",
+        "author": "honey the codewitch",
+        "maintainer": "honey the codewitch",
+        "sentence": "A simple chess library written in C",
+        "paragraph": "Implements a chess library that can be used to implement a chess game. It handles all the rules, and allows for previews of available moves.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_chess-0.5.3.zip",
+        "size": 12108,
+        "previous_version": "0.5.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2025-12-23T08:04:06Z"
+      },
+      "old_version": "0.5.1",
+      "new_version": "0.5.3"
+    },
+    {
+      "library": {
+        "repository_name": "NikolaiRadke/TinyRTOS",
+        "repository_url": "https://github.com/NikolaiRadke/TinyRTOS",
+        "name": "TinyRTOS",
+        "version": "1.3.2",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-05-13T08:49:02Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-10-03T16:12:54.014Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-13T08:49:02Z",
+        "last_seen_sha": "2b200ae6b232",
+        "author": "Nikolai Radke",
+        "maintainer": "Nikolai Radke",
+        "sentence": "Cooperative task scheduler with resource locks for ATtiny and ATmega AVR MCUs.",
+        "paragraph": "Enables cooperative multitasking on AVR MCUs with as little as 256 bytes of RAM. Compatible with any AVR MCU with up to 128 KB flash. Experimental ATmega2560 support included.",
+        "category": "Timing",
+        "architectures": [
+          "avr"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NikolaiRadke/TinyRTOS-1.3.2.zip",
+        "size": 17228,
+        "previous_version": "1.3.1",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-13T06:32:07Z"
+      },
+      "old_version": "1.3.1",
+      "new_version": "1.3.2"
+    },
+    {
+      "library": {
+        "repository_name": "MartinDaCosta53/VCAN2040",
+        "repository_url": "https://github.com/MartinDaCosta53/VCAN2040",
+        "name": "VCAN2040",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-30T14:03:10.568Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-30T14:03:10.568Z",
+        "last_seen_sha": "2b3218dda3fa",
+        "author": "Martin Da Costa <martindc.merg@gmail.com",
+        "maintainer": "Martin Da Costa <martindc.merg@gmail.com",
+        "sentence": "Library for VLCB use on RP2040",
+        "paragraph": "Implements functionality required to create a VLCB module based on software CAN controller",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Streaming",
+          "ACAN2040",
+          "VLCB"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/VCAN2040-1.0.1.zip",
+        "size": 393299,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-30T09:52:18Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

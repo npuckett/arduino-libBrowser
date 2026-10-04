@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-04T19:57:35.758Z",
+  "enhanced_at": "2026-10-04T20:48:46.061Z",
   "total_libraries": 10080,
-  "index_etag": "W/\"ad7a2519bba64cd4f24c79ae9121c354\"",
-  "index_last_modified": "Sun, 04 Oct 2026 19:29:12 GMT",
+  "index_etag": "W/\"e2e09b7ca14f142d2188457123d628f8\"",
+  "index_last_modified": "Sun, 04 Oct 2026 20:29:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -229181,7 +229181,7 @@
       "repository_name": "QuantumLeaps/qp-arduino",
       "repository_url": "https://github.com/QuantumLeaps/qp-arduino",
       "name": "qp-arduino",
-      "version": "6.9.6",
+      "version": "7.3.4",
       "version_history": [
         {
           "version": "6.9.6",
@@ -229190,21 +229190,25 @@
         {
           "version": "6.9.6",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "7.3.4",
+          "seen_at": "2026-10-04T20:48:45.928Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:03:39Z",
-      "last_seen_sha": "6db2634c7406",
+      "last_seen_sha": "2e683f3bc4fc",
       "author": "Quantum Leaps",
       "maintainer": "Peter Polidoro <peter@polidoro.io>",
       "sentence": "QP/C++ Real-Time Embedded Framework for Arduino.",
-      "paragraph": "The QP/C++ real-time framework is like a modern real-time operating system (RTOS) specifically designed for executing event-driven, encapsulated state machines (Active Objects). It enables you to build responsive, robust, and truly concurrent Arduino programs.",
+      "paragraph": "QP/C++ 7.3.4 with the QV cooperative kernel for ARM Cortex-M Arduino boards, qualified on RP2040 with the arduino-pico core. Active objects, hierarchical state machines and QS software tracing. See the README for the exact supported configurations.",
       "category": "Device Control",
       "architectures": [
-        "*"
+        "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/QuantumLeaps/qp_arduino-6.9.6.zip",
-      "size": 324572,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/QuantumLeaps/qp_arduino-7.3.4.zip",
+      "size": 463894,
       "previous_version": "6.9.6",
       "github_stars": 44,
       "github_forks": 28,

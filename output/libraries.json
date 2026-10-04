@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-04T16:05:40.650Z",
-  "total_libraries": 10079,
-  "index_etag": "W/\"645f164630d8b5b687e88bd61645c62c\"",
-  "index_last_modified": "Sun, 04 Oct 2026 15:59:12 GMT",
+  "enhanced_at": "2026-10-04T18:01:59.452Z",
+  "total_libraries": 10080,
+  "index_etag": "W/\"ad7a2519bba64cd4f24c79ae9121c354\"",
+  "index_last_modified": "Sun, 04 Oct 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -34842,6 +34842,36 @@
       "github_updated_at": "2026-09-05T14:41:13Z"
     },
     {
+      "repository_name": "supratikd/AS7343_7Semi",
+      "repository_url": "https://github.com/supratikd/AS7343_7Semi",
+      "name": "AS7343_7Semi",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-04T18:01:58.042Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-04T18:01:58.042Z",
+      "last_seen_sha": "5faafd68889a",
+      "author": "Supratik Das",
+      "maintainer": "supratikd <supratikdas@hotmail.com>",
+      "sentence": "Arduino library for the 7Semi AS7343 spectral sensor.",
+      "paragraph": "Reads 12 spectral channels and VIS and NIR data, controls the LED, and detects flicker.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/AS7343_7Semi-1.0.0.zip",
+      "size": 26815,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-04T15:20:19Z"
+    },
+    {
       "repository_name": "SofaPirate/AsciiMassage",
       "repository_url": "https://github.com/SofaPirate/AsciiMassage",
       "name": "AsciiMassage",
@@ -42582,7 +42612,7 @@
       "repository_name": "NitrofMtl/BACnet-Arduino",
       "repository_url": "https://github.com/NitrofMtl/BACnet-Arduino",
       "name": "BACnet-Arduino",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -42595,11 +42625,15 @@
         {
           "version": "0.5.0",
           "seen_at": "2026-09-21T02:06:59.523Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-10-04T18:01:58.042Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-08T14:10:32.567Z",
-      "last_seen_sha": "21dca44b27dc",
+      "last_seen_sha": "bfdadab806fa",
       "author": "NitrofMtl <https://github.com/NitrofMtl>",
       "maintainer": "NitrofMtl <https://github.com/NitrofMtl>",
       "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
@@ -42612,9 +42646,9 @@
       "depends": [
         "WeeklyAlarm"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.5.0.zip",
-      "size": 1316393,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.6.0.zip",
+      "size": 1316917,
+      "previous_version": "0.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -223168,7 +223202,7 @@
       "repository_name": "RobTillaart/printHelpers",
       "repository_url": "https://github.com/RobTillaart/printHelpers",
       "name": "printHelpers",
-      "version": "0.5.3",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.5.2",
@@ -223177,11 +223211,15 @@
         {
           "version": "0.5.3",
           "seen_at": "2026-07-19T10:29:42.143Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-10-04T18:01:58.042Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-14T08:29:34Z",
-      "last_seen_sha": "e154855a05ed",
+      "last_seen_sha": "fabaef0cfbc9",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library to help formatting data for printing. 64 bit integers (base 10 and 16). Engineering and scientific notation.",
@@ -223190,9 +223228,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/printHelpers-0.5.3.zip",
-      "size": 64755,
-      "previous_version": "0.5.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/printHelpers-0.6.0.zip",
+      "size": 66250,
+      "previous_version": "0.5.3",
       "github_stars": 21,
       "github_forks": 4,
       "github_language": "C++",
@@ -326929,7 +326967,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9875,
+    "with_github_metadata": 9876,
     "total_dependencies": 5500
   }
 }

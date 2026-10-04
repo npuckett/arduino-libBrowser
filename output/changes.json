@@ -1,13 +1,93 @@
 {
-  "since": "2026-10-04T02:03:06.948Z",
+  "since": "2026-10-04T04:00:12.383Z",
   "new_libraries": [],
   "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "nothinx/AlurProgram",
+        "repository_url": "https://github.com/nothinx/AlurProgram",
+        "name": "AlurProgram",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "46fbb230f7ac",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "State machine sederhana berbahasa Indonesia untuk switch-case di loop(), tanpa callback.",
+        "paragraph": "Tulis tiap tahap sebagai case biasa: baruMasuk() untuk aksi awal, lamaDiTahap() untuk batas waktu, pindah() dan pindahSetelah() untuk berganti tahap. Tahap memakai enum milik sendiri. Tanpa callback, tanpa tabel transisi, tanpa alokasi dinamis, 7 byte RAM di Arduino Uno. Aman saat millis() meluap. English: state machine, finite state machine, FSM, switch case, state timeout, non-blocking, no callbacks, low RAM.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/AlurProgram-1.0.1.zip",
+        "size": 47393,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:33:06Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/ArahMPU6050",
+        "repository_url": "https://github.com/nothinx/ArahMPU6050",
+        "name": "ArahMPU6050",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T13:27:31.162Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-03T18:09:20.407Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-03T13:27:31.162Z",
+        "last_seen_sha": "cc3d6c82fefa",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Pelacak arah hadap (heading) berbahasa Indonesia dari IMU MPU6050.",
+        "paragraph": "Arah 0-360 derajat, mata angin, selisih ke sudut tujuan, dan kemiringan. Sampling FIFO 100 Hz (tahan loop lambat), kompensasi kemiringan, dan koreksi bias gyro otomatis. Bekerja di AVR (Uno, Nano, Mega), ESP32, dan STM32 (Blackpill, Bluepill). Arah bersifat relatif karena MPU6050 tidak memiliki magnetometer. English: MPU6050 heading, yaw, compass direction, turn to angle, gyro drift correction, tilt.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/ArahMPU6050-1.0.2.zip",
+        "size": 71429,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T08:43:25Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
     {
       "library": {
         "repository_name": "bonkmachines/ctrl-arduino",
         "repository_url": "https://github.com/bonkmachines/ctrl-arduino",
         "name": "CTRL",
-        "version": "2.1.4",
+        "version": "2.3.0",
         "version_history": [
           {
             "version": "1.5.1",
@@ -24,11 +104,15 @@
           {
             "version": "2.1.4",
             "seen_at": "2026-10-04T02:03:06.948Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-10-04T04:00:12.383Z"
           }
         ],
-        "release_count": 4,
+        "release_count": 5,
         "first_seen_at": "2025-07-21T16:36:18Z",
-        "last_seen_sha": "bcd62bf6d90b",
+        "last_seen_sha": "99b80a33ca0d",
         "author": "Johannes Jan Prins",
         "maintainer": "Johannes Jan Prins <johannesprins@knalgeel.com>",
         "sentence": "Buttons, rotary encoders, potentiometers, LEDs, RGB LEDs & multiplexers.",
@@ -37,16 +121,320 @@
         "architectures": [
           "*"
         ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/bonkmachines/CTRL-2.1.4.zip",
-        "size": 4117048,
-        "previous_version": "2.1.1",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bonkmachines/CTRL-2.3.0.zip",
+        "size": 4122741,
+        "previous_version": "2.1.4",
         "github_stars": 11,
         "github_forks": 0,
         "github_language": "C++",
         "github_updated_at": "2026-02-24T16:35:59Z"
       },
-      "old_version": "2.1.1",
-      "new_version": "2.1.4"
+      "old_version": "2.1.4",
+      "new_version": "2.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/FilterSensor",
+        "repository_url": "https://github.com/nothinx/FilterSensor",
+        "name": "FilterSensor",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "27581a86be09",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Filter berbahasa Indonesia untuk meredam noise sensor: rata-rata bergerak, median, EMA, dan Kalman 1D.",
+        "paragraph": "Satu pola untuk semua filter: float halus = filter.saring(bacaan). Tanpa alokasi dinamis, benar sejak sampel pertama, rata-rata bergerak tanpa drift, median efisien tanpa sort penuh, EMA dari waktu respon, Kalman dengan noise dalam satuan sensor, dan bacaan NAN diabaikan. Bekerja di AVR, ESP32, dan STM32. English: sensor filter, moving average, running median, spike rejection, exponential moving average, EMA, Kalman filter, smoothing, noise.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/FilterSensor-1.0.1.zip",
+        "size": 88371,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:29:35Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/KalibrasiSensor",
+        "repository_url": "https://github.com/nothinx/KalibrasiSensor",
+        "name": "KalibrasiSensor",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "db67c6249360",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Kalibrasi sensor berbahasa Indonesia: ubah bacaan mentah menjadi nilai nyata lewat tabel titik ukur.",
+        "paragraph": "Interpolasi linear antar titik untuk sensor tidak linear (persen baterai Li-ion, Sharp IR, termistor, kelembapan tanah) dan kalibrasi dua titik untuk sensor linear. Tabel boleh naik atau turun, diperiksa otomatis (mulai() bernilai false jika tidak urut), dibatasi di luar rentang atau diekstrapolasi, dan bisa disimpan di flash (PROGMEM) di AVR. Tanpa salinan tabel, tanpa alokasi dinamis. English: sensor calibration, lookup table, piecewise linear interpolation, multimap, two point calibration, battery percentage, Sharp IR distance.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/KalibrasiSensor-1.0.1.zip",
+        "size": 64541,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:29:38Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/KontrolPID",
+        "repository_url": "https://github.com/nothinx/KontrolPID",
+        "name": "KontrolPID",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "e2b03bfe6fb2",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Library PID berbahasa Indonesia untuk motor, suhu, line follower, dan robot.",
+        "paragraph": "Cukup pid.hitung(target, nilai). Memakai dt nyata dari micros(), anti-windup, D dari perubahan nilai (tanpa lonjakan saat target berubah), filter D, arah terbalik, ganti tuning tanpa lonjakan, dan komponen P, I, D untuk Serial Plotter. Tanpa pointer dan tanpa SetMode(). Contoh kecepatan motor dengan encoder, suhu, line follower, tuning lewat Serial, dan simulasi tanpa hardware. English: PID controller, anti-windup, derivative on measurement, derivative filter, real dt, motor speed, temperature, line follower.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/KontrolPID-1.0.1.zip",
+        "size": 78538,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:27:07Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/LogikaFuzzy",
+        "repository_url": "https://github.com/nothinx/LogikaFuzzy",
+        "name": "LogikaFuzzy",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "adb23de18591",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Logika fuzzy berbahasa Indonesia: Mamdani dan Sugeno, aturan ditulis seperti di laporan skripsi.",
+        "paragraph": "Aturan ditulis jika(DINGIN).dan(KERING).maka(PELAN). Himpunan segitiga dan trapesium, operator DAN (min) dan ATAU (max), defuzzifikasi centroid dengan resolusi yang bisa diatur, dan Sugeno orde-0. Derajat keanggotaan dan kekuatan tiap aturan bisa dibaca untuk dicocokkan dengan hitungan manual atau MATLAB. Tanpa alokasi dinamis: kapasitas tetap lewat template. English: fuzzy logic, fuzzy inference, Mamdani, Sugeno, centroid, membership function, no dynamic allocation.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/LogikaFuzzy-1.0.1.zip",
+        "size": 89472,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:28:54Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/PerintahSerial",
+        "repository_url": "https://github.com/nothinx/PerintahSerial",
+        "name": "PerintahSerial",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "19ee73608cf6",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Membaca perintah teks dari Serial Monitor, Bluetooth HC-05, atau Stream apa pun (\"LED ON\", \"SET kp 2.5\"). Non-blocking, tanpa callback.",
+        "paragraph": "Untuk debugging, tuning PID tanpa upload ulang, dan kontrol robot dari HP. Menerima akhiran CR, LF, atau CRLF, tidak membedakan huruf besar/kecil, argumen dipisah spasi, koma, atau tanda sama dengan. Angka dan desimal dengan nilai bawaan jika input salah. Buffer tetap tanpa String, baris terlalu panjang dibuang utuh dan dilaporkan. Bekerja di AVR, ESP32, dan STM32. English: serial command parser, command line, CLI, non-blocking, case-insensitive, Bluetooth, no String, no malloc.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/PerintahSerial-1.0.1.zip",
+        "size": 41158,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:28:23Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/PosisiRobot",
+        "repository_url": "https://github.com/nothinx/PosisiRobot",
+        "name": "PosisiRobot",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "639763537739",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Library odometri berbahasa Indonesia: posisi x, y dan arah robot dua roda dari encoder.",
+        "paragraph": "Non-blocking, cukup kirim hitungan encoder ke perbarui(). Integrasi busur eksak, aman saat counter meluap, arah 0-360 derajat searah jarum jam (sama dengan ArahMPU6050), plus jarakKe(), arahKe(), dan selisihArahKe() untuk bergerak ke titik tujuan. Arah bisa dikoreksi dari IMU. Contoh odometri dengan interrupt, ke titik tujuan, dan kalibrasi roda. English: odometry, dead reckoning, differential drive, wheel encoder, robot position, go to point.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/PosisiRobot-1.1.0.zip",
+        "size": 65227,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:27:09Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/TanpaDelay",
+        "repository_url": "https://github.com/nothinx/TanpaDelay",
+        "name": "TanpaDelay",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "7b8649a19509",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Pengganti delay() berbahasa Indonesia: jalankan beberapa hal bersamaan tanpa program berhenti.",
+        "paragraph": "Cukup if (kedip.waktunya()) di loop(), tanpa callback dan tanpa menghitung millis() sendiri. Berkala tanpa drift, tidak mengejar saat loop() sempat macet, sekali jalan untuk lampu mati otomatis, sisa waktu, dan aman saat millis() meluap. 9 byte RAM per objek di Arduino Uno. English: non-blocking delay, millis timer, interval, timeout, one-shot, no drift, low RAM.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/TanpaDelay-1.0.1.zip",
+        "size": 68819,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:33:04Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "nothinx/Terbilang",
+        "repository_url": "https://github.com/nothinx/Terbilang",
+        "name": "Terbilang",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-03T20:49:27.245Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-04T04:00:12.383Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-03T20:49:27.245Z",
+        "last_seen_sha": "5660f7c06585",
+        "author": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "maintainer": "Amadeo Wisesa <wisesaamadeo@gmail.com>",
+        "sentence": "Angka menjadi kata dalam bahasa Indonesia (\"seratus dua puluh lima\"), plus format angka dan rupiah (\"Rp1.250.000\").",
+        "paragraph": "Untuk kwitansi, kasir, LCD, timbangan, meteran, dan mesin antrean bersuara. Langsung ke Serial atau LCD tanpa buffer, atau ke buffer char. Tanpa String, daftar kata di PROGMEM. Rentang int64_t sampai kuintiliun, bilangan negatif, desimal (\"tiga koma satu empat\"), kapital awal atau setiap kata, dan akhiran rupiah. English: Indonesian number to words, spell out numbers, rupiah currency format, thousands separator.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nothinx/Terbilang-1.0.1.zip",
+        "size": 38636,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-03T18:28:20Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
     }
   ],
   "removed_libraries": []

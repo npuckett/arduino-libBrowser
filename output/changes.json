@@ -1,6 +1,364 @@
 {
-  "since": "2026-10-05T17:02:33.320Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-05T18:03:44.750Z",
+  "new_libraries": [
+    {
+      "repository_name": "MakerSpaceLeiden/ACNode",
+      "repository_url": "https://github.com/MakerSpaceLeiden/ACNode",
+      "name": "ACNode",
+      "version": "2.0.6",
+      "version_history": [
+        {
+          "version": "2.0.6",
+          "seen_at": "2026-10-05T18:03:44.750Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T18:03:44.750Z",
+      "last_seen_sha": "a3d27d127833",
+      "author": "dirkx",
+      "maintainer": "Dirk-Willem van Gulik <dirkx-remove-this-2026@webweaving.org>",
+      "sentence": "Access Control node for the Makerspace in Leiden,NL",
+      "paragraph": "Software for access nodes that manage doors, machines and payments. Generally based on an ESP32, PoE ethernet, an OLED screenm contains RFID reader various I/O. See https://wiki.makerspaceleiden.nl/mediawiki/index.php/PowerNode_White for more information. The hardware can be found at https://oshwlab.com/dirkx/msl-node-4g-107",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit AW9523",
+        "Adafruit BusIO",
+        "ArduinoJson",
+        "ESP Async WebServer",
+        "Async TCP",
+        "TLog",
+        "Adafruit GFX Library",
+        "Adafruit SH110X",
+        "PubSubClient",
+        "MFRC522-spi-i2c-uart-async"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MakerSpaceLeiden/ACNode-2.0.6.zip",
+      "size": 289007,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T14:48:27Z"
+    },
+    {
+      "repository_name": "xreef/MPU-6500-DMP_Library",
+      "repository_url": "https://github.com/xreef/MPU-6500-DMP_Library",
+      "name": "MPU6500-DMP",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-05T18:03:44.750Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T18:03:44.750Z",
+      "last_seen_sha": "b3a0a49d6596",
+      "author": "Renzo Mischianti <renzo.mischianti@gmail.com>",
+      "maintainer": "Renzo Mischianti <renzo.mischianti@gmail.com>",
+      "sentence": "Driver for InvenSense's MPU-6500 6-DOF IMU (3-axis gyroscope & 3-axis accelerometer) with Digital Motion Processor support",
+      "paragraph": "The <a href=\"https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6500/\">MPU-6500</a> is a 6-axis motion tracking device featuring acceleration full-scales of ±2 / ±4 / ±8 / ±16 (g) and rotational full-scales of ±250 / ±500 / ±1000 / ±2000 (°/sec). It includes an I<sup>2</sup>C serial bus interface that supports speeds up to 400 kHz. The DMP provides quaternions, pedometer, tap and orientation detection and gyro calibration. This library is a fork of the SparkFun MPU-9250 DMP one.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MPU6500_DMP-1.0.0.zip",
+      "size": 318213,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-05T17:31:02Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "name": "DevLabDDP",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-05T02:03:41.065Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-27T23:05:28.812Z",
+        "last_seen_sha": "ef448d5324a2",
+        "author": "UNIT Electronics",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino master for the DevLab Device Protocol.",
+        "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.3.zip",
+        "size": 23725,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-27T17:22:21Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "codewitch-honey-crisis/gfx",
+        "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
+        "name": "htcw_gfx",
+        "version": "2.9.4",
+        "version_history": [
+          {
+            "version": "2.2.17",
+            "seen_at": "2026-04-18T08:09:23Z"
+          },
+          {
+            "version": "2.3.1",
+            "seen_at": "2026-07-11T04:07:11.266Z"
+          },
+          {
+            "version": "2.3.3",
+            "seen_at": "2026-07-16T12:28:21.727Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-07-21T00:20:47.426Z"
+          },
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-07-21T02:59:47.173Z"
+          },
+          {
+            "version": "2.4.2",
+            "seen_at": "2026-07-22T00:19:01.539Z"
+          },
+          {
+            "version": "2.4.4",
+            "seen_at": "2026-07-22T02:59:53.885Z"
+          },
+          {
+            "version": "2.4.5",
+            "seen_at": "2026-07-22T16:28:03.808Z"
+          },
+          {
+            "version": "2.4.6",
+            "seen_at": "2026-07-23T20:21:35.524Z"
+          },
+          {
+            "version": "2.4.8",
+            "seen_at": "2026-07-23T22:19:08.578Z"
+          },
+          {
+            "version": "2.4.9",
+            "seen_at": "2026-07-24T00:19:26.003Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "2.5.1",
+            "seen_at": "2026-07-24T20:27:43.049Z"
+          },
+          {
+            "version": "2.6.0",
+            "seen_at": "2026-07-25T20:17:34.292Z"
+          },
+          {
+            "version": "2.6.1",
+            "seen_at": "2026-07-26T16:18:48.534Z"
+          },
+          {
+            "version": "2.6.3",
+            "seen_at": "2026-07-26T22:17:47.285Z"
+          },
+          {
+            "version": "2.6.4",
+            "seen_at": "2026-07-29T20:19:45.338Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-08-08T10:07:17.549Z"
+          },
+          {
+            "version": "2.8.1",
+            "seen_at": "2026-08-08T16:05:34.268Z"
+          },
+          {
+            "version": "2.8.2",
+            "seen_at": "2026-08-09T04:25:53.076Z"
+          },
+          {
+            "version": "2.9.2",
+            "seen_at": "2026-08-31T02:04:26.523Z"
+          },
+          {
+            "version": "2.9.4",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          }
+        ],
+        "release_count": 22,
+        "first_seen_at": "2026-04-18T08:09:23Z",
+        "last_seen_sha": "31ccbce31c6a",
+        "author": "honey the codewitch",
+        "maintainer": "honey the codewitch",
+        "sentence": "Provides cross platform graphics",
+        "paragraph": "Provides cross platform graphics functionality",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "htcw_data",
+          "htcw_ml"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.9.4.zip",
+        "size": 925111,
+        "previous_version": "2.9.2",
+        "github_stars": 140,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-05T04:00:50Z"
+      },
+      "old_version": "2.9.2",
+      "new_version": "2.9.4"
+    },
+    {
+      "library": {
+        "repository_name": "TexhFexLabs/HydroNode-Library",
+        "repository_url": "https://github.com/TexhFexLabs/HydroNode-Library",
+        "name": "HydroNode-Library",
+        "version": "1.7.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-02T21:37:12Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-07-05T18:20:17.088Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-05T20:22:22.844Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-09-28T14:03:00.918Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-10-01T06:04:30.518Z"
+          },
+          {
+            "version": "1.4.1",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-10-04T00:51:40.736Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-01-02T21:37:12Z",
+        "last_seen_sha": "56d164d7e6cc",
+        "author": "Felix Knoll",
+        "maintainer": "Felix Knoll <contact@hydronode.tech>",
+        "sentence": "Send sensor data and receive backend events for HydroNode projects.",
+        "paragraph": "Easy API client for HydroNode sensors and actuators, with event callback system, HMAC-SHA256 auth, TLS with bundled root CAs, NTP time sync and optional WiFi helper. ESP32 and ESP8266.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson",
+          "ArduinoHttpClient",
+          "WiFiManager"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.7.0.zip",
+        "size": 46189,
+        "previous_version": "1.6.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-25T09:43:56Z"
+      },
+      "old_version": "1.6.0",
+      "new_version": "1.7.0"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/StopWatch_RT",
+        "repository_url": "https://github.com/RobTillaart/StopWatch_RT",
+        "name": "StopWatch_RT",
+        "version": "0.4.2",
+        "version_history": [
+          {
+            "version": "0.4.0",
+            "seen_at": "2025-09-09T07:39:58Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-09-09T07:39:58Z",
+        "last_seen_sha": "af470bd1ad26",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino Library implementing a stopwatch.",
+        "paragraph": "Supports millis micros seconds",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/StopWatch_RT-0.4.2.zip",
+        "size": 13823,
+        "previous_version": "0.4.1",
+        "github_stars": 22,
+        "github_forks": 5,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-12T11:33:11Z"
+      },
+      "old_version": "0.4.1",
+      "new_version": "0.4.2"
+    }
+  ],
   "removed_libraries": []
 }

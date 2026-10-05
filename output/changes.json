@@ -1,6 +1,94 @@
 {
-  "since": "2026-10-05T19:04:39.779Z",
+  "since": "2026-10-05T21:02:43.536Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "name": "DevLabDDP",
+        "version": "1.0.4",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-05T02:03:41.065Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-10-05T21:02:43.536Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-08-27T23:05:28.812Z",
+        "last_seen_sha": "262983f4bdce",
+        "author": "UNIT Electronics",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino master for the DevLab Device Protocol.",
+        "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.4.zip",
+        "size": 23862,
+        "previous_version": "1.0.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-27T17:22:21Z"
+      },
+      "old_version": "1.0.3",
+      "new_version": "1.0.4"
+    },
+    {
+      "library": {
+        "repository_name": "klenov1900-lang/OLED2.42_EASY",
+        "repository_url": "https://github.com/klenov1900-lang/OLED2.42_EASY",
+        "name": "OLED2.42_EASY",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-04T22:02:12.498Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-05T21:02:43.536Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-04T22:02:12.498Z",
+        "last_seen_sha": "eff4f2a235f2",
+        "author": "klenov1900-lang",
+        "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
+        "sentence": "Easy library for 2.42\" OLED displays on SSD1309 (I2C, ATmega328P).",
+        "paragraph": "Direct TWI register access. No external dependencies. Terminus 8x12 (Cyrillic + Unicode), Blocky 15x23. Multilingual headers (ru/en/cn). Partial page refresh.",
+        "category": "Display",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/OLED2_42_EASY-1.0.1.zip",
+        "size": 193724,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-04T19:55:16Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

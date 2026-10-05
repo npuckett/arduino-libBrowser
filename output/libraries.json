@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-05T07:24:01.180Z",
+  "enhanced_at": "2026-10-05T08:11:37.540Z",
   "total_libraries": 10081,
-  "index_etag": "W/\"3063f43c50ccbbe92c8e76da6e5c1eb0\"",
-  "index_last_modified": "Mon, 05 Oct 2026 06:59:12 GMT",
+  "index_etag": "W/\"fdce82d97d0d506bd19928f284e18116\"",
+  "index_last_modified": "Mon, 05 Oct 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -5841,16 +5841,20 @@
       "repository_name": "srirangaraj-b/AD569X",
       "repository_url": "https://github.com/srirangaraj-b/AD569X",
       "name": "AD569x",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-03T14:48:43.251Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-05T08:11:37.387Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-03T14:48:43.251Z",
-      "last_seen_sha": "0b0f77a03736",
+      "last_seen_sha": "2ee36ee63f17",
       "author": "Sri Ranga Raj B",
       "maintainer": "Sri Ranga Raj B <sreerangaraj387@gmail.com>",
       "sentence": "Professional, extensible Arduino library for the Analog Devices AD569x nanoDAC+ family (AD5691 to AD5696).",
@@ -5859,11 +5863,9 @@
       "architectures": [
         "*"
       ],
-      "depends": [
-        "Wire"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/srirangaraj-b/AD569x-1.0.0.zip",
-      "size": 12111,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/srirangaraj-b/AD569x-1.0.1.zip",
+      "size": 12102,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -305387,7 +305389,7 @@
       "repository_name": "Tunglam0605/TungLam-OmniMecanum-4WD",
       "repository_url": "https://github.com/Tunglam0605/TungLam-OmniMecanum-4WD",
       "name": "TungLam_OmniMecanum_4WD",
-      "version": "0.10.5",
+      "version": "0.11.0",
       "version_history": [
         {
           "version": "0.8.2",
@@ -305408,11 +305410,15 @@
         {
           "version": "0.10.5",
           "seen_at": "2026-10-02T08:03:31.067Z"
+        },
+        {
+          "version": "0.11.0",
+          "seen_at": "2026-10-05T08:11:37.387Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-09-30T14:03:10.568Z",
-      "last_seen_sha": "fa453c8a14c3",
+      "last_seen_sha": "e034b2123788",
       "author": "Nguyen Khac Tung Lam",
       "maintainer": "Nguyen Khac Tung Lam <183681608+Tunglam0605@users.noreply.github.com>",
       "sentence": "Arduino Mega 4WD Mecanum/Omni control with hardware PWM, SI kinematics, and legacy V5 compatibility.",
@@ -305421,9 +305427,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_OmniMecanum_4WD-0.10.5.zip",
-      "size": 143131,
-      "previous_version": "0.10.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_OmniMecanum_4WD-0.11.0.zip",
+      "size": 157876,
+      "previous_version": "0.10.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -305433,16 +305439,20 @@
       "repository_name": "Tunglam0605/TungLam-PS2-Controller",
       "repository_url": "https://github.com/Tunglam0605/TungLam-PS2-Controller",
       "name": "TungLam_PS2",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.4.1",
           "seen_at": "2026-10-02T08:03:31.067Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-10-05T08:11:37.387Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-02T08:03:31.067Z",
-      "last_seen_sha": "46cf17a3998f",
+      "last_seen_sha": "fc530fb269a7",
       "author": "Nguyen Khac Tung Lam",
       "maintainer": "Nguyen Khac Tung Lam",
       "sentence": "Flexible PS2 controller library for Arduino robotics with hardware SPI, bit-bang, button events and filtered discrete joystick states.",
@@ -305451,8 +305461,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_PS2-0.4.1.zip",
-      "size": 38384,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_PS2-0.5.0.zip",
+      "size": 43903,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -327014,6 +327025,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9877,
-    "total_dependencies": 5500
+    "total_dependencies": 5499
   }
 }

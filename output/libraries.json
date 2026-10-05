@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-05T21:02:43.620Z",
-  "total_libraries": 10087,
-  "index_etag": "W/\"c5b73c11cfa6e477cd3051d94ab7f03a\"",
-  "index_last_modified": "Mon, 05 Oct 2026 20:59:12 GMT",
+  "enhanced_at": "2026-10-05T22:02:42.571Z",
+  "total_libraries": 10089,
+  "index_etag": "W/\"afb7d2d2c3560f6595a4599eadb5b3e0\"",
+  "index_last_modified": "Mon, 05 Oct 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -196954,6 +196954,38 @@
       "download_url": "https://github.com/mggates39/MyDelay"
     },
     {
+      "repository_name": "mydesktopwidget/mydesktopwidget-screens",
+      "repository_url": "https://github.com/mydesktopwidget/mydesktopwidget-screens",
+      "name": "MyDesktopWidget",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-05T22:02:39.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T22:02:39.831Z",
+      "last_seen_sha": "8833d53c8e98",
+      "author": "Lucas Riechelmann Ramos",
+      "maintainer": "MyDesktopWidget <support@mydesktopwidget.com>",
+      "sentence": "Show live PC stats from MyDesktopWidget on an ESP32 screen.",
+      "paragraph": "Subscribe to the PC's sensors (CPU, GPU, temperatures, network, media) over USB and draw them however you like. Requires MyDesktopWidget on Windows.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mydesktopwidget/MyDesktopWidget-0.3.0.zip",
+      "size": 58078,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T18:07:38Z"
+    },
+    {
       "repository_name": "tonimatutinovic/myDHT",
       "repository_url": "https://github.com/tonimatutinovic/myDHT",
       "name": "myDHT",
@@ -313207,6 +313239,36 @@
       "download_url": "https://github.com/LearnPRG-py/Vectorial"
     },
     {
+      "repository_name": "forgevolt/VectorUtilities",
+      "repository_url": "https://github.com/forgevolt/VectorUtilities",
+      "name": "VectorUtilities",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-05T22:02:39.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T22:02:39.831Z",
+      "last_seen_sha": "d6a7d7827f50",
+      "author": "Christoph Streit <christoph.streit@gmail.com>",
+      "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+      "sentence": "2D and 3D vectors and smooth motion curves for robots, games and animation.",
+      "paragraph": "Vector2 and Vector3 classes with operators, dot and cross products, rotation about any axis, projection and reflection, plus the curves that move things smoothly: lerp, smoothstep, minimum jerk, quadratic and cubic Bézier, and a time-constant low-pass filter. Float only, with constexpr constructors so constant tables cost no RAM. Derived from raylib's raymath.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/VectorUtilities-1.0.0.zip",
+      "size": 24065,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T18:23:59Z"
+    },
+    {
       "repository_name": "hideakitai/VectorXf",
       "repository_url": "https://github.com/hideakitai/VectorXf",
       "name": "VectorXf",
@@ -327294,7 +327356,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9883,
-    "total_dependencies": 5509
+    "with_github_metadata": 9885,
+    "total_dependencies": 5510
   }
 }

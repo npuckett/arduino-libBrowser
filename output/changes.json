@@ -1,94 +1,69 @@
 {
-  "since": "2026-10-05T21:02:43.536Z",
-  "new_libraries": [],
-  "updated_libraries": [
+  "since": "2026-10-05T22:02:39.831Z",
+  "new_libraries": [
     {
-      "library": {
-        "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
-        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
-        "name": "DevLabDDP",
-        "version": "1.0.4",
-        "version_history": [
-          {
-            "version": "1.0.1",
-            "seen_at": "2026-08-27T23:05:28.812Z"
-          },
-          {
-            "version": "1.0.2",
-            "seen_at": "2026-09-05T02:03:41.065Z"
-          },
-          {
-            "version": "1.0.3",
-            "seen_at": "2026-10-05T18:03:44.750Z"
-          },
-          {
-            "version": "1.0.4",
-            "seen_at": "2026-10-05T21:02:43.536Z"
-          }
-        ],
-        "release_count": 4,
-        "first_seen_at": "2026-08-27T23:05:28.812Z",
-        "last_seen_sha": "262983f4bdce",
-        "author": "UNIT Electronics",
-        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
-        "sentence": "Arduino master for the DevLab Device Protocol.",
-        "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
-        "category": "Communication",
-        "architectures": [
-          "*"
-        ],
-        "depends": [
-          "DevLab_Interface"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.4.zip",
-        "size": 23862,
-        "previous_version": "1.0.3",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C",
-        "github_updated_at": "2026-08-27T17:22:21Z"
-      },
-      "old_version": "1.0.3",
-      "new_version": "1.0.4"
+      "repository_name": "mydesktopwidget/mydesktopwidget-screens",
+      "repository_url": "https://github.com/mydesktopwidget/mydesktopwidget-screens",
+      "name": "MyDesktopWidget",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-05T22:02:39.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T22:02:39.831Z",
+      "last_seen_sha": "8833d53c8e98",
+      "author": "Lucas Riechelmann Ramos",
+      "maintainer": "MyDesktopWidget <support@mydesktopwidget.com>",
+      "sentence": "Show live PC stats from MyDesktopWidget on an ESP32 screen.",
+      "paragraph": "Subscribe to the PC's sensors (CPU, GPU, temperatures, network, media) over USB and draw them however you like. Requires MyDesktopWidget on Windows.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mydesktopwidget/MyDesktopWidget-0.3.0.zip",
+      "size": 58078,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T18:07:38Z"
     },
     {
-      "library": {
-        "repository_name": "klenov1900-lang/OLED2.42_EASY",
-        "repository_url": "https://github.com/klenov1900-lang/OLED2.42_EASY",
-        "name": "OLED2.42_EASY",
-        "version": "1.0.1",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-10-04T22:02:12.498Z"
-          },
-          {
-            "version": "1.0.1",
-            "seen_at": "2026-10-05T21:02:43.536Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-10-04T22:02:12.498Z",
-        "last_seen_sha": "eff4f2a235f2",
-        "author": "klenov1900-lang",
-        "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
-        "sentence": "Easy library for 2.42\" OLED displays on SSD1309 (I2C, ATmega328P).",
-        "paragraph": "Direct TWI register access. No external dependencies. Terminus 8x12 (Cyrillic + Unicode), Blocky 15x23. Multilingual headers (ru/en/cn). Partial page refresh.",
-        "category": "Display",
-        "architectures": [
-          "avr"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/OLED2_42_EASY-1.0.1.zip",
-        "size": 193724,
-        "previous_version": "1.0.0",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C",
-        "github_updated_at": "2026-10-04T19:55:16Z"
-      },
-      "old_version": "1.0.0",
-      "new_version": "1.0.1"
+      "repository_name": "forgevolt/VectorUtilities",
+      "repository_url": "https://github.com/forgevolt/VectorUtilities",
+      "name": "VectorUtilities",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-05T22:02:39.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T22:02:39.831Z",
+      "last_seen_sha": "d6a7d7827f50",
+      "author": "Christoph Streit <christoph.streit@gmail.com>",
+      "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+      "sentence": "2D and 3D vectors and smooth motion curves for robots, games and animation.",
+      "paragraph": "Vector2 and Vector3 classes with operators, dot and cross products, rotation about any axis, projection and reflection, plus the curves that move things smoothly: lerp, smoothstep, minimum jerk, quadratic and cubic Bézier, and a time-constant low-pass filter. Float only, with constexpr constructors so constant tables cost no RAM. Derived from raylib's raymath.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/VectorUtilities-1.0.0.zip",
+      "size": 24065,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T18:23:59Z"
     }
   ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

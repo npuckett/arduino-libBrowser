@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-05T09:08:54.855Z",
+  "enhanced_at": "2026-10-05T10:05:51.705Z",
   "total_libraries": 10081,
-  "index_etag": "W/\"fdce82d97d0d506bd19928f284e18116\"",
-  "index_last_modified": "Mon, 05 Oct 2026 08:59:12 GMT",
+  "index_etag": "W/\"83a1fdaf29562b12c2086906fa7270fe\"",
+  "index_last_modified": "Mon, 05 Oct 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -21900,16 +21900,20 @@
       "repository_name": "AlfredoSystems/AlfredoDShot",
       "repository_url": "https://github.com/AlfredoSystems/AlfredoDShot",
       "name": "AlfredoDShot",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-07-29T10:50:39.382Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-05T10:05:51.607Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-07-29T10:50:39.382Z",
-      "last_seen_sha": "4163661d9052",
+      "last_seen_sha": "e056077883d4",
       "author": "Alfredo Systems",
       "maintainer": "Jacob Williams (jrw4561@gmail.com)",
       "sentence": "Bidirectional DShot for ESP32 with RMT, targeting AM32 ESCs.",
@@ -21918,8 +21922,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoDShot-1.0.0.zip",
-      "size": 34137,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlfredoSystems/AlfredoDShot-1.1.0.zip",
+      "size": 42281,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -96880,27 +96885,32 @@
       "repository_name": "yu911517778-a11y/ErdiLRF",
       "repository_url": "https://github.com/yu911517778-a11y/ErdiLRF",
       "name": "ErdiLRF",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-09-16T22:02:22.244Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-10-05T10:05:51.607Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-16T22:02:22.244Z",
-      "last_seen_sha": "4dec712a883c",
+      "last_seen_sha": "956564a863c3",
       "author": "ERDI TECH LTD <tommy@erdimail.com>",
       "maintainer": "ERDI TECH LTD <tommy@erdimail.com>",
       "sentence": "Driver for ERDI 905 nm laser rangefinder modules (LR/LRF-A1/SPD1200/LRF-H/LRF-VB series) over UART.",
-      "paragraph": "Supports both published ERDI protocol families: the 8-byte 55 AA command/response protocol (LR1000/1200/1500/2000 E-series, LRF1200A1, LRF3000A1, SPD1200 series) and the free-running 5C data-frame protocol (LRF-H and LRF-VB series). Works with HardwareSerial or SoftwareSerial. Every constant is transcribed from the manufacturer manual; per-model units are respected (the VB series reports millimetres, the H series centimetres).",
+      "paragraph": "Select the exact model and confirm its manual revision and delivered interface before wiring or interpreting measurements. A model entry is not a claim of hardware validation. See README for source discrepancies and contact links.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/yu911517778-a11y/ErdiLRF-0.1.0.zip",
-      "size": 15963,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/yu911517778-a11y/ErdiLRF-0.1.1.zip",
+      "size": 16279,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -288869,7 +288879,7 @@
       "repository_name": "ve-cto/SwitchMatrixLib",
       "repository_url": "https://github.com/ve-cto/SwitchMatrixLib",
       "name": "SwitchMatrixLib",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.1",
@@ -288878,21 +288888,37 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-10-03T13:27:31.162Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-10-05T10:05:51.607Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-03T10:02:35.109Z",
-      "last_seen_sha": "29eae14e7c26",
+      "last_seen_sha": "f3693857d841",
       "author": "ve-cto <arkusarkus135@gmail.com>",
       "maintainer": "ve-cto <arkusarkus135@gmail.com>",
       "sentence": "Library for interfacing with button/switch diode matrices.",
       "category": "Signal Input/Output",
       "architectures": [
-        "*"
+        "esp32",
+        "esp8266",
+        "samd",
+        "sam",
+        "mbed",
+        "mbed_nano",
+        "mbed_portenta",
+        "mbed_rp2040",
+        "rp2040",
+        "stm32",
+        "renesas",
+        "renesas_uno",
+        "renesas_portenta"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ve-cto/SwitchMatrixLib-1.0.2.zip",
-      "size": 10803,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ve-cto/SwitchMatrixLib-1.0.3.zip",
+      "size": 10988,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

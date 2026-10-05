@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-05T13:08:30.274Z",
-  "total_libraries": 10082,
-  "index_etag": "W/\"ee55f87048867b471004a3aeb72c230f\"",
-  "index_last_modified": "Mon, 05 Oct 2026 12:59:12 GMT",
+  "enhanced_at": "2026-10-05T14:04:11.111Z",
+  "total_libraries": 10083,
+  "index_etag": "W/\"4fee155ba74afb16b76e1303a7c486aa\"",
+  "index_last_modified": "Mon, 05 Oct 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -190487,16 +190487,20 @@
       "repository_name": "xreef/MPU-9250-DMP_Library",
       "repository_url": "https://github.com/xreef/MPU-9250-DMP_Library",
       "name": "MPU9250-DMP",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-29T18:03:17.493Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-05T14:04:09.468Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-29T18:03:17.493Z",
-      "last_seen_sha": "1465c5bc5a8a",
+      "last_seen_sha": "759eec0715fc",
       "author": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "maintainer": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "sentence": "Driver for InvenSense's MPU-9250 9-DOF IMU (3-axis gyroscope, 3-axis accelerometer & 3-axis magnetometer)",
@@ -190505,8 +190509,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MPU9250_DMP-1.0.0.zip",
-      "size": 101877,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MPU9250_DMP-1.0.1.zip",
+      "size": 306288,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -267685,6 +267690,35 @@
       "github_updated_at": "2026-05-12T10:12:59Z"
     },
     {
+      "repository_name": "SolderedElectronics/SOLDERED-Inputronic-KEYBOARD-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/SOLDERED-Inputronic-KEYBOARD-Arduino-Library",
+      "name": "Soldered Inputronic Keyboard",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-05T14:04:09.468Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T14:04:09.468Z",
+      "last_seen_sha": "c51ac1c1c541",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Library for the Soldered Inputronic Keyboard",
+      "paragraph": "Library for the Soldered Inputronic Keyboard, providing basic functionalities for communicating with the board via I2C",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_Inputronic_Keyboard-1.0.0.zip",
+      "size": 37796,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T10:45:13Z"
+    },
+    {
       "repository_name": "SolderedElectronics/Soldered-GNSS-L86-M33-Arduino-Library",
       "repository_url": "https://github.com/SolderedElectronics/Soldered-GNSS-L86-M33-Arduino-Library",
       "name": "Soldered L86 M33 GNSS Library",
@@ -327096,7 +327130,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9878,
+    "with_github_metadata": 9879,
     "total_dependencies": 5499
   }
 }

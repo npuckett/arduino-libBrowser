@@ -1,6 +1,75 @@
 {
-  "since": "2026-10-05T13:08:30.143Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-05T14:04:09.468Z",
+  "new_libraries": [
+    {
+      "repository_name": "SolderedElectronics/SOLDERED-Inputronic-KEYBOARD-Arduino-Library",
+      "repository_url": "https://github.com/SolderedElectronics/SOLDERED-Inputronic-KEYBOARD-Arduino-Library",
+      "name": "Soldered Inputronic Keyboard",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-05T14:04:09.468Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T14:04:09.468Z",
+      "last_seen_sha": "c51ac1c1c541",
+      "author": "Soldered",
+      "maintainer": "Soldered <soldered@soldered.com>",
+      "sentence": "Library for the Soldered Inputronic Keyboard",
+      "paragraph": "Library for the Soldered Inputronic Keyboard, providing basic functionalities for communicating with the board via I2C",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Soldered_Inputronic_Keyboard-1.0.0.zip",
+      "size": 37796,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T10:45:13Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "xreef/MPU-9250-DMP_Library",
+        "repository_url": "https://github.com/xreef/MPU-9250-DMP_Library",
+        "name": "MPU9250-DMP",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-29T18:03:17.493Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-05T14:04:09.468Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-09-29T18:03:17.493Z",
+        "last_seen_sha": "759eec0715fc",
+        "author": "Renzo Mischianti <renzo.mischianti@gmail.com>",
+        "maintainer": "Renzo Mischianti <renzo.mischianti@gmail.com>",
+        "sentence": "Driver for InvenSense's MPU-9250 9-DOF IMU (3-axis gyroscope, 3-axis accelerometer & 3-axis magnetometer)",
+        "paragraph": "The <a href=\"https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/\">MPU-9250</a> is a system-in-package featuring acceleration full-scales of ±2 / ±4 / ±8 / ±16 (g), rotational full-scales of ±250 / ±500 / ±1000 / ±2000 (°/sec) and a magnetic field full scale of ±4800 µT. The MPU-9250 includes an I<sup>2</sup>C serial bus interface that supports speeds up to 400 kHz. This library is a fork of SparkFun one.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MPU9250_DMP-1.0.1.zip",
+        "size": 306288,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-29T14:39:02Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

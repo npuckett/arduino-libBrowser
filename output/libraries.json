@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-05T11:03:18.044Z",
-  "total_libraries": 10081,
-  "index_etag": "W/\"83a1fdaf29562b12c2086906fa7270fe\"",
-  "index_last_modified": "Mon, 05 Oct 2026 10:59:12 GMT",
+  "enhanced_at": "2026-10-05T12:04:35.423Z",
+  "total_libraries": 10082,
+  "index_etag": "W/\"ee55f87048867b471004a3aeb72c230f\"",
+  "index_last_modified": "Mon, 05 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40329,7 +40329,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.3.5",
@@ -40354,11 +40354,15 @@
         {
           "version": "1.6.0",
           "seen_at": "2026-09-25T12:04:13.691Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-10-05T12:04:34.017Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "5a35a6d655f6",
+      "last_seen_sha": "592ce0a84dba",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
@@ -40371,9 +40375,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.0.zip",
-      "size": 167440,
-      "previous_version": "1.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.1.zip",
+      "size": 170003,
+      "previous_version": "1.6.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -160774,18 +160778,22 @@
       "repository_name": "LKTronic/LKTRONICS-IOT",
       "repository_url": "https://github.com/LKTronic/LKTRONICS-IOT",
       "name": "LKTRONICS-IOT",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-02T08:03:31.067Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-05T12:04:34.017Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-02T08:03:31.067Z",
-      "last_seen_sha": "fb04299595ba",
-      "author": "LK-TRONICS",
-      "maintainer": "LK-TRONICS <support@lktronics.com>",
+      "last_seen_sha": "f6dc1c3c94fe",
+      "author": "LK TRONICS",
+      "maintainer": "LK TRONICS <rad@lk-tronics.com>",
       "sentence": "Universal IoT Library for ESP32, ESP8266, Arduino Uno/Mega with WiFi, and all Arduino boards.",
       "paragraph": "Simplifies IoT development by encapsulating HiveMQ Cloud MQTT, TLS/SSL security, JSON serialization, and automatic reconnects behind simple Virtual Pins (V0-V31) like Blynk.",
       "category": "Communication",
@@ -160796,8 +160804,9 @@
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LKTronic/LKTRONICS_IOT-1.0.0.zip",
-      "size": 13559,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LKTronic/LKTRONICS_IOT-1.0.1.zip",
+      "size": 14664,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -191086,7 +191095,7 @@
       "repository_name": "Zefek/MQTTESP8266",
       "repository_url": "https://github.com/Zefek/MQTTESP8266",
       "name": "MQTTESP8266",
-      "version": "7.0.0",
+      "version": "7.0.1",
       "version_history": [
         {
           "version": "6.1.0",
@@ -191095,11 +191104,15 @@
         {
           "version": "7.0.0",
           "seen_at": "2026-09-16T10:02:46.331Z"
+        },
+        {
+          "version": "7.0.1",
+          "seen_at": "2026-10-05T12:04:34.017Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-26T08:53:13Z",
-      "last_seen_sha": "0ef2f573e640",
+      "last_seen_sha": "135a6fe781af",
       "author": "Petr B.",
       "maintainer": "Petr B.",
       "sentence": "Lightweight MQTT client library for Arduino using ESP8266 or ESP32 AT command firmware.",
@@ -191108,9 +191121,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.0.zip",
-      "size": 67693,
-      "previous_version": "6.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.1.zip",
+      "size": 67712,
+      "previous_version": "7.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -305496,6 +305509,35 @@
       "github_updated_at": "2026-10-02T07:12:06Z"
     },
     {
+      "repository_name": "Tunglam0605/TungLam-Stepper",
+      "repository_url": "https://github.com/Tunglam0605/TungLam-Stepper",
+      "name": "TungLam_Stepper",
+      "version": "0.1.2",
+      "version_history": [
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-10-05T12:04:34.017Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-05T12:04:34.017Z",
+      "last_seen_sha": "ab797d49e4ee",
+      "author": "Nguyen Khac Tung Lam",
+      "maintainer": "Nguyen Khac Tung Lam",
+      "sentence": "Timer1-driven non-blocking STEP/DIR stepper motion for Arduino AVR robotics.",
+      "paragraph": "Provides cached-register STEP pulses, multi-axis scheduling, trapezoidal position motion, controlled stop, two-pass homing, hard/soft limits, microstep and mechanism-unit modeling, A4988/DRV8825 profiles, diagnostics, and safe Timer1 ownership. Designed to coexist with TungLam_PS2 and TungLam_OmniMecanum_4WD on Arduino Mega 2560.",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tunglam0605/TungLam_Stepper-0.1.2.zip",
+      "size": 75918,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-05T09:34:18Z"
+    },
+    {
       "repository_name": "madleech/TurnoutPulser",
       "repository_url": "https://github.com/madleech/TurnoutPulser",
       "name": "TurnoutPulser",
@@ -306046,7 +306088,7 @@
       "repository_name": "Zefek/TX07K-TXC",
       "repository_url": "https://github.com/Zefek/TX07K-TXC",
       "name": "TX07K-TXC",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.4",
@@ -306055,11 +306097,15 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-10-05T12:04:34.017Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-25T08:45:08Z",
-      "last_seen_sha": "6bb65c1a671f",
+      "last_seen_sha": "9562d448f50a",
       "author": "Petr B.",
       "maintainer": "Petr B.",
       "sentence": "Arduino library for reading TX07K-TXC wireless temperature and humidity sensors.",
@@ -306068,13 +306114,13 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/TX07K_TXC-1.0.4.zip",
-      "size": 6150,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/TX07K_TXC-1.0.5.zip",
+      "size": 17327,
       "previous_version": "1.0.4",
       "github_stars": 0,
       "github_forks": 0,
-      "github_updated_at": "2026-07-02T05:08:37Z",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T05:08:37Z"
     },
     {
       "repository_name": "felias-fogg/TXOnlySerial",
@@ -327050,7 +327096,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9877,
+    "with_github_metadata": 9878,
     "total_dependencies": 5499
   }
 }

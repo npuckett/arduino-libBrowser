@@ -1,6 +1,346 @@
 {
-  "since": "2026-10-06T17:02:27.941Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-06T18:03:55.327Z",
+  "new_libraries": [
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_halleffect_50xx_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_halleffect_50xx_library",
+      "name": "DevLab_HallEffect",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-06T18:03:55.327Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-06T18:03:55.327Z",
+      "last_seen_sha": "d2b95aea2989",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the I2C Hall-effect sensor module using the DevLab Device Protocol (DDP).",
+      "paragraph": "DevLab Hall Effect library to detect a magnet through DDP over I2C (Device ID 0x0109).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "DevLabDDP",
+        "DevLab_Interface"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_HallEffect-1.0.1.zip",
+      "size": 12185,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-06T15:19:46Z"
+    },
+    {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_relay_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_relay_library",
+      "name": "DevLab_Relay",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-06T18:03:55.327Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-06T18:03:55.327Z",
+      "last_seen_sha": "8b46ee105bed",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the I2C relay module using the DevLab Device Protocol (DDP).",
+      "paragraph": "DevLab Relay library to switch a relay on, off or toggle it and read its state through DDP over I2C (Device ID 0x0108).",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "DevLabDDP",
+        "DevLab_Interface"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Relay-1.0.0.zip",
+      "size": 9538,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-06T15:27:58Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Blynk-Technologies/blynk-library",
+        "repository_url": "https://github.com/Blynk-Technologies/blynk-library",
+        "name": "Blynk",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-06-17T08:58:49Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-17T08:58:49Z",
+        "last_seen_sha": "d29d73762f4e",
+        "author": "Blynk",
+        "maintainer": "Volodymyr Shymanskyy <vshymanskyi@gmail.com>",
+        "sentence": "Build a smartphone app for your project in minutes!",
+        "paragraph": "It supports  WiFi, Ethernet, Cellular connectivity. Works with over 400 boards like ESP8266, ESP32, Arduino, Raspberry Pi, Particle, etc.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "depends": [
+          "BlynkNcpDriver"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Blynk-Technologies/Blynk-1.4.0.zip",
+        "size": 405485,
+        "previous_version": "1.3.5",
+        "github_stars": 3971,
+        "github_forks": 1401,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-16T13:51:38Z"
+      },
+      "old_version": "1.3.5",
+      "new_version": "1.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "name": "DevLabDDP",
+        "version": "1.0.5",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-05T02:03:41.065Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-10-05T21:02:43.536Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-08-27T23:05:28.812Z",
+        "last_seen_sha": "a14a86759e8c",
+        "author": "UNIT Electronics",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino master for the DevLab Device Protocol.",
+        "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.5.zip",
+        "size": 24305,
+        "previous_version": "1.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-27T17:22:21Z"
+      },
+      "old_version": "1.0.4",
+      "new_version": "1.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "Vean/FansElectronics_DMD8266",
+        "repository_url": "https://github.com/Vean/FansElectronics_DMD8266",
+        "name": "FansElectronics_DMD8266",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-18T08:38:22Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-18T08:38:22Z",
+        "last_seen_sha": "5a389280f4c4",
+        "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
+        "maintainer": "Irfan Indra Kurniawan, S.T <info@fanselectronics.com>",
+        "sentence": "DMD8266 Library for ESP8266 HUB12 & HUB08 Support P10, P4.75, & P7.62.",
+        "paragraph": "DMD8266 Library for ESP8266 HUB12 & HUB08 Support P10, P4.75, & P7.62 Single Color. This library is designed to control DMD (Dot Matrix Display) panels using ESP8266 microcontrollers.",
+        "category": "Display",
+        "architectures": [
+          "esp8266"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_DMD8266-1.0.1.zip",
+        "size": 44684,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-06-18T02:20:46Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/printHelpers",
+        "repository_url": "https://github.com/RobTillaart/printHelpers",
+        "name": "printHelpers",
+        "version": "0.6.1",
+        "version_history": [
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-05-14T08:29:34Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-07-19T10:29:42.143Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-04T18:01:58.042Z"
+          },
+          {
+            "version": "0.6.1",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-05-14T08:29:34Z",
+        "last_seen_sha": "288889067fb0",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library to help formatting data for printing. 64 bit integers (base 10 and 16). Engineering and scientific notation.",
+        "paragraph": "Supports 64 bit integers (base 10 and 16). Engineering and scientific notation. toBytes() for KB MB, HEX and BIN, Roman numbers. Feet and inch. Comma separated integers. Fractions. Units. Fixed length floats.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/printHelpers-0.6.1.zip",
+        "size": 70407,
+        "previous_version": "0.6.0",
+        "github_stars": 21,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-13T18:06:28Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.6.1"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/rotaryDecoder",
+        "repository_url": "https://github.com/RobTillaart/rotaryDecoder",
+        "name": "rotaryDecoder",
+        "version": "0.4.3",
+        "version_history": [
+          {
+            "version": "0.4.0",
+            "seen_at": "2025-07-21T16:28:02Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-09-17T10:02:49.291Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:28:02Z",
+        "last_seen_sha": "25add4f49996",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library for a PCF8574 based rotary decoder.",
+        "paragraph": "Supports up to 4 rotary encoders.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/rotaryDecoder-0.4.3.zip",
+        "size": 21902,
+        "previous_version": "0.4.2",
+        "github_stars": 15,
+        "github_forks": 6,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-17T19:09:48Z"
+      },
+      "old_version": "0.4.2",
+      "new_version": "0.4.3"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/rotaryDecoderSwitch",
+        "repository_url": "https://github.com/RobTillaart/rotaryDecoderSwitch",
+        "name": "rotaryDecoderSwitch",
+        "version": "0.4.3",
+        "version_history": [
+          {
+            "version": "0.4.0",
+            "seen_at": "2025-07-21T16:28:03Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-09-17T10:02:49.291Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:28:03Z",
+        "last_seen_sha": "10a3f4d96927",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library for a PCF8574 based rotary decoder + switch.",
+        "paragraph": "Supports up to 2 rotary encoders with a switch.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/rotaryDecoderSwitch-0.4.3.zip",
+        "size": 20134,
+        "previous_version": "0.4.2",
+        "github_stars": 6,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-11T02:37:14Z"
+      },
+      "old_version": "0.4.2",
+      "new_version": "0.4.3"
+    }
+  ],
   "removed_libraries": []
 }

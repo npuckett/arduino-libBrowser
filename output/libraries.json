@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-06T11:02:20.924Z",
-  "total_libraries": 10094,
-  "index_etag": "W/\"46b7e5f5fb7fc525bd1ae44f702de07b\"",
-  "index_last_modified": "Tue, 06 Oct 2026 10:59:12 GMT",
+  "enhanced_at": "2026-10-06T12:04:01.758Z",
+  "total_libraries": 10095,
+  "index_etag": "W/\"c302c8cab71c7439d42bce8259abc76f\"",
+  "index_last_modified": "Tue, 06 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -213438,6 +213438,35 @@
       "github_updated_at": "2026-01-23T11:40:07Z"
     },
     {
+      "repository_name": "nup002/PCMD3180",
+      "repository_url": "https://github.com/nup002/PCMD3180",
+      "name": "PCMD3180",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-06T12:04:00.367Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-06T12:04:00.367Z",
+      "last_seen_sha": "5b0201e3e0e2",
+      "author": "Magne Lauritzen <mag.lauritzen@gmail.com>",
+      "maintainer": "Magne Lauritzen <mag.lauritzen@gmail.com>",
+      "sentence": "Arduino driver for Texas Instruments PCMD3180 8-channel PDM to TDM/I2S converter",
+      "paragraph": "Control over I2C or SPI. Supports 8-channel PDM microphone input, TDM/I2S/LJ output in master or slave mode, digital volume, gain and phase calibration, decimation filter modes, high-pass, biquad and mixer coefficients, and GPIO/interrupt configuration.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nup002/PCMD3180-0.1.0.zip",
+      "size": 37903,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-06T09:01:31Z"
+    },
+    {
       "repository_name": "tanakamasayuki/PCMFlow",
       "repository_url": "https://github.com/tanakamasayuki/PCMFlow",
       "name": "PCMFlow",
@@ -327575,7 +327604,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9890,
+    "with_github_metadata": 9891,
     "total_dependencies": 5511
   }
 }

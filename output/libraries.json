@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-07T19:03:53.335Z",
-  "total_libraries": 10103,
-  "index_etag": "W/\"8ecb8cc5f48607469fd809aa9e6c9c5b\"",
-  "index_last_modified": "Wed, 07 Oct 2026 18:59:12 GMT",
+  "enhanced_at": "2026-10-07T20:03:24.584Z",
+  "total_libraries": 10105,
+  "index_etag": "W/\"6148b8caec081ddbe8e47050131725d8\"",
+  "index_last_modified": "Wed, 07 Oct 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -75600,6 +75600,39 @@
       "github_updated_at": "2026-08-05T18:19:29Z"
     },
     {
+      "repository_name": "UNIT-Electronics-MX/unit_devlab_photointerrupter_library",
+      "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_photointerrupter_library",
+      "name": "DevLab_PhotoInterrupter",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-07T20:03:21.662Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-07T20:03:21.662Z",
+      "last_seen_sha": "fec2169ee76f",
+      "author": "UNIT Electronics MX",
+      "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+      "sentence": "Arduino library for the 8ITR523S photo interrupter module using the DevLab Device Protocol (DDP) over I2C.",
+      "paragraph": "DevLab PhotoInterrupter library to read a slotted photo interrupter as a digital blocked/free state, a pulse counter and a 12-bit analog level from a PY32F003 node through DDP over I2C (Device ID 0x0112).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "DevLabDDP",
+        "DevLab_Interface"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_PhotoInterrupter-1.0.0.zip",
+      "size": 15700,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-07T17:33:26Z"
+    },
+    {
       "repository_name": "UNIT-Electronics-MX/unit_devlab_relay_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_relay_library",
       "name": "DevLab_Relay",
@@ -132876,6 +132909,40 @@
       "download_url": "http://example.com/"
     },
     {
+      "repository_name": "sakshyambastakoti/Hawa-Arduino-Library",
+      "repository_url": "https://github.com/sakshyambastakoti/Hawa-Arduino-Library",
+      "name": "Hawa",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-07T20:03:21.662Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-07T20:03:21.662Z",
+      "last_seen_sha": "6374f8b18a4b",
+      "author": "Sakshyam Bastakoti",
+      "maintainer": "Sakshyam Bastakoti <sakxam.xeetri@gmail.com>",
+      "sentence": "Zero-friction Web Serial, Cloudflare WebSocket, and Over-The-Air (OTA) platform for ESP32 and ESP8266.",
+      "paragraph": "Hawa seamlessly connects microcontrollers to the Hawa Web Dashboard. Features include persistent non-volatile storage (NVS) provisioning from the web browser, dual-mode Over-The-Air firmware updates (LAN direct HTTP and Cloudflare HTTPS), real-time remote serial streaming, and cloud telemetry.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "WebSockets"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sakshyambastakoti/Hawa-1.0.0.zip",
+      "size": 14831,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-07T16:01:15Z"
+    },
+    {
       "repository_name": "bjoernboeckle/HC_SR04",
       "repository_url": "https://github.com/bjoernboeckle/HC_SR04",
       "name": "HC_SR04",
@@ -138029,7 +138096,7 @@
       "repository_name": "TexhFexLabs/HydroNode-Library",
       "repository_url": "https://github.com/TexhFexLabs/HydroNode-Library",
       "name": "HydroNode-Library",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -138070,11 +138137,15 @@
         {
           "version": "1.7.0",
           "seen_at": "2026-10-05T18:03:44.750Z"
+        },
+        {
+          "version": "1.7.1",
+          "seen_at": "2026-10-07T20:03:21.662Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-01-02T21:37:12Z",
-      "last_seen_sha": "56d164d7e6cc",
+      "last_seen_sha": "bb7be665154e",
       "author": "Felix Knoll",
       "maintainer": "Felix Knoll <contact@hydronode.tech>",
       "sentence": "Send sensor data and receive backend events for HydroNode projects.",
@@ -138090,9 +138161,9 @@
         "ArduinoHttpClient",
         "WiFiManager"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.7.0.zip",
-      "size": 46189,
-      "previous_version": "1.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.7.1.zip",
+      "size": 46575,
+      "previous_version": "1.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -158141,7 +158212,7 @@
       "repository_name": "phillipweinstock/libsdi12",
       "repository_url": "https://github.com/phillipweinstock/libsdi12",
       "name": "libsdi12",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "version_history": [
         {
           "version": "0.3.0",
@@ -158166,22 +158237,26 @@
         {
           "version": "0.5.3",
           "seen_at": "2026-08-25T06:06:31.584Z"
+        },
+        {
+          "version": "0.5.4",
+          "seen_at": "2026-10-07T20:03:21.662Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-05-07T08:31:46Z",
-      "last_seen_sha": "b870ffd0030c",
+      "last_seen_sha": "4f20064bfceb",
       "author": "Phillip Weinstock",
       "maintainer": "Phillip Weinstock",
       "sentence": "The most complete, portable SDI-12 v1.4 protocol library.",
-      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 192 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
+      "paragraph": "Pure C implementation covering every command in the SDI-12 v1.4 specification. Supports both sensor (slave) and master (data recorder) roles with zero dependencies. No malloc, no HAL — hardware abstracted via callbacks. Includes beginner-friendly macros (sdi12_easy.h), 195 unit tests, and works on any platform: Arduino, ESP32, STM32, Cortex-M, Linux, Windows. See sdi12_easy.h for a quick-start API.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.3.zip",
-      "size": 140890,
-      "previous_version": "0.5.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/phillipweinstock/libsdi12-0.5.4.zip",
+      "size": 143017,
+      "previous_version": "0.5.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -158247,7 +158322,7 @@
       "repository_name": "ewpa/LibSSH-ESP32",
       "repository_url": "https://github.com/ewpa/LibSSH-ESP32",
       "name": "LibSSH-ESP32",
-      "version": "5.9.0",
+      "version": "5.10.0",
       "version_history": [
         {
           "version": "5.8.0",
@@ -158260,11 +158335,15 @@
         {
           "version": "5.9.0",
           "seen_at": "2026-07-21T20:24:52.460Z"
+        },
+        {
+          "version": "5.10.0",
+          "seen_at": "2026-10-07T20:03:21.662Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-12T08:41:33Z",
-      "last_seen_sha": "88a47a000501",
+      "last_seen_sha": "8e077800c79e",
       "author": "Ewan Parker",
       "maintainer": "Ewan Parker",
       "sentence": "SSH client and SSH server library for ESP32 based on libssh.",
@@ -158273,9 +158352,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ewpa/LibSSH_ESP32-5.9.0.zip",
-      "size": 607418,
-      "previous_version": "5.8.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ewpa/LibSSH_ESP32-5.10.0.zip",
+      "size": 607996,
+      "previous_version": "5.9.0",
       "github_stars": 367,
       "github_forks": 52,
       "github_language": "C",
@@ -328050,7 +328129,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9899,
-    "total_dependencies": 5531
+    "with_github_metadata": 9901,
+    "total_dependencies": 5535
   }
 }

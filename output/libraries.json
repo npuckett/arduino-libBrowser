@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-07T07:10:36.522Z",
+  "enhanced_at": "2026-10-07T08:04:27.505Z",
   "total_libraries": 10100,
-  "index_etag": "W/\"292f997dc393b0983a5712f8656362bc\"",
-  "index_last_modified": "Wed, 07 Oct 2026 06:59:12 GMT",
+  "index_etag": "W/\"7399436a76559917b6ffec1c170f6b93\"",
+  "index_last_modified": "Wed, 07 Oct 2026 07:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -35704,7 +35704,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -35753,11 +35753,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-10-03T22:54:30.985Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-10-07T08:04:27.357Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "ba60bb82a574",
+      "last_seen_sha": "7be715ad00a2",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -35774,9 +35778,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.7.0.zip",
-      "size": 164321,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.8.0.zip",
+      "size": 164652,
+      "previous_version": "0.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -38379,16 +38383,20 @@
       "repository_name": "soosp/AsyncWiFiPortal",
       "repository_url": "https://github.com/soosp/AsyncWiFiPortal",
       "name": "AsyncWiFiPortal",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-08-27T00:13:10.829Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-07T08:04:27.357Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "80fba522e64a",
+      "last_seen_sha": "73cd12a5915b",
       "author": "soosp",
       "maintainer": "soosp",
       "sentence": "Reboot-into-portal Wi-Fi recovery captive portal for ESP32 and ESP8266.",
@@ -38405,8 +38413,9 @@
         "NetworkProfile",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.1.0.zip",
-      "size": 39487,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.2.0.zip",
+      "size": 40408,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -44884,26 +44893,31 @@
       "repository_name": "Zefek/BelWattmeter",
       "repository_url": "https://github.com/Zefek/BelWattmeter",
       "name": "BelWattmeter",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-13T20:02:30.069Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-07T08:04:27.357Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-13T20:02:30.069Z",
-      "last_seen_sha": "f2a4d5688d76",
+      "last_seen_sha": "3b9782a51489",
       "author": "Petr B.",
       "maintainer": "Petr B.",
       "sentence": "Arduino library for reading BEL single-phase energy meters over a serial line.",
-      "paragraph": "The BelWattmeter Arduino library parses the framed serial protocol of BEL single-phase energy meters (9600 baud) and decodes voltage, current, instantaneous power and cumulative consumption. It handles frame synchronization, byte unescaping and CRC validation, rejects out-of-range readings, and running-averages voltage, current and power between reads. The serial stream is injected via the constructor, so any HardwareSerial or SoftwareSerial port can be used. Ideal for photovoltaic and appliance energy monitoring.",
+      "paragraph": "The BelWattmeter Arduino library parses the framed serial protocol of BEL single-phase energy meters (9600 baud) and decodes voltage, current, instantaneous power and cumulative consumption. It handles frame synchronization, byte unescaping and CRC validation, decodes voltage, current and power as signed values so reverse flow is preserved, rejects out-of-range readings, and running-averages voltage, current and power between reads. The serial stream is injected via the constructor, so any HardwareSerial or SoftwareSerial port can be used. Ideal for photovoltaic and appliance energy monitoring.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/BelWattmeter-1.0.0.zip",
-      "size": 22366,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/BelWattmeter-1.1.0.zip",
+      "size": 30485,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -52318,16 +52332,20 @@
       "repository_name": "thepudding/bofu",
       "repository_url": "https://github.com/thepudding/bofu",
       "name": "Bofu",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-07-21T16:04:27Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-07T08:04:27.357Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:04:27Z",
-      "last_seen_sha": "f80396bd51cb",
+      "last_seen_sha": "7c170f521535",
       "author": "thepudding, akirjavainen",
       "maintainer": "thepudding",
       "sentence": "A library to send and receive bofu blinds controller messages.",
@@ -52336,11 +52354,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thepudding/Bofu-1.0.1.zip",
+      "size": 19643,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2025-09-08T08:52:30Z",
-      "download_url": "https://github.com/thepudding/bofu"
+      "github_updated_at": "2025-09-08T08:52:30Z"
     },
     {
       "repository_name": "zischknall/BohleBots_BNO055",
@@ -199600,7 +199620,7 @@
       "repository_name": "soosp/NetworkManager",
       "repository_url": "https://github.com/soosp/NetworkManager",
       "name": "NetworkManager",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -199637,11 +199657,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-08-26T22:58:36.675Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-10-07T08:04:27.357Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "16639957e6c8",
+      "last_seen_sha": "b32f03add5a3",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Priority-based network connection manager with automatic fallback.",
@@ -199659,9 +199683,9 @@
         "EEPROMPreferences",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.3.0.zip",
-      "size": 150341,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.0.zip",
+      "size": 152666,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,6 +1,97 @@
 {
-  "since": "2026-10-07T13:08:23.613Z",
+  "since": "2026-10-07T14:02:37.638Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-HUB",
+        "repository_url": "https://github.com/m5stack/M5Unit-HUB",
+        "name": "M5Unit-HUB",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-04-03T07:44:35Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-10-07T14:02:37.638Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-03T07:44:35Z",
+        "last_seen_sha": "da18c00f64fd",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack UNIT HUB using M5UnitUnified",
+        "paragraph": "Supports PaHub (PCA9548AP, I2C mux) and PbHub (STM32F030, Port.B expander).",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_HUB-0.4.0.zip",
+        "size": 73896,
+        "previous_version": "0.3.1",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-03T01:26:23Z"
+      },
+      "old_version": "0.3.1",
+      "new_version": "0.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "TcMenu/TaskManagerIO",
+        "repository_url": "https://github.com/TcMenu/TaskManagerIO",
+        "name": "TaskManagerIO",
+        "version": "5.0.1",
+        "version_history": [
+          {
+            "version": "1.5.4",
+            "seen_at": "2026-05-11T08:28:13Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "5.0.1",
+            "seen_at": "2026-10-07T14:02:37.638Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-11T08:28:13Z",
+        "last_seen_sha": "50a8c990c48d",
+        "author": "davetcc",
+        "maintainer": "https://www.thecoderscorner.com",
+        "sentence": "Task manager for Arduino and mbed with marshalled interrupts, first class support for events and timed execution. Thread safe for RTOS use.",
+        "paragraph": "Simple efficient task management with interrupt marshalling. Provides the ability to schedule things to be done either at certain times or on event triggers. This library can also marshall interrupts into task manager",
+        "category": "Other",
+        "architectures": [],
+        "depends": [
+          "TcMenuLog"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/TaskManagerIO-5.0.1.zip",
+        "size": 131240,
+        "previous_version": "5.0.0",
+        "github_stars": 136,
+        "github_forks": 14,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-10T14:48:37Z"
+      },
+      "old_version": "5.0.0",
+      "new_version": "5.0.1"
+    }
+  ],
   "removed_libraries": []
 }

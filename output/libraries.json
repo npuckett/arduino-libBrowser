@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-07T11:02:16.865Z",
+  "enhanced_at": "2026-10-07T12:04:29.220Z",
   "total_libraries": 10101,
-  "index_etag": "W/\"7e1d074dbc4dabfd3119ddb03242d5ff\"",
-  "index_last_modified": "Wed, 07 Oct 2026 10:59:12 GMT",
+  "index_etag": "W/\"1bdaf092ee6b6aae669175102e7a5cc4\"",
+  "index_last_modified": "Wed, 07 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -37930,16 +37930,20 @@
       "repository_name": "SkaFUU/AsyncWebOTA",
       "repository_url": "https://github.com/SkaFUU/AsyncWebOTA",
       "name": "AsyncWebOTA",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2025-07-21T16:03:24Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-07T12:04:29.113Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:03:24Z",
-      "last_seen_sha": "61daf372f96e",
+      "last_seen_sha": "16100c34f4cc",
       "author": "SkaFUU",
       "maintainer": "stefl.michael.ms@gmail.com",
       "sentence": "AsyncWebOTA provides a web-based OTA update interface with readouts and buttons.",
@@ -37950,11 +37954,16 @@
         "esp32",
         "rp2040"
       ],
+      "depends": [
+        "ESP Async WebServer"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SkaFUU/AsyncWebOTA-1.1.0.zip",
+      "size": 9804,
+      "previous_version": "1.0.0",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-17T18:10:49Z",
-      "download_url": "https://github.com/SkaFUU/AsyncWebOTA"
+      "github_updated_at": "2026-03-17T18:10:49Z"
     },
     {
       "repository_name": "circuitcode/AsyncWebSerial",
@@ -40441,7 +40450,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "version_history": [
         {
           "version": "1.3.5",
@@ -40470,11 +40479,15 @@
         {
           "version": "1.6.1",
           "seen_at": "2026-10-05T12:04:34.017Z"
+        },
+        {
+          "version": "1.6.2",
+          "seen_at": "2026-10-07T12:04:29.113Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "592ce0a84dba",
+      "last_seen_sha": "ad90ebbd7226",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
@@ -40487,9 +40500,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.1.zip",
-      "size": 170003,
-      "previous_version": "1.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.2.zip",
+      "size": 172333,
+      "previous_version": "1.6.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -65604,34 +65617,40 @@
       "repository_name": "ConsentiumIoT/ConsentiumThings",
       "repository_url": "https://github.com/ConsentiumIoT/ConsentiumThings",
       "name": "ConsentiumThings",
-      "version": "2.4.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.4.1",
           "seen_at": "2026-03-13T07:56:23Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-10-07T12:04:29.113Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-13T07:56:23Z",
-      "last_seen_sha": "05dd4fd2a04c",
+      "last_seen_sha": "9ce4d1315e42",
       "author": "Consentium IoT",
       "maintainer": "Consentium IoT<official@consentiumiot.com>",
       "sentence": "Consentium Things IoT board.",
-      "paragraph": "This library runs IoT applications on ESP 8266, ESP 32, Raspberry Pi Pico W and AVR microcontrollers.",
+      "paragraph": "This library runs IoT applications on ESP 32 class of microcontrollers.",
       "category": "Data Processing",
       "architectures": [
-        "*"
+        "esp32"
       ],
-      "github_stars": 2,
-      "github_forks": 2,
-      "github_language": "C++",
-      "github_updated_at": "2026-03-12T09:21:32Z",
       "depends": [
         "ArduinoJson",
         "Adafruit ADS1X15",
         "WiFiManager"
       ],
-      "download_url": "https://github.com/ConsentiumIoT/ConsentiumThings"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ConsentiumIoT/ConsentiumThings-3.0.0.zip",
+      "size": 29565,
+      "previous_version": "2.4.1",
+      "github_stars": 2,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-03-12T09:21:32Z"
     },
     {
       "repository_name": "akkoyun/Console",
@@ -144125,7 +144144,7 @@
       "repository_name": "TcMenu/IoAbstraction",
       "repository_url": "https://github.com/TcMenu/IoAbstraction",
       "name": "IoAbstraction",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "version_history": [
         {
           "version": "4.5.3",
@@ -144134,11 +144153,15 @@
         {
           "version": "5.0.0",
           "seen_at": "2026-10-01T10:03:11.455Z"
+        },
+        {
+          "version": "5.0.1",
+          "seen_at": "2026-10-07T12:04:29.113Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-11T08:28:09Z",
-      "last_seen_sha": "75ab9d25863d",
+      "last_seen_sha": "a485d35d3a33",
       "author": "tcmenu",
       "maintainer": "https://github.com/TcMenu",
       "sentence": "Treat PCF8574, MCP23017 and Shift registers like pins, matrix keypad, touch screen handler,  button press and rotary encoder management (switches) on any supported IO (including DfRobot & Joysticks) with event handling, interchangable AVR/I2C(AT24) EEPROMs.",
@@ -144149,9 +144172,9 @@
         "TaskManagerIO",
         "TcMenuLog"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/IoAbstraction-5.0.0.zip",
-      "size": 945910,
-      "previous_version": "4.5.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/IoAbstraction-5.0.1.zip",
+      "size": 945913,
+      "previous_version": "5.0.0",
       "github_stars": 164,
       "github_forks": 33,
       "github_language": "C++",
@@ -327928,6 +327951,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9897,
-    "total_dependencies": 5530
+    "total_dependencies": 5531
   }
 }

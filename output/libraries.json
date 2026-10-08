@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T09:05:47.637Z",
-  "total_libraries": 10107,
-  "index_etag": "W/\"b3d5db52f77673edc22d108c149c077e\"",
-  "index_last_modified": "Thu, 08 Oct 2026 08:59:12 GMT",
+  "enhanced_at": "2026-10-08T10:03:28.120Z",
+  "total_libraries": 10108,
+  "index_etag": "W/\"868e3ec72bcea5f67178c311baa7b44d\"",
+  "index_last_modified": "Thu, 08 Oct 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -97371,6 +97371,36 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-09-16T18:19:21Z"
+    },
+    {
+      "repository_name": "erdilrf/erdilrf-lrf-arduino",
+      "repository_url": "https://github.com/erdilrf/erdilrf-lrf-arduino",
+      "name": "ERDILRF_LRF",
+      "version": "0.2.3",
+      "version_history": [
+        {
+          "version": "0.2.3",
+          "seen_at": "2026-10-08T10:03:26.589Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-08T10:03:26.589Z",
+      "last_seen_sha": "b92d83cce4ad",
+      "author": "ERDILRF",
+      "maintainer": "ERDILRF <dev@erdilrf.com>",
+      "sentence": "Host driver for ERDI 905 nm laser rangefinder modules over UART.",
+      "paragraph": "Implements the documented 8-byte UART frame protocol of the LR1000E2 family: single-shot and continuous ranging, stop, angle measurement, baud-rate selection and LD constant-on mode. Handles the two different checksum ranges used by transmit and response frames. Header-only, no dependencies, works on any board with a Stream.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/erdilrf/ERDILRF_LRF-0.2.3.zip",
+      "size": 9984,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-08T08:56:19Z"
     },
     {
       "repository_name": "septentrio-gnss/Septentrio_Arduino_library",
@@ -207292,7 +207322,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.30",
+      "version": "0.0.31",
       "version_history": [
         {
           "version": "0.0.2",
@@ -207369,11 +207399,15 @@
         {
           "version": "0.0.30",
           "seen_at": "2026-10-08T04:04:36.788Z"
+        },
+        {
+          "version": "0.0.31",
+          "seen_at": "2026-10-08T10:03:26.589Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "ccdb3c7be6ac",
+      "last_seen_sha": "df7005c3a237",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -207382,9 +207416,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.30.zip",
-      "size": 825144,
-      "previous_version": "0.0.28",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.31.zip",
+      "size": 830583,
+      "previous_version": "0.0.30",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -328257,7 +328291,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9903,
+    "with_github_metadata": 9904,
     "total_dependencies": 5538
   }
 }

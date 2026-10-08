@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T03:06:20.338Z",
+  "enhanced_at": "2026-10-08T04:04:36.898Z",
   "total_libraries": 10107,
-  "index_etag": "W/\"1e7b6095b38e67764408e0dd6a226772\"",
-  "index_last_modified": "Thu, 08 Oct 2026 02:59:12 GMT",
+  "index_etag": "W/\"c0d193676af95b20040d5f1c0c07098d\"",
+  "index_last_modified": "Thu, 08 Oct 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -174693,16 +174693,20 @@
       "repository_name": "maxwelltrack/maxwelltrack-arduino",
       "repository_url": "https://github.com/maxwelltrack/maxwelltrack-arduino",
       "name": "MaxwellTrack",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-10-08T02:13:18.605Z"
+        },
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-10-08T04:04:36.788Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-08T02:13:18.605Z",
-      "last_seen_sha": "dd4b00222952",
+      "last_seen_sha": "e54f147e6830",
       "author": "MaxwellTrack",
       "maintainer": "MaxwellTrack <support@maxwelltrack.com>",
       "sentence": "Connect Arduino boards to the MaxwellTrack IoT Cloud over WiFi or cellular (GSM/LTE).",
@@ -174716,11 +174720,9 @@
         "samd",
         "avr"
       ],
-      "depends": [
-        "PubSubClient"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.2.0.zip",
-      "size": 1006420,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.3.0.zip",
+      "size": 1222981,
+      "previous_version": "1.2.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -207286,7 +207288,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.28",
+      "version": "0.0.30",
       "version_history": [
         {
           "version": "0.0.2",
@@ -207359,11 +207361,15 @@
         {
           "version": "0.0.28",
           "seen_at": "2026-10-02T08:03:31.067Z"
+        },
+        {
+          "version": "0.0.30",
+          "seen_at": "2026-10-08T04:04:36.788Z"
         }
       ],
-      "release_count": 18,
+      "release_count": 19,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "76eb4fcadc45",
+      "last_seen_sha": "ccdb3c7be6ac",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -207372,9 +207378,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.28.zip",
-      "size": 521435,
-      "previous_version": "0.0.27",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.30.zip",
+      "size": 825144,
+      "previous_version": "0.0.28",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -328248,6 +328254,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9903,
-    "total_dependencies": 5539
+    "total_dependencies": 5538
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T19:03:36.741Z",
+  "enhanced_at": "2026-10-08T20:03:02.072Z",
   "total_libraries": 10111,
-  "index_etag": "W/\"7080907732cdc54cffe2f6ee7bf1fee4\"",
-  "index_last_modified": "Thu, 08 Oct 2026 18:59:12 GMT",
+  "index_etag": "W/\"ca586847577c86704ea724bde7ddc1ee\"",
+  "index_last_modified": "Thu, 08 Oct 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -233941,16 +233941,20 @@
       "repository_name": "soosp/RangeMonitor",
       "repository_url": "https://github.com/soosp/RangeMonitor",
       "name": "RangeMonitor",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-10-08T16:03:20.184Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-08T20:03:01.929Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-08T16:03:20.184Z",
-      "last_seen_sha": "f40b85bcf232",
+      "last_seen_sha": "b48d84e234c3",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Range monitor for a scalar measurement: spike filter, time-based EMA, soft limits with alarm delay, hard limits, fault detection.",
@@ -233965,8 +233969,9 @@
       "depends": [
         "RunningStatistics"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.1.0.zip",
-      "size": 38940,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.2.0.zip",
+      "size": 39434,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -241423,7 +241428,7 @@
       "repository_name": "dejwk/roo_control",
       "repository_url": "https://github.com/dejwk/roo_control",
       "name": "roo_control",
-      "version": "1.2.9",
+      "version": "1.2.10",
       "version_history": [
         {
           "version": "1.2.2",
@@ -241448,11 +241453,15 @@
         {
           "version": "1.2.9",
           "seen_at": "2026-09-30T22:02:41.257Z"
+        },
+        {
+          "version": "1.2.10",
+          "seen_at": "2026-10-08T20:03:01.929Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2025-11-13T07:15:07Z",
-      "last_seen_sha": "d61a990d0fab",
+      "last_seen_sha": "d763f653bc24",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Arduino relays, port extenders, debouncing, retries: common abstractions and implementations.",
@@ -241466,9 +241475,9 @@
         "roo_quantity",
         "roo_scheduler"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_control-1.2.9.zip",
-      "size": 29520,
-      "previous_version": "1.2.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_control-1.2.10.zip",
+      "size": 31380,
+      "previous_version": "1.2.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -241669,7 +241678,7 @@
       "repository_name": "dejwk/roo_io",
       "repository_url": "https://github.com/dejwk/roo_io",
       "name": "roo_io",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "version_history": [
         {
           "version": "2.2.3",
@@ -241698,11 +241707,15 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "2.4.1",
+          "seen_at": "2026-10-08T20:03:01.929Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-05T08:30:06Z",
-      "last_seen_sha": "d2be4ee81b6e",
+      "last_seen_sha": "a20fd9283229",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Unified I/O library for microcontrollers.",
@@ -241716,9 +241729,9 @@
         "roo_logging",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.4.0.zip",
-      "size": 265740,
-      "previous_version": "2.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_io-2.4.1.zip",
+      "size": 265850,
+      "previous_version": "2.4.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -270690,7 +270703,7 @@
       "repository_name": "forgevolt/SoundEngine",
       "repository_url": "https://github.com/forgevolt/SoundEngine",
       "name": "SoundEngine",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -270703,11 +270716,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-17T22:02:27.060Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-08T20:03:01.929Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-08-05T18:28:57.800Z",
-      "last_seen_sha": "045919e692bb",
+      "last_seen_sha": "27d354e8a252",
       "author": "Christoph Streit <christoph.streit@gmail.com>",
       "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
       "sentence": "Play short WAV sound effects on an ESP32 through an I2S DAC.",
@@ -270717,9 +270734,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.1.0.zip",
-      "size": 573357,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/SoundEngine-1.1.1.zip",
+      "size": 573605,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

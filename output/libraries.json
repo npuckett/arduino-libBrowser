@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T11:02:37.937Z",
+  "enhanced_at": "2026-10-08T12:04:02.165Z",
   "total_libraries": 10108,
-  "index_etag": "W/\"868e3ec72bcea5f67178c311baa7b44d\"",
-  "index_last_modified": "Thu, 08 Oct 2026 10:59:12 GMT",
+  "index_etag": "W/\"1da0a17ab795ec19d9412b7c60a991ec\"",
+  "index_last_modified": "Thu, 08 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -20967,7 +20967,7 @@
       "repository_name": "gravitech-engineer/AIS_IoT_4G",
       "repository_url": "https://github.com/gravitech-engineer/AIS_IoT_4G",
       "name": "AIS 4G board",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "version_history": [
         {
           "version": "1.3.1",
@@ -20996,11 +20996,15 @@
         {
           "version": "1.4.2",
           "seen_at": "2026-09-30T12:04:32.327Z"
+        },
+        {
+          "version": "1.4.3",
+          "seen_at": "2026-10-08T12:04:02.053Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2025-07-21T16:15:20Z",
-      "last_seen_sha": "1fb47e7da9f1",
+      "last_seen_sha": "cc9d91564f91",
       "author": "AIS",
       "maintainer": "Gravitech Thai",
       "sentence": "Enables AIS 4G network connection use by AIS 4G Board",
@@ -21009,9 +21013,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/gravitech-engineer/AIS_4G_board-1.4.2.zip",
-      "size": 801762,
-      "previous_version": "1.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gravitech-engineer/AIS_4G_board-1.4.3.zip",
+      "size": 805409,
+      "previous_version": "1.4.2",
       "github_stars": 25,
       "github_forks": 17,
       "github_language": "C++",
@@ -64429,7 +64433,7 @@
       "repository_name": "CodexPad/codex_pad_arduino_lib",
       "repository_url": "https://github.com/CodexPad/codex_pad_arduino_lib",
       "name": "CodexPad",
-      "version": "3.1.2",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "3.0.0",
@@ -64442,11 +64446,15 @@
         {
           "version": "3.1.2",
           "seen_at": "2026-09-29T12:04:13.633Z"
+        },
+        {
+          "version": "4.0.0",
+          "seen_at": "2026-10-08T12:04:02.053Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-24T08:47:00Z",
-      "last_seen_sha": "b55d1121a597",
+      "last_seen_sha": "96dde9bab9cb",
       "author": "cyfney-anka",
       "maintainer": "cyfney-anka@qq.com",
       "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
@@ -64457,11 +64465,12 @@
       ],
       "depends": [
         "NimBLE-Arduino",
-        "GamepadInput"
+        "GamepadInput",
+        "cyfney-cpp"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-3.1.2.zip",
-      "size": 612932,
-      "previous_version": "3.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-4.0.0.zip",
+      "size": 597844,
+      "previous_version": "3.1.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -119068,7 +119077,7 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.3.9",
+      "version": "0.3.10",
       "version_history": [
         {
           "version": "0.2.0",
@@ -119097,11 +119106,15 @@
         {
           "version": "0.3.9",
           "seen_at": "2026-10-03T14:48:43.251Z"
+        },
+        {
+          "version": "0.3.10",
+          "seen_at": "2026-10-08T12:04:02.053Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "17a6f12f84f9",
+      "last_seen_sha": "3ca9fcc23cc0",
       "author": "Flova",
       "maintainer": "Flova",
       "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
@@ -119111,9 +119124,13 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.9.zip",
-      "size": 207162,
-      "previous_version": "0.3.7",
+      "depends": [
+        "ArduinoJson",
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.10.zip",
+      "size": 220254,
+      "previous_version": "0.3.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -328292,6 +328309,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9904,
-    "total_dependencies": 5538
+    "total_dependencies": 5541
   }
 }

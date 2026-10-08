@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T17:03:02.644Z",
-  "total_libraries": 10110,
-  "index_etag": "W/\"6b9a1269d151de90f94c07ec89d5ab19\"",
-  "index_last_modified": "Thu, 08 Oct 2026 16:59:12 GMT",
+  "enhanced_at": "2026-10-08T18:03:24.824Z",
+  "total_libraries": 10111,
+  "index_etag": "W/\"7080907732cdc54cffe2f6ee7bf1fee4\"",
+  "index_last_modified": "Thu, 08 Oct 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81145,7 +81145,7 @@
       "repository_name": "arkhipenko/Dictionary",
       "repository_url": "https://github.com/arkhipenko/Dictionary",
       "name": "Dictionary",
-      "version": "3.6.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "3.5.0",
@@ -81154,22 +81154,26 @@
         {
           "version": "3.6.0",
           "seen_at": "2026-07-18T22:14:46.760Z"
+        },
+        {
+          "version": "4.0.0",
+          "seen_at": "2026-10-08T18:03:23.399Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:08:26Z",
-      "last_seen_sha": "caf15c7f9f43",
+      "last_seen_sha": "e289834dd2db",
       "author": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
       "maintainer": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
-      "sentence": "A dictionary data type with a fast b-tree based search",
-      "paragraph": "A dictionary data type with a fast b-tree based search (based on crc32)",
+      "sentence": "A key-value dictionary for microcontrollers: typed values, insertion order, hash index, JSON.",
+      "paragraph": "One heap block per pair, an optional hash index, JSON output and a lenient JSON loader, optional built-in value compression, PSRAM support on ESP32.",
       "category": "Uncategorized",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/Dictionary-3.6.0.zip",
-      "size": 85307,
-      "previous_version": "3.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/Dictionary-4.0.0.zip",
+      "size": 79191,
+      "previous_version": "3.6.0",
       "github_stars": 64,
       "github_forks": 11,
       "github_language": "C",
@@ -102754,6 +102758,38 @@
       "github_forks": 250,
       "github_language": "C++",
       "github_updated_at": "2026-07-01T20:49:11Z"
+    },
+    {
+      "repository_name": "Aditya2026US/ESP32-BLE-Keyboard-Client",
+      "repository_url": "https://github.com/Aditya2026US/ESP32-BLE-Keyboard-Client",
+      "name": "ESP32-BLE-Keyboard-Client",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-08T18:03:23.399Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-08T18:03:23.399Z",
+      "last_seen_sha": "8694359646c8",
+      "author": "Aditya2026US",
+      "maintainer": "Aditya2026US",
+      "sentence": "A BLE HID Client library for ESP32 to connect to Bluetooth Low Energy keyboards.",
+      "paragraph": "Connects to BLE keyboards and keypads (BLE Central / HID Host), handles pairing, security encryption, and parses HID reports using NimBLE.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Aditya2026US/ESP32_BLE_Keyboard_Client-1.0.0.zip",
+      "size": 18731,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-08T15:11:30Z"
     },
     {
       "repository_name": "max22-/ESP32-BLE-MIDI",
@@ -132618,16 +132654,20 @@
       "repository_name": "hii-nice-2-meet-u/HANUMAN_32_mini",
       "repository_url": "https://github.com/hii-nice-2-meet-u/HANUMAN_32_mini",
       "name": "HANUMAN_32_mini",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "version_history": [
         {
           "version": "0.1.4",
           "seen_at": "2026-06-03T09:15:20Z"
+        },
+        {
+          "version": "0.1.5",
+          "seen_at": "2026-10-08T18:03:23.399Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T09:15:20Z",
-      "last_seen_sha": "02eb00f4e462",
+      "last_seen_sha": "f0c2b2ecc7e9",
       "author": "hii-nice-2-meet-u <0x0.whitecat@gmail.com>",
       "maintainer": "hii-nice-2-meet-u <0x0.whitecat@gmail.com>",
       "sentence": "Arduino Library for HANUMAN-32 mini",
@@ -132636,11 +132676,13 @@
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hii-nice-2-meet-u/HANUMAN_32_mini-0.1.5.zip",
+      "size": 6898347,
+      "previous_version": "0.1.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-06-03T02:06:58Z",
-      "download_url": "https://github.com/hii-nice-2-meet-u/HANUMAN_32_mini"
+      "github_updated_at": "2026-06-03T02:06:58Z"
     },
     {
       "repository_name": "Chanatip112/HanumanMini",
@@ -328404,7 +328446,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9906,
-    "total_dependencies": 5542
+    "with_github_metadata": 9907,
+    "total_dependencies": 5543
   }
 }

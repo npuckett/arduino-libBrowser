@@ -1,6 +1,53 @@
 {
-  "since": "2026-10-08T07:12:51.505Z",
+  "since": "2026-10-08T08:05:31.146Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "LKTronic/LKTRONICS-IOT",
+        "repository_url": "https://github.com/LKTronic/LKTRONICS-IOT",
+        "name": "LKTRONICS-IOT",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-05T12:04:34.017Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-08T08:05:31.146Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-02T08:03:31.067Z",
+        "last_seen_sha": "1fed0265d2e9",
+        "author": "LK TRONICS",
+        "maintainer": "LK TRONICS <rad@lk-tronics.com>",
+        "sentence": "Universal IoT Library for ESP32, ESP8266, Arduino Uno/Mega with WiFi, and all Arduino boards.",
+        "paragraph": "Simplifies IoT development by encapsulating HiveMQ Cloud MQTT, TLS/SSL security, JSON serialization, and automatic reconnects behind simple Virtual Pins (V0-V31) like Blynk.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/LKTronic/LKTRONICS_IOT-1.0.3.zip",
+        "size": 17337,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-02T04:07:31Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-08T15:02:37.064Z",
-  "total_libraries": 10109,
-  "index_etag": "W/\"632ed701e3489321c3f4afb4c5bf9a78\"",
-  "index_last_modified": "Thu, 08 Oct 2026 14:59:12 GMT",
+  "enhanced_at": "2026-10-08T16:03:21.637Z",
+  "total_libraries": 10110,
+  "index_etag": "W/\"6b9a1269d151de90f94c07ec89d5ab19\"",
+  "index_last_modified": "Thu, 08 Oct 2026 15:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -169104,7 +169104,7 @@
       "repository_name": "m5stack/M5Unit-ENV",
       "repository_url": "https://github.com/m5stack/M5Unit-ENV",
       "name": "M5Unit-ENV",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "version_history": [
         {
           "version": "1.3.2",
@@ -169125,15 +169125,19 @@
         {
           "version": "1.7.1",
           "seen_at": "2026-08-06T06:58:20.863Z"
+        },
+        {
+          "version": "1.7.2",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-03-16T07:52:13Z",
-      "last_seen_sha": "c6c1a2c7e0db",
+      "last_seen_sha": "b0e546ee00dd",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT ENV using M5UnitUnified",
-      "paragraph": "Supports ENV3(SHT30+QMP6988), ENV4(SHT40+BMP280), CO2(SCD40/41), ENVPro(BME688), TVOC(SGP30).",
+      "paragraph": "Supports ENV3(SHT30+QMP6988), ENV4(SHT40+BMP280), CO2(SCD40/41), ENVPro(BME688), TVOC(SGP30), MiniBPS(BMP280/QMP6988) and HatYun(SHT20+BMP280).",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -169144,9 +169148,9 @@
         "M5HAL",
         "BME68x Sensor library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.1.zip",
-      "size": 334824,
-      "previous_version": "1.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.2.zip",
+      "size": 341036,
+      "previous_version": "1.7.1",
       "github_stars": 52,
       "github_forks": 29,
       "github_language": "C++",
@@ -169341,7 +169345,7 @@
       "repository_name": "m5stack/M5Unit-GESTURE",
       "repository_url": "https://github.com/m5stack/M5Unit-GESTURE",
       "name": "M5Unit-GESTURE",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -169350,15 +169354,19 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:20:46Z",
-      "last_seen_sha": "74b0ef55a24a",
+      "last_seen_sha": "c6637ea9394b",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT GESTURE using M5UnitUnified",
-      "paragraph": "Supports PAJ7620U2 touchless gesture recognition sensor (SKU:U088) with gesture, proximity, and cursor modes.",
+      "paragraph": "Supports PAJ7620U2 touchless gesture recognition sensor (SKU:U127) with gesture, proximity, and cursor modes.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -169368,9 +169376,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_GESTURE-0.2.0.zip",
-      "size": 67741,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_GESTURE-0.3.0.zip",
+      "size": 84394,
+      "previous_version": "0.2.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -169504,7 +169512,7 @@
       "repository_name": "m5stack/M5Unit-INFRARED",
       "repository_url": "https://github.com/m5stack/M5Unit-INFRARED",
       "name": "M5Unit-INFRARED",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -169513,11 +169521,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-14T08:04:17Z",
-      "last_seen_sha": "fe344780c876",
+      "last_seen_sha": "4da2597053db",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT INFRARED using M5UnitUnified",
@@ -169531,8 +169543,8 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_INFRARED-0.2.0.zip",
-      "size": 144646,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_INFRARED-0.3.0.zip",
+      "size": 185429,
       "previous_version": "0.2.0",
       "github_stars": 1,
       "github_forks": 0,
@@ -169693,7 +169705,7 @@
       "repository_name": "m5stack/M5Unit-METER",
       "repository_url": "https://github.com/m5stack/M5Unit-METER",
       "name": "M5Unit-METER",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -169702,15 +169714,19 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:20:32Z",
-      "last_seen_sha": "31037fd1a32c",
+      "last_seen_sha": "75810047395a",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT METER using M5UnitUnified",
-      "paragraph": "Supports AMeter (U086), VMeter (U087), KmeterISO (U133-V11), DualKmeter (M127), INA226-10A/1A (U200) units.",
+      "paragraph": "Supports AMeter (U086), VMeter (U087), KmeterISO (U133-V11), DualKmeter (M127), INA226-10A (U200) and INA226-1A (U200-1A) units.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -169720,9 +169736,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_METER-0.3.0.zip",
-      "size": 127126,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_METER-0.4.0.zip",
+      "size": 147912,
+      "previous_version": "0.3.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -169919,7 +169935,7 @@
       "repository_name": "m5stack/M5Unit-RF433",
       "repository_url": "https://github.com/m5stack/M5Unit-RF433",
       "name": "M5Unit-RF433",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.0.1",
@@ -169928,11 +169944,15 @@
         {
           "version": "0.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T20:53:22Z",
-      "last_seen_sha": "1b6a94e5d175",
+      "last_seen_sha": "9360e3ab68e0",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT RF433 using M5UnitUnified",
@@ -169946,9 +169966,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RF433-0.1.0.zip",
-      "size": 73030,
-      "previous_version": "0.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RF433-0.2.0.zip",
+      "size": 91793,
+      "previous_version": "0.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -233874,6 +233894,41 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-06-04T08:16:06Z"
+    },
+    {
+      "repository_name": "soosp/RangeMonitor",
+      "repository_url": "https://github.com/soosp/RangeMonitor",
+      "name": "RangeMonitor",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-08T16:03:20.184Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-08T16:03:20.184Z",
+      "last_seen_sha": "f40b85bcf232",
+      "author": "Péter Soós",
+      "maintainer": "Péter Soós",
+      "sentence": "Range monitor for a scalar measurement: spike filter, time-based EMA, soft limits with alarm delay, hard limits, fault detection.",
+      "paragraph": "Watches any scalar quantity — temperature, humidity, pressure — against a range. A median-of-3 spike filter and a time-based EMA smooth the value; soft limits raise an alarm only after a configurable delay (tolerating defrost cycles, opened doors), hard limits raise it at once. Invalid samples become a FAULT after their own delay. Every transition is reported, every time rule uses the real time between samples, and the state machine runs on a host PC for testing and data replay. No dynamic allocation; thread-safe on ESP32 with a static FreeRTOS mutex.",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "avr"
+      ],
+      "license": "MIT",
+      "depends": [
+        "RunningStatistics"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.1.0.zip",
+      "size": 38940,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-08T13:48:14Z"
     },
     {
       "repository_name": "robiduck/Raphael",
@@ -317450,7 +317505,7 @@
       "repository_name": "QuickSpot/walter-arduino",
       "repository_url": "https://github.com/QuickSpot/walter-arduino",
       "name": "WalterModem",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.5.0",
@@ -317463,11 +317518,15 @@
         {
           "version": "1.6.0",
           "seen_at": "2026-10-05T16:03:10.024Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-10-08T16:03:20.184Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T09:15:44Z",
-      "last_seen_sha": "403878b7bc2c",
+      "last_seen_sha": "dd41091ea929",
       "author": "Quickspot",
       "maintainer": "DPTechnics <info@dptechnics.com>",
       "sentence": "The LTE (NB-IoT and LTE-M) and GNSS library to use with Walter.",
@@ -317476,9 +317535,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/QuickSpot/WalterModem-1.6.0.zip",
-      "size": 4852421,
-      "previous_version": "1.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/QuickSpot/WalterModem-1.6.1.zip",
+      "size": 4853741,
+      "previous_version": "1.6.0",
       "github_stars": 38,
       "github_forks": 28,
       "github_language": "C++",
@@ -328345,7 +328404,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9905,
-    "total_dependencies": 5541
+    "with_github_metadata": 9906,
+    "total_dependencies": 5542
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-07T23:02:28.590Z",
+  "enhanced_at": "2026-10-08T00:07:07.112Z",
   "total_libraries": 10106,
-  "index_etag": "W/\"83543fed2d36ea840b8c1d8936d0231d\"",
-  "index_last_modified": "Wed, 07 Oct 2026 22:59:12 GMT",
+  "index_etag": "W/\"a8aa56d6551fb4e9a5af4c23c8510e43\"",
+  "index_last_modified": "Wed, 07 Oct 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -12579,7 +12579,7 @@
       "repository_name": "adafruit/Adafruit_Monster_Eyes",
       "repository_url": "https://github.com/adafruit/Adafruit_Monster_Eyes",
       "name": "Adafruit Monster Eyes",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.0.0",
@@ -12592,11 +12592,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-09-25T22:02:39.011Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-10-08T00:07:06.973Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-23T02:03:40.536Z",
-      "last_seen_sha": "f470c2f93217",
+      "last_seen_sha": "4f5ddacf1fb9",
       "author": "Adafruit Industries",
       "maintainer": "Adafruit Industries",
       "sentence": "Animated monster eyes for RP2040/RP2350 and ESP32, on SPI TFT, PicoDVI or parallel RGB666 displays.",
@@ -12620,9 +12624,9 @@
         "ArduinoJson",
         "Adafruit TSL2585"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Monster_Eyes-2.2.0.zip",
-      "size": 84870,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Monster_Eyes-2.3.0.zip",
+      "size": 85112,
+      "previous_version": "2.2.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -15597,7 +15601,7 @@
       "repository_name": "adafruit/Adafruit_TestBed",
       "repository_url": "https://github.com/adafruit/Adafruit_TestBed",
       "name": "Adafruit TestBed",
-      "version": "1.14.3",
+      "version": "1.14.4",
       "version_history": [
         {
           "version": "1.14.2",
@@ -15610,11 +15614,15 @@
         {
           "version": "1.14.3",
           "seen_at": "2026-09-09T00:07:04.287Z"
+        },
+        {
+          "version": "1.14.4",
+          "seen_at": "2026-10-08T00:07:06.973Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-08-08T07:33:55Z",
-      "last_seen_sha": "892ce9a838ab",
+      "last_seen_sha": "f6d91a0fd20d",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Adafruit's internal test bed code library",
@@ -15633,9 +15641,9 @@
         "LiquidCrystal",
         "Adafruit DAP library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TestBed-1.14.3.zip",
-      "size": 8167289,
-      "previous_version": "1.14.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TestBed-1.14.4.zip",
+      "size": 8167322,
+      "previous_version": "1.14.3",
       "github_stars": 16,
       "github_forks": 7,
       "github_language": "C",
@@ -39033,33 +39041,41 @@
       "repository_name": "ARDUTECH0/ATGenXIOT",
       "repository_url": "https://github.com/ARDUTECH0/ATGenXIOT",
       "name": "ATGenX_Hub",
-      "version": "1.0.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-04-04T07:21:08Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-10-08T00:07:06.973Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-04T07:21:08Z",
-      "last_seen_sha": "eb49ddaa562e",
+      "last_seen_sha": "a1389aafdb79",
       "author": "Seif Emad / ARDUTECH0",
       "maintainer": "Seif Emad <support@atgenx.com>",
-      "sentence": "Professional MQTT Relay Control for ATGenX Platform",
-      "paragraph": "Control multiple relays with single MQTT connection. Supports ESP32 with easy configuration.",
+      "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+      "paragraph": "One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "esp8266"
       ],
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson",
+        "DHT sensor library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.3.0.zip",
+      "size": 39495,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-04-03T08:35:15Z",
-      "depends": [
-        "PubSubClient",
-        "ArduinoJson"
-      ],
-      "download_url": "https://github.com/ARDUTECH0/ATGenXIOT"
+      "github_updated_at": "2026-04-03T08:35:15Z"
     },
     {
       "repository_name": "ARDUTECH0/ATGENXlib-0.0.1",
@@ -214921,7 +214937,7 @@
       "repository_name": "piruetasxyz/Perilla",
       "repository_url": "https://github.com/piruetasxyz/Perilla",
       "name": "Perilla",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.0.1",
@@ -214930,22 +214946,26 @@
         {
           "version": "0.1.0",
           "seen_at": "2026-10-07T00:07:17.965Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-08T00:07:06.973Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:22:12Z",
-      "last_seen_sha": "5f8da118e01c",
+      "last_seen_sha": "1f912aec1e5e",
       "author": "piruetasxyz",
       "maintainer": "piruetasxyz",
-      "sentence": "Biblioteca para leer perillas (potenciometros) con microcontroladores.",
-      "paragraph": "Lee una entrada analoga y mapea su valor a otro rango. Compatible con placas Arduino y Raspberry Pi Pico.",
+      "sentence": "Biblioteca para leer perillas (potenciometros y encoders) con microcontroladores.",
+      "paragraph": "Lee un potenciometro o un encoder y entrega su valor dentro de un rango, con la misma interfaz para los dos. Incluye un filtro opcional para el ruido. Compatible con placas Arduino y Raspberry Pi Pico.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/piruetasxyz/Perilla-0.1.0.zip",
-      "size": 21390,
-      "previous_version": "0.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/piruetasxyz/Perilla-0.2.0.zip",
+      "size": 30845,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -228969,29 +228989,35 @@
       "repository_name": "ArminJo/PWMMotorControl",
       "repository_url": "https://github.com/ArminJo/PWMMotorControl",
       "name": "PWMMotorControl",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "2.2.0",
           "seen_at": "2025-10-27T07:12:44Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-10-08T00:07:06.973Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-10-27T07:12:44Z",
-      "last_seen_sha": "bcfb76b47730",
+      "last_seen_sha": "86c76e7bbd97",
       "author": "Armin Joachimsmeyer",
       "maintainer": "Armin Joachimsmeyer <armin.arduino@gmail.com>",
       "sentence": "Control brushed DC motors by PWM and uses optional attached encoders to drive fixed distances. For L298 or TB6612, or Adafruit Motor Shield",
-      "paragraph": "With special CarPWMMotorControl for easy control of 2 or 4 motors of the obstacle avoiding arduino robot car kits. If slot-type photo interrupters or IMU / MPU6050 are attached to the encoder discs of such a kit, deterministic distances and turns can be driven. Examples include a follower car and an Bluetooth controlled obstacle avoiding car.",
+      "paragraph": "With special CarPWMMotorControl for easy control of 2 or 4 motors of the obstacle avoiding arduino robot car kits. If slot-type photo interrupters or IMU / MPU6050 are attached to the encoder discs of such a kit, deterministic distances and turns can be driven. Examples include a mecanum wheel car, a follower car and an Bluetooth controlled obstacle avoiding car.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ArminJo/PWMMotorControl-2.2.1.zip",
+      "size": 3932505,
+      "previous_version": "2.2.0",
       "github_stars": 53,
       "github_forks": 17,
       "github_language": "C++",
-      "github_updated_at": "2026-02-25T15:57:17Z",
-      "download_url": "https://github.com/ArminJo/PWMMotorControl"
+      "github_updated_at": "2026-02-25T15:57:17Z"
     },
     {
       "repository_name": "fellipecouto/PWMOutESP32",
@@ -328177,6 +328203,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 9902,
-    "total_dependencies": 5537
+    "total_dependencies": 5538
   }
 }

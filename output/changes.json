@@ -1,6 +1,85 @@
 {
-  "since": "2026-10-09T21:02:18.134Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-09T22:02:37.478Z",
+  "new_libraries": [
+    {
+      "repository_name": "Annabel369/2FATouchCore",
+      "repository_url": "https://github.com/Annabel369/2FATouchCore",
+      "name": "2FATouchCore",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T22:02:37.478Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T22:02:37.478Z",
+      "last_seen_sha": "1283967c2fa4",
+      "author": "Amauri Bueno dos Santos",
+      "maintainer": "Amauri Bueno dos Santos",
+      "sentence": "Biblioteca Core do 2FATouch para ESP32 CYD",
+      "paragraph": "Contem todas as funcoes essenciais do 2FATouch: geracao de QR Code, animacoes do Creeper, exibicao climatica, TOTP, teclado touch e utilitarios.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "TFT_eSPI",
+        "ESP32FtpServer",
+        "ArduinoJson",
+        "NTPClient",
+        "ESP32Servo",
+        "XPT2046_Touchscreen",
+        "TJpg_Decoder"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Annabel369/2FATouchCore-1.0.0.zip",
+      "size": 45032,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-09T19:02:32Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "forgevolt/ESPNowUtilities",
+        "repository_url": "https://github.com/forgevolt/ESPNowUtilities",
+        "name": "ESPNowUtilities",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-05T20:28:54.396Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-09T22:02:37.478Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-05T20:28:54.396Z",
+        "last_seen_sha": "19133bcd7663",
+        "author": "Christoph Streit <christoph.streit@gmail.com>",
+        "maintainer": "Christoph Streit <christoph.streit@gmail.com>",
+        "sentence": "Paired, single-peer ESP-NOW links between two ESP32 boards.",
+        "paragraph": "Wraps ESP-NOW in a connection class that handles discovery and pairing, tracks one peer with a liveness timeout, and carries application messages of your own definition. The wire format of those messages is yours; the library only routes them and accepts them only from the paired peer's address.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/forgevolt/ESPNowUtilities-1.0.1.zip",
+        "size": 25111,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-05T16:11:50Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

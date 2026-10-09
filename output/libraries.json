@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-09T19:01:59.153Z",
-  "total_libraries": 10126,
-  "index_etag": "W/\"e5a78948705510b1c942170da33da2a9\"",
-  "index_last_modified": "Fri, 09 Oct 2026 18:59:12 GMT",
+  "enhanced_at": "2026-10-09T20:02:54.967Z",
+  "total_libraries": 10123,
+  "index_etag": "W/\"788a097c3a302061314af6f937da6563\"",
+  "index_last_modified": "Fri, 09 Oct 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -1242,33 +1242,39 @@
       "github_updated_at": "2026-01-10T07:24:32Z"
     },
     {
-      "repository_name": "7semi-solutions/7Semi-AS7343",
-      "repository_url": "https://github.com/7semi-solutions/7Semi-AS7343",
+      "repository_name": "supratikd/AS7343_7Semi",
+      "repository_url": "https://github.com/supratikd/AS7343_7Semi",
       "name": "7Semi AS7343",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-09T14:03:37.132Z"
+          "seen_at": "2026-10-04T18:01:58.042Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-09T20:02:49.656Z"
         }
       ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-09T14:03:37.132Z",
-      "last_seen_sha": "8c0a7775e5e0",
-      "author": "7Semi <info@7semi.com>",
-      "maintainer": "7Semi <info@7semi.com>",
-      "sentence": "Multi-channel spectral sensor driver for AS7343.",
-      "paragraph": "Flexible I2C driver for the ams OSRAM AS7343 spectral sensor. Supports multi-channel light sensing, SMUX configuration (6/12/18 channels), gain control, integration time adjustment, FIFO streaming, interrupt handling, flicker detection, LED control, and threshold-based alerts.",
+      "release_count": 2,
+      "first_seen_at": "2026-10-04T18:01:58.042Z",
+      "last_seen_sha": "512408f9d951",
+      "author": "Supratik Das",
+      "maintainer": "supratikd <supratikdas@hotmail.com>",
+      "sentence": "Arduino library for the 7Semi AS7343 14 channel multi-spectral sensor.",
+      "paragraph": "Reads 12 spectral channels and VIS and NIR data, controls the LED, and detects flicker.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_AS7343-1.0.0.zip",
-      "size": 19840,
-      "github_stars": 1,
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/7Semi_AS7343-1.0.1.zip",
+      "size": 2579743,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-07T04:19:09Z"
+      "github_updated_at": "2026-10-04T15:20:19Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-BME280-Environmental-Sensor-Arduino-Library",
@@ -1406,6 +1412,35 @@
       "github_forks": 1,
       "github_language": "C",
       "github_updated_at": "2026-06-24T15:27:01Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-BMM150",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-BMM150",
+      "name": "7Semi BMM150",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T20:02:49.656Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T20:02:49.656Z",
+      "last_seen_sha": "43a95e3ef219",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Arduino library for the BMM150 3-axis digital magnetometer sensor.",
+      "paragraph": "Provides an easy-to-use interface for measuring magnetic fields along the X, Y, and Z axes using the BMM150 sensor. Supports magnetic field measurements for compass, orientation, and motion-sensing applications.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_BMM150-1.0.0.zip",
+      "size": 16099,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-09T09:31:47Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-BMP348",
@@ -35310,36 +35345,6 @@
       "github_updated_at": "2026-09-05T14:41:13Z"
     },
     {
-      "repository_name": "supratikd/AS7343_7Semi",
-      "repository_url": "https://github.com/supratikd/AS7343_7Semi",
-      "name": "AS7343_7Semi",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-04T18:01:58.042Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-04T18:01:58.042Z",
-      "last_seen_sha": "5faafd68889a",
-      "author": "Supratik Das",
-      "maintainer": "supratikd <supratikdas@hotmail.com>",
-      "sentence": "Arduino library for the 7Semi AS7343 spectral sensor.",
-      "paragraph": "Reads 12 spectral channels and VIS and NIR data, controls the LED, and detects flicker.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/supratikd/AS7343_7Semi-1.0.0.zip",
-      "size": 26815,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-04T15:20:19Z"
-    },
-    {
       "repository_name": "SofaPirate/AsciiMassage",
       "repository_url": "https://github.com/SofaPirate/AsciiMassage",
       "name": "AsciiMassage",
@@ -54748,6 +54753,35 @@
         "Bonezegei_Utility"
       ],
       "download_url": "https://github.com/bonezegei/Bonezegei_XPT2046v2"
+    },
+    {
+      "repository_name": "bonezegei/BonezegeiIoT",
+      "repository_url": "https://github.com/bonezegei/BonezegeiIoT",
+      "name": "BonezegeiIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T20:02:49.656Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T20:02:49.656Z",
+      "last_seen_sha": "2d9df457f748",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Bonezegei IoT Cloud",
+      "paragraph": "Connecting IoT devices to server with Bonezegei Scripting Language Stack",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/BonezegeiIoT-1.0.0.zip",
+      "size": 7717,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-09T14:41:36Z"
     },
     {
       "repository_name": "boodskap/ArduinoDigitalTwin",
@@ -112336,35 +112370,6 @@
       "download_url": "https://github.com/danmowehhuk/Eventuino"
     },
     {
-      "repository_name": "fpedrei/every",
-      "repository_url": "https://github.com/fpedrei/every",
-      "name": "every",
-      "version": "0.8.0",
-      "version_history": [
-        {
-          "version": "0.8.0",
-          "seen_at": "2026-09-25T14:03:08.490Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-09-25T14:03:08.490Z",
-      "last_seen_sha": "cdf5744806e3",
-      "author": "Funny Pedrei <funny.pedrei@platynum.ch>",
-      "maintainer": "Funny Pedrei <funny.pedrei@platynum.ch>",
-      "sentence": "A library that executes a piece of code at defined intervals.",
-      "paragraph": "Depends on the internal arduino millis functions, only.",
-      "category": "Timing",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/fpedrei/every-0.8.0.zip",
-      "size": 6503,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-25T10:42:50Z"
-    },
-    {
       "repository_name": "awgrover/Every-for-arduino",
       "repository_url": "https://github.com/awgrover/Every-for-arduino",
       "name": "Every",
@@ -119586,7 +119591,7 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.3.10",
+      "version": "0.3.11",
       "version_history": [
         {
           "version": "0.2.0",
@@ -119619,11 +119624,15 @@
         {
           "version": "0.3.10",
           "seen_at": "2026-10-08T12:04:02.053Z"
+        },
+        {
+          "version": "0.3.11",
+          "seen_at": "2026-10-09T20:02:49.656Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "3ca9fcc23cc0",
+      "last_seen_sha": "a5155d328c20",
       "author": "Flova",
       "maintainer": "Flova",
       "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
@@ -119637,9 +119646,9 @@
         "ArduinoJson",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.10.zip",
-      "size": 220254,
-      "previous_version": "0.3.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.11.zip",
+      "size": 220856,
+      "previous_version": "0.3.10",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -186229,22 +186238,22 @@
       "download_url": "https://github.com/Alexandros-Charitonidis/MiniMessenger"
     },
     {
-      "repository_name": "GUNANAG38/MiniMicroKit_PTL",
-      "repository_url": "https://github.com/GUNANAG38/MiniMicroKit_PTL",
-      "name": "MiniMicroKit-PTL",
+      "repository_name": "GUNANAG38/MiniMicroKitPTL",
+      "repository_url": "https://github.com/GUNANAG38/MiniMicroKitPTL",
+      "name": "MiniMicroKitPTL",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-08-30T06:04:18.209Z"
+          "seen_at": "2026-10-09T20:02:49.656Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-08-30T06:04:18.209Z",
-      "last_seen_sha": "f1ab44612b2f",
+      "first_seen_at": "2026-10-09T20:02:49.656Z",
+      "last_seen_sha": "488c734809ce",
       "author": "GelectronLAB",
       "maintainer": "GelectronLAB <gunaneg011@gmail.com>",
-      "sentence": "Official library for MiniMicroKit PTL (ESP32-C3 Supermini) with OLED, LEDs, Buzzer, Encoder, and IoT support.",
+      "sentence": "Official library for MiniMicroKitPTL (ESP32-C3 Supermini) with OLED, LEDs, Buzzer, Encoder, and IoT support.",
       "paragraph": "A feature-rich library designed for classroom AI and IoT projects, supporting Teachable Machine Webapp via MQTT.",
       "category": "Device Control",
       "architectures": [
@@ -186256,12 +186265,12 @@
         "PubSubClient",
         "WiFi"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GUNANAG38/MiniMicroKit_PTL-1.0.0.zip",
-      "size": 77675,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GUNANAG38/MiniMicroKitPTL-1.0.0.zip",
+      "size": 4979514,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-08-30T04:01:15Z"
+      "github_updated_at": "2026-10-03T02:59:39Z"
     },
     {
       "repository_name": "RobTillaart/MiniMP3",
@@ -237133,6 +237142,40 @@
       "github_language": "C++",
       "github_updated_at": "2023-04-29T02:26:55Z",
       "download_url": "https://github.com/MicroBeaut/RepeatButton"
+    },
+    {
+      "repository_name": "fpedrei/every",
+      "repository_url": "https://github.com/fpedrei/every",
+      "name": "RepeatedTask",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-09-25T14:03:08.490Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-09T20:02:49.656Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-09-25T14:03:08.490Z",
+      "last_seen_sha": "bc73bd3664bf",
+      "author": "Funny Pedrei <funny.pedrei@platynum.ch>",
+      "maintainer": "Funny Pedrei <funny.pedrei@platynum.ch>",
+      "sentence": "A library that executes a piece of code at defined intervals.",
+      "paragraph": "Depends on the internal arduino millis functions, only.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fpedrei/RepeatedTask-0.3.0.zip",
+      "size": 6644,
+      "previous_version": "0.8.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-09-25T10:42:50Z"
     },
     {
       "repository_name": "plageoj/request-builder",
@@ -324418,190 +324461,36 @@
       "github_updated_at": "2026-05-08T11:57:35Z"
     },
     {
-      "repository_name": "xewe-labs/xewe-library-cli",
-      "repository_url": "https://github.com/xewe-labs/xewe-library-cli",
-      "name": "XeWeCli",
-      "version": "1.0.0",
+      "repository_name": "xewe-labs/xewe-os-core",
+      "repository_url": "https://github.com/xewe-labs/xewe-os-core",
+      "name": "XeWeCore",
+      "version": "2.0.1",
       "version_history": [
         {
-          "version": "0.1.0",
-          "seen_at": "2026-09-15T22:02:36.478Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-18T00:06:07.854Z"
+          "version": "2.0.1",
+          "seen_at": "2026-10-09T20:02:49.656Z"
         }
       ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-15T22:02:36.478Z",
-      "last_seen_sha": "72333a53d630",
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T20:02:49.656Z",
+      "last_seen_sha": "ad11e55f9fea",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
-      "sentence": "Serial command line for ESP32: register command groups and run them as $group command args.",
-      "paragraph": "Quoted arguments, argument-count checking, and auto-generated help tables.",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "depends": [
-        "XeWeSerial",
-        "XeWeUtils"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCli-1.0.0.zip",
-      "size": 30805,
-      "previous_version": "0.1.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-14T00:50:54Z"
-    },
-    {
-      "repository_name": "xewe-labs/xewe-library-nvs",
-      "repository_url": "https://github.com/xewe-labs/xewe-library-nvs",
-      "name": "XeWeNvs",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-09-14T18:03:01.072Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-18T00:06:07.854Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "8901a9d5208f",
-      "author": "Maxim Dokukin",
-      "maintainer": "Maxim Dokukin",
-      "sentence": "Typed key-value storage on ESP32 NVS, including whole structs persisted via FlexData.",
-      "paragraph": "Scalar read/write, blobs, and FlexData objects that serialize to compact blobs for flash and to JSON for APIs.",
-      "category": "Data Storage",
+      "sentence": "Modular firmware core for ESP32: serial console, command line, typed NVS storage, helpers and a module framework.",
+      "paragraph": "One library replacing XeWeUtils, XeWeSerial, XeWeCli, XeWeNvs and XeWeOS. Include <XeWeCore.h> and use the parts on their own (xewe::SerialPort, xewe::Cli, xewe::Nvs) or as a whole through XeWeOs.",
+      "category": "Other",
       "architectures": [
         "esp32"
       ],
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeNvs-1.0.0.zip",
-      "size": 37605,
-      "previous_version": "0.1.0",
-      "github_stars": 0,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-2.0.1.zip",
+      "size": 143731,
+      "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-09-13T22:45:40Z"
-    },
-    {
-      "repository_name": "xewe-labs/xewe-library-os",
-      "repository_url": "https://github.com/xewe-labs/xewe-library-os",
-      "name": "XeWeOS",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-09-16T20:03:17.459Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-18T00:06:07.854Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-16T20:03:17.459Z",
-      "last_seen_sha": "aa534ff9d721",
-      "author": "Maxim Dokukin",
-      "maintainer": "Maxim Dokukin",
-      "sentence": "Modular firmware base for ESP32: assemble plug-and-play modules with setup flows, persistence, and a CLI.",
-      "paragraph": "Core services (serial console, NVS, command executor, system) plus a Module base class. Other XeWe libraries plug in as modules declared in your sketch.",
-      "category": "Other",
-      "architectures": [
-        "esp32"
-      ],
-      "depends": [
-        "XeWeUtils",
-        "XeWeSerial",
-        "XeWeNvs",
-        "XeWeCli"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeOS-1.0.0.zip",
-      "size": 49148,
-      "previous_version": "0.1.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-14T18:15:44Z"
-    },
-    {
-      "repository_name": "xewe-labs/xewe-library-serial",
-      "repository_url": "https://github.com/xewe-labs/xewe-library-serial",
-      "name": "XeWeSerial",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-09-14T18:03:01.072Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-18T00:06:07.854Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "9212a65dfc63",
-      "author": "Maxim Dokukin",
-      "maintainer": "Maxim Dokukin",
-      "sentence": "Non-blocking serial console for ESP32 with formatted output, boxed headers, tables, and typed input prompts.",
-      "paragraph": "Line-buffered input, get_yn/get_int/get_string/get_menu_choice prompts with retries and timeouts, word wrapping and table rendering.",
-      "category": "Communication",
-      "architectures": [
-        "esp32"
-      ],
-      "depends": [
-        "XeWeUtils"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeSerial-1.0.0.zip",
-      "size": 37490,
-      "previous_version": "0.1.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-13T22:45:38Z"
-    },
-    {
-      "repository_name": "xewe-labs/xewe-library-utils",
-      "repository_url": "https://github.com/xewe-labs/xewe-library-utils",
-      "name": "XeWeUtils",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-09-14T02:06:29.531Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-09-18T00:06:07.854Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-09-14T02:06:29.531Z",
-      "last_seen_sha": "6921f61a9cb4",
-      "author": "Maxim Dokukin",
-      "maintainer": "Maxim Dokukin",
-      "sentence": "Header-only helpers for ESP32: string formatting, input validation, async timers, FreeRTOS mutex guard, color conversion.",
-      "paragraph": "Shared by the XeWe libraries and XeWe OS; has no dependencies.",
-      "category": "Other",
-      "architectures": [
-        "esp32"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeUtils-1.0.0.zip",
-      "size": 41376,
-      "previous_version": "0.1.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-13T22:45:37Z"
+      "github_updated_at": "2026-10-08T23:53:19Z"
     },
     {
       "repository_name": "fanfanlatulipe26/XGZP6897D",
@@ -328973,7 +328862,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9922,
-    "total_dependencies": 5551
+    "with_github_metadata": 9919,
+    "total_dependencies": 5544
   }
 }

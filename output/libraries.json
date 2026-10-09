@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-09T13:06:25.208Z",
-  "total_libraries": 10115,
-  "index_etag": "W/\"c0af26d49e05af7ebf3212e9eb5480b9\"",
-  "index_last_modified": "Fri, 09 Oct 2026 12:59:12 GMT",
+  "enhanced_at": "2026-10-09T14:03:51.333Z",
+  "total_libraries": 10126,
+  "index_etag": "W/\"849d8b9da1656cbb1c5490f22180c93b\"",
+  "index_last_modified": "Fri, 09 Oct 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -1242,6 +1242,35 @@
       "github_updated_at": "2026-01-10T07:24:32Z"
     },
     {
+      "repository_name": "7semi-solutions/7Semi-AS7343",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-AS7343",
+      "name": "7Semi AS7343",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "8c0a7775e5e0",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Multi-channel spectral sensor driver for AS7343.",
+      "paragraph": "Flexible I2C driver for the ams OSRAM AS7343 spectral sensor. Supports multi-channel light sensing, SMUX configuration (6/12/18 channels), gain control, integration time adjustment, FIFO streaming, interrupt handling, flicker detection, LED control, and threshold-based alerts.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_AS7343-1.0.0.zip",
+      "size": 19840,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-07T04:19:09Z"
+    },
+    {
       "repository_name": "7semi-solutions/7Semi-BME280-Environmental-Sensor-Arduino-Library",
       "repository_url": "https://github.com/7semi-solutions/7Semi-BME280-Environmental-Sensor-Arduino-Library",
       "name": "7Semi BME280",
@@ -1535,6 +1564,35 @@
       "github_updated_at": "2026-04-15T13:55:20Z"
     },
     {
+      "repository_name": "7semi-solutions/7Semi_BusCore",
+      "repository_url": "https://github.com/7semi-solutions/7Semi_BusCore",
+      "name": "7Semi Bus",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "375dfd6c0bb9",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Universal I2C and SPI register access framework for sensor drivers.",
+      "paragraph": "Hardware-independent communication layer for I2C and SPI devices. Supports 8-bit and 16-bit register addressing, 8-bit and 16-bit data transfers, endian conversion, burst read/write operations, and bit-level register access for reusable sensor driver development.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_Bus-1.0.0.zip",
+      "size": 7431,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-15T12:20:45Z"
+    },
+    {
       "repository_name": "7semi-solutions/7Semi-DAC7578",
       "repository_url": "https://github.com/7semi-solutions/7Semi-DAC7578",
       "name": "7Semi DAC7578",
@@ -1568,6 +1626,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-11T05:07:54Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-DS2482",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-DS2482",
+      "name": "7Semi DS2482",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "5e948624fc54",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "I2C to 1-Wire bridge driver for DS2482.",
+      "paragraph": "Lightweight and reliable Arduino driver for Maxim DS2482 I2C to 1-Wire bridge. Supports 1-Wire reset, read/write operations, ROM search, and DS18B20 temperature sensors. Designed for multi-device 1-Wire networks with efficient bus handling.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_DS2482-1.0.0.zip",
+      "size": 8640,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-15T11:43:50Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-ENS210",
@@ -1606,6 +1693,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-16T13:08:05Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-HDC302x",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-HDC302x",
+      "name": "7Semi HDC302x",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "5b41a479f19b",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "High-accuracy temperature and humidity sensor driver for HDC302x.",
+      "paragraph": "Flexible I2C driver for the Texas Instruments HDC302x temperature and humidity sensor. Supports single-shot and continuous measurements, configurable output data rate (ODR), power modes, heater control, alert thresholds with hysteresis, and offset calibration.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_HDC302x-1.0.0.zip",
+      "size": 14907,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-28T12:03:05Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-HMC6343-3-Axis-Digital-Compass-Module-with-Tilt-Compensation-I2C-Arduino-Library",
@@ -1705,6 +1821,36 @@
       "github_forks": 2,
       "github_language": "C++",
       "github_updated_at": "2026-06-17T07:04:35Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-INA240",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-INA240",
+      "name": "7Semi INA240",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "49fb4d3bbc9b",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Arduino library for INA240 bidirectional current sense amplifiers.",
+      "paragraph": "Supports INA240A1, INA240A2 and INA240A3 current sense amplifiers with bidirectional current measurement, offset calibration, ADC averaging, shunt voltage calculation and current calculation.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_INA240-1.0.0.zip",
+      "size": 6924,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-05T06:38:49Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-INA260-Current-Power-Voltage-Monitor-Arduino-Library",
@@ -1809,6 +1955,93 @@
       "github_updated_at": "2026-04-06T10:31:00Z"
     },
     {
+      "repository_name": "7semi-solutions/7Semi-MCP4725",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-MCP4725",
+      "name": "7Semi MCP4725",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "47112844651a",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Arduino Library for the 7semi MCP4725 12-bit I2C DAC Module.",
+      "paragraph": "Supports 12-bit analog output using MCP4725 over I2C. Features fast mode (no EEPROM write), configurable I2C speed, and support for multiple wire ports.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_MCP4725-1.0.0.zip",
+      "size": 8465,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-05T05:58:36Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-MCP4728",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-MCP4728",
+      "name": "7Semi MCP4728",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "0f9b6aaea0e2",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Arduino library for the MCP4728 4-channel 12-bit DAC over I2C.",
+      "paragraph": "Supports fast write, multi write, sequential write with optional EEPROM, general call update, and full DAC/EERPOM readback functionality.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_MCP4728-1.0.0.zip",
+      "size": 11306,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-25T09:07:07Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-MCP9808",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-MCP9808",
+      "name": "7Semi MCP9808",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "424077cc2980",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "High-accuracy digital temperature sensor driver for MCP9808.",
+      "paragraph": "Flexible I2C driver for the Microchip MCP9808 temperature sensor. Supports temperature measurement, alert thresholds (upper, lower, critical), hysteresis control, power modes, and configurable resolution.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_MCP9808-1.0.0.zip",
+      "size": 11939,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-23T05:01:33Z"
+    },
+    {
       "repository_name": "7semi-solutions/7Semi-MLX90393",
       "repository_url": "https://github.com/7semi-solutions/7Semi-MLX90393",
       "name": "7Semi MLX90393",
@@ -1841,6 +2074,36 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-07T07:20:10Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-SHT2x",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-SHT2x",
+      "name": "7Semi SHT2x",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "fc0b6fd1e430",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Driver for Sensirion SHT2x Temperature and Humidity Sensor with CRC check and flexible I2C pin configuration.",
+      "paragraph": "Provides temperature (°C) and humidity (%RH) readings with CRC validation, soft reset, heater control, OTP reload, battery flag, resolution selection, and electronic serial number readout. Compatible with ESP32, ESP8266, and AVR boards.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_SHT2x-1.0.0.zip",
+      "size": 10539,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-23T12:26:14Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi-SHT4x-Arduino-Library",
@@ -2051,6 +2314,68 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-07T07:51:58Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-VL53L1X",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-VL53L1X",
+      "name": "7Semi VL53L1X",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "78db08a1832a",
+      "author": "7Semi <info@7semi.com>",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Arduino library for VL53L1X time-of-flight distance sensor (ToF).",
+      "paragraph": "Lightweight driver for VL53L1X ToF sensor with default configuration, range presets (SHORT/MEDIUM/LONG), timing budget control, blocking read API, interrupt handling, and calibration support via I2C (TwoWire).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_VL53L1X-1.0.0.zip",
+      "size": 18466,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-02T12:09:28Z"
+    },
+    {
+      "repository_name": "7semi-solutions/7Semi-VL6180X",
+      "repository_url": "https://github.com/7semi-solutions/7Semi-VL6180X",
+      "name": "7Semi VL6180X",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-09T14:03:37.132Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-09T14:03:37.132Z",
+      "last_seen_sha": "67a73ae4f830",
+      "author": "7Semi",
+      "maintainer": "7Semi <info@7semi.com>",
+      "sentence": "Lightweight and efficient VL6180X Time-of-Flight distance and ambient light sensor library.",
+      "paragraph": "Provides a clean, high-performance interface for the STMicroelectronics VL6180X sensor over I2C. Includes support for distance measurement, ambient light sensing, interrupts, threshold detection, GPIO configuration, ALS gain control, integration time configuration, and continuous measurement modes. Built on 7Semi BusCore for embedded efficiency and ease of use.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "7Semi BusCore"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/7semi-solutions/7Semi_VL6180X-1.0.0.zip",
+      "size": 17050,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-09T10:14:15Z"
     },
     {
       "repository_name": "7semi-solutions/7Semi_AD569x_Arduino_Library",
@@ -328636,7 +328961,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9911,
-    "total_dependencies": 5550
+    "with_github_metadata": 9922,
+    "total_dependencies": 5551
   }
 }

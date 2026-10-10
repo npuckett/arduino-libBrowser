@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-10T11:02:21.549Z",
-  "total_libraries": 10126,
-  "index_etag": "W/\"4c093ef300c836f1cad8ce7f8d92878a\"",
-  "index_last_modified": "Sat, 10 Oct 2026 10:59:12 GMT",
+  "enhanced_at": "2026-10-10T12:03:45.979Z",
+  "total_libraries": 10127,
+  "index_etag": "W/\"c23022e1a28f1bef6fa4a763ca55798a\"",
+  "index_last_modified": "Sat, 10 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104616,6 +104616,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-09-18T13:39:46Z",
       "download_url": "https://github.com/liquidCS/esp32ARP"
+    },
+    {
+      "repository_name": "vax9210/ESP32-Audiometer",
+      "repository_url": "https://github.com/vax9210/ESP32-Audiometer",
+      "name": "ESP32Audiometer",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-10T12:03:44.477Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-10T12:03:44.477Z",
+      "last_seen_sha": "f69a68ce6972",
+      "author": "vax9210",
+      "maintainer": "vax9210",
+      "sentence": "Experimental pure-tone and warble audio generator for ESP32.",
+      "paragraph": "Reusable 16-bit I2S tone generation with relative level control and onset-off ramps. Educational use only, not calibrated for clinical audiometry.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vax9210/ESP32Audiometer-0.1.0.zip",
+      "size": 8338,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-10T08:17:40Z"
     },
     {
       "repository_name": "tanakamasayuki/ESP32AutoTask",
@@ -289789,7 +289818,7 @@
       "repository_name": "sunfounder/SunFounder_Ai_Camera",
       "repository_url": "https://github.com/sunfounder/SunFounder_Ai_Camera",
       "name": "SunFounder AI Camera",
-      "version": "1.1.1",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.1.1",
@@ -289798,11 +289827,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-10-10T12:03:44.477Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:32:19Z",
-      "last_seen_sha": "be32a06d560d",
+      "last_seen_sha": "eb445b57f048",
       "author": "SunFounder",
       "maintainer": "SunFounder",
       "sentence": "SunFounder AI Camera library.",
@@ -289814,8 +289847,8 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/SunFounder_AI_Camera-1.1.1.zip",
-      "size": 17958,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/SunFounder_AI_Camera-1.2.1.zip",
+      "size": 21205,
       "previous_version": "1.1.1",
       "github_stars": 6,
       "github_forks": 1,
@@ -329003,7 +329036,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9922,
+    "with_github_metadata": 9923,
     "total_dependencies": 5551
   }
 }

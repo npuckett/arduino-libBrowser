@@ -1,6 +1,96 @@
 {
-  "since": "2026-10-10T13:03:01.371Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-10T14:02:38.530Z",
+  "new_libraries": [
+    {
+      "repository_name": "GEORGE-MULTITECH-SYSTEMS/PID-Non-Blocking-",
+      "repository_url": "https://github.com/GEORGE-MULTITECH-SYSTEMS/PID-Non-Blocking-",
+      "name": "PIDNonBlocking",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-10T14:02:38.530Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-10T14:02:38.530Z",
+      "last_seen_sha": "9bb5a7562067",
+      "author": "George Arun",
+      "maintainer": "George Arun <argeorun@gmail.com>",
+      "sentence": "Non-blocking PID controller that runs on its own sample period from the main loop.",
+      "paragraph": "Plain C core: derivative on measurement, low-pass filtered derivative, trapezoidal integral, anti-windup. PIDController_Run() never waits: it computes only when the sample period has elapsed on millis(), passes the true elapsed time as dt, stays phase-locked to the sample grid and holds its output in between. Sample periods from 1 ms to minutes.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GEORGE-MULTITECH-SYSTEMS/PIDNonBlocking-0.1.0.zip",
+      "size": 12730,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-10T10:07:09Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "pulsync/pulsync-arduino",
+        "repository_url": "https://github.com/pulsync/pulsync-arduino",
+        "name": "Pulsync",
+        "version": "0.3.3",
+        "version_history": [
+          {
+            "version": "0.2.6",
+            "seen_at": "2026-09-06T00:07:17.875Z"
+          },
+          {
+            "version": "0.2.7",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "0.2.8",
+            "seen_at": "2026-09-29T22:02:56.084Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-09-30T18:03:22.507Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-10-01T20:03:28.309Z"
+          },
+          {
+            "version": "0.3.2",
+            "seen_at": "2026-10-02T14:03:07.906Z"
+          },
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-10-10T14:02:38.530Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-09-06T00:07:17.875Z",
+        "last_seen_sha": "ddbc14401965",
+        "author": "Vineeth Rai K <vineethraik@gmail.com>",
+        "maintainer": "Vineeth Rai K <vineethraik@gmail.com>",
+        "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
+        "paragraph": "Provides setTimeout, setInterval, and non-blocking equivalents for the ESP32. Includes multi-network WiFi management with a captive portal, real-time cloud communication over MQTT (HTTP for enrollment and OTA), OTA firmware updates with rollback, and remote config. Built for the ESP32; works on both the Arduino and ESP-IDF frameworks.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.3.zip",
+        "size": 93815,
+        "previous_version": "0.3.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-05T21:55:58Z"
+      },
+      "old_version": "0.3.2",
+      "new_version": "0.3.3"
+    }
+  ],
   "removed_libraries": []
 }

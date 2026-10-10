@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-10T03:07:06.218Z",
+  "enhanced_at": "2026-10-10T04:04:41.893Z",
   "total_libraries": 10124,
-  "index_etag": "W/\"e235ae0dc8abb8cd8693da7f9bad9aea\"",
-  "index_last_modified": "Sat, 10 Oct 2026 02:59:12 GMT",
+  "index_etag": "W/\"16768f7b29f39ecef19b1f872bfa9abc\"",
+  "index_last_modified": "Sat, 10 Oct 2026 03:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -853,20 +853,24 @@
       "repository_name": "Annabel369/2FATouchCore",
       "repository_url": "https://github.com/Annabel369/2FATouchCore",
       "name": "2FATouchCore",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-09T22:02:37.478Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-10T04:04:41.799Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-09T22:02:37.478Z",
-      "last_seen_sha": "1283967c2fa4",
+      "last_seen_sha": "1ba7fd94ed37",
       "author": "Amauri Bueno dos Santos",
       "maintainer": "Amauri Bueno dos Santos",
-      "sentence": "Biblioteca Core do 2FATouch para ESP32 CYD",
-      "paragraph": "Contem todas as funcoes essenciais do 2FATouch: geracao de QR Code, animacoes do Creeper, exibicao climatica, TOTP, teclado touch e utilitarios.",
+      "sentence": "Core library for the 2FATouch (Creeper Auth) device on ESP32 CYD",
+      "paragraph": "Full TOTP/2FA authenticator stack for ESP32 CYD (Cheap Yellow Display): bilingual UI (English / Portuguese), TFT + touch screens (Wi-Fi scan, keyboard, weather, Creeper animations), QR code generator, SD card file manager with streamed web UI (list / view / edit / upload), vault mode, YubiKey emulation, i18n-enabled static SD HTML pages.",
       "category": "Display",
       "architectures": [
         "esp32"
@@ -880,8 +884,9 @@
         "XPT2046_Touchscreen",
         "TJpg_Decoder"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Annabel369/2FATouchCore-1.0.0.zip",
-      "size": 45032,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Annabel369/2FATouchCore-1.1.0.zip",
+      "size": 56275,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -54796,16 +54801,20 @@
       "repository_name": "bonezegei/BonezegeiIoT",
       "repository_url": "https://github.com/bonezegei/BonezegeiIoT",
       "name": "BonezegeiIoT",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-09T20:02:49.656Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-10T04:04:41.799Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-09T20:02:49.656Z",
-      "last_seen_sha": "2d9df457f748",
+      "last_seen_sha": "3834027be79c",
       "author": "Bonezegei (Jofel Batutay)",
       "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
       "sentence": "Bonezegei IoT Cloud",
@@ -54814,8 +54823,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/BonezegeiIoT-1.0.0.zip",
-      "size": 7717,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/BonezegeiIoT-1.0.2.zip",
+      "size": 8106,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -70094,7 +70104,7 @@
       "repository_name": "cyfney/cyfney-cpp-arduino",
       "repository_url": "https://github.com/cyfney/cyfney-cpp-arduino",
       "name": "cyfney-cpp",
-      "version": "2.0.1",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -70111,11 +70121,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-10-09T10:02:58.294Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-10-10T04:04:41.799Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-08-26T12:06:00.595Z",
-      "last_seen_sha": "eac71e8d3461",
+      "last_seen_sha": "d40acf736ffd",
       "author": "anka",
       "maintainer": "anka",
       "sentence": "Reusable C++ utilities and base classes.",
@@ -70125,9 +70139,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-2.0.1.zip",
-      "size": 14852,
-      "previous_version": "1.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-2.2.0.zip",
+      "size": 15178,
+      "previous_version": "2.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

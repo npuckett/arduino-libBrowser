@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-11T05:02:50.703Z",
-  "total_libraries": 10131,
-  "index_etag": "W/\"f4dd190ab83534021f0ea9e779113494\"",
-  "index_last_modified": "Sun, 11 Oct 2026 04:59:12 GMT",
+  "enhanced_at": "2026-10-11T06:04:26.697Z",
+  "total_libraries": 10133,
+  "index_etag": "W/\"fecc1ac8f97d2bf09d480b0527f77c43\"",
+  "index_last_modified": "Sun, 11 Oct 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -64510,6 +64510,35 @@
       "github_updated_at": "2026-07-22T19:37:12Z"
     },
     {
+      "repository_name": "SUNSETDEVER/KernelCDM",
+      "repository_url": "https://github.com/SUNSETDEVER/KernelCDM",
+      "name": "CMScript",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-11T06:04:24.074Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-11T06:04:24.074Z",
+      "last_seen_sha": "b9decb825c17",
+      "author": "SUNSETDEVER",
+      "maintainer": "SUNSETDEVER<973879601@qq.com>",
+      "sentence": "A tiny C-like scripting engine for microcontrollers.",
+      "paragraph": "Parse and run C-style scripts at runtime on ESP32/ESP8266/Arduino. Supports preprocessor, structs, arrays, std::string, file IO, and host function bridging.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SUNSETDEVER/CMScript-1.0.0.zip",
+      "size": 53702,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-11T05:55:52Z"
+    },
+    {
       "repository_name": "RCmags/CN0391",
       "repository_url": "https://github.com/RCmags/CN0391",
       "name": "CN0391",
@@ -118604,6 +118633,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-09-13T15:36:48Z",
       "download_url": "https://github.com/bastian2001/Fixed-Point-int"
+    },
+    {
+      "repository_name": "citycafe578/FixedPID",
+      "repository_url": "https://github.com/citycafe578/FixedPID",
+      "name": "FixedPID",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-11T06:04:24.074Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-11T06:04:24.074Z",
+      "last_seen_sha": "f0b7ab267dd1",
+      "author": "citycafe578",
+      "maintainer": "citycafe578",
+      "sentence": "Small fixed-point (integer) PID controller for 32-bit microcontrollers.",
+      "paragraph": "Integer-only PID with variable and fixed timestep, velocity form, anti-windup, error deadband, derivative filter and overflow-safe saturating arithmetic. Designed for 32-bit MCUs such as the ESP32.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/citycafe578/FixedPID-1.0.0.zip",
+      "size": 51667,
+      "github_stars": 15,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-11T02:19:28Z"
     },
     {
       "repository_name": "Pantastisch/FixedPoint_LUT",
@@ -329200,7 +329258,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9927,
+    "with_github_metadata": 9929,
     "total_dependencies": 5551
   }
 }

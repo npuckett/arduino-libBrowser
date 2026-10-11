@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-11T13:04:00.064Z",
-  "total_libraries": 10133,
-  "index_etag": "W/\"8bf529dc49f5ef046974baeccae53add\"",
-  "index_last_modified": "Sun, 11 Oct 2026 12:59:12 GMT",
+  "enhanced_at": "2026-10-11T14:02:28.948Z",
+  "total_libraries": 10134,
+  "index_etag": "W/\"d635e41f6a41dcf1dc4cfa0b70a36844\"",
+  "index_last_modified": "Sun, 11 Oct 2026 13:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -120232,6 +120232,38 @@
       "download_url": "https://github.com/4211421036/fnn.git"
     },
     {
+      "repository_name": "glutio/Focuspocus",
+      "repository_url": "https://github.com/glutio/Focuspocus",
+      "name": "Focuspocus",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-11T14:02:27.528Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-11T14:02:27.528Z",
+      "last_seen_sha": "019a7bfea751",
+      "author": "glutio",
+      "maintainer": "glutio",
+      "sentence": "A small GUI framework for Arduino displays: buttons, checkboxes, labels, sliders, layout, focus and touch.",
+      "paragraph": "Static widgets (no heap required), stack-panel layout, screens and popups, touch or button navigation, themes. Draws on any Adafruit_GFX display; a Windows build runs the same code for testing.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/glutio/Focuspocus-0.1.0.zip",
+      "size": 443594,
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-11T10:58:41Z"
+    },
+    {
       "repository_name": "soryone1/fog",
       "repository_url": "https://github.com/soryone1/fog",
       "name": "fog",
@@ -229271,7 +229303,7 @@
       "repository_name": "pulsync/pulsync-arduino",
       "repository_url": "https://github.com/pulsync/pulsync-arduino",
       "name": "Pulsync",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "version_history": [
         {
           "version": "0.2.6",
@@ -229300,11 +229332,15 @@
         {
           "version": "0.3.3",
           "seen_at": "2026-10-10T14:02:38.530Z"
+        },
+        {
+          "version": "0.3.4",
+          "seen_at": "2026-10-11T14:02:27.528Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-09-06T00:07:17.875Z",
-      "last_seen_sha": "ddbc14401965",
+      "last_seen_sha": "dfbb12ae08d8",
       "author": "Vineeth Rai K <vineethraik@gmail.com>",
       "maintainer": "Vineeth Rai K <vineethraik@gmail.com>",
       "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
@@ -229313,9 +229349,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.3.zip",
-      "size": 93815,
-      "previous_version": "0.3.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.4.zip",
+      "size": 94012,
+      "previous_version": "0.3.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -292708,7 +292744,7 @@
       "repository_name": "glutio/Taskfun",
       "repository_url": "https://github.com/glutio/Taskfun",
       "name": "Taskfun",
-      "version": "0.1.95",
+      "version": "0.1.96",
       "version_history": [
         {
           "version": "0.1.93",
@@ -292717,11 +292753,15 @@
         {
           "version": "0.1.95",
           "seen_at": "2026-10-10T20:03:00.915Z"
+        },
+        {
+          "version": "0.1.96",
+          "seen_at": "2026-10-11T14:02:27.528Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:15:11Z",
-      "last_seen_sha": "0de2be119b28",
+      "last_seen_sha": "cd6b8ff00dd8",
       "author": "Eugene Pistrak",
       "maintainer": "Eugene Pistrak",
       "sentence": "Preemptive multitasking for Arduino AVR and SAMD21",
@@ -292731,9 +292771,9 @@
         "avr",
         "samd"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/glutio/Taskfun-0.1.95.zip",
-      "size": 37958,
-      "previous_version": "0.1.93",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/glutio/Taskfun-0.1.96.zip",
+      "size": 38461,
+      "previous_version": "0.1.95",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
@@ -329275,7 +329315,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9929,
-    "total_dependencies": 5551
+    "with_github_metadata": 9930,
+    "total_dependencies": 5552
   }
 }

@@ -1,6 +1,107 @@
 {
-  "since": "2026-10-11T07:08:41.720Z",
+  "since": "2026-10-11T08:03:24.032Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_temt6000_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_temt6000_library",
+        "name": "DevLab_TEMT6000",
+        "version": "2.0.5",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-02T20:02:30.600Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-21T18:03:37.988Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-09-22T18:03:36.693Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-09-22T20:02:19.381Z"
+          },
+          {
+            "version": "2.0.4",
+            "seen_at": "2026-10-10T06:04:26.082Z"
+          },
+          {
+            "version": "2.0.5",
+            "seen_at": "2026-10-11T08:03:24.032Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-08-27T23:05:28.812Z",
+        "last_seen_sha": "71c70b8873cb",
+        "author": "UNIT Electronics MX",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino library for the TEMT6000 ambient light sensor using the DevLab Device Protocol over I2C.",
+        "paragraph": "DevLab TEMT6000 library for reading ambient light (ADC0) from DDP I2C nodes via DevLabDDP and DevLab_Interface.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLabDDP",
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_TEMT6000-2.0.5.zip",
+        "size": 22775,
+        "previous_version": "2.0.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-27T18:29:01Z"
+      },
+      "old_version": "2.0.4",
+      "new_version": "2.0.5"
+    },
+    {
+      "library": {
+        "repository_name": "citycafe578/FixedPID",
+        "repository_url": "https://github.com/citycafe578/FixedPID",
+        "name": "FixedPID",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-11T06:04:24.074Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-11T08:03:24.032Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-11T06:04:24.074Z",
+        "last_seen_sha": "cf6fadf31a07",
+        "author": "citycafe578",
+        "maintainer": "citycafe578",
+        "sentence": "Small fixed-point (integer) PID controller for 32-bit microcontrollers.",
+        "paragraph": "Integer-only PID with variable and fixed timestep, velocity form, anti-windup, error deadband, derivative filter and overflow-safe saturating arithmetic. Designed for 32-bit MCUs such as the ESP32.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/citycafe578/FixedPID-1.1.0.zip",
+        "size": 56539,
+        "previous_version": "1.0.0",
+        "github_stars": 15,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-11T02:19:28Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

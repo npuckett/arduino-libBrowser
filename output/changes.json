@@ -1,6 +1,255 @@
 {
-  "since": "2026-10-12T17:02:30.052Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-12T18:03:06.509Z",
+  "new_libraries": [
+    {
+      "repository_name": "cccat6/ESP32NFS",
+      "repository_url": "https://github.com/cccat6/ESP32NFS",
+      "name": "ESP32NFS",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-12T18:03:06.509Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-12T18:03:06.509Z",
+      "last_seen_sha": "598cac72a426",
+      "author": "Yitao Jiang",
+      "maintainer": "Yitao Jiang <22387156+cccat6@users.noreply.github.com>",
+      "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+      "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "depends": [
+        "SdFat"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.0.zip",
+      "size": 83030,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T15:51:57Z"
+    },
+    {
+      "repository_name": "ebm9991/Seeed_ICM20600_AK09918_UNOR4",
+      "repository_url": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4",
+      "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-12T18:03:06.509Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-12T18:03:06.509Z",
+      "last_seen_sha": "aac67b23fcc4",
+      "author": "Seeed Studio, Mourad",
+      "maintainer": "Mourad",
+      "sentence": "Arduino library for Grove - IMU 9DOF (ICM20600 + AK09918).",
+      "paragraph": "Based on the original Seeed Studio library, with an I2C compatibility fix for Arduino UNO R4. No sensor API or algorithm changes.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.0.zip",
+      "size": 26823,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T14:01:50Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "DigitalFuturesOCADU/df-pong-controller",
+        "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+        "name": "DFPongController",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-05T07:57:45Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-05T07:57:45Z",
+        "last_seen_sha": "4bca303cb5f4",
+        "author": "Digital Futures OCAD U",
+        "maintainer": "Digital Futures OCAD U",
+        "sentence": "BLE controller library for the DF Pong game.",
+        "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+        "category": "Communication",
+        "architectures": [
+          "samd",
+          "nrf52",
+          "mbed",
+          "mbed_nano",
+          "renesas_uno",
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoBLE",
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.0.0.zip",
+        "size": 62657,
+        "previous_version": "1.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-31T22:49:18Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "n0cturnality/ESP32-ICND2153-Panel",
+        "repository_url": "https://github.com/n0cturnality/ESP32-ICND2153-Panel",
+        "name": "ESP32-ICND2153-Panel",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-06T00:06:59.496Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-06T00:06:59.496Z",
+        "last_seen_sha": "066733e68b92",
+        "author": "n0cturnality",
+        "maintainer": "n0cturnality",
+        "sentence": "ESP32 DMA driver for HUB75-style LED panels with ChipOne ICND2153 PWM driver chips.",
+        "paragraph": "Flicker-free, tear-free refresh in hardware (I2S DMA), Adafruit GFX drawing, colour mapping that matches ESP32-HUB75-MatrixPanel-DMA, and an API close to that library's so existing sketches port with few changes. Tested on a 96x48 1/24-scan P2.5 panel with a classic ESP32.",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "Adafruit GFX Library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/n0cturnality/ESP32_ICND2153_Panel-0.2.0.zip",
+        "size": 22509,
+        "previous_version": "0.1.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-05T20:42:43Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "n-car/rpc-arduino-toolkit",
+        "repository_url": "https://github.com/n-car/rpc-arduino-toolkit",
+        "name": "RPCToolkit",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-15T10:01:02Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-24T14:03:09.186Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-15T10:01:02Z",
+        "last_seen_sha": "6b775515efe4",
+        "author": "Nicola Carpanese <https://github.com/n-car>",
+        "maintainer": "Nicola Carpanese <https://github.com/n-car>",
+        "sentence": "Lightweight JSON-RPC 2.0 client and server for Arduino-compatible embedded targets",
+        "paragraph": "Implements JSON-RPC 2.0 with Serial and HTTP transports over Arduino Client-compatible sockets. Designed for standard JSON-RPC interoperability with RPC Toolkit projects, with optional RPC Toolkit Safe Mode HTTP interoperability.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/n-car/RPCToolkit-1.1.1.zip",
+        "size": 64974,
+        "previous_version": "1.1.0",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-14T00:23:38Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "theengs/decoder",
+        "repository_url": "https://github.com/theengs/decoder",
+        "name": "TheengsDecoder",
+        "version": "2.5.0",
+        "version_history": [
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-06-29T09:11:48Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-09-02T18:03:13.158Z"
+          },
+          {
+            "version": "2.4.5",
+            "seen_at": "2026-09-08T00:06:46.855Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-29T09:11:48Z",
+        "last_seen_sha": "27addba8df0b",
+        "author": "Florian Robert, Ryan Powell",
+        "maintainer": "Florian Robert",
+        "sentence": "A simple, efficient, portable and lightweight library for Internet of Things messages decoding.",
+        "paragraph": "Theengs Decoder library translates sensors data chains into human readable data leveraging the well known data interchange format JSON. This format can easily be integrated into different systems or software.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.5.0.zip",
+        "size": 4155179,
+        "previous_version": "2.4.5",
+        "github_stars": 202,
+        "github_forks": 66,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T05:38:35Z"
+      },
+      "old_version": "2.4.5",
+      "new_version": "2.5.0"
+    }
+  ],
   "removed_libraries": []
 }

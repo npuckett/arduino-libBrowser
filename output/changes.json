@@ -1,6 +1,161 @@
 {
-  "since": "2026-10-12T09:13:51.027Z",
+  "since": "2026-10-12T10:09:10.015Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "rock7/RockBLOCK-9704",
+        "repository_url": "https://github.com/rock7/RockBLOCK-9704",
+        "name": "RockBLOCK-9704",
+        "version": "1.1.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T08:55:40Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-25T16:11:08.768Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-08T14:03:01.711Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-10-12T10:09:10.015Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-30T08:55:40Z",
+        "last_seen_sha": "4c4dbf10130b",
+        "author": "Ground Control",
+        "maintainer": "help@groundcontrol.com",
+        "sentence": "Rockblock 9704 IMT communication library.",
+        "paragraph": "This library provides useful functions for connecting to a RockBLOCK9704 via Serial, checking modem information, sending messages via Iridium IMT and receiving messages.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rock7/RockBLOCK_9704-1.1.2.zip",
+        "size": 1005721,
+        "previous_version": "1.0.2",
+        "github_stars": 28,
+        "github_forks": 15,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T13:12:33Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.1.2"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/SimcomA76xx",
+        "repository_url": "https://github.com/soosp/SimcomA76xx",
+        "name": "SimcomA76xx",
+        "version": "0.5.1",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-05-11T09:02:15Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-10-08T22:02:44.835Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-10-11T18:03:26.445Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-10-11T20:03:01.477Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-10-12T10:09:10.015Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-05-11T09:02:15Z",
+        "last_seen_sha": "5bf67a2869ab",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "A library for SimCom A76xx series LTE modems.",
+        "paragraph": "Designed for stability on ESP32 and Arduino, focusing on network band management, signal quality, and reliable AT command parsing.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SimcomA76xx-0.5.1.zip",
+        "size": 50410,
+        "previous_version": "0.5.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-09T23:25:14Z"
+      },
+      "old_version": "0.5.0",
+      "new_version": "0.5.1"
+    },
+    {
+      "library": {
+        "repository_name": "TcMenu/tcMenuLib",
+        "repository_url": "https://github.com/TcMenu/tcMenuLib",
+        "name": "tcMenu",
+        "version": "5.0.1",
+        "version_history": [
+          {
+            "version": "4.5.1",
+            "seen_at": "2026-05-18T08:36:30Z"
+          },
+          {
+            "version": "4.5.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "4.5.9",
+            "seen_at": "2026-08-02T10:30:21.201Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "5.0.1",
+            "seen_at": "2026-10-12T10:09:10.015Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-05-18T08:36:30Z",
+        "last_seen_sha": "22ac5795beed",
+        "author": "davetcc",
+        "maintainer": "www.thecoderscorner.com",
+        "sentence": "Menu library for Arduino with IoT capabilities that supports many input and display devices with a designer UI, code generator, CLI, and strong remote control capability.",
+        "paragraph": "Menu library for Arduino with IoT capabilities supporting full multi level navigation. Complete with a designer UI and CLI that can round trip. It has plugins for Adafruit_GFX, U8G2, TFT_eSPI and LiquidCrystalIO. Input is supported from Touch, Rotary Encoder, Digital / Analog joysticks, DfRobot, Keypad and more. Any menu can be remotely using embedCONTROL UI / API over Ethernet2, UIP, STM32 Ethernet and Serial / Bluetooth. Even works with no local display for remote control only.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "IoAbstraction",
+          "tcUnicodeHelper"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/tcMenu-5.0.1.zip",
+        "size": 691543,
+        "previous_version": "5.0.0",
+        "github_stars": 117,
+        "github_forks": 11,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-24T19:20:32Z"
+      },
+      "old_version": "5.0.0",
+      "new_version": "5.0.1"
+    }
+  ],
   "removed_libraries": []
 }

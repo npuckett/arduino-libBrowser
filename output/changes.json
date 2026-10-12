@@ -1,6 +1,233 @@
 {
-  "since": "2026-10-12T19:03:23.213Z",
+  "since": "2026-10-12T20:03:06.925Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "DigitalFuturesOCADU/df-pong-controller",
+        "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
+        "name": "DFPongController",
+        "version": "2.1.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-05T07:57:45Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          },
+          {
+            "version": "2.1.1",
+            "seen_at": "2026-10-12T20:03:06.925Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-05T07:57:45Z",
+        "last_seen_sha": "d5851e2663a1",
+        "author": "Digital Futures OCAD U",
+        "maintainer": "Digital Futures OCAD U",
+        "sentence": "BLE controller library for the DF Pong game.",
+        "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+        "category": "Communication",
+        "architectures": [
+          "samd",
+          "nrf52",
+          "mbed",
+          "mbed_nano",
+          "renesas_uno",
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoBLE",
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.1.1.zip",
+        "size": 63977,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-31T22:49:18Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "cccat6/ESP32NFS",
+        "repository_url": "https://github.com/cccat6/ESP32NFS",
+        "name": "ESP32NFS",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-10-12T20:03:06.925Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-12T18:03:06.509Z",
+        "last_seen_sha": "030e819a17d1",
+        "author": "Yitao Jiang",
+        "maintainer": "Yitao Jiang <22387156+cccat6@users.noreply.github.com>",
+        "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
+        "paragraph": "Export LittleFS, FAT32, exFAT, RAM and ROM through a common filesystem interface. Map multiple volumes, integrate custom block devices, and manage buffered writes and transactional storage.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "depends": [
+          "SdFat"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.1.zip",
+        "size": 89277,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-12T15:51:57Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/NetworkManager",
+        "repository_url": "https://github.com/soosp/NetworkManager",
+        "name": "NetworkManager",
+        "version": "0.4.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-07-16T16:27:07.554Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "0.1.2",
+            "seen_at": "2026-07-23T12:29:28.524Z"
+          },
+          {
+            "version": "0.1.4",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "0.1.5",
+            "seen_at": "2026-07-30T14:44:22.538Z"
+          },
+          {
+            "version": "0.1.6",
+            "seen_at": "2026-07-30T16:29:03.361Z"
+          },
+          {
+            "version": "0.1.8",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-06T00:18:43.270Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-26T22:58:36.675Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-10-07T08:04:27.357Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-10-12T20:03:06.925Z"
+          }
+        ],
+        "release_count": 11,
+        "first_seen_at": "2026-07-16T16:27:07.554Z",
+        "last_seen_sha": "e49fc5bcb27a",
+        "author": "Péter Soós <https://github.com/soosp>",
+        "maintainer": "Péter Soós <https://github.com/soosp>",
+        "sentence": "Priority-based network connection manager with automatic fallback.",
+        "paragraph": "Supports WiFi and Ethernet on ESP32, ESP8266 and AVR. Manages multiple network adapters with priority-based fallback, NTP configuration and thread-safe operation.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "depends": [
+          "Host",
+          "NetworkProfile",
+          "Preferences",
+          "EEPROMPreferences",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.1.zip",
+        "size": 157386,
+        "previous_version": "0.4.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-16T15:01:40Z"
+      },
+      "old_version": "0.4.0",
+      "new_version": "0.4.1"
+    },
+    {
+      "library": {
+        "repository_name": "klenov1900-lang/TM1637_6Easy",
+        "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
+        "name": "TM1637_6Easy",
+        "version": "2.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-09-05T20:02:21.576Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-06T20:02:31.565Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-09-19T20:02:28.695Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-10-12T20:03:06.925Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-05T20:02:21.576Z",
+        "last_seen_sha": "9333e9a8fb96",
+        "author": "klenov1900-lang",
+        "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
+        "sentence": "Easy library for 4- and 6-digit TM1637 LED displays on ATmega328P.",
+        "paragraph": "Optimized for cheap clones with ceramic resonator. Direct register access, nop-based protocol delay, supports 4- and 6-digit modules, two digit orders for Chinese modules.",
+        "category": "Display",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-2.1.0.zip",
+        "size": 1124447,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T18:59:39Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.1.0"
+    }
+  ],
   "removed_libraries": []
 }

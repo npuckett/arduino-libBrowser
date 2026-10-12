@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-12T19:03:23.337Z",
+  "enhanced_at": "2026-10-12T20:03:07.033Z",
   "total_libraries": 10141,
-  "index_etag": "W/\"08458cd38f9577210423942f069dc699\"",
-  "index_last_modified": "Mon, 12 Oct 2026 18:59:12 GMT",
+  "index_etag": "W/\"c94be72d94f3d24f84058bc5a1a04f95\"",
+  "index_last_modified": "Mon, 12 Oct 2026 19:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -76968,7 +76968,7 @@
       "repository_name": "DigitalFuturesOCADU/df-pong-controller",
       "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
       "name": "DFPongController",
-      "version": "2.0.0",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -76981,15 +76981,19 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-10-12T18:03:06.509Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-10-12T20:03:06.925Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-01-05T07:57:45Z",
-      "last_seen_sha": "4bca303cb5f4",
+      "last_seen_sha": "d5851e2663a1",
       "author": "Digital Futures OCAD U",
       "maintainer": "Digital Futures OCAD U",
       "sentence": "BLE controller library for the DF Pong game.",
-      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
+      "paragraph": "Support library for BLE Pong Controllers that control the online game df-pong. Version 2 adds player settings (name, color, paddle speed and size, custom sounds and background music) and game rule requests, and handles the connection handshake automatically. Supports Arduino Nano 33 IoT, Nano 33 BLE, UNO R4 WiFi, and ESP32 (NimBLE-Arduino 2.x).",
       "category": "Communication",
       "architectures": [
         "samd",
@@ -77003,9 +77007,9 @@
         "ArduinoBLE",
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.0.0.zip",
-      "size": 62657,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.1.1.zip",
+      "size": 63977,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -105826,16 +105830,20 @@
       "repository_name": "cccat6/ESP32NFS",
       "repository_url": "https://github.com/cccat6/ESP32NFS",
       "name": "ESP32NFS",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-10-12T18:03:06.509Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-12T20:03:06.925Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-12T18:03:06.509Z",
-      "last_seen_sha": "598cac72a426",
+      "last_seen_sha": "030e819a17d1",
       "author": "Yitao Jiang",
       "maintainer": "Yitao Jiang <22387156+cccat6@users.noreply.github.com>",
       "sentence": "NFSv3 file sharing for ESP32 and Raspberry Pi Pico W over TCP with flexible storage and partition mapping.",
@@ -105848,8 +105856,9 @@
       "depends": [
         "SdFat"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.0.zip",
-      "size": 83030,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cccat6/ESP32NFS-1.1.1.zip",
+      "size": 89277,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -201160,7 +201169,7 @@
       "repository_name": "soosp/NetworkManager",
       "repository_url": "https://github.com/soosp/NetworkManager",
       "name": "NetworkManager",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -201201,11 +201210,15 @@
         {
           "version": "0.4.0",
           "seen_at": "2026-10-07T08:04:27.357Z"
+        },
+        {
+          "version": "0.4.1",
+          "seen_at": "2026-10-12T20:03:06.925Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "b32f03add5a3",
+      "last_seen_sha": "e49fc5bcb27a",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Priority-based network connection manager with automatic fallback.",
@@ -201223,9 +201236,9 @@
         "EEPROMPreferences",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.0.zip",
-      "size": 152666,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.1.zip",
+      "size": 157386,
+      "previous_version": "0.4.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -304277,7 +304290,7 @@
       "repository_name": "klenov1900-lang/TM1637_6Easy",
       "repository_url": "https://github.com/klenov1900-lang/TM1637_6Easy",
       "name": "TM1637_6Easy",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -304290,11 +304303,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-19T20:02:28.695Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-10-12T20:03:06.925Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-05T20:02:21.576Z",
-      "last_seen_sha": "9e53441b8eb5",
+      "last_seen_sha": "9333e9a8fb96",
       "author": "klenov1900-lang",
       "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
       "sentence": "Easy library for 4- and 6-digit TM1637 LED displays on ATmega328P.",
@@ -304303,9 +304320,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-2.0.0.zip",
-      "size": 15032,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/TM1637_6Easy-2.1.0.zip",
+      "size": 1124447,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

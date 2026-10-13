@@ -1,6 +1,518 @@
 {
-  "since": "2026-10-13T07:16:18.718Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-13T08:08:19.862Z",
+  "new_libraries": [
+    {
+      "repository_name": "abinsaji2008/GroqReasoning",
+      "repository_url": "https://github.com/abinsaji2008/GroqReasoning",
+      "name": "GroqReasoning",
+      "version": "1.4.8",
+      "version_history": [
+        {
+          "version": "1.4.8",
+          "seen_at": "2026-10-13T08:08:19.862Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T08:08:19.862Z",
+      "last_seen_sha": "6e46d90594a3",
+      "author": "Abi",
+      "maintainer": "Abi",
+      "sentence": "Groq voice reasoning, WhatsApp messaging, and scheduled delivery.",
+      "paragraph": "ESP32 library for compact voice-assistant workflows: Groq intent routing, unified contact/phone mappings, WhatsApp drafts and delivery, NTP time context, and persistent scheduled messages.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqReasoning-1.4.8.zip",
+      "size": 29712,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T04:51:59Z"
+    },
+    {
+      "repository_name": "pravennn08/SerialLedger",
+      "repository_url": "https://github.com/pravennn08/SerialLedger",
+      "name": "SerialLedger",
+      "version": "0.1.0-beta.1",
+      "version_history": [
+        {
+          "version": "0.1.0-beta.1",
+          "seen_at": "2026-10-13T08:08:19.862Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T08:08:19.862Z",
+      "last_seen_sha": "1ec6af5a4f52",
+      "author": "Raven Magbanua",
+      "maintainer": "Raven Magbanua <magbanuaraven08@gmail.com>",
+      "sentence": "Send newline-delimited telemetry to the SerialLedger companion.",
+      "paragraph": "Portable C transport core with C++ and Arduino wrappers. The PC companion records serial data and exports Excel workbooks.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pravennn08/SerialLedger-0.1.0-beta.1.zip",
+      "size": 14455,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-13T04:57:13Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.9.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-08-30T08:02:50.818Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-08-30T14:02:11.778Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-09-08T18:03:23.738Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-09-12T00:06:21.484Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-09-20T20:02:26.994Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-10-07T08:04:27.357Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-10-12T22:02:48.687Z"
+          },
+          {
+            "version": "0.9.1",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 15,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "db08acdb8196",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.9.1.zip",
+        "size": 170933,
+        "previous_version": "0.9.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.9.0",
+      "new_version": "0.9.1"
+    },
+    {
+      "library": {
+        "repository_name": "bonezegei/Bonezegei_DHT22",
+        "repository_url": "https://github.com/bonezegei/Bonezegei_DHT22",
+        "name": "Bonezegei_DHT22",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2025-07-21T16:10:01Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:10:01Z",
+        "last_seen_sha": "aba00cfb6aad",
+        "author": "Bonezegei (Jofel Batutay)",
+        "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+        "sentence": "DHT22",
+        "paragraph": "Temperature and Humidity Sensor Library",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DHT22-1.0.2.zip",
+        "size": 16521,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2023-11-15T16:13:37Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "SolderedElectronics/Inkplate_Motion_Arduino_Library",
+        "repository_url": "https://github.com/SolderedElectronics/Inkplate_Motion_Arduino_Library",
+        "name": "Inkplate Motion Library",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-01-01T07:38:39Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-01T07:38:39Z",
+        "last_seen_sha": "7f4612813f47",
+        "author": "Soldered",
+        "maintainer": "Soldered <hello@soldered.com>",
+        "sentence": "Arduino Library for Inkplate Motion e-paper based board family.",
+        "paragraph": "Easily add e-paper to your Arduino projects!",
+        "category": "Display",
+        "architectures": [
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SolderedElectronics/Inkplate_Motion_Library-1.2.0.zip",
+        "size": 20830142,
+        "previous_version": "1.1.1",
+        "github_stars": 8,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-07T12:33:33Z"
+      },
+      "old_version": "1.1.1",
+      "new_version": "1.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "lovyan03/LovyanGFX",
+        "repository_url": "https://github.com/lovyan03/LovyanGFX",
+        "name": "LovyanGFX",
+        "version": "1.2.33",
+        "version_history": [
+          {
+            "version": "1.2.24",
+            "seen_at": "2026-06-29T08:58:36Z"
+          },
+          {
+            "version": "1.2.25",
+            "seen_at": "2026-07-09T09:07:59.829Z"
+          },
+          {
+            "version": "1.2.26",
+            "seen_at": "2026-07-22T10:41:35.191Z"
+          },
+          {
+            "version": "1.2.27",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "1.2.28",
+            "seen_at": "2026-08-25T06:06:31.584Z"
+          },
+          {
+            "version": "1.2.29",
+            "seen_at": "2026-09-14T08:03:49.936Z"
+          },
+          {
+            "version": "1.2.30",
+            "seen_at": "2026-09-22T00:06:54.581Z"
+          },
+          {
+            "version": "1.2.31",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "1.2.32",
+            "seen_at": "2026-10-02T06:04:32.055Z"
+          },
+          {
+            "version": "1.2.33",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-06-29T08:58:36Z",
+        "last_seen_sha": "b941292f6a46",
+        "author": "lovyan03",
+        "maintainer": "lovyan03,tobozo",
+        "sentence": "TFT LCD Graphics driver with touch for ESP32/ESP8266, SAMD21/SAMD51, RP2040/RP2350",
+        "paragraph": "Supports TFT LCD displays using drivers that operate with hardware SPI. ESP32, ESP8266, SAMD21, SAMD51, RP2040, RP2350, M5Stack, M5StackCore2, M5StickC, M5StickCPlus, ODROID-GO, TTGO T-Watch, TTGO T-Wristband, ESP-WROVER-KIT, WioTerminal, WiFiBoy, MakePython, HX8357, ILI9163, ILI9342, ILI9341, ILI9486, ILI9488, ST7735, ST7789, ST7796, ST77916, SSD1351",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "samd",
+          "rp2040",
+          "mbed_rp2040",
+          "mbed_nano",
+          "teensy"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/lovyan03/LovyanGFX-1.2.33.zip",
+        "size": 49035669,
+        "previous_version": "1.2.32",
+        "github_stars": 1683,
+        "github_forks": 279,
+        "github_language": "C",
+        "github_updated_at": "2026-07-01T09:01:55Z"
+      },
+      "old_version": "1.2.32",
+      "new_version": "1.2.33"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5GFX",
+        "repository_url": "https://github.com/m5stack/M5GFX",
+        "name": "M5GFX",
+        "version": "0.2.33",
+        "version_history": [
+          {
+            "version": "0.2.24",
+            "seen_at": "2026-06-25T08:27:04Z"
+          },
+          {
+            "version": "0.2.25",
+            "seen_at": "2026-07-09T09:07:59.829Z"
+          },
+          {
+            "version": "0.2.26",
+            "seen_at": "2026-07-22T10:41:35.191Z"
+          },
+          {
+            "version": "0.2.27",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "0.2.28",
+            "seen_at": "2026-08-25T04:12:10.454Z"
+          },
+          {
+            "version": "0.2.29",
+            "seen_at": "2026-09-14T08:03:49.936Z"
+          },
+          {
+            "version": "0.2.30",
+            "seen_at": "2026-09-22T00:06:54.581Z"
+          },
+          {
+            "version": "0.2.31",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.2.32",
+            "seen_at": "2026-10-02T06:04:32.055Z"
+          },
+          {
+            "version": "0.2.33",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-06-25T08:27:04Z",
+        "last_seen_sha": "52017a941230",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack All Display",
+        "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5Station, M5ATOMS3, Unit OLED, Unit LCD, Unit RCA, ATOM Display, See more on http://M5Stack.com",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5GFX-0.2.33.zip",
+        "size": 49299504,
+        "previous_version": "0.2.32",
+        "github_stars": 350,
+        "github_forks": 111,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T11:02:56Z"
+      },
+      "old_version": "0.2.32",
+      "new_version": "0.2.33"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unified",
+        "repository_url": "https://github.com/m5stack/M5Unified",
+        "name": "M5Unified",
+        "version": "0.2.26",
+        "version_history": [
+          {
+            "version": "0.2.17",
+            "seen_at": "2026-06-30T08:36:17Z"
+          },
+          {
+            "version": "0.2.18",
+            "seen_at": "2026-07-09T09:07:59.829Z"
+          },
+          {
+            "version": "0.2.19",
+            "seen_at": "2026-07-22T12:29:33.437Z"
+          },
+          {
+            "version": "0.2.20",
+            "seen_at": "2026-08-17T04:13:24.764Z"
+          },
+          {
+            "version": "0.2.21",
+            "seen_at": "2026-08-26T12:06:00.595Z"
+          },
+          {
+            "version": "0.2.22",
+            "seen_at": "2026-09-14T08:03:49.936Z"
+          },
+          {
+            "version": "0.2.23",
+            "seen_at": "2026-09-22T00:06:54.581Z"
+          },
+          {
+            "version": "0.2.24",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.2.25",
+            "seen_at": "2026-10-02T06:04:32.055Z"
+          },
+          {
+            "version": "0.2.26",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-06-30T08:36:17Z",
+        "last_seen_sha": "104e585a0984",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Unified library for M5Stack series",
+        "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5GFX"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.26.zip",
+        "size": 725873,
+        "previous_version": "0.2.25",
+        "github_stars": 656,
+        "github_forks": 118,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T11:03:16Z"
+      },
+      "old_version": "0.2.25",
+      "new_version": "0.2.26"
+    },
+    {
+      "library": {
+        "repository_name": "soosp/RangeMonitor",
+        "repository_url": "https://github.com/soosp/RangeMonitor",
+        "name": "RangeMonitor",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-08T16:03:20.184Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-10-08T20:03:01.929Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-10-12T12:06:33.976Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-10-08T16:03:20.184Z",
+        "last_seen_sha": "fb0308dce3c5",
+        "author": "Péter Soós",
+        "maintainer": "Péter Soós",
+        "sentence": "Range monitor for a scalar measurement: spike filter, time-based EMA, soft limits with alarm delay, hard limits, fault detection.",
+        "paragraph": "Watches any scalar quantity — temperature, humidity, pressure — against a range. A median-of-3 spike filter and a time-based EMA smooth the value; soft limits raise an alarm only after a configurable delay (tolerating defrost cycles, opened doors), hard limits raise it at once. Invalid samples become a FAULT after their own delay. Every transition is reported, every time rule uses the real time between samples, and the state machine runs on a host PC for testing and data replay. No dynamic allocation; thread-safe on ESP32 with a static FreeRTOS mutex.",
+        "category": "Data Processing",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "license": "MIT",
+        "depends": [
+          "RunningStatistics"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/RangeMonitor-0.4.0.zip",
+        "size": 41556,
+        "previous_version": "0.3.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-08T13:48:14Z"
+      },
+      "old_version": "0.3.0",
+      "new_version": "0.4.0"
+    }
+  ],
   "removed_libraries": []
 }

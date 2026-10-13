@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-12T23:02:19.853Z",
-  "total_libraries": 10141,
-  "index_etag": "W/\"f34b38a83c0198af72594f7140a7b560\"",
-  "index_last_modified": "Mon, 12 Oct 2026 22:59:12 GMT",
+  "enhanced_at": "2026-10-13T00:07:35.073Z",
+  "total_libraries": 10144,
+  "index_etag": "W/\"00e0db6a40b1050134b958c23d77a60c\"",
+  "index_last_modified": "Mon, 12 Oct 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -233666,6 +233666,40 @@
       "download_url": "https://github.com/vurdalakov/radsensboard"
     },
     {
+      "repository_name": "BOBILLEChristophe/Railuino",
+      "repository_url": "https://github.com/BOBILLEChristophe/Railuino",
+      "name": "Railuino",
+      "version": "0.14.0",
+      "version_history": [
+        {
+          "version": "0.14.0",
+          "seen_at": "2026-10-13T00:07:31.227Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T00:07:31.227Z",
+      "last_seen_sha": "a638114232c7",
+      "author": "Joerg Pleumann, Christophe Bobille, Uwe Monreal",
+      "maintainer": "Christophe Bobille",
+      "sentence": "Control a Märklin layout through its CAN bus (Gleisbox, MS2, CS2) from an ESP32 or an Arduino with an MCP2515.",
+      "paragraph": "Locomotives (MM2, MFX, DCC), functions, turnouts and accessories, decoder CVs, S88 feedback. Based on Railuino 0.9 by Joerg Pleumann.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "depends": [
+        "ACAN_ESP32",
+        "ACAN2515"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/Railuino-0.14.0.zip",
+      "size": 136171,
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T23:03:36Z"
+    },
+    {
       "repository_name": "RobTillaart/RAIN",
       "repository_url": "https://github.com/RobTillaart/RAIN",
       "name": "RAIN",
@@ -268404,6 +268438,35 @@
       "download_url": "https://github.com/yasir-shahzad/SoftI2C"
     },
     {
+      "repository_name": "PipeVerri/SoftI2C-Shared-CLS",
+      "repository_url": "https://github.com/PipeVerri/SoftI2C-Shared-CLS",
+      "name": "SoftI2C_Shared_CLS",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-13T00:07:31.227Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T00:07:31.227Z",
+      "last_seen_sha": "e02ce322c324",
+      "author": "Felipe Verri <pipe.verri@gmail.com>",
+      "maintainer": "Felipe Verri <pipe.verri@gmail.com>",
+      "sentence": "Allows the use of multiple non-programmable I2C devices with the same address while using around half as many GPIO pins.",
+      "paragraph": "It does that by sharing the CLS accross devices and keeping a single SDA per device, which allows the use of multiple devices with the same address.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PipeVerri/SoftI2C_Shared_CLS-0.1.0.zip",
+      "size": 20118,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T20:58:09Z"
+    },
+    {
       "repository_name": "felias-fogg/SoftI2CMaster",
       "repository_url": "https://github.com/felias-fogg/SoftI2CMaster",
       "name": "SoftI2CMaster",
@@ -290562,6 +290625,36 @@
       "github_language": "C++",
       "github_updated_at": "2024-12-09T08:17:38Z",
       "download_url": "https://github.com/sunfounder/arduino_spc"
+    },
+    {
+      "repository_name": "clifarr/sunlocator",
+      "repository_url": "https://github.com/clifarr/sunlocator",
+      "name": "SunLocator",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-13T00:07:31.227Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T00:07:31.227Z",
+      "last_seen_sha": "a1608b6500b6",
+      "author": "Clifford Farrugia",
+      "maintainer": "Clifford Farrugia <62100236+clifarr@users.noreply.github.com>",
+      "sentence": "A lightweight solar calculator for sunrise, sunset and twilight times.",
+      "paragraph": "Computes the local time at which the sun reaches any elevation angle (the horizon, civil/nautical/astronomical twilight, or a custom angle) for a given date and location. Pure C++, no hardware or network dependencies, works on AVR, SAM, SAMD, ESP8266, ESP32, RP2040 and more. Ideal for switching lights, blinds or relays based on daylight.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/clifarr/SunLocator-1.0.0.zip",
+      "size": 22781,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T21:02:36Z"
     },
     {
       "repository_name": "GyverLibs/SunPosition",
@@ -329728,7 +329821,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9937,
-    "total_dependencies": 5556
+    "with_github_metadata": 9940,
+    "total_dependencies": 5558
   }
 }

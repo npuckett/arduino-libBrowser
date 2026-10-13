@@ -1,6 +1,75 @@
 {
-  "since": "2026-10-13T05:05:11.893Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-13T06:06:29.018Z",
+  "new_libraries": [
+    {
+      "repository_name": "beegee-tokyo/WisBlockLoRaWAN",
+      "repository_url": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+      "name": "WisBlockLoRaWAN",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-13T06:06:29.018Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T06:06:29.018Z",
+      "last_seen_sha": "539bb5f4645a",
+      "author": "Bernd Giesecke bernd@giesecke.tk",
+      "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+      "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+      "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (BasicModem/LBM) stack.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.0.zip",
+      "size": 1362341,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-13T03:52:53Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "abinsaji2008/GroqAudioStream_Library",
+        "repository_url": "https://github.com/abinsaji2008/GroqAudioStream_Library",
+        "name": "GroqAudioStream",
+        "version": "1.3.1",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-10-10T10:02:33.195Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-10-13T06:06:29.018Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-10T10:02:33.195Z",
+        "last_seen_sha": "b80940b1a9d6",
+        "author": "Abi",
+        "maintainer": "Abi",
+        "sentence": "INMP441 capture and quiet streaming speech-to-text for Groq Whisper on ESP32.",
+        "paragraph": "Captures 16 kHz mono audio, applies configurable VAD/filtering/gain, streams to Groq Whisper, and returns a transcript. Library serial logging is disabled by default and can be enabled with Config.debugOutput. Created and maintained by Abi.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/abinsaji2008/GroqAudioStream-1.3.1.zip",
+        "size": 9048,
+        "previous_version": "1.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-10T07:30:08Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.3.1"
+    }
+  ],
   "removed_libraries": []
 }

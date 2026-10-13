@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-13T21:02:43.108Z",
+  "enhanced_at": "2026-10-13T22:02:34.168Z",
   "total_libraries": 10151,
-  "index_etag": "W/\"bd381d9ef8aca6c9b19038e646475b4f\"",
-  "index_last_modified": "Tue, 13 Oct 2026 20:59:12 GMT",
+  "index_etag": "W/\"0d2e32de403c3bde2e4b5d712b430bb2\"",
+  "index_last_modified": "Tue, 13 Oct 2026 21:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -36184,7 +36184,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.13.0",
+      "version": "0.13.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36261,11 +36261,15 @@
         {
           "version": "0.13.0",
           "seen_at": "2026-10-13T20:02:59.392Z"
+        },
+        {
+          "version": "0.13.1",
+          "seen_at": "2026-10-13T22:02:34.026Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "8fe39ce5207f",
+      "last_seen_sha": "1655714aca16",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36282,9 +36286,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.0.zip",
-      "size": 188381,
-      "previous_version": "0.12.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.1.zip",
+      "size": 188548,
+      "previous_version": "0.13.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -121130,7 +121134,7 @@
       "repository_name": "fp64lib/fp64lib",
       "repository_url": "https://github.com/fp64lib/fp64lib",
       "name": "fp64lib",
-      "version": "1.1.29",
+      "version": "1.1.31",
       "version_history": [
         {
           "version": "1.1.27",
@@ -121139,23 +121143,27 @@
         {
           "version": "1.1.29",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.31",
+          "seen_at": "2026-10-13T22:02:34.026Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-11-28T07:21:23Z",
-      "last_seen_sha": "89ead4079085",
+      "last_seen_sha": "097fef237edf",
       "author": "Uwe Bissinger <mail@fp64lib.org>",
       "maintainer": "Uwe Bissinger <mail@fp64lib.org>",
       "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
-      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.29 has some space optimizations and a bug fix in fp64_compare. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.31 extended fp64_pow if both arguments are negative. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
       "category": "Data Processing",
       "architectures": [
         "avr",
         "atmelavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.29.zip",
-      "size": 246502,
-      "previous_version": "1.1.27",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.31.zip",
+      "size": 268346,
+      "previous_version": "1.1.29",
       "github_stars": 28,
       "github_forks": 6,
       "github_language": "Assembly",
@@ -201480,7 +201488,7 @@
       "repository_name": "soosp/NetworkProfile",
       "repository_url": "https://github.com/soosp/NetworkProfile",
       "name": "NetworkProfile",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -201537,11 +201545,15 @@
         {
           "version": "0.10.0",
           "seen_at": "2026-10-13T20:02:59.392Z"
+        },
+        {
+          "version": "0.10.1",
+          "seen_at": "2026-10-13T22:02:34.026Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "3eb92998beba",
+      "last_seen_sha": "3bd4069ecc0a",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
@@ -201558,9 +201570,9 @@
         "EEPROMPreferences",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.10.0.zip",
-      "size": 92705,
-      "previous_version": "0.9.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.10.1.zip",
+      "size": 93105,
+      "previous_version": "0.10.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -243911,7 +243923,7 @@
       "repository_name": "dejwk/roo_windows",
       "repository_url": "https://github.com/dejwk/roo_windows",
       "name": "roo_windows",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "version_history": [
         {
           "version": "1.6.0",
@@ -243936,11 +243948,15 @@
         {
           "version": "1.9.0",
           "seen_at": "2026-10-09T00:07:28.052Z"
+        },
+        {
+          "version": "1.10.0",
+          "seen_at": "2026-10-13T22:02:34.026Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-06T08:06:04Z",
-      "last_seen_sha": "04076a6c0681",
+      "last_seen_sha": "0062410aae60",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
@@ -243961,9 +243977,9 @@
         "roo_scheduler",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.9.0.zip",
-      "size": 3311816,
-      "previous_version": "1.8.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.10.0.zip",
+      "size": 7938669,
+      "previous_version": "1.9.0",
       "github_stars": 18,
       "github_forks": 2,
       "github_language": "C++",

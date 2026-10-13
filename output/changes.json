@@ -1,6 +1,185 @@
 {
-  "since": "2026-10-13T17:02:52.994Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-13T18:03:42.746Z",
+  "new_libraries": [
+    {
+      "repository_name": "edpro/amperia_stem",
+      "repository_url": "https://github.com/edpro/amperia_stem",
+      "name": "AmperiaSTEM",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-10-13T18:03:42.746Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T18:03:42.746Z",
+      "last_seen_sha": "7cff68d73875",
+      "author": "EdPro",
+      "maintainer": "EdPro <ababenko@edpro.ua>",
+      "sentence": "Arduino library for Amperia STEM sensors and actuators.",
+      "paragraph": "Provides a user-friendly API for discovering and reading Amperia STEM sensors, displaying measurements, and controlling supported actuators.",
+      "category": "Sensors",
+      "architectures": [
+        "renesas_uno"
+      ],
+      "depends": [
+        "Stepper",
+        "Servo"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/edpro/AmperiaSTEM-0.9.0.zip",
+      "size": 4386967,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T15:45:27Z"
+    },
+    {
+      "repository_name": "iotfiy-solutions/Gateway_Library",
+      "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
+      "name": "IOTFIY",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-13T18:03:42.746Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T18:03:42.746Z",
+      "last_seen_sha": "f7e07e4fc91c",
+      "author": "Iotfiy Solutions",
+      "maintainer": "iotfiy.solution@gmail.com",
+      "sentence": "A library for IoT device connectivity using MQTT.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.0.zip",
+      "size": 12704,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T14:16:02Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/AsyncConfigPortal",
+        "repository_url": "https://github.com/soosp/AsyncConfigPortal",
+        "name": "AsyncConfigPortal",
+        "version": "0.12.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-27T00:13:10.829Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-08-28T22:17:05.295Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-08-29T22:02:03.253Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-08-30T00:07:19.711Z"
+          },
+          {
+            "version": "0.4.1",
+            "seen_at": "2026-08-30T08:02:50.818Z"
+          },
+          {
+            "version": "0.4.2",
+            "seen_at": "2026-08-30T14:02:11.778Z"
+          },
+          {
+            "version": "0.4.3",
+            "seen_at": "2026-09-08T18:03:23.738Z"
+          },
+          {
+            "version": "0.5.0",
+            "seen_at": "2026-09-11T22:02:16.969Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-09-12T00:06:21.484Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-09-20T20:02:26.994Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-03T22:54:30.985Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-10-07T08:04:27.357Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-10-12T22:02:48.687Z"
+          },
+          {
+            "version": "0.9.1",
+            "seen_at": "2026-10-13T08:08:19.862Z"
+          },
+          {
+            "version": "0.9.2",
+            "seen_at": "2026-10-13T14:05:22.652Z"
+          },
+          {
+            "version": "0.10.0",
+            "seen_at": "2026-10-13T16:03:15.957Z"
+          },
+          {
+            "version": "0.12.0",
+            "seen_at": "2026-10-13T18:03:42.746Z"
+          }
+        ],
+        "release_count": 18,
+        "first_seen_at": "2026-08-27T00:13:10.829Z",
+        "last_seen_sha": "0a8174823a43",
+        "author": "Peter Soos",
+        "maintainer": "Peter Soos",
+        "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
+        "paragraph": "HTTP digest auth, a dynamic menu, a system Status page, and an Other page (OTA with firmware-marker validation, restart, backup, password change), plus a composition API (addPage / addJsonEndpoint / addPostHandler) for project-specific pages. Ships an optional, opt-in network-configuration module.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ESP Async WebServer",
+          "Async TCP",
+          "ESP Async TCP",
+          "HttpDigestAuth"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.12.0.zip",
+        "size": 187396,
+        "previous_version": "0.10.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T21:14:57Z"
+      },
+      "old_version": "0.10.0",
+      "new_version": "0.12.0"
+    }
+  ],
   "removed_libraries": []
 }

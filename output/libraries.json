@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-13T17:02:53.133Z",
-  "total_libraries": 10149,
-  "index_etag": "W/\"4869690159aef344993ee5b5a591824a\"",
-  "index_last_modified": "Tue, 13 Oct 2026 16:59:12 GMT",
+  "enhanced_at": "2026-10-13T18:03:45.593Z",
+  "total_libraries": 10151,
+  "index_etag": "W/\"226d19fd43b0215a33a88d86a1d87ac4\"",
+  "index_last_modified": "Tue, 13 Oct 2026 17:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24028,6 +24028,39 @@
       "download_url": "https://github.com/pololu/amis-30543-arduino"
     },
     {
+      "repository_name": "edpro/amperia_stem",
+      "repository_url": "https://github.com/edpro/amperia_stem",
+      "name": "AmperiaSTEM",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-10-13T18:03:42.746Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T18:03:42.746Z",
+      "last_seen_sha": "7cff68d73875",
+      "author": "EdPro",
+      "maintainer": "EdPro <ababenko@edpro.ua>",
+      "sentence": "Arduino library for Amperia STEM sensors and actuators.",
+      "paragraph": "Provides a user-friendly API for discovering and reading Amperia STEM sensors, displaying measurements, and controlling supported actuators.",
+      "category": "Sensors",
+      "architectures": [
+        "renesas_uno"
+      ],
+      "depends": [
+        "Stepper",
+        "Servo"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/edpro/AmperiaSTEM-0.9.0.zip",
+      "size": 4386967,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T15:45:27Z"
+    },
+    {
       "repository_name": "amperka/AmperkaFET",
       "repository_url": "https://github.com/amperka/AmperkaFET",
       "name": "AmperkaFET",
@@ -36151,7 +36184,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.10.0",
+      "version": "0.12.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36220,11 +36253,15 @@
         {
           "version": "0.10.0",
           "seen_at": "2026-10-13T16:03:15.957Z"
+        },
+        {
+          "version": "0.12.0",
+          "seen_at": "2026-10-13T18:03:42.746Z"
         }
       ],
-      "release_count": 17,
+      "release_count": 18,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "9ae9e25564da",
+      "last_seen_sha": "0a8174823a43",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36241,9 +36278,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.10.0.zip",
-      "size": 182847,
-      "previous_version": "0.9.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.12.0.zip",
+      "size": 187396,
+      "previous_version": "0.10.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -146185,6 +146222,40 @@
       "github_forks": 8,
       "github_language": "C++",
       "github_updated_at": "2024-04-22T00:20:50Z"
+    },
+    {
+      "repository_name": "iotfiy-solutions/Gateway_Library",
+      "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
+      "name": "IOTFIY",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-13T18:03:42.746Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T18:03:42.746Z",
+      "last_seen_sha": "f7e07e4fc91c",
+      "author": "Iotfiy Solutions",
+      "maintainer": "iotfiy.solution@gmail.com",
+      "sentence": "A library for IoT device connectivity using MQTT.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.0.zip",
+      "size": 12704,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T14:16:02Z"
     },
     {
       "repository_name": "IoTGuruLive/theiotguru-arduino-library",
@@ -330072,7 +330143,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9945,
-    "total_dependencies": 5562
+    "with_github_metadata": 9947,
+    "total_dependencies": 5566
   }
 }

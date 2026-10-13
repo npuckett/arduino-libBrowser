@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-13T09:08:00.204Z",
-  "total_libraries": 10147,
-  "index_etag": "W/\"1dc340b9395d9eae8309820e9d0023be\"",
-  "index_last_modified": "Tue, 13 Oct 2026 08:59:12 GMT",
+  "enhanced_at": "2026-10-13T10:04:32.495Z",
+  "total_libraries": 10149,
+  "index_etag": "W/\"d2da5def6c67b92a5dc1affcf0392f51\"",
+  "index_last_modified": "Tue, 13 Oct 2026 09:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -131678,7 +131678,7 @@
       "repository_name": "GyverLibs/GyverHTTP",
       "repository_url": "https://github.com/GyverLibs/GyverHTTP",
       "name": "GyverHTTP",
-      "version": "1.0.32",
+      "version": "1.0.34",
       "version_history": [
         {
           "version": "1.0.30",
@@ -131691,11 +131691,15 @@
         {
           "version": "1.0.32",
           "seen_at": "2026-08-26T16:26:12.288Z"
+        },
+        {
+          "version": "1.0.34",
+          "seen_at": "2026-10-13T10:04:29.763Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-09-19T07:28:12Z",
-      "last_seen_sha": "d6f5fdbc1106",
+      "last_seen_sha": "43eaf9ede1dc",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Simple Arduino Client based HTTP server and client with stream tools",
@@ -131707,9 +131711,9 @@
       "depends": [
         "StringUtils"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.32.zip",
-      "size": 28913,
-      "previous_version": "1.0.31",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverHTTP-1.0.34.zip",
+      "size": 28957,
+      "previous_version": "1.0.32",
       "github_stars": 11,
       "github_forks": 1,
       "github_language": "C++",
@@ -237332,6 +237336,38 @@
       "github_updated_at": "2022-12-24T06:35:21Z"
     },
     {
+      "repository_name": "Michael-0-sys/ReflectJSON",
+      "repository_url": "https://github.com/Michael-0-sys/ReflectJSON",
+      "name": "ReflectJSON",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-13T10:04:29.763Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T10:04:29.763Z",
+      "last_seen_sha": "4a02fbbc890d",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Fast JSON writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), Kotlin-style config and pretty printing.",
+      "paragraph": "Write and read C++ structs as JSON without hand-written serialization code. Streaming buffer writer with validation, single-pass reader, std::optional, duplicate key detection, error paths like root.devices[2].limits.max. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x). Free for noncommercial use; commercial use requires a license.",
+      "category": "Data Processing",
+      "architectures": [
+        "rp2040",
+        "esp32",
+        "teensy",
+        "renesas_uno"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectJSON-1.0.0.zip",
+      "size": 86788,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-12T10:26:19Z"
+    },
+    {
       "repository_name": "nickgammon/Regexp",
       "repository_url": "https://github.com/nickgammon/Regexp",
       "name": "Regexp",
@@ -249278,6 +249314,39 @@
       "github_language": "C++",
       "github_updated_at": "2025-12-15T00:23:05Z",
       "download_url": "https://github.com/mmercalde/SchneiderModbusTCP"
+    },
+    {
+      "repository_name": "h3pereu/SchoolLib",
+      "repository_url": "https://github.com/h3pereu/SchoolLib",
+      "name": "SchoolLib",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-13T10:04:29.763Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-13T10:04:29.763Z",
+      "last_seen_sha": "5655f9dedb2b",
+      "author": "Dominik",
+      "maintainer": "Dominik",
+      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
+      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "OneWire",
+        "DallasTemperature"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.1.zip",
+      "size": 10401,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T07:05:45Z"
     },
     {
       "repository_name": "SchooMyDevelopment/SchooMyUtilities",
@@ -289179,7 +289248,7 @@
       "repository_name": "stm32duino/STM32LoRaWAN",
       "repository_url": "https://github.com/stm32duino/STM32LoRaWAN",
       "name": "STM32duinoLoRaWAN",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "version_history": [
         {
           "version": "0.3.0",
@@ -289188,11 +289257,15 @@
         {
           "version": "0.5.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.5.1",
+          "seen_at": "2026-10-13T10:04:29.763Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:32:04Z",
-      "last_seen_sha": "150e4b1c6b40",
+      "last_seen_sha": "2b4e435efcf1",
       "author": "STMicroelectronics, Matthijs Kooijman",
       "maintainer": "stm32duino",
       "sentence": "Support library for STM32WL microcontrollers featuring a sub-GHz radio based-on Semtech SX126x",
@@ -289204,9 +289277,9 @@
       "depends": [
         "STM32duino RTC"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duinoLoRaWAN-0.5.0.zip",
-      "size": 635940,
-      "previous_version": "0.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duinoLoRaWAN-0.5.1.zip",
+      "size": 638681,
+      "previous_version": "0.5.0",
       "github_stars": 52,
       "github_forks": 12,
       "github_language": "C",
@@ -329959,7 +330032,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9943,
-    "total_dependencies": 5560
+    "with_github_metadata": 9945,
+    "total_dependencies": 5562
   }
 }

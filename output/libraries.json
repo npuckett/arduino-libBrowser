@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-14T05:02:37.503Z",
-  "total_libraries": 10153,
-  "index_etag": "W/\"56289c18ed510000540672810aba4ff7\"",
-  "index_last_modified": "Wed, 14 Oct 2026 04:59:12 GMT",
+  "enhanced_at": "2026-10-14T06:04:29.120Z",
+  "total_libraries": 10155,
+  "index_etag": "W/\"7bfd0d7d53543f76d0e987087da8c69d\"",
+  "index_last_modified": "Wed, 14 Oct 2026 05:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -204791,7 +204791,7 @@
       "repository_name": "m-mcgowan/note-cpp",
       "repository_url": "https://github.com/m-mcgowan/note-cpp",
       "name": "note-cpp",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "version_history": [
         {
           "version": "0.3.2",
@@ -204804,11 +204804,15 @@
         {
           "version": "0.3.4",
           "seen_at": "2026-07-21T16:28:19.007Z"
+        },
+        {
+          "version": "0.3.5",
+          "seen_at": "2026-10-14T06:04:26.421Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-15T20:20:27.721Z",
-      "last_seen_sha": "8131fb3e591c",
+      "last_seen_sha": "1dae2b3e63cb",
       "author": "Mat McGowan",
       "maintainer": "Mat McGowan",
       "sentence": "Typed C++ SDK for the Blues Notecard.",
@@ -204817,9 +204821,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.4.zip",
-      "size": 1894556,
-      "previous_version": "0.3.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.5.zip",
+      "size": 1910843,
+      "previous_version": "0.3.4",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -218317,6 +218321,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-12-29T13:54:19Z",
       "download_url": "https://github.com/Glinek/picoEEPROM"
+    },
+    {
+      "repository_name": "angeloINTJ/pico-enc28j60",
+      "repository_url": "https://github.com/angeloINTJ/pico-enc28j60",
+      "name": "PicoENC28J60",
+      "version": "1.3.1",
+      "version_history": [
+        {
+          "version": "1.3.1",
+          "seen_at": "2026-10-14T06:04:26.421Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T06:04:26.421Z",
+      "last_seen_sha": "ab9234babdea",
+      "author": "Lukasz Janyst (original driver), Ângelo Moisés Alves (Arduino port)",
+      "maintainer": "Ângelo Moisés Alves <117550822+angeloINTJ@users.noreply.github.com>",
+      "sentence": "ENC28J60 Ethernet for the Raspberry Pi Pico (RP2040), with SPI on any pins through a PIO program.",
+      "paragraph": "Send and receive raw Ethernet frames, or use TCP/IP through the lwIP stack of the arduino-pico core: DHCP, WiFiClient, WebServer and the rest, with or without the chip's INT pin. Based on pico-enc28j60 by Lukasz Janyst (https://github.com/ljanyst/pico-enc28j60), whose PIO SPI program and ENC28J60 driver it uses.",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/PicoENC28J60-1.3.1.zip",
+      "size": 403916,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T02:41:04Z"
     },
     {
       "repository_name": "pmarques-dev/PicoEncoder",
@@ -309756,6 +309789,35 @@
       "github_updated_at": "2025-12-15T08:14:39Z"
     },
     {
+      "repository_name": "uecs-star/UARDECS_ESP32C3",
+      "repository_url": "https://github.com/uecs-star/UARDECS_ESP32C3",
+      "name": "UARDECS_ESP32C3",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T06:04:26.421Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T06:04:26.421Z",
+      "last_seen_sha": "e525c8c08071",
+      "author": "Takehiko Hoshi, Hideto Kurosaki and Ken-ichro Yasuba",
+      "maintainer": "Hoshi@hoshi-lab.net",
+      "sentence": "A library that provides communication capabilities compliant with the \"Ubiquitous Environment Control System (UECS)\" standard, which is widely used in protected horticulture in Japan.",
+      "paragraph": "This library facilitates UECS sweet application development on the ESP32C3 chip board by providing UDP packet broadcast communication via Wi-Fi and internet web server functionality, all compliant with the UECS communication protocol. It supports the ESP32C3-OLED, XIAO ESP32C3, and compatible boards. Please refer to LICENSE.md for licensing information.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uecs-star/UARDECS_ESP32C3-1.0.0.zip",
+      "size": 726628,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T01:33:54Z"
+    },
+    {
       "repository_name": "H-Kurosaki/UARDECS_MEGA",
       "repository_url": "https://github.com/H-Kurosaki/UARDECS_MEGA",
       "name": "UARDECS_MEGA Library",
@@ -330272,7 +330334,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9949,
+    "with_github_metadata": 9951,
     "total_dependencies": 5573
   }
 }

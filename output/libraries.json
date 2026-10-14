@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-14T21:02:43.585Z",
-  "total_libraries": 10162,
-  "index_etag": "W/\"b200ee9b9285fee3124780c5f8cebd1a\"",
-  "index_last_modified": "Wed, 14 Oct 2026 21:00:17 GMT",
+  "enhanced_at": "2026-10-14T22:02:43.901Z",
+  "total_libraries": 10163,
+  "index_etag": "W/\"c5138dd10cf69111f05599b19232cfa2\"",
+  "index_last_modified": "Wed, 14 Oct 2026 22:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -65362,7 +65362,7 @@
       "repository_name": "Parvaz-Jamei/CodonTraceSwarm",
       "repository_url": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
       "name": "CodonTraceSwarm",
-      "version": "0.12.10",
+      "version": "0.12.11",
       "version_history": [
         {
           "version": "0.12.8",
@@ -65375,11 +65375,15 @@
         {
           "version": "0.12.10",
           "seen_at": "2026-10-14T20:02:44.879Z"
+        },
+        {
+          "version": "0.12.11",
+          "seen_at": "2026-10-14T22:02:42.477Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-14T00:06:48.774Z",
-      "last_seen_sha": "217efb7c1419",
+      "last_seen_sha": "959cec8cf6df",
       "author": "Parvaz Jamei",
       "maintainer": "Parvaz Jamei",
       "sentence": "Local typed message core with optional headers for common sensor libraries.",
@@ -65404,9 +65408,9 @@
         "ProtoCentral FDC1004 Capacitive Sensor Library",
         "FDCxCapSense"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.10.zip",
-      "size": 385067,
-      "previous_version": "0.12.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.11.zip",
+      "size": 381762,
+      "previous_version": "0.12.10",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -121407,7 +121411,7 @@
       "repository_name": "fp64lib/fp64lib",
       "repository_url": "https://github.com/fp64lib/fp64lib",
       "name": "fp64lib",
-      "version": "1.1.32",
+      "version": "1.1.33",
       "version_history": [
         {
           "version": "1.1.27",
@@ -121424,23 +121428,27 @@
         {
           "version": "1.1.32",
           "seen_at": "2026-10-14T00:06:48.774Z"
+        },
+        {
+          "version": "1.1.33",
+          "seen_at": "2026-10-14T22:02:42.477Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-11-28T07:21:23Z",
-      "last_seen_sha": "d06a81d05766",
+      "last_seen_sha": "af5c61aac028",
       "author": "Uwe Bissinger <mail@fp64lib.org>",
       "maintainer": "Uwe Bissinger <mail@fp64lib.org>",
       "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
-      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.32 updated linux makefile. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.33 includes IEEE754 nextUp() and nextDown() functions. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
       "category": "Data Processing",
       "architectures": [
         "avr",
         "atmelavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.32.zip",
-      "size": 268329,
-      "previous_version": "1.1.31",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.33.zip",
+      "size": 270735,
+      "previous_version": "1.1.32",
       "github_stars": 28,
       "github_forks": 6,
       "github_language": "Assembly",
@@ -140358,6 +140366,35 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinL1/I2C_DMAC-1.2.0.zip",
       "size": 27507
+    },
+    {
+      "repository_name": "klenov1900-lang/I2C_EASY",
+      "repository_url": "https://github.com/klenov1900-lang/I2C_EASY",
+      "name": "I2C_EASY",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T22:02:42.477Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T22:02:42.477Z",
+      "last_seen_sha": "218d584a35c2",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
+      "sentence": "Lightweight I2C (TWI) master layer for AVR. No Wire.h dependency.",
+      "paragraph": "Direct TWI register access with timeouts, byte/bit/word operations, 8/16-bit register helpers, bus scanner, frequency tester and diagnostics. Foundation for the *_EASY library family.",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/I2C_EASY-1.0.0.zip",
+      "size": 15498,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T19:48:11Z"
     },
     {
       "repository_name": "RobTillaart/I2C_EEPROM",
@@ -176840,16 +176877,20 @@
       "repository_name": "Zeppelin500/MBusinoLib",
       "repository_url": "https://github.com/Zeppelin500/MBusinoLib",
       "name": "MBusinoLib",
-      "version": "0.9.20",
+      "version": "0.10.0",
       "version_history": [
         {
           "version": "0.9.20",
           "seen_at": "2026-04-29T08:16:08Z"
+        },
+        {
+          "version": "0.10.0",
+          "seen_at": "2026-10-14T22:02:42.477Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-29T08:16:08Z",
-      "last_seen_sha": "e781c88f42d8",
+      "last_seen_sha": "a06087d863e8",
       "author": "Zeppelin500 <mbusinolib@gmail.com>",
       "maintainer": "Zeppelin500 <mbusinolib@gmail.com>",
       "sentence": "an Arduino M-Bus decoder Library",
@@ -176858,14 +176899,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 29,
-      "github_forks": 5,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-26T09:06:09Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/Zeppelin500/MBusinoLib.git"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/MBusinoLib-0.10.0.zip",
+      "size": 43385,
+      "previous_version": "0.9.20",
+      "github_stars": 29,
+      "github_forks": 5,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-26T09:06:09Z"
     },
     {
       "repository_name": "AllWize/mbus-payload",
@@ -330581,7 +330624,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9958,
+    "with_github_metadata": 9959,
     "total_dependencies": 5573
   }
 }

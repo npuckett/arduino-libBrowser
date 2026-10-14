@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-13T23:02:33.961Z",
-  "total_libraries": 10151,
-  "index_etag": "W/\"0d2e32de403c3bde2e4b5d712b430bb2\"",
-  "index_last_modified": "Tue, 13 Oct 2026 22:59:12 GMT",
+  "enhanced_at": "2026-10-14T00:06:50.211Z",
+  "total_libraries": 10152,
+  "index_etag": "W/\"7e493b09400208d978340b4c9e1bf4d9\"",
+  "index_last_modified": "Tue, 13 Oct 2026 23:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -36184,7 +36184,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.13.1",
+      "version": "0.13.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36265,11 +36265,15 @@
         {
           "version": "0.13.1",
           "seen_at": "2026-10-13T22:02:34.026Z"
+        },
+        {
+          "version": "0.13.2",
+          "seen_at": "2026-10-14T00:06:48.774Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "1655714aca16",
+      "last_seen_sha": "47cfa94eb74f",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36286,9 +36290,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.1.zip",
-      "size": 188548,
-      "previous_version": "0.13.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.2.zip",
+      "size": 188841,
+      "previous_version": "0.13.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -65156,6 +65160,51 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2024-04-09T20:13:38Z"
+    },
+    {
+      "repository_name": "Parvaz-Jamei/CodonTraceSwarm",
+      "repository_url": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
+      "name": "CodonTraceSwarm",
+      "version": "0.12.8",
+      "version_history": [
+        {
+          "version": "0.12.8",
+          "seen_at": "2026-10-14T00:06:48.774Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T00:06:48.774Z",
+      "last_seen_sha": "c56a13dfdc63",
+      "author": "Parvaz Jamei",
+      "maintainer": "Parvaz Jamei",
+      "sentence": "Local typed message core with optional headers for common sensor libraries.",
+      "paragraph": "C++11 codec for boards with at least 128 KB SRAM. Those headers call that sensor's own library and do not invent a reading. Examples were compile-tested, not flashed. AVR, megaAVR, SAMD21, UNO R4, ESP8266 and Due are excluded. Not Wi-Fi or MQTT.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_portenta",
+        "mbed_giga",
+        "mbed_opta",
+        "renesas_portenta"
+      ],
+      "depends": [
+        "Adafruit BME280 Library",
+        "Adafruit SHT4x Library",
+        "Adafruit INA219",
+        "Adafruit_VL53L0X",
+        "HX711 Arduino Library",
+        "ProtoCentral FDC1004 Capacitive Sensor Library",
+        "FDCxCapSense"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.8.zip",
+      "size": 371613,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-13T23:01:55Z"
     },
     {
       "repository_name": "RobolinkInc/CoDrone",
@@ -121134,7 +121183,7 @@
       "repository_name": "fp64lib/fp64lib",
       "repository_url": "https://github.com/fp64lib/fp64lib",
       "name": "fp64lib",
-      "version": "1.1.31",
+      "version": "1.1.32",
       "version_history": [
         {
           "version": "1.1.27",
@@ -121147,23 +121196,27 @@
         {
           "version": "1.1.31",
           "seen_at": "2026-10-13T22:02:34.026Z"
+        },
+        {
+          "version": "1.1.32",
+          "seen_at": "2026-10-14T00:06:48.774Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-11-28T07:21:23Z",
-      "last_seen_sha": "097fef237edf",
+      "last_seen_sha": "d06a81d05766",
       "author": "Uwe Bissinger <mail@fp64lib.org>",
       "maintainer": "Uwe Bissinger <mail@fp64lib.org>",
       "sentence": "Handcrafted 64-bit floating point routines for AVR/arduino microprocessors.",
-      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.31 extended fp64_pow if both arguments are negative. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
+      "paragraph": "More precision for Arduino. fp64lib is a library for implementing 64-bit floating point arithmetic on the AVR MegaAVR architecure microprocessors, like the popular Arduino series. Data format is fully compatible with IEEE 754 binary64 standard. V1.1.32 updated linux makefile. ATTENTION: Library is only suited for boards having an AVR MegaAVR microprocessors like Arduino UNO, Nano or MEGA2560!",
       "category": "Data Processing",
       "architectures": [
         "avr",
         "atmelavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.31.zip",
-      "size": 268346,
-      "previous_version": "1.1.29",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/fp64lib/fp64lib-1.1.32.zip",
+      "size": 268329,
+      "previous_version": "1.1.31",
       "github_stars": 28,
       "github_forks": 6,
       "github_language": "Assembly",
@@ -330179,7 +330232,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9947,
-    "total_dependencies": 5566
+    "with_github_metadata": 9948,
+    "total_dependencies": 5573
   }
 }

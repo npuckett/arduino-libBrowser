@@ -1,6 +1,171 @@
 {
-  "since": "2026-10-14T17:02:04.460Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-14T18:03:06.381Z",
+  "new_libraries": [
+    {
+      "repository_name": "bonezegei/Bonezegei_BMP180",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_BMP180",
+      "name": "Bonezegei_BMP180",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T18:03:06.381Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T18:03:06.381Z",
+      "last_seen_sha": "316cb93ea688",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "BMP180 driver",
+      "paragraph": "barometric Pressure sensor driver",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_BMP180-1.0.0.zip",
+      "size": 5796,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T15:11:48Z"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_RC522",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_RC522",
+      "name": "Bonezegei_RC522",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T18:03:06.381Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T18:03:06.381Z",
+      "last_seen_sha": "5ccccedb2ca4",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "RC522 RFID Driver",
+      "paragraph": "Simple RC522 RFID Driver for scanning 13.56MHz Rfid Tags",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_RC522-1.0.0.zip",
+      "size": 9110,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T14:46:50Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "adafruit/Adafruit-MLX90614-Library",
+        "repository_url": "https://github.com/adafruit/Adafruit-MLX90614-Library",
+        "name": "Adafruit MLX90614 Library",
+        "version": "2.1.7",
+        "version_history": [
+          {
+            "version": "2.1.6",
+            "seen_at": "2026-04-11T07:34:03Z"
+          },
+          {
+            "version": "2.1.6",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.1.7",
+            "seen_at": "2026-10-14T18:03:06.381Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-04-11T07:34:03Z",
+        "last_seen_sha": "c557d2cda0c2",
+        "author": "Adafruit",
+        "maintainer": "Adafruit <info@adafruit.com>",
+        "sentence": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+        "paragraph": "Arduino library for the MLX90614 sensors in the Adafruit shop",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit BusIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MLX90614_Library-2.1.7.zip",
+        "size": 11088,
+        "previous_version": "2.1.6",
+        "github_stars": 135,
+        "github_forks": 99,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-10T23:17:32Z"
+      },
+      "old_version": "2.1.6",
+      "new_version": "2.1.7"
+    },
+    {
+      "library": {
+        "repository_name": "adafruit/Adafruit_TestBed",
+        "repository_url": "https://github.com/adafruit/Adafruit_TestBed",
+        "name": "Adafruit TestBed",
+        "version": "1.14.5",
+        "version_history": [
+          {
+            "version": "1.14.2",
+            "seen_at": "2025-08-08T07:33:55Z"
+          },
+          {
+            "version": "1.14.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.14.3",
+            "seen_at": "2026-09-09T00:07:04.287Z"
+          },
+          {
+            "version": "1.14.4",
+            "seen_at": "2026-10-08T00:07:06.973Z"
+          },
+          {
+            "version": "1.14.5",
+            "seen_at": "2026-10-14T18:03:06.381Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-08-08T07:33:55Z",
+        "last_seen_sha": "16b841a8392a",
+        "author": "Adafruit",
+        "maintainer": "Adafruit <info@adafruit.com>",
+        "sentence": "Adafruit's internal test bed code library",
+        "paragraph": "Adafruit's internal test bed code library",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "Adafruit MCP4725",
+          "Adafruit TinyUSB Library",
+          "Adafruit SPIFlash",
+          "SdFat - Adafruit Fork",
+          "Pico PIO USB",
+          "LiquidCrystal",
+          "Adafruit DAP library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_TestBed-1.14.5.zip",
+        "size": 8167334,
+        "previous_version": "1.14.4",
+        "github_stars": 16,
+        "github_forks": 7,
+        "github_language": "C",
+        "github_updated_at": "2025-08-07T19:59:02Z"
+      },
+      "old_version": "1.14.4",
+      "new_version": "1.14.5"
+    }
+  ],
   "removed_libraries": []
 }

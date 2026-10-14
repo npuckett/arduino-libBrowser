@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-14T19:02:18.245Z",
-  "total_libraries": 10161,
-  "index_etag": "W/\"7d5c271421f1b17ced25c8448c37ec17\"",
-  "index_last_modified": "Wed, 14 Oct 2026 19:00:19 GMT",
+  "enhanced_at": "2026-10-14T20:02:46.417Z",
+  "total_libraries": 10162,
+  "index_etag": "W/\"b200ee9b9285fee3124780c5f8cebd1a\"",
+  "index_last_modified": "Wed, 14 Oct 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24263,7 +24263,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.199",
+      "version": "1.2.200",
       "version_history": [
         {
           "version": "1.2.18",
@@ -24744,11 +24744,15 @@
         {
           "version": "1.2.199",
           "seen_at": "2026-10-14T14:02:46.992Z"
+        },
+        {
+          "version": "1.2.200",
+          "seen_at": "2026-10-14T20:02:44.879Z"
         }
       ],
-      "release_count": 120,
+      "release_count": 121,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "bd42bb680ec5",
+      "last_seen_sha": "7269cb98232f",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -24769,9 +24773,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.199.zip",
-      "size": 44622473,
-      "previous_version": "1.2.197",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.200.zip",
+      "size": 44624371,
+      "previous_version": "1.2.199",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -40990,7 +40994,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.6.2",
+      "version": "1.7.31",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41023,11 +41027,15 @@
         {
           "version": "1.6.2",
           "seen_at": "2026-10-07T12:04:29.113Z"
+        },
+        {
+          "version": "1.7.31",
+          "seen_at": "2026-10-14T20:02:44.879Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "ad90ebbd7226",
+      "last_seen_sha": "74391d2c956a",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
@@ -41040,9 +41048,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.6.2.zip",
-      "size": 172333,
-      "previous_version": "1.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.31.zip",
+      "size": 172700,
+      "previous_version": "1.6.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -54966,6 +54974,36 @@
       "download_url": "https://github.com/bonezegei/Bonezegei_Utility"
     },
     {
+      "repository_name": "bonezegei/Bonezegei_WifiManager",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_WifiManager",
+      "name": "Bonezegei_WifiManager",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T20:02:44.879Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T20:02:44.879Z",
+      "last_seen_sha": "77b18a6fbf33",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Wi-Fi manager with real-time variable monitoring and control dashboard.",
+      "paragraph": "A complete Wi-Fi manager for ESP32 and ESP8266 allowing automated  setup, network scanning, network switching, and live parameter tuning via an embedded dark-mode web portal.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_WifiManager-1.0.0.zip",
+      "size": 22390,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T17:47:39Z"
+    },
+    {
       "repository_name": "bonezegei/Bonezegei_WS2812",
       "repository_url": "https://github.com/bonezegei/Bonezegei_WS2812",
       "name": "Bonezegei_WS2812",
@@ -65324,7 +65362,7 @@
       "repository_name": "Parvaz-Jamei/CodonTraceSwarm",
       "repository_url": "https://github.com/Parvaz-Jamei/CodonTraceSwarm",
       "name": "CodonTraceSwarm",
-      "version": "0.12.9",
+      "version": "0.12.10",
       "version_history": [
         {
           "version": "0.12.8",
@@ -65333,11 +65371,15 @@
         {
           "version": "0.12.9",
           "seen_at": "2026-10-14T02:03:18.882Z"
+        },
+        {
+          "version": "0.12.10",
+          "seen_at": "2026-10-14T20:02:44.879Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-14T00:06:48.774Z",
-      "last_seen_sha": "737bf96b3fe4",
+      "last_seen_sha": "217efb7c1419",
       "author": "Parvaz Jamei",
       "maintainer": "Parvaz Jamei",
       "sentence": "Local typed message core with optional headers for common sensor libraries.",
@@ -65362,9 +65404,9 @@
         "ProtoCentral FDC1004 Capacitive Sensor Library",
         "FDCxCapSense"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.9.zip",
-      "size": 377253,
-      "previous_version": "0.12.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Parvaz-Jamei/CodonTraceSwarm-0.12.10.zip",
+      "size": 385067,
+      "previous_version": "0.12.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -200788,7 +200830,7 @@
       "repository_name": "chon-group/neck2arduino",
       "repository_url": "https://github.com/chon-group/neck2arduino",
       "name": "NECK",
-      "version": "1.1.1",
+      "version": "26.10.14",
       "version_history": [
         {
           "version": "0.0.1",
@@ -200801,23 +200843,30 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-09-13T14:02:09.063Z"
+        },
+        {
+          "version": "26.10.14",
+          "seen_at": "2026-10-14T20:02:44.879Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-27T22:20:52.477Z",
-      "last_seen_sha": "7f7c9d5f1512",
+      "last_seen_sha": "766501020d05",
       "author": "Nilson Lazarin",
       "maintainer": "Chon Group <chon@grupo.cefet-rj.br>",
       "sentence": "Embodied cognition communication kit for agent-based control of physical bodies",
-      "paragraph": "NECK (ageNt Embodied Cognition Kit) is a lightweight communication library that enables cognitive agents to interact with physical bodies through expressive bodily responses, supporting embodied cognition in embedded and robotic systems.",
+      "paragraph": "NECK (ageNt Embodied Cognition Kit) is a lightweight communication library (neck2arduino by chonGroup) that enables cognitive agents (based on Belief-Desire-Intention (BDI) model) to interact with physical bodies through expressive bodily responses, supporting embodied cognition in embedded and robotic systems.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
       "license": "CC-BY-4.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-1.1.1.zip",
-      "size": 188362,
-      "previous_version": "1.1.0",
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/NECK-26.10.14.zip",
+      "size": 41387,
+      "previous_version": "1.1.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -330532,7 +330581,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9957,
-    "total_dependencies": 5572
+    "with_github_metadata": 9958,
+    "total_dependencies": 5573
   }
 }

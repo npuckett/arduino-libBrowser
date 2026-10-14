@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-14T13:02:43.738Z",
-  "total_libraries": 10156,
-  "index_etag": "W/\"f36fc93f6d76731806d1fe28893c2fdb\"",
-  "index_last_modified": "Wed, 14 Oct 2026 12:59:12 GMT",
+  "enhanced_at": "2026-10-14T14:02:49.773Z",
+  "total_libraries": 10158,
+  "index_etag": "W/\"c8e9648e531374147f077e3fe9fdcfb3\"",
+  "index_last_modified": "Wed, 14 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24255,7 +24255,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.197",
+      "version": "1.2.199",
       "version_history": [
         {
           "version": "1.2.18",
@@ -24732,11 +24732,15 @@
         {
           "version": "1.2.197",
           "seen_at": "2026-10-13T14:05:22.652Z"
+        },
+        {
+          "version": "1.2.199",
+          "seen_at": "2026-10-14T14:02:46.992Z"
         }
       ],
-      "release_count": 119,
+      "release_count": 120,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "85047581c40c",
+      "last_seen_sha": "bd42bb680ec5",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -24757,9 +24761,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.197.zip",
-      "size": 44617883,
-      "previous_version": "1.2.196",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.199.zip",
+      "size": 44622473,
+      "previous_version": "1.2.197",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -54553,6 +54557,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-08-14T12:21:03Z",
       "download_url": "https://github.com/bonezegei/Bonezegei_List"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_MLX90614",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_MLX90614",
+      "name": "Bonezegei_MLX90614",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T14:02:46.992Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T14:02:46.992Z",
+      "last_seen_sha": "dd08a395fef2",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "library for MLX90614 Contactless Infrared Temperature Sensor.",
+      "paragraph": "Lightweight library to read ambient and object temperatures in Celsius and Fahrenheit using the MLX90614 sensor via I2C.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_MLX90614-1.0.0.zip",
+      "size": 4870,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T10:42:13Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_PCA9685",
@@ -99787,26 +99820,31 @@
       "repository_name": "ShunTomino/ESP_MOVIE",
       "repository_url": "https://github.com/ShunTomino/ESP_MOVIE",
       "name": "ESP_MOVIE",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-12T12:06:33.976Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-14T14:02:46.992Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-12T12:06:33.976Z",
-      "last_seen_sha": "b00aed3367eb",
+      "last_seen_sha": "770d23929622",
       "author": "ShunTomino",
       "maintainer": "ShunTomino",
-      "sentence": "Movie player library for ESP32/ESP32-S3",
-      "paragraph": "Movie(MotionJPG/MP3) player library for ESP32/ESP32-S3",
+      "sentence": "Movie(MotionJPG/MP3) playback library for ESP32 series.",
+      "paragraph": "Simultaneous playback of Motion JPEG video and MP3 audio from SD card files is supported.",
       "category": "Display",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ShunTomino/ESP_MOVIE-1.0.0.zip",
-      "size": 13994061,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ShunTomino/ESP_MOVIE-1.0.1.zip",
+      "size": 13994644,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -176275,6 +176313,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-10-08T02:02:37Z"
+    },
+    {
+      "repository_name": "RobTillaart/MB1242",
+      "repository_url": "https://github.com/RobTillaart/MB1242",
+      "name": "MB1242",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-14T14:02:46.992Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T14:02:46.992Z",
+      "last_seen_sha": "9e604cfa872a",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the MaxBotic I2C MB1242 distance sensor.",
+      "paragraph": "MB1202,MB1212,MB1222,MB1232",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MB1242-0.1.0.zip",
+      "size": 4211341,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T11:11:10Z"
     },
     {
       "repository_name": "Zanduino/MB85_FRAM",
@@ -330369,7 +330436,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9952,
+    "with_github_metadata": 9954,
     "total_dependencies": 5573
   }
 }

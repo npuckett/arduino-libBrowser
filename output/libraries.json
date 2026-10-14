@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-14T11:02:41.457Z",
-  "total_libraries": 10155,
-  "index_etag": "W/\"eac9c1b7eda1aac16a20aa17a2f2a55f\"",
-  "index_last_modified": "Wed, 14 Oct 2026 10:59:12 GMT",
+  "enhanced_at": "2026-10-14T12:03:58.680Z",
+  "total_libraries": 10156,
+  "index_etag": "W/\"f36fc93f6d76731806d1fe28893c2fdb\"",
+  "index_last_modified": "Wed, 14 Oct 2026 11:59:12 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -45468,7 +45468,7 @@
       "repository_name": "GyverLibs/Benchmark",
       "repository_url": "https://github.com/GyverLibs/Benchmark",
       "name": "Benchmark",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
@@ -45477,24 +45477,26 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-10-06T00:06:59.496Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-10-14T12:03:57.238Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:15:33Z",
-      "last_seen_sha": "3c1ae64b890c",
+      "last_seen_sha": "290432fb0f8f",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Measure code execution time",
       "paragraph": "Measure code execution time",
       "category": "Timing",
       "architectures": [
-        "AVR",
-        "ESP8266",
-        "ESP32"
+        "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Benchmark-1.0.3.zip",
-      "size": 8593,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/Benchmark-1.0.4.zip",
+      "size": 10052,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -54049,6 +54051,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-03-07T12:55:13Z",
       "download_url": "https://github.com/bonezegei/Bonezegei_A4988"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_BME280",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_BME280",
+      "name": "Bonezegei_BME280",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-14T12:03:57.238Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-14T12:03:57.238Z",
+      "last_seen_sha": "bf042ad0cf27",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Simple library for BME280 temperature, pressure, and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the Bosch BME280 environmental sensor using I2C communication.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_BME280-1.0.0.zip",
+      "size": 5908,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T08:26:58Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_Compute",
@@ -330338,7 +330369,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9951,
+    "with_github_metadata": 9952,
     "total_dependencies": 5573
   }
 }

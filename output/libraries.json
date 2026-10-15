@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T11:02:27.952Z",
-  "total_libraries": 10169,
-  "index_etag": "W/\"790a30c8a5f6742b32177e382dcdebf1\"",
-  "index_last_modified": "Thu, 15 Oct 2026 11:00:17 GMT",
+  "enhanced_at": "2026-10-15T12:03:53.215Z",
+  "total_libraries": 10171,
+  "index_etag": "W/\"40d53a20548443af4e7e5e2ec5be8638\"",
+  "index_last_modified": "Thu, 15 Oct 2026 12:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -166485,6 +166485,38 @@
       "download_url": "https://github.com/ropg/LVGL_CYD"
     },
     {
+      "repository_name": "AlixANNERAUD/lvgl_theme_shadcn",
+      "repository_url": "https://github.com/AlixANNERAUD/lvgl_theme_shadcn",
+      "name": "lvgl_theme_shadcn",
+      "version": "0.3.1",
+      "version_history": [
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-10-15T12:03:50.503Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T12:03:50.503Z",
+      "last_seen_sha": "6ee69af57093",
+      "author": "Alix ANNERAUD <alix@anneraud.fr>",
+      "maintainer": "Alix ANNERAUD <alix@anneraud.fr>",
+      "sentence": "Beautiful shadcn/ui-inspired theme for LVGL 9.",
+      "paragraph": "Every widget styled in every state, dark and light palettes switchable at runtime, touch-first 48 dp targets, cheap to render on microcontrollers. Requires LVGL 9.6 or newer.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "lvgl"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlixANNERAUD/lvgl_theme_shadcn-0.3.1.zip",
+      "size": 541322,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-15T11:02:56Z"
+    },
+    {
       "repository_name": "dev-board-tech/lvglCpp",
       "repository_url": "https://github.com/dev-board-tech/lvglCpp",
       "name": "lvglCpp",
@@ -220755,16 +220787,20 @@
       "repository_name": "pin-node/PinNode",
       "repository_url": "https://github.com/pin-node/PinNode",
       "name": "PinNode",
-      "version": "0.3.12",
+      "version": "0.3.13",
       "version_history": [
         {
           "version": "0.3.12",
           "seen_at": "2026-10-15T04:03:01.300Z"
+        },
+        {
+          "version": "0.3.13",
+          "seen_at": "2026-10-15T12:03:50.503Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "61334e37be0f",
+      "last_seen_sha": "505abedcb361",
       "author": "PinNode",
       "maintainer": "PinNode",
       "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
@@ -220774,8 +220810,9 @@
         "avr",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.12.zip",
-      "size": 204338,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.13.zip",
+      "size": 208276,
+      "previous_version": "0.3.12",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",
@@ -220813,6 +220850,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-29T08:31:22Z"
+    },
+    {
+      "repository_name": "pinscope-dev/pinscope-esp",
+      "repository_url": "https://github.com/pinscope-dev/pinscope-esp",
+      "name": "Pinscope",
+      "version": "0.2.9",
+      "version_history": [
+        {
+          "version": "0.2.9",
+          "seen_at": "2026-10-15T12:03:50.503Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T12:03:50.503Z",
+      "last_seen_sha": "e78912152417",
+      "author": "Filip Code <hello@pinscope.dev>",
+      "maintainer": "Filip Code <hello@pinscope.dev>",
+      "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+      "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.9.zip",
+      "size": 52565,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-15T09:53:43Z"
     },
     {
       "repository_name": "Init-io/PinScribe",
@@ -330856,7 +330922,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9965,
-    "total_dependencies": 5573
+    "with_github_metadata": 9967,
+    "total_dependencies": 5574
   }
 }

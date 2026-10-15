@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T15:02:44.542Z",
+  "enhanced_at": "2026-10-15T16:02:57.222Z",
   "total_libraries": 10173,
-  "index_etag": "W/\"934a8d4a3b4d8385ab30d90903a2a80f\"",
-  "index_last_modified": "Thu, 15 Oct 2026 15:00:17 GMT",
+  "index_etag": "W/\"9caf4cd9baf3830471d577f4bfe10efc\"",
+  "index_last_modified": "Thu, 15 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -12006,7 +12006,7 @@
       "repository_name": "adafruit/Adafruit_Marquee",
       "repository_url": "https://github.com/adafruit/Adafruit_Marquee",
       "name": "Adafruit Marquee",
-      "version": "1.0.5",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12023,11 +12023,15 @@
         {
           "version": "1.0.5",
           "seen_at": "2026-09-30T18:03:22.507Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-10-15T16:02:57.076Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-09-22T22:02:09.509Z",
-      "last_seen_sha": "aa5e072b2ec4",
+      "last_seen_sha": "5e8c436c93fc",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Adafruit Marquee Client",
@@ -12048,9 +12052,9 @@
         "Adafruit MQTT Library",
         "CRC"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.5.zip",
-      "size": 89845,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.7.zip",
+      "size": 92087,
+      "previous_version": "1.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -36200,7 +36204,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.14.0",
+      "version": "0.15.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36289,11 +36293,15 @@
         {
           "version": "0.14.0",
           "seen_at": "2026-10-15T14:03:32.830Z"
+        },
+        {
+          "version": "0.15.1",
+          "seen_at": "2026-10-15T16:02:57.076Z"
         }
       ],
-      "release_count": 22,
+      "release_count": 23,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "b8fcb7011887",
+      "last_seen_sha": "6371b815a660",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36310,9 +36318,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.14.0.zip",
-      "size": 192894,
-      "previous_version": "0.13.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.15.1.zip",
+      "size": 193504,
+      "previous_version": "0.14.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -176699,26 +176707,31 @@
       "repository_name": "RobTillaart/MB1242",
       "repository_url": "https://github.com/RobTillaart/MB1242",
       "name": "MB1242",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-10-14T14:02:46.992Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-10-15T16:02:57.076Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-14T14:02:46.992Z",
-      "last_seen_sha": "9e604cfa872a",
+      "last_seen_sha": "3e91bcbac2bb",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
-      "sentence": "Arduino library for the MaxBotic I2C MB1242 distance sensor.",
+      "sentence": "Arduino library for the MaxBotix I2C MB1242 distance sensor.",
       "paragraph": "MB1202,MB1212,MB1222,MB1232",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MB1242-0.1.0.zip",
-      "size": 4211341,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/MB1242-0.1.1.zip",
+      "size": 4211995,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -220927,16 +220940,20 @@
       "repository_name": "pinscope-dev/pinscope-esp",
       "repository_url": "https://github.com/pinscope-dev/pinscope-esp",
       "name": "Pinscope",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "version_history": [
         {
           "version": "0.2.9",
           "seen_at": "2026-10-15T12:03:50.503Z"
+        },
+        {
+          "version": "0.2.10",
+          "seen_at": "2026-10-15T16:02:57.076Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-15T12:03:50.503Z",
-      "last_seen_sha": "e78912152417",
+      "last_seen_sha": "7e4bd732d911",
       "author": "Filip Code <hello@pinscope.dev>",
       "maintainer": "Filip Code <hello@pinscope.dev>",
       "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
@@ -220945,8 +220962,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.9.zip",
-      "size": 52565,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.10.zip",
+      "size": 52989,
+      "previous_version": "0.2.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

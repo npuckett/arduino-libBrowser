@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T01:13:49.492Z",
-  "total_libraries": 10163,
-  "index_etag": "W/\"64400345ff666f330239686b6c9eda12\"",
-  "index_last_modified": "Thu, 15 Oct 2026 01:00:18 GMT",
+  "enhanced_at": "2026-10-15T02:03:43.175Z",
+  "total_libraries": 10164,
+  "index_etag": "W/\"a57eb51d494e5f18349c67675f4d1f58\"",
+  "index_last_modified": "Thu, 15 Oct 2026 02:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -110661,6 +110661,35 @@
       "download_url": "https://github.com/krzychb/EspSaveCrash"
     },
     {
+      "repository_name": "Dzarda7/EspSerialFlasher",
+      "repository_url": "https://github.com/Dzarda7/EspSerialFlasher",
+      "name": "EspSerialFlasher",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-15T02:03:41.774Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T02:03:41.774Z",
+      "last_seen_sha": "63cc6d9786fa",
+      "author": "Espressif Systems",
+      "maintainer": "Jaroslav Burian <jarda-burian@hotmail.cz>",
+      "sentence": "Flash Espressif chips (ESP32, ESP32-S/C/H/P series, ESP8266) from another microcontroller over UART.",
+      "paragraph": "Arduino port of Espressif's esp-serial-flasher. Exposes the plain C API (esp_loader_*).",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dzarda7/EspSerialFlasher-0.1.0.zip",
+      "size": 369601,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-14T22:24:12Z"
+    },
+    {
       "repository_name": "winner10920/ESPSerialFlasher",
       "repository_url": "https://github.com/winner10920/ESPSerialFlasher",
       "name": "ESPSerialFlasher",
@@ -127731,30 +127760,36 @@
       "repository_name": "topquark22/GPIOUtils",
       "repository_url": "https://github.com/topquark22/GPIOUtils",
       "name": "GPIOUtils",
-      "version": "2.4.2",
+      "version": "2.4.3",
       "version_history": [
         {
           "version": "2.4.2",
           "seen_at": "2026-04-02T07:28:32Z"
+        },
+        {
+          "version": "2.4.3",
+          "seen_at": "2026-10-15T02:03:41.774Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-02T07:28:32Z",
-      "last_seen_sha": "834c95649599",
+      "last_seen_sha": "1c97e552ab4a",
       "author": "Geoffrey Trueman Falk",
       "maintainer": "Geoffrey T. Falk <topquark22@yahoo.ca>",
-      "sentence": "Composable GPIO signal-processing utilities.",
+      "sentence": "Composable non-blocking GPIO utilities with many functions including debounce, long-press detection, pulse generation and more.",
       "paragraph": "Debounce, dejitter, Schmitt trigger, edge detection, long-press detection, rate limiting, pulse generation, non-blocking timers, button counters, watchdogs, and other small, stateful GPIO signal-processing blocks designed to be composed into robust input and output pipelines.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/topquark22/GPIOUtils-2.4.3.zip",
+      "size": 76906,
+      "previous_version": "2.4.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-04-12T04:54:38Z",
-      "license": "MIT",
-      "download_url": "https://github.com/topquark22/GPIOUtils"
+      "github_updated_at": "2026-04-12T04:54:38Z"
     },
     {
       "repository_name": "thelastoutpostworkshop/gpio_viewer",
@@ -330628,7 +330663,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9959,
+    "with_github_metadata": 9960,
     "total_dependencies": 5573
   }
 }

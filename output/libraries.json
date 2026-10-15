@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T19:02:12.685Z",
-  "total_libraries": 10174,
-  "index_etag": "W/\"114994401c0df24ecad98a8725781c7e\"",
-  "index_last_modified": "Thu, 15 Oct 2026 19:00:17 GMT",
+  "enhanced_at": "2026-10-15T20:02:45.008Z",
+  "total_libraries": 10175,
+  "index_etag": "W/\"d64c6b9869be5fa8a0032473ef782ebe\"",
+  "index_last_modified": "Thu, 15 Oct 2026 20:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -144454,6 +144454,40 @@
       "download_url": "https://github.com/Industruino/Indio"
     },
     {
+      "repository_name": "RakibulIslam1/indur-ui",
+      "repository_url": "https://github.com/RakibulIslam1/indur-ui",
+      "name": "IndurUI",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-15T20:02:43.612Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T20:02:43.612Z",
+      "last_seen_sha": "9969dd6987e9",
+      "author": "Rakibul Islam",
+      "maintainer": "Rakibul Islam <rakibul.rir06@gmail.com>",
+      "sentence": "Responsive OLED dashboards, icon menus and persistent settings for robots and embedded projects.",
+      "paragraph": "Two or three buttons, live variable bindings, automatic widget pagination, nested menus, custom screens, staged settings edits, EEPROM adapters and a desktop bitmap converter. Hardware-independent core with an Adafruit GFX display adapter.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "avr"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit SSD1306"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RakibulIslam1/IndurUI-1.2.0.zip",
+      "size": 183056,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T14:05:17Z"
+    },
+    {
       "repository_name": "nawawimegahertz/IndustrialSense",
       "repository_url": "https://github.com/nawawimegahertz/IndustrialSense",
       "name": "IndustrialSense",
@@ -246020,26 +246054,31 @@
       "repository_name": "pin-node/RPUMachines",
       "repository_url": "https://github.com/pin-node/RPUMachines",
       "name": "RPUMachines",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "version_history": [
         {
           "version": "0.3.0",
           "seen_at": "2026-10-15T04:03:01.300Z"
+        },
+        {
+          "version": "0.3.1",
+          "seen_at": "2026-10-15T20:02:43.612Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "acfd0c71bdc6",
-      "author": "PinNode and contributors",
-      "maintainer": "PinNode",
+      "last_seen_sha": "558d162df0b5",
+      "author": "John Turner (wifijt) and contributors",
+      "maintainer": "John Turner (wifijt)",
       "sentence": "Machine definitions (lamps, switches, solenoids) for RetroPinUpgrade games.",
       "paragraph": "One header per machine, shared by every game written for it, with the manufacturer's names for each lamp, switch and coil.",
       "category": "Other",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.0.zip",
-      "size": 24879,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.1.zip",
+      "size": 27223,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -331055,7 +331094,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9970,
-    "total_dependencies": 5578
+    "with_github_metadata": 9971,
+    "total_dependencies": 5580
   }
 }

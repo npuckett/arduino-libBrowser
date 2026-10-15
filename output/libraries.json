@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T13:04:34.264Z",
-  "total_libraries": 10171,
-  "index_etag": "W/\"40d53a20548443af4e7e5e2ec5be8638\"",
-  "index_last_modified": "Thu, 15 Oct 2026 13:00:20 GMT",
+  "enhanced_at": "2026-10-15T14:03:35.618Z",
+  "total_libraries": 10173,
+  "index_etag": "W/\"934a8d4a3b4d8385ab30d90903a2a80f\"",
+  "index_last_modified": "Thu, 15 Oct 2026 14:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -36200,7 +36200,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.13.2",
+      "version": "0.14.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36285,11 +36285,15 @@
         {
           "version": "0.13.2",
           "seen_at": "2026-10-14T00:06:48.774Z"
+        },
+        {
+          "version": "0.14.0",
+          "seen_at": "2026-10-15T14:03:32.830Z"
         }
       ],
-      "release_count": 21,
+      "release_count": 22,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "47cfa94eb74f",
+      "last_seen_sha": "b8fcb7011887",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36306,9 +36310,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.13.2.zip",
-      "size": 188841,
-      "previous_version": "0.13.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.14.0.zip",
+      "size": 192894,
+      "previous_version": "0.13.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -171250,6 +171254,41 @@
       "github_updated_at": "2026-04-03T01:26:23Z"
     },
     {
+      "repository_name": "m5stack/M5Unit-IMU",
+      "repository_url": "https://github.com/m5stack/M5Unit-IMU",
+      "name": "M5Unit-IMU",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-10-15T14:03:32.830Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T14:03:32.830Z",
+      "last_seen_sha": "94eb377692c3",
+      "author": "M5Stack",
+      "maintainer": "M5Stack",
+      "sentence": "M5UnitUnified library for IMU series (UnitIMUMini, DoF6/DoF9/DoF10, BMM350, built-in IMUs)",
+      "paragraph": "Supports MPU6886 / BMI270 / BMM150 / BMM350 with AHRS filters and M5Unified compatible API",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5UnitUnified",
+        "M5Utility",
+        "M5HAL",
+        "M5Unit-ENV"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_IMU-0.0.1.zip",
+      "size": 2673146,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T10:27:45Z"
+    },
+    {
       "repository_name": "m5stack/M5Unit-IMU-Pro-Mini",
       "repository_url": "https://github.com/m5stack/M5Unit-IMU-Pro-Mini",
       "name": "M5Unit-IMU-Pro-Mini",
@@ -173875,6 +173914,35 @@
         "Makerlabvn_I2C_Motor_Driver"
       ],
       "download_url": "https://github.com/makerlabvn/Makerlabvn_SimpleMotor.git"
+    },
+    {
+      "repository_name": "CytronTechnologies/MakerSumoRP2350",
+      "repository_url": "https://github.com/CytronTechnologies/MakerSumoRP2350",
+      "name": "MakerSumoRP2350",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-15T14:03:32.830Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T14:03:32.830Z",
+      "last_seen_sha": "8d59d7e1d8c4",
+      "author": "Cytron Technologies Sdn Bhd <support@cytron.io>",
+      "maintainer": "Cytron Technologies Sdn Bhd <support@cytron.io>",
+      "sentence": "Library for the Cytron Maker Sumo RP2350 Controller.",
+      "paragraph": "Provides functions for the motors, opponent and edge sensors, DIP switches, buzzer and battery monitor, sets the board's USB identity, and includes sumo robot examples from basics to a full RC/Auto firmware. Requires the arduino-pico core.",
+      "category": "Device Control",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CytronTechnologies/MakerSumoRP2350-1.0.0.zip",
+      "size": 42463,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T10:20:28Z"
     },
     {
       "repository_name": "MakerVision/ArduinoLibrary",
@@ -220787,7 +220855,7 @@
       "repository_name": "pin-node/PinNode",
       "repository_url": "https://github.com/pin-node/PinNode",
       "name": "PinNode",
-      "version": "0.3.13",
+      "version": "0.3.14",
       "version_history": [
         {
           "version": "0.3.12",
@@ -220796,11 +220864,15 @@
         {
           "version": "0.3.13",
           "seen_at": "2026-10-15T12:03:50.503Z"
+        },
+        {
+          "version": "0.3.14",
+          "seen_at": "2026-10-15T14:03:32.830Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "505abedcb361",
+      "last_seen_sha": "179b962f8386",
       "author": "PinNode",
       "maintainer": "PinNode",
       "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
@@ -220810,9 +220882,9 @@
         "avr",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.13.zip",
-      "size": 208276,
-      "previous_version": "0.3.12",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.14.zip",
+      "size": 209092,
+      "previous_version": "0.3.13",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",
@@ -330922,7 +330994,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9967,
-    "total_dependencies": 5574
+    "with_github_metadata": 9969,
+    "total_dependencies": 5578
   }
 }

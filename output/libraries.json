@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T09:03:03.897Z",
-  "total_libraries": 10168,
-  "index_etag": "W/\"423293ef9221ffbbfb82be29dea33aa4\"",
-  "index_last_modified": "Thu, 15 Oct 2026 09:00:17 GMT",
+  "enhanced_at": "2026-10-15T10:02:44.829Z",
+  "total_libraries": 10169,
+  "index_etag": "W/\"790a30c8a5f6742b32177e382dcdebf1\"",
+  "index_last_modified": "Thu, 15 Oct 2026 10:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -115720,16 +115720,20 @@
       "repository_name": "Vean/FansElectronics_DMD32",
       "repository_url": "https://github.com/Vean/FansElectronics_DMD32",
       "name": "FansElectronics_DMD32",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-16T09:02:19Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-15T10:02:43.390Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-16T09:02:19Z",
-      "last_seen_sha": "4beec9924701",
+      "last_seen_sha": "496dd615d61b",
       "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
       "maintainer": "Irfan Indra Kurniawan, S.T <info@fanselectronics.com>",
       "sentence": "DMD32 Library for ESP32 HUB12 & HUB08 Support P10, P4.25, & P7.62.",
@@ -115738,12 +115742,14 @@
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_DMD32-1.1.0.zip",
+      "size": 51770,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-06-16T08:51:56Z",
-      "license": "MIT",
-      "download_url": "https://github.com/Vean/FansElectronics_DMD32"
+      "github_updated_at": "2026-06-16T08:51:56Z"
     },
     {
       "repository_name": "Vean/FansElectronics_DMD8266",
@@ -158975,29 +158981,34 @@
       "repository_name": "RobTillaart/lengthConverter",
       "repository_url": "https://github.com/RobTillaart/lengthConverter",
       "name": "lengthConverter",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-05-05T08:04:44Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-10-15T10:02:43.390Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-05T08:04:44Z",
-      "last_seen_sha": "323388633ed6",
+      "last_seen_sha": "491e4e39c158",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
-      "sentence": "Arduino library for to convert units of length.",
-      "paragraph": "",
-      "category": "Sensors",
+      "sentence": "Arduino library to convert (not so common) units of length.",
+      "category": "Data Processing",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/lengthConverter-0.1.2.zip",
+      "size": 10657,
+      "previous_version": "0.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-04T12:55:54Z",
-      "download_url": "https://github.com/RobTillaart/lengthConverter"
+      "github_updated_at": "2026-05-04T12:55:54Z"
     },
     {
       "repository_name": "leomil72/leOS",
@@ -238036,6 +238047,38 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2022-12-24T06:35:21Z"
+    },
+    {
+      "repository_name": "Michael-0-sys/ReflectINI",
+      "repository_url": "https://github.com/Michael-0-sys/ReflectINI",
+      "name": "ReflectINI",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-15T10:02:43.390Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T10:02:43.390Z",
+      "last_seen_sha": "691780b565cf",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "INI writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), sections, arrays and precise error locations.",
+      "paragraph": "Write and read C++ structs as INI files without hand-written parsing code. Nested structs become [sections], arrays become lists, std::optional and const char* are nullable. Parses from const char* (optional zero-copy), no heap use while reading or writing, error path / line / column. Shares ReflectCore.h with ReflectJSON (same struct for JSON and INI), but does not require it. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x, Arduino UNO R4). Free for noncommercial use; commercial use requires a license.",
+      "category": "Data Processing",
+      "architectures": [
+        "rp2040",
+        "esp32",
+        "teensy",
+        "renesas_uno"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.0.0.zip",
+      "size": 96431,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T05:49:42Z"
     },
     {
       "repository_name": "Michael-0-sys/ReflectJSON",
@@ -330813,7 +330856,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9964,
+    "with_github_metadata": 9965,
     "total_dependencies": 5573
   }
 }

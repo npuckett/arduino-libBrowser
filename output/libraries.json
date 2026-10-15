@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T03:03:06.776Z",
-  "total_libraries": 10164,
-  "index_etag": "W/\"a57eb51d494e5f18349c67675f4d1f58\"",
-  "index_last_modified": "Thu, 15 Oct 2026 03:00:18 GMT",
+  "enhanced_at": "2026-10-15T04:03:05.154Z",
+  "total_libraries": 10167,
+  "index_etag": "W/\"4a5f8ec45cc4e60a1f4f797664c9b538\"",
+  "index_last_modified": "Thu, 15 Oct 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -220685,6 +220685,36 @@
       "download_url": "https://github.com/Narwhalsss360/PinMatrix"
     },
     {
+      "repository_name": "pin-node/PinNode",
+      "repository_url": "https://github.com/pin-node/PinNode",
+      "name": "PinNode",
+      "version": "0.3.12",
+      "version_history": [
+        {
+          "version": "0.3.12",
+          "seen_at": "2026-10-15T04:03:01.300Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T04:03:01.300Z",
+      "last_seen_sha": "61334e37be0f",
+      "author": "PinNode",
+      "maintainer": "PinNode",
+      "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+      "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.12.zip",
+      "size": 204338,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-10-15T02:00:29Z"
+    },
+    {
       "repository_name": "RobTillaart/PinOutGroup",
       "repository_url": "https://github.com/RobTillaart/PinOutGroup",
       "name": "PinOutGroup",
@@ -234139,6 +234169,36 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "ismailcanernaz/Radio_GemTek",
+      "repository_url": "https://github.com/ismailcanernaz/Radio_GemTek",
+      "name": "Radio_GemTek",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-15T04:03:01.300Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T04:03:01.300Z",
+      "last_seen_sha": "6e05afc21b81",
+      "author": "İsmail Caner Naz",
+      "maintainer": "İsmail Caner Naz <ismailcanernaz@aol.com>",
+      "sentence": "Control a GemTek FM radio module using an Arduino.",
+      "paragraph": "Programs the module's BU2614 frequency synthesizer and provides frequency, mute, PLL, and mono/stereo status controls. The communication protocol was reverse engineered and tested with a USB FM transmitter.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ismailcanernaz/Radio_GemTek-1.0.0.zip",
+      "size": 8527,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-14T23:49:40Z"
+    },
+    {
       "repository_name": "abcdaaaaaaaaa/RadioactiveDataScience",
       "repository_url": "https://github.com/abcdaaaaaaaaa/RadioactiveDataScience",
       "name": "RadioactiveSpaceData",
@@ -245681,6 +245741,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2023-08-19T11:32:27Z"
+    },
+    {
+      "repository_name": "pin-node/RPUMachines",
+      "repository_url": "https://github.com/pin-node/RPUMachines",
+      "name": "RPUMachines",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-15T04:03:01.300Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T04:03:01.300Z",
+      "last_seen_sha": "acfd0c71bdc6",
+      "author": "PinNode and contributors",
+      "maintainer": "PinNode",
+      "sentence": "Machine definitions (lamps, switches, solenoids) for RetroPinUpgrade games.",
+      "paragraph": "One header per machine, shared by every game written for it, with the manufacturer's names for each lamp, switch and coil.",
+      "category": "Other",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.0.zip",
+      "size": 24879,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-15T02:15:22Z"
     },
     {
       "repository_name": "lbernstone/rrdtool_ESP32",
@@ -330663,7 +330752,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 9960,
+    "with_github_metadata": 9963,
     "total_dependencies": 5573
   }
 }

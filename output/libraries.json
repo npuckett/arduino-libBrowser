@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T17:02:18.668Z",
-  "total_libraries": 10173,
-  "index_etag": "W/\"9caf4cd9baf3830471d577f4bfe10efc\"",
-  "index_last_modified": "Thu, 15 Oct 2026 17:00:17 GMT",
+  "enhanced_at": "2026-10-15T18:03:42.695Z",
+  "total_libraries": 10174,
+  "index_etag": "W/\"114994401c0df24ecad98a8725781c7e\"",
+  "index_last_modified": "Thu, 15 Oct 2026 18:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -36204,7 +36204,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.15.1",
+      "version": "0.16.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36297,11 +36297,15 @@
         {
           "version": "0.15.1",
           "seen_at": "2026-10-15T16:02:57.076Z"
+        },
+        {
+          "version": "0.16.1",
+          "seen_at": "2026-10-15T18:03:41.152Z"
         }
       ],
-      "release_count": 23,
+      "release_count": 24,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "6371b815a660",
+      "last_seen_sha": "916f4fef9016",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36318,9 +36322,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.15.1.zip",
-      "size": 193504,
-      "previous_version": "0.14.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.16.1.zip",
+      "size": 195716,
+      "previous_version": "0.15.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -220868,7 +220872,7 @@
       "repository_name": "pin-node/PinNode",
       "repository_url": "https://github.com/pin-node/PinNode",
       "name": "PinNode",
-      "version": "0.3.14",
+      "version": "0.3.15",
       "version_history": [
         {
           "version": "0.3.12",
@@ -220881,11 +220885,15 @@
         {
           "version": "0.3.14",
           "seen_at": "2026-10-15T14:03:32.830Z"
+        },
+        {
+          "version": "0.3.15",
+          "seen_at": "2026-10-15T18:03:41.152Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "179b962f8386",
+      "last_seen_sha": "2eedd81d8e0c",
       "author": "PinNode",
       "maintainer": "PinNode",
       "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
@@ -220895,9 +220903,9 @@
         "avr",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.14.zip",
-      "size": 209092,
-      "previous_version": "0.3.13",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.15.zip",
+      "size": 205386,
+      "previous_version": "0.3.14",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",
@@ -222058,29 +222066,35 @@
       "repository_name": "topquark22/Plexorino",
       "repository_url": "https://github.com/topquark22/Plexorino",
       "name": "Plexorino",
-      "version": "5.0.5",
+      "version": "5.0.6",
       "version_history": [
         {
           "version": "5.0.5",
           "seen_at": "2026-01-12T07:10:30Z"
+        },
+        {
+          "version": "5.0.6",
+          "seen_at": "2026-10-15T18:03:41.152Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-12T07:10:30Z",
-      "last_seen_sha": "6b1128d044c4",
+      "last_seen_sha": "15ab8f71c770",
       "author": "Geoffrey Trueman Falk",
       "maintainer": "Geoffrey T. Falk <topquark22@yahoo.ca>",
-      "sentence": "Expand number of GPIO input/output pins using mux/demux ICs",
+      "sentence": "Support for 74HC259 (demultiplexer), 74LS151 and 74LS150 (multiplexer).",
       "paragraph": "With additional hardware, we can expand the number of digital input/output pins on the Arduino beyond the bare GPIO provided. Requires 74HC259 (demultiplexer), 74LS151 or 74LS150 (multiplexer) chip.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/topquark22/Plexorino-5.0.6.zip",
+      "size": 4107311,
+      "previous_version": "5.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-03-18T23:52:53Z",
-      "download_url": "https://github.com/topquark22/Plexorino"
+      "github_updated_at": "2026-03-18T23:52:53Z"
     },
     {
       "repository_name": "plexus-oss/c-sdk",
@@ -303271,6 +303285,35 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "longtrinh/TinyGSM2",
+      "repository_url": "https://github.com/longtrinh/TinyGSM2",
+      "name": "TinyGSM2",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-15T18:03:41.152Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-15T18:03:41.152Z",
+      "last_seen_sha": "7facfae0d1e4",
+      "author": "Volodymyr Shymanskyy",
+      "maintainer": "longtrinh",
+      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM with arduino-esp32 3.x fixes.",
+      "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.0.zip",
+      "size": 214129,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T15:49:14Z"
+    },
+    {
       "repository_name": "AlfredoMunguia/TinyGuixhe",
       "repository_url": "https://github.com/AlfredoMunguia/TinyGuixhe",
       "name": "TinyGuixhe",
@@ -331012,7 +331055,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9969,
+    "with_github_metadata": 9970,
     "total_dependencies": 5578
   }
 }

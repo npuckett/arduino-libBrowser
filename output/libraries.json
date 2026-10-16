@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-16T09:02:46.759Z",
-  "total_libraries": 10179,
-  "index_etag": "W/\"10e775497b69ea0f3abeb144e5c407be\"",
-  "index_last_modified": "Fri, 16 Oct 2026 09:00:18 GMT",
+  "enhanced_at": "2026-10-16T10:02:54.055Z",
+  "total_libraries": 10180,
+  "index_etag": "W/\"2342501b79a2a9006631a9f1c64c82f8\"",
+  "index_last_modified": "Fri, 16 Oct 2026 10:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104628,7 +104628,7 @@
       "repository_name": "LEKPCSTEAM/ESP32-OTA-Client",
       "repository_url": "https://github.com/LEKPCSTEAM/ESP32-OTA-Client",
       "name": "ESP32-OTA-Client",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.3",
@@ -104637,15 +104637,19 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-16T10:02:52.474Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:44:49Z",
-      "last_seen_sha": "e83037bdac93",
+      "last_seen_sha": "f3fe7ef98cbf",
       "author": "LEKPCSTEAM",
       "maintainer": "LEKPCSTEAM",
       "sentence": "A lightweight OTA (Over-The-Air) update library for ESP32 with JSON API support.",
-      "paragraph": "Easily implement OTA updates in your ESP32 projects using a simple JSON backend. Features include manual/auto checks, version comparison, rollback support, firmware validation, download progress callbacks, and LittleFS/SPIFFS filesystem image updates alongside firmware.",
+      "paragraph": "Easily implement OTA updates in your ESP32 projects using a simple JSON backend. Features include manual/auto checks, version comparison, rollback support, firmware validation, download progress callbacks, LittleFS/SPIFFS filesystem image updates alongside firmware, size/SHA-256 verification, resumable downloads, OTA result reports and factory-partition updaters.",
       "category": "Device Control",
       "architectures": [
         "esp32"
@@ -104653,9 +104657,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LEKPCSTEAM/ESP32_OTA_Client-1.1.0.zip",
-      "size": 23743,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LEKPCSTEAM/ESP32_OTA_Client-1.2.0.zip",
+      "size": 43995,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -209508,7 +209512,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.32",
+      "version": "0.0.33",
       "version_history": [
         {
           "version": "0.0.2",
@@ -209593,11 +209597,15 @@
         {
           "version": "0.0.32",
           "seen_at": "2026-10-16T06:04:11.023Z"
+        },
+        {
+          "version": "0.0.33",
+          "seen_at": "2026-10-16T10:02:52.474Z"
         }
       ],
-      "release_count": 21,
+      "release_count": 22,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "2197eb88e1e5",
+      "last_seen_sha": "22d9b24f44ca",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -209606,9 +209614,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.32.zip",
-      "size": 839389,
-      "previous_version": "0.0.31",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.33.zip",
+      "size": 842714,
+      "previous_version": "0.0.32",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -212839,6 +212847,35 @@
       "github_updated_at": "2026-06-23T03:08:37Z",
       "download_url": "https://www.ottodiy.com/",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "kdi6033/OttoI2R",
+      "repository_url": "https://github.com/kdi6033/OttoI2R",
+      "name": "OttoI2R",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-16T10:02:52.474Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-16T10:02:52.474Z",
+      "last_seen_sha": "7975f34383e2",
+      "author": "i2r",
+      "maintainer": "i2r <kdi6033@gmail.com>",
+      "sentence": "Control library for the Otto I2R robot: walking, rolling and sliding with four servos on ESP32-S3.",
+      "paragraph": "Drives the four servos (YL, YR, RL, RR) with the ESP32 LEDC PWM, so no extra library is needed. Includes walking, sliding and rolling motions with adjustable speed, and loads the calibration saved on the board (set from the Otto web page) with a single ottoInit() call. Requires the ESP32 board package 3.0 or later.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kdi6033/OttoI2R-1.0.0.zip",
+      "size": 30586,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T06:28:04Z"
     },
     {
       "repository_name": "RobTillaart/OUTPIN",
@@ -294660,7 +294697,7 @@
       "repository_name": "TcMenu/TaskManagerIO",
       "repository_url": "https://github.com/TcMenu/TaskManagerIO",
       "name": "TaskManagerIO",
-      "version": "5.0.1",
+      "version": "5.0.2",
       "version_history": [
         {
           "version": "1.5.4",
@@ -294673,11 +294710,15 @@
         {
           "version": "5.0.1",
           "seen_at": "2026-10-07T14:02:37.638Z"
+        },
+        {
+          "version": "5.0.2",
+          "seen_at": "2026-10-16T10:02:52.474Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-05-11T08:28:13Z",
-      "last_seen_sha": "50a8c990c48d",
+      "last_seen_sha": "58ab17717a5e",
       "author": "davetcc",
       "maintainer": "https://www.thecoderscorner.com",
       "sentence": "Task manager for Arduino and mbed with marshalled interrupts, first class support for events and timed execution. Thread safe for RTOS use.",
@@ -294687,9 +294728,9 @@
       "depends": [
         "TcMenuLog"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/TaskManagerIO-5.0.1.zip",
-      "size": 131240,
-      "previous_version": "5.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TcMenu/TaskManagerIO-5.0.2.zip",
+      "size": 130602,
+      "previous_version": "5.0.1",
       "github_stars": 136,
       "github_forks": 14,
       "github_language": "C++",
@@ -303488,7 +303529,7 @@
       "repository_name": "longtrinh/TinyGSM2",
       "repository_url": "https://github.com/longtrinh/TinyGSM2",
       "name": "TinyGSM2",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -303501,11 +303542,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-10-16T02:03:45.398Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-10-16T10:02:52.474Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-15T18:03:41.152Z",
-      "last_seen_sha": "b3076b605a01",
+      "last_seen_sha": "7ed2a96774b5",
       "author": "Long Trinh",
       "maintainer": "Long Trinh",
       "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
@@ -303514,9 +303559,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.2.zip",
-      "size": 215551,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.3.zip",
+      "size": 219841,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -325043,16 +325088,20 @@
       "repository_name": "beegee-tokyo/WisBlockLoRaWAN",
       "repository_url": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
       "name": "WisBlockLoRaWAN",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-13T06:06:29.018Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-16T10:02:52.474Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-13T06:06:29.018Z",
-      "last_seen_sha": "539bb5f4645a",
+      "last_seen_sha": "5b078ec353d6",
       "author": "Bernd Giesecke bernd@giesecke.tk",
       "maintainer": "Bernd Giesecke bernd@giesecke.tk",
       "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
@@ -325061,8 +325110,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.0.zip",
-      "size": 1362341,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.1.zip",
+      "size": 1367011,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -331269,7 +331319,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9975,
+    "with_github_metadata": 9976,
     "total_dependencies": 5582
   }
 }

@@ -1,6 +1,49 @@
 {
-  "since": "2026-10-16T01:12:54.006Z",
+  "since": "2026-10-16T02:03:45.398Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "longtrinh/TinyGSM2",
+        "repository_url": "https://github.com/longtrinh/TinyGSM2",
+        "name": "TinyGSM2",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-15T18:03:41.152Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-16T00:06:12.089Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-16T02:03:45.398Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-15T18:03:41.152Z",
+        "last_seen_sha": "b3076b605a01",
+        "author": "Long Trinh",
+        "maintainer": "Long Trinh",
+        "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
+        "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.2.zip",
+        "size": 215551,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-15T15:49:14Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

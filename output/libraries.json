@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-16T05:02:41.371Z",
+  "enhanced_at": "2026-10-16T06:04:11.154Z",
   "total_libraries": 10179,
-  "index_etag": "W/\"bffc9737b92fe3a5bf9c9279ad4626ef\"",
-  "index_last_modified": "Fri, 16 Oct 2026 05:00:17 GMT",
+  "index_etag": "W/\"a2ebf90129ad4501511183a9aaccb47a\"",
+  "index_last_modified": "Fri, 16 Oct 2026 06:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -209504,7 +209504,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.31",
+      "version": "0.0.32",
       "version_history": [
         {
           "version": "0.0.2",
@@ -209585,11 +209585,15 @@
         {
           "version": "0.0.31",
           "seen_at": "2026-10-08T10:03:26.589Z"
+        },
+        {
+          "version": "0.0.32",
+          "seen_at": "2026-10-16T06:04:11.023Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "df7005c3a237",
+      "last_seen_sha": "2197eb88e1e5",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -209598,9 +209602,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.31.zip",
-      "size": 830583,
-      "previous_version": "0.0.30",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.32.zip",
+      "size": 839389,
+      "previous_version": "0.0.31",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -310710,26 +310714,31 @@
       "repository_name": "uecs-star/UARDECS_ESP32C3",
       "repository_url": "https://github.com/uecs-star/UARDECS_ESP32C3",
       "name": "UARDECS_ESP32C3",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-14T06:04:26.421Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-16T06:04:11.023Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-14T06:04:26.421Z",
-      "last_seen_sha": "e525c8c08071",
+      "last_seen_sha": "68c1995265a0",
       "author": "Takehiko Hoshi, Hideto Kurosaki and Ken-ichro Yasuba",
       "maintainer": "Hoshi@hoshi-lab.net",
       "sentence": "A library that provides communication capabilities compliant with the \"Ubiquitous Environment Control System (UECS)\" standard, which is widely used in protected horticulture in Japan.",
-      "paragraph": "This library facilitates UECS sweet application development on the ESP32C3 chip board by providing UDP packet broadcast communication via Wi-Fi and internet web server functionality, all compliant with the UECS communication protocol. It supports the ESP32C3-OLED, XIAO ESP32C3, and compatible boards. Please refer to LICENSE.md for licensing information.",
+      "paragraph": "This library facilitates UECS sweet application development on the ESP32C3 chip board by providing UDP packet broadcast communication via Wi-Fi and internet web server functionality, all compliant with the UECS communication protocol. It supports the ESP32C3-OLED, XIAO ESP32C3, and compatible boards. Version 1.0.1 improves the stability of HTTP reception. Please refer to LICENSE.md for licensing information.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/uecs-star/UARDECS_ESP32C3-1.0.0.zip",
-      "size": 726628,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uecs-star/UARDECS_ESP32C3-1.0.1.zip",
+      "size": 728279,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

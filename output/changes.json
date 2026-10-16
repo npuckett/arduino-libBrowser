@@ -1,6 +1,162 @@
 {
-  "since": "2026-10-16T21:02:17.981Z",
+  "since": "2026-10-16T22:02:24.302Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "soosp/ButtonEvents",
+        "repository_url": "https://github.com/soosp/ButtonEvents",
+        "name": "ButtonEvents",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-10-16T18:03:24.569Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-10-16T22:02:24.302Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-16T18:03:24.569Z",
+        "last_seen_sha": "7e98678c7f93",
+        "author": "Péter Soós <https://github.com/soosp>",
+        "maintainer": "Péter Soós <https://github.com/soosp>",
+        "sentence": "Press, release, hold and press-count events for a push button.",
+        "paragraph": "Debounced, non-blocking and allocation-free. Reports how long each press lasted and how many short presses made up a sequence; the caller decides what a duration or a count means. Thread-safe on ESP32, with per-kind latches for other tasks. Reads a GPIO or any caller-supplied input.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "esp8266",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/ButtonEvents-0.3.0.zip",
+        "size": 30049,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-16T14:30:41Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    },
+    {
+      "library": {
+        "repository_name": "Microeden/MyDotLib",
+        "repository_url": "https://github.com/Microeden/MyDotLib",
+        "name": "MyDot",
+        "version": "1.0.10",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-09-04T16:02:48.199Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-06T16:02:38.618Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-09-06T20:02:31.565Z"
+          },
+          {
+            "version": "1.0.8",
+            "seen_at": "2026-09-07T10:03:01.835Z"
+          },
+          {
+            "version": "1.0.9",
+            "seen_at": "2026-09-23T18:03:20.771Z"
+          },
+          {
+            "version": "1.0.10",
+            "seen_at": "2026-10-16T22:02:24.302Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-09-04T16:02:48.199Z",
+        "last_seen_sha": "ab002f0c268c",
+        "author": "Microeden",
+        "maintainer": "Microeden <info@microeden.io>",
+        "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
+        "paragraph": "Controls the MyDot board peripherals and connects compatible Wi-Fi boards to Microeden over MQTT.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "samd",
+          "rp2040",
+          "mbed_nano"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "Adafruit SSD1306",
+          "Adafruit BME680 Library",
+          "PubSubClient",
+          "ArduinoJson",
+          "SD",
+          "WiFiNINA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.10.zip",
+        "size": 124835,
+        "previous_version": "1.0.9",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-04T13:38:25Z"
+      },
+      "old_version": "1.0.9",
+      "new_version": "1.0.10"
+    },
+    {
+      "library": {
+        "repository_name": "klenov1900-lang/OLED2.42_EASY",
+        "repository_url": "https://github.com/klenov1900-lang/OLED2.42_EASY",
+        "name": "OLED2.42_EASY",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-04T22:02:12.498Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-05T21:02:43.536Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-16T22:02:24.302Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-04T22:02:12.498Z",
+        "last_seen_sha": "acf75e079341",
+        "author": "klenov1900-lang",
+        "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
+        "sentence": "Easy library for 2.42\" OLED displays on SSD1309 (I2C, ATmega328P).",
+        "paragraph": "Uses I2C_EASY as low-level TWI layer. No Wire.h. Terminus 8x12 (Cyrillic + Unicode), Blocky 15x23. Multilingual headers (ru/en/cn). Partial page refresh. Part of the *_EASY family.",
+        "category": "Display",
+        "architectures": [
+          "avr"
+        ],
+        "depends": [
+          "I2C_EASY"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/OLED2_42_EASY-2.0.0.zip",
+        "size": 194410,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-04T19:55:16Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "2.0.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-16T21:02:18.115Z",
+  "enhanced_at": "2026-10-16T22:02:24.439Z",
   "total_libraries": 10185,
-  "index_etag": "W/\"0db38f136a19998e97e17cf8623ca6cd\"",
-  "index_last_modified": "Fri, 16 Oct 2026 21:00:18 GMT",
+  "index_etag": "W/\"a0320fe83bc6862d8f4b7a46faa8ecb7\"",
+  "index_last_modified": "Fri, 16 Oct 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -57909,16 +57909,20 @@
       "repository_name": "soosp/ButtonEvents",
       "repository_url": "https://github.com/soosp/ButtonEvents",
       "name": "ButtonEvents",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-10-16T18:03:24.569Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-16T22:02:24.302Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-16T18:03:24.569Z",
-      "last_seen_sha": "bdd5e4086f48",
+      "last_seen_sha": "7e98678c7f93",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Press, release, hold and press-count events for a push button.",
@@ -57929,8 +57933,9 @@
         "esp8266",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/ButtonEvents-0.2.0.zip",
-      "size": 29419,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/ButtonEvents-0.3.0.zip",
+      "size": 30049,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -199988,7 +199993,7 @@
       "repository_name": "Microeden/MyDotLib",
       "repository_url": "https://github.com/Microeden/MyDotLib",
       "name": "MyDot",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.4",
@@ -200013,11 +200018,15 @@
         {
           "version": "1.0.9",
           "seen_at": "2026-09-23T18:03:20.771Z"
+        },
+        {
+          "version": "1.0.10",
+          "seen_at": "2026-10-16T22:02:24.302Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-09-04T16:02:48.199Z",
-      "last_seen_sha": "edcf38552037",
+      "last_seen_sha": "ab002f0c268c",
       "author": "Microeden",
       "maintainer": "Microeden <info@microeden.io>",
       "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
@@ -200038,9 +200047,9 @@
         "SD",
         "WiFiNINA"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.9.zip",
-      "size": 123940,
-      "previous_version": "1.0.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.10.zip",
+      "size": 124835,
+      "previous_version": "1.0.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -208158,7 +208167,7 @@
       "repository_name": "klenov1900-lang/OLED2.42_EASY",
       "repository_url": "https://github.com/klenov1900-lang/OLED2.42_EASY",
       "name": "OLED2.42_EASY",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -208167,22 +208176,29 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-10-05T21:02:43.536Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-10-16T22:02:24.302Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-04T22:02:12.498Z",
-      "last_seen_sha": "eff4f2a235f2",
+      "last_seen_sha": "acf75e079341",
       "author": "klenov1900-lang",
       "maintainer": "klenov1900-lang <gray_wolf19@mail.ru>",
       "sentence": "Easy library for 2.42\" OLED displays on SSD1309 (I2C, ATmega328P).",
-      "paragraph": "Direct TWI register access. No external dependencies. Terminus 8x12 (Cyrillic + Unicode), Blocky 15x23. Multilingual headers (ru/en/cn). Partial page refresh.",
+      "paragraph": "Uses I2C_EASY as low-level TWI layer. No Wire.h. Terminus 8x12 (Cyrillic + Unicode), Blocky 15x23. Multilingual headers (ru/en/cn). Partial page refresh. Part of the *_EASY family.",
       "category": "Display",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/OLED2_42_EASY-1.0.1.zip",
-      "size": 193724,
-      "previous_version": "1.0.0",
+      "depends": [
+        "I2C_EASY"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/OLED2_42_EASY-2.0.0.zip",
+      "size": 194410,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -331524,6 +331540,6 @@
     "total_categories": 78,
     "total_architectures": 162,
     "with_github_metadata": 9981,
-    "total_dependencies": 5590
+    "total_dependencies": 5591
   }
 }

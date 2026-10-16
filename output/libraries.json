@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-16T11:02:55.170Z",
+  "enhanced_at": "2026-10-16T12:03:57.364Z",
   "total_libraries": 10180,
-  "index_etag": "W/\"2342501b79a2a9006631a9f1c64c82f8\"",
-  "index_last_modified": "Fri, 16 Oct 2026 11:00:17 GMT",
+  "index_etag": "W/\"bcf5f43d664b222665a6f2cb48e0981d\"",
+  "index_last_modified": "Fri, 16 Oct 2026 12:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -122433,7 +122433,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "0.0.22",
@@ -122490,11 +122490,15 @@
         {
           "version": "2.0.5",
           "seen_at": "2026-10-11T12:03:54.206Z"
+        },
+        {
+          "version": "2.0.6",
+          "seen_at": "2026-10-16T12:03:57.248Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "63d4a7895198",
+      "last_seen_sha": "46a517db016a",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -122513,11 +122517,17 @@
         "DallasTemperature",
         "hd44780",
         "TinyGPSPlus",
-        "ModbusMaster"
+        "ModbusMaster",
+        "ESP Async WebServer",
+        "Async TCP",
+        "ESP Async TCP",
+        "Adafruit GFX Library",
+        "Adafruit SSD1306",
+        "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.5.zip",
-      "size": 967296,
-      "previous_version": "2.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.6.zip",
+      "size": 1009345,
+      "previous_version": "2.0.5",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -209512,7 +209522,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.33",
+      "version": "0.0.34",
       "version_history": [
         {
           "version": "0.0.2",
@@ -209601,11 +209611,15 @@
         {
           "version": "0.0.33",
           "seen_at": "2026-10-16T10:02:52.474Z"
+        },
+        {
+          "version": "0.0.34",
+          "seen_at": "2026-10-16T12:03:57.248Z"
         }
       ],
-      "release_count": 22,
+      "release_count": 23,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "22d9b24f44ca",
+      "last_seen_sha": "6362d379db90",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -209614,9 +209628,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.33.zip",
-      "size": 842714,
-      "previous_version": "0.0.32",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.34.zip",
+      "size": 845531,
+      "previous_version": "0.0.33",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -331320,6 +331334,6 @@
     "total_categories": 78,
     "total_architectures": 162,
     "with_github_metadata": 9976,
-    "total_dependencies": 5582
+    "total_dependencies": 5588
   }
 }

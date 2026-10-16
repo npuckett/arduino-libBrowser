@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-15T23:02:13.247Z",
-  "total_libraries": 10177,
-  "index_etag": "W/\"91960a720a7d6d7dc5acb16bb3c2558f\"",
-  "index_last_modified": "Thu, 15 Oct 2026 23:00:17 GMT",
+  "enhanced_at": "2026-10-16T00:06:14.782Z",
+  "total_libraries": 10179,
+  "index_etag": "W/\"26c63125c330ee3fb88d895c635ebb97\"",
+  "index_last_modified": "Fri, 16 Oct 2026 00:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104288,6 +104288,36 @@
       "github_updated_at": "2026-02-17T12:55:08Z"
     },
     {
+      "repository_name": "dkaukov/esp32-freedv2400b",
+      "repository_url": "https://github.com/dkaukov/esp32-freedv2400b",
+      "name": "esp32-freedv2400b",
+      "version": "1.3.0",
+      "version_history": [
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-10-16T00:06:12.089Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-16T00:06:12.089Z",
+      "last_seen_sha": "d3ca22785552",
+      "author": "Dmitry Kaukov",
+      "maintainer": "Dmitry Kaukov",
+      "sentence": "FreeDV 2400B raw modem for ESP32 and Arduino.",
+      "paragraph": "Header-only, dependency-free Type-A framing and discriminator/baseband modem for packed 52-bit Codec2 payloads.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "LGPL-2.1-only",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dkaukov/esp32_freedv2400b-1.3.0.zip",
+      "size": 236185,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T20:33:54Z"
+    },
+    {
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
@@ -205408,7 +205438,7 @@
       "repository_name": "m-mcgowan/note-cpp",
       "repository_url": "https://github.com/m-mcgowan/note-cpp",
       "name": "note-cpp",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "version_history": [
         {
           "version": "0.3.2",
@@ -205425,11 +205455,15 @@
         {
           "version": "0.3.5",
           "seen_at": "2026-10-14T06:04:26.421Z"
+        },
+        {
+          "version": "0.3.6",
+          "seen_at": "2026-10-16T00:06:12.089Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-07-15T20:20:27.721Z",
-      "last_seen_sha": "1dae2b3e63cb",
+      "last_seen_sha": "e31e35a497d0",
       "author": "Mat McGowan",
       "maintainer": "Mat McGowan",
       "sentence": "Typed C++ SDK for the Blues Notecard.",
@@ -205438,9 +205472,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.5.zip",
-      "size": 1910843,
-      "previous_version": "0.3.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.6.zip",
+      "size": 1915303,
+      "previous_version": "0.3.5",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -245908,6 +245942,35 @@
       "github_forks": 0,
       "github_language": "C",
       "github_updated_at": "2026-06-18T05:58:20Z"
+    },
+    {
+      "repository_name": "eyr1n/RP2040PIO_HalfDuplex",
+      "repository_url": "https://github.com/eyr1n/RP2040PIO_HalfDuplex",
+      "name": "RP2040PIO_HalfDuplex",
+      "version": "0.0.2",
+      "version_history": [
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-10-16T00:06:12.089Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-16T00:06:12.089Z",
+      "last_seen_sha": "0415b9f93ff8",
+      "author": "Rin Iwai",
+      "maintainer": "Rin Iwai <me@eyrin.jp>",
+      "sentence": "Half-duplex UART library for RP2040/2350 PIO.",
+      "paragraph": "This library provides half-duplex UART communication using Programmable I/O in RP2040/2350.",
+      "category": "Communication",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/eyr1n/RP2040PIO_HalfDuplex-0.0.2.zip",
+      "size": 16229,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-15T21:59:30Z"
     },
     {
       "repository_name": "ayushsharma82/RPAsyncTCP",
@@ -303409,26 +303472,31 @@
       "repository_name": "longtrinh/TinyGSM2",
       "repository_url": "https://github.com/longtrinh/TinyGSM2",
       "name": "TinyGSM2",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-15T18:03:41.152Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-16T00:06:12.089Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-15T18:03:41.152Z",
-      "last_seen_sha": "7facfae0d1e4",
-      "author": "Volodymyr Shymanskyy",
-      "maintainer": "longtrinh",
-      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM with arduino-esp32 3.x fixes.",
+      "last_seen_sha": "035351f2499f",
+      "author": "Long Trinh",
+      "maintainer": "Long Trinh",
+      "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
       "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces. Based on TinyGSM 0.12.0, with fixes for arduino-esp32 3.x (watchdog-safe waits, socket data integrity, client lifetime, IPv6, optional multi-task mutex) and a reworked SIMCom A7672X driver.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.0.zip",
-      "size": 214129,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.1.zip",
+      "size": 214164,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -331176,7 +331244,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9973,
+    "with_github_metadata": 9975,
     "total_dependencies": 5582
   }
 }

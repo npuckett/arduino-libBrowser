@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-16T19:02:20.384Z",
-  "total_libraries": 10184,
-  "index_etag": "W/\"248da3c2196ddcadac5c57a56299fedc\"",
-  "index_last_modified": "Fri, 16 Oct 2026 19:00:17 GMT",
+  "enhanced_at": "2026-10-16T20:02:22.406Z",
+  "total_libraries": 10185,
+  "index_etag": "W/\"0db38f136a19998e97e17cf8623ca6cd\"",
+  "index_last_modified": "Fri, 16 Oct 2026 20:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -11389,7 +11389,7 @@
       "repository_name": "adafruit/Adafruit_LIS2MDL",
       "repository_url": "https://github.com/adafruit/Adafruit_LIS2MDL",
       "name": "Adafruit LIS2MDL",
-      "version": "2.1.8",
+      "version": "2.1.9",
       "version_history": [
         {
           "version": "2.1.8",
@@ -11398,11 +11398,15 @@
         {
           "version": "2.1.8",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.9",
+          "seen_at": "2026-10-16T20:02:20.950Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:05:39Z",
-      "last_seen_sha": "a1f20f1ba447",
+      "last_seen_sha": "3772710a9d15",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Unified Magnetometer sensor driver for Adafruit's LIS2MDL Breakout",
@@ -11418,8 +11422,8 @@
         "Adafruit LSM303 Accel",
         "Adafruit GFX Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LIS2MDL-2.1.8.zip",
-      "size": 341224,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LIS2MDL-2.1.9.zip",
+      "size": 341227,
       "previous_version": "2.1.8",
       "github_stars": 4,
       "github_forks": 8,
@@ -150208,6 +150212,39 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/github.com/mogel77/Jobber-1.0.3.zip",
       "size": 26784
+    },
+    {
+      "repository_name": "jourtempo/tempo-esp32",
+      "repository_url": "https://github.com/jourtempo/tempo-esp32",
+      "name": "JourTempo",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-16T20:02:20.950Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-16T20:02:20.950Z",
+      "last_seen_sha": "ff32b7adec68",
+      "author": "Jour Tempo <contact@jourtempo.fr>",
+      "maintainer": "Jour Tempo <contact@jourtempo.fr>",
+      "sentence": "Read the French Tempo electricity tariff colour (blue, white, red) for today and tomorrow on ESP32 and ESP8266.",
+      "paragraph": "Uses the free Jour Tempo JSON API (no key, no account), with colours published by RTE. Gives remaining days per colour, handles network loss and expired data (never a guessed colour) and keeps at least 10 minutes between requests.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jourtempo/JourTempo-1.0.0.zip",
+      "size": 22186,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T16:43:38Z"
     },
     {
       "repository_name": "joy-it/JoyIT_LSM6DS3TR-C",
@@ -331486,7 +331523,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9980,
-    "total_dependencies": 5589
+    "with_github_metadata": 9981,
+    "total_dependencies": 5590
   }
 }

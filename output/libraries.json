@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-17T13:02:15.158Z",
+  "enhanced_at": "2026-10-17T14:02:14.208Z",
   "total_libraries": 10188,
-  "index_etag": "W/\"10639e653611afe9eb2459f4ec01e8f7\"",
-  "index_last_modified": "Sat, 17 Oct 2026 13:00:17 GMT",
+  "index_etag": "W/\"6abd42094aa7a6f73f867153d1eefd42\"",
+  "index_last_modified": "Sat, 17 Oct 2026 14:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -114463,29 +114463,35 @@
       "repository_name": "Aatiqur/EZConnect",
       "repository_url": "https://github.com/Aatiqur/EZConnect",
       "name": "EZConnect",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.2.1",
           "seen_at": "2026-01-15T07:47:56Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-10-17T14:02:14.072Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-01-15T07:47:56Z",
-      "last_seen_sha": "c2fe5d03cbb2",
+      "last_seen_sha": "ab56902d30d9",
       "author": "Atiqur Rahman",
       "maintainer": "Atiqur Rahman <aatiqurrahman111@gmail.com>",
-      "sentence": "Easy WiFi + Bluetooth provisioning library for ESP32.",
-      "paragraph": "EZConnect allows ESP32 to configure WiFi via Bluetooth and auto reconnect with LED status.",
+      "sentence": "Easy Wi-Fi provisioning for ESP32 using Bluetooth Classic, BLE, or a browser portal.",
+      "paragraph": "EZConnect stores Wi-Fi credentials, supports reconnection, status LED feedback, and a password-protected captive-style Wi-Fi setup portal with nearby network scanning.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Aatiqur/EZConnect-1.2.2.zip",
+      "size": 49542,
+      "previous_version": "1.2.1",
       "github_stars": 3,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-06-02T06:47:46Z",
-      "download_url": "https://github.com/Aatiqur/EZConnect"
+      "github_updated_at": "2026-06-02T06:47:46Z"
     },
     {
       "repository_name": "SimpleHacks/EzDmaHelper",
@@ -172810,7 +172816,7 @@
       "repository_name": "m5stack/M5UnitUnified",
       "repository_url": "https://github.com/m5stack/M5UnitUnified",
       "name": "M5UnitUnified",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "version_history": [
         {
           "version": "0.5.5",
@@ -172835,11 +172841,15 @@
         {
           "version": "0.6.1",
           "seen_at": "2026-10-16T18:03:24.569Z"
+        },
+        {
+          "version": "0.6.2",
+          "seen_at": "2026-10-17T14:02:14.072Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-10T08:41:02Z",
-      "last_seen_sha": "0631936bbaba",
+      "last_seen_sha": "3b009202d411",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
@@ -172852,9 +172862,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.1.zip",
-      "size": 152698,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.2.zip",
+      "size": 153948,
+      "previous_version": "0.6.1",
       "github_stars": 26,
       "github_forks": 9,
       "github_language": "C++",
@@ -325370,7 +325380,7 @@
       "repository_name": "beegee-tokyo/WisBlockLoRaWAN",
       "repository_url": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
       "name": "WisBlockLoRaWAN",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -325379,11 +325389,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-10-16T10:02:52.474Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-17T14:02:14.072Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-13T06:06:29.018Z",
-      "last_seen_sha": "5b078ec353d6",
+      "last_seen_sha": "f6e9acb937f2",
       "author": "Bernd Giesecke bernd@giesecke.tk",
       "maintainer": "Bernd Giesecke bernd@giesecke.tk",
       "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
@@ -325392,9 +325406,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.1.zip",
-      "size": 1367011,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.2.zip",
+      "size": 1372442,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

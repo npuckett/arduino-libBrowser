@@ -1,6 +1,152 @@
 {
-  "since": "2026-10-16T23:02:19.849Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-17T00:06:05.689Z",
+  "new_libraries": [
+    {
+      "repository_name": "mauringo/BME690-Arduino-lib-unofficial",
+      "repository_url": "https://github.com/mauringo/BME690-Arduino-lib-unofficial",
+      "name": "BME690-Arduino-lib-unofficial",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-10-17T00:06:05.689Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-17T00:06:05.689Z",
+      "last_seen_sha": "b9a881e4cb27",
+      "author": "Mauro Riboni, Bosch Sensortec",
+      "maintainer": "Mauro Riboni <58341265+mauringo@users.noreply.github.com>",
+      "sentence": "Unofficial Arduino driver for the Bosch BME690 environmental sensor.",
+      "paragraph": "Personal hobby work by Mauro Riboni (@mauringo), made for fun and learning. Adapted from the official Bosch Sensortec BME68x Arduino library; unofficial and not affiliated with, endorsed, or supported by Bosch. Original licenses and attribution are retained.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mauringo/BME690_Arduino_lib_unofficial-0.0.1.zip",
+      "size": 43668,
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-10-16T21:36:04Z"
+    },
+    {
+      "repository_name": "mauringo/Bsec3-ArduinoLibrary-Unofficial",
+      "repository_url": "https://github.com/mauringo/Bsec3-ArduinoLibrary-Unofficial",
+      "name": "Bsec3-ArduinoLibrary-Unofficial",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-10-17T00:06:05.689Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-17T00:06:05.689Z",
+      "last_seen_sha": "a91358da9796",
+      "author": "Mauro Riboni, Bosch Sensortec",
+      "maintainer": "Mauro Riboni <58341265+mauringo@users.noreply.github.com>",
+      "sentence": "Unofficial Arduino BSEC3 wrapper for Bosch BME690 air quality sensing.",
+      "paragraph": "Personal hobby work by Mauro Riboni (@mauringo), made for fun and learning. Adapted from the official Bosch Sensortec BSEC2 Arduino library; unofficial and not affiliated with, endorsed, or supported by Bosch. Original licenses and attribution are retained.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "BME690-Arduino-lib-unofficial"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mauringo/Bsec3_ArduinoLibrary_Unofficial-0.0.1.zip",
+      "size": 47013,
+      "github_stars": 1,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-10-16T21:36:29Z"
+    },
+    {
+      "repository_name": "arduinoclassroom/SmoothUI",
+      "repository_url": "https://github.com/arduinoclassroom/SmoothUI",
+      "name": "SmoothUI",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-17T00:06:05.689Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-17T00:06:05.689Z",
+      "last_seen_sha": "1dace71dc0ef",
+      "author": "Oshan Dissanayaka",
+      "maintainer": "Oshan Dissanayaka",
+      "sentence": "Smooth, animated menus for OLED and TFT displays: menus, lists, switches, sliders, choices, time pickers, timers, alerts and progress screens.",
+      "paragraph": "One library for SSD1306/SH1106 OLEDs and ST7735/ST7789/ILI9341 TFTs - pick your display by uncommenting one line. Rows unfold, the selection glides and stretches, pages slide, long text scrolls. Works with a rotary encoder or push buttons. Built on Adafruit GFX.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "rp2040",
+        "mbed_rp2040",
+        "stm32",
+        "samd",
+        "nrf52",
+        "renesas_uno",
+        "sam"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit BusIO",
+        "Adafruit SSD1306",
+        "Adafruit SH110X",
+        "Adafruit ST7735 and ST7789 Library",
+        "Adafruit ILI9341"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduinoclassroom/SmoothUI-1.0.0.zip",
+      "size": 73743,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T21:37:40Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "F1chter/LynkTuyaLocal",
+        "repository_url": "https://github.com/F1chter/LynkTuyaLocal",
+        "name": "LynkTuyaLocal",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-05T18:20:17.088Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-17T00:06:05.689Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-07-05T18:20:17.088Z",
+        "last_seen_sha": "f7f61466bd05",
+        "author": "Alex Fichter",
+        "maintainer": "Alex Fichter <fichteralex@gmail.com>",
+        "sentence": "Control Tuya devices from ESP32 over the local network, without the Tuya cloud.",
+        "paragraph": "Implements the Tuya LAN protocol v3.4 and v3.5 directly over TCP: authentication handshake, session key generation, AES-ECB/HMAC-SHA256 (v3.4) and AES-GCM (v3.5) encryption, status requests and power on/off commands. Use TinyTuya to obtain the device IP and Local Key.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/F1chter/LynkTuyaLocal-1.1.0.zip",
+        "size": 28465,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-05T14:22:37Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

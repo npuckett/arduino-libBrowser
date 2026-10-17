@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-17T17:02:12.251Z",
-  "total_libraries": 10188,
-  "index_etag": "W/\"8423bfb8554d1411f5e1d1d521bc1733\"",
-  "index_last_modified": "Sat, 17 Oct 2026 17:00:17 GMT",
+  "enhanced_at": "2026-10-17T18:02:44.995Z",
+  "total_libraries": 10189,
+  "index_etag": "W/\"bd8f76c758b729ca969facfe47261254\"",
+  "index_last_modified": "Sat, 17 Oct 2026 18:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39577,7 +39577,7 @@
       "repository_name": "ARDUTECH0/ATGenXIOT",
       "repository_url": "https://github.com/ARDUTECH0/ATGenXIOT",
       "name": "ATGenX_Hub",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39590,11 +39590,15 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-10-09T16:03:12.985Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-10-17T18:02:43.447Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-04-04T07:21:08Z",
-      "last_seen_sha": "c14e9e5add31",
+      "last_seen_sha": "107037eb2938",
       "author": "Seif Emad / ARDUTECH0",
       "maintainer": "Seif Emad <support@atgenx.com>",
       "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
@@ -39609,9 +39613,9 @@
         "ArduinoJson",
         "DHT sensor library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.4.0.zip",
-      "size": 39922,
-      "previous_version": "2.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.5.0.zip",
+      "size": 42801,
+      "previous_version": "2.4.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -39621,7 +39625,7 @@
       "repository_name": "ARDUTECH0/ATGENXlib-0.0.1",
       "repository_url": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
       "name": "ATGENXlib",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -39630,20 +39634,25 @@
         {
           "version": "2.1.0",
           "seen_at": "2026-10-06T16:03:22.958Z"
+        },
+        {
+          "version": "2.2.0",
+          "seen_at": "2026-10-17T18:02:43.447Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-18T07:23:14Z",
-      "last_seen_sha": "c7586ff9e415",
+      "last_seen_sha": "658dbba60403",
       "author": "ATGenX",
       "maintainer": "Seif Emad <support@atgenx.com>",
-      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT) for Arduino and ESP32.",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT) for Arduino, ESP32 and Raspberry Pi Pico.",
       "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
       "category": "Device Control",
       "architectures": [
         "avr",
         "esp32",
-        "esp8266"
+        "esp8266",
+        "rp2040"
       ],
       "depends": [
         "DHT sensor library",
@@ -39653,9 +39662,9 @@
         "Servo",
         "ESP32Servo"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.1.0.zip",
-      "size": 91792,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.2.0.zip",
+      "size": 91931,
+      "previous_version": "2.1.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -60254,6 +60263,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-04-11T14:43:16Z",
       "download_url": "https://github.com/tkem/CarreraDigitalControlUnit/"
+    },
+    {
+      "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+      "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+      "name": "CasioST75256",
+      "version": "0.6.0",
+      "version_history": [
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-10-17T18:02:43.447Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-17T18:02:43.447Z",
+      "last_seen_sha": "083ebc2dbe01",
+      "author": "GrayKazu",
+      "maintainer": "GrayKazu",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG, with Unicode fonts (VI, TH, ZH), haunted FX and the WraithUI widget toolkit.",
+      "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.6.0.zip",
+      "size": 382063,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-17T15:39:43Z"
     },
     {
       "repository_name": "TheNitek/CatGFX",
@@ -172816,7 +172854,7 @@
       "repository_name": "m5stack/M5UnitUnified",
       "repository_url": "https://github.com/m5stack/M5UnitUnified",
       "name": "M5UnitUnified",
-      "version": "0.6.2",
+      "version": "0.6.3",
       "version_history": [
         {
           "version": "0.5.5",
@@ -172845,11 +172883,15 @@
         {
           "version": "0.6.2",
           "seen_at": "2026-10-17T14:02:14.072Z"
+        },
+        {
+          "version": "0.6.3",
+          "seen_at": "2026-10-17T18:02:43.447Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-10T08:41:02Z",
-      "last_seen_sha": "3b009202d411",
+      "last_seen_sha": "4030997dcc5f",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
@@ -172862,9 +172904,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.2.zip",
-      "size": 153948,
-      "previous_version": "0.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.3.zip",
+      "size": 155961,
+      "previous_version": "0.6.2",
       "github_stars": 26,
       "github_forks": 9,
       "github_language": "C++",
@@ -331720,7 +331762,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9984,
+    "with_github_metadata": 9985,
     "total_dependencies": 5598
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-17T19:02:10.384Z",
+  "enhanced_at": "2026-10-17T20:02:45.335Z",
   "total_libraries": 10189,
-  "index_etag": "W/\"bd8f76c758b729ca969facfe47261254\"",
-  "index_last_modified": "Sat, 17 Oct 2026 19:00:17 GMT",
+  "index_etag": "W/\"9b55b4b5250373cf73a7d75fab2f546f\"",
+  "index_last_modified": "Sat, 17 Oct 2026 20:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -326572,26 +326572,33 @@
       "repository_name": "flmueller/x1xcp-serial",
       "repository_url": "https://github.com/flmueller/x1xcp-serial",
       "name": "x1xcp_serial",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-16T18:03:24.569Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-17T20:02:45.234Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-16T18:03:24.569Z",
-      "last_seen_sha": "41ef610a644d",
+      "last_seen_sha": "f44d31237a4c",
       "author": "Florian Müller",
       "maintainer": "Florian Müller",
-      "sentence": "XCP over the serial port (USB) for Arduino AVR boards: measurement and calibration of global variables.",
-      "paragraph": "Dynamic DAQ and calibration for XCP-Ray or other XCP masters; Serial.print() keeps working and appears in the console of the tool. Tested on an Arduino Nano (ATmega328P).",
+      "sentence": "XCP over the serial port (USB) for Arduino AVR, Raspberry Pi Pico and STM32 boards: measurement and calibration of global variables.",
+      "paragraph": "Dynamic DAQ and calibration for XCP-Ray or other XCP masters; Serial.print() keeps working and appears in the console of the tool. Tested on an Arduino Nano (ATmega328P), a Raspberry Pi Pico (RP2040) and a Black Pill (STM32F411).",
       "category": "Communication",
       "architectures": [
-        "avr"
+        "avr",
+        "rp2040",
+        "stm32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.0.0.zip",
-      "size": 28456,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.0.zip",
+      "size": 30196,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

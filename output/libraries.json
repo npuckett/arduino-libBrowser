@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-18T11:02:09.235Z",
-  "total_libraries": 10193,
-  "index_etag": "W/\"58ff9d9218cb907595c137fe750ad82c\"",
-  "index_last_modified": "Sun, 18 Oct 2026 11:00:17 GMT",
+  "enhanced_at": "2026-10-18T12:03:05.093Z",
+  "total_libraries": 10195,
+  "index_etag": "W/\"36ace34fee6e11d9f9cc903df8e4e36a\"",
+  "index_last_modified": "Sun, 18 Oct 2026 12:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -166124,6 +166124,34 @@
       "download_url": "https://github.com/skipperwraith/LTC2625"
     },
     {
+      "repository_name": "RobTillaart/LTC2941",
+      "repository_url": "https://github.com/RobTillaart/LTC2941",
+      "name": "LTC2941",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-18T12:03:02.334Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-18T12:03:02.334Z",
+      "last_seen_sha": "87677920a9ba",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the LTC2941 battery charge and discharge (Coulomb) meter.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2941-0.1.0.zip",
+      "size": 210418,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T10:14:01Z"
+    },
+    {
       "repository_name": "MacroYau/LTC2942-Arduino-Library",
       "repository_url": "https://github.com/MacroYau/LTC2942-Arduino-Library",
       "name": "LTC2942",
@@ -294729,6 +294757,35 @@
       "github_updated_at": "2026-07-21T10:10:36Z"
     },
     {
+      "repository_name": "arduinoclassroom/Tanglish-Converter",
+      "repository_url": "https://github.com/arduinoclassroom/Tanglish-Converter",
+      "name": "Tanglish Converter",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-18T12:03:02.334Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-18T12:03:02.334Z",
+      "last_seen_sha": "7a8ae6892cac",
+      "author": "Oshan Dissanayaka",
+      "maintainer": "Oshan Dissanayaka",
+      "sentence": "Converts Tamil (UTF-8) text to Tanglish - readable English letters - for displays and fonts that can't draw Tamil.",
+      "paragraph": "Strings, buffers (no heap), any Stream (Serial, SD files, network) or as a Print wrapper around a display: print Tamil, see Tanglish. Follows spoken Tamil (murugan, thangam, nandri), handles vowel signs, pulli and split vowel signs. Casual, simple or phonetic style. Works on AVR, ESP32, ESP8266, RP2040, STM32 and more.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduinoclassroom/Tanglish_Converter-1.0.0.zip",
+      "size": 18183,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-18T07:57:47Z"
+    },
+    {
       "repository_name": "Open-Acidification/TankController",
       "repository_url": "https://github.com/Open-Acidification/TankController",
       "name": "TankController",
@@ -300447,7 +300504,7 @@
       "repository_name": "thinger-io/Arduino-Library",
       "repository_url": "https://github.com/thinger-io/Arduino-Library",
       "name": "thinger.io",
-      "version": "2.41.0",
+      "version": "2.41.1",
       "version_history": [
         {
           "version": "2.40.0",
@@ -300456,11 +300513,15 @@
         {
           "version": "2.41.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.41.1",
+          "seen_at": "2026-10-18T12:03:02.334Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:32:58Z",
-      "last_seen_sha": "821c2fbe6782",
+      "last_seen_sha": "fa24a9a7b4f2",
       "author": "Alvaro Luis Bustamante <alvarolb@thinger.io>",
       "maintainer": "Thinger.io <admin@thinger.io>",
       "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
@@ -300469,9 +300530,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.41.0.zip",
-      "size": 145826,
-      "previous_version": "2.40.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.41.1.zip",
+      "size": 147228,
+      "previous_version": "2.41.0",
       "github_stars": 115,
       "github_forks": 67,
       "github_language": "C++",
@@ -331927,7 +331988,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9989,
+    "with_github_metadata": 9991,
     "total_dependencies": 5599
   }
 }

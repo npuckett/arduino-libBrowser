@@ -1,45 +1,6 @@
 {
-  "since": "2026-10-18T08:03:03.064Z",
+  "since": "2026-10-18T09:02:31.230Z",
   "new_libraries": [],
-  "updated_libraries": [
-    {
-      "library": {
-        "repository_name": "Michael-0-sys/ReflectINI",
-        "repository_url": "https://github.com/Michael-0-sys/ReflectINI",
-        "name": "ReflectINI",
-        "version": "1.1.0",
-        "version_history": [
-          {
-            "version": "1.0.0",
-            "seen_at": "2026-10-15T10:02:43.390Z"
-          },
-          {
-            "version": "1.1.0",
-            "seen_at": "2026-10-18T08:03:03.064Z"
-          }
-        ],
-        "release_count": 2,
-        "first_seen_at": "2026-10-15T10:02:43.390Z",
-        "last_seen_sha": "b40aac1d4d64",
-        "author": "Michael michi.fu@quickline.ch",
-        "maintainer": "Michael michi.fu@quickline.ch",
-        "sentence": "INI writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), sections, arrays and precise error locations.",
-        "paragraph": "Write and read C++ structs as INI files without hand-written parsing code. Nested structs become [sections], arrays become lists, std::optional and const char* are nullable. Parses from const char* (optional zero-copy), no heap use while reading or writing, error path / line / column. Shares ReflectCore.h with ReflectJSON (same struct for JSON and INI), but does not require it. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x, Arduino UNO R4). Free for noncommercial use; commercial use requires a license.",
-        "category": "Data Processing",
-        "architectures": [
-          "*"
-        ],
-        "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.1.0.zip",
-        "size": 99781,
-        "previous_version": "1.0.0",
-        "github_stars": 0,
-        "github_forks": 0,
-        "github_language": "C++",
-        "github_updated_at": "2026-10-15T05:49:42Z"
-      },
-      "old_version": "1.0.0",
-      "new_version": "1.1.0"
-    }
-  ],
+  "updated_libraries": [],
   "removed_libraries": []
 }

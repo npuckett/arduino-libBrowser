@@ -1,6 +1,163 @@
 {
-  "since": "2026-10-18T09:02:31.230Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-18T10:02:16.491Z",
+  "new_libraries": [
+    {
+      "repository_name": "Michael-0-sys/ReflectState",
+      "repository_url": "https://github.com/Michael-0-sys/ReflectState",
+      "name": "ReflectState",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-18T10:02:16.491Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-18T10:02:16.491Z",
+      "last_seen_sha": "b14c06034c28",
+      "author": "Michael michi.fu@quickline.ch",
+      "maintainer": "Michael michi.fu@quickline.ch",
+      "sentence": "Heap-free typed state store with change callbacks for microcontrollers, using the same struct reflection (REFLECT/MEMBER) as ReflectJSON and ReflectINI.",
+      "paragraph": "Declare state variables and their types once with STATE_VARIABLES, then set/get them without template arguments. Change detection for reflected structs, arrays, std::optional and float tolerances; multiple listeners per variable; fixed RAM, no heap, no std::function. Lock policies for dual-core RP2040/RP2350 and ESP32, Teensy interrupts and RTOS tasks. Needs C++17. Free for noncommercial use; commercial use requires a license.",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectState-1.0.0.zip",
+      "size": 80235,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-18T06:38:17Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+        "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+        "name": "CasioST75256",
+        "version": "0.7.0",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-17T18:02:43.447Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-18T10:02:16.491Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-17T18:02:43.447Z",
+        "last_seen_sha": "d2337e745712",
+        "author": "GrayKazu",
+        "maintainer": "GrayKazu",
+        "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: Unicode fonts (VI, TH, ZH), haunted FX, WraithUI widgets and an MJPEG video decoder to 4-gray.",
+        "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.7.0.zip",
+        "size": 404330,
+        "previous_version": "0.6.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-17T15:39:43Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.7.0"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/DEVNULL",
+        "repository_url": "https://github.com/RobTillaart/DEVNULL",
+        "name": "DEVNULL",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.6",
+            "seen_at": "2025-07-21T16:27:10Z"
+          },
+          {
+            "version": "0.1.8",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.1.9",
+            "seen_at": "2026-08-05T16:30:30.639Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-10-18T10:02:16.491Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:27:10Z",
+        "last_seen_sha": "b11578a1ec00",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library for a /dev/null stream",
+        "paragraph": "usefull for testing with streams",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/DEVNULL-0.2.0.zip",
+        "size": 12007,
+        "previous_version": "0.1.9",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-02-03T13:38:11Z"
+      },
+      "old_version": "0.1.9",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/INA239",
+        "repository_url": "https://github.com/RobTillaart/INA239",
+        "name": "INA239",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2025-07-21T16:27:31Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-10-18T10:02:16.491Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:27:31Z",
+        "last_seen_sha": "d622c1e8375d",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library for the INA239, SPI, 16 bit, voltage, current and power sensor.",
+        "paragraph": "Voltage current Volt Ampere",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/INA239-0.4.0.zip",
+        "size": 26797,
+        "previous_version": "0.3.1",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-12T11:17:27Z"
+      },
+      "old_version": "0.3.1",
+      "new_version": "0.4.0"
+    }
+  ],
   "removed_libraries": []
 }

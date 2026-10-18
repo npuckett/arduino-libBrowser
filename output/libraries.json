@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-18T07:02:50.545Z",
+  "enhanced_at": "2026-10-18T08:03:03.232Z",
   "total_libraries": 10192,
-  "index_etag": "W/\"ae1a6d75ec0fe5257c0e2ec73c7f99b9\"",
-  "index_last_modified": "Sun, 18 Oct 2026 07:00:17 GMT",
+  "index_etag": "W/\"c59a15c05b76de2b7033c30f0a01a33d\"",
+  "index_last_modified": "Sun, 18 Oct 2026 08:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -238763,29 +238763,31 @@
       "repository_name": "Michael-0-sys/ReflectINI",
       "repository_url": "https://github.com/Michael-0-sys/ReflectINI",
       "name": "ReflectINI",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-15T10:02:43.390Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-18T08:03:03.064Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-15T10:02:43.390Z",
-      "last_seen_sha": "691780b565cf",
+      "last_seen_sha": "b40aac1d4d64",
       "author": "Michael michi.fu@quickline.ch",
       "maintainer": "Michael michi.fu@quickline.ch",
       "sentence": "INI writer and reader for microcontrollers with struct reflection (REFLECT/MEMBER), sections, arrays and precise error locations.",
       "paragraph": "Write and read C++ structs as INI files without hand-written parsing code. Nested structs become [sections], arrays become lists, std::optional and const char* are nullable. Parses from const char* (optional zero-copy), no heap use while reading or writing, error path / line / column. Shares ReflectCore.h with ReflectJSON (same struct for JSON and INI), but does not require it. Needs C++17 (RP2040/RP2350, ESP32, Teensy 4.x, Arduino UNO R4). Free for noncommercial use; commercial use requires a license.",
       "category": "Data Processing",
       "architectures": [
-        "rp2040",
-        "esp32",
-        "teensy",
-        "renesas_uno"
+        "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.0.0.zip",
-      "size": 96431,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Michael-0-sys/ReflectINI-1.1.0.zip",
+      "size": 99781,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

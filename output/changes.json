@@ -1,6 +1,97 @@
 {
-  "since": "2026-10-18T13:02:26.437Z",
+  "since": "2026-10-18T14:02:20.371Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "thinger-io/Arduino-Library",
+        "repository_url": "https://github.com/thinger-io/Arduino-Library",
+        "name": "thinger.io",
+        "version": "2.43.0",
+        "version_history": [
+          {
+            "version": "2.40.0",
+            "seen_at": "2025-07-21T16:32:58Z"
+          },
+          {
+            "version": "2.41.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.41.1",
+            "seen_at": "2026-10-18T12:03:02.334Z"
+          },
+          {
+            "version": "2.43.0",
+            "seen_at": "2026-10-18T14:02:20.371Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:32:58Z",
+        "last_seen_sha": "e78918b18203",
+        "author": "Alvaro Luis Bustamante <alvarolb@thinger.io>",
+        "maintainer": "Thinger.io <admin@thinger.io>",
+        "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+        "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.43.0.zip",
+        "size": 159402,
+        "previous_version": "2.41.1",
+        "github_stars": 115,
+        "github_forks": 67,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-14T05:25:33Z"
+      },
+      "old_version": "2.41.1",
+      "new_version": "2.43.0"
+    },
+    {
+      "library": {
+        "repository_name": "flmueller/x1xcp-serial",
+        "repository_url": "https://github.com/flmueller/x1xcp-serial",
+        "name": "x1xcp_serial",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-16T18:03:24.569Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-10-17T20:02:45.234Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-10-18T14:02:20.371Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-16T18:03:24.569Z",
+        "last_seen_sha": "d5a754dcf0cc",
+        "author": "Florian Müller",
+        "maintainer": "Florian Müller",
+        "sentence": "XCP over the serial port (USB) for Arduino AVR, Raspberry Pi Pico and STM32 boards: measurement and calibration of global variables.",
+        "paragraph": "Dynamic DAQ and calibration for XCP-Ray or other XCP masters; Serial.print() keeps working and appears in the console of the tool. Tested on an Arduino Nano (ATmega328P), a Raspberry Pi Pico (RP2040) and a Black Pill (STM32F411).",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "rp2040",
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.1.zip",
+        "size": 30518,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-16T15:54:26Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    }
+  ],
   "removed_libraries": []
 }

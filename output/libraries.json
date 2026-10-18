@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-18T13:02:26.542Z",
+  "enhanced_at": "2026-10-18T14:02:20.477Z",
   "total_libraries": 10195,
-  "index_etag": "W/\"36ace34fee6e11d9f9cc903df8e4e36a\"",
-  "index_last_modified": "Sun, 18 Oct 2026 13:00:17 GMT",
+  "index_etag": "W/\"daa6412cddbc42bd839eb87e8c9836a7\"",
+  "index_last_modified": "Sun, 18 Oct 2026 14:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -300504,7 +300504,7 @@
       "repository_name": "thinger-io/Arduino-Library",
       "repository_url": "https://github.com/thinger-io/Arduino-Library",
       "name": "thinger.io",
-      "version": "2.41.1",
+      "version": "2.43.0",
       "version_history": [
         {
           "version": "2.40.0",
@@ -300517,22 +300517,26 @@
         {
           "version": "2.41.1",
           "seen_at": "2026-10-18T12:03:02.334Z"
+        },
+        {
+          "version": "2.43.0",
+          "seen_at": "2026-10-18T14:02:20.371Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:32:58Z",
-      "last_seen_sha": "fa24a9a7b4f2",
+      "last_seen_sha": "e78918b18203",
       "author": "Alvaro Luis Bustamante <alvarolb@thinger.io>",
       "maintainer": "Thinger.io <admin@thinger.io>",
       "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
-      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+      "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.41.1.zip",
-      "size": 147228,
-      "previous_version": "2.41.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.43.0.zip",
+      "size": 159402,
+      "previous_version": "2.41.1",
       "github_stars": 115,
       "github_forks": 67,
       "github_language": "C++",
@@ -326791,7 +326795,7 @@
       "repository_name": "flmueller/x1xcp-serial",
       "repository_url": "https://github.com/flmueller/x1xcp-serial",
       "name": "x1xcp_serial",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -326800,11 +326804,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-10-17T20:02:45.234Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-18T14:02:20.371Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-16T18:03:24.569Z",
-      "last_seen_sha": "f44d31237a4c",
+      "last_seen_sha": "d5a754dcf0cc",
       "author": "Florian Müller",
       "maintainer": "Florian Müller",
       "sentence": "XCP over the serial port (USB) for Arduino AVR, Raspberry Pi Pico and STM32 boards: measurement and calibration of global variables.",
@@ -326815,9 +326823,9 @@
         "rp2040",
         "stm32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.0.zip",
-      "size": 30196,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flmueller/x1xcp_serial-1.1.1.zip",
+      "size": 30518,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

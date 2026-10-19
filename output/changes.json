@@ -1,6 +1,370 @@
 {
-  "since": "2026-10-19T01:18:46.338Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-19T02:07:03.555Z",
+  "new_libraries": [
+    {
+      "repository_name": "StubbyDevs/sm16380-esp32s3-dma",
+      "repository_url": "https://github.com/StubbyDevs/sm16380-esp32s3-dma",
+      "name": "SM16380_DMA",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-19T02:07:03.555Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-19T02:07:03.555Z",
+      "last_seen_sha": "329fad8dda86",
+      "author": "StubbyDevs",
+      "maintainer": "StubbyDevs",
+      "sentence": "Flicker-free, tear-free DMA driver for SM16380 S-PWM HUB75 LED panels on the ESP32-S3.",
+      "paragraph": "LCD_CAM + GDMA stream every panel line, the row scan included, so it loops in hardware with no CPU time. New frames are spliced in at the end of a scan pass: no blinking, seamless updates, ~67 fps animation on a 128x64 panel. Up to 3 chained panels. Optional Adafruit_GFX front end.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/StubbyDevs/SM16380_DMA-0.2.0.zip",
+      "size": 2232882,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-18T22:07:58Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "glutio/Focuspocus",
+        "repository_url": "https://github.com/glutio/Focuspocus",
+        "name": "Focuspocus",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-11T14:02:27.528Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-10-11T20:03:01.477Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-10-12T00:08:10.181Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-10-18T04:02:40.715Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-10-11T14:02:27.528Z",
+        "last_seen_sha": "df149f887daa",
+        "author": "glutio",
+        "maintainer": "glutio",
+        "sentence": "A small GUI framework for Arduino displays: buttons, checkboxes, labels, sliders, layout, focus and touch.",
+        "paragraph": "Static widgets (no heap required), stack-panel layout, screens and popups, touch or button navigation, themes. Draws on any Adafruit_GFX display; a Windows build runs the same code for testing.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit GFX Library",
+          "Eventfun",
+          "Buratino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/glutio/Focuspocus-0.4.0.zip",
+        "size": 562364,
+        "previous_version": "0.3.0",
+        "github_stars": 1,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-11T10:58:41Z"
+      },
+      "old_version": "0.3.0",
+      "new_version": "0.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_BWRY_Large",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Large",
+        "name": "Pervasive_BWRY_Large",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.5",
+            "seen_at": "2026-01-02T21:23:18Z"
+          },
+          {
+            "version": "10.0.3",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "10.0.4",
+            "seen_at": "2026-10-07T04:04:00.365Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-02T21:23:18Z",
+        "last_seen_sha": "c0674b2733fa",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com/>",
+        "sentence": "Driver for Pervasive Displays colour screens",
+        "paragraph": "black-white-red-yellow, large size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Large-10.1.1.zip",
+        "size": 51793,
+        "previous_version": "10.0.4",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-30T07:47:34Z"
+      },
+      "old_version": "10.0.4",
+      "new_version": "10.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_BWRY_Medium",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Medium",
+        "name": "Pervasive_BWRY_Medium",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.3",
+            "seen_at": "2026-01-02T21:23:20Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T21:23:20Z",
+        "last_seen_sha": "beba5db5c68c",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com/>",
+        "sentence": "Driver for Pervasive Displays colour screens",
+        "paragraph": "black-white-red-yellow, medium size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Medium-10.1.1.zip",
+        "size": 50255,
+        "previous_version": "10.0.0",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-30T07:48:16Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_BWRY_Small",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_BWRY_Small",
+        "name": "Pervasive_BWRY_Small",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.1.0",
+            "seen_at": "2026-06-29T09:04:20Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T09:04:20Z",
+        "last_seen_sha": "b151d9c84c03",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com/>",
+        "sentence": "Driver for Pervasive Displays colour screens",
+        "paragraph": "black-white-red-yellow, small size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_BWRY_Small-10.1.1.zip",
+        "size": 61840,
+        "previous_version": "10.0.0",
+        "github_stars": 1,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T06:47:20Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_Wide_Large",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_Wide_Large",
+        "name": "Pervasive_Wide_Large",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.4",
+            "seen_at": "2026-06-09T08:39:54Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-09T08:39:54Z",
+        "last_seen_sha": "7ce2ef57a6cb",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com/>",
+        "sentence": "with wide temperature and embedded fast update, large size",
+        "paragraph": "black-white, large size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Large-10.1.1.zip",
+        "size": 233008,
+        "previous_version": "10.0.0",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T05:29:17Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_Wide_Medium",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_Wide_Medium",
+        "name": "Pervasive_Wide_Medium",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.4",
+            "seen_at": "2026-06-09T08:39:48Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-09T08:39:48Z",
+        "last_seen_sha": "b61011c9ccaf",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com/>",
+        "sentence": "Driver for Pervasive Displays screens",
+        "paragraph": "with wide temperature and embedded fast update, small size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Medium-10.1.1.zip",
+        "size": 215934,
+        "previous_version": "10.0.0",
+        "github_stars": 2,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T05:28:00Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_Wide_Small",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_Wide_Small",
+        "name": "Pervasive_Wide_Small",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.5",
+            "seen_at": "2026-06-09T08:39:50Z"
+          },
+          {
+            "version": "9.0.6",
+            "seen_at": "2026-07-20T10:00:19.081Z"
+          },
+          {
+            "version": "10.0.1",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T02:07:03.555Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-09T08:39:50Z",
+        "last_seen_sha": "5a86becc74e1",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com>",
+        "sentence": "Driver for Pervasive Displays screens",
+        "paragraph": "with wide temperature and embedded fast update, small size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Wide_Small-10.1.1.zip",
+        "size": 387236,
+        "previous_version": "10.0.1",
+        "github_stars": 4,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T05:26:34Z"
+      },
+      "old_version": "10.0.1",
+      "new_version": "10.1.1"
+    }
+  ],
   "removed_libraries": []
 }

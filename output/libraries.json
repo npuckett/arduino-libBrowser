@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-19T15:03:06.478Z",
-  "total_libraries": 10198,
-  "index_etag": "W/\"67716e9f1bd6bac776b689ded246a6b1\"",
-  "index_last_modified": "Mon, 19 Oct 2026 15:00:18 GMT",
+  "enhanced_at": "2026-10-19T16:03:13.546Z",
+  "total_libraries": 10199,
+  "index_etag": "W/\"2b53b701109e7c1ca11e6374d896d452\"",
+  "index_last_modified": "Mon, 19 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -98611,7 +98611,7 @@
       "repository_name": "Erqos/EQSP32",
       "repository_url": "https://github.com/Erqos/EQSP32",
       "name": "EQSP32",
-      "version": "1.5.2",
+      "version": "1.6.0",
       "version_history": [
         {
           "version": "1.4.0",
@@ -98628,11 +98628,15 @@
         {
           "version": "1.5.2",
           "seen_at": "2026-09-25T16:03:28.611Z"
+        },
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-10-19T16:03:11.982Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-27T08:01:03Z",
-      "last_seen_sha": "728071ba7f45",
+      "last_seen_sha": "d966dd9775cd",
       "author": "Erqos Technologies info@erqos.com",
       "maintainer": "Erqos Technologies",
       "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
@@ -98641,9 +98645,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.5.2.zip",
-      "size": 14955610,
-      "previous_version": "1.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.6.0.zip",
+      "size": 15130320,
+      "previous_version": "1.5.2",
       "github_stars": 9,
       "github_forks": 0,
       "github_language": "C++",
@@ -213330,6 +213334,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-10-16T06:28:04Z"
+    },
+    {
+      "repository_name": "Infineon/arduino-ottu-target",
+      "repository_url": "https://github.com/Infineon/arduino-ottu-target",
+      "name": "ottu-target",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-10-19T16:03:11.982Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-19T16:03:11.982Z",
+      "last_seen_sha": "d7d33f92a502",
+      "author": "Infineon Technologies",
+      "maintainer": "Infineon Technologies <www.infineon.com>",
+      "sentence": "On-target testing utility support library for embedded devices.",
+      "paragraph": "On-target testing utility support library for embedded devices.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Infineon/ottu_target-0.1.1.zip",
+      "size": 82873,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-19T14:31:49Z"
     },
     {
       "repository_name": "RobTillaart/OUTPIN",
@@ -332218,7 +332251,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9994,
+    "with_github_metadata": 9995,
     "total_dependencies": 5599
   }
 }

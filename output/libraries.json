@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-19T05:02:53.048Z",
+  "enhanced_at": "2026-10-19T06:05:40.691Z",
   "total_libraries": 10197,
-  "index_etag": "W/\"ec1e76780586c3baf5dd3a81b382def8\"",
-  "index_last_modified": "Mon, 19 Oct 2026 05:00:17 GMT",
+  "index_etag": "W/\"8b779782f6f7b810eae778e1c2ac1abf\"",
+  "index_last_modified": "Mon, 19 Oct 2026 06:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60272,7 +60272,7 @@
       "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "name": "CasioST75256",
-      "version": "0.7.0",
+      "version": "0.9.0",
       "version_history": [
         {
           "version": "0.6.0",
@@ -60281,22 +60281,26 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-10-18T10:02:16.491Z"
+        },
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-10-19T06:05:40.523Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-17T18:02:43.447Z",
-      "last_seen_sha": "d2337e745712",
+      "last_seen_sha": "170f03cc2351",
       "author": "GrayKazu",
       "maintainer": "GrayKazu",
-      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: Unicode fonts (VI, TH, ZH), haunted FX, WraithUI widgets and an MJPEG video decoder to 4-gray.",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
       "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.7.0.zip",
-      "size": 404330,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.9.0.zip",
+      "size": 1049167,
+      "previous_version": "0.7.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -65457,7 +65461,7 @@
       "repository_name": "CodexPad/codex_pad_arduino_lib",
       "repository_url": "https://github.com/CodexPad/codex_pad_arduino_lib",
       "name": "CodexPad",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "version_history": [
         {
           "version": "3.0.0",
@@ -65490,11 +65494,15 @@
         {
           "version": "5.0.0",
           "seen_at": "2026-10-15T08:03:25.999Z"
+        },
+        {
+          "version": "5.0.1",
+          "seen_at": "2026-10-19T06:05:40.523Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-24T08:47:00Z",
-      "last_seen_sha": "f5f123c664e9",
+      "last_seen_sha": "10a8bea32a7a",
       "author": "cyfney-anka",
       "maintainer": "cyfney-anka@qq.com",
       "sentence": "Connect ESP32 to CodexPad gamepads via Bluetooth and read inputs.",
@@ -65508,9 +65516,9 @@
         "GamepadInput",
         "cyfney-cpp"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-5.0.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CodexPad/CodexPad-5.0.1.zip",
       "size": 616817,
-      "previous_version": "4.2.1",
+      "previous_version": "5.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -293669,7 +293677,7 @@
       "repository_name": "beegee-tokyo/SX126x-Arduino",
       "repository_url": "https://github.com/beegee-tokyo/SX126x-Arduino",
       "name": "SX126x-Arduino",
-      "version": "2.0.32",
+      "version": "2.0.33",
       "version_history": [
         {
           "version": "2.0.32",
@@ -293678,15 +293686,19 @@
         {
           "version": "2.0.32",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.33",
+          "seen_at": "2026-10-19T06:05:40.523Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-12T08:10:55Z",
-      "last_seen_sha": "cf4ebcb88543",
+      "last_seen_sha": "eb8c8b31e20c",
       "author": "Bernd Giesecke <beegee@giesecke.tk>",
       "maintainer": "Bernd Giesecke <beegee@giesecke.tk>",
       "sentence": "Arduino library to use Semtech SX126x LoRa chips and modules to communicate",
-      "paragraph": "This library is for LoRa communication with Semtech SX126x chips. It is based on Semtech`s SX126x libraries and adapted to the Arduino framework for ESP32, ESP8266, Nordic nRF52832 and Raspberry RP2040. It will not work with other uC`s like AVR. READ MIGRATION INFORMATION ON GITHUB FOR CHANGES BETWEEN LIBRARY VERSIONS V1.X and V2.",
+      "paragraph": "This library is no longer maintained, successor is WisBlockLoRaWAN. This library is for LoRa communication with Semtech SX126x chips. It is based on Semtech`s SX126x libraries and adapted to the Arduino framework for ESP32, ESP8266, Nordic nRF52832 and Raspberry RP2040. It will not work with other uC`s like AVR. READ MIGRATION INFORMATION ON GITHUB FOR CHANGES BETWEEN LIBRARY VERSIONS V1.X and V2.",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -293699,8 +293711,8 @@
       "depends": [
         "RPI_PICO_TimerInterrupt"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/SX126x_Arduino-2.0.32.zip",
-      "size": 6606144,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/SX126x_Arduino-2.0.33.zip",
+      "size": 6606407,
       "previous_version": "2.0.32",
       "github_stars": 281,
       "github_forks": 81,

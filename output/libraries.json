@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-19T17:02:11.687Z",
+  "enhanced_at": "2026-10-19T18:03:43.087Z",
   "total_libraries": 10199,
-  "index_etag": "W/\"2b53b701109e7c1ca11e6374d896d452\"",
-  "index_last_modified": "Mon, 19 Oct 2026 17:00:18 GMT",
+  "index_etag": "W/\"85c060ca418c56916ca48ac96abf3784\"",
+  "index_last_modified": "Mon, 19 Oct 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41033,7 +41033,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.32",
+      "version": "1.7.54",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41074,26 +41074,32 @@
         {
           "version": "1.7.32",
           "seen_at": "2026-10-15T06:04:41.362Z"
+        },
+        {
+          "version": "1.7.54",
+          "seen_at": "2026-10-19T18:03:42.950Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "2e00483e0ac3",
+      "last_seen_sha": "494fcbc06362",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
-      "sentence": "ESP32 IoT client for MQTT (MQTTS/WSS), attributes, telemetry, and RPC.",
-      "paragraph": "Connects ESP32 devices to the Autoconnecto platform using the ESP32 Arduino core MQTT client (TLS and MQTT-over-WebSocket), with shared and client attributes, telemetry, and dashboard RPC. Requires ArduinoJson. ESP32 architecture only.",
+      "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
+      "paragraph": "Connects ESP32, ESP32-C3, and ESP32-S3 to Autoconnecto over MQTTS and MQTT-over-WSS, with shared and client attributes, telemetry, RPC, and OTA. ESP8266 and Raspberry Pi Pico W use the HTTPS examples. Requires ArduinoJson.",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "esp8266",
+        "rp2040"
       ],
       "license": "MIT",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.32.zip",
-      "size": 172594,
-      "previous_version": "1.7.31",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.54.zip",
+      "size": 179881,
+      "previous_version": "1.7.32",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -293007,16 +293013,20 @@
       "repository_name": "Super-Jupiter/superjupiter-sensor-quality",
       "repository_url": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
       "name": "SuperJupiterSensorQuality",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.2",
           "seen_at": "2026-10-19T12:04:30.322Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-19T18:03:42.950Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-19T12:04:30.322Z",
-      "last_seen_sha": "8b93bcc8fe0f",
+      "last_seen_sha": "27b6ae2026d5",
       "author": "SuperJupiter",
       "maintainer": "SuperJupiter <info@superjupiter.net>",
       "sentence": "Flag suspicious sensor readings without changing the raw data.",
@@ -293026,8 +293036,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.1.2.zip",
-      "size": 23310,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSensorQuality-0.2.0.zip",
+      "size": 37072,
+      "previous_version": "0.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

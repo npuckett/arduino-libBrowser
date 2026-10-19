@@ -1,6 +1,103 @@
 {
-  "since": "2026-10-19T07:19:38.198Z",
+  "since": "2026-10-19T08:07:57.555Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ConsentiumIoT/ConsentiumThings",
+        "repository_url": "https://github.com/ConsentiumIoT/ConsentiumThings",
+        "name": "ConsentiumThings",
+        "version": "3.0.2",
+        "version_history": [
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-03-13T07:56:23Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-10-07T12:04:29.113Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-10-17T10:02:41.352Z"
+          },
+          {
+            "version": "3.0.2",
+            "seen_at": "2026-10-19T08:07:57.555Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-03-13T07:56:23Z",
+        "last_seen_sha": "df46e064a2f5",
+        "author": "Consentium IoT",
+        "maintainer": "Consentium IoT<official@consentiumiot.com>",
+        "sentence": "Consentium Things IoT board.",
+        "paragraph": "This library runs IoT applications on ESP 32 class of microcontrollers.",
+        "category": "Data Processing",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "Adafruit ADS1X15",
+          "WiFiManager"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ConsentiumIoT/ConsentiumThings-3.0.2.zip",
+        "size": 30347,
+        "previous_version": "3.0.1",
+        "github_stars": 2,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-12T09:21:32Z"
+      },
+      "old_version": "3.0.1",
+      "new_version": "3.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "PervasiveDisplays/Pervasive_Touch_Small",
+        "repository_url": "https://github.com/PervasiveDisplays/Pervasive_Touch_Small",
+        "name": "Pervasive_Touch_Small",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "9.0.9",
+            "seen_at": "2026-06-09T08:39:56Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-08-04T08:53:38.477Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T08:07:57.555Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-09T08:39:56Z",
+        "last_seen_sha": "a9d806630d23",
+        "author": "Pervasive Displays Inc.",
+        "maintainer": "Arvin Tan <https://www.pervasivedisplays.com>",
+        "sentence": "Driver for Pervasive Displays touch-screens",
+        "paragraph": "with wide temperature and embedded fast update, small size",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/PervasiveDisplays/Pervasive_Touch_Small-10.1.1.zip",
+        "size": 16277,
+        "previous_version": "10.0.0",
+        "github_stars": 0,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T05:31:18Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.1.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,265 @@
 {
-  "since": "2026-10-19T13:05:15.261Z",
+  "since": "2026-10-19T14:02:59.400Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+        "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
+        "name": "CasioST75256",
+        "version": "1.0.0",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-10-17T18:02:43.447Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-18T10:02:16.491Z"
+          },
+          {
+            "version": "0.9.0",
+            "seen_at": "2026-10-19T06:05:40.523Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-10-17T18:02:43.447Z",
+        "last_seen_sha": "bc4794a6ea2b",
+        "author": "GrayKazu",
+        "maintainer": "GrayKazu",
+        "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
+        "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.0.0.zip",
+        "size": 1063039,
+        "previous_version": "0.9.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-17T15:39:43Z"
+      },
+      "old_version": "0.9.0",
+      "new_version": "1.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "iotfiy-solutions/Gateway_Library",
+        "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
+        "name": "IOTFIY",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-13T18:03:42.746Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-13T18:03:42.746Z",
+        "last_seen_sha": "a771c9e7a906",
+        "author": "Iotfiy Solutions",
+        "maintainer": "iotfiy.solution@gmail.com",
+        "sentence": "A library for IoT device connectivity using MQTT.",
+        "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting. Compatible with ESP8266 and ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.1.zip",
+        "size": 14932,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-13T14:16:02Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-ENV",
+        "repository_url": "https://github.com/m5stack/M5Unit-ENV",
+        "name": "M5Unit-ENV",
+        "version": "1.7.3",
+        "version_history": [
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-03-16T07:52:13Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-07-22T10:41:35.191Z"
+          },
+          {
+            "version": "1.7.0",
+            "seen_at": "2026-08-04T10:51:28.826Z"
+          },
+          {
+            "version": "1.7.1",
+            "seen_at": "2026-08-06T06:58:20.863Z"
+          },
+          {
+            "version": "1.7.2",
+            "seen_at": "2026-10-08T16:03:20.184Z"
+          },
+          {
+            "version": "1.7.3",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-03-16T07:52:13Z",
+        "last_seen_sha": "c0bcbeb54ff3",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack UNIT ENV using M5UnitUnified",
+        "paragraph": "Supports ENV3(SHT30+QMP6988), ENV4(SHT40+BMP280), CO2(SCD40/41), ENVPro(BME688), TVOC(SGP30), MiniBPS(BMP280/QMP6988) and HatYun(SHT20+BMP280).",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL",
+          "BME68x Sensor library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.3.zip",
+        "size": 341122,
+        "previous_version": "1.7.2",
+        "github_stars": 52,
+        "github_forks": 29,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-23T01:45:30Z"
+      },
+      "old_version": "1.7.2",
+      "new_version": "1.7.3"
+    },
+    {
+      "library": {
+        "repository_name": "thinger-io/Arduino-Library",
+        "repository_url": "https://github.com/thinger-io/Arduino-Library",
+        "name": "thinger.io",
+        "version": "2.46.0",
+        "version_history": [
+          {
+            "version": "2.40.0",
+            "seen_at": "2025-07-21T16:32:58Z"
+          },
+          {
+            "version": "2.41.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.41.1",
+            "seen_at": "2026-10-18T12:03:02.334Z"
+          },
+          {
+            "version": "2.43.0",
+            "seen_at": "2026-10-18T14:02:20.371Z"
+          },
+          {
+            "version": "2.43.2",
+            "seen_at": "2026-10-18T20:02:41.603Z"
+          },
+          {
+            "version": "2.45.0",
+            "seen_at": "2026-10-18T22:02:18.960Z"
+          },
+          {
+            "version": "2.46.0",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2025-07-21T16:32:58Z",
+        "last_seen_sha": "cf277ace25b7",
+        "author": "Alvaro Luis Bustamante <alvarolb@thinger.io>",
+        "maintainer": "Thinger.io <admin@thinger.io>",
+        "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
+        "paragraph": "Thinger.io is an open source platform for the Internet of Things. It will allow connecting your things or devices for remote sensing and actuating using the protocol IOTMP. Working with several devices like ESP8266, ESP32 (S2, S3, C3, C5, C6, P4), Raspberry Pi Pico W and Pico 2 W, Arduino Ethernet, Arduino Wifi, Arduino MKR1000, Arduino MKR1010, Arduino Nano RP2040 Connect, Arduino Nano 33 IOT, Arduino MKRNB1500, Arduino GSM1400, Arduino Portenta, Arduino Opta, Arduino R4, Arduino UNO Q, Arduino Yun, Adafruit CC3000, Arduino + GSM Modules, Texas Instruments CC3200, ENC28J60, LinkIt ONE.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.46.0.zip",
+        "size": 164594,
+        "previous_version": "2.45.0",
+        "github_stars": 115,
+        "github_forks": 67,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-14T05:25:33Z"
+      },
+      "old_version": "2.45.0",
+      "new_version": "2.46.0"
+    },
+    {
+      "library": {
+        "repository_name": "beegee-tokyo/WisBlockLoRaWAN",
+        "repository_url": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
+        "name": "WisBlockLoRaWAN",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-13T06:06:29.018Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-17T14:02:14.072Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-10-13T06:06:29.018Z",
+        "last_seen_sha": "e1e635355025",
+        "author": "Bernd Giesecke bernd@giesecke.tk",
+        "maintainer": "Bernd Giesecke bernd@giesecke.tk",
+        "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
+        "paragraph": "Supports RAK4631 (nRF52840), RAK3312 (ESP32-S3) and RAK11310/RAK11300 (RP2040, Arduino-Pico core by Earle Philhower) with built-in SX1262. Provides AT command interface and C++ API. LoRaWAN engine is built on Semtech's LoRa Basics Modem (BasicModem/LBM) stack.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.3.zip",
+        "size": 1356789,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-13T03:52:53Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    }
+  ],
   "removed_libraries": []
 }

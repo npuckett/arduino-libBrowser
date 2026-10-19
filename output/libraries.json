@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-19T13:05:15.397Z",
+  "enhanced_at": "2026-10-19T14:02:59.519Z",
   "total_libraries": 10198,
-  "index_etag": "W/\"915c29e7c2f9ce171223a6701b5b59ed\"",
-  "index_last_modified": "Mon, 19 Oct 2026 13:00:18 GMT",
+  "index_etag": "W/\"67716e9f1bd6bac776b689ded246a6b1\"",
+  "index_last_modified": "Mon, 19 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60278,7 +60278,7 @@
       "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "name": "CasioST75256",
-      "version": "0.9.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.6.0",
@@ -60291,11 +60291,15 @@
         {
           "version": "0.9.0",
           "seen_at": "2026-10-19T06:05:40.523Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-19T14:02:59.400Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-17T18:02:43.447Z",
-      "last_seen_sha": "170f03cc2351",
+      "last_seen_sha": "bc4794a6ea2b",
       "author": "GrayKazu",
       "maintainer": "GrayKazu",
       "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
@@ -60304,9 +60308,10 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-0.9.0.zip",
-      "size": 1049167,
-      "previous_version": "0.7.0",
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.0.0.zip",
+      "size": 1063039,
+      "previous_version": "0.9.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -147093,20 +147098,24 @@
       "repository_name": "iotfiy-solutions/Gateway_Library",
       "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
       "name": "IOTFIY",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-13T18:03:42.746Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-19T14:02:59.400Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-13T18:03:42.746Z",
-      "last_seen_sha": "f7e07e4fc91c",
+      "last_seen_sha": "a771c9e7a906",
       "author": "Iotfiy Solutions",
       "maintainer": "iotfiy.solution@gmail.com",
       "sentence": "A library for IoT device connectivity using MQTT.",
-      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting.",
+      "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting. Compatible with ESP8266 and ESP32.",
       "category": "Communication",
       "architectures": [
         "esp8266",
@@ -147116,8 +147125,9 @@
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.0.zip",
-      "size": 12704,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.1.zip",
+      "size": 14932,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -171436,7 +171446,7 @@
       "repository_name": "m5stack/M5Unit-ENV",
       "repository_url": "https://github.com/m5stack/M5Unit-ENV",
       "name": "M5Unit-ENV",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "version_history": [
         {
           "version": "1.3.2",
@@ -171461,11 +171471,15 @@
         {
           "version": "1.7.2",
           "seen_at": "2026-10-08T16:03:20.184Z"
+        },
+        {
+          "version": "1.7.3",
+          "seen_at": "2026-10-19T14:02:59.400Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-03-16T07:52:13Z",
-      "last_seen_sha": "b0e546ee00dd",
+      "last_seen_sha": "c0bcbeb54ff3",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT ENV using M5UnitUnified",
@@ -171480,9 +171494,9 @@
         "M5HAL",
         "BME68x Sensor library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.2.zip",
-      "size": 341036,
-      "previous_version": "1.7.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_ENV-1.7.3.zip",
+      "size": 341122,
+      "previous_version": "1.7.2",
       "github_stars": 52,
       "github_forks": 29,
       "github_language": "C++",
@@ -300696,7 +300710,7 @@
       "repository_name": "thinger-io/Arduino-Library",
       "repository_url": "https://github.com/thinger-io/Arduino-Library",
       "name": "thinger.io",
-      "version": "2.45.0",
+      "version": "2.46.0",
       "version_history": [
         {
           "version": "2.40.0",
@@ -300721,11 +300735,15 @@
         {
           "version": "2.45.0",
           "seen_at": "2026-10-18T22:02:18.960Z"
+        },
+        {
+          "version": "2.46.0",
+          "seen_at": "2026-10-19T14:02:59.400Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2025-07-21T16:32:58Z",
-      "last_seen_sha": "4a01ae0e2a05",
+      "last_seen_sha": "cf277ace25b7",
       "author": "Alvaro Luis Bustamante <alvarolb@thinger.io>",
       "maintainer": "Thinger.io <admin@thinger.io>",
       "sentence": "Arduino library for IOTMP protocol used on Thinger.io IOT Platform.",
@@ -300734,9 +300752,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.45.0.zip",
-      "size": 162762,
-      "previous_version": "2.43.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thinger-io/thinger_io-2.46.0.zip",
+      "size": 164594,
+      "previous_version": "2.45.0",
       "github_stars": 115,
       "github_forks": 67,
       "github_language": "C++",
@@ -325853,7 +325871,7 @@
       "repository_name": "beegee-tokyo/WisBlockLoRaWAN",
       "repository_url": "https://github.com/beegee-tokyo/WisBlockLoRaWAN",
       "name": "WisBlockLoRaWAN",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -325866,11 +325884,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-10-17T14:02:14.072Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-10-19T14:02:59.400Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-13T06:06:29.018Z",
-      "last_seen_sha": "f6e9acb937f2",
+      "last_seen_sha": "e1e635355025",
       "author": "Bernd Giesecke bernd@giesecke.tk",
       "maintainer": "Bernd Giesecke bernd@giesecke.tk",
       "sentence": "Unified LoRaWAN (Class A/B/C) and LoRa P2P library for RAKwireless WisBlock boards using Semtech SX1262 + LoRa Basics Modem.",
@@ -325879,9 +325901,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.2.zip",
-      "size": 1372442,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/beegee-tokyo/WisBlockLoRaWAN-1.0.3.zip",
+      "size": 1356789,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

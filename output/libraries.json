@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-19T19:02:20.438Z",
-  "total_libraries": 10199,
-  "index_etag": "W/\"85c060ca418c56916ca48ac96abf3784\"",
-  "index_last_modified": "Mon, 19 Oct 2026 19:00:18 GMT",
+  "enhanced_at": "2026-10-19T20:02:44.406Z",
+  "total_libraries": 10201,
+  "index_etag": "W/\"4d6290db960205d0ba5a0cb88c9c2f66\"",
+  "index_last_modified": "Mon, 19 Oct 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -9476,7 +9476,7 @@
       "repository_name": "adafruit/Adafruit-DVI-HSTX",
       "repository_url": "https://github.com/adafruit/Adafruit-DVI-HSTX",
       "name": "Adafruit DVI HSTX",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.2.5",
@@ -9489,11 +9489,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-10-07T04:04:00.365Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-10-19T20:02:41.668Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-04-20T07:45:26Z",
-      "last_seen_sha": "4769d72271c9",
+      "last_seen_sha": "81b3aab63268",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Arduino library for RP2350 DVI output, based on dvhstx",
@@ -9505,9 +9509,9 @@
       "depends": [
         "Adafruit GFX Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DVI_HSTX-2.0.1.zip",
-      "size": 936697,
-      "previous_version": "1.2.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DVI_HSTX-2.1.0.zip",
+      "size": 943320,
+      "previous_version": "2.0.1",
       "github_stars": 22,
       "github_forks": 5,
       "github_language": "C++",
@@ -216648,6 +216652,38 @@
       "github_updated_at": "2026-09-11T20:32:09Z"
     },
     {
+      "repository_name": "klenov1900-lang/PCFKeypad_EASY",
+      "repository_url": "https://github.com/klenov1900-lang/PCFKeypad_EASY",
+      "name": "PCFKeypad_EASY",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-19T20:02:41.668Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-19T20:02:41.668Z",
+      "last_seen_sha": "28eaa2a1e453",
+      "author": "klenov1900-lang",
+      "maintainer": "klenov1900-lang",
+      "sentence": "Матричная клавиатура 4x4 через PCF8574 (I2C). Без Wire.h.",
+      "paragraph": "Использует I2C_EASY. Антидребезг, автоповтор, энергосбережение, защита от ghosting.",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "depends": [
+        "I2C_EASY"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/klenov1900-lang/PCFKeypad_EASY-1.0.0.zip",
+      "size": 17739,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-19T16:53:23Z"
+    },
+    {
       "repository_name": "prampec/arduino-pcimanager",
       "repository_url": "https://github.com/prampec/arduino-pcimanager",
       "name": "PciManager",
@@ -293010,6 +293046,36 @@
       "github_updated_at": "2026-06-15T22:25:05Z"
     },
     {
+      "repository_name": "Super-Jupiter/superjupiter-sample-window",
+      "repository_url": "https://github.com/Super-Jupiter/superjupiter-sample-window",
+      "name": "SuperJupiterSampleWindow",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-19T20:02:41.668Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-19T20:02:41.668Z",
+      "last_seen_sha": "dcedad05b7a0",
+      "author": "SuperJupiter",
+      "maintainer": "SuperJupiter <info@superjupiter.net>",
+      "sentence": "Keep timestamped raw sample windows with explicit gaps and statistics.",
+      "paragraph": "Allocation-free C++11 last-N storage, finite-only summaries, invalid counts and overwrite reporting. Portable Arduino and ESP32 examples. Software tested; hardware validation pending.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Super-Jupiter/SuperJupiterSampleWindow-0.1.0.zip",
+      "size": 37162,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-19T17:19:09Z"
+    },
+    {
       "repository_name": "Super-Jupiter/superjupiter-sensor-quality",
       "repository_url": "https://github.com/Super-Jupiter/superjupiter-sensor-quality",
       "name": "SuperJupiterSensorQuality",
@@ -332262,7 +332328,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 9995,
-    "total_dependencies": 5599
+    "with_github_metadata": 9997,
+    "total_dependencies": 5600
   }
 }

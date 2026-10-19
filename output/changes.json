@@ -1,6 +1,122 @@
 {
-  "since": "2026-10-19T09:06:16.784Z",
+  "since": "2026-10-19T10:02:32.246Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tgtakaoka/libasm",
+        "repository_url": "https://github.com/tgtakaoka/libasm",
+        "name": "libasm",
+        "version": "1.6.68",
+        "version_history": [
+          {
+            "version": "1.6.63",
+            "seen_at": "2026-06-30T08:50:14Z"
+          },
+          {
+            "version": "1.6.64",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "1.6.65",
+            "seen_at": "2026-08-29T14:02:08.635Z"
+          },
+          {
+            "version": "1.6.66",
+            "seen_at": "2026-09-27T08:03:15.383Z"
+          },
+          {
+            "version": "1.6.67",
+            "seen_at": "2026-10-12T06:09:04.398Z"
+          },
+          {
+            "version": "1.6.68",
+            "seen_at": "2026-10-19T10:02:32.246Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-06-30T08:50:14Z",
+        "last_seen_sha": "d98dfe000842",
+        "author": "Tadashi G. Takaoka",
+        "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
+        "sentence": "Cross assembler and disassembler for retro CPUs",
+        "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.68.zip",
+        "size": 14067973,
+        "previous_version": "1.6.67",
+        "github_stars": 44,
+        "github_forks": 3,
+        "github_language": "Assembly",
+        "github_updated_at": "2026-07-01T14:13:07Z"
+      },
+      "old_version": "1.6.67",
+      "new_version": "1.6.68"
+    },
+    {
+      "library": {
+        "repository_name": "rei-vilo/PDLS_Basic",
+        "repository_url": "https://github.com/rei-vilo/PDLS_Basic",
+        "name": "PDLS_Basic",
+        "version": "10.1.1",
+        "version_history": [
+          {
+            "version": "10.0.7",
+            "seen_at": "2026-06-09T08:39:46Z"
+          },
+          {
+            "version": "10.0.8",
+            "seen_at": "2026-07-21T08:50:41.874Z"
+          },
+          {
+            "version": "10.0.9",
+            "seen_at": "2026-08-04T18:29:42.260Z"
+          },
+          {
+            "version": "10.1.0",
+            "seen_at": "2026-09-21T18:03:37.988Z"
+          },
+          {
+            "version": "10.1.1",
+            "seen_at": "2026-10-19T10:02:32.246Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-09T08:39:46Z",
+        "last_seen_sha": "b17e5152e979",
+        "author": "Rei Vilo",
+        "maintainer": "Rei Vilo",
+        "sentence": "Library for Pervasive Displays iTC screens, extension boards and development kits",
+        "paragraph": "Graphics and text primitives, normal and fast update",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "PDLS_Common",
+          "Pervasive_Wide_Large",
+          "Pervasive_Wide_Medium",
+          "Pervasive_Wide_Small",
+          "Pervasive_BWRY_Large",
+          "Pervasive_BWRY_Medium",
+          "Pervasive_BWRY_Small",
+          "Pervasive_Touch_Small"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rei-vilo/PDLS_Basic-10.1.1.zip",
+        "size": 520066,
+        "previous_version": "10.1.0",
+        "github_stars": 2,
+        "github_forks": 4,
+        "github_language": "C",
+        "github_updated_at": "2026-06-08T09:46:14Z"
+      },
+      "old_version": "10.1.0",
+      "new_version": "10.1.1"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-20T05:02:40.895Z",
-  "total_libraries": 10223,
-  "index_etag": "W/\"7e0ec9fa47cb413606d9943ed1b675e1\"",
-  "index_last_modified": "Tue, 20 Oct 2026 05:00:18 GMT",
+  "enhanced_at": "2026-10-20T06:04:17.388Z",
+  "total_libraries": 10224,
+  "index_etag": "W/\"dd54df7d4b64ac5a83a998a985d0454f\"",
+  "index_last_modified": "Tue, 20 Oct 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -91971,6 +91971,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-07-13T00:28:23Z"
+    },
+    {
+      "repository_name": "Harikrishnan-Dev01/EasyMicro",
+      "repository_url": "https://github.com/Harikrishnan-Dev01/EasyMicro",
+      "name": "EasyMicro",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-20T06:04:16.000Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-20T06:04:16.000Z",
+      "last_seen_sha": "2d428510a0c3",
+      "author": "Harikrishnan",
+      "maintainer": "Harikrishnan",
+      "sentence": "Simple functions for beginner microcontroller projects.",
+      "paragraph": "Beginner-friendly LED control and timing functions for Arduino-compatible boards.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Harikrishnan-Dev01/EasyMicro-1.0.2.zip",
+      "size": 7387,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-20T02:54:17Z"
     },
     {
       "repository_name": "milador/EasyMorse",
@@ -328611,7 +328640,7 @@
       "repository_name": "xewe-labs/xewe-os-core",
       "repository_url": "https://github.com/xewe-labs/xewe-os-core",
       "name": "XeWeCore",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -328620,11 +328649,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-10-12T00:08:10.181Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-10-20T06:04:16.000Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-09T20:02:49.656Z",
-      "last_seen_sha": "e3d728cf36bb",
+      "last_seen_sha": "cdd6e5225f57",
       "author": "Maxim Dokukin",
       "maintainer": "Maxim Dokukin",
       "sentence": "Modular firmware core for ESP32: serial console, command line, typed NVS storage, helpers and a module framework.",
@@ -328636,9 +328669,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-3.0.0.zip",
-      "size": 267013,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xewe-labs/XeWeCore-3.1.0.zip",
+      "size": 309546,
+      "previous_version": "3.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -333014,7 +333047,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10019,
+    "with_github_metadata": 10020,
     "total_dependencies": 5603
   }
 }

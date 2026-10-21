@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-21T19:02:11.944Z",
+  "enhanced_at": "2026-10-21T20:02:40.993Z",
   "total_libraries": 10235,
-  "index_etag": "W/\"2ee0764583c4141e3b090054146bee35\"",
-  "index_last_modified": "Wed, 21 Oct 2026 19:00:18 GMT",
+  "index_etag": "W/\"90c30f13b5b0eab23c873cf393a91154\"",
+  "index_last_modified": "Wed, 21 Oct 2026 20:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41161,7 +41161,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.63",
+      "version": "1.7.64",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41234,11 +41234,15 @@
         {
           "version": "1.7.63",
           "seen_at": "2026-10-21T18:03:17.124Z"
+        },
+        {
+          "version": "1.7.64",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 18,
+      "release_count": 19,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "b7dcf5bac987",
+      "last_seen_sha": "87158b7ecd7c",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
@@ -41253,9 +41257,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.63.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.64.zip",
       "size": 186939,
-      "previous_version": "1.7.62",
+      "previous_version": "1.7.63",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -76938,16 +76942,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_ir_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ir_library",
       "name": "DevLab_IR",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-07T22:02:23.591Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-07T22:02:23.591Z",
-      "last_seen_sha": "c87513d4a641",
+      "last_seen_sha": "8b48f49a5f90",
       "author": "UNIT Electronics MX",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino library for the IRM-V838M3 infrared receiver module using the DevLab Device Protocol (DDP) over I2C.",
@@ -76960,8 +76968,9 @@
         "DevLabDDP",
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_IR-1.0.0.zip",
-      "size": 14039,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_IR-1.0.1.zip",
+      "size": 14035,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -77001,16 +77010,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_lm35_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_lm35_library",
       "name": "DevLab_LM35",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-08T22:02:44.835Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-08T22:02:44.835Z",
-      "last_seen_sha": "9dfe27d823b0",
+      "last_seen_sha": "fa1a35bbb063",
       "author": "UNIT Electronics MX",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino library for the I2C LM35 temperature sensor module using the DevLab Device Protocol (DDP).",
@@ -77023,8 +77036,9 @@
         "DevLabDDP",
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_LM35-1.0.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_LM35-1.0.1.zip",
       "size": 11888,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -77097,16 +77111,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_photointerrupter_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_photointerrupter_library",
       "name": "DevLab_PhotoInterrupter",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-07T20:03:21.662Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-07T20:03:21.662Z",
-      "last_seen_sha": "fec2169ee76f",
+      "last_seen_sha": "1b923fd83257",
       "author": "UNIT Electronics MX",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino library for the 8ITR523S photo interrupter module using the DevLab Device Protocol (DDP) over I2C.",
@@ -77119,8 +77137,9 @@
         "DevLabDDP",
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_PhotoInterrupter-1.0.0.zip",
-      "size": 15700,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_PhotoInterrupter-1.0.1.zip",
+      "size": 15699,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -77347,7 +77366,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
       "name": "DevLabDDP",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.1",
@@ -77372,11 +77391,15 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-10-10T06:04:26.082Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-08-27T23:05:28.812Z",
-      "last_seen_sha": "8bcc4f584aaa",
+      "last_seen_sha": "aee42ae96050",
       "author": "UNIT Electronics",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino master for the DevLab Device Protocol.",
@@ -77388,9 +77411,9 @@
       "depends": [
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.6.zip",
-      "size": 24598,
-      "previous_version": "1.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.7.zip",
+      "size": 24665,
+      "previous_version": "1.0.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -185436,7 +185459,7 @@
       "repository_name": "snappyxo/microblue-arduino",
       "repository_url": "https://github.com/snappyxo/microblue-arduino",
       "name": "MicroBlue",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.2.0",
@@ -185445,11 +185468,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-13T20:02:30.069Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-10-21T20:02:40.883Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-18T08:00:41Z",
-      "last_seen_sha": "2f29f5dc23ea",
+      "last_seen_sha": "753ab73ba364",
       "author": "SnappyXO",
       "maintainer": "A+ Mobile Solutions Inc",
       "sentence": "Arduino library to send messages between MicroBlue app and Arduino",
@@ -185461,9 +185488,9 @@
       "depends": [
         "ArduinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/MicroBlue-2.0.0.zip",
-      "size": 31317,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/MicroBlue-2.1.0.zip",
+      "size": 60985,
+      "previous_version": "2.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

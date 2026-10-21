@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-21T21:02:49.492Z",
-  "total_libraries": 10235,
-  "index_etag": "W/\"90c30f13b5b0eab23c873cf393a91154\"",
-  "index_last_modified": "Wed, 21 Oct 2026 21:00:17 GMT",
+  "enhanced_at": "2026-10-21T22:02:32.182Z",
+  "total_libraries": 10238,
+  "index_etag": "W/\"5df2b5e4457f295af94a393d4baad5a6\"",
+  "index_last_modified": "Wed, 21 Oct 2026 22:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73208,6 +73208,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-06-09T13:48:34Z",
       "download_url": "https://github.com/Bendeguz-Cs/DC_driver/tree/main"
+    },
+    {
+      "repository_name": "BOBILLEChristophe/DCC-LocoAddr",
+      "repository_url": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
+      "name": "DCC-LocoAddr",
+      "version": "5.0.1",
+      "version_history": [
+        {
+          "version": "5.0.1",
+          "seen_at": "2026-10-21T22:02:28.016Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T22:02:28.016Z",
+      "last_seen_sha": "1e2f99f4fae6",
+      "author": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
+      "maintainer": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
+      "sentence": "Reads DCC locomotive addresses from bidirectional track feedback using ESP32 hardware UART.",
+      "paragraph": "Supports short, long and consist addresses, optional physical orientation sensing, multiple detectors, statistics and event-driven reception through the ESP-IDF UART driver.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.0.1.zip",
+      "size": 6681962,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-21T21:49:38Z"
     },
     {
       "repository_name": "DCC-EX/DCCEXProtocol",
@@ -266477,6 +266506,37 @@
       "github_updated_at": "2025-11-27T18:24:36Z"
     },
     {
+      "repository_name": "sitronlabs/SitronLabs_TexasInstruments_INA219_Arduino_Library",
+      "repository_url": "https://github.com/sitronlabs/SitronLabs_TexasInstruments_INA219_Arduino_Library",
+      "name": "Sitron Labs INA219 Arduino Library",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-21T22:02:28.016Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T22:02:28.016Z",
+      "last_seen_sha": "4f1eb3379d12",
+      "author": "Sitron Labs",
+      "maintainer": "Sitron Labs <support@sitronlabs.com>",
+      "sentence": "Arduino library for the Texas Instruments INA219 Voltage, Current and Power Monitor with I2C interface.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Wire"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_INA219_Arduino_Library-0.1.0.zip",
+      "size": 788213,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-07T12:08:34Z"
+    },
+    {
       "repository_name": "sitronlabs/SitronLabs_STMicroelectronics_LIS2DH12_Arduino_Library",
       "repository_url": "https://github.com/sitronlabs/SitronLabs_STMicroelectronics_LIS2DH12_Arduino_Library",
       "name": "Sitron Labs LIS2DH12 Arduino Library",
@@ -266656,6 +266716,34 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2025-11-21T16:41:10Z"
+    },
+    {
+      "repository_name": "sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library",
+      "repository_url": "https://github.com/sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library",
+      "name": "Sitron Labs RX480E Arduino Library",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-21T22:02:28.016Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T22:02:28.016Z",
+      "last_seen_sha": "cd91ffd1f3fa",
+      "author": "Sitron Labs",
+      "maintainer": "Sitron Labs <support@sitronlabs.com>",
+      "sentence": "Arduino library for the Qiachip RX480E 433.92 MHz EV1527 learning receiver. Pairs keyfobs and changes modes through the VT pin only.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_RX480E_Arduino_Library-0.1.0.zip",
+      "size": 17985,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-21T18:51:49Z"
     },
     {
       "repository_name": "sitronlabs/SitronLabs_SinoWealth_SH1106_Arduino_Library",
@@ -333617,7 +333705,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10031,
-    "total_dependencies": 5608
+    "with_github_metadata": 10034,
+    "total_dependencies": 5609
   }
 }

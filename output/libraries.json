@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-21T15:02:52.587Z",
-  "total_libraries": 10231,
-  "index_etag": "W/\"47779de03e3ca57f32fab3ee280faaef\"",
-  "index_last_modified": "Wed, 21 Oct 2026 15:00:18 GMT",
+  "enhanced_at": "2026-10-21T16:02:42.702Z",
+  "total_libraries": 10235,
+  "index_etag": "W/\"6b211aa7b683a48950cd2cc2690ea433\"",
+  "index_last_modified": "Wed, 21 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41161,7 +41161,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.61",
+      "version": "1.7.62",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41226,11 +41226,15 @@
         {
           "version": "1.7.61",
           "seen_at": "2026-10-21T14:03:01.109Z"
+        },
+        {
+          "version": "1.7.62",
+          "seen_at": "2026-10-21T16:02:37.261Z"
         }
       ],
-      "release_count": 16,
+      "release_count": 17,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "e059e632265b",
+      "last_seen_sha": "abb4d8145236",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
@@ -41245,9 +41249,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.61.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.62.zip",
       "size": 186672,
-      "previous_version": "1.7.59",
+      "previous_version": "1.7.61",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -66250,6 +66254,35 @@
       "download_url": "https://github.com/Uiop3385/CommandHandler"
     },
     {
+      "repository_name": "FelipeDadison/CommandInterface",
+      "repository_url": "https://github.com/FelipeDadison/CommandInterface",
+      "name": "CommandInterface",
+      "version": "1.1.1",
+      "version_history": [
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-21T16:02:37.261Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T16:02:37.261Z",
+      "last_seen_sha": "a3d5c3775003",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison <felipe.dadison@gmail.com>",
+      "sentence": "Command-line interface for ESP32 with typed commands, password protection and multi-stream I/O.",
+      "paragraph": "Works with any Arduino Stream (Serial, NetSerial, Bluetooth). Per-stream sessions, brute-force protection, and replies routed to the stream that sent the command.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/CommandInterface-1.1.1.zip",
+      "size": 19436,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T20:22:09Z"
+    },
+    {
       "repository_name": "Uberi/Arduino-CommandParser",
       "repository_url": "https://github.com/Uberi/Arduino-CommandParser",
       "name": "CommandParser",
@@ -74256,6 +74289,35 @@
         "ArxTypeTraits"
       ],
       "download_url": "https://github.com/hideakitai/DebugLog"
+    },
+    {
+      "repository_name": "FelipeDadison/DebugLogger",
+      "repository_url": "https://github.com/FelipeDadison/DebugLogger",
+      "name": "DebugLogger",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-21T16:02:37.261Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T16:02:37.261Z",
+      "last_seen_sha": "ffe2f313ac5d",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison <felipe.dadison@gmail.com>",
+      "sentence": "Logging system for ESP32 with log levels, tag filtering, file logging and throttled messages.",
+      "paragraph": "Logs to any Print stream (Serial, NetSerial) with optional ANSI colors, keeps a rotating log file on SPIFFS or LittleFS, and is thread-safe. Optional CommandInterface integration for runtime control.",
+      "category": "Other",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/DebugLogger-1.1.0.zip",
+      "size": 16964,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T20:02:12Z"
     },
     {
       "repository_name": "RobTillaart/decibel",
@@ -128721,7 +128783,7 @@
       "repository_name": "cattanimarco/Grafici-GFX",
       "repository_url": "https://github.com/cattanimarco/Grafici-GFX",
       "name": "Grafici-GFX",
-      "version": "4.0.0",
+      "version": "4.1.0",
       "version_history": [
         {
           "version": "4.0.0",
@@ -128730,24 +128792,29 @@
         {
           "version": "4.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "4.1.0",
+          "seen_at": "2026-10-21T16:02:37.261Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:10:28Z",
-      "last_seen_sha": "28d4bdc28202",
+      "last_seen_sha": "97034d7b4247",
       "author": "Marco Cattani <03offices_jockey@icloud.com>",
       "maintainer": "Marco Cattani <03offices_jockey@icloud.com>",
-      "sentence": "Data visualization library for Arduino driven displays",
-      "paragraph": "based/depending on the Adafruit GFX display libraries. Grafici handles and process data and plot lines, bars, scatters and more on both squared and round displays.",
+      "sentence": "Data visualization library for Arduino driven displays.",
+      "paragraph": "Based on Adafruit GFX display libraries. Plot lines, bars, scatters, and more on both squared and round displays. Features data handling, processing, and various visualization options.",
       "category": "Display",
       "architectures": [
         "*"
       ],
+      "license": "Apache-2.0",
       "depends": [
         "Adafruit GFX Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/cattanimarco/Grafici_GFX-4.0.0.zip",
-      "size": 47703,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cattanimarco/Grafici_GFX-4.1.0.zip",
+      "size": 67850,
       "previous_version": "4.0.0",
       "github_stars": 19,
       "github_forks": 8,
@@ -193001,6 +193068,38 @@
       "github_updated_at": "2025-09-03T10:36:41Z"
     },
     {
+      "repository_name": "NimalarubanGokul/MotorDrive",
+      "repository_url": "https://github.com/NimalarubanGokul/MotorDrive",
+      "name": "MotorDrive",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-21T16:02:37.261Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T16:02:37.261Z",
+      "last_seen_sha": "611570b307b8",
+      "author": "Nimalaruban Gokul",
+      "maintainer": "Nimalaruban Gokul",
+      "sentence": "A robust library for DC motor control and ultrasonic obstacle avoidance with median filtering.",
+      "paragraph": "A custom Arduino library for controlling DC motors and ultrasonic navigation.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "NewPing"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NimalarubanGokul/MotorDrive-1.0.0.zip",
+      "size": 6895,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-21T12:39:37Z"
+    },
+    {
       "repository_name": "Every-Flavor-Robotics/motorgo-arduino",
       "repository_url": "https://github.com/Every-Flavor-Robotics/motorgo-arduino",
       "name": "MotorGo_Mini_Driver",
@@ -202815,6 +202914,39 @@
         "Ethernet"
       ],
       "download_url": "https://github.com/gregington/NetEEPROM"
+    },
+    {
+      "repository_name": "FelipeDadison/NetSerial",
+      "repository_url": "https://github.com/FelipeDadison/NetSerial",
+      "name": "NetSerial",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-21T16:02:37.261Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T16:02:37.261Z",
+      "last_seen_sha": "4b4e529dfbc4",
+      "author": "Felipe Dadison",
+      "maintainer": "Felipe Dadison <felipe.dadison@gmail.com>",
+      "sentence": "Multi-protocol Serial communication wrapper for ESP32 supporting TCP, WebSocket, and UDP transports.",
+      "paragraph": "Implements the Arduino Stream interface, so print(), println(), printf(), readStringUntil() and parseInt() work the same as with Serial.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Async TCP",
+        "ESP Async WebServer"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FelipeDadison/NetSerial-1.1.0.zip",
+      "size": 14962,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-16T18:37:52Z"
     },
     {
       "repository_name": "atc1441/NETSGPClient",
@@ -333441,7 +333573,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10027,
-    "total_dependencies": 5605
+    "with_github_metadata": 10031,
+    "total_dependencies": 5608
   }
 }

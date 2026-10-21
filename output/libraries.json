@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-20T23:02:33.774Z",
-  "total_libraries": 10230,
-  "index_etag": "W/\"ee6e8c8c7f65c86f358a3b717a074607\"",
-  "index_last_modified": "Tue, 20 Oct 2026 23:00:17 GMT",
+  "enhanced_at": "2026-10-21T00:06:43.404Z",
+  "total_libraries": 10231,
+  "index_etag": "W/\"413a9b6ba7f3c341e4ae4c8b296dd168\"",
+  "index_last_modified": "Wed, 21 Oct 2026 00:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -321475,6 +321475,36 @@
       "github_updated_at": "2026-02-16T12:27:41Z"
     },
     {
+      "repository_name": "VoltinoLabs/Voltino-TriSense-Library",
+      "repository_url": "https://github.com/VoltinoLabs/Voltino-TriSense-Library",
+      "name": "Voltino_TriSense",
+      "version": "1.6.0",
+      "version_history": [
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-10-21T00:06:41.951Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-21T00:06:41.951Z",
+      "last_seen_sha": "49087caa9638",
+      "author": "VoltinoLabs (Tomas Michal)",
+      "maintainer": "Tomas Michal",
+      "sentence": "Advanced Sensor Fusion library for Voltino TriSense modules (ICM42688P, AK09918C, BMP580).",
+      "paragraph": "Provides high-performance driver and fusion algorithms for the TriSense board. Features include: Advanced FIFO draining for lag-free integration, Gimbal-lock immune Quaternion Math, 10MHz SPI Turbo mode, 6-point Accelerometer calibration (Sphere Fit), and Hard/Soft Iron Mag calibration. Dynamic hardware FPU optimization automatically scales precision (float/double) for platforms like Raspberry Pi Pico 2 (RP2350) and ESP32.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/VoltinoLabs/Voltino_TriSense-1.6.0.zip",
+      "size": 156100,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-20T21:08:57Z"
+    },
+    {
       "repository_name": "srinjaycode/VoltLora",
       "repository_url": "https://github.com/srinjaycode/VoltLora",
       "name": "VoltLora",
@@ -333363,7 +333393,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10026,
+    "with_github_metadata": 10027,
     "total_dependencies": 5605
   }
 }

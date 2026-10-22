@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-22T15:03:10.827Z",
-  "total_libraries": 10243,
-  "index_etag": "W/\"ff18ab01113d0bf76a077974f6f103be\"",
-  "index_last_modified": "Thu, 22 Oct 2026 15:00:17 GMT",
+  "enhanced_at": "2026-10-22T16:03:06.646Z",
+  "total_libraries": 10246,
+  "index_etag": "W/\"854350089c3d16e54c602dcc1b5d3ba3\"",
+  "index_last_modified": "Thu, 22 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -9068,7 +9068,7 @@
       "repository_name": "adafruit/Adafruit_DAP",
       "repository_url": "https://github.com/adafruit/Adafruit_DAP",
       "name": "Adafruit DAP library",
-      "version": "1.8.4",
+      "version": "1.8.5",
       "version_history": [
         {
           "version": "1.8.3",
@@ -9081,11 +9081,15 @@
         {
           "version": "1.8.4",
           "seen_at": "2026-08-18T20:02:51.983Z"
+        },
+        {
+          "version": "1.8.5",
+          "seen_at": "2026-10-22T16:03:02.551Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:05:26Z",
-      "last_seen_sha": "109eef7dba5e",
+      "last_seen_sha": "7f3f93822459",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Arduino library for DAP programming on ARM cortex microcontroller",
@@ -9100,9 +9104,9 @@
         "Adafruit TinyUSB Library",
         "SD"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DAP_library-1.8.4.zip",
-      "size": 1524659,
-      "previous_version": "1.8.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DAP_library-1.8.5.zip",
+      "size": 1525026,
+      "previous_version": "1.8.4",
       "github_stars": 80,
       "github_forks": 28,
       "github_language": "C++",
@@ -54278,6 +54282,35 @@
       "github_updated_at": "2023-08-17T17:26:56Z"
     },
     {
+      "repository_name": "bonezegei/Bonezegei_Keypad",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_Keypad",
+      "name": "Bonezegei Keypad",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T16:03:02.551Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T16:03:02.551Z",
+      "last_seen_sha": "c0e887af5cc4",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Simple non-blocking Arduino library for 4x4 matrix keypads.",
+      "paragraph": "Supports custom key maps, software debouncing, and matrix row/column scanning across standard microcontrollers.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_Keypad-1.0.0.zip",
+      "size": 17466,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T12:38:31Z"
+    },
+    {
       "repository_name": "bonezegei/Bonezegei_LCD1602_I2C",
       "repository_url": "https://github.com/bonezegei/Bonezegei_LCD1602_I2C",
       "name": "Bonezegei LCD1602 I2C",
@@ -54814,6 +54847,35 @@
       "download_url": "https://github.com/bonezegei/Bonezegei_HD44780"
     },
     {
+      "repository_name": "bonezegei/Bonezegei_HMC5883L",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_HMC5883L",
+      "name": "Bonezegei_HMC5883L",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T16:03:02.551Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T16:03:02.551Z",
+      "last_seen_sha": "4f6d295f1fea",
+      "author": "Jofel Batutay (Bonezegei)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for HMC5883L 3-Axis Digital Magnetometer / Compass.",
+      "paragraph": "Easily interface with the HMC5883L sensor via I2C to read raw magnetic field data, calculated Gauss values, and compass heading degrees.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_HMC5883L-1.0.0.zip",
+      "size": 17360,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T12:24:16Z"
+    },
+    {
       "repository_name": "bonezegei/Bonezegei_I2CScan",
       "repository_url": "https://github.com/bonezegei/Bonezegei_I2CScan",
       "name": "Bonezegei_I2CScan",
@@ -55327,6 +55389,35 @@
       "github_language": "C",
       "github_updated_at": "2025-11-12T15:48:34Z",
       "download_url": "https://github.com/bonezegei/Bonezegei_SSD1306"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_TM1638",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_TM1638",
+      "name": "Bonezegei_TM1638",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T16:03:02.551Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T16:03:02.551Z",
+      "last_seen_sha": "4337926127d5",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for TM1638 8-digit 7-segment display module with 8 LEDs and 8 buttons.",
+      "paragraph": "Provides complete control for TM1638 modules including 7-segment display formatting, individual LED control, brightness adjustment, and button state reading.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_TM1638-1.0.0.zip",
+      "size": 16681,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T12:51:03Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_ULN2003_Stepper",
@@ -133510,7 +133601,7 @@
       "repository_name": "GyverLibs/GyverMenu",
       "repository_url": "https://github.com/GyverLibs/GyverMenu",
       "name": "GyverMenu",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.0.1",
@@ -133531,11 +133622,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-10-21T14:03:01.109Z"
+        },
+        {
+          "version": "1.1.3",
+          "seen_at": "2026-10-22T16:03:02.551Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-29T07:22:07Z",
-      "last_seen_sha": "6612268009d4",
+      "last_seen_sha": "6dc5a090430b",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Dynamic menu system for Arduino",
@@ -133547,9 +133642,9 @@
       "depends": [
         "StringN"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.2.zip",
-      "size": 52170,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.3.zip",
+      "size": 52202,
+      "previous_version": "1.1.2",
       "github_stars": 16,
       "github_forks": 3,
       "github_language": "C++",
@@ -228693,16 +228788,20 @@
       "repository_name": "microbotsio/ProtoBot",
       "repository_url": "https://github.com/microbotsio/ProtoBot",
       "name": "ProtoBot",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.6",
           "seen_at": "2026-05-27T08:59:56Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-10-22T16:03:02.551Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-27T08:59:56Z",
-      "last_seen_sha": "3b0e9b0ae628",
+      "last_seen_sha": "033c8e3f6e29",
       "author": "Microbots <info@microbots.io>",
       "maintainer": "Microbots <info@microbots.io>",
       "sentence": "ProtoBot Arduino Library",
@@ -228711,17 +228810,19 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 7,
-      "github_forks": 1,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-26T21:21:40Z",
       "depends": [
         "CodeCell",
         "DriveCell",
         "BLEOTA",
         "Adafruit NeoPixel"
       ],
-      "download_url": "https://microbots.io/ProtoBot"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/ProtoBot-1.0.7.zip",
+      "size": 135233136,
+      "previous_version": "1.0.6",
+      "github_stars": 7,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-26T21:21:40Z"
     },
     {
       "repository_name": "Protocentral/Protocentral_ADS1220",
@@ -297118,7 +297219,7 @@
       "repository_name": "arkhipenko/TaskScheduler",
       "repository_url": "https://github.com/arkhipenko/TaskScheduler",
       "name": "TaskScheduler",
-      "version": "4.1.0",
+      "version": "4.1.1",
       "version_history": [
         {
           "version": "4.0.8",
@@ -297127,11 +297228,15 @@
         {
           "version": "4.1.0",
           "seen_at": "2026-09-27T18:03:47.911Z"
+        },
+        {
+          "version": "4.1.1",
+          "seen_at": "2026-10-22T16:03:02.551Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-29T08:46:47Z",
-      "last_seen_sha": "5e7fe558f34c",
+      "last_seen_sha": "7f35eed0a2c3",
       "author": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
       "maintainer": "Anatoli Arkhipenko <arkhipenko@hotmail.com>",
       "sentence": "Cooperative multitasking for Arduino, ESPx, STM32 and other microcontrollers.",
@@ -297140,9 +297245,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/TaskScheduler-4.1.0.zip",
-      "size": 1037074,
-      "previous_version": "4.0.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arkhipenko/TaskScheduler-4.1.1.zip",
+      "size": 1041964,
+      "previous_version": "4.1.0",
       "github_stars": 1638,
       "github_forks": 290,
       "github_language": "C++",
@@ -333976,7 +334081,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10039,
+    "with_github_metadata": 10042,
     "total_dependencies": 5611
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-22T13:05:04.620Z",
-  "total_libraries": 10240,
-  "index_etag": "W/\"f90a50708253e0f40461a188d1e40a99\"",
-  "index_last_modified": "Thu, 22 Oct 2026 13:00:18 GMT",
+  "enhanced_at": "2026-10-22T14:03:00.189Z",
+  "total_libraries": 10243,
+  "index_etag": "W/\"ff18ab01113d0bf76a077974f6f103be\"",
+  "index_last_modified": "Thu, 22 Oct 2026 14:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41166,7 +41166,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.66",
+      "version": "1.7.68",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41251,11 +41251,15 @@
         {
           "version": "1.7.66",
           "seen_at": "2026-10-22T10:02:24.538Z"
+        },
+        {
+          "version": "1.7.68",
+          "seen_at": "2026-10-22T14:02:55.831Z"
         }
       ],
-      "release_count": 21,
+      "release_count": 22,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "81da99e56e26",
+      "last_seen_sha": "c80cc690cdac",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 MQTT client, plus HTTPS telemetry for ESP8266 and Pico W.",
@@ -41270,9 +41274,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.66.zip",
-      "size": 186939,
-      "previous_version": "1.7.65",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.68.zip",
+      "size": 188158,
+      "previous_version": "1.7.66",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -54540,6 +54544,35 @@
       "download_url": "https://github.com/bonezegei/Bonezegei_DRV8825"
     },
     {
+      "repository_name": "bonezegei/Bonezegei_DS1302",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_DS1302",
+      "name": "Bonezegei_DS1302",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T14:02:55.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T14:02:55.831Z",
+      "last_seen_sha": "305b344dfc14",
+      "author": "Jofel Batutay (Bonezegei)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "An Arduino library for interfacing with the DS1302 Real-Time Clock module.",
+      "paragraph": "Bonezegei DS1302 allows reading and setting time, date, day of week, 12/24-hour formats, and AM/PM settings on the DS1302 RTC module using 3-wire synchronous serial communication.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DS1302-1.0.0.zip",
+      "size": 17939,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T10:49:43Z"
+    },
+    {
       "repository_name": "bonezegei/Bonezegei_DS1307",
       "repository_url": "https://github.com/bonezegei/Bonezegei_DS1307",
       "name": "Bonezegei_DS1307",
@@ -55121,6 +55154,35 @@
       "github_language": "C++",
       "github_updated_at": "2023-09-05T03:24:42Z",
       "download_url": "https://github.com/bonezegei/Bonezegei_Protocol"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_PZEM004T",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_PZEM004T",
+      "name": "Bonezegei_PZEM004T",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T14:02:55.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T14:02:55.831Z",
+      "last_seen_sha": "abe822187c7c",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Library for PZEM-004T V3.0 AC Power Meter Module",
+      "paragraph": "Lightweight library to read AC Voltage, Current, Power, Energy, Frequency, and Power Factor via Serial (UART).",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PZEM004T-1.0.0.zip",
+      "size": 17133,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T10:30:58Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_RC522",
@@ -218240,7 +218302,7 @@
       "repository_name": "peanut-king-solution/PeanutKing_Soccer",
       "repository_url": "https://github.com/peanut-king-solution/PeanutKing_Soccer",
       "name": "PeanutKing Soccer",
-      "version": "4.2.1",
+      "version": "4.2.2",
       "version_history": [
         {
           "version": "4.2.0",
@@ -218253,11 +218315,15 @@
         {
           "version": "4.2.1",
           "seen_at": "2026-09-10T14:02:28.574Z"
+        },
+        {
+          "version": "4.2.2",
+          "seen_at": "2026-10-22T14:02:55.831Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-09-17T07:36:22Z",
-      "last_seen_sha": "70b177cd7a8b",
+      "last_seen_sha": "ce672f095833",
       "author": "PeanutKing Solutions",
       "maintainer": "PeanutKing <info@peanutkingsolution.com>",
       "sentence": "Arduino library for controlling Soccer Robot by Peanut King.",
@@ -218266,9 +218332,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/peanut-king-solution/PeanutKing_Soccer-4.2.1.zip",
-      "size": 475622,
-      "previous_version": "4.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/peanut-king-solution/PeanutKing_Soccer-4.2.2.zip",
+      "size": 484451,
+      "previous_version": "4.2.1",
       "github_stars": 3,
       "github_forks": 3,
       "github_language": "C",
@@ -298826,6 +298892,38 @@
       "download_url": "https://luni64.github.io/TeensyStep/"
     },
     {
+      "repository_name": "TulioCarmona/TeensyStepDriver",
+      "repository_url": "https://github.com/TulioCarmona/TeensyStepDriver",
+      "name": "TeensyStepDriver",
+      "version": "1.0.3",
+      "version_history": [
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-10-22T14:02:55.831Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T14:02:55.831Z",
+      "last_seen_sha": "e63d36ce10bd",
+      "author": "TulioCarmona",
+      "maintainer": "TulioCarmona",
+      "sentence": "Non-blocking stepper motor driver for Teensy 4.1.",
+      "paragraph": "Uses TeensyTimerTool QTIMER hardware timers for precise low-jitter pulse generation. Supports trapezoidal motion profile, continuous speed mode, and up to 8 independent motors simultaneously.",
+      "category": "Device Control",
+      "architectures": [
+        "teensy_avr"
+      ],
+      "depends": [
+        "TeensyTimerTool"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TulioCarmona/TeensyStepDriver-1.0.3.zip",
+      "size": 11604,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T11:34:41Z"
+    },
+    {
       "repository_name": "luni64/TeensyTimerTool",
       "repository_url": "https://github.com/luni64/TeensyTimerTool",
       "name": "TeensyTimerTool",
@@ -333877,8 +333975,8 @@
   ],
   "stats": {
     "total_categories": 78,
-    "total_architectures": 162,
-    "with_github_metadata": 10036,
-    "total_dependencies": 5610
+    "total_architectures": 163,
+    "with_github_metadata": 10039,
+    "total_dependencies": 5611
   }
 }

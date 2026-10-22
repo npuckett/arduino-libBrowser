@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-22T19:02:15.663Z",
-  "total_libraries": 10246,
-  "index_etag": "W/\"854350089c3d16e54c602dcc1b5d3ba3\"",
-  "index_last_modified": "Thu, 22 Oct 2026 19:00:18 GMT",
+  "enhanced_at": "2026-10-22T20:03:00.809Z",
+  "total_libraries": 10247,
+  "index_etag": "W/\"06052fa90a2850e9bb92c323281730ac\"",
+  "index_last_modified": "Thu, 22 Oct 2026 20:00:21 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -133601,7 +133601,7 @@
       "repository_name": "GyverLibs/GyverMenu",
       "repository_url": "https://github.com/GyverLibs/GyverMenu",
       "name": "GyverMenu",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -133626,11 +133626,15 @@
         {
           "version": "1.1.3",
           "seen_at": "2026-10-22T16:03:02.551Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-10-22T20:02:59.374Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2025-11-29T07:22:07Z",
-      "last_seen_sha": "6dc5a090430b",
+      "last_seen_sha": "18c4b5b5f081",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Dynamic menu system for Arduino",
@@ -133642,9 +133646,9 @@
       "depends": [
         "StringN"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.3.zip",
-      "size": 52202,
-      "previous_version": "1.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverMenu-1.1.4.zip",
+      "size": 53085,
+      "previous_version": "1.1.3",
       "github_stars": 16,
       "github_forks": 3,
       "github_language": "C++",
@@ -184749,6 +184753,38 @@
       "github_language": "C++",
       "github_updated_at": "2022-10-26T01:20:45Z",
       "download_url": "https://github.com/shkoo/MeshGnome"
+    },
+    {
+      "repository_name": "code-hoysala/MeshLink",
+      "repository_url": "https://github.com/code-hoysala/MeshLink",
+      "name": "MeshLink",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-22T20:02:59.374Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T20:02:59.374Z",
+      "last_seen_sha": "c8466aa7f2b1",
+      "author": "Code-hoysala",
+      "maintainer": "Code-hoysala",
+      "sentence": "Zero-configuration peer-to-peer communication for Arduino UNO using NRF24L01+.",
+      "paragraph": "Allows AVR-based Arduino boards to exchange short packets using the RF24 library.",
+      "category": "Communication",
+      "architectures": [
+        "avr"
+      ],
+      "depends": [
+        "RF24"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/MeshLink-1.0.1.zip",
+      "size": 3439,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-21T09:16:44Z"
     },
     {
       "repository_name": "meshtastic/Meshtastic-arduino",
@@ -334081,7 +334117,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10042,
-    "total_dependencies": 5611
+    "with_github_metadata": 10043,
+    "total_dependencies": 5612
   }
 }

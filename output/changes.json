@@ -1,6 +1,88 @@
 {
-  "since": "2026-10-21T23:02:16.125Z",
+  "since": "2026-10-22T00:06:01.345Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "chon-group/javino2arduino",
+        "repository_url": "https://github.com/chon-group/javino2arduino",
+        "name": "Javino",
+        "version": "1.7.3",
+        "version_history": [
+          {
+            "version": "1.7.2",
+            "seen_at": "2026-03-02T08:10:46Z"
+          },
+          {
+            "version": "1.7.3",
+            "seen_at": "2026-10-22T00:06:01.345Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-03-02T08:10:46Z",
+        "last_seen_sha": "c3f43b0b61fc",
+        "author": "Nilson M. Lazarin, Carlos E. Pantoja",
+        "maintainer": "Chon Group <chon@grupo.cefet-rj.br>",
+        "sentence": "Javino protocol for Arduino boards.",
+        "paragraph": "Javino is a serial message error check protocol for exchanging messages between high-end and low-end IoT devices over serial communication.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "license": "CC-BY-4.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/chon-group/Javino-1.7.3.zip",
+        "size": 272353,
+        "previous_version": "1.7.2",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-01T17:00:35Z"
+      },
+      "old_version": "1.7.2",
+      "new_version": "1.7.3"
+    },
+    {
+      "library": {
+        "repository_name": "krpc/krpc-arduino",
+        "repository_url": "https://github.com/krpc/krpc-arduino",
+        "name": "kRPC",
+        "version": "0.7.0",
+        "version_history": [
+          {
+            "version": "0.5.4",
+            "seen_at": "2025-07-21T16:19:15Z"
+          },
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-07-23T00:21:08.979Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-10-22T00:06:01.345Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:19:15Z",
+        "last_seen_sha": "ca87e0595e09",
+        "author": "djungelorm <djungelorm@users.noreply.github.com>",
+        "maintainer": "djungelorm <djungelorm@users.noreply.github.com>",
+        "sentence": "Client library for kRPC, a Remote Procedure Call server for Kerbal Space Program.",
+        "paragraph": "kRPC allows you to control Kerbal Space Program from scripts running outside of the game. This client library is written in C and communicates with the game over a serial port.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/krpc/kRPC-0.7.0.zip",
+        "size": 277548,
+        "previous_version": "0.6.0",
+        "github_stars": 4,
+        "github_forks": 3,
+        "github_language": "C",
+        "github_updated_at": "2024-06-10T11:49:40Z"
+      },
+      "old_version": "0.6.0",
+      "new_version": "0.7.0"
+    }
+  ],
   "removed_libraries": []
 }

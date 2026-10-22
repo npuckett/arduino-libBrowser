@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-22T11:02:34.107Z",
-  "total_libraries": 10239,
-  "index_etag": "W/\"71e83f1822d630808774eacc0354e4dd\"",
-  "index_last_modified": "Thu, 22 Oct 2026 11:00:17 GMT",
+  "enhanced_at": "2026-10-22T12:03:53.028Z",
+  "total_libraries": 10240,
+  "index_etag": "W/\"f90a50708253e0f40461a188d1e40a99\"",
+  "index_last_modified": "Thu, 22 Oct 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -54980,6 +54980,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-10-14T10:42:13Z"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_OneWire",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_OneWire",
+      "name": "Bonezegei_OneWire",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T12:03:51.327Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T12:03:51.327Z",
+      "last_seen_sha": "acb08326ea59",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for MCU to MCU communication over OneWire protocol.",
+      "paragraph": "Bonezegei_OneWire provides full Master and Slave roles enabling direct single-wire communication between two microcontrollers.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_OneWire-1.0.0.zip",
+      "size": 18026,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T08:42:50Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_PCA9685",
@@ -124081,7 +124110,7 @@
       "repository_name": "Benas09/FujitsuAC",
       "repository_url": "https://github.com/Benas09/FujitsuAC",
       "name": "FujitsuAC",
-      "version": "1.4.8",
+      "version": "1.4.10",
       "version_history": [
         {
           "version": "1.3.16",
@@ -124130,11 +124159,15 @@
         {
           "version": "1.4.8",
           "seen_at": "2026-10-15T08:03:25.999Z"
+        },
+        {
+          "version": "1.4.10",
+          "seen_at": "2026-10-22T12:03:51.327Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-06-30T08:56:08Z",
-      "last_seen_sha": "181b8a48f38c",
+      "last_seen_sha": "f26f78d634f5",
       "author": "Benas09 <benas.rag@gmail.com>",
       "maintainer": "Benas09 <benas.rag@gmail.com>",
       "sentence": "Allows ESP32 boards to control FujitsuAC's.",
@@ -124143,9 +124176,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.8.zip",
-      "size": 33125071,
-      "previous_version": "1.4.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.10.zip",
+      "size": 33125950,
+      "previous_version": "1.4.8",
       "github_stars": 70,
       "github_forks": 13,
       "github_language": "C++",
@@ -131152,20 +131185,23 @@
       "repository_name": "SeeedJP/GroveDriverPack",
       "repository_url": "https://github.com/SeeedJP/GroveDriverPack",
       "name": "GroveDriverPack",
-      "version": "1.12.0",
+      "version": "1.13.0",
       "version_history": [
         {
           "version": "1.12.0",
           "seen_at": "2025-07-21T16:29:20Z"
+        },
+        {
+          "version": "1.13.0",
+          "seen_at": "2026-10-22T12:03:51.327Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-21T16:29:20Z",
-      "last_seen_sha": "cfad8fa184ac",
+      "last_seen_sha": "e0691e309a9d",
       "author": "Seeed K.K.",
       "maintainer": "matsujirushi",
       "sentence": "GroveDriverPack",
-      "paragraph": "",
       "category": "Signal Input/Output",
       "architectures": [
         "Seeed_STM32F4",
@@ -131174,11 +131210,13 @@
         "samd",
         "nrf52"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SeeedJP/GroveDriverPack-1.13.0.zip",
+      "size": 139277,
+      "previous_version": "1.12.0",
       "github_stars": 5,
       "github_forks": 3,
       "github_language": "C++",
-      "github_updated_at": "2025-06-11T17:48:42Z",
-      "download_url": "https://github.com/SeeedJP/GroveDriverPack/blob/main/readme.md"
+      "github_updated_at": "2025-06-11T17:48:42Z"
     },
     {
       "repository_name": "dantler/GroveEncoder",
@@ -210611,7 +210649,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.36",
+      "version": "0.0.37",
       "version_history": [
         {
           "version": "0.0.2",
@@ -210708,11 +210746,15 @@
         {
           "version": "0.0.36",
           "seen_at": "2026-10-20T12:03:49.619Z"
+        },
+        {
+          "version": "0.0.37",
+          "seen_at": "2026-10-22T12:03:51.327Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "18230c902223",
+      "last_seen_sha": "3e8e638368d0",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -210721,9 +210763,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.36.zip",
-      "size": 878021,
-      "previous_version": "0.0.34",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.37.zip",
+      "size": 949076,
+      "previous_version": "0.0.36",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -289627,7 +289669,7 @@
       "repository_name": "stm32duino/STM32Ethernet",
       "repository_url": "https://github.com/stm32duino/STM32Ethernet",
       "name": "STM32duino STM32Ethernet",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "version_history": [
         {
           "version": "1.5.0",
@@ -289636,11 +289678,15 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-10-22T12:03:51.327Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-28T08:56:34Z",
-      "last_seen_sha": "b2cb0c736cc0",
+      "last_seen_sha": "f274a18ac610",
       "author": "Various",
       "maintainer": "STMicroelectronics",
       "sentence": "Enables network connection (local and Internet) using the STM32 Board.",
@@ -289652,8 +289698,8 @@
       "depends": [
         "STM32duino LwIP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_STM32Ethernet-1.5.0.zip",
-      "size": 67245,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_STM32Ethernet-1.6.0.zip",
+      "size": 79771,
       "previous_version": "1.5.0",
       "github_stars": 202,
       "github_forks": 54,
@@ -333832,7 +333878,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10035,
+    "with_github_metadata": 10036,
     "total_dependencies": 5610
   }
 }

@@ -1,6 +1,335 @@
 {
-  "since": "2026-10-22T11:02:33.976Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-22T12:03:51.327Z",
+  "new_libraries": [
+    {
+      "repository_name": "bonezegei/Bonezegei_OneWire",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_OneWire",
+      "name": "Bonezegei_OneWire",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-22T12:03:51.327Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-22T12:03:51.327Z",
+      "last_seen_sha": "acb08326ea59",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for MCU to MCU communication over OneWire protocol.",
+      "paragraph": "Bonezegei_OneWire provides full Master and Slave roles enabling direct single-wire communication between two microcontrollers.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_OneWire-1.0.0.zip",
+      "size": 18026,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T08:42:50Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Benas09/FujitsuAC",
+        "repository_url": "https://github.com/Benas09/FujitsuAC",
+        "name": "FujitsuAC",
+        "version": "1.4.10",
+        "version_history": [
+          {
+            "version": "1.3.16",
+            "seen_at": "2026-06-30T08:56:08Z"
+          },
+          {
+            "version": "1.3.17",
+            "seen_at": "2026-07-14T12:24:10.895Z"
+          },
+          {
+            "version": "1.3.18",
+            "seen_at": "2026-07-15T08:44:20.087Z"
+          },
+          {
+            "version": "1.3.19",
+            "seen_at": "2026-07-18T20:14:04.665Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-07-22T08:50:10.060Z"
+          },
+          {
+            "version": "1.4.1",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "1.4.2",
+            "seen_at": "2026-07-24T10:38:25.286Z"
+          },
+          {
+            "version": "1.4.3",
+            "seen_at": "2026-07-24T16:30:04.549Z"
+          },
+          {
+            "version": "1.4.4",
+            "seen_at": "2026-08-03T10:15:08.794Z"
+          },
+          {
+            "version": "1.4.6",
+            "seen_at": "2026-09-10T06:04:35.614Z"
+          },
+          {
+            "version": "1.4.7",
+            "seen_at": "2026-09-17T20:02:42.605Z"
+          },
+          {
+            "version": "1.4.8",
+            "seen_at": "2026-10-15T08:03:25.999Z"
+          },
+          {
+            "version": "1.4.10",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2026-06-30T08:56:08Z",
+        "last_seen_sha": "f26f78d634f5",
+        "author": "Benas09 <benas.rag@gmail.com>",
+        "maintainer": "Benas09 <benas.rag@gmail.com>",
+        "sentence": "Allows ESP32 boards to control FujitsuAC's.",
+        "paragraph": "Replaces UTY-TFSXW1 dongle.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Benas09/FujitsuAC-1.4.10.zip",
+        "size": 33125950,
+        "previous_version": "1.4.8",
+        "github_stars": 70,
+        "github_forks": 13,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T04:55:24Z"
+      },
+      "old_version": "1.4.8",
+      "new_version": "1.4.10"
+    },
+    {
+      "library": {
+        "repository_name": "SeeedJP/GroveDriverPack",
+        "repository_url": "https://github.com/SeeedJP/GroveDriverPack",
+        "name": "GroveDriverPack",
+        "version": "1.13.0",
+        "version_history": [
+          {
+            "version": "1.12.0",
+            "seen_at": "2025-07-21T16:29:20Z"
+          },
+          {
+            "version": "1.13.0",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:29:20Z",
+        "last_seen_sha": "e0691e309a9d",
+        "author": "Seeed K.K.",
+        "maintainer": "matsujirushi",
+        "sentence": "GroveDriverPack",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "Seeed_STM32F4",
+          "stm32",
+          "SeeedJP_ReButton",
+          "samd",
+          "nrf52"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/SeeedJP/GroveDriverPack-1.13.0.zip",
+        "size": 139277,
+        "previous_version": "1.12.0",
+        "github_stars": 5,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2025-06-11T17:48:42Z"
+      },
+      "old_version": "1.12.0",
+      "new_version": "1.13.0"
+    },
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.37",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          },
+          {
+            "version": "0.0.25",
+            "seen_at": "2026-10-01T14:02:57.149Z"
+          },
+          {
+            "version": "0.0.26",
+            "seen_at": "2026-10-01T16:02:59.448Z"
+          },
+          {
+            "version": "0.0.27",
+            "seen_at": "2026-10-02T02:09:59.934Z"
+          },
+          {
+            "version": "0.0.28",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "0.0.30",
+            "seen_at": "2026-10-08T04:04:36.788Z"
+          },
+          {
+            "version": "0.0.31",
+            "seen_at": "2026-10-08T10:03:26.589Z"
+          },
+          {
+            "version": "0.0.32",
+            "seen_at": "2026-10-16T06:04:11.023Z"
+          },
+          {
+            "version": "0.0.33",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "0.0.34",
+            "seen_at": "2026-10-16T12:03:57.248Z"
+          },
+          {
+            "version": "0.0.36",
+            "seen_at": "2026-10-20T12:03:49.619Z"
+          },
+          {
+            "version": "0.0.37",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          }
+        ],
+        "release_count": 25,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "3e8e638368d0",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.37.zip",
+        "size": 949076,
+        "previous_version": "0.0.36",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.36",
+      "new_version": "0.0.37"
+    },
+    {
+      "library": {
+        "repository_name": "stm32duino/STM32Ethernet",
+        "repository_url": "https://github.com/stm32duino/STM32Ethernet",
+        "name": "STM32duino STM32Ethernet",
+        "version": "1.6.0",
+        "version_history": [
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-05-28T08:56:34Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-28T08:56:34Z",
+        "last_seen_sha": "f274a18ac610",
+        "author": "Various",
+        "maintainer": "STMicroelectronics",
+        "sentence": "Enables network connection (local and Internet) using the STM32 Board.",
+        "paragraph": "With this library you can use the STM32 board to connect to Internet. The library provides both Client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS. This library depends on the LwIP library.",
+        "category": "Communication",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duino LwIP"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/stm32duino/STM32duino_STM32Ethernet-1.6.0.zip",
+        "size": 79771,
+        "previous_version": "1.5.0",
+        "github_stars": 202,
+        "github_forks": 54,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-27T17:50:15Z"
+      },
+      "old_version": "1.5.0",
+      "new_version": "1.6.0"
+    }
+  ],
   "removed_libraries": []
 }

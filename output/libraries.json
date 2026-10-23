@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-23T21:02:40.421Z",
+  "enhanced_at": "2026-10-23T22:02:29.947Z",
   "total_libraries": 10256,
-  "index_etag": "W/\"14817b504ade172d48a32c12a2d8f981\"",
-  "index_last_modified": "Fri, 23 Oct 2026 21:00:21 GMT",
+  "index_etag": "W/\"da1b4e68375bb4d648a3ec5d97c039a6\"",
+  "index_last_modified": "Fri, 23 Oct 2026 22:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -106195,7 +106195,7 @@
       "repository_name": "HamzaYslmn/esp32-tunnel",
       "repository_url": "https://github.com/HamzaYslmn/esp32-tunnel",
       "name": "esp32-tunnel",
-      "version": "5.1.0",
+      "version": "5.3.0",
       "version_history": [
         {
           "version": "4.2.0",
@@ -106208,11 +106208,15 @@
         {
           "version": "5.1.0",
           "seen_at": "2026-10-23T20:02:41.189Z"
+        },
+        {
+          "version": "5.3.0",
+          "seen_at": "2026-10-23T22:02:29.855Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:32:20Z",
-      "last_seen_sha": "65a3eee1b89b",
+      "last_seen_sha": "9dee09c2b205",
       "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
@@ -106223,14 +106227,13 @@
         "esp8266"
       ],
       "depends": [
-        "espfetch",
         "ESP Async WebServer",
         "AsyncTCP",
         "ESPAsyncTCP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.1.0.zip",
-      "size": 50950,
-      "previous_version": "5.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.3.0.zip",
+      "size": 59221,
+      "previous_version": "5.1.0",
       "github_stars": 14,
       "github_forks": 5,
       "github_language": "C",
@@ -294338,7 +294341,7 @@
       "repository_name": "superdmz/SuperDMZ-Arduino",
       "repository_url": "https://github.com/superdmz/SuperDMZ-Arduino",
       "name": "SuperDMZ",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.1.14",
@@ -294347,11 +294350,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-07-04T19:26:57.049Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-10-23T22:02:29.855Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-16T09:43:53Z",
-      "last_seen_sha": "6b06ce10e788",
+      "last_seen_sha": "a47af3833f59",
       "author": "SuperDMZ Team <support@superdmz.com>",
       "maintainer": "SuperDMZ Team <support@superdmz.com>",
       "sentence": "Secure reverse tunnel for ESP32 - expose your IoT WebServer at https://your-host.dmzgate.com without a public IP or router port forwarding.",
@@ -294364,9 +294371,9 @@
         "WebSockets",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/superdmz/SuperDMZ-1.2.0.zip",
-      "size": 229709,
-      "previous_version": "1.1.14",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/superdmz/SuperDMZ-1.2.1.zip",
+      "size": 233046,
+      "previous_version": "1.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -334445,6 +334452,6 @@
     "total_categories": 78,
     "total_architectures": 163,
     "with_github_metadata": 10052,
-    "total_dependencies": 5615
+    "total_dependencies": 5614
   }
 }

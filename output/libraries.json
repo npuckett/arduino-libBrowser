@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-22T23:02:22.013Z",
-  "total_libraries": 10248,
-  "index_etag": "W/\"13a500b8d0216e948084c14973f99c55\"",
-  "index_last_modified": "Thu, 22 Oct 2026 23:00:18 GMT",
+  "enhanced_at": "2026-10-23T00:06:35.381Z",
+  "total_libraries": 10250,
+  "index_etag": "W/\"2604e59f7bcf832831458e01bd1bf5ad\"",
+  "index_last_modified": "Fri, 23 Oct 2026 00:00:31 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24344,7 +24344,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.200",
+      "version": "1.2.203",
       "version_history": [
         {
           "version": "1.2.18",
@@ -24829,11 +24829,15 @@
         {
           "version": "1.2.200",
           "seen_at": "2026-10-14T20:02:44.879Z"
+        },
+        {
+          "version": "1.2.203",
+          "seen_at": "2026-10-23T00:06:32.675Z"
         }
       ],
-      "release_count": 121,
+      "release_count": 122,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "7269cb98232f",
+      "last_seen_sha": "652919dca417",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -24854,9 +24858,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.200.zip",
-      "size": 44624371,
-      "previous_version": "1.2.199",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.203.zip",
+      "size": 44627545,
+      "previous_version": "1.2.200",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -50918,6 +50922,35 @@
       "github_updated_at": "2025-07-11T01:29:33Z"
     },
     {
+      "repository_name": "mauringo/arduino-bma580",
+      "repository_url": "https://github.com/mauringo/arduino-bma580",
+      "name": "BMA580",
+      "version": "1.1.1",
+      "version_history": [
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-23T00:06:32.675Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T00:06:32.675Z",
+      "last_seen_sha": "a789c19b4193",
+      "author": "mauringo",
+      "maintainer": "mauringo",
+      "sentence": "Arduino I2C driver for Bosch BMA580 using the official SensorAPI.",
+      "paragraph": "Acceleration, temperature, motion wake interrupt, data-ready polling and access to Bosch advanced APIs.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mauringo/BMA580-1.1.1.zip",
+      "size": 63847,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-22T20:06:39Z"
+    },
+    {
       "repository_name": "BestModules-Libraries/BMB22M181A",
       "repository_url": "https://github.com/BestModules-Libraries/BMB22M181A",
       "name": "BMB22M181A",
@@ -69447,6 +69480,42 @@
       "github_language": "C++",
       "github_updated_at": "2026-06-05T21:45:46Z",
       "download_url": "https://github.com/wk1093/CrossScheduler"
+    },
+    {
+      "repository_name": "placidanomaly/Crowpanel_2.1",
+      "repository_url": "https://github.com/placidanomaly/Crowpanel_2.1",
+      "name": "Crowpanel_2.1",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-23T00:06:32.675Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T00:06:32.675Z",
+      "last_seen_sha": "b0e99ffa84d8",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "lvgl",
+        "PCF8574 library",
+        "Adafruit CST8XX Library",
+        "GFX Library for Arduino",
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-1.0.1.zip",
+      "size": 1350749,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T22:29:17Z"
     },
     {
       "repository_name": "crozone-technology/crozone-veml6040",
@@ -334146,7 +334215,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10044,
-    "total_dependencies": 5612
+    "with_github_metadata": 10046,
+    "total_dependencies": 5617
   }
 }

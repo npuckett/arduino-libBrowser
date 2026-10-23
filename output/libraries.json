@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-23T17:02:23.788Z",
-  "total_libraries": 10254,
-  "index_etag": "W/\"1ceedd016e3fa3244d075559785def6d\"",
-  "index_last_modified": "Fri, 23 Oct 2026 17:00:21 GMT",
+  "enhanced_at": "2026-10-23T18:03:14.649Z",
+  "total_libraries": 10256,
+  "index_etag": "W/\"c718ec94366dd783910176b4ed167d65\"",
+  "index_last_modified": "Fri, 23 Oct 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -167186,6 +167186,93 @@
       "download_url": "https://github.com/MacroYau/LTC2942-Arduino-Library"
     },
     {
+      "repository_name": "RobTillaart/LTC2942_RT",
+      "repository_url": "https://github.com/RobTillaart/LTC2942_RT",
+      "name": "LTC2942_RT",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-23T18:03:09.377Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T18:03:09.377Z",
+      "last_seen_sha": "78c056f5af0f",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the LTC2942 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, temperature.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2942_RT-0.1.0.zip",
+      "size": 405904,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-23T11:45:52Z"
+    },
+    {
+      "repository_name": "RobTillaart/LTC2943",
+      "repository_url": "https://github.com/RobTillaart/LTC2943",
+      "name": "LTC2943",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-23T18:03:09.377Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T18:03:09.377Z",
+      "last_seen_sha": "c94f48e01ff4",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the LTC2943 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, current, temperature.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2943-0.1.0.zip",
+      "size": 247259,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-23T11:45:41Z"
+    },
+    {
+      "repository_name": "RobTillaart/LTC2944",
+      "repository_url": "https://github.com/RobTillaart/LTC2944",
+      "name": "LTC2944",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-23T18:03:09.377Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T18:03:09.377Z",
+      "last_seen_sha": "62e3dff6ff6a",
+      "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+      "sentence": "Arduino library for the LTC2944 battery charge and discharge (Coulomb) meter.",
+      "paragraph": "voltage, current, temperature.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2944-0.1.0.zip",
+      "size": 234297,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-23T11:45:38Z"
+    },
+    {
       "repository_name": "rleusden/LTC2944_BMS",
       "repository_url": "https://github.com/rleusden/LTC2944_BMS",
       "name": "LTC2944_BMS",
@@ -220305,7 +220392,7 @@
       "repository_name": "sekigon-gonnoc/Pico-PIO-USB",
       "repository_url": "https://github.com/sekigon-gonnoc/Pico-PIO-USB",
       "name": "Pico PIO USB",
-      "version": "0.7.2",
+      "version": "0.7.3",
       "version_history": [
         {
           "version": "0.7.2",
@@ -220314,11 +220401,15 @@
         {
           "version": "0.7.2",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.7.3",
+          "seen_at": "2026-10-23T18:03:09.377Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T08:46:12Z",
-      "last_seen_sha": "511fcfce99ef",
+      "last_seen_sha": "89283af07e10",
       "author": "sekigon-gonnoc",
       "maintainer": "sekigon-gonnoc",
       "sentence": "Pico PIO USB library for Arduino",
@@ -220330,13 +220421,13 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sekigon-gonnoc/Pico_PIO_USB-0.7.2.zip",
-      "size": 51523,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sekigon-gonnoc/Pico_PIO_USB-0.7.3.zip",
+      "size": 53215,
       "previous_version": "0.7.2",
       "github_stars": 1718,
       "github_forks": 209,
-      "github_updated_at": "2026-06-30T20:59:52Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-30T20:59:52Z"
     },
     {
       "repository_name": "bastian2001/pico-bidir-dshot",
@@ -248030,30 +248121,18 @@
       "github_updated_at": "2023-08-19T11:32:27Z"
     },
     {
-      "repository_name": "pin-node/RPUMachines",
-      "repository_url": "https://github.com/pin-node/RPUMachines",
+      "repository_name": "wifijt/RPUMachines",
+      "repository_url": "https://github.com/wifijt/RPUMachines",
       "name": "RPUMachines",
       "version": "0.3.6",
       "version_history": [
         {
-          "version": "0.3.0",
-          "seen_at": "2026-10-15T04:03:01.300Z"
-        },
-        {
-          "version": "0.3.1",
-          "seen_at": "2026-10-15T20:02:43.612Z"
-        },
-        {
-          "version": "0.3.2",
-          "seen_at": "2026-10-16T14:02:38.526Z"
-        },
-        {
           "version": "0.3.6",
-          "seen_at": "2026-10-16T16:02:57.001Z"
+          "seen_at": "2026-10-23T18:03:09.377Z"
         }
       ],
-      "release_count": 4,
-      "first_seen_at": "2026-10-15T04:03:01.300Z",
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T18:03:09.377Z",
       "last_seen_sha": "54a6ffb1a946",
       "author": "John Turner (wifijt) and contributors",
       "maintainer": "John Turner (wifijt)",
@@ -248063,13 +248142,12 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/RPUMachines-0.3.6.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wifijt/RPUMachines-0.3.6.zip",
       "size": 30186,
-      "previous_version": "0.3.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-10-15T02:15:22Z"
+      "github_updated_at": "2026-10-16T15:11:36Z"
     },
     {
       "repository_name": "lbernstone/rrdtool_ESP32",
@@ -252305,39 +252383,6 @@
       "download_url": "https://github.com/mmercalde/SchneiderModbusTCP"
     },
     {
-      "repository_name": "h3pereu/SchoolLib",
-      "repository_url": "https://github.com/h3pereu/SchoolLib",
-      "name": "SchoolLib",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-10-13T10:04:29.763Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-13T10:04:29.763Z",
-      "last_seen_sha": "5655f9dedb2b",
-      "author": "Dominik",
-      "maintainer": "Dominik",
-      "sentence": "Skolni knihovna: tlacitko s odskokem, hraci kostka, teplomer DS18B20 a termostat.",
-      "paragraph": "Obsahuje tridy Tlacitko, Kostka, Teplomer a Termostat. Priklady (Kostka, Termostat) navic potrebuji knihovnu LiquidTWI2 pro I2C displej.",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "depends": [
-        "OneWire",
-        "DallasTemperature"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/h3pereu/SchoolLib-1.0.1.zip",
-      "size": 10401,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-13T07:05:45Z"
-    },
-    {
       "repository_name": "SchooMyDevelopment/SchooMyUtilities",
       "repository_url": "https://github.com/SchooMyDevelopment/SchooMyUtilities",
       "name": "SchooMyUtilities",
@@ -253425,7 +253470,7 @@
       "repository_name": "EnviroDIY/Arduino-SDI-12",
       "repository_url": "https://github.com/EnviroDIY/Arduino-SDI-12",
       "name": "SDI-12",
-      "version": "2.4.0",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "2.3.2",
@@ -253442,11 +253487,15 @@
         {
           "version": "2.4.0",
           "seen_at": "2026-10-21T18:03:17.124Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-10-23T18:03:09.377Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-18T08:38:12Z",
-      "last_seen_sha": "e259a60746ff",
+      "last_seen_sha": "157561dcf6e3",
       "author": "Kevin M. Smith <Kevin@elite-education.org>, Shannon Hicks <shicks@stroudcenter.org>",
       "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
       "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
@@ -253460,9 +253509,9 @@
         "esp32",
         "mbed_giga"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-2.4.0.zip",
-      "size": 3077799,
-      "previous_version": "2.3.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-2.5.0.zip",
+      "size": 3079647,
+      "previous_version": "2.4.0",
       "github_stars": 186,
       "github_forks": 102,
       "github_language": "C++",
@@ -334391,7 +334440,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10050,
-    "total_dependencies": 5617
+    "with_github_metadata": 10052,
+    "total_dependencies": 5615
   }
 }

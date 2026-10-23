@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-23T13:03:12.199Z",
+  "enhanced_at": "2026-10-23T14:02:51.970Z",
   "total_libraries": 10254,
-  "index_etag": "W/\"102d66e84783ba1fda5fbb94cee325f2\"",
-  "index_last_modified": "Fri, 23 Oct 2026 13:00:18 GMT",
+  "index_etag": "W/\"1ceedd016e3fa3244d075559785def6d\"",
+  "index_last_modified": "Fri, 23 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -26658,7 +26658,7 @@
       "repository_name": "apadevices/APADOSE",
       "repository_url": "https://github.com/apadevices/APADOSE",
       "name": "APA-Dose",
-      "version": "3.18.2",
+      "version": "3.19.0",
       "version_history": [
         {
           "version": "3.17.3",
@@ -26691,11 +26691,15 @@
         {
           "version": "3.18.2",
           "seen_at": "2026-10-10T16:03:04.187Z"
+        },
+        {
+          "version": "3.19.0",
+          "seen_at": "2026-10-23T14:02:51.834Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-02T08:30:41Z",
-      "last_seen_sha": "129ad5084e23",
+      "last_seen_sha": "ff3135d9caac",
       "author": "APADevices <kecup@vazac.eu>",
       "maintainer": "APADevices <kecup@vazac.eu>",
       "sentence": "Autonomous proportional chemical dosing for swimming pool pH and ORP control.",
@@ -26704,9 +26708,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.18.2.zip",
-      "size": 304181,
-      "previous_version": "3.18.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/apadevices/APA_Dose-3.19.0.zip",
+      "size": 306002,
+      "previous_version": "3.18.2",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
@@ -152469,16 +152473,20 @@
       "repository_name": "JW-Control/JW_FRAM",
       "repository_url": "https://github.com/JW-Control/JW_FRAM",
       "name": "JW_FRAM",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-04-25T07:34:42Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-10-23T14:02:51.834Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-25T07:34:42Z",
-      "last_seen_sha": "74c1fe5a848f",
+      "last_seen_sha": "33f50bd0766f",
       "author": "JW Control",
       "maintainer": "JW Control",
       "sentence": "Libreria SPI FRAM con API estilo EEPROM para ESP32.",
@@ -152487,14 +152495,16 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-04-25T02:29:38Z",
       "depends": [
         "Adafruit BusIO"
       ],
-      "download_url": "https://github.com/JW-Control/JW_FRAM"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JW-Control/JW_FRAM-1.0.3.zip",
+      "size": 15941,
+      "previous_version": "1.0.2",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-04-25T02:29:38Z"
     },
     {
       "repository_name": "JW-Control/JW_MatrixButtons",
@@ -211093,7 +211103,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.37",
+      "version": "0.0.38",
       "version_history": [
         {
           "version": "0.0.2",
@@ -211194,11 +211204,15 @@
         {
           "version": "0.0.37",
           "seen_at": "2026-10-22T12:03:51.327Z"
+        },
+        {
+          "version": "0.0.38",
+          "seen_at": "2026-10-23T14:02:51.834Z"
         }
       ],
-      "release_count": 25,
+      "release_count": 26,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "3e8e638368d0",
+      "last_seen_sha": "c21e8366db0a",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -211207,9 +211221,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.37.zip",
-      "size": 949076,
-      "previous_version": "0.0.36",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.38.zip",
+      "size": 950317,
+      "previous_version": "0.0.37",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -241448,7 +241462,7 @@
       "repository_name": "TMRh20/RF24Network",
       "repository_url": "https://github.com/TMRh20/RF24Network",
       "name": "RF24Network",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "2.1.1",
@@ -241461,11 +241475,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-09-12T08:03:05.540Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-10-23T14:02:51.834Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T08:50:59Z",
-      "last_seen_sha": "d2c508dbfd9f",
+      "last_seen_sha": "56a3f352e62d",
       "author": "TMRh20",
       "maintainer": "TMRh20,Avamander",
       "sentence": "OSI Layer 3 Networking for nrf24L01(+) & nrf52x devices.",
@@ -241478,9 +241496,9 @@
         "RF24",
         "nrf_to_nrf"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.2.0.zip",
-      "size": 1556452,
-      "previous_version": "2.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.2.1.zip",
+      "size": 1556544,
+      "previous_version": "2.2.0",
       "github_stars": 384,
       "github_forks": 173,
       "github_language": "C++",

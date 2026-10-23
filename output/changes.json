@@ -1,6 +1,123 @@
 {
-  "since": "2026-10-23T03:03:08.577Z",
-  "new_libraries": [],
+  "since": "2026-10-23T04:03:03.876Z",
+  "new_libraries": [
+    {
+      "repository_name": "bonezegei/Bonezegei_MAX7219",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_MAX7219",
+      "name": "Bonezegei_MAX7219",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-23T04:03:03.876Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T04:03:03.876Z",
+      "last_seen_sha": "ade5313420a5",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for MAX7219 LED matrix displays with support for cascading, custom icons, and running text.",
+      "paragraph": "Supports Hardware SPI and Software SPI bit-banging, dynamic cascading of multiple 8x8 matrices, drawing primitives, icons, 5x7 ASCII font rendering, and scrolling text animations.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_MAX7219-1.0.0.zip",
+      "size": 8755,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T17:25:06Z"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_NeuralNet",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_NeuralNet",
+      "name": "Bonezegei_NeuralNet",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-23T04:03:03.876Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T04:03:03.876Z",
+      "last_seen_sha": "f86d6fececd5",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Neural Network (demo)",
+      "paragraph": "Simple Neural Network for Microcontrollers",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_NeuralNet-0.1.0.zip",
+      "size": 17063,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-23T00:36:03Z"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_SX1278",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_SX1278",
+      "name": "Bonezegei_SX1278",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-23T04:03:03.876Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T04:03:03.876Z",
+      "last_seen_sha": "e09bbb7821c4",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino library for the SX1278 LoRa module with protocol-ready hooks.",
+      "paragraph": "A lightweight and modular driver for the SX1278 LoRa module supporting SPI communication, raw frame transmission, RSSI/SNR monitoring, non-blocking callback hooks, and frame header extensions for mesh networking protocols.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_SX1278-1.0.0.zip",
+      "size": 15109,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T18:22:09Z"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_VL53L0",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_VL53L0",
+      "name": "Bonezegei_VL53L0",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-23T04:03:03.876Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-23T04:03:03.876Z",
+      "last_seen_sha": "d6319fdf4907",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Arduino Library for VL53L0X Time-of-Flight (ToF) Distance Sensor.",
+      "paragraph": "Provides I2C communication and distance measurement functions for the STMicroelectronics VL53L0X sensor.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_VL53L0-1.0.0.zip",
+      "size": 5179,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T17:18:31Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

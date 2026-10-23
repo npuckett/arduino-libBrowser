@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-23T07:08:41.899Z",
+  "enhanced_at": "2026-10-23T08:03:21.066Z",
   "total_libraries": 10254,
-  "index_etag": "W/\"6da6064abe3cc8ba0191e636100ee772\"",
-  "index_last_modified": "Fri, 23 Oct 2026 07:00:18 GMT",
+  "index_etag": "W/\"4b3809dd6ce5d06e3f720c507c8ac175\"",
+  "index_last_modified": "Fri, 23 Oct 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -131234,26 +131234,31 @@
       "repository_name": "ebm9991/Seeed_ICM20600_AK09918_UNOR4",
       "repository_url": "https://github.com/ebm9991/Seeed_ICM20600_AK09918_UNOR4",
       "name": "Grove IMU 9DOF ICM20600 AK09918 UNO R4",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-12T18:03:06.509Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-23T08:03:20.926Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-12T18:03:06.509Z",
-      "last_seen_sha": "aac67b23fcc4",
-      "author": "Seeed Studio, Mourad",
-      "maintainer": "Mourad",
+      "last_seen_sha": "9c27835ff7d7",
+      "author": "Seeed Studio, ebm",
+      "maintainer": "ebm",
       "sentence": "Arduino library for Grove - IMU 9DOF (ICM20600 + AK09918).",
       "paragraph": "Based on the original Seeed Studio library, with an I2C compatibility fix for Arduino UNO R4. No sensor API or algorithm changes.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.0.zip",
-      "size": 26823,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ebm9991/Grove_IMU_9DOF_ICM20600_AK09918_UNO_R4-1.0.1.zip",
+      "size": 26821,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

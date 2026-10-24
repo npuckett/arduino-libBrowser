@@ -1,6 +1,63 @@
 {
-  "since": "2026-10-23T23:02:33.031Z",
+  "since": "2026-10-24T00:05:59.769Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "adafruit/Adafruit_DAP",
+        "repository_url": "https://github.com/adafruit/Adafruit_DAP",
+        "name": "Adafruit DAP library",
+        "version": "1.9.0",
+        "version_history": [
+          {
+            "version": "1.8.3",
+            "seen_at": "2025-07-21T16:05:26Z"
+          },
+          {
+            "version": "1.8.3",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.8.4",
+            "seen_at": "2026-08-18T20:02:51.983Z"
+          },
+          {
+            "version": "1.8.5",
+            "seen_at": "2026-10-22T16:03:02.551Z"
+          },
+          {
+            "version": "1.9.0",
+            "seen_at": "2026-10-24T00:05:59.769Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-07-21T16:05:26Z",
+        "last_seen_sha": "4b25094c17a7",
+        "author": "Adafruit",
+        "maintainer": "Adafruit <info@adafruit.com>",
+        "sentence": "Arduino library for DAP programming on ARM cortex microcontroller",
+        "paragraph": "Arduino library for DAP programming on ARM cortex microcontroller",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit SPIFlash",
+          "SdFat - Adafruit Fork",
+          "Adafruit TinyUSB Library",
+          "SD"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_DAP_library-1.9.0.zip",
+        "size": 1564395,
+        "previous_version": "1.8.5",
+        "github_stars": 80,
+        "github_forks": 28,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-11T02:02:26Z"
+      },
+      "old_version": "1.8.5",
+      "new_version": "1.9.0"
+    }
+  ],
   "removed_libraries": []
 }

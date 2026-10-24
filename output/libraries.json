@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-24T09:02:35.291Z",
+  "enhanced_at": "2026-10-24T10:02:33.216Z",
   "total_libraries": 10258,
-  "index_etag": "W/\"c517d7592287427916cfd1e5c93876e7\"",
-  "index_last_modified": "Sat, 24 Oct 2026 09:00:18 GMT",
+  "index_etag": "W/\"7487d9cfa8c2cc06317a0f6de3deec1a\"",
+  "index_last_modified": "Sat, 24 Oct 2026 10:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73704,26 +73704,32 @@
       "repository_name": "BOBILLEChristophe/DCC-LocoAddr",
       "repository_url": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
       "name": "DCC-LocoAddr",
-      "version": "5.0.1",
+      "version": "5.1.0",
       "version_history": [
         {
           "version": "5.0.1",
           "seen_at": "2026-10-21T22:02:28.016Z"
+        },
+        {
+          "version": "5.1.0",
+          "seen_at": "2026-10-24T10:02:33.074Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-21T22:02:28.016Z",
-      "last_seen_sha": "1e2f99f4fae6",
+      "last_seen_sha": "d982f4e83741",
       "author": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
       "maintainer": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
-      "sentence": "Reads DCC locomotive addresses from bidirectional track feedback using ESP32 hardware UART.",
-      "paragraph": "Supports short, long and consist addresses, optional physical orientation sensing, multiple detectors, statistics and event-driven reception through the ESP-IDF UART driver.",
+      "sentence": "Lecture de l'adresse DCC des locomotives (décodeurs compatibles RailCom) et du sens de pose, avec un détecteur Locoduino LocoAddr v3.1, sur ESP32 ou Raspberry Pi Pico.",
+      "paragraph": "Réception à 250 kbit/s (UART matériel ou PIO), découpage par cutout, décodage 4/8 du canal 1, adresses courtes, longues et de consist, validation et détection de perte, lecture de la sortie DIR (option sens de pose). Plusieurs détecteurs : 2 ou 3 par ESP32, jusqu'à 10 par Raspberry Pi Pico (UART et PIO).",
       "category": "Communication",
       "architectures": [
-        "esp32"
+        "esp32",
+        "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.0.1.zip",
-      "size": 6681962,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.1.0.zip",
+      "size": 6700799,
+      "previous_version": "5.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -154561,16 +154567,20 @@
       "repository_name": "Kiwistron/KiwisIoT",
       "repository_url": "https://github.com/Kiwistron/KiwisIoT",
       "name": "KiwisIoT",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-03-05T08:02:11Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-24T10:02:33.074Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-05T08:02:11Z",
-      "last_seen_sha": "cc85cd82d55f",
+      "last_seen_sha": "be5a442d6352",
       "author": "Mugeshwaran R",
       "maintainer": "Mugeshwaran R <info@kiwisiot.com>",
       "sentence": "Simple MQTT IoT library for ESP8266 and ESP32",
@@ -154580,14 +154590,16 @@
         "esp8266",
         "esp32"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-03-04T12:17:18Z",
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://github.com/Kiwistron/KiwisIoT"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Kiwistron/KiwisIoT-1.1.1.zip",
+      "size": 8262,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-03-04T12:17:18Z"
     },
     {
       "repository_name": "kay-bs/KK-Buffer",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-24T17:02:28.349Z",
-  "total_libraries": 10263,
-  "index_etag": "W/\"3d6939b4515b460a8de8952db7f5d774\"",
-  "index_last_modified": "Sat, 24 Oct 2026 17:00:18 GMT",
+  "enhanced_at": "2026-10-24T18:02:45.518Z",
+  "total_libraries": 10264,
+  "index_etag": "W/\"ded73a3447d61a255e67f8619994e4ce\"",
+  "index_last_modified": "Sat, 24 Oct 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -158360,6 +158360,33 @@
       "size": 5510
     },
     {
+      "repository_name": "ania-7abc/Lcd2004",
+      "repository_url": "https://github.com/ania-7abc/Lcd2004",
+      "name": "Lcd2004",
+      "version": "2.3.5",
+      "version_history": [
+        {
+          "version": "2.3.5",
+          "seen_at": "2026-10-24T18:02:44.092Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-24T18:02:44.092Z",
+      "last_seen_sha": "bf2e03702d2f",
+      "author": "ania_7",
+      "maintainer": "ania_7 <ania_7@inbox.ru>",
+      "sentence": "A clear, lightweight library for liquid crystal displays that is easy to set up",
+      "paragraph": "Supports 4/8-bit parallel and I2C (PCF8574), virtual custom chars (Lcd2004xs), Cyrillic/UTF-8 (Lcd2004ru), and simple graphics via GyverGFX (Lcd2004gfx). Tunable via compile-time macros for low memory.",
+      "category": "Display",
+      "architectures": [],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ania-7abc/Lcd2004-2.3.5.zip",
+      "size": 43580,
+      "github_stars": 8,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-24T13:57:01Z"
+    },
+    {
       "repository_name": "VanSilver/LCD595",
       "repository_url": "https://github.com/VanSilver/LCD595",
       "name": "LCD595",
@@ -297438,7 +297465,7 @@
       "repository_name": "vvb333007/tarfs",
       "repository_url": "https://github.com/vvb333007/tarfs",
       "name": "tarfs",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "version_history": [
         {
           "version": "0.1.0",
@@ -297467,11 +297494,15 @@
         {
           "version": "0.1.6",
           "seen_at": "2026-08-23T16:03:21.604Z"
+        },
+        {
+          "version": "0.1.7",
+          "seen_at": "2026-10-24T18:02:44.092Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-07-14T22:18:23.703Z",
-      "last_seen_sha": "c6ebadd34931",
+      "last_seen_sha": "34f24b69cdb4",
       "author": "Viacheslav Logunov <vvb333007@gmail.com>",
       "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
       "sentence": "High-performance immutable TAR filesystem for ESP32 with mmap().",
@@ -297481,9 +297512,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.6.zip",
-      "size": 651814,
-      "previous_version": "0.1.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/tarfs-0.1.7.zip",
+      "size": 652140,
+      "previous_version": "0.1.6",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C",
@@ -334721,7 +334752,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10059,
+    "with_github_metadata": 10060,
     "total_dependencies": 5618
   }
 }

@@ -1,6 +1,262 @@
 {
-  "since": "2026-10-24T13:02:29.899Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-24T14:02:35.622Z",
+  "new_libraries": [
+    {
+      "repository_name": "mumanchu/QMC5883PMagnetometer",
+      "repository_url": "https://github.com/mumanchu/QMC5883PMagnetometer",
+      "name": "QMC5883PMagnetometer",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-10-24T14:02:35.622Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-24T14:02:35.622Z",
+      "last_seen_sha": "f7b3651f0a4e",
+      "author": "mumanchu",
+      "maintainer": "mumanchu <info@muman.ch>",
+      "sentence": "Arduino Library for QMC5883P 3-Axis Magnetometer",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/QMC5883PMagnetometer-0.0.1.zip",
+      "size": 332503,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-24T13:22:25Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "rkubera/ArdPortal",
+        "repository_url": "https://github.com/rkubera/ArdPortal",
+        "name": "ArdPortal",
+        "version": "0.8.2",
+        "version_history": [
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-10-20T16:03:03.753Z"
+          },
+          {
+            "version": "0.8.1",
+            "seen_at": "2026-10-22T10:02:24.538Z"
+          },
+          {
+            "version": "0.8.2",
+            "seen_at": "2026-10-24T14:02:35.622Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-20T16:03:03.753Z",
+        "last_seen_sha": "4656f8caab94",
+        "author": "Radoslaw Kubera (rkubera on GitHub)",
+        "maintainer": "Radoslaw Kubera",
+        "sentence": "Modular ESP portal with MQTT, Home Assistant and native Zigbee integration.",
+        "paragraph": "JSON-defined controls, WiFi/AP setup, MQTT with verified TLS and Home Assistant Discovery, optional native Zigbee End Device/Router on ESP32-C5/C6/H2, Zigbee2MQTT converter and ZHA quirk export, HTTP/Zigbee OTA and diagnostics. Includes ArdFS persistent storage and ArdJSON; networking modules can be excluded at compile time. Uses the ESP Arduino core without external runtime libraries.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rkubera/ArdPortal-0.8.2.zip",
+        "size": 8261680,
+        "previous_version": "0.8.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-20T13:39:46Z"
+      },
+      "old_version": "0.8.1",
+      "new_version": "0.8.2"
+    },
+    {
+      "library": {
+        "repository_name": "autoconnecto/autoconnecto-sdk",
+        "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
+        "name": "AutoconnectoSDK",
+        "version": "1.7.76",
+        "version_history": [
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-06-01T08:49:25Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-07-29T16:28:04.217Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-09-21T16:02:57.175Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-25T06:04:35.802Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          },
+          {
+            "version": "1.6.1",
+            "seen_at": "2026-10-05T12:04:34.017Z"
+          },
+          {
+            "version": "1.6.2",
+            "seen_at": "2026-10-07T12:04:29.113Z"
+          },
+          {
+            "version": "1.7.31",
+            "seen_at": "2026-10-14T20:02:44.879Z"
+          },
+          {
+            "version": "1.7.32",
+            "seen_at": "2026-10-15T06:04:41.362Z"
+          },
+          {
+            "version": "1.7.54",
+            "seen_at": "2026-10-19T18:03:42.950Z"
+          },
+          {
+            "version": "1.7.56",
+            "seen_at": "2026-10-20T16:03:03.753Z"
+          },
+          {
+            "version": "1.7.57",
+            "seen_at": "2026-10-21T04:02:49.302Z"
+          },
+          {
+            "version": "1.7.58",
+            "seen_at": "2026-10-21T06:04:01.668Z"
+          },
+          {
+            "version": "1.7.59",
+            "seen_at": "2026-10-21T12:03:41.002Z"
+          },
+          {
+            "version": "1.7.61",
+            "seen_at": "2026-10-21T14:03:01.109Z"
+          },
+          {
+            "version": "1.7.62",
+            "seen_at": "2026-10-21T16:02:37.261Z"
+          },
+          {
+            "version": "1.7.63",
+            "seen_at": "2026-10-21T18:03:17.124Z"
+          },
+          {
+            "version": "1.7.64",
+            "seen_at": "2026-10-21T20:02:40.883Z"
+          },
+          {
+            "version": "1.7.65",
+            "seen_at": "2026-10-22T06:04:23.366Z"
+          },
+          {
+            "version": "1.7.66",
+            "seen_at": "2026-10-22T10:02:24.538Z"
+          },
+          {
+            "version": "1.7.68",
+            "seen_at": "2026-10-22T14:02:55.831Z"
+          },
+          {
+            "version": "1.7.72",
+            "seen_at": "2026-10-23T10:02:26.813Z"
+          },
+          {
+            "version": "1.7.73",
+            "seen_at": "2026-10-23T12:03:45.596Z"
+          },
+          {
+            "version": "1.7.74",
+            "seen_at": "2026-10-24T12:03:22.155Z"
+          },
+          {
+            "version": "1.7.76",
+            "seen_at": "2026-10-24T14:02:35.622Z"
+          }
+        ],
+        "release_count": 26,
+        "first_seen_at": "2026-06-01T08:49:25Z",
+        "last_seen_sha": "08d9d719602a",
+        "author": "Autoconnecto",
+        "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
+        "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+        "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.76.zip",
+        "size": 229726,
+        "previous_version": "1.7.74",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-30T13:43:09Z"
+      },
+      "old_version": "1.7.74",
+      "new_version": "1.7.76"
+    },
+    {
+      "library": {
+        "repository_name": "mediocre9/voyager-ota-client",
+        "repository_url": "https://github.com/mediocre9/voyager-ota-client",
+        "name": "Voyager-OTA-Client",
+        "version": "5.1.0",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-06-29T08:38:34Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-10-24T14:02:35.622Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-29T08:38:34Z",
+        "last_seen_sha": "72b7322d1f3c",
+        "author": "Fahad Zia Khan - Mediocre9",
+        "maintainer": "Fahad Zia Khan - Mediocre9",
+        "sentence": "ESP32 Remote OTA library with semver, GitHub updates, VoyagerOTA, and custom JSON support.",
+        "paragraph": "A SemVer based OTA client library. Supports GitHub releases, VoyagerOTA platform, and any custom JSON backend via custom parsers.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mediocre9/Voyager_OTA_Client-5.1.0.zip",
+        "size": 18654,
+        "previous_version": "5.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-27T20:25:47Z"
+      },
+      "old_version": "5.0.0",
+      "new_version": "5.1.0"
+    }
+  ],
   "removed_libraries": []
 }

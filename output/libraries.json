@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-24T21:02:27.248Z",
+  "enhanced_at": "2026-10-24T22:02:35.163Z",
   "total_libraries": 10264,
-  "index_etag": "W/\"a9c593958a30017183acfcc8ed5b3295\"",
-  "index_last_modified": "Sat, 24 Oct 2026 21:00:18 GMT",
+  "index_etag": "W/\"7bccc42b0baa0160c4a3d1ae9d26b0ff\"",
+  "index_last_modified": "Sat, 24 Oct 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -118062,16 +118062,20 @@
       "repository_name": "srwi/FastLEDHub",
       "repository_url": "https://github.com/srwi/FastLEDHub",
       "name": "FastLEDHub",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.2.0",
           "seen_at": "2026-06-24T08:38:23Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-10-24T22:02:35.032Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-24T08:38:23Z",
-      "last_seen_sha": "99096b05b2cd",
+      "last_seen_sha": "290682940c51",
       "author": "Stephan Rumswinkel",
       "maintainer": "Stephan Rumswinkel",
       "sentence": "Control multiple FastLED lightstrip animations on the ESP8266 and ESP32 without reuploading.",
@@ -118081,19 +118085,22 @@
         "esp8266",
         "esp32"
       ],
-      "github_stars": 67,
-      "github_forks": 4,
-      "github_updated_at": "2026-06-24T05:50:34Z",
       "depends": [
         "WiFiManager",
         "ESPEssentials",
         "ArduinoJson",
         "LinkedList",
         "FastLED",
-        "WebSockets"
+        "WebSockets",
+        "PubSubClient"
       ],
-      "download_url": "https://github.com/srwi/FastLEDHub.git",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/srwi/FastLEDHub-2.3.0.zip",
+      "size": 67350,
+      "previous_version": "2.2.0",
+      "github_stars": 67,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-24T05:50:34Z"
     },
     {
       "repository_name": "hideakitai/FastLEDManager",
@@ -334753,6 +334760,6 @@
     "total_categories": 78,
     "total_architectures": 163,
     "with_github_metadata": 10060,
-    "total_dependencies": 5618
+    "total_dependencies": 5619
   }
 }

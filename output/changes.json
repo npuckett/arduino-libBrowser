@@ -1,6 +1,50 @@
 {
-  "since": "2026-10-25T01:17:55.750Z",
+  "since": "2026-10-25T02:05:08.926Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "killer0071234/esp_abus",
+        "repository_url": "https://github.com/killer0071234/esp_abus",
+        "name": "esp_abus",
+        "version": "0.1.0",
+        "version_history": [
+          {
+            "version": "0.0.6",
+            "seen_at": "2025-07-21T16:19:02Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-10-25T00:06:42.695Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-25T02:05:08.926Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:19:02Z",
+        "last_seen_sha": "b76c753b3cd7",
+        "author": "Daniel Gangl",
+        "maintainer": "Daniel Gangl <killer007@gmx.at>",
+        "sentence": "ABUS Socket Communication library for PLCs (Cybro-2 and Cybro-3) from Cybrotech and ESP32 / ESP8266 over WiFi",
+        "paragraph": "It uses the UDP-Protocol to communicate to the PLC with so called ABUS Sockets. For the communication you need to specify at least one abus socket in the PLC program (for using the examples you can specify a new socket in the CyPro Environment with the following configuration: socket id 3, one bool tag, one integer tag, one long tag and one real tag). You can add up to 32 receive sockets with callbacks in the ESP program.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/killer0071234/esp_abus-0.1.0.zip",
+        "size": 22172,
+        "previous_version": "0.0.7",
+        "github_stars": 0,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2022-08-16T22:03:49Z"
+      },
+      "old_version": "0.0.7",
+      "new_version": "0.1.0"
+    }
+  ],
   "removed_libraries": []
 }

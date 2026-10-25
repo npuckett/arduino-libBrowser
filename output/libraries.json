@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-25T15:02:16.372Z",
-  "total_libraries": 10267,
-  "index_etag": "W/\"38e4e8c283f38ea57106310c4db111e9\"",
-  "index_last_modified": "Sun, 25 Oct 2026 15:00:17 GMT",
+  "enhanced_at": "2026-10-25T16:02:22.619Z",
+  "total_libraries": 10268,
+  "index_etag": "W/\"ccea5170b79779ccdce0ecf471018b14\"",
+  "index_last_modified": "Sun, 25 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -92916,6 +92916,35 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "thegraywaver/EasyMatter",
+      "repository_url": "https://github.com/thegraywaver/EasyMatter",
+      "name": "EasyMatter",
+      "version": "0.3.2",
+      "version_history": [
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-10-25T16:02:21.240Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-25T16:02:21.240Z",
+      "last_seen_sha": "870641833ead",
+      "author": "EasyMatter contributors",
+      "maintainer": "EasyMatter contributors",
+      "sentence": "A small Arduino API over Espressif's official Matter endpoints.",
+      "paragraph": "ESP32 Matter library with lights, sensors, controls, and a Generic Switch doorbell button profile.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/thegraywaver/EasyMatter-0.3.2.zip",
+      "size": 32649,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-25T14:59:48Z"
+    },
+    {
       "repository_name": "habuenav/easyMenu",
       "repository_url": "https://github.com/habuenav/easyMenu",
       "name": "easyMenu",
@@ -165535,7 +165564,7 @@
       "repository_name": "RobTillaart/Logic",
       "repository_url": "https://github.com/RobTillaart/Logic",
       "name": "logic",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -165544,22 +165573,26 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-25T16:02:21.240Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:25:08Z",
-      "last_seen_sha": "5f893b4c1e10",
+      "last_seen_sha": "c38b498a5814",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for evaluation of larger logic conditions.",
       "paragraph": "AND NAND OR NOR XOR XNOR TRUE FALSE",
-      "category": "Sensors",
+      "category": "Data Processing",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/logic-0.1.1.zip",
-      "size": 11184,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/logic-0.2.0.zip",
+      "size": 15554,
+      "previous_version": "0.1.1",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
@@ -167443,16 +167476,20 @@
       "repository_name": "RobTillaart/LTC2941",
       "repository_url": "https://github.com/RobTillaart/LTC2941",
       "name": "LTC2941",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-10-18T12:03:02.334Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-10-25T16:02:21.240Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-18T12:03:02.334Z",
-      "last_seen_sha": "87677920a9ba",
+      "last_seen_sha": "df375ced41f9",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for the LTC2941 battery charge and discharge (Coulomb) meter.",
@@ -167460,8 +167497,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2941-0.1.0.zip",
-      "size": 210418,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/LTC2941-0.1.1.zip",
+      "size": 214826,
+      "previous_version": "0.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -188102,16 +188140,20 @@
       "repository_name": "SerhiiLe/microTelegramAPI",
       "repository_url": "https://github.com/SerhiiLe/microTelegramAPI",
       "name": "microTelegramAPI",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-05-20T08:55:02Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-25T16:02:21.240Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-20T08:55:02Z",
-      "last_seen_sha": "3e52f1c79aad",
+      "last_seen_sha": "d57c51f42e57",
       "author": "Serhii Lebedenko",
       "maintainer": "Serhii Lebedenko (slebedenko@gmail.com)",
       "sentence": "A simple library implementing basic Telegram API functions.",
@@ -188120,14 +188162,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-28T05:04:34Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/SerhiiLe/microTelegramAPI"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/microTelegramAPI-1.2.0.zip",
+      "size": 43211,
+      "previous_version": "1.1.1",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-28T05:04:34Z"
     },
     {
       "repository_name": "johnosbb/MicroTFLite",
@@ -205832,7 +205876,7 @@
       "repository_name": "h2zero/NimBLE-Arduino",
       "repository_url": "https://github.com/h2zero/NimBLE-Arduino",
       "name": "NimBLE-Arduino",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "version_history": [
         {
           "version": "3.0.0-dev",
@@ -205845,11 +205889,15 @@
         {
           "version": "2.5.1",
           "seen_at": "2026-07-30T04:05:49.468Z"
+        },
+        {
+          "version": "2.5.2",
+          "seen_at": "2026-10-25T16:02:21.240Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T08:55:34Z",
-      "last_seen_sha": "abe5d468e310",
+      "last_seen_sha": "e50a50783950",
       "author": "h2zero",
       "maintainer": "Ryan Powell <ryan@nable-embedded.io>",
       "sentence": "Bluetooth low energy (BLE) library for Arduino based on NimBLE.",
@@ -205859,9 +205907,9 @@
         "esp32",
         "arm-ble"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.1.zip",
-      "size": 1590872,
-      "previous_version": "2.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.2.zip",
+      "size": 1591278,
+      "previous_version": "2.5.1",
       "github_stars": 1086,
       "github_forks": 211,
       "github_language": "C",
@@ -334897,7 +334945,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10063,
+    "with_github_metadata": 10064,
     "total_dependencies": 5619
   }
 }

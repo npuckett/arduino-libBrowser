@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-25T13:02:11.484Z",
-  "total_libraries": 10266,
-  "index_etag": "W/\"ed1c0186d26e60d9b34bc94fec3aeae4\"",
-  "index_last_modified": "Sun, 25 Oct 2026 13:00:17 GMT",
+  "enhanced_at": "2026-10-25T14:02:40.452Z",
+  "total_libraries": 10267,
+  "index_etag": "W/\"38e4e8c283f38ea57106310c4db111e9\"",
+  "index_last_modified": "Sun, 25 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -151400,7 +151400,7 @@
       "repository_name": "juanjomartinf/JMBase",
       "repository_url": "https://github.com/juanjomartinf/JMBase",
       "name": "JMBase",
-      "version": "1.8.4",
+      "version": "1.8.5",
       "version_history": [
         {
           "version": "1.8.2",
@@ -151413,11 +151413,15 @@
         {
           "version": "1.8.4",
           "seen_at": "2026-10-24T08:02:59.708Z"
+        },
+        {
+          "version": "1.8.5",
+          "seen_at": "2026-10-25T14:02:39.048Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-22T09:02:42Z",
-      "last_seen_sha": "08848eaf8df3",
+      "last_seen_sha": "db8247c06a28",
       "author": "Juanjo Martín",
       "maintainer": "Juanjo Martín",
       "sentence": "Librería modular con funciones comunes, WiFi y MQTT para ESP32/ESP8266.",
@@ -151430,9 +151434,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/juanjomartinf/JMBase-1.8.4.zip",
-      "size": 6092,
-      "previous_version": "1.8.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/juanjomartinf/JMBase-1.8.5.zip",
+      "size": 7567,
+      "previous_version": "1.8.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -194243,6 +194247,35 @@
       "github_forks": 2,
       "github_language": "C++",
       "github_updated_at": "2025-12-15T20:15:55Z"
+    },
+    {
+      "repository_name": "code-hoysala/MotorShield",
+      "repository_url": "https://github.com/code-hoysala/MotorShield",
+      "name": "MotorShield",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-25T14:02:39.048Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-25T14:02:39.048Z",
+      "last_seen_sha": "588e90efdd41",
+      "author": "code-hoysala",
+      "maintainer": "code-hoysala <shashankhoysala04@outlook.com>",
+      "sentence": "Lightweight non-blocking driver library for L293D Motor Shields.",
+      "paragraph": "Controls DC motors and stepper motors using the L293D shield with direct PWM control and zero memory overhead.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/MotorShield-1.0.1.zip",
+      "size": 3977,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-25T10:22:45Z"
     },
     {
       "repository_name": "GewoonGijs/VID28",
@@ -334864,7 +334897,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10062,
+    "with_github_metadata": 10063,
     "total_dependencies": 5619
   }
 }

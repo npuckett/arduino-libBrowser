@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-25T09:02:30.150Z",
-  "total_libraries": 10264,
-  "index_etag": "W/\"18e73612039f5f73b9b8605cb33fdf8b\"",
-  "index_last_modified": "Sun, 25 Oct 2026 09:00:18 GMT",
+  "enhanced_at": "2026-10-25T10:02:39.095Z",
+  "total_libraries": 10265,
+  "index_etag": "W/\"0649c4d450a11db3b064b411da9ece56\"",
+  "index_last_modified": "Sun, 25 Oct 2026 10:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25271,6 +25271,35 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/dcoded.nl/AnalogLEDDriver-0.0.4.zip",
       "size": 8709
+    },
+    {
+      "repository_name": "tkgktyk/analog-mimic-arduino",
+      "repository_url": "https://github.com/tkgktyk/analog-mimic-arduino",
+      "name": "AnalogMimic",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-25T10:02:37.676Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-25T10:02:37.676Z",
+      "last_seen_sha": "e594be8885ea",
+      "author": "tkgktyk",
+      "maintainer": "tkgktyk",
+      "sentence": "Controls the Analog Mimic programmable analog module over I2C.",
+      "paragraph": "Switch the module between analog functions (filters, amplifier, comparator, clipper, rectifier, log, integrator and more) and set their parameters from your sketch.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.1.0.zip",
+      "size": 34170,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-25T07:46:04Z"
     },
     {
       "repository_name": "dxinteractive/AnalogMultiButton",
@@ -60947,7 +60976,7 @@
       "repository_name": "tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "repository_url": "https://github.com/tkhoi0821-svg/Casio-classwiz-880BTG-lib",
       "name": "CasioST75256",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "0.6.0",
@@ -60968,23 +60997,27 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-10-23T06:04:03.916Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-25T10:02:37.676Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-10-17T18:02:43.447Z",
-      "last_seen_sha": "fd2afd7e446e",
+      "last_seen_sha": "a78ef8a0e91c",
       "author": "GrayKazu",
       "maintainer": "GrayKazu",
-      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: antialiased Unicode fonts (VI, TH, ZH), QR codes, haunted FX, WraithUI, console, MJPEG and C2V video.",
+      "sentence": "Driver for the ST75256 192x63 LCD (+ icon row) of the fake Casio fx-880BTG: Unicode fonts (VI, TH, ZH) and icons, QR codes, WraithUI widgets with keyboard, haunted FX, MJPEG and C2V video.",
       "paragraph": "4-gray framebuffer with diff-based partial refresh, rotation, fonts, shapes, gauges, graphs, dithering, bitmaps, icon row, plus haunted FX (glitch, static, melt, ghost trails, CRT-off). Tested on ESP32-S3, SPI mode 0.",
       "category": "Display",
       "architectures": [
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.1.0.zip",
-      "size": 1134215,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkhoi0821-svg/CasioST75256-1.2.0.zip",
+      "size": 1164191,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",
@@ -174392,7 +174425,7 @@
       "repository_name": "m5stack/M5UnitUnified",
       "repository_url": "https://github.com/m5stack/M5UnitUnified",
       "name": "M5UnitUnified",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "version_history": [
         {
           "version": "0.5.5",
@@ -174425,11 +174458,15 @@
         {
           "version": "0.6.3",
           "seen_at": "2026-10-17T18:02:43.447Z"
+        },
+        {
+          "version": "0.6.4",
+          "seen_at": "2026-10-25T10:02:37.676Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-10T08:41:02Z",
-      "last_seen_sha": "4030997dcc5f",
+      "last_seen_sha": "6d05a80cc2c6",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "M5UnitUnified is a library for unified handling of various M5 units products.",
@@ -174442,9 +174479,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.3.zip",
-      "size": 155961,
-      "previous_version": "0.6.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5UnitUnified-0.6.4.zip",
+      "size": 159635,
+      "previous_version": "0.6.3",
       "github_stars": 26,
       "github_forks": 9,
       "github_language": "C++",
@@ -265766,7 +265803,7 @@
       "repository_name": "xanderwasserman/SimpleOTAClient-Arduino",
       "repository_url": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino",
       "name": "SimpleOTAClient",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -265783,23 +265820,27 @@
         {
           "version": "0.6.0",
           "seen_at": "2026-10-22T08:03:32.493Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-25T10:02:37.676Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-23T07:50:44Z",
-      "last_seen_sha": "e4909d41ebea",
+      "last_seen_sha": "36e47b7f8271",
       "author": "SimpleOTA <support@simpleota.com>",
       "maintainer": "SimpleOTA <support@simpleota.com>",
       "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
-      "paragraph": "Polls the SimpleOTA check endpoint, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, reports lifecycle events, supports trial-install rollback, and persists the assigned build number in NVS. Transport-agnostic; caller owns Wi-Fi/Ethernet bring-up.",
+      "paragraph": "The same C API as the SimpleOTA ESP-IDF component (simpleota.h). Checks for updates, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, runs each new image as a trial that rolls back unless confirmed, refuses downgrades, and reports lifecycle events. Works over any network: the sketch owns Wi-Fi or Ethernet bring-up.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-0.6.0.zip",
-      "size": 130154,
-      "previous_version": "0.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-1.0.0.zip",
+      "size": 152089,
+      "previous_version": "0.6.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -334794,7 +334835,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10060,
+    "with_github_metadata": 10061,
     "total_dependencies": 5619
   }
 }

@@ -1,6 +1,83 @@
 {
-  "since": "2026-10-26T03:05:28.469Z",
+  "since": "2026-10-26T04:04:07.834Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Aasim-A/AsyncTimer",
+        "repository_url": "https://github.com/Aasim-A/AsyncTimer",
+        "name": "AsyncTimer",
+        "version": "2.5.0",
+        "version_history": [
+          {
+            "version": "2.4.1",
+            "seen_at": "2025-07-21T16:05:06Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-26T04:04:07.834Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:05:06Z",
+        "last_seen_sha": "4478e5e4d62d",
+        "author": "Aasim-A",
+        "maintainer": "Aasim-A <github.com/Aasim-A>",
+        "sentence": "JavaScript-like async timing functions (setTimeout, setInterval).",
+        "paragraph": "Simplify your code with these helper functions to avoid using blocking functions and make it easier to read/write.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Aasim-A/AsyncTimer-2.5.0.zip",
+        "size": 33891,
+        "previous_version": "2.4.1",
+        "github_stars": 55,
+        "github_forks": 5,
+        "github_language": "C++",
+        "github_updated_at": "2025-10-11T20:41:05Z"
+      },
+      "old_version": "2.4.1",
+      "new_version": "2.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "DFRobot/DFRobot_RTU",
+        "repository_url": "https://github.com/DFRobot/DFRobot_RTU",
+        "name": "DFRobot_RTU",
+        "version": "1.0.7",
+        "version_history": [
+          {
+            "version": "1.0.6",
+            "seen_at": "2025-10-28T07:15:52Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-10-26T04:04:07.834Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-10-28T07:15:52Z",
+        "last_seen_sha": "42323eaca78f",
+        "author": "Arya DFRobot",
+        "maintainer": "DFRobot <www.dfrobot.com>",
+        "sentence": "Modbus RTU library for Arduino.",
+        "paragraph": "A library to use an Arduino as master to control and communicate via modbus protocol.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_RTU-1.0.7.zip",
+        "size": 27586,
+        "previous_version": "1.0.6",
+        "github_stars": 17,
+        "github_forks": 9,
+        "github_language": "C++",
+        "github_updated_at": "2025-10-28T02:25:13Z"
+      },
+      "old_version": "1.0.6",
+      "new_version": "1.0.7"
+    }
+  ],
   "removed_libraries": []
 }

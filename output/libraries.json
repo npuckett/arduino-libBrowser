@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-26T07:21:47.264Z",
+  "enhanced_at": "2026-10-26T08:09:14.676Z",
   "total_libraries": 10269,
-  "index_etag": "W/\"ee457dbcaf52869bf54bd1a0b84a78ca\"",
-  "index_last_modified": "Mon, 26 Oct 2026 07:00:18 GMT",
+  "index_etag": "W/\"24275f03d1b148220ebca79fd42ddbab\"",
+  "index_last_modified": "Mon, 26 Oct 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -228560,16 +228560,20 @@
       "repository_name": "diydoohickeys/Preflight-Arduino",
       "repository_url": "https://github.com/diydoohickeys/Preflight-Arduino",
       "name": "Preflight",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-09-25T20:02:35.810Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-26T08:09:14.572Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-25T20:02:35.810Z",
-      "last_seen_sha": "58c8e8306b78",
+      "last_seen_sha": "30c833ccd150",
       "author": "James Cartwright",
       "maintainer": "James Cartwright",
       "sentence": "Captive-portal WiFi setup, web logger, and an OTA update page with rollback for ESP32 projects.",
@@ -228578,12 +228582,9 @@
       "architectures": [
         "esp32"
       ],
-      "depends": [
-        "ESP Async WebServer",
-        "Async TCP"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.0.0.zip",
-      "size": 495676,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.1.0.zip",
+      "size": 536896,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -330194,7 +330195,7 @@
       "repository_name": "Gigasitron-xcross/XC_GUI",
       "repository_url": "https://github.com/Gigasitron-xcross/XC_GUI",
       "name": "XC_GUI",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -330239,11 +330240,15 @@
         {
           "version": "1.1.3",
           "seen_at": "2026-08-04T04:06:52.197Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-10-26T08:09:14.572Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-07-02T05:16:29.476Z",
-      "last_seen_sha": "d4a014f087fb",
+      "last_seen_sha": "f7352bdec4d5",
       "author": "Gigasitron Xcross",
       "maintainer": "Gigasitron <inquiry@gigasitron.com>",
       "sentence": "Lightweight buffered graphics primitive library for embedded displays.",
@@ -330255,9 +330260,9 @@
         "esp32",
         "samd"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.3.zip",
-      "size": 1722390,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gigasitron-xcross/XC_GUI-1.1.4.zip",
+      "size": 1732379,
+      "previous_version": "1.1.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -335021,6 +335026,6 @@
     "total_categories": 78,
     "total_architectures": 163,
     "with_github_metadata": 10065,
-    "total_dependencies": 5620
+    "total_dependencies": 5618
   }
 }

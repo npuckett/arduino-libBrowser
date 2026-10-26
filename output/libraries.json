@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-26T13:06:51.151Z",
+  "enhanced_at": "2026-10-26T14:52:42.514Z",
   "total_libraries": 10269,
-  "index_etag": "W/\"e6392a36051ffded9196e5632e12f12e\"",
-  "index_last_modified": "Mon, 26 Oct 2026 13:00:18 GMT",
+  "index_etag": "W/\"8b3b07eb6350dde1661a1893fe9588be\"",
+  "index_last_modified": "Mon, 26 Oct 2026 14:00:21 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -161427,7 +161427,7 @@
       "repository_name": "tgtakaoka/libasm",
       "repository_url": "https://github.com/tgtakaoka/libasm",
       "name": "libasm",
-      "version": "1.6.69",
+      "version": "1.6.70",
       "version_history": [
         {
           "version": "1.6.63",
@@ -161456,23 +161456,27 @@
         {
           "version": "1.6.69",
           "seen_at": "2026-10-21T12:03:41.002Z"
+        },
+        {
+          "version": "1.6.70",
+          "seen_at": "2026-10-26T14:52:42.369Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-30T08:50:14Z",
-      "last_seen_sha": "b891d44fe0c6",
+      "last_seen_sha": "7a8a60ba937c",
       "author": "Tadashi G. Takaoka",
       "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
       "sentence": "Cross assembler and disassembler for retro CPUs",
-      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+      "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
       "category": "Other",
       "architectures": [
         "*"
       ],
       "license": "Apache-2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.69.zip",
-      "size": 14068294,
-      "previous_version": "1.6.68",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.70.zip",
+      "size": 14213277,
+      "previous_version": "1.6.69",
       "github_stars": 44,
       "github_forks": 3,
       "github_language": "Assembly",
@@ -234835,16 +234839,20 @@
       "repository_name": "mumanchu/QMC5883PMagnetometer",
       "repository_url": "https://github.com/mumanchu/QMC5883PMagnetometer",
       "name": "QMC5883PMagnetometer",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-10-24T14:02:35.622Z"
+        },
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-10-26T14:52:42.369Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-24T14:02:35.622Z",
-      "last_seen_sha": "f7b3651f0a4e",
+      "last_seen_sha": "ace8148a1ab5",
       "author": "mumanchu",
       "maintainer": "mumanchu <info@muman.ch>",
       "sentence": "Arduino Library for QMC5883P 3-Axis Magnetometer",
@@ -234852,8 +234860,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/QMC5883PMagnetometer-0.0.1.zip",
-      "size": 332503,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/QMC5883PMagnetometer-0.0.2.zip",
+      "size": 359659,
+      "previous_version": "0.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

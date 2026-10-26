@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-26T15:26:04.898Z",
-  "total_libraries": 10269,
-  "index_etag": "W/\"8b3b07eb6350dde1661a1893fe9588be\"",
-  "index_last_modified": "Mon, 26 Oct 2026 15:00:18 GMT",
+  "enhanced_at": "2026-10-26T16:05:26.903Z",
+  "total_libraries": 10271,
+  "index_etag": "W/\"0386b17579ed5bf5ab184bb9d0e168f9\"",
+  "index_last_modified": "Mon, 26 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -151587,6 +151587,39 @@
       "github_updated_at": "2026-07-14T14:18:01Z"
     },
     {
+      "repository_name": "ailagari/JMCMotors",
+      "repository_url": "https://github.com/ailagari/JMCMotors",
+      "name": "JMCMotors",
+      "version": "0.5.1",
+      "version_history": [
+        {
+          "version": "0.5.1",
+          "seen_at": "2026-10-26T16:05:23.967Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-26T16:05:23.967Z",
+      "last_seen_sha": "4cece8554ed5",
+      "author": "LAGARI A <lagariscience@gmail.com>",
+      "maintainer": "LAGARI A <lagariscience@gmail.com>",
+      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
+      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing methods 1-12, zero/position redefinition), a non-blocking status monitor that pushes limit-switch (CW/CCW), origin-switch, homing-complete, fault and online/offline events over UDP, and one uniform command grammar: CMD:<slots> for individual motors, CMDA for all motors (P, PR, V, VS, ACC, DEC, B0-B3, L, BS, Z, ZO, ZS, HV, HVZ, HACC, HO, H1-H12, S, SD, LS, DG, I, R) plus MC, SAVE/LOAD (EEPROM), VER, PING, X. Motor count 1-32.",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "depends": [
+        "CONTROLLINO",
+        "Ethernet"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/JMCMotors-0.5.1.zip",
+      "size": 77671,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-22T13:16:23Z"
+    },
+    {
       "repository_name": "joshua-8/JMotor",
       "repository_url": "https://github.com/joshua-8/JMotor",
       "name": "JMotor",
@@ -256766,7 +256799,7 @@
       "repository_name": "Sensirion/arduino-i2c-sfm3505",
       "repository_url": "https://github.com/Sensirion/arduino-i2c-sfm3505",
       "name": "Sensirion I2C SFM3505",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -256775,11 +256808,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-26T16:05:23.967Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:26:52Z",
-      "last_seen_sha": "a89e37210a79",
+      "last_seen_sha": "84ac71bfe49d",
       "author": "Sensirion",
       "maintainer": "Sensirion",
       "sentence": "Library for the SFM3505 sensor by Sensirion",
@@ -256791,8 +256828,8 @@
       "depends": [
         "Sensirion Core"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_SFM3505-1.0.0.zip",
-      "size": 2268595,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Sensirion/Sensirion_I2C_SFM3505-1.2.0.zip",
+      "size": 2268715,
       "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
@@ -296964,6 +297001,35 @@
       "github_updated_at": "2026-09-11T12:26:28Z"
     },
     {
+      "repository_name": "code-hoysala/System",
+      "repository_url": "https://github.com/code-hoysala/System",
+      "name": "system",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-26T16:05:23.967Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-26T16:05:23.967Z",
+      "last_seen_sha": "ada8cc2ac5ba",
+      "author": "code-hoysala",
+      "maintainer": "code-hoysala ( Shashank Hoysala )<shashankhoysala04@outlook.com>",
+      "sentence": "Enables seamless Serial communication bridge between Arduino and system CMD/PowerShell.",
+      "paragraph": "A lightweight communication and command-dispatching library for linking microcontrollers with Windows Command Prompt and PowerShell workflows.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/system-1.0.0.zip",
+      "size": 3921,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-26T14:10:18Z"
+    },
+    {
       "repository_name": "houslast3/sistema",
       "repository_url": "https://github.com/houslast3/sistema",
       "name": "SysUILib",
@@ -317670,7 +317736,7 @@
       "repository_name": "littlemanbuilds/Universal_Button",
       "repository_url": "https://github.com/littlemanbuilds/Universal_Button",
       "name": "Universal_Button",
-      "version": "2.0.0",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.6.3",
@@ -317683,11 +317749,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-01T10:02:48.483Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-10-26T16:05:23.967Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-02-12T07:28:45Z",
-      "last_seen_sha": "4d1c5beb297f",
+      "last_seen_sha": "29bcfd295c8d",
       "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
       "sentence": "Debounced multi-button input with explicit reader validity, preserved interaction events, long-hold state, and latching.",
@@ -317704,9 +317774,9 @@
         "rp2040"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/Universal_Button-2.0.0.zip",
-      "size": 62246,
-      "previous_version": "1.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/Universal_Button-2.0.2.zip",
+      "size": 73164,
+      "previous_version": "2.0.0",
       "github_stars": 15,
       "github_forks": 5,
       "github_language": "C++",
@@ -335054,7 +335124,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10065,
-    "total_dependencies": 5618
+    "with_github_metadata": 10067,
+    "total_dependencies": 5620
   }
 }

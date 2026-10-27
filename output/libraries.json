@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-27T21:01:33.769Z",
-  "total_libraries": 10282,
-  "index_etag": "W/\"465d4eebd5f11baa486292df1fef4b78\"",
-  "index_last_modified": "Tue, 27 Oct 2026 21:00:18 GMT",
+  "enhanced_at": "2026-10-27T22:01:51.162Z",
+  "total_libraries": 10283,
+  "index_etag": "W/\"30e2eb0e6b9de3302674719d83378a8b\"",
+  "index_last_modified": "Tue, 27 Oct 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -37270,6 +37270,36 @@
       "github_language": "C++",
       "github_updated_at": "2023-12-09T12:57:56Z",
       "download_url": "https://github.com/littleBitsman/Asynchrony"
+    },
+    {
+      "repository_name": "SerhiiLe/asyncHTTP",
+      "repository_url": "https://github.com/SerhiiLe/asyncHTTP",
+      "name": "asyncHTTP",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-27T22:01:49.723Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T22:01:49.723Z",
+      "last_seen_sha": "4aefaed8a9cc",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko",
+      "sentence": "Lightweight non-blocking asynchronous HTTP/HTTPS client for ESP8266 and ESP32.",
+      "paragraph": "Lightweight, zero-external-dependency non-blocking asynchronous HTTP/HTTPS client for ESP8266 and ESP32 with JSON/XML support, Keep-Alive, chunked transfer decoding, and FreeRTOS task mode.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/asyncHTTP-1.0.0.zip",
+      "size": 44040,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T19:01:28Z"
     },
     {
       "repository_name": "copida/AsyncHTTPClientLight",
@@ -77692,7 +77722,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_interface_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_interface_library",
       "name": "DevLab_Interface",
-      "version": "1.1.2",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -77705,11 +77735,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-09-22T20:02:19.381Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-10-27T22:01:49.723Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-08T02:03:47.769Z",
-      "last_seen_sha": "fdce755767bf",
+      "last_seen_sha": "8ff2a5007aaa",
       "author": "UNIT Electronics",
       "maintainer": "Jonathan Mejorado Lopez",
       "sentence": "Arduino library interface for DevLab Sensors and external sensors, through I2C, SPI and other communication protocols.",
@@ -77717,9 +77751,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.1.2.zip",
-      "size": 23471,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Interface-1.2.1.zip",
+      "size": 216088,
+      "previous_version": "1.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -77906,16 +77940,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_mpu6050_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_mpu6050_library",
       "name": "DevLab_MPU6050",
-      "version": "2.0.1",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.0.1",
           "seen_at": "2026-08-07T18:14:01.614Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-10-27T22:01:49.723Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-07T18:14:01.614Z",
-      "last_seen_sha": "5bebd796f5cd",
+      "last_seen_sha": "d1e5abbbf070",
       "author": "UNIT Electronics DevLab Ecosystem",
       "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
       "sentence": "Arduino library for the MPU6050 6-axis IMU using direct I2C register access.",
@@ -77924,8 +77962,12 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-2.0.1.zip",
-      "size": 14605,
+      "depends": [
+        "DevLab_Interface"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_MPU6050-2.1.1.zip",
+      "size": 14861,
+      "previous_version": "2.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "HTML",
@@ -335563,7 +335605,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10078,
-    "total_dependencies": 5627
+    "with_github_metadata": 10079,
+    "total_dependencies": 5628
   }
 }

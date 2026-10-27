@@ -1,6 +1,231 @@
 {
-  "since": "2026-10-27T09:03:49.566Z",
+  "since": "2026-10-27T10:02:46.683Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "BOBILLEChristophe/DCC-LocoAddr",
+        "repository_url": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
+        "name": "DCC-LocoAddr",
+        "version": "5.1.1",
+        "version_history": [
+          {
+            "version": "5.0.1",
+            "seen_at": "2026-10-21T22:02:28.016Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-10-24T10:02:33.074Z"
+          },
+          {
+            "version": "5.1.1",
+            "seen_at": "2026-10-27T10:02:46.683Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-21T22:02:28.016Z",
+        "last_seen_sha": "7596cf75c1b4",
+        "author": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
+        "maintainer": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
+        "sentence": "Lecture de l'adresse DCC des locomotives (décodeurs compatibles RailCom) et du sens de pose, avec un détecteur Locoduino LocoAddr v3.1, sur ESP32, Raspberry Pi Pico ou Arduino Mega 2560.",
+        "paragraph": "Réception à 250 kbit/s (UART matériel ou PIO), découpage par cutout, décodage 4/8 du canal 1, adresses courtes, longues et de consist, validation et détection de perte, lecture de la sortie DIR (option sens de pose). Plusieurs détecteurs : jusqu'à 3 sur ESP32 et Arduino Mega 2560, jusqu'à 10 sur RP2040 et 14 sur RP2350.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "rp2040",
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.1.1.zip",
+        "size": 15763153,
+        "previous_version": "5.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-21T21:49:38Z"
+      },
+      "old_version": "5.1.0",
+      "new_version": "5.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-IMU",
+        "repository_url": "https://github.com/m5stack/M5Unit-IMU",
+        "name": "M5Unit-IMU",
+        "version": "0.0.2",
+        "version_history": [
+          {
+            "version": "0.0.1",
+            "seen_at": "2026-10-15T14:03:32.830Z"
+          },
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-10-27T10:02:46.683Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-15T14:03:32.830Z",
+        "last_seen_sha": "cfb6245da504",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "M5UnitUnified library for IMU series (UnitIMUMini, DoF6/DoF9/DoF10, BMM350, built-in IMUs)",
+        "paragraph": "Supports MPU6886 / BMI270 / BMM150 / BMM350 with AHRS filters and M5Unified compatible API",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL",
+          "M5Unit-ENV"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_IMU-0.0.2.zip",
+        "size": 409366,
+        "previous_version": "0.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-15T10:27:45Z"
+      },
+      "old_version": "0.0.1",
+      "new_version": "0.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-RGB",
+        "repository_url": "https://github.com/m5stack/M5Unit-RGB",
+        "name": "M5Unit-RGB",
+        "version": "0.1.0",
+        "version_history": [
+          {
+            "version": "0.0.1",
+            "seen_at": "2026-08-03T10:15:08.794Z"
+          },
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-08-06T12:33:59.956Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-27T10:02:46.683Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-03T10:15:08.794Z",
+        "last_seen_sha": "88dce9ef8299",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack UNIT RGB using M5UnitUnified",
+        "paragraph": "Supports SK6812/WS2812 addressable LEDs (Unit RGB, Unit Puzzle, Unit Hex, etc.)",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RGB-0.1.0.zip",
+        "size": 125122,
+        "previous_version": "0.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-30T02:38:49Z"
+      },
+      "old_version": "0.0.2",
+      "new_version": "0.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "m5stack/M5Unit-RS485",
+        "repository_url": "https://github.com/m5stack/M5Unit-RS485",
+        "name": "M5Unit-RS485",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.0.1",
+            "seen_at": "2026-08-03T10:15:08.794Z"
+          },
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-08-10T12:12:57.774Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-10-27T10:02:46.683Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-08-03T10:15:08.794Z",
+        "last_seen_sha": "8ffce96751c8",
+        "author": "M5Stack",
+        "maintainer": "M5Stack",
+        "sentence": "Library for M5Stack UNIT RS485 using M5UnitUnified",
+        "paragraph": "Supports UnitRS485 (SKU:U034), HatRS485 (SKU:U067), Atomic RS485 Base (SKU:A131), and M5Stack Tab5 built-in RS-485 for half-duplex RS485 serial communication via SP485EEN (auto-direction) or SIT3088 (manual DIR pin).",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5UnitUnified",
+          "M5Utility",
+          "M5HAL"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_RS485-0.2.0.zip",
+        "size": 108847,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-30T03:53:17Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "RAKWireless/RAKwireless-Audio-library",
+        "repository_url": "https://github.com/RAKWireless/RAKwireless-Audio-library",
+        "name": "RAKwireless-Audio-library",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.8",
+            "seen_at": "2026-03-26T08:00:26Z"
+          },
+          {
+            "version": "1.0.9",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-27T10:02:46.683Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-03-26T08:00:26Z",
+        "last_seen_sha": "7d18154b02a0",
+        "author": "RAKWireless <rakwireless.com>",
+        "maintainer": "RAKWireless <rakwireless.com>",
+        "sentence": "RAKWireless library for the RAK audio module",
+        "paragraph": "RAK audio solutions",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RAKWireless/RAKwireless_Audio_library-2.0.0.zip",
+        "size": 144077953,
+        "previous_version": "1.0.9",
+        "github_stars": 1,
+        "github_forks": 3,
+        "github_language": "C",
+        "github_updated_at": "2026-06-09T00:47:22Z"
+      },
+      "old_version": "1.0.9",
+      "new_version": "2.0.0"
+    }
+  ],
   "removed_libraries": []
 }

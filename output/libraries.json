@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-27T05:02:31.990Z",
-  "total_libraries": 10279,
-  "index_etag": "W/\"f3f2767c49928c9493397ff2df54d1a4\"",
-  "index_last_modified": "Tue, 27 Oct 2026 05:00:18 GMT",
+  "enhanced_at": "2026-10-27T06:04:21.982Z",
+  "total_libraries": 10281,
+  "index_etag": "W/\"191bb216853516b7764e032f91fd631b\"",
+  "index_last_modified": "Tue, 27 Oct 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -41270,7 +41270,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.79",
+      "version": "1.7.84",
       "version_history": [
         {
           "version": "1.3.5",
@@ -41387,11 +41387,15 @@
         {
           "version": "1.7.79",
           "seen_at": "2026-10-26T00:06:46.250Z"
+        },
+        {
+          "version": "1.7.84",
+          "seen_at": "2026-10-27T06:04:19.180Z"
         }
       ],
-      "release_count": 29,
+      "release_count": 30,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "aa8b57136adf",
+      "last_seen_sha": "3610cb9c11b6",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
@@ -41404,9 +41408,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.79.zip",
-      "size": 245516,
-      "previous_version": "1.7.78",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.84.zip",
+      "size": 246949,
+      "previous_version": "1.7.79",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -122891,6 +122895,35 @@
       "download_url": "https://github.com/GyverLibs/Forecaster"
     },
     {
+      "repository_name": "dineshpalsingh1989/ForgeModbus",
+      "repository_url": "https://github.com/dineshpalsingh1989/ForgeModbus",
+      "name": "ForgeModbus",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-27T06:04:19.180Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T06:04:19.180Z",
+      "last_seen_sha": "896a6fd0a7b0",
+      "author": "Dineshpal Singh",
+      "maintainer": "Dineshpal Singh <dineshpal101989@gmail.com>",
+      "sentence": "Modbus TCP server for ESP32 over Wi-Fi or Ethernet.",
+      "paragraph": "Coils, discrete inputs, input and holding registers (functions 1-6, 15, 16). Hooks, read-only ranges, float helpers, flash persistence, IP allowlist and an optional background task. Bounded buffers, nonblocking lwIP sockets, no AsyncTCP dependency.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dineshpalsingh1989/ForgeModbus-0.2.0.zip",
+      "size": 31440,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T02:55:24Z"
+    },
+    {
       "repository_name": "IamTheVector/Forgetfulino",
       "repository_url": "https://github.com/IamTheVector/Forgetfulino",
       "name": "Forgetfulino",
@@ -135274,6 +135307,38 @@
       "github_language": "C++",
       "github_updated_at": "2025-08-29T06:26:13Z",
       "download_url": "https://github.com/sakisds/hackAIR-Arduino"
+    },
+    {
+      "repository_name": "Hackingstan/HACKINGSTAN_display_GC9307",
+      "repository_url": "https://github.com/Hackingstan/HACKINGSTAN_display_GC9307",
+      "name": "HACKINGSTAN_GC9307",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-27T06:04:19.180Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T06:04:19.180Z",
+      "last_seen_sha": "f1a2ee0f1779",
+      "author": "HACKINGSTAN",
+      "maintainer": "HACKINGSTAN",
+      "sentence": "Custom GC9307 TFT Display Driver for ESP32 and Arduino.",
+      "paragraph": "This library provides a dedicated GC9307 hardware driver extension for the GFX Library for Arduino. It fixes mirror text, inverted colors, and offsets for smartwatch displays.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "GFX Library for Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Hackingstan/HACKINGSTAN_GC9307-1.0.1.zip",
+      "size": 3726,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T03:33:14Z"
     },
     {
       "repository_name": "SyntaxHarvy/HACTimers",
@@ -271801,30 +271866,37 @@
       "repository_name": "snappyxo/SnappyXOExamples",
       "repository_url": "https://github.com/snappyxo/SnappyXOExamples",
       "name": "SnappyXOExamples",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "3.0.0",
           "seen_at": "2026-09-22T06:04:28.834Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-10-27T06:04:19.180Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-09-22T06:04:28.834Z",
-      "last_seen_sha": "85c56737f8f2",
+      "last_seen_sha": "15cb7fdc0873",
       "author": "SnappyXO",
-      "maintainer": "SnappyXO",
+      "maintainer": "A+ Mobile Solutions Inc",
       "sentence": "Example sketches for SnappyXO robotics kits.",
-      "paragraph": "A collection of ready to use Arduino sketches for SnappyXO robots.",
+      "paragraph": "A collection of ready to use Arduino sketches for SnappyXO robots. Version 3.x is for the V3 kits.",
       "category": "Other",
       "architectures": [
         "*"
       ],
       "depends": [
         "SnappyXOShield",
-        "MicroBlue"
+        "MicroBlue",
+        "Servo",
+        "IRremote"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOExamples-3.0.0.zip",
-      "size": 38421,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOExamples-3.1.0.zip",
+      "size": 48436,
+      "previous_version": "3.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -271834,7 +271906,7 @@
       "repository_name": "snappyxo/SnappyXOShield",
       "repository_url": "https://github.com/snappyxo/SnappyXOShield",
       "name": "SnappyXOShield",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.2.0",
@@ -271843,22 +271915,26 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-09-21T22:02:31.540Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-27T06:04:19.180Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "4a0e95db2c69",
+      "last_seen_sha": "9899b42d836a",
       "author": "SnappyXO",
-      "maintainer": "SnappyXO",
-      "sentence": "Motor control library for the SnappyXO Shield.",
-      "paragraph": "Provides simplified motor control for use with the SnappyXO Motor Shield.",
+      "maintainer": "A+ Mobile Solutions Inc",
+      "sentence": "Motor control library for the SnappyXO Motor Shield v2 and v3.",
+      "paragraph": "Knows the shield's motor pins and drives a two-wheeled robot: forward, reverse, spins, each wheel's speed, joystick-style drive(throttle, steering), stop and brake.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.2.1.zip",
-      "size": 18495,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.3.0.zip",
+      "size": 11839,
+      "previous_version": "0.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -335417,7 +335493,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10075,
-    "total_dependencies": 5623
+    "with_github_metadata": 10077,
+    "total_dependencies": 5626
   }
 }

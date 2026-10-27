@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-27T15:03:43.153Z",
-  "total_libraries": 10281,
-  "index_etag": "W/\"aef16874269b96bd387761f9dab08087\"",
-  "index_last_modified": "Tue, 27 Oct 2026 15:00:19 GMT",
+  "enhanced_at": "2026-10-27T16:02:48.458Z",
+  "total_libraries": 10282,
+  "index_etag": "W/\"91e3f067cabec9683084dfa239aa9f19\"",
+  "index_last_modified": "Tue, 27 Oct 2026 16:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -199694,7 +199694,7 @@
       "repository_name": "xreef/MultiFTPServer",
       "repository_url": "https://github.com/xreef/MultiFTPServer",
       "name": "MultiFTPServer",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "3.0.2",
@@ -199703,22 +199703,26 @@
         {
           "version": "3.0.3",
           "seen_at": "2026-10-17T08:02:53.133Z"
+        },
+        {
+          "version": "3.0.4",
+          "seen_at": "2026-10-27T16:02:46.952Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-11-29T07:43:40Z",
-      "last_seen_sha": "60da219b4edc",
+      "last_seen_sha": "67042fd340af",
       "author": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "maintainer": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "sentence": "Multi FTP server for esp8266, esp32, STM32, Raspberry Pi Pico and Arduino",
-      "paragraph": "Multi FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR (SdFat 2), STM32 (Flash >64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
+      "paragraph": "Multi FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR and Nano 33 IoT (WiFiNINA, SD or SdFat 2), STM32 (Flash >64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MultiFTPServer-3.0.3.zip",
-      "size": 824270,
-      "previous_version": "3.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/MultiFTPServer-3.0.4.zip",
+      "size": 826549,
+      "previous_version": "3.0.3",
       "github_stars": 12,
       "github_forks": 1,
       "github_language": "C++",
@@ -216188,6 +216192,38 @@
       ],
       "download_url": "https://downloads.arduino.cc/libraries/gitlab.com/painlessMesh/Painless_Mesh-1.5.7.zip",
       "size": 340099
+    },
+    {
+      "repository_name": "pairble/pairble-arduino",
+      "repository_url": "https://github.com/pairble/pairble-arduino",
+      "name": "pairble",
+      "version": "0.3.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-27T16:02:46.952Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T16:02:46.952Z",
+      "last_seen_sha": "c65401538eab",
+      "author": "Pajenicko",
+      "maintainer": "pairble <support@pairble.com>",
+      "sentence": "Wi-Fi setup for ESP32 over Bluetooth, nothing to install.",
+      "paragraph": "The phone's camera opens an App Clip (iPhone) or a web page (Android, computers); the device shows the networks it can see and gets the password over an encrypted Bluetooth session. Falls back to the device's own Wi-Fi. Needs arduino-esp32 3.3 or newer.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pairble/pairble-0.3.0.zip",
+      "size": 178644,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-27T11:58:59Z"
     },
     {
       "repository_name": "GyverLibs/Pairs",
@@ -265774,7 +265810,7 @@
       "repository_name": "xreef/SimpleFTPServer",
       "repository_url": "https://github.com/xreef/SimpleFTPServer",
       "name": "SimpleFTPServer",
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "3.0.2",
@@ -265783,22 +265819,26 @@
         {
           "version": "3.0.3",
           "seen_at": "2026-10-17T08:02:53.133Z"
+        },
+        {
+          "version": "3.0.4",
+          "seen_at": "2026-10-27T16:02:46.952Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-25T08:40:55Z",
-      "last_seen_sha": "510cfce6e069",
+      "last_seen_sha": "8a38af0d0a6b",
       "author": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "maintainer": "Renzo Mischianti <renzo.mischianti@gmail.com>",
       "sentence": "Simple FTP server for esp8266, esp32, STM32, Raspberry Pi Pico and Arduino",
-      "paragraph": "Simple FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR (SdFat 2), STM32 (Flash >64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
+      "paragraph": "Simple FTP server for Raspberry Pi Pico W (LittleFS), esp8266 (SPIFFS and LittleFS or SD, SdFat 2.x), esp32 (SPIFFS, LittleFS and FFAT or SD, SdFat 2.x) and Arduino (SdFat, SD basic lib with 8.3 file format), Wio Terminal (Seed_SD, SdFat 2.x), Arduino MKR and Nano 33 IoT (WiFiNINA, SD or SdFat 2), Arduino UNO R4 WiFi (WiFiS3, SD), STM32 (Flash >64K SdFat 2.x and SPI Flash). Support w5500, w5100 and enc28j60. With internal callback to check the phase of communication.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/SimpleFTPServer-3.0.3.zip",
-      "size": 901248,
-      "previous_version": "3.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/xreef/SimpleFTPServer-3.0.4.zip",
+      "size": 905717,
+      "previous_version": "3.0.3",
       "github_stars": 179,
       "github_forks": 49,
       "github_language": "C++",
@@ -335523,7 +335563,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10077,
-    "total_dependencies": 5626
+    "with_github_metadata": 10078,
+    "total_dependencies": 5627
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-28T05:02:22.033Z",
+  "enhanced_at": "2026-10-28T06:03:18.951Z",
   "total_libraries": 10284,
-  "index_etag": "W/\"10c1ff52713b8c36137b295e9e4374f2\"",
-  "index_last_modified": "Wed, 28 Oct 2026 05:00:18 GMT",
+  "index_etag": "W/\"bcc9fbb054a9535fc8f157c7b7d8a521\"",
+  "index_last_modified": "Wed, 28 Oct 2026 06:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -124146,7 +124146,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "0.0.22",
@@ -124207,11 +124207,15 @@
         {
           "version": "2.0.6",
           "seen_at": "2026-10-16T12:03:57.248Z"
+        },
+        {
+          "version": "2.0.7",
+          "seen_at": "2026-10-28T06:03:18.792Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "46a517db016a",
+      "last_seen_sha": "4279ecf02aed",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -124226,8 +124230,7 @@
         "DHTNEW",
         "HX711",
         "MQTT",
-        "OneWire",
-        "DallasTemperature",
+        "OneWireNg",
         "hd44780",
         "TinyGPSPlus",
         "ModbusMaster",
@@ -124238,9 +124241,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.6.zip",
-      "size": 1009345,
-      "previous_version": "2.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.7.zip",
+      "size": 1034085,
+      "previous_version": "2.0.6",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -128977,7 +128980,7 @@
       "repository_name": "LILCMU/GoGoBoard-Arduino",
       "repository_url": "https://github.com/LILCMU/GoGoBoard-Arduino",
       "name": "GoGoBoard Arduino Library",
-      "version": "1.7.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.7.0",
@@ -128986,21 +128989,26 @@
         {
           "version": "1.7.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-10-28T06:03:18.792Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:19:45Z",
-      "last_seen_sha": "361a56acbd3d",
+      "last_seen_sha": "c0e5b9d2cad3",
       "author": "P.Pongpakatien, T.Phoeyphon",
       "maintainer": "LILCMU <peeranut32@gmail.com>",
-      "sentence": "A library for built-in STM32 arduino core on GoGoBoard to enabled fully functional of hardware along with the used of students.",
-      "paragraph": "Install this library to use GoGoBoard arduino core extension.",
+      "sentence": "A library for the built-in co-MCU on GoGoBoard (STM32 on GoGo Board 6, ESP32-C3 on GoGo Board 7) to enable full hardware control alongside student programs.",
+      "paragraph": "Install this library to use GoGoBoard arduino core extension. Supports both GoGo Board 6 (STM32F1) and GoGo Board 7 (ESP32-C3) hardware.",
       "category": "Device Control",
       "architectures": [
-        "*"
+        "stm32",
+        "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/LILCMU/GoGoBoard_Arduino_Library-1.7.0.zip",
-      "size": 13614,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/LILCMU/GoGoBoard_Arduino_Library-3.0.0.zip",
+      "size": 21625,
       "previous_version": "1.7.0",
       "github_stars": 2,
       "github_forks": 1,
@@ -335653,6 +335661,6 @@
     "total_categories": 78,
     "total_architectures": 163,
     "with_github_metadata": 10080,
-    "total_dependencies": 5628
+    "total_dependencies": 5627
   }
 }

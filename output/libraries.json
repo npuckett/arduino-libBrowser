@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-28T09:02:51.342Z",
+  "enhanced_at": "2026-10-28T10:02:01.401Z",
   "total_libraries": 10285,
-  "index_etag": "W/\"4d07e0371659de7088433cf11f6fec41\"",
-  "index_last_modified": "Wed, 28 Oct 2026 09:00:18 GMT",
+  "index_etag": "W/\"477fb9b5fdfe945b86f9fb73960829d9\"",
+  "index_last_modified": "Wed, 28 Oct 2026 10:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39221,7 +39221,7 @@
       "repository_name": "soosp/AsyncWiFiPortal",
       "repository_url": "https://github.com/soosp/AsyncWiFiPortal",
       "name": "AsyncWiFiPortal",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "version_history": [
         {
           "version": "0.1.0",
@@ -39230,11 +39230,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-10-07T08:04:27.357Z"
+        },
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-10-28T10:02:01.303Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "73cd12a5915b",
+      "last_seen_sha": "7df0cddcbeca",
       "author": "soosp",
       "maintainer": "soosp",
       "sentence": "Reboot-into-portal Wi-Fi recovery captive portal for ESP32 and ESP8266.",
@@ -39251,9 +39255,9 @@
         "NetworkProfile",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.2.0.zip",
-      "size": 40408,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncWiFiPortal-0.2.1.zip",
+      "size": 40743,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -132560,7 +132564,7 @@
       "repository_name": "MacManley/gt7-udp",
       "repository_url": "https://github.com/MacManley/gt7-udp",
       "name": "GT7 UDP Telemetry Parser",
-      "version": "2.1.3",
+      "version": "2.1.4",
       "version_history": [
         {
           "version": "2.1.1",
@@ -132577,11 +132581,15 @@
         {
           "version": "2.1.3",
           "seen_at": "2026-09-19T02:03:38.898Z"
+        },
+        {
+          "version": "2.1.4",
+          "seen_at": "2026-10-28T10:02:01.303Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-29T09:21:11Z",
-      "last_seen_sha": "0a5582151d85",
+      "last_seen_sha": "65a81747d926",
       "author": "MacManley",
       "maintainer": "MacManley",
       "sentence": "UDP Telemetry Parser for Gran Turismo 7",
@@ -132591,12 +132599,9 @@
         "*"
       ],
       "license": "MIT",
-      "depends": [
-        "WiFiUDP"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.3.zip",
-      "size": 31751,
-      "previous_version": "2.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.4.zip",
+      "size": 31738,
+      "previous_version": "2.1.3",
       "github_stars": 59,
       "github_forks": 9,
       "github_language": "C++",
@@ -134801,7 +134806,7 @@
       "repository_name": "GyverLibs/GyverPing",
       "repository_url": "https://github.com/GyverLibs/GyverPing",
       "name": "GyverPing",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -134810,11 +134815,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-07-01T20:32:34.966Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-10-28T10:02:01.303Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T21:12:22Z",
-      "last_seen_sha": "463a3d627629",
+      "last_seen_sha": "a800ab6911d2",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Library for measuring distance with HC-SR04",
@@ -134823,9 +134832,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverPing-1.0.2.zip",
-      "size": 18209,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverPing-1.0.4.zip",
+      "size": 18259,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",
@@ -204714,7 +204723,7 @@
       "repository_name": "soosp/NetworkManager",
       "repository_url": "https://github.com/soosp/NetworkManager",
       "name": "NetworkManager",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -204759,11 +204768,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-10-12T20:03:06.925Z"
+        },
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-10-28T10:02:01.303Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "e49fc5bcb27a",
+      "last_seen_sha": "614da87cb1a2",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Priority-based network connection manager with automatic fallback.",
@@ -204781,9 +204794,9 @@
         "EEPROMPreferences",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.4.1.zip",
-      "size": 157386,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkManager-0.5.0.zip",
+      "size": 160364,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -204822,7 +204835,7 @@
       "repository_name": "soosp/NetworkProfile",
       "repository_url": "https://github.com/soosp/NetworkProfile",
       "name": "NetworkProfile",
-      "version": "0.10.1",
+      "version": "0.11.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -204883,11 +204896,15 @@
         {
           "version": "0.10.1",
           "seen_at": "2026-10-13T22:02:34.026Z"
+        },
+        {
+          "version": "0.11.0",
+          "seen_at": "2026-10-28T10:02:01.303Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-07-16T16:27:07.554Z",
-      "last_seen_sha": "3bd4069ecc0a",
+      "last_seen_sha": "edbd07e9e002",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Thread-safe network interface configuration profiles for ESP32, ESP8266 and AVR.",
@@ -204904,9 +204921,9 @@
         "EEPROMPreferences",
         "Preferences"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.10.1.zip",
-      "size": 93105,
-      "previous_version": "0.10.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/NetworkProfile-0.11.0.zip",
+      "size": 96393,
+      "previous_version": "0.10.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -335698,6 +335715,6 @@
     "total_categories": 78,
     "total_architectures": 163,
     "with_github_metadata": 10081,
-    "total_dependencies": 5627
+    "total_dependencies": 5626
   }
 }

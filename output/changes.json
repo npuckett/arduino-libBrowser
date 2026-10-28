@@ -1,6 +1,72 @@
 {
-  "since": "2026-10-28T01:03:01.588Z",
+  "since": "2026-10-28T02:03:07.085Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
+        "name": "DevLabDDP",
+        "version": "1.0.9",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-08-27T23:05:28.812Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-09-05T02:03:41.065Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-10-05T18:03:44.750Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-10-05T21:02:43.536Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-10-06T18:03:55.327Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-10-10T06:04:26.082Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-10-21T20:02:40.883Z"
+          },
+          {
+            "version": "1.0.9",
+            "seen_at": "2026-10-28T02:03:07.085Z"
+          }
+        ],
+        "release_count": 8,
+        "first_seen_at": "2026-08-27T23:05:28.812Z",
+        "last_seen_sha": "c628ee8d08f6",
+        "author": "UNIT Electronics",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino master for the DevLab Device Protocol.",
+        "paragraph": "Discovers, validates and communicates with DDP I2C devices.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.9.zip",
+        "size": 24803,
+        "previous_version": "1.0.7",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-08-27T17:22:21Z"
+      },
+      "old_version": "1.0.7",
+      "new_version": "1.0.9"
+    }
+  ],
   "removed_libraries": []
 }

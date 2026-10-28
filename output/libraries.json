@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-28T22:02:01.581Z",
-  "total_libraries": 10286,
-  "index_etag": "W/\"023a8b2be65202a38ceaaab70cbe2c89\"",
-  "index_last_modified": "Wed, 28 Oct 2026 22:00:19 GMT",
+  "enhanced_at": "2026-10-28T23:01:47.924Z",
+  "total_libraries": 10287,
+  "index_etag": "W/\"7bee236339dc15901dbc5d02d5a97cf3\"",
+  "index_last_modified": "Wed, 28 Oct 2026 23:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -11963,6 +11963,40 @@
       "github_forks": 26,
       "github_language": "C++",
       "github_updated_at": "2025-08-17T16:29:07Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_LT8912B",
+      "repository_url": "https://github.com/adafruit/Adafruit_LT8912B",
+      "name": "Adafruit LT8912B",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-28T23:01:46.466Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-28T23:01:46.466Z",
+      "last_seen_sha": "3d02fca4b686",
+      "author": "Adafruit, Espressif Systems",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino driver for the LT8912B MIPI DSI to HDMI/DVI bridge.",
+      "paragraph": "Provides portable I2C bridge control and an ESP32-P4 display helper for framebuffer output, with color-bar and Adafruit GFX examples.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit BusIO",
+        "Adafruit GFX Library",
+        "Adafruit TestBed"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LT8912B-1.0.0.zip",
+      "size": 28203,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-28T19:12:47Z"
     },
     {
       "repository_name": "adafruit/Adafruit_LTR329_LTR303",
@@ -36448,7 +36482,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.17.0",
+      "version": "0.18.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -36549,11 +36583,15 @@
         {
           "version": "0.17.0",
           "seen_at": "2026-10-25T22:02:20.120Z"
+        },
+        {
+          "version": "0.18.0",
+          "seen_at": "2026-10-28T23:01:46.466Z"
         }
       ],
-      "release_count": 25,
+      "release_count": 26,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "2f79935632a7",
+      "last_seen_sha": "68d5ecca4027",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -36570,9 +36608,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.17.0.zip",
-      "size": 196138,
-      "previous_version": "0.16.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.0.zip",
+      "size": 216150,
+      "previous_version": "0.17.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -118511,7 +118549,7 @@
       "repository_name": "srwi/FastLEDHub",
       "repository_url": "https://github.com/srwi/FastLEDHub",
       "name": "FastLEDHub",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "2.2.0",
@@ -118520,11 +118558,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-10-24T22:02:35.032Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-10-28T23:01:46.466Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-24T08:38:23Z",
-      "last_seen_sha": "290682940c51",
+      "last_seen_sha": "91514cf51106",
       "author": "Stephan Rumswinkel",
       "maintainer": "Stephan Rumswinkel",
       "sentence": "Control multiple FastLED lightstrip animations on the ESP8266 and ESP32 without reuploading.",
@@ -118543,9 +118585,9 @@
         "WebSockets",
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/srwi/FastLEDHub-2.3.0.zip",
-      "size": 67350,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/srwi/FastLEDHub-2.4.0.zip",
+      "size": 69947,
+      "previous_version": "2.3.0",
       "github_stars": 67,
       "github_forks": 4,
       "github_language": "C++",
@@ -335790,7 +335832,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10082,
-    "total_dependencies": 5625
+    "with_github_metadata": 10083,
+    "total_dependencies": 5628
   }
 }

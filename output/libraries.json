@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-29T11:01:46.219Z",
+  "enhanced_at": "2026-10-29T12:03:22.655Z",
   "total_libraries": 10287,
-  "index_etag": "W/\"070a603475e316924c4335244cda253d\"",
-  "index_last_modified": "Thu, 29 Oct 2026 11:00:19 GMT",
+  "index_etag": "W/\"997bd01022ce765c0d45b9636da4b981\"",
+  "index_last_modified": "Thu, 29 Oct 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -75640,7 +75640,7 @@
       "repository_name": "deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library",
       "repository_url": "https://github.com/deneyapkart/deneyap-cift-kanalli-cizgi-algilayici-arduino-library",
       "name": "Deneyap Cift Kanalli Cizgi Algilayici",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.2",
@@ -75653,11 +75653,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-10-22T10:02:24.538Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-29T12:03:22.527Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:11:51Z",
-      "last_seen_sha": "c74dc8e42422",
+      "last_seen_sha": "95891ec85b59",
       "author": "Turkish Technology Team Foundation (T3) <destek@deneyapkart.org>",
       "maintainer": "Turkish Technology Team Foundation (T3) <destek@deneyapkart.org>",
       "sentence": "Arduino library for Deneyap Line Follower modules (2 channel TCRT5000 and 4 channel GP2S700HCP)",
@@ -75666,9 +75670,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/deneyapkart/Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.0.zip",
-      "size": 29384,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/deneyapkart/Deneyap_Cift_Kanalli_Cizgi_Algilayici-1.1.1.zip",
+      "size": 30945,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -128371,29 +128375,35 @@
       "repository_name": "jishnumahanta/GitReleaseOTA",
       "repository_url": "https://github.com/jishnumahanta/GitReleaseOTA",
       "name": "GitReleaseOTA",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-05-27T09:04:25Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-10-29T12:03:22.527Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-27T09:04:25Z",
-      "last_seen_sha": "07d51d35cfd1",
+      "last_seen_sha": "fce2827f4971",
       "author": "Jishnu Mahanta",
       "maintainer": "Jishnu Mahanta",
       "sentence": "ESP32 OTA updater via GitHub Releases with SHA-256 integrity verification and automated release pipeline.",
-      "paragraph": "Stream firmware from GitHub Releases with hardware-accelerated SHA-256 verification, semantic version comparison (1.10.0 > 1.9.0), non-blocking FreeRTOS version checks, maintenance callbacks to safely stop hardware before flashing, and a one-command automated release script. No custom server required.",
+      "paragraph": "Stream firmware from GitHub Releases with hardware-accelerated SHA-256 verification, optional ECDSA signature checking, semantic version comparison (1.10.0 > 1.9.0), non-blocking FreeRTOS version checks, thread-safe state, maintenance and failure callbacks to safely stop and resume hardware around a flash, and a one-command automated release script. No custom server required.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jishnumahanta/GitReleaseOTA-1.1.0.zip",
+      "size": 44528,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-26T14:47:38Z",
-      "download_url": "https://github.com/jishnumahanta/GitReleaseOTA"
+      "github_updated_at": "2026-05-26T14:47:38Z"
     },
     {
       "repository_name": "gizmo-platform/ArduinoGizmo",
@@ -132667,7 +132677,7 @@
       "repository_name": "MacManley/gt7-udp",
       "repository_url": "https://github.com/MacManley/gt7-udp",
       "name": "GT7 UDP Telemetry Parser",
-      "version": "2.1.4",
+      "version": "2.1.5",
       "version_history": [
         {
           "version": "2.1.1",
@@ -132688,11 +132698,15 @@
         {
           "version": "2.1.4",
           "seen_at": "2026-10-28T10:02:01.303Z"
+        },
+        {
+          "version": "2.1.5",
+          "seen_at": "2026-10-29T12:03:22.527Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-29T09:21:11Z",
-      "last_seen_sha": "65a81747d926",
+      "last_seen_sha": "acb102b56d37",
       "author": "MacManley",
       "maintainer": "MacManley",
       "sentence": "UDP Telemetry Parser for Gran Turismo 7",
@@ -132702,9 +132716,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.4.zip",
-      "size": 31738,
-      "previous_version": "2.1.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MacManley/GT7_UDP_Telemetry_Parser-2.1.5.zip",
+      "size": 31739,
+      "previous_version": "2.1.4",
       "github_stars": 59,
       "github_forks": 9,
       "github_language": "C++",

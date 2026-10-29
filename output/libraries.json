@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-29T17:01:48.653Z",
-  "total_libraries": 10288,
-  "index_etag": "W/\"3c918e8194280c9f3b390e6cfd99f031\"",
-  "index_last_modified": "Thu, 29 Oct 2026 17:00:18 GMT",
+  "enhanced_at": "2026-10-29T18:03:11.273Z",
+  "total_libraries": 10290,
+  "index_etag": "W/\"bfc60e41fc8f3b58e327f1f961af02ef\"",
+  "index_last_modified": "Thu, 29 Oct 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24186,6 +24186,35 @@
       "github_language": "C++",
       "github_updated_at": "2021-06-17T18:16:03Z",
       "download_url": "https://github.com/pololu/amis-30543-arduino"
+    },
+    {
+      "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
+      "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
+      "name": "AMK_CYD_Universal_TFT",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-29T18:03:08.277Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-29T18:03:08.277Z",
+      "last_seen_sha": "fa93f585da4d",
+      "author": "Aung Moe Khine",
+      "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
+      "sentence": "Universal standalone TFT, touch, and sprite driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI drop-in compatibility, TFT_eSprite off-screen buffering, and persistent NVS touch calibration.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.2.0.zip",
+      "size": 379717,
+      "github_stars": 5,
+      "github_forks": 1,
+      "github_language": "C",
+      "github_updated_at": "2026-10-29T16:42:50Z"
     },
     {
       "repository_name": "edpro/amperia_stem",
@@ -78887,7 +78916,7 @@
       "repository_name": "DigitalFuturesOCADU/df-pong-controller",
       "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
       "name": "DFPongController",
-      "version": "2.4.2",
+      "version": "2.4.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -78928,11 +78957,15 @@
         {
           "version": "2.4.2",
           "seen_at": "2026-10-29T00:04:58.405Z"
+        },
+        {
+          "version": "2.4.3",
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-01-05T07:57:45Z",
-      "last_seen_sha": "f0f7d4cf21c4",
+      "last_seen_sha": "a7b04e0bfea4",
       "author": "Digital Futures OCAD U",
       "maintainer": "Digital Futures OCAD U",
       "sentence": "BLE controller library for the DF Pong game.",
@@ -78950,9 +78983,9 @@
         "ArduinoBLE",
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.2.zip",
-      "size": 77359,
-      "previous_version": "2.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.3.zip",
+      "size": 78684,
+      "previous_version": "2.4.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -141461,7 +141494,7 @@
       "repository_name": "RobTillaart/HX711",
       "repository_url": "https://github.com/RobTillaart/HX711",
       "name": "HX711",
-      "version": "0.6.5",
+      "version": "0.6.6",
       "version_history": [
         {
           "version": "0.6.3",
@@ -141474,11 +141507,15 @@
         {
           "version": "0.6.5",
           "seen_at": "2026-09-04T18:03:00.681Z"
+        },
+        {
+          "version": "0.6.6",
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-15T09:45:58Z",
-      "last_seen_sha": "52ae3d29b534",
+      "last_seen_sha": "b4778bd8c3c4",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for HX711 load cell amplifier.",
@@ -141487,9 +141524,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711-0.6.5.zip",
-      "size": 40508,
-      "previous_version": "0.6.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711-0.6.6.zip",
+      "size": 43695,
+      "previous_version": "0.6.5",
       "github_stars": 117,
       "github_forks": 40,
       "github_language": "C++",
@@ -141621,7 +141658,7 @@
       "repository_name": "RobTillaart/HX711_MP",
       "repository_url": "https://github.com/RobTillaart/HX711_MP",
       "name": "HX711_MP",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "version_history": [
         {
           "version": "0.3.4",
@@ -141630,11 +141667,15 @@
         {
           "version": "0.3.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.3.6",
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-22T08:04:22Z",
-      "last_seen_sha": "1ee4388de90c",
+      "last_seen_sha": "3915237a1901",
       "author": "Rob Tillaart <rob.tillaart@gmail.com>",
       "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
       "sentence": "Arduino library for HX711 load cell amplifier.",
@@ -141643,9 +141684,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711_MP-0.3.5.zip",
-      "size": 22275,
-      "previous_version": "0.3.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/HX711_MP-0.3.6.zip",
+      "size": 23536,
+      "previous_version": "0.3.5",
       "github_stars": 25,
       "github_forks": 0,
       "github_language": "C++",
@@ -148840,7 +148881,7 @@
       "repository_name": "iotfiy-solutions/Gateway_Library",
       "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
       "name": "IOTFIY",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -148849,11 +148890,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-10-19T14:02:59.400Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-13T18:03:42.746Z",
-      "last_seen_sha": "a771c9e7a906",
+      "last_seen_sha": "df0de02ff666",
       "author": "Iotfiy Solutions",
       "maintainer": "iotfiy.solution@gmail.com",
       "sentence": "A library for IoT device connectivity using MQTT.",
@@ -148867,9 +148912,9 @@
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.1.zip",
-      "size": 14932,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.2.zip",
+      "size": 21799,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -196046,6 +196091,37 @@
       "github_updated_at": "2026-07-24T20:01:33Z"
     },
     {
+      "repository_name": "Teacher-Heiko/MPU6050Classroom",
+      "repository_url": "https://github.com/Teacher-Heiko/MPU6050Classroom",
+      "name": "MPU6050Classroom",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-29T18:03:08.277Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-29T18:03:08.277Z",
+      "last_seen_sha": "da0babae8af3",
+      "author": "MPU6050Classroom contributors",
+      "maintainer": "MPU6050Classroom contributors",
+      "sentence": "MPU-6050 motion sensor library for students on ESP32 and Arduino UNO R3/R4: two-line start, automatic freeze repair, Wi-Fi setup page, project examples.",
+      "paragraph": "Examples from a spirit level and fall detector to a self-balancing robot, plus Wi-Fi projects with phone messages (ntfy). The library prints only to a stream you choose. DMP firmware images are the MIT-licensed captures from the i2cdevlib/ElectronicCats library.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "avr",
+        "renesas_uno"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Teacher-Heiko/MPU6050Classroom-1.0.0.zip",
+      "size": 433472,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-29T14:02:15Z"
+    },
+    {
       "repository_name": "xreef/MPU-6500-DMP_Library",
       "repository_url": "https://github.com/xreef/MPU-6500-DMP_Library",
       "name": "MPU6500-DMP",
@@ -199598,7 +199674,7 @@
       "repository_name": "MyTechWaifu/MTW_TinyLoopScheduler",
       "repository_url": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler",
       "name": "MTW TinyLoopScheduler",
-      "version": "0.1.4",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.1",
@@ -199619,23 +199695,26 @@
         {
           "version": "0.1.4",
           "seen_at": "2026-07-12T05:59:26.857Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-29T09:22:09Z",
-      "last_seen_sha": "622970f6f362",
+      "last_seen_sha": "9a514e055dbe",
       "author": "MyTechWaifu",
       "maintainer": "MyTechWaifu <MyTechWaifu@web3msg.fun>",
-      "sentence": "A compact cooperative scheduler with static memory allocation for AVR Arduino boards.",
-      "paragraph": "MTW TinyLoopScheduler provides periodic, delayed, posted, polling, ISR-deferred and step-based PARTED task execution without dynamic memory allocation. Scheduler subsystems and fixed-capacity queue profiles are selected at compile time for predictable SRAM and Flash usage.",
+      "sentence": "A compact cooperative scheduler with static memory allocation for Arduino-compatible boards, with AVR and Generic backends.",
+      "paragraph": "MTW TinyLoopScheduler provides periodic, delayed, posted, polling and step-based PARTED task execution without dynamic memory allocation. The AVR backend additionally provides optional IDLE sleep and ISR deferral. Scheduler subsystems and fixed-capacity queue profiles are selected at compile time for predictable SRAM and Flash usage.",
       "category": "Timing",
       "architectures": [
-        "avr",
-        "megaavr"
+        "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.1.4.zip",
-      "size": 142748,
-      "previous_version": "0.1.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.2.0.zip",
+      "size": 158282,
+      "previous_version": "0.1.4",
       "github_stars": 7,
       "github_forks": 0,
       "github_language": "C++",
@@ -335909,7 +335988,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10084,
+    "with_github_metadata": 10086,
     "total_dependencies": 5630
   }
 }

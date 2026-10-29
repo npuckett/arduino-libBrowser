@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-29T15:01:55.246Z",
-  "total_libraries": 10287,
-  "index_etag": "W/\"388107c181aee9e62699ce087b7fe14a\"",
-  "index_last_modified": "Thu, 29 Oct 2026 15:00:18 GMT",
+  "enhanced_at": "2026-10-29T16:02:24.476Z",
+  "total_libraries": 10288,
+  "index_etag": "W/\"3c918e8194280c9f3b390e6cfd99f031\"",
+  "index_last_modified": "Thu, 29 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -14562,6 +14562,39 @@
       "github_forks": 105,
       "github_language": "C++",
       "github_updated_at": "2025-11-02T12:07:35Z"
+    },
+    {
+      "repository_name": "adafruit/Adafruit_RV8803",
+      "repository_url": "https://github.com/adafruit/Adafruit_RV8803",
+      "name": "Adafruit RV8803",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-29T16:02:22.946Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-29T16:02:22.946Z",
+      "last_seen_sha": "aee3a824e88a",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the RV-8803-C7 Real-Time Clock",
+      "paragraph": "Supports alarm, countdown timer, external event timestamp, CLKOUT, and offset calibration. I2C interface, 1.5-5.5V operation.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "RTClib",
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_RV8803-1.0.0.zip",
+      "size": 59083,
+      "github_stars": 0,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-29T13:17:54Z"
     },
     {
       "repository_name": "adafruit/Adafruit_S-35710",
@@ -47848,7 +47881,7 @@
       "repository_name": "andrey-val-rodin/BleCommands.Arduino",
       "repository_url": "https://github.com/andrey-val-rodin/BleCommands.Arduino",
       "name": "BLECommands",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.1",
@@ -47861,11 +47894,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-09-28T20:02:54.008Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-10-29T16:02:22.946Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-05-16T08:19:15Z",
-      "last_seen_sha": "22afc629e574",
+      "last_seen_sha": "c5857cf80556",
       "author": "Andrey Rodin",
       "maintainer": "Andrey Rodin <andrey.val.rodin@gmail.com>",
       "sentence": "Simple Arduino BLE library implementing text-based command/response protocol.",
@@ -47877,9 +47914,9 @@
       "depends": [
         "ArduinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/andrey-val-rodin/BLECommands-1.1.1.zip",
-      "size": 9216,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/andrey-val-rodin/BLECommands-1.1.2.zip",
+      "size": 9186,
+      "previous_version": "1.1.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -335872,7 +335909,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10083,
-    "total_dependencies": 5628
+    "with_github_metadata": 10084,
+    "total_dependencies": 5630
   }
 }

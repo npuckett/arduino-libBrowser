@@ -1,6 +1,57 @@
 {
-  "since": "2026-10-29T03:03:02.100Z",
+  "since": "2026-10-29T04:02:58.756Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/ESP32IRPulseKit",
+        "repository_url": "https://github.com/tanakamasayuki/ESP32IRPulseKit",
+        "name": "ESP32IRPulseKit",
+        "version": "1.0.7",
+        "version_history": [
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-06-30T08:49:41Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-07-02T10:07:48.435Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-10-20T14:02:53.104Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-10-29T04:02:58.756Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-30T08:49:41Z",
+        "last_seen_sha": "e4ae5f7685b7",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "IR remote send/receive toolkit for ESP32 (Arduino Core 3.0+/ESP-IDF 5 RMT driver).",
+        "paragraph": "Provides RAW tick capture, scoring-based decode candidate handling, and protocol-based send helpers designed for the ESP32 RMT driver, plus a separate air-conditioner layer (esp32irpk::ac) that decodes/encodes vendor state frames (Panasonic, Gree, Mitsubishi, Mitsubishi Heavy, Fujitsu, Daikin, Toshiba, Samsung, Sharp, Kelvinator, Midea, Carrier, Hitachi, Haier, TCL).",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/ESP32IRPulseKit-1.0.7.zip",
+        "size": 250342,
+        "previous_version": "1.0.6",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-02T03:25:04Z"
+      },
+      "old_version": "1.0.6",
+      "new_version": "1.0.7"
+    }
+  ],
   "removed_libraries": []
 }

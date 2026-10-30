@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-30T19:01:32.721Z",
-  "total_libraries": 10292,
-  "index_etag": "W/\"c9168f183cfbb4734c53fa01d3136d55\"",
-  "index_last_modified": "Fri, 30 Oct 2026 19:00:18 GMT",
+  "enhanced_at": "2026-10-30T20:01:42.714Z",
+  "total_libraries": 10291,
+  "index_etag": "W/\"aa60ad6dac44bb95c7d8d1e364240584\"",
+  "index_last_modified": "Fri, 30 Oct 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -67625,7 +67625,7 @@
       "repository_name": "Johboh/ConnectionHelper",
       "repository_url": "https://github.com/Johboh/ConnectionHelper",
       "name": "ConnectionHelper",
-      "version": "3.0.16",
+      "version": "3.0.17",
       "version_history": [
         {
           "version": "3.0.12",
@@ -67634,11 +67634,15 @@
         {
           "version": "3.0.16",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.0.17",
+          "seen_at": "2026-10-30T20:01:38.798Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:17:44Z",
-      "last_seen_sha": "15d57c070821",
+      "last_seen_sha": "af67daed7ff6",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Library for setting up WiFi and OTA (Over The Air)",
@@ -67648,9 +67652,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.16.zip",
-      "size": 36207,
-      "previous_version": "3.0.12",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.17.zip",
+      "size": 40249,
+      "previous_version": "3.0.16",
       "github_stars": 7,
       "github_forks": 0,
       "github_language": "C++",
@@ -110845,18 +110849,18 @@
       "github_updated_at": "2026-09-23T17:06:08Z"
     },
     {
-      "repository_name": "HamzaYslmn/Esp-BLE-Web",
-      "repository_url": "https://github.com/HamzaYslmn/Esp-BLE-Web",
+      "repository_name": "HamzaYslmn/Esp-BleDeck",
+      "repository_url": "https://github.com/HamzaYslmn/Esp-BleDeck",
       "name": "EspBleWeb",
       "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.6",
-          "seen_at": "2026-06-29T08:55:44Z"
+          "seen_at": "2026-10-30T20:01:38.798Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-06-29T08:55:44Z",
+      "first_seen_at": "2026-10-30T20:01:38.798Z",
       "last_seen_sha": "eccd8c6add46",
       "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
       "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
@@ -110866,11 +110870,12 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-27T22:46:11Z",
-      "download_url": "https://github.com/HamzaYslmn/Esp-BLE-Web",
-      "github_language": "TypeScript"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/EspBleWeb-1.0.6.zip",
+      "size": 223553,
+      "github_stars": 5,
+      "github_forks": 1,
+      "github_language": "TypeScript",
+      "github_updated_at": "2026-10-24T23:48:44Z"
     },
     {
       "repository_name": "arkhipenko/EspBootstrap",
@@ -157368,52 +157373,6 @@
       "github_updated_at": "2025-09-09T22:48:06Z"
     },
     {
-      "repository_name": "ailagari/LagariMotors",
-      "repository_url": "https://github.com/ailagari/LagariMotors",
-      "name": "LagariMotors",
-      "version": "0.3.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-09-05T14:02:05.234Z"
-        },
-        {
-          "version": "0.1.1",
-          "seen_at": "2026-09-06T00:07:17.875Z"
-        },
-        {
-          "version": "0.2.0",
-          "seen_at": "2026-09-23T10:02:34.992Z"
-        },
-        {
-          "version": "0.3.0",
-          "seen_at": "2026-09-23T14:02:52.237Z"
-        }
-      ],
-      "release_count": 4,
-      "first_seen_at": "2026-09-05T14:02:05.234Z",
-      "last_seen_sha": "d3b90bcd3b18",
-      "author": "LAGARI A <lagariscience@gmail.com>",
-      "maintainer": "LAGARI A <lagariscience@gmail.com>",
-      "sentence": "UDP command system for integrated servo/stepper drives (Modbus-RTU / RS-485) on Controllino.",
-      "paragraph": "Hardened Modbus-RTU transport (CRC-verified responses, exception detection, retries, real timeouts), unit-correct motor control (position, velocity, homing, zero/position redefinition), a non-blocking status monitor that pushes limit-switch, fault and online/offline events over UDP, and a full command set (P, PR, PA, S, SD, B, L, BS, Z, ZO, ZS, R, I, X, MC, DG plus V/VA/VS/AD/HV/HO/H extensions).",
-      "category": "Device Control",
-      "architectures": [
-        "avr"
-      ],
-      "depends": [
-        "CONTROLLINO",
-        "Ethernet"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ailagari/LagariMotors-0.3.0.zip",
-      "size": 46165,
-      "previous_version": "0.2.0",
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-09-05T11:28:17Z"
-    },
-    {
       "repository_name": "lansium-dev/lansium-arduino",
       "repository_url": "https://github.com/lansium-dev/lansium-arduino",
       "name": "lansium-arduino",
@@ -164372,7 +164331,7 @@
       "repository_name": "blah188/LionDallas",
       "repository_url": "https://github.com/blah188/LionDallas",
       "name": "LionDallas",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -164381,11 +164340,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-07-03T12:34:01.657Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-30T20:01:38.798Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "8c92ffbec9c6",
+      "last_seen_sha": "d0e9f9018f8d",
       "author": "leva <leva.the.lion@gmail.com>",
       "maintainer": "leva <leva.the.lion@gmail.com>",
       "sentence": "Compact DS18B20 driver over OneWire for the Lion* stack (ESP8266 / ESP32).",
@@ -164402,9 +164365,9 @@
         "LionTask",
         "LionRtosTask"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionDallas-1.1.0.zip",
-      "size": 19383,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/blah188/LionDallas-1.2.0.zip",
+      "size": 20589,
+      "previous_version": "1.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -197170,7 +197133,7 @@
       "repository_name": "Johboh/MQTTRemote",
       "repository_url": "https://github.com/Johboh/MQTTRemote",
       "name": "MQTTRemote",
-      "version": "6.0.4",
+      "version": "6.0.5",
       "version_history": [
         {
           "version": "6.0.2",
@@ -197183,11 +197146,15 @@
         {
           "version": "6.0.4",
           "seen_at": "2026-09-25T10:02:49.533Z"
+        },
+        {
+          "version": "6.0.5",
+          "seen_at": "2026-10-30T20:01:38.798Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:17:48Z",
-      "last_seen_sha": "0474466013b8",
+      "last_seen_sha": "7158d984a5f7",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "MQTT wrapper for setting up an MQTT connection",
@@ -197199,9 +197166,12 @@
         "samd"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/MQTTRemote-6.0.4.zip",
-      "size": 39073,
-      "previous_version": "6.0.3",
+      "depends": [
+        "MQTT"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/MQTTRemote-6.0.5.zip",
+      "size": 40608,
+      "previous_version": "6.0.4",
       "github_stars": 3,
       "github_forks": 1,
       "github_language": "C++",
@@ -235245,53 +235215,6 @@
       "download_url": "https://github.com/lu-maca/pyrpc"
     },
     {
-      "repository_name": "HamzaYslmn/python-esp-bridge",
-      "repository_url": "https://github.com/HamzaYslmn/python-esp-bridge",
-      "name": "python esp bridge",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "0.15.0",
-          "seen_at": "2026-06-18T08:53:41Z"
-        },
-        {
-          "version": "0.15.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        },
-        {
-          "version": "0.16.0",
-          "seen_at": "2026-07-03T00:24:18.708Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-07-30T16:29:03.361Z"
-        },
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-07-30T20:24:32.795Z"
-        }
-      ],
-      "release_count": 5,
-      "first_seen_at": "2026-06-18T08:53:41Z",
-      "last_seen_sha": "d7f5f00731f9",
-      "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
-      "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
-      "sentence": "Flash-once firmware that exposes every peripheral to Python over USB serial or Bluetooth.",
-      "paragraph": "Turns an ESP32 into a live bridge — GPIO, ADC/DAC, PWM, touch, I2C, SPI, UART, Wi-Fi sockets, BLE, ESP-NOW, RMT, 1-Wire, CAN, I2S, filesystem, NVS and OTA are all driven from the host with the python-esp-bridge package (pip install python-esp-bridge). One EspBridge.begin() call starts a FreeRTOS task model (separate TX, RX and network tasks) so blocking radio I/O never stalls peripheral traffic. Requires arduino-esp32 core 3.x. Also runs on the Nordic nRF52840 (Seeed XIAO / Adafruit Bluefruit core) with a capability-gated subset: BLE link, GPIO, ADC, PWM and I2C.",
-      "category": "Communication",
-      "architectures": [
-        "esp32",
-        "nrf52"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/python_esp_bridge-1.0.1.zip",
-      "size": 1748736,
-      "previous_version": "1.0.0",
-      "github_stars": 9,
-      "github_forks": 3,
-      "github_language": "Python",
-      "github_updated_at": "2026-06-17T20:16:25Z"
-    },
-    {
       "repository_name": "vortigont/pzem-edl",
       "repository_url": "https://github.com/vortigont/pzem-edl",
       "name": "pzem-edl",
@@ -266955,34 +266878,18 @@
       "github_updated_at": "2025-12-20T12:17:43Z"
     },
     {
-      "repository_name": "xanderwasserman/SimpleOTAClient-Arduino",
-      "repository_url": "https://github.com/xanderwasserman/SimpleOTAClient-Arduino",
+      "repository_name": "wassie-dev/simpleOTAClient-Arduino",
+      "repository_url": "https://github.com/wassie-dev/simpleOTAClient-Arduino",
       "name": "SimpleOTAClient",
       "version": "1.0.0",
       "version_history": [
         {
-          "version": "0.3.0",
-          "seen_at": "2026-05-23T07:50:44Z"
-        },
-        {
-          "version": "0.4.0",
-          "seen_at": "2026-07-12T18:16:04.059Z"
-        },
-        {
-          "version": "0.5.0",
-          "seen_at": "2026-10-17T16:02:35.536Z"
-        },
-        {
-          "version": "0.6.0",
-          "seen_at": "2026-10-22T08:03:32.493Z"
-        },
-        {
           "version": "1.0.0",
-          "seen_at": "2026-10-25T10:02:37.676Z"
+          "seen_at": "2026-10-30T20:01:38.798Z"
         }
       ],
-      "release_count": 5,
-      "first_seen_at": "2026-05-23T07:50:44Z",
+      "release_count": 1,
+      "first_seen_at": "2026-10-30T20:01:38.798Z",
       "last_seen_sha": "36e47b7f8271",
       "author": "SimpleOTA <support@simpleota.com>",
       "maintainer": "SimpleOTA <support@simpleota.com>",
@@ -266993,13 +266900,12 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/xanderwasserman/SimpleOTAClient-1.0.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.0.0.zip",
       "size": 152089,
-      "previous_version": "0.6.0",
       "github_stars": 1,
       "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-22T12:10:15Z"
+      "github_language": "C",
+      "github_updated_at": "2026-10-25T08:27:38Z"
     },
     {
       "repository_name": "madhephaestus/SimplePacketComs",
@@ -305282,6 +305188,35 @@
       "download_url": "https://github.com/chrmlinux/ThreeD"
     },
     {
+      "repository_name": "watersRand/ThreeZoneDriver",
+      "repository_url": "https://github.com/watersRand/ThreeZoneDriver",
+      "name": "ThreeZoneDriver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-30T20:01:38.798Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-30T20:01:38.798Z",
+      "last_seen_sha": "90920975f8a7",
+      "author": "watersRand",
+      "maintainer": "watersRand",
+      "sentence": "A high-current 3-zone independent motor driver library using the 74HC595 shift register.",
+      "paragraph": "MCU-agnostic control for 6 DC motors across 3 independent zones with deadtime protection and PWM speed control via 74HC595.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/watersRand/ThreeZoneDriver-1.0.0.zip",
+      "size": 326025,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-28T07:35:29Z"
+    },
+    {
       "repository_name": "luisllamasbinaburo/Arduino-Threshold",
       "repository_url": "https://github.com/luisllamasbinaburo/Arduino-Threshold",
       "name": "ThresholdLib",
@@ -325018,6 +324953,43 @@
       "github_updated_at": "2026-03-31T12:25:06Z"
     },
     {
+      "repository_name": "mumanchu/W25QxxFlash",
+      "repository_url": "https://github.com/mumanchu/W25QxxFlash",
+      "name": "W25QxxFlash",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-05-29T08:22:51Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-30T20:01:38.798Z"
+        }
+      ],
+      "release_count": 3,
+      "first_seen_at": "2026-05-29T08:22:51Z",
+      "last_seen_sha": "f03c0e66457f",
+      "author": "mumanchu",
+      "maintainer": "mumanchu <info@muman.ch>",
+      "sentence": "Library for SPI Flash memory chips, 1..512Mbits",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.2.zip",
+      "size": 12110,
+      "previous_version": "1.0.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-29T08:01:48Z"
+    },
+    {
       "repository_name": "machinefi/w3bstream-client-arduino-ce",
       "repository_url": "https://github.com/machinefi-org/w3bstream-client-arduino-ce",
       "name": "W3bstreamClient",
@@ -330514,39 +330486,6 @@
         "ESP32-audioI2S-master"
       ],
       "download_url": "https://github.com/jeffvan302/WS_ESP32_Touch28"
-    },
-    {
-      "repository_name": "mumanchu/W25QxxFlash",
-      "repository_url": "https://github.com/mumanchu/W25QxxFlash",
-      "name": "WS25QxxFlash",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-05-29T08:22:51Z"
-        },
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-06-30T22:37:15.403Z"
-        }
-      ],
-      "release_count": 2,
-      "first_seen_at": "2026-05-29T08:22:51Z",
-      "last_seen_sha": "6f7e5e815934",
-      "author": "mumanchu <info@muman.ch>",
-      "maintainer": "mumanchu <info@muman.ch>",
-      "sentence": "Library for all Winbond SPI Flash memory chips, WS25Q10..W25Q512",
-      "category": "Data Storage",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/WS25QxxFlash-1.0.0.zip",
-      "size": 10552,
-      "previous_version": "1.0.1",
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-29T08:01:48Z"
     },
     {
       "repository_name": "Zhentao-Lin/WS2812_Lib_for_Air001",
@@ -336142,7 +336081,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10088,
-    "total_dependencies": 5634
+    "with_github_metadata": 10087,
+    "total_dependencies": 5633
   }
 }

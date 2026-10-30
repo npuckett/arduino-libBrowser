@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-30T13:01:41.768Z",
-  "total_libraries": 10291,
-  "index_etag": "W/\"98248ff7e2f9cb66ea025c7af020331c\"",
-  "index_last_modified": "Fri, 30 Oct 2026 13:00:18 GMT",
+  "enhanced_at": "2026-10-30T14:02:05.347Z",
+  "total_libraries": 10292,
+  "index_etag": "W/\"f84f01930cfa067b1e799af57a381366\"",
+  "index_last_modified": "Fri, 30 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73553,7 +73553,7 @@
       "repository_name": "Unical-A/DashlyClient",
       "repository_url": "https://github.com/Unical-A/DashlyClient",
       "name": "DashlyClient",
-      "version": "2.2.0",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "2.1.0",
@@ -73566,11 +73566,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-10-03T10:02:35.109Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-10-30T14:02:03.823Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "9fe1a9cd6c96",
+      "last_seen_sha": "3ac3de1d3a77",
       "author": "Arsen Vardanyan",
       "maintainer": "Smart Stack Solutions <support@dashlyiot.com>",
       "sentence": "Official Arduino client for DashlyIoT.com.",
@@ -73580,9 +73584,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Unical-A/DashlyClient-2.2.0.zip",
-      "size": 17707,
-      "previous_version": "2.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Unical-A/DashlyClient-2.4.0.zip",
+      "size": 23322,
+      "previous_version": "2.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -80760,6 +80764,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-04-03T12:33:17Z",
       "download_url": "https://github.com/DFRobot/DFRobot_Heartrate"
+    },
+    {
+      "repository_name": "DFRobot/DFRobot_HuskylensV2",
+      "repository_url": "https://github.com/DFRobot/DFRobot_HuskylensV2",
+      "name": "DFRobot_HuskylensV2",
+      "version": "1.4.2",
+      "version_history": [
+        {
+          "version": "1.4.2",
+          "seen_at": "2026-10-30T14:02:03.823Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-30T14:02:03.823Z",
+      "last_seen_sha": "ee138f337d2d",
+      "author": "DFRobot",
+      "maintainer": "ouki.wang <ouki.wang@dfrobot.com>",
+      "sentence": "Standard library for DFRobot HuskylensV2 (SKU:SEN0638)",
+      "paragraph": "DFRobot multimedia AI Sensor",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_HuskylensV2-1.4.2.zip",
+      "size": 153369,
+      "github_stars": 32,
+      "github_forks": 4,
+      "github_language": "Python",
+      "github_updated_at": "2026-10-30T10:18:21Z"
     },
     {
       "repository_name": "DFRobot/DFRobot_HX711",
@@ -242911,7 +242944,7 @@
       "repository_name": "TMRh20/RF24Ethernet",
       "repository_url": "https://github.com/TMRh20/RF24Ethernet",
       "name": "RF24Ethernet",
-      "version": "2.2.2",
+      "version": "2.2.3",
       "version_history": [
         {
           "version": "2.1.4",
@@ -242928,11 +242961,15 @@
         {
           "version": "2.2.2",
           "seen_at": "2026-10-19T04:03:06.736Z"
+        },
+        {
+          "version": "2.2.3",
+          "seen_at": "2026-10-30T14:02:03.823Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-08T09:11:05Z",
-      "last_seen_sha": "b77be8f850dc",
+      "last_seen_sha": "46b2c4fa24e0",
       "author": "TMRh20",
       "maintainer": "TMRh20",
       "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) & nRF52",
@@ -242947,9 +242984,9 @@
         "RF24Mesh",
         "lwIP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.2.zip",
-      "size": 434286,
-      "previous_version": "2.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.3.zip",
+      "size": 435179,
+      "previous_version": "2.2.2",
       "github_stars": 128,
       "github_forks": 57,
       "github_language": "C",
@@ -243025,7 +243062,7 @@
       "repository_name": "TMRh20/RF24Network",
       "repository_url": "https://github.com/TMRh20/RF24Network",
       "name": "RF24Network",
-      "version": "2.2.1",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.1.1",
@@ -243042,11 +243079,15 @@
         {
           "version": "2.2.1",
           "seen_at": "2026-10-23T14:02:51.834Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-10-30T14:02:03.823Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T08:50:59Z",
-      "last_seen_sha": "56a3f352e62d",
+      "last_seen_sha": "f4bce9cc6155",
       "author": "TMRh20",
       "maintainer": "TMRh20,Avamander",
       "sentence": "OSI Layer 3 Networking for nrf24L01(+) & nrf52x devices.",
@@ -243059,9 +243100,9 @@
         "RF24",
         "nrf_to_nrf"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.2.1.zip",
-      "size": 1556544,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Network-2.3.0.zip",
+      "size": 1561471,
+      "previous_version": "2.2.1",
       "github_stars": 384,
       "github_forks": 173,
       "github_language": "C++",
@@ -336092,7 +336133,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10087,
+    "with_github_metadata": 10088,
     "total_dependencies": 5634
   }
 }

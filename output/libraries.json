@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-30T07:02:18.353Z",
-  "total_libraries": 10290,
-  "index_etag": "W/\"50633101794b93727e23b049896619e5\"",
-  "index_last_modified": "Fri, 30 Oct 2026 07:00:18 GMT",
+  "enhanced_at": "2026-10-30T08:02:50.424Z",
+  "total_libraries": 10291,
+  "index_etag": "W/\"47472fb42796388faefddd1528ceb358\"",
+  "index_last_modified": "Fri, 30 Oct 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -90031,6 +90031,40 @@
       "download_url": "https://github.com/deploythefleet/arduino_esp8266_update"
     },
     {
+      "repository_name": "DTG-Corp/dtg-arduino",
+      "repository_url": "https://github.com/DTG-Corp/dtg-arduino",
+      "name": "DTG_IoT",
+      "version": "1.1.1",
+      "version_history": [
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-10-30T08:02:48.897Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-30T08:02:48.897Z",
+      "last_seen_sha": "ae5961031f6b",
+      "author": "DTG Corp",
+      "maintainer": "DTG Corp <iot@dtgsoft.vn>",
+      "sentence": "Official ESP32 client for DTG IoT Hub (MQTT, Modbus RTU, no-code I/O, FOTA).",
+      "paragraph": "Wi-Fi and cellular MQTT client with a Let's Encrypt trust store (ISRG Root X1/X2, Root YR/YE), Hub downlink, no-code GPIO, Modbus RTU, and checksum-verified HTTPS OTA. Install PubSubClient, ArduinoJson, and TinyGPSPlus from Library Manager. For Modbus sketches also install eModbus from GitHub (eModbus/eModbus).",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient",
+        "TinyGPSPlus",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.1.zip",
+      "size": 134899,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-30T05:46:11Z"
+    },
+    {
       "repository_name": "offcircuit/DTime",
       "repository_url": "https://github.com/offcircuit/DTime",
       "name": "DTime",
@@ -173785,7 +173819,7 @@
       "repository_name": "m5stack/M5Unit-FLASHLIGHT",
       "repository_url": "https://github.com/m5stack/M5Unit-FLASHLIGHT",
       "name": "M5Unit-FLASHLIGHT",
-      "version": "0.0.2",
+      "version": "0.1.0",
       "version_history": [
         {
           "version": "0.0.1",
@@ -173794,11 +173828,15 @@
         {
           "version": "0.0.2",
           "seen_at": "2026-08-10T12:12:57.774Z"
+        },
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-30T08:02:48.897Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-03T10:15:08.794Z",
-      "last_seen_sha": "eb3e04fc259a",
+      "last_seen_sha": "0f9bb5515f7d",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT FLASHLIGHT using M5UnitUnified",
@@ -173812,9 +173850,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.0.2.zip",
-      "size": 61943,
-      "previous_version": "0.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_FLASHLIGHT-0.1.0.zip",
+      "size": 70664,
+      "previous_version": "0.0.2",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -174189,7 +174227,7 @@
       "repository_name": "m5stack/M5Unit-LIGHT",
       "repository_url": "https://github.com/m5stack/M5Unit-LIGHT",
       "name": "M5Unit-LIGHT",
-      "version": "0.0.2",
+      "version": "0.1.0",
       "version_history": [
         {
           "version": "0.0.1",
@@ -174198,11 +174236,15 @@
         {
           "version": "0.0.2",
           "seen_at": "2026-08-10T14:24:36.837Z"
+        },
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-30T08:02:48.897Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-03T10:15:08.794Z",
-      "last_seen_sha": "1e4af0fe92c1",
+      "last_seen_sha": "da6dc9bba61f",
       "author": "M5Stack",
       "maintainer": "M5Stack",
       "sentence": "Library for M5Stack UNIT LIGHT using M5UnitUnified",
@@ -174216,9 +174258,9 @@
         "M5Utility",
         "M5HAL"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.0.2.zip",
-      "size": 77942,
-      "previous_version": "0.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unit_LIGHT-0.1.0.zip",
+      "size": 97382,
+      "previous_version": "0.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -336028,7 +336070,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10086,
-    "total_dependencies": 5631
+    "with_github_metadata": 10087,
+    "total_dependencies": 5634
   }
 }

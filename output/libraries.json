@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-30T15:01:47.633Z",
+  "enhanced_at": "2026-10-30T16:01:55.380Z",
   "total_libraries": 10292,
-  "index_etag": "W/\"f84f01930cfa067b1e799af57a381366\"",
-  "index_last_modified": "Fri, 30 Oct 2026 15:00:18 GMT",
+  "index_etag": "W/\"c9168f183cfbb4734c53fa01d3136d55\"",
+  "index_last_modified": "Fri, 30 Oct 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40012,7 +40012,7 @@
       "repository_name": "ARDUTECH0/ATGenXIOT",
       "repository_url": "https://github.com/ARDUTECH0/ATGenXIOT",
       "name": "ATGenX_Hub",
-      "version": "2.5.0",
+      "version": "2.7.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40029,15 +40029,19 @@
         {
           "version": "2.5.0",
           "seen_at": "2026-10-17T18:02:43.447Z"
+        },
+        {
+          "version": "2.7.0",
+          "seen_at": "2026-10-30T16:01:55.231Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-04-04T07:21:08Z",
-      "last_seen_sha": "107037eb2938",
+      "last_seen_sha": "ae8f1bc23b40",
       "author": "Seif Emad / ARDUTECH0",
       "maintainer": "Seif Emad <support@atgenx.com>",
       "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
-      "paragraph": "One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+      "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -40048,9 +40052,9 @@
         "ArduinoJson",
         "DHT sensor library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.5.0.zip",
-      "size": 42801,
-      "previous_version": "2.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.7.0.zip",
+      "size": 54511,
+      "previous_version": "2.5.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -224307,7 +224311,7 @@
       "repository_name": "pin-node/PinNode",
       "repository_url": "https://github.com/pin-node/PinNode",
       "name": "PinNode",
-      "version": "0.3.15",
+      "version": "0.3.20",
       "version_history": [
         {
           "version": "0.3.12",
@@ -224324,11 +224328,15 @@
         {
           "version": "0.3.15",
           "seen_at": "2026-10-15T18:03:41.152Z"
+        },
+        {
+          "version": "0.3.20",
+          "seen_at": "2026-10-30T16:01:55.231Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "2eedd81d8e0c",
+      "last_seen_sha": "612d72fd7904",
       "author": "PinNode",
       "maintainer": "PinNode",
       "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
@@ -224336,11 +224344,12 @@
       "category": "Communication",
       "architectures": [
         "avr",
-        "esp32"
+        "esp32",
+        "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.15.zip",
-      "size": 205386,
-      "previous_version": "0.3.14",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.20.zip",
+      "size": 218811,
+      "previous_version": "0.3.15",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",

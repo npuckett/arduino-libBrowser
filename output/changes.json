@@ -1,6 +1,115 @@
 {
-  "since": "2026-10-30T15:01:47.495Z",
+  "since": "2026-10-30T16:01:55.231Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ARDUTECH0/ATGenXIOT",
+        "repository_url": "https://github.com/ARDUTECH0/ATGenXIOT",
+        "name": "ATGenX_Hub",
+        "version": "2.7.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-04-04T07:21:08Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-10-08T00:07:06.973Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-10-09T16:03:12.985Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-17T18:02:43.447Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-10-30T16:01:55.231Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-04-04T07:21:08Z",
+        "last_seen_sha": "ae8f1bc23b40",
+        "author": "Seif Emad / ARDUTECH0",
+        "maintainer": "Seif Emad <support@atgenx.com>",
+        "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+        "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson",
+          "DHT sensor library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.7.0.zip",
+        "size": 54511,
+        "previous_version": "2.5.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-03T08:35:15Z"
+      },
+      "old_version": "2.5.0",
+      "new_version": "2.7.0"
+    },
+    {
+      "library": {
+        "repository_name": "pin-node/PinNode",
+        "repository_url": "https://github.com/pin-node/PinNode",
+        "name": "PinNode",
+        "version": "0.3.20",
+        "version_history": [
+          {
+            "version": "0.3.12",
+            "seen_at": "2026-10-15T04:03:01.300Z"
+          },
+          {
+            "version": "0.3.13",
+            "seen_at": "2026-10-15T12:03:50.503Z"
+          },
+          {
+            "version": "0.3.14",
+            "seen_at": "2026-10-15T14:03:32.830Z"
+          },
+          {
+            "version": "0.3.15",
+            "seen_at": "2026-10-15T18:03:41.152Z"
+          },
+          {
+            "version": "0.3.20",
+            "seen_at": "2026-10-30T16:01:55.231Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-10-15T04:03:01.300Z",
+        "last_seen_sha": "612d72fd7904",
+        "author": "PinNode",
+        "maintainer": "PinNode",
+        "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
+        "paragraph": "The RPU-Link (UART for RPU Rev 4/102, SPI for future PinNode boards) and the PinNode API for Arduino Mega game code, plus the types for the pinnode-gen generated header.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.20.zip",
+        "size": 218811,
+        "previous_version": "0.3.15",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "Python",
+        "github_updated_at": "2026-10-15T02:00:29Z"
+      },
+      "old_version": "0.3.15",
+      "new_version": "0.3.20"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-31T19:01:24.933Z",
-  "total_libraries": 10300,
-  "index_etag": "W/\"420edb39067268beb389f01f600fad28\"",
-  "index_last_modified": "Sat, 31 Oct 2026 19:00:19 GMT",
+  "enhanced_at": "2026-10-31T20:01:25.516Z",
+  "total_libraries": 10301,
+  "index_etag": "W/\"e083bbeca7f046abf27961b3b44714c3\"",
+  "index_last_modified": "Sat, 31 Oct 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -144978,7 +144978,7 @@
       "repository_name": "Johboh/ieee-802_15_4",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4",
       "name": "ieee-802_15_4",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "0.5.8",
@@ -144995,11 +144995,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-10-31T18:01:45.141Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-31T20:01:23.979Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-05-01T08:01:44Z",
-      "last_seen_sha": "536d53b74e72",
+      "last_seen_sha": "fab630963f1a",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Simplified version of sending and receiving messages over 802.15.4",
@@ -145009,9 +145013,9 @@
         "esp32"
       ],
       "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.1.zip",
-      "size": 37267,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.2.zip",
+      "size": 37345,
+      "previous_version": "1.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -225596,6 +225600,35 @@
       "github_forks": 0,
       "github_language": "C",
       "github_updated_at": "2025-08-16T08:32:14Z"
+    },
+    {
+      "repository_name": "GiuseppeGambacorta/PLC-Standard-Library-for-Arduino",
+      "repository_url": "https://github.com/GiuseppeGambacorta/PLC-Standard-Library-for-Arduino",
+      "name": "PLCStandard",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T20:01:23.979Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T20:01:23.979Z",
+      "last_seen_sha": "4adea26c9131",
+      "author": "Giuseppe Gambacorta",
+      "maintainer": "Giuseppe Gambacorta <gambacortagiuseppe@outlook.it>",
+      "sentence": "IEC 61131-3 inspired standard library for Arduino.",
+      "paragraph": "IEC 61131-3 inspired PLC standard library for Arduino, ESP32 and compatible boards.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GiuseppeGambacorta/PLCStandard-1.0.0.zip",
+      "size": 20698,
+      "github_stars": 7,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T17:49:13Z"
     },
     {
       "repository_name": "Mourty/PLCTimers",
@@ -336451,7 +336484,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10096,
+    "with_github_metadata": 10097,
     "total_dependencies": 5642
   }
 }

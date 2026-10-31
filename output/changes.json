@@ -1,6 +1,88 @@
 {
-  "since": "2026-10-31T19:01:24.800Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-31T20:01:23.979Z",
+  "new_libraries": [
+    {
+      "repository_name": "GiuseppeGambacorta/PLC-Standard-Library-for-Arduino",
+      "repository_url": "https://github.com/GiuseppeGambacorta/PLC-Standard-Library-for-Arduino",
+      "name": "PLCStandard",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T20:01:23.979Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T20:01:23.979Z",
+      "last_seen_sha": "4adea26c9131",
+      "author": "Giuseppe Gambacorta",
+      "maintainer": "Giuseppe Gambacorta <gambacortagiuseppe@outlook.it>",
+      "sentence": "IEC 61131-3 inspired standard library for Arduino.",
+      "paragraph": "IEC 61131-3 inspired PLC standard library for Arduino, ESP32 and compatible boards.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GiuseppeGambacorta/PLCStandard-1.0.0.zip",
+      "size": 20698,
+      "github_stars": 7,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T17:49:13Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Johboh/ieee-802_15_4",
+        "repository_url": "https://github.com/Johboh/ieee-802_15_4",
+        "name": "ieee-802_15_4",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "0.5.8",
+            "seen_at": "2026-05-01T08:01:44Z"
+          },
+          {
+            "version": "0.5.8",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-31T10:01:46.981Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-31T18:01:45.141Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-31T20:01:23.979Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-05-01T08:01:44Z",
+        "last_seen_sha": "fab630963f1a",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+        "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "GPL-3.0-or-later",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.2.zip",
+        "size": 37345,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-30T17:25:16Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,6 +1,116 @@
 {
-  "since": "2026-10-31T05:01:44.023Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-10-31T06:02:47.775Z",
+  "new_libraries": [
+    {
+      "repository_name": "elliotmatson/companion-microsatellite",
+      "repository_url": "https://github.com/elliotmatson/companion-microsatellite",
+      "name": "Companion microSatellite",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-31T06:02:47.775Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T06:02:47.775Z",
+      "last_seen_sha": "9a7ec6c1a331",
+      "author": "Elliot Matson <https://github.com/elliotmatson>",
+      "maintainer": "Elliot Matson <https://github.com/elliotmatson>",
+      "sentence": "Connect ESP32 microcontrollers to Bitfocus Companion via the Companion Satellite API.",
+      "paragraph": "Turns an ESP32 into a virtual Stream Deck-style surface for Bitfocus Companion: virtual button surfaces with bitmaps/colors/text, layout manifests with per-control styles and LED rings, rotary encoders with step counts, pincode input, button subscriptions, and variables. Requires Companion Satellite API version 1.10.0 or later (Companion v4.3+).",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "Async TCP",
+        "ESP Async WebServer"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/elliotmatson/Companion_microSatellite-1.0.1.zip",
+      "size": 127396,
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T03:21:40Z"
+    },
+    {
+      "repository_name": "jean-mappelli/esp32_pix_efi",
+      "repository_url": "https://github.com/jean-mappelli/esp32_pix_efi",
+      "name": "pix_efi",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T06:02:47.775Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T06:02:47.775Z",
+      "last_seen_sha": "38d9d33285f0",
+      "author": "Jean Carlos Mappelli <jeanmappelli123@gmail.com>",
+      "maintainer": "Jean Carlos Mappelli <jeanmappelli123@gmail.com>",
+      "sentence": "Biblioteca pré-compilada para cobranças Pix via EFI.",
+      "paragraph": "Biblioteca fechada para ESP32 que permite criar e consultar cobranças Pix usando a instituição financeira EFI.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jean-mappelli/pix_efi-1.0.0.zip",
+      "size": 207066,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T02:14:42Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
+        "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
+        "name": "AMK_CYD_Universal_TFT",
+        "version": "1.3.1",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-10-29T18:03:08.277Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-10-30T04:02:49.006Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-10-31T06:02:47.775Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-29T18:03:08.277Z",
+        "last_seen_sha": "b8271f7b9052",
+        "author": "Aung Moe Khine",
+        "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
+        "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, and visual GUI driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
+        "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.3.1.zip",
+        "size": 414329,
+        "previous_version": "1.2.1",
+        "github_stars": 5,
+        "github_forks": 1,
+        "github_language": "C",
+        "github_updated_at": "2026-10-29T16:42:50Z"
+      },
+      "old_version": "1.2.1",
+      "new_version": "1.3.1"
+    }
+  ],
   "removed_libraries": []
 }

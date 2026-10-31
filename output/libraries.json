@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-31T13:01:28.917Z",
-  "total_libraries": 10297,
-  "index_etag": "W/\"b89eb7b73a1f2e85b73d5f05c41cc154\"",
-  "index_last_modified": "Sat, 31 Oct 2026 13:00:18 GMT",
+  "enhanced_at": "2026-10-31T14:01:38.136Z",
+  "total_libraries": 10299,
+  "index_etag": "W/\"fe9c7c063cc6c103009238ac9c566387\"",
+  "index_last_modified": "Sat, 31 Oct 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -251836,6 +251836,36 @@
       "github_updated_at": "2026-05-10T09:32:35Z"
     },
     {
+      "repository_name": "elixpo/rv565",
+      "repository_url": "https://github.com/elixpo/rv565",
+      "name": "RV565",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-31T14:01:35.213Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "17627df332eb",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-0.1.0.zip",
+      "size": 109684,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-31T11:19:30Z"
+    },
+    {
       "repository_name": "mawaeg/Arduino_RV-8523",
       "repository_url": "https://github.com/mawaeg/Arduino_RV-8523",
       "name": "RV8523",
@@ -308398,6 +308428,36 @@
       "github_updated_at": "2026-04-29T14:32:50Z"
     },
     {
+      "repository_name": "SerhiiLe/TinyLED",
+      "repository_url": "https://github.com/SerhiiLe/TinyLED",
+      "name": "TinyLED",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T14:01:35.213Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "cade4daa613e",
+      "author": "SerhiiLe",
+      "maintainer": "SerhiiLe",
+      "sentence": "Ultra-lightweight WS2812B LED library for ESP8266, ESP32, and RP2040 with FastLED drop-in API.",
+      "paragraph": "Super compact (~2.2 KB Flash vs ~110 KB FastLED), zero dynamic RAM allocations. Hardware RMT for ESP32/S2/S3/C3/C6, hardware PIO for RP2040/RP2350, and cycle-accurate IRAM bitbang for ESP8266. Full FastLED API compatibility for clock and matrix projects.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "license": "LGPL-3.0-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/TinyLED-1.0.0.zip",
+      "size": 37613,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T10:34:05Z"
+    },
+    {
       "repository_name": "adafruit/TinyLiquidCrystal",
       "repository_url": "https://github.com/adafruit/TinyLiquidCrystal",
       "name": "TinyLiquidCrystal",
@@ -336330,7 +336390,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10093,
+    "with_github_metadata": 10095,
     "total_dependencies": 5642
   }
 }

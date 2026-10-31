@@ -1,6 +1,67 @@
 {
-  "since": "2026-10-31T13:01:28.803Z",
-  "new_libraries": [],
+  "since": "2026-10-31T14:01:35.213Z",
+  "new_libraries": [
+    {
+      "repository_name": "elixpo/rv565",
+      "repository_url": "https://github.com/elixpo/rv565",
+      "name": "RV565",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-31T14:01:35.213Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "17627df332eb",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
+      "category": "Display",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-0.1.0.zip",
+      "size": 109684,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-31T11:19:30Z"
+    },
+    {
+      "repository_name": "SerhiiLe/TinyLED",
+      "repository_url": "https://github.com/SerhiiLe/TinyLED",
+      "name": "TinyLED",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T14:01:35.213Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "cade4daa613e",
+      "author": "SerhiiLe",
+      "maintainer": "SerhiiLe",
+      "sentence": "Ultra-lightweight WS2812B LED library for ESP8266, ESP32, and RP2040 with FastLED drop-in API.",
+      "paragraph": "Super compact (~2.2 KB Flash vs ~110 KB FastLED), zero dynamic RAM allocations. Hardware RMT for ESP32/S2/S3/C3/C6, hardware PIO for RP2040/RP2350, and cycle-accurate IRAM bitbang for ESP8266. Full FastLED API compatibility for clock and matrix projects.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "license": "LGPL-3.0-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/TinyLED-1.0.0.zip",
+      "size": 37613,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T10:34:05Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

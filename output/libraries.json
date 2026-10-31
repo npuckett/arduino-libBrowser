@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-31T17:01:46.576Z",
-  "total_libraries": 10299,
-  "index_etag": "W/\"9d2990186bc56480d90c92ee1577ffb3\"",
-  "index_last_modified": "Sat, 31 Oct 2026 17:00:18 GMT",
+  "enhanced_at": "2026-10-31T18:01:46.609Z",
+  "total_libraries": 10300,
+  "index_etag": "W/\"420edb39067268beb389f01f600fad28\"",
+  "index_last_modified": "Sat, 31 Oct 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -111272,7 +111272,7 @@
       "repository_name": "salernosimone/arduino-espdlx",
       "repository_url": "https://github.com/salernosimone/arduino-espdlx",
       "name": "espdlx",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -111281,22 +111281,26 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-20T16:02:37.345Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-10-31T18:01:45.141Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-11T10:02:47.777Z",
-      "last_seen_sha": "770349c49601",
+      "last_seen_sha": "3b86251bff58",
       "author": "Simone Salerno",
       "maintainer": "Simone Salerno",
-      "sentence": "esp-dl port for Arduino (ESP32-S3 core+vision+audio)",
-      "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for ESP32-S3. Ships S3 prebuilt fbs_model lib. Excludes JPEG codec (needs esp_new_jpeg) and P4 ISA. Target ESP32-S3.",
+      "sentence": "esp-dl port for Arduino (ESP32-S3 + ESP32-P4 core+vision+audio)",
+      "paragraph": "Arduino port of esp-dl v3.3.11 — unified dl core + vision + audio, flattened for Arduino. Ships per-target prebuilt fbs_model libs (src/esp32s3, src/esp32p4); arch assembly guarded per target. Excludes JPEG codec (needs esp_new_jpeg). P4 needs ChipVariant=postv3 on v3.x silicon.",
       "category": "Signal Input/Output",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.1.0.zip",
-      "size": 1447939,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/salernosimone/espdlx-1.2.0.zip",
+      "size": 2664667,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -144974,7 +144978,7 @@
       "repository_name": "Johboh/ieee-802_15_4",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4",
       "name": "ieee-802_15_4",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "0.5.8",
@@ -144987,11 +144991,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-10-31T10:01:46.981Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-31T18:01:45.141Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-05-01T08:01:44Z",
-      "last_seen_sha": "05049e6d67b4",
+      "last_seen_sha": "536d53b74e72",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Simplified version of sending and receiving messages over 802.15.4",
@@ -145001,9 +145009,9 @@
         "esp32"
       ],
       "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.0.zip",
-      "size": 37071,
-      "previous_version": "0.5.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.1.zip",
+      "size": 37267,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -251857,16 +251865,20 @@
       "repository_name": "elixpo/rv565",
       "repository_url": "https://github.com/elixpo/rv565",
       "name": "RV565",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-10-31T14:01:35.213Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T18:01:45.141Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-31T14:01:35.213Z",
-      "last_seen_sha": "17627df332eb",
+      "last_seen_sha": "3df8873e54e1",
       "author": "Ayushman Bhattacharya",
       "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
       "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
@@ -251876,8 +251888,9 @@
         "esp32",
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-0.1.0.zip",
-      "size": 109684,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-1.0.0.zip",
+      "size": 111214,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -328777,6 +328790,36 @@
       "github_language": "C"
     },
     {
+      "repository_name": "SerhiiLe/WiFiSetup",
+      "repository_url": "https://github.com/SerhiiLe/WiFiSetup",
+      "name": "WiFiSetup",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T18:01:45.141Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T18:01:45.141Z",
+      "last_seen_sha": "3669aa695c7c",
+      "author": "Serhii Lebedenko <slebedenko@gmail.com>",
+      "maintainer": "Serhii Lebedenko <slebedenko@gmail.com>",
+      "sentence": "Lightweight, non-blocking captive portal Wi-Fi configuration library for ESP8266 and ESP32.",
+      "paragraph": "A modern, minimal replacement for WiFiManager. Features pure PROGMEM gzip-compressed Web UI (~1.9 KB flash footprint, 0 RAM when idle), asynchronous network scan, native SDK Wi-Fi storage, and on-the-fly captive portal activation without rebooting.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/WiFiSetup-1.0.0.zip",
+      "size": 22216,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-10-29T22:37:01Z"
+    },
+    {
       "repository_name": "JiriBilek/WiFiSpi",
       "repository_url": "https://github.com/JiriBilek/WiFiSpi",
       "name": "WiFiSpi",
@@ -336408,7 +336451,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 162,
-    "with_github_metadata": 10095,
+    "with_github_metadata": 10096,
     "total_dependencies": 5642
   }
 }

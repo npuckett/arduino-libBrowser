@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-10-31T01:01:37.138Z",
-  "total_libraries": 10292,
-  "index_etag": "W/\"e0f6c98d3af87e139dc6762326564e5d\"",
-  "index_last_modified": "Sat, 31 Oct 2026 01:00:19 GMT",
+  "enhanced_at": "2026-10-31T02:02:05.909Z",
+  "total_libraries": 10293,
+  "index_etag": "W/\"53c566d1c4fb1b94215070d9d43a21e0\"",
+  "index_last_modified": "Sat, 31 Oct 2026 02:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -166564,6 +166564,35 @@
       "github_updated_at": "2026-06-13T01:55:53Z"
     },
     {
+      "repository_name": "Lonely-Binary/Fingerprint",
+      "repository_url": "https://github.com/Lonely-Binary/Fingerprint",
+      "name": "Lonely Binary Fingerprint",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T02:02:04.406Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T02:02:04.406Z",
+      "last_seen_sha": "10238cc7bb4a",
+      "author": "Lonely Binary <office@lonelybinary.com>",
+      "maintainer": "Lonely Binary <office@lonelybinary.com>",
+      "sentence": "Lonely Binary driver for Hi-Link HLK-ZW series capacitive fingerprint modules (ZW111 and others, UART 0xEF01 protocol).",
+      "paragraph": "Enroll, identify (1:N), verify (1:1), delete, LED ring control, index table, notepad, and low-power sleep with touch wake-up through TOUCH_OUT, including ESP32 deep sleep. 15 one-feature examples. A matching MicroPython library is in extras/micropython.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Lonely-Binary/Lonely_Binary_Fingerprint-1.0.0.zip",
+      "size": 60275,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-10-30T23:05:27Z"
+    },
+    {
       "repository_name": "helium/longfi-arduino",
       "repository_url": "https://github.com/helium/longfi-arduino",
       "name": "LongFi",
@@ -187706,16 +187735,20 @@
       "repository_name": "TMRh20/microDecoder",
       "repository_url": "https://github.com/TMRh20/microDecoder",
       "name": "microDecoder",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-03-06T08:01:01Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-10-31T02:02:04.406Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-06T08:01:01Z",
-      "last_seen_sha": "540c6788abf2",
+      "last_seen_sha": "e757273515c5",
       "author": "Tim Tierney",
       "maintainer": "tmrh20 <tmrh20@gmail.com>",
       "sentence": "Modified Arduino library for mp3 decoding",
@@ -187724,11 +187757,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/microDecoder-1.0.2.zip",
+      "size": 244839,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-03-05T13:11:26Z",
-      "download_url": "https://github.com/TMRh20/microDecoder"
+      "github_updated_at": "2026-03-05T13:11:26Z"
     },
     {
       "repository_name": "GyverLibs/microDS18B20",
@@ -336123,7 +336158,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 163,
-    "with_github_metadata": 10088,
+    "with_github_metadata": 10089,
     "total_dependencies": 5635
   }
 }

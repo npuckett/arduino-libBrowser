@@ -1,15 +1,15 @@
 {
   "categories": {
     "data storage": 275,
-    "sensors": 2041,
-    "other": 848,
-    "communication": 2343,
-    "display": 888,
-    "signal input/output": 805,
+    "sensors": 2045,
+    "other": 849,
+    "communication": 2356,
+    "display": 894,
+    "signal input/output": 810,
     "uncategorized": 236,
-    "device control": 1715,
-    "data processing": 622,
-    "timing": 373,
+    "device control": 1721,
+    "data processing": 623,
+    "timing": 375,
     "sensor": 11,
     "control": 4,
     "motion": 2,
@@ -796,598 +796,633 @@
   ],
   "hidden_gems": [
     {
-      "repository_name": "phm-tuyenn/ps4-esp32-lib",
-      "repository_url": "https://github.com/phm-tuyenn/ps4-esp32-lib",
-      "name": "PS4Bluepad32",
-      "version": "1.0.1",
+      "repository_name": "AchD/FroqMQTT",
+      "repository_url": "https://github.com/AchD/FroqMQTT",
+      "name": "FroqMQTT",
+      "version": "2.0.0",
       "version_history": [
         {
-          "version": "1.0.1",
-          "seen_at": "2026-10-24T16:02:02.476Z"
+          "version": "2.0.0",
+          "seen_at": "2026-10-31T22:01:54.893Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-24T16:02:02.476Z",
-      "last_seen_sha": "28bb3bcccd92",
-      "author": "Pham Thanh Tuyen",
-      "maintainer": "Pham Thanh Tuyen <phamthanhtuyen2k8@gmail.com>",
-      "sentence": "Read DualShock 4 buttons and analog inputs using Bluepad32.",
-      "paragraph": "Arduino library wrapper for the ESP32 + Bluepad32 board package with persistent controller MAC pairing.",
+      "first_seen_at": "2026-10-31T22:01:54.893Z",
+      "last_seen_sha": "e73a892c9b3b",
+      "author": "Achim Diedrichs",
+      "maintainer": "Achim Diedrichs",
+      "sentence": "Lightweight MQTT 3.1.1 client that binds bool/float variables directly to MQTT topics.",
+      "paragraph": "Publish on change, subscribe writes straight into your variable. Handles multiple MQTT packets per TCP segment, QoS 0/1/2, Last Will, keep-alive and auto-reconnect. Fixed RAM footprint, no heap use at runtime. Works with any Arduino Client (ESP8266, ESP32, Ethernet, WiFiNINA, TLS).",
       "category": "Communication",
       "architectures": [
-        "esp32"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/phm-tuyenn/PS4Bluepad32-1.0.1.zip",
-      "size": 19519,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-24T14:04:23Z"
-    },
-    {
-      "repository_name": "mumanchu/QMC5883PMagnetometer",
-      "repository_url": "https://github.com/mumanchu/QMC5883PMagnetometer",
-      "name": "QMC5883PMagnetometer",
-      "version": "0.0.1",
-      "version_history": [
-        {
-          "version": "0.0.1",
-          "seen_at": "2026-10-24T14:02:35.622Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-24T14:02:35.622Z",
-      "last_seen_sha": "f7b3651f0a4e",
-      "author": "mumanchu",
-      "maintainer": "mumanchu <info@muman.ch>",
-      "sentence": "Arduino Library for QMC5883P 3-Axis Magnetometer",
-      "category": "Sensors",
-      "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/QMC5883PMagnetometer-0.0.1.zip",
-      "size": 332503,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AchD/FroqMQTT-2.0.0.zip",
+      "size": 30483,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-24T13:22:25Z"
+      "github_updated_at": "2026-10-31T17:59:51Z"
     },
     {
-      "repository_name": "jobitjoseph/LottieMCU",
-      "repository_url": "https://github.com/jobitjoseph/LottieMCU",
-      "name": "LottieMCU",
-      "version": "1.1.0",
+      "repository_name": "elixpo/rv565",
+      "repository_url": "https://github.com/elixpo/rv565",
+      "name": "RV565",
+      "version": "1.0.0",
       "version_history": [
         {
-          "version": "1.1.0",
-          "seen_at": "2026-10-24T16:02:02.476Z"
+          "version": "0.1.0",
+          "seen_at": "2026-10-31T14:01:35.213Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T18:01:45.141Z"
         }
       ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-24T16:02:02.476Z",
-      "last_seen_sha": "e0536fdad8d7",
-      "author": "Jobit Joseph <jobitjoseph1@gmail.com>",
-      "maintainer": "Jobit Joseph <jobitjoseph1@gmail.com>",
-      "sentence": "Minimal-footprint Lottie animation player for microcontrollers (ESP32, RP2040, STM32, SAMD).",
-      "paragraph": "Plays Lottie/Bodymovin animations converted to a compact binary by the included Python tool. Anti-aliased strip rendering to RGB565 via a callback, so no framebuffer is needed and any display library works. Supports shapes, strokes, gradients, trim paths, repeaters, masks, track mattes and image layers, with optional PSRAM use on ESP32.",
+      "release_count": 2,
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "3df8873e54e1",
+      "author": "Ayushman Bhattacharya",
+      "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
+      "sentence": "Frame-independent RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+      "paragraph": "Plays RV565 clips (independently zlib-compressed RGB565 frames) on ST7789 panels, seeks in O(1), and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935); the RP2350 port is experimental.",
       "category": "Display",
       "architectures": [
-        "*"
+        "esp32",
+        "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jobitjoseph/LottieMCU-1.1.0.zip",
-      "size": 577305,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-1.0.0.zip",
+      "size": 111214,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_language": "Python",
-      "github_updated_at": "2026-10-24T13:13:12Z"
+      "github_language": "C",
+      "github_updated_at": "2026-10-31T11:19:30Z"
     },
     {
-      "repository_name": "code-hoysala/Bridge555",
-      "repository_url": "https://github.com/code-hoysala/Bridge555",
-      "name": "Bridge555",
-      "version": "1.0.2",
-      "version_history": [
-        {
-          "version": "1.0.2",
-          "seen_at": "2026-10-24T16:02:02.476Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-24T16:02:02.476Z",
-      "last_seen_sha": "95022ab107a7",
-      "author": "Code-hoysala",
-      "maintainer": "Code-hoysala <shashankhoysala04@outlook.com>",
-      "sentence": "Turns an Arduino Uno R3, NE555 timer IC, and digital potentiometer into a digitally programmable, closed-loop precision frequency and PWM generator.",
-      "paragraph": "Bridge555 bridges microcontroller logic with analog hardware by calculating math-to-wiper mappings for digital potentiometers, offloading heavy pulse generation to an external NE555 circuit and maintaining closed-loop accuracy with real-time calibration and PWM/frequency selection.",
-      "category": "Signal Input/Output",
-      "architectures": [
-        "avr"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/Bridge555-1.0.2.zip",
-      "size": 4351,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-24T12:39:52Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_SHT31",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_SHT31",
-      "name": "Bonezegei SHT31",
+      "repository_name": "SerhiiLe/TinyLED",
+      "repository_url": "https://github.com/SerhiiLe/TinyLED",
+      "name": "TinyLED",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-24T06:04:15.873Z"
+          "seen_at": "2026-10-31T14:01:35.213Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-24T06:04:15.873Z",
-      "last_seen_sha": "6eafb1517716",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino Library for SHT31 Temperature and Humidity Sensor.",
-      "paragraph": "An Arduino library for reading temperature and relative humidity from the SHT31 sensor using I2C communication. Compatible with all microcontrollers supporting I2C.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_SHT31-1.0.0.zip",
-      "size": 4598,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-24T02:13:48Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_NeuralNet",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_NeuralNet",
-      "name": "Bonezegei_NeuralNet",
-      "version": "0.1.0",
-      "version_history": [
-        {
-          "version": "0.1.0",
-          "seen_at": "2026-10-23T04:03:03.876Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-23T04:03:03.876Z",
-      "last_seen_sha": "f86d6fececd5",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Neural Network (demo)",
-      "paragraph": "Simple Neural Network for Microcontrollers",
-      "category": "Other",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_NeuralNet-0.1.0.zip",
-      "size": 17063,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-23T00:36:03Z"
-    },
-    {
-      "repository_name": "placidanomaly/Crowpanel_2.1",
-      "repository_url": "https://github.com/placidanomaly/Crowpanel_2.1",
-      "name": "Crowpanel_2.1",
-      "version": "1.0.1",
-      "version_history": [
-        {
-          "version": "1.0.1",
-          "seen_at": "2026-10-23T00:06:32.675Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-23T00:06:32.675Z",
-      "last_seen_sha": "b0e99ffa84d8",
-      "author": "Charles Vaillancourt",
-      "maintainer": "Charles Vaillancourt",
-      "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
-      "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+      "first_seen_at": "2026-10-31T14:01:35.213Z",
+      "last_seen_sha": "cade4daa613e",
+      "author": "SerhiiLe",
+      "maintainer": "SerhiiLe",
+      "sentence": "Ultra-lightweight WS2812B LED library for ESP8266, ESP32, and RP2040 with FastLED drop-in API.",
+      "paragraph": "Super compact (~2.2 KB Flash vs ~110 KB FastLED), zero dynamic RAM allocations. Hardware RMT for ESP32/S2/S3/C3/C6, hardware PIO for RP2040/RP2350, and cycle-accurate IRAM bitbang for ESP8266. Full FastLED API compatibility for clock and matrix projects.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "depends": [
-        "lvgl",
-        "PCF8574 library",
-        "Adafruit CST8XX Library",
-        "GFX Library for Arduino",
-        "Adafruit BusIO"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-1.0.1.zip",
-      "size": 1350749,
+      "license": "LGPL-3.0-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/TinyLED-1.0.0.zip",
+      "size": 37613,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-22T22:29:17Z"
+      "github_updated_at": "2026-10-31T10:34:05Z"
     },
     {
-      "repository_name": "mauringo/arduino-bma580",
-      "repository_url": "https://github.com/mauringo/arduino-bma580",
-      "name": "BMA580",
+      "repository_name": "jean-mappelli/esp32_pix_efi",
+      "repository_url": "https://github.com/jean-mappelli/esp32_pix_efi",
+      "name": "pix_efi",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T06:02:47.775Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T06:02:47.775Z",
+      "last_seen_sha": "38d9d33285f0",
+      "author": "Jean Carlos Mappelli <jeanmappelli123@gmail.com>",
+      "maintainer": "Jean Carlos Mappelli <jeanmappelli123@gmail.com>",
+      "sentence": "Biblioteca pré-compilada para cobranças Pix via EFI.",
+      "paragraph": "Biblioteca fechada para ESP32 que permite criar e consultar cobranças Pix usando a instituição financeira EFI.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jean-mappelli/pix_efi-1.0.0.zip",
+      "size": 207066,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T02:14:42Z"
+    },
+    {
+      "repository_name": "wuigor/mannaNAUTA_LSM6DS_Lib",
+      "repository_url": "https://github.com/wuigor/mannaNAUTA_LSM6DS_Lib",
+      "name": "mannaNAUTA LSM6DS",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-10-31T04:01:55.617Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T04:01:55.617Z",
+      "last_seen_sha": "c707f55f5530",
+      "author": "wuigor",
+      "maintainer": "wuigor",
+      "sentence": "LSM6DS accelerometer and gyroscope helper library for mannaNAUTA ESP32-S3 hardware.",
+      "paragraph": "Standalone I2C driver that uses SDA pin 5 and SCL pin 4 by default, while allowing custom I2C pins, addresses, buses, and LSM6DS variants.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wuigor/mannaNAUTA_LSM6DS-1.0.1.zip",
+      "size": 14998,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-31T00:06:55Z"
+    },
+    {
+      "repository_name": "Lonely-Binary/Fingerprint",
+      "repository_url": "https://github.com/Lonely-Binary/Fingerprint",
+      "name": "Lonely Binary Fingerprint",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T02:02:04.406Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T02:02:04.406Z",
+      "last_seen_sha": "10238cc7bb4a",
+      "author": "Lonely Binary <office@lonelybinary.com>",
+      "maintainer": "Lonely Binary <office@lonelybinary.com>",
+      "sentence": "Lonely Binary driver for Hi-Link HLK-ZW series capacitive fingerprint modules (ZW111 and others, UART 0xEF01 protocol).",
+      "paragraph": "Enroll, identify (1:N), verify (1:1), delete, LED ring control, index table, notepad, and low-power sleep with touch wake-up through TOUCH_OUT, including ESP32 deep sleep. 15 one-feature examples. A matching MicroPython library is in extras/micropython.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Lonely-Binary/Lonely_Binary_Fingerprint-1.0.0.zip",
+      "size": 60275,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-10-30T23:05:27Z"
+    },
+    {
+      "repository_name": "DTG-Corp/dtg-arduino",
+      "repository_url": "https://github.com/DTG-Corp/dtg-arduino",
+      "name": "DTG_IoT",
       "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.1",
-          "seen_at": "2026-10-23T00:06:32.675Z"
+          "seen_at": "2026-10-30T08:02:48.897Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-23T00:06:32.675Z",
-      "last_seen_sha": "a789c19b4193",
-      "author": "mauringo",
-      "maintainer": "mauringo",
-      "sentence": "Arduino I2C driver for Bosch BMA580 using the official SensorAPI.",
-      "paragraph": "Acceleration, temperature, motion wake interrupt, data-ready polling and access to Bosch advanced APIs.",
-      "category": "Sensors",
+      "first_seen_at": "2026-10-30T08:02:48.897Z",
+      "last_seen_sha": "ae5961031f6b",
+      "author": "DTG Corp",
+      "maintainer": "DTG Corp <iot@dtgsoft.vn>",
+      "sentence": "Official ESP32 client for DTG IoT Hub (MQTT, Modbus RTU, no-code I/O, FOTA).",
+      "paragraph": "Wi-Fi and cellular MQTT client with a Let's Encrypt trust store (ISRG Root X1/X2, Root YR/YE), Hub downlink, no-code GPIO, Modbus RTU, and checksum-verified HTTPS OTA. Install PubSubClient, ArduinoJson, and TinyGPSPlus from Library Manager. For Modbus sketches also install eModbus from GitHub (eModbus/eModbus).",
+      "category": "Communication",
       "architectures": [
-        "*"
+        "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mauringo/BMA580-1.1.1.zip",
-      "size": 63847,
+      "depends": [
+        "PubSubClient",
+        "TinyGPSPlus",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.1.zip",
+      "size": 134899,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-30T05:46:11Z"
+    },
+    {
+      "repository_name": "SerhiiLe/WiFiSetup",
+      "repository_url": "https://github.com/SerhiiLe/WiFiSetup",
+      "name": "WiFiSetup",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-31T18:01:45.141Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-31T18:01:45.141Z",
+      "last_seen_sha": "3669aa695c7c",
+      "author": "Serhii Lebedenko <slebedenko@gmail.com>",
+      "maintainer": "Serhii Lebedenko <slebedenko@gmail.com>",
+      "sentence": "Lightweight, non-blocking captive portal Wi-Fi configuration library for ESP8266 and ESP32.",
+      "paragraph": "A modern, minimal replacement for WiFiManager. Features pure PROGMEM gzip-compressed Web UI (~1.9 KB flash footprint, 0 RAM when idle), asynchronous network scan, native SDK Wi-Fi storage, and on-the-fly captive portal activation without rebooting.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/WiFiSetup-1.0.0.zip",
+      "size": 22216,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
-      "github_updated_at": "2026-10-22T20:06:39Z"
+      "github_updated_at": "2026-10-29T22:37:01Z"
     },
     {
-      "repository_name": "bonezegei/Bonezegei_SX1278",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_SX1278",
-      "name": "Bonezegei_SX1278",
+      "repository_name": "Teacher-Heiko/MPU6050Classroom",
+      "repository_url": "https://github.com/Teacher-Heiko/MPU6050Classroom",
+      "name": "MPU6050Classroom",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-23T04:03:03.876Z"
+          "seen_at": "2026-10-29T18:03:08.277Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-23T04:03:03.876Z",
-      "last_seen_sha": "e09bbb7821c4",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino library for the SX1278 LoRa module with protocol-ready hooks.",
-      "paragraph": "A lightweight and modular driver for the SX1278 LoRa module supporting SPI communication, raw frame transmission, RSSI/SNR monitoring, non-blocking callback hooks, and frame header extensions for mesh networking protocols.",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_SX1278-1.0.0.zip",
-      "size": 15109,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T18:22:09Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_VL53L0",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_VL53L0",
-      "name": "Bonezegei_VL53L0",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-23T04:03:03.876Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-23T04:03:03.876Z",
-      "last_seen_sha": "d6319fdf4907",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino Library for VL53L0X Time-of-Flight (ToF) Distance Sensor.",
-      "paragraph": "Provides I2C communication and distance measurement functions for the STMicroelectronics VL53L0X sensor.",
+      "first_seen_at": "2026-10-29T18:03:08.277Z",
+      "last_seen_sha": "da0babae8af3",
+      "author": "MPU6050Classroom contributors",
+      "maintainer": "MPU6050Classroom contributors",
+      "sentence": "MPU-6050 motion sensor library for students on ESP32 and Arduino UNO R3/R4: two-line start, automatic freeze repair, Wi-Fi setup page, project examples.",
+      "paragraph": "Examples from a spirit level and fall detector to a self-balancing robot, plus Wi-Fi projects with phone messages (ntfy). The library prints only to a stream you choose. DMP firmware images are the MIT-licensed captures from the i2cdevlib/ElectronicCats library.",
       "category": "Sensors",
       "architectures": [
-        "*"
+        "esp32",
+        "avr",
+        "renesas_uno"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_VL53L0-1.0.0.zip",
-      "size": 5179,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Teacher-Heiko/MPU6050Classroom-1.0.0.zip",
+      "size": 433472,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-22T17:18:31Z"
+      "github_updated_at": "2026-10-29T14:02:15Z"
     },
     {
-      "repository_name": "bonezegei/Bonezegei_PN5180",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_PN5180",
-      "name": "Bonezegei_PN5180",
+      "repository_name": "adafruit/Adafruit_RV8803",
+      "repository_url": "https://github.com/adafruit/Adafruit_RV8803",
+      "name": "Adafruit RV8803",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-22T22:02:37.278Z"
+          "seen_at": "2026-10-29T16:02:22.946Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-22T22:02:37.278Z",
-      "last_seen_sha": "93eac772b20a",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino library for the PN5180 NFC and RFID reader module.",
-      "paragraph": "Supports ISO/IEC 14443 Type A card detection and UID reading via SPI interface.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PN5180-1.0.0.zip",
-      "size": 7820,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T16:31:59Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_TM1638",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_TM1638",
-      "name": "Bonezegei_TM1638",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-22T16:03:02.551Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-22T16:03:02.551Z",
-      "last_seen_sha": "4337926127d5",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino library for TM1638 8-digit 7-segment display module with 8 LEDs and 8 buttons.",
-      "paragraph": "Provides complete control for TM1638 modules including 7-segment display formatting, individual LED control, brightness adjustment, and button state reading.",
-      "category": "Display",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_TM1638-1.0.0.zip",
-      "size": 16681,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T12:51:03Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_HMC5883L",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_HMC5883L",
-      "name": "Bonezegei_HMC5883L",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-22T16:03:02.551Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-22T16:03:02.551Z",
-      "last_seen_sha": "4f6d295f1fea",
-      "author": "Jofel Batutay (Bonezegei)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino library for HMC5883L 3-Axis Digital Magnetometer / Compass.",
-      "paragraph": "Easily interface with the HMC5883L sensor via I2C to read raw magnetic field data, calculated Gauss values, and compass heading degrees.",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_HMC5883L-1.0.0.zip",
-      "size": 17360,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T12:24:16Z"
-    },
-    {
-      "repository_name": "TulioCarmona/TeensyStepDriver",
-      "repository_url": "https://github.com/TulioCarmona/TeensyStepDriver",
-      "name": "TeensyStepDriver",
-      "version": "1.0.3",
-      "version_history": [
-        {
-          "version": "1.0.3",
-          "seen_at": "2026-10-22T14:02:55.831Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-22T14:02:55.831Z",
-      "last_seen_sha": "e63d36ce10bd",
-      "author": "TulioCarmona",
-      "maintainer": "TulioCarmona",
-      "sentence": "Non-blocking stepper motor driver for Teensy 4.1.",
-      "paragraph": "Uses TeensyTimerTool QTIMER hardware timers for precise low-jitter pulse generation. Supports trapezoidal motion profile, continuous speed mode, and up to 8 independent motors simultaneously.",
-      "category": "Device Control",
-      "architectures": [
-        "teensy_avr"
-      ],
-      "depends": [
-        "TeensyTimerTool"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TulioCarmona/TeensyStepDriver-1.0.3.zip",
-      "size": 11604,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T11:34:41Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_DS1302",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_DS1302",
-      "name": "Bonezegei_DS1302",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-22T14:02:55.831Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-22T14:02:55.831Z",
-      "last_seen_sha": "305b344dfc14",
-      "author": "Jofel Batutay (Bonezegei)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "An Arduino library for interfacing with the DS1302 Real-Time Clock module.",
-      "paragraph": "Bonezegei DS1302 allows reading and setting time, date, day of week, 12/24-hour formats, and AM/PM settings on the DS1302 RTC module using 3-wire synchronous serial communication.",
+      "first_seen_at": "2026-10-29T16:02:22.946Z",
+      "last_seen_sha": "aee3a824e88a",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino library for the RV-8803-C7 Real-Time Clock",
+      "paragraph": "Supports alarm, countdown timer, external event timestamp, CLKOUT, and offset calibration. I2C interface, 1.5-5.5V operation.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DS1302-1.0.0.zip",
-      "size": 17939,
+      "depends": [
+        "RTClib",
+        "Adafruit BusIO"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_RV8803-1.0.0.zip",
+      "size": 59083,
       "github_stars": 0,
-      "github_forks": 0,
+      "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-10-22T10:49:43Z"
+      "github_updated_at": "2026-10-29T13:17:54Z"
     },
     {
-      "repository_name": "bonezegei/Bonezegei_PZEM004T",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_PZEM004T",
-      "name": "Bonezegei_PZEM004T",
-      "version": "1.0.0",
+      "repository_name": "CyberMODE/Telar-Arduino",
+      "repository_url": "https://github.com/CyberMODE/Telar-Arduino",
+      "name": "Telar",
+      "version": "0.1.0",
       "version_history": [
         {
-          "version": "1.0.0",
-          "seen_at": "2026-10-22T14:02:55.831Z"
+          "version": "0.1.0",
+          "seen_at": "2026-10-31T00:03:50.899Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-22T14:02:55.831Z",
-      "last_seen_sha": "abe822187c7c",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Library for PZEM-004T V3.0 AC Power Meter Module",
-      "paragraph": "Lightweight library to read AC Voltage, Current, Power, Energy, Frequency, and Power Factor via Serial (UART).",
-      "category": "Sensors",
-      "architectures": [
-        "*"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_PZEM004T-1.0.0.zip",
-      "size": 17133,
-      "github_stars": 0,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-22T10:30:58Z"
-    },
-    {
-      "repository_name": "bonezegei/Bonezegei_OneWire",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_OneWire",
-      "name": "Bonezegei_OneWire",
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "seen_at": "2026-10-22T12:03:51.327Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-10-22T12:03:51.327Z",
-      "last_seen_sha": "acb08326ea59",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "Arduino library for MCU to MCU communication over OneWire protocol.",
-      "paragraph": "Bonezegei_OneWire provides full Master and Slave roles enabling direct single-wire communication between two microcontrollers.",
+      "first_seen_at": "2026-10-31T00:03:50.899Z",
+      "last_seen_sha": "0961542da2ab",
+      "author": "Luis Díaz-Faes",
+      "maintainer": "Luis Díaz-Faes",
+      "sentence": "Turn an ESP32 into a Telar device: its sensors show up in Telar and Telar drives its LEDs, relays, servos and motors.",
+      "paragraph": "Announces inputs and outputs to the Telar hub over Wi-Fi (ws:// or wss://) or USB, sends normalised values and receives LED frames, values, servo angles and motor speeds. Wi-Fi and hub are stored on the board over USB from Telar, without recompiling. Docs in Spanish, Galician and English.",
       "category": "Communication",
       "architectures": [
-        "*"
+        "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_OneWire-1.0.0.zip",
-      "size": 18026,
+      "depends": [
+        "WebSockets",
+        "ArduinoJson"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CyberMODE/Telar-0.1.0.zip",
+      "size": 42243,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-22T08:42:50Z"
+      "github_updated_at": "2026-10-29T07:30:36Z"
     },
     {
-      "repository_name": "bonezegei/Bonezegei_DS18B20",
-      "repository_url": "https://github.com/bonezegei/Bonezegei_DS18B20",
-      "name": "Bonezegei_DS18B20",
+      "repository_name": "adafruit/Adafruit_LT8912B",
+      "repository_url": "https://github.com/adafruit/Adafruit_LT8912B",
+      "name": "Adafruit LT8912B",
       "version": "1.0.0",
       "version_history": [
         {
           "version": "1.0.0",
-          "seen_at": "2026-10-22T10:02:24.538Z"
+          "seen_at": "2026-10-28T23:01:46.466Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-22T10:02:24.538Z",
-      "last_seen_sha": "2cb9ca0a5068",
-      "author": "Bonezegei (Jofel Batutay)",
-      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
-      "sentence": "DS18B20 Temperature Sensor library with built-in OneWire support.",
-      "paragraph": "Bonezegei_DS18B20 provides straightforward temperature reading for DS18B20 sensors without requiring external OneWire library dependencies.",
-      "category": "Sensors",
+      "first_seen_at": "2026-10-28T23:01:46.466Z",
+      "last_seen_sha": "3d02fca4b686",
+      "author": "Adafruit, Espressif Systems",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "Arduino driver for the LT8912B MIPI DSI to HDMI/DVI bridge.",
+      "paragraph": "Provides portable I2C bridge control and an ESP32-P4 display helper for framebuffer output, with color-bar and Adafruit GFX examples.",
+      "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_DS18B20-1.0.0.zip",
-      "size": 16559,
+      "depends": [
+        "Adafruit BusIO",
+        "Adafruit GFX Library",
+        "Adafruit TestBed"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_LT8912B-1.0.0.zip",
+      "size": 28203,
       "github_stars": 0,
-      "github_forks": 0,
+      "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-10-22T07:39:52Z"
+      "github_updated_at": "2026-10-28T19:12:47Z"
     },
     {
-      "repository_name": "BOBILLEChristophe/DCC-LocoAddr",
-      "repository_url": "https://github.com/BOBILLEChristophe/DCC-LocoAddr",
-      "name": "DCC-LocoAddr",
-      "version": "5.1.0",
+      "repository_name": "mumanchu/AnalogKeypad5",
+      "repository_url": "https://github.com/mumanchu/AnalogKeypad5",
+      "name": "AnalogKeypad5",
+      "version": "1.0.1",
       "version_history": [
         {
-          "version": "5.0.1",
-          "seen_at": "2026-10-21T22:02:28.016Z"
+          "version": "1.0.0",
+          "seen_at": "2026-10-28T20:02:08.360Z"
         },
         {
-          "version": "5.1.0",
-          "seen_at": "2026-10-24T10:02:33.074Z"
+          "version": "1.0.1",
+          "seen_at": "2026-10-29T10:02:04.268Z"
         }
       ],
       "release_count": 2,
-      "first_seen_at": "2026-10-21T22:02:28.016Z",
-      "last_seen_sha": "d982f4e83741",
-      "author": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
-      "maintainer": "Christophe BOBILLE <38000184+BOBILLEChristophe@users.noreply.github.com>",
-      "sentence": "Lecture de l'adresse DCC des locomotives (décodeurs compatibles RailCom) et du sens de pose, avec un détecteur Locoduino LocoAddr v3.1, sur ESP32 ou Raspberry Pi Pico.",
-      "paragraph": "Réception à 250 kbit/s (UART matériel ou PIO), découpage par cutout, décodage 4/8 du canal 1, adresses courtes, longues et de consist, validation et détection de perte, lecture de la sortie DIR (option sens de pose). Plusieurs détecteurs : 2 ou 3 par ESP32, jusqu'à 10 par Raspberry Pi Pico (UART et PIO).",
+      "first_seen_at": "2026-10-28T20:02:08.360Z",
+      "last_seen_sha": "82cdd1819404",
+      "author": "mumanchu",
+      "maintainer": "mumanchu",
+      "sentence": "Arduino Library for 5-Key Analog Keypad",
+      "paragraph": "Easily adapted for any keypad",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/AnalogKeypad5-1.0.1.zip",
+      "size": 89366,
+      "previous_version": "1.0.0",
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-28T18:44:28Z"
+    },
+    {
+      "repository_name": "watersRand/ThreeZoneDriver",
+      "repository_url": "https://github.com/watersRand/ThreeZoneDriver",
+      "name": "ThreeZoneDriver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-30T20:01:38.798Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-30T20:01:38.798Z",
+      "last_seen_sha": "90920975f8a7",
+      "author": "watersRand",
+      "maintainer": "watersRand",
+      "sentence": "A high-current 3-zone independent motor driver library using the 74HC595 shift register.",
+      "paragraph": "MCU-agnostic control for 6 DC motors across 3 independent zones with deadtime protection and PWM speed control via 74HC595.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/watersRand/ThreeZoneDriver-1.0.0.zip",
+      "size": 326025,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-28T07:35:29Z"
+    },
+    {
+      "repository_name": "Wireless-TAG-Maker/WirelessTagTiny",
+      "repository_url": "https://github.com/Wireless-TAG-Maker/WirelessTagTiny",
+      "name": "WirelessTagTiny",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-10-28T08:03:06.438Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-28T08:03:06.438Z",
+      "last_seen_sha": "6ab20e0ed289",
+      "author": "Wireless-Tag",
+      "maintainer": "Wireless-Tag",
+      "sentence": "Board helpers for Wireless-Tag TINY Arduino variants.",
+      "paragraph": "Provides the onboard RGB LED, active-low button, board identity, and SD setup on supported boards. Requires a Wireless-Tag TINY board variant; ESP32-S31 SD is not supported.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Wireless-TAG-Maker/WirelessTagTiny-0.1.0.zip",
+      "size": 21447,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-28T04:48:38Z"
+    },
+    {
+      "repository_name": "wuigor/mannaNAUTA_WS2812_Lib",
+      "repository_url": "https://github.com/wuigor/mannaNAUTA_WS2812_Lib",
+      "name": "mannaNAUTA WS2812",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-10-28T00:05:09.950Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-28T00:05:09.950Z",
+      "last_seen_sha": "4e0648e6fd31",
+      "author": "wuigor",
+      "maintainer": "wuigor",
+      "sentence": "Controls WS2812 LED strips using the mannaNAUTA board with ESP32-S3.",
+      "paragraph": "Provides functions for controlling colors, animations, symbols, letters, and numbers on WS2812 LED matrices.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wuigor/mannaNAUTA_WS2812-2.0.0.zip",
+      "size": 12771,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T20:16:52Z"
+    },
+    {
+      "repository_name": "SerhiiLe/asyncHTTP",
+      "repository_url": "https://github.com/SerhiiLe/asyncHTTP",
+      "name": "asyncHTTP",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-10-27T22:01:49.723Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T22:01:49.723Z",
+      "last_seen_sha": "4aefaed8a9cc",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko",
+      "sentence": "Lightweight non-blocking asynchronous HTTP/HTTPS client for ESP8266 and ESP32.",
+      "paragraph": "Lightweight, zero-external-dependency non-blocking asynchronous HTTP/HTTPS client for ESP8266 and ESP32 with JSON/XML support, Keep-Alive, chunked transfer decoding, and FreeRTOS task mode.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/asyncHTTP-1.0.0.zip",
+      "size": 44040,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T19:01:28Z"
+    },
+    {
+      "repository_name": "pairble/pairble-arduino",
+      "repository_url": "https://github.com/pairble/pairble-arduino",
+      "name": "pairble",
+      "version": "0.4.0",
+      "version_history": [
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-10-27T16:02:46.952Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-10-31T22:01:54.893Z"
+        }
+      ],
+      "release_count": 2,
+      "first_seen_at": "2026-10-27T16:02:46.952Z",
+      "last_seen_sha": "e7ecab3859f3",
+      "author": "Pajenicko",
+      "maintainer": "pairble <support@pairble.com>",
+      "sentence": "Wi-Fi setup for ESP32 and Raspberry Pi Pico W over Bluetooth, nothing to install.",
+      "paragraph": "The phone's camera opens an App Clip (iPhone) or a web page (Android, computers); the device shows the networks it can see and gets the password over an encrypted Bluetooth session. Falls back to the device's own Wi-Fi. Needs arduino-esp32 3.3 or newer, or arduino-pico with Bluetooth enabled.",
       "category": "Communication",
       "architectures": [
         "esp32",
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/BOBILLEChristophe/DCC_LocoAddr-5.1.0.zip",
-      "size": 6700799,
-      "previous_version": "5.0.1",
+      "depends": [
+        "NimBLE-Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pairble/pairble-0.4.0.zip",
+      "size": 211422,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-10-21T21:49:38Z"
+      "github_language": "C",
+      "github_updated_at": "2026-10-27T11:58:59Z"
     },
     {
-      "repository_name": "sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library",
-      "repository_url": "https://github.com/sitronlabs/SitronLabs_Qiachip_RX480E_Arduino_Library",
-      "name": "Sitron Labs RX480E Arduino Library",
-      "version": "0.1.0",
+      "repository_name": "Hackingstan/HACKINGSTAN_display_GC9307",
+      "repository_url": "https://github.com/Hackingstan/HACKINGSTAN_display_GC9307",
+      "name": "HACKINGSTAN_GC9307",
+      "version": "1.0.1",
       "version_history": [
         {
-          "version": "0.1.0",
-          "seen_at": "2026-10-21T22:02:28.016Z"
+          "version": "1.0.1",
+          "seen_at": "2026-10-27T06:04:19.180Z"
         }
       ],
       "release_count": 1,
-      "first_seen_at": "2026-10-21T22:02:28.016Z",
-      "last_seen_sha": "cd91ffd1f3fa",
-      "author": "Sitron Labs",
-      "maintainer": "Sitron Labs <support@sitronlabs.com>",
-      "sentence": "Arduino library for the Qiachip RX480E 433.92 MHz EV1527 learning receiver. Pairs keyfobs and changes modes through the VT pin only.",
-      "category": "Signal Input/Output",
+      "first_seen_at": "2026-10-27T06:04:19.180Z",
+      "last_seen_sha": "f1a2ee0f1779",
+      "author": "HACKINGSTAN",
+      "maintainer": "HACKINGSTAN",
+      "sentence": "Custom GC9307 TFT Display Driver for ESP32 and Arduino.",
+      "paragraph": "This library provides a dedicated GC9307 hardware driver extension for the GFX Library for Arduino. It fixes mirror text, inverted colors, and offsets for smartwatch displays.",
+      "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sitronlabs/Sitron_Labs_RX480E_Arduino_Library-0.1.0.zip",
-      "size": 17985,
+      "depends": [
+        "GFX Library for Arduino"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Hackingstan/HACKINGSTAN_GC9307-1.0.1.zip",
+      "size": 3726,
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-10-21T18:51:49Z"
+      "github_updated_at": "2026-10-27T03:33:14Z"
+    },
+    {
+      "repository_name": "dineshpalsingh1989/ForgeModbus",
+      "repository_url": "https://github.com/dineshpalsingh1989/ForgeModbus",
+      "name": "ForgeModbus",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-10-27T06:04:19.180Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-10-27T06:04:19.180Z",
+      "last_seen_sha": "896a6fd0a7b0",
+      "author": "Dineshpal Singh",
+      "maintainer": "Dineshpal Singh <dineshpal101989@gmail.com>",
+      "sentence": "Modbus TCP server for ESP32 over Wi-Fi or Ethernet.",
+      "paragraph": "Coils, discrete inputs, input and holding registers (functions 1-6, 15, 16). Hooks, read-only ranges, float helpers, flash persistence, IP allowlist and an optional background task. Bounded buffers, nonblocking lwIP sockets, no AsyncTCP dependency.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dineshpalsingh1989/ForgeModbus-0.2.0.zip",
+      "size": 31440,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-10-27T02:55:24Z"
     }
   ],
   "most_depended_on": [
@@ -1641,34 +1676,6 @@
       "github_language": "C++"
     },
     {
-      "repository_name": "PaulStoffregen/OneWire",
-      "repository_url": "https://github.com/PaulStoffregen/OneWire",
-      "name": "OneWire",
-      "version": "2.3.8",
-      "version_history": [
-        {
-          "version": "2.3.8",
-          "seen_at": "2026-06-29T09:02:52Z"
-        }
-      ],
-      "release_count": 1,
-      "first_seen_at": "2026-06-29T09:02:52Z",
-      "last_seen_sha": "160a2e2387a4",
-      "author": "Jim Studt, Tom Pollard, Robin James, Glenn Trewitt, Jason Dangel, Guillermo Lovato, Paul Stoffregen, Scott Roberts, Bertrik Sikken, Mark Tillotson, Ken Butcher, Roger Clark, Love Nystrom",
-      "maintainer": "Paul Stoffregen",
-      "sentence": "Access 1-wire temperature sensors, memory and other chips.",
-      "paragraph": "",
-      "category": "Communication",
-      "architectures": [
-        "*"
-      ],
-      "github_stars": 663,
-      "github_forks": 420,
-      "github_updated_at": "2026-07-02T03:37:42Z",
-      "download_url": "http://www.pjrc.com/teensy/td_libs_OneWire.html",
-      "github_language": "C++"
-    },
-    {
       "repository_name": "arduino-libraries/Servo",
       "repository_url": "https://github.com/arduino-libraries/Servo",
       "name": "Servo",
@@ -1756,6 +1763,34 @@
       "github_updated_at": "2026-07-02T06:26:43Z"
     },
     {
+      "repository_name": "PaulStoffregen/OneWire",
+      "repository_url": "https://github.com/PaulStoffregen/OneWire",
+      "name": "OneWire",
+      "version": "2.3.8",
+      "version_history": [
+        {
+          "version": "2.3.8",
+          "seen_at": "2026-06-29T09:02:52Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-06-29T09:02:52Z",
+      "last_seen_sha": "160a2e2387a4",
+      "author": "Jim Studt, Tom Pollard, Robin James, Glenn Trewitt, Jason Dangel, Guillermo Lovato, Paul Stoffregen, Scott Roberts, Bertrik Sikken, Mark Tillotson, Ken Butcher, Roger Clark, Love Nystrom",
+      "maintainer": "Paul Stoffregen",
+      "sentence": "Access 1-wire temperature sensors, memory and other chips.",
+      "paragraph": "",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "github_stars": 663,
+      "github_forks": 420,
+      "github_updated_at": "2026-07-02T03:37:42Z",
+      "download_url": "http://www.pjrc.com/teensy/td_libs_OneWire.html",
+      "github_language": "C++"
+    },
+    {
       "repository_name": "sensirion/arduino-core",
       "repository_url": "https://github.com/sensirion/arduino-core",
       "name": "Sensirion Core",
@@ -1825,7 +1860,7 @@
       "repository_name": "h2zero/NimBLE-Arduino",
       "repository_url": "https://github.com/h2zero/NimBLE-Arduino",
       "name": "NimBLE-Arduino",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "version_history": [
         {
           "version": "3.0.0-dev",
@@ -1838,11 +1873,15 @@
         {
           "version": "2.5.1",
           "seen_at": "2026-07-30T04:05:49.468Z"
+        },
+        {
+          "version": "2.5.2",
+          "seen_at": "2026-10-25T16:02:21.240Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T08:55:34Z",
-      "last_seen_sha": "abe5d468e310",
+      "last_seen_sha": "e50a50783950",
       "author": "h2zero",
       "maintainer": "Ryan Powell <ryan@nable-embedded.io>",
       "sentence": "Bluetooth low energy (BLE) library for Arduino based on NimBLE.",
@@ -1852,9 +1891,9 @@
         "esp32",
         "arm-ble"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.1.zip",
-      "size": 1590872,
-      "previous_version": "2.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.2.zip",
+      "size": 1591278,
+      "previous_version": "2.5.1",
       "github_stars": 1086,
       "github_forks": 211,
       "github_language": "C",
@@ -2024,6 +2063,37 @@
       "github_updated_at": "2026-06-30T17:27:44Z"
     },
     {
+      "repository_name": "arduino-libraries/ArduinoBLE",
+      "repository_url": "https://github.com/arduino-libraries/ArduinoBLE",
+      "name": "ArduinoBLE",
+      "version": "2.1.0",
+      "version_history": [
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-06-23T08:18:59Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-06-23T08:18:59Z",
+      "last_seen_sha": "c198449856ae",
+      "author": "Arduino",
+      "maintainer": "Arduino <info@arduino.cc>",
+      "sentence": "Enables Bluetooth® Low Energy connectivity on the Arduino MKR WiFi 1010, Arduino UNO WiFi Rev2, Arduino Nano 33 IoT, Arduino Nano 33 BLE, Nicla Sense ME and UNO R4 WiFi.",
+      "paragraph": "This library supports creating a Bluetooth® Low Energy peripheral & central mode.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "github_stars": 356,
+      "github_forks": 234,
+      "github_updated_at": "2026-06-22T12:46:11Z",
+      "depends": [
+        "Arduino_SpiNINA"
+      ],
+      "download_url": "https://www.arduino.cc/en/Reference/ArduinoBLE",
+      "github_language": "C++"
+    },
+    {
       "repository_name": "m5stack/M5Utility",
       "repository_url": "https://github.com/m5stack/M5Utility",
       "name": "M5Utility",
@@ -2068,83 +2138,6 @@
       "github_forks": 4,
       "github_language": "C++",
       "github_updated_at": "2026-06-03T15:26:50Z"
-    },
-    {
-      "repository_name": "m5stack/M5Unified",
-      "repository_url": "https://github.com/m5stack/M5Unified",
-      "name": "M5Unified",
-      "version": "0.2.28",
-      "version_history": [
-        {
-          "version": "0.2.17",
-          "seen_at": "2026-06-30T08:36:17Z"
-        },
-        {
-          "version": "0.2.18",
-          "seen_at": "2026-07-09T09:07:59.829Z"
-        },
-        {
-          "version": "0.2.19",
-          "seen_at": "2026-07-22T12:29:33.437Z"
-        },
-        {
-          "version": "0.2.20",
-          "seen_at": "2026-08-17T04:13:24.764Z"
-        },
-        {
-          "version": "0.2.21",
-          "seen_at": "2026-08-26T12:06:00.595Z"
-        },
-        {
-          "version": "0.2.22",
-          "seen_at": "2026-09-14T08:03:49.936Z"
-        },
-        {
-          "version": "0.2.23",
-          "seen_at": "2026-09-22T00:06:54.581Z"
-        },
-        {
-          "version": "0.2.24",
-          "seen_at": "2026-09-30T02:10:37.042Z"
-        },
-        {
-          "version": "0.2.25",
-          "seen_at": "2026-10-02T06:04:32.055Z"
-        },
-        {
-          "version": "0.2.26",
-          "seen_at": "2026-10-13T08:08:19.862Z"
-        },
-        {
-          "version": "0.2.27",
-          "seen_at": "2026-10-20T08:03:08.562Z"
-        },
-        {
-          "version": "0.2.28",
-          "seen_at": "2026-10-25T04:02:54.405Z"
-        }
-      ],
-      "release_count": 12,
-      "first_seen_at": "2026-06-30T08:36:17Z",
-      "last_seen_sha": "69602d326403",
-      "author": "M5Stack",
-      "maintainer": "M5Stack",
-      "sentence": "Unified library for M5Stack series",
-      "paragraph": "M5Stack, M5Stack Core2, M5Stack CoreInk, M5StickC, M5StickC-Plus, M5Paper, M5Tough, M5ATOM, M5STAMP, M5Station, See more on http://M5Stack.com",
-      "category": "Display",
-      "architectures": [
-        "esp32"
-      ],
-      "depends": [
-        "M5GFX"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5Unified-0.2.28.zip",
-      "size": 728144,
-      "previous_version": "0.2.27",
-      "github_stars": 656,
-      "github_forks": 118,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-30T11:03:16Z"
     }
   ],
   "forgotten_classics": [
@@ -2302,6 +2295,34 @@
       "download_url": "https://github.com/bportaluri/ALA"
     },
     {
+      "repository_name": "greiman/DigitalIO",
+      "repository_url": "https://github.com/greiman/DigitalIO",
+      "name": "DigitalIO",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2025-09-10T07:24:49Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2025-09-10T07:24:49Z",
+      "last_seen_sha": "78f6bd054037",
+      "author": "Bill Greiman <fat16lib@sbcglobal.net>",
+      "maintainer": "Bill Greiman <fat16lib@sbcglobal.net>",
+      "sentence": "Fast digital IO.",
+      "paragraph": "Defaults to slow digitalRead/digitalWrite for undefined architectures.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "github_stars": 131,
+      "github_forks": 35,
+      "github_language": "HTML",
+      "github_updated_at": "2025-10-28T18:52:38Z",
+      "download_url": "https://github.com/greiman/DigitalIO"
+    },
+    {
       "repository_name": "r-downing/PersWiFiManager",
       "repository_url": "https://github.com/r-downing/PersWiFiManager",
       "name": "PersWiFiManager",
@@ -2329,47 +2350,81 @@
       "github_language": "C++",
       "github_updated_at": "2025-09-01T09:11:57Z",
       "download_url": "http://ryandowning.net/PersWiFiManager/"
+    },
+    {
+      "repository_name": "adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino",
+      "repository_url": "https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino",
+      "name": "Adafruit SSD1331 OLED Driver Library for Arduino",
+      "version": "1.4.0",
+      "version_history": [
+        {
+          "version": "1.3.0",
+          "seen_at": "2025-07-21T16:06:21Z"
+        },
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-10-20T18:03:13.451Z"
+        }
+      ],
+      "release_count": 3,
+      "first_seen_at": "2025-07-21T16:06:21Z",
+      "last_seen_sha": "6dae85a11fe2",
+      "author": "Adafruit",
+      "maintainer": "Adafruit <info@adafruit.com>",
+      "sentence": "For 0.96\" OLEDs in the Adafruit shop",
+      "paragraph": "For 0.96\" OLEDs in the Adafruit shop",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1331_OLED_Driver_Library_for_Arduino-1.4.0.zip",
+      "size": 26329,
+      "previous_version": "1.3.0",
+      "github_stars": 108,
+      "github_forks": 64,
+      "github_language": "C++",
+      "github_updated_at": "2025-10-31T17:42:29Z"
+    },
+    {
+      "repository_name": "pubnub/arduino",
+      "repository_url": "https://github.com/pubnub/arduino",
+      "name": "Pubnub",
+      "version": "3.3.0",
+      "version_history": [
+        {
+          "version": "3.3.0",
+          "seen_at": "2025-07-21T16:25:33Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2025-07-21T16:25:33Z",
+      "last_seen_sha": "f06273ea7ccd",
+      "author": "Vladimir Veljkovic <vlada@pubnub.com>",
+      "maintainer": "Vladimir Veljkovic <vlada@pubnub.com>",
+      "sentence": "Pubnub SDK for Arduino.",
+      "paragraph": "Provides basic support for publish and subscribe over Pubnub",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "github_stars": 106,
+      "github_forks": 48,
+      "github_language": "C++",
+      "github_updated_at": "2025-10-28T15:34:28Z",
+      "download_url": "http://github.com/pubnub/arduino"
     }
   ],
   "activity": {
-    "generated_at": "2026-10-25T04:17:52.119Z",
-    "total_libraries": 10264,
+    "generated_at": "2026-11-01T04:12:34.263Z",
+    "total_libraries": 10302,
     "daily": [
-      {
-        "date": "2026-09-26",
-        "new": 6,
-        "updated": 24
-      },
-      {
-        "date": "2026-09-27",
-        "new": 3,
-        "updated": 11
-      },
-      {
-        "date": "2026-09-28",
-        "new": 2,
-        "updated": 20
-      },
-      {
-        "date": "2026-09-29",
-        "new": 8,
-        "updated": 26
-      },
-      {
-        "date": "2026-09-30",
-        "new": 5,
-        "updated": 29
-      },
-      {
-        "date": "2026-10-01",
-        "new": 8,
-        "updated": 37
-      },
-      {
-        "date": "2026-10-02",
-        "new": 3,
-        "updated": 30
-      },
       {
         "date": "2026-10-03",
         "new": 18,
@@ -2443,7 +2498,7 @@
       {
         "date": "2026-10-17",
         "new": 4,
-        "updated": 21
+        "updated": 20
       },
       {
         "date": "2026-10-18",
@@ -2468,7 +2523,7 @@
       {
         "date": "2026-10-22",
         "new": 10,
-        "updated": 30
+        "updated": 29
       },
       {
         "date": "2026-10-23",
@@ -2482,16 +2537,46 @@
       },
       {
         "date": "2026-10-25",
+        "new": 5,
+        "updated": 19
+      },
+      {
+        "date": "2026-10-26",
+        "new": 8,
+        "updated": 25
+      },
+      {
+        "date": "2026-10-27",
+        "new": 6,
+        "updated": 18
+      },
+      {
+        "date": "2026-10-28",
+        "new": 4,
+        "updated": 27
+      },
+      {
+        "date": "2026-10-29",
+        "new": 3,
+        "updated": 18
+      },
+      {
+        "date": "2026-10-30",
+        "new": 5,
+        "updated": 21
+      },
+      {
+        "date": "2026-10-31",
+        "new": 11,
+        "updated": 23
+      },
+      {
+        "date": "2026-11-01",
         "new": 0,
-        "updated": 6
+        "updated": 5
       }
     ],
     "weekly": [
-      {
-        "week_start": "2026-08-03",
-        "new": 25,
-        "updated": 127
-      },
       {
         "week_start": "2026-08-10",
         "new": 35,
@@ -2509,8 +2594,8 @@
       },
       {
         "week_start": "2026-08-31",
-        "new": 30,
-        "updated": 98
+        "new": 29,
+        "updated": 97
       },
       {
         "week_start": "2026-09-07",
@@ -2525,7 +2610,7 @@
       {
         "week_start": "2026-09-21",
         "new": 42,
-        "updated": 147
+        "updated": 145
       },
       {
         "week_start": "2026-09-28",
@@ -2540,69 +2625,74 @@
       {
         "week_start": "2026-10-12",
         "new": 59,
-        "updated": 172
+        "updated": 171
       },
       {
         "week_start": "2026-10-19",
-        "new": 70,
-        "updated": 165
+        "new": 75,
+        "updated": 177
+      },
+      {
+        "week_start": "2026-10-26",
+        "new": 37,
+        "updated": 137
       }
     ],
     "categories_top": [
       {
         "category": "Communication",
-        "count": 2343,
-        "share": 0.22827357755261107
+        "count": 2356,
+        "share": 0.22869345758105222
       },
       {
         "category": "Sensors",
-        "count": 2041,
-        "share": 0.19885035074045207
+        "count": 2045,
+        "share": 0.19850514463211028
       },
       {
         "category": "Device Control",
-        "count": 1715,
-        "share": 0.16708885424785658
+        "count": 1721,
+        "share": 0.16705494078819647
       },
       {
         "category": "Display",
-        "count": 888,
-        "share": 0.08651597817614964
+        "count": 894,
+        "share": 0.08677926616191031
       },
       {
         "category": "Other",
-        "count": 848,
-        "share": 0.08261886204208885
+        "count": 849,
+        "share": 0.08241118229470006
       },
       {
         "category": "Signal Input/output",
-        "count": 805,
-        "share": 0.0784294621979735
+        "count": 810,
+        "share": 0.07862550960978451
       },
       {
         "category": "Data Processing",
-        "count": 622,
-        "share": 0.06060015588464536
+        "count": 623,
+        "share": 0.060473694428266354
       },
       {
         "category": "Timing",
-        "count": 373,
-        "share": 0.03634060795011691
+        "count": 375,
+        "share": 0.03640069889341875
       },
       {
         "category": "Data Storage",
         "count": 275,
-        "share": 0.026792673421667967
+        "share": 0.026693845855173752
       },
       {
         "category": "Uncategorized",
         "count": 236,
-        "share": 0.02299298519095869
+        "share": 0.022908173170258204
       },
       {
         "category": "Other categories",
         "count": 107,
-        "share": 0.010424785658612627
+        "share": 0.01038633275092215
       }
     ]
   }

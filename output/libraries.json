@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-01T07:01:43.891Z",
+  "enhanced_at": "2026-11-01T08:01:58.914Z",
   "total_libraries": 10302,
-  "index_etag": "W/\"cb433e76f38447531a36b927854057f2\"",
-  "index_last_modified": "Sun, 01 Nov 2026 07:00:18 GMT",
+  "index_etag": "W/\"177c6c655a295be5ed8f5c3305c7fb32\"",
+  "index_last_modified": "Sun, 01 Nov 2026 08:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24191,7 +24191,7 @@
       "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
       "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
       "name": "AMK_CYD_Universal_TFT",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "version_history": [
         {
           "version": "1.2.0",
@@ -24208,22 +24208,26 @@
         {
           "version": "1.4.0",
           "seen_at": "2026-10-31T10:01:46.981Z"
+        },
+        {
+          "version": "1.5.0",
+          "seen_at": "2026-11-01T08:01:58.823Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-10-29T18:03:08.277Z",
-      "last_seen_sha": "f3fcdcc483d7",
+      "last_seen_sha": "eae2d4556d9e",
       "author": "Aung Moe Khine",
       "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
-      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for all ESP32 Cheap Yellow Display (CYD) resistive boards.",
-      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046, including Dual-USB and ELEGOO 2.8\" variants). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical & horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for ESP32 CYD resistive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical & horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.4.0.zip",
-      "size": 412246,
-      "previous_version": "1.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.5.0.zip",
+      "size": 462881,
+      "previous_version": "1.4.0",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",
@@ -145039,7 +145043,7 @@
       "repository_name": "Johboh/ieee-802_15_4",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4",
       "name": "ieee-802_15_4",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "0.5.8",
@@ -145060,11 +145064,15 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-10-31T20:01:23.979Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-11-01T08:01:58.823Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-05-01T08:01:44Z",
-      "last_seen_sha": "fab630963f1a",
+      "last_seen_sha": "d603c341ea2e",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Simplified version of sending and receiving messages over 802.15.4",
@@ -145074,9 +145082,9 @@
         "esp32"
       ],
       "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.2.zip",
-      "size": 37345,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.3.zip",
+      "size": 37456,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

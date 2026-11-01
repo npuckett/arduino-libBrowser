@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-01T19:01:25.581Z",
-  "total_libraries": 10304,
-  "index_etag": "W/\"4e0b558f917d16a33b20d86d840ce90f\"",
-  "index_last_modified": "Sun, 01 Nov 2026 19:00:18 GMT",
+  "enhanced_at": "2026-11-01T20:01:50.724Z",
+  "total_libraries": 10306,
+  "index_etag": "W/\"5e5f7e3727712e7e3622186266d2ed8c\"",
+  "index_last_modified": "Sun, 01 Nov 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -202857,16 +202857,20 @@
       "repository_name": "mathieucarbou/MycilaTaskManager",
       "repository_url": "https://github.com/mathieucarbou/MycilaTaskManager",
       "name": "MycilaTaskManager",
-      "version": "4.2.5",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "4.2.5",
           "seen_at": "2026-04-14T08:06:44Z"
+        },
+        {
+          "version": "5.0.0",
+          "seen_at": "2026-11-01T20:01:48.019Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-14T08:06:44Z",
-      "last_seen_sha": "5aadab38ae59",
+      "last_seen_sha": "e84eae1a29fa",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "Arduino / ESP32 Task Manager Library",
@@ -202875,12 +202879,14 @@
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaTaskManager-5.0.0.zip",
+      "size": 73700,
+      "previous_version": "4.2.5",
       "github_stars": 7,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-06-05T06:58:53Z",
-      "license": "MIT",
-      "download_url": "https://github.com/mathieucarbou/MycilaTaskManager"
+      "github_updated_at": "2026-06-05T06:58:53Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaTaskMonitor",
@@ -207386,6 +207392,36 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "abdallah-shehawey/NiroTronixMotorDriver",
+      "repository_url": "https://github.com/abdallah-shehawey/NiroTronixMotorDriver",
+      "name": "NiroTronixMotorDriver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-01T20:01:48.019Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-01T20:01:48.019Z",
+      "last_seen_sha": "a4629abdfff0",
+      "author": "NiroTronix <support@nirotronix.com>",
+      "maintainer": "NiroTronix <support@nirotronix.com>",
+      "sentence": "Control NiroTronix MD series brushed DC motor drivers with PWM and DIR.",
+      "paragraph": "Signed speed control, smooth ramps and safe reversing for the MD-1.15.40, MD-1.30.40, MD-2.15.40 and MD-2.15.40T boards. Runs PWM at 25 kHz for silent motors on ESP32 and on Arduino UNO pins 9 and 10.",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/abdallah-shehawey/NiroTronixMotorDriver-1.0.0.zip",
+      "size": 9604,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-01T16:56:15Z"
+    },
+    {
       "repository_name": "dunknowcoding/NiusAudio",
       "repository_url": "https://github.com/dunknowcoding/NiusAudio",
       "name": "NiusAudio",
@@ -210677,6 +210713,39 @@
       "github_language": "C++",
       "github_updated_at": "2019-04-08T03:16:30Z",
       "download_url": "https://github.com/diegodorado/ObloqAdafruit"
+    },
+    {
+      "repository_name": "bareboat-necessities/ocean-imu",
+      "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
+      "name": "ocean_imu",
+      "version": "2.7.2",
+      "version_history": [
+        {
+          "version": "2.7.2",
+          "seen_at": "2026-11-01T20:01:48.019Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-01T20:01:48.019Z",
+      "last_seen_sha": "e5259c6241c9",
+      "author": "Bareboat Necessities",
+      "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
+      "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+      "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "M5Unified",
+        "Eigen"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.2.zip",
+      "size": 33370152,
+      "github_stars": 39,
+      "github_forks": 5,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-01T15:22:20Z"
     },
     {
       "repository_name": "JarikDem-Bot/OCServo",
@@ -336667,7 +336736,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10100,
-    "total_dependencies": 5647
+    "with_github_metadata": 10102,
+    "total_dependencies": 5649
   }
 }

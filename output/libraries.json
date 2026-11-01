@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-01T11:01:31.780Z",
+  "enhanced_at": "2026-11-01T12:01:47.230Z",
   "total_libraries": 10302,
-  "index_etag": "W/\"4beb2d12ddfd414d90a0129fd9c7273c\"",
-  "index_last_modified": "Sun, 01 Nov 2026 11:00:18 GMT",
+  "index_etag": "W/\"1e05edfad3561349d229f8bf27a8f153\"",
+  "index_last_modified": "Sun, 01 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -40530,7 +40530,7 @@
       "repository_name": "T-arg/ATMlib",
       "repository_url": "https://github.com/T-arg/ATMlib",
       "name": "ATMlib",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "1.2.7",
@@ -40559,11 +40559,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-10-31T12:02:02.280Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-11-01T12:01:47.091Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "60e128f48b05",
+      "last_seen_sha": "5c4468b5238d",
       "author": "TEAM a.r.g., Joeri Gantois aka JO3RI, Davey Taylor aka STG",
       "maintainer": "joerigantois@gmail.com",
       "sentence": "The Arduboy Tracker Music library.",
@@ -40572,9 +40576,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-2.2.0.zip",
-      "size": 270826,
-      "previous_version": "2.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/T-arg/ATMlib-2.2.1.zip",
+      "size": 270827,
+      "previous_version": "2.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -45197,7 +45201,7 @@
       "repository_name": "NishanthRaj707/bavaarduino",
       "repository_url": "https://github.com/NishanthRaj707/bavaarduino",
       "name": "BAVA Protocol",
-      "version": "1.0.5",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -45206,22 +45210,26 @@
         {
           "version": "1.0.5",
           "seen_at": "2026-10-25T08:03:06.838Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-01T12:01:47.091Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-09T16:06:03.270Z",
-      "last_seen_sha": "c96e430cfb89",
+      "last_seen_sha": "06d09dca8b15",
       "author": "Nishanth Raj",
-      "maintainer": "Nishanth Raj <jpnishanthraj@gmail.com>",
-      "sentence": "O(1) zero-allocation hardware variable teleportation.",
-      "paragraph": "A deterministic, ultra-low latency (64us) serial protocol for cross-platform MCU communication.",
+      "maintainer": "Nishanth Raj",
+      "sentence": "Reliable variable sync between two microcontrollers over serial, with CRC-16 and no dynamic memory.",
+      "paragraph": "Register a variable under an ID and write or read it on the other board. Binary frames use a sync preamble, length field, byte-stuffing and CRC-16 checked before memory is updated, so partial or corrupted serial data is rejected instead of parsed. Non-blocking state machine, zero heap, fixed stack. Works on any board with a serial port; examples for Arduino, ESP32 and STM32. GPL-3.0, commercial licence available.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NishanthRaj707/BAVA_Protocol-1.0.5.zip",
-      "size": 37228,
-      "previous_version": "1.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NishanthRaj707/BAVA_Protocol-2.0.0.zip",
+      "size": 30371,
+      "previous_version": "1.0.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -145043,7 +145051,7 @@
       "repository_name": "Johboh/ieee-802_15_4",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4",
       "name": "ieee-802_15_4",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "0.5.8",
@@ -145068,11 +145076,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-11-01T08:01:58.823Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-11-01T12:01:47.091Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-05-01T08:01:44Z",
-      "last_seen_sha": "d603c341ea2e",
+      "last_seen_sha": "a8d230a06d3c",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Simplified version of sending and receiving messages over 802.15.4",
@@ -145082,9 +145094,9 @@
         "esp32"
       ],
       "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.3.zip",
-      "size": 37456,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.4.zip",
+      "size": 37373,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -325430,7 +325442,7 @@
       "repository_name": "mumanchu/W25QxxFlash",
       "repository_url": "https://github.com/mumanchu/W25QxxFlash",
       "name": "W25QxxFlash",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.1",
@@ -325443,21 +325455,27 @@
         {
           "version": "1.0.2",
           "seen_at": "2026-10-30T20:01:38.798Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-11-01T12:01:47.091Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-05-29T08:22:51Z",
-      "last_seen_sha": "f03c0e66457f",
+      "last_seen_sha": "9bb4bba074f2",
       "author": "mumanchu",
       "maintainer": "mumanchu <info@muman.ch>",
       "sentence": "Library for SPI Flash memory chips, 1..512Mbits",
       "category": "Data Storage",
       "architectures": [
-        "*"
+        "stm32",
+        "esp32",
+        "samd51"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.2.zip",
-      "size": 12110,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/W25QxxFlash-1.0.4.zip",
+      "size": 15188,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -336584,7 +336602,7 @@
   ],
   "stats": {
     "total_categories": 78,
-    "total_architectures": 159,
+    "total_architectures": 160,
     "with_github_metadata": 10098,
     "total_dependencies": 5647
   }

@@ -1,6 +1,75 @@
 {
-  "since": "2026-11-01T13:01:40.172Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-01T14:01:55.375Z",
+  "new_libraries": [
+    {
+      "repository_name": "zupub/lilty",
+      "repository_url": "https://github.com/zupub/lilty",
+      "name": "lilty",
+      "version": "0.1.1",
+      "version_history": [
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-11-01T14:01:55.375Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-01T14:01:55.375Z",
+      "last_seen_sha": "1928ce9d9468",
+      "author": "lilty contributors",
+      "maintainer": "lilty contributors <zupub@163.com>",
+      "sentence": "GUI framework for 128x64 monochrome OLEDs: focus navigation, layer stack, spring animation.",
+      "paragraph": "Spring-driven animation, a layer stack, focus navigation and a small widget set. Display and input backends live in their own folders, so porting to another screen or another set of keys means adding one file each and leaving the core untouched. C++ rewrite of the lilt project by chhongzh (https://github.com/chhongzh/lilt).",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/zupub/lilty-0.1.1.zip",
+      "size": 98809,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-01T13:39:07Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "kdi6033/OttoI2R",
+        "repository_url": "https://github.com/kdi6033/OttoI2R",
+        "name": "OttoI2R",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-01T14:01:55.375Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-16T10:02:52.474Z",
+        "last_seen_sha": "0160b75f647a",
+        "author": "i2r",
+        "maintainer": "i2r",
+        "sentence": "Otto 로봇(YL/YR/RL/RR 서보 4개) 공통 제어 라이브러리",
+        "paragraph": "핀 번호, 서보 구동(ESP32 기본 PWM 사용, 추가 라이브러리 없음), 각도 보정, 걷기와 굴리기 등 기본 동작을 모아 둔 라이브러리. 보정값은 웹의 [로봇 맞추기]에서 맞춰 보드에 저장하고, 스케치는 ottoInit() 한 줄로 불러 쓴다.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/kdi6033/OttoI2R-1.1.0.zip",
+        "size": 6856470,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-16T06:28:04Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    }
+  ],
   "removed_libraries": []
 }

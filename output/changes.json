@@ -1,6 +1,234 @@
 {
-  "since": "2026-11-01T03:02:13.584Z",
+  "since": "2026-11-01T04:02:05.721Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "autoconnecto/autoconnecto-sdk",
+        "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
+        "name": "AutoconnectoSDK",
+        "version": "1.7.98",
+        "version_history": [
+          {
+            "version": "1.3.5",
+            "seen_at": "2026-06-01T08:49:25Z"
+          },
+          {
+            "version": "1.3.6",
+            "seen_at": "2026-07-13T16:46:28.867Z"
+          },
+          {
+            "version": "1.3.7",
+            "seen_at": "2026-07-29T16:28:04.217Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-09-21T16:02:57.175Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-09-25T06:04:35.802Z"
+          },
+          {
+            "version": "1.6.0",
+            "seen_at": "2026-09-25T12:04:13.691Z"
+          },
+          {
+            "version": "1.6.1",
+            "seen_at": "2026-10-05T12:04:34.017Z"
+          },
+          {
+            "version": "1.6.2",
+            "seen_at": "2026-10-07T12:04:29.113Z"
+          },
+          {
+            "version": "1.7.31",
+            "seen_at": "2026-10-14T20:02:44.879Z"
+          },
+          {
+            "version": "1.7.32",
+            "seen_at": "2026-10-15T06:04:41.362Z"
+          },
+          {
+            "version": "1.7.54",
+            "seen_at": "2026-10-19T18:03:42.950Z"
+          },
+          {
+            "version": "1.7.56",
+            "seen_at": "2026-10-20T16:03:03.753Z"
+          },
+          {
+            "version": "1.7.57",
+            "seen_at": "2026-10-21T04:02:49.302Z"
+          },
+          {
+            "version": "1.7.58",
+            "seen_at": "2026-10-21T06:04:01.668Z"
+          },
+          {
+            "version": "1.7.59",
+            "seen_at": "2026-10-21T12:03:41.002Z"
+          },
+          {
+            "version": "1.7.61",
+            "seen_at": "2026-10-21T14:03:01.109Z"
+          },
+          {
+            "version": "1.7.62",
+            "seen_at": "2026-10-21T16:02:37.261Z"
+          },
+          {
+            "version": "1.7.63",
+            "seen_at": "2026-10-21T18:03:17.124Z"
+          },
+          {
+            "version": "1.7.64",
+            "seen_at": "2026-10-21T20:02:40.883Z"
+          },
+          {
+            "version": "1.7.65",
+            "seen_at": "2026-10-22T06:04:23.366Z"
+          },
+          {
+            "version": "1.7.66",
+            "seen_at": "2026-10-22T10:02:24.538Z"
+          },
+          {
+            "version": "1.7.68",
+            "seen_at": "2026-10-22T14:02:55.831Z"
+          },
+          {
+            "version": "1.7.72",
+            "seen_at": "2026-10-23T10:02:26.813Z"
+          },
+          {
+            "version": "1.7.73",
+            "seen_at": "2026-10-23T12:03:45.596Z"
+          },
+          {
+            "version": "1.7.74",
+            "seen_at": "2026-10-24T12:03:22.155Z"
+          },
+          {
+            "version": "1.7.76",
+            "seen_at": "2026-10-24T14:02:35.622Z"
+          },
+          {
+            "version": "1.7.77",
+            "seen_at": "2026-10-25T06:03:46.915Z"
+          },
+          {
+            "version": "1.7.78",
+            "seen_at": "2026-10-25T20:02:19.564Z"
+          },
+          {
+            "version": "1.7.79",
+            "seen_at": "2026-10-26T00:06:46.250Z"
+          },
+          {
+            "version": "1.7.84",
+            "seen_at": "2026-10-27T06:04:19.180Z"
+          },
+          {
+            "version": "1.7.95",
+            "seen_at": "2026-10-31T04:01:55.617Z"
+          },
+          {
+            "version": "1.7.96",
+            "seen_at": "2026-10-31T16:01:47.735Z"
+          },
+          {
+            "version": "1.7.97",
+            "seen_at": "2026-10-31T22:01:54.893Z"
+          },
+          {
+            "version": "1.7.98",
+            "seen_at": "2026-11-01T04:02:05.721Z"
+          }
+        ],
+        "release_count": 34,
+        "first_seen_at": "2026-06-01T08:49:25Z",
+        "last_seen_sha": "d0192fb7dbbc",
+        "author": "Autoconnecto",
+        "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
+        "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
+        "paragraph": "Connect an ESP32 to the Autoconnecto IoT platform (India) over MQTTS and MQTT-over-WSS: telemetry, shared and client attributes, RPC, and OTA. Tested on ESP32. Requires ArduinoJson.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.98.zip",
+        "size": 249863,
+        "previous_version": "1.7.97",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-30T13:43:09Z"
+      },
+      "old_version": "1.7.97",
+      "new_version": "1.7.98"
+    },
+    {
+      "library": {
+        "repository_name": "dashio-connect/arduino-dashioESP",
+        "repository_url": "https://github.com/dashio-connect/arduino-dashioESP",
+        "name": "DashioESP",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.2.18",
+            "seen_at": "2025-07-21T16:04:05Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-10-08T02:13:18.605Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-10-14T02:03:18.882Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-11-01T04:02:05.721Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-07-21T16:04:05Z",
+        "last_seen_sha": "21f6465f802d",
+        "author": "DashIO Connect <info@dashio.io>",
+        "maintainer": "DashIO Connect <info@dashio.io>",
+        "sentence": "ESP32 & ESP8266 library for communicating with the free Dash IoT dashboard app.",
+        "paragraph": "Enables messaging for BLE, TCP and MQTT communications between IoT devices and the Dash IoT app.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "Dashio",
+          "MQTT",
+          "Preferences",
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/dashio-connect/DashioESP-1.4.0.zip",
+        "size": 84993,
+        "previous_version": "1.3.2",
+        "github_stars": 5,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-11-28T05:05:36Z"
+      },
+      "old_version": "1.3.2",
+      "new_version": "1.4.0"
+    }
+  ],
   "removed_libraries": []
 }

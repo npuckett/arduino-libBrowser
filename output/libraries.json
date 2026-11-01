@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-01T01:01:47.981Z",
+  "enhanced_at": "2026-11-01T02:02:35.492Z",
   "total_libraries": 10302,
-  "index_etag": "W/\"ae7bb0eb02adc74409ba0a136ab15255\"",
-  "index_last_modified": "Sun, 01 Nov 2026 01:00:18 GMT",
+  "index_etag": "W/\"d75f9a9c6544d8f2b6681b306946400d\"",
+  "index_last_modified": "Sun, 01 Nov 2026 02:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -142123,7 +142123,7 @@
       "repository_name": "TexhFexLabs/HydroNode-Library",
       "repository_url": "https://github.com/TexhFexLabs/HydroNode-Library",
       "name": "HydroNode-Library",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -142172,19 +142172,30 @@
         {
           "version": "1.8.0",
           "seen_at": "2026-10-10T16:03:04.187Z"
+        },
+        {
+          "version": "1.9.0",
+          "seen_at": "2026-11-01T02:02:35.382Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-01-02T21:37:12Z",
-      "last_seen_sha": "cfc55307fdee",
+      "last_seen_sha": "5193df187196",
       "author": "Felix Knoll",
       "maintainer": "Felix Knoll <contact@hydronode.tech>",
-      "sentence": "Send sensor data and receive backend events for HydroNode projects.",
-      "paragraph": "Easy API client for HydroNode sensors and actuators, with event callback system, HMAC-SHA256 auth, TLS with bundled root CAs, NTP time sync, battery thresholds (HydroNodeBatteryGuard) and optional WiFi helper. ESP32 and ESP8266.",
+      "sentence": "Send signed sensor data to HydroNode over WiFi, Ethernet, LTE-M, NB-IoT or any Arduino Client.",
+      "paragraph": "Easy API client for HydroNode sensors and actuators, with typed command callbacks, HMAC-SHA256 auth, TLS with bundled root CAs, time sync (NTP, modem clock or your own), battery thresholds (HydroNodeBatteryGuard) and pluggable transports: ESP32/ESP8266 WiFi and Ethernet, W5500, cellular via TinyGSM (SIM7080G, A7670, BG95 ...) with WiFi fallback, or any TLS Client (UNO R4 WiFi, MKR, Pico W, nRF52, STM32).",
       "category": "Communication",
       "architectures": [
         "esp32",
-        "esp8266"
+        "esp8266",
+        "rp2040",
+        "mbed_rp2040",
+        "samd",
+        "nrf52",
+        "mbed_nano",
+        "renesas_uno",
+        "stm32"
       ],
       "license": "MIT",
       "depends": [
@@ -142192,9 +142203,9 @@
         "ArduinoHttpClient",
         "WiFiManager"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.8.0.zip",
-      "size": 67977,
-      "previous_version": "1.7.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TexhFexLabs/HydroNode_Library-1.9.0.zip",
+      "size": 136773,
+      "previous_version": "1.8.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -178064,7 +178075,7 @@
       "repository_name": "okalachev/mavlink-arduino",
       "repository_url": "https://github.com/okalachev/mavlink-arduino",
       "name": "MAVLink",
-      "version": "2.0.34",
+      "version": "2.0.35",
       "version_history": [
         {
           "version": "2.0.30",
@@ -178085,11 +178096,15 @@
         {
           "version": "2.0.34",
           "seen_at": "2026-10-01T02:15:30.527Z"
+        },
+        {
+          "version": "2.0.35",
+          "seen_at": "2026-11-01T02:02:35.382Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-01T09:12:24Z",
-      "last_seen_sha": "3d252b2830d9",
+      "last_seen_sha": "8fd21b365b06",
       "author": "Oleg Kalachev <okalachev@gmail.com",
       "maintainer": "Oleg Kalachev <okalachev@gmail.com>",
       "sentence": "MAVLink v2 for Arduino.",
@@ -178098,9 +178113,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.34.zip",
-      "size": 1763055,
-      "previous_version": "2.0.33",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/MAVLink-2.0.35.zip",
+      "size": 1765865,
+      "previous_version": "2.0.34",
       "github_stars": 54,
       "github_forks": 13,
       "github_language": "C",

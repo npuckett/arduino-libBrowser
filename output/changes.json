@@ -1,6 +1,132 @@
 {
-  "since": "2026-11-02T03:01:57.060Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-02T04:02:00.382Z",
+  "new_libraries": [
+    {
+      "repository_name": "gkeiel/PIDcon",
+      "repository_url": "https://github.com/gkeiel/PIDcon",
+      "name": "PIDcon",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-02T04:02:00.382Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-02T04:02:00.382Z",
+      "last_seen_sha": "f116bac71bcd",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital PID controller library for Arduino.",
+      "paragraph": "Supports Euler and Tustin discretization methods, derivative filtering, and conditional integration for anti-windup protection.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/PIDcon-1.0.0.zip",
+      "size": 5668,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-02T01:36:14Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "nikolaindustry/hyperwisor-iot-arduino-library",
+        "repository_url": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
+        "name": "Hyperwisor-IOT",
+        "version": "3.3.1",
+        "version_history": [
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-08-12T00:13:17.171Z"
+          },
+          {
+            "version": "3.3.1",
+            "seen_at": "2026-11-02T04:02:00.382Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-08-12T00:13:17.171Z",
+        "last_seen_sha": "053d6fc1f51e",
+        "author": "NIKOLAINDUSTRY",
+        "maintainer": "NIKOLAINDUSTRY <support@nikolaindustry.com>",
+        "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
+        "paragraph": "Wi-Fi provisioning with a captive setup portal, an authenticated real-time channel, OTA updates, GPIO control and structured JSON commands. Every device generates an ECDSA P-256 keypair on-chip and proves its identity before any data flows; the private key never leaves the ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "WebSockets"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.1.zip",
+        "size": 76590,
+        "previous_version": "3.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-11T20:11:28Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.3.1"
+    },
+    {
+      "library": {
+        "repository_name": "sunfounder/SunFounder_Ai_Camera",
+        "repository_url": "https://github.com/sunfounder/SunFounder_Ai_Camera",
+        "name": "SunFounder AI Camera",
+        "version": "1.2.3",
+        "version_history": [
+          {
+            "version": "1.1.1",
+            "seen_at": "2025-07-21T16:32:19Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-10-10T12:03:44.477Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-10-16T08:03:22.403Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-11-02T04:02:00.382Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2025-07-21T16:32:19Z",
+        "last_seen_sha": "635b650002de",
+        "author": "SunFounder",
+        "maintainer": "SunFounder",
+        "sentence": "SunFounder AI Camera library.",
+        "paragraph": "Support Library for SunFounder ESP32 Cam AI Camera.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/SunFounder_AI_Camera-1.2.3.zip",
+        "size": 26534,
+        "previous_version": "1.2.2",
+        "github_stars": 6,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-04T10:16:09Z"
+      },
+      "old_version": "1.2.2",
+      "new_version": "1.2.3"
+    }
+  ],
   "removed_libraries": []
 }

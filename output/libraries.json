@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-02T17:01:29.995Z",
+  "enhanced_at": "2026-11-02T18:02:11.941Z",
   "total_libraries": 10310,
-  "index_etag": "W/\"c29b75001d25a1293c10b1df4fedbc99\"",
-  "index_last_modified": "Mon, 02 Nov 2026 17:00:19 GMT",
+  "index_etag": "W/\"edd8cb2069f85960ac5cf81fda09dba9\"",
+  "index_last_modified": "Mon, 02 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -67747,7 +67747,7 @@
       "repository_name": "Johboh/ConnectionHelper",
       "repository_url": "https://github.com/Johboh/ConnectionHelper",
       "name": "ConnectionHelper",
-      "version": "3.0.17",
+      "version": "3.0.18",
       "version_history": [
         {
           "version": "3.0.12",
@@ -67760,11 +67760,15 @@
         {
           "version": "3.0.17",
           "seen_at": "2026-10-30T20:01:38.798Z"
+        },
+        {
+          "version": "3.0.18",
+          "seen_at": "2026-11-02T18:02:11.798Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:17:44Z",
-      "last_seen_sha": "af67daed7ff6",
+      "last_seen_sha": "ebbbd4a71348",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Library for setting up WiFi and OTA (Over The Air)",
@@ -67774,9 +67778,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.17.zip",
-      "size": 40249,
-      "previous_version": "3.0.16",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ConnectionHelper-3.0.18.zip",
+      "size": 38080,
+      "previous_version": "3.0.17",
       "github_stars": 7,
       "github_forks": 0,
       "github_language": "C++",
@@ -77766,16 +77770,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_fork_arduino_audio_tools",
       "name": "DevLab_AudioTools",
-      "version": "1.2.6",
+      "version": "1.2.7",
       "version_history": [
         {
           "version": "1.2.6",
           "seen_at": "2026-10-26T22:03:05.048Z"
+        },
+        {
+          "version": "1.2.7",
+          "seen_at": "2026-11-02T18:02:11.798Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-26T22:03:05.048Z",
-      "last_seen_sha": "3968212477ca",
+      "last_seen_sha": "691a2ddf79cb",
       "author": "Phil Schatzmann, Cesar Bautista, Adrián Rabadán",
       "maintainer": "Phil Schatzmann, UNIT Electronics",
       "sentence": "Some useful audio processing classes",
@@ -77784,8 +77792,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioTools-1.2.6.zip",
-      "size": 25233545,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioTools-1.2.7.zip",
+      "size": 25233803,
+      "previous_version": "1.2.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -77906,26 +77915,40 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_codec_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_codec_library",
       "name": "DevLab_Codec_ES",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-10-26T22:03:05.048Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-02T18:02:11.798Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-26T22:03:05.048Z",
-      "last_seen_sha": "69d2a9fa48f9",
+      "last_seen_sha": "149bd0d659fb",
       "author": "Cesar Bautista, Adrián Rabadán",
       "maintainer": "UNIT Electronics",
       "sentence": "ES-series audio codec support for UNIT DevLab projects.",
-      "paragraph": "Currently configures ES8311 I2C and I2S pins with the UNIT DevLab Audio Driver library; MP3 examples use Audio Tools and LibHelix.",
+      "paragraph": "Configures ES8311 I2C and I2S pins for microphone capture and full-duplex PCM playback. MP3 examples use Audio Tools and LibHelix.",
       "category": "Signal Input/Output",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Codec_ES-0.1.0.zip",
-      "size": 67775,
+      "depends": [
+        "DevLab_AudioDriver",
+        "DevLab_AudioTools",
+        "DevLab_LibHelix",
+        "DevLab_BL",
+        "Adafruit GFX Library",
+        "Adafruit SSD1306",
+        "Adafruit NeoPixel"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_Codec_ES-0.2.0.zip",
+      "size": 80939,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -148851,7 +148874,7 @@
       "repository_name": "remocons/iosignal-arduino",
       "repository_url": "https://github.com/remocons/iosignal-arduino",
       "name": "IOSignal",
-      "version": "7.0.0",
+      "version": "9.0.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -148872,11 +148895,15 @@
         {
           "version": "7.0.0",
           "seen_at": "2026-10-28T14:01:44.818Z"
+        },
+        {
+          "version": "9.0.0",
+          "seen_at": "2026-11-02T18:02:11.798Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-12-12T07:32:27Z",
-      "last_seen_sha": "baedc8793a15",
+      "last_seen_sha": "751215892106",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino Client.",
@@ -148890,9 +148917,9 @@
         "Crypto",
         "Bounce2"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-7.0.0.zip",
-      "size": 1418902,
-      "previous_version": "6.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.0.0.zip",
+      "size": 1423629,
+      "previous_version": "7.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -336939,6 +336966,6 @@
     "total_categories": 78,
     "total_architectures": 160,
     "with_github_metadata": 10106,
-    "total_dependencies": 5651
+    "total_dependencies": 5658
   }
 }

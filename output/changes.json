@@ -1,6 +1,88 @@
 {
-  "since": "2026-11-02T01:01:58.549Z",
+  "since": "2026-11-02T02:02:58.432Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "igor-krechetov/hsmcpp-arduinoide",
+        "repository_url": "https://github.com/igor-krechetov/hsmcpp-arduinoide",
+        "name": "hsmcpp",
+        "version": "1.0.6",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2025-07-21T16:16:36Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-11-02T02:02:58.432Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:16:36Z",
+        "last_seen_sha": "b7728e1d2941",
+        "author": "Ihor Krechetov <ihor.krechetov.public@gmail.com>",
+        "maintainer": "Ihor Krechetov <ihor.krechetov.public@gmail.com>",
+        "sentence": "C++ library for Hierarchical State Machines (HSM, FSM)",
+        "paragraph": "C++ library for hierarchical state machines / finite state machines. Provides a code-free visual approach for defining state machine logic using GUI editors with automatic code and diagram generation. Check out https://hsmcpp.readthedocs.io for detailed documentation.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/igor-krechetov/hsmcpp-1.0.6.zip",
+        "size": 101274,
+        "previous_version": "1.0.2",
+        "github_stars": 4,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-06-21T16:45:27Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.6"
+    },
+    {
+      "library": {
+        "repository_name": "Ryzobee/Ryzobee_arduino_esp32",
+        "repository_url": "https://github.com/Ryzobee/Ryzobee_arduino_esp32",
+        "name": "Ryzobee",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-06-06T08:32:15Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-02T02:02:58.432Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-06T08:32:15Z",
+        "last_seen_sha": "b963b1143e56",
+        "author": "Ryzobee Team",
+        "maintainer": "Ryzobee Team",
+        "sentence": "Arduino library for Ryzobee ESP32 boards.",
+        "paragraph": "Provides easy-to-use APIs for Ryzobee ESP32 development boards, including onboard LEDs, sensors, buttons and battery monitoring.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "STM32duino LIS2DW12",
+          "AnimatedGIF"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Ryzobee-2.0.0.zip",
+        "size": 629378,
+        "previous_version": "1.0.5",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-06-05T10:25:09Z"
+      },
+      "old_version": "1.0.5",
+      "new_version": "2.0.0"
+    }
+  ],
   "removed_libraries": []
 }

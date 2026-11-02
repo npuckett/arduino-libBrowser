@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-02T05:02:01.184Z",
-  "total_libraries": 10308,
-  "index_etag": "W/\"1cb110bfdeb73dcc0daaf0823e9b9348\"",
-  "index_last_modified": "Mon, 02 Nov 2026 05:00:18 GMT",
+  "enhanced_at": "2026-11-02T06:03:38.482Z",
+  "total_libraries": 10310,
+  "index_etag": "W/\"68104140ac5c9c2821b97d389a07c11d\"",
+  "index_last_modified": "Mon, 02 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -142392,7 +142392,7 @@
       "repository_name": "nikolaindustry/hyperwisor-iot-arduino-library",
       "repository_url": "https://github.com/nikolaindustry/hyperwisor-iot-arduino-library",
       "name": "Hyperwisor-IOT",
-      "version": "3.3.1",
+      "version": "3.3.4",
       "version_history": [
         {
           "version": "3.0.0",
@@ -142401,11 +142401,15 @@
         {
           "version": "3.3.1",
           "seen_at": "2026-11-02T04:02:00.382Z"
+        },
+        {
+          "version": "3.3.4",
+          "seen_at": "2026-11-02T06:03:35.736Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-12T00:13:17.171Z",
-      "last_seen_sha": "053d6fc1f51e",
+      "last_seen_sha": "c6509cc7ebe7",
       "author": "NIKOLAINDUSTRY",
       "maintainer": "NIKOLAINDUSTRY <support@nikolaindustry.com>",
       "sentence": "Connect an ESP32 to the Hyperwisor IoT platform in a few lines.",
@@ -142418,9 +142422,9 @@
         "ArduinoJson",
         "WebSockets"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.1.zip",
-      "size": 76590,
-      "previous_version": "3.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nikolaindustry/Hyperwisor_IOT-3.3.4.zip",
+      "size": 80706,
+      "previous_version": "3.3.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -217776,6 +217780,39 @@
       "github_updated_at": "2026-09-24T17:50:55Z"
     },
     {
+      "repository_name": "dhruvkotian/ParoClaw",
+      "repository_url": "https://github.com/dhruvkotian/ParoClaw",
+      "name": "ParoClaw",
+      "version": "0.2.1",
+      "version_history": [
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-11-02T06:03:35.736Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-02T06:03:35.736Z",
+      "last_seen_sha": "6451d009bce4",
+      "author": "Dhruv Kotian",
+      "maintainer": "Dhruv Kotian",
+      "sentence": "An ESP32-S3 local AI agent with Ollama tool calling and persistent memory.",
+      "paragraph": "Provides natural-language interaction with allowlisted hardware tools, GPIO and ADC access, PWM, NeoPixel control, LittleFS event memory, and Ollama chat integration.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "Adafruit NeoPixel"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dhruvkotian/ParoClaw-0.2.1.zip",
+      "size": 57913,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-02T01:31:26Z"
+    },
+    {
       "repository_name": "ParsePlatform/Parse-SDK-Arduino",
       "repository_url": "https://github.com/ParsePlatform/Parse-SDK-Arduino",
       "name": "Parse Arduino SDK",
@@ -230098,7 +230135,7 @@
       "repository_name": "diydoohickeys/Preflight-Arduino",
       "repository_url": "https://github.com/diydoohickeys/Preflight-Arduino",
       "name": "Preflight",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -230107,11 +230144,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-10-26T08:09:14.572Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-11-02T06:03:35.736Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-25T20:02:35.810Z",
-      "last_seen_sha": "30c833ccd150",
+      "last_seen_sha": "bd323ae4aa26",
       "author": "James Cartwright",
       "maintainer": "James Cartwright",
       "sentence": "Captive-portal WiFi setup, web logger, and an OTA update page with rollback for ESP32 projects.",
@@ -230120,9 +230161,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.1.0.zip",
-      "size": 536896,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/diydoohickeys/Preflight-1.1.1.zip",
+      "size": 537950,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -335094,6 +335135,39 @@
       "download_url": "https://github.com/Ynvisible-Electronics/YNV-Driver-v5-Gen3-Arduino-Library"
     },
     {
+      "repository_name": "Ryzobee/Yoke_arduino_lib",
+      "repository_url": "https://github.com/Ryzobee/Yoke_arduino_lib",
+      "name": "Yoke",
+      "version": "0.0.1",
+      "version_history": [
+        {
+          "version": "0.0.1",
+          "seen_at": "2026-11-02T06:03:35.736Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-02T06:03:35.736Z",
+      "last_seen_sha": "21ab49cbffd9",
+      "author": "Ryzobee Team",
+      "maintainer": "Ryzobee Team",
+      "sentence": "Arduino library for the Yoke series of Ryzobee development boards.",
+      "paragraph": "Provides easy-to-use Yoker series peripheral APIs for Ryzobee ESP32 development boards.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "LovyanGFX",
+        "AnimatedGIF"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Ryzobee/Yoke-0.0.1.zip",
+      "size": 36694,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-02T01:48:03Z"
+    },
+    {
       "repository_name": "EnviroDIY/YosemitechModbus",
       "repository_url": "https://github.com/EnviroDIY/YosemitechModbus",
       "name": "YosemitechModbus",
@@ -336835,7 +336909,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10104,
-    "total_dependencies": 5647
+    "with_github_metadata": 10106,
+    "total_dependencies": 5651
   }
 }

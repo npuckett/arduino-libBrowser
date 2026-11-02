@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-02T21:01:41.595Z",
-  "total_libraries": 10353,
-  "index_etag": "W/\"3e38bec1f32c51d53a3edbc86c2402db\"",
-  "index_last_modified": "Mon, 02 Nov 2026 21:00:19 GMT",
+  "enhanced_at": "2026-11-02T22:02:07.820Z",
+  "total_libraries": 10355,
+  "index_etag": "W/\"0b207ce54951ca70c2444547784343fa\"",
+  "index_last_modified": "Mon, 02 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22787,6 +22787,35 @@
       "github_updated_at": "2026-07-19T11:08:52Z"
     },
     {
+      "repository_name": "Alash-electronics/AlashLineSensor",
+      "repository_url": "https://github.com/Alash-electronics/AlashLineSensor",
+      "name": "AlashLineSensor",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-02T22:02:04.140Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-02T22:02:04.140Z",
+      "last_seen_sha": "f2528e0afe52",
+      "author": "Alash Electronics <alash.electronics@gmail.com>",
+      "maintainer": "Alash engineering <alash.electronics@gmail.com>",
+      "sentence": "Line sensor bar (QTR, TCRT5000) for line-following robots: calibration, line position, lost line, crossings, black or white line, analog or digital. No dependencies.",
+      "paragraph": "Reads a bar of 1 to 16 reflectance sensors (QTR-5A, QTR-8A, TCRT5000 modules) for a line-following robot: calibrate() once, then position() gives the line position 0 to (n-1)*1000, offset() the deviation from the center for steering, lineLost() and crossing() for special cases. Black or white line, analog or digital sensors, 10-bit or 12-bit ADC, an optional emitter pin, averaging and a detection threshold. Explains calibration and wiring problems in Russian, Kazakh or English. Needs nothing besides the Arduino core. Works on Arduino AVR, ESP32, ESP8266. Examples included, made for classes and robot kits by Alash Electronics.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Alash-electronics/AlashLineSensor-1.0.0.zip",
+      "size": 44737,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-02T17:56:49Z"
+    },
+    {
       "repository_name": "Alash-electronics/AlashLogger",
       "repository_url": "https://github.com/Alash-electronics/AlashLogger",
       "name": "AlashLogger",
@@ -32535,6 +32564,39 @@
       "github_forks": 10,
       "github_language": "C++",
       "github_updated_at": "2026-06-23T09:01:53Z"
+    },
+    {
+      "repository_name": "arduino-libraries/Arduino_RouterBridge_ROS",
+      "repository_url": "https://github.com/arduino-libraries/Arduino_RouterBridge_ROS",
+      "name": "Arduino_RouterBridge_ROS",
+      "version": "0.0.2",
+      "version_history": [
+        {
+          "version": "0.0.2",
+          "seen_at": "2026-11-02T22:02:04.140Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-02T22:02:04.140Z",
+      "last_seen_sha": "dcf7512f2749",
+      "author": "Lucio Rossi, Giovanni Bruno, Arduino",
+      "maintainer": "Arduino",
+      "sentence": "An Arduino_RouterBridge based ROS 2 bridge",
+      "paragraph": "This library provides a simple ROS 2 bridge for ArduinoCore_Zephyr boards (UNO Q, Ventuno Q)",
+      "category": "Uncategorized",
+      "architectures": [
+        "zephyr"
+      ],
+      "depends": [
+        "Arduino_RouterBridge",
+        "Arduino_RPClite"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RouterBridge_ROS-0.0.2.zip",
+      "size": 102982,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-02T19:35:54Z"
     },
     {
       "repository_name": "arduino-libraries/Arduino_RPCLite",
@@ -198675,7 +198737,7 @@
       "repository_name": "Zefek/MQTTESP8266",
       "repository_url": "https://github.com/Zefek/MQTTESP8266",
       "name": "MQTTESP8266",
-      "version": "7.0.1",
+      "version": "7.0.2",
       "version_history": [
         {
           "version": "6.1.0",
@@ -198688,11 +198750,15 @@
         {
           "version": "7.0.1",
           "seen_at": "2026-10-05T12:04:34.017Z"
+        },
+        {
+          "version": "7.0.2",
+          "seen_at": "2026-11-02T22:02:04.140Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-26T08:53:13Z",
-      "last_seen_sha": "135a6fe781af",
+      "last_seen_sha": "4e1332b61c04",
       "author": "Petr B.",
       "maintainer": "Petr B.",
       "sentence": "Lightweight MQTT client library for Arduino using ESP8266 or ESP32 AT command firmware.",
@@ -198701,9 +198767,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.1.zip",
-      "size": 67712,
-      "previous_version": "7.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zefek/MQTTESP8266-7.0.2.zip",
+      "size": 68095,
+      "previous_version": "7.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -338246,7 +338312,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10149,
-    "total_dependencies": 5660
+    "with_github_metadata": 10151,
+    "total_dependencies": 5662
   }
 }

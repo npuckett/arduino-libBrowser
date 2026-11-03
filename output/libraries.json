@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-03T05:01:49.426Z",
+  "enhanced_at": "2026-11-03T06:03:30.490Z",
   "total_libraries": 10356,
-  "index_etag": "W/\"d549f1c8b5263722de59ac2b4787fe73\"",
-  "index_last_modified": "Tue, 03 Nov 2026 05:00:18 GMT",
+  "index_etag": "W/\"6acb7960bbaac2e68ad89f5f2eb394b1\"",
+  "index_last_modified": "Tue, 03 Nov 2026 06:00:20 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -126032,7 +126032,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.7",
+      "version": "2.0.8",
       "version_history": [
         {
           "version": "0.0.22",
@@ -126097,11 +126097,15 @@
         {
           "version": "2.0.7",
           "seen_at": "2026-10-28T06:03:18.792Z"
+        },
+        {
+          "version": "2.0.8",
+          "seen_at": "2026-11-03T06:03:30.348Z"
         }
       ],
-      "release_count": 16,
+      "release_count": 17,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "4279ecf02aed",
+      "last_seen_sha": "5e932ea3006d",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -126127,9 +126131,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.7.zip",
-      "size": 1034085,
-      "previous_version": "2.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.8.zip",
+      "size": 1046369,
+      "previous_version": "2.0.7",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -150884,7 +150888,7 @@
       "repository_name": "maximemoreillon/iot-kernel",
       "repository_url": "https://github.com/maximemoreillon/iot-kernel",
       "name": "IotKernel",
-      "version": "0.3.5",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "0.3.2",
@@ -150893,23 +150897,34 @@
         {
           "version": "0.3.5",
           "seen_at": "2026-11-02T14:02:05.521Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-03T06:03:30.348Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:21:39Z",
-      "last_seen_sha": "6a4f6d09e5e6",
+      "last_seen_sha": "040a64645450",
       "author": "Maxime Moreillon",
       "maintainer": "Maxime Moreillon",
-      "sentence": "A library for basic functions of IoT devices",
-      "paragraph": "Provides basic IoT functions like Wifi, MQTT, configuration via Web UI, OTA updates",
+      "sentence": "A minimal starting point for ESP8266 and ESP32 IoT devices",
+      "paragraph": "Handles what every device needs: WiFi with access point fallback and captive portal, configuration via a web page, OTA updates, an optional admin password and an MQTT connection with availability. Device-specific behaviour stays in the sketch.",
       "category": "Communication",
       "architectures": [
         "esp8266",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-0.3.5.zip",
-      "size": 14263,
-      "previous_version": "0.3.2",
+      "depends": [
+        "PubSubClient",
+        "ArduinoJson",
+        "ESP Async WebServer",
+        "Async TCP",
+        "ESP Async TCP"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/maximemoreillon/IotKernel-1.0.1.zip",
+      "size": 20266,
+      "previous_version": "0.3.5",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C++",
@@ -338392,6 +338407,6 @@
     "total_categories": 78,
     "total_architectures": 160,
     "with_github_metadata": 10152,
-    "total_dependencies": 5662
+    "total_dependencies": 5667
   }
 }

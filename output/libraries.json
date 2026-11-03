@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-03T13:01:52.513Z",
-  "total_libraries": 10356,
-  "index_etag": "W/\"d0a4fdb31c620381c83157aa9650186e\"",
-  "index_last_modified": "Tue, 03 Nov 2026 13:00:19 GMT",
+  "enhanced_at": "2026-11-03T14:01:39.573Z",
+  "total_libraries": 10358,
+  "index_etag": "W/\"bba616094108cda8d6ef145489256aa4\"",
+  "index_last_modified": "Tue, 03 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60631,6 +60631,35 @@
       "github_updated_at": "2026-05-28T01:23:37Z"
     },
     {
+      "repository_name": "SerhiiLe/Buttons",
+      "repository_url": "https://github.com/SerhiiLe/Buttons",
+      "name": "Buttons",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-03T14:01:36.720Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-03T14:01:36.720Z",
+      "last_seen_sha": "93bc104ddec1",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko <slebedenko@gmail.com>",
+      "sentence": "Lightweight, zero-dependency button library with debounce, multi-clicks, hold, step, and custom event sources.",
+      "paragraph": "A fast and reliable button library inspired by EncButton and GyverButton. Supports multiple clicks counting, long hold, auto-repeat steps, debouncing, and an abstract base class to support custom sources (such as ESP32 capacitive touch, ADC, etc.). Compatible with Arduino AVR, ESP8266, ESP32 (including core 3.x / platform 8.x), STM32, and RP2040.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/Buttons-1.0.0.zip",
+      "size": 27891,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-03T09:49:03Z"
+    },
+    {
       "repository_name": "lbuque/ButtonSense",
       "repository_url": "https://github.com/lbuque/ButtonSense",
       "name": "ButtonSense",
@@ -107724,7 +107753,7 @@
       "repository_name": "PedroFnseca/esp32-http-client",
       "repository_url": "https://github.com/PedroFnseca/esp32-http-client",
       "name": "ESP32-HTTP-Client",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -107805,11 +107834,15 @@
         {
           "version": "1.9.0",
           "seen_at": "2026-10-14T04:03:27.434Z"
+        },
+        {
+          "version": "1.9.1",
+          "seen_at": "2026-11-03T14:01:36.720Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-03-31T08:07:40Z",
-      "last_seen_sha": "9133e1fef5c0",
+      "last_seen_sha": "035186f32bd4",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca <pedropereira.pp26@gmail.com>",
       "sentence": "A lightweight, low-allocation, high-performance HTTP client library for ESP32.",
@@ -107818,9 +107851,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.9.0.zip",
-      "size": 5919904,
-      "previous_version": "1.8.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_HTTP_Client-1.9.1.zip",
+      "size": 5920646,
+      "previous_version": "1.9.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -114631,32 +114664,40 @@
       "repository_name": "s00500/ESPUI",
       "repository_url": "https://github.com/s00500/ESPUI",
       "name": "ESPUI",
-      "version": "2.2.4",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.2.4",
           "seen_at": "2026-06-26T08:43:27Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-11-03T14:01:36.720Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-26T08:43:27Z",
-      "last_seen_sha": "06563dabae7d",
+      "last_seen_sha": "2601571b333d",
       "author": "Lukas Bachschwell",
       "maintainer": "Lukas Bachschwell <lukas@lbsfilm.at>",
-      "sentence": "ESP32 and ESP8266 Web Interface Library",
-      "paragraph": "A simple library that implements a web graphical user interface for ESP32 and ESP8266. It is simple to use and works side by side with your sketch.",
+      "sentence": "ESP32, ESP8266, Raspberry Pi Pico W and Pico 2 W Web Interface Library",
+      "paragraph": "A simple library that implements a web graphical user interface for ESP32, ESP8266 and Raspberry Pi Pico W / Pico 2 W (arduino-pico core). It is simple to use and works side by side with your sketch.",
       "category": "Communication",
       "architectures": [
-        "*"
+        "esp8266",
+        "esp32",
+        "rp2040"
       ],
-      "github_stars": 1118,
-      "github_forks": 203,
-      "github_updated_at": "2026-06-26T00:11:09Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/s00500/ESPUI",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/s00500/ESPUI-2.3.0.zip",
+      "size": 1258281,
+      "previous_version": "2.2.4",
+      "github_stars": 1118,
+      "github_forks": 203,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-26T00:11:09Z"
     },
     {
       "repository_name": "tanakamasayuki/EspUsbDevice",
@@ -126697,6 +126738,37 @@
       ],
       "download_url": "https://github.com/dorkmo/FTPSclientOPTA",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "SerhiiLe/FTPServer",
+      "repository_url": "https://github.com/SerhiiLe/FTPServer",
+      "name": "FTPServer",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-03T14:01:36.720Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-03T14:01:36.720Z",
+      "last_seen_sha": "1a6fbaa70b8d",
+      "author": "Serhii Lebedenko",
+      "maintainer": "Serhii Lebedenko",
+      "sentence": "Lightweight, robust FTP Server for ESP8266 and ESP32 with LittleFS / SPIFFS / SD support",
+      "paragraph": "A standalone, non-blocking FTP Server library supporting LittleFS, SPIFFS, and SD on ESP8266, ESP32, and ESP32-C3 without heap fragmentation or client bloat.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "license": "LGPL-3.0-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SerhiiLe/FTPServer-1.0.0.zip",
+      "size": 24337,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-03T10:16:35Z"
     },
     {
       "repository_name": "freetronics/FTRGBLED",
@@ -338426,7 +338498,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10152,
+    "with_github_metadata": 10154,
     "total_dependencies": 5667
   }
 }

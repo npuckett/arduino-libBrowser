@@ -1,6 +1,239 @@
 {
-  "since": "2026-11-03T11:01:28.777Z",
+  "since": "2026-11-03T12:02:11.735Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Microeden/MyDotLib",
+        "repository_url": "https://github.com/Microeden/MyDotLib",
+        "name": "MyDot",
+        "version": "1.0.13",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-09-04T16:02:48.199Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-06T16:02:38.618Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-06T18:02:52.935Z"
+          },
+          {
+            "version": "1.0.7",
+            "seen_at": "2026-09-06T20:02:31.565Z"
+          },
+          {
+            "version": "1.0.8",
+            "seen_at": "2026-09-07T10:03:01.835Z"
+          },
+          {
+            "version": "1.0.9",
+            "seen_at": "2026-09-23T18:03:20.771Z"
+          },
+          {
+            "version": "1.0.10",
+            "seen_at": "2026-10-16T22:02:24.302Z"
+          },
+          {
+            "version": "1.0.12",
+            "seen_at": "2026-10-24T16:02:02.476Z"
+          },
+          {
+            "version": "1.0.13",
+            "seen_at": "2026-11-03T12:02:11.735Z"
+          }
+        ],
+        "release_count": 9,
+        "first_seen_at": "2026-09-04T16:02:48.199Z",
+        "last_seen_sha": "f249b9464866",
+        "author": "Microeden",
+        "maintainer": "Microeden <info@microeden.io>",
+        "sentence": "Library for the Microeden MyDot board and Microeden cloud platform.",
+        "paragraph": "Controls the MyDot board peripherals and connects compatible Wi-Fi boards to Microeden over MQTT.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "samd",
+          "rp2040",
+          "mbed_nano"
+        ],
+        "depends": [
+          "Adafruit NeoPixel",
+          "Adafruit SSD1306",
+          "Adafruit BME680 Library",
+          "PubSubClient",
+          "ArduinoJson",
+          "SD",
+          "WiFiNINA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Microeden/MyDot-1.0.13.zip",
+        "size": 152491,
+        "previous_version": "1.0.12",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-04T13:38:25Z"
+      },
+      "old_version": "1.0.12",
+      "new_version": "1.0.13"
+    },
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.44",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          },
+          {
+            "version": "0.0.25",
+            "seen_at": "2026-10-01T14:02:57.149Z"
+          },
+          {
+            "version": "0.0.26",
+            "seen_at": "2026-10-01T16:02:59.448Z"
+          },
+          {
+            "version": "0.0.27",
+            "seen_at": "2026-10-02T02:09:59.934Z"
+          },
+          {
+            "version": "0.0.28",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "0.0.30",
+            "seen_at": "2026-10-08T04:04:36.788Z"
+          },
+          {
+            "version": "0.0.31",
+            "seen_at": "2026-10-08T10:03:26.589Z"
+          },
+          {
+            "version": "0.0.32",
+            "seen_at": "2026-10-16T06:04:11.023Z"
+          },
+          {
+            "version": "0.0.33",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "0.0.34",
+            "seen_at": "2026-10-16T12:03:57.248Z"
+          },
+          {
+            "version": "0.0.36",
+            "seen_at": "2026-10-20T12:03:49.619Z"
+          },
+          {
+            "version": "0.0.37",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          },
+          {
+            "version": "0.0.38",
+            "seen_at": "2026-10-23T14:02:51.834Z"
+          },
+          {
+            "version": "0.0.39",
+            "seen_at": "2026-10-27T04:03:10.915Z"
+          },
+          {
+            "version": "0.0.40",
+            "seen_at": "2026-10-30T10:01:47.321Z"
+          },
+          {
+            "version": "0.0.41",
+            "seen_at": "2026-11-01T00:05:26.915Z"
+          },
+          {
+            "version": "0.0.43",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.0.44",
+            "seen_at": "2026-11-03T12:02:11.735Z"
+          }
+        ],
+        "release_count": 31,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "485f3864f314",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.44.zip",
+        "size": 1022920,
+        "previous_version": "0.0.43",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.43",
+      "new_version": "0.0.44"
+    }
+  ],
   "removed_libraries": []
 }

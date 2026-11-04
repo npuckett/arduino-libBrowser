@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-04T15:01:41.154Z",
-  "total_libraries": 10363,
-  "index_etag": "W/\"f2a3ba77e6f25745089b02fd0f9d5a5a\"",
-  "index_last_modified": "Wed, 04 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-04T16:02:03.597Z",
+  "total_libraries": 10364,
+  "index_etag": "W/\"84e1ffba8a1568ea01bae83b87906215\"",
+  "index_last_modified": "Wed, 04 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -106410,16 +106410,20 @@
       "repository_name": "JorgeGBeltre/ESP32_MQTTv5",
       "repository_url": "https://github.com/JorgeGBeltre/ESP32_MQTTv5",
       "name": "ESP32_MQTTv5",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.3",
           "seen_at": "2026-06-25T08:46:28Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-25T08:46:28Z",
-      "last_seen_sha": "d3b84035eccf",
+      "last_seen_sha": "908fc7a065de",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "MQTT 5.0 client library for ESP32",
@@ -106432,14 +106436,16 @@
         "esp32c3",
         "esp32c6"
       ],
-      "github_stars": 3,
-      "github_forks": 0,
-      "github_updated_at": "2026-06-25T06:27:58Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/JorgeGBeltre/ESP32_MQTTv5",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/ESP32_MQTTv5-1.0.4.zip",
+      "size": 26071,
+      "previous_version": "1.0.3",
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-25T06:27:58Z"
     },
     {
       "repository_name": "BojanJurca/Multitasking-Http-Ftp-Telnet-Ntp-Smtp-Servers-and-clients-for-ESP32-Arduino-Library",
@@ -192909,6 +192915,35 @@
       "download_url": "https://github.com/janikheiler/Mintrix"
     },
     {
+      "repository_name": "Mipot-Hi-Tech/MiP_Shield_Lib",
+      "repository_url": "https://github.com/Mipot-Hi-Tech/MiP_Shield_Lib",
+      "name": "MiP_Shield_Lib",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-04T16:02:02.078Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-04T16:02:02.078Z",
+      "last_seen_sha": "ac8dbb8e1e09",
+      "author": "Mipot",
+      "maintainer": "Mipot <hitech@mipot.com>",
+      "sentence": "Library for Mipot MiP series communication modules",
+      "paragraph": "For LoRaWAN, LoRa Mipot, LoRa modem and wM-Bus communication",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Mipot-Hi-Tech/MiP_Shield_Lib-1.0.0.zip",
+      "size": 46183,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-04T12:37:15Z"
+    },
+    {
       "repository_name": "MIPSLabs/MipsLib",
       "repository_url": "https://github.com/MIPSLabs/MipsLib",
       "name": "MipsLib",
@@ -199121,16 +199156,20 @@
       "repository_name": "JorgeGBeltre/MQTTOTAv5",
       "repository_url": "https://github.com/JorgeGBeltre/MQTTOTAv5",
       "name": "MQTTOTAv5",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-06-03T09:17:19Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-03T09:17:19Z",
-      "last_seen_sha": "32f11fa1839c",
+      "last_seen_sha": "c07355a17bb8",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "Secure OTA firmware updates for ESP32 over MQTT v5.0 with SHA-256, HMAC, and chunked transfer.",
@@ -199143,15 +199182,17 @@
         "esp32c3",
         "esp32c6"
       ],
-      "github_stars": 3,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-02T14:06:47Z",
       "depends": [
         "ESP32_MQTTv5",
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/JorgeGBeltre/MQTTOTAv5"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/MQTTOTAv5-1.0.3.zip",
+      "size": 25626,
+      "previous_version": "1.0.2",
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-02T14:06:47Z"
     },
     {
       "repository_name": "hideakitai/MQTTPubSubClient",
@@ -215673,17 +215714,21 @@
       "repository_name": "mumanchu/OptimizedGPIO",
       "repository_url": "https://github.com/mumanchu/OptimizedGPIO",
       "name": "OptimizedGPIO",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-05-20T08:13:27Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-20T08:13:27Z",
-      "last_seen_sha": "c0ad4a18a720",
-      "author": "mumanchu <info@muman.ch>",
+      "last_seen_sha": "b3998c0b8124",
+      "author": "mumanchu",
       "maintainer": "mumanchu <info@muman.ch>",
       "sentence": "Optimized General-Purpose IO (GPIO) Library",
       "paragraph": "Over 10x faster than digitalRead() and digitalWrite(). Works on most platforms (STM32, SAMD, AVR, ESP32 and ESP8266).",
@@ -215691,11 +215736,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/OptimizedGPIO-1.0.1.zip",
+      "size": 48957,
+      "previous_version": "1.0.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-19T13:33:40Z",
-      "download_url": "https://github.com/mumanchu/OptimizedGPIO"
+      "github_updated_at": "2026-05-19T13:33:40Z"
     },
     {
       "repository_name": "braydenanderson2014/Optional",
@@ -248128,7 +248175,7 @@
       "repository_name": "joaoaugustocz/RoboS3",
       "repository_url": "https://github.com/joaoaugustocz/RoboS3",
       "name": "RoboS3",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "version_history": [
         {
           "version": "0.2.0",
@@ -248145,11 +248192,15 @@
         {
           "version": "0.4.2",
           "seen_at": "2026-08-28T02:33:21.165Z"
+        },
+        {
+          "version": "0.4.3",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-08-26T06:07:23.836Z",
-      "last_seen_sha": "efeeb3e37f9b",
+      "last_seen_sha": "9b3d2dd97709",
       "author": "João Augusto Carvalho Araújo",
       "maintainer": "João Augusto Carvalho Araújo",
       "sentence": "Educational and modular ESP32-S3 robot library with unified sensors.",
@@ -248167,9 +248218,9 @@
         "MPU6050",
         "PIDEasy"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.4.2.zip",
-      "size": 115127,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joaoaugustocz/RoboS3-0.4.3.zip",
+      "size": 119959,
+      "previous_version": "0.4.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -262654,30 +262705,36 @@
       "repository_name": "mumanchu/SerialRGBLed",
       "repository_url": "https://github.com/mumanchu/SerialRGBLed",
       "name": "SerialRGBLed",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-05-20T08:12:28Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-20T08:12:28Z",
-      "last_seen_sha": "2d6bbfb614c6",
-      "author": "mumanchu <info@muman.ch>",
+      "last_seen_sha": "a03d5bcee287",
+      "author": "mumanchu",
       "maintainer": "mumanchu <info@muman.ch>",
-      "sentence": "WS2812 and WS2811 RGB LED Driver",
+      "sentence": "WS2812/WS2813 and WS2811 RGB LED Driver",
       "paragraph": "With Remote Control Transmitter (RMT) version for ESP32",
       "category": "Display",
       "architectures": [
         "esp32",
         "stm32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/SerialRGBLed-1.0.2.zip",
+      "size": 16927,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-22T17:10:27Z",
-      "download_url": "https://github.com/mumanchu/SerialRGBLed"
+      "github_updated_at": "2026-06-22T17:10:27Z"
     },
     {
       "repository_name": "pbosetti/ArduinoRpc",
@@ -313164,17 +313221,21 @@
       "repository_name": "mumanchu/TMC22xxDriver",
       "repository_url": "https://github.com/mumanchu/TMC22xxDriver",
       "name": "TMC22xxDriver",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-05-20T08:13:15Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-20T08:13:15Z",
-      "last_seen_sha": "082ff7b80c03",
-      "author": "mumanchu <info@muman.ch>",
+      "last_seen_sha": "a39f44a8a498",
+      "author": "mumanchu",
       "maintainer": "mumanchu <info@muman.ch>",
       "sentence": "TCM2209/TMC22xx Stepper Motor Controller Library",
       "paragraph": "For TMC2202/2208/2209 and TMC2224/2225/2226, all architectures.",
@@ -313182,11 +313243,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/TMC22xxDriver-1.0.3.zip",
+      "size": 35822,
+      "previous_version": "1.0.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-19T13:34:53Z",
-      "download_url": "https://github.com/mumanchu/TMC22xxDriver"
+      "github_updated_at": "2026-05-19T13:34:53Z"
     },
     {
       "repository_name": "janelia-arduino/TMC429",
@@ -323152,16 +323215,20 @@
       "repository_name": "studiosdasunshine-boop/util_use",
       "repository_url": "https://github.com/studiosdasunshine-boop/util_use",
       "name": "util_use",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-11-03T20:01:43.976Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-11-04T16:02:02.078Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-03T20:01:43.976Z",
-      "last_seen_sha": "a49590043cae",
+      "last_seen_sha": "d1b6867c815e",
       "author": "Rafael N. B. A. Aires",
       "maintainer": "Rafael N. B. A. Aires",
       "sentence": "A simple Arduino library for LEDs and ultrasonic distance sensors.",
@@ -323170,8 +323237,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/studiosdasunshine-boop/util_use-1.0.1.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/studiosdasunshine-boop/util_use-1.0.2.zip",
       "size": 6308,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -338691,7 +338759,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10159,
+    "with_github_metadata": 10160,
     "total_dependencies": 5669
   }
 }

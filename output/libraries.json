@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-04T17:01:38.942Z",
-  "total_libraries": 10364,
-  "index_etag": "W/\"84e1ffba8a1568ea01bae83b87906215\"",
-  "index_last_modified": "Wed, 04 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-04T18:01:38.167Z",
+  "total_libraries": 10365,
+  "index_etag": "W/\"f6dee0f0778626d824a734383a9d2f95\"",
+  "index_last_modified": "Wed, 04 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -93001,26 +93001,31 @@
       "repository_name": "felias-fogg/dw-link",
       "repository_url": "https://github.com/felias-fogg/dw-link",
       "name": "dw-link",
-      "version": "7.0.0",
+      "version": "7.0.1",
       "version_history": [
         {
           "version": "7.0.0",
           "seen_at": "2026-11-04T03:01:58.839Z"
+        },
+        {
+          "version": "7.0.1",
+          "seen_at": "2026-11-04T18:01:36.574Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-04T03:01:58.839Z",
-      "last_seen_sha": "e15e87076f92",
+      "last_seen_sha": "50e4f09df317",
       "author": "Bernhard Nebel",
       "maintainer": "Bernhard Nebel",
-      "sentence": "Turns your Arduino Uno into a hardware debugger for debugWIRE MCUs",
-      "paragraph": "After loading the example sketch dw-link onto your Arduino UNO, you can<br>use the UNO together with PyAvrOCD to debug programs<br>on any debugWIRE MCU. You only have to install<br>one of the alternative cores MicroCore, TinyCore, or MiniCore by MCUdude.",
+      "sentence": "Turns your Arduino Uno into a hardware debugger for debugWIRE MCUs.",
+      "paragraph": "After loading the example sketch dw-link onto your Arduino UNO, you can use the UNO together with PyAvrOCD to debug programs on any debugWIRE MCU. You only have to install one of the alternative cores MicroCore, TinyCore, or MiniCore by MCUdude.",
       "category": "Other",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/felias-fogg/dw_link-7.0.0.zip",
-      "size": 4740074,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/felias-fogg/dw_link-7.0.1.zip",
+      "size": 4740126,
+      "previous_version": "7.0.0",
       "github_stars": 90,
       "github_forks": 14,
       "github_language": "C",
@@ -138148,7 +138153,7 @@
       "repository_name": "hii-nice-2-meet-u/HANUMAN_32_mini",
       "repository_url": "https://github.com/hii-nice-2-meet-u/HANUMAN_32_mini",
       "name": "HANUMAN_32_mini",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "version_history": [
         {
           "version": "0.1.4",
@@ -138157,11 +138162,15 @@
         {
           "version": "0.1.5",
           "seen_at": "2026-10-08T18:03:23.399Z"
+        },
+        {
+          "version": "0.1.6",
+          "seen_at": "2026-11-04T18:01:36.574Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-03T09:15:20Z",
-      "last_seen_sha": "f0c2b2ecc7e9",
+      "last_seen_sha": "ed37fc75a064",
       "author": "hii-nice-2-meet-u <0x0.whitecat@gmail.com>",
       "maintainer": "hii-nice-2-meet-u <0x0.whitecat@gmail.com>",
       "sentence": "Arduino Library for HANUMAN-32 mini",
@@ -138170,9 +138179,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/hii-nice-2-meet-u/HANUMAN_32_mini-0.1.5.zip",
-      "size": 6898347,
-      "previous_version": "0.1.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hii-nice-2-meet-u/HANUMAN_32_mini-0.1.6.zip",
+      "size": 6900883,
+      "previous_version": "0.1.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -160628,7 +160637,7 @@
       "repository_name": "bnorth12/LC29H_GNSS-Library",
       "repository_url": "https://github.com/bnorth12/LC29H_GNSS-Library",
       "name": "LC29H_GNSS",
-      "version": "0.2.16",
+      "version": "0.3.2",
       "version_history": [
         {
           "version": "0.1.2",
@@ -160669,11 +160678,15 @@
         {
           "version": "0.2.16",
           "seen_at": "2026-09-13T18:02:37.095Z"
+        },
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-11-04T18:01:36.574Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-07-27T03:00:19.752Z",
-      "last_seen_sha": "1544affa3653",
+      "last_seen_sha": "93e36d9c5452",
       "author": "LC29H_GNSS Contributors",
       "maintainer": "LC29H_GNSS Contributors <maintainers@users.noreply.github.com>",
       "sentence": "Configure Quectel LC29H BA, BS, DA, and EA GNSS modules over UART.",
@@ -160682,9 +160695,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.2.16.zip",
-      "size": 142772,
-      "previous_version": "0.2.15",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bnorth12/LC29H_GNSS-0.3.2.zip",
+      "size": 150508,
+      "previous_version": "0.2.16",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -323771,6 +323784,35 @@
       "download_url": "https://github.com/rochat2/v202_protocol"
     },
     {
+      "repository_name": "mumanchu/V30BAmbientLightSensor",
+      "repository_url": "https://github.com/mumanchu/V30BAmbientLightSensor",
+      "name": "V30BAmbientLightSensor",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-04T18:01:36.574Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-04T18:01:36.574Z",
+      "last_seen_sha": "fe4777d76bbd",
+      "author": "mumanchu",
+      "maintainer": "mumanchu <info@muman.ch>",
+      "sentence": "Arduino Library for DFRobot B_LUX_V30B Ambient Light Sensor",
+      "paragraph": "SEN0390",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/V30BAmbientLightSensor-1.0.0.zip",
+      "size": 65003,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-04T13:44:54Z"
+    },
+    {
       "repository_name": "v7rc/V7RCRobot-ESP32",
       "repository_url": "https://github.com/v7rc/V7RCRobot-ESP32",
       "name": "V7RCRobot-ESP32",
@@ -338759,7 +338801,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10160,
+    "with_github_metadata": 10161,
     "total_dependencies": 5669
   }
 }

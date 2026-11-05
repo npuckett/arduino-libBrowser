@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-04T23:01:46.638Z",
-  "total_libraries": 10368,
-  "index_etag": "W/\"1eb8602476efef802ddc9df21d3a4c75\"",
-  "index_last_modified": "Wed, 04 Nov 2026 23:00:18 GMT",
+  "enhanced_at": "2026-11-05T00:04:23.402Z",
+  "total_libraries": 10369,
+  "index_etag": "W/\"0275b10889d270c0561bab7f8c98bb35\"",
+  "index_last_modified": "Thu, 05 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -12080,7 +12080,7 @@
       "repository_name": "adafruit/Adafruit_Marquee",
       "repository_url": "https://github.com/adafruit/Adafruit_Marquee",
       "name": "Adafruit Marquee",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12101,11 +12101,15 @@
         {
           "version": "1.0.7",
           "seen_at": "2026-10-15T16:02:57.076Z"
+        },
+        {
+          "version": "1.0.8",
+          "seen_at": "2026-11-05T00:04:21.977Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-09-22T22:02:09.509Z",
-      "last_seen_sha": "5e8c436c93fc",
+      "last_seen_sha": "99a70d56ade5",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "Adafruit Marquee Client",
@@ -12126,9 +12130,9 @@
         "Adafruit MQTT Library",
         "CRC"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.7.zip",
-      "size": 92087,
-      "previous_version": "1.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Marquee-1.0.8.zip",
+      "size": 100765,
+      "previous_version": "1.0.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -37944,7 +37948,7 @@
       "repository_name": "soosp/AsyncConfigPortal",
       "repository_url": "https://github.com/soosp/AsyncConfigPortal",
       "name": "AsyncConfigPortal",
-      "version": "0.18.2",
+      "version": "0.18.3",
       "version_history": [
         {
           "version": "0.1.0",
@@ -38057,11 +38061,15 @@
         {
           "version": "0.18.2",
           "seen_at": "2026-11-03T00:04:45.083Z"
+        },
+        {
+          "version": "0.18.3",
+          "seen_at": "2026-11-05T00:04:21.977Z"
         }
       ],
-      "release_count": 28,
+      "release_count": 29,
       "first_seen_at": "2026-08-27T00:13:10.829Z",
-      "last_seen_sha": "33c14fdc878d",
+      "last_seen_sha": "cd13e3c61488",
       "author": "Peter Soos",
       "maintainer": "Peter Soos",
       "sentence": "Reusable modular web configuration portal for ESP32 and ESP8266.",
@@ -38078,9 +38086,9 @@
         "ESP Async TCP",
         "HttpDigestAuth"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.2.zip",
-      "size": 221136,
-      "previous_version": "0.18.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/AsyncConfigPortal-0.18.3.zip",
+      "size": 232289,
+      "previous_version": "0.18.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -299399,6 +299407,39 @@
       "download_url": "https://github.com/panStamp/swap.git"
     },
     {
+      "repository_name": "raihhann/OpenSwarm",
+      "repository_url": "https://github.com/raihhann/OpenSwarm",
+      "name": "SwarmNode",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-05T00:04:21.977Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-05T00:04:21.977Z",
+      "last_seen_sha": "526a613ad3c6",
+      "author": "Mohammed Raihan Soniwala",
+      "maintainer": "Mohammed Raihan Soniwala <raihann.eu@gmail.com>",
+      "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
+      "paragraph": "Turns microcontrollers (ESP32, Arduino UNO, Nano, RP2040) into network-transparent Slave nodes. Configure Wi-Fi and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "avr",
+        "mbed_nano",
+        "rp2040",
+        "renesas_uno"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.1.0.zip",
+      "size": 24079,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-04T21:58:51Z"
+    },
+    {
       "repository_name": "astuder/SwarmTile",
       "repository_url": "https://github.com/astuder/SwarmTile",
       "name": "SwarmTile",
@@ -338905,7 +338946,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10164,
+    "with_github_metadata": 10165,
     "total_dependencies": 5669
   }
 }

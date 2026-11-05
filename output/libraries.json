@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T17:01:41.350Z",
-  "total_libraries": 10373,
-  "index_etag": "W/\"851fe34b8f0e4f05f19771d7449621b6\"",
-  "index_last_modified": "Thu, 05 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-05T18:01:42.956Z",
+  "total_libraries": 10374,
+  "index_etag": "W/\"295e45bac1e766884a07bb8df625fddb\"",
+  "index_last_modified": "Thu, 05 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -57807,6 +57807,35 @@
       "github_language": "C++",
       "github_updated_at": "2023-08-25T20:55:34Z",
       "download_url": "https://github.com/Xylopyrographer/BooleanButton"
+    },
+    {
+      "repository_name": "CX-ArtLab/boopface-embedded",
+      "repository_url": "https://github.com/CX-ArtLab/boopface-embedded",
+      "name": "BoopFace Embedded",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-05T18:01:41.424Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-05T18:01:41.424Z",
+      "last_seen_sha": "8cf53b443b05",
+      "author": "CX ArtLab",
+      "maintainer": "CX ArtLab",
+      "sentence": "Portable, program-controlled animated robot eyes.",
+      "paragraph": "Allocation-free C++11 expression engine with a caller-owned 1-bit framebuffer. Includes blinking, gaze, waiting, love, sleep and task feedback. Display drivers are supplied by the host.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CX-ArtLab/BoopFace_Embedded-0.1.0.zip",
+      "size": 32822,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-05T17:06:40Z"
     },
     {
       "repository_name": "sat-mtl/boost-embedded-190",
@@ -146821,7 +146850,7 @@
       "repository_name": "Johboh/ieee-802_15_4",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4",
       "name": "ieee-802_15_4",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "0.5.8",
@@ -146850,11 +146879,15 @@
         {
           "version": "1.0.4",
           "seen_at": "2026-11-01T12:01:47.091Z"
+        },
+        {
+          "version": "1.0.5",
+          "seen_at": "2026-11-05T18:01:41.424Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-05-01T08:01:44Z",
-      "last_seen_sha": "a8d230a06d3c",
+      "last_seen_sha": "0d417a4327fe",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Simplified version of sending and receiving messages over 802.15.4",
@@ -146863,10 +146896,10 @@
       "architectures": [
         "esp32"
       ],
-      "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.4.zip",
-      "size": 37373,
-      "previous_version": "1.0.3",
+      "license": "GPL-2.0-or-later OR GPL-3.0-or-later",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.5.zip",
+      "size": 45069,
+      "previous_version": "1.0.4",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -202097,7 +202130,7 @@
       "repository_name": "MyTechWaifu/MTW_TinyLoopScheduler",
       "repository_url": "https://github.com/MyTechWaifu/MTW_TinyLoopScheduler",
       "name": "MTW TinyLoopScheduler",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "version_history": [
         {
           "version": "0.1.1",
@@ -202126,11 +202159,15 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-10-29T22:01:40.873Z"
+        },
+        {
+          "version": "0.2.2",
+          "seen_at": "2026-11-05T18:01:41.424Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-29T09:22:09Z",
-      "last_seen_sha": "42fbbd48d38d",
+      "last_seen_sha": "57450151dae2",
       "author": "MyTechWaifu",
       "maintainer": "MyTechWaifu <MyTechWaifu@web3msg.fun>",
       "sentence": "A compact cooperative scheduler with static memory allocation for Arduino-compatible boards, with AVR and Generic backends.",
@@ -202139,9 +202176,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.2.1.zip",
-      "size": 162306,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_TinyLoopScheduler-0.2.2.zip",
+      "size": 162871,
+      "previous_version": "0.2.1",
       "github_stars": 7,
       "github_forks": 0,
       "github_language": "C++",
@@ -339165,7 +339202,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10169,
+    "with_github_metadata": 10170,
     "total_dependencies": 5669
   }
 }

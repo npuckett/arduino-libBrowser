@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T07:01:37.411Z",
+  "enhanced_at": "2026-11-05T08:02:15.217Z",
   "total_libraries": 10371,
-  "index_etag": "W/\"cb6a12acb4cac112e162b38a7462d84f\"",
-  "index_last_modified": "Thu, 05 Nov 2026 07:00:19 GMT",
+  "index_etag": "W/\"96335fda62d29de8d48ac926c1d213b2\"",
+  "index_last_modified": "Thu, 05 Nov 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73396,7 +73396,7 @@
       "repository_name": "cyfney/cyfney-cpp-arduino",
       "repository_url": "https://github.com/cyfney/cyfney-cpp-arduino",
       "name": "cyfney-cpp",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -73429,11 +73429,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-11-04T11:01:31.943Z"
+        },
+        {
+          "version": "3.0.1",
+          "seen_at": "2026-11-05T08:02:15.075Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-08-26T12:06:00.595Z",
-      "last_seen_sha": "ba27e5b82f09",
+      "last_seen_sha": "1d3a6fc78ace",
       "author": "anka",
       "maintainer": "anka",
       "sentence": "Reusable C++ utilities and base classes.",
@@ -73443,9 +73447,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-3.0.0.zip",
-      "size": 26203,
-      "previous_version": "2.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-3.0.1.zip",
+      "size": 26243,
+      "previous_version": "3.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -140061,16 +140065,20 @@
       "repository_name": "HijelHub/HijelHID_BLEKeyboard",
       "repository_url": "https://github.com/HijelHub/HijelHID_BLEKeyboard",
       "name": "HijelHID_BLEKeyboard",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.5.0",
           "seen_at": "2026-06-25T08:45:52Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-11-05T08:02:15.075Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-25T08:45:52Z",
-      "last_seen_sha": "fa0ed025f125",
+      "last_seen_sha": "042466e18f91",
       "author": "Hijel",
       "maintainer": "Hijel hijel.hub@gmail.com",
       "sentence": "Bluetooth Low Energy (BLE) HID keyboard library for ESP32 using NimBLE-Arduino 2.3.8+",
@@ -140079,14 +140087,16 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 34,
-      "github_forks": 4,
-      "github_updated_at": "2026-07-02T04:41:08Z",
       "depends": [
         "NimBLE-Arduino"
       ],
-      "download_url": "https://github.com/HijelHub/HijelHID_BLEKeyboard",
-      "github_language": "C++"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HijelHub/HijelHID_BLEKeyboard-0.6.0.zip",
+      "size": 115194,
+      "previous_version": "0.5.0",
+      "github_stars": 34,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-07-02T04:41:08Z"
     },
     {
       "repository_name": "HijelHub/HijelHID_BLEMouse",
@@ -214835,7 +214845,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.46",
+      "version": "0.0.47",
       "version_history": [
         {
           "version": "0.0.2",
@@ -214968,11 +214978,15 @@
         {
           "version": "0.0.46",
           "seen_at": "2026-11-05T04:02:04.461Z"
+        },
+        {
+          "version": "0.0.47",
+          "seen_at": "2026-11-05T08:02:15.075Z"
         }
       ],
-      "release_count": 33,
+      "release_count": 34,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "0e295253a8aa",
+      "last_seen_sha": "fa5fd9352659",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -214981,9 +214995,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.46.zip",
-      "size": 1033193,
-      "previous_version": "0.0.45",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.47.zip",
+      "size": 1035017,
+      "previous_version": "0.0.46",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T05:01:50.099Z",
+  "enhanced_at": "2026-11-05T06:03:16.311Z",
   "total_libraries": 10371,
-  "index_etag": "W/\"2b2d5f692558c6c3806de93143d76514\"",
-  "index_last_modified": "Thu, 05 Nov 2026 05:00:19 GMT",
+  "index_etag": "W/\"cb6a12acb4cac112e162b38a7462d84f\"",
+  "index_last_modified": "Thu, 05 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -42880,7 +42880,7 @@
       "repository_name": "autoconnecto/autoconnecto-sdk",
       "repository_url": "https://github.com/autoconnecto/autoconnecto-sdk",
       "name": "AutoconnectoSDK",
-      "version": "1.7.99",
+      "version": "1.7.101",
       "version_history": [
         {
           "version": "1.3.5",
@@ -43021,11 +43021,15 @@
         {
           "version": "1.7.99",
           "seen_at": "2026-11-01T06:02:52.914Z"
+        },
+        {
+          "version": "1.7.101",
+          "seen_at": "2026-11-05T06:03:16.166Z"
         }
       ],
-      "release_count": 35,
+      "release_count": 36,
       "first_seen_at": "2026-06-01T08:49:25Z",
-      "last_seen_sha": "f8e4c956deb3",
+      "last_seen_sha": "1e4c1a4961c3",
       "author": "Autoconnecto",
       "maintainer": "Autoconnecto <https://github.com/autoconnecto/autoconnecto-sdk/issues>",
       "sentence": "ESP32 MQTT and HTTPS IoT client for Autoconnecto - telemetry, attributes, RPC, OTA.",
@@ -43038,9 +43042,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.99.zip",
-      "size": 249863,
-      "previous_version": "1.7.98",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/autoconnecto/AutoconnectoSDK-1.7.101.zip",
+      "size": 252691,
+      "previous_version": "1.7.99",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -91753,20 +91757,24 @@
       "repository_name": "DTG-Corp/dtg-arduino",
       "repository_url": "https://github.com/DTG-Corp/dtg-arduino",
       "name": "DTG_IoT",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-10-30T08:02:48.897Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-11-05T06:03:16.166Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-30T08:02:48.897Z",
-      "last_seen_sha": "ae5961031f6b",
+      "last_seen_sha": "38e620814490",
       "author": "DTG Corp",
       "maintainer": "DTG Corp <iot@dtgsoft.vn>",
       "sentence": "Official ESP32 client for DTG IoT Hub (MQTT, Modbus RTU, no-code I/O, FOTA).",
-      "paragraph": "Wi-Fi and cellular MQTT client with a Let's Encrypt trust store (ISRG Root X1/X2, Root YR/YE), Hub downlink, no-code GPIO, Modbus RTU, and checksum-verified HTTPS OTA. Install PubSubClient, ArduinoJson, and TinyGPSPlus from Library Manager. For Modbus sketches also install eModbus from GitHub (eModbus/eModbus).",
+      "paragraph": "Wi-Fi and cellular MQTT client with a Let's Encrypt trust store (ISRG Root X1/X2, Root YR/YE), Hub downlink, no-code GPIO, built-in Modbus RTU (vendored eModbus, MIT), and checksum-verified HTTPS OTA. Install PubSubClient, ArduinoJson, and TinyGPSPlus from Library Manager.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -91776,8 +91784,9 @@
         "TinyGPSPlus",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.1.zip",
-      "size": 134899,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.2.zip",
+      "size": 172474,
+      "previous_version": "1.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -106428,7 +106437,7 @@
       "repository_name": "JorgeGBeltre/ESP32_MQTTv5",
       "repository_url": "https://github.com/JorgeGBeltre/ESP32_MQTTv5",
       "name": "ESP32_MQTTv5",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.3",
@@ -106441,11 +106450,15 @@
         {
           "version": "1.0.5",
           "seen_at": "2026-11-05T02:02:19.293Z"
+        },
+        {
+          "version": "1.0.6",
+          "seen_at": "2026-11-05T06:03:16.166Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-25T08:46:28Z",
-      "last_seen_sha": "4c1e1d9917aa",
+      "last_seen_sha": "651f4deba3cd",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "MQTT 5.0 client library for ESP32",
@@ -106461,9 +106474,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/ESP32_MQTTv5-1.0.5.zip",
-      "size": 26525,
-      "previous_version": "1.0.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/ESP32_MQTTv5-1.0.6.zip",
+      "size": 26655,
+      "previous_version": "1.0.5",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -307359,7 +307372,7 @@
       "repository_name": "IoT-ThingsCloud/thingscloud-esp-sdk",
       "repository_url": "https://github.com/IoT-ThingsCloud/thingscloud-esp-sdk",
       "name": "ThingsCloud_ESP_SDK",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "version_history": [
         {
           "version": "1.0.14",
@@ -307376,11 +307389,15 @@
         {
           "version": "1.0.17",
           "seen_at": "2026-11-03T20:01:43.976Z"
+        },
+        {
+          "version": "1.0.18",
+          "seen_at": "2026-11-05T06:03:16.166Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-03-04T07:38:13Z",
-      "last_seen_sha": "85faf06c3c6d",
+      "last_seen_sha": "e5b5194eab42",
       "author": "thingscloud",
       "maintainer": "thingscloud<github@qijiwanwu.com>",
       "sentence": "Build your IoT project in minutes!",
@@ -307395,9 +307412,9 @@
         "PubSubClient",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/IoT-ThingsCloud/ThingsCloud_ESP_SDK-1.0.17.zip",
-      "size": 1021729,
-      "previous_version": "1.0.16",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/IoT-ThingsCloud/ThingsCloud_ESP_SDK-1.0.18.zip",
+      "size": 1042143,
+      "previous_version": "1.0.17",
       "github_stars": 30,
       "github_forks": 2,
       "github_language": "C++",

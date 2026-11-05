@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T09:02:02.569Z",
+  "enhanced_at": "2026-11-05T10:01:56.561Z",
   "total_libraries": 10371,
-  "index_etag": "W/\"96335fda62d29de8d48ac926c1d213b2\"",
-  "index_last_modified": "Thu, 05 Nov 2026 09:00:18 GMT",
+  "index_etag": "W/\"abf45435f22757a71304cd60755010eb\"",
+  "index_last_modified": "Thu, 05 Nov 2026 10:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81247,16 +81247,20 @@
       "repository_name": "DFRobot/DFRobot_BloodOxygen_S",
       "repository_url": "https://github.com/DFRobot/DFRobot_BloodOxygen_S",
       "name": "DFRobot_BloodOxygen_S",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-04-03T07:36:49Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-05T10:01:56.423Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-03T07:36:49Z",
-      "last_seen_sha": "04442c46f22c",
+      "last_seen_sha": "fe8a1c20b873",
       "author": "DFRobot",
       "maintainer": "PengKaixing(kaixing.peng@dfrobot.com)",
       "sentence": "DFRobot Standard library.(SKU:SEN0344)",
@@ -81265,11 +81269,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DFRobot/DFRobot_BloodOxygen_S-1.1.0.zip",
+      "size": 137132,
+      "previous_version": "1.0.0",
       "github_stars": 9,
       "github_forks": 5,
       "github_language": "Python",
-      "github_updated_at": "2026-04-03T06:25:31Z",
-      "download_url": "https://github.com/DFRobot/DFRobot_BloodOxygen_S"
+      "github_updated_at": "2026-04-03T06:25:31Z"
     },
     {
       "repository_name": "DFRobot/DFRobot_BME280",
@@ -91761,7 +91767,7 @@
       "repository_name": "DTG-Corp/dtg-arduino",
       "repository_url": "https://github.com/DTG-Corp/dtg-arduino",
       "name": "DTG_IoT",
-      "version": "1.1.2",
+      "version": "1.1.4",
       "version_history": [
         {
           "version": "1.1.1",
@@ -91770,11 +91776,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-11-05T06:03:16.166Z"
+        },
+        {
+          "version": "1.1.4",
+          "seen_at": "2026-11-05T10:01:56.423Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-30T08:02:48.897Z",
-      "last_seen_sha": "38e620814490",
+      "last_seen_sha": "a7ea9dead0d9",
       "author": "DTG Corp",
       "maintainer": "DTG Corp <iot@dtgsoft.vn>",
       "sentence": "Official ESP32 client for DTG IoT Hub (MQTT, Modbus RTU, no-code I/O, FOTA).",
@@ -91788,9 +91798,9 @@
         "TinyGPSPlus",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.2.zip",
-      "size": 172474,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DTG-Corp/DTG_IoT-1.1.4.zip",
+      "size": 173379,
+      "previous_version": "1.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -154420,23 +154430,27 @@
       "repository_name": "joy-it/JoyIT_Robotarm_Arduino",
       "repository_url": "https://github.com/joy-it/JoyIT_Robotarm_Arduino",
       "name": "Joy-IT Robot Arm Arduino",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-10-24T16:02:02.476Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-05T10:01:56.423Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-24T16:02:02.476Z",
-      "last_seen_sha": "434af963d4c8",
+      "last_seen_sha": "ff9aff5dbb75",
       "author": "Joy-IT <support@joy-it.de>",
       "maintainer": "Joy-IT <support@joy-it.de>",
       "sentence": "Library to controll Joy-IT Robot arm (Robot02) with Arduino Uno and ARD-Moto3.",
       "paragraph": "Library to controll Joy-IT Robot arm (Robot02) with Arduino Uno and ARD-Moto3.",
       "category": "Device Control",
       "architectures": [
-        "avr"
+        "*"
       ],
       "depends": [
         "Adafruit PWM Servo Driver Library",
@@ -154444,8 +154458,9 @@
         "PsxNewLib",
         "DigitalIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/joy-it/Joy_IT_Robot_Arm_Arduino-1.0.0.zip",
-      "size": 14852,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/joy-it/Joy_IT_Robot_Arm_Arduino-1.0.1.zip",
+      "size": 14851,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -214845,7 +214860,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.47",
+      "version": "0.0.48",
       "version_history": [
         {
           "version": "0.0.2",
@@ -214982,11 +214997,15 @@
         {
           "version": "0.0.47",
           "seen_at": "2026-11-05T08:02:15.075Z"
+        },
+        {
+          "version": "0.0.48",
+          "seen_at": "2026-11-05T10:01:56.423Z"
         }
       ],
-      "release_count": 34,
+      "release_count": 35,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "fa5fd9352659",
+      "last_seen_sha": "1b224af1e9b8",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -214995,9 +215014,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.47.zip",
-      "size": 1035017,
-      "previous_version": "0.0.46",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.48.zip",
+      "size": 1035018,
+      "previous_version": "0.0.47",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -299516,16 +299535,20 @@
       "repository_name": "raihhann/OpenSwarm",
       "repository_url": "https://github.com/raihhann/OpenSwarm",
       "name": "SwarmNode",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-11-05T00:04:21.977Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-05T10:01:56.423Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-05T00:04:21.977Z",
-      "last_seen_sha": "526a613ad3c6",
+      "last_seen_sha": "c6a95871f523",
       "author": "Mohammed Raihan Soniwala",
       "maintainer": "Mohammed Raihan Soniwala <raihann.eu@gmail.com>",
       "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
@@ -299538,8 +299561,9 @@
         "rp2040",
         "renesas_uno"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.1.0.zip",
-      "size": 24079,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.2.0.zip",
+      "size": 30379,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

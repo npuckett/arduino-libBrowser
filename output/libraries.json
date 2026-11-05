@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T13:02:03.772Z",
+  "enhanced_at": "2026-11-05T14:01:44.343Z",
   "total_libraries": 10373,
-  "index_etag": "W/\"454581e73d7fb3afe01b3ba79c920fee\"",
-  "index_last_modified": "Thu, 05 Nov 2026 13:00:18 GMT",
+  "index_etag": "W/\"0ea3be89310a0709506eb9b9ff9eb579\"",
+  "index_last_modified": "Thu, 05 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25507,7 +25507,7 @@
       "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
       "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
       "name": "AMK_CYD_Universal_TFT",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "version_history": [
         {
           "version": "1.2.0",
@@ -25528,22 +25528,26 @@
         {
           "version": "1.5.0",
           "seen_at": "2026-11-01T08:01:58.823Z"
+        },
+        {
+          "version": "1.5.1",
+          "seen_at": "2026-11-05T14:01:44.188Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-10-29T18:03:08.277Z",
-      "last_seen_sha": "eae2d4556d9e",
+      "last_seen_sha": "1d0e180d2055",
       "author": "Aung Moe Khine",
       "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
-      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for ESP32 CYD resistive boards and ESP32-S3 RGB capacitive boards.",
-      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive boards (ILI9341, ST7789, ST7796, XPT2046) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical & horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, persistent NVS touch calibration, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
+      "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver for ESP32 CYD resistive & capacitive boards and ESP32-S3 RGB capacitive boards.",
+      "paragraph": "Bundles high-speed display and touch drivers with runtime hardware auto-probing for 2.4\", 2.8\", 3.2\", 3.5\", and 4.0\" CYD resistive and capacitive boards (ILI9341, ST7789, ST7796, XPT2046, GT911, CST820) and ESP32-S3 parallel RGB boards (4.3\", 5.0\", 7.0\" 800x480 ST7262 + GT911 capacitive touch). Features dual touch controller auto-detection, half-duplex SPI readback on SDA, persistent NVS hardware overrides, full TFT_eSPI and TFT_eSPI_Button drop-in compatibility, linear vertical & horizontal color gradients, alpha blending, TFT_eSprite off-screen buffering, zero-boilerplate LVGL v8/v9 integration, PlatformIO/Visual Studio support, and seamless SquareLine Studio / EEZ Studio visual GUI builder support.",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.5.0.zip",
-      "size": 462881,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.5.1.zip",
+      "size": 486397,
+      "previous_version": "1.5.0",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",

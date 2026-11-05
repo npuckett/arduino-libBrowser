@@ -1,6 +1,288 @@
 {
-  "since": "2026-11-05T11:01:34.201Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-05T12:02:17.600Z",
+  "new_libraries": [
+    {
+      "repository_name": "Gagik888/EmbeddedGUI_Lite",
+      "repository_url": "https://github.com/Gagik888/EmbeddedGUI_Lite",
+      "name": "EmbeddedGUI_Lite",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-05T12:02:17.600Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-05T12:02:17.600Z",
+      "last_seen_sha": "06b5a4bf578d",
+      "author": "Gagik Hakobyan",
+      "maintainer": "Gagik Hakobyan <gagik8615@gmail.com>",
+      "sentence": "Lightweight monochrome OLED GUI library for Arduino.",
+      "paragraph": "Ultra-lightweight graphics library for SSD1306/SH1106 displays. Uses 1KB frame buffer, zero dynamic memory allocation, and zero external dependencies.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gagik888/EmbeddedGUI_Lite-2.0.0.zip",
+      "size": 48147,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-05T09:40:40Z"
+    },
+    {
+      "repository_name": "KymoTrace/kymocore",
+      "repository_url": "https://github.com/KymoTrace/kymocore",
+      "name": "KymoCore",
+      "version": "7.2.1",
+      "version_history": [
+        {
+          "version": "7.2.1",
+          "seen_at": "2026-11-05T12:02:17.600Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-05T12:02:17.600Z",
+      "last_seen_sha": "07e022d1dfe2",
+      "author": "Christof Seidel",
+      "maintainer": "Christof Seidel",
+      "sentence": "Allocation-free compact binary streaming for KymoStudio",
+      "paragraph": "Portable C++11 Init/Main telemetry for KymoStudio: 256 channels, 9 to 21 byte binary frames, optional XYZ, timestamps and CRC (disabled by default). Static buffers, backpressure and asynchronous transport support through application callbacks; no SDK dependencies or heap in the core.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.2.1.zip",
+      "size": 717530,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "Python",
+      "github_updated_at": "2026-11-03T09:23:22Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.49",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          },
+          {
+            "version": "0.0.25",
+            "seen_at": "2026-10-01T14:02:57.149Z"
+          },
+          {
+            "version": "0.0.26",
+            "seen_at": "2026-10-01T16:02:59.448Z"
+          },
+          {
+            "version": "0.0.27",
+            "seen_at": "2026-10-02T02:09:59.934Z"
+          },
+          {
+            "version": "0.0.28",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "0.0.30",
+            "seen_at": "2026-10-08T04:04:36.788Z"
+          },
+          {
+            "version": "0.0.31",
+            "seen_at": "2026-10-08T10:03:26.589Z"
+          },
+          {
+            "version": "0.0.32",
+            "seen_at": "2026-10-16T06:04:11.023Z"
+          },
+          {
+            "version": "0.0.33",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "0.0.34",
+            "seen_at": "2026-10-16T12:03:57.248Z"
+          },
+          {
+            "version": "0.0.36",
+            "seen_at": "2026-10-20T12:03:49.619Z"
+          },
+          {
+            "version": "0.0.37",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          },
+          {
+            "version": "0.0.38",
+            "seen_at": "2026-10-23T14:02:51.834Z"
+          },
+          {
+            "version": "0.0.39",
+            "seen_at": "2026-10-27T04:03:10.915Z"
+          },
+          {
+            "version": "0.0.40",
+            "seen_at": "2026-10-30T10:01:47.321Z"
+          },
+          {
+            "version": "0.0.41",
+            "seen_at": "2026-11-01T00:05:26.915Z"
+          },
+          {
+            "version": "0.0.43",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.0.44",
+            "seen_at": "2026-11-03T12:02:11.735Z"
+          },
+          {
+            "version": "0.0.45",
+            "seen_at": "2026-11-05T02:02:19.293Z"
+          },
+          {
+            "version": "0.0.46",
+            "seen_at": "2026-11-05T04:02:04.461Z"
+          },
+          {
+            "version": "0.0.47",
+            "seen_at": "2026-11-05T08:02:15.075Z"
+          },
+          {
+            "version": "0.0.48",
+            "seen_at": "2026-11-05T10:01:56.423Z"
+          },
+          {
+            "version": "0.0.49",
+            "seen_at": "2026-11-05T12:02:17.600Z"
+          }
+        ],
+        "release_count": 36,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "e60d42bd420e",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.49.zip",
+        "size": 1036220,
+        "previous_version": "0.0.48",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.48",
+      "new_version": "0.0.49"
+    },
+    {
+      "library": {
+        "repository_name": "raihhann/OpenSwarm",
+        "repository_url": "https://github.com/raihhann/OpenSwarm",
+        "name": "SwarmNode",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-11-05T00:04:21.977Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-11-05T10:01:56.423Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-11-05T12:02:17.600Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-11-05T00:04:21.977Z",
+        "last_seen_sha": "af2dd7ef1512",
+        "author": "Mohammed Raihan Soniwala",
+        "maintainer": "Mohammed Raihan Soniwala <raihann.eu@gmail.com>",
+        "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
+        "paragraph": "Turns microcontrollers (ESP32, RP2040, Arduino UNO, Arduino Nano) into network-transparent Slave nodes. Configure Wi-Fi or Serial and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "avr",
+          "megaavr",
+          "samd",
+          "mbed_nano",
+          "rp2040",
+          "renesas_uno"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.3.0.zip",
+        "size": 41482,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-04T21:58:51Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    }
+  ],
   "removed_libraries": []
 }

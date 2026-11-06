@@ -1,6 +1,230 @@
 {
-  "since": "2026-11-06T09:01:48.881Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-06T10:01:46.265Z",
+  "new_libraries": [
+    {
+      "repository_name": "AARUTO347/AARUESP",
+      "repository_url": "https://github.com/AARUTO347/AARUESP",
+      "name": "AARUESP",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-06T10:01:46.265Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-06T10:01:46.265Z",
+      "last_seen_sha": "d39187f70d40",
+      "author": "AARUTO <aaruto@example.com>",
+      "maintainer": "AARUTO <aaruto@example.com>",
+      "sentence": "Universal ESP32 / ESP8266 library — 1000+ sensors, actuators, displays and comms in one consistent API.",
+      "paragraph": "MADE BY AARUTO. One API for analog, digital, I2C, SPI, UART, 1-Wire, PWM, servo, stepper, RGB, displays, GPS and IR across the whole ESP family: ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6, ESP32-H2 and ESP8266 — 200+ board variants supported with compile-time board detection. Core has no mandatory third-party dependencies.",
+      "category": "Other",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUESP-1.0.0.zip",
+      "size": 212007,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-06T06:42:08Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "cyfney/cyfney-cpp-arduino",
+        "repository_url": "https://github.com/cyfney/cyfney-cpp-arduino",
+        "name": "cyfney-cpp",
+        "version": "3.0.2",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-26T12:06:00.595Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-03T10:02:48.029Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-14T04:03:15.110Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-10-09T10:02:58.294Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-10-10T04:04:41.799Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-10-14T10:02:46.937Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-11-04T10:01:54.235Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-11-04T11:01:31.943Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-11-05T08:02:15.075Z"
+          },
+          {
+            "version": "3.0.2",
+            "seen_at": "2026-11-06T10:01:46.265Z"
+          }
+        ],
+        "release_count": 10,
+        "first_seen_at": "2026-08-26T12:06:00.595Z",
+        "last_seen_sha": "dbd0cd0cafaa",
+        "author": "anka",
+        "maintainer": "anka",
+        "sentence": "Reusable C++ utilities and base classes.",
+        "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-3.0.2.zip",
+        "size": 26244,
+        "previous_version": "3.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T09:53:23Z"
+      },
+      "old_version": "3.0.1",
+      "new_version": "3.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "tgtakaoka/libasm",
+        "repository_url": "https://github.com/tgtakaoka/libasm",
+        "name": "libasm",
+        "version": "1.6.73",
+        "version_history": [
+          {
+            "version": "1.6.63",
+            "seen_at": "2026-06-30T08:50:14Z"
+          },
+          {
+            "version": "1.6.64",
+            "seen_at": "2026-07-31T10:51:46.722Z"
+          },
+          {
+            "version": "1.6.65",
+            "seen_at": "2026-08-29T14:02:08.635Z"
+          },
+          {
+            "version": "1.6.66",
+            "seen_at": "2026-09-27T08:03:15.383Z"
+          },
+          {
+            "version": "1.6.67",
+            "seen_at": "2026-10-12T06:09:04.398Z"
+          },
+          {
+            "version": "1.6.68",
+            "seen_at": "2026-10-19T10:02:32.246Z"
+          },
+          {
+            "version": "1.6.69",
+            "seen_at": "2026-10-21T12:03:41.002Z"
+          },
+          {
+            "version": "1.6.70",
+            "seen_at": "2026-10-26T14:52:42.369Z"
+          },
+          {
+            "version": "1.6.71",
+            "seen_at": "2026-11-02T12:02:51.058Z"
+          },
+          {
+            "version": "1.6.72",
+            "seen_at": "2026-11-03T20:01:43.976Z"
+          },
+          {
+            "version": "1.6.73",
+            "seen_at": "2026-11-06T10:01:46.265Z"
+          }
+        ],
+        "release_count": 11,
+        "first_seen_at": "2026-06-30T08:50:14Z",
+        "last_seen_sha": "a4bd53283aff",
+        "author": "Tadashi G. Takaoka",
+        "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
+        "sentence": "Cross assembler and disassembler for retro CPUs",
+        "paragraph": "With this, you can integrate assembler or disassembler into your sketch. Supported CPUs are AM29000, C166, CDP1802, CP1600, F3850, H16, H8300, H8500, I8048, I8051, I8080, I8086, I8096, I960, INS8060, INS8070, MC6800, MC68000, MC6805, MC6809, MC68HC12, MC68HC16, MN1610, MOS6502, NS32000, PDP11, PDP8, SCN2650, SUPERH, TLCS90, TLCS900, TMS320, TMS320F, TMS370, TMS7000, TMS9900, Z280, Z380, Z8, Z80, Z8000",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "Apache-2.0",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.73.zip",
+        "size": 14182442,
+        "previous_version": "1.6.72",
+        "github_stars": 44,
+        "github_forks": 3,
+        "github_language": "Assembly",
+        "github_updated_at": "2026-07-01T14:13:07Z"
+      },
+      "old_version": "1.6.72",
+      "new_version": "1.6.73"
+    },
+    {
+      "library": {
+        "repository_name": "tuhde/Periph-Arduino",
+        "repository_url": "https://github.com/tuhde/Periph-Arduino",
+        "name": "Periph",
+        "version": "1.3.3",
+        "version_history": [
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-25T00:07:26.392Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-11-02T20:01:30.373Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-11-03T08:02:09.551Z"
+          },
+          {
+            "version": "1.3.3",
+            "seen_at": "2026-11-06T10:01:46.265Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-25T00:07:26.392Z",
+        "last_seen_sha": "bef76964ac52",
+        "author": "Till Uhde",
+        "maintainer": "Till Uhde <till@uhde.com>",
+        "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
+        "paragraph": "Drivers for sensors and actuators connected via I2C or SPI transports.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.3.3.zip",
+        "size": 1057314,
+        "previous_version": "1.3.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-24T21:04:58Z"
+      },
+      "old_version": "1.3.2",
+      "new_version": "1.3.3"
+    }
+  ],
   "removed_libraries": []
 }

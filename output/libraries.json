@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-06T17:01:33.947Z",
+  "enhanced_at": "2026-11-06T18:02:01.336Z",
   "total_libraries": 10379,
-  "index_etag": "W/\"42a565faa11ee2c9812543ac78dd340e\"",
-  "index_last_modified": "Fri, 06 Nov 2026 17:00:18 GMT",
+  "index_etag": "W/\"9f60bc45aa322437bd5e52fddf9ada49\"",
+  "index_last_modified": "Fri, 06 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24162,21 +24162,25 @@
     {
       "repository_name": "alloyrobotics/alloy-logger-arduino",
       "repository_url": "https://github.com/alloyrobotics/alloy-logger-arduino",
-      "name": "AlloyLogger",
-      "version": "0.5.0",
+      "name": "AlloyStorage",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.5.0",
           "seen_at": "2026-08-12T04:32:10.621Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-11-06T18:01:59.780Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-12T04:32:10.621Z",
-      "last_seen_sha": "add218c05d28",
+      "last_seen_sha": "9cd91c753e41",
       "author": "Hugh Phan",
       "maintainer": "Hugh Phan <hugh@usealloy.ai>",
-      "sentence": "Stream ESP32 and Arduino UNO R4 WiFi sensor telemetry directly to Alloy (usealloy.ai).",
-      "paragraph": "RAM-buffered logging from Arduino boards to the Alloy data platform. ESP32 retains the existing background logger; UNO R4 WiFi uses a separate cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy.",
+      "sentence": "Alloy Storage SDK for Arduino: stream ESP32 and Arduino UNO R4 WiFi sensor telemetry straight to Alloy Storage (usealloy.ai).",
+      "paragraph": "Formerly AlloyLogger. RAM-buffered logging from Arduino boards to Alloy Storage. ESP32 runs a background uploader with automatic GPIO capture; UNO R4 WiFi uses a cooperative, allocation-free binary capture core with a bounded RAM journal and verified TLS transport. Every power-on becomes one MCAP mission in Alloy Storage.",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -24185,8 +24189,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyLogger-0.5.0.zip",
-      "size": 16376798,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alloyrobotics/AlloyStorage-0.6.0.zip",
+      "size": 15963461,
+      "previous_version": "0.5.0",
       "github_stars": 19,
       "github_forks": 3,
       "github_language": "JavaScript",
@@ -66066,22 +66071,18 @@
       "download_url": "https://github.com/pikido-edutainment/CleanRTOS.git"
     },
     {
-      "repository_name": "RobotBuzzard/ClearCoreWatchdog",
-      "repository_url": "https://github.com/RobotBuzzard/ClearCoreWatchdog",
+      "repository_name": "og-buzz/ClearCoreWatchdog",
+      "repository_url": "https://github.com/og-buzz/ClearCoreWatchdog",
       "name": "ClearCoreWatchdog",
       "version": "1.1.0",
       "version_history": [
         {
-          "version": "1.0.0",
-          "seen_at": "2026-05-09T08:14:28Z"
-        },
-        {
           "version": "1.1.0",
-          "seen_at": "2026-11-06T16:01:48.577Z"
+          "seen_at": "2026-11-06T18:01:59.780Z"
         }
       ],
-      "release_count": 2,
-      "first_seen_at": "2026-05-09T08:14:28Z",
+      "release_count": 1,
+      "first_seen_at": "2026-11-06T18:01:59.780Z",
       "last_seen_sha": "0a14e5bc798e",
       "author": "RobotBuzzard",
       "maintainer": "RobotBuzzard <buzzy@reasonablerobot.io>",
@@ -66091,13 +66092,12 @@
       "architectures": [
         "sam"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RobotBuzzard/ClearCoreWatchdog-1.1.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/og-buzz/ClearCoreWatchdog-1.1.0.zip",
       "size": 21004,
-      "previous_version": "1.0.0",
-      "github_stars": 0,
+      "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-05-08T15:33:59Z"
+      "github_updated_at": "2026-11-06T13:50:40Z"
     },
     {
       "repository_name": "dayatkun01/ClearDS1302",
@@ -139494,16 +139494,20 @@
       "repository_name": "mjdonders/HeapSafeLog",
       "repository_url": "https://github.com/mjdonders/HeapSafeLog",
       "name": "HeapSafeLog",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-04-20T07:40:29Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-06T18:01:59.780Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-20T07:40:29Z",
-      "last_seen_sha": "5e7f6fc64e1c",
+      "last_seen_sha": "a90af4753de4",
       "author": "MDO",
       "maintainer": "MDO",
       "sentence": "Heap-safe, variadic logging for Arduino without String usage.",
@@ -139512,11 +139516,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mjdonders/HeapSafeLog-1.2.0.zip",
+      "size": 8580,
+      "previous_version": "1.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-04-19T13:16:04Z",
-      "download_url": "https://github.com/mjdonders/HeapSafeLog"
+      "github_updated_at": "2026-04-19T13:16:04Z"
     },
     {
       "repository_name": "RobTillaart/HeartBeat",
@@ -299913,7 +299919,7 @@
       "repository_name": "raihhann/OpenSwarm",
       "repository_url": "https://github.com/raihhann/OpenSwarm",
       "name": "SwarmNode",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -299926,28 +299932,34 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-11-05T12:02:17.600Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-11-06T18:01:59.780Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-11-05T00:04:21.977Z",
-      "last_seen_sha": "af2dd7ef1512",
+      "last_seen_sha": "0892ffdcd37d",
       "author": "Mohammed Raihan Soniwala",
       "maintainer": "Mohammed Raihan Soniwala <raihann.eu@gmail.com>",
       "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
-      "paragraph": "Turns microcontrollers (ESP32, RP2040, Arduino UNO, Arduino Nano) into network-transparent Slave nodes. Configure Wi-Fi or Serial and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
+      "paragraph": "Turns Wi-Fi microcontrollers (ESP32, Nano RP2040 Connect, Pico W, UNO R4 WiFi, UNO WiFi Rev2, Nano 33 IoT) into network-transparent Slave nodes. Configure Wi-Fi and hardware pins in setup(), leave loop() 100% empty, and run all control logic on a Linux Master.",
       "category": "Communication",
       "architectures": [
         "esp32",
-        "avr",
         "megaavr",
         "samd",
         "mbed_nano",
         "rp2040",
         "renesas_uno"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.3.0.zip",
-      "size": 41482,
-      "previous_version": "0.2.0",
+      "depends": [
+        "WiFiNINA"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.4.0.zip",
+      "size": 42196,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -339474,6 +339486,6 @@
     "total_categories": 78,
     "total_architectures": 160,
     "with_github_metadata": 10175,
-    "total_dependencies": 5673
+    "total_dependencies": 5674
   }
 }

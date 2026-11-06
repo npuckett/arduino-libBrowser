@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-06T13:01:39.507Z",
-  "total_libraries": 10376,
-  "index_etag": "W/\"64240003215ef6a931ec98a2816b7544\"",
-  "index_last_modified": "Fri, 06 Nov 2026 13:00:18 GMT",
+  "enhanced_at": "2026-11-06T14:01:58.049Z",
+  "total_libraries": 10378,
+  "index_etag": "W/\"be791543fbc24c28417138573f162c89\"",
+  "index_last_modified": "Fri, 06 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -50408,6 +50408,41 @@
       "github_language": "C++",
       "github_updated_at": "2023-12-27T21:33:56Z",
       "download_url": "https://github.com/OpenCIAg/BlueFairy"
+    },
+    {
+      "repository_name": "yemreeke/BlueGraysIoT",
+      "repository_url": "https://github.com/yemreeke/BlueGraysIoT",
+      "name": "BlueGraysIoT",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-06T14:01:55.288Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-06T14:01:55.288Z",
+      "last_seen_sha": "17b4a5cd4be3",
+      "author": "Yunus Emre Eke <info@bluegrays.com>",
+      "maintainer": "BlueGrays <info@bluegrays.com>",
+      "sentence": "Control ESP32 and Raspberry Pi Pico W boards from the BlueGrays app over a secure WebSocket.",
+      "paragraph": "Switches, sliders, colors and live sensor values with charts in the BlueGrays mobile app. TLS with bundled root certificates, automatic Wi-Fi and server reconnects, rate limiting and state restore after a power cut. The BlueGrays app generates the code. The device key travels only in the connection header and is never printed.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "depends": [
+        "WebSockets",
+        "ArduinoJson",
+        "DHT sensor library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/yemreeke/BlueGraysIoT-0.1.0.zip",
+      "size": 48365,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-06T01:03:30Z"
     },
     {
       "repository_name": "jpconstantineau/BlueMicro_Engine_Arduino_Library",
@@ -108805,7 +108840,7 @@
       "repository_name": "tobozo/ESP32-targz",
       "repository_url": "https://github.com/tobozo/ESP32-targz",
       "name": "ESP32-targz",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.3.1",
@@ -108814,11 +108849,15 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-11-06T14:01:55.288Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-27T08:21:52Z",
-      "last_seen_sha": "d4e9498f588d",
+      "last_seen_sha": "21e8c5fa083c",
       "author": "tobozo <tobozo@noreply.github.com>",
       "maintainer": "tobozo <tobozo@noreply.github.com>",
       "sentence": "A library to compress/decompress tar+gzip archives.",
@@ -108829,11 +108868,10 @@
         "esp8266",
         "rp2040",
         "mbed_rp2040",
-        "teensy",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_targz-1.3.1.zip",
-      "size": 4337894,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_targz-1.4.0.zip",
+      "size": 4330297,
       "previous_version": "1.3.1",
       "github_stars": 147,
       "github_forks": 18,
@@ -191350,6 +191388,35 @@
       "download_url": "https://github.com/MicroSui/microsui-lib"
     },
     {
+      "repository_name": "atharvaphadnis-ai/mtm",
+      "repository_url": "https://github.com/atharvaphadnis-ai/mtm",
+      "name": "MicroTaskMonitor",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-06T14:01:55.288Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-06T14:01:55.288Z",
+      "last_seen_sha": "9de121c5de79",
+      "author": "MicroTask Monitor Contributors",
+      "maintainer": "MicroTask Monitor Project",
+      "sentence": "Universal embedded system monitoring and diagnostics library inspired by Windows Task Manager.",
+      "paragraph": "Real-time monitoring of RAM, heap, CPU, storage, temperature, power, RTOS tasks, network, uptime and performance profiling across AVR, ESP32, ESP8266, STM32, RP2040 and SAMD microcontrollers, with JSON/CSV telemetry, alerts, history and a modular transport layer.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/atharvaphadnis-ai/MicroTaskMonitor-1.0.0.zip",
+      "size": 114904,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-06T10:48:44Z"
+    },
+    {
       "repository_name": "Moaaz-i/MicroTaskX",
       "repository_url": "https://github.com/Moaaz-i/MicroTaskX",
       "name": "MicroTaskX",
@@ -227090,7 +227157,7 @@
       "repository_name": "pinscope-dev/pinscope-esp",
       "repository_url": "https://github.com/pinscope-dev/pinscope-esp",
       "name": "Pinscope",
-      "version": "0.2.11",
+      "version": "0.2.12",
       "version_history": [
         {
           "version": "0.2.9",
@@ -227103,11 +227170,15 @@
         {
           "version": "0.2.11",
           "seen_at": "2026-11-02T10:01:47.573Z"
+        },
+        {
+          "version": "0.2.12",
+          "seen_at": "2026-11-06T14:01:55.288Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-15T12:03:50.503Z",
-      "last_seen_sha": "e9081db8d2a4",
+      "last_seen_sha": "bc0f3bb7cb2f",
       "author": "Filip Code <hello@pinscope.dev>",
       "maintainer": "Filip Code <hello@pinscope.dev>",
       "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
@@ -227116,9 +227187,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.11.zip",
-      "size": 56620,
-      "previous_version": "0.2.10",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.12.zip",
+      "size": 57832,
+      "previous_version": "0.2.11",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -233739,7 +233810,7 @@
       "repository_name": "Protocentral/protocentral_healthypi_5_firmware",
       "repository_url": "https://github.com/Protocentral/protocentral_healthypi_5_firmware",
       "name": "ProtoCentral HealthyPi 5",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "2.0.1",
@@ -233752,11 +233823,15 @@
         {
           "version": "2.1.1",
           "seen_at": "2026-09-08T16:03:10.513Z"
+        },
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-11-06T14:01:55.288Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-07-09T14:59:59.938Z",
-      "last_seen_sha": "f5e050d25f40",
+      "last_seen_sha": "8753762695c9",
       "author": "ProtoCentral Electronics",
       "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
       "sentence": "Dual-core NEXT runtime and board support for the ProtoCentral HealthyPi 5 (RP2040).",
@@ -233769,9 +233844,9 @@
         "ProtoCentral MAX30001",
         "ProtoCentral AFE4490 PPG and SpO2 boards library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_HealthyPi_5-2.1.1.zip",
-      "size": 257184,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_HealthyPi_5-2.1.2.zip",
+      "size": 257727,
+      "previous_version": "2.1.1",
       "github_stars": 24,
       "github_forks": 1,
       "github_language": "C++",
@@ -233815,7 +233890,7 @@
       "repository_name": "Protocentral/protocentral_max30001_arduino_library",
       "repository_url": "https://github.com/Protocentral/protocentral_max30001_arduino_library",
       "name": "ProtoCentral MAX30001",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.4.0",
@@ -233824,22 +233899,26 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-06T14:01:55.288Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:25:24Z",
-      "last_seen_sha": "8c45234b5afd",
-      "author": "Ashwin Whitchurch, Protocentral Electronics <info@protocentral.com>",
-      "maintainer": "Ashwin Whitchurch, Protocentral Electronics <info@protocentral.com>",
-      "sentence": "Arduino library for MAX30001 single-lead ECG and bio-impedance breakout board.",
-      "paragraph": "Complete redesign with high-level API, advanced features, and 30+ methods. Supports ECG acquisition (128/256/512 SPS), bio-impedance measurement, hardware R-R detection, lead-off detection, configurable gain/filters, and FIFO management. Works with Arduino, ESP32, and compatible boards.",
+      "last_seen_sha": "37b5573d2882",
+      "author": "ProtoCentral Electronics <support@protocentral.com>",
+      "maintainer": "ProtoCentral Electronics <support@protocentral.com>",
+      "sentence": "Driver for the Analog Devices MAX30001 ECG and bio-impedance (respiration) AFE on the ProtoCentral MAX30001 Breakout.",
+      "paragraph": "Reads single-lead ECG at 128/256/512 SPS and bio-impedance (BioZ) respiration at 64 SPS over SPI, with the chip's hardware R-to-R heart-rate detector, per-electrode DC lead-off detection, FIFO interrupts on INTB, and configurable gain and filters. Includes a ProtoCentral OpenView streaming example. Every example fits on an Arduino Uno. For research and education only - not a medical device.",
       "category": "Sensors",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_MAX30001-2.0.0.zip",
-      "size": 2352142,
-      "previous_version": "1.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Protocentral/ProtoCentral_MAX30001-2.1.0.zip",
+      "size": 2373278,
+      "previous_version": "2.0.0",
       "github_stars": 15,
       "github_forks": 3,
       "github_language": "C++",
@@ -339351,7 +339430,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10172,
-    "total_dependencies": 5670
+    "with_github_metadata": 10174,
+    "total_dependencies": 5673
   }
 }

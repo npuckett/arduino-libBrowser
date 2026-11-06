@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-05T23:01:29.621Z",
+  "enhanced_at": "2026-11-06T00:04:12.486Z",
   "total_libraries": 10375,
-  "index_etag": "W/\"e3c157506dba39616fe0191ab1e6c343\"",
-  "index_last_modified": "Thu, 05 Nov 2026 23:00:19 GMT",
+  "index_etag": "W/\"96a257bcfb8a33875ccaac0667c88df0\"",
+  "index_last_modified": "Fri, 06 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -71597,7 +71597,7 @@
       "repository_name": "placidanomaly/Crowpanel_2.1",
       "repository_url": "https://github.com/placidanomaly/Crowpanel_2.1",
       "name": "Crowpanel_2.1",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -71610,11 +71610,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-11-04T00:04:24.099Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-06T00:04:12.340Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-23T00:06:32.675Z",
-      "last_seen_sha": "1f6b5bbb518b",
+      "last_seen_sha": "cb3b94134eb4",
       "author": "Charles Vaillancourt",
       "maintainer": "Charles Vaillancourt",
       "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
@@ -71630,9 +71634,9 @@
         "GFX Library for Arduino",
         "Adafruit BusIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-2.0.0.zip",
-      "size": 1425053,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-2.1.0.zip",
+      "size": 1476595,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -80652,7 +80656,7 @@
       "repository_name": "DigitalFuturesOCADU/df-pong-controller",
       "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
       "name": "DFPongController",
-      "version": "2.4.3",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -80697,11 +80701,15 @@
         {
           "version": "2.4.3",
           "seen_at": "2026-10-29T18:03:08.277Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-11-06T00:04:12.340Z"
         }
       ],
-      "release_count": 11,
+      "release_count": 12,
       "first_seen_at": "2026-01-05T07:57:45Z",
-      "last_seen_sha": "a7b04e0bfea4",
+      "last_seen_sha": "aa1ab08bc10e",
       "author": "Digital Futures OCAD U",
       "maintainer": "Digital Futures OCAD U",
       "sentence": "BLE controller library for the DF Pong game.",
@@ -80719,9 +80727,9 @@
         "ArduinoBLE",
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.4.3.zip",
-      "size": 78684,
-      "previous_version": "2.4.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.5.0.zip",
+      "size": 91205,
+      "previous_version": "2.4.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -102013,7 +102021,7 @@
       "repository_name": "Erqos/EQSP32",
       "repository_url": "https://github.com/Erqos/EQSP32",
       "name": "EQSP32",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.4.0",
@@ -102034,11 +102042,15 @@
         {
           "version": "1.6.0",
           "seen_at": "2026-10-19T16:03:11.982Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-11-06T00:04:12.340Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-27T08:01:03Z",
-      "last_seen_sha": "d966dd9775cd",
+      "last_seen_sha": "e1b0d63059d7",
       "author": "Erqos Technologies info@erqos.com",
       "maintainer": "Erqos Technologies",
       "sentence": "A library for controlling your EQSP32 - ESP32 Industrial IoT Controller.",
@@ -102047,9 +102059,12 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.6.0.zip",
-      "size": 15130320,
-      "previous_version": "1.5.2",
+      "depends": [
+        "RadioLib"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Erqos/EQSP32-1.6.1.zip",
+      "size": 15177173,
+      "previous_version": "1.6.0",
       "github_stars": 9,
       "github_forks": 0,
       "github_language": "C++",
@@ -214996,7 +215011,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.49",
+      "version": "0.0.50",
       "version_history": [
         {
           "version": "0.0.2",
@@ -215141,11 +215156,15 @@
         {
           "version": "0.0.49",
           "seen_at": "2026-11-05T12:02:17.600Z"
+        },
+        {
+          "version": "0.0.50",
+          "seen_at": "2026-11-06T00:04:12.340Z"
         }
       ],
-      "release_count": 36,
+      "release_count": 37,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "e60d42bd420e",
+      "last_seen_sha": "d67f1ea258d7",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -215154,9 +215173,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.49.zip",
-      "size": 1036220,
-      "previous_version": "0.0.48",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.50.zip",
+      "size": 1036952,
+      "previous_version": "0.0.49",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -339236,6 +339255,6 @@
     "total_categories": 78,
     "total_architectures": 160,
     "with_github_metadata": 10171,
-    "total_dependencies": 5669
+    "total_dependencies": 5670
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-07T17:01:28.824Z",
+  "enhanced_at": "2026-11-07T18:01:37.039Z",
   "total_libraries": 10384,
-  "index_etag": "W/\"9f763f89a43d5f203a52a0b1376a0ef3\"",
-  "index_last_modified": "Sat, 07 Nov 2026 17:00:19 GMT",
+  "index_etag": "W/\"174ecf4d6a2cc8d33b7f1b85eefad723\"",
+  "index_last_modified": "Sat, 07 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25832,7 +25832,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.208",
+      "version": "1.2.209",
       "version_history": [
         {
           "version": "1.2.18",
@@ -26337,11 +26337,15 @@
         {
           "version": "1.2.208",
           "seen_at": "2026-10-28T16:02:28.016Z"
+        },
+        {
+          "version": "1.2.209",
+          "seen_at": "2026-11-07T18:01:36.898Z"
         }
       ],
-      "release_count": 126,
+      "release_count": 127,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "a5cde221813b",
+      "last_seen_sha": "b4c4fe31af0b",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -26362,9 +26366,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.208.zip",
-      "size": 44644404,
-      "previous_version": "1.2.207",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.209.zip",
+      "size": 44645095,
+      "previous_version": "1.2.208",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -41525,7 +41529,7 @@
       "repository_name": "ARDUTECH0/ATGENXlib-0.0.1",
       "repository_url": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
       "name": "ATGENXlib",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -41538,14 +41542,18 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-10-17T18:02:43.447Z"
+        },
+        {
+          "version": "2.3.0",
+          "seen_at": "2026-11-07T18:01:36.898Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-03-18T07:23:14Z",
-      "last_seen_sha": "658dbba60403",
+      "last_seen_sha": "3d5c2ed83c9c",
       "author": "ATGenX",
       "maintainer": "Seif Emad <support@atgenx.com>",
-      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT) for Arduino, ESP32 and Raspberry Pi Pico.",
+      "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT, steppers and robots) for Arduino, ESP32 and Raspberry Pi Pico.",
       "paragraph": "Non-blocking runtime, scheduler and event bus with debounced inputs, multi-click buttons and timed outputs. The official library behind the ATGenX visual builder (atgenx.com). WiFi provisioning and the smart-home hub are available on ESP32.",
       "category": "Device Control",
       "architectures": [
@@ -41562,9 +41570,9 @@
         "Servo",
         "ESP32Servo"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.2.0.zip",
-      "size": 91931,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.3.0.zip",
+      "size": 105331,
+      "previous_version": "2.2.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -275756,7 +275764,7 @@
       "repository_name": "snappyxo/SnappyXOShield",
       "repository_url": "https://github.com/snappyxo/SnappyXOShield",
       "name": "SnappyXOShield",
-      "version": "0.3.0",
+      "version": "0.3.2",
       "version_history": [
         {
           "version": "0.2.0",
@@ -275769,11 +275777,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-10-27T06:04:19.180Z"
+        },
+        {
+          "version": "0.3.2",
+          "seen_at": "2026-11-07T18:01:36.898Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-09-14T18:03:01.072Z",
-      "last_seen_sha": "9899b42d836a",
+      "last_seen_sha": "33e279334fd6",
       "author": "SnappyXO",
       "maintainer": "A+ Mobile Solutions Inc",
       "sentence": "Motor control library for the SnappyXO Motor Shield v2 and v3.",
@@ -275782,9 +275794,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.3.0.zip",
-      "size": 11839,
-      "previous_version": "0.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/snappyxo/SnappyXOShield-0.3.2.zip",
+      "size": 11723,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

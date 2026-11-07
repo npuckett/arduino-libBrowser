@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-07T09:01:42.939Z",
-  "total_libraries": 10380,
-  "index_etag": "W/\"60317f98d01f1fc9323d7780ff2d45cd\"",
-  "index_last_modified": "Sat, 07 Nov 2026 09:00:18 GMT",
+  "enhanced_at": "2026-11-07T10:01:34.049Z",
+  "total_libraries": 10382,
+  "index_etag": "W/\"fc9cd89f55563d115ad6d263b2af7a00\"",
+  "index_last_modified": "Sat, 07 Nov 2026 10:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -65843,6 +65843,38 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "worawat-sooksai/CISIoT",
+      "repository_url": "https://github.com/worawat-sooksai/CISIoT",
+      "name": "CISIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-07T10:01:31.353Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T10:01:31.353Z",
+      "last_seen_sha": "2f892542fc94",
+      "author": "CIS-IoT Thaksin University (TSU) <worawat.sooksai@gmail.com>",
+      "maintainer": "CIS-IoT Thaksin University (TSU) <sworawat@tsu.ac.th>",
+      "sentence": "Official Arduino & ESP32/ESP8266/UNO R4 WiFi (UNO Q) Client Library for the IoT Scidi (CIS-IoT) Platform.",
+      "paragraph": "Connects ESP32, ESP8266, and Arduino UNO R4 WiFi / UNO Q boards to the IoT Scidi (CIS-IoT) platform at Thaksin University. Supports Virtual Pin telemetry (V0-V99), real-time command polling, status reporting, HTTPS insecure client mode, internal campus IP fallback, and ESP32 Watchdog Timer auto-recovery.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266",
+        "renesas_uno",
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/worawat-sooksai/CISIoT-1.0.0.zip",
+      "size": 18693,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T06:03:19Z"
+    },
+    {
       "repository_name": "abread/cj-kit-arduino-lib",
       "repository_url": "https://github.com/abread/cj-kit-arduino-lib",
       "name": "CJKit",
@@ -113739,6 +113771,35 @@
       "github_updated_at": "2025-06-23T16:26:11Z"
     },
     {
+      "repository_name": "hpwit/new-parser",
+      "repository_url": "https://github.com/hpwit/new-parser",
+      "name": "ESPLiveScript2",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-07T10:01:31.353Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T10:01:31.353Z",
+      "last_seen_sha": "bd388eb350b9",
+      "author": "Yves BAZIN",
+      "maintainer": "Yves BAZIN",
+      "sentence": "Compile C-like scripts to Xtensa machine code on the ESP32 itself, and run them.",
+      "paragraph": "Works on the Xtensa ESP32 chips: ESP32, ESP32-S2 and ESP32-S3 (with or without PSRAM). Scripts run on their own FreeRTOS tasks if you want (executeAsTask, scriptScheduler).",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hpwit/ESPLiveScript2-2.0.0.zip",
+      "size": 954120,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T08:50:44Z"
+    },
+    {
       "repository_name": "fabianoriccardi/ESPLogger",
       "repository_url": "https://github.com/fabianoriccardi/ESPLogger",
       "name": "ESPLogger",
@@ -126444,7 +126505,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "version_history": [
         {
           "version": "0.0.22",
@@ -126521,11 +126582,15 @@
         {
           "version": "2.0.10",
           "seen_at": "2026-11-06T06:03:21.677Z"
+        },
+        {
+          "version": "2.0.11",
+          "seen_at": "2026-11-07T10:01:31.353Z"
         }
       ],
-      "release_count": 19,
+      "release_count": 20,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "4bbf744772a2",
+      "last_seen_sha": "fe94003e069e",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -126551,9 +126616,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.10.zip",
-      "size": 1123758,
-      "previous_version": "2.0.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.11.zip",
+      "size": 1123911,
+      "previous_version": "2.0.10",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -202386,16 +202451,20 @@
       "repository_name": "MyTechWaifu/MTW_NetLoopScheduler",
       "repository_url": "https://github.com/MyTechWaifu/MTW_NetLoopScheduler",
       "name": "MTW NetLoopScheduler",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.1",
           "seen_at": "2026-11-07T08:01:58.256Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-11-07T10:01:31.353Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-07T08:01:58.256Z",
-      "last_seen_sha": "2fceafbf5ba6",
+      "last_seen_sha": "e559573a5501",
       "author": "MyTechWaifu",
       "maintainer": "MyTechWaifu <MyTechWaifu@web3msg.fun>",
       "sentence": "Lightweight AVR task scheduling with automatic UART shared-variable exchange.",
@@ -202405,8 +202474,9 @@
         "avr",
         "megaavr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_NetLoopScheduler-0.1.1.zip",
-      "size": 197125,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MyTechWaifu/MTW_NetLoopScheduler-0.1.2.zip",
+      "size": 198234,
+      "previous_version": "0.1.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -339563,7 +339633,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10176,
+    "with_github_metadata": 10178,
     "total_dependencies": 5674
   }
 }

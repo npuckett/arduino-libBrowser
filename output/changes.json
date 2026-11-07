@@ -1,6 +1,65 @@
 {
-  "since": "2026-11-07T21:01:36.820Z",
-  "new_libraries": [],
+  "since": "2026-11-07T22:01:21.926Z",
+  "new_libraries": [
+    {
+      "repository_name": "ardakora/Esp32AdaptiveClock",
+      "repository_url": "https://github.com/ardakora/Esp32AdaptiveClock",
+      "name": "Esp32AdaptiveClock",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-07T22:01:21.926Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T22:01:21.926Z",
+      "last_seen_sha": "276fb62ffc35",
+      "author": "Arda Kora",
+      "maintainer": "Arda Kora",
+      "sentence": "Job-driven CPU clock scaling for offline classic ESP32 sketches.",
+      "paragraph": "Selects an idle clock and adjusts the active clock for recurring jobs using measured run times. Uses the Arduino ESP32 clock API.",
+      "category": "Timing",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ardakora/Esp32AdaptiveClock-0.1.0.zip",
+      "size": 8916,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T18:34:50Z"
+    },
+    {
+      "repository_name": "ardakora/PixBand",
+      "repository_url": "https://github.com/ardakora/PixBand",
+      "name": "PixBand",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-07T22:01:21.926Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T22:01:21.926Z",
+      "last_seen_sha": "18ac67afadcb",
+      "author": "Arda Kora",
+      "maintainer": "Arda Kora",
+      "sentence": "Low-memory SPI TFT drawing for ESP32.",
+      "paragraph": "Redraws changed regions in RGB565 bands using a caller-owned buffer, with optional single-window SPI streaming and DMA. Includes ILI9341 and ST7789 panel profiles.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ardakora/PixBand-2.0.0.zip",
+      "size": 31116,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T18:34:59Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

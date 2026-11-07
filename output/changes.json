@@ -1,6 +1,429 @@
 {
-  "since": "2026-11-07T15:01:29.693Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-07T16:01:49.466Z",
+  "new_libraries": [
+    {
+      "repository_name": "Dalal-Nsrallah/Dal-Arabic",
+      "repository_url": "https://github.com/Dalal-Nsrallah/Dal-Arabic",
+      "name": "Dal",
+      "version": "0.1.6",
+      "version_history": [
+        {
+          "version": "0.1.6",
+          "seen_at": "2026-11-07T16:01:49.466Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T16:01:49.466Z",
+      "last_seen_sha": "de8e1e7df412",
+      "author": "Dalal Nasrallah",
+      "maintainer": "Dalal Nasrallah",
+      "sentence": "Arabic text for small screens: connected letters, lam-alef, harakat, right-to-left with numbers and Latin, word wrap.",
+      "paragraph": "Works with LovyanGFX, TFT_eSPI, Adafruit GFX or any drawPixel(). Anti-aliased glyphs generated from real Arabic fonts.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dalal-Nsrallah/Dal-0.1.6.zip",
+      "size": 128907,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-07T13:18:13Z"
+    },
+    {
+      "repository_name": "espmaniac/MicroSwap",
+      "repository_url": "https://github.com/espmaniac/MicroSwap",
+      "name": "MicroSwap",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-07T16:01:49.466Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T16:01:49.466Z",
+      "last_seen_sha": "e98ab26da1c5",
+      "author": "espmaniac",
+      "maintainer": "espmaniac",
+      "sentence": "Vectors, strings, maps and ring buffers bigger than your board's RAM, swapped to an SD card, an SPI memory chip or flash.",
+      "paragraph": "Keeps a few pages of data in RAM and moves the rest to storage by itself as you use it. VMVector, VMString (any length), VMMap, VMRingBuffer, VMArray and VMPtr work like the standard containers. Storage: a file on SD or flash, SPI SRAM, PSRAM or FRAM chips, or two functions of your own. No malloc, no exceptions; AVR, ESP32, ESP8266, STM32, SAMD, RP2040 and any core with a C++11 compiler.",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/espmaniac/MicroSwap-0.2.0.zip",
+      "size": 100461,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T13:19:43Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "placidanomaly/Crowpanel_2.1",
+        "repository_url": "https://github.com/placidanomaly/Crowpanel_2.1",
+        "name": "Crowpanel_2.1",
+        "version": "3.0.1",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-23T00:06:32.675Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-10-28T00:05:09.950Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-04T00:04:24.099Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-11-06T00:04:12.340Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-11-07T00:03:49.707Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-11-07T16:01:49.466Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-10-23T00:06:32.675Z",
+        "last_seen_sha": "c74f34b45f78",
+        "author": "Charles Vaillancourt",
+        "maintainer": "Charles Vaillancourt",
+        "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
+        "paragraph": "This library contains a class that encapsulates all the functions of a Crowpanel 2.1 display including functions to receive events from the rotary encoder (rotation, click, double-click, long press), and to receive events from the touchscreen. It also allows setting the brightness of the LCD display, turning it OFF and ON, and setting the intensity of the LED.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "lvgl",
+          "PCF8574 library",
+          "Adafruit CST8XX Library",
+          "GFX Library for Arduino",
+          "Adafruit BusIO"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-3.0.1.zip",
+        "size": 1479239,
+        "previous_version": "3.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-22T22:29:17Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "Johboh/HomeAssistantEntities",
+        "repository_url": "https://github.com/Johboh/HomeAssistantEntities",
+        "name": "HomeAssistantEntities",
+        "version": "10.0.1",
+        "version_history": [
+          {
+            "version": "8.0.21",
+            "seen_at": "2026-04-28T08:03:09Z"
+          },
+          {
+            "version": "8.0.22",
+            "seen_at": "2026-09-01T16:24:13.161Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-10-31T08:01:45.381Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-11-07T12:02:00.783Z"
+          },
+          {
+            "version": "10.0.1",
+            "seen_at": "2026-11-07T16:01:49.466Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-04-28T08:03:09Z",
+        "last_seen_sha": "810b0762515d",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
+        "paragraph": "Simplify and standardize the use of sensors and actuators in Home Assistant.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.1.zip",
+        "size": 249182,
+        "previous_version": "10.0.0",
+        "github_stars": 20,
+        "github_forks": 5,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-28T05:58:49Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.52",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          },
+          {
+            "version": "0.0.25",
+            "seen_at": "2026-10-01T14:02:57.149Z"
+          },
+          {
+            "version": "0.0.26",
+            "seen_at": "2026-10-01T16:02:59.448Z"
+          },
+          {
+            "version": "0.0.27",
+            "seen_at": "2026-10-02T02:09:59.934Z"
+          },
+          {
+            "version": "0.0.28",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "0.0.30",
+            "seen_at": "2026-10-08T04:04:36.788Z"
+          },
+          {
+            "version": "0.0.31",
+            "seen_at": "2026-10-08T10:03:26.589Z"
+          },
+          {
+            "version": "0.0.32",
+            "seen_at": "2026-10-16T06:04:11.023Z"
+          },
+          {
+            "version": "0.0.33",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "0.0.34",
+            "seen_at": "2026-10-16T12:03:57.248Z"
+          },
+          {
+            "version": "0.0.36",
+            "seen_at": "2026-10-20T12:03:49.619Z"
+          },
+          {
+            "version": "0.0.37",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          },
+          {
+            "version": "0.0.38",
+            "seen_at": "2026-10-23T14:02:51.834Z"
+          },
+          {
+            "version": "0.0.39",
+            "seen_at": "2026-10-27T04:03:10.915Z"
+          },
+          {
+            "version": "0.0.40",
+            "seen_at": "2026-10-30T10:01:47.321Z"
+          },
+          {
+            "version": "0.0.41",
+            "seen_at": "2026-11-01T00:05:26.915Z"
+          },
+          {
+            "version": "0.0.43",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.0.44",
+            "seen_at": "2026-11-03T12:02:11.735Z"
+          },
+          {
+            "version": "0.0.45",
+            "seen_at": "2026-11-05T02:02:19.293Z"
+          },
+          {
+            "version": "0.0.46",
+            "seen_at": "2026-11-05T04:02:04.461Z"
+          },
+          {
+            "version": "0.0.47",
+            "seen_at": "2026-11-05T08:02:15.075Z"
+          },
+          {
+            "version": "0.0.48",
+            "seen_at": "2026-11-05T10:01:56.423Z"
+          },
+          {
+            "version": "0.0.49",
+            "seen_at": "2026-11-05T12:02:17.600Z"
+          },
+          {
+            "version": "0.0.50",
+            "seen_at": "2026-11-06T00:04:12.340Z"
+          },
+          {
+            "version": "0.0.51",
+            "seen_at": "2026-11-06T06:03:21.677Z"
+          },
+          {
+            "version": "0.0.52",
+            "seen_at": "2026-11-07T16:01:49.466Z"
+          }
+        ],
+        "release_count": 39,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "63251091c084",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.52.zip",
+        "size": 1102390,
+        "previous_version": "0.0.51",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.51",
+      "new_version": "0.0.52"
+    },
+    {
+      "library": {
+        "repository_name": "TMRh20/RF24Ethernet",
+        "repository_url": "https://github.com/TMRh20/RF24Ethernet",
+        "name": "RF24Ethernet",
+        "version": "2.2.5",
+        "version_history": [
+          {
+            "version": "2.1.4",
+            "seen_at": "2026-06-08T09:11:05Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-08-14T04:32:13.508Z"
+          },
+          {
+            "version": "2.2.1",
+            "seen_at": "2026-09-26T14:02:32.079Z"
+          },
+          {
+            "version": "2.2.2",
+            "seen_at": "2026-10-19T04:03:06.736Z"
+          },
+          {
+            "version": "2.2.3",
+            "seen_at": "2026-10-30T14:02:03.823Z"
+          },
+          {
+            "version": "2.2.4",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "2.2.5",
+            "seen_at": "2026-11-07T16:01:49.466Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-06-08T09:11:05Z",
+        "last_seen_sha": "855de29cb5d5",
+        "author": "TMRh20",
+        "maintainer": "TMRh20",
+        "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) & nRF52",
+        "paragraph": "Automated, wireless(not WiFi), sensor/IoT networks that communicate/link together using standard protocols & networking. An experiment disconnected...",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "RF24",
+          "RF24Network",
+          "RF24Mesh",
+          "lwIP"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.5.zip",
+        "size": 459947,
+        "previous_version": "2.2.4",
+        "github_stars": 128,
+        "github_forks": 57,
+        "github_language": "C",
+        "github_updated_at": "2026-06-06T11:38:08Z"
+      },
+      "old_version": "2.2.4",
+      "new_version": "2.2.5"
+    }
+  ],
   "removed_libraries": []
 }

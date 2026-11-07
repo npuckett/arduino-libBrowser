@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-07T15:01:29.801Z",
-  "total_libraries": 10382,
-  "index_etag": "W/\"27214c0c95a47f5eb6f67b1d5238cf2b\"",
-  "index_last_modified": "Sat, 07 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-07T16:01:52.172Z",
+  "total_libraries": 10384,
+  "index_etag": "W/\"9f763f89a43d5f203a52a0b1376a0ef3\"",
+  "index_last_modified": "Sat, 07 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -71730,7 +71730,7 @@
       "repository_name": "placidanomaly/Crowpanel_2.1",
       "repository_url": "https://github.com/placidanomaly/Crowpanel_2.1",
       "name": "Crowpanel_2.1",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -71751,11 +71751,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-11-07T00:03:49.707Z"
+        },
+        {
+          "version": "3.0.1",
+          "seen_at": "2026-11-07T16:01:49.466Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-10-23T00:06:32.675Z",
-      "last_seen_sha": "f262cc719a20",
+      "last_seen_sha": "c74f34b45f78",
       "author": "Charles Vaillancourt",
       "maintainer": "Charles Vaillancourt",
       "sentence": "Helper functions to work with a CrowPanel 2.1 LCD display",
@@ -71771,9 +71775,9 @@
         "GFX Library for Arduino",
         "Adafruit BusIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-3.0.0.zip",
-      "size": 1478790,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/Crowpanel_2_1-3.0.1.zip",
+      "size": 1479239,
+      "previous_version": "3.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -74898,6 +74902,35 @@
       "github_language": "C++",
       "github_updated_at": "2026-03-07T19:29:28Z",
       "download_url": "https://github.com/electro-smith/DaisyDuino"
+    },
+    {
+      "repository_name": "Dalal-Nsrallah/Dal-Arabic",
+      "repository_url": "https://github.com/Dalal-Nsrallah/Dal-Arabic",
+      "name": "Dal",
+      "version": "0.1.6",
+      "version_history": [
+        {
+          "version": "0.1.6",
+          "seen_at": "2026-11-07T16:01:49.466Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T16:01:49.466Z",
+      "last_seen_sha": "de8e1e7df412",
+      "author": "Dalal Nasrallah",
+      "maintainer": "Dalal Nasrallah",
+      "sentence": "Arabic text for small screens: connected letters, lam-alef, harakat, right-to-left with numbers and Latin, word wrap.",
+      "paragraph": "Works with LovyanGFX, TFT_eSPI, Adafruit GFX or any drawPixel(). Anti-aliased glyphs generated from real Arabic fonts.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Dalal-Nsrallah/Dal-0.1.6.zip",
+      "size": 128907,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-07T13:18:13Z"
     },
     {
       "repository_name": "atvirokodosprendimai/arduino-dali",
@@ -141304,7 +141337,7 @@
       "repository_name": "Johboh/HomeAssistantEntities",
       "repository_url": "https://github.com/Johboh/HomeAssistantEntities",
       "name": "HomeAssistantEntities",
-      "version": "10.0.0",
+      "version": "10.0.1",
       "version_history": [
         {
           "version": "8.0.21",
@@ -141321,11 +141354,15 @@
         {
           "version": "10.0.0",
           "seen_at": "2026-11-07T12:02:00.783Z"
+        },
+        {
+          "version": "10.0.1",
+          "seen_at": "2026-11-07T16:01:49.466Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-04-28T08:03:09Z",
-      "last_seen_sha": "e0a6e22630c2",
+      "last_seen_sha": "810b0762515d",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Library for providing sensors and actuators to Home Assistant using MQTT.",
@@ -141336,9 +141373,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.0.zip",
-      "size": 194838,
-      "previous_version": "9.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/HomeAssistantEntities-10.0.1.zip",
+      "size": 249182,
+      "previous_version": "10.0.0",
       "github_stars": 20,
       "github_forks": 5,
       "github_language": "C++",
@@ -191550,6 +191587,35 @@
       "download_url": "https://github.com/MicroSui/microsui-lib"
     },
     {
+      "repository_name": "espmaniac/MicroSwap",
+      "repository_url": "https://github.com/espmaniac/MicroSwap",
+      "name": "MicroSwap",
+      "version": "0.2.0",
+      "version_history": [
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-07T16:01:49.466Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-07T16:01:49.466Z",
+      "last_seen_sha": "e98ab26da1c5",
+      "author": "espmaniac",
+      "maintainer": "espmaniac",
+      "sentence": "Vectors, strings, maps and ring buffers bigger than your board's RAM, swapped to an SD card, an SPI memory chip or flash.",
+      "paragraph": "Keeps a few pages of data in RAM and moves the rest to storage by itself as you use it. VMVector, VMString (any length), VMMap, VMRingBuffer, VMArray and VMPtr work like the standard containers. Storage: a file on SD or flash, SPI SRAM, PSRAM or FRAM chips, or two functions of your own. No malloc, no exceptions; AVR, ESP32, ESP8266, STM32, SAMD, RP2040 and any core with a C++11 compiler.",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/espmaniac/MicroSwap-0.2.0.zip",
+      "size": 100461,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-07T13:19:43Z"
+    },
+    {
       "repository_name": "atharvaphadnis-ai/mtm",
       "repository_url": "https://github.com/atharvaphadnis-ai/mtm",
       "name": "MicroTaskMonitor",
@@ -215353,7 +215419,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.51",
+      "version": "0.0.52",
       "version_history": [
         {
           "version": "0.0.2",
@@ -215506,11 +215572,15 @@
         {
           "version": "0.0.51",
           "seen_at": "2026-11-06T06:03:21.677Z"
+        },
+        {
+          "version": "0.0.52",
+          "seen_at": "2026-11-07T16:01:49.466Z"
         }
       ],
-      "release_count": 38,
+      "release_count": 39,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "25a55164675c",
+      "last_seen_sha": "63251091c084",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -215519,9 +215589,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.51.zip",
-      "size": 1043993,
-      "previous_version": "0.0.50",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.52.zip",
+      "size": 1102390,
+      "previous_version": "0.0.51",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -246024,7 +246094,7 @@
       "repository_name": "TMRh20/RF24Ethernet",
       "repository_url": "https://github.com/TMRh20/RF24Ethernet",
       "name": "RF24Ethernet",
-      "version": "2.2.4",
+      "version": "2.2.5",
       "version_history": [
         {
           "version": "2.1.4",
@@ -246049,11 +246119,15 @@
         {
           "version": "2.2.4",
           "seen_at": "2026-11-03T02:02:09.950Z"
+        },
+        {
+          "version": "2.2.5",
+          "seen_at": "2026-11-07T16:01:49.466Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-08T09:11:05Z",
-      "last_seen_sha": "ba295d343f16",
+      "last_seen_sha": "855de29cb5d5",
       "author": "TMRh20",
       "maintainer": "TMRh20",
       "sentence": "OSI layer 4/5 (TCP/IP) wireless/radio IoT mesh networks for nRF24L01(+) & nRF52",
@@ -246068,9 +246142,9 @@
         "RF24Mesh",
         "lwIP"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.4.zip",
-      "size": 439380,
-      "previous_version": "2.2.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24Ethernet-2.2.5.zip",
+      "size": 459947,
+      "previous_version": "2.2.4",
       "github_stars": 128,
       "github_forks": 57,
       "github_language": "C",
@@ -339659,7 +339733,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10178,
+    "with_github_metadata": 10180,
     "total_dependencies": 5674
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-07T13:01:13.701Z",
+  "enhanced_at": "2026-11-07T14:01:18.187Z",
   "total_libraries": 10382,
-  "index_etag": "W/\"e37b9c2e346de4a9716c95fb1f04e99f\"",
-  "index_last_modified": "Sat, 07 Nov 2026 13:00:18 GMT",
+  "index_etag": "W/\"27214c0c95a47f5eb6f67b1d5238cf2b\"",
+  "index_last_modified": "Sat, 07 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25546,7 +25546,7 @@
       "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
       "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
       "name": "AMK_CYD_Universal_TFT",
-      "version": "1.6.1",
+      "version": "1.6.2",
       "version_history": [
         {
           "version": "1.2.0",
@@ -25579,11 +25579,15 @@
         {
           "version": "1.6.1",
           "seen_at": "2026-11-07T12:02:00.783Z"
+        },
+        {
+          "version": "1.6.2",
+          "seen_at": "2026-11-07T14:01:18.053Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-10-29T18:03:08.277Z",
-      "last_seen_sha": "adfb33aeb020",
+      "last_seen_sha": "d93af8558887",
       "author": "Aung Moe Khine",
       "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
       "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver with 1-line autoSetup and adaptive multi-point autoCalibrate for ESP32 CYD resistive & capacitive boards and ESP32-S3 RGB capacitive boards.",
@@ -25592,9 +25596,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.1.zip",
-      "size": 506046,
-      "previous_version": "1.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.2.zip",
+      "size": 507590,
+      "previous_version": "1.6.1",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",
@@ -182113,7 +182117,7 @@
       "repository_name": "maxwelltrack/maxwelltrack-arduino",
       "repository_url": "https://github.com/maxwelltrack/maxwelltrack-arduino",
       "name": "MaxwellTrack",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.2.0",
@@ -182126,15 +182130,19 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-10-13T12:05:00.401Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-11-07T14:01:18.053Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-08T02:13:18.605Z",
-      "last_seen_sha": "b22fddaf5ba5",
+      "last_seen_sha": "4a64f0d00583",
       "author": "MaxwellTrack",
       "maintainer": "MaxwellTrack <support@maxwelltrack.com>",
       "sentence": "Connect Arduino boards to the MaxwellTrack IoT Cloud over WiFi or cellular (GSM/LTE).",
-      "paragraph": "Encrypted, per-device secure connection. Send readings to datastreams, receive dashboard commands, offline buffering, automatic reconnect and over-the-air updates. ESP32/ESP8266 connect over WiFi; any supported board connects over a SIM800 or SIM7600 modem. Provide only your Device ID and Auth Token from the dashboard.",
+      "paragraph": "Encrypted, per-device secure connection. Send readings to datastreams, receive dashboard commands, offline buffering, automatic reconnect and over-the-air updates. ESP32, ESP8266, Arduino UNO R4 WiFi, Raspberry Pi Pico W and Arduino's WiFiNINA boards connect over WiFi; any supported board, including the UNO R4 Minima and Nano R4, connects over a SIM800 or SIM7600 modem. Provide only your Device ID and Auth Token from the dashboard.",
       "category": "Communication",
       "architectures": [
         "esp32",
@@ -182142,11 +182150,12 @@
         "stm32",
         "rp2040",
         "samd",
-        "avr"
+        "avr",
+        "renesas_uno"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.3.1.zip",
-      "size": 1342550,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/maxwelltrack/MaxwellTrack-1.4.0.zip",
+      "size": 1964265,
+      "previous_version": "1.3.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

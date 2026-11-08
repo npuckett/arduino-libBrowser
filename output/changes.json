@@ -1,6 +1,83 @@
 {
-  "since": "2026-11-08T19:01:22.629Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-08T20:01:46.242Z",
+  "new_libraries": [
+    {
+      "repository_name": "ameltechlabs/AmelTech-labs-bot",
+      "repository_url": "https://github.com/ameltechlabs/AmelTech-labs-bot",
+      "name": "AmelTech Labs Bot",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-08T20:01:46.242Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T20:01:46.242Z",
+      "last_seen_sha": "9bbeee7b1bfd",
+      "author": "AmelTech Labs",
+      "maintainer": "AmelTech Labs <ameltechlabs@gmail.com>",
+      "sentence": "Offline ESP32 chatbot with knowledge engine, calculator, sensor support and hardware diagnostics.",
+      "paragraph": "It provides natural-language question answering, a built-in knowledge base, fuzzy matching, mathematical calculations, DHT sensor analysis, persistent user memory, serial training, hardware telemetry and health diagnostics.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ameltechlabs/AmelTech_Labs_Bot-2.0.0.zip",
+      "size": 388536,
+      "github_stars": 0,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T16:29:49Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "yemreeke/BlueGraysIoT",
+        "repository_url": "https://github.com/yemreeke/BlueGraysIoT",
+        "name": "BlueGraysIoT",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-11-06T14:01:55.288Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-11-08T20:01:46.242Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-06T14:01:55.288Z",
+        "last_seen_sha": "d7f233ce761e",
+        "author": "Yunus Emre Eke <info@bluegrays.com>",
+        "maintainer": "BlueGrays <info@bluegrays.com>",
+        "sentence": "Control ESP32 and Raspberry Pi Pico W boards from the BlueGrays app over a secure WebSocket.",
+        "paragraph": "Switches, sliders, colors and live sensor values with charts in the BlueGrays mobile app. TLS with bundled root certificates, automatic Wi-Fi and server reconnects, rate limiting and state restore after a power cut. The BlueGrays app generates the code. The device key travels only in the connection header and is never printed.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "depends": [
+          "WebSockets",
+          "ArduinoJson",
+          "DHT sensor library",
+          "Adafruit NeoPixel",
+          "ESP32Servo"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/yemreeke/BlueGraysIoT-0.1.1.zip",
+        "size": 54115,
+        "previous_version": "0.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-06T01:03:30Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    }
+  ],
   "removed_libraries": []
 }

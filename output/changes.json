@@ -1,6 +1,210 @@
 {
-  "since": "2026-11-08T13:01:39.424Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-08T14:01:33.325Z",
+  "new_libraries": [
+    {
+      "repository_name": "shlokbundele8/Braille",
+      "repository_url": "https://github.com/shlokbundele8/Braille",
+      "name": "Braille",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-08T14:01:33.325Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T14:01:33.325Z",
+      "last_seen_sha": "1e97c9af6732",
+      "author": "Shlok Bundele <official@nirvanatechnologies.in>",
+      "maintainer": "Shlok Bundele <official@nirvanatechnologies.in>",
+      "sentence": "Convert text to Braille and Braille back to text.",
+      "paragraph": "A dedicated Arduino library for Braille. It changes characters into 6-dot cells and back, and adds capital and number signs. It comes with ready examples to read, type, and show Braille.",
+      "category": "Other",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shlokbundele8/Braille-0.1.0.zip",
+      "size": 11818,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T08:41:50Z"
+    },
+    {
+      "repository_name": "tedihryntoo/TediESP32WiFiManager",
+      "repository_url": "https://github.com/tedihryntoo/TediESP32WiFiManager",
+      "name": "TediESP32WiFi",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-08T14:01:33.325Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T14:01:33.325Z",
+      "last_seen_sha": "e99828d79131",
+      "author": "Tedi Haryanto",
+      "maintainer": "Tedi Haryanto",
+      "sentence": "Lightweight web-based WiFi manager for ESP32.",
+      "paragraph": "ESP32 WiFi configuration portal with persistent AP, STA connection, WiFi scanning, Preferences storage, and automatic reconnection.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tedihryntoo/TediESP32WiFi-1.1.0.zip",
+      "size": 7801,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T11:48:43Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "AARUTO347/AARUESP",
+        "repository_url": "https://github.com/AARUTO347/AARUESP",
+        "name": "AARUESP",
+        "version": "2.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-11-06T10:01:46.265Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-11-08T14:01:33.325Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-06T10:01:46.265Z",
+        "last_seen_sha": "9e5ef0666b69",
+        "author": "AARUTO <aaruto@example.com>",
+        "maintainer": "AARUTO <aaruto@example.com>",
+        "sentence": "Universal ESP32 / ESP8266 library — 18000+ sensors, actuators, displays and comms in one consistent API.",
+        "paragraph": "MADE BY AARUTO. One API for analog, digital, I2C, SPI, UART, 1-Wire, PWM, servo, stepper, RGB, displays, GPS and IR across the whole ESP family: ESP32, ESP32-S2, ESP32-S3, ESP32-C3, ESP32-C6, ESP32-H2 and ESP8266 — 200+ board variants supported with compile-time board detection. Core has no mandatory third-party dependencies.",
+        "category": "Other",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUESP-2.2.0.zip",
+        "size": 514912,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-06T06:42:08Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "2.2.0"
+    },
+    {
+      "library": {
+        "repository_name": "lasselukkari/aWOT",
+        "repository_url": "https://github.com/lasselukkari/aWOT",
+        "name": "aWOT",
+        "version": "4.0.0",
+        "version_history": [
+          {
+            "version": "3.5.0",
+            "seen_at": "2026-01-06T07:32:05Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-11-08T14:01:33.325Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-01-06T07:32:05Z",
+        "last_seen_sha": "7e8a41d21669",
+        "author": "Lasse Lukkari <lasse.lukkari@gmail.com>",
+        "maintainer": "Lasse Lukkari <lasse.lukkari@gmail.com>",
+        "sentence": "Arduino web server library.",
+        "paragraph": "aWOT is a web server library compatible with multiple different board architectures and networking solutions.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/lasselukkari/aWOT-4.0.0.zip",
+        "size": 58588,
+        "previous_version": "3.5.0",
+        "github_stars": 311,
+        "github_forks": 42,
+        "github_language": "C++",
+        "github_updated_at": "2026-01-05T13:09:46Z"
+      },
+      "old_version": "3.5.0",
+      "new_version": "4.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "Johboh/ieee-802_15_4",
+        "repository_url": "https://github.com/Johboh/ieee-802_15_4",
+        "name": "ieee-802_15_4",
+        "version": "1.0.6",
+        "version_history": [
+          {
+            "version": "0.5.8",
+            "seen_at": "2026-05-01T08:01:44Z"
+          },
+          {
+            "version": "0.5.8",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-31T10:01:46.981Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-31T18:01:45.141Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-31T20:01:23.979Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-11-01T08:01:58.823Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-11-01T12:01:47.091Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-11-05T18:01:41.424Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-11-08T14:01:33.325Z"
+          }
+        ],
+        "release_count": 9,
+        "first_seen_at": "2026-05-01T08:01:44Z",
+        "last_seen_sha": "9e905077a93a",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Simplified version of sending and receiving messages over 802.15.4",
+        "paragraph": "Supports sending frames between devices, as well as data requests and broadcasts.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "GPL-2.0-or-later OR GPL-3.0-or-later",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4-1.0.6.zip",
+        "size": 46242,
+        "previous_version": "1.0.5",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-30T17:25:16Z"
+      },
+      "old_version": "1.0.5",
+      "new_version": "1.0.6"
+    }
+  ],
   "removed_libraries": []
 }

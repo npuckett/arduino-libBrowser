@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-08T15:01:20.679Z",
-  "total_libraries": 10390,
-  "index_etag": "W/\"de29d254ba52652da190dd6497c43bd9\"",
-  "index_last_modified": "Sun, 08 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-08T16:01:28.989Z",
+  "total_libraries": 10391,
+  "index_etag": "W/\"b1c6edc42eff8375c745782b52b287bb\"",
+  "index_last_modified": "Sun, 08 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -3682,7 +3682,7 @@
       "repository_name": "AARUTO347/AARUESP",
       "repository_url": "https://github.com/AARUTO347/AARUESP",
       "name": "AARUESP",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3691,11 +3691,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-11-08T14:01:33.325Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-11-08T16:01:27.502Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-11-06T10:01:46.265Z",
-      "last_seen_sha": "9e5ef0666b69",
+      "last_seen_sha": "9aae11e64374",
       "author": "AARUTO <aaruto@example.com>",
       "maintainer": "AARUTO <aaruto@example.com>",
       "sentence": "Universal ESP32 / ESP8266 library — 18000+ sensors, actuators, displays and comms in one consistent API.",
@@ -3705,9 +3709,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUESP-2.2.0.zip",
-      "size": 514912,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUESP-2.2.1.zip",
+      "size": 515440,
+      "previous_version": "2.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -101296,6 +101300,36 @@
       "github_updated_at": "2026-04-16T12:33:00Z"
     },
     {
+      "repository_name": "MartinDaCosta53/EncoderPIO",
+      "repository_url": "https://github.com/MartinDaCosta53/EncoderPIO",
+      "name": "EncoderPIO",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-08T16:01:27.502Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T16:01:27.502Z",
+      "last_seen_sha": "4d9487075bfb",
+      "author": "Martin Da Costa",
+      "maintainer": "Martin Da Costa <martindc.merg@gmail.com>",
+      "sentence": "Rotary Encoder for RP2040/2350",
+      "paragraph": "This Encoder library uses the PIO to valiidate input before passing it to the CPU.",
+      "category": "Device Control",
+      "architectures": [
+        "rp2040",
+        "rp2350"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/EncoderPIO-1.0.1.zip",
+      "size": 35584,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T12:43:52Z"
+    },
+    {
       "repository_name": "M-Reimer/EncoderStepCounter",
       "repository_url": "https://github.com/M-Reimer/EncoderStepCounter",
       "name": "EncoderStepCounter",
@@ -142580,7 +142614,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.10.1",
+      "version": "2.10.2",
       "version_history": [
         {
           "version": "2.2.17",
@@ -142677,11 +142711,15 @@
         {
           "version": "2.10.1",
           "seen_at": "2026-11-08T10:01:42.022Z"
+        },
+        {
+          "version": "2.10.2",
+          "seen_at": "2026-11-08T16:01:27.502Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "7ae2aa706c2a",
+      "last_seen_sha": "1cc367818616",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -142694,9 +142732,9 @@
         "htcw_data",
         "htcw_ml"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.10.1.zip",
-      "size": 930617,
-      "previous_version": "2.10.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.10.2.zip",
+      "size": 930799,
+      "previous_version": "2.10.1",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -147331,7 +147369,7 @@
       "repository_name": "Johboh/ieee-802_15_4-network-host",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4-network-host",
       "name": "ieee-802_15_4-network-host",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "0.1.3",
@@ -147348,11 +147386,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-11-01T10:01:34.186Z"
+        },
+        {
+          "version": "1.0.6",
+          "seen_at": "2026-11-08T16:01:27.502Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-04-07T07:57:25Z",
-      "last_seen_sha": "0d6c940b82c7",
+      "last_seen_sha": "f51483a8627d",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "IEEE 802.15.4 Network Host",
@@ -147367,9 +147409,9 @@
         "ieee-802_15_4",
         "ieee-802_15_4-network-shared"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_host-1.0.3.zip",
-      "size": 29513,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_host-1.0.6.zip",
+      "size": 30008,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -147379,7 +147421,7 @@
       "repository_name": "Johboh/ieee-802_15_4-network-node",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4-network-node",
       "name": "ieee-802_15_4-network-node",
-      "version": "1.0.3",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "0.2.1",
@@ -147396,11 +147438,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-11-01T10:01:34.186Z"
+        },
+        {
+          "version": "1.0.6",
+          "seen_at": "2026-11-08T16:01:27.502Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2025-12-08T07:26:03Z",
-      "last_seen_sha": "775fffa0b946",
+      "last_seen_sha": "1f4958408f1a",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "IEEE 802.15.4 Network Node",
@@ -147416,9 +147462,9 @@
         "ieee-802_15_4-network-shared",
         "ConnectionHelper"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.3.zip",
-      "size": 32139,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.6.zip",
+      "size": 34660,
+      "previous_version": "1.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -339962,7 +340008,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10186,
+    "with_github_metadata": 10187,
     "total_dependencies": 5674
   }
 }

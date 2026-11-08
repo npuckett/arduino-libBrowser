@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-08T07:03:32.618Z",
-  "total_libraries": 10386,
-  "index_etag": "W/\"b82f1592670bdd7305b49618c2933b69\"",
-  "index_last_modified": "Sun, 08 Nov 2026 07:00:18 GMT",
+  "enhanced_at": "2026-11-08T08:01:51.320Z",
+  "total_libraries": 10388,
+  "index_etag": "W/\"583996a9405fbc9bd538fd342dc263c9\"",
+  "index_last_modified": "Sun, 08 Nov 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -56356,6 +56356,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-03-07T12:55:13Z",
       "download_url": "https://github.com/bonezegei/Bonezegei_A4988"
+    },
+    {
+      "repository_name": "bonezegei/Bonezegei_AHT10",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_AHT10",
+      "name": "Bonezegei_AHT10",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-08T08:01:48.637Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T08:01:48.637Z",
+      "last_seen_sha": "8a1620affcdd",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Simple library for AHT10 temperature and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the AHT10 environmental sensor using I2C communication.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_AHT10-1.0.0.zip",
+      "size": 4621,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T04:32:28Z"
     },
     {
       "repository_name": "bonezegei/Bonezegei_BME280",
@@ -229316,6 +229345,35 @@
       "download_url": "https://github.com/mtvec/PmodClsArduino"
     },
     {
+      "repository_name": "gkeiel/PMRcon",
+      "repository_url": "https://github.com/gkeiel/PMRcon",
+      "name": "PMRcon",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-08T08:01:48.637Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-08T08:01:48.637Z",
+      "last_seen_sha": "7baf51fdfb93",
+      "author": "Guilherme Keiel",
+      "maintainer": "Guilherme Keiel",
+      "sentence": "Digital PMR controller library for Arduino.",
+      "paragraph": "Supports multiple resonant modes at configurable harmonic frequencies.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gkeiel/PMRcon-1.0.0.zip",
+      "size": 6141,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-08T04:11:34Z"
+    },
+    {
       "repository_name": "fu-hsi/PMS",
       "repository_url": "https://github.com/fu-hsi/PMS",
       "name": "PMS Library",
@@ -339827,7 +339885,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10182,
+    "with_github_metadata": 10184,
     "total_dependencies": 5674
   }
 }

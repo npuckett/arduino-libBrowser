@@ -1,6 +1,99 @@
 {
-  "since": "2026-11-08T17:01:15.916Z",
+  "since": "2026-11-08T18:01:30.438Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "pinscope-dev/pinscope-esp",
+        "repository_url": "https://github.com/pinscope-dev/pinscope-esp",
+        "name": "Pinscope",
+        "version": "0.2.15",
+        "version_history": [
+          {
+            "version": "0.2.9",
+            "seen_at": "2026-10-15T12:03:50.503Z"
+          },
+          {
+            "version": "0.2.10",
+            "seen_at": "2026-10-15T16:02:57.076Z"
+          },
+          {
+            "version": "0.2.11",
+            "seen_at": "2026-11-02T10:01:47.573Z"
+          },
+          {
+            "version": "0.2.12",
+            "seen_at": "2026-11-06T14:01:55.288Z"
+          },
+          {
+            "version": "0.2.14",
+            "seen_at": "2026-11-06T20:01:45.092Z"
+          },
+          {
+            "version": "0.2.15",
+            "seen_at": "2026-11-08T18:01:30.438Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-10-15T12:03:50.503Z",
+        "last_seen_sha": "cb0a605d766c",
+        "author": "Pinscope <hello@pinscope.dev>",
+        "maintainer": "Pinscope <hello@pinscope.dev>",
+        "sentence": "Reach your ESP32's web server from anywhere, with live logs, crash reports and OTA updates, in 9.4 KB of RAM.",
+        "paragraph": "One outbound connection to the Pinscope service gives the device's own web server an HTTPS address and carries its logs, metrics, crash reports and firmware updates. No port forwarding, no TLS library on the device. Needs a Pinscope account (three devices free).",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/pinscope-dev/Pinscope-0.2.15.zip",
+        "size": 57716,
+        "previous_version": "0.2.14",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-15T09:53:43Z"
+      },
+      "old_version": "0.2.14",
+      "new_version": "0.2.15"
+    },
+    {
+      "library": {
+        "repository_name": "RobTillaart/SLF3S",
+        "repository_url": "https://github.com/RobTillaart/SLF3S",
+        "name": "SLF3S",
+        "version": "0.1.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-11-03T20:01:43.976Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-11-08T18:01:30.438Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-03T20:01:43.976Z",
+        "last_seen_sha": "d25bcec11262",
+        "author": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "maintainer": "Rob Tillaart <rob.tillaart@gmail.com>",
+        "sentence": "Arduino library for the Sensirion I2C Low Flow sensor SLF3S.",
+        "paragraph": "SLF3S-0600F,SLF3S-1300F,SLF3C-1300F,SLF3S-0600D,SLF3S-1300D,SLF3S-4000B",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/RobTillaart/SLF3S-0.1.1.zip",
+        "size": 6324830,
+        "previous_version": "0.1.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-03T15:41:54Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.1.1"
+    }
+  ],
   "removed_libraries": []
 }

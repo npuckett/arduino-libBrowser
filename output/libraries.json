@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-09T21:01:21.003Z",
+  "enhanced_at": "2026-11-09T22:01:47.013Z",
   "total_libraries": 10398,
-  "index_etag": "W/\"c1c93fc1a6a62c47e7e39b762772f6b4\"",
-  "index_last_modified": "Mon, 09 Nov 2026 21:00:18 GMT",
+  "index_etag": "W/\"a2ee20e0a40333a66dfbfb08edaa659f\"",
+  "index_last_modified": "Mon, 09 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -160370,16 +160370,20 @@
       "repository_name": "emmby/lavi-arduino",
       "repository_url": "https://github.com/emmby/lavi-arduino",
       "name": "lavi",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-11-09T06:03:50.155Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-09T22:01:46.920Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-09T06:03:50.155Z",
-      "last_seen_sha": "f4e73c517313",
+      "last_seen_sha": "284be9595b49",
       "author": "Mike Burton <mb-github@niskala.org>",
       "maintainer": "Mike Burton <mb-github@niskala.org>",
       "sentence": "Lavi statechart runtime for C/C++ (XState v5 compatible), powered by Rust.",
@@ -160391,10 +160395,27 @@
         "esp32s3",
         "esp32c3",
         "esp32c6",
-        "esp32h2"
+        "esp32h2",
+        "cortex-m0plus",
+        "cortex-m3",
+        "cortex-m4",
+        "cortex-m7",
+        "cortex-m33",
+        "renesas_uno",
+        "samd",
+        "sam",
+        "rp2040",
+        "mbed",
+        "mbed_nano",
+        "mbed_rp2040",
+        "mbed_giga",
+        "mbed_portenta",
+        "stm32",
+        "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.1.0.zip",
-      "size": 7407895,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.2.0.zip",
+      "size": 16758022,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -178682,7 +178703,7 @@
       "repository_name": "qqqlab/madflight",
       "repository_url": "https://github.com/qqqlab/madflight",
       "name": "madflight",
-      "version": "2.4.2",
+      "version": "2.4.3",
       "version_history": [
         {
           "version": "2.3.1",
@@ -178707,11 +178728,15 @@
         {
           "version": "2.4.2",
           "seen_at": "2026-08-18T16:05:19.493Z"
+        },
+        {
+          "version": "2.4.3",
+          "seen_at": "2026-11-09T22:01:46.920Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-29T09:14:32Z",
-      "last_seen_sha": "b6497ce9d8f6",
+      "last_seen_sha": "5752464af7f4",
       "author": "qqqlab",
       "maintainer": "qqqlab <madflight@qqqlab.com>",
       "sentence": "Flight Controller for ESP32-S3 / ESP32 / RP2350 / RP2040 / STM32",
@@ -178721,9 +178746,9 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.4.2.zip",
-      "size": 12102197,
-      "previous_version": "2.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/madflight-2.4.3.zip",
+      "size": 10277426,
+      "previous_version": "2.4.2",
       "github_stars": 461,
       "github_forks": 80,
       "github_language": "C",
@@ -182972,7 +182997,7 @@
       "repository_name": "Zeppelin500/MBusinoLib",
       "repository_url": "https://github.com/Zeppelin500/MBusinoLib",
       "name": "MBusinoLib",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "version_history": [
         {
           "version": "0.9.20",
@@ -182981,11 +183006,15 @@
         {
           "version": "0.10.0",
           "seen_at": "2026-10-14T22:02:42.477Z"
+        },
+        {
+          "version": "0.11.0",
+          "seen_at": "2026-11-09T22:01:46.920Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-29T08:16:08Z",
-      "last_seen_sha": "a06087d863e8",
+      "last_seen_sha": "ac35d61516df",
       "author": "Zeppelin500 <mbusinolib@gmail.com>",
       "maintainer": "Zeppelin500 <mbusinolib@gmail.com>",
       "sentence": "an Arduino M-Bus decoder Library",
@@ -182997,9 +183026,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/MBusinoLib-0.10.0.zip",
-      "size": 43385,
-      "previous_version": "0.9.20",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Zeppelin500/MBusinoLib-0.11.0.zip",
+      "size": 41127,
+      "previous_version": "0.10.0",
       "github_stars": 29,
       "github_forks": 5,
       "github_language": "C++",
@@ -239630,7 +239659,7 @@
       "repository_name": "qqqlab/qqqlab-RP2040-Toolbox",
       "repository_url": "https://github.com/qqqlab/qqqlab-RP2040-Toolbox",
       "name": "qqqlab-RP2040-Toolbox",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -239639,11 +239668,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-09T22:01:46.920Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-12-24T07:36:48Z",
-      "last_seen_sha": "62b8dfa90daa",
+      "last_seen_sha": "fc5a2e763ada",
       "author": "qqqlab",
       "maintainer": "qqqlab <info@qqqlab.com>",
       "sentence": "RP2350 / RP2040 Toolbox - Serial DMA, Serial IRQ, PWM Driver",
@@ -239653,8 +239686,8 @@
         "*"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/qqqlab_RP2040_Toolbox-1.0.0.zip",
-      "size": 13456,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/qqqlab/qqqlab_RP2040_Toolbox-1.0.1.zip",
+      "size": 71980,
       "previous_version": "1.0.0",
       "github_stars": 6,
       "github_forks": 1,
@@ -340345,7 +340378,7 @@
   ],
   "stats": {
     "total_categories": 78,
-    "total_architectures": 160,
+    "total_architectures": 161,
     "with_github_metadata": 10194,
     "total_dependencies": 5678
   }

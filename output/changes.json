@@ -1,6 +1,143 @@
 {
-  "since": "2026-11-09T11:01:40.988Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-09T12:03:06.511Z",
+  "new_libraries": [
+    {
+      "repository_name": "wbskt/Wbskt.Arduino",
+      "repository_url": "https://github.com/wbskt/Wbskt.Arduino",
+      "name": "Wbskt",
+      "version": "0.9.0-beta.1",
+      "version_history": [
+        {
+          "version": "0.9.0-beta.1",
+          "seen_at": "2026-11-09T12:03:06.511Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-09T12:03:06.511Z",
+      "last_seen_sha": "d7406c838e81",
+      "author": "wbskt",
+      "maintainer": "wbskt",
+      "sentence": "Connect an ESP32 to Wbskt: register with a policy PIN, send readings, take commands.",
+      "paragraph": "Stores its credentials in NVS, holds a TLS WebSocket open, answers pings, acks commands, buffers messages while offline and reconnects with jittered backoff.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "WebSockets"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wbskt/Wbskt-0.9.0-beta.1.zip",
+      "size": 67489,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-09T10:01:56Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "misch2/BQ25798_Library",
+        "repository_url": "https://github.com/misch2/BQ25798_Library",
+        "name": "BQ25798",
+        "version": "1.5.0",
+        "version_history": [
+          {
+            "version": "1.4.11",
+            "seen_at": "2025-07-21T16:38:14Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-11-09T12:03:06.511Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:38:14Z",
+        "last_seen_sha": "ebc0413c6005",
+        "author": "Michal Schwarz",
+        "maintainer": "Michal Schwarz",
+        "sentence": "Arduino library for TI BQ25798",
+        "paragraph": "Arduino library for TI BQ25798 battery charger.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/misch2/BQ25798-1.5.0.zip",
+        "size": 55256,
+        "previous_version": "1.4.11",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C",
+        "github_updated_at": "2026-03-11T04:07:04Z"
+      },
+      "old_version": "1.4.11",
+      "new_version": "1.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "HamzaYslmn/esp32-tunnel",
+        "repository_url": "https://github.com/HamzaYslmn/esp32-tunnel",
+        "name": "esp32-tunnel",
+        "version": "5.4.1",
+        "version_history": [
+          {
+            "version": "4.2.0",
+            "seen_at": "2026-06-30T08:32:20Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-10-23T20:02:41.189Z"
+          },
+          {
+            "version": "5.3.0",
+            "seen_at": "2026-10-23T22:02:29.855Z"
+          },
+          {
+            "version": "5.3.1",
+            "seen_at": "2026-10-24T02:04:20.448Z"
+          },
+          {
+            "version": "5.4.0",
+            "seen_at": "2026-10-24T16:02:02.476Z"
+          },
+          {
+            "version": "5.4.1",
+            "seen_at": "2026-11-09T12:03:06.511Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-06-30T08:32:20Z",
+        "last_seen_sha": "1b2513ee3435",
+        "author": "Hamza Yesilmen <resmiyslmn@gmail.com>",
+        "maintainer": "Hamza Yesilmen <resmiyslmn@gmail.com>",
+        "sentence": "Public URL for your ESP32/ESP8266 — no port forwarding needed.",
+        "paragraph": "Public URL for your ESP32 without port forwarding. Self-hosted WebSocket relay server (Python/FastAPI). Natively compatible with ESPAsyncWebServer — auto-forwards requests to local server. FreeRTOS, auto-reconnect. Just tunnelSetup() and go.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "depends": [
+          "ESP Async WebServer",
+          "AsyncTCP",
+          "ESPAsyncTCP"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/HamzaYslmn/esp32_tunnel-5.4.1.zip",
+        "size": 58106,
+        "previous_version": "5.4.0",
+        "github_stars": 14,
+        "github_forks": 5,
+        "github_language": "C",
+        "github_updated_at": "2026-06-30T19:14:56Z"
+      },
+      "old_version": "5.4.0",
+      "new_version": "5.4.1"
+    }
+  ],
   "removed_libraries": []
 }

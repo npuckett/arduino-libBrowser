@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-08T23:01:35.576Z",
+  "enhanced_at": "2026-11-09T00:04:10.764Z",
   "total_libraries": 10392,
-  "index_etag": "W/\"cc0ff50be53f1edc8c4759c8343aef1f\"",
-  "index_last_modified": "Sun, 08 Nov 2026 23:00:18 GMT",
+  "index_etag": "W/\"d19dd50fe6b626477be1a7937a3ea1f0\"",
+  "index_last_modified": "Mon, 09 Nov 2026 00:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -104946,7 +104946,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.19.1",
+      "version": "0.19.2",
       "version_history": [
         {
           "version": "0.12.2",
@@ -104995,11 +104995,15 @@
         {
           "version": "0.19.1",
           "seen_at": "2026-11-06T12:02:20.542Z"
+        },
+        {
+          "version": "0.19.2",
+          "seen_at": "2026-11-09T00:04:10.643Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "981ec9893d12",
+      "last_seen_sha": "947e321261ae",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -105011,9 +105015,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.19.1.zip",
-      "size": 554208,
-      "previous_version": "0.19.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.19.2.zip",
+      "size": 557142,
+      "previous_version": "0.19.1",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -116047,7 +116051,7 @@
       "repository_name": "etherkit/Si5351Arduino",
       "repository_url": "https://github.com/etherkit/Si5351Arduino",
       "name": "Etherkit Si5351",
-      "version": "2.4.2",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "2.2.0",
@@ -116072,11 +116076,15 @@
         {
           "version": "2.4.2",
           "seen_at": "2026-11-08T04:01:37.241Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-11-09T00:04:10.643Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-23T08:25:19Z",
-      "last_seen_sha": "a9bb2edb7495",
+      "last_seen_sha": "910d74ff6dbc",
       "author": "Jason Milldrum <milldrum@gmail.com>",
       "maintainer": "Jason Milldrum <milldrum@gmail.com>",
       "sentence": "A full-featured library for the Si5351 series of clock generator ICs from Silicon Labs",
@@ -116085,9 +116093,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_Si5351-2.4.2.zip",
-      "size": 316199,
-      "previous_version": "2.4.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_Si5351-2.5.0.zip",
+      "size": 407435,
+      "previous_version": "2.4.2",
       "github_stars": 288,
       "github_forks": 106,
       "github_language": "C++",
@@ -211916,7 +211924,7 @@
       "repository_name": "TMRh20/nrf_to_nrf",
       "repository_url": "https://github.com/TMRh20/nrf_to_nrf",
       "name": "nrf_to_nrf",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "version_history": [
         {
           "version": "1.4.5",
@@ -211941,11 +211949,15 @@
         {
           "version": "1.7.0",
           "seen_at": "2026-11-06T22:01:41.254Z"
+        },
+        {
+          "version": "1.7.1",
+          "seen_at": "2026-11-09T00:04:10.643Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-13T08:35:54Z",
-      "last_seen_sha": "fc87239c4936",
+      "last_seen_sha": "c2ef3e59f0a2",
       "author": "TMRh20",
       "maintainer": "TMRh20",
       "sentence": "OSI Layer 2 - NRF52x to NRF24L01+ ESB communication",
@@ -211955,9 +211967,9 @@
         "nordicnrf52",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/nrf_to_nrf-1.7.0.zip",
-      "size": 91283,
-      "previous_version": "1.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/nrf_to_nrf-1.7.1.zip",
+      "size": 91562,
+      "previous_version": "1.7.0",
       "github_stars": 49,
       "github_forks": 6,
       "github_language": "C++",
@@ -213416,16 +213428,20 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.7.2",
+      "version": "2.7.3",
       "version_history": [
         {
           "version": "2.7.2",
           "seen_at": "2026-11-01T20:01:48.019Z"
+        },
+        {
+          "version": "2.7.3",
+          "seen_at": "2026-11-09T00:04:10.643Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "e5259c6241c9",
+      "last_seen_sha": "dacc308d2c04",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -213438,8 +213454,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.2.zip",
-      "size": 33370152,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.3.zip",
+      "size": 29948149,
+      "previous_version": "2.7.2",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",

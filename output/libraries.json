@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-09T03:01:48.640Z",
+  "enhanced_at": "2026-11-09T04:01:57.890Z",
   "total_libraries": 10392,
-  "index_etag": "W/\"d38ef77d63de2acf40814d88fd7ffae9\"",
-  "index_last_modified": "Mon, 09 Nov 2026 03:00:18 GMT",
+  "index_etag": "W/\"67d3c7478fd4a93de9c9492f77878bb1\"",
+  "index_last_modified": "Mon, 09 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -115368,7 +115368,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "2.6.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -115449,22 +115449,26 @@
         {
           "version": "2.6.1",
           "seen_at": "2026-10-16T04:02:52.121Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-09T04:01:57.770Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "a4e49ce401e6",
+      "last_seen_sha": "748e1822e48e",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio, a USB Video (UVC) camera, and multi-function composite devices for ESP32 Arduino sketches.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio (UAC1/UAC2), a USB Video (UVC) camera, DFU firmware update, and multi-function composite devices for ESP32-S2/S3/P4 Arduino sketches.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-2.6.1.zip",
-      "size": 1057917,
-      "previous_version": "2.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.0.0.zip",
+      "size": 1137837,
+      "previous_version": "2.6.1",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -126754,7 +126758,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.11",
+      "version": "2.0.12",
       "version_history": [
         {
           "version": "0.0.22",
@@ -126835,11 +126839,15 @@
         {
           "version": "2.0.11",
           "seen_at": "2026-11-07T10:01:31.353Z"
+        },
+        {
+          "version": "2.0.12",
+          "seen_at": "2026-11-09T04:01:57.770Z"
         }
       ],
-      "release_count": 20,
+      "release_count": 21,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "fe94003e069e",
+      "last_seen_sha": "4d3d839970a9",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -126865,9 +126873,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.11.zip",
-      "size": 1123911,
-      "previous_version": "2.0.10",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.12.zip",
+      "size": 1126918,
+      "previous_version": "2.0.11",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",

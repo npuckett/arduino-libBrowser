@@ -1,6 +1,100 @@
 {
-  "since": "2026-11-09T19:01:23.045Z",
+  "since": "2026-11-09T20:01:49.020Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "misch2/BQ25798_Library",
+        "repository_url": "https://github.com/misch2/BQ25798_Library",
+        "name": "BQ25798",
+        "version": "1.5.3",
+        "version_history": [
+          {
+            "version": "1.4.11",
+            "seen_at": "2025-07-21T16:38:14Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-11-09T12:03:06.511Z"
+          },
+          {
+            "version": "1.5.2",
+            "seen_at": "2026-11-09T16:01:42.830Z"
+          },
+          {
+            "version": "1.5.3",
+            "seen_at": "2026-11-09T20:01:49.020Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:38:14Z",
+        "last_seen_sha": "133b6be135c5",
+        "author": "Michal Schwarz",
+        "maintainer": "Michal Schwarz",
+        "sentence": "Arduino library for TI BQ25798",
+        "paragraph": "Arduino library for TI BQ25798 battery charger.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/misch2/BQ25798-1.5.3.zip",
+        "size": 60937,
+        "previous_version": "1.5.2",
+        "github_stars": 3,
+        "github_forks": 1,
+        "github_language": "C",
+        "github_updated_at": "2026-03-11T04:07:04Z"
+      },
+      "old_version": "1.5.2",
+      "new_version": "1.5.3"
+    },
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_audioinput_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+        "name": "DevLab_AudioInput",
+        "version": "0.3.7",
+        "version_history": [
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.3.5",
+            "seen_at": "2026-11-04T20:01:42.502Z"
+          },
+          {
+            "version": "0.3.6",
+            "seen_at": "2026-11-06T20:01:45.092Z"
+          },
+          {
+            "version": "0.3.7",
+            "seen_at": "2026-11-09T20:01:49.020Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-11-03T02:02:09.950Z",
+        "last_seen_sha": "1926bd9871e1",
+        "author": "UNIT Electronics MX",
+        "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+        "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+        "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested only on ESP32-S3; RP2040/RP2350 PDM and I2S are compile tested only.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.7.zip",
+        "size": 27824,
+        "previous_version": "0.3.6",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-02T23:46:01Z"
+      },
+      "old_version": "0.3.6",
+      "new_version": "0.3.7"
+    }
+  ],
   "removed_libraries": []
 }

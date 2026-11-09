@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-09T17:02:07.107Z",
-  "total_libraries": 10397,
-  "index_etag": "W/\"dfe88ba3e2caaa6b1a75b8df70f1a569\"",
-  "index_last_modified": "Mon, 09 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-09T18:02:14.951Z",
+  "total_libraries": 10398,
+  "index_etag": "W/\"65b9cb71c109daf038b33e1171dd81ff\"",
+  "index_last_modified": "Mon, 09 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -61597,6 +61597,34 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-09-30T23:43:11Z"
+    },
+    {
+      "repository_name": "mumanchu/C4001mmWave",
+      "repository_url": "https://github.com/mumanchu/C4001mmWave",
+      "name": "C4001mmWave",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-09T18:02:13.476Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-09T18:02:13.476Z",
+      "last_seen_sha": "baae701581ab",
+      "author": "mumanchu",
+      "maintainer": "mumanchu <info@muman.ch>",
+      "sentence": "Arduino Library for DFRobot C4001 mmWave Presence Sensors",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mumanchu/C4001mmWave-1.0.0.zip",
+      "size": 98644,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-09T13:37:25Z"
     },
     {
       "repository_name": "SimonVonSchmude/Cabluino",
@@ -237677,7 +237705,7 @@
       "repository_name": "pulsync/pulsync-arduino",
       "repository_url": "https://github.com/pulsync/pulsync-arduino",
       "name": "Pulsync",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "version_history": [
         {
           "version": "0.2.6",
@@ -237710,11 +237738,15 @@
         {
           "version": "0.3.4",
           "seen_at": "2026-10-11T14:02:27.528Z"
+        },
+        {
+          "version": "0.3.5",
+          "seen_at": "2026-11-09T18:02:13.476Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-09-06T00:07:17.875Z",
-      "last_seen_sha": "dfbb12ae08d8",
+      "last_seen_sha": "9d2e39a9ef7e",
       "author": "Vineeth Rai K <vineethraik@gmail.com>",
       "maintainer": "Vineeth Rai K <vineethraik@gmail.com>",
       "sentence": "Non-blocking task scheduler + real-time cloud sync for ESP32.",
@@ -237723,9 +237755,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.4.zip",
-      "size": 94012,
-      "previous_version": "0.3.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pulsync/Pulsync-0.3.5.zip",
+      "size": 95507,
+      "previous_version": "0.3.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -340306,7 +340338,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 160,
-    "with_github_metadata": 10193,
+    "with_github_metadata": 10194,
     "total_dependencies": 5678
   }
 }

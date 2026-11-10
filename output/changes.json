@@ -1,6 +1,79 @@
 {
-  "since": "2026-11-10T13:01:30.611Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-10T14:01:39.383Z",
+  "new_libraries": [
+    {
+      "repository_name": "code-hoysala/Database",
+      "repository_url": "https://github.com/code-hoysala/Database",
+      "name": "Database",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-10T14:01:39.383Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T14:01:39.383Z",
+      "last_seen_sha": "d96c243e2099",
+      "author": "code-hoysala ( Shashank Hoysala )",
+      "maintainer": "code-hoysala ( Shashank Hoysala ) <shashankhoysala04@outlook.com>",
+      "sentence": "Lightweight static record and knowledge lookup database for Arduino.",
+      "paragraph": "A non-blocking, zero-malloc key-value record storage library optimized for embedded microcontrollers and offline data lookups.",
+      "category": "Data Storage",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/Database-1.0.0.zip",
+      "size": 4063,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-10T11:14:18Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "metaloomlabs/usmp-arduino",
+        "repository_url": "https://github.com/metaloomlabs/usmp-arduino",
+        "name": "USMP",
+        "version": "1.3.0",
+        "version_history": [
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-09-22T20:02:19.381Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-09-24T16:03:09.538Z"
+          },
+          {
+            "version": "1.3.0",
+            "seen_at": "2026-11-10T14:01:39.383Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-22T20:02:19.381Z",
+        "last_seen_sha": "77031a7aa091",
+        "author": "winterx64",
+        "maintainer": "winterx64 <winterx64.work@gmail.com>",
+        "sentence": "Secure lightweight encrypted device communication protocol.",
+        "paragraph": "USMP gives any ESP32 a fully encrypted mutually authenticated session in three function calls.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/metaloomlabs/USMP-1.3.0.zip",
+        "size": 55550,
+        "previous_version": "1.2.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-09-22T15:29:56Z"
+      },
+      "old_version": "1.2.2",
+      "new_version": "1.3.0"
+    }
+  ],
   "removed_libraries": []
 }

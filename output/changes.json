@@ -1,6 +1,278 @@
 {
-  "since": "2026-11-09T23:01:27.878Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-10T00:04:17.980Z",
+  "new_libraries": [
+    {
+      "repository_name": "ARabadann/SdUsbDrive",
+      "repository_url": "https://github.com/ARabadann/SdUsbDrive",
+      "name": "SdUsbDrive",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-11-10T00:04:17.980Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T00:04:17.980Z",
+      "last_seen_sha": "ec2b591923b6",
+      "author": "Adrian Rabadan Ortiz",
+      "maintainer": "Adrian Rabadan Ortiz <adrianrabadan@yahoo.com.mx>",
+      "sentence": "Share a microSD card with a computer as a USB drive, and take it back from your sketch.",
+      "paragraph": "The card has one owner at a time: the computer sees a removable drive, and the sketch can take the card back to write files (data logger, recorder, camera) and lend it again. The computer is told the media changed, so it shows the new files without unplugging. SDIO and SPI cards, FAT32 and exFAT, read-ahead and write buffering for full USB speed. For the Raspberry Pi RP2040/RP2350 Arduino core (arduino-pico).",
+      "category": "Data Storage",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARabadann/SdUsbDrive-0.9.0.zip",
+      "size": 17342,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-09T20:09:08Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_audioinput_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
+        "name": "DevLab_AudioInput",
+        "version": "0.3.8",
+        "version_history": [
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.3.5",
+            "seen_at": "2026-11-04T20:01:42.502Z"
+          },
+          {
+            "version": "0.3.6",
+            "seen_at": "2026-11-06T20:01:45.092Z"
+          },
+          {
+            "version": "0.3.7",
+            "seen_at": "2026-11-09T20:01:49.020Z"
+          },
+          {
+            "version": "0.3.8",
+            "seen_at": "2026-11-10T00:04:17.980Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-11-03T02:02:09.950Z",
+        "last_seen_sha": "6da40e663bd4",
+        "author": "UNIT Electronics MX",
+        "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
+        "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
+        "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested on ESP32-S3 (I2S and PDM) and on RP2350 PDM (UNIT Pulsar RP2350A, up to 48 kHz); RP2040 and RP I2S are compile tested only.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.8.zip",
+        "size": 28194,
+        "previous_version": "0.3.7",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-02T23:46:01Z"
+      },
+      "old_version": "0.3.7",
+      "new_version": "0.3.8"
+    },
+    {
+      "library": {
+        "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
+        "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
+        "name": "OpenEmbeddedProbe",
+        "version": "0.0.53",
+        "version_history": [
+          {
+            "version": "0.0.2",
+            "seen_at": "2026-09-29T14:02:33.451Z"
+          },
+          {
+            "version": "0.0.3",
+            "seen_at": "2026-09-29T16:03:06.886Z"
+          },
+          {
+            "version": "0.0.4",
+            "seen_at": "2026-09-30T02:10:37.042Z"
+          },
+          {
+            "version": "0.0.7",
+            "seen_at": "2026-09-30T04:03:10.473Z"
+          },
+          {
+            "version": "0.0.9",
+            "seen_at": "2026-09-30T06:04:21.592Z"
+          },
+          {
+            "version": "0.0.11",
+            "seen_at": "2026-09-30T08:03:59.029Z"
+          },
+          {
+            "version": "0.0.17",
+            "seen_at": "2026-09-30T10:03:36.559Z"
+          },
+          {
+            "version": "0.0.18",
+            "seen_at": "2026-09-30T12:04:32.327Z"
+          },
+          {
+            "version": "0.0.19",
+            "seen_at": "2026-09-30T16:03:12.651Z"
+          },
+          {
+            "version": "0.0.20",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "0.0.21",
+            "seen_at": "2026-10-01T02:15:30.527Z"
+          },
+          {
+            "version": "0.0.22",
+            "seen_at": "2026-10-01T08:03:49.359Z"
+          },
+          {
+            "version": "0.0.23",
+            "seen_at": "2026-10-01T10:03:11.455Z"
+          },
+          {
+            "version": "0.0.24",
+            "seen_at": "2026-10-01T12:04:40.082Z"
+          },
+          {
+            "version": "0.0.25",
+            "seen_at": "2026-10-01T14:02:57.149Z"
+          },
+          {
+            "version": "0.0.26",
+            "seen_at": "2026-10-01T16:02:59.448Z"
+          },
+          {
+            "version": "0.0.27",
+            "seen_at": "2026-10-02T02:09:59.934Z"
+          },
+          {
+            "version": "0.0.28",
+            "seen_at": "2026-10-02T08:03:31.067Z"
+          },
+          {
+            "version": "0.0.30",
+            "seen_at": "2026-10-08T04:04:36.788Z"
+          },
+          {
+            "version": "0.0.31",
+            "seen_at": "2026-10-08T10:03:26.589Z"
+          },
+          {
+            "version": "0.0.32",
+            "seen_at": "2026-10-16T06:04:11.023Z"
+          },
+          {
+            "version": "0.0.33",
+            "seen_at": "2026-10-16T10:02:52.474Z"
+          },
+          {
+            "version": "0.0.34",
+            "seen_at": "2026-10-16T12:03:57.248Z"
+          },
+          {
+            "version": "0.0.36",
+            "seen_at": "2026-10-20T12:03:49.619Z"
+          },
+          {
+            "version": "0.0.37",
+            "seen_at": "2026-10-22T12:03:51.327Z"
+          },
+          {
+            "version": "0.0.38",
+            "seen_at": "2026-10-23T14:02:51.834Z"
+          },
+          {
+            "version": "0.0.39",
+            "seen_at": "2026-10-27T04:03:10.915Z"
+          },
+          {
+            "version": "0.0.40",
+            "seen_at": "2026-10-30T10:01:47.321Z"
+          },
+          {
+            "version": "0.0.41",
+            "seen_at": "2026-11-01T00:05:26.915Z"
+          },
+          {
+            "version": "0.0.43",
+            "seen_at": "2026-11-03T02:02:09.950Z"
+          },
+          {
+            "version": "0.0.44",
+            "seen_at": "2026-11-03T12:02:11.735Z"
+          },
+          {
+            "version": "0.0.45",
+            "seen_at": "2026-11-05T02:02:19.293Z"
+          },
+          {
+            "version": "0.0.46",
+            "seen_at": "2026-11-05T04:02:04.461Z"
+          },
+          {
+            "version": "0.0.47",
+            "seen_at": "2026-11-05T08:02:15.075Z"
+          },
+          {
+            "version": "0.0.48",
+            "seen_at": "2026-11-05T10:01:56.423Z"
+          },
+          {
+            "version": "0.0.49",
+            "seen_at": "2026-11-05T12:02:17.600Z"
+          },
+          {
+            "version": "0.0.50",
+            "seen_at": "2026-11-06T00:04:12.340Z"
+          },
+          {
+            "version": "0.0.51",
+            "seen_at": "2026-11-06T06:03:21.677Z"
+          },
+          {
+            "version": "0.0.52",
+            "seen_at": "2026-11-07T16:01:49.466Z"
+          },
+          {
+            "version": "0.0.53",
+            "seen_at": "2026-11-10T00:04:17.980Z"
+          }
+        ],
+        "release_count": 40,
+        "first_seen_at": "2026-09-29T14:02:33.451Z",
+        "last_seen_sha": "dd77a1b11965",
+        "author": "Open Embedded Probe contributors",
+        "maintainer": "Open Embedded Probe contributors",
+        "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
+        "paragraph": "Debug wires (RVSWD / SWIO for WCH CH32, SWD), a target console, GPIO / UART fixtures and logic capture, declared by name, under a session lock, over USB vendor bulk, HID, CDC, USB-Serial/JTAG or a UART bridge. The protocol is fixed; capabilities are declared by the probe and anyone can add their own interfaces. Specification: https://github.com/Open-Embedded-Probe/oep-spec",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.53.zip",
+        "size": 1102395,
+        "previous_version": "0.0.52",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-29T13:50:37Z"
+      },
+      "old_version": "0.0.52",
+      "new_version": "0.0.53"
+    }
+  ],
   "removed_libraries": []
 }

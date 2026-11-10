@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-09T23:01:27.985Z",
-  "total_libraries": 10398,
-  "index_etag": "W/\"a2ee20e0a40333a66dfbfb08edaa659f\"",
-  "index_last_modified": "Mon, 09 Nov 2026 23:00:18 GMT",
+  "enhanced_at": "2026-11-10T00:04:19.429Z",
+  "total_libraries": 10399,
+  "index_etag": "W/\"58259ea05cd1d1733cd2f141d323d078\"",
+  "index_last_modified": "Tue, 10 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -79629,7 +79629,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_audioinput_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
       "name": "DevLab_AudioInput",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "version_history": [
         {
           "version": "0.3.3",
@@ -79646,23 +79646,27 @@
         {
           "version": "0.3.7",
           "seen_at": "2026-11-09T20:01:49.020Z"
+        },
+        {
+          "version": "0.3.8",
+          "seen_at": "2026-11-10T00:04:17.980Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-11-03T02:02:09.950Z",
-      "last_seen_sha": "1926bd9871e1",
+      "last_seen_sha": "6da40e663bd4",
       "author": "UNIT Electronics MX",
       "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
       "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
-      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested only on ESP32-S3; RP2040/RP2350 PDM and I2S are compile tested only.",
+      "paragraph": "DevLab audio input library with mono PCM16 capture and serial streaming examples. Hardware tested on ESP32-S3 (I2S and PDM) and on RP2350 PDM (UNIT Pulsar RP2350A, up to 48 kHz); RP2040 and RP I2S are compile tested only.",
       "category": "Signal Input/Output",
       "architectures": [
         "esp32",
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.7.zip",
-      "size": 27824,
-      "previous_version": "0.3.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.8.zip",
+      "size": 28194,
+      "previous_version": "0.3.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -215848,7 +215852,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.52",
+      "version": "0.0.53",
       "version_history": [
         {
           "version": "0.0.2",
@@ -216005,11 +216009,15 @@
         {
           "version": "0.0.52",
           "seen_at": "2026-11-07T16:01:49.466Z"
+        },
+        {
+          "version": "0.0.53",
+          "seen_at": "2026-11-10T00:04:17.980Z"
         }
       ],
-      "release_count": 39,
+      "release_count": 40,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "63251091c084",
+      "last_seen_sha": "dd77a1b11965",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -216018,9 +216026,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.52.zip",
-      "size": 1102390,
-      "previous_version": "0.0.51",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.53.zip",
+      "size": 1102395,
+      "previous_version": "0.0.52",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -259061,6 +259069,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2022-01-11T09:57:08Z"
+    },
+    {
+      "repository_name": "ARabadann/SdUsbDrive",
+      "repository_url": "https://github.com/ARabadann/SdUsbDrive",
+      "name": "SdUsbDrive",
+      "version": "0.9.0",
+      "version_history": [
+        {
+          "version": "0.9.0",
+          "seen_at": "2026-11-10T00:04:17.980Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T00:04:17.980Z",
+      "last_seen_sha": "ec2b591923b6",
+      "author": "Adrian Rabadan Ortiz",
+      "maintainer": "Adrian Rabadan Ortiz <adrianrabadan@yahoo.com.mx>",
+      "sentence": "Share a microSD card with a computer as a USB drive, and take it back from your sketch.",
+      "paragraph": "The card has one owner at a time: the computer sees a removable drive, and the sketch can take the card back to write files (data logger, recorder, camera) and lend it again. The computer is told the media changed, so it shows the new files without unplugging. SDIO and SPI cards, FAT32 and exFAT, read-ahead and write buffering for full USB speed. For the Raspberry Pi RP2040/RP2350 Arduino core (arduino-pico).",
+      "category": "Data Storage",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARabadann/SdUsbDrive-0.9.0.zip",
+      "size": 17342,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-09T20:09:08Z"
     },
     {
       "repository_name": "SmartElecRu/AlphaSE_BasicUnit",
@@ -340379,7 +340416,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10194,
+    "with_github_metadata": 10195,
     "total_dependencies": 5678
   }
 }

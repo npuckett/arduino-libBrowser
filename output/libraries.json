@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-10T05:01:58.447Z",
-  "total_libraries": 10401,
-  "index_etag": "W/\"ee731f5f28c98d858ed55501ed81c94e\"",
-  "index_last_modified": "Tue, 10 Nov 2026 05:00:18 GMT",
+  "enhanced_at": "2026-11-10T06:03:20.684Z",
+  "total_libraries": 10402,
+  "index_etag": "W/\"f07a43dc1782b9ae6df11930d849917b\"",
+  "index_last_modified": "Tue, 10 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25584,7 +25584,7 @@
       "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
       "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
       "name": "AMK_CYD_Universal_TFT",
-      "version": "1.6.3",
+      "version": "1.6.4",
       "version_history": [
         {
           "version": "1.2.0",
@@ -25625,11 +25625,15 @@
         {
           "version": "1.6.3",
           "seen_at": "2026-11-09T16:01:42.830Z"
+        },
+        {
+          "version": "1.6.4",
+          "seen_at": "2026-11-10T06:03:19.157Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-10-29T18:03:08.277Z",
-      "last_seen_sha": "c05fbd0e810e",
+      "last_seen_sha": "0c9a63c8c36c",
       "author": "Aung Moe Khine",
       "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
       "sentence": "Universal standalone TFT, touch, sprite, TFT_eSPI_Button, gradients, and visual GUI driver with 1-line autoSetup and adaptive multi-point autoCalibrate for ESP32 CYD resistive & capacitive boards and ESP32-S3 RGB capacitive boards.",
@@ -25638,9 +25642,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.3.zip",
-      "size": 513077,
-      "previous_version": "1.6.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.6.4.zip",
+      "size": 519231,
+      "previous_version": "1.6.3",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",
@@ -321896,6 +321900,38 @@
       "download_url": "https://github.com/elvandry13/UltrasonicA02YYUW"
     },
     {
+      "repository_name": "hex705/UltrasonicFilter",
+      "repository_url": "https://github.com/hex705/UltrasonicFilter",
+      "name": "UltrasonicFilter",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-10T06:03:19.157Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T06:03:19.157Z",
+      "last_seen_sha": "b395427ba341",
+      "author": "steve daniels",
+      "maintainer": "hex705  (steve daniels)",
+      "sentence": "Simple filter for ultrasonic sensors",
+      "paragraph": "A simple to use filter that removes false readings from ultrasonic sensors. This filter exploits hardware latency and timeout parameters to remove spurious readings.  This is V1.0 API may change in future.  Depends upon Ultrasonic library by Erik Simoes https://github.com/ErickSimoes/Ultrasonic",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Ultrasonic"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/hex705/UltrasonicFilter-1.1.0.zip",
+      "size": 16021,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-10T03:30:27Z"
+    },
+    {
       "repository_name": "deangi/UltrasonicSensor",
       "repository_url": "https://github.com/deangi/UltrasonicSensor",
       "name": "UltrasonicHCSR04",
@@ -340497,7 +340533,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10197,
-    "total_dependencies": 5678
+    "with_github_metadata": 10198,
+    "total_dependencies": 5679
   }
 }

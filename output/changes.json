@@ -1,6 +1,62 @@
 {
-  "since": "2026-11-10T07:01:45.901Z",
+  "since": "2026-11-10T08:02:00.205Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ConsentiumIoT/ConsentiumThings",
+        "repository_url": "https://github.com/ConsentiumIoT/ConsentiumThings",
+        "name": "ConsentiumThings",
+        "version": "3.0.4",
+        "version_history": [
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-03-13T07:56:23Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-10-07T12:04:29.113Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-10-17T10:02:41.352Z"
+          },
+          {
+            "version": "3.0.2",
+            "seen_at": "2026-10-19T08:07:57.555Z"
+          },
+          {
+            "version": "3.0.4",
+            "seen_at": "2026-11-10T08:02:00.205Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-03-13T07:56:23Z",
+        "last_seen_sha": "a1da8821ea5c",
+        "author": "Consentium IoT",
+        "maintainer": "Consentium IoT<official@consentiumiot.com>",
+        "sentence": "Consentium Things IoT board.",
+        "paragraph": "This library runs IoT applications on ESP 32 class of microcontrollers.",
+        "category": "Data Processing",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ArduinoJson",
+          "Adafruit ADS1X15",
+          "WiFiManager"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ConsentiumIoT/ConsentiumThings-3.0.4.zip",
+        "size": 30400,
+        "previous_version": "3.0.2",
+        "github_stars": 2,
+        "github_forks": 2,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-12T09:21:32Z"
+      },
+      "old_version": "3.0.2",
+      "new_version": "3.0.4"
+    }
+  ],
   "removed_libraries": []
 }

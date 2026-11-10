@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-10T15:01:29.532Z",
+  "enhanced_at": "2026-11-10T16:02:00.830Z",
   "total_libraries": 10403,
-  "index_etag": "W/\"eb97055f6023b3582701fb276196fc7e\"",
-  "index_last_modified": "Tue, 10 Nov 2026 15:00:18 GMT",
+  "index_etag": "W/\"c16a5ba7a958b28454f75c7b3ed9f391\"",
+  "index_last_modified": "Tue, 10 Nov 2026 16:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -115534,7 +115534,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -115619,11 +115619,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-11-09T04:01:57.770Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-11-10T16:02:00.717Z"
         }
       ],
-      "release_count": 21,
+      "release_count": 22,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "748e1822e48e",
+      "last_seen_sha": "46bfc4fa8122",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
@@ -115632,9 +115636,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.0.0.zip",
-      "size": 1137837,
-      "previous_version": "2.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.1.0.zip",
+      "size": 1143171,
+      "previous_version": "3.0.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -328738,16 +328742,20 @@
       "repository_name": "vovagorodok/ArduinoBleChess",
       "repository_url": "https://github.com/vovagorodok/ArduinoBleChess",
       "name": "vovagorodok_ArduinoBleChess",
-      "version": "0.7.9",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.7.9",
           "seen_at": "2026-05-13T08:39:41Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-11-10T16:02:00.717Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-13T08:39:41Z",
-      "last_seen_sha": "cddd157b4737",
+      "last_seen_sha": "a3cfe06c3e73",
       "author": "vovagorodok",
       "maintainer": "vovagorodok <vovagorodok2@gmail.com>",
       "sentence": "Bluetooth low energy (BLE) library for communication via chess peripheral protocol.",
@@ -328763,11 +328771,13 @@
         "mbed_portenta",
         "mbed_nicla"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vovagorodok/vovagorodok_ArduinoBleChess-0.8.0.zip",
+      "size": 31494,
+      "previous_version": "0.7.9",
       "github_stars": 8,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-05-30T22:32:10Z",
-      "download_url": "https://github.com/vovagorodok/ArduinoBleChess"
+      "github_updated_at": "2026-05-30T22:32:10Z"
     },
     {
       "repository_name": "vovagorodok/ArduinoBleOTA",

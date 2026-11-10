@@ -1,6 +1,36 @@
 {
-  "since": "2026-11-10T17:01:37.547Z",
-  "new_libraries": [],
+  "since": "2026-11-10T18:01:39.261Z",
+  "new_libraries": [
+    {
+      "repository_name": "copida/SmtpMini",
+      "repository_url": "https://github.com/copida/SmtpMini",
+      "name": "SmtpMini",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-10T18:01:39.261Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T18:01:39.261Z",
+      "last_seen_sha": "83f7a6182df4",
+      "author": "Davide Lupi <copida.soft@gmail.com>",
+      "maintainer": "Davide Lupi <copida.soft@gmail.com>",
+      "sentence": "Minimal SMTP client for ESP32 with RAM and filesystem attachments.",
+      "paragraph": "Lightweight Arduino library for sending emails via SMTP over implicit TLS (port 465) or STARTTLS (port 587), with text or HTML body and attachments from RAM or any fs::FS filesystem, using streaming Base64 encoding to keep memory usage low. Supports server-certificate verification with a PEM CA certificate in SMTPS and STARTTLS modes.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/copida/SmtpMini-1.0.1.zip",
+      "size": 20274,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-10T15:50:04Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

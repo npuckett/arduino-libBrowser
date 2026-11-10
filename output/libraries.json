@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-10T01:01:43.361Z",
-  "total_libraries": 10399,
-  "index_etag": "W/\"58259ea05cd1d1733cd2f141d323d078\"",
-  "index_last_modified": "Tue, 10 Nov 2026 01:00:18 GMT",
+  "enhanced_at": "2026-11-10T02:02:09.251Z",
+  "total_libraries": 10400,
+  "index_etag": "W/\"378e6675da061f548befbb66e4195f74\"",
+  "index_last_modified": "Tue, 10 Nov 2026 02:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -58317,6 +58317,36 @@
       "github_language": "C",
       "github_updated_at": "2024-05-07T23:34:52Z",
       "download_url": "https://github.com/ardlib/bosejis_Types"
+    },
+    {
+      "repository_name": "NOXUSTIC/BOTGyro",
+      "repository_url": "https://github.com/NOXUSTIC/BOTGyro",
+      "name": "BOTGyro",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-10T02:02:07.775Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-10T02:02:07.775Z",
+      "last_seen_sha": "4421a82ee946",
+      "author": "noxustic",
+      "maintainer": "Saadat S. Rahman <saadat20022002@gmail.com>",
+      "sentence": "Adaptive, calibrated gyroscope readings for the BOTGyro IMU.",
+      "paragraph": "Self-contained driver for the BOTGyro 6-axis IMU (communicates directly over I2C, no external sensor library needed). Provides raw accelerometer and gyroscope data, optional zero-rate bias calibration with disturbance validation, an optional per-axis adaptive Kalman filter, optional fused pitch/roll orientation, a non-blocking state machine, live diagnostics, and automatic sensor fault recovery.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NOXUSTIC/BOTGyro-2.0.0.zip",
+      "size": 20474,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-09T18:15:36Z"
     },
     {
       "repository_name": "botletics/Botletics-SIM7000",
@@ -160374,7 +160404,7 @@
       "repository_name": "emmby/lavi-arduino",
       "repository_url": "https://github.com/emmby/lavi-arduino",
       "name": "lavi",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -160383,11 +160413,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-11-09T22:01:46.920Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-11-10T02:02:07.775Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-11-09T06:03:50.155Z",
-      "last_seen_sha": "284be9595b49",
+      "last_seen_sha": "fe8f8f8da1b5",
       "author": "Mike Burton <mb-github@niskala.org>",
       "maintainer": "Mike Burton <mb-github@niskala.org>",
       "sentence": "Lavi statechart runtime for C/C++ (XState v5 compatible), powered by Rust.",
@@ -160417,9 +160451,9 @@
         "stm32",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.2.0.zip",
-      "size": 16758022,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.3.0.zip",
+      "size": 17172256,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -300749,7 +300783,7 @@
       "repository_name": "raihhann/OpenSwarm",
       "repository_url": "https://github.com/raihhann/OpenSwarm",
       "name": "SwarmNode",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -300770,11 +300804,15 @@
         {
           "version": "0.4.1",
           "seen_at": "2026-11-09T14:01:40.125Z"
+        },
+        {
+          "version": "0.4.2",
+          "seen_at": "2026-11-10T02:02:07.775Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-11-05T00:04:21.977Z",
-      "last_seen_sha": "851871a307ee",
+      "last_seen_sha": "f14d6edbae4b",
       "author": "Mohammed Raihan Soniwala",
       "maintainer": "Mohammed Raihan Soniwala <raihann.eu@gmail.com>",
       "sentence": "Zero-Touch Hardware Declaration Slave Library for Distributed Robotics.",
@@ -300791,9 +300829,9 @@
       "depends": [
         "WiFiNINA"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.4.1.zip",
-      "size": 42457,
-      "previous_version": "0.4.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/raihhann/SwarmNode-0.4.2.zip",
+      "size": 44242,
+      "previous_version": "0.4.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -324748,16 +324786,20 @@
       "repository_name": "TikaFlow/UTF8ToGB2312",
       "repository_url": "https://github.com/TikaFlow/UTF8ToGB2312",
       "name": "UTF8ToGB2312",
-      "version": "1.2.3",
+      "version": "1.3.10",
       "version_history": [
         {
           "version": "1.2.3",
           "seen_at": "2025-07-30T13:23:02Z"
+        },
+        {
+          "version": "1.3.10",
+          "seen_at": "2026-11-10T02:02:07.775Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-07-30T13:23:02Z",
-      "last_seen_sha": "997df02ecf05",
+      "last_seen_sha": "f81ca4185292",
       "author": "Tika Flow",
       "maintainer": "Tika Flow <tika_flow@foxmail.com>",
       "sentence": "A library that converts UTF-8 string to GB2312 string.",
@@ -324766,11 +324808,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/TikaFlow/UTF8ToGB2312-1.3.10.zip",
+      "size": 37134,
+      "previous_version": "1.2.3",
       "github_stars": 12,
       "github_forks": 2,
       "github_language": "C",
-      "github_updated_at": "2026-04-18T21:31:18Z",
-      "download_url": "https://github.com/TikaFlow/UTF8ToGB2312"
+      "github_updated_at": "2026-04-18T21:31:18Z"
     },
     {
       "repository_name": "ghlawrence2000/UTFT_SdRaw",
@@ -340416,7 +340460,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10195,
+    "with_github_metadata": 10196,
     "total_dependencies": 5678
   }
 }

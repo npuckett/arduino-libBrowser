@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-11T15:01:42.769Z",
+  "enhanced_at": "2026-11-11T16:01:43.491Z",
   "total_libraries": 10410,
-  "index_etag": "W/\"88c5ef518056bf584e32bea906c96b6d\"",
-  "index_last_modified": "Wed, 11 Nov 2026 15:00:18 GMT",
+  "index_etag": "W/\"c87711a6c2f5e4258e707e505e67142c\"",
+  "index_last_modified": "Wed, 11 Nov 2026 16:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -197741,29 +197741,35 @@
       "repository_name": "CelliesProjects/moonPhase-esp32",
       "repository_url": "https://github.com/CelliesProjects/moonPhase-esp32",
       "name": "MoonPhase",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2025-12-27T07:10:57Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-11T16:01:43.352Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2025-12-27T07:10:57Z",
-      "last_seen_sha": "5b52b98d8d94",
+      "last_seen_sha": "37719dddd67d",
       "author": "Cellie <CelliesProjects@users.noreply.github.com>",
       "maintainer": "Cellie <CelliesProjects@users.noreply.github.com>",
       "sentence": "Get lunar phase information on ESP32 devices.",
-      "paragraph": "ESP32 library to calculate the moon phase angle and illuminated fraction for a given time. Version 2.0 introduces API cleanup, stricter compilation, and improved accuracy.",
+      "paragraph": "ESP32 library to calculate the moon phase angle and illuminated fraction for a given time.",
       "category": "Other",
       "architectures": [
         "esp32"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CelliesProjects/MoonPhase-3.0.0.zip",
+      "size": 13879819,
+      "previous_version": "2.0.0",
       "github_stars": 33,
       "github_forks": 5,
       "github_language": "C++",
-      "github_updated_at": "2026-05-11T23:24:21Z",
-      "download_url": "https://github.com/CelliesProjects/moonPhase-esp32"
+      "github_updated_at": "2026-05-11T23:24:21Z"
     },
     {
       "repository_name": "signetica/MoonRise",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-11T21:09:31.930Z",
+  "enhanced_at": "2026-11-11T22:01:25.990Z",
   "total_libraries": 10411,
-  "index_etag": "W/\"61ffd5076571d42c85f2cc387ea9ab7b\"",
-  "index_last_modified": "Wed, 11 Nov 2026 21:00:18 GMT",
+  "index_etag": "W/\"13b91a01b42ed51bbca732321eac1acb\"",
+  "index_last_modified": "Wed, 11 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -13548,7 +13548,7 @@
       "repository_name": "adafruit/Adafruit_MQTT_Library",
       "repository_url": "https://github.com/adafruit/Adafruit_MQTT_Library",
       "name": "Adafruit MQTT Library",
-      "version": "2.6.6",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.6.4",
@@ -13561,11 +13561,15 @@
         {
           "version": "2.6.6",
           "seen_at": "2026-07-07T18:37:39.940Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-11T22:01:25.874Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-04-22T07:43:04Z",
-      "last_seen_sha": "f0d119094e9d",
+      "last_seen_sha": "bd8c977df630",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "MQTT library that supports the FONA, ESP8266, ESP32, Yun, and generic Arduino Client hardware.",
@@ -13578,11 +13582,12 @@
         "Adafruit SleepyDog Library",
         "Adafruit FONA Library",
         "WiFi101",
-        "WiFiNINA_-_Adafruit_Fork"
+        "WiFiNINA_-_Adafruit_Fork",
+        "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MQTT_Library-2.6.6.zip",
-      "size": 925650,
-      "previous_version": "2.6.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_MQTT_Library-3.0.0.zip",
+      "size": 929813,
+      "previous_version": "2.6.6",
       "github_stars": 596,
       "github_forks": 293,
       "github_language": "C++",
@@ -160734,7 +160739,7 @@
       "repository_name": "emmby/lavi-arduino",
       "repository_url": "https://github.com/emmby/lavi-arduino",
       "name": "lavi",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -160747,11 +160752,15 @@
         {
           "version": "0.3.0",
           "seen_at": "2026-11-10T02:02:07.775Z"
+        },
+        {
+          "version": "0.4.0",
+          "seen_at": "2026-11-11T22:01:25.874Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-11-09T06:03:50.155Z",
-      "last_seen_sha": "fe8f8f8da1b5",
+      "last_seen_sha": "4aa6c8993c92",
       "author": "Mike Burton <mb-github@niskala.org>",
       "maintainer": "Mike Burton <mb-github@niskala.org>",
       "sentence": "Lavi statechart runtime for C/C++ (XState v5 compatible), powered by Rust.",
@@ -160781,9 +160790,9 @@
         "stm32",
         "nrf52"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.3.0.zip",
-      "size": 17172256,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/emmby/lavi-0.4.0.zip",
+      "size": 17866825,
+      "previous_version": "0.3.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -214021,7 +214030,7 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.7.3",
+      "version": "2.7.4",
       "version_history": [
         {
           "version": "2.7.2",
@@ -214030,11 +214039,15 @@
         {
           "version": "2.7.3",
           "seen_at": "2026-11-09T00:04:10.643Z"
+        },
+        {
+          "version": "2.7.4",
+          "seen_at": "2026-11-11T22:01:25.874Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "dacc308d2c04",
+      "last_seen_sha": "f31d3efc5dee",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -214047,9 +214060,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.3.zip",
-      "size": 29948149,
-      "previous_version": "2.7.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.4.zip",
+      "size": 32787254,
+      "previous_version": "2.7.3",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",
@@ -340973,6 +340986,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10207,
-    "total_dependencies": 5679
+    "total_dependencies": 5680
   }
 }

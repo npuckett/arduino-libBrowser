@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-11T13:01:42.029Z",
+  "enhanced_at": "2026-11-11T14:01:26.928Z",
   "total_libraries": 10410,
-  "index_etag": "W/\"d5b630df4a9d9183c0e7966b3e0ccf77\"",
-  "index_last_modified": "Wed, 11 Nov 2026 13:00:18 GMT",
+  "index_etag": "W/\"88c5ef518056bf584e32bea906c96b6d\"",
+  "index_last_modified": "Wed, 11 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -3682,16 +3682,20 @@
       "repository_name": "AARUTO347/AARUARDUINO",
       "repository_url": "https://github.com/AARUTO347/AARUARDUINO",
       "name": "AARUARDUINO",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-11-10T22:01:59.505Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-11-11T14:01:26.806Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-10T22:01:59.505Z",
-      "last_seen_sha": "b2cedcea3129",
+      "last_seen_sha": "807b0e67bad4",
       "author": "AARUTO",
       "maintainer": "AARUTO",
       "sentence": "Universal Arduino library - 1000+ sensors, actuators, displays and comms in one consistent API.",
@@ -3706,8 +3710,9 @@
         "esp8266",
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUARDUINO-1.0.2.zip",
-      "size": 642349,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AARUTO347/AARUARDUINO-1.0.3.zip",
+      "size": 642445,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -160031,16 +160036,20 @@
       "repository_name": "KymoTrace/kymocore",
       "repository_url": "https://github.com/KymoTrace/kymocore",
       "name": "KymoCore",
-      "version": "7.2.1",
+      "version": "7.3.0",
       "version_history": [
         {
           "version": "7.2.1",
           "seen_at": "2026-11-05T12:02:17.600Z"
+        },
+        {
+          "version": "7.3.0",
+          "seen_at": "2026-11-11T14:01:26.806Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-05T12:02:17.600Z",
-      "last_seen_sha": "07e022d1dfe2",
+      "last_seen_sha": "dd1eade659ac",
       "author": "Christof Seidel",
       "maintainer": "Christof Seidel",
       "sentence": "Allocation-free compact binary streaming for KymoStudio",
@@ -160049,8 +160058,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.2.1.zip",
-      "size": 717530,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.0.zip",
+      "size": 869966,
+      "previous_version": "7.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",
@@ -326161,7 +326171,7 @@
       "repository_name": "MartinDaCosta53/VCAN2040",
       "repository_url": "https://github.com/MartinDaCosta53/VCAN2040",
       "name": "VCAN2040",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -326170,11 +326180,15 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-10-03T22:54:30.985Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-11T14:01:26.806Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-09-30T14:03:10.568Z",
-      "last_seen_sha": "2b3218dda3fa",
+      "last_seen_sha": "bb904990b9e5",
       "author": "Martin Da Costa <martindc.merg@gmail.com",
       "maintainer": "Martin Da Costa <martindc.merg@gmail.com",
       "sentence": "Library for VLCB use on RP2040",
@@ -326185,12 +326199,11 @@
       ],
       "depends": [
         "Streaming",
-        "ACAN2040",
         "VLCB"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/VCAN2040-1.0.1.zip",
-      "size": 393299,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/VCAN2040-1.1.0.zip",
+      "size": 409119,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 2,
       "github_language": "C++",
@@ -334073,7 +334086,7 @@
       "repository_name": "jaszczurtd/arduino-wireguard-pico-w",
       "repository_url": "https://github.com/jaszczurtd/arduino-wireguard-pico-w",
       "name": "wireguard-pico-w",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "version_history": [
         {
           "version": "0.1.7",
@@ -334086,11 +334099,15 @@
         {
           "version": "0.2.0",
           "seen_at": "2026-10-29T22:01:40.873Z"
+        },
+        {
+          "version": "0.2.2",
+          "seen_at": "2026-11-11T14:01:26.806Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-01-13T07:08:59Z",
-      "last_seen_sha": "21823bdb1f6a",
+      "last_seen_sha": "0ce50081b63e",
       "author": "Kenta Ida (original); Daniel Hope (upstream); Marcin Kielesiński (RP2040/Pico W port)",
       "maintainer": "Marcin Kielesiński",
       "sentence": "WireGuard for RP2040/Pico W, port of WireGuard-ESP32.",
@@ -334099,9 +334116,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jaszczurtd/wireguard_pico_w-0.2.0.zip",
-      "size": 90344,
-      "previous_version": "0.1.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jaszczurtd/wireguard_pico_w-0.2.2.zip",
+      "size": 110003,
+      "previous_version": "0.2.0",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C",
@@ -340888,6 +340905,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10206,
-    "total_dependencies": 5680
+    "total_dependencies": 5679
   }
 }

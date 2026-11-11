@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-11T05:01:45.868Z",
-  "total_libraries": 10405,
-  "index_etag": "W/\"c97884841807b340027a41a2349ce558\"",
-  "index_last_modified": "Wed, 11 Nov 2026 05:00:18 GMT",
+  "enhanced_at": "2026-11-11T06:03:26.527Z",
+  "total_libraries": 10408,
+  "index_etag": "W/\"f2301ce3bed6f11e49c198c96b8b30c0\"",
+  "index_last_modified": "Wed, 11 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -64207,6 +64207,35 @@
       "github_updated_at": "2025-08-27T12:26:35Z"
     },
     {
+      "repository_name": "SINCHULHO/CFMEGA",
+      "repository_url": "https://github.com/SINCHULHO/CFMEGA",
+      "name": "CFMEGA",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-11T06:03:22.508Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-11T06:03:22.508Z",
+      "last_seen_sha": "93be708c55d2",
+      "author": "COMFILE Technology",
+      "maintainer": "COMFILE Technology <cubloc@naver.com>",
+      "sentence": "Arduino library for COMFILE Technology FAduino controllers.",
+      "paragraph": "Provides functions for accessing I/O on supported FAduino hardware.",
+      "category": "Device Control",
+      "architectures": [
+        "avr"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/SINCHULHO/CFMEGA-1.0.0.zip",
+      "size": 21837,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-11T04:32:40Z"
+    },
+    {
       "repository_name": "caiofrota/cf-arduino-lib-pushbutton",
       "repository_url": "https://github.com/caiofrota/cf-arduino-lib-pushbutton",
       "name": "CFPushButton",
@@ -102081,6 +102110,39 @@
       "github_updated_at": "2026-05-07T16:53:43Z"
     },
     {
+      "repository_name": "rahmatpurnomo/EnigmaIoT",
+      "repository_url": "https://github.com/rahmatpurnomo/EnigmaIoT",
+      "name": "EnigmaIoT",
+      "version": "0.5.0",
+      "version_history": [
+        {
+          "version": "0.5.0",
+          "seen_at": "2026-11-11T06:03:22.508Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-11T06:03:22.508Z",
+      "last_seen_sha": "657bbf2fdf7a",
+      "author": "Rahmat Purnomo",
+      "maintainer": "Rahmat Purnomo",
+      "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
+      "paragraph": "Library resmi Enigma IoT (platform IoT Indonesia). Kirim data sensor dan terima perintah dari dashboard lewat MQTT dengan virtual pin (V0-V255), update firmware lewat WiFi (OTA), portal WiFi (atur WiFi & token dari HP), peta GPS, kamera ESP32-CAM, serta widget sensor DHT, MPU6050, radar, gas, dan ketinggian.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.5.0.zip",
+      "size": 30900,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-11T02:14:09Z"
+    },
+    {
       "repository_name": "adafruit/ENS160_driver",
       "repository_url": "https://github.com/adafruit/ENS160_driver",
       "name": "ENS160 - Adafruit Fork",
@@ -104354,6 +104416,36 @@
       "github_language": "C++",
       "github_updated_at": "2025-05-05T12:57:29Z",
       "download_url": "https://github.com/gadaman-rm/ESP_MultiWiFi.git"
+    },
+    {
+      "repository_name": "sunfounder/arduino-esp-new-jpeg",
+      "repository_url": "https://github.com/sunfounder/arduino-esp-new-jpeg",
+      "name": "esp_new_jpeg",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-11-11T06:03:22.508Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-11T06:03:22.508Z",
+      "last_seen_sha": "9079f2ca2ad5",
+      "author": "Espressif Systems",
+      "maintainer": "SunFounder R&D",
+      "sentence": "Espressif JPEG encoder and decoder for ESP32-S3 (prebuilt binary, Arduino packaging).",
+      "paragraph": "Arduino packaging of the Espressif esp_new_jpeg component v1.0.2. Provides JPEG decode (esp_jpeg_dec) and encode (esp_jpeg_enc) for ESP32 / ESP32-S3. The prebuilt static libraries are taken unmodified from the upstream component; this repository only adds Arduino library metadata, documentation and examples.",
+      "category": "Data Processing",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/esp_new_jpeg-1.0.2.zip",
+      "size": 469497,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-11T03:39:33Z"
     },
     {
       "repository_name": "vvs551/ESP_NOW_Network",
@@ -340697,7 +340789,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10201,
-    "total_dependencies": 5679
+    "with_github_metadata": 10204,
+    "total_dependencies": 5680
   }
 }

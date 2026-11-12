@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-12T15:01:38.784Z",
-  "total_libraries": 10414,
-  "index_etag": "W/\"08901c84e1d1e979ada0aad3fb4cd251\"",
-  "index_last_modified": "Thu, 12 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-12T16:01:44.580Z",
+  "total_libraries": 10415,
+  "index_etag": "W/\"ff2a931a29b06cfe2ddb8d4001c060fa\"",
+  "index_last_modified": "Thu, 12 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -60523,6 +60523,35 @@
         "EEPROM_STM_Arduino"
       ],
       "download_url": "https://github.com/teddokano/BusRepeater_NXP_Arduino"
+    },
+    {
+      "repository_name": "ETI-PATAGONIA-AR/Libreria-BusUnHilo-Arduino",
+      "repository_url": "https://github.com/ETI-PATAGONIA-AR/Libreria-BusUnHilo-Arduino",
+      "name": "BusUnHilo",
+      "version": "0.1.2",
+      "version_history": [
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-11-12T16:01:42.931Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-12T16:01:42.931Z",
+      "last_seen_sha": "79d200d9f8df",
+      "author": "prof.martintorres@educ.ar",
+      "maintainer": "ETI_Patagonia",
+      "sentence": "Bus casero de un solo hilo (drenador abierto) bidireccional de 8 bits: maestro/esclavos con registros, bloques, CRC8 y ACK.",
+      "paragraph": "Un cable de datos + pull-up para comunicar Arduinos (sensores, displays, salidas). Direcciones, registros, bloques de 16 bytes, difusion, identificacion y escaner. Acceso directo a registros en AVR.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ETI-PATAGONIA-AR/BusUnHilo-0.1.2.zip",
+      "size": 4337696,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-11T20:17:55Z"
     },
     {
       "repository_name": "lualtek/buttino-rak",
@@ -143146,7 +143175,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.11.0",
+      "version": "2.11.1",
       "version_history": [
         {
           "version": "2.2.17",
@@ -143251,11 +143280,15 @@
         {
           "version": "2.11.0",
           "seen_at": "2026-11-10T22:01:59.505Z"
+        },
+        {
+          "version": "2.11.1",
+          "seen_at": "2026-11-12T16:01:42.931Z"
         }
       ],
-      "release_count": 26,
+      "release_count": 27,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "349fc054d2ae",
+      "last_seen_sha": "78991d9b1294",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -143268,9 +143301,9 @@
         "htcw_data",
         "htcw_ml"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.11.0.zip",
-      "size": 930950,
-      "previous_version": "2.10.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.11.1.zip",
+      "size": 931021,
+      "previous_version": "2.11.0",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -211642,7 +211675,7 @@
       "repository_name": "decoded-cipher/nodrix-sdk",
       "repository_url": "https://github.com/decoded-cipher/nodrix-sdk",
       "name": "Nodrix",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -211651,11 +211684,15 @@
         {
           "version": "0.1.1",
           "seen_at": "2026-09-16T12:04:17.489Z"
+        },
+        {
+          "version": "0.1.2",
+          "seen_at": "2026-11-12T16:01:42.931Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-07-05T03:00:55.745Z",
-      "last_seen_sha": "38621a0df8d8",
+      "last_seen_sha": "6df47dce1ce9",
       "author": "Arjun Krishna",
       "maintainer": "Arjun Krishna <arjun12345krishna@gmail.com>",
       "sentence": "Connect ESP32/ESP8266 hardware to Nodrix with a few lines of code.",
@@ -211669,9 +211706,9 @@
         "ArduinoJson",
         "WebSockets"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.1.zip",
-      "size": 18323,
-      "previous_version": "0.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/decoded-cipher/Nodrix-0.1.2.zip",
+      "size": 19038,
+      "previous_version": "0.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -341115,7 +341152,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10210,
+    "with_github_metadata": 10211,
     "total_dependencies": 5680
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-12T01:01:22.662Z",
-  "total_libraries": 10411,
-  "index_etag": "W/\"9caf22638ca181198badf7370302ca37\"",
-  "index_last_modified": "Thu, 12 Nov 2026 01:00:19 GMT",
+  "enhanced_at": "2026-11-12T02:02:05.787Z",
+  "total_libraries": 10412,
+  "index_etag": "W/\"b98c36a73ccff0c7fe7fe7c1f49c14b7\"",
+  "index_last_modified": "Thu, 12 Nov 2026 02:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81281,7 +81281,7 @@
       "repository_name": "DigitalFuturesOCADU/df-pong-controller",
       "repository_url": "https://github.com/DigitalFuturesOCADU/df-pong-controller",
       "name": "DFPongController",
-      "version": "2.5.0",
+      "version": "2.5.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -81330,11 +81330,15 @@
         {
           "version": "2.5.0",
           "seen_at": "2026-11-06T00:04:12.340Z"
+        },
+        {
+          "version": "2.5.1",
+          "seen_at": "2026-11-12T02:02:04.366Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-01-05T07:57:45Z",
-      "last_seen_sha": "aa1ab08bc10e",
+      "last_seen_sha": "34a865015ff9",
       "author": "Digital Futures OCAD U",
       "maintainer": "Digital Futures OCAD U",
       "sentence": "BLE controller library for the DF Pong game.",
@@ -81352,9 +81356,9 @@
         "ArduinoBLE",
         "NimBLE-Arduino"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.5.0.zip",
-      "size": 91205,
-      "previous_version": "2.4.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DigitalFuturesOCADU/DFPongController-2.5.1.zip",
+      "size": 102819,
+      "previous_version": "2.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -113907,6 +113911,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-09-01T12:57:00Z",
       "download_url": "https://github.com/tanakamasayuki/EspEasyUtils"
+    },
+    {
+      "repository_name": "francescopace/espectre-arduino",
+      "repository_url": "https://github.com/francescopace/espectre-arduino",
+      "name": "ESPectre",
+      "version": "3.2.0",
+      "version_history": [
+        {
+          "version": "3.2.0",
+          "seen_at": "2026-11-12T02:02:04.366Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-12T02:02:04.366Z",
+      "last_seen_sha": "d771435ad8a2",
+      "author": "Francesco Pace <francesco.pace@espectre.dev>",
+      "maintainer": "Francesco Pace <francesco.pace@espectre.dev>",
+      "sentence": "Wi-Fi motion detection for ESP32 from channel state information.",
+      "paragraph": "Detects motion from the Wi-Fi signal while your sketch keeps control of Wi-Fi.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/francescopace/ESPectre-3.2.0.zip",
+      "size": 378247,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-11T22:34:47Z"
     },
     {
       "repository_name": "andriyadi/EspX",
@@ -340994,7 +341027,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10207,
+    "with_github_metadata": 10208,
     "total_dependencies": 5680
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-12T19:01:38.342Z",
+  "enhanced_at": "2026-11-12T20:01:29.165Z",
   "total_libraries": 10415,
-  "index_etag": "W/\"a6aeec4e76da65bdf1db6c8739e0b61c\"",
-  "index_last_modified": "Thu, 12 Nov 2026 19:00:18 GMT",
+  "index_etag": "W/\"71f2519087bb62747bb8fb79b857f4be\"",
+  "index_last_modified": "Thu, 12 Nov 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -109019,16 +109019,20 @@
       "repository_name": "PedroFnseca/esp32-mcp",
       "repository_url": "https://github.com/PedroFnseca/esp32-mcp",
       "name": "ESP32-MCP",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-08-20T20:05:03.042Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-12T20:01:29.044Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-08-20T20:05:03.042Z",
-      "last_seen_sha": "e6dad3948449",
+      "last_seen_sha": "644ab6a2831c",
       "author": "Pedro Fonseca",
       "maintainer": "Pedro Fonseca",
       "sentence": "A lightweight Model Context Protocol (MCP) Server library for ESP32.",
@@ -109037,11 +109041,9 @@
       "architectures": [
         "esp32"
       ],
-      "depends": [
-        "ArduinoJson"
-      ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_MCP-0.1.0.zip",
-      "size": 28554,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/PedroFnseca/ESP32_MCP-1.1.0.zip",
+      "size": 51778,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -228353,7 +228355,7 @@
       "repository_name": "pin-node/PinNode",
       "repository_url": "https://github.com/pin-node/PinNode",
       "name": "PinNode",
-      "version": "0.3.21",
+      "version": "0.3.22",
       "version_history": [
         {
           "version": "0.3.12",
@@ -228378,11 +228380,15 @@
         {
           "version": "0.3.21",
           "seen_at": "2026-11-04T20:01:42.502Z"
+        },
+        {
+          "version": "0.3.22",
+          "seen_at": "2026-11-12T20:01:29.044Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-10-15T04:03:01.300Z",
-      "last_seen_sha": "5788bcb93db7",
+      "last_seen_sha": "6014f2e86d40",
       "author": "PinNode",
       "maintainer": "PinNode",
       "sentence": "PinNode for RetroPinUpgrade games: scores, achievements, stats and settings to a PinNode node.",
@@ -228393,9 +228399,9 @@
         "esp32",
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.21.zip",
-      "size": 247386,
-      "previous_version": "0.3.20",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pin-node/PinNode-0.3.22.zip",
+      "size": 248498,
+      "previous_version": "0.3.21",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",
@@ -341179,6 +341185,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10211,
-    "total_dependencies": 5680
+    "total_dependencies": 5679
   }
 }

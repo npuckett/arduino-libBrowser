@@ -1,6 +1,195 @@
 {
-  "since": "2026-11-12T09:01:38.625Z",
+  "since": "2026-11-12T10:01:42.055Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "vvb333007/espshell",
+        "repository_url": "https://github.com/vvb333007/espshell",
+        "name": "ESPShell",
+        "version": "0.99.18",
+        "version_history": [
+          {
+            "version": "0.99.17",
+            "seen_at": "2026-06-13T08:39:04Z"
+          },
+          {
+            "version": "0.99.16",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.99.17",
+            "seen_at": "2026-07-18T14:24:01.283Z"
+          },
+          {
+            "version": "0.99.18",
+            "seen_at": "2026-11-12T10:01:42.055Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-13T08:39:04Z",
+        "last_seen_sha": "aea4653fbc5b",
+        "author": "Viacheslav Logunov <vvb333007@gmail.com>",
+        "maintainer": "Viacheslav Logunov <vvb333007@gmail.com>",
+        "sentence": "This library adds a command line interface (CLI) to your sketch. CLI can be used for development or debugging, with all commands built-in: provides access to I2C, UART, filesystem, GPIO's etc",
+        "paragraph": "ESP32Shell is a self-sufficient library (no deps) which hooks on a startup process and deploys command line interface with basic functions: uart, i2c, rmt, filesystems, GPIO manipulation, sketch pause/continue and so on. Suitable both for C and C++ projects.",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/vvb333007/ESPShell-0.99.18.zip",
+        "size": 6770256,
+        "previous_version": "0.99.17",
+        "github_stars": 24,
+        "github_forks": 4,
+        "github_language": "C",
+        "github_updated_at": "2026-06-12T15:03:14Z"
+      },
+      "old_version": "0.99.17",
+      "new_version": "0.99.18"
+    },
+    {
+      "library": {
+        "repository_name": "elixpo/rv565",
+        "repository_url": "https://github.com/elixpo/rv565",
+        "name": "RV565",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-31T14:01:35.213Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-31T18:01:45.141Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-01T10:01:34.186Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-11-04T20:01:42.502Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-12T10:01:42.055Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-10-31T14:01:35.213Z",
+        "last_seen_sha": "22e2fe42bc08",
+        "author": "Ayushman Bhattacharya",
+        "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
+        "sentence": "RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+        "paragraph": "Plays RV565 clips (zlib or stored RGB565 keyframes, XOR deltas and repeats; format version 7, and version 6 from RV565 1.x) on ST7789 panels, seeks in O(1) from the keyframe interval, and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935) and the RP2350.",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-2.0.0.zip",
+        "size": 426301,
+        "previous_version": "1.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-31T11:19:30Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "tomrodinger/Servomotor_Arduino_Library",
+        "repository_url": "https://github.com/tomrodinger/Servomotor_Arduino_Library",
+        "name": "Servomotor",
+        "version": "0.11.0",
+        "version_history": [
+          {
+            "version": "0.9.2",
+            "seen_at": "2026-01-02T21:39:31Z"
+          },
+          {
+            "version": "0.10.0",
+            "seen_at": "2026-07-27T11:01:25.870Z"
+          },
+          {
+            "version": "0.10.1",
+            "seen_at": "2026-07-30T10:41:08.084Z"
+          },
+          {
+            "version": "0.11.0",
+            "seen_at": "2026-11-12T10:01:42.055Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-02T21:39:31Z",
+        "last_seen_sha": "3a8f4d39bc91",
+        "author": "Gearotons",
+        "maintainer": "Tom Rodinger <tom@gearotons.com>",
+        "sentence": "Library for controlling Gearotons servo motors with advanced features like motion control, torque setting, and homing.",
+        "paragraph": "Provides an easy-to-use API for controlling one or more servo motors over RS485. Features include unit conversions (position, velocity, acceleration, time), trapezoid moves, velocity and acceleration control, multi-move sequences, and comprehensive error handling.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "sam",
+          "samd",
+          "megaavr",
+          "rp2040",
+          "stm32",
+          "renesas"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tomrodinger/Servomotor-0.11.0.zip",
+        "size": 82693,
+        "previous_version": "0.10.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-10-17T05:40:05Z"
+      },
+      "old_version": "0.10.1",
+      "new_version": "0.11.0"
+    },
+    {
+      "library": {
+        "repository_name": "copida/SmtpMini",
+        "repository_url": "https://github.com/copida/SmtpMini",
+        "name": "SmtpMini",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-10T18:01:39.261Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-11-12T10:01:42.055Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-10T18:01:39.261Z",
+        "last_seen_sha": "8511f76246a4",
+        "author": "Davide Lupi <copida.soft@gmail.com>",
+        "maintainer": "Davide Lupi <copida.soft@gmail.com>",
+        "sentence": "Minimal SMTP client for ESP32 with RAM and filesystem attachments.",
+        "paragraph": "Lightweight Arduino library for sending emails via SMTP over implicit TLS (port 465) or STARTTLS (port 587), with text or HTML body and attachments from RAM or any fs::FS filesystem, using streaming Base64 encoding to keep memory usage low. Supports server-certificate verification with a PEM CA certificate in SMTPS and STARTTLS modes.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/copida/SmtpMini-1.0.2.zip",
+        "size": 20184,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-10T15:50:04Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    }
+  ],
   "removed_libraries": []
 }

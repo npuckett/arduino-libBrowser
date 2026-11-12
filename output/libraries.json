@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-11T23:01:30.807Z",
+  "enhanced_at": "2026-11-12T00:04:22.925Z",
   "total_libraries": 10411,
-  "index_etag": "W/\"13b91a01b42ed51bbca732321eac1acb\"",
-  "index_last_modified": "Wed, 11 Nov 2026 23:00:18 GMT",
+  "index_etag": "W/\"9caf22638ca181198badf7370302ca37\"",
+  "index_last_modified": "Thu, 12 Nov 2026 00:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -79856,7 +79856,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_audioinput_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_audioinput_library",
       "name": "DevLab_AudioInput",
-      "version": "0.3.9",
+      "version": "0.3.10",
       "version_history": [
         {
           "version": "0.3.3",
@@ -79881,11 +79881,15 @@
         {
           "version": "0.3.9",
           "seen_at": "2026-11-10T20:01:30.445Z"
+        },
+        {
+          "version": "0.3.10",
+          "seen_at": "2026-11-12T00:04:22.778Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-11-03T02:02:09.950Z",
-      "last_seen_sha": "d1584af8d8c0",
+      "last_seen_sha": "e62c016c73e7",
       "author": "UNIT Electronics MX",
       "maintainer": "Cesar Bautista, Jonathan Mejorado Lopez",
       "sentence": "Capture PCM audio from I2S and PDM microphones on ESP32 and RP2040/RP2350.",
@@ -79895,9 +79899,9 @@
         "esp32",
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.9.zip",
-      "size": 31225,
-      "previous_version": "0.3.8",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AudioInput-0.3.10.zip",
+      "size": 30909,
+      "previous_version": "0.3.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -102202,16 +102206,20 @@
       "repository_name": "rahmatpurnomo/EnigmaIoT",
       "repository_url": "https://github.com/rahmatpurnomo/EnigmaIoT",
       "name": "EnigmaIoT",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "version_history": [
         {
           "version": "0.5.0",
           "seen_at": "2026-11-11T06:03:22.508Z"
+        },
+        {
+          "version": "0.6.0",
+          "seen_at": "2026-11-12T00:04:22.778Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-11T06:03:22.508Z",
-      "last_seen_sha": "657bbf2fdf7a",
+      "last_seen_sha": "308ab91f2194",
       "author": "Rahmat Purnomo",
       "maintainer": "Rahmat Purnomo",
       "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
@@ -102224,8 +102232,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.5.0.zip",
-      "size": 30900,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.6.0.zip",
+      "size": 41037,
+      "previous_version": "0.5.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-13T11:01:40.885Z",
-  "total_libraries": 10421,
-  "index_etag": "W/\"fde6e3086ee0c017201523fc133c5f2e\"",
-  "index_last_modified": "Fri, 13 Nov 2026 11:00:19 GMT",
+  "enhanced_at": "2026-11-13T12:02:48.730Z",
+  "total_libraries": 10422,
+  "index_etag": "W/\"67674e7d9ad8248fb5605722165174c2\"",
+  "index_last_modified": "Fri, 13 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -38019,7 +38019,7 @@
       "repository_name": "ESP32Async/AsyncTCP",
       "repository_url": "https://github.com/ESP32Async/AsyncTCP",
       "name": "Async TCP",
-      "version": "3.5.0",
+      "version": "3.6.0",
       "version_history": [
         {
           "version": "3.4.10",
@@ -38032,11 +38032,15 @@
         {
           "version": "3.5.0",
           "seen_at": "2026-07-21T10:41:03.784Z"
+        },
+        {
+          "version": "3.6.0",
+          "seen_at": "2026-11-13T12:02:47.274Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-22T09:24:05Z",
-      "last_seen_sha": "e3f5ef82495f",
+      "last_seen_sha": "665b59acc1e4",
       "author": "ESP32Async",
       "maintainer": "ESP32Async",
       "sentence": "Async TCP Library for ESP32",
@@ -38046,9 +38050,9 @@
         "*"
       ],
       "license": "LGPL-3.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.5.0.zip",
-      "size": 39618,
-      "previous_version": "3.4.10",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.6.0.zip",
+      "size": 151998,
+      "previous_version": "3.5.0",
       "github_stars": 158,
       "github_forks": 45,
       "github_language": "C++",
@@ -74469,16 +74473,20 @@
       "repository_name": "codezoo-ltd/CZ-N706B-Arduino",
       "repository_url": "https://github.com/codezoo-ltd/CZ-N706B-Arduino",
       "name": "CZ-N706B-Arduino",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "version_history": [
         {
           "version": "0.0.1",
           "seen_at": "2026-11-01T16:01:31.275Z"
+        },
+        {
+          "version": "0.0.3",
+          "seen_at": "2026-11-13T12:02:47.274Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-01T16:01:31.275Z",
-      "last_seen_sha": "af7d11279274",
+      "last_seen_sha": "ee5962cacc6b",
       "author": "CodeZoo",
       "maintainer": "CodeZoo <rooney.jang@codezoo.co.kr>",
       "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3.",
@@ -74488,8 +74496,9 @@
         "renesas_uno",
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.1.zip",
-      "size": 244935,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.3.zip",
+      "size": 254975,
+      "previous_version": "0.0.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -75931,26 +75940,31 @@
       "repository_name": "code-hoysala/Database",
       "repository_url": "https://github.com/code-hoysala/Database",
       "name": "Database",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-10T14:01:39.383Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-13T12:02:47.274Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-10T14:01:39.383Z",
-      "last_seen_sha": "d96c243e2099",
-      "author": "code-hoysala ( Shashank Hoysala )",
+      "last_seen_sha": "e3fb4f36bfed",
+      "author": "code-hoysala ( Shashank Hoysala ) <shashankhoysala04@outlook.com>",
       "maintainer": "code-hoysala ( Shashank Hoysala ) <shashankhoysala04@outlook.com>",
-      "sentence": "Lightweight static record and knowledge lookup database for Arduino.",
-      "paragraph": "A non-blocking, zero-malloc key-value record storage library optimized for embedded microcontrollers and offline data lookups.",
+      "sentence": "A lightweight, non-blocking, malloc-free static key-value record library for Arduino with modular package loading.",
+      "paragraph": "Designed for resource-constrained microcontrollers to store structured records using fixed static arrays, completely eliminating heap fragmentation. Features built-in modular package support for offline games like Akinator and multi-field reference data excerpts.",
       "category": "Data Storage",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/Database-1.0.0.zip",
-      "size": 4063,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/code-hoysala/Database-1.2.0.zip",
+      "size": 8038,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -266825,6 +266839,38 @@
       "download_url": "https://github.com/csobirka/SevenSegment"
     },
     {
+      "repository_name": "saifulAdli79/arduino-wall-clock-v2",
+      "repository_url": "https://github.com/saifulAdli79/arduino-wall-clock-v2",
+      "name": "SevenSegmentClock595",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-13T12:02:47.274Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-13T12:02:47.274Z",
+      "last_seen_sha": "25cd6fa70e0b",
+      "author": "Open Source Community",
+      "maintainer": "Open Source Community",
+      "sentence": "A driver and clock engine for 6-digit 7-segment displays using 3x 74HC595, UDN2981, and ULN2803A.",
+      "paragraph": "Supports 6-digit high-voltage multiplexing, twin ticking colons, 7 day-of-week LEDs, DS1307 RTC integration, automatic periodic calendar display, programmable alarm with NVRAM persistence, and interactive pushbutton menu navigation.",
+      "category": "Display",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "RTClib"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/saifulAdli79/SevenSegmentClock595-1.0.0.zip",
+      "size": 17952,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-13T09:23:35Z"
+    },
+    {
       "repository_name": "HackerInside0/Arduino_sevenSegmentDisplay",
       "repository_url": "https://github.com/qub1750ul/Arduino_sevenSegmentDisplay",
       "name": "sevenSegmentDisplay",
@@ -341435,7 +341481,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10217,
-    "total_dependencies": 5688
+    "with_github_metadata": 10218,
+    "total_dependencies": 5689
   }
 }

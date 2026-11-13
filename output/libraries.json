@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-13T17:01:39.234Z",
+  "enhanced_at": "2026-11-13T18:01:44.251Z",
   "total_libraries": 10424,
-  "index_etag": "W/\"f238e42e6a4410be6a8df7775b4d5598\"",
-  "index_last_modified": "Fri, 13 Nov 2026 17:00:18 GMT",
+  "index_etag": "W/\"37bf4f073448107d8c6b8da88eb13e33\"",
+  "index_last_modified": "Fri, 13 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -79939,16 +79939,20 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_analog_interface_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_analog_interface_library",
       "name": "DevLab_AnalogInterface",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-13T02:01:54.012Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-13T18:01:44.143Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-13T02:01:54.012Z",
-      "last_seen_sha": "e63f6ea1eb65",
+      "last_seen_sha": "95b6fbd7d003",
       "author": "UNIT Electronics MX",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino library for the UE0177 Analog-Digital to I2C Sensor Interface using the DevLab Device Protocol (DDP).",
@@ -79961,8 +79965,9 @@
         "DevLabDDP",
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AnalogInterface-1.0.0.zip",
-      "size": 49229,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_AnalogInterface-1.0.1.zip",
+      "size": 52872,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -80935,7 +80940,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
       "name": "DevLabDDP",
-      "version": "1.0.9",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.1",
@@ -80968,11 +80973,15 @@
         {
           "version": "1.0.9",
           "seen_at": "2026-10-28T02:03:07.085Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-13T18:01:44.143Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-08-27T23:05:28.812Z",
-      "last_seen_sha": "c628ee8d08f6",
+      "last_seen_sha": "8ba3e8549a44",
       "author": "UNIT Electronics",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino master for the DevLab Device Protocol.",
@@ -80984,9 +80993,9 @@
       "depends": [
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.0.9.zip",
-      "size": 24803,
-      "previous_version": "1.0.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.1.0.zip",
+      "size": 26363,
+      "previous_version": "1.0.9",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -104886,7 +104895,7 @@
       "repository_name": "Nickjgniklu/ESP_TF",
       "repository_url": "https://github.com/Nickjgniklu/ESP_TF",
       "name": "ESP_TF",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "2.0.1",
@@ -104899,11 +104908,15 @@
         {
           "version": "2.1.1",
           "seen_at": "2026-09-19T18:02:54.518Z"
+        },
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-11-13T18:01:44.143Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:23:12Z",
-      "last_seen_sha": "508c1da5eed7",
+      "last_seen_sha": "2d9f805bd67e",
       "author": "Nick Jugganaikloo",
       "maintainer": "Nick Jugganaikloo",
       "sentence": "Tensorflow micro for esp32 with esp nn support",
@@ -104912,9 +104925,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nickjgniklu/ESP_TF-2.1.1.zip",
-      "size": 1192947,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Nickjgniklu/ESP_TF-2.1.2.zip",
+      "size": 1192945,
+      "previous_version": "2.1.1",
       "github_stars": 15,
       "github_forks": 4,
       "github_language": "C++",
@@ -148236,7 +148249,7 @@
       "repository_name": "Johboh/ieee-802_15_4-network-node",
       "repository_url": "https://github.com/Johboh/ieee-802_15_4-network-node",
       "name": "ieee-802_15_4-network-node",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "0.2.1",
@@ -148257,11 +148270,15 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-11-08T16:01:27.502Z"
+        },
+        {
+          "version": "1.0.7",
+          "seen_at": "2026-11-13T18:01:44.143Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-12-08T07:26:03Z",
-      "last_seen_sha": "1f4958408f1a",
+      "last_seen_sha": "bea9a50044a9",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "IEEE 802.15.4 Network Node",
@@ -148277,9 +148294,9 @@
         "ieee-802_15_4-network-shared",
         "ConnectionHelper"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.6.zip",
-      "size": 34660,
-      "previous_version": "1.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/ieee_802_15_4_network_node-1.0.7.zip",
+      "size": 34985,
+      "previous_version": "1.0.6",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -160430,7 +160447,7 @@
       "repository_name": "KymoTrace/kymocore",
       "repository_url": "https://github.com/KymoTrace/kymocore",
       "name": "KymoCore",
-      "version": "7.3.4",
+      "version": "7.4.0",
       "version_history": [
         {
           "version": "7.2.1",
@@ -160451,11 +160468,15 @@
         {
           "version": "7.3.4",
           "seen_at": "2026-11-12T22:01:42.093Z"
+        },
+        {
+          "version": "7.4.0",
+          "seen_at": "2026-11-13T18:01:44.143Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-11-05T12:02:17.600Z",
-      "last_seen_sha": "76cb0e207c9f",
+      "last_seen_sha": "7fc8f819b529",
       "author": "Christof Seidel",
       "maintainer": "Christof Seidel",
       "sentence": "Allocation-free compact binary streaming for KymoStudio",
@@ -160464,9 +160485,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.3.4.zip",
-      "size": 874897,
-      "previous_version": "7.3.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/KymoTrace/KymoCore-7.4.0.zip",
+      "size": 889645,
+      "previous_version": "7.3.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "Python",

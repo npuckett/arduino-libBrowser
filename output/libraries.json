@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-13T19:01:58.342Z",
+  "enhanced_at": "2026-11-13T20:01:51.533Z",
   "total_libraries": 10424,
-  "index_etag": "W/\"37bf4f073448107d8c6b8da88eb13e33\"",
-  "index_last_modified": "Fri, 13 Nov 2026 19:00:18 GMT",
+  "index_etag": "W/\"25f0063cdbac0d247de1e2fd6ae0fafa\"",
+  "index_last_modified": "Fri, 13 Nov 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -216656,7 +216656,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.55",
+      "version": "0.0.56",
       "version_history": [
         {
           "version": "0.0.2",
@@ -216825,11 +216825,15 @@
         {
           "version": "0.0.55",
           "seen_at": "2026-11-13T04:01:54.323Z"
+        },
+        {
+          "version": "0.0.56",
+          "seen_at": "2026-11-13T20:01:51.439Z"
         }
       ],
-      "release_count": 42,
+      "release_count": 43,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "2a64591cf39c",
+      "last_seen_sha": "dd01d334bb31",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -216838,9 +216842,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.55.zip",
-      "size": 1135527,
-      "previous_version": "0.0.54",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.56.zip",
+      "size": 1136179,
+      "previous_version": "0.0.55",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -267696,26 +267700,31 @@
       "repository_name": "Shieldio/ShieldioDisplay",
       "repository_url": "https://github.com/Shieldio/ShieldioDisplay",
       "name": "ShieldioDisplay",
-      "version": "0.1.1",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.1",
           "seen_at": "2026-10-10T16:03:04.187Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-11-13T20:01:51.439Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-10T16:03:04.187Z",
-      "last_seen_sha": "c47cfe32c162",
+      "last_seen_sha": "fa644eac7d74",
       "author": "Shieldio",
       "maintainer": "Shieldio",
-      "sentence": "Lightweight SSD1306 OLED text and menu library for Arduino.",
-      "paragraph": "Small SRAM footprint, changed-character rendering, menus, boot screen and progress display for Arduino Nano.",
+      "sentence": "Lightweight SSD1306 OLED display library with text, graphics and animal faces.",
+      "paragraph": "Small SRAM footprint, menus, startup screen, drawing and animated cat, dog and lion expressions for Arduino Nano.",
       "category": "Display",
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Shieldio/ShieldioDisplay-0.1.1.zip",
-      "size": 8933,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Shieldio/ShieldioDisplay-0.3.0.zip",
+      "size": 18532,
+      "previous_version": "0.1.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",

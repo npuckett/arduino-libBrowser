@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-13T21:01:28.286Z",
+  "enhanced_at": "2026-11-13T22:01:33.828Z",
   "total_libraries": 10424,
-  "index_etag": "W/\"25f0063cdbac0d247de1e2fd6ae0fafa\"",
-  "index_last_modified": "Fri, 13 Nov 2026 21:00:18 GMT",
+  "index_etag": "W/\"e7ad32ee8d9863fbd4f42854c06985a2\"",
+  "index_last_modified": "Fri, 13 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -259642,7 +259642,7 @@
       "repository_name": "EnviroDIY/Arduino-SDI-12",
       "repository_url": "https://github.com/EnviroDIY/Arduino-SDI-12",
       "name": "SDI-12",
-      "version": "2.5.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.3.2",
@@ -259663,12 +259663,16 @@
         {
           "version": "2.5.0",
           "seen_at": "2026-10-23T18:03:09.377Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-13T22:01:33.709Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-05-18T08:38:12Z",
-      "last_seen_sha": "157561dcf6e3",
-      "author": "Kevin M. Smith <Kevin@elite-education.org>, Shannon Hicks <shicks@stroudcenter.org>",
+      "last_seen_sha": "f22f40d234cf",
+      "author": "Kevin M. Smith <Kevin@elite-education.org>, Sara Damiano <sdamiano@stroudcenter.org>, Shannon Hicks <shicks@stroudcenter.org>",
       "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
       "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
       "paragraph": "This library provides a general software solution, without requiring any additional hardware.",
@@ -259681,9 +259685,12 @@
         "esp32",
         "mbed_giga"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-2.5.0.zip",
-      "size": 3079647,
-      "previous_version": "2.4.0",
+      "depends": [
+        "EnableInterrupt"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-3.0.0.zip",
+      "size": 3107084,
+      "previous_version": "2.5.0",
       "github_stars": 186,
       "github_forks": 102,
       "github_language": "C++",
@@ -341591,6 +341598,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10220,
-    "total_dependencies": 5690
+    "total_dependencies": 5691
   }
 }

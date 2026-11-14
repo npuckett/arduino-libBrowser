@@ -1,6 +1,61 @@
 {
-  "since": "2026-11-14T05:01:37.657Z",
+  "since": "2026-11-14T06:03:11.426Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "bareboat-necessities/ocean-imu",
+        "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
+        "name": "ocean_imu",
+        "version": "2.7.6",
+        "version_history": [
+          {
+            "version": "2.7.2",
+            "seen_at": "2026-11-01T20:01:48.019Z"
+          },
+          {
+            "version": "2.7.3",
+            "seen_at": "2026-11-09T00:04:10.643Z"
+          },
+          {
+            "version": "2.7.4",
+            "seen_at": "2026-11-11T22:01:25.874Z"
+          },
+          {
+            "version": "2.7.5",
+            "seen_at": "2026-11-12T22:01:42.093Z"
+          },
+          {
+            "version": "2.7.6",
+            "seen_at": "2026-11-14T06:03:11.426Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-11-01T20:01:48.019Z",
+        "last_seen_sha": "5728422b3cb8",
+        "author": "Bareboat Necessities",
+        "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
+        "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
+        "paragraph": "Reusable C++ modules for IMU calibration, attitude estimation, and marine wave analytics, including AtomS3R-oriented integrations for M5Stack devices.",
+        "category": "Sensors",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "M5Unified",
+          "Eigen"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.6.zip",
+        "size": 35416893,
+        "previous_version": "2.7.5",
+        "github_stars": 39,
+        "github_forks": 5,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-01T15:22:20Z"
+      },
+      "old_version": "2.7.5",
+      "new_version": "2.7.6"
+    }
+  ],
   "removed_libraries": []
 }

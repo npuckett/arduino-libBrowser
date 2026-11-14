@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-14T17:01:29.167Z",
-  "total_libraries": 10425,
-  "index_etag": "W/\"b9bdf4394142df2dc4f4220d83783daf\"",
-  "index_last_modified": "Sat, 14 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-14T18:01:28.670Z",
+  "total_libraries": 10427,
+  "index_etag": "W/\"4d9c40dd4f459152130f9c4549d0f882\"",
+  "index_last_modified": "Sat, 14 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -28300,7 +28300,7 @@
       "repository_name": "aikopras/AP_DCC_library",
       "repository_url": "https://github.com/aikopras/AP_DCC_library",
       "name": "AP_DCC_Library",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -28309,22 +28309,26 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-14T18:01:25.863Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-19T07:28:31Z",
-      "last_seen_sha": "2c15db6d26d6",
+      "last_seen_sha": "47b15b98966b",
       "author": "Aiko Pras",
       "maintainer": "Aiko Pras",
       "sentence": "Library for (NMRA/RCN) Digital Command Control (DCC)",
-      "paragraph": "Due to its modular structure, should run on all possible microcontrollers. However, on novel processors (such as MegaCoreX and DxCore) the quality of DCC signal decoding is considerably better, since some powerfull peripherals of these new processors are now used.",
+      "paragraph": "Thanks to its modular architecture, this library can run on a wide range of microcontrollers. On newer processor families (such as DxCore and STM32), DCC signal decoding quality is significantly improved by leveraging advanced on-chip peripherals.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/aikopras/AP_DCC_Library-2.0.0.zip",
-      "size": 1173854,
-      "previous_version": "2.0.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aikopras/AP_DCC_Library-2.1.0.zip",
+      "size": 1970880,
+      "previous_version": "2.0.0",
       "github_stars": 22,
       "github_forks": 7,
       "github_language": "C++",
@@ -41748,7 +41752,7 @@
       "repository_name": "ARDUTECH0/ATGENXlib-0.0.1",
       "repository_url": "https://github.com/ARDUTECH0/ATGENXlib-0.0.1",
       "name": "ATGENXlib",
-      "version": "2.3.0",
+      "version": "2.5.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -41765,11 +41769,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-11-07T18:01:36.898Z"
+        },
+        {
+          "version": "2.5.0",
+          "seen_at": "2026-11-14T18:01:25.863Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-03-18T07:23:14Z",
-      "last_seen_sha": "3d5c2ed83c9c",
+      "last_seen_sha": "a924ac0a894a",
       "author": "ATGenX",
       "maintainer": "Seif Emad <support@atgenx.com>",
       "sentence": "Modular runtime and ready-made components (buttons, sensors, LEDs, relays, buzzers, DHT, steppers and robots) for Arduino, ESP32 and Raspberry Pi Pico.",
@@ -41787,11 +41795,12 @@
         "ArduinoJson",
         "WebSockets",
         "Servo",
-        "ESP32Servo"
+        "ESP32Servo",
+        "FastAccelStepper"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.3.0.zip",
-      "size": 105331,
-      "previous_version": "2.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGENXlib-2.5.0.zip",
+      "size": 117630,
+      "previous_version": "2.3.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -143428,7 +143437,7 @@
       "repository_name": "codewitch-honey-crisis/gfx",
       "repository_url": "https://github.com/codewitch-honey-crisis/gfx",
       "name": "htcw_gfx",
-      "version": "2.11.1",
+      "version": "2.11.2",
       "version_history": [
         {
           "version": "2.2.17",
@@ -143537,11 +143546,15 @@
         {
           "version": "2.11.1",
           "seen_at": "2026-11-12T16:01:42.931Z"
+        },
+        {
+          "version": "2.11.2",
+          "seen_at": "2026-11-14T18:01:25.863Z"
         }
       ],
-      "release_count": 27,
+      "release_count": 28,
       "first_seen_at": "2026-04-18T08:09:23Z",
-      "last_seen_sha": "78991d9b1294",
+      "last_seen_sha": "a453e6e43f83",
       "author": "honey the codewitch",
       "maintainer": "honey the codewitch",
       "sentence": "Provides cross platform graphics",
@@ -143554,9 +143567,9 @@
         "htcw_data",
         "htcw_ml"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.11.1.zip",
-      "size": 931021,
-      "previous_version": "2.11.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codewitch-honey-crisis/htcw_gfx-2.11.2.zip",
+      "size": 931171,
+      "previous_version": "2.11.1",
       "github_stars": 140,
       "github_forks": 9,
       "github_language": "C++",
@@ -197579,6 +197592,40 @@
       "github_forks": 4,
       "github_language": "C++",
       "github_updated_at": "2025-09-03T08:39:25Z"
+    },
+    {
+      "repository_name": "modest-iot/modest-iot-nano-framework",
+      "repository_url": "https://github.com/modest-iot/modest-iot-nano-framework",
+      "name": "Modest-IoT-Nano-Framework",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-14T18:01:25.863Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-14T18:01:25.863Z",
+      "last_seen_sha": "73fd928aea1b",
+      "author": "Angel Velasquez",
+      "maintainer": "Angel Velasquez <avelasquezn@gmail.com>",
+      "sentence": "An event-driven, asynchronous IoT framework for ESP32, designed to build complex and responsive applications without the limitations of traditional procedural loops.",
+      "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "Apache-2.0",
+      "depends": [
+        "ArduinoJson",
+        "MQTT"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.0.0.zip",
+      "size": 438547,
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-14T15:28:50Z"
     },
     {
       "repository_name": "LUXROBO/MODI-Arduino",
@@ -334192,6 +334239,36 @@
       "download_url": "https://github.com/madhephaestus/WiiChuck"
     },
     {
+      "repository_name": "dineshpalsingh1989/Wilcoxon883MRTU",
+      "repository_url": "https://github.com/dineshpalsingh1989/Wilcoxon883MRTU",
+      "name": "Wilcoxon883MRTU",
+      "version": "0.1.0-beta.4",
+      "version_history": [
+        {
+          "version": "0.1.0-beta.4",
+          "seen_at": "2026-11-14T18:01:25.863Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-14T18:01:25.863Z",
+      "last_seen_sha": "623f1efddc3a",
+      "author": "Dineshpal Singh",
+      "maintainer": "Dineshpal Singh",
+      "sentence": "Beta ESP32 and RP2040/RP2350 Modbus RTU client for the Wilcoxon 883M sensor, with an optional Modbus TCP server for PLCs.",
+      "paragraph": "Independent RTU and TCP implementation with CRC validation, bounded register reads, read-only discovery, basic vibration and temperature helpers, and a multi-client Modbus TCP register server. Bench testing required.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32",
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dineshpalsingh1989/Wilcoxon883MRTU-0.1.0-beta.4.zip",
+      "size": 47954,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-14T14:04:03Z"
+    },
+    {
       "repository_name": "nruimveld7/WILLOW",
       "repository_url": "https://github.com/nruimveld7/WILLOW",
       "name": "WILLOW",
@@ -341690,7 +341767,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10221,
-    "total_dependencies": 5691
+    "with_github_metadata": 10223,
+    "total_dependencies": 5694
   }
 }

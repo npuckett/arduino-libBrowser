@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-14T07:01:34.447Z",
+  "enhanced_at": "2026-11-14T08:01:44.976Z",
   "total_libraries": 10425,
-  "index_etag": "W/\"6c27bd5c994a89f574fe7d1a359b42d4\"",
-  "index_last_modified": "Sat, 14 Nov 2026 07:00:18 GMT",
+  "index_etag": "W/\"7ddc583069577cc81c4ab6977590f82d\"",
+  "index_last_modified": "Sat, 14 Nov 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -313125,29 +313125,35 @@
       "repository_name": "vshymanskyy/TinyGSM",
       "repository_url": "https://github.com/vshymanskyy/TinyGSM",
       "name": "TinyGSM",
-      "version": "0.12.0",
+      "version": "0.13.0-rc.1",
       "version_history": [
         {
           "version": "0.12.0",
           "seen_at": "2026-06-26T08:49:19Z"
+        },
+        {
+          "version": "0.13.0-rc.1",
+          "seen_at": "2026-11-14T08:01:44.843Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-26T08:49:19Z",
-      "last_seen_sha": "708e97eeef09",
+      "last_seen_sha": "5908640c5202",
       "author": "Volodymyr Shymanskyy",
-      "maintainer": "Volodymyr Shymanskyy",
-      "sentence": "A small Arduino library for GPRS modules, that just works.",
+      "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
+      "sentence": "A small Arduino library for AT-command-based internet modules, that just works.",
       "paragraph": "Includes examples for Blynk, MQTT, File Download, and Web Client. Supports many GSM, LTE, and WiFi modules with AT command interfaces.",
       "category": "Communication",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/vshymanskyy/TinyGSM-0.13.0-rc.1.zip",
+      "size": 1815949,
+      "previous_version": "0.12.0",
       "github_stars": 2202,
       "github_forks": 791,
-      "github_updated_at": "2026-06-25T18:54:02Z",
-      "download_url": "https://github.com/vshymanskyy/TinyGSM",
-      "github_language": "C++"
+      "github_language": "C++",
+      "github_updated_at": "2026-06-25T18:54:02Z"
     },
     {
       "repository_name": "longtrinh/TinyGSM2",

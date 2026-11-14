@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-14T19:01:28.605Z",
-  "total_libraries": 10427,
-  "index_etag": "W/\"4d9c40dd4f459152130f9c4549d0f882\"",
-  "index_last_modified": "Sat, 14 Nov 2026 19:00:18 GMT",
+  "enhanced_at": "2026-11-14T20:01:37.491Z",
+  "total_libraries": 10429,
+  "index_etag": "W/\"7a271cbc8f72b80648e841d7896de85c\"",
+  "index_last_modified": "Sat, 14 Nov 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -211504,6 +211504,35 @@
       "github_updated_at": "2025-11-05T09:51:09Z"
     },
     {
+      "repository_name": "indian-aman/NLTP-Arduino",
+      "repository_url": "https://github.com/indian-aman/NLTP-Arduino",
+      "name": "NLTP",
+      "version": "1.6.0",
+      "version_history": [
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-11-14T20:01:34.761Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-14T20:01:34.761Z",
+      "last_seen_sha": "fcf2399ff9b9",
+      "author": "Amandeep Bains",
+      "maintainer": "Amandeep Bains",
+      "sentence": "Loss-resilient forward-secret encrypted UDP & ESP-NOW v1/v2 transport with LZ4 compression & 4.7 KB TX-only MCU profile.",
+      "paragraph": "Wire-compatible with the Python, JS, and Java nltp SDKs. Combines GF(2^8) Cauchy forward error correction, built-in zero-dependency LZ4 block compression, ultra-light 4.7 KB RAM NLTP_TX_ONLY sensor mode, reliable out-of-line reflex commands, BBR-style delivery-rate pacing, X25519+PSK forward-secret ChaCha20-Poly1305 encryption with 512-packet anti-replay protection, NAT keepalives, and zero-knowledge CGNAT relay rooms in zero-float C99.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/indian-aman/NLTP-1.6.0.zip",
+      "size": 70048,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-14T17:15:44Z"
+    },
+    {
       "repository_name": "PowerBroker2/NMEA_Parser",
       "repository_url": "https://github.com/PowerBroker2/NMEA_Parser",
       "name": "NMEA_Parser",
@@ -254563,6 +254592,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2025-12-19T06:32:56Z"
+    },
+    {
+      "repository_name": "aikopras/RSbusMaster",
+      "repository_url": "https://github.com/aikopras/RSbusMaster",
+      "name": "RSbusMaster",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-14T20:01:34.761Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-14T20:01:34.761Z",
+      "last_seen_sha": "1eaeb2e29aea",
+      "author": "Aiko Pras",
+      "maintainer": "Aiko Pras",
+      "sentence": "RS-Bus Master library for RP2040/RP2350",
+      "paragraph": "Generates RS-Bus polling cycles and receives feedback messages using PIO hardware.",
+      "category": "Device Control",
+      "architectures": [
+        "rp2040"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/aikopras/RSbusMaster-1.0.0.zip",
+      "size": 234970,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-14T15:25:18Z"
     },
     {
       "repository_name": "chrmlinux/rssRead",
@@ -341767,7 +341825,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10223,
+    "with_github_metadata": 10225,
     "total_dependencies": 5694
   }
 }

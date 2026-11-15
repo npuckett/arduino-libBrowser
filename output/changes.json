@@ -1,6 +1,190 @@
 {
-  "since": "2026-11-15T13:01:26.146Z",
+  "since": "2026-11-15T14:01:41.815Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "ARDUTECH0/ATGenXIOT",
+        "repository_url": "https://github.com/ARDUTECH0/ATGenXIOT",
+        "name": "ATGenX_Hub",
+        "version": "2.9.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-04-04T07:21:08Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-10-08T00:07:06.973Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-10-09T16:03:12.985Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-17T18:02:43.447Z"
+          },
+          {
+            "version": "2.7.0",
+            "seen_at": "2026-10-30T16:01:55.231Z"
+          },
+          {
+            "version": "2.8.0",
+            "seen_at": "2026-11-14T22:01:35.042Z"
+          },
+          {
+            "version": "2.9.0",
+            "seen_at": "2026-11-15T14:01:41.815Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-04-04T07:21:08Z",
+        "last_seen_sha": "e69cc5c99870",
+        "author": "Seif Emad / ARDUTECH0",
+        "maintainer": "Seif Emad <support@atgenx.com>",
+        "sentence": "Connect ESP32 / ESP8266 boards to the ATGenX IoT cloud: outputs, sensors, dashboard and automations.",
+        "paragraph": "Wi-Fi set from the ATGenX app (no network in the sketch). One MQTT connection for relays, LEDs, servos and sensors (DHT, PIR, LDR, analog, ultrasonic, sound) with non-blocking reconnect, online/offline status and board discovery.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson",
+          "DHT sensor library"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/ARDUTECH0/ATGenX_Hub-2.9.0.zip",
+        "size": 56509,
+        "previous_version": "2.8.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-03T08:35:15Z"
+      },
+      "old_version": "2.8.0",
+      "new_version": "2.9.0"
+    },
+    {
+      "library": {
+        "repository_name": "gavinlyonsrepo/display16_LTSM",
+        "repository_url": "https://github.com/gavinlyonsrepo/display16_LTSM",
+        "name": "display16_LTSM",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-04-04T07:22:16Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-15T14:01:41.815Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-04-04T07:22:16Z",
+        "last_seen_sha": "c375d373cc06",
+        "author": "Gavin Lyons <glyons66@hotmail.com>",
+        "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
+        "sentence": "Graphics library for 16-bit color displays for Arduino eco-system, C++",
+        "paragraph": "Features: Graphics, 1, 8, & 16 bit Bitmap support, 16 fonts included, Frame buffer mode, hardware and software SPI.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/display16_LTSM-1.1.0.zip",
+        "size": 139146,
+        "previous_version": "1.0.2",
+        "github_stars": 7,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-03T16:31:06Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "MartinDaCosta53/EncoderPIO",
+        "repository_url": "https://github.com/MartinDaCosta53/EncoderPIO",
+        "name": "EncoderPIO",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-08T16:01:27.502Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-15T14:01:41.815Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-08T16:01:27.502Z",
+        "last_seen_sha": "1b4c5f8786e2",
+        "author": "Martin Da Costa",
+        "maintainer": "Martin Da Costa <martindc.merg@gmail.com>",
+        "sentence": "Rotary Encoder for RP2040/2350",
+        "paragraph": "This Encoder library uses the PIO to valiidate input before passing it to the CPU.",
+        "category": "Device Control",
+        "architectures": [
+          "rp2040",
+          "rp2350"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/MartinDaCosta53/EncoderPIO-1.1.0.zip",
+        "size": 42271,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-08T12:43:52Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "hacktronics/STEMBuddy-Arduino",
+        "repository_url": "https://github.com/hacktronics/STEMBuddy-Arduino",
+        "name": "STEMBuddy",
+        "version": "1.1.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-03-25T07:28:21Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-11-15T08:01:54.109Z"
+          },
+          {
+            "version": "1.1.3",
+            "seen_at": "2026-11-15T14:01:41.815Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-03-25T07:28:21Z",
+        "last_seen_sha": "bbd3853ac482",
+        "author": "Hacktronics / CodeSkool",
+        "maintainer": "CodeSkool <support@codeskool.cc>",
+        "sentence": "Turn your phone into virtual hardware for ESP32 projects, with 50+ examples.",
+        "paragraph": "STEM Buddy lets your ESP32 drive virtual LEDs, LCD and OLED displays, 7-segment displays, LED matrices, servos, motors, buzzers, relays and an oscilloscope on the STEM Buddy Android app over Bluetooth LE. The app sends phone sensors, buttons, sliders, a joystick, a touchpad, RFID and NFC input back to your sketch, and adds notifications, SMS, speech, camera and internet access. Includes a getting-started guide, an API reference and 50+ examples.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/hacktronics/STEMBuddy-1.1.3.zip",
+        "size": 27117539,
+        "previous_version": "1.1.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-24T21:44:31Z"
+      },
+      "old_version": "1.1.2",
+      "new_version": "1.1.3"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-16T17:01:20.338Z",
+  "enhanced_at": "2026-11-16T18:01:44.950Z",
   "total_libraries": 10444,
-  "index_etag": "W/\"69b0c14e7d7cd2f9c1f66864896fc3fc\"",
-  "index_last_modified": "Mon, 16 Nov 2026 17:00:18 GMT",
+  "index_etag": "W/\"92bfd7d098bd72d48684dc00b15c9a64\"",
+  "index_last_modified": "Mon, 16 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -39176,26 +39176,31 @@
       "repository_name": "copida/AsyncHTTPClientLight",
       "repository_url": "https://github.com/copida/AsyncHTTPClientLight",
       "name": "AsyncHTTPClientLight",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2026-10-03T18:09:20.407Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-16T18:01:44.856Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-10-03T18:09:20.407Z",
-      "last_seen_sha": "42234851e817",
-      "author": "Davide",
-      "maintainer": "Copida Soft [copida.soft@gmail.com]",
-      "sentence": "Libreria HTTP asincrona e sincrona per ESP32, con supporto a redirect, chunked transfer, header personalizzati e logging.",
+      "last_seen_sha": "7e24140b3400",
+      "author": "Davide Lupi <copida.soft@gmail.com>",
+      "maintainer": "Davide Lupi <copida.soft@gmail.com>",
+      "sentence": "Asynchronous and synchronous HTTP library for ESP32, with support for redirects, chunked transfer, custom headers, and logging.",
       "paragraph": "Supporto GET/POST, HTTPS, redirect, retry, logging",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/copida/AsyncHTTPClientLight-2.0.0.zip",
-      "size": 39243,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/copida/AsyncHTTPClientLight-2.1.0.zip",
+      "size": 43902,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
@@ -94395,16 +94400,20 @@
       "repository_name": "BabatundeTsh/DWIN_LCD",
       "repository_url": "https://github.com/BabatundeTsh/DWIN_LCD",
       "name": "DWIN_LCD",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-16T00:04:56.126Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-16T18:01:44.856Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-16T00:04:56.126Z",
-      "last_seen_sha": "4a78850ba519",
+      "last_seen_sha": "1232d0d35bdd",
       "author": "Babatunde",
       "maintainer": "Babatunde <Babatunadg@gmail.com>",
       "sentence": "Arduino library for DWIN DGUS/T5L HMI displays with touch callbacks, text/color, and multi-curve plotting.",
@@ -94413,8 +94422,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/BabatundeTsh/DWIN_LCD-1.0.0.zip",
-      "size": 39913,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/BabatundeTsh/DWIN_LCD-1.0.1.zip",
+      "size": 42419,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -105853,7 +105863,7 @@
       "repository_name": "grantler-instruments/ESP-NOW-MIDI",
       "repository_url": "https://github.com/grantler-instruments/ESP-NOW-MIDI",
       "name": "ESP-NOW MIDI",
-      "version": "0.19.3",
+      "version": "0.19.4",
       "version_history": [
         {
           "version": "0.12.2",
@@ -105910,11 +105920,15 @@
         {
           "version": "0.19.3",
           "seen_at": "2026-11-12T18:01:55.729Z"
+        },
+        {
+          "version": "0.19.4",
+          "seen_at": "2026-11-16T18:01:44.856Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-06-26T08:51:32Z",
-      "last_seen_sha": "5b09816db69a",
+      "last_seen_sha": "408c6eac432f",
       "author": "Thomas Geissl",
       "maintainer": "Thomas Geissl <thomas.geissl@gmail.com>",
       "sentence": "Arduino library for sending and receiving MIDI messages via the ESP-NOW protocol.",
@@ -105926,9 +105940,9 @@
       "depends": [
         "Adafruit TinyUSB Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.19.3.zip",
-      "size": 557709,
-      "previous_version": "0.19.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/grantler-instruments/ESP_NOW_MIDI-0.19.4.zip",
+      "size": 566401,
+      "previous_version": "0.19.3",
       "github_stars": 35,
       "github_forks": 2,
       "github_language": "C++",
@@ -130201,7 +130215,7 @@
       "repository_name": "Johboh/GCMEncryption",
       "repository_url": "https://github.com/Johboh/GCMEncryption",
       "name": "GCMEncryption",
-      "version": "0.5.3",
+      "version": "1.0.0",
       "version_history": [
         {
           "version": "0.5.2",
@@ -130210,23 +130224,27 @@
         {
           "version": "0.5.3",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-16T18:01:44.856Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:17:45Z",
-      "last_seen_sha": "76ed19bbf3b1",
+      "last_seen_sha": "12ec0456b472",
       "author": "Johan Böhlin <github@johboh.dev>",
       "maintainer": "Johan Böhlin <github@johboh.dev>",
       "sentence": "Encrypt and decrypt payload using GCM",
-      "paragraph": "Encrypt and decrypt any buffer using GCM, for sending on the network like ESP-NOW or 802.15.4.",
+      "paragraph": "Encrypt and decrypt byte arrays using AES-GCM.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
       "license": "GPL-3.0-or-later",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/GCMEncryption-0.5.3.zip",
-      "size": 24633,
-      "previous_version": "0.5.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/GCMEncryption-1.0.0.zip",
+      "size": 31005,
+      "previous_version": "0.5.3",
       "github_stars": 1,
       "github_forks": 1,
       "github_language": "C++",

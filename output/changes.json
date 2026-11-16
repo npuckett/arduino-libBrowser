@@ -1,6 +1,238 @@
 {
-  "since": "2026-11-16T13:09:18.034Z",
+  "since": "2026-11-16T14:10:15.990Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "gavinlyonsrepo/GC9107_LTSM",
+        "repository_url": "https://github.com/gavinlyonsrepo/GC9107_LTSM",
+        "name": "GC9107_LTSM",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-05-08T07:31:26Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-16T14:10:15.990Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-08T07:31:26Z",
+        "last_seen_sha": "d0c8be3c9330",
+        "author": "Gavin Lyons <glyons66@hotmail.com>",
+        "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
+        "sentence": "Library to Support the GC9107 TFT LCD display",
+        "paragraph": "Fully featured, Graphics, 1, 8, & 16 bit Bitmap support, 16 fonts included, hardware and software SPI, requires the display16_LTSM library.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "display16_LTSM"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/GC9107_LTSM-1.1.0.zip",
+        "size": 37437,
+        "previous_version": "1.0.1",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-07T10:56:17Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "iotfiy-solutions/Gateway_Library",
+        "repository_url": "https://github.com/iotfiy-solutions/Gateway_Library",
+        "name": "IOTFIY",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-13T18:03:42.746Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-10-19T14:02:59.400Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-29T18:03:08.277Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-11-16T14:10:15.990Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-10-13T18:03:42.746Z",
+        "last_seen_sha": "6e7ed9a44db0",
+        "author": "Iotfiy Solutions",
+        "maintainer": "iotfiy.solution@gmail.com",
+        "sentence": "A library for IoT device connectivity using MQTT.",
+        "paragraph": "IOTFIY provides a simple way to create sensors and controls for IoT devices, handling MQTT communication, WiFi connections, and data formatting. Compatible with ESP8266 and ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "depends": [
+          "PubSubClient",
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/iotfiy-solutions/IOTFIY-1.0.3.zip",
+        "size": 25940,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-13T14:16:02Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "modest-iot/modest-iot-nano-framework",
+        "repository_url": "https://github.com/modest-iot/modest-iot-nano-framework",
+        "name": "Modest-IoT-Nano-Framework",
+        "version": "1.1.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-11-14T18:01:25.863Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-15T22:01:25.004Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-11-16T14:10:15.990Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-11-14T18:01:25.863Z",
+        "last_seen_sha": "1ff4516d65a7",
+        "author": "Angel Velasquez",
+        "maintainer": "Angel Velasquez <avelasquezn@gmail.com>",
+        "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
+        "paragraph": "Built on a robust object-oriented architecture, Modest IoT enforces Inversion of Control (IoC) and strict communication layer separation. It leverages thread-safe background task messaging queues driven natively by hardware timers, enabling you to build sophisticated, modular, and highly responsive IoT devices while focusing on application logic. Install directly from the Arduino IDE Library Manager or via GitHub.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "Apache-2.0",
+        "depends": [
+          "ArduinoJson",
+          "MQTT"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.1.1.zip",
+        "size": 563068,
+        "previous_version": "1.1.0",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-14T15:28:50Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "aikopras/Servo-TCA",
+        "repository_url": "https://github.com/aikopras/Servo-TCA",
+        "name": "Servo_TCA",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2025-07-21T16:03:23Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-16T14:10:15.990Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:03:23Z",
+        "last_seen_sha": "900744627c63",
+        "author": "Aiko Pras",
+        "maintainer": "Aiko Pras",
+        "sentence": "Servo library using TCA",
+        "paragraph": "High Quality (jitter free) servo library, using hardware PWM generation. Same methods as the standard servo library, but the class is called Servo6. For DxCore, MegaTinyCore and MegaCoreX.",
+        "category": "Device Control",
+        "architectures": [
+          "megaavr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/aikopras/Servo_TCA-2.0.0.zip",
+        "size": 3649668,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-06T20:16:41Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "gavinlyonsrepo/ST7735_LTSM",
+        "repository_url": "https://github.com/gavinlyonsrepo/ST7735_LTSM",
+        "name": "ST7735_LTSM",
+        "version": "1.1.2",
+        "version_history": [
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-01-02T20:56:53Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.2",
+            "seen_at": "2026-11-16T14:10:15.990Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-01-02T20:56:53Z",
+        "last_seen_sha": "42b2ff1a7925",
+        "author": "Gavin Lyons <glyons66@hotmail.com>",
+        "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
+        "sentence": "Library to Support the ST7735 TFT LCD display",
+        "paragraph": "Fully featured, Graphics, 1, 8, & 16 bit Bitmap support, 16 fonts included, hardware and software SPI, requires the display16_LTSM library.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "license": "GPL",
+        "depends": [
+          "display16_LTSM"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/ST7735_LTSM-1.1.2.zip",
+        "size": 41798,
+        "previous_version": "1.1.1",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-23T15:39:23Z"
+      },
+      "old_version": "1.1.1",
+      "new_version": "1.1.2"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-16T15:01:31.599Z",
-  "total_libraries": 10438,
-  "index_etag": "W/\"e033ff37561a8acc4ddd99226850f6f1\"",
-  "index_last_modified": "Mon, 16 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-16T16:02:00.845Z",
+  "total_libraries": 10444,
+  "index_etag": "W/\"69b0c14e7d7cd2f9c1f66864896fc3fc\"",
+  "index_last_modified": "Mon, 16 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -24283,6 +24283,35 @@
       "download_url": "https://github.com/Velleman/ALLBOT-lib"
     },
     {
+      "repository_name": "endurodave/Allocator",
+      "repository_url": "https://github.com/endurodave/Allocator",
+      "name": "Allocator",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "66d07e3956ce",
+      "author": "David Lafreniere",
+      "maintainer": "David Lafreniere <endurodave.dev@gmail.com>",
+      "sentence": "Fixed block memory allocator for C++: per-class operator new/delete from the heap or a static pool.",
+      "paragraph": "Give a class its own allocator with DECLARE_ALLOCATOR/IMPLEMENT_ALLOCATOR, or a compile-time static pool with AllocatorPool. Freed blocks are reused, so allocation is fast and the heap doesn't fragment. Needs the C++ standard library (not 8-bit AVR).",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/endurodave/Allocator-1.2.0.zip",
+      "size": 27508,
+      "github_stars": 40,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-13T13:34:47Z"
+    },
+    {
       "repository_name": "alloyrobotics/alloy-logger-arduino",
       "repository_url": "https://github.com/alloyrobotics/alloy-logger-arduino",
       "name": "AlloyStorage",
@@ -26000,7 +26029,7 @@
       "repository_name": "shorepine/amy",
       "repository_url": "https://github.com/shorepine/amy",
       "name": "AMY Synthesizer",
-      "version": "1.2.210",
+      "version": "1.2.211",
       "version_history": [
         {
           "version": "1.2.18",
@@ -26513,11 +26542,15 @@
         {
           "version": "1.2.210",
           "seen_at": "2026-11-09T02:02:48.945Z"
+        },
+        {
+          "version": "1.2.211",
+          "seen_at": "2026-11-16T16:01:52.706Z"
         }
       ],
-      "release_count": 128,
+      "release_count": 129,
       "first_seen_at": "2026-06-30T08:15:25Z",
-      "last_seen_sha": "666e6ff369a1",
+      "last_seen_sha": "e78185b90601",
       "author": "Brian Whitman <brian@variogram.com>, DAn Ellis <dan.ellis@gmail.com>",
       "maintainer": "Brian Whitman <brian@variogram.com>",
       "sentence": "AMY, the Music Synthesizer Library",
@@ -26538,9 +26571,9 @@
         "samd",
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.210.zip",
-      "size": 44645254,
-      "previous_version": "1.2.209",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shorepine/AMY_Synthesizer-1.2.211.zip",
+      "size": 44645398,
+      "previous_version": "1.2.210",
       "github_stars": 652,
       "github_forks": 49,
       "github_language": "C",
@@ -49413,6 +49446,35 @@
       "download_url": "https://github.com/RobTillaart/BL0942_SPI"
     },
     {
+      "repository_name": "sebaJoSt/blaeck",
+      "repository_url": "https://github.com/sebaJoSt/blaeck",
+      "name": "blaeck",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "d802f3b604de",
+      "author": "Sebastian Strobl",
+      "maintainer": "Sebastian Strobl <sebastian.strobl@gmx.de>",
+      "sentence": "Arduino data logging, monitoring and control via Serial or TCP.",
+      "paragraph": "Send sensor data for live monitoring and logging, expose controls, and report device state and events. A device describes its own interface, so a host can build a dashboard from it.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sebaJoSt/blaeck-1.0.0.zip",
+      "size": 338359,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-05T14:45:22Z"
+    },
+    {
       "repository_name": "sebaJoSt/BlaeckSerial",
       "repository_url": "https://github.com/sebaJoSt/BlaeckSerial",
       "name": "BlaeckSerial",
@@ -71436,6 +71498,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-06-27T02:44:08Z"
+    },
+    {
+      "repository_name": "endurodave/StateMachine",
+      "repository_url": "https://github.com/endurodave/StateMachine",
+      "name": "Cpp_StateMachine",
+      "version": "1.3.0",
+      "version_history": [
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "ba15a5dda351",
+      "author": "David Lafreniere",
+      "maintainer": "David Lafreniere <endurodave.dev@gmail.com>",
+      "sentence": "Compact table-driven finite state machine in C++, with guard, entry and exit actions and typed event data.",
+      "paragraph": "Derive from StateMachine and define states, events and transitions with macros; the state engine handles internal and external events, guard/entry/exit actions and event data (checked at run time with RTTI). Include Cpp_StateMachine.h. Needs the C++ standard library (not 8-bit AVR).",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/endurodave/Cpp_StateMachine-1.3.0.zip",
+      "size": 97842,
+      "github_stars": 183,
+      "github_forks": 47,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-13T12:50:50Z"
     },
     {
       "repository_name": "aserebryakov/arduino-cpp-components-library",
@@ -130073,16 +130164,20 @@
       "repository_name": "gavinlyonsrepo/GC9D01_LTSM",
       "repository_url": "https://github.com/gavinlyonsrepo/GC9D01_LTSM",
       "name": "GC9D01_LTSM",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.1.0",
           "seen_at": "2026-05-07T07:55:43Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-11-16T16:01:52.706Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-07T07:55:43Z",
-      "last_seen_sha": "d98a0ed03d19",
+      "last_seen_sha": "7f082e44b2b9",
       "author": "Gavin Lyons <glyons66@hotmail.com>",
       "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
       "sentence": "Library to Support the GC9D01 TFT LCD Round display",
@@ -130091,14 +130186,16 @@
       "architectures": [
         "*"
       ],
-      "github_stars": 4,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-05-06T10:40:28Z",
       "depends": [
         "display16_LTSM"
       ],
-      "download_url": "https://github.com/gavinlyonsrepo/GC9D01_LTSM"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/GC9D01_LTSM-1.1.1.zip",
+      "size": 225991,
+      "previous_version": "1.1.0",
+      "github_stars": 4,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-05-06T10:40:28Z"
     },
     {
       "repository_name": "Johboh/GCMEncryption",
@@ -166035,7 +166132,7 @@
       "repository_name": "tgtakaoka/libasm",
       "repository_url": "https://github.com/tgtakaoka/libasm",
       "name": "libasm",
-      "version": "1.6.75",
+      "version": "1.6.76",
       "version_history": [
         {
           "version": "1.6.63",
@@ -166088,11 +166185,15 @@
         {
           "version": "1.6.75",
           "seen_at": "2026-11-14T04:01:53.015Z"
+        },
+        {
+          "version": "1.6.76",
+          "seen_at": "2026-11-16T16:01:52.706Z"
         }
       ],
-      "release_count": 13,
+      "release_count": 14,
       "first_seen_at": "2026-06-30T08:50:14Z",
-      "last_seen_sha": "54cfd552b6ac",
+      "last_seen_sha": "5ad57e1f4f53",
       "author": "Tadashi G. Takaoka",
       "maintainer": "Tadashi G. Takaoka <tadashi.g.takaoka@gmail.com>",
       "sentence": "Cross assembler and disassembler for retro CPUs",
@@ -166102,9 +166203,9 @@
         "*"
       ],
       "license": "Apache-2.0",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.75.zip",
-      "size": 14188083,
-      "previous_version": "1.6.74",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tgtakaoka/libasm-1.6.76.zip",
+      "size": 14192551,
+      "previous_version": "1.6.75",
       "github_stars": 44,
       "github_forks": 3,
       "github_language": "Assembly",
@@ -241583,7 +241684,7 @@
       "repository_name": "pbudel/QuarkX",
       "repository_url": "https://github.com/pbudel/QuarkX",
       "name": "QuarkX",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.2",
@@ -241592,11 +241693,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-11-13T16:02:00.071Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-02T20:53:48Z",
-      "last_seen_sha": "4efe778c8974",
+      "last_seen_sha": "1b0afc65c3c0",
       "author": "Pierluigi Budel",
       "maintainer": "Pierluigi Budel",
       "sentence": "Minimal HTTP/HTTPS server for ESP32 boards using the Arduino framework.",
@@ -241605,9 +241710,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/pbudel/QuarkX-1.1.0.zip",
-      "size": 36536,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/pbudel/QuarkX-1.2.0.zip",
+      "size": 42007,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -247105,7 +247210,7 @@
       "repository_name": "remocons/remocon-arduino",
       "repository_url": "https://github.com/remocons/remocon-arduino",
       "name": "Remocon",
-      "version": "9.14.4",
+      "version": "9.14.5",
       "version_history": [
         {
           "version": "2.2.1",
@@ -247154,11 +247259,15 @@
         {
           "version": "9.14.4",
           "seen_at": "2026-11-16T12:03:18.612Z"
+        },
+        {
+          "version": "9.14.5",
+          "seen_at": "2026-11-16T16:01:52.706Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2025-07-21T16:26:09Z",
-      "last_seen_sha": "feb0191e8c8b",
+      "last_seen_sha": "ad4c25a50592",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
@@ -247178,9 +247287,9 @@
         "FastLED",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.14.4.zip",
-      "size": 1879995,
-      "previous_version": "9.14.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.14.5.zip",
+      "size": 1886622,
+      "previous_version": "9.14.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -282228,6 +282337,35 @@
       "size": 17279
     },
     {
+      "repository_name": "devansh8011-oss/SonicRuler",
+      "repository_url": "https://github.com/devansh8011-oss/SonicRuler",
+      "name": "SonicRuler",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "d0ca02e0f5de",
+      "author": "Devansh",
+      "maintainer": "Devansh",
+      "sentence": "Measure distance with an HC-SR04 ultrasonic sensor using one function.",
+      "paragraph": "One function, readDistance(), returns distance in mm, cm, m, km, inches or feet.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/devansh8011-oss/SonicRuler-1.0.0.zip",
+      "size": 6940,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-16T13:22:25Z"
+    },
+    {
       "repository_name": "Rupakpoddar/ESP32Sonos",
       "repository_url": "https://github.com/Rupakpoddar/ESP32Sonos",
       "name": "Sonos",
@@ -294930,6 +295068,39 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2025-08-03T15:22:49Z"
+    },
+    {
+      "repository_name": "endurodave/stl_allocator",
+      "repository_url": "https://github.com/endurodave/stl_allocator",
+      "name": "stl_allocator",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "d4980127270b",
+      "author": "David Lafreniere",
+      "maintainer": "David Lafreniere <endurodave.dev@gmail.com>",
+      "sentence": "std::allocator for C++ standard library containers that uses fixed blocks (xallocator) instead of the heap.",
+      "paragraph": "stl_allocator is a drop-in allocator for std::list, std::map, std::set, std::string, std::stringstream and more, with ready-made aliases (xlist, xmap, xset, xstring, xsstream, xqueue) and xmake_shared. Memory comes from xallocator's fixed blocks, so containers don't fragment the heap. Header only. Needs the C++ standard library (not 8-bit AVR).",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "xallocator",
+        "Allocator"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/endurodave/stl_allocator-1.2.0.zip",
+      "size": 36074,
+      "github_stars": 10,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-13T13:09:52Z"
     },
     {
       "repository_name": "dleval/STLED316S",
@@ -337131,6 +337302,38 @@
       "github_updated_at": "2026-05-01T08:05:49Z"
     },
     {
+      "repository_name": "endurodave/xallocator",
+      "repository_url": "https://github.com/endurodave/xallocator",
+      "name": "xallocator",
+      "version": "1.3.0",
+      "version_history": [
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-11-16T16:01:52.706Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-16T16:01:52.706Z",
+      "last_seen_sha": "b7fd32b80ee9",
+      "author": "David Lafreniere",
+      "maintainer": "David Lafreniere <endurodave.dev@gmail.com>",
+      "sentence": "Fixed block replacement for malloc/free and new/delete in C++: no heap fragmentation, constant-time allocation.",
+      "paragraph": "xmalloc, xfree, xrealloc and xcalloc hand out power-of-two blocks kept for reuse, and the XALLOCATOR macro routes a class's new/delete to them. Thread-safe with std::mutex or, through build options, FreeRTOS, ThreadX, Zephyr and CMSIS-RTOS2 locks. Built on the Allocator library. Needs the C++ standard library (not 8-bit AVR).",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Allocator"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/endurodave/xallocator-1.3.0.zip",
+      "size": 39612,
+      "github_stars": 9,
+      "github_forks": 2,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-13T13:31:12Z"
+    },
+    {
       "repository_name": "cDnNeMeSiS/xbee_serial_array",
       "repository_url": "https://github.com/cDnNeMeSiS/xbee_serial_array",
       "name": "xbee_serial_array",
@@ -342297,7 +342500,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10234,
-    "total_dependencies": 5695
+    "with_github_metadata": 10240,
+    "total_dependencies": 5698
   }
 }

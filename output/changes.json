@@ -1,6 +1,54 @@
 {
-  "since": "2026-11-17T21:01:24.558Z",
+  "since": "2026-11-17T22:01:59.814Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "yu911517778-a11y/ErdiLRF",
+        "repository_url": "https://github.com/yu911517778-a11y/ErdiLRF",
+        "name": "ErdiLRF",
+        "version": "0.1.8",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-09-16T22:02:22.244Z"
+          },
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-10-05T10:05:51.607Z"
+          },
+          {
+            "version": "0.1.4",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "0.1.8",
+            "seen_at": "2026-11-17T22:01:59.814Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-09-16T22:02:22.244Z",
+        "last_seen_sha": "8c1e60c02376",
+        "author": "ERDI TECH LTD <tommy@erdimail.com>",
+        "maintainer": "ERDI TECH LTD <tommy@erdimail.com>",
+        "sentence": "Driver for ERDI 905 nm laser rangefinder modules over UART.",
+        "paragraph": "Supports both published ERDI protocol families: the 8-byte 55 AA command/response protocol (LR/LRF-A1/SPD1200 series) and the free-running 5C data-frame protocol (LRF-H and LRF-VB series). Works with HardwareSerial or SoftwareSerial. Every constant is transcribed from the manufacturer manual; per-model units are respected (the VB series reports millimetres, the H series centimetres).",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/yu911517778-a11y/ErdiLRF-0.1.8.zip",
+        "size": 18785,
+        "previous_version": "0.1.4",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-16T18:19:21Z"
+      },
+      "old_version": "0.1.4",
+      "new_version": "0.1.8"
+    }
+  ],
   "removed_libraries": []
 }

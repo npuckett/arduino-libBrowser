@@ -1,6 +1,78 @@
 {
-  "since": "2026-11-17T13:01:56.033Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-17T14:01:51.525Z",
+  "new_libraries": [
+    {
+      "repository_name": "airuyoshii-ai/makotalk-arduino",
+      "repository_url": "https://github.com/airuyoshii-ai/makotalk-arduino",
+      "name": "MakoTalk",
+      "version": "2.1.2",
+      "version_history": [
+        {
+          "version": "2.1.2",
+          "seen_at": "2026-11-17T14:01:51.525Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-17T14:01:51.525Z",
+      "last_seen_sha": "94dfc0169150",
+      "author": "Makoto",
+      "maintainer": "Makoto",
+      "sentence": "ESP32-S3で動く、著作情報付き辞書を使ったかな入力の日本語音声合成。",
+      "paragraph": "ライブラリと辞書を読み込み、I2Sピンを指定してmspeakで発話します。WAV転送・ネット接続不要。MKTV v3、CRC検査、初回の音声クレジット告知に対応。",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32"
+      ],
+      "license": "LicenseRef-MakoTalk-Community-1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/airuyoshii-ai/MakoTalk-2.1.2.zip",
+      "size": 1578108,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-10T06:45:19Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "rosduino/rosduino_arduino",
+        "repository_url": "https://github.com/rosduino/rosduino_arduino",
+        "name": "RosDuino",
+        "version": "0.2.0",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-11-09T16:01:42.830Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-11-17T14:01:51.525Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-09T16:01:42.830Z",
+        "last_seen_sha": "a36b0aa178bc",
+        "author": "RosDuino Contributors",
+        "maintainer": "RosDuino Contributors",
+        "sentence": "Lightweight ROS 2 topics and services over serial for Arduino microcontrollers.",
+        "paragraph": "Connects Arduino boards (Nano, Uno, Micro, Mega 2560, Due) to ROS 2 via rosduino_agent over UART or USB-CDC using COBS framing and XCDR1 serialization without dynamic memory allocation.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "sam",
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/rosduino/RosDuino-0.2.0.zip",
+        "size": 172221,
+        "previous_version": "0.1.0",
+        "github_stars": 4,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-09T12:50:20Z"
+      },
+      "old_version": "0.1.0",
+      "new_version": "0.2.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-17T05:01:42.381Z",
+  "enhanced_at": "2026-11-17T06:03:15.432Z",
   "total_libraries": 10445,
-  "index_etag": "W/\"28a70cfbb5d10a7d05d39787630cd6fa\"",
-  "index_last_modified": "Tue, 17 Nov 2026 05:00:18 GMT",
+  "index_etag": "W/\"b8bc6e26e9404c67f4b0192325004abb\"",
+  "index_last_modified": "Tue, 17 Nov 2026 06:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -247320,7 +247320,7 @@
       "repository_name": "remocons/remocon-arduino",
       "repository_url": "https://github.com/remocons/remocon-arduino",
       "name": "Remocon",
-      "version": "9.14.5",
+      "version": "9.14.6",
       "version_history": [
         {
           "version": "2.2.1",
@@ -247373,11 +247373,15 @@
         {
           "version": "9.14.5",
           "seen_at": "2026-11-16T16:01:52.706Z"
+        },
+        {
+          "version": "9.14.6",
+          "seen_at": "2026-11-17T06:03:15.321Z"
         }
       ],
-      "release_count": 13,
+      "release_count": 14,
       "first_seen_at": "2025-07-21T16:26:09Z",
-      "last_seen_sha": "ad4c25a50592",
+      "last_seen_sha": "5ef7c0a31215",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
@@ -247397,9 +247401,9 @@
         "FastLED",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.14.5.zip",
-      "size": 1886622,
-      "previous_version": "9.14.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.14.6.zip",
+      "size": 1887472,
+      "previous_version": "9.14.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -302436,7 +302440,7 @@
       "repository_name": "braydenanderson2014/ArduinoTimer",
       "repository_url": "https://github.com/braydenanderson2014/ArduinoTimer",
       "name": "SuperTimers",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.1-BETA",
@@ -302445,15 +302449,19 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-17T06:03:15.321Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:35:53Z",
-      "last_seen_sha": "56fca97c30cb",
+      "last_seen_sha": "6d4a86834ab9",
       "author": "Brayden Anderson",
       "maintainer": "Brayden Anderson <braydenanderson2014@gmail.com>",
-      "sentence": "A Simple Timer Implementation that allows you to set a time and then check if the time has passed. You can set time in millis or minutes.",
-      "paragraph": "A Simple Timer Implementation that allows you to set a time and then check if the time has passed. It support Adafruits RTCLib Library. You can set time in millis or minutes. With This Library you will have functions like setTargetMinutes(), start(), stop(), etc. This library is very useful for any project that requires a timer.",
+      "sentence": "A Simple non-blocking Timer for Arduino with multi-RTC support (DS3231, DS1307, DS1302, PCF8523, PCF8563, MCP7940N).",
+      "paragraph": "Supports start/stop/pause/resume, target duration checks, auto-scaling remainingTime(), and raw remainingTimeMillis(). Works standalone with millis() or with a supported RTC when useRTCModule is defined before including the header. Select the RTC chip with RTC_CHIP_DS3231 (default), RTC_CHIP_DS1307, RTC_CHIP_PCF8523, RTC_CHIP_PCF8563, RTC_CHIP_MCP7940, or RTC_CHIP_DS1302.",
       "category": "Timing",
       "architectures": [
         "*"
@@ -302461,9 +302469,9 @@
       "depends": [
         "RTClib"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/braydenanderson2014/SuperTimers-1.0.0.zip",
-      "size": 10581,
-      "previous_version": "1.0.1-BETA",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/braydenanderson2014/SuperTimers-1.2.0.zip",
+      "size": 385669,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",

@@ -1,6 +1,48 @@
 {
-  "since": "2026-11-17T15:01:44.035Z",
+  "since": "2026-11-17T16:01:33.323Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "gavinlyonsrepo/ST7789_LTSM",
+        "repository_url": "https://github.com/gavinlyonsrepo/ST7789_LTSM",
+        "name": "ST7789_LTSM",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-01-02T20:56:37Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-17T16:01:33.323Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-01-02T20:56:37Z",
+        "last_seen_sha": "af33af335af8",
+        "author": "Gavin Lyons <glyons66@hotmail.com>",
+        "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
+        "sentence": "Library to Support the ST7789 TFT LCD display",
+        "paragraph": "Fully featured, Graphics, 1, 8, & 16 bit Bitmap support, 16 fonts included, hardware and software SPI, requires the display16_LTSM library.",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "display16_LTSM"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/ST7789_LTSM-1.0.1.zip",
+        "size": 31360,
+        "previous_version": "1.0.0",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-04-03T16:30:19Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

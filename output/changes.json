@@ -1,6 +1,139 @@
 {
-  "since": "2026-11-16T23:01:46.363Z",
+  "since": "2026-11-17T00:04:19.671Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "earlephilhower/ESP8266Audio",
+        "repository_url": "https://github.com/earlephilhower/ESP8266Audio",
+        "name": "ESP8266Audio",
+        "version": "2.4.3",
+        "version_history": [
+          {
+            "version": "2.4.1",
+            "seen_at": "2026-06-26T08:25:47Z"
+          },
+          {
+            "version": "2.4.3",
+            "seen_at": "2026-11-17T00:04:19.671Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-26T08:25:47Z",
+        "last_seen_sha": "557d065bb845",
+        "author": "Earle F. Philhower, III",
+        "maintainer": "Earle F. Philhower, III",
+        "sentence": "Audio file and I2S sound playing routines for ESP8266, ESP32, and Raspberry Pi Pico RP2040",
+        "paragraph": "Decode compressed MP3, AAC, FLAC, Screamtracker MOD, MIDI, RTTL, TI Talkie, and WAV and play on an I2S DAC or a software-driven delta-sigma DAC and 1-transistor amplifier.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "esp8266",
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/earlephilhower/ESP8266Audio-2.4.3.zip",
+        "size": 8653661,
+        "previous_version": "2.4.1",
+        "github_stars": 2365,
+        "github_forks": 471,
+        "github_language": "C",
+        "github_updated_at": "2026-06-25T12:54:21Z"
+      },
+      "old_version": "2.4.1",
+      "new_version": "2.4.3"
+    },
+    {
+      "library": {
+        "repository_name": "okalachev/flixperiph",
+        "repository_url": "https://github.com/okalachev/flixperiph",
+        "name": "FlixPeriph",
+        "version": "1.14.0",
+        "version_history": [
+          {
+            "version": "1.10.4",
+            "seen_at": "2026-06-09T08:37:43Z"
+          },
+          {
+            "version": "1.11.0",
+            "seen_at": "2026-08-03T14:58:49.725Z"
+          },
+          {
+            "version": "1.12.1",
+            "seen_at": "2026-08-11T02:39:54.199Z"
+          },
+          {
+            "version": "1.13.0",
+            "seen_at": "2026-11-07T20:01:29.993Z"
+          },
+          {
+            "version": "1.14.0",
+            "seen_at": "2026-11-17T00:04:19.671Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-09T08:37:43Z",
+        "last_seen_sha": "abd38358f360",
+        "author": "Oleg Kalachev <okalachev@gmail.com>",
+        "maintainer": "Oleg Kalachev <okalachev@gmail.com>",
+        "sentence": "Arduino drivers for the Flix drone peripherals.",
+        "paragraph": "Flix is open source ESP32-based quadcopter made from scratch.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/okalachev/FlixPeriph-1.14.0.zip",
+        "size": 167556,
+        "previous_version": "1.13.0",
+        "github_stars": 14,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T00:05:46Z"
+      },
+      "old_version": "1.13.0",
+      "new_version": "1.14.0"
+    },
+    {
+      "library": {
+        "repository_name": "mcci-catena/arduino-lmic",
+        "repository_url": "https://github.com/mcci-catena/arduino-lmic",
+        "name": "MCCI LoRaWAN LMIC library",
+        "version": "6.1.0",
+        "version_history": [
+          {
+            "version": "6.0.1",
+            "seen_at": "2026-05-12T08:24:17Z"
+          },
+          {
+            "version": "6.0.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "6.1.0",
+            "seen_at": "2026-11-17T00:04:19.671Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-05-12T08:24:17Z",
+        "last_seen_sha": "222c504c004a",
+        "author": "IBM, Matthijs Kooijman, Terry Moore, ChaeHee Won, Frank Rose, Tristan Webber, Benjamin Freeman, Dhinesh Kumar, Pontus Oldberg",
+        "maintainer": "Terry Moore <tmm@mcci.com>",
+        "sentence": "Arduino port of the LMIC (LoraWAN-MAC-in-C) framework provided by IBM.",
+        "paragraph": "Supports LoRaWAN 1.0.2/1.0.3 Class A and Class C devices implemented using the Semtech SX1272/SX1276/SX1261/SX1262 (including HopeRF RFM92/RFM95 and Murata modules). Support for EU868, US, AU, AS923, KR and IN regional plans. Supports FSK. The Class B code is untested and is not compiled by default. Various enhancements and bug fixes from MCCI and The Things Network New York. Original IBM URL http://www.research.ibm.com/labs/zurich/ics/lrsc/lmic.html.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mcci-catena/MCCI_LoRaWAN_LMIC_library-6.1.0.zip",
+        "size": 4803518,
+        "previous_version": "6.0.1",
+        "github_stars": 682,
+        "github_forks": 233,
+        "github_language": "C",
+        "github_updated_at": "2026-06-25T09:33:33Z"
+      },
+      "old_version": "6.0.1",
+      "new_version": "6.1.0"
+    }
+  ],
   "removed_libraries": []
 }

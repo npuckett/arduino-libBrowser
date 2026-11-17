@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-17T09:01:41.544Z",
-  "total_libraries": 10445,
-  "index_etag": "W/\"a621776e9e53a1d27085b916c74ec444\"",
-  "index_last_modified": "Tue, 17 Nov 2026 09:00:18 GMT",
+  "enhanced_at": "2026-11-17T10:02:02.030Z",
+  "total_libraries": 10446,
+  "index_etag": "W/\"bbf7f0989c22113537dd0c3ed8e8acd0\"",
+  "index_last_modified": "Tue, 17 Nov 2026 10:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -80070,6 +80070,39 @@
       "download_url": "https://github.com/Aryan-git-byte/Devatext"
     },
     {
+      "repository_name": "nahomyirga787-spec/DevEBox_ILI9341_Parallel",
+      "repository_url": "https://github.com/nahomyirga787-spec/DevEBox_ILI9341_Parallel",
+      "name": "DevEBox_ILI9341_Parallel",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-17T10:02:00.613Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-17T10:02:00.613Z",
+      "last_seen_sha": "b8431ae2d357",
+      "author": "Nahom Yirga",
+      "maintainer": "Nahom Yirga",
+      "sentence": "16-bit parallel ILI9341 display driver for DevEBox TFTs.",
+      "paragraph": "An STM32-focused Arduino library providing an Adafruit_GFX-compatible 320x240 ILI9341 parallel display driver, BMP and baseline JPEG decoding, image scaling, RGB565 rendering, and SdFat-based microSD file browsing.",
+      "category": "Display",
+      "architectures": [
+        "stm32"
+      ],
+      "depends": [
+        "Adafruit GFX Library",
+        "SdFat"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/nahomyirga787-spec/DevEBox_ILI9341_Parallel-1.0.0.zip",
+      "size": 41944,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-11T10:16:43Z"
+    },
+    {
       "repository_name": "RobTillaart/DEVFULL",
       "repository_url": "https://github.com/RobTillaart/DEVFULL",
       "name": "DEVFULL",
@@ -130205,7 +130238,7 @@
       "repository_name": "gavinlyonsrepo/GC9D01_LTSM",
       "repository_url": "https://github.com/gavinlyonsrepo/GC9D01_LTSM",
       "name": "GC9D01_LTSM",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.1.0",
@@ -130214,11 +130247,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-11-16T16:01:52.706Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-11-17T10:02:00.613Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-07T07:55:43Z",
-      "last_seen_sha": "7f082e44b2b9",
+      "last_seen_sha": "84eac574fd13",
       "author": "Gavin Lyons <glyons66@hotmail.com>",
       "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
       "sentence": "Library to Support the GC9D01 TFT LCD Round display",
@@ -130230,9 +130267,9 @@
       "depends": [
         "display16_LTSM"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/GC9D01_LTSM-1.1.1.zip",
-      "size": 225991,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/GC9D01_LTSM-1.1.2.zip",
+      "size": 226021,
+      "previous_version": "1.1.1",
       "github_stars": 4,
       "github_forks": 0,
       "github_language": "C++",
@@ -327293,16 +327330,20 @@
       "repository_name": "uutzinger/Arduino_MPR",
       "repository_url": "https://github.com/uutzinger/Arduino_MPR",
       "name": "UUtzinger_MPR",
-      "version": "1.0.0",
+      "version": "1.3.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-13T16:02:00.071Z"
+        },
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-11-17T10:02:00.613Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-13T16:02:00.071Z",
-      "last_seen_sha": "ef98d7581a00",
+      "last_seen_sha": "ba0c397836a5",
       "author": "Urs Utzinger",
       "maintainer": "Urs Utzinger",
       "sentence": "Driver for Honeywell MPR / MPRLS I2C pressure sensors with EOC interrupt, reset and recovery.",
@@ -327314,8 +327355,9 @@
       "depends": [
         "UUtzinger_RingBuffer"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_MPR-1.0.0.zip",
-      "size": 1844832,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_MPR-1.3.0.zip",
+      "size": 1858294,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -327325,16 +327367,20 @@
       "repository_name": "uutzinger/Arduino_RingBuffer",
       "repository_url": "https://github.com/uutzinger/Arduino_RingBuffer",
       "name": "UUtzinger_RingBuffer",
-      "version": "2.0.1",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "2.0.1",
           "seen_at": "2026-03-23T08:15:33Z"
+        },
+        {
+          "version": "2.1.1",
+          "seen_at": "2026-11-17T10:02:00.613Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-23T08:15:33Z",
-      "last_seen_sha": "4680c3d1e5c0",
+      "last_seen_sha": "23fc4a1bf052",
       "author": "Urs Utzinger",
       "maintainer": "Urs Utzinger",
       "sentence": "Library for universal RingBuffer",
@@ -327343,11 +327389,13 @@
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/uutzinger/UUtzinger_RingBuffer-2.1.1.zip",
+      "size": 14508,
+      "previous_version": "2.0.1",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-03-22T14:17:32Z",
-      "download_url": "https://github.com/uutzinger/RingBuffer"
+      "github_updated_at": "2026-03-22T14:17:32Z"
     },
     {
       "repository_name": "levkovigor/UWB_DW1000_DW3000",
@@ -342626,7 +342674,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10241,
-    "total_dependencies": 5698
+    "with_github_metadata": 10242,
+    "total_dependencies": 5700
   }
 }

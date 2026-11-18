@@ -1,6 +1,346 @@
 {
-  "since": "2026-11-18T17:01:32.393Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-18T18:01:37.059Z",
+  "new_libraries": [
+    {
+      "repository_name": "bonezegei/Bonezegei_AHT30",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_AHT30",
+      "name": "Bonezegei_AHT30",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-18T18:01:37.059Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T18:01:37.059Z",
+      "last_seen_sha": "63d1cea5b0ac",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Jofel Batutay <jofelbatutay@gmail.com>",
+      "sentence": "Simple library for AHT30 temperature and humidity sensor over I2C.",
+      "paragraph": "A library for interfacing with the AHT30 environmental sensor using I2C communication.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_AHT30-1.0.0.zip",
+      "size": 4635,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T14:15:50Z"
+    },
+    {
+      "repository_name": "jonnybergdahl/Arduino_JBHaMqttDiscovery_Library",
+      "repository_url": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery_Library",
+      "name": "JBHaMqttDiscovery",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-18T18:01:37.059Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T18:01:37.059Z",
+      "last_seen_sha": "a7f8fdc00c69",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl",
+      "sentence": "Home Assistant MQTT device discovery for ESP8266 and ESP32.",
+      "paragraph": "Easily register sensors, switches, binary sensors, buttons, numbers, selects, texts, lights and covers in Home Assistant via MQTT device discovery. Transport-agnostic design supports PubSubClient, espMqttClient and AsyncMqttClient.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "depends": [
+        "ArduinoJson",
+        "JBLogger"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.0.0.zip",
+      "size": 98475,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T14:08:30Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "Johboh/EspNowNetworkHostDriver",
+        "repository_url": "https://github.com/Johboh/EspNowNetworkHostDriver",
+        "name": "EspNowNetworkHostDriver",
+        "version": "0.7.8",
+        "version_history": [
+          {
+            "version": "0.7.6",
+            "seen_at": "2025-07-21T16:17:45Z"
+          },
+          {
+            "version": "0.7.7",
+            "seen_at": "2026-11-17T18:01:50.349Z"
+          },
+          {
+            "version": "0.7.8",
+            "seen_at": "2026-11-18T18:01:37.059Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-07-21T16:17:45Z",
+        "last_seen_sha": "764db1780e32",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Host driver code for the EspNowNetwork",
+        "paragraph": "See https://github.com/Johboh/EspNowNetwork for more details.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "GPL-3.0-or-later",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/EspNowNetworkHostDriver-0.7.8.zip",
+        "size": 51374,
+        "previous_version": "0.7.7",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-07-23T21:42:16Z"
+      },
+      "old_version": "0.7.7",
+      "new_version": "0.7.8"
+    },
+    {
+      "library": {
+        "repository_name": "Johboh/EspNowNetworkNode",
+        "repository_url": "https://github.com/Johboh/EspNowNetworkNode",
+        "name": "EspNowNetworkNode",
+        "version": "0.8.5",
+        "version_history": [
+          {
+            "version": "0.8.3",
+            "seen_at": "2025-08-19T07:40:24Z"
+          },
+          {
+            "version": "0.8.4",
+            "seen_at": "2026-11-16T22:01:13.600Z"
+          },
+          {
+            "version": "0.8.5",
+            "seen_at": "2026-11-18T18:01:37.059Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2025-08-19T07:40:24Z",
+        "last_seen_sha": "33e738cda154",
+        "author": "Johan Böhlin <github@johboh.dev>",
+        "maintainer": "Johan Böhlin <github@johboh.dev>",
+        "sentence": "Node code for the EspNowNetwork",
+        "paragraph": "See https://github.com/Johboh/EspNowNetwork for more details.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "GPL-3.0-or-later",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Johboh/EspNowNetworkNode-0.8.5.zip",
+        "size": 38942,
+        "previous_version": "0.8.4",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-08-19T04:39:11Z"
+      },
+      "old_version": "0.8.4",
+      "new_version": "0.8.5"
+    },
+    {
+      "library": {
+        "repository_name": "Xylopyrographer/LiteLED",
+        "repository_url": "https://github.com/Xylopyrographer/LiteLED",
+        "name": "LiteLED",
+        "version": "3.3.1",
+        "version_history": [
+          {
+            "version": "3.2.0",
+            "seen_at": "2026-06-17T09:27:37Z"
+          },
+          {
+            "version": "3.3.0",
+            "seen_at": "2026-11-17T04:01:52.536Z"
+          },
+          {
+            "version": "3.3.1",
+            "seen_at": "2026-11-18T18:01:37.059Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-17T09:27:37Z",
+        "last_seen_sha": "52307424afd6",
+        "author": "Xylopyrographer",
+        "maintainer": "Xylopyrographer <xylopyrographer@gmail.com>",
+        "sentence": "High performance library for driving one or more WS2812 and other types of RGB LED strips via the RMT or PARLIO peripheral.",
+        "paragraph": "Provides hardware-accelerated control using either RMT or the PARLIO parallel-IO peripheral. Supports multiple independent strips; arbitrary colour orders; DMA transfers; interrupt priority; PSRAM buffer allocation; and driving multiple strips in sync. Requires an ESP32 SoC with an RMT and/or a PARLIO peripheral. Drives RGBW strips with auto white-channel calculation.",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Xylopyrographer/LiteLED-3.3.1.zip",
+        "size": 110704,
+        "previous_version": "3.3.0",
+        "github_stars": 30,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-17T06:48:39Z"
+      },
+      "old_version": "3.3.0",
+      "new_version": "3.3.1"
+    },
+    {
+      "library": {
+        "repository_name": "256dpi/arduino-mqtt",
+        "repository_url": "https://github.com/256dpi/arduino-mqtt",
+        "name": "MQTT",
+        "version": "2.6.0",
+        "version_history": [
+          {
+            "version": "2.5.3",
+            "seen_at": "2026-06-20T08:18:29Z"
+          },
+          {
+            "version": "2.6.0",
+            "seen_at": "2026-11-18T18:01:37.059Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-20T08:18:29Z",
+        "last_seen_sha": "d8b1a29418ac",
+        "author": "Joel Gaehwiler <joel.gaehwiler@gmail.com>",
+        "maintainer": "Joel Gaehwiler <joel.gaehwiler@gmail.com>",
+        "sentence": "MQTT library for Arduino",
+        "paragraph": "This library bundles the lwmqtt client and adds a thin wrapper to get an Arduino like API.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/256dpi/MQTT-2.6.0.zip",
+        "size": 48610,
+        "previous_version": "2.5.3",
+        "github_stars": 1093,
+        "github_forks": 244,
+        "github_language": "C",
+        "github_updated_at": "2026-06-19T22:27:20Z"
+      },
+      "old_version": "2.5.3",
+      "new_version": "2.6.0"
+    },
+    {
+      "library": {
+        "repository_name": "remocons/remocon-arduino",
+        "repository_url": "https://github.com/remocons/remocon-arduino",
+        "name": "Remocon",
+        "version": "9.22.0",
+        "version_history": [
+          {
+            "version": "2.2.1",
+            "seen_at": "2025-07-21T16:26:09Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-09-27T14:02:02.725Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-10-02T18:03:39.778Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-10-12T08:17:42.716Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-10-28T18:03:02.749Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-11-02T20:01:30.373Z"
+          },
+          {
+            "version": "9.6.0",
+            "seen_at": "2026-11-10T22:01:59.505Z"
+          },
+          {
+            "version": "9.12.0",
+            "seen_at": "2026-11-11T18:01:49.486Z"
+          },
+          {
+            "version": "9.13.0",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "9.14.2",
+            "seen_at": "2026-11-15T16:01:36.997Z"
+          },
+          {
+            "version": "9.14.3",
+            "seen_at": "2026-11-15T18:01:37.230Z"
+          },
+          {
+            "version": "9.14.4",
+            "seen_at": "2026-11-16T12:03:18.612Z"
+          },
+          {
+            "version": "9.14.5",
+            "seen_at": "2026-11-16T16:01:52.706Z"
+          },
+          {
+            "version": "9.14.6",
+            "seen_at": "2026-11-17T06:03:15.321Z"
+          },
+          {
+            "version": "9.14.8",
+            "seen_at": "2026-11-17T12:02:11.543Z"
+          },
+          {
+            "version": "9.21.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          },
+          {
+            "version": "9.22.0",
+            "seen_at": "2026-11-18T18:01:37.059Z"
+          }
+        ],
+        "release_count": 17,
+        "first_seen_at": "2025-07-21T16:26:09Z",
+        "last_seen_sha": "5eadd4c3c774",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+        "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "IOSignal",
+          "Crypto",
+          "Boho",
+          "Bounce2",
+          "U8g2",
+          "IRremote",
+          "WiFiManager",
+          "FastLED",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.22.0.zip",
+        "size": 1956254,
+        "previous_version": "9.21.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2025-03-09T07:25:17Z"
+      },
+      "old_version": "9.21.0",
+      "new_version": "9.22.0"
+    }
+  ],
   "removed_libraries": []
 }

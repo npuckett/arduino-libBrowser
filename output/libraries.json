@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-18T21:01:30.080Z",
-  "total_libraries": 10455,
-  "index_etag": "W/\"1f8fa7bac922911bc0bfc1869c1a464a\"",
-  "index_last_modified": "Wed, 18 Nov 2026 21:00:18 GMT",
+  "enhanced_at": "2026-11-18T22:02:15.252Z",
+  "total_libraries": 10456,
+  "index_etag": "W/\"53479762d6d751243124a0e0aa69ba69\"",
+  "index_last_modified": "Wed, 18 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -71204,6 +71204,36 @@
       "github_language": "C",
       "github_updated_at": "2025-12-29T07:29:48Z",
       "download_url": "https://github.com/jensh/CopyThreads"
+    },
+    {
+      "repository_name": "lxcor/cordial-ino",
+      "repository_url": "https://github.com/lxcor/cordial-ino",
+      "name": "Cordial",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-18T22:02:13.797Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T22:02:13.797Z",
+      "last_seen_sha": "c0c13b9d48b8",
+      "author": "Alexandre Scozzafave Alves",
+      "maintainer": "Alexandre Scozzafave Alves",
+      "sentence": "The Cordial clock: time of day in Cordial hours, minutes, seconds and crons.",
+      "paragraph": "Converts the time of day to Cordial time (26 hours of 52 minutes of 52 seconds, seven crons to a second, the day starting at noon) with integer arithmetic only, and counts oscillator cycles into crons with an exact remainder, for a clock built on a 32.768 kHz crystal.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "license": "Apache-2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/lxcor/Cordial-0.1.0.zip",
+      "size": 12108,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T15:30:31Z"
     },
     {
       "repository_name": "CoreX-IoT/corex-firmware",
@@ -155496,16 +155526,20 @@
       "repository_name": "jonnybergdahl/Arduino_JBHaMqttDiscovery_Library",
       "repository_url": "https://github.com/jonnybergdahl/Arduino_JBHaMqttDiscovery_Library",
       "name": "JBHaMqttDiscovery",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-18T18:01:37.059Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-18T22:02:13.797Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-18T18:01:37.059Z",
-      "last_seen_sha": "a7f8fdc00c69",
+      "last_seen_sha": "ab03c75b79ba",
       "author": "Jonny Bergdahl",
       "maintainer": "Jonny Bergdahl",
       "sentence": "Home Assistant MQTT device discovery for ESP8266 and ESP32.",
@@ -155519,8 +155553,9 @@
         "ArduinoJson",
         "JBLogger"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.0.0.zip",
-      "size": 98475,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBHaMqttDiscovery-1.2.0.zip",
+      "size": 118643,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -307360,29 +307395,35 @@
       "repository_name": "luni64/TeensyStep",
       "repository_url": "https://github.com/luni64/TeensyStep",
       "name": "TeensyStep",
-      "version": "2.3.4",
+      "version": "3.0.0-beta.1",
       "version_history": [
         {
           "version": "2.3.4",
           "seen_at": "2026-05-28T08:44:02Z"
+        },
+        {
+          "version": "3.0.0-beta.1",
+          "seen_at": "2026-11-18T22:02:13.797Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-05-28T08:44:02Z",
-      "last_seen_sha": "eef2e871cb30",
+      "last_seen_sha": "3840c013ae37",
       "author": "luni64",
       "maintainer": "luni64",
-      "sentence": "High speed stepper driver for PJRC Teensy boards (T3.0 - T3.6) and STM32F4",
-      "paragraph": "Step rates up to 300000stp/sec. Accelerated and synchronized movement of up to 10 steppers. Due to the low processor load it can easily be used togehter with sensors, displays, serial communication ...",
+      "sentence": "Stepper motor library for PJRC Teensy boards (Teensy 4.0, 4.1, MicroMod, 3.5, 3.6), for drivers with STEP and DIR inputs.",
+      "paragraph": "Version 3 (beta, the interface can still change in details). Step rates up to 300000 steps/s, up to 16 motors or synchronized groups of motors at the same time, changes of target, speed and acceleration during a move. Sketches written for version 2 still compile. Teensy 3.0 to 3.2, LC and STM32 are not supported by version 3; use version 2.3.4 on these boards.",
       "category": "Device Control",
       "architectures": [
         "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/luni64/TeensyStep-3.0.0-beta.1.zip",
+      "size": 392219,
+      "previous_version": "2.3.4",
       "github_stars": 295,
       "github_forks": 63,
       "github_language": "C++",
-      "github_updated_at": "2026-05-28T08:00:03Z",
-      "download_url": "https://luni64.github.io/TeensyStep/"
+      "github_updated_at": "2026-05-28T08:00:03Z"
     },
     {
       "repository_name": "TulioCarmona/TeensyStepDriver",
@@ -343111,7 +343152,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10251,
+    "with_github_metadata": 10252,
     "total_dependencies": 5708
   }
 }

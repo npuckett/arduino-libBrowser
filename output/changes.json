@@ -1,6 +1,286 @@
 {
-  "since": "2026-11-18T07:01:56.681Z",
+  "since": "2026-11-18T08:01:55.658Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "remocons/boho-arduino",
+        "repository_url": "https://github.com/remocons/boho-arduino",
+        "name": "Boho",
+        "version": "1.1.0",
+        "version_history": [
+          {
+            "version": "0.7.0",
+            "seen_at": "2025-12-12T07:32:25Z"
+          },
+          {
+            "version": "0.8.0",
+            "seen_at": "2026-09-26T18:02:56.971Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-02T20:02:39.164Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-12-12T07:32:25Z",
+        "last_seen_sha": "f376ea7fdbe3",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "Data encryption and client-server authentication for Arduino.",
+        "paragraph": "Encrypt and verify data, authenticate clients and servers with shared keys, and exchange encrypted messages with JavaScript peers. Supports end-to-end encryption with separate data keys and integrates with IOSignal.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Crypto"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Boho-1.1.0.zip",
+        "size": 25906,
+        "previous_version": "1.0.0",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-11T17:43:34Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.1.0"
+    },
+    {
+      "library": {
+        "repository_name": "remocons/iosignal-arduino",
+        "repository_url": "https://github.com/remocons/iosignal-arduino",
+        "name": "IOSignal",
+        "version": "9.21.0",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2025-12-12T07:32:27Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-09-26T20:02:18.227Z"
+          },
+          {
+            "version": "6.0.0",
+            "seen_at": "2026-10-02T20:02:39.164Z"
+          },
+          {
+            "version": "6.0.1",
+            "seen_at": "2026-10-12T08:17:42.716Z"
+          },
+          {
+            "version": "7.0.0",
+            "seen_at": "2026-10-28T14:01:44.818Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-11-02T18:02:11.798Z"
+          },
+          {
+            "version": "9.6.0",
+            "seen_at": "2026-11-10T20:01:30.445Z"
+          },
+          {
+            "version": "9.12.0",
+            "seen_at": "2026-11-11T18:01:49.486Z"
+          },
+          {
+            "version": "9.13.0",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "9.14.0",
+            "seen_at": "2026-11-15T16:01:36.997Z"
+          },
+          {
+            "version": "9.14.1",
+            "seen_at": "2026-11-15T18:01:37.230Z"
+          },
+          {
+            "version": "9.14.2",
+            "seen_at": "2026-11-16T12:03:18.612Z"
+          },
+          {
+            "version": "9.21.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2025-12-12T07:32:27Z",
+        "last_seen_sha": "c371bdc35e90",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Arduino Client.",
+        "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Boho",
+          "Crypto",
+          "Bounce2"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.21.0.zip",
+        "size": 1424659,
+        "previous_version": "9.14.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-11T17:53:49Z"
+      },
+      "old_version": "9.14.2",
+      "new_version": "9.21.0"
+    },
+    {
+      "library": {
+        "repository_name": "remocons/remocon-arduino",
+        "repository_url": "https://github.com/remocons/remocon-arduino",
+        "name": "Remocon",
+        "version": "9.21.0",
+        "version_history": [
+          {
+            "version": "2.2.1",
+            "seen_at": "2025-07-21T16:26:09Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-09-27T14:02:02.725Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-10-02T18:03:39.778Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-10-12T08:17:42.716Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-10-28T18:03:02.749Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-11-02T20:01:30.373Z"
+          },
+          {
+            "version": "9.6.0",
+            "seen_at": "2026-11-10T22:01:59.505Z"
+          },
+          {
+            "version": "9.12.0",
+            "seen_at": "2026-11-11T18:01:49.486Z"
+          },
+          {
+            "version": "9.13.0",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "9.14.2",
+            "seen_at": "2026-11-15T16:01:36.997Z"
+          },
+          {
+            "version": "9.14.3",
+            "seen_at": "2026-11-15T18:01:37.230Z"
+          },
+          {
+            "version": "9.14.4",
+            "seen_at": "2026-11-16T12:03:18.612Z"
+          },
+          {
+            "version": "9.14.5",
+            "seen_at": "2026-11-16T16:01:52.706Z"
+          },
+          {
+            "version": "9.14.6",
+            "seen_at": "2026-11-17T06:03:15.321Z"
+          },
+          {
+            "version": "9.14.8",
+            "seen_at": "2026-11-17T12:02:11.543Z"
+          },
+          {
+            "version": "9.21.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          }
+        ],
+        "release_count": 16,
+        "first_seen_at": "2025-07-21T16:26:09Z",
+        "last_seen_sha": "962b94f36cac",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Arduino examples for remocon.kr and test.iosignal.net.",
+        "paragraph": "Control DIY Arduino IoT remote control system with the web app.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "IOSignal",
+          "Crypto",
+          "Boho",
+          "Bounce2",
+          "U8g2",
+          "IRremote",
+          "WiFiManager",
+          "FastLED",
+          "Ethernet"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/Remocon-9.21.0.zip",
+        "size": 1946060,
+        "previous_version": "9.14.8",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2025-03-09T07:25:17Z"
+      },
+      "old_version": "9.14.8",
+      "new_version": "9.21.0"
+    },
+    {
+      "library": {
+        "repository_name": "fikretpalas/SafCNC",
+        "repository_url": "https://github.com/fikretpalas/SafCNC",
+        "name": "SafCNC",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-11-12T04:01:53.532Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-12T04:01:53.532Z",
+        "last_seen_sha": "3f4673ece507",
+        "author": "Fikret Palas <safcnc@tutamail.com>",
+        "maintainer": "Fikret Palas <safcnc@tutamail.com>",
+        "sentence": "Turns an Arduino Uno / Nano into a USB motion controller for Mach3.",
+        "paragraph": "3-axis step/direction generator at up to 32 kHz, GRBL 1.1 / CNC Shield V3 pinout, checksummed serial protocol with a 200 ms link watchdog. Used together with the SafCNC Mach3 plugin.",
+        "category": "Device Control",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/fikretpalas/SafCNC-1.0.1.zip",
+        "size": 18550,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C#",
+        "github_updated_at": "2026-11-12T01:17:11Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

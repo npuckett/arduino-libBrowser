@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-18T03:01:50.282Z",
+  "enhanced_at": "2026-11-18T04:01:43.597Z",
   "total_libraries": 10451,
-  "index_etag": "W/\"3a5a0539fca1fd86eb3af39030844a90\"",
-  "index_last_modified": "Wed, 18 Nov 2026 03:00:18 GMT",
+  "index_etag": "W/\"045349d043aad9002235a9a7d9254501\"",
+  "index_last_modified": "Wed, 18 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -127576,7 +127576,7 @@
       "repository_name": "Freenove/Freenove_WS2812_Lib_for_ESP32",
       "repository_url": "https://github.com/Freenove/Freenove_WS2812_Lib_for_ESP32",
       "name": "Freenove WS2812 Lib for ESP32",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "2.0.1",
@@ -127585,22 +127585,26 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-11-18T04:01:43.506Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-09T07:38:00Z",
-      "last_seen_sha": "7337a14ee151",
+      "last_seen_sha": "dedeac0682fc",
       "author": "Freenove",
       "maintainer": "Freenove <rd@freenove.com>",
       "sentence": "An Arduino library for WS2812 led on ESP32.<br />",
-      "paragraph": "This is an Arduino library for controlling ws2812b led on esp32.",
+      "paragraph": "Arduino library for WS2812B on ESP32. Dual RMT backend for arduino-esp32 2.0.x (IDF 4.x) and 3.x (IDF 5.x).",
       "category": "Display",
       "architectures": [
         "esp32",
         "esp32s3"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_WS2812_Lib_for_ESP32-2.0.1.zip",
-      "size": 72050,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_WS2812_Lib_for_ESP32-2.0.2.zip",
+      "size": 73291,
       "previous_version": "2.0.1",
       "github_stars": 74,
       "github_forks": 23,
@@ -215239,7 +215243,7 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.7.8",
+      "version": "2.7.9",
       "version_history": [
         {
           "version": "2.7.2",
@@ -215268,11 +215272,15 @@
         {
           "version": "2.7.8",
           "seen_at": "2026-11-17T08:01:46.503Z"
+        },
+        {
+          "version": "2.7.9",
+          "seen_at": "2026-11-18T04:01:43.506Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "b80b970f9c3f",
+      "last_seen_sha": "285d3bea6db9",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -215285,9 +215293,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.8.zip",
-      "size": 38278006,
-      "previous_version": "2.7.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.7.9.zip",
+      "size": 50651019,
+      "previous_version": "2.7.8",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",
@@ -217493,7 +217501,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.56",
+      "version": "0.0.57",
       "version_history": [
         {
           "version": "0.0.2",
@@ -217666,11 +217674,15 @@
         {
           "version": "0.0.56",
           "seen_at": "2026-11-13T20:01:51.439Z"
+        },
+        {
+          "version": "0.0.57",
+          "seen_at": "2026-11-18T04:01:43.506Z"
         }
       ],
-      "release_count": 43,
+      "release_count": 44,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "dd01d334bb31",
+      "last_seen_sha": "db09fead894c",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -217679,9 +217691,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.56.zip",
-      "size": 1136179,
-      "previous_version": "0.0.55",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.57.zip",
+      "size": 1173809,
+      "previous_version": "0.0.56",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

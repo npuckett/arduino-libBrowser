@@ -1,6 +1,193 @@
 {
-  "since": "2026-11-17T23:01:30.612Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-18T00:03:59.771Z",
+  "new_libraries": [
+    {
+      "repository_name": "gault3x3fa9/ADRC-Controller-Arduino-Library",
+      "repository_url": "https://github.com/gault3x3fa9/ADRC-Controller-Arduino-Library",
+      "name": "ADRC",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-18T00:03:59.771Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T00:03:59.771Z",
+      "last_seen_sha": "b5cad01dca7b",
+      "author": "gault3x3fa9",
+      "maintainer": "gault3x3fa9 <gault3x3fa9@users.noreply.github.com>",
+      "sentence": "Linear Active Disturbance Rejection Control (LADRC) for Arduino, with a PID-library-style API.",
+      "paragraph": "2nd-order LADRC with an Extended State Observer that estimates and cancels unknown dynamics and external disturbances. Tuning needs three values (b0, controller bandwidth, observer bandwidth) instead of three interdependent PID gains. Includes diagnostics getters, bumpless manual/auto switching and a no-hardware simulated example.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gault3x3fa9/ADRC-2.0.0.zip",
+      "size": 145472,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-17T20:46:48Z"
+    },
+    {
+      "repository_name": "jonnybergdahl/Arduino_JBImprov_Library",
+      "repository_url": "https://github.com/jonnybergdahl/Arduino_JBImprov_Library",
+      "name": "JBImprov",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-18T00:03:59.771Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T00:03:59.771Z",
+      "last_seen_sha": "826f50b11d31",
+      "author": "Jonny Bergdahl",
+      "maintainer": "Jonny Bergdahl <github@bergdahl.org>",
+      "sentence": "Improv Wi-Fi provisioning over serial and Bluetooth LE.",
+      "paragraph": "Lets users send Wi-Fi credentials to the device from a browser (ESP Web Tools, improv-wifi.com), Home Assistant or a phone, just like ESPHome. Supports Improv Serial on ESP32 and ESP8266 and Improv BLE on ESP32.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jonnybergdahl/JBImprov-1.0.0.zip",
+      "size": 39947,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-17T21:26:29Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "littlemanbuilds/RCLink",
+        "repository_url": "https://github.com/littlemanbuilds/RCLink",
+        "name": "RCLink",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-04-29T07:43:04Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-08-30T14:02:11.778Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-11-14T00:04:07.557Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-11-18T00:03:59.771Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-04-29T07:43:04Z",
+        "last_seen_sha": "005585baeed1",
+        "author": "Little Man Builds (Darren Osborne)",
+        "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
+        "sentence": "Validated RC receiver mapping for Arduino with iBUS, ESP32 SBUS, shaping, filtering, and failsafe handling.",
+        "paragraph": "RCLink maps receiver channels into named application roles with calibrated asymmetric axes, deterministic switches, explicit channel validity, link health, failsafe signatures, resilient stream parsers, optional JSON configuration, and shared guided iBUS/S.BUS calibration helpers. The core mapping and parsers are hardware-neutral and host-testable; SBUS transport is ESP32-specific.",
+        "category": "Communication",
+        "architectures": [
+          "sam",
+          "samd",
+          "esp32",
+          "esp8266",
+          "stm32",
+          "teensy",
+          "rp2040"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.4.0.zip",
+        "size": 144187,
+        "previous_version": "1.3.1",
+        "github_stars": 3,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T20:46:58Z"
+      },
+      "old_version": "1.3.1",
+      "new_version": "1.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "EnviroDIY/Arduino-SDI-12",
+        "repository_url": "https://github.com/EnviroDIY/Arduino-SDI-12",
+        "name": "SDI-12",
+        "version": "3.1.0",
+        "version_history": [
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-05-18T08:38:12Z"
+          },
+          {
+            "version": "2.3.2",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.3.4",
+            "seen_at": "2026-10-01T00:08:14.089Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-10-21T18:03:17.124Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-23T18:03:09.377Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-11-13T22:01:33.709Z"
+          },
+          {
+            "version": "3.1.0",
+            "seen_at": "2026-11-18T00:03:59.771Z"
+          }
+        ],
+        "release_count": 7,
+        "first_seen_at": "2026-05-18T08:38:12Z",
+        "last_seen_sha": "52860be04517",
+        "author": "Kevin M. Smith <Kevin@elite-education.org>, Sara Damiano <sdamiano@stroudcenter.org>, Shannon Hicks <shicks@stroudcenter.org>",
+        "maintainer": "Sara Damiano <sdamiano@stroudcenter.org>",
+        "sentence": "An Arduino library for SDI-12 communication with a wide variety of environmental sensors.",
+        "paragraph": "This library provides a general software solution, without requiring any additional hardware.",
+        "category": "Communication",
+        "architectures": [
+          "avr",
+          "sam",
+          "samd",
+          "esp8266",
+          "esp32",
+          "mbed_giga"
+        ],
+        "depends": [
+          "EnableInterrupt"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/EnviroDIY/SDI_12-3.1.0.zip",
+        "size": 3106186,
+        "previous_version": "3.0.0",
+        "github_stars": 186,
+        "github_forks": 102,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-23T16:12:31Z"
+      },
+      "old_version": "3.0.0",
+      "new_version": "3.1.0"
+    }
+  ],
   "removed_libraries": []
 }

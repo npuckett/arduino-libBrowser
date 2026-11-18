@@ -1,6 +1,237 @@
 {
-  "since": "2026-11-18T19:01:22.750Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-18T20:01:51.834Z",
+  "new_libraries": [
+    {
+      "repository_name": "VIDAKHOSHPEY22/Dumirror_Robo",
+      "repository_url": "https://github.com/VIDAKHOSHPEY22/Dumirror_Robo",
+      "name": "Dumirror_Robo",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-18T20:01:51.834Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-18T20:01:51.834Z",
+      "last_seen_sha": "efc57e7b66ae",
+      "author": "VIDAKHOSHPEY22",
+      "maintainer": "VIDA KHOSHPEY <vviiddaa2@gmail.com>",
+      "sentence": "Animated robot faces for SSD1306 128x64 OLED displays.",
+      "paragraph": "19 static expressions and 10 non-blocking frame-based animations, custom animations, text rendering, flash-resident (PROGMEM) data and selectable face profiles for small AVR boards. Requires Adafruit GFX Library and Adafruit SSD1306.",
+      "category": "Display",
+      "architectures": [
+        "avr",
+        "esp32",
+        "esp8266",
+        "rp2040"
+      ],
+      "license": "MIT",
+      "depends": [
+        "Adafruit GFX Library",
+        "Adafruit SSD1306"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/VIDAKHOSHPEY22/Dumirror_Robo-1.1.0.zip",
+      "size": 78383734,
+      "github_stars": 4,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T16:49:54Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "angeloINTJ/BuzzerPIO_RP2040",
+        "repository_url": "https://github.com/angeloINTJ/BuzzerPIO_RP2040",
+        "name": "BuzzerPIO_RP2040",
+        "version": "2.5.1",
+        "version_history": [
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "2.5.1",
+            "seen_at": "2026-11-18T20:01:51.834Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "b62d2336fd9d",
+        "author": "Ângelo Moisés Alves",
+        "maintainer": "Ângelo Moisés Alves",
+        "sentence": "Ultrasonic PWM tone generation for passive buzzers using the RP2040 PIO coprocessor.",
+        "paragraph": "Dual state-machine architecture: SM1 generates an ultrasonic PWM carrier (~95 kHz) for distortion-free volume control, SM2 gates it at the audible frequency. Uses only 4 PIO instructions, auto-probes both PIO blocks, zero DMA, zero IRQ handlers. Multi-core safe via hardware spinlock. Coexists with OneWirePIO, DHT22PIO, and CYW43 WiFi. Non-blocking melody sequencing via hardware alarm chain with completion callback. Pause/resume support. Perceptually linear volume curve. Drop-in replacement for v1.x/v2.x.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BuzzerPIO_RP2040-2.5.1.zip",
+        "size": 38358,
+        "previous_version": "2.5.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-30T23:07:51Z"
+      },
+      "old_version": "2.5.0",
+      "new_version": "2.5.1"
+    },
+    {
+      "library": {
+        "repository_name": "Excelsior-Robotics/Excelsior",
+        "repository_url": "https://github.com/Excelsior-Robotics/Excelsior",
+        "name": "Excelsior",
+        "version": "1.2.5",
+        "version_history": [
+          {
+            "version": "1.2.3",
+            "seen_at": "2025-07-21T16:13:58Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-11-18T20:01:51.834Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:13:58Z",
+        "last_seen_sha": "d350ffe3ddd2",
+        "author": "Frederik Eberhard, Tim Hartmann",
+        "maintainer": "Tim Hartmann <tim.hartmann@gbg-seelze.eu>",
+        "sentence": "Functions as a beginners guide to programm the Excelsior-Brick.",
+        "paragraph": "Designed to help beginners in robotics start to learn programming. It offers many functions to lead the way but also guides more advanced students to programm more closely to the hardware, as no functions of the underlying microcontroller has been disabled.",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Adafruit SSD1306",
+          "Adafruit GFX Library",
+          "Adafruit Unified Sensor",
+          "Adafruit BNO055",
+          "Array"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Excelsior-Robotics/Excelsior-1.2.5.zip",
+        "size": 67723,
+        "previous_version": "1.2.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2024-05-27T21:15:49Z"
+      },
+      "old_version": "1.2.3",
+      "new_version": "1.2.5"
+    },
+    {
+      "library": {
+        "repository_name": "MicroBahner/MobaTools",
+        "repository_url": "https://github.com/MicroBahner/MobaTools",
+        "name": "MobaTools",
+        "version": "3.1.3",
+        "version_history": [
+          {
+            "version": "3.1.0",
+            "seen_at": "2026-06-10T08:43:06Z"
+          },
+          {
+            "version": "3.1.1",
+            "seen_at": "2026-08-16T10:03:19.735Z"
+          },
+          {
+            "version": "3.1.2",
+            "seen_at": "2026-10-02T18:03:39.778Z"
+          },
+          {
+            "version": "3.1.3",
+            "seen_at": "2026-11-18T20:01:51.834Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-10T08:43:06Z",
+        "last_seen_sha": "eac0d75fd3bc",
+        "author": "MicroBahner",
+        "maintainer": "MicroBahner, f-pm+gh@mailbox.org",
+        "sentence": "Functions (steppers, servos, leds) for model railroaders( and for others too )",
+        "paragraph": "Bibliothek mit Funktionen für <b>Schrittmotore, Servos, Leds und zum entprellten Einlesen von Tastern/Schaltern</b>, für arduino uno/Nano R2/R3/R4, mini, nano, leonardo, micro and mega, some ATtiny, STM32, SamD and ESP32(Sx/Cx) und ESP8266<br />- Steuern von bis zu <b>16 Servos</b> mit Geschwindigkeitskontrolle. <br />- Bis zu <b>6 Schrittmotore</b> mit <b>Beschleunigungs/Bremsfunktion</b><br />- Funktionen zum weichen <b>auf/abblenden von Leds</b>.<br />- Zeitgeberfunktion.<br />- Einlesen von <b>bis zu 32 Tastern/Schaltern</b> mit Ereignisfunktionen<br> <br> This library can control<br>- up to 16 <b>servos with speed control</b> and<br> - up to 6 <b>stepper motors with accelerating and decelerating</b>.<br>- There are also functions for a <b>bulb simulation with leds</b>.<br />- Reading of <b>up to 32 buttons/switchws with event functions</b><br>It intensively uses timer functions. THe used timer depends on the used board.<br>",
+        "category": "Device Control",
+        "architectures": [
+          "avr",
+          "STM32F1",
+          "esp8266",
+          "esp32",
+          "megaavr",
+          "renesas_uno",
+          "rp2040",
+          "samd",
+          "stm32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/MicroBahner/MobaTools-3.1.3.zip",
+        "size": 848206,
+        "previous_version": "3.1.2",
+        "github_stars": 141,
+        "github_forks": 17,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-09T21:22:48Z"
+      },
+      "old_version": "3.1.2",
+      "new_version": "3.1.3"
+    },
+    {
+      "library": {
+        "repository_name": "elixpo/rv565",
+        "repository_url": "https://github.com/elixpo/rv565",
+        "name": "RV565",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-31T14:01:35.213Z"
+          },
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-10-31T18:01:45.141Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-01T10:01:34.186Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-11-04T20:01:42.502Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-12T10:01:42.055Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-11-18T20:01:51.834Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-10-31T14:01:35.213Z",
+        "last_seen_sha": "e38dc33cb423",
+        "author": "Ayushman Bhattacharya",
+        "maintainer": "Ayushman Bhattacharya <ayushman.elixpo@gmail.com>",
+        "sentence": "RGB565 video on ESP32-S3 and RP2350 SPI displays, with a dual-core decode and DMA pipeline.",
+        "paragraph": "Plays RV565 clips (zlib or stored RGB565 keyframes, XOR deltas and repeats; format version 7, and version 6 from RV565 1.x) on ST7789 panels, seeks in O(1) from the keyframe interval, and predicts from the file alone whether a clip will play without missed frames. Measured at 24 FPS with zero misses on the ESP32-S3 (arXiv:2610.35935) and the RP2350.",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/elixpo/RV565-2.0.1.zip",
+        "size": 426689,
+        "previous_version": "2.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C",
+        "github_updated_at": "2026-10-31T11:19:30Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    }
+  ],
   "removed_libraries": []
 }

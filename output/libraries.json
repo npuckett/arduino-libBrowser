@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-19T01:01:47.977Z",
-  "total_libraries": 10456,
-  "index_etag": "W/\"5adcd3cb48cc27381b0f976bb3f6f98e\"",
-  "index_last_modified": "Thu, 19 Nov 2026 01:00:18 GMT",
+  "enhanced_at": "2026-11-19T02:02:30.608Z",
+  "total_libraries": 10457,
+  "index_etag": "W/\"e3fdb0b80fc9ba00721b8ddf84e4ac33\"",
+  "index_last_modified": "Thu, 19 Nov 2026 02:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -74868,7 +74868,7 @@
       "repository_name": "codezoo-ltd/CZ-N706B-Arduino",
       "repository_url": "https://github.com/codezoo-ltd/CZ-N706B-Arduino",
       "name": "CZ-N706B-Arduino",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "version_history": [
         {
           "version": "0.0.1",
@@ -74881,11 +74881,15 @@
         {
           "version": "0.0.4",
           "seen_at": "2026-11-18T14:01:19.568Z"
+        },
+        {
+          "version": "0.0.5",
+          "seen_at": "2026-11-19T02:02:29.172Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-11-01T16:01:31.275Z",
-      "last_seen_sha": "00e424a9e22a",
+      "last_seen_sha": "ba19ad96e961",
       "author": "CodeZoo",
       "maintainer": "CodeZoo <rooney.jang@codezoo.co.kr>",
       "sentence": "AT command support and examples for the CodeZoo CZ-N706B modem on UNO R4, ESP32 and ESP32-S3, Zephyr.",
@@ -74896,9 +74900,9 @@
         "esp32",
         "zephyr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.4.zip",
-      "size": 254997,
-      "previous_version": "0.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/codezoo-ltd/CZ_N706B_Arduino-0.0.5.zip",
+      "size": 256854,
+      "previous_version": "0.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -144901,6 +144905,39 @@
       "github_forks": 9,
       "github_language": "C",
       "github_updated_at": "2026-04-19T15:38:52Z"
+    },
+    {
+      "repository_name": "HubbleNetwork/hubble-arduino-library",
+      "repository_url": "https://github.com/HubbleNetwork/hubble-arduino-library",
+      "name": "HubbleNetwork",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-19T02:02:29.172Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T02:02:29.172Z",
+      "last_seen_sha": "7203f2f9f0c5",
+      "author": "Hubble Network, Inc.",
+      "maintainer": "Micah Morefield <micah@hubble.com>",
+      "sentence": "Arduino wrapper for the Hubble Network SDK",
+      "paragraph": "SDK for utilizing the Hubble Network to beacon data to the network.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "license": "Apache-2.0",
+      "depends": [
+        "ArduinoBLE"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HubbleNetwork/HubbleNetwork-1.0.0.zip",
+      "size": 61452,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-18T21:59:43Z"
     },
     {
       "repository_name": "Neurotech-Hub/Hublink-BEAM",
@@ -217701,7 +217738,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.58",
+      "version": "0.0.59",
       "version_history": [
         {
           "version": "0.0.2",
@@ -217882,11 +217919,15 @@
         {
           "version": "0.0.58",
           "seen_at": "2026-11-18T06:03:13.931Z"
+        },
+        {
+          "version": "0.0.59",
+          "seen_at": "2026-11-19T02:02:29.172Z"
         }
       ],
-      "release_count": 45,
+      "release_count": 46,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "82efe1b48df4",
+      "last_seen_sha": "829972ab31e0",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -217895,9 +217936,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.58.zip",
-      "size": 1173977,
-      "previous_version": "0.0.57",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.59.zip",
+      "size": 1206730,
+      "previous_version": "0.0.58",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -343156,7 +343197,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10252,
-    "total_dependencies": 5708
+    "with_github_metadata": 10253,
+    "total_dependencies": 5709
   }
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-19T03:02:04.096Z",
-  "total_libraries": 10457,
-  "index_etag": "W/\"e3fdb0b80fc9ba00721b8ddf84e4ac33\"",
-  "index_last_modified": "Thu, 19 Nov 2026 03:00:18 GMT",
+  "enhanced_at": "2026-11-19T04:01:44.937Z",
+  "total_libraries": 10460,
+  "index_etag": "W/\"0f451ca2ec0232b44a91ac7b29d2d8e5\"",
+  "index_last_modified": "Thu, 19 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -61767,7 +61767,7 @@
       "repository_name": "angeloINTJ/BuzzerPIO_RP2040",
       "repository_url": "https://github.com/angeloINTJ/BuzzerPIO_RP2040",
       "name": "BuzzerPIO_RP2040",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "version_history": [
         {
           "version": "2.5.0",
@@ -61776,11 +61776,15 @@
         {
           "version": "2.5.1",
           "seen_at": "2026-11-18T20:01:51.834Z"
+        },
+        {
+          "version": "2.5.2",
+          "seen_at": "2026-11-19T04:01:40.618Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "b62d2336fd9d",
+      "last_seen_sha": "2c6009f9334a",
       "author": "Ângelo Moisés Alves",
       "maintainer": "Ângelo Moisés Alves",
       "sentence": "Ultrasonic PWM tone generation for passive buzzers using the RP2040 PIO coprocessor.",
@@ -61789,9 +61793,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BuzzerPIO_RP2040-2.5.1.zip",
-      "size": 38358,
-      "previous_version": "2.5.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/BuzzerPIO_RP2040-2.5.2.zip",
+      "size": 41674,
+      "previous_version": "2.5.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -62772,6 +62776,39 @@
       "github_language": "C++",
       "github_updated_at": "2024-12-04T21:34:17Z",
       "download_url": "https://github.com/n-wach/camino"
+    },
+    {
+      "repository_name": "campkitchenus-maker/arduino-campcooler",
+      "repository_url": "https://github.com/campkitchenus-maker/arduino-campcooler",
+      "name": "CampCooler",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-19T04:01:40.618Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T04:01:40.618Z",
+      "last_seen_sha": "b900f1f1449d",
+      "author": "Camp Kitchen US",
+      "maintainer": "Camp Kitchen US <campkitchenus@gmail.com>",
+      "sentence": "Food-safety alarm logic for a camping cooler thermometer (40 F / 4 C, 15 minute delay, hysteresis, min/max).",
+      "paragraph": "Feed it temperature readings (for example from a DS18B20 probe) and it tells you whether the cooler is OK, warm, in alarm, or the probe is disconnected. Rollover-safe timing, silence and reset, no dynamic memory. Includes the Camp Cooler Watch example with LEDs, a buzzer and a CSV log.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "OneWire",
+        "DallasTemperature"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/campkitchenus-maker/CampCooler-1.0.1.zip",
+      "size": 186642,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T11:16:49Z"
     },
     {
       "repository_name": "ginixsan/CamS3Library",
@@ -127783,6 +127820,66 @@
       "github_forks": 5,
       "github_language": "C++",
       "github_updated_at": "2026-01-29T23:20:10Z"
+    },
+    {
+      "repository_name": "Freenove/Freenove_7_Inch_TouchScreen_Driver",
+      "repository_url": "https://github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver",
+      "name": "Freenove_7_Inch_TouchScreen_Driver",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-19T04:01:40.618Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T04:01:40.618Z",
+      "last_seen_sha": "00765adb3eac",
+      "author": "Freenove",
+      "maintainer": "Freenove",
+      "sentence": "ESP32-P4 only. Driver for the Freenove 7-inch 1024x600 MIPI-DSI C-type panel (EK79007 + GT911 + I2C panel MCU).",
+      "paragraph": "ESP32-P4 only (MIPI-DSI). Fully self-contained: panel power/reset and backlight via on-panel MCU I2C (0x45). Exposes an RGB565 framebuffer for LVGL or direct drawing, and reads GT911 touch over Wire. Other ESP32 chips will fail at compile time.",
+      "category": "Display",
+      "architectures": [
+        "esp32p4"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_7_Inch_TouchScreen_Driver-1.0.1.zip",
+      "size": 78226,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-18T09:31:06Z"
+    },
+    {
+      "repository_name": "Freenove/Freenove_Es8311_Audio_Driver",
+      "repository_url": "https://github.com/Freenove/Freenove_Es8311_Audio_Driver",
+      "name": "Freenove_Es8311_Audio_Driver",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-19T04:01:40.618Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T04:01:40.618Z",
+      "last_seen_sha": "2028f3d59617",
+      "author": "Freenove",
+      "maintainer": "Freenove <support@freenove.com>",
+      "sentence": "Arduino driver for ES8311 codec + I2S audio on Freenove ESP32-P4 boards.",
+      "paragraph": "Wraps ESP_I2S for PCM in/out and programs the ES8311 over Wire with the same open / set_fs / start sequence as Espressif esp_codec_dev. Includes PA enable and Freenove ESP32-P4 pin defaults.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "esp32",
+        "esp32s3",
+        "esp32p4"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_Es8311_Audio_Driver-1.0.0.zip",
+      "size": 9496,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T09:30:22Z"
     },
     {
       "repository_name": "feilipu/Arduino_FreeRTOS_Library",
@@ -343197,7 +343294,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10253,
-    "total_dependencies": 5709
+    "with_github_metadata": 10256,
+    "total_dependencies": 5711
   }
 }

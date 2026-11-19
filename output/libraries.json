@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-19T21:01:20.631Z",
-  "total_libraries": 10466,
-  "index_etag": "W/\"ec1642da687300f15a0a3fd1de4952b6\"",
-  "index_last_modified": "Thu, 19 Nov 2026 21:00:18 GMT",
+  "enhanced_at": "2026-11-19T22:01:44.385Z",
+  "total_libraries": 10467,
+  "index_etag": "W/\"ae5bf0e65e6b230ff1fd2e1294bc354d\"",
+  "index_last_modified": "Thu, 19 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -114078,16 +114078,20 @@
       "repository_name": "IPdotSetAF/ESPAsyncHTTPUpdateServer",
       "repository_url": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer",
       "name": "ESPAsyncHTTPUpdateServer",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "3.0.0",
           "seen_at": "2026-06-04T09:01:07Z"
+        },
+        {
+          "version": "3.0.1",
+          "seen_at": "2026-11-19T22:01:42.742Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-04T09:01:07Z",
-      "last_seen_sha": "4beb6467fda3",
+      "last_seen_sha": "b7001b1cdae6",
       "author": "Mohammad Mahdi Nazari <ipdotsetaf@gmail.com>",
       "maintainer": "Mohammad Mahdi Nazari <ipdotsetaf@gmail.com>",
       "sentence": "Simple/Stylized  HTTP Update Server for ESPAsyncWebServer(by me-no-dev)",
@@ -114097,14 +114101,16 @@
         "esp8266",
         "esp32"
       ],
+      "depends": [
+        "ESP Async WebServer"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer-3.0.1.zip",
+      "size": 217341,
+      "previous_version": "3.0.0",
       "github_stars": 82,
       "github_forks": 22,
       "github_language": "C++",
-      "github_updated_at": "2026-06-04T02:00:39Z",
-      "depends": [
-        "ESPAsyncWebServer"
-      ],
-      "download_url": "https://github.com/IPdotSetAF/ESPAsyncHTTPUpdateServer"
+      "github_updated_at": "2026-06-04T02:00:39Z"
     },
     {
       "repository_name": "dvarrel/ESPAsyncTCP",
@@ -215749,7 +215755,7 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.8.0",
+      "version": "2.8.1",
       "version_history": [
         {
           "version": "2.7.2",
@@ -215786,11 +215792,15 @@
         {
           "version": "2.8.0",
           "seen_at": "2026-11-19T12:02:11.747Z"
+        },
+        {
+          "version": "2.8.1",
+          "seen_at": "2026-11-19T22:01:42.742Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "d6a631b97a4e",
+      "last_seen_sha": "2043774cfcf1",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -215803,9 +215813,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.0.zip",
-      "size": 79896609,
-      "previous_version": "2.7.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.1.zip",
+      "size": 79951760,
+      "previous_version": "2.8.0",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",
@@ -259695,6 +259705,35 @@
       "download_url": "https://github.com/BrushlessPower/SBUS2-Telemetry"
     },
     {
+      "repository_name": "Riktor1990/SBUS2-Telemetry",
+      "repository_url": "https://github.com/Riktor1990/SBUS2-Telemetry",
+      "name": "SBUS2-Telemetry-ESP32",
+      "version": "1.2.2",
+      "version_history": [
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-11-19T22:01:42.742Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T22:01:42.742Z",
+      "last_seen_sha": "e8b831c54ff0",
+      "author": "BrushlessPower, Riktor1990",
+      "maintainer": "Riktor1990 <messer.caronte@gmail.com>",
+      "sentence": "Futaba SBUS2 receive and telemetry for ESP32, S3, C3 and C6 (Arduino core 3.x / IDF5).",
+      "paragraph": "Fork of BrushlessPower/SBUS2-Telemetry with an IDF5 UART driver, receive-path fix, GPS hemisphere fix and C3/C6 support.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Riktor1990/SBUS2_Telemetry_ESP32-1.2.2.zip",
+      "size": 185982,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2025-10-22T08:20:51Z"
+    },
+    {
       "repository_name": "duinolibs/Sbutton",
       "repository_url": "https://github.com/duinolibs/Sbutton",
       "name": "Sbutton",
@@ -278013,30 +278052,36 @@
       "repository_name": "Masud744/SmartProv",
       "repository_url": "https://github.com/Masud744/SmartProv",
       "name": "SmartProv",
-      "version": "2.1.3",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.1.3",
           "seen_at": "2026-04-27T08:30:57Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-19T22:01:42.742Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-27T08:30:57Z",
-      "last_seen_sha": "066057bf8d80",
+      "last_seen_sha": "75025889b7ba",
       "author": "Shahriar Alom Masud <masud.nil74@gmail.com>",
       "maintainer": "Shahriar Alom Masud <masud.nil74@gmail.com>",
-      "sentence": "Captive-portal Wi-Fi provisioning library for ESP32 and ESP8266.",
-      "paragraph": "SmartProv enables any ESP32 or ESP8266 device to be configured over a mobile-friendly captive portal — no companion app required. Features include multi-network fallback, dynamic custom form fields, persistent flash storage (NVS on ESP32, EEPROM on ESP8266), factory reset via hardware button, LED status indication, and a clean state-machine architecture. A modern alternative to WiFiManager.",
+      "sentence": "Captive-portal Wi-Fi provisioning library for ESP32 (S2/S3/C3/C6) and ESP8266.",
+      "paragraph": "SmartProv enables any ESP32 (including S2, S3, C2, C3, C6) or ESP8266 device to be configured over a mobile-friendly captive portal — no companion app required. Features include multi-network fallback, dynamic custom form fields, persistent flash storage (NVS on ESP32, EEPROM on ESP8266), factory reset via hardware button, LED status indication, and a clean state-machine architecture. A modern alternative to WiFiManager.",
       "category": "Communication",
       "architectures": [
         "esp32",
         "esp8266"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Masud744/SmartProv-3.0.0.zip",
+      "size": 111935,
+      "previous_version": "2.1.3",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
-      "github_updated_at": "2026-06-10T03:48:16Z",
-      "download_url": "https://github.com/Masud744/SmartProv"
+      "github_updated_at": "2026-06-10T03:48:16Z"
     },
     {
       "repository_name": "LSatan/SmartRC-CC1101-Driver-Lib",
@@ -304650,7 +304695,7 @@
       "repository_name": "soosp/SyslogSender",
       "repository_url": "https://github.com/soosp/SyslogSender",
       "name": "SyslogSender",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "version_history": [
         {
           "version": "0.1.0",
@@ -304667,11 +304712,15 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-10-10T10:02:33.195Z"
+        },
+        {
+          "version": "0.2.2",
+          "seen_at": "2026-11-19T22:01:42.742Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-09-11T16:02:49.380Z",
-      "last_seen_sha": "b3d8f8ba9c27",
+      "last_seen_sha": "1a11698621b4",
       "author": "Péter Soós <https://github.com/soosp>",
       "maintainer": "Péter Soós <https://github.com/soosp>",
       "sentence": "Sends RFC 5424 syslog messages over UDP; forwards ESP_LOG on ESP32.",
@@ -304686,9 +304735,9 @@
         "Host",
         "Ethernet"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.2.1.zip",
-      "size": 33215,
-      "previous_version": "0.1.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/SyslogSender-0.2.2.zip",
+      "size": 33479,
+      "previous_version": "0.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -343536,7 +343585,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10262,
+    "with_github_metadata": 10263,
     "total_dependencies": 5712
   }
 }

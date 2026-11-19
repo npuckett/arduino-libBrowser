@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-19T17:01:37.424Z",
-  "total_libraries": 10465,
-  "index_etag": "W/\"8c6f92756ea5db96bc2424e4dc35b33b\"",
-  "index_last_modified": "Thu, 19 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-19T18:02:00.854Z",
+  "total_libraries": 10466,
+  "index_etag": "W/\"f429e104db2d47bd26fac0937826a4eb\"",
+  "index_last_modified": "Thu, 19 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -45376,7 +45376,7 @@
       "repository_name": "ayresnet/AyresWiFiManager",
       "repository_url": "https://github.com/ayresnet/AyresWiFiManager",
       "name": "AyresWiFiManager",
-      "version": "2.3.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "2.0.2",
@@ -45385,15 +45385,19 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-08-14T18:15:59.558Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-19T18:01:59.341Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-16T08:21:53Z",
-      "last_seen_sha": "f7ea76b4258d",
+      "last_seen_sha": "86e8837b2986",
       "author": "Daniel Salgado <ayresnet>",
       "maintainer": "AyresNet",
-      "sentence": "Wi-Fi provisioning and connectivity manager for ESP32 with captive portal, LittleFS credentials and diagnostics.",
-      "paragraph": "Provides explicit fallback policies, DNS catch-all captive portal, Wi-Fi scanning, optional credential encryption, reconnection control, NTP, Internet reachability checks, status LED patterns and a unified connectivity state API.",
+      "sentence": "ESP32 WiFi manager for network provisioning through a captive portal.",
+      "paragraph": "Configure WiFi credentials using a SoftAP web portal. Includes automatic reconnection, WiFi scanning, LittleFS credential storage, optional encryption, DNS, NTP, connectivity diagnostics and status LED support.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -45401,9 +45405,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ayresnet/AyresWiFiManager-2.3.0.zip",
-      "size": 89381,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ayresnet/AyresWiFiManager-3.0.0.zip",
+      "size": 93435,
+      "previous_version": "2.3.0",
       "github_stars": 20,
       "github_forks": 5,
       "github_language": "HTML",
@@ -58956,6 +58960,35 @@
       "github_language": "C",
       "github_updated_at": "2024-05-03T11:33:02Z",
       "download_url": "https://github.com/CommonWealthRobotics/BowlerCom"
+    },
+    {
+      "repository_name": "Someone275/Box-io",
+      "repository_url": "https://github.com/Someone275/Box-io",
+      "name": "BoxIO",
+      "version": "1.2.4",
+      "version_history": [
+        {
+          "version": "1.2.4",
+          "seen_at": "2026-11-19T18:01:59.341Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T18:01:59.341Z",
+      "last_seen_sha": "59ac4c525b41",
+      "author": "Box IO",
+      "maintainer": "Box IO <kasey@krmsproducts.net>",
+      "sentence": "Talk to a self-hosted Box IO server over virtual pins.",
+      "paragraph": "ESP32, ESP8266, Teensy 4.1, SAM, SAMD, MegaAVR, and AVR talk to a Box IO server. Read and write virtual pins, set widget colors, cap the send rate, run timers, pulse a pin when the link drops, and send email or SMS. Teensy 4.1 uses QNEthernet.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Someone275/BoxIO-1.2.4.zip",
+      "size": 41444,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T23:36:39Z"
     },
     {
       "repository_name": "bozont/bozontlabsMAX7219",
@@ -102991,7 +103024,7 @@
       "repository_name": "rahmatpurnomo/EnigmaIoT",
       "repository_url": "https://github.com/rahmatpurnomo/EnigmaIoT",
       "name": "EnigmaIoT",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "version_history": [
         {
           "version": "0.5.0",
@@ -103008,11 +103041,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-11-15T02:02:47.813Z"
+        },
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-11-19T18:01:59.341Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-11-11T06:03:22.508Z",
-      "last_seen_sha": "9dc9fdda0ccb",
+      "last_seen_sha": "1a4144497a95",
       "author": "Rahmat Purnomo",
       "maintainer": "Rahmat Purnomo",
       "sentence": "Connect ESP32 / ESP8266 to the Enigma IoT platform: realtime dashboard, virtual pins, MQTT, OTA updates and WiFi setup portal.",
@@ -103025,9 +103062,9 @@
       "depends": [
         "PubSubClient"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.7.0.zip",
-      "size": 64732,
-      "previous_version": "0.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rahmatpurnomo/EnigmaIoT-0.7.1.zip",
+      "size": 64919,
+      "previous_version": "0.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -213768,7 +213805,7 @@
       "repository_name": "m-mcgowan/note-cpp",
       "repository_url": "https://github.com/m-mcgowan/note-cpp",
       "name": "note-cpp",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "version_history": [
         {
           "version": "0.3.2",
@@ -213793,11 +213830,15 @@
         {
           "version": "0.3.7",
           "seen_at": "2026-11-12T22:01:42.093Z"
+        },
+        {
+          "version": "0.3.8",
+          "seen_at": "2026-11-19T18:01:59.341Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-07-15T20:20:27.721Z",
-      "last_seen_sha": "85d66d4c733f",
+      "last_seen_sha": "63f963dc69b3",
       "author": "Mat McGowan",
       "maintainer": "Mat McGowan",
       "sentence": "Typed C++ SDK for the Blues Notecard.",
@@ -213806,9 +213847,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.7.zip",
-      "size": 1920687,
-      "previous_version": "0.3.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m-mcgowan/note_cpp-0.3.8.zip",
+      "size": 1938473,
+      "previous_version": "0.3.7",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -289923,7 +289964,7 @@
       "repository_name": "sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
       "repository_url": "https://github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library",
       "name": "SparkFun SSD168x I2C Interface Library",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -289932,22 +289973,26 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-09-02T18:03:13.158Z"
+        },
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-11-19T18:01:59.341Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-08-26T16:26:12.288Z",
-      "last_seen_sha": "9a97ce9b23d4",
+      "last_seen_sha": "1b1837f7f007",
       "author": "SparkFun Electronics <techsupport@sparkfun.com>",
       "maintainer": "SparkFun Electronics <sparkfun.com>",
       "sentence": "Library for SSD168x e-paper displays on I2C",
-      "paragraph": "A library to support SSD168x e-paper displays on I2C using a I2C-SPI Bridge. The MSP430FR2433 and STM32G03 folders contain example bridge firmware",
+      "paragraph": "A library to support SSD168x e-paper displays on I2C using a I2C-SPI Bridge. The STM32G03 folder contains example bridge firmware",
       "category": "Display",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library-1.0.1.zip",
-      "size": 14380229,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sparkfun/SparkFun_SSD168x_I2C_Interface_Library-1.0.2.zip",
+      "size": 13767430,
+      "previous_version": "1.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -343482,7 +343527,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10261,
+    "with_github_metadata": 10262,
     "total_dependencies": 5712
   }
 }

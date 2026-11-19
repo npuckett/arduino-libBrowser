@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-19T07:01:51.004Z",
-  "total_libraries": 10460,
-  "index_etag": "W/\"00eb72b51a734e8c951b475084189527\"",
-  "index_last_modified": "Thu, 19 Nov 2026 07:00:18 GMT",
+  "enhanced_at": "2026-11-19T08:02:11.159Z",
+  "total_libraries": 10462,
+  "index_etag": "W/\"3097fca9602bb7d66054c5d82febb109\"",
+  "index_last_modified": "Thu, 19 Nov 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -96246,6 +96246,36 @@
       "github_updated_at": "2025-08-31T20:42:03Z"
     },
     {
+      "repository_name": "Ifty3/EasyESPWiFi",
+      "repository_url": "https://github.com/Ifty3/EasyESPWiFi",
+      "name": "EasyESPWiFi",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-19T08:02:08.331Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T08:02:08.331Z",
+      "last_seen_sha": "8382d5e566b9",
+      "author": "Ifty3",
+      "maintainer": "Ifty3",
+      "sentence": "Zero-config Wi-Fi connection and responsive dark-mode Captive Portal for ESP32 and ESP8266",
+      "paragraph": "Eliminates hardcoded Wi-Fi credentials in sketches. Automatically connects to saved Wi-Fi or opens a modern dark-mode captive portal to scan and configure networks without external dependencies.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Ifty3/EasyESPWiFi-1.0.0.zip",
+      "size": 11802,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-18T19:34:26Z"
+    },
+    {
       "repository_name": "chuanstudyup/EasyGNSS",
       "repository_url": "https://github.com/chuanstudyup/EasyGNSS",
       "name": "EasyGNSS",
@@ -121385,7 +121415,7 @@
       "repository_name": "Vean/FansElectronics_License",
       "repository_url": "https://github.com/Vean/FansElectronics_License",
       "name": "FansElectronics_License",
-      "version": "2.0.1",
+      "version": "2.3.1",
       "version_history": [
         {
           "version": "2.0.0",
@@ -121394,15 +121424,19 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "2.3.1",
+          "seen_at": "2026-11-19T08:02:08.331Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-02-23T07:28:27Z",
-      "last_seen_sha": "d5e3cdd28ab7",
+      "last_seen_sha": "908eca6925d5",
       "author": "Fans Electronics, Irfan Indra Kurniawan, S.T",
       "maintainer": "Irfan Indra Kurniawan, S.T <info@fanselectronics.com>",
       "sentence": "Offline license system for ESP32 and ESP8266 devices.",
-      "paragraph": "Arduino library to implement offline licensing, device binding, and feature activation using LIGHT, HMAC, and ECDSA modes.",
+      "paragraph": "ESP8266 & ESP32 Arduino library to implement offline licensing, device binding, and feature activation using LIGHT, HMAC, ECDSA, and AES Encryption.",
       "category": "Other",
       "architectures": [
         "esp32",
@@ -121412,9 +121446,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_License-2.0.1.zip",
-      "size": 33464,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Vean/FansElectronics_License-2.3.1.zip",
+      "size": 71427,
+      "previous_version": "2.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -128206,7 +128240,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "version_history": [
         {
           "version": "0.0.22",
@@ -128295,11 +128329,15 @@
         {
           "version": "2.0.13",
           "seen_at": "2026-11-15T10:01:32.157Z"
+        },
+        {
+          "version": "2.0.14",
+          "seen_at": "2026-11-19T08:02:08.331Z"
         }
       ],
-      "release_count": 22,
+      "release_count": 23,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "535a17a3f607",
+      "last_seen_sha": "c69ce52e8b2b",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -128325,9 +128363,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.13.zip",
-      "size": 983864,
-      "previous_version": "2.0.12",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.14.zip",
+      "size": 1335611,
+      "previous_version": "2.0.13",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -147658,6 +147696,35 @@
       "github_language": "C++",
       "github_updated_at": "2025-12-30T02:03:21Z",
       "download_url": "https://github.com/ftjuh/I2Cwrapper"
+    },
+    {
+      "repository_name": "kdi6033/I2R_PLC",
+      "repository_url": "https://github.com/kdi6033/I2R_PLC",
+      "name": "I2R_PLC",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-19T08:02:08.331Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-19T08:02:08.331Z",
+      "last_seen_sha": "38af9359aae8",
+      "author": "i2r",
+      "maintainer": "i2r",
+      "sentence": "i2r-02, i2r-03, i2r-04 IoT PLC(ESP32) 입력, 릴레이 출력, 타이머, 온습도 공통 라이브러리",
+      "paragraph": "보드 종류만 고르면 핀 번호 없이 input(1), output(1, ON)처럼 번호로 쓴다. 입력 떨림 제거, 들어오는 순간/꺼지는 순간 감지, PLC식 켜짐 지연(TON)과 꺼짐 지연(TOF) 타이머, i2r-03의 AHT21 온습도 읽기(추가 라이브러리 없음)를 담았다.",
+      "category": "Device Control",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/kdi6033/I2R_PLC-1.0.0.zip",
+      "size": 28377,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-17T06:17:05Z"
     },
     {
       "repository_name": "bitbucket.org/christandlg/iaq-coremi",
@@ -343298,7 +343365,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10256,
+    "with_github_metadata": 10258,
     "total_dependencies": 5711
   }
 }

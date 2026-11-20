@@ -1,6 +1,43 @@
 {
-  "since": "2026-11-19T23:01:25.995Z",
+  "since": "2026-11-20T00:03:59.041Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "naszly/Arduino-StaticSerialCommands",
+        "repository_url": "https://github.com/naszly/Arduino-StaticSerialCommands",
+        "name": "StaticSerialCommands",
+        "version": "1.2.2",
+        "version_history": [
+          {
+            "version": "1.2.0",
+            "seen_at": "2025-07-21T16:22:57Z"
+          },
+          {
+            "version": "1.2.2",
+            "seen_at": "2026-11-20T00:03:59.041Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:22:57Z",
+        "last_seen_sha": "9801ae093934",
+        "author": "naszly",
+        "maintainer": "naszly",
+        "sentence": "An Arduino library for parsing commands received over a serial port.",
+        "paragraph": "Optimized for low dynamic memory usage. Typed arguments with strict input validation and friendly error messages. Commands can have subcommands.",
+        "category": "Data Processing",
+        "architectures": [],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/naszly/StaticSerialCommands-1.2.2.zip",
+        "size": 20423,
+        "previous_version": "1.2.0",
+        "github_stars": 10,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2026-03-30T07:14:15Z"
+      },
+      "old_version": "1.2.0",
+      "new_version": "1.2.2"
+    }
+  ],
   "removed_libraries": []
 }

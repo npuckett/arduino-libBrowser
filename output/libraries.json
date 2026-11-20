@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-20T13:01:33.063Z",
-  "total_libraries": 10471,
-  "index_etag": "W/\"bf9162b197c2f47e7f4cfe658d47fb29\"",
-  "index_last_modified": "Fri, 20 Nov 2026 13:00:19 GMT",
+  "enhanced_at": "2026-11-20T14:01:34.679Z",
+  "total_libraries": 10474,
+  "index_etag": "W/\"c323aa961e65a81a1d955641a3226cf7\"",
+  "index_last_modified": "Fri, 20 Nov 2026 14:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -62227,6 +62227,35 @@
       "github_updated_at": "2026-11-13T12:47:31Z"
     },
     {
+      "repository_name": "HelgiOiisac/C3Portal",
+      "repository_url": "https://github.com/HelgiOiisac/C3Portal",
+      "name": "C3Portal",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-20T14:01:30.580Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-20T14:01:30.580Z",
+      "last_seen_sha": "3e6a8d958cd0",
+      "author": "Oleg Nikitin",
+      "maintainer": "Oleg Nikitin",
+      "sentence": "One-line WiFi setup portal for ESP32 with browser upload of firmware and LittleFS images.",
+      "paragraph": "Call Portal.begin() at the top of setup(). It connects to one of five saved networks, or opens a /setup page (access point or in the network) with network scan, firmware and LittleFS upload checked for size before erasing, versions and flash usage. The board answers at http://<name>.local/, and the web server runs in its own FreeRTOS task. Tested on Seeed XIAO ESP32-C3 with Arduino-ESP32 core 3.x.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HelgiOiisac/C3Portal-2.0.0.zip",
+      "size": 14552,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-20T11:05:43Z"
+    },
+    {
       "repository_name": "mumanchu/C4001mmWave",
       "repository_url": "https://github.com/mumanchu/C4001mmWave",
       "name": "C4001mmWave",
@@ -98084,6 +98113,35 @@
       "download_url": "https://github.com/crunchysteve/EdgieD/"
     },
     {
+      "repository_name": "ednieuw/EdSoftLED",
+      "repository_url": "https://github.com/ednieuw/EdSoftLED",
+      "name": "EdSoftLED",
+      "version": "1.13.0",
+      "version_history": [
+        {
+          "version": "1.13.0",
+          "seen_at": "2026-11-20T14:01:30.580Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-20T14:01:30.580Z",
+      "last_seen_sha": "e75d2c328c92",
+      "author": "Ed Nieuwenhuys",
+      "maintainer": "Ed Nieuwenhuys,ednieuw@xs4all.nl",
+      "sentence": "Arduino ESP32 board core version >= V3.2.0 library for controlling single-wire-based SK6812 or WS2812 LED pixels and strip.",
+      "paragraph": "Arduino board version V3 library for controling single-wire-based SK6812 or WS2812 LED pixels and strip.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ednieuw/EdSoftLED-1.13.0.zip",
+      "size": 47610,
+      "github_stars": 3,
+      "github_forks": 1,
+      "github_language": "C++",
+      "github_updated_at": "2026-08-03T20:20:32Z"
+    },
+    {
       "repository_name": "rszczepanski93/EduBox_ArduinoLibrary",
       "repository_url": "https://github.com/rszczepanski93/EduBox_ArduinoLibrary",
       "name": "EduBox",
@@ -126308,7 +126366,7 @@
       "repository_name": "flova-platform/flova-firmware",
       "repository_url": "https://github.com/flova-platform/flova-firmware",
       "name": "FlovaSDK",
-      "version": "0.3.12",
+      "version": "0.5.1",
       "version_history": [
         {
           "version": "0.2.0",
@@ -126349,11 +126407,15 @@
         {
           "version": "0.3.12",
           "seen_at": "2026-10-11T22:02:27.696Z"
+        },
+        {
+          "version": "0.5.1",
+          "seen_at": "2026-11-20T14:01:30.580Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-09-05T22:02:05.225Z",
-      "last_seen_sha": "2be59404e801",
+      "last_seen_sha": "1cd0fa130ec1",
       "author": "Flova",
       "maintainer": "Flova",
       "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
@@ -126364,12 +126426,11 @@
         "esp8266"
       ],
       "depends": [
-        "ArduinoJson",
-        "PubSubClient"
+        "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.3.12.zip",
-      "size": 222820,
-      "previous_version": "0.3.11",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.5.1.zip",
+      "size": 360859,
+      "previous_version": "0.3.12",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -128332,7 +128393,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.15",
+      "version": "2.0.16",
       "version_history": [
         {
           "version": "0.0.22",
@@ -128429,11 +128490,15 @@
         {
           "version": "2.0.15",
           "seen_at": "2026-11-20T08:01:59.375Z"
+        },
+        {
+          "version": "2.0.16",
+          "seen_at": "2026-11-20T14:01:30.580Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "f2245fb19c07",
+      "last_seen_sha": "61b9a5c36d23",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -128459,9 +128524,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.15.zip",
-      "size": 1336539,
-      "previous_version": "2.0.14",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.16.zip",
+      "size": 1336540,
+      "previous_version": "2.0.15",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -268129,6 +268194,38 @@
       "github_updated_at": "2026-07-05T04:11:38Z"
     },
     {
+      "repository_name": "DocBigs-Lab/ses-imagotag-bwr-epaper",
+      "repository_url": "https://github.com/DocBigs-Lab/ses-imagotag-bwr-epaper",
+      "name": "SesEpaper",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-20T14:01:30.580Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-20T14:01:30.580Z",
+      "last_seen_sha": "ff29da055972",
+      "author": "DocBigs-Lab",
+      "maintainer": "DocBigs-Lab",
+      "sentence": "Drivers for black/white/red e-paper panels from SES-imagotag shelf labels: 7.4\" (Pervasive E2741ES083), 5.65\" (E2565JS0B1) and 4.2\" (E2417JS0D1).",
+      "paragraph": "Epd74: 800x480, IST7x32. Epd565: 600x448, IST7136, parameters read from the panel OTP. Epd42: 400x300, UC8176-compatible, adjustable temperature. Adafruit GFX based. Tested on the Waveshare e-Paper ESP32 Driver Board and the Seengreat ESP32-C6 E-Paper Driver Board.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DocBigs-Lab/SesEpaper-2.0.0.zip",
+      "size": 1462202,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-20T10:26:00Z"
+    },
+    {
       "repository_name": "Zhu-jiatong/SessionManager",
       "repository_url": "https://github.com/Zhu-jiatong/SessionManager",
       "name": "SessionManager",
@@ -343751,7 +343848,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10267,
+    "with_github_metadata": 10270,
     "total_dependencies": 5716
   }
 }

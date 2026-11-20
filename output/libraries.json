@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-20T11:01:28.445Z",
-  "total_libraries": 10469,
-  "index_etag": "W/\"023051faab0b221b4c8a3af73e04a941\"",
-  "index_last_modified": "Fri, 20 Nov 2026 11:00:18 GMT",
+  "enhanced_at": "2026-11-20T12:03:02.049Z",
+  "total_libraries": 10471,
+  "index_etag": "W/\"bf9162b197c2f47e7f4cfe658d47fb29\"",
+  "index_last_modified": "Fri, 20 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -70265,6 +70265,35 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-11T07:17:14Z"
+    },
+    {
+      "repository_name": "huelake/connectivitizer-esp32",
+      "repository_url": "https://github.com/huelake/connectivitizer-esp32",
+      "name": "Connectivitizer",
+      "version": "1.0.59",
+      "version_history": [
+        {
+          "version": "1.0.59",
+          "seen_at": "2026-11-20T12:02:59.265Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-20T12:02:59.265Z",
+      "last_seen_sha": "b035f390f737",
+      "author": "Huelake",
+      "maintainer": "Huelake",
+      "sentence": "Reach a web server on your ESP32 from your app, from anywhere, without opening a port.",
+      "paragraph": "End-to-end encrypted with a key only your device and your app hold, through a relay or peer to peer. Needs no other library. For every ESP32 with Wi-Fi.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/huelake/Connectivitizer-1.0.59.zip",
+      "size": 179555,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-15T15:37:57Z"
     },
     {
       "repository_name": "edukits/ConnectKit",
@@ -152911,7 +152940,7 @@
       "repository_name": "remocons/iosignal-arduino",
       "repository_url": "https://github.com/remocons/iosignal-arduino",
       "name": "IOSignal",
-      "version": "9.21.0",
+      "version": "9.23.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -152964,11 +152993,15 @@
         {
           "version": "9.21.0",
           "seen_at": "2026-11-18T08:01:55.658Z"
+        },
+        {
+          "version": "9.23.0",
+          "seen_at": "2026-11-20T12:02:59.265Z"
         }
       ],
-      "release_count": 13,
+      "release_count": 14,
       "first_seen_at": "2025-12-12T07:32:27Z",
-      "last_seen_sha": "c371bdc35e90",
+      "last_seen_sha": "58bb6d0ed7d9",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino Client.",
@@ -152982,9 +153015,9 @@
         "Crypto",
         "Bounce2"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.21.0.zip",
-      "size": 1424659,
-      "previous_version": "9.14.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.23.0.zip",
+      "size": 1995603,
+      "previous_version": "9.21.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -241385,6 +241418,41 @@
       "github_language": "C++",
       "github_updated_at": "2026-02-24T05:49:43Z",
       "download_url": "https://github.com/MuhammadMakhfud/PZEM003_Fud"
+    },
+    {
+      "repository_name": "irfantuxz/pzem004t",
+      "repository_url": "https://github.com/irfantuxz/pzem004t",
+      "name": "PZEM004T",
+      "version": "2.0.0",
+      "version_history": [
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-20T12:02:59.265Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-20T12:02:59.265Z",
+      "last_seen_sha": "cf8bdecb641c",
+      "author": "Irfan TuxZ <tuxz.studio@gmail.com> ig:@irfan_tuxz",
+      "maintainer": "Irfan TuxZ <tuxz.studio@gmail.com> ig:@irfan_tuxz",
+      "sentence": "Cross-platform Arduino library for PZEM-004T energy meters.",
+      "paragraph": "Based on Jakub Mandula v1.2.1. Added-Features address handling fixes, ESP32 SoftwareSerial support, non-blocking polling, cached getters, pin validation, diagnostics, and multi-device support.",
+      "category": "Communication",
+      "architectures": [
+        "avr",
+        "esp8266",
+        "esp32"
+      ],
+      "license": "MIT",
+      "depends": [
+        "EspSoftwareSerial"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/irfantuxz/PZEM004T-2.0.0.zip",
+      "size": 35606,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-19T04:59:35Z"
     },
     {
       "repository_name": "mandulaj/PZEM-004T-v30",
@@ -343683,7 +343751,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10265,
-    "total_dependencies": 5715
+    "with_github_metadata": 10267,
+    "total_dependencies": 5716
   }
 }

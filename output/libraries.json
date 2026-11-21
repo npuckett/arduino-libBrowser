@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T11:01:22.483Z",
-  "total_libraries": 10478,
-  "index_etag": "W/\"303b3a951569f48f5b2350bc49e75f37\"",
-  "index_last_modified": "Sat, 21 Nov 2026 11:00:18 GMT",
+  "enhanced_at": "2026-11-21T12:01:59.432Z",
+  "total_libraries": 10481,
+  "index_etag": "W/\"37dd661bdfed6bf236ff397bf7ac7155\"",
+  "index_last_modified": "Sat, 21 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -125140,6 +125140,35 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2025-08-11T19:19:57Z"
+    },
+    {
+      "repository_name": "shipandsail/FitnessMath",
+      "repository_url": "https://github.com/shipandsail/FitnessMath",
+      "name": "FitnessMath",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-21T12:01:55.526Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T12:01:55.526Z",
+      "last_seen_sha": "2b523781da49",
+      "author": "Alex Bell <strawbelly.app@gmail.com>",
+      "maintainer": "Alex Bell <strawbelly.app@gmail.com>",
+      "sentence": "Fitness and nutrition formulas for DIY trackers: BMR, TDEE, MET calories burned, macro calories, BMI.",
+      "paragraph": "Dependency-free, header-only. Mifflin-St Jeor BMR and TDEE, calories burned from MET values (2024 Compendium), Atwater macro calories, BMI and protein RDA. Estimates for general wellness, not medical advice.",
+      "category": "Data Processing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/FitnessMath-1.0.1.zip",
+      "size": 4688,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-21T08:03:22Z"
     },
     {
       "repository_name": "kosme/fix_fft",
@@ -270400,6 +270429,35 @@
       "download_url": "http://www.github.com/johnnyb/Shifty"
     },
     {
+      "repository_name": "shipandsail/ShotDayTimer",
+      "repository_url": "https://github.com/shipandsail/ShotDayTimer",
+      "name": "ShotDayTimer",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-21T12:01:55.526Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T12:01:55.526Z",
+      "last_seen_sha": "9a0ad21c5cad",
+      "author": "Alex Bell <strawbelly.app@gmail.com>",
+      "maintainer": "Alex Bell <strawbelly.app@gmail.com>",
+      "sentence": "Weekly shot-day countdown and injection-site rotation for DIY medication reminder devices.",
+      "paragraph": "Header-only. Days until a weekly shot day from the current weekday, and least-recently-used rotation across six injection sites. Logging and reminders only: never recommends or calculates doses.",
+      "category": "Timing",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/shipandsail/ShotDayTimer-1.0.1.zip",
+      "size": 4609,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-21T08:03:34Z"
+    },
+    {
       "repository_name": "siara-cc/Shox96_Arduino_Progmem_lib",
       "repository_url": "https://github.com/siara-cc/Shox96_Arduino_Progmem_lib",
       "name": "Shox96 Progmem Compression",
@@ -333323,6 +333381,39 @@
       "download_url": "https://github.com/adafruit/WaveHC"
     },
     {
+      "repository_name": "microbotsio/Wavelit",
+      "repository_url": "https://github.com/microbotsio/Wavelit",
+      "name": "Wavelit",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-21T12:01:55.526Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T12:01:55.526Z",
+      "last_seen_sha": "6217dd961ae9",
+      "author": "Microbots <info@microbots.io>",
+      "maintainer": "Microbots <info@microbots.io>",
+      "sentence": "Wavelit Arduino Library",
+      "paragraph": "Holographic-looking Retro Display You Can Touch & Customize! With 30+ Pixel Faces & 20+ Daily Routines",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "BLEOTA",
+        "Adafruit NeoPixel"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/microbotsio/Wavelit-1.0.0.zip",
+      "size": 653441,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-21T09:44:31Z"
+    },
+    {
       "repository_name": "RobTillaart/WaveMix",
       "repository_url": "https://github.com/RobTillaart/WaveMix",
       "name": "WaveMix",
@@ -344067,7 +344158,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10274,
-    "total_dependencies": 5717
+    "with_github_metadata": 10277,
+    "total_dependencies": 5719
   }
 }

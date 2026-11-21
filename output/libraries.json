@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T05:01:36.527Z",
-  "total_libraries": 10477,
-  "index_etag": "W/\"8acd80743971046812c8c0dc9e301666\"",
-  "index_last_modified": "Sat, 21 Nov 2026 05:00:18 GMT",
+  "enhanced_at": "2026-11-21T06:02:55.519Z",
+  "total_libraries": 10478,
+  "index_etag": "W/\"6cb1d7bcea89a48ff779477c15977ba3\"",
+  "index_last_modified": "Sat, 21 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -132566,6 +132566,35 @@
       "size": 50799
     },
     {
+      "repository_name": "WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "repository_url": "https://github.com/WillyBilly06/Arduino-GIGA-Bluetooth-Audio",
+      "name": "GigaBredr",
+      "version": "0.2.3",
+      "version_history": [
+        {
+          "version": "0.2.3",
+          "seen_at": "2026-11-21T06:02:54.134Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T06:02:54.134Z",
+      "last_seen_sha": "2c0726f44375",
+      "author": "Ngoc Viet Ho",
+      "maintainer": "Ngoc Viet Ho",
+      "sentence": "Bluetooth A2DP receiver with I2S output, BLE GATT server and Classic profiles for the Arduino GIGA R1 WiFi.",
+      "paragraph": "Owned host stack on the Murata 1DX radio. Decoders: SBC/SBC-XQ, AAC, aptX, aptX HD, LDAC, LHDC V5, Opus, Samsung SSC; pick which are compiled in with GIGA_BREDR_CODECS(...), and only the active codec allocates memory. Also AVRCP, SPP, HID, OBEX (OPP/PBAP/MAP), experimental HFP/HSP, persistent QSPI bonding and fast reconnects. Experimental; see README and THIRD_PARTY.",
+      "category": "Communication",
+      "architectures": [
+        "mbed_giga"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/WillyBilly06/GigaBredr-0.2.3.zip",
+      "size": 3407127,
+      "github_stars": 2,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-12T06:29:44Z"
+    },
+    {
       "repository_name": "macFanDave/GigaDAQ",
       "repository_url": "https://github.com/macFanDave/GigaDAQ",
       "name": "GigaDAQ",
@@ -241610,20 +241639,24 @@
       "repository_name": "irfantuxz/pzem004t",
       "repository_url": "https://github.com/irfantuxz/pzem004t",
       "name": "PZEM004T",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2026-11-20T12:02:59.265Z"
+        },
+        {
+          "version": "2.0.1",
+          "seen_at": "2026-11-21T06:02:54.134Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-20T12:02:59.265Z",
-      "last_seen_sha": "cf8bdecb641c",
-      "author": "Irfan TuxZ <tuxz.studio@gmail.com> ig:@irfan_tuxz",
-      "maintainer": "Irfan TuxZ <tuxz.studio@gmail.com> ig:@irfan_tuxz",
-      "sentence": "Cross-platform Arduino library for PZEM-004T energy meters.",
-      "paragraph": "Based on Jakub Mandula v1.2.1. Added-Features address handling fixes, ESP32 SoftwareSerial support, non-blocking polling, cached getters, pin validation, diagnostics, and multi-device support.",
+      "last_seen_sha": "475ccbaec4a9",
+      "author": "Irfan TuxZ  <ig:@irfan_tuxz>",
+      "maintainer": "Irfan TuxZ  <ig:@irfan_tuxz>",
+      "sentence": "Cross-platform Arduino library for PZEM-004T energy meters (v3 v4). Support HardwareSerial SoftwareSerial AVR uno nano mega, ESP8266, ESP32 series.",
+      "paragraph": "Handle multi-PZEM in series or paralel. Added-Features address handling fixes, non-blocking polling, cached getters, pin validation, diagnostics.",
       "category": "Communication",
       "architectures": [
         "avr",
@@ -241634,8 +241667,9 @@
       "depends": [
         "EspSoftwareSerial"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/irfantuxz/PZEM004T-2.0.0.zip",
-      "size": 35606,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/irfantuxz/PZEM004T-2.0.1.zip",
+      "size": 35658,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -257708,7 +257742,7 @@
       "repository_name": "RumiCar-group/RumiCar-lib",
       "repository_url": "https://github.com/RumiCar-group/RumiCar-lib",
       "name": "RumiCar",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -257733,11 +257767,15 @@
         {
           "version": "0.6.1",
           "seen_at": "2026-11-16T00:04:56.126Z"
+        },
+        {
+          "version": "0.7.0",
+          "seen_at": "2026-11-21T06:02:54.134Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-06-23T08:54:00Z",
-      "last_seen_sha": "af4cff3af85c",
+      "last_seen_sha": "02c61b6d7150",
       "author": "RumiCar-group <info@rumicar.com>",
       "maintainer": "RumiCar-group <info@rumicar.com>",
       "sentence": "Library for controlling the RumiCar autonomous driving platform.",
@@ -257749,9 +257787,9 @@
       "depends": [
         "VL53L0X"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.6.1.zip",
-      "size": 36436,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.7.0.zip",
+      "size": 39412,
+      "previous_version": "0.6.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -344016,7 +344054,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10273,
+    "with_github_metadata": 10274,
     "total_dependencies": 5717
   }
 }

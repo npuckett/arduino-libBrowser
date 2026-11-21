@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T15:01:39.815Z",
+  "enhanced_at": "2026-11-21T16:01:37.747Z",
   "total_libraries": 10482,
-  "index_etag": "W/\"9323272862d2a662843a32a53b0a54d4\"",
-  "index_last_modified": "Sat, 21 Nov 2026 15:00:18 GMT",
+  "index_etag": "W/\"eaa45056650e46bc6d662926e6efeee6\"",
+  "index_last_modified": "Sat, 21 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -138278,7 +138278,7 @@
       "repository_name": "GyverLibs/GyverDS18",
       "repository_url": "https://github.com/GyverLibs/GyverDS18",
       "name": "GyverDS18",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.2.0",
@@ -138287,11 +138287,15 @@
         {
           "version": "1.2.1",
           "seen_at": "2026-08-14T12:12:54.999Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-11-21T16:01:37.608Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-16T07:58:12Z",
-      "last_seen_sha": "f51b5b45b04a",
+      "last_seen_sha": "f8c2ff57578c",
       "author": "AlexGyver <alex@alexgyver.ru>",
       "maintainer": "AlexGyver <alex@alexgyver.ru>",
       "sentence": "Light library for Dallas DS18b20 temperature sensor",
@@ -138303,9 +138307,9 @@
       "depends": [
         "GyverIO"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverDS18-1.2.1.zip",
-      "size": 130710,
-      "previous_version": "1.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GyverLibs/GyverDS18-1.2.2.zip",
+      "size": 130714,
+      "previous_version": "1.2.1",
       "github_stars": 16,
       "github_forks": 4,
       "github_language": "C++",
@@ -273906,7 +273910,7 @@
       "repository_name": "wassie-dev/simpleOTAClient-Arduino",
       "repository_url": "https://github.com/wassie-dev/simpleOTAClient-Arduino",
       "name": "SimpleOTAClient",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -273915,23 +273919,27 @@
         {
           "version": "1.0.1",
           "seen_at": "2026-11-18T16:01:52.030Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-21T16:01:37.608Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-10-30T20:01:38.798Z",
-      "last_seen_sha": "420449eefd59",
+      "last_seen_sha": "20c2a9db421f",
       "author": "SimpleOTA <support@simpleota.com>",
       "maintainer": "SimpleOTA <support@simpleota.com>",
       "sentence": "Thin Arduino-ESP32 client for the SimpleOTA firmware update platform.",
-      "paragraph": "The same C API as the SimpleOTA ESP-IDF component (simpleota.h). Checks for updates, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification, runs each new image as a trial that rolls back unless confirmed, refuses downgrades, and reports lifecycle events. Works over any network: the sketch owns Wi-Fi or Ethernet bring-up.",
+      "paragraph": "The same C API as the SimpleOTA ESP-IDF component (simpleota.h). Checks for updates, streams and flashes firmware with on-the-fly SHA-256 and Ed25519 signature verification (optionally strict signing, which also binds the project and build number), runs each new image as a trial that rolls back unless confirmed, refuses downgrades, and reports lifecycle events. Works over any network: the sketch owns Wi-Fi or Ethernet bring-up.",
       "category": "Communication",
       "architectures": [
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.0.1.zip",
-      "size": 158046,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/wassie-dev/SimpleOTAClient-1.2.0.zip",
+      "size": 170466,
+      "previous_version": "1.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C",

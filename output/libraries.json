@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T03:01:54.257Z",
+  "enhanced_at": "2026-11-21T04:01:37.257Z",
   "total_libraries": 10477,
-  "index_etag": "W/\"b3edeea3c3b50d49095ec6d74e280e18\"",
-  "index_last_modified": "Sat, 21 Nov 2026 03:00:18 GMT",
+  "index_etag": "W/\"8acd80743971046812c8c0dc9e301666\"",
+  "index_last_modified": "Sat, 21 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -199041,7 +199041,7 @@
       "repository_name": "modest-iot/modest-iot-nano-framework",
       "repository_url": "https://github.com/modest-iot/modest-iot-nano-framework",
       "name": "Modest-IoT-Nano-Framework",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -199058,11 +199058,15 @@
         {
           "version": "1.1.2",
           "seen_at": "2026-11-17T20:01:28.687Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-21T04:01:37.118Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-11-14T18:01:25.863Z",
-      "last_seen_sha": "462c876f7ad2",
+      "last_seen_sha": "becce513f122",
       "author": "Angel Velasquez",
       "maintainer": "Angel Velasquez <avelasquezn@gmail.com>",
       "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
@@ -199073,12 +199077,11 @@
       ],
       "license": "Apache-2.0",
       "depends": [
-        "ArduinoJson",
         "MQTT"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.1.2.zip",
-      "size": 562556,
-      "previous_version": "1.1.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.2.0.zip",
+      "size": 669202,
+      "previous_version": "1.1.2",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -218316,7 +218319,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.59",
+      "version": "0.0.60",
       "version_history": [
         {
           "version": "0.0.2",
@@ -218501,11 +218504,15 @@
         {
           "version": "0.0.59",
           "seen_at": "2026-11-19T02:02:29.172Z"
+        },
+        {
+          "version": "0.0.60",
+          "seen_at": "2026-11-21T04:01:37.118Z"
         }
       ],
-      "release_count": 46,
+      "release_count": 47,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "829972ab31e0",
+      "last_seen_sha": "3471cca8d618",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -218514,9 +218521,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.59.zip",
-      "size": 1206730,
-      "previous_version": "0.0.58",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.60.zip",
+      "size": 1211647,
+      "previous_version": "0.0.59",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -344010,6 +344017,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10273,
-    "total_dependencies": 5718
+    "total_dependencies": 5717
   }
 }

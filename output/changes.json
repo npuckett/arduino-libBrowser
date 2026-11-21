@@ -1,6 +1,39 @@
 {
-  "since": "2026-11-21T13:01:37.620Z",
-  "new_libraries": [],
+  "since": "2026-11-21T14:01:44.895Z",
+  "new_libraries": [
+    {
+      "repository_name": "DocBigs-Lab/solum-epaper",
+      "repository_url": "https://github.com/DocBigs-Lab/solum-epaper",
+      "name": "SolumEpaper",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-21T14:01:44.895Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T14:01:44.895Z",
+      "last_seen_sha": "c61a2a9dbd3a",
+      "author": "DocBigs-Lab",
+      "maintainer": "DocBigs-Lab",
+      "sentence": "Driver for the 2.0\" black/white/yellow/red e-paper from SOLUM shelf labels (EL020L8C4C, FPC-8161).",
+      "paragraph": "Epd20: 200x152, four colours (black, white, yellow, red), 2 bit per pixel. Init sequence after the OpenEPaperLink Solum firmware. Adafruit GFX based. Tested on the Seengreat ESP32-C6 E-Paper Driver Board; the Waveshare e-Paper ESP32 Driver Board should work (same pinout) but is not tested yet.",
+      "category": "Display",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "Adafruit GFX Library"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DocBigs-Lab/SolumEpaper-0.1.0.zip",
+      "size": 898309,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-21T10:08:27Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

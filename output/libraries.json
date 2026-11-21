@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T17:01:35.681Z",
-  "total_libraries": 10482,
-  "index_etag": "W/\"eaa45056650e46bc6d662926e6efeee6\"",
-  "index_last_modified": "Sat, 21 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-21T18:01:25.153Z",
+  "total_libraries": 10484,
+  "index_etag": "W/\"14b035c0c0aed3796805ff580773744e\"",
+  "index_last_modified": "Sat, 21 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -112463,6 +112463,35 @@
       "github_language": "C++"
     },
     {
+      "repository_name": "jnovonj/ESP32Syslog",
+      "repository_url": "https://github.com/jnovonj/ESP32Syslog",
+      "name": "ESP32Syslog",
+      "version": "1.1.2",
+      "version_history": [
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-11-21T18:01:22.480Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T18:01:22.480Z",
+      "last_seen_sha": "b63e36aedaa1",
+      "author": "jnovonj",
+      "maintainer": "jnovonj",
+      "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
+      "paragraph": "Supports RFC 3164 and RFC 5424 protocols via UDP with an offline circular buffer and automatic ESP_LOG redirection.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.1.2.zip",
+      "size": 11792,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-03-13T21:16:55Z"
+    },
+    {
       "repository_name": "tanakamasayuki/ESP32TaskKit",
       "repository_url": "https://github.com/tanakamasayuki/ESP32TaskKit",
       "name": "ESP32TaskKit",
@@ -200502,6 +200531,35 @@
       "github_updated_at": "2026-06-30T15:04:05Z",
       "download_url": "https://microbots.io/MotorCell",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "adfwswf/MotorControl",
+      "repository_url": "https://github.com/adfwswf/MotorControl",
+      "name": "MotorControl",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-21T18:01:22.480Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T18:01:22.480Z",
+      "last_seen_sha": "f7490501560a",
+      "author": "MotorControl Library",
+      "maintainer": "MotorControl Library",
+      "sentence": "A simple dual DC motor control library for Arduino.",
+      "paragraph": "Control two DC motors using an L298N motor driver with signed speed values.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adfwswf/MotorControl-1.0.1.zip",
+      "size": 4085,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-21T14:15:50Z"
     },
     {
       "repository_name": "PowerBroker2/MotorController",
@@ -344198,7 +344256,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10278,
+    "with_github_metadata": 10280,
     "total_dependencies": 5720
   }
 }

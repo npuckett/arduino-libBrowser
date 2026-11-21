@@ -1,6 +1,65 @@
 {
-  "since": "2026-11-21T17:01:35.527Z",
-  "new_libraries": [],
+  "since": "2026-11-21T18:01:22.480Z",
+  "new_libraries": [
+    {
+      "repository_name": "jnovonj/ESP32Syslog",
+      "repository_url": "https://github.com/jnovonj/ESP32Syslog",
+      "name": "ESP32Syslog",
+      "version": "1.1.2",
+      "version_history": [
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-11-21T18:01:22.480Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T18:01:22.480Z",
+      "last_seen_sha": "b63e36aedaa1",
+      "author": "jnovonj",
+      "maintainer": "jnovonj",
+      "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
+      "paragraph": "Supports RFC 3164 and RFC 5424 protocols via UDP with an offline circular buffer and automatic ESP_LOG redirection.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.1.2.zip",
+      "size": 11792,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-03-13T21:16:55Z"
+    },
+    {
+      "repository_name": "adfwswf/MotorControl",
+      "repository_url": "https://github.com/adfwswf/MotorControl",
+      "name": "MotorControl",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-21T18:01:22.480Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-21T18:01:22.480Z",
+      "last_seen_sha": "f7490501560a",
+      "author": "MotorControl Library",
+      "maintainer": "MotorControl Library",
+      "sentence": "A simple dual DC motor control library for Arduino.",
+      "paragraph": "Control two DC motors using an L298N motor driver with signed speed values.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adfwswf/MotorControl-1.0.1.zip",
+      "size": 4085,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-21T14:15:50Z"
+    }
+  ],
   "updated_libraries": [],
   "removed_libraries": []
 }

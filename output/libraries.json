@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-20T23:01:17.382Z",
+  "enhanced_at": "2026-11-21T00:04:02.540Z",
   "total_libraries": 10477,
-  "index_etag": "W/\"bf679bd64dd826aa0e186b726b92ff5f\"",
-  "index_last_modified": "Fri, 20 Nov 2026 23:00:18 GMT",
+  "index_etag": "W/\"e1c80a1612621ef97dd397d858f492db\"",
+  "index_last_modified": "Sat, 21 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -15589,7 +15589,7 @@
       "repository_name": "adafruit/Adafruit_SPIFlash",
       "repository_url": "https://github.com/adafruit/Adafruit_SPIFlash",
       "name": "Adafruit SPIFlash",
-      "version": "5.1.1",
+      "version": "5.1.3",
       "version_history": [
         {
           "version": "5.1.1",
@@ -15598,11 +15598,15 @@
         {
           "version": "5.1.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "5.1.3",
+          "seen_at": "2026-11-21T00:04:02.396Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-25T08:41:36Z",
-      "last_seen_sha": "38076aa54235",
+      "last_seen_sha": "e254d39cff2d",
       "author": "Adafruit",
       "maintainer": "Adafruit <info@adafruit.com>",
       "sentence": "SPI Flash filesystem support for FAT and CircuitPython FS support from within Arduino",
@@ -15615,8 +15619,8 @@
         "Adafruit NeoPixel",
         "SdFat - Adafruit Fork"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SPIFlash-5.1.1.zip",
-      "size": 160563,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SPIFlash-5.1.3.zip",
+      "size": 174387,
       "previous_version": "5.1.1",
       "github_stars": 200,
       "github_forks": 93,
@@ -47587,7 +47591,7 @@
       "repository_name": "bitcode-tech/bc7215ac",
       "repository_url": "https://github.com/bitcode-tech/bc7215ac",
       "name": "BC7215AC_Universal_Aircon_Control",
-      "version": "8.1.2",
+      "version": "8.1.3",
       "version_history": [
         {
           "version": "7.2.0",
@@ -47596,11 +47600,15 @@
         {
           "version": "8.1.2",
           "seen_at": "2026-11-16T06:04:05.956Z"
+        },
+        {
+          "version": "8.1.3",
+          "seen_at": "2026-11-21T00:04:02.396Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-25T08:09:06Z",
-      "last_seen_sha": "e8b459fb4c21",
+      "last_seen_sha": "29a284d244de",
       "author": "Bitcode",
       "maintainer": "Bitcode <support@bitcode.com.cn>",
       "sentence": "Offline universal A/C(Air Conditoner) IR control & IR signal parsing, single step setup and controls any A/C.",
@@ -47609,9 +47617,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bitcode-tech/BC7215AC_Universal_Aircon_Control-8.1.2.zip",
-      "size": 15319134,
-      "previous_version": "7.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bitcode-tech/BC7215AC_Universal_Aircon_Control-8.1.3.zip",
+      "size": 15319630,
+      "previous_version": "8.1.2",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",
@@ -114952,16 +114960,20 @@
       "repository_name": "francescopace/espectre-arduino",
       "repository_url": "https://github.com/francescopace/espectre-arduino",
       "name": "ESPectre",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "version_history": [
         {
           "version": "3.2.0",
           "seen_at": "2026-11-12T02:02:04.366Z"
+        },
+        {
+          "version": "3.2.1",
+          "seen_at": "2026-11-21T00:04:02.396Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-12T02:02:04.366Z",
-      "last_seen_sha": "d771435ad8a2",
+      "last_seen_sha": "aaa4134bd785",
       "author": "Francesco Pace <francesco.pace@espectre.dev>",
       "maintainer": "Francesco Pace <francesco.pace@espectre.dev>",
       "sentence": "Wi-Fi motion detection for ESP32 from channel state information.",
@@ -114970,8 +114982,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/francescopace/ESPectre-3.2.0.zip",
-      "size": 378247,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/francescopace/ESPectre-3.2.1.zip",
+      "size": 378493,
+      "previous_version": "3.2.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -161255,7 +161268,7 @@
       "repository_name": "krpc/krpc-arduino",
       "repository_url": "https://github.com/krpc/krpc-arduino",
       "name": "kRPC",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.5.4",
@@ -161268,11 +161281,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-10-22T00:06:01.345Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-11-21T00:04:02.396Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:19:15Z",
-      "last_seen_sha": "ca87e0595e09",
+      "last_seen_sha": "ee53e84a952e",
       "author": "djungelorm <djungelorm@users.noreply.github.com>",
       "maintainer": "djungelorm <djungelorm@users.noreply.github.com>",
       "sentence": "Client library for kRPC, a Remote Procedure Call server for Kerbal Space Program.",
@@ -161281,9 +161298,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/krpc/kRPC-0.7.0.zip",
-      "size": 277548,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/krpc/kRPC-0.8.0.zip",
+      "size": 522781,
+      "previous_version": "0.7.0",
       "github_stars": 4,
       "github_forks": 3,
       "github_language": "C",
@@ -278439,7 +278456,7 @@
       "repository_name": "Masud744/SmartProv",
       "repository_url": "https://github.com/Masud744/SmartProv",
       "name": "SmartProv",
-      "version": "3.0.0",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "2.1.3",
@@ -278448,11 +278465,15 @@
         {
           "version": "3.0.0",
           "seen_at": "2026-11-19T22:01:42.742Z"
+        },
+        {
+          "version": "3.0.2",
+          "seen_at": "2026-11-21T00:04:02.396Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-04-27T08:30:57Z",
-      "last_seen_sha": "75025889b7ba",
+      "last_seen_sha": "3e5e13d1d688",
       "author": "Shahriar Alom Masud <masud.nil74@gmail.com>",
       "maintainer": "Shahriar Alom Masud <masud.nil74@gmail.com>",
       "sentence": "Captive-portal Wi-Fi provisioning library for ESP32 (S2/S3/C3/C6) and ESP8266.",
@@ -278462,9 +278483,9 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Masud744/SmartProv-3.0.0.zip",
-      "size": 111935,
-      "previous_version": "2.1.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Masud744/SmartProv-3.0.2.zip",
+      "size": 112327,
+      "previous_version": "3.0.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",

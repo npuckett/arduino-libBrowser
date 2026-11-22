@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-22T07:01:28.238Z",
+  "enhanced_at": "2026-11-22T08:01:46.973Z",
   "total_libraries": 10487,
-  "index_etag": "W/\"50ca8fb02995cb183ac551a5941d8ace\"",
-  "index_last_modified": "Sun, 22 Nov 2026 07:00:18 GMT",
+  "index_etag": "W/\"0ba6f7324419d6dc116a480c37ca6632\"",
+  "index_last_modified": "Sun, 22 Nov 2026 08:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -117081,7 +117081,7 @@
       "repository_name": "tanakamasayuki/EspUsbHost",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbHost",
       "name": "EspUsbHost",
-      "version": "2.10.2",
+      "version": "2.11.0",
       "version_history": [
         {
           "version": "2.0.1",
@@ -117210,11 +117210,15 @@
         {
           "version": "2.10.2",
           "seen_at": "2026-11-13T00:04:19.387Z"
+        },
+        {
+          "version": "2.11.0",
+          "seen_at": "2026-11-22T08:01:46.856Z"
         }
       ],
-      "release_count": 32,
+      "release_count": 33,
       "first_seen_at": "2026-06-30T08:49:13Z",
-      "last_seen_sha": "820dfca3dd8d",
+      "last_seen_sha": "e2b63ff75fc9",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "USB Host library for ESP32-S3, ESP32-S2 and ESP32-P4 Arduino sketches.",
@@ -117223,9 +117227,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.10.2.zip",
-      "size": 1563755,
-      "previous_version": "2.10.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbHost-2.11.0.zip",
+      "size": 1575147,
+      "previous_version": "2.10.2",
       "github_stars": 149,
       "github_forks": 37,
       "github_language": "C++",
@@ -189858,16 +189862,20 @@
       "repository_name": "Melior-software/melior-specto-arduino",
       "repository_url": "https://github.com/Melior-software/melior-specto-arduino",
       "name": "Melior Specto",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "version_history": [
         {
           "version": "0.2.0",
           "seen_at": "2026-11-22T02:02:48.131Z"
+        },
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-11-22T08:01:46.856Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-22T02:02:48.131Z",
-      "last_seen_sha": "009f26386d3a",
+      "last_seen_sha": "6a08811c1152",
       "author": "Melior",
       "maintainer": "Melior <podpora@melior.software>",
       "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
@@ -189880,8 +189888,9 @@
         "WiFiNINA",
         "WiFi101"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.0.zip",
-      "size": 43522,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.1.zip",
+      "size": 43674,
+      "previous_version": "0.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -218551,7 +218560,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.61",
+      "version": "0.0.63",
       "version_history": [
         {
           "version": "0.0.2",
@@ -218744,11 +218753,15 @@
         {
           "version": "0.0.61",
           "seen_at": "2026-11-21T08:01:51.822Z"
+        },
+        {
+          "version": "0.0.63",
+          "seen_at": "2026-11-22T08:01:46.856Z"
         }
       ],
-      "release_count": 48,
+      "release_count": 49,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "ada6a7594f00",
+      "last_seen_sha": "d19641c035cc",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -218757,9 +218770,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.61.zip",
-      "size": 1212866,
-      "previous_version": "0.0.60",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.63.zip",
+      "size": 1228594,
+      "previous_version": "0.0.61",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -257989,7 +258002,7 @@
       "repository_name": "RumiCar-group/RumiCar-lib",
       "repository_url": "https://github.com/RumiCar-group/RumiCar-lib",
       "name": "RumiCar",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "version_history": [
         {
           "version": "0.3.0",
@@ -258018,11 +258031,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-11-21T06:02:54.134Z"
+        },
+        {
+          "version": "0.7.1",
+          "seen_at": "2026-11-22T08:01:46.856Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-23T08:54:00Z",
-      "last_seen_sha": "02c61b6d7150",
+      "last_seen_sha": "3112f0c8327c",
       "author": "RumiCar-group <info@rumicar.com>",
       "maintainer": "RumiCar-group <info@rumicar.com>",
       "sentence": "Library for controlling the RumiCar autonomous driving platform.",
@@ -258034,9 +258051,9 @@
       "depends": [
         "VL53L0X"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.7.0.zip",
-      "size": 39412,
-      "previous_version": "0.6.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/RumiCar-group/RumiCar-0.7.1.zip",
+      "size": 42472,
+      "previous_version": "0.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

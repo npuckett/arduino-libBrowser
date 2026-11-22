@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-22T21:01:22.546Z",
-  "total_libraries": 10491,
-  "index_etag": "W/\"e9b3557d3f6ee3c83230a0427c0181fb\"",
-  "index_last_modified": "Sun, 22 Nov 2026 21:00:18 GMT",
+  "enhanced_at": "2026-11-22T22:01:18.962Z",
+  "total_libraries": 10492,
+  "index_etag": "W/\"af1cdc20b865d3b3d208a934a534759e\"",
+  "index_last_modified": "Sun, 22 Nov 2026 22:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -3958,6 +3958,35 @@
       "github_language": "Assembly",
       "github_updated_at": "2025-06-30T05:32:17Z",
       "download_url": "https://github.com/todd-herbert/absolute-mouse"
+    },
+    {
+      "repository_name": "alpochete/AButton",
+      "repository_url": "https://github.com/alpochete/AButton",
+      "name": "AButton",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-22T22:01:17.578Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-22T22:01:17.578Z",
+      "last_seen_sha": "30bcbf7f0319",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A lightweight Arduino library for push button handling.",
+      "paragraph": "Provides software debouncing, press and release detection, double-click detection, and hold-duration checks. Supports INPUT and INPUT_PULLUP.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AButton-1.0.1.zip",
+      "size": 6052,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-22T16:50:45Z"
     },
     {
       "repository_name": "tatemazer/AcaiaArduinoBLE",
@@ -110710,7 +110739,7 @@
       "repository_name": "tobozo/ESP32-USB-Soft-Host",
       "repository_url": "https://github.com/tobozo/ESP32-USB-Soft-Host",
       "name": "ESP32-USB-Soft-Host",
-      "version": "0.1.5",
+      "version": "0.2.0",
       "version_history": [
         {
           "version": "0.1.5",
@@ -110719,11 +110748,15 @@
         {
           "version": "0.1.5",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "0.2.0",
+          "seen_at": "2026-11-22T22:01:17.578Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-23T08:46:10Z",
-      "last_seen_sha": "0cacfbe7fe80",
+      "last_seen_sha": "2cb97c3c2085",
       "author": "tobozo <tobozo@noreply.github.com>",
       "maintainer": "tobozo <tobozo@noreply.github.com>",
       "sentence": "\"An Arduino wrapper to @sdima1357's usb_soft_host esp-idf example\"",
@@ -110732,13 +110765,13 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_USB_Soft_Host-0.1.5.zip",
-      "size": 705810,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tobozo/ESP32_USB_Soft_Host-0.2.0.zip",
+      "size": 708291,
       "previous_version": "0.1.5",
       "github_stars": 375,
       "github_forks": 54,
-      "github_updated_at": "2026-06-22T22:19:41Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-22T22:19:41Z"
     },
     {
       "repository_name": "ardakora/Esp32AdaptiveClock",
@@ -254526,7 +254559,7 @@
       "repository_name": "dejwk/roo_logging",
       "repository_url": "https://github.com/dejwk/roo_logging",
       "name": "roo_logging",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.5.7",
@@ -254551,11 +254584,15 @@
         {
           "version": "1.6.0",
           "seen_at": "2026-11-22T04:01:50.036Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-11-22T22:01:17.578Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-03-25T07:40:43Z",
-      "last_seen_sha": "f9c43ff1c57c",
+      "last_seen_sha": "901b335c36e2",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Logging library, targeted at ESP32 and related boards.",
@@ -254570,9 +254607,9 @@
         "roo_time",
         "roo_threads"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.6.0.zip",
-      "size": 121570,
-      "previous_version": "1.5.11",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_logging-1.6.1.zip",
+      "size": 121674,
+      "previous_version": "1.6.0",
       "github_stars": 2,
       "github_forks": 1,
       "github_language": "C++",
@@ -254669,7 +254706,7 @@
       "repository_name": "dejwk/roo_prefs",
       "repository_url": "https://github.com/dejwk/roo_prefs",
       "name": "roo_prefs",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.3.0",
@@ -254698,11 +254735,15 @@
         {
           "version": "2.0.3",
           "seen_at": "2026-09-30T22:02:41.257Z"
+        },
+        {
+          "version": "2.0.4",
+          "seen_at": "2026-11-22T22:01:17.578Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-05T08:30:08Z",
-      "last_seen_sha": "616ef83fd3b5",
+      "last_seen_sha": "8d926525055a",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Utility library for persistent settings using ESP32 NVS or Arduino Preferences, with namespaces and transactions.",
@@ -254713,11 +254754,12 @@
       ],
       "depends": [
         "roo_backport",
-        "roo_logging"
+        "roo_logging",
+        "roo_io"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_prefs-2.0.3.zip",
-      "size": 48263,
-      "previous_version": "2.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_prefs-2.0.4.zip",
+      "size": 52169,
+      "previous_version": "2.0.3",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -254727,7 +254769,7 @@
       "repository_name": "dejwk/roo_quantity",
       "repository_url": "https://github.com/dejwk/roo_quantity",
       "name": "roo_quantity",
-      "version": "1.1.11",
+      "version": "1.1.12",
       "version_history": [
         {
           "version": "1.1.3",
@@ -254748,11 +254790,15 @@
         {
           "version": "1.1.11",
           "seen_at": "2026-09-26T16:02:39.237Z"
+        },
+        {
+          "version": "1.1.12",
+          "seen_at": "2026-11-22T22:01:17.578Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2025-11-13T07:15:20Z",
-      "last_seen_sha": "203a1f7deacb",
+      "last_seen_sha": "802e58a6ccc3",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Type-safe and unit-independent representation of physical quantities.",
@@ -254766,9 +254812,9 @@
         "roo_logging",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_quantity-1.1.11.zip",
-      "size": 72616,
-      "previous_version": "1.1.10",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_quantity-1.1.12.zip",
+      "size": 74759,
+      "previous_version": "1.1.11",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254778,7 +254824,7 @@
       "repository_name": "dejwk/roo_scheduler",
       "repository_url": "https://github.com/dejwk/roo_scheduler",
       "name": "roo_scheduler",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "version_history": [
         {
           "version": "2.1.9",
@@ -254799,11 +254845,15 @@
         {
           "version": "2.3.0",
           "seen_at": "2026-09-30T22:02:41.257Z"
+        },
+        {
+          "version": "2.4.0",
+          "seen_at": "2026-11-22T22:01:17.578Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-02-26T07:36:14Z",
-      "last_seen_sha": "141424fbb99c",
+      "last_seen_sha": "a89c84d9426f",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Allows scheduling delayed and/or repetitive tasks.",
@@ -254813,13 +254863,14 @@
         "*"
       ],
       "depends": [
+        "roo_backport",
         "roo_collections",
         "roo_threads",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_scheduler-2.3.0.zip",
-      "size": 36847,
-      "previous_version": "2.2.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_scheduler-2.4.0.zip",
+      "size": 55865,
+      "previous_version": "2.3.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -344578,7 +344629,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10287,
-    "total_dependencies": 5725
+    "with_github_metadata": 10288,
+    "total_dependencies": 5727
   }
 }

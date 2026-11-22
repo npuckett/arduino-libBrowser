@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-21T23:01:16.812Z",
+  "enhanced_at": "2026-11-22T00:04:23.863Z",
   "total_libraries": 10484,
-  "index_etag": "W/\"b240802c5a1c9bb98eaafbb468a12999\"",
-  "index_last_modified": "Sat, 21 Nov 2026 23:00:18 GMT",
+  "index_etag": "W/\"3478acc64e045b096911bb84482e417b\"",
+  "index_last_modified": "Sun, 22 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -199141,7 +199141,7 @@
       "repository_name": "modest-iot/modest-iot-nano-framework",
       "repository_url": "https://github.com/modest-iot/modest-iot-nano-framework",
       "name": "Modest-IoT-Nano-Framework",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -199162,11 +199162,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-11-21T04:01:37.118Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-11-22T00:04:23.774Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-11-14T18:01:25.863Z",
-      "last_seen_sha": "becce513f122",
+      "last_seen_sha": "6f7666e70fa8",
       "author": "Angel Velasquez",
       "maintainer": "Angel Velasquez <avelasquezn@gmail.com>",
       "sentence": "An event-driven, asynchronous IoT framework for ESP32, approved by Arduino and available in the Arduino Library Manager.",
@@ -199179,9 +199183,9 @@
       "depends": [
         "MQTT"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.2.0.zip",
-      "size": 669202,
-      "previous_version": "1.1.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/modest-iot/Modest_IoT_Nano_Framework-1.2.1.zip",
+      "size": 673597,
+      "previous_version": "1.2.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -211201,7 +211205,7 @@
       "repository_name": "NeuraiProject/NeuraiDepinMsg",
       "repository_url": "https://github.com/NeuraiProject/NeuraiDepinMsg",
       "name": "NeuraiDepinMsg",
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -211210,15 +211214,19 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-09-12T22:07:29.578Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-22T00:04:23.774Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-01-09T07:32:49Z",
-      "last_seen_sha": "a9d4979a97c0",
+      "last_seen_sha": "318050ff361e",
       "author": "Asimov",
       "maintainer": "Asimov <web@neurai.org>",
       "sentence": "Build, encrypt and sign DePIN messages for Neurai.",
-      "paragraph": "Build, encrypt, sign, verify and decrypt Neurai DePIN Messaging Protocol 2 messages on ESP32. Requires uNeurai >= 0.0.11 and ArduinoJson 6.",
+      "paragraph": "Build, encrypt, sign, verify and decrypt Neurai DePIN Messaging Protocol 6 messages on ESP32. Requires uNeurai >= 0.3.1 and ArduinoJson 6.",
       "category": "Communication",
       "architectures": [
         "esp32"
@@ -211227,9 +211235,9 @@
         "uNeurai",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NeuraiProject/NeuraiDepinMsg-1.1.0.zip",
-      "size": 97133,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NeuraiProject/NeuraiDepinMsg-2.0.0.zip",
+      "size": 93052,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

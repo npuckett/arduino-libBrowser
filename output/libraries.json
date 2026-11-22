@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-22T17:01:30.736Z",
-  "total_libraries": 10488,
-  "index_etag": "W/\"79a95fa99c9042302e6eb71dbceff2ed\"",
-  "index_last_modified": "Sun, 22 Nov 2026 17:00:18 GMT",
+  "enhanced_at": "2026-11-22T18:01:53.298Z",
+  "total_libraries": 10489,
+  "index_etag": "W/\"64e59d5cd16640cf138e3e2fbb625425\"",
+  "index_last_modified": "Sun, 22 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -116155,6 +116155,35 @@
       "license": "Apache-2.0",
       "download_url": "https://github.com/figamore/EspNowLink",
       "github_language": "C++"
+    },
+    {
+      "repository_name": "GianluViv/ESP_NOW_MESHLIB",
+      "repository_url": "https://github.com/GianluViv/ESP_NOW_MESHLIB",
+      "name": "ESPNowMesh",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-22T18:01:51.917Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-22T18:01:51.917Z",
+      "last_seen_sha": "e6fdd4306ffb",
+      "author": "Gianluca Vivenzi",
+      "maintainer": "Gianluca Vivenzi <gianluca.vivenzi@gmail.com>",
+      "sentence": "Libreria mesh ESP-NOW per ESP32 con pairing automatico, relay multi-hop e payload applicativo personalizzabile.",
+      "paragraph": "Gestisce la rete mesh (beacon, pairing, watchdog, anti-loop) lasciando all'applicazione la definizione del payload. Supporta reti multiple tramite network ID configurabile, persistenza canale su NVS, scan automatica dei canali WiFi e topologia master/slave con ruolo selezionabile a runtime.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/GianluViv/ESPNowMesh-1.0.0.zip",
+      "size": 30929,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-22T14:20:53Z"
     },
     {
       "repository_name": "Johboh/EspNowNetworkHost",
@@ -344471,7 +344500,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10284,
+    "with_github_metadata": 10285,
     "total_dependencies": 5723
   }
 }

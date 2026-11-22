@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-22T19:01:16.104Z",
-  "total_libraries": 10489,
-  "index_etag": "W/\"64e59d5cd16640cf138e3e2fbb625425\"",
-  "index_last_modified": "Sun, 22 Nov 2026 19:00:18 GMT",
+  "enhanced_at": "2026-11-22T20:01:48.049Z",
+  "total_libraries": 10491,
+  "index_etag": "W/\"e9b3557d3f6ee3c83230a0427c0181fb\"",
+  "index_last_modified": "Sun, 22 Nov 2026 20:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -22034,6 +22034,35 @@
       "github_language": "C++",
       "github_updated_at": "2024-12-28T09:49:26Z",
       "download_url": "https://github.com/AITINKR/AITINKR_SHIELDS"
+    },
+    {
+      "repository_name": "alpochete/AJoystick",
+      "repository_url": "https://github.com/alpochete/AJoystick",
+      "name": "AJoystick",
+      "version": "1.0.2",
+      "version_history": [
+        {
+          "version": "1.0.2",
+          "seen_at": "2026-11-22T20:01:45.388Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-22T20:01:45.388Z",
+      "last_seen_sha": "49f1fe526d0d",
+      "author": "alpochete",
+      "maintainer": "alpochete",
+      "sentence": "A library for reading and controlling an analog joystick module.",
+      "paragraph": "Provides analog X and Y axis readings, button detection, direction detection, and axis normalization.",
+      "category": "Device Control",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AJoystick-1.0.2.zip",
+      "size": 4370,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-22T15:35:19Z"
     },
     {
       "repository_name": "bartoszbielawski/AJSP",
@@ -112884,6 +112913,39 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-04-16T19:38:16Z"
+    },
+    {
+      "repository_name": "placidanomaly/ES3C28P",
+      "repository_url": "https://github.com/placidanomaly/ES3C28P",
+      "name": "ESP3C28P",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-22T20:01:45.388Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-22T20:01:45.388Z",
+      "last_seen_sha": "28b9d234405d",
+      "author": "Charles Vaillancourt",
+      "maintainer": "Charles Vaillancourt",
+      "sentence": "Helper functions to use LVGL with an ES3C28P module",
+      "paragraph": "The ES3C28P module is an ESP32S3-based device with a 2.8 inch LCD SPI display and a capacitive touchscreen. This library contains all you need to use LVGL with the device to render graphics and capture touch events.",
+      "category": "Uncategorized",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "lvgl",
+        "bodmer/TFT_eSPI"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/placidanomaly/ESP3C28P-1.1.0.zip",
+      "size": 1756502,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-22T17:07:42Z"
     },
     {
       "repository_name": "ThingPulse/esp8266-oled-ssd1306",
@@ -253907,7 +253969,7 @@
       "repository_name": "dejwk/roo_backport",
       "repository_url": "https://github.com/dejwk/roo_backport",
       "name": "roo_backport",
-      "version": "1.2.5",
+      "version": "1.3.0",
       "version_history": [
         {
           "version": "1.2.2",
@@ -253924,11 +253986,15 @@
         {
           "version": "1.2.5",
           "seen_at": "2026-11-22T02:02:48.131Z"
+        },
+        {
+          "version": "1.3.0",
+          "seen_at": "2026-11-22T20:01:45.388Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-02-25T07:37:39Z",
-      "last_seen_sha": "b9e94d19608b",
+      "last_seen_sha": "1ac199f5afcc",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Backport of some of C++17 and C++20 functionality, so that it can be used with older compilers.",
@@ -253936,9 +254002,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_backport-1.2.5.zip",
-      "size": 8859,
-      "previous_version": "1.2.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_backport-1.3.0.zip",
+      "size": 10805,
+      "previous_version": "1.2.5",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254003,7 +254069,7 @@
       "repository_name": "dejwk/roo_collections",
       "repository_url": "https://github.com/dejwk/roo_collections",
       "name": "roo_collections",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.4.4",
@@ -254032,11 +254098,15 @@
         {
           "version": "2.0.1",
           "seen_at": "2026-11-22T04:01:50.036Z"
+        },
+        {
+          "version": "2.0.2",
+          "seen_at": "2026-11-22T20:01:45.388Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-06-05T08:30:02Z",
-      "last_seen_sha": "22f04e40fa9c",
+      "last_seen_sha": "b5935dd0c735",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Compact flat hash maps and sets for ESP32 and other microcontrollers.",
@@ -254048,9 +254118,9 @@
       "depends": [
         "roo_backport"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-2.0.1.zip",
-      "size": 1433672,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_collections-2.0.2.zip",
+      "size": 1433561,
+      "previous_version": "2.0.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -254792,7 +254862,7 @@
       "repository_name": "dejwk/roo_threads",
       "repository_url": "https://github.com/dejwk/roo_threads",
       "name": "roo_threads",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.2.5",
@@ -254821,11 +254891,15 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-11-22T04:01:50.036Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-11-22T20:01:45.388Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-03-19T07:35:22Z",
-      "last_seen_sha": "ec00577f386a",
+      "last_seen_sha": "95dcbb1afe97",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Portable threading library for microcontrollers.",
@@ -254837,9 +254911,9 @@
       "depends": [
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.3.1.zip",
-      "size": 59599,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_threads-1.4.0.zip",
+      "size": 79619,
+      "previous_version": "1.3.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254849,7 +254923,7 @@
       "repository_name": "dejwk/roo_time",
       "repository_url": "https://github.com/dejwk/roo_time",
       "name": "roo_time",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "version_history": [
         {
           "version": "1.4.4",
@@ -254890,11 +254964,15 @@
         {
           "version": "2.2.0",
           "seen_at": "2026-11-22T04:01:50.036Z"
+        },
+        {
+          "version": "2.2.1",
+          "seen_at": "2026-11-22T20:01:45.388Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-03-19T07:35:24Z",
-      "last_seen_sha": "d4f52788ab43",
+      "last_seen_sha": "ab5fd327d9a6",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Basic management of elapsed time, wall time, and date time, with multi-timezone support.",
@@ -254906,9 +254984,9 @@
       "depends": [
         "roo_backport"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.2.0.zip",
-      "size": 190422,
-      "previous_version": "2.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time-2.2.1.zip",
+      "size": 190495,
+      "previous_version": "2.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -344500,7 +344578,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10285,
-    "total_dependencies": 5723
+    "with_github_metadata": 10287,
+    "total_dependencies": 5725
   }
 }

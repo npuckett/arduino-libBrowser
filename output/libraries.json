@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-22T11:01:17.827Z",
+  "enhanced_at": "2026-11-22T12:01:59.070Z",
   "total_libraries": 10487,
-  "index_etag": "W/\"4f6fbbc732c7ad5db3b6af06e6b9c1ea\"",
-  "index_last_modified": "Sun, 22 Nov 2026 11:00:18 GMT",
+  "index_etag": "W/\"8547194846024ffe4bbaeb745da71236\"",
+  "index_last_modified": "Sun, 22 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -98877,7 +98877,7 @@
       "repository_name": "AlenKrishna2012/EEPROM24CXX",
       "repository_url": "https://github.com/AlenKrishna2012/EEPROM24CXX",
       "name": "EEPROM24CXX",
-      "version": "1.0.7",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -98906,22 +98906,26 @@
         {
           "version": "1.0.7",
           "seen_at": "2026-09-17T14:04:15.794Z"
+        },
+        {
+          "version": "1.0.9",
+          "seen_at": "2026-11-22T12:01:58.952Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-08-03T14:58:49.725Z",
-      "last_seen_sha": "51ba9bd42e9a",
+      "last_seen_sha": "68bef72e9cfd",
       "author": "Alen KrishnaV.U",
       "maintainer": "Alen Krishna V.U <alenkrishnavu@gmail.com>",
-      "sentence": "I2C EEPROM library for 24Cxx and 24CMxx EEPROM chips.",
-      "paragraph": "Supports byte access, strings, buffers, datatypes, erase, fill, compare and write protection.",
+      "sentence": "I2C EEPROM library for 24Cxx EEPROM devices.",
+      "paragraph": "Provides bounded byte, string, buffer and datatype access, cursor operations and memory utilities.",
       "category": "Data Storage",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.7.zip",
-      "size": 17946,
-      "previous_version": "1.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AlenKrishna2012/EEPROM24CXX-1.0.9.zip",
+      "size": 15935,
+      "previous_version": "1.0.7",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -189862,7 +189866,7 @@
       "repository_name": "Melior-software/melior-specto-arduino",
       "repository_url": "https://github.com/Melior-software/melior-specto-arduino",
       "name": "Melior Specto",
-      "version": "0.2.1",
+      "version": "0.2.3",
       "version_history": [
         {
           "version": "0.2.0",
@@ -189871,11 +189875,15 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-11-22T08:01:46.856Z"
+        },
+        {
+          "version": "0.2.3",
+          "seen_at": "2026-11-22T12:01:58.952Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-11-22T02:02:48.131Z",
-      "last_seen_sha": "6a08811c1152",
+      "last_seen_sha": "0be811ff4576",
       "author": "Melior",
       "maintainer": "Melior <podpora@melior.software>",
       "sentence": "Vizualizace z desky na specto.melior.software – nastavíš ji na webu, do kódu vložíš jen klíč.",
@@ -189888,9 +189896,9 @@
         "WiFiNINA",
         "WiFi101"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.1.zip",
-      "size": 43674,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Melior-software/Melior_Specto-0.2.3.zip",
+      "size": 39725,
+      "previous_version": "0.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -315769,7 +315777,7 @@
       "repository_name": "longtrinh/TinyGSM2",
       "repository_url": "https://github.com/longtrinh/TinyGSM2",
       "name": "TinyGSM2",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -315786,11 +315794,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-10-16T10:02:52.474Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-11-22T12:01:58.952Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-10-15T18:03:41.152Z",
-      "last_seen_sha": "7ed2a96774b5",
+      "last_seen_sha": "b76bd43e3653",
       "author": "Long Trinh",
       "maintainer": "Long Trinh",
       "sentence": "A small Arduino library for GPRS modules, that just works. Fork of TinyGSM (by Volodymyr Shymanskyy) with arduino-esp32 3.x fixes.",
@@ -315799,9 +315811,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.3.zip",
-      "size": 219841,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/longtrinh/TinyGSM2-1.0.4.zip",
+      "size": 232414,
+      "previous_version": "1.0.3",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

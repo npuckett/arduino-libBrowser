@@ -1,6 +1,349 @@
 {
-  "since": "2026-11-23T15:01:30.731Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-23T16:01:51.038Z",
+  "new_libraries": [
+    {
+      "repository_name": "ILogEverything/NodeProFlux",
+      "repository_url": "https://github.com/ILogEverything/NodeProFlux",
+      "name": "NodeProFlux",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-23T16:01:51.038Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-23T16:01:51.038Z",
+      "last_seen_sha": "304d80e158fd",
+      "author": "ILogEverything, based on Corsair Lighting Protocol by Leon Kiefer",
+      "maintainer": "ILogEverything",
+      "sentence": "Control LED strips via USB from a PC (SignalRGB, iCUE, OpenRGB) with an Arduino.",
+      "paragraph": "Independently maintained fork of Corsair Lighting Protocol that mimics Corsair LED Controller devices over USB. Compatible with current FastLED releases (tested with 3.10.10).",
+      "category": "Device Control",
+      "architectures": [
+        "avr",
+        "samd",
+        "rp2040"
+      ],
+      "depends": [
+        "FastLED"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ILogEverything/NodeProFlux-1.0.0.zip",
+      "size": 94109,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-23T14:29:10Z"
+    },
+    {
+      "repository_name": "itsbhupendrasingh/SMEAIoT",
+      "repository_url": "https://github.com/itsbhupendrasingh/SMEAIoT",
+      "name": "SMEAIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-23T16:01:51.038Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-23T16:01:51.038Z",
+      "last_seen_sha": "5ef2784d7194",
+      "author": "SME AIoT <schematicslab@gmail.com>",
+      "maintainer": "SME AIoT <schematicslab@gmail.com>",
+      "sentence": "SME AIoT SDK for NuttyFi 2.0 (ESP8266) and NuttyFi32 (ESP32).",
+      "paragraph": "Set the dashboard id and token in your sketch and the SDK handles the rest. It sends one pin or a hundred together in a single batch (int, float, digital, text), and works both ways. MQTT is used for real-time when the backend offers it, HTTP otherwise. TLS is verified, traffic is rate limited, and buffers are fixed size so it stays stable under load.",
+      "category": "Communication",
+      "architectures": [
+        "esp8266",
+        "esp32"
+      ],
+      "license": "MIT",
+      "depends": [
+        "ArduinoJson",
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/itsbhupendrasingh/SMEAIoT-1.0.0.zip",
+      "size": 119742,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-23T11:57:17Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "alpochete/AButton",
+        "repository_url": "https://github.com/alpochete/AButton",
+        "name": "AButton",
+        "version": "1.0.2",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-22T22:01:17.578Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-22T22:01:17.578Z",
+        "last_seen_sha": "be3294fed2b5",
+        "author": "alpochete",
+        "maintainer": "alpochete",
+        "sentence": "A lightweight Arduino library for push button handling.",
+        "paragraph": "Provides software debouncing, press and release detection, double-click detection, and hold-duration checks. Supports INPUT and INPUT_PULLUP.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/alpochete/AButton-1.0.2.zip",
+        "size": 5993,
+        "previous_version": "1.0.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-22T16:50:45Z"
+      },
+      "old_version": "1.0.1",
+      "new_version": "1.0.2"
+    },
+    {
+      "library": {
+        "repository_name": "mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+        "repository_url": "https://github.com/mrcodetastic/ESP32-HUB75-MatrixPanel-DMA",
+        "name": "ESP32 HUB75 LED MATRIX PANEL DMA Display",
+        "version": "3.1.1",
+        "version_history": [
+          {
+            "version": "3.0.15",
+            "seen_at": "2026-06-29T09:01:36Z"
+          },
+          {
+            "version": "3.0.14",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "3.1.0",
+            "seen_at": "2026-10-12T16:02:59.444Z"
+          },
+          {
+            "version": "3.1.1",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-29T09:01:36Z",
+        "last_seen_sha": "07fe8f0d0662",
+        "author": "MrCodetastic",
+        "maintainer": "MrCodetastic",
+        "sentence": "HUB75 LED Matrix Library for ESP32, ESP32-S2 and ESP32-S3",
+        "paragraph": "An Adafruit GFX compatible library for LED matrix modules which uses DMA for ultra-fast refresh rates and therefore very low CPU usage.",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "esp32s2",
+          "esp32s3"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mrcodetastic/ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display-3.1.1.zip",
+        "size": 2450593,
+        "previous_version": "3.1.0",
+        "github_stars": 1540,
+        "github_forks": 336,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-30T10:33:42Z"
+      },
+      "old_version": "3.1.0",
+      "new_version": "3.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "mathieucarbou/MycilaHADiscovery",
+        "repository_url": "https://github.com/mathieucarbou/MycilaHADiscovery",
+        "name": "MycilaHADiscovery",
+        "version": "8.0.0",
+        "version_history": [
+          {
+            "version": "7.0.1",
+            "seen_at": "2026-06-30T08:37:29Z"
+          },
+          {
+            "version": "7.1.0",
+            "seen_at": "2026-09-03T16:03:01.753Z"
+          },
+          {
+            "version": "7.2.0",
+            "seen_at": "2026-10-03T18:09:20.407Z"
+          },
+          {
+            "version": "8.0.0",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:37:29Z",
+        "last_seen_sha": "acc6bfac7a3a",
+        "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "sentence": "Simple and efficient Home Assistant Discovery library for Arduino / ESP32",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-8.0.0.zip",
+        "size": 54652,
+        "previous_version": "7.2.0",
+        "github_stars": 10,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T10:24:40Z"
+      },
+      "old_version": "7.2.0",
+      "new_version": "8.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "mathieucarbou/MycilaMQTT",
+        "repository_url": "https://github.com/mathieucarbou/MycilaMQTT",
+        "name": "MycilaMQTT",
+        "version": "6.1.4",
+        "version_history": [
+          {
+            "version": "6.1.3",
+            "seen_at": "2026-03-05T07:43:26Z"
+          },
+          {
+            "version": "6.1.4",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-03-05T07:43:26Z",
+        "last_seen_sha": "f702cfb99c3a",
+        "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
+        "sentence": "A simple, efficient and modern MQTT/MQTTS client library for ESP32 Arduino projects, built on top of the Espressif ESP-IDF MQTT API.",
+        "category": "Other",
+        "architectures": [
+          "esp32"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaMQTT-6.1.4.zip",
+        "size": 29760,
+        "previous_version": "6.1.3",
+        "github_stars": 9,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-05T06:58:44Z"
+      },
+      "old_version": "6.1.3",
+      "new_version": "6.1.4"
+    },
+    {
+      "library": {
+        "repository_name": "Domochip/Palazzetti",
+        "repository_url": "https://github.com/Domochip/Palazzetti",
+        "name": "Palazzetti",
+        "version": "4.1.1",
+        "version_history": [
+          {
+            "version": "3.4.0",
+            "seen_at": "2026-06-08T08:46:40Z"
+          },
+          {
+            "version": "3.5.0",
+            "seen_at": "2026-11-16T22:01:13.600Z"
+          },
+          {
+            "version": "3.6.0",
+            "seen_at": "2026-11-20T16:01:38.325Z"
+          },
+          {
+            "version": "3.7.0",
+            "seen_at": "2026-11-20T20:01:37.727Z"
+          },
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-11-23T00:05:07.151Z"
+          },
+          {
+            "version": "4.1.1",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 6,
+        "first_seen_at": "2026-06-08T08:46:40Z",
+        "last_seen_sha": "1d04eba8a028",
+        "author": "Domochip <domochip@hotmail.com>",
+        "maintainer": "Domochip <domochip@hotmail.com>",
+        "sentence": "A communication library for fumis/palazzetti stove.",
+        "paragraph": "A communication library for fumis/palazzetti Alpha 65. It allows to read status, SetPoint, room temperature, fan speed, etc. and to power on/off stove, set setpoint, fan speed, etc.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Domochip/Palazzetti-4.1.1.zip",
+        "size": 28727,
+        "previous_version": "4.1.0",
+        "github_stars": 12,
+        "github_forks": 6,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-07T21:32:22Z"
+      },
+      "old_version": "4.1.0",
+      "new_version": "4.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "quanhuy38/WUD_Tournaments",
+        "repository_url": "https://github.com/quanhuy38/WUD_Tournaments",
+        "name": "WUD_Tournaments",
+        "version": "0.3.0",
+        "version_history": [
+          {
+            "version": "0.1.1",
+            "seen_at": "2026-11-22T16:01:38.299Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-11-23T14:01:39.783Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-11-23T16:01:51.038Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-11-22T16:01:38.299Z",
+        "last_seen_sha": "53459e75bcd3",
+        "author": "Qhuy",
+        "maintainer": "Qhuy",
+        "sentence": "Control an ESP32 RC car over BLE from the NQFT web gamepad.",
+        "paragraph": "Named BLE advertising (RC-Car-AA11), status LED, failsafe, 8 gamepad buttons with press/release events, L298N wheel drivers, STD/MECANUM/OMNI drive mixing, per-wheel PWM trim and direction matrix stored in flash, single-wheel test from the web.",
+        "category": "Communication",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "NimBLE-Arduino"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/quanhuy38/WUD_Tournaments-0.3.0.zip",
+        "size": 28124,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-22T13:46:40Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.3.0"
+    }
+  ],
   "removed_libraries": []
 }

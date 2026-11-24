@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-24T01:01:32.176Z",
+  "enhanced_at": "2026-11-24T02:02:54.696Z",
   "total_libraries": 10498,
-  "index_etag": "W/\"037c68e37dd1f0c869374b8743d275ae\"",
-  "index_last_modified": "Tue, 24 Nov 2026 01:00:18 GMT",
+  "index_etag": "W/\"95485b0b464adaf5acefc0f41c33ec92\"",
+  "index_last_modified": "Tue, 24 Nov 2026 02:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -213903,20 +213903,24 @@
       "repository_name": "ILogEverything/NodeProFlux",
       "repository_url": "https://github.com/ILogEverything/NodeProFlux",
       "name": "NodeProFlux",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-23T16:01:51.038Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-24T02:02:54.598Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-23T16:01:51.038Z",
-      "last_seen_sha": "304d80e158fd",
+      "last_seen_sha": "be14c67c77f9",
       "author": "ILogEverything, based on Corsair Lighting Protocol by Leon Kiefer",
       "maintainer": "ILogEverything",
-      "sentence": "Control LED strips via USB from a PC (SignalRGB, iCUE, OpenRGB) with an Arduino.",
-      "paragraph": "Independently maintained fork of Corsair Lighting Protocol that mimics Corsair LED Controller devices over USB. Compatible with current FastLED releases (tested with 3.10.10).",
+      "sentence": "Turn an Arduino into a USB LED controller for SignalRGB.",
+      "paragraph": "NodeProFlux makes an ATmega32U4 board (Pro Micro, Leonardo, Micro) show up as a Lighting Node PRO and drives addressable LEDs through FastLED. Works with FastLED 3.10.x.",
       "category": "Device Control",
       "architectures": [
         "avr",
@@ -213926,8 +213930,9 @@
       "depends": [
         "FastLED"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/ILogEverything/NodeProFlux-1.0.0.zip",
-      "size": 94109,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/ILogEverything/NodeProFlux-1.0.1.zip",
+      "size": 74189,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254494,7 +254499,7 @@
       "repository_name": "dejwk/roo_fonts_basic",
       "repository_url": "https://github.com/dejwk/roo_fonts_basic",
       "name": "roo_fonts_basic",
-      "version": "1.0.6",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.2",
@@ -254515,11 +254520,15 @@
         {
           "version": "1.0.6",
           "seen_at": "2026-10-02T00:07:10.306Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-24T02:02:54.598Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-02-27T07:32:57Z",
-      "last_seen_sha": "63a3b7ee2b4d",
+      "last_seen_sha": "551f8b334bbf",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Collection of Noto fonts for use with dejwk/roo_display.",
@@ -254531,9 +254540,9 @@
       "depends": [
         "roo_display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_basic-1.0.6.zip",
-      "size": 5613306,
-      "previous_version": "1.0.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_basic-1.1.0.zip",
+      "size": 5614213,
+      "previous_version": "1.0.6",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254543,16 +254552,20 @@
       "repository_name": "dejwk/roo_fonts_material",
       "repository_url": "https://github.com/dejwk/roo_fonts_material",
       "name": "roo_fonts_material",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.1.2",
           "seen_at": "2026-11-23T06:03:42.892Z"
+        },
+        {
+          "version": "1.1.3",
+          "seen_at": "2026-11-24T02:02:54.598Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-23T06:03:42.892Z",
-      "last_seen_sha": "2f776f0b2ba0",
+      "last_seen_sha": "67110b22e49b",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Collection of Material Design fonts for use with dejwk/roo_display.",
@@ -254564,8 +254577,9 @@
       "depends": [
         "roo_display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.2.zip",
-      "size": 6382193,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_fonts_material-1.1.3.zip",
+      "size": 6383498,
+      "previous_version": "1.1.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -254575,7 +254589,7 @@
       "repository_name": "dejwk/roo_icons",
       "repository_url": "https://github.com/dejwk/roo_icons",
       "name": "roo_icons",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "version_history": [
         {
           "version": "1.2.1",
@@ -254592,11 +254606,15 @@
         {
           "version": "1.2.5",
           "seen_at": "2026-09-19T16:02:22.246Z"
+        },
+        {
+          "version": "1.2.6",
+          "seen_at": "2026-11-24T02:02:54.598Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-01-10T07:18:40Z",
-      "last_seen_sha": "257581c19cc9",
+      "last_seen_sha": "36eac81244fa",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "Collection of icons for use with the roo_display library.",
@@ -254608,9 +254626,9 @@
       "depends": [
         "roo_display"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_icons-1.2.5.zip",
-      "size": 23265602,
-      "previous_version": "1.2.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_icons-1.2.6.zip",
+      "size": 23266328,
+      "previous_version": "1.2.5",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -255325,7 +255343,7 @@
       "repository_name": "dejwk/roo_time_ds3231",
       "repository_url": "https://github.com/dejwk/roo_time_ds3231",
       "name": "roo_time_ds3231",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.1.3",
@@ -255350,25 +255368,30 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-09-19T14:02:22.379Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-24T02:02:54.598Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2025-11-13T07:15:27Z",
-      "last_seen_sha": "3f8869d04ff9",
+      "last_seen_sha": "6f86d096081c",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
-      "sentence": "Arduino and ESP-IDF driver for DS3231 real-time clock, compliant with roo_time.",
+      "sentence": "Compatibility wrapper for the roo_rtc DS3231 driver.",
       "category": "Timing",
       "architectures": [
         "*"
       ],
       "depends": [
         "roo_time",
-        "roo_io"
+        "roo_io",
+        "roo_rtc"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-2.0.0.zip",
-      "size": 17947,
-      "previous_version": "1.1.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_time_ds3231-3.0.0.zip",
+      "size": 14237,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -344985,6 +345008,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10294,
-    "total_dependencies": 5736
+    "total_dependencies": 5737
   }
 }

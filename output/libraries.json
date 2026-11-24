@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-24T13:02:11.889Z",
+  "enhanced_at": "2026-11-24T14:01:41.024Z",
   "total_libraries": 10499,
-  "index_etag": "W/\"9f33754b4e84ba4592606d6dd41564ae\"",
-  "index_last_modified": "Tue, 24 Nov 2026 13:00:19 GMT",
+  "index_etag": "W/\"0c4efe50df5dd7b90d561c362dcd9acf\"",
+  "index_last_modified": "Tue, 24 Nov 2026 14:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -153513,7 +153513,7 @@
       "repository_name": "remocons/iosignal-arduino",
       "repository_url": "https://github.com/remocons/iosignal-arduino",
       "name": "IOSignal",
-      "version": "9.23.1",
+      "version": "10.0.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -153574,11 +153574,15 @@
         {
           "version": "9.23.1",
           "seen_at": "2026-11-20T20:01:37.727Z"
+        },
+        {
+          "version": "10.0.0",
+          "seen_at": "2026-11-24T14:01:40.909Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2025-12-12T07:32:27Z",
-      "last_seen_sha": "d65f413135d1",
+      "last_seen_sha": "916004803380",
       "author": "Taeo Lee <sixgen@gmail.com>",
       "maintainer": "Taeo Lee <sixgen@gmail.com>",
       "sentence": "IOSignal Arduino Client.",
@@ -153588,13 +153592,12 @@
         "*"
       ],
       "depends": [
-        "Boho",
         "Crypto",
         "Bounce2"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-9.23.1.zip",
-      "size": 1996261,
-      "previous_version": "9.23.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-10.0.0.zip",
+      "size": 2023662,
+      "previous_version": "9.23.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -195226,7 +195229,7 @@
       "repository_name": "sauloverissimo/midi2",
       "repository_url": "https://github.com/sauloverissimo/midi2",
       "name": "midi2",
-      "version": "0.7.0",
+      "version": "0.10.1",
       "version_history": [
         {
           "version": "0.6.0",
@@ -195235,11 +195238,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-07-10T07:06:12.909Z"
+        },
+        {
+          "version": "0.10.1",
+          "seen_at": "2026-11-24T14:01:40.909Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-24T08:47:13Z",
-      "last_seen_sha": "0cb1d6487e0e",
+      "last_seen_sha": "bc3838ecab91",
       "author": "Saulo Verissimo",
       "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
       "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
@@ -195248,9 +195255,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.7.0.zip",
-      "size": 3022000,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.10.1.zip",
+      "size": 4675499,
+      "previous_version": "0.7.0",
       "github_stars": 8,
       "github_forks": 2,
       "github_language": "C",
@@ -328706,7 +328713,7 @@
       "repository_name": "angeloINTJ/USBSnifferPIO_RP2040",
       "repository_url": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040",
       "name": "USBSnifferPIO_RP2040",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -328715,11 +328722,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-11-24T12:03:04.084Z"
+        },
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-24T14:01:40.909Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "506ee3e8fa08",
+      "last_seen_sha": "6f1b0c221119",
       "author": "Ângelo Moisés Alves",
       "maintainer": "Ângelo Moisés Alves",
       "sentence": "Passive USB 1.1 packet sniffer using the RP2040 PIO coprocessor.",
@@ -328728,9 +328739,9 @@
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.1.0.zip",
-      "size": 76269,
-      "previous_version": "1.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.2.0.zip",
+      "size": 88750,
+      "previous_version": "1.1.0",
       "github_stars": 13,
       "github_forks": 1,
       "github_language": "C++",
@@ -345080,6 +345091,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10295,
-    "total_dependencies": 5737
+    "total_dependencies": 5736
   }
 }

@@ -1,6 +1,189 @@
 {
-  "since": "2026-11-24T13:02:11.749Z",
+  "since": "2026-11-24T14:01:40.909Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "remocons/iosignal-arduino",
+        "repository_url": "https://github.com/remocons/iosignal-arduino",
+        "name": "IOSignal",
+        "version": "10.0.0",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2025-12-12T07:32:27Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-09-26T20:02:18.227Z"
+          },
+          {
+            "version": "6.0.0",
+            "seen_at": "2026-10-02T20:02:39.164Z"
+          },
+          {
+            "version": "6.0.1",
+            "seen_at": "2026-10-12T08:17:42.716Z"
+          },
+          {
+            "version": "7.0.0",
+            "seen_at": "2026-10-28T14:01:44.818Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-11-02T18:02:11.798Z"
+          },
+          {
+            "version": "9.6.0",
+            "seen_at": "2026-11-10T20:01:30.445Z"
+          },
+          {
+            "version": "9.12.0",
+            "seen_at": "2026-11-11T18:01:49.486Z"
+          },
+          {
+            "version": "9.13.0",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "9.14.0",
+            "seen_at": "2026-11-15T16:01:36.997Z"
+          },
+          {
+            "version": "9.14.1",
+            "seen_at": "2026-11-15T18:01:37.230Z"
+          },
+          {
+            "version": "9.14.2",
+            "seen_at": "2026-11-16T12:03:18.612Z"
+          },
+          {
+            "version": "9.21.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          },
+          {
+            "version": "9.23.0",
+            "seen_at": "2026-11-20T12:02:59.265Z"
+          },
+          {
+            "version": "9.23.1",
+            "seen_at": "2026-11-20T20:01:37.727Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-11-24T14:01:40.909Z"
+          }
+        ],
+        "release_count": 16,
+        "first_seen_at": "2025-12-12T07:32:27Z",
+        "last_seen_sha": "916004803380",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Arduino Client.",
+        "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Crypto",
+          "Bounce2"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-10.0.0.zip",
+        "size": 2023662,
+        "previous_version": "9.23.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-11T17:53:49Z"
+      },
+      "old_version": "9.23.1",
+      "new_version": "10.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "sauloverissimo/midi2",
+        "repository_url": "https://github.com/sauloverissimo/midi2",
+        "name": "midi2",
+        "version": "0.10.1",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-24T08:47:13Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-07-10T07:06:12.909Z"
+          },
+          {
+            "version": "0.10.1",
+            "seen_at": "2026-11-24T14:01:40.909Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-24T08:47:13Z",
+        "last_seen_sha": "bc3838ecab91",
+        "author": "Saulo Verissimo",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
+        "paragraph": "Construction, parsing, dispatch, and MIDI-CI for the MIDI 2.0 Universal MIDI Packet on embedded targets, from AVR to desktop. Header-only public API with stb-style amalgamation available under dist/. Used by midi2cpp (C++ wrapper), the Teensy core fork, USBHost_t36 fork and direct sketches.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.10.1.zip",
+        "size": 4675499,
+        "previous_version": "0.7.0",
+        "github_stars": 8,
+        "github_forks": 2,
+        "github_language": "C",
+        "github_updated_at": "2026-06-23T09:00:22Z"
+      },
+      "old_version": "0.7.0",
+      "new_version": "0.10.1"
+    },
+    {
+      "library": {
+        "repository_name": "angeloINTJ/USBSnifferPIO_RP2040",
+        "repository_url": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040",
+        "name": "USBSnifferPIO_RP2040",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-11-24T12:03:04.084Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-11-24T14:01:40.909Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-30T22:37:15.403Z",
+        "last_seen_sha": "6f1b0c221119",
+        "author": "Ângelo Moisés Alves",
+        "maintainer": "Ângelo Moisés Alves",
+        "sentence": "Passive USB 1.1 packet sniffer using the RP2040 PIO coprocessor.",
+        "paragraph": "Captures Low-Speed (1.5 Mbps) and Full-Speed (12 Mbps) USB packets passively through high-impedance GPIO tapping. Uses a 22-instruction PIO hardware 8x DPLL for clock recovery, zero-gap 2-channel hardware DMA ping-pong buffering, and an SRAM-resident -O3 decoder implementing inline NRZI decoding, bit-unstuffing, packet framing, and table-accelerated CRC5/CRC16 verification. Delivers structured USBPacket objects through a callback API. Dual-core ready. Ideal for protocol analysis, HID device monitoring, and USB debugging.",
+        "category": "Communication",
+        "architectures": [
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.2.0.zip",
+        "size": 88750,
+        "previous_version": "1.1.0",
+        "github_stars": 13,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-11T13:23:41Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.2.0"
+    }
+  ],
   "removed_libraries": []
 }

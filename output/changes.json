@@ -1,6 +1,324 @@
 {
-  "since": "2026-11-24T17:01:48.706Z",
+  "since": "2026-11-24T18:01:47.502Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "gershnik/BetterWiFiNINA",
+        "repository_url": "https://github.com/gershnik/BetterWiFiNINA",
+        "name": "BetterWiFiNINA",
+        "version": "1.5.0",
+        "version_history": [
+          {
+            "version": "1.4.1",
+            "seen_at": "2025-12-20T07:36:08Z"
+          },
+          {
+            "version": "1.5.0",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-12-20T07:36:08Z",
+        "last_seen_sha": "e3974253dc67",
+        "author": "Eugene Gershnik",
+        "maintainer": "Eugene Gershnik <gershnik@hotmail.com>",
+        "sentence": "An improved fork of WiFiNINA library",
+        "paragraph": "With this library you can perform socket communication over WiFi. The board can connect either to open or encrypted networks (WEP, WPA). The IP address can be assigned statically or through a DHCP. The library can also manage DNS.",
+        "category": "Communication",
+        "architectures": [
+          "samd",
+          "mbed_nano",
+          "megaavr",
+          "zephyr_main"
+        ],
+        "depends": [
+          "Arduino_SpiNINA"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/gershnik/BetterWiFiNINA-1.5.0.zip",
+        "size": 144247,
+        "previous_version": "1.4.1",
+        "github_stars": 6,
+        "github_forks": 1,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-19T23:39:37Z"
+      },
+      "old_version": "1.4.1",
+      "new_version": "1.5.0"
+    },
+    {
+      "library": {
+        "repository_name": "UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+        "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_gt365xx_library",
+        "name": "DevLab_GT365xx",
+        "version": "1.0.3",
+        "version_history": [
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-09-25T20:02:35.810Z"
+          },
+          {
+            "version": "1.0.2",
+            "seen_at": "2026-10-07T16:03:41.490Z"
+          },
+          {
+            "version": "1.0.3",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-09-25T20:02:35.810Z",
+        "last_seen_sha": "d7a2ab393910",
+        "author": "UNIT Electronics MX",
+        "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
+        "sentence": "Arduino library for the GT365xx light sensor (LDR) using DDP over I2C.",
+        "paragraph": "DevLab GT365xx library for light acquisition through the DevLab Device Protocol (DDP) over I2C. Reads the 12-bit ADC value of the LDR voltage divider.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "DevLabDDP",
+          "DevLab_Interface"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLab_GT365xx-1.0.3.zip",
+        "size": 6349145,
+        "previous_version": "1.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-25T17:52:23Z"
+      },
+      "old_version": "1.0.2",
+      "new_version": "1.0.3"
+    },
+    {
+      "library": {
+        "repository_name": "remocons/iosignal-arduino",
+        "repository_url": "https://github.com/remocons/iosignal-arduino",
+        "name": "IOSignal",
+        "version": "10.0.1",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2025-12-12T07:32:27Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-09-26T20:02:18.227Z"
+          },
+          {
+            "version": "6.0.0",
+            "seen_at": "2026-10-02T20:02:39.164Z"
+          },
+          {
+            "version": "6.0.1",
+            "seen_at": "2026-10-12T08:17:42.716Z"
+          },
+          {
+            "version": "7.0.0",
+            "seen_at": "2026-10-28T14:01:44.818Z"
+          },
+          {
+            "version": "9.0.0",
+            "seen_at": "2026-11-02T18:02:11.798Z"
+          },
+          {
+            "version": "9.6.0",
+            "seen_at": "2026-11-10T20:01:30.445Z"
+          },
+          {
+            "version": "9.12.0",
+            "seen_at": "2026-11-11T18:01:49.486Z"
+          },
+          {
+            "version": "9.13.0",
+            "seen_at": "2026-11-12T18:01:55.729Z"
+          },
+          {
+            "version": "9.14.0",
+            "seen_at": "2026-11-15T16:01:36.997Z"
+          },
+          {
+            "version": "9.14.1",
+            "seen_at": "2026-11-15T18:01:37.230Z"
+          },
+          {
+            "version": "9.14.2",
+            "seen_at": "2026-11-16T12:03:18.612Z"
+          },
+          {
+            "version": "9.21.0",
+            "seen_at": "2026-11-18T08:01:55.658Z"
+          },
+          {
+            "version": "9.23.0",
+            "seen_at": "2026-11-20T12:02:59.265Z"
+          },
+          {
+            "version": "9.23.1",
+            "seen_at": "2026-11-20T20:01:37.727Z"
+          },
+          {
+            "version": "10.0.0",
+            "seen_at": "2026-11-24T14:01:40.909Z"
+          },
+          {
+            "version": "10.0.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 17,
+        "first_seen_at": "2025-12-12T07:32:27Z",
+        "last_seen_sha": "4420252817a7",
+        "author": "Taeo Lee <sixgen@gmail.com>",
+        "maintainer": "Taeo Lee <sixgen@gmail.com>",
+        "sentence": "IOSignal Arduino Client.",
+        "paragraph": "Support Uno Ethernet,Uno R4 WiFi, ESP8266 and ESP32.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "Crypto",
+          "Bounce2"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/remocons/IOSignal-10.0.1.zip",
+        "size": 2024442,
+        "previous_version": "10.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2025-12-11T17:53:49Z"
+      },
+      "old_version": "10.0.0",
+      "new_version": "10.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "sauloverissimo/midi2",
+        "repository_url": "https://github.com/sauloverissimo/midi2",
+        "name": "midi2",
+        "version": "0.10.2",
+        "version_history": [
+          {
+            "version": "0.6.0",
+            "seen_at": "2026-06-24T08:47:13Z"
+          },
+          {
+            "version": "0.7.0",
+            "seen_at": "2026-07-10T07:06:12.909Z"
+          },
+          {
+            "version": "0.10.1",
+            "seen_at": "2026-11-24T14:01:40.909Z"
+          },
+          {
+            "version": "0.10.2",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-24T08:47:13Z",
+        "last_seen_sha": "c1a894cd4114",
+        "author": "Saulo Verissimo",
+        "maintainer": "Saulo Verissimo <sauloverissimo@gmail.com>",
+        "sentence": "Portable MIDI 2.0 infrastructure: C99, zero dependencies, zero allocation.",
+        "paragraph": "Construction, parsing, dispatch, and MIDI-CI for the MIDI 2.0 Universal MIDI Packet on embedded targets, from AVR to desktop. Header-only public API with stb-style amalgamation available under dist/. Used by midi2cpp (C++ wrapper), the Teensy core fork, USBHost_t36 fork and direct sketches.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sauloverissimo/midi2-0.10.2.zip",
+        "size": 4675647,
+        "previous_version": "0.10.1",
+        "github_stars": 8,
+        "github_forks": 2,
+        "github_language": "C",
+        "github_updated_at": "2026-06-23T09:00:22Z"
+      },
+      "old_version": "0.10.1",
+      "new_version": "0.10.2"
+    },
+    {
+      "library": {
+        "repository_name": "fanfanlatulipe26/RP2040_ppm",
+        "repository_url": "https://github.com/fanfanlatulipe26/RP2040_ppm",
+        "name": "RP2040_ppm",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-11-20T16:01:38.325Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-20T16:01:38.325Z",
+        "last_seen_sha": "f321614f7280",
+        "author": "fanfanlatulipe26",
+        "maintainer": "fanfanlatulipe26",
+        "sentence": "RP2040_ppm is a library that provides decoding and coding of PPM signals widely used in RC transmitters and receivers equipments.",
+        "paragraph": "The library uses the Programmable I/O (PIO) hardware subsystem of the Raspberry Pi RP2040 processor and all output or input waveforms are managed by the hardware, requesting only a small load to the CPU.",
+        "category": "Communication",
+        "architectures": [
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/fanfanlatulipe26/RP2040_ppm-2.0.0.zip",
+        "size": 63484,
+        "previous_version": "1.0.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-20T12:45:47Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.26.1",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "493a3419b894",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards. Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.26.1.zip",
+        "size": 139893,
+        "previous_version": "0.26.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.26.0",
+      "new_version": "0.26.1"
+    }
+  ],
   "removed_libraries": []
 }

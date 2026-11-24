@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-24T11:01:28.795Z",
+  "enhanced_at": "2026-11-24T12:03:04.218Z",
   "total_libraries": 10499,
-  "index_etag": "W/\"e96ee45b658697bb3eb804e2c50e7270\"",
-  "index_last_modified": "Tue, 24 Nov 2026 11:00:18 GMT",
+  "index_etag": "W/\"9f33754b4e84ba4592606d6dd41564ae\"",
+  "index_last_modified": "Tue, 24 Nov 2026 12:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -213491,16 +213491,20 @@
       "repository_name": "indian-aman/NLTP-Arduino",
       "repository_url": "https://github.com/indian-aman/NLTP-Arduino",
       "name": "NLTP",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "version_history": [
         {
           "version": "1.6.0",
           "seen_at": "2026-11-14T20:01:34.761Z"
+        },
+        {
+          "version": "1.6.1",
+          "seen_at": "2026-11-24T12:03:04.084Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-14T20:01:34.761Z",
-      "last_seen_sha": "fcf2399ff9b9",
+      "last_seen_sha": "cbce24ccc587",
       "author": "Amandeep Bains",
       "maintainer": "Amandeep Bains",
       "sentence": "Loss-resilient forward-secret encrypted UDP & ESP-NOW v1/v2 transport with LZ4 compression & 4.7 KB TX-only MCU profile.",
@@ -213509,8 +213513,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/indian-aman/NLTP-1.6.0.zip",
-      "size": 70048,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/indian-aman/NLTP-1.6.1.zip",
+      "size": 153863,
+      "previous_version": "1.6.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -328701,26 +328706,31 @@
       "repository_name": "angeloINTJ/USBSnifferPIO_RP2040",
       "repository_url": "https://github.com/angeloINTJ/USBSnifferPIO_RP2040",
       "name": "USBSnifferPIO_RP2040",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-24T12:03:04.084Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-30T22:37:15.403Z",
-      "last_seen_sha": "cecd194d3a02",
+      "last_seen_sha": "506ee3e8fa08",
       "author": "Ângelo Moisés Alves",
       "maintainer": "Ângelo Moisés Alves",
       "sentence": "Passive USB 1.1 packet sniffer using the RP2040 PIO coprocessor.",
-      "paragraph": "Captures Low-Speed (1.5 Mbps) and Full-Speed (12 Mbps) USB packets passively through high-impedance GPIO tapping. Uses a single PIO state machine for deterministic 8x oversampled line sampling, DMA ping-pong buffering for zero-copy data transfer, and a full software decoder implementing clock recovery, NRZI decoding, bit-unstuffing, packet framing, and CRC5/CRC16 verification. Delivers structured USBPacket objects through a callback API. Dual-core ready. Ideal for protocol analysis, HID device monitoring, and USB debugging.",
+      "paragraph": "Captures Low-Speed (1.5 Mbps) and Full-Speed (12 Mbps) USB packets passively through high-impedance GPIO tapping. Uses a 22-instruction PIO hardware 8x DPLL for clock recovery, zero-gap 2-channel hardware DMA ping-pong buffering, and an SRAM-resident -O3 decoder implementing inline NRZI decoding, bit-unstuffing, packet framing, and table-accelerated CRC5/CRC16 verification. Delivers structured USBPacket objects through a callback API. Dual-core ready. Ideal for protocol analysis, HID device monitoring, and USB debugging.",
       "category": "Communication",
       "architectures": [
         "rp2040"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.0.0.zip",
-      "size": 54393,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/angeloINTJ/USBSnifferPIO_RP2040-1.1.0.zip",
+      "size": 76269,
+      "previous_version": "1.0.0",
       "github_stars": 13,
       "github_forks": 1,
       "github_language": "C++",

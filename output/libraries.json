@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T17:01:29.274Z",
+  "enhanced_at": "2026-11-25T18:01:43.960Z",
   "total_libraries": 10509,
-  "index_etag": "W/\"73f9727a5e0e2f16ccd6264e79f9b1f9\"",
-  "index_last_modified": "Wed, 25 Nov 2026 17:00:18 GMT",
+  "index_etag": "W/\"f3303201de5c3eb37c01172a6f505dfd\"",
+  "index_last_modified": "Wed, 25 Nov 2026 18:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -208344,30 +208344,35 @@
       "repository_name": "mathieucarbou/MycilaConfig",
       "repository_url": "https://github.com/mathieucarbou/MycilaConfig",
       "name": "MycilaConfig",
-      "version": "11.3.3",
+      "version": "11.3.4",
       "version_history": [
         {
           "version": "11.3.3",
           "seen_at": "2026-04-14T08:06:32Z"
+        },
+        {
+          "version": "11.3.4",
+          "seen_at": "2026-11-25T18:01:43.813Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-14T08:06:32Z",
-      "last_seen_sha": "bf22378dfc61",
+      "last_seen_sha": "89ae97b71b65",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "A simple and efficient config library",
-      "paragraph": "",
       "category": "Other",
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaConfig-11.3.4.zip",
+      "size": 59264,
+      "previous_version": "11.3.3",
       "github_stars": 8,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-06-05T06:58:34Z",
-      "license": "MIT",
-      "download_url": "https://github.com/mathieucarbou/MycilaConfig"
+      "github_updated_at": "2026-06-05T06:58:34Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaDimmer",
@@ -208402,16 +208407,20 @@
       "repository_name": "mathieucarbou/MycilaDS18",
       "repository_url": "https://github.com/mathieucarbou/MycilaDS18",
       "name": "MycilaDS18",
-      "version": "5.2.1",
+      "version": "5.3.0",
       "version_history": [
         {
           "version": "5.2.1",
           "seen_at": "2026-03-04T07:42:35Z"
+        },
+        {
+          "version": "5.3.0",
+          "seen_at": "2026-11-25T18:01:43.813Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-03-04T07:42:35Z",
-      "last_seen_sha": "b891a0abcb97",
+      "last_seen_sha": "b3481b5d63e5",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "ESP32 / Arduino Library for Dallas / Maxim DS18 sensor using RMT peripheral",
@@ -208420,12 +208429,14 @@
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaDS18-5.3.0.zip",
+      "size": 23607,
+      "previous_version": "5.2.1",
       "github_stars": 4,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-06-05T06:58:38Z",
-      "license": "MIT",
-      "download_url": "https://github.com/mathieucarbou/MycilaDS18"
+      "github_updated_at": "2026-06-05T06:58:38Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaEasyDisplay",
@@ -297138,7 +297149,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.32.0",
+      "version": "0.34.0",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297163,11 +297174,15 @@
         {
           "version": "0.32.0",
           "seen_at": "2026-11-25T14:01:49.503Z"
+        },
+        {
+          "version": "0.34.0",
+          "seen_at": "2026-11-25T18:01:43.813Z"
         }
       ],
-      "release_count": 6,
+      "release_count": 7,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "8cb32ff07df8",
+      "last_seen_sha": "0a4e3326a85b",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297179,9 +297194,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.32.0.zip",
-      "size": 217105,
-      "previous_version": "0.31.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.34.0.zip",
+      "size": 246891,
+      "previous_version": "0.32.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

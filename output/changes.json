@@ -1,6 +1,164 @@
 {
-  "since": "2026-11-25T11:01:30.332Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-25T12:03:04.397Z",
+  "new_libraries": [
+    {
+      "repository_name": "DevNgin-org/AirNgin-Arduino",
+      "repository_url": "https://github.com/DevNgin-org/AirNgin-Arduino",
+      "name": "AirNginESP32SDK",
+      "version": "1.6.2",
+      "version_history": [
+        {
+          "version": "1.6.2",
+          "seen_at": "2026-11-25T12:03:04.397Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T12:03:04.397Z",
+      "last_seen_sha": "e1da3e4d9b97",
+      "author": "AirNgin Team",
+      "maintainer": "AirNgin Team <dev@airngin.com>",
+      "sentence": "Connect ESP32 devices to AirNgin over MQTT with TLS.",
+      "paragraph": "Provision Wi-Fi, publish telemetry, handle device commands and optionally enable application-layer AES, notifications and cloud storage. Includes managed and application-owned network examples.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DevNgin-org/AirNginESP32SDK-1.6.2.zip",
+      "size": 188597,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-25T08:47:38Z"
+    },
+    {
+      "repository_name": "mhmdrameez/TinyGsmA7670E",
+      "repository_url": "https://github.com/mhmdrameez/TinyGsmA7670E",
+      "name": "TinyGsmA7670E",
+      "version": "1.2.0",
+      "version_history": [
+        {
+          "version": "1.2.0",
+          "seen_at": "2026-11-25T12:03:04.397Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T12:03:04.397Z",
+      "last_seen_sha": "211e562b24c0",
+      "author": "fwino",
+      "maintainer": "mhmdrameez <31467986+mhmdrameez@users.noreply.github.com>",
+      "sentence": "TinyGSM modem driver for the SIMCom A7670E (LTE Cat-1).",
+      "paragraph": "Socket (TCP) driver with NETOPEN settle delay and CIPOPEN retries, one-call LTE/2G connect with fallback, strict LTE-only mode, battery/brownout diagnostics that tell a power problem from a modem problem, plus a raw HTTP helper that sends the same bytes as curl. Needs TinyGSM 0.12.x.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "TinyGSM"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mhmdrameez/TinyGsmA7670E-1.2.0.zip",
+      "size": 218395,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T08:01:12Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tkgktyk/analog-mimic-arduino",
+        "repository_url": "https://github.com/tkgktyk/analog-mimic-arduino",
+        "name": "AnalogMimic",
+        "version": "0.2.1",
+        "version_history": [
+          {
+            "version": "0.1.0",
+            "seen_at": "2026-10-25T10:02:37.676Z"
+          },
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-11-23T04:01:51.839Z"
+          },
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-10-25T10:02:37.676Z",
+        "last_seen_sha": "f08d81ce8080",
+        "author": "tkgktyk",
+        "maintainer": "tkgktyk",
+        "sentence": "Controls the Analog Mimic programmable analog module over I2C.",
+        "paragraph": "Switch the module between analog functions (filters, amplifier, comparator, clipper, rectifier, log, integrator and more) and set their parameters from your sketch.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.2.1.zip",
+        "size": 67604,
+        "previous_version": "0.2.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-25T07:46:04Z"
+      },
+      "old_version": "0.2.0",
+      "new_version": "0.2.1"
+    },
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.31.0",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          },
+          {
+            "version": "0.28.0",
+            "seen_at": "2026-11-24T22:01:43.272Z"
+          },
+          {
+            "version": "0.30.0",
+            "seen_at": "2026-11-25T00:04:18.967Z"
+          },
+          {
+            "version": "0.31.0",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "261830704092",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.31.0.zip",
+        "size": 202071,
+        "previous_version": "0.30.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.30.0",
+      "new_version": "0.31.0"
+    }
+  ],
   "removed_libraries": []
 }

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T03:01:47.294Z",
-  "total_libraries": 10504,
-  "index_etag": "W/\"288befc19700e484eae5147dd9908614\"",
-  "index_last_modified": "Wed, 25 Nov 2026 03:00:18 GMT",
+  "enhanced_at": "2026-11-25T04:01:42.470Z",
+  "total_libraries": 10505,
+  "index_etag": "W/\"e80ef088cb024af6b22f2d9df24925d5\"",
+  "index_last_modified": "Wed, 25 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -128915,7 +128915,7 @@
       "repository_name": "mitra42/frugal-iot",
       "repository_url": "https://github.com/mitra42/frugal-iot",
       "name": "Frugal-IoT",
-      "version": "2.0.16",
+      "version": "2.0.17",
       "version_history": [
         {
           "version": "0.0.22",
@@ -129016,11 +129016,15 @@
         {
           "version": "2.0.16",
           "seen_at": "2026-11-20T14:01:30.580Z"
+        },
+        {
+          "version": "2.0.17",
+          "seen_at": "2026-11-25T04:01:40.961Z"
         }
       ],
-      "release_count": 25,
+      "release_count": 26,
       "first_seen_at": "2026-06-27T08:37:59Z",
-      "last_seen_sha": "61b9a5c36d23",
+      "last_seen_sha": "22cc7a3b61f7",
       "author": "Mitra Ardron",
       "maintainer": "Mitra Ardron <mitra@mitra.biz>",
       "sentence": "Platform for affordable sensors",
@@ -129046,9 +129050,9 @@
         "Adafruit SSD1306",
         "Adafruit SSD1327"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.16.zip",
-      "size": 1336540,
-      "previous_version": "2.0.15",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mitra42/Frugal_IoT-2.0.17.zip",
+      "size": 1336543,
+      "previous_version": "2.0.16",
       "github_stars": 10,
       "github_forks": 7,
       "github_language": "C++",
@@ -147172,6 +147176,35 @@
       "github_forks": 3,
       "github_language": "C++",
       "github_updated_at": "2025-10-31T21:16:16Z"
+    },
+    {
+      "repository_name": "meptNN/I2C-by-meptNN",
+      "repository_url": "https://github.com/meptNN/I2C-by-meptNN",
+      "name": "I2C by meptNN",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-25T04:01:40.961Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T04:01:40.961Z",
+      "last_seen_sha": "638e9d25d200",
+      "author": "meptNN",
+      "maintainer": "meptNN",
+      "sentence": "Turkce gomulu sistem ekosistemi icin yazilimsal (bit-banging) Arduino I2C kutuphanesi.",
+      "paragraph": "Herhangi iki dijital pini SDA ve SCL olarak kullanmanizi saglar. Open-drain hat kontrolu, clock stretching, repeated start, Turkce hata aciklamalari ve istege bagli Turkce API katmani (i2c_meptnn_tr.h) icerir.",
+      "category": "Communication",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/meptNN/I2C_by_meptNN-1.0.0.zip",
+      "size": 16613,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T00:54:35Z"
     },
     {
       "repository_name": "tanakamasayuki/I2C_MPU6886",
@@ -345333,7 +345366,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10300,
+    "with_github_metadata": 10301,
     "total_dependencies": 5742
   }
 }

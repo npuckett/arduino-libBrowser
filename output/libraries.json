@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T19:01:30.500Z",
-  "total_libraries": 10509,
-  "index_etag": "W/\"f3303201de5c3eb37c01172a6f505dfd\"",
-  "index_last_modified": "Wed, 25 Nov 2026 19:00:18 GMT",
+  "enhanced_at": "2026-11-25T20:01:51.477Z",
+  "total_libraries": 10510,
+  "index_etag": "W/\"5a8f3ed76e005493c5fc736e8aa1cc85\"",
+  "index_last_modified": "Wed, 25 Nov 2026 20:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -98139,6 +98139,35 @@
       "github_updated_at": "2026-01-22T14:18:26Z"
     },
     {
+      "repository_name": "rmingon/EchoGuard8-Library",
+      "repository_url": "https://github.com/rmingon/EchoGuard8-Library",
+      "name": "EchoGuard8",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-25T20:01:49.955Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T20:01:49.955Z",
+      "last_seen_sha": "83167b4804f8",
+      "author": "rmingon",
+      "maintainer": "rmingon <https://github.com/rmingon>",
+      "sentence": "Read the fused position of an EchoGuard-8 GNSS array over SPI.",
+      "paragraph": "EchoGuard-8 is an open hardware board that fuses 8 GNSS receivers into one position with outlier rejection and a trust status. This library reads its CRC-protected SPI packet and gives you latitude, longitude, altitude, HDOP, the number of receivers used and rejected, and an OK / DEGRADED / INTERFERENCE / NO_FIX status.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/rmingon/EchoGuard8-0.1.0.zip",
+      "size": 18336,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T15:50:35Z"
+    },
+    {
       "repository_name": "Parvaz-Jamei/EcoSensePower-Arduino",
       "repository_url": "https://github.com/Parvaz-Jamei/EcoSensePower-Arduino",
       "name": "EcoSensePower",
@@ -115397,7 +115426,7 @@
       "repository_name": "francescopace/espectre-arduino",
       "repository_url": "https://github.com/francescopace/espectre-arduino",
       "name": "ESPectre",
-      "version": "3.2.1",
+      "version": "3.2.2",
       "version_history": [
         {
           "version": "3.2.0",
@@ -115406,11 +115435,15 @@
         {
           "version": "3.2.1",
           "seen_at": "2026-11-21T00:04:02.396Z"
+        },
+        {
+          "version": "3.2.2",
+          "seen_at": "2026-11-25T20:01:49.955Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-11-12T02:02:04.366Z",
-      "last_seen_sha": "aaa4134bd785",
+      "last_seen_sha": "61eb84189663",
       "author": "Francesco Pace <francesco.pace@espectre.dev>",
       "maintainer": "Francesco Pace <francesco.pace@espectre.dev>",
       "sentence": "Wi-Fi motion detection for ESP32 from channel state information.",
@@ -115419,9 +115452,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/francescopace/ESPectre-3.2.1.zip",
-      "size": 378493,
-      "previous_version": "3.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/francescopace/ESPectre-3.2.2.zip",
+      "size": 380568,
+      "previous_version": "3.2.1",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -208378,30 +208411,35 @@
       "repository_name": "mathieucarbou/MycilaDimmer",
       "repository_url": "https://github.com/mathieucarbou/MycilaDimmer",
       "name": "MycilaDimmer",
-      "version": "3.0.1",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "3.0.1",
           "seen_at": "2026-06-05T08:38:56Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-11-25T20:01:49.955Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-05T08:38:56Z",
-      "last_seen_sha": "4024d6549b3a",
+      "last_seen_sha": "b37658304c19",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "ESP32 / Arduino Dimming Library to control TRIAC, Random SSR, Voltage Regulator with DfRobot DAC or PWM",
-      "paragraph": "",
       "category": "Other",
       "architectures": [
         "esp32"
       ],
+      "license": "MIT",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaDimmer-3.1.0.zip",
+      "size": 44759909,
+      "previous_version": "3.0.1",
       "github_stars": 8,
       "github_forks": 2,
       "github_language": "C++",
-      "github_updated_at": "2026-06-05T06:58:35Z",
-      "license": "MIT",
-      "download_url": "https://github.com/mathieucarbou/MycilaDimmer"
+      "github_updated_at": "2026-06-05T06:58:35Z"
     },
     {
       "repository_name": "mathieucarbou/MycilaDS18",
@@ -208527,7 +208565,7 @@
       "repository_name": "mathieucarbou/MycilaHADiscovery",
       "repository_url": "https://github.com/mathieucarbou/MycilaHADiscovery",
       "name": "MycilaHADiscovery",
-      "version": "8.0.0",
+      "version": "9.0.0",
       "version_history": [
         {
           "version": "7.0.1",
@@ -208544,11 +208582,15 @@
         {
           "version": "8.0.0",
           "seen_at": "2026-11-23T16:01:51.038Z"
+        },
+        {
+          "version": "9.0.0",
+          "seen_at": "2026-11-25T20:01:49.955Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-30T08:37:29Z",
-      "last_seen_sha": "acc6bfac7a3a",
+      "last_seen_sha": "37e0e4da6363",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "Simple and efficient Home Assistant Discovery library for Arduino / ESP32",
@@ -208560,9 +208602,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-8.0.0.zip",
-      "size": 54652,
-      "previous_version": "7.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaHADiscovery-9.0.0.zip",
+      "size": 56141,
+      "previous_version": "8.0.0",
       "github_stars": 10,
       "github_forks": 1,
       "github_language": "C++",
@@ -208703,16 +208745,20 @@
       "repository_name": "mathieucarbou/MycilaPulseAnalyzer",
       "repository_url": "https://github.com/mathieucarbou/MycilaPulseAnalyzer",
       "name": "MycilaPulseAnalyzer",
-      "version": "3.0.10",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "3.0.10",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "3.1.0",
+          "seen_at": "2026-11-25T20:01:49.955Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-05T08:39:02Z",
-      "last_seen_sha": "44a01df98471",
+      "last_seen_sha": "a79e410f125d",
       "author": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "maintainer": "Mathieu Carbou <mathieu.carbou@gmail.com>",
       "sentence": "ESP32 / Arduino Library to analyze pulses from a Zero-Cross Detection circuit",
@@ -208721,8 +208767,9 @@
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaPulseAnalyzer-3.0.10.zip",
-      "size": 6552210,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mathieucarbou/MycilaPulseAnalyzer-3.1.0.zip",
+      "size": 6553142,
+      "previous_version": "3.0.10",
       "github_stars": 7,
       "github_forks": 1,
       "github_language": "C++",
@@ -269519,20 +269566,24 @@
       "repository_name": "DocBigs-Lab/ses-imagotag-bwr-epaper",
       "repository_url": "https://github.com/DocBigs-Lab/ses-imagotag-bwr-epaper",
       "name": "SesEpaper",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "2.0.0",
           "seen_at": "2026-11-20T14:01:30.580Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-25T20:01:49.955Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-20T14:01:30.580Z",
-      "last_seen_sha": "ff29da055972",
+      "last_seen_sha": "d3ab89f3579e",
       "author": "DocBigs-Lab",
       "maintainer": "DocBigs-Lab",
-      "sentence": "Drivers for black/white/red e-paper panels from SES-imagotag shelf labels: 7.4\" (Pervasive E2741ES083), 5.65\" (E2565JS0B1) and 4.2\" (E2417JS0D1).",
-      "paragraph": "Epd74: 800x480, IST7x32. Epd565: 600x448, IST7136, parameters read from the panel OTP. Epd42: 400x300, UC8176-compatible, adjustable temperature. Adafruit GFX based. Tested on the Waveshare e-Paper ESP32 Driver Board and the Seengreat ESP32-C6 E-Paper Driver Board.",
+      "sentence": "Drivers for black/white/red e-paper panels from SES-imagotag shelf labels: 7.4\" (Pervasive E2741ES083), 5.81\" (E2581JS061), 5.65\" (E2565JS0B1) and 4.2\" (E2417JS0D1).",
+      "paragraph": "Epd74: 800x480, IST7x32. Epd581: 720x256 (VUSION 5.9), driver generation 06, parameters read from the panel OTP. Epd565: 600x448, IST7136, parameters read from the panel OTP. Epd42: 400x300, UC8176-compatible, adjustable temperature. Adafruit GFX based. Tested on the Waveshare e-Paper ESP32 Driver Board and the Seengreat ESP32-C6 E-Paper Driver Board.",
       "category": "Display",
       "architectures": [
         "esp32"
@@ -269540,8 +269591,9 @@
       "depends": [
         "Adafruit GFX Library"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/DocBigs-Lab/SesEpaper-2.0.0.zip",
-      "size": 1462202,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/DocBigs-Lab/SesEpaper-2.1.0.zip",
+      "size": 2569682,
+      "previous_version": "2.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -345588,7 +345640,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10305,
+    "with_github_metadata": 10306,
     "total_dependencies": 5756
   }
 }

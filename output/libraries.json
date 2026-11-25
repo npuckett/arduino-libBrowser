@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T07:02:10.770Z",
+  "enhanced_at": "2026-11-25T08:02:00.093Z",
   "total_libraries": 10506,
-  "index_etag": "W/\"80205fcc8d3aaa658be6108a8fe8920d\"",
-  "index_last_modified": "Wed, 25 Nov 2026 07:00:18 GMT",
+  "index_etag": "W/\"134c2d6c2f1a2068991eb13ea2ffeb5e\"",
+  "index_last_modified": "Wed, 25 Nov 2026 08:00:17 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -105768,27 +105768,32 @@
       "repository_name": "sunfounder/arduino-esp-new-jpeg",
       "repository_url": "https://github.com/sunfounder/arduino-esp-new-jpeg",
       "name": "esp_new_jpeg",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.2",
           "seen_at": "2026-11-11T06:03:22.508Z"
+        },
+        {
+          "version": "1.0.3",
+          "seen_at": "2026-11-25T08:01:59.944Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-11T06:03:22.508Z",
-      "last_seen_sha": "9079f2ca2ad5",
-      "author": "Espressif Systems",
-      "maintainer": "SunFounder R&D",
-      "sentence": "Espressif JPEG encoder and decoder for ESP32-S3 (prebuilt binary, Arduino packaging).",
-      "paragraph": "Arduino packaging of the Espressif esp_new_jpeg component v1.0.2. Provides JPEG decode (esp_jpeg_dec) and encode (esp_jpeg_enc) for ESP32 / ESP32-S3. The prebuilt static libraries are taken unmodified from the upstream component; this repository only adds Arduino library metadata, documentation and examples.",
+      "last_seen_sha": "9fa89d96028f",
+      "author": "SunFounder",
+      "maintainer": "SunFounder",
+      "sentence": "Arduino library (SunFounder packaging) for the Espressif esp_new_jpeg JPEG encoder/decoder on ESP32-S3.",
+      "paragraph": "SunFounder Arduino packaging of the Espressif esp_new_jpeg component v1.0.2 (original component copyright Espressif Systems, MIT license). Provides JPEG decode (esp_jpeg_dec) and encode (esp_jpeg_enc) for ESP32 / ESP32-S3. The prebuilt static libraries are taken unmodified from the upstream component; this repository only adds Arduino library metadata, documentation and examples.",
       "category": "Data Processing",
       "architectures": [
         "esp32"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/esp_new_jpeg-1.0.2.zip",
-      "size": 469497,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sunfounder/esp_new_jpeg-1.0.3.zip",
+      "size": 469946,
+      "previous_version": "1.0.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -219111,7 +219116,7 @@
       "repository_name": "Open-Embedded-Probe/oep-probe-arduino",
       "repository_url": "https://github.com/Open-Embedded-Probe/oep-probe-arduino",
       "name": "OpenEmbeddedProbe",
-      "version": "0.0.63",
+      "version": "0.0.64",
       "version_history": [
         {
           "version": "0.0.2",
@@ -219308,11 +219313,15 @@
         {
           "version": "0.0.63",
           "seen_at": "2026-11-22T08:01:46.856Z"
+        },
+        {
+          "version": "0.0.64",
+          "seen_at": "2026-11-25T08:01:59.944Z"
         }
       ],
-      "release_count": 49,
+      "release_count": 50,
       "first_seen_at": "2026-09-29T14:02:33.451Z",
-      "last_seen_sha": "d19641c035cc",
+      "last_seen_sha": "bbb224bafe50",
       "author": "Open Embedded Probe contributors",
       "maintainer": "Open Embedded Probe contributors",
       "sentence": "Open Embedded Probe (OEP): turn an ESP32 / RP2040 / RP2350 board into a debug probe, target console and test fixture that hosts drive through one open protocol.",
@@ -219321,9 +219330,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.63.zip",
-      "size": 1228594,
-      "previous_version": "0.0.61",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Open-Embedded-Probe/OpenEmbeddedProbe-0.0.64.zip",
+      "size": 1231397,
+      "previous_version": "0.0.63",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -248621,7 +248630,7 @@
       "repository_name": "Reefwing-Software/Reefwing-AHRS",
       "repository_url": "https://github.com/Reefwing-Software/Reefwing-AHRS",
       "name": "ReefwingAHRS",
-      "version": "2.4.1",
+      "version": "2.4.2",
       "version_history": [
         {
           "version": "2.3.6",
@@ -248630,11 +248639,15 @@
         {
           "version": "2.4.1",
           "seen_at": "2026-11-22T02:02:48.131Z"
+        },
+        {
+          "version": "2.4.2",
+          "seen_at": "2026-11-25T08:01:59.944Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:26:02Z",
-      "last_seen_sha": "d32b17f6a765",
+      "last_seen_sha": "3f5f2de2cbcb",
       "author": "David Such <dsuch@reefwing.com.au>",
       "maintainer": "David Such <dsuch@reefwing.com.au>",
       "sentence": "Attitude and Heading Reference System (AHRS) used in the Reefwing Flight Controller.",
@@ -248643,9 +248656,12 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.4.1.zip",
-      "size": 1767615,
-      "previous_version": "2.3.6",
+      "depends": [
+        "Reefwing_imuTypes"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Reefwing-Software/ReefwingAHRS-2.4.2.zip",
+      "size": 1769293,
+      "previous_version": "2.4.1",
       "github_stars": 69,
       "github_forks": 16,
       "github_language": "C++",
@@ -345409,6 +345425,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10302,
-    "total_dependencies": 5743
+    "total_dependencies": 5744
   }
 }

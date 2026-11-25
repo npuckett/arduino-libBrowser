@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T21:01:52.526Z",
+  "enhanced_at": "2026-11-25T22:01:25.063Z",
   "total_libraries": 10510,
-  "index_etag": "W/\"5a8f3ed76e005493c5fc736e8aa1cc85\"",
-  "index_last_modified": "Wed, 25 Nov 2026 21:00:19 GMT",
+  "index_etag": "W/\"4a0ab42f2161676311c8adf38dff0270\"",
+  "index_last_modified": "Wed, 25 Nov 2026 22:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -198564,28 +198564,28 @@
       "repository_name": "Hardi-St/MobaLedLib",
       "repository_url": "https://github.com/Hardi-St/MobaLedLib",
       "name": "MobaLedLib",
-      "version": "3.5.0",
+      "version": "3.6.0",
       "version_history": [
         {
           "version": "3.5.0",
           "seen_at": "2026-04-03T07:40:26Z"
+        },
+        {
+          "version": "3.6.0",
+          "seen_at": "2026-11-25T22:01:24.931Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-04-03T07:40:26Z",
-      "last_seen_sha": "ec27ae08e695",
+      "last_seen_sha": "34b6c6f6dad4",
       "author": "Hardi",
       "maintainer": "Hardi (MobaLedLib@gmx.de),Jürgen (MobaLedLib@gmx.at),Dominik (dominik@moba-led-lib.de)",
       "sentence": "<h3>Arduino library for driving up to 768 (49152 ESP32, PICO) LEDs, signals, sound modules or other actuators via one signal line on a model railway</h3>",
-      "paragraph": "<b>New in release 3.5.0: support LichtMaschine Pico Zero hardware, multiplexer support multiple LED channels, speed up application startup</b><ul><li><b>Excel user interface to configure the LEDs without programming at all improved by the engagement of Pattern Configurator and Program Generator!</b><br/><li>On the basis of WS2811 / WS2812 devices (<b>RGB LEDs</b>), many different effects can easily be controlled via <b>one wire</b>:<ul><li><b>Animated lighting effects:</b> animated house, soft blending light signals and crossing lights, traffic lights, flashing vehicle lights, construction site security lights, street lamps, funfair effects, disco, photo flash, ...</li><li><b>Sounds:</b> 1 Eu sound modules could generate: station announcements, railroad noises, animal sounds, ...</li><li><b>Movements</b> With additional hardware servo or stepper motors could be controlled in the same way.</li></ul><li><b>Easy cabling:</b> For a model railway the simple wiring is very important. A single 4-pin ribbon cable can supply all consumers on the layout. With multiple plug strips, the LEDs can be flexibly arranged.</li><li>Thanks to <b>many examples</b>, no programming knowledge is necessary. Anyone who can operate a text editor is able to adapt these examples to the individual circumstances.</li><li><b>Other features:</b> very low cost, configurable animation sequences, high update rate, reading of 80 and more switches, logical operations, automatic and manual operation (light dependent, timed, CAN bus, random)...</li><li><b>Hardware:</b> The \"extras\" directory contains schematics and printed circuit boards for this library.</li></ul><br/>This project would not have been possible without the <b>fantastic FastLED</b> library. => Thank you zackees & jueff<br/>",
+      "paragraph": "<b>New in release 3.6.0: support up to 2000 input variables on ESP32 and PICO, Servo Test and Configuration tool, PICO firmware download, extensions interface V2, AnalogScanner support for PICO</b><ul><li><b>Excel user interface to configure the LEDs without programming at all improved by the engagement of Pattern Configurator and Program Generator!</b><br/><li>On the basis of WS2811 / WS2812 devices (<b>RGB LEDs</b>), many different effects can easily be controlled via <b>one wire</b>:<ul><li><b>Animated lighting effects:</b> animated house, soft blending light signals and crossing lights, traffic lights, flashing vehicle lights, construction site security lights, street lamps, funfair effects, disco, photo flash, ...</li><li><b>Sounds:</b> 1 Eu sound modules could generate: station announcements, railroad noises, animal sounds, ...</li><li><b>Movements</b> With additional hardware servo or stepper motors could be controlled in the same way.</li></ul><li><b>Easy cabling:</b> For a model railway the simple wiring is very important. A single 4-pin ribbon cable can supply all consumers on the layout. With multiple plug strips, the LEDs can be flexibly arranged.</li><li>Thanks to <b>many examples</b>, no programming knowledge is necessary. Anyone who can operate a text editor is able to adapt these examples to the individual circumstances.</li><li><b>Other features:</b> very low cost, configurable animation sequences, high update rate, reading of 80 and more switches, logical operations, automatic and manual operation (light dependent, timed, CAN bus, random)...</li><li><b>Hardware:</b> The \"extras\" directory contains schematics and printed circuit boards for this library.</li></ul><br/>This project would not have been possible without the <b>fantastic FastLED</b> library. => Thank you zackees & jueff<br/>",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
-      "github_stars": 56,
-      "github_forks": 17,
-      "github_language": "C",
-      "github_updated_at": "2026-04-03T07:40:05Z",
       "depends": [
         "FastLED",
         "NmraDcc",
@@ -198597,7 +198597,13 @@
         "U8g2",
         "LocoNet"
       ],
-      "download_url": "https://wiki.mobaledlib.de"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Hardi-St/MobaLedLib-3.6.0.zip",
+      "size": 11221127,
+      "previous_version": "3.5.0",
+      "github_stars": 56,
+      "github_forks": 17,
+      "github_language": "C",
+      "github_updated_at": "2026-04-03T07:40:05Z"
     },
     {
       "repository_name": "MicroBahner/MobaTools",
@@ -216939,7 +216945,7 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.8.4",
+      "version": "2.8.5",
       "version_history": [
         {
           "version": "2.7.2",
@@ -216992,11 +216998,15 @@
         {
           "version": "2.8.4",
           "seen_at": "2026-11-24T06:03:03.955Z"
+        },
+        {
+          "version": "2.8.5",
+          "seen_at": "2026-11-25T22:01:24.931Z"
         }
       ],
-      "release_count": 13,
+      "release_count": 14,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "32f97eb1e289",
+      "last_seen_sha": "97e4cd7a669f",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -217009,9 +217019,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.4.zip",
-      "size": 84269012,
-      "previous_version": "2.8.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.5.zip",
+      "size": 84298566,
+      "previous_version": "2.8.4",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",

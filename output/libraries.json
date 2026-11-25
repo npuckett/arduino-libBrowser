@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T01:01:36.869Z",
+  "enhanced_at": "2026-11-25T02:03:18.431Z",
   "total_libraries": 10504,
-  "index_etag": "W/\"fbb1af1f0539ee5fd01c20e32a1a1f89\"",
-  "index_last_modified": "Wed, 25 Nov 2026 01:00:18 GMT",
+  "index_etag": "W/\"288befc19700e484eae5147dd9908614\"",
+  "index_last_modified": "Wed, 25 Nov 2026 02:00:21 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -36299,16 +36299,20 @@
       "repository_name": "AJArnovitz/ArnoTek_Serial",
       "repository_url": "https://github.com/AJArnovitz/ArnoTek_Serial",
       "name": "ArnoTek_Serial",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-25T00:04:18.967Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-25T02:03:18.335Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-25T00:04:18.967Z",
-      "last_seen_sha": "3b2cfc096a7d",
+      "last_seen_sha": "644a5a245559",
       "author": "Anthony Arnovitz, aarnovitz@arnotek.com",
       "maintainer": "Anthony Arnovitz, aarnovitz@arnotek.com",
       "sentence": "SAerial interface utility for Arduino",
@@ -36317,8 +36321,9 @@
       "architectures": [
         "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Serial-1.0.0.zip",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AJArnovitz/ArnoTek_Serial-1.0.1.zip",
       "size": 183682,
+      "previous_version": "1.0.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -255720,7 +255725,7 @@
       "repository_name": "dejwk/roo_windows",
       "repository_url": "https://github.com/dejwk/roo_windows",
       "name": "roo_windows",
-      "version": "1.11.0",
+      "version": "1.11.1",
       "version_history": [
         {
           "version": "1.6.0",
@@ -255753,11 +255758,15 @@
         {
           "version": "1.11.0",
           "seen_at": "2026-11-24T22:01:43.272Z"
+        },
+        {
+          "version": "1.11.1",
+          "seen_at": "2026-11-25T02:03:18.335Z"
         }
       ],
-      "release_count": 8,
+      "release_count": 9,
       "first_seen_at": "2026-06-06T08:06:04Z",
-      "last_seen_sha": "b4f9ccf6085e",
+      "last_seen_sha": "6eb3086a3d06",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "GUI library, targeted at ESP32 and related boards, for building interactive, touch-based, mobile-phone-like UI interfaces.",
@@ -255779,9 +255788,9 @@
         "roo_scheduler",
         "roo_time"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.11.0.zip",
-      "size": 8364822,
-      "previous_version": "1.10.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows-1.11.1.zip",
+      "size": 8365027,
+      "previous_version": "1.11.0",
       "github_stars": 18,
       "github_forks": 2,
       "github_language": "C++",
@@ -255828,7 +255837,7 @@
       "repository_name": "dejwk/roo_windows_wifi",
       "repository_url": "https://github.com/dejwk/roo_windows_wifi",
       "name": "roo_windows_wifi",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.1.2",
@@ -255845,11 +255854,15 @@
         {
           "version": "2.0.0",
           "seen_at": "2026-10-02T18:03:39.778Z"
+        },
+        {
+          "version": "2.1.0",
+          "seen_at": "2026-11-25T02:03:18.335Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-02-27T07:33:09Z",
-      "last_seen_sha": "4e1912ed8722",
+      "last_seen_sha": "df61148bfa17",
       "author": "Dejwk <dejwk.oss@gmail.com>",
       "maintainer": "Dejwk <dejwk.oss@gmail.com>",
       "sentence": "GUI WiFi configurator for ESP32, using roo_windows.",
@@ -255858,12 +255871,13 @@
         "*"
       ],
       "depends": [
+        "roo_scheduler",
         "roo_wifi",
         "roo_windows"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows_wifi-2.0.0.zip",
-      "size": 133601,
-      "previous_version": "1.1.4",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/dejwk/roo_windows_wifi-2.1.0.zip",
+      "size": 393764,
+      "previous_version": "2.0.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",
@@ -345320,6 +345334,6 @@
     "total_categories": 78,
     "total_architectures": 161,
     "with_github_metadata": 10300,
-    "total_dependencies": 5741
+    "total_dependencies": 5742
   }
 }

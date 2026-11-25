@@ -1,6 +1,209 @@
 {
-  "since": "2026-11-25T05:01:32.104Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-25T06:03:15.085Z",
+  "new_libraries": [
+    {
+      "repository_name": "firozkhandeveloper-prog/AetheriumIOT",
+      "repository_url": "https://github.com/firozkhandeveloper-prog/AetheriumIOT",
+      "name": "AetheriumIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-25T06:03:15.085Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T06:03:15.085Z",
+      "last_seen_sha": "9f1467063aaa",
+      "author": "Aetherium Labs",
+      "maintainer": "Aetherium Labs",
+      "sentence": "Connect ESP32 / ESP8266 to an Aetherium IoT dashboard with one API key.",
+      "paragraph": "Send and receive keywords (bool, int, long, float, double, string) over MQTT, get control values from the dashboard, rules and schedules, and receive OTA firmware updates.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/firozkhandeveloper-prog/AetheriumIoT-1.0.0.zip",
+      "size": 12774,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T01:53:52Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "tanakamasayuki/EspUsbDevice",
+        "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
+        "name": "EspUsbDevice",
+        "version": "3.4.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-07-01T11:48:44.907Z"
+          },
+          {
+            "version": "1.1.1",
+            "seen_at": "2026-07-03T07:00:58.370Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-07-03T10:52:10.012Z"
+          },
+          {
+            "version": "1.2.1",
+            "seen_at": "2026-07-07T09:02:39.215Z"
+          },
+          {
+            "version": "1.2.3",
+            "seen_at": "2026-07-07T10:59:14.574Z"
+          },
+          {
+            "version": "1.2.4",
+            "seen_at": "2026-07-08T04:08:04.409Z"
+          },
+          {
+            "version": "1.2.5",
+            "seen_at": "2026-07-08T12:29:30.704Z"
+          },
+          {
+            "version": "1.2.6",
+            "seen_at": "2026-07-17T12:22:56.831Z"
+          },
+          {
+            "version": "1.2.7",
+            "seen_at": "2026-07-23T08:50:01.000Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-07-31T16:31:28.627Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-08-05T08:53:08.412Z"
+          },
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-08-12T04:32:10.621Z"
+          },
+          {
+            "version": "2.1.0",
+            "seen_at": "2026-08-13T00:13:36.907Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-09-09T04:03:11.882Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-09-13T00:07:37.565Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-09-15T16:02:48.133Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-09-16T22:02:22.244Z"
+          },
+          {
+            "version": "2.5.1",
+            "seen_at": "2026-09-18T06:04:14.461Z"
+          },
+          {
+            "version": "2.6.0",
+            "seen_at": "2026-10-06T06:04:39.110Z"
+          },
+          {
+            "version": "2.6.1",
+            "seen_at": "2026-10-16T04:02:52.121Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-11-09T04:01:57.770Z"
+          },
+          {
+            "version": "3.1.0",
+            "seen_at": "2026-11-10T16:02:00.717Z"
+          },
+          {
+            "version": "3.2.0",
+            "seen_at": "2026-11-11T04:01:47.331Z"
+          },
+          {
+            "version": "3.3.0",
+            "seen_at": "2026-11-17T04:01:52.536Z"
+          },
+          {
+            "version": "3.4.0",
+            "seen_at": "2026-11-25T06:03:15.085Z"
+          }
+        ],
+        "release_count": 25,
+        "first_seen_at": "2026-07-01T11:48:44.907Z",
+        "last_seen_sha": "f8d167cccf4c",
+        "author": "TANAKA Masayuki",
+        "maintainer": "TANAKA Masayuki",
+        "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
+        "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio (UAC1/UAC2), a USB Video (UVC) camera, DFU firmware update, and multi-function composite devices for ESP32-S2/S3/P4/S31 Arduino sketches.",
+        "category": "Device Control",
+        "architectures": [
+          "esp32"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.4.0.zip",
+        "size": 1148935,
+        "previous_version": "3.3.0",
+        "github_stars": 5,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-07-01T10:04:34Z"
+      },
+      "old_version": "3.3.0",
+      "new_version": "3.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "meptNN/I2C-by-meptNN",
+        "repository_url": "https://github.com/meptNN/I2C-by-meptNN",
+        "name": "I2C by meptNN",
+        "version": "1.0.1",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-11-25T04:01:40.961Z"
+          },
+          {
+            "version": "1.0.1",
+            "seen_at": "2026-11-25T06:03:15.085Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-11-25T04:01:40.961Z",
+        "last_seen_sha": "213824e19d87",
+        "author": "meptNN",
+        "maintainer": "meptNN",
+        "sentence": "Turkce gomulu sistem ekosistemi icin yazilimsal (bit-banging) Arduino I2C kutuphanesi.",
+        "paragraph": "Herhangi iki dijital pini SDA ve SCL olarak kullanmanizi saglar. Open-drain hat kontrolu, clock stretching, repeated start, Turkce hata aciklamalari ve istege bagli Turkce API katmani (i2c_meptnn_tr.h) icerir.",
+        "category": "Communication",
+        "architectures": [
+          "avr"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/meptNN/I2C_by_meptNN-1.0.1.zip",
+        "size": 16909,
+        "previous_version": "1.0.0",
+        "github_stars": 1,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-25T00:54:35Z"
+      },
+      "old_version": "1.0.0",
+      "new_version": "1.0.1"
+    }
+  ],
   "removed_libraries": []
 }

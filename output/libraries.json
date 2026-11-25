@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T05:01:32.231Z",
-  "total_libraries": 10505,
-  "index_etag": "W/\"e80ef088cb024af6b22f2d9df24925d5\"",
-  "index_last_modified": "Wed, 25 Nov 2026 05:00:18 GMT",
+  "enhanced_at": "2026-11-25T06:03:16.541Z",
+  "total_libraries": 10506,
+  "index_etag": "W/\"80205fcc8d3aaa658be6108a8fe8920d\"",
+  "index_last_modified": "Wed, 25 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -20966,6 +20966,39 @@
       "github_language": "C++",
       "github_updated_at": "2025-07-08T09:44:52Z",
       "download_url": "https://github.com/ArthZ01/AES-Lib"
+    },
+    {
+      "repository_name": "firozkhandeveloper-prog/AetheriumIOT",
+      "repository_url": "https://github.com/firozkhandeveloper-prog/AetheriumIOT",
+      "name": "AetheriumIoT",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-25T06:03:15.085Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-25T06:03:15.085Z",
+      "last_seen_sha": "9f1467063aaa",
+      "author": "Aetherium Labs",
+      "maintainer": "Aetherium Labs",
+      "sentence": "Connect ESP32 / ESP8266 to an Aetherium IoT dashboard with one API key.",
+      "paragraph": "Send and receive keywords (bool, int, long, float, double, string) over MQTT, get control values from the dashboard, rules and schedules, and receive OTA firmware updates.",
+      "category": "Communication",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/firozkhandeveloper-prog/AetheriumIoT-1.0.0.zip",
+      "size": 12774,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T01:53:52Z"
     },
     {
       "repository_name": "keyro90/AFArray",
@@ -117282,7 +117315,7 @@
       "repository_name": "tanakamasayuki/EspUsbDevice",
       "repository_url": "https://github.com/tanakamasayuki/EspUsbDevice",
       "name": "EspUsbDevice",
-      "version": "3.3.0",
+      "version": "3.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -117379,22 +117412,26 @@
         {
           "version": "3.3.0",
           "seen_at": "2026-11-17T04:01:52.536Z"
+        },
+        {
+          "version": "3.4.0",
+          "seen_at": "2026-11-25T06:03:15.085Z"
         }
       ],
-      "release_count": 24,
+      "release_count": 25,
       "first_seen_at": "2026-07-01T11:48:44.907Z",
-      "last_seen_sha": "d7381eb2dbb1",
+      "last_seen_sha": "f8d167cccf4c",
       "author": "TANAKA Masayuki",
       "maintainer": "TANAKA Masayuki",
       "sentence": "Simple explicit USB Device library for ESP32 Arduino.",
-      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio (UAC1/UAC2), a USB Video (UVC) camera, DFU firmware update, and multi-function composite devices for ESP32-S2/S3/P4 Arduino sketches.",
+      "paragraph": "EspUsbDevice provides explicit USB device configuration, HID keyboard/mouse/gamepad/custom/vendor APIs, CDC ACM, USB MIDI, MSC RAM/FAT/SD helpers, vendor-specific bulk/control APIs, a CDC-NCM network device with optional lwIP/DHCP, a CCID smart card reader, USB Audio (UAC1/UAC2), a USB Video (UVC) camera, DFU firmware update, and multi-function composite devices for ESP32-S2/S3/P4/S31 Arduino sketches.",
       "category": "Device Control",
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.3.0.zip",
-      "size": 1147288,
-      "previous_version": "3.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tanakamasayuki/EspUsbDevice-3.4.0.zip",
+      "size": 1148935,
+      "previous_version": "3.3.0",
       "github_stars": 5,
       "github_forks": 0,
       "github_language": "C++",
@@ -147181,26 +147218,31 @@
       "repository_name": "meptNN/I2C-by-meptNN",
       "repository_url": "https://github.com/meptNN/I2C-by-meptNN",
       "name": "I2C by meptNN",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-25T04:01:40.961Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-25T06:03:15.085Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-25T04:01:40.961Z",
-      "last_seen_sha": "638e9d25d200",
+      "last_seen_sha": "213824e19d87",
       "author": "meptNN",
       "maintainer": "meptNN",
       "sentence": "Turkce gomulu sistem ekosistemi icin yazilimsal (bit-banging) Arduino I2C kutuphanesi.",
       "paragraph": "Herhangi iki dijital pini SDA ve SCL olarak kullanmanizi saglar. Open-drain hat kontrolu, clock stretching, repeated start, Turkce hata aciklamalari ve istege bagli Turkce API katmani (i2c_meptnn_tr.h) icerir.",
       "category": "Communication",
       "architectures": [
-        "*"
+        "avr"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/meptNN/I2C_by_meptNN-1.0.0.zip",
-      "size": 16613,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/meptNN/I2C_by_meptNN-1.0.1.zip",
+      "size": 16909,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -345366,7 +345408,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10301,
-    "total_dependencies": 5742
+    "with_github_metadata": 10302,
+    "total_dependencies": 5743
   }
 }

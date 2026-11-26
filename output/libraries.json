@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-26T15:01:39.953Z",
-  "total_libraries": 10512,
-  "index_etag": "W/\"ea7ceb830298263b81a47f36ca87a6f9\"",
-  "index_last_modified": "Thu, 26 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-26T16:01:38.911Z",
+  "total_libraries": 10513,
+  "index_etag": "W/\"2c3b2593061ba66456e9c65fe23d8df6\"",
+  "index_last_modified": "Thu, 26 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -27191,7 +27191,7 @@
       "repository_name": "tkgktyk/analog-mimic-arduino",
       "repository_url": "https://github.com/tkgktyk/analog-mimic-arduino",
       "name": "AnalogMimic",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "version_history": [
         {
           "version": "0.1.0",
@@ -27204,22 +27204,26 @@
         {
           "version": "0.2.1",
           "seen_at": "2026-11-25T12:03:04.397Z"
+        },
+        {
+          "version": "0.3.0",
+          "seen_at": "2026-11-26T16:01:37.350Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-10-25T10:02:37.676Z",
-      "last_seen_sha": "f08d81ce8080",
+      "last_seen_sha": "ffddd2f53126",
       "author": "tkgktyk",
       "maintainer": "tkgktyk",
       "sentence": "Controls the Analog Mimic programmable analog module over I2C.",
-      "paragraph": "Switch the module between analog functions (filters, amplifier, comparator, clipper, rectifier, log, integrator and more) and set their parameters from your sketch.",
+      "paragraph": "Switch the module between analog functions (amplifier, filters, integrator, comparator, clipper, rectifier, sample and hold, oscillator, VCO, modulators, noise, log, squarer, true RMS and more) and set their parameters in physical units from your sketch.",
       "category": "Signal Input/Output",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.2.1.zip",
-      "size": 67604,
-      "previous_version": "0.2.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tkgktyk/AnalogMimic-0.3.0.zip",
+      "size": 84288,
+      "previous_version": "0.2.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -183089,7 +183093,7 @@
       "repository_name": "mimeindustries/Marceau",
       "repository_url": "https://github.com/mimeindustries/Marceau",
       "name": "Marceau",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "0.0.2",
@@ -183098,11 +183102,15 @@
         {
           "version": "1.0.0",
           "seen_at": "2026-11-24T16:01:44.587Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-26T16:01:37.350Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2025-07-21T16:22:13Z",
-      "last_seen_sha": "2acc4d190462",
+      "last_seen_sha": "ba6360789ed5",
       "author": "Ben Pirt <ben.pirt@mime.co.uk>",
       "maintainer": "Ben Gray <ben.gray@mime.co.uk>",
       "sentence": "This is a library that allows devices to be easily controlled over serial and websockets.",
@@ -183112,9 +183120,14 @@
         "esp32",
         "esp8266"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/Marceau-1.0.0.zip",
-      "size": 191090,
-      "previous_version": "0.0.2",
+      "depends": [
+        "ESP Async WebServer",
+        "Async TCP",
+        "ESP Async TCP"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/Marceau-1.0.1.zip",
+      "size": 192575,
+      "previous_version": "1.0.0",
       "github_stars": 5,
       "github_forks": 3,
       "github_language": "C++",
@@ -189846,6 +189859,35 @@
       "github_language": "C++",
       "github_updated_at": "2020-08-26T17:21:35Z",
       "download_url": "https://github.com/luisllamasbinaburo/Arduino-Meanfilter"
+    },
+    {
+      "repository_name": "mimeindustries/MeArm-Wifi",
+      "repository_url": "https://github.com/mimeindustries/MeArm-Wifi",
+      "name": "MeArm",
+      "version": "0.1.0",
+      "version_history": [
+        {
+          "version": "0.1.0",
+          "seen_at": "2026-11-26T16:01:37.350Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-26T16:01:37.350Z",
+      "last_seen_sha": "1f6c362dcf09",
+      "author": "Ben Pirt <ben.pirt@mime.co.uk>",
+      "maintainer": "Mime Industries <info@mime.co.uk>",
+      "sentence": "A library to control the MeArm Robot Arm",
+      "paragraph": "Used to control the arm through the WiFi board and can also be used to control a generic Arduino",
+      "category": "Other",
+      "architectures": [
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mimeindustries/MeArm-0.1.0.zip",
+      "size": 954091,
+      "github_stars": 6,
+      "github_forks": 4,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-24T15:05:52Z"
     },
     {
       "repository_name": "MeArm/MeArm-Arduino",
@@ -297314,7 +297356,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.37.0",
+      "version": "0.38.0",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297355,11 +297397,15 @@
         {
           "version": "0.37.0",
           "seen_at": "2026-11-26T10:01:31.462Z"
+        },
+        {
+          "version": "0.38.0",
+          "seen_at": "2026-11-26T16:01:37.350Z"
         }
       ],
-      "release_count": 10,
+      "release_count": 11,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "dea60837471c",
+      "last_seen_sha": "e147b1a6b22b",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297371,9 +297417,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.37.0.zip",
-      "size": 269363,
-      "previous_version": "0.36.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.38.0.zip",
+      "size": 287156,
+      "previous_version": "0.37.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -334032,7 +334078,7 @@
       "repository_name": "mediocre9/voyager-ota-client",
       "repository_url": "https://github.com/mediocre9/voyager-ota-client",
       "name": "Voyager-OTA-Client",
-      "version": "5.1.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -334045,11 +334091,15 @@
         {
           "version": "5.1.0",
           "seen_at": "2026-10-24T14:02:35.622Z"
+        },
+        {
+          "version": "6.0.0",
+          "seen_at": "2026-11-26T16:01:37.350Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T08:38:34Z",
-      "last_seen_sha": "72b7322d1f3c",
+      "last_seen_sha": "59ef6c530027",
       "author": "Fahad Zia Khan - Mediocre9",
       "maintainer": "Fahad Zia Khan - Mediocre9",
       "sentence": "ESP32 Remote OTA library with semver, GitHub updates, VoyagerOTA, and custom JSON support.",
@@ -334061,9 +334111,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/mediocre9/Voyager_OTA_Client-5.1.0.zip",
-      "size": 18654,
-      "previous_version": "5.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/mediocre9/Voyager_OTA_Client-6.0.0.zip",
+      "size": 24657,
+      "previous_version": "5.1.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -345794,7 +345844,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10308,
-    "total_dependencies": 5757
+    "with_github_metadata": 10309,
+    "total_dependencies": 5760
   }
 }

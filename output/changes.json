@@ -1,6 +1,274 @@
 {
-  "since": "2026-11-26T07:01:57.910Z",
+  "since": "2026-11-26T08:01:57.399Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "A-vrice/azaraC",
+        "repository_url": "https://github.com/A-vrice/azaraC",
+        "name": "azaraC",
+        "version": "2.0.1",
+        "version_history": [
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-10-15T06:04:41.362Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-10-15T06:04:41.362Z",
+        "last_seen_sha": "383230ab7224",
+        "author": "A-vrice",
+        "maintainer": "A-vrice",
+        "sentence": "QZSS L1S DCX/CAMF and QZQSM decoder for Arduino",
+        "paragraph": "Decodes QZSS L1S disaster alert messages from UBX (RXM-SFRBX) or NMEA ($QZQSM). All 12 JMA DC Report sub-types supported. Definition tables auto-generated from azarashi. No heap allocation. No external dependencies. Corresponds to IS-QZSS-DCR-017 (MT=43, all 12 categories), IS-QZSS-DCX-004 Rev.004 and EWSS-CAMF v1.2 (MT=44). Definition tables are auto-generated from azarashi 0.17.1.",
+        "category": "Communication",
+        "architectures": [
+          "sam",
+          "samd",
+          "mbed_nano",
+          "mbed_giga",
+          "mbed_rp2040",
+          "mbed_portenta",
+          "esp32",
+          "stm32",
+          "nrf52",
+          "teensy40",
+          "avr",
+          "rp2040"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/A-vrice/azaraC-2.0.1.zip",
+        "size": 921784,
+        "previous_version": "2.0.0",
+        "github_stars": 2,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-10-13T06:05:13Z"
+      },
+      "old_version": "2.0.0",
+      "new_version": "2.0.1"
+    },
+    {
+      "library": {
+        "repository_name": "cyfney/cyfney-cpp-arduino",
+        "repository_url": "https://github.com/cyfney/cyfney-cpp-arduino",
+        "name": "cyfney-cpp",
+        "version": "5.3.3",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-08-26T12:06:00.595Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-09-03T10:02:48.029Z"
+          },
+          {
+            "version": "1.0.6",
+            "seen_at": "2026-09-14T04:03:15.110Z"
+          },
+          {
+            "version": "2.0.1",
+            "seen_at": "2026-10-09T10:02:58.294Z"
+          },
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-10-10T04:04:41.799Z"
+          },
+          {
+            "version": "2.3.0",
+            "seen_at": "2026-10-14T10:02:46.937Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-11-04T10:01:54.235Z"
+          },
+          {
+            "version": "3.0.0",
+            "seen_at": "2026-11-04T11:01:31.943Z"
+          },
+          {
+            "version": "3.0.1",
+            "seen_at": "2026-11-05T08:02:15.075Z"
+          },
+          {
+            "version": "3.0.2",
+            "seen_at": "2026-11-06T10:01:46.265Z"
+          },
+          {
+            "version": "4.0.0",
+            "seen_at": "2026-11-10T10:01:39.639Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-11-11T08:02:06.090Z"
+          },
+          {
+            "version": "5.2.0",
+            "seen_at": "2026-11-11T10:01:37.312Z"
+          },
+          {
+            "version": "5.2.1",
+            "seen_at": "2026-11-11T12:02:35.085Z"
+          },
+          {
+            "version": "5.3.0",
+            "seen_at": "2026-11-20T06:03:09.341Z"
+          },
+          {
+            "version": "5.3.1",
+            "seen_at": "2026-11-23T08:02:55.074Z"
+          },
+          {
+            "version": "5.3.3",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          }
+        ],
+        "release_count": 17,
+        "first_seen_at": "2026-08-26T12:06:00.595Z",
+        "last_seen_sha": "277c164a29cc",
+        "author": "anka",
+        "maintainer": "anka",
+        "sentence": "Reusable C++ utilities and base classes.",
+        "paragraph": "A header-only library providing general-purpose building blocks, common tools, and foundational components for C++ projects.",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/cyfney/cyfney_cpp-5.3.3.zip",
+        "size": 58372,
+        "previous_version": "5.3.1",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-08-26T09:53:23Z"
+      },
+      "old_version": "5.3.1",
+      "new_version": "5.3.3"
+    },
+    {
+      "library": {
+        "repository_name": "esp-arduino-libs/ESP32_Display_Panel",
+        "repository_url": "https://github.com/esp-arduino-libs/ESP32_Display_Panel",
+        "name": "ESP32_Display_Panel",
+        "version": "2.0.0",
+        "version_history": [
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-06-30T08:27:47Z"
+          },
+          {
+            "version": "1.0.4",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.0.5",
+            "seen_at": "2026-11-26T04:01:43.549Z"
+          },
+          {
+            "version": "2.0.0",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-30T08:27:47Z",
+        "last_seen_sha": "99de1f2e3e99",
+        "author": "espressif",
+        "maintainer": "espressif",
+        "sentence": "ESP32_Display_Panel is a display driver and GUI porting library designed by Espressif specifically for ESP series SoCs (ESP32, ESP32-S3, ESP32-P4, etc.)",
+        "paragraph": "Currently supported board manufacturers: Espressif,M5Stack,Waveshare,Elecrow,Jingcai,Viewe. Currently supported drivers: Host,Bus,LCD,Touch,Backlight,IO expander. Currently supported Bus: I2C,SPI,QSPI,RGB,MIPI-DSI.",
+        "category": "Display",
+        "architectures": [
+          "esp32"
+        ],
+        "depends": [
+          "ESP32_IO_Expander",
+          "esp-lib-utils"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/esp-arduino-libs/ESP32_Display_Panel-2.0.0.zip",
+        "size": 1657714,
+        "previous_version": "1.0.5",
+        "github_stars": 267,
+        "github_forks": 65,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T14:05:58Z"
+      },
+      "old_version": "1.0.5",
+      "new_version": "2.0.0"
+    },
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.36.2",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          },
+          {
+            "version": "0.28.0",
+            "seen_at": "2026-11-24T22:01:43.272Z"
+          },
+          {
+            "version": "0.30.0",
+            "seen_at": "2026-11-25T00:04:18.967Z"
+          },
+          {
+            "version": "0.31.0",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          },
+          {
+            "version": "0.32.0",
+            "seen_at": "2026-11-25T14:01:49.503Z"
+          },
+          {
+            "version": "0.34.0",
+            "seen_at": "2026-11-25T18:01:43.813Z"
+          },
+          {
+            "version": "0.36.0",
+            "seen_at": "2026-11-26T06:03:09.865Z"
+          },
+          {
+            "version": "0.36.2",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          }
+        ],
+        "release_count": 9,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "3f2d0bc23652",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.2.zip",
+        "size": 263671,
+        "previous_version": "0.36.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.36.0",
+      "new_version": "0.36.2"
+    }
+  ],
   "removed_libraries": []
 }

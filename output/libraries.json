@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-26T05:01:25.694Z",
+  "enhanced_at": "2026-11-26T06:03:09.957Z",
   "total_libraries": 10511,
-  "index_etag": "W/\"01c0f1b46b0da6b3c8674da3b7e89be9\"",
-  "index_last_modified": "Thu, 26 Nov 2026 05:00:18 GMT",
+  "index_etag": "W/\"49e3488a442521505ac67cd75afcdd82\"",
+  "index_last_modified": "Thu, 26 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -108434,16 +108434,20 @@
       "repository_name": "esp-arduino-libs/ESP32_IO_Expander",
       "repository_url": "https://github.com/esp-arduino-libs/ESP32_IO_Expander",
       "name": "ESP32_IO_Expander",
-      "version": "1.1.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.1.1",
           "seen_at": "2026-06-08T08:47:37Z"
+        },
+        {
+          "version": "2.0.0",
+          "seen_at": "2026-11-26T06:03:09.865Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-08T08:47:37Z",
-      "last_seen_sha": "317a83003ae7",
+      "last_seen_sha": "4dfaa218abaf",
       "author": "espressif",
       "maintainer": "espressif",
       "sentence": "ESP32_IO_Expander is a library designed for driving IO expander chips using ESP SoCs",
@@ -108452,14 +108456,16 @@
       "architectures": [
         "esp32"
       ],
-      "github_stars": 28,
-      "github_forks": 14,
-      "github_language": "C",
-      "github_updated_at": "2026-06-08T01:04:43Z",
       "depends": [
         "esp-lib-utils"
       ],
-      "download_url": "https://github.com/esp-arduino-libs/ESP32_IO_Expander"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/esp-arduino-libs/ESP32_IO_Expander-2.0.0.zip",
+      "size": 49078,
+      "previous_version": "1.1.1",
+      "github_stars": 28,
+      "github_forks": 14,
+      "github_language": "C",
+      "github_updated_at": "2026-06-08T01:04:43Z"
     },
     {
       "repository_name": "khoih-prog/ESP32_ISR_Servo",
@@ -192342,7 +192348,7 @@
       "repository_name": "meshtastic/Meshtastic-arduino",
       "repository_url": "https://github.com/meshtastic/Meshtastic-arduino",
       "name": "Meshtastic",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "version_history": [
         {
           "version": "0.0.7",
@@ -192351,11 +192357,15 @@
         {
           "version": "0.1.0",
           "seen_at": "2026-08-31T12:04:24.393Z"
+        },
+        {
+          "version": "0.1.1",
+          "seen_at": "2026-11-26T06:03:09.865Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-05-25T08:56:25Z",
-      "last_seen_sha": "cc1209c9e77b",
+      "last_seen_sha": "d97ef583f9ef",
       "author": "Meshtastic",
       "maintainer": "Meshtastic <meshtastic@meshtastic.org>",
       "sentence": "Driver for interfacing with Meshtastic nodes over WiFi and Serial connections",
@@ -192364,9 +192374,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/meshtastic/Meshtastic-0.1.0.zip",
-      "size": 228094,
-      "previous_version": "0.0.7",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/meshtastic/Meshtastic-0.1.1.zip",
+      "size": 246184,
+      "previous_version": "0.1.0",
       "github_stars": 111,
       "github_forks": 33,
       "github_language": "C",
@@ -297245,7 +297255,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.34.0",
+      "version": "0.36.0",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297274,11 +297284,15 @@
         {
           "version": "0.34.0",
           "seen_at": "2026-11-25T18:01:43.813Z"
+        },
+        {
+          "version": "0.36.0",
+          "seen_at": "2026-11-26T06:03:09.865Z"
         }
       ],
-      "release_count": 7,
+      "release_count": 8,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "0a4e3326a85b",
+      "last_seen_sha": "5b5293d50435",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297290,9 +297304,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.34.0.zip",
-      "size": 246891,
-      "previous_version": "0.32.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.0.zip",
+      "size": 263661,
+      "previous_version": "0.34.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

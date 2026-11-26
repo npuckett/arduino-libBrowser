@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-25T23:01:21.005Z",
-  "total_libraries": 10510,
-  "index_etag": "W/\"4a0ab42f2161676311c8adf38dff0270\"",
-  "index_last_modified": "Wed, 25 Nov 2026 23:00:18 GMT",
+  "enhanced_at": "2026-11-26T00:04:14.876Z",
+  "total_libraries": 10511,
+  "index_etag": "W/\"cb96d428f5edb091f22a88b941d28a4d\"",
+  "index_last_modified": "Thu, 26 Nov 2026 00:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -81867,7 +81867,7 @@
       "repository_name": "UNIT-Electronics-MX/unit_devlab_ddp_library",
       "repository_url": "https://github.com/UNIT-Electronics-MX/unit_devlab_ddp_library",
       "name": "DevLabDDP",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.1",
@@ -81904,11 +81904,15 @@
         {
           "version": "1.1.0",
           "seen_at": "2026-11-13T18:01:44.143Z"
+        },
+        {
+          "version": "1.1.1",
+          "seen_at": "2026-11-26T00:04:13.324Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-08-27T23:05:28.812Z",
-      "last_seen_sha": "8ba3e8549a44",
+      "last_seen_sha": "1bacf8648a41",
       "author": "UNIT Electronics",
       "maintainer": "Adrian Rabadan, Cesar Bautista, Jonathan Mejorado, Fernando Flores",
       "sentence": "Arduino master for the DevLab Device Protocol.",
@@ -81920,9 +81924,9 @@
       "depends": [
         "DevLab_Interface"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.1.0.zip",
-      "size": 26363,
-      "previous_version": "1.0.9",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/UNIT-Electronics-MX/DevLabDDP-1.1.1.zip",
+      "size": 26890,
+      "previous_version": "1.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -216492,16 +216496,20 @@
       "repository_name": "gavinlyonsrepo/NV3007_LTSM",
       "repository_url": "https://github.com/gavinlyonsrepo/NV3007_LTSM",
       "name": "NV3007_LTSM",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "seen_at": "2026-11-25T00:04:18.967Z"
+        },
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-26T00:04:13.324Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-25T00:04:18.967Z",
-      "last_seen_sha": "d5ef0b69a3e4",
+      "last_seen_sha": "359ecbf28ea4",
       "author": "Gavin Lyons <glyons66@hotmail.com>",
       "maintainer": "Gavin Lyons <glyons66@hotmail.com>",
       "sentence": "Library to Support the NV3007 TFT LCD display",
@@ -216513,8 +216521,9 @@
       "depends": [
         "display16_LTSM"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/NV3007_LTSM-1.0.0.zip",
-      "size": 73452,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/gavinlyonsrepo/NV3007_LTSM-1.0.1.zip",
+      "size": 188893,
+      "previous_version": "1.0.0",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -331748,6 +331757,35 @@
       "download_url": "https://github.com/kanitawa/VersatileSwitch"
     },
     {
+      "repository_name": "Tommy-Guo/Vertex_MPU6050",
+      "repository_url": "https://github.com/Tommy-Guo/Vertex_MPU6050",
+      "name": "Vertex_MPU6050",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-26T00:04:13.324Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-26T00:04:13.324Z",
+      "last_seen_sha": "d0bb1c13e93f",
+      "author": "Tommy Guo",
+      "maintainer": "Tommy Guo",
+      "sentence": "Standalone MPU6050 driver with an Adafruit_MPU6050-style API that supports MPU6050 clones and variants.",
+      "paragraph": "Same API as Adafruit_MPU6050 (methods, enums, units and sensors_event_t output) under the class name Vertex_MPU6050. Accepts MPU6050 clones.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Tommy-Guo/Vertex_MPU6050-1.0.0.zip",
+      "size": 25362,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-25T21:27:21Z"
+    },
+    {
       "repository_name": "PaulNTU/Wizibot_VescMotorController",
       "repository_url": "https://github.com/PaulNTU/Wizibot_VescMotorController",
       "name": "VescMotorController",
@@ -345650,7 +345688,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10306,
+    "with_github_metadata": 10307,
     "total_dependencies": 5756
   }
 }

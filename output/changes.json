@@ -1,6 +1,246 @@
 {
-  "since": "2026-11-26T17:01:05.480Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-26T18:01:47.875Z",
+  "new_libraries": [
+    {
+      "repository_name": "bonezegei/Bonezegei_TSL2561",
+      "repository_url": "https://github.com/bonezegei/Bonezegei_TSL2561",
+      "name": "Bonezegei_TSL2561",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-26T18:01:47.875Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-26T18:01:47.875Z",
+      "last_seen_sha": "079647f31e7c",
+      "author": "Bonezegei (Jofel Batutay)",
+      "maintainer": "Bonezegei",
+      "sentence": "Arduino library for TSL2561 digital ambient light sensor.",
+      "paragraph": "A minimal I2C driver for measuring light intensity in Lux using the TSL2561 sensor module.",
+      "category": "Sensors",
+      "architectures": [
+        "*"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bonezegei/Bonezegei_TSL2561-1.0.0.zip",
+      "size": 4839,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-26T14:54:02Z"
+    },
+    {
+      "repository_name": "devansh8011-oss/NowRemote",
+      "repository_url": "https://github.com/devansh8011-oss/NowRemote",
+      "name": "NowRemote",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-26T18:01:47.875Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-26T18:01:47.875Z",
+      "last_seen_sha": "1232c6430203",
+      "author": "Devansh",
+      "maintainer": "Devansh",
+      "sentence": "Dead-simple ESP-NOW for ESP32 robots: send and receive values in one line.",
+      "paragraph": "Set the other board's MAC address, then use send() and receive() just like Serial. Send numbers or text, with or without a name. Includes a one-line failsafe that stops your robot when the remote signal is lost.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/devansh8011-oss/NowRemote-1.0.0.zip",
+      "size": 14092,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-26T14:32:39Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "arduino-libraries/Arduino_RPCLite",
+        "repository_url": "https://github.com/arduino-libraries/Arduino_RPCLite",
+        "name": "Arduino_RPClite",
+        "version": "0.4.0",
+        "version_history": [
+          {
+            "version": "0.2.1",
+            "seen_at": "2026-01-02T21:03:46Z"
+          },
+          {
+            "version": "0.3.0",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-09-09T16:02:39.034Z"
+          },
+          {
+            "version": "0.4.0",
+            "seen_at": "2026-11-26T18:01:47.875Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-01-02T21:03:46Z",
+        "last_seen_sha": "a5b84468a94f",
+        "author": "Arduino, Lucio Rossi (eigen-value)",
+        "maintainer": "Arduino, Lucio Rossi (eigen-value)",
+        "sentence": "A MessagePack RPC library for Arduino",
+        "paragraph": "allows to create a client/server architecture using MessagePack as the serialization format. It follows the MessagePack-RPC protocol specification. It is designed to be lightweight and easy to use, making it suitable for embedded systems and IoT applications.",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "depends": [
+          "MsgPack"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Arduino_RPClite-0.4.0.zip",
+        "size": 51738,
+        "previous_version": "0.3.1",
+        "github_stars": 6,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2026-05-25T08:59:30Z"
+      },
+      "old_version": "0.3.1",
+      "new_version": "0.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.39.0",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          },
+          {
+            "version": "0.28.0",
+            "seen_at": "2026-11-24T22:01:43.272Z"
+          },
+          {
+            "version": "0.30.0",
+            "seen_at": "2026-11-25T00:04:18.967Z"
+          },
+          {
+            "version": "0.31.0",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          },
+          {
+            "version": "0.32.0",
+            "seen_at": "2026-11-25T14:01:49.503Z"
+          },
+          {
+            "version": "0.34.0",
+            "seen_at": "2026-11-25T18:01:43.813Z"
+          },
+          {
+            "version": "0.36.0",
+            "seen_at": "2026-11-26T06:03:09.865Z"
+          },
+          {
+            "version": "0.36.2",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          },
+          {
+            "version": "0.37.0",
+            "seen_at": "2026-11-26T10:01:31.462Z"
+          },
+          {
+            "version": "0.38.0",
+            "seen_at": "2026-11-26T16:01:37.350Z"
+          },
+          {
+            "version": "0.39.0",
+            "seen_at": "2026-11-26T18:01:47.875Z"
+          }
+        ],
+        "release_count": 12,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "9722602bc76f",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, the PDM microphone (IMP34DT05) of every board, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.39.0.zip",
+        "size": 321064,
+        "previous_version": "0.38.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.38.0",
+      "new_version": "0.39.0"
+    },
+    {
+      "library": {
+        "repository_name": "theengs/decoder",
+        "repository_url": "https://github.com/theengs/decoder",
+        "name": "TheengsDecoder",
+        "version": "2.5.2",
+        "version_history": [
+          {
+            "version": "2.2.0",
+            "seen_at": "2026-06-29T09:11:48Z"
+          },
+          {
+            "version": "2.4.0",
+            "seen_at": "2026-09-02T18:03:13.158Z"
+          },
+          {
+            "version": "2.4.5",
+            "seen_at": "2026-09-08T00:06:46.855Z"
+          },
+          {
+            "version": "2.5.0",
+            "seen_at": "2026-10-12T18:03:06.509Z"
+          },
+          {
+            "version": "2.5.2",
+            "seen_at": "2026-11-26T18:01:47.875Z"
+          }
+        ],
+        "release_count": 5,
+        "first_seen_at": "2026-06-29T09:11:48Z",
+        "last_seen_sha": "0f7f0b30f33a",
+        "author": "Florian Robert, Ryan Powell",
+        "maintainer": "Florian Robert",
+        "sentence": "A simple, efficient, portable and lightweight library for Internet of Things messages decoding.",
+        "paragraph": "Theengs Decoder library translates sensors data chains into human readable data leveraging the well known data interchange format JSON. This format can easily be integrated into different systems or software.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/theengs/TheengsDecoder-2.5.2.zip",
+        "size": 4155754,
+        "previous_version": "2.5.0",
+        "github_stars": 202,
+        "github_forks": 66,
+        "github_language": "C",
+        "github_updated_at": "2026-06-29T05:38:35Z"
+      },
+      "old_version": "2.5.0",
+      "new_version": "2.5.2"
+    }
+  ],
   "removed_libraries": []
 }

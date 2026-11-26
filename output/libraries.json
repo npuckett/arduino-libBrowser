@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-26T09:01:41.414Z",
-  "total_libraries": 10511,
-  "index_etag": "W/\"7b914edd8579adf9abc26530e6ded569\"",
-  "index_last_modified": "Thu, 26 Nov 2026 09:00:19 GMT",
+  "enhanced_at": "2026-11-26T10:01:33.090Z",
+  "total_libraries": 10512,
+  "index_etag": "W/\"5e9d27cd08b60db93632a10ccd51a004\"",
+  "index_last_modified": "Thu, 26 Nov 2026 10:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -128722,6 +128722,38 @@
       "github_updated_at": "2026-11-18T09:31:06Z"
     },
     {
+      "repository_name": "Freenove/Freenove_CSI_Sensor_Driver",
+      "repository_url": "https://github.com/Freenove/Freenove_CSI_Sensor_Driver",
+      "name": "Freenove_CSI_Sensor_Driver",
+      "version": "1.4.0",
+      "version_history": [
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-11-26T10:01:31.462Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-26T10:01:31.462Z",
+      "last_seen_sha": "c00c29caf0c5",
+      "author": "Freenove",
+      "maintainer": "Freenove",
+      "sentence": "Arduino wrapper for esp_cam_sensor + ESP_Video MIPI-CSI cameras on ESP32-P4.",
+      "paragraph": "Auto-detects OV5647 / IMX219 / IMX708 on ESP32-P4. Fixed per-sensor resolution (IMX 640x480, OV5647 800x640). RGB565 software flip. Vendors IMX drivers + OV5647 mode table + detect/IPA overrides for Arduino-esp32 3.3.12. Default SCCB: SDA=GPIO7, SCL=GPIO8.",
+      "category": "Sensors",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "ESP_Video"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Freenove/Freenove_CSI_Sensor_Driver-1.4.0.zip",
+      "size": 92942,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C",
+      "github_updated_at": "2026-11-26T06:28:00Z"
+    },
+    {
       "repository_name": "Freenove/Freenove_Es8311_Audio_Driver",
       "repository_url": "https://github.com/Freenove/Freenove_Es8311_Audio_Driver",
       "name": "Freenove_Es8311_Audio_Driver",
@@ -176401,7 +176433,7 @@
       "repository_name": "m5stack/M5-Ethernet",
       "repository_url": "https://github.com/m5stack/M5-Ethernet",
       "name": "M5-Ethernet",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "version_history": [
         {
           "version": "4.0.0",
@@ -176410,11 +176442,15 @@
         {
           "version": "4.0.0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "4.0.1",
+          "seen_at": "2026-11-26T10:01:31.462Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-03-11T07:40:00Z",
-      "last_seen_sha": "965113eda98c",
+      "last_seen_sha": "a8bf7399782d",
       "author": "Icing Tomato (https://github.com/IcingTomato)",
       "maintainer": "Icing Tomato (icing@m5stack.com)",
       "sentence": "Enables network connection (local and Internet) using the M5 PoE Camera.",
@@ -176423,8 +176459,8 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5_Ethernet-4.0.0.zip",
-      "size": 66007,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/m5stack/M5_Ethernet-4.0.1.zip",
+      "size": 66015,
       "previous_version": "4.0.0",
       "github_stars": 6,
       "github_forks": 2,
@@ -297268,7 +297304,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.36.2",
+      "version": "0.37.0",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297305,11 +297341,15 @@
         {
           "version": "0.36.2",
           "seen_at": "2026-11-26T08:01:57.399Z"
+        },
+        {
+          "version": "0.37.0",
+          "seen_at": "2026-11-26T10:01:31.462Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "3f2d0bc23652",
+      "last_seen_sha": "dea60837471c",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297321,9 +297361,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.36.2.zip",
-      "size": 263671,
-      "previous_version": "0.36.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.37.0.zip",
+      "size": 269363,
+      "previous_version": "0.36.2",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -345744,7 +345784,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10307,
-    "total_dependencies": 5756
+    "with_github_metadata": 10308,
+    "total_dependencies": 5757
   }
 }

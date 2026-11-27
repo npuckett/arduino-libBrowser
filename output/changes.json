@@ -1,6 +1,148 @@
 {
-  "since": "2026-11-27T21:01:34.100Z",
+  "since": "2026-11-27T22:01:44.383Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "flova-platform/flova-firmware",
+        "repository_url": "https://github.com/flova-platform/flova-firmware",
+        "name": "FlovaSDK",
+        "version": "0.5.4",
+        "version_history": [
+          {
+            "version": "0.2.0",
+            "seen_at": "2026-09-05T22:02:05.225Z"
+          },
+          {
+            "version": "0.3.1",
+            "seen_at": "2026-09-12T12:03:14.232Z"
+          },
+          {
+            "version": "0.3.3",
+            "seen_at": "2026-09-12T14:02:11.454Z"
+          },
+          {
+            "version": "0.3.4",
+            "seen_at": "2026-09-12T20:02:25.988Z"
+          },
+          {
+            "version": "0.3.5",
+            "seen_at": "2026-09-14T12:04:01.232Z"
+          },
+          {
+            "version": "0.3.7",
+            "seen_at": "2026-09-27T16:02:46.454Z"
+          },
+          {
+            "version": "0.3.9",
+            "seen_at": "2026-10-03T14:48:43.251Z"
+          },
+          {
+            "version": "0.3.10",
+            "seen_at": "2026-10-08T12:04:02.053Z"
+          },
+          {
+            "version": "0.3.11",
+            "seen_at": "2026-10-09T20:02:49.656Z"
+          },
+          {
+            "version": "0.3.12",
+            "seen_at": "2026-10-11T22:02:27.696Z"
+          },
+          {
+            "version": "0.5.1",
+            "seen_at": "2026-11-20T14:01:30.580Z"
+          },
+          {
+            "version": "0.5.2",
+            "seen_at": "2026-11-23T18:01:49.221Z"
+          },
+          {
+            "version": "0.5.3",
+            "seen_at": "2026-11-27T18:01:49.125Z"
+          },
+          {
+            "version": "0.5.4",
+            "seen_at": "2026-11-27T22:01:44.383Z"
+          }
+        ],
+        "release_count": 14,
+        "first_seen_at": "2026-09-05T22:02:05.225Z",
+        "last_seen_sha": "85537c8c0875",
+        "author": "Flova",
+        "maintainer": "Flova",
+        "sentence": "Connect ESP32 and ESP8266 Arduino devices to Flova with bounded local-first datastreams.",
+        "paragraph": "Provides provisioning, secure Device Link transport, persistence, scheduling, hardware mapping, and OTA services for ESP32 and ESP8266.",
+        "category": "Communication",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "depends": [
+          "ArduinoJson"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/flova-platform/FlovaSDK-0.5.4.zip",
+        "size": 377273,
+        "previous_version": "0.5.3",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-09-05T19:32:39Z"
+      },
+      "old_version": "0.5.3",
+      "new_version": "0.5.4"
+    },
+    {
+      "library": {
+        "repository_name": "littlemanbuilds/PotIO",
+        "repository_url": "https://github.com/littlemanbuilds/PotIO",
+        "name": "PotIO",
+        "version": "1.2.0",
+        "version_history": [
+          {
+            "version": "1.0.0",
+            "seen_at": "2026-06-03T08:39:19Z"
+          },
+          {
+            "version": "1.1.0",
+            "seen_at": "2026-09-01T12:04:00.524Z"
+          },
+          {
+            "version": "1.2.0",
+            "seen_at": "2026-11-27T22:01:44.383Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-03T08:39:19Z",
+        "last_seen_sha": "5596d1cb4bba",
+        "author": "Little Man Builds (Darren Osborne)",
+        "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
+        "sentence": "Reliable potentiometer and joystick inputs with explicit validity, calibration, shaping, filtering, and slew limiting.",
+        "paragraph": "Zero-allocation Arduino input library for LinearPot, Joystick2D, ContinuousPot, and SteppedPot with explicit sample validity and errors, strict or permissive calibration, independent processing stages, timing-gap protection, joystick geometry policies, continuous-wrap plausibility checks, durable step-change sequencing, rolling jitter tools, generic readers, and ESP32 ADC helpers. PotIO owns signal conditioning rather than application safety policy and has no dependency on other LMB libraries. ESP32-S3 is the primary reference target; other listed architectures are compile-validation targets for the portable core.",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "avr",
+          "megaavr",
+          "sam",
+          "samd",
+          "esp32",
+          "esp8266",
+          "stm32",
+          "teensy",
+          "rp2040"
+        ],
+        "license": "MIT",
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/PotIO-1.2.0.zip",
+        "size": 101306,
+        "previous_version": "1.1.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-02T20:09:00Z"
+      },
+      "old_version": "1.1.0",
+      "new_version": "1.2.0"
+    }
+  ],
   "removed_libraries": []
 }

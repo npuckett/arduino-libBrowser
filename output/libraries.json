@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-27T13:01:30.986Z",
+  "enhanced_at": "2026-11-27T14:01:38.081Z",
   "total_libraries": 10521,
-  "index_etag": "W/\"f0e4d4a409c57a4a1639b1b01f95584f\"",
-  "index_last_modified": "Fri, 27 Nov 2026 13:00:18 GMT",
+  "index_etag": "W/\"0bc8480beee6f42ffffabf5ce4790777\"",
+  "index_last_modified": "Fri, 27 Nov 2026 14:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -25940,7 +25940,7 @@
       "repository_name": "AungMoeKhine/AMK_CYD_Universal_TFT",
       "repository_url": "https://github.com/AungMoeKhine/AMK_CYD_Universal_TFT",
       "name": "AMK_CYD_Universal_TFT",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "version_history": [
         {
           "version": "1.2.0",
@@ -25997,11 +25997,15 @@
         {
           "version": "1.8.1",
           "seen_at": "2026-11-26T20:01:24.756Z"
+        },
+        {
+          "version": "1.8.2",
+          "seen_at": "2026-11-27T14:01:37.943Z"
         }
       ],
-      "release_count": 14,
+      "release_count": 15,
       "first_seen_at": "2026-10-29T18:03:08.277Z",
-      "last_seen_sha": "598fb7605e3a",
+      "last_seen_sha": "7f93b3fe0aa1",
       "author": "Aung Moe Khine",
       "maintainer": "Aung Moe Khine <aungmoekhine@gmail.com>",
       "sentence": "Universal standalone TFT, touch, sprite, hardware terminal, onboard audio, battery telemetry, 80MHz SPI stress test & tear-free raster animation driver with 1-line autoSetup and adaptive autoCalibrate for ESP32/S3 CYD resistive & capacitive boards and ESP32-S3 RGB capacitive boards.",
@@ -26010,9 +26014,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.8.1.zip",
-      "size": 5703473,
-      "previous_version": "1.7.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/AungMoeKhine/AMK_CYD_Universal_TFT-1.8.2.zip",
+      "size": 5704372,
+      "previous_version": "1.8.1",
       "github_stars": 5,
       "github_forks": 1,
       "github_language": "C",
@@ -128953,7 +128957,7 @@
       "repository_name": "feilipu/Arduino_FreeRTOS_Library",
       "repository_url": "https://github.com/feilipu/Arduino_FreeRTOS_Library",
       "name": "FreeRTOS",
-      "version": "11.1.0-0",
+      "version": "11.3.3-0",
       "version_history": [
         {
           "version": "11.1.0-3",
@@ -128962,11 +128966,15 @@
         {
           "version": "11.1.0-0",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "11.3.3-0",
+          "seen_at": "2026-11-27T14:01:37.943Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-25T08:20:31Z",
-      "last_seen_sha": "49655b9da388",
+      "last_seen_sha": "bccefb90d9cf",
       "author": "Richard Barry <info@freertos.org>",
       "maintainer": "Phillip Stevens <phillip.stevens@gmail.com>",
       "sentence": "FreeRTOS Real Time Operating System implemented for Arduino Uno R3, Nano, Leonardo, Mega, and related Microchip ATmega devices.",
@@ -128976,13 +128984,13 @@
         "avr"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/feilipu/FreeRTOS-11.1.0-0.zip",
-      "size": 343494,
-      "previous_version": "11.1.0-3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/feilipu/FreeRTOS-11.3.3-0.zip",
+      "size": 356952,
+      "previous_version": "11.1.0-0",
       "github_stars": 957,
       "github_forks": 217,
-      "github_updated_at": "2026-06-24T22:20:17Z",
-      "github_language": "C"
+      "github_language": "C",
+      "github_updated_at": "2026-06-24T22:20:17Z"
     },
     {
       "repository_name": "BriscoeTech/Arduino-FreeRTOS-SAMD21",
@@ -227862,7 +227870,7 @@
       "repository_name": "tuhde/Periph-Arduino",
       "repository_url": "https://github.com/tuhde/Periph-Arduino",
       "name": "Periph",
-      "version": "1.5.4",
+      "version": "1.6.0",
       "version_history": [
         {
           "version": "1.2.1",
@@ -227899,11 +227907,15 @@
         {
           "version": "1.5.4",
           "seen_at": "2026-11-25T00:04:18.967Z"
+        },
+        {
+          "version": "1.6.0",
+          "seen_at": "2026-11-27T14:01:37.943Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-09-25T00:07:26.392Z",
-      "last_seen_sha": "6c2d92924825",
+      "last_seen_sha": "324a58b76829",
       "author": "Till Uhde",
       "maintainer": "Till Uhde <till@uhde.com>",
       "sentence": "Peripheral chip drivers for Arduino (I2C/SPI).",
@@ -227912,9 +227924,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.5.4.zip",
-      "size": 1737223,
-      "previous_version": "1.5.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/tuhde/Periph-1.6.0.zip",
+      "size": 1824143,
+      "previous_version": "1.5.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",

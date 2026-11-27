@@ -1,6 +1,175 @@
 {
-  "since": "2026-11-27T05:01:20.047Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-27T06:03:18.909Z",
+  "new_libraries": [
+    {
+      "repository_name": "NodexaCloud/nodexa-cloud-arduino-library",
+      "repository_url": "https://github.com/NodexaCloud/nodexa-cloud-arduino-library",
+      "name": "NodexaCloud",
+      "version": "0.11.11",
+      "version_history": [
+        {
+          "version": "0.11.11",
+          "seen_at": "2026-11-27T06:03:18.909Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-27T06:03:18.909Z",
+      "last_seen_sha": "50f50189f763",
+      "author": "Nodexa",
+      "maintainer": "Nodexa <72380210+ASHLIE-NOBLEZA@users.noreply.github.com>",
+      "sentence": "Lightweight Nodexa ESP32 telemetry, real-time subscriptions and heartbeat.",
+      "paragraph": "Publish typed variable batches and subscribe to device values over one verified WebSocket in a low-priority FreeRTOS task.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NodexaCloud/NodexaCloud-0.11.11.zip",
+      "size": 49314,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-27T03:11:44Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "sinricpro/esp8266-esp32-sdk",
+        "repository_url": "https://github.com/sinricpro/esp8266-esp32-sdk",
+        "name": "SinricPro",
+        "version": "5.1.1",
+        "version_history": [
+          {
+            "version": "4.1.0",
+            "seen_at": "2026-06-29T09:08:49Z"
+          },
+          {
+            "version": "5.0.0",
+            "seen_at": "2026-09-06T08:03:08.760Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-09-28T08:09:34.910Z"
+          },
+          {
+            "version": "5.1.1",
+            "seen_at": "2026-11-27T06:03:18.909Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2026-06-29T09:08:49Z",
+        "last_seen_sha": "9f627252599c",
+        "author": "Boris Jaeger <sivar2311@gmail.com>",
+        "maintainer": "SinricPro <support@sinric.com>",
+        "sentence": "Library for https://sinric.pro - simple way to connect your device to alexa",
+        "paragraph": "Simple way to control your IOT development boards like ESP8226 or ESP32 with Amazon Alexa or Google Home",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32",
+          "rp2040"
+        ],
+        "license": "CC-BY-SA",
+        "depends": [
+          "ArduinoJson",
+          "WebSockets"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricPro-5.1.1.zip",
+        "size": 2074826,
+        "previous_version": "5.1.0",
+        "github_stars": 272,
+        "github_forks": 133,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-29T00:50:23Z"
+      },
+      "old_version": "5.1.0",
+      "new_version": "5.1.1"
+    },
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.39.1",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          },
+          {
+            "version": "0.28.0",
+            "seen_at": "2026-11-24T22:01:43.272Z"
+          },
+          {
+            "version": "0.30.0",
+            "seen_at": "2026-11-25T00:04:18.967Z"
+          },
+          {
+            "version": "0.31.0",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          },
+          {
+            "version": "0.32.0",
+            "seen_at": "2026-11-25T14:01:49.503Z"
+          },
+          {
+            "version": "0.34.0",
+            "seen_at": "2026-11-25T18:01:43.813Z"
+          },
+          {
+            "version": "0.36.0",
+            "seen_at": "2026-11-26T06:03:09.865Z"
+          },
+          {
+            "version": "0.36.2",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          },
+          {
+            "version": "0.37.0",
+            "seen_at": "2026-11-26T10:01:31.462Z"
+          },
+          {
+            "version": "0.38.0",
+            "seen_at": "2026-11-26T16:01:37.350Z"
+          },
+          {
+            "version": "0.39.0",
+            "seen_at": "2026-11-26T18:01:47.875Z"
+          },
+          {
+            "version": "0.39.1",
+            "seen_at": "2026-11-27T06:03:18.909Z"
+          }
+        ],
+        "release_count": 13,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "7006d51caacf",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, the PDM microphone (IMP34DT05) of every board, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.39.1.zip",
+        "size": 321210,
+        "previous_version": "0.39.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.39.0",
+      "new_version": "0.39.1"
+    }
+  ],
   "removed_libraries": []
 }

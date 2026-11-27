@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-27T05:01:20.185Z",
-  "total_libraries": 10520,
-  "index_etag": "W/\"3e3c6733858c2ac16fc0d0bfdfbe3a9a\"",
-  "index_last_modified": "Fri, 27 Nov 2026 05:00:19 GMT",
+  "enhanced_at": "2026-11-27T06:03:20.355Z",
+  "total_libraries": 10521,
+  "index_etag": "W/\"c85da566abdab243a671530e30287714\"",
+  "index_last_modified": "Fri, 27 Nov 2026 06:00:19 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -214674,6 +214674,35 @@
       "github_updated_at": "2026-06-07T16:07:54Z"
     },
     {
+      "repository_name": "NodexaCloud/nodexa-cloud-arduino-library",
+      "repository_url": "https://github.com/NodexaCloud/nodexa-cloud-arduino-library",
+      "name": "NodexaCloud",
+      "version": "0.11.11",
+      "version_history": [
+        {
+          "version": "0.11.11",
+          "seen_at": "2026-11-27T06:03:18.909Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-27T06:03:18.909Z",
+      "last_seen_sha": "50f50189f763",
+      "author": "Nodexa",
+      "maintainer": "Nodexa <72380210+ASHLIE-NOBLEZA@users.noreply.github.com>",
+      "sentence": "Lightweight Nodexa ESP32 telemetry, real-time subscriptions and heartbeat.",
+      "paragraph": "Publish typed variable batches and subscribe to device values over one verified WebSocket in a low-priority FreeRTOS task.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NodexaCloud/NodexaCloud-0.11.11.zip",
+      "size": 49314,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-27T03:11:44Z"
+    },
+    {
       "repository_name": "decoded-cipher/nodrix-sdk",
       "repository_url": "https://github.com/decoded-cipher/nodrix-sdk",
       "name": "Nodrix",
@@ -276843,7 +276872,7 @@
       "repository_name": "sinricpro/esp8266-esp32-sdk",
       "repository_url": "https://github.com/sinricpro/esp8266-esp32-sdk",
       "name": "SinricPro",
-      "version": "5.1.0",
+      "version": "5.1.1",
       "version_history": [
         {
           "version": "4.1.0",
@@ -276856,11 +276885,15 @@
         {
           "version": "5.1.0",
           "seen_at": "2026-09-28T08:09:34.910Z"
+        },
+        {
+          "version": "5.1.1",
+          "seen_at": "2026-11-27T06:03:18.909Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-06-29T09:08:49Z",
-      "last_seen_sha": "74cdb9c0534c",
+      "last_seen_sha": "9f627252599c",
       "author": "Boris Jaeger <sivar2311@gmail.com>",
       "maintainer": "SinricPro <support@sinric.com>",
       "sentence": "Library for https://sinric.pro - simple way to connect your device to alexa",
@@ -276876,9 +276909,9 @@
         "ArduinoJson",
         "WebSockets"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricPro-5.1.0.zip",
-      "size": 2073367,
-      "previous_version": "5.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/sinricpro/SinricPro-5.1.1.zip",
+      "size": 2074826,
+      "previous_version": "5.1.0",
       "github_stars": 272,
       "github_forks": 133,
       "github_language": "C++",
@@ -297603,7 +297636,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.39.0",
+      "version": "0.39.1",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297652,11 +297685,15 @@
         {
           "version": "0.39.0",
           "seen_at": "2026-11-26T18:01:47.875Z"
+        },
+        {
+          "version": "0.39.1",
+          "seen_at": "2026-11-27T06:03:18.909Z"
         }
       ],
-      "release_count": 12,
+      "release_count": 13,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "9722602bc76f",
+      "last_seen_sha": "7006d51caacf",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297668,9 +297705,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.39.0.zip",
-      "size": 321064,
-      "previous_version": "0.38.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.39.1.zip",
+      "size": 321210,
+      "previous_version": "0.39.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -346103,7 +346140,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10316,
+    "with_github_metadata": 10317,
     "total_dependencies": 5762
   }
 }

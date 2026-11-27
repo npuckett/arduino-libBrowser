@@ -1,6 +1,76 @@
 {
-  "since": "2026-11-27T19:01:09.608Z",
-  "new_libraries": [],
-  "updated_libraries": [],
+  "since": "2026-11-27T20:01:30.901Z",
+  "new_libraries": [
+    {
+      "repository_name": "HomeSpan/SpanCast",
+      "repository_url": "https://github.com/HomeSpan/SpanCast",
+      "name": "SpanCast",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "seen_at": "2026-11-27T20:01:30.901Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-27T20:01:30.901Z",
+      "last_seen_sha": "cb1b99fa892d",
+      "author": "Gregg <homespan@icloud.com>",
+      "maintainer": "Gregg <homespan@icloud.com>",
+      "sentence": "An extremely easy-to-use peer-to-peer messaging protocol for the ESP32 and ESP8266 running under the Arduino IDE.",
+      "paragraph": "This library provides a full-function peer-to-peer messaging protocol based on Espressif's ESP-NOW framework.  Key benefits of SpanCast include automated WiFi channel selection, message verification, and the use of user-defined device IDs instead of having chip-based MAC addresses hardcoded into each sketch.  SpanCast can operate on a standalone basis though works especially well with HomeSpan allowing you to connect custom, remote (battery-operated) sensors directly to Apple HomeKit. SpanCast runs under the Arduino IDE and supports the ESP8266, the original ESP32, and the following ESP32 variants: S2, S3, C3, C5 and C6.",
+      "category": "Uncategorized",
+      "architectures": [
+        "esp32",
+        "esp8266"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/HomeSpan/SpanCast-1.0.0.zip",
+      "size": 43211,
+      "github_stars": 3,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-26T18:41:09Z"
+    }
+  ],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "OneDevelopmentPL/UltraSense",
+        "repository_url": "https://github.com/OneDevelopmentPL/UltraSense",
+        "name": "UltraSense",
+        "version": "2.0.3",
+        "version_history": [
+          {
+            "version": "2.0.2",
+            "seen_at": "2026-06-25T08:45:58Z"
+          },
+          {
+            "version": "2.0.3",
+            "seen_at": "2026-11-27T20:01:30.901Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2026-06-25T08:45:58Z",
+        "last_seen_sha": "268ca4e80be5",
+        "author": "OneDevelopment, OpenLibraries",
+        "maintainer": "OneDevelopment, OpenLibraries",
+        "sentence": "Simple ultrasonic sensor library for HC-SR04.",
+        "paragraph": "Lightweight and easy to use ultrasonic sensor library with filtering, montion etc.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/OneDevelopmentPL/UltraSense-2.0.3.zip",
+        "size": 4117022,
+        "previous_version": "2.0.2",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-25T08:35:57Z"
+      },
+      "old_version": "2.0.2",
+      "new_version": "2.0.3"
+    }
+  ],
   "removed_libraries": []
 }

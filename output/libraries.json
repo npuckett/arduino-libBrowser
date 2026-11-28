@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-28T01:01:52.128Z",
+  "enhanced_at": "2026-11-28T02:02:16.133Z",
   "total_libraries": 10523,
-  "index_etag": "W/\"5aae9c6372616bc9c0d3b17871390fcd\"",
-  "index_last_modified": "Sat, 28 Nov 2026 01:00:18 GMT",
+  "index_etag": "W/\"1c3e50ea143f9a760d58b4205e1d4112\"",
+  "index_last_modified": "Sat, 28 Nov 2026 02:00:20 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -213638,7 +213638,7 @@
       "repository_name": "h2zero/NimBLE-Arduino",
       "repository_url": "https://github.com/h2zero/NimBLE-Arduino",
       "name": "NimBLE-Arduino",
-      "version": "2.5.2",
+      "version": "2.6.0",
       "version_history": [
         {
           "version": "3.0.0-dev",
@@ -213655,11 +213655,15 @@
         {
           "version": "2.5.2",
           "seen_at": "2026-10-25T16:02:21.240Z"
+        },
+        {
+          "version": "2.6.0",
+          "seen_at": "2026-11-28T02:02:15.991Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-29T08:55:34Z",
-      "last_seen_sha": "e50a50783950",
+      "last_seen_sha": "149a791ab259",
       "author": "h2zero",
       "maintainer": "Ryan Powell <ryan@nable-embedded.io>",
       "sentence": "Bluetooth low energy (BLE) library for Arduino based on NimBLE.",
@@ -213669,9 +213673,9 @@
         "esp32",
         "arm-ble"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.2.zip",
-      "size": 1591278,
-      "previous_version": "2.5.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.6.0.zip",
+      "size": 1591697,
+      "previous_version": "2.5.2",
       "github_stars": 1086,
       "github_forks": 211,
       "github_language": "C",
@@ -217460,7 +217464,7 @@
       "repository_name": "bareboat-necessities/ocean-imu",
       "repository_url": "https://github.com/bareboat-necessities/ocean-imu",
       "name": "ocean_imu",
-      "version": "2.8.6",
+      "version": "2.8.7",
       "version_history": [
         {
           "version": "2.7.2",
@@ -217521,11 +217525,15 @@
         {
           "version": "2.8.6",
           "seen_at": "2026-11-26T22:01:52.296Z"
+        },
+        {
+          "version": "2.8.7",
+          "seen_at": "2026-11-28T02:02:15.991Z"
         }
       ],
-      "release_count": 15,
+      "release_count": 16,
       "first_seen_at": "2026-11-01T20:01:48.019Z",
-      "last_seen_sha": "a86e220ea6fd",
+      "last_seen_sha": "b5642b8170d8",
       "author": "Bareboat Necessities",
       "maintainer": "Bareboat Necessities <github@bareboat-necessities.github.io>",
       "sentence": "Marine IMU, AHRS, and wave-processing algorithms with AtomS3R helpers.",
@@ -217538,9 +217546,9 @@
         "M5Unified",
         "Eigen"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.6.zip",
-      "size": 84304593,
-      "previous_version": "2.8.5",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/bareboat-necessities/ocean_imu-2.8.7.zip",
+      "size": 84292555,
+      "previous_version": "2.8.6",
       "github_stars": 39,
       "github_forks": 5,
       "github_language": "C++",
@@ -281371,7 +281379,7 @@
       "repository_name": "littlemanbuilds/SnapshotBus",
       "repository_url": "https://github.com/littlemanbuilds/SnapshotBus",
       "name": "SnapshotBus",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "version_history": [
         {
           "version": "1.1.1",
@@ -281384,11 +281392,15 @@
         {
           "version": "1.4.0",
           "seen_at": "2026-08-30T22:02:13.616Z"
+        },
+        {
+          "version": "1.4.1",
+          "seen_at": "2026-11-28T02:02:15.991Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2026-01-03T07:07:07Z",
-      "last_seen_sha": "5a8dd7ec2040",
+      "last_seen_sha": "612b33bdfb99",
       "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
       "sentence": "Stable latest-state snapshots for one writer and many readers.",
@@ -281400,12 +281412,12 @@
         "esp8266",
         "stm32",
         "teensy",
-        "rp2040"
+        "mbed_rp2040"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/SnapshotBus-1.4.0.zip",
-      "size": 85794,
-      "previous_version": "1.3.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/SnapshotBus-1.4.1.zip",
+      "size": 98509,
+      "previous_version": "1.4.0",
       "github_stars": 2,
       "github_forks": 0,
       "github_language": "C++",

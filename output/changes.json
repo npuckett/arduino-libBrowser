@@ -1,6 +1,146 @@
 {
-  "since": "2026-11-28T09:01:51.943Z",
+  "since": "2026-11-28T10:01:36.452Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "steamicc/arduino-steami",
+        "repository_url": "https://github.com/steamicc/arduino-steami",
+        "name": "STeaMi",
+        "version": "0.46.0",
+        "version_history": [
+          {
+            "version": "0.26.0",
+            "seen_at": "2026-11-24T16:01:44.587Z"
+          },
+          {
+            "version": "0.26.1",
+            "seen_at": "2026-11-24T18:01:47.502Z"
+          },
+          {
+            "version": "0.28.0",
+            "seen_at": "2026-11-24T22:01:43.272Z"
+          },
+          {
+            "version": "0.30.0",
+            "seen_at": "2026-11-25T00:04:18.967Z"
+          },
+          {
+            "version": "0.31.0",
+            "seen_at": "2026-11-25T12:03:04.397Z"
+          },
+          {
+            "version": "0.32.0",
+            "seen_at": "2026-11-25T14:01:49.503Z"
+          },
+          {
+            "version": "0.34.0",
+            "seen_at": "2026-11-25T18:01:43.813Z"
+          },
+          {
+            "version": "0.36.0",
+            "seen_at": "2026-11-26T06:03:09.865Z"
+          },
+          {
+            "version": "0.36.2",
+            "seen_at": "2026-11-26T08:01:57.399Z"
+          },
+          {
+            "version": "0.37.0",
+            "seen_at": "2026-11-26T10:01:31.462Z"
+          },
+          {
+            "version": "0.38.0",
+            "seen_at": "2026-11-26T16:01:37.350Z"
+          },
+          {
+            "version": "0.39.0",
+            "seen_at": "2026-11-26T18:01:47.875Z"
+          },
+          {
+            "version": "0.39.1",
+            "seen_at": "2026-11-27T06:03:18.909Z"
+          },
+          {
+            "version": "0.40.0",
+            "seen_at": "2026-11-27T12:03:11.693Z"
+          },
+          {
+            "version": "0.41.0",
+            "seen_at": "2026-11-27T18:01:49.125Z"
+          },
+          {
+            "version": "0.44.0",
+            "seen_at": "2026-11-28T08:01:40.302Z"
+          },
+          {
+            "version": "0.46.0",
+            "seen_at": "2026-11-28T10:01:36.452Z"
+          }
+        ],
+        "release_count": 17,
+        "first_seen_at": "2026-11-24T16:01:44.587Z",
+        "last_seen_sha": "54dcfe65d807",
+        "author": "STeaMi contributors",
+        "maintainer": "STeaMi contributors",
+        "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
+        "paragraph": "Accelerometer and gyroscope (ISM330DL), magnetometer (LIS2MDL), distance (VL53L1X), D-PAD (MCP23009E), battery gauge (BQ27441), pressure, humidity and light sensors and OLED display of the V1a/V1b boards, the PDM microphone (IMP34DT05) of every board, and the BME280 pressure, humidity and temperature sensor and round colour display (GC9A01) of the V1c board. Detects the board release (V1a, V1b or V1c) and shares the sensor drivers (STeaMi Board). Select the \"STeaMi Board\" in the STM32 MCU based boards package.",
+        "category": "Sensors",
+        "architectures": [
+          "stm32"
+        ],
+        "depends": [
+          "STM32duinoBLE"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.46.0.zip",
+        "size": 388473,
+        "previous_version": "0.44.0",
+        "github_stars": 0,
+        "github_forks": 0,
+        "github_language": "C++",
+        "github_updated_at": "2026-11-24T13:14:31Z"
+      },
+      "old_version": "0.44.0",
+      "new_version": "0.46.0"
+    },
+    {
+      "library": {
+        "repository_name": "Isaac100/TMP36",
+        "repository_url": "https://github.com/Isaac100/TMP36",
+        "name": "TMP36",
+        "version": "1.3.2",
+        "version_history": [
+          {
+            "version": "1.3.1",
+            "seen_at": "2025-07-21T16:16:57Z"
+          },
+          {
+            "version": "1.3.2",
+            "seen_at": "2026-11-28T10:01:36.452Z"
+          }
+        ],
+        "release_count": 2,
+        "first_seen_at": "2025-07-21T16:16:57Z",
+        "last_seen_sha": "d4f6dec44795",
+        "author": "Isaac100",
+        "maintainer": "Isaac100",
+        "sentence": "Makes using a TMP36 temperature sensor even easier!",
+        "paragraph": "This library converts the analog values from a TMP36 temperature sensor directly into Celsius and Fahrenheit so you don't have to.",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/Isaac100/TMP36-1.3.2.zip",
+        "size": 9857,
+        "previous_version": "1.3.1",
+        "github_stars": 8,
+        "github_forks": 4,
+        "github_language": "C++",
+        "github_updated_at": "2025-03-10T05:07:16Z"
+      },
+      "old_version": "1.3.1",
+      "new_version": "1.3.2"
+    }
+  ],
   "removed_libraries": []
 }

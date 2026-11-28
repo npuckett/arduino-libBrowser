@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-27T23:01:26.827Z",
+  "enhanced_at": "2026-11-28T00:04:05.352Z",
   "total_libraries": 10523,
-  "index_etag": "W/\"354df9cc199c462ccf15e153ca21faa3\"",
-  "index_last_modified": "Fri, 27 Nov 2026 23:00:18 GMT",
+  "index_etag": "W/\"5aae9c6372616bc9c0d3b17871390fcd\"",
+  "index_last_modified": "Sat, 28 Nov 2026 00:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -108879,7 +108879,7 @@
       "repository_name": "JorgeGBeltre/ESP32_MQTTv5",
       "repository_url": "https://github.com/JorgeGBeltre/ESP32_MQTTv5",
       "name": "ESP32_MQTTv5",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.3",
@@ -108900,11 +108900,15 @@
         {
           "version": "1.0.7",
           "seen_at": "2026-11-09T16:01:42.830Z"
+        },
+        {
+          "version": "1.0.8",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-06-25T08:46:28Z",
-      "last_seen_sha": "b784e239b9dc",
+      "last_seen_sha": "1161bbdfb8a9",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "MQTT 5.0 client library for ESP32",
@@ -108920,9 +108924,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/ESP32_MQTTv5-1.0.7.zip",
-      "size": 28156,
-      "previous_version": "1.0.6",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/ESP32_MQTTv5-1.0.8.zip",
+      "size": 29148,
+      "previous_version": "1.0.7",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -113082,16 +113086,20 @@
       "repository_name": "jnovonj/ESP32Syslog",
       "repository_url": "https://github.com/jnovonj/ESP32Syslog",
       "name": "ESP32Syslog",
-      "version": "1.1.2",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.1.2",
           "seen_at": "2026-11-21T18:01:22.480Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-21T18:01:22.480Z",
-      "last_seen_sha": "b63e36aedaa1",
+      "last_seen_sha": "d7ba0db0c7e5",
       "author": "jnovonj",
       "maintainer": "jnovonj",
       "sentence": "Syslog library for ESP32 with automatic ESP_LOG redirection.",
@@ -113100,8 +113108,9 @@
       "architectures": [
         "esp32"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.1.2.zip",
-      "size": 11792,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/jnovonj/ESP32Syslog-1.2.2.zip",
+      "size": 14215,
+      "previous_version": "1.1.2",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -132169,7 +132178,7 @@
       "repository_name": "soosp/GeigerMeasurement",
       "repository_url": "https://github.com/soosp/GeigerMeasurement",
       "name": "GeigerMeasurement",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.2",
@@ -132186,11 +132195,15 @@
         {
           "version": "1.1.1",
           "seen_at": "2026-09-20T20:02:26.994Z"
+        },
+        {
+          "version": "1.1.2",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-06-01T09:32:17Z",
-      "last_seen_sha": "8245aa9687e6",
+      "last_seen_sha": "90777b2fecd9",
       "author": "Péter Soós",
       "maintainer": "Péter Soós",
       "sentence": "Geiger-Müller counter measurement library for ESP32 and ESP8266.",
@@ -132203,9 +132216,9 @@
       "depends": [
         "RunningStatistics"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.1.1.zip",
-      "size": 397791,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/soosp/GeigerMeasurement-1.1.2.zip",
+      "size": 399490,
+      "previous_version": "1.1.1",
       "github_stars": 1,
       "github_forks": 0,
       "github_language": "C++",
@@ -203720,16 +203733,20 @@
       "repository_name": "JorgeGBeltre/MQTTOTA",
       "repository_url": "https://github.com/JorgeGBeltre/MQTTOTA",
       "name": "MQTTOTA",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.2.0",
           "seen_at": "2026-06-10T08:59:15Z"
+        },
+        {
+          "version": "1.2.1",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-06-10T08:59:15Z",
-      "last_seen_sha": "bf3264b7671a",
+      "last_seen_sha": "771420d8e3d2",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "Secure OTA firmware updates via MQTT/MQTTS for ESP32 with real SHA-256, HMAC-SHA256, ECDSA-SHA256, and non-blocking restart.",
@@ -203742,20 +203759,22 @@
         "esp32c3",
         "esp32c6"
       ],
-      "github_stars": 1,
-      "github_forks": 0,
-      "github_language": "C++",
-      "github_updated_at": "2026-06-09T18:47:50Z",
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://github.com/JorgeGBeltre/MQTTOTA"
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/MQTTOTA-1.2.1.zip",
+      "size": 31470,
+      "previous_version": "1.2.0",
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-06-09T18:47:50Z"
     },
     {
       "repository_name": "JorgeGBeltre/MQTTOTAv5",
       "repository_url": "https://github.com/JorgeGBeltre/MQTTOTAv5",
       "name": "MQTTOTAv5",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.2",
@@ -203764,11 +203783,15 @@
         {
           "version": "1.0.3",
           "seen_at": "2026-11-04T16:02:02.078Z"
+        },
+        {
+          "version": "1.0.4",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-03T09:17:19Z",
-      "last_seen_sha": "c07355a17bb8",
+      "last_seen_sha": "b12fb949f9c7",
       "author": "Jorge Gaspar Beltre Rivera",
       "maintainer": "Jorge Gaspar Beltre Rivera",
       "sentence": "Secure OTA firmware updates for ESP32 over MQTT v5.0 with SHA-256, HMAC, and chunked transfer.",
@@ -203785,9 +203808,9 @@
         "ESP32_MQTTv5",
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/MQTTOTAv5-1.0.3.zip",
-      "size": 25626,
-      "previous_version": "1.0.2",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/JorgeGBeltre/MQTTOTAv5-1.0.4.zip",
+      "size": 26670,
+      "previous_version": "1.0.3",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -248336,7 +248359,7 @@
       "repository_name": "littlemanbuilds/RCLink",
       "repository_url": "https://github.com/littlemanbuilds/RCLink",
       "name": "RCLink",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "version_history": [
         {
           "version": "1.0.4",
@@ -248357,11 +248380,15 @@
         {
           "version": "1.4.0",
           "seen_at": "2026-11-18T00:03:59.771Z"
+        },
+        {
+          "version": "1.4.1",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-04-29T07:43:04Z",
-      "last_seen_sha": "005585baeed1",
+      "last_seen_sha": "221cc2fa0a68",
       "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
       "sentence": "Validated RC receiver mapping for Arduino with iBUS, ESP32 SBUS, shaping, filtering, and failsafe handling.",
@@ -248380,9 +248407,9 @@
       "depends": [
         "ArduinoJson"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.4.0.zip",
-      "size": 144187,
-      "previous_version": "1.3.1",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/RCLink-1.4.1.zip",
+      "size": 146852,
+      "previous_version": "1.4.0",
       "github_stars": 3,
       "github_forks": 0,
       "github_language": "C++",
@@ -306375,7 +306402,7 @@
       "repository_name": "littlemanbuilds/SwitchBank",
       "repository_url": "https://github.com/littlemanbuilds/SwitchBank",
       "name": "SwitchBank",
-      "version": "1.2.0",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.1.0",
@@ -306384,11 +306411,15 @@
         {
           "version": "1.2.0",
           "seen_at": "2026-09-01T10:02:48.483Z"
+        },
+        {
+          "version": "1.2.2",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-03T08:39:26Z",
-      "last_seen_sha": "d6002c7444f8",
+      "last_seen_sha": "f9614929b8eb",
       "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
       "sentence": "Debounced 1..32-bit switch banks with explicit input validity and coherent packed reads.",
@@ -306405,9 +306436,9 @@
         "rp2040"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/SwitchBank-1.2.0.zip",
-      "size": 52483,
-      "previous_version": "1.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/SwitchBank-1.2.2.zip",
+      "size": 66144,
+      "previous_version": "1.2.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -328373,7 +328404,7 @@
       "repository_name": "littlemanbuilds/Universal_Button",
       "repository_url": "https://github.com/littlemanbuilds/Universal_Button",
       "name": "Universal_Button",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "version_history": [
         {
           "version": "1.6.3",
@@ -328390,11 +328421,15 @@
         {
           "version": "2.0.2",
           "seen_at": "2026-10-26T16:05:23.967Z"
+        },
+        {
+          "version": "2.0.3",
+          "seen_at": "2026-11-28T00:04:05.257Z"
         }
       ],
-      "release_count": 4,
+      "release_count": 5,
       "first_seen_at": "2026-02-12T07:28:45Z",
-      "last_seen_sha": "29bcfd295c8d",
+      "last_seen_sha": "65d1bc6733d5",
       "author": "Little Man Builds (Darren Osborne)",
       "maintainer": "Little Man Builds <littlemanbuilds@gmail.com>",
       "sentence": "Debounced multi-button input with explicit reader validity, preserved interaction events, long-hold state, and latching.",
@@ -328411,9 +328446,9 @@
         "rp2040"
       ],
       "license": "MIT",
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/Universal_Button-2.0.2.zip",
-      "size": 73164,
-      "previous_version": "2.0.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/littlemanbuilds/Universal_Button-2.0.3.zip",
+      "size": 76750,
+      "previous_version": "2.0.2",
       "github_stars": 15,
       "github_forks": 5,
       "github_language": "C++",

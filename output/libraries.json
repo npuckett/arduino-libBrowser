@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-28T15:01:29.272Z",
-  "total_libraries": 10524,
-  "index_etag": "W/\"404a97a0599b9e6d49c51af31ee44365\"",
-  "index_last_modified": "Sat, 28 Nov 2026 15:00:18 GMT",
+  "enhanced_at": "2026-11-28T16:01:39.803Z",
+  "total_libraries": 10526,
+  "index_etag": "W/\"f6d899a5c7a35f0c5a12ea3f1c0ad036\"",
+  "index_last_modified": "Sat, 28 Nov 2026 16:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -73599,7 +73599,7 @@
       "repository_name": "FMazz97/CS123x",
       "repository_url": "https://github.com/FMazz97/CS123x",
       "name": "CS123x",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -73636,11 +73636,15 @@
         {
           "version": "2.0.4",
           "seen_at": "2026-11-09T14:01:40.125Z"
+        },
+        {
+          "version": "2.0.5",
+          "seen_at": "2026-11-28T16:01:37.039Z"
         }
       ],
-      "release_count": 9,
+      "release_count": 10,
       "first_seen_at": "2026-08-18T10:05:32.941Z",
-      "last_seen_sha": "bd90fc267675",
+      "last_seen_sha": "8882560ecbee",
       "author": "FMazz97",
       "maintainer": "FMazz97",
       "sentence": "Arduino library for Chipsea CS1237 and CS1238 24-bit differential ADCs (load cells, weight scales, bridge sensors).",
@@ -73649,9 +73653,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.4.zip",
-      "size": 4632137,
-      "previous_version": "2.0.3",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/FMazz97/CS123x-2.0.5.zip",
+      "size": 4635451,
+      "previous_version": "2.0.4",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -110616,6 +110620,38 @@
       "github_forks": 0,
       "github_language": "C++",
       "github_updated_at": "2026-09-21T20:03:17Z"
+    },
+    {
+      "repository_name": "12ib21/ESP32-Mqtt",
+      "repository_url": "https://github.com/12ib21/ESP32-Mqtt",
+      "name": "ESP32-Mqtt",
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.1",
+          "seen_at": "2026-11-28T16:01:37.039Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-28T16:01:37.039Z",
+      "last_seen_sha": "811f853fdeee",
+      "author": "12ib21",
+      "maintainer": "12ib21",
+      "sentence": "ESP32 MQTT client with automatic reconnection and subscription recovery",
+      "paragraph": "An ESP32 Arduino library using PubSubClient with a FreeRTOS background loop, automatic broker reconnection, and remembered subscriptions restored after reconnects.",
+      "category": "Communication",
+      "architectures": [
+        "esp32"
+      ],
+      "depends": [
+        "PubSubClient"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/12ib21/ESP32_Mqtt-1.0.1.zip",
+      "size": 10753,
+      "github_stars": 1,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-28T13:43:08Z"
     },
     {
       "repository_name": "scottchiefbaker/ESP-WebOTA",
@@ -297888,7 +297924,7 @@
       "repository_name": "steamicc/arduino-steami",
       "repository_url": "https://github.com/steamicc/arduino-steami",
       "name": "STeaMi",
-      "version": "0.46.1",
+      "version": "0.46.5",
       "version_history": [
         {
           "version": "0.26.0",
@@ -297961,11 +297997,15 @@
         {
           "version": "0.46.1",
           "seen_at": "2026-11-28T12:02:01.806Z"
+        },
+        {
+          "version": "0.46.5",
+          "seen_at": "2026-11-28T16:01:37.039Z"
         }
       ],
-      "release_count": 18,
+      "release_count": 19,
       "first_seen_at": "2026-11-24T16:01:44.587Z",
-      "last_seen_sha": "c74bbfe3cffb",
+      "last_seen_sha": "4c62318535e6",
       "author": "STeaMi contributors",
       "maintainer": "STeaMi contributors",
       "sentence": "Drivers for the sensors, buttons, battery gauge and display of the STeaMi board.",
@@ -297977,9 +298017,9 @@
       "depends": [
         "STM32duinoBLE"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.46.1.zip",
-      "size": 396647,
-      "previous_version": "0.46.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/steamicc/STeaMi-0.46.5.zip",
+      "size": 400377,
+      "previous_version": "0.46.1",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -315369,6 +315409,38 @@
       "github_language": "C++",
       "github_updated_at": "2024-07-06T15:07:59Z",
       "download_url": "https://github.com/lpasqualis/TimedBlink"
+    },
+    {
+      "repository_name": "Gejakem/TimedBounce2",
+      "repository_url": "https://github.com/Gejakem/TimedBounce2",
+      "name": "TimedBounce2",
+      "version": "1.1.0",
+      "version_history": [
+        {
+          "version": "1.1.0",
+          "seen_at": "2026-11-28T16:01:37.039Z"
+        }
+      ],
+      "release_count": 1,
+      "first_seen_at": "2026-11-28T16:01:37.039Z",
+      "last_seen_sha": "9d70bef79d83",
+      "author": "Gejakem",
+      "maintainer": "Gejakem",
+      "sentence": "Short, medium and long press detection on top of Bounce2.",
+      "paragraph": "Extends Bounce2::Button with non-blocking short, medium and long press events. Timings are configurable per button; long press fires while the button is still held.",
+      "category": "Signal Input/Output",
+      "architectures": [
+        "*"
+      ],
+      "depends": [
+        "Bounce2"
+      ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/Gejakem/TimedBounce2-1.1.0.zip",
+      "size": 8651,
+      "github_stars": 0,
+      "github_forks": 0,
+      "github_language": "C++",
+      "github_updated_at": "2026-11-27T14:03:48Z"
     },
     {
       "repository_name": "DrGFreeman/TimedPID",
@@ -346442,7 +346514,7 @@
   "stats": {
     "total_categories": 78,
     "total_architectures": 161,
-    "with_github_metadata": 10319,
-    "total_dependencies": 5762
+    "with_github_metadata": 10321,
+    "total_dependencies": 5764
   }
 }

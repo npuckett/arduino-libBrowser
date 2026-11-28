@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-28T03:01:39.880Z",
+  "enhanced_at": "2026-11-28T04:01:39.795Z",
   "total_libraries": 10523,
-  "index_etag": "W/\"1c3e50ea143f9a760d58b4205e1d4112\"",
-  "index_last_modified": "Sat, 28 Nov 2026 03:00:19 GMT",
+  "index_etag": "W/\"108a7f2d9a15ec5856822b7b125029e8\"",
+  "index_last_modified": "Sat, 28 Nov 2026 04:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -46109,7 +46109,7 @@
       "repository_name": "NitrofMtl/BACnet-Arduino",
       "repository_url": "https://github.com/NitrofMtl/BACnet-Arduino",
       "name": "BACnet-Arduino",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "version_history": [
         {
           "version": "0.3.0",
@@ -46130,11 +46130,15 @@
         {
           "version": "0.7.0",
           "seen_at": "2026-10-31T04:01:55.617Z"
+        },
+        {
+          "version": "0.8.0",
+          "seen_at": "2026-11-28T04:01:39.658Z"
         }
       ],
-      "release_count": 5,
+      "release_count": 6,
       "first_seen_at": "2026-08-08T14:10:32.567Z",
-      "last_seen_sha": "0dfbc57d90a1",
+      "last_seen_sha": "467784e07f81",
       "author": "NitrofMtl <https://github.com/NitrofMtl>",
       "maintainer": "NitrofMtl <https://github.com/NitrofMtl>",
       "sentence": "Arduino BACnet library based on the open-source bacnet-stack project.",
@@ -46147,9 +46151,9 @@
       "depends": [
         "WeeklyAlarm"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.7.0.zip",
-      "size": 1321531,
-      "previous_version": "0.6.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/BACnet_Arduino-0.8.0.zip",
+      "size": 1464279,
+      "previous_version": "0.7.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C",
@@ -58891,16 +58895,20 @@
       "repository_name": "CX-ArtLab/boopface-embedded",
       "repository_url": "https://github.com/CX-ArtLab/boopface-embedded",
       "name": "BoopFace Embedded",
-      "version": "0.1.0",
+      "version": "0.2.1",
       "version_history": [
         {
           "version": "0.1.0",
           "seen_at": "2026-11-05T18:01:41.424Z"
+        },
+        {
+          "version": "0.2.1",
+          "seen_at": "2026-11-28T04:01:39.658Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-11-05T18:01:41.424Z",
-      "last_seen_sha": "8cf53b443b05",
+      "last_seen_sha": "9dde44721c6c",
       "author": "CX ArtLab",
       "maintainer": "CX ArtLab",
       "sentence": "Portable, program-controlled animated robot eyes.",
@@ -58909,8 +58917,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/CX-ArtLab/BoopFace_Embedded-0.1.0.zip",
-      "size": 32822,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/CX-ArtLab/BoopFace_Embedded-0.2.1.zip",
+      "size": 58865,
+      "previous_version": "0.1.0",
       "github_stars": 0,
       "github_forks": 0,
       "github_language": "C++",
@@ -344099,29 +344108,35 @@
       "repository_name": "YFROBOT-TM/Yfrobot-Keypad-Library",
       "repository_url": "https://github.com/YFROBOT-TM/Yfrobot-Keypad-Library",
       "name": "YFKeypadLib",
-      "version": "1.0.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.1",
           "seen_at": "2026-02-27T07:55:22Z"
+        },
+        {
+          "version": "3.0.0",
+          "seen_at": "2026-11-28T04:01:39.658Z"
         }
       ],
-      "release_count": 1,
+      "release_count": 2,
       "first_seen_at": "2026-02-27T07:55:22Z",
-      "last_seen_sha": "2e4fd66053fb",
+      "last_seen_sha": "df07cbe7ef65",
       "author": "YFROBOT",
       "maintainer": "YFROBOT-ZL,<yfrobot@qq.com>",
-      "sentence": "Library for YFROBOT PS2UART Module, interfacing with PS2 controllers via UART.",
-      "paragraph": "This library provides an easy way to read button states and send vibration commands for PS2 controllers using UART communication. It includes methods for initializing the library, reading data, and processing button states.",
-      "category": "Communication",
+      "sentence": "A library for YFROBOT 4x4 matrix touch keypad (VK36N16I, I2C 0x65).",
+      "paragraph": "Read key states (pressed, holding, released, idle, long pressed), key codes and characters from the keypad after an explicit Tick() scan. Built-in password lock class (simplified state/hint API) and calculator class are included for lock / calculator projects.",
+      "category": "Device Control",
       "architectures": [
-        "arduino"
+        "*"
       ],
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/YFROBOT-TM/YFKeypadLib-3.0.0.zip",
+      "size": 234713,
+      "previous_version": "1.0.1",
       "github_stars": 0,
       "github_forks": 1,
       "github_language": "C++",
-      "github_updated_at": "2026-02-27T07:11:39Z",
-      "download_url": "https://github.com/YFROBOT-TM/Yfrobot-4x4MatrixKeypad-Library"
+      "github_updated_at": "2026-02-27T07:11:39Z"
     },
     {
       "repository_name": "YFROBOT-TM/Yfrobot-PS2UART-Library",

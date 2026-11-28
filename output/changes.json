@@ -1,6 +1,95 @@
 {
-  "since": "2026-11-28T05:01:46.571Z",
+  "since": "2026-11-28T06:03:13.669Z",
   "new_libraries": [],
-  "updated_libraries": [],
+  "updated_libraries": [
+    {
+      "library": {
+        "repository_name": "etherkit/JTEncode",
+        "repository_url": "https://github.com/etherkit/JTEncode",
+        "name": "Etherkit JTEncode",
+        "version": "1.4.0",
+        "version_history": [
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-06-20T08:26:40Z"
+          },
+          {
+            "version": "1.3.1",
+            "seen_at": "2026-06-30T22:37:15.403Z"
+          },
+          {
+            "version": "1.4.0",
+            "seen_at": "2026-11-28T06:03:13.669Z"
+          }
+        ],
+        "release_count": 3,
+        "first_seen_at": "2026-06-20T08:26:40Z",
+        "last_seen_sha": "86a01f23eb01",
+        "author": "Jason Milldrum <milldrum@gmail.com>",
+        "maintainer": "Jason Milldrum <milldrum@gmail.com>",
+        "sentence": "Generate JT65, JT9, JT4, FT8, WSPR, and FSQ symbols on your Arduino.",
+        "paragraph": "This library very simply generates a set of channel symbols for JT65, JT9, JT4, FT8, or WSPR based on the user providing a properly formatted Type 6 message for JT65, JT9, or JT4 (which is 13 valid characters), Type 0.0 or 0.5 message for FT8 (v2.0.0 protocol) or a callsign, Maidenhead grid locator, and power output for WSPR. It will also generate an arbitrary FSQ message of up to 130 characters (non-directed) or 100 characters (directed). When paired with a synthesizer that can output frequencies in fine, phase-continuous tuning steps (such as the Si5351), then a beacon or telemetry transmitter can be created which can change the transmitted characters as needed from the Arduino.",
+        "category": "Data Processing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_JTEncode-1.4.0.zip",
+        "size": 58156,
+        "previous_version": "1.3.1",
+        "github_stars": 113,
+        "github_forks": 35,
+        "github_language": "C++",
+        "github_updated_at": "2026-06-20T05:34:13Z"
+      },
+      "old_version": "1.3.1",
+      "new_version": "1.4.0"
+    },
+    {
+      "library": {
+        "repository_name": "NitrofMtl/weeklyAlarm",
+        "repository_url": "https://github.com/NitrofMtl/weeklyAlarm",
+        "name": "WeeklyAlarm",
+        "version": "5.4.0",
+        "version_history": [
+          {
+            "version": "5.0.0",
+            "seen_at": "2025-07-21T16:23:21Z"
+          },
+          {
+            "version": "5.1.0",
+            "seen_at": "2026-07-05T05:17:07.675Z"
+          },
+          {
+            "version": "5.3.0",
+            "seen_at": "2026-11-26T22:01:52.296Z"
+          },
+          {
+            "version": "5.4.0",
+            "seen_at": "2026-11-28T06:03:13.669Z"
+          }
+        ],
+        "release_count": 4,
+        "first_seen_at": "2025-07-21T16:23:21Z",
+        "last_seen_sha": "58a31b6c1b30",
+        "author": "Nitrof",
+        "maintainer": "Nitrof",
+        "sentence": "Weekly day-of-week alarm scheduler for recurring time-based callbacks.",
+        "paragraph": "WeeklyAlarm triggers callbacks at a set time on selected days of the week, inspired by programmable thermostat schedulers. Supports lambdas, functors and function pointers. Compatible with STM32/newlib (POSIX time) and classic Arduino (TimeLib) platforms via automatic detection.",
+        "category": "Timing",
+        "architectures": [
+          "*"
+        ],
+        "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.4.0.zip",
+        "size": 14783,
+        "previous_version": "5.3.0",
+        "github_stars": 2,
+        "github_forks": 3,
+        "github_language": "C++",
+        "github_updated_at": "2022-11-19T12:07:10Z"
+      },
+      "old_version": "5.3.0",
+      "new_version": "5.4.0"
+    }
+  ],
   "removed_libraries": []
 }

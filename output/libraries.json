@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "enhanced_at": "2026-11-28T05:01:46.661Z",
+  "enhanced_at": "2026-11-28T06:03:13.785Z",
   "total_libraries": 10523,
-  "index_etag": "W/\"108a7f2d9a15ec5856822b7b125029e8\"",
-  "index_last_modified": "Sat, 28 Nov 2026 05:00:18 GMT",
+  "index_etag": "W/\"c13108786b6504474f1155fa1c9c6fd8\"",
+  "index_last_modified": "Sat, 28 Nov 2026 06:00:18 GMT",
   "libraries": [
     {
       "repository_name": "107-systems/107-Arduino-24LCxx",
@@ -118281,7 +118281,7 @@
       "repository_name": "etherkit/JTEncode",
       "repository_url": "https://github.com/etherkit/JTEncode",
       "name": "Etherkit JTEncode",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.3.1",
@@ -118290,21 +118290,25 @@
         {
           "version": "1.3.1",
           "seen_at": "2026-06-30T22:37:15.403Z"
+        },
+        {
+          "version": "1.4.0",
+          "seen_at": "2026-11-28T06:03:13.669Z"
         }
       ],
-      "release_count": 2,
+      "release_count": 3,
       "first_seen_at": "2026-06-20T08:26:40Z",
-      "last_seen_sha": "3bdf1ca56178",
+      "last_seen_sha": "86a01f23eb01",
       "author": "Jason Milldrum <milldrum@gmail.com>",
       "maintainer": "Jason Milldrum <milldrum@gmail.com>",
       "sentence": "Generate JT65, JT9, JT4, FT8, WSPR, and FSQ symbols on your Arduino.",
-      "paragraph": "This library very simply generates a set of channel symbols for JT65, JT9, JT4, FT8, or WSPR based on the user providing a properly formatted Type 6 message for JT65, JT9, or JT4 (which is 13 valid characters), Type 0.0 or 0.5 message for FT8 (v2.0.0 protocol) or a callsign, Maidenhead grid locator, and power output for WSPR. It will also generate an arbitrary FSQ message of up to 200 characters in both directed and non-directed format. When paired with a synthesizer that can output frequencies in fine, phase-continuous tuning steps (such as the Si5351), then a beacon or telemetry transmitter can be created which can change the transmitted characters as needed from the Arduino.",
+      "paragraph": "This library very simply generates a set of channel symbols for JT65, JT9, JT4, FT8, or WSPR based on the user providing a properly formatted Type 6 message for JT65, JT9, or JT4 (which is 13 valid characters), Type 0.0 or 0.5 message for FT8 (v2.0.0 protocol) or a callsign, Maidenhead grid locator, and power output for WSPR. It will also generate an arbitrary FSQ message of up to 130 characters (non-directed) or 100 characters (directed). When paired with a synthesizer that can output frequencies in fine, phase-continuous tuning steps (such as the Si5351), then a beacon or telemetry transmitter can be created which can change the transmitted characters as needed from the Arduino.",
       "category": "Data Processing",
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_JTEncode-1.3.1.zip",
-      "size": 50619,
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/etherkit/Etherkit_JTEncode-1.4.0.zip",
+      "size": 58156,
       "previous_version": "1.3.1",
       "github_stars": 113,
       "github_forks": 35,
@@ -337084,7 +337088,7 @@
       "repository_name": "NitrofMtl/weeklyAlarm",
       "repository_url": "https://github.com/NitrofMtl/weeklyAlarm",
       "name": "WeeklyAlarm",
-      "version": "5.3.0",
+      "version": "5.4.0",
       "version_history": [
         {
           "version": "5.0.0",
@@ -337097,11 +337101,15 @@
         {
           "version": "5.3.0",
           "seen_at": "2026-11-26T22:01:52.296Z"
+        },
+        {
+          "version": "5.4.0",
+          "seen_at": "2026-11-28T06:03:13.669Z"
         }
       ],
-      "release_count": 3,
+      "release_count": 4,
       "first_seen_at": "2025-07-21T16:23:21Z",
-      "last_seen_sha": "d40a03f4f5b8",
+      "last_seen_sha": "58a31b6c1b30",
       "author": "Nitrof",
       "maintainer": "Nitrof",
       "sentence": "Weekly day-of-week alarm scheduler for recurring time-based callbacks.",
@@ -337110,9 +337118,9 @@
       "architectures": [
         "*"
       ],
-      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.3.0.zip",
-      "size": 14691,
-      "previous_version": "5.1.0",
+      "download_url": "https://downloads.arduino.cc/libraries/github.com/NitrofMtl/WeeklyAlarm-5.4.0.zip",
+      "size": 14783,
+      "previous_version": "5.3.0",
       "github_stars": 2,
       "github_forks": 3,
       "github_language": "C++",
